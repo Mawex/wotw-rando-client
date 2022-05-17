@@ -8,6 +8,7 @@ namespace game
     enum class RandoContainer
     {
         Animation,
+        PreloadedGameObjects,
         GameObjects,
         Messages,
         Multiplayer,

@@ -7,7 +7,10 @@
 #include <input/simulator.h>
 #include <Common/ext.h>
 
+#include <game/game.h>
+
 #include <Il2CppModLoader/common.h>
+#include <Il2CppModLoader/console.h>
 #include <Il2CppModLoader/interception_macros.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 
@@ -16,6 +19,8 @@
 #include <unordered_set>
 
 #include <magic_enum/include/magic_enum.hpp>
+#include <thread>
+#include <uber_states/uber_state_helper.h>
 
 using namespace modloader;
 
@@ -209,12 +214,65 @@ namespace randomizer
             csharp_bridge::on_action_triggered(action);
         }
 
+        int next_enemy_id = 0;
+        app::Entity* entity = nullptr;
+
+        IL2CPP_BINDING(UnityEngine, Transform, void, set_position, (app::Transform* this_ptr, app::Vector3* pos));
+        void test1(Action action, bool pressed)
+        {
+            int enemy_id = ++next_enemy_id;
+
+            auto mantis_prefab = il2cpp::unity::find_child(game::container(game::RandoContainer::PreloadedGameObjects), "mantis");
+            auto mantis_go = il2cpp::unity::instantiate_object(mantis_prefab);
+            il2cpp::invoke(mantis_go, "set_name", il2cpp::string_new(format("mantisEntity_%d", enemy_id)));
+            il2cpp::unity::set_active(mantis_go, true);
+
+            auto player_pos = get_position();
+            il2cpp::unity::set_position(mantis_go, {player_pos.x, player_pos.y, 0.0f });
+
+            game::add_to_container(game::RandoContainer::GameObjects, mantis_go);
+
+            console::console_send("Spawned mantis");
+        }
+
+        void test2(Action action, bool pressed)
+        {
+            //const auto pos = il2cpp::unity::get_position(pooled_entity);
+            //console::console_send(format("%.2f %.2f", pos.x, pos.y));
+            //console::console_send(il2cpp::convert_csstring(il2cpp::invoke<app::String>(pooled_entity, "get_name")));
+//
+            //app::Transform *transform = il2cpp::unity::get_transform(pooled_entity);
+            //while (transform != nullptr) {
+            //    console::console_send(il2cpp::convert_csstring(il2cpp::invoke<app::String>(transform, "get_name")));
+            //    transform = il2cpp::unity::get_parent(transform);
+            //}
+//
+           //  console::console_send(il2cpp::invoke<app::Boolean__Boxed>(entity, "get_active")->fields ? "ACTIVE" : "INACTIVE");
+            console::console_send(il2cpp::unity::get_path(entity));
+
+            console::console_flush();
+        }
+
+        void test3(Action action, bool pressed)
+        {
+
+        }
+
+        void test4(Action action, bool pressed)
+        {
+
+        }
+
         void initialize()
         {
-            add_on_pressed_callback(Action::Binding1, csharp_callback);
-            add_on_pressed_callback(Action::Binding2, csharp_callback);
-            add_on_pressed_callback(Action::Binding3, csharp_callback);
-            add_on_pressed_callback(Action::Binding4, csharp_callback);
+            add_on_pressed_callback(Action::Binding1, test1);
+            add_on_pressed_callback(Action::Binding2, test2);
+            add_on_pressed_callback(Action::Binding3, test3);
+            add_on_pressed_callback(Action::Binding4, test4);
+            // add_on_pressed_callback(Action::Binding1, csharp_callback);
+            // add_on_pressed_callback(Action::Binding2, csharp_callback);
+            // add_on_pressed_callback(Action::Binding3, csharp_callback);
+            // add_on_pressed_callback(Action::Binding4, csharp_callback);
             add_on_pressed_callback(Action::Binding5, csharp_callback);
             add_on_pressed_callback(Action::Reload, csharp_callback);
             add_on_pressed_callback(Action::ShowLastPickup, csharp_callback);
