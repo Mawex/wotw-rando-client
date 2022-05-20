@@ -21,6 +21,7 @@
 #include <magic_enum/include/magic_enum.hpp>
 #include <thread>
 #include <uber_states/uber_state_helper.h>
+#include <render/shaders.h>
 
 using namespace modloader;
 
@@ -218,6 +219,7 @@ namespace randomizer
         app::Entity* entity = nullptr;
 
         IL2CPP_BINDING(UnityEngine, Transform, void, set_position, (app::Transform* this_ptr, app::Vector3* pos));
+        IL2CPP_BINDING(, MantisGrayboxEntity, void, set_SpawnType, (app::MantisGrayboxEntity* this_ptr, app::MantisSpawnType__Enum spawn_type))
         void test1(Action action, bool pressed)
         {
             int enemy_id = ++next_enemy_id;
@@ -225,12 +227,20 @@ namespace randomizer
             auto mantis_prefab = il2cpp::unity::find_child(game::container(game::RandoContainer::PreloadedGameObjects), "mantis");
             auto mantis_go = il2cpp::unity::instantiate_object(mantis_prefab);
             il2cpp::invoke(mantis_go, "set_name", il2cpp::string_new(format("mantisEntity_%d", enemy_id)));
+
+            auto mantis = il2cpp::unity::get_component<app::MantisGrayboxEntity>(mantis_go, "", "MantisGrayboxEntity");
+            mantis->fields.m_baseJumpAttackCooldown = 0.f;
+            MantisGrayboxEntity::set_SpawnType(mantis, app::MantisSpawnType__Enum_Emerge);
+            // il2cpp::invoke(mantis, "set_SpawnType", app::MantisSpawnType__Enum_FromForeground);
+
             il2cpp::unity::set_active(mantis_go, true);
+            shaders::duplicate_materials(mantis_go);
 
             auto player_pos = get_position();
-            il2cpp::unity::set_position(mantis_go, {player_pos.x, player_pos.y, 0.0f });
+            il2cpp::unity::set_position(mantis_go, {player_pos.x, player_pos.y + 5.f, 0.0f });
 
             game::add_to_container(game::RandoContainer::GameObjects, mantis_go);
+            il2cpp::invoke(mantis, "Start");
 
             console::console_send("Spawned mantis");
         }
