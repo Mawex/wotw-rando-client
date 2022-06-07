@@ -1,3 +1,5 @@
+#include <framework.h>
+
 #include <Common/ext.h>
 #include <common.h>
 #include <console.h>

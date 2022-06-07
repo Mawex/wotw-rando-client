@@ -549,15 +549,15 @@ namespace il2cpp {
             return output;
         }
 
-        Il2CppArraySize* array_new(Il2CppClass* element, il2cpp_array_size_t length) {
+        Il2CppArray* array_new(Il2CppClass* element, il2cpp_array_size_t length) {
             return il2cpp_array_new(element, length);
         }
 
-        Il2CppArraySize* array_new_specific(Il2CppClass* array_klass, il2cpp_array_size_t length) {
+        Il2CppArray* array_new_specific(Il2CppClass* array_klass, il2cpp_array_size_t length) {
             return il2cpp_array_new_specific(array_klass, length);
         }
 
-        Il2CppArraySize* array_new_full(Il2CppClass* array_klass, il2cpp_array_size_t* lengths, il2cpp_array_size_t* lower_bounds) {
+        Il2CppArray* array_new_full(Il2CppClass* array_klass, il2cpp_array_size_t* lengths, il2cpp_array_size_t* lower_bounds) {
             return il2cpp_array_new_full(array_klass, lengths, lower_bounds);
         }
     } // namespace untyped
@@ -748,7 +748,7 @@ namespace il2cpp {
                         case Il2CppTypeEnum::IL2CPP_TYPE_GENERICINST: {
                             auto value = reinterpret_cast<Il2CppObject*>(params.at(param.position));
                             auto klass_1 = il2cpp_class_from_type(param.parameter_type);
-                            auto klass_2 = value->klass;
+                            auto klass_2 = value->Il2CppClass.klass;
                             if (!is_assignable(klass_2, klass_1))
                                 valid = false;
                             break;
@@ -862,7 +862,7 @@ namespace il2cpp {
         }
 
         Il2CppException* exc = nullptr;
-        auto method_info = get_method_from_name_params(cast_obj->klass, method.data(), params);
+        auto method_info = get_method_from_name_params(cast_obj->Il2CppClass.klass, method.data(), params);
         if (method_info == nullptr) {
             trace(modloader::MessageType::Error, 1, "il2cpp", format("failed to find method '%s'", method.data()));
             return nullptr;
@@ -908,11 +908,11 @@ namespace il2cpp {
     }
 
     bool is_assignable(void* obj, std::string_view namezpace, std::string_view name) {
-        return is_assignable(reinterpret_cast<Il2CppObject*>(obj)->klass, namezpace, name);
+        return is_assignable(reinterpret_cast<Il2CppObject*>(obj)->Il2CppClass.klass, namezpace, name);
     }
 
     bool is_assignable(void* obj, Il2CppClass* iklass) {
-        return is_assignable(reinterpret_cast<Il2CppObject*>(obj)->klass, iklass);
+        return is_assignable(reinterpret_cast<Il2CppObject*>(obj)->Il2CppClass.klass, iklass);
     }
 
     MethodInfo* resolve_generic_method(uint64_t address) {

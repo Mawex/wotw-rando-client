@@ -1,5 +1,6 @@
-#include <interception.h>
+#include <framework.h>
 
+#include <interception.h>
 #include <Common/ext.h>
 #include <common.h>
 #include <console.h>
@@ -258,25 +259,7 @@ namespace modloader {
                 trace(MessageType::Debug, 3, "initialize", "Internal injection completed");
         }
 
-        void resolve_type_ptrs() {
-            using namespace app;
-
-#define IL2CPP_TYPEDEF(a, n) n##__TypeInfo = (n##__Class**)(resolve_rva(a));
-#include "il2cpp_internals/il2cpp_typeinfo_registration.h"
-#undef IL2CPP_TYPEDEF
-        }
-
-        void resolve_il2cpp_api_ptrs() {
-            using namespace app;
-
-#define IL2CPP_API_BINDING(r, n, p) n = (r (*) p)(resolve_rva(n##_ptr))
-#include "il2cpp_internals/il2cpp_api_registration.h"
-#undef IL2CPP_API_BINDING
-        }
-
         void interception_init() {
-            resolve_type_ptrs();
-            resolve_il2cpp_api_ptrs();
             internal_intercepts();
             il2cpp_intercepts();
         }

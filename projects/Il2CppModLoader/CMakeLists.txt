@@ -37,6 +37,7 @@ list(
         "il2cpp_internals/il2cpp_api.h"
         "il2cpp_internals/il2cpp_typeinfo.h"
         "interception.h"
+        "il2cpp_internals/il2cpp_init.h"
         "interception_macros.h"
         "macros.h"
         "il2cpp_math.h"
@@ -93,8 +94,6 @@ target_link_libraries(
 target_precompile_headers(
         ${PROJECT_NAME}
         PRIVATE <cstdint>
-        PRIVATE <tchar.h>
-        PRIVATE <framework.h>
         PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_internals.h>
 )
 
@@ -109,7 +108,10 @@ target_precompile_headers(
         ${PROJECT_NAME}
         PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_api.h>
         PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_typeinfo.h>
+        PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_init.h>
 )
+
+set_source_files_properties(console.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
 
 message(STATUS "Assigning source groups.")
 

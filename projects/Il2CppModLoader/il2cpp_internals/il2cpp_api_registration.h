@@ -1,5 +1,7 @@
 #include "il2cpp_api_addresses.h"
 
+#define IL2CPP_API_BINDING_NO_RETURN(r, n, p) IL2CPP_API_BINDING(r,n,p)
+
 IL2CPP_API_BINDING(void, il2cpp_init, (const char* domain_name));
 IL2CPP_API_BINDING(void, il2cpp_init_utf16, (const Il2CppChar * domain_name));
 IL2CPP_API_BINDING(void, il2cpp_shutdown, ());
@@ -262,3 +264,5 @@ IL2CPP_API_BINDING(bool, il2cpp_custom_attrs_has_attr, (Il2CppCustomAttrInfo * a
 IL2CPP_API_BINDING(Il2CppArray*,  il2cpp_custom_attrs_construct, (Il2CppCustomAttrInfo * cinfo));
 
 IL2CPP_API_BINDING(void, il2cpp_custom_attrs_free, (Il2CppCustomAttrInfo * ainfo));
+
+#undef IL2CPP_API_BINDING_NO_RETURN
