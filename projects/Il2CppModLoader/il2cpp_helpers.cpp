@@ -72,40 +72,6 @@ namespace il2cpp {
         IL2CPP_BINDING(System, Type, app::Type*, GetType, (app::String * type_name, bool throw_on_error));
         IL2CPP_BINDING(System, String, app::Char__Array*, ToCharArray, (app::String * this_ptr));
 
-        // Internal il2cpp methods.
-        INTERNAL_BINDING(0x262560, Il2CppClass*, il2cpp_class_from_name, (Il2CppImage * image, const char* namezpace, const char* name));
-        INTERNAL_BINDING(0x262CA0, Il2CppDomain*, il2cpp_domain_get, ());
-        INTERNAL_BINDING(0x262CE0, Il2CppAssembly**, il2cpp_domain_get_assemblies, (Il2CppDomain * domain, size_t* size));
-        INTERNAL_BINDING(0x101220, Il2CppImage*, il2cpp_assembly_get_image, (Il2CppAssembly * assembly));
-        INTERNAL_BINDING(0x263870, Il2CppObject*, il2cpp_object_new, (Il2CppClass * klass));
-        INTERNAL_BINDING(0x2625B0, PropertyInfo*, il2cpp_class_get_properties, (Il2CppClass * klass, void** iter));
-        INTERNAL_BINDING(0x2626E0, MethodInfo*, il2cpp_class_get_methods, (Il2CppClass * klass, void** iter));
-        // We use get_methods instead and build a lookup cache.
-        // INTERNAL_BINDING(0x2626F0, MethodInfo*, il2cpp_class_get_method_from_name, (Il2CppClass* klass, const char* name, int argsCount));
-        INTERNAL_BINDING(0x263860, MethodInfo*, il2cpp_object_get_virtual_method, (Il2CppObject * obj, const MethodInfo* method));
-        INTERNAL_BINDING(0x263A70, Il2CppObject*, il2cpp_runtime_invoke, (const MethodInfo* method, void* obj, void** params, Il2CppException** exc));
-        INTERNAL_BINDING(0x263D20, void*, il2cpp_thread_attach, (Il2CppDomain * domain));
-        INTERNAL_BINDING(0x263B50, Il2CppString*, il2cpp_string_new_wrapper, (const char* str));
-        INTERNAL_BINDING(0x263BC0, Il2CppString*, il2cpp_string_new_len, (const char* str, uint32_t len));
-        INTERNAL_BINDING(0x263B70, Il2CppString*, il2cpp_string_new_utf16, (const Il2CppChar* str, uint32_t len));
-        INTERNAL_BINDING(0x10F120, Il2CppType*, il2cpp_class_get_type, (Il2CppClass * klass));
-        INTERNAL_BINDING(0x2643A0, char*, il2cpp_type_get_assembly_qualified_name, (const Il2CppType* type));
-        INTERNAL_BINDING(0x002460, Il2CppObject*, il2cpp_value_box, (Il2CppClass * klass, void* value));
-        INTERNAL_BINDING(0x101380, bool, il2cpp_class_is_assignable_from, (Il2CppClass * klass, Il2CppClass* oklass));
-        INTERNAL_BINDING(0x262540, bool, il2cpp_class_is_subclass_of, (Il2CppClass * klass, Il2CppClass* klassc, bool check_interfaces));
-        INTERNAL_BINDING(0x238110, bool, il2cpp_class_has_parent, (Il2CppClass * klass, Il2CppClass* klassc));
-        INTERNAL_BINDING(0x262400, void, il2cpp_free, (void* obj));
-        INTERNAL_BINDING(0x262590, Il2CppClass*, il2cpp_class_get_nested_types, (Il2CppClass * klass, void** iter));
-        INTERNAL_BINDING(0x262810, bool, il2cpp_class_is_enum, (Il2CppClass * klass));
-        INTERNAL_BINDING(0x262550, Il2CppClass*, il2cpp_class_from_type, (Il2CppType const* type));
-        INTERNAL_BINDING(0x263100, uint32_t, il2cpp_gchandle_new, (Il2CppObject * obj, bool pinned));
-        INTERNAL_BINDING(0x263120, uint32_t, il2cpp_gchandle_new_weakref, (Il2CppObject * obj, bool track_resurrection));
-        INTERNAL_BINDING(0x263160, void, il2cpp_gchandle_free, (uint32_t handle));
-        INTERNAL_BINDING(0x263140, Il2CppObject*, il2cpp_gchandle_get_target, (uint32_t handle));
-        INTERNAL_BINDING(0x262470, Il2CppArraySize*, il2cpp_array_new, (Il2CppClass * element, il2cpp_array_size_t length));
-        INTERNAL_BINDING(0x2624A0, Il2CppArraySize*, il2cpp_array_new_specific, (Il2CppClass * array_klass, il2cpp_array_size_t length));
-        INTERNAL_BINDING(0x2624B0, Il2CppArraySize*, il2cpp_array_new_full, (Il2CppClass * array_klass, il2cpp_array_size_t* lengths, il2cpp_array_size_t* lower_bounds));
-
         IL2CPP_BINDING(System.Reflection, Assembly, app::Type__Array*, GetTypes, (Il2CppAssembly * this_ptr));
 
         thread_local std::string buffer;
