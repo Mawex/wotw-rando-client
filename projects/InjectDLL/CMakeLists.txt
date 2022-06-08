@@ -129,6 +129,7 @@ set(
         "constants.h"
         "macros.h"
         "dev/object_visualizer.h"
+        "dev/console_update.h"
         "enums/actions.h"
         "enums/buttons.h"
         "enums/game_event.h"

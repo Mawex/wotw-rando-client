@@ -1,9 +1,7 @@
-#include <framework.h>
-
 #include <Common/ext.h>
+#include <Il2CppModLoader/windows_api/console.h>
+#include <Il2CppModLoader/windows_api/windows.h>
 #include <common.h>
-#include <console.h>
-#include <interception_macros.h>
 
 #include <algorithm>
 #include <future>
@@ -14,7 +12,7 @@
 #include <string>
 #include <vector>
 
-namespace modloader::console {
+namespace modloader::win::console {
     namespace {
         std::string read_command() {
             std::string command;
@@ -69,8 +67,8 @@ namespace modloader::console {
     using command_queue = std::vector<std::tuple<std::string, std::vector<CommandParam>, dev_command>>;
     std::mutex command_mutex;
     command_queue queued_commands;
-    IL2CPP_INTERCEPT(, GameController, void, Update, (app::GameController * this_ptr)) {
-        GameController::Update(this_ptr);
+
+    void console_update() {
         command_mutex.lock();
         if (queued_commands.empty()) {
             command_mutex.unlock();
@@ -298,4 +296,4 @@ namespace modloader::console {
 
         return false;
     }
-} // namespace modloader::console
+} // namespace modloader::win::console

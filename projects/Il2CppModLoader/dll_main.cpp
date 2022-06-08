@@ -1,18 +1,15 @@
 // dllmain.cpp : Defines the entry point for the DLL application.
 
 #include <common.h>
-#include <console.h>
 #include <constants.h>
 #include <il2cpp_helpers.h>
 #include <interception_macros.h>
 #include <macros.h>
+#include <windows_api/console.h>
+#include <windows_api/common.h>
 
 #include <fstream>
-#include <functional>
-#include <iostream>
-#include <set>
 #include <string>
-#include <unordered_map>
 #include <utility>
 
 #include <mutex>
@@ -21,10 +18,9 @@
 #include <Common/ext.h>
 #include <Common/settings.h>
 
-#include <WinNetwork/binary_walker.h>
-#include <WinNetwork/peer.h>
-
 //---------------------------------------------------Globals-----------------------------------------------------
+
+using namespace modloader::win;
 
 namespace modloader {
     // Have this here so it is included in the assembly and can be used to examine thrown exceptions.
@@ -37,14 +33,6 @@ namespace modloader {
     bool shutdown_thread = false;
 
     namespace {
-        bool trace_enabled = false;
-        // if you are debugging and don't want the trace client to be dropped set this to false.
-        bool trace_pinging_enabled = true;
-
-        network::NetworkData network_data;
-        int peer_id = -1;
-        std::mutex network_mutex;
-
         bool write_to_csv = true;
         bool flush_after_every_line = true;
         std::ofstream csv_file;
@@ -64,60 +52,6 @@ namespace modloader {
                 else
                     csv_file << "type, group, level, message,\n";
                 csv_mutex.unlock();
-            }
-        }
-
-        void network_event_handler(network::NetworkEvent const& evt) {
-            using namespace network;
-            using namespace network::binary;
-
-            switch (evt.type) {
-                case network::NetworkEventType::Package: {
-                    BinaryWalker walker;
-                    walker.cursor = 0;
-                    walker.data = evt.data;
-                    walker.size = evt.size;
-
-                    auto type = read_bw<PackageType>(walker);
-                    switch (type) {
-                        case network::PackageType::Message: {
-                            break;
-                        }
-                        default:
-                            break;
-                    }
-                    break;
-                }
-                case network::NetworkEventType::Connected: {
-                    peer_id = evt.peer_id;
-
-                    constexpr int BUFFER_SIZE = 64;
-                    char buffer[BUFFER_SIZE];
-                    BinaryWalker walker;
-                    walker.cursor = 0;
-                    walker.data = buffer;
-                    walker.size = BUFFER_SIZE;
-
-                    write_bw(walker, 0);
-                    write_bw(walker, PackageType::Identifier);
-                    write_str_bw(walker, mod_title);
-                    auto size = walker.cursor;
-                    walker.cursor = 0;
-                    write_bw(walker, size - static_cast<int>(sizeof(int)));
-
-                    network_mutex.lock();
-                    send_data(network_data, peer_id, walker.data, size);
-                    if (!trace_pinging_enabled)
-                        set_pinging(network_data, peer_id, false);
-
-                    network_mutex.unlock();
-                    break;
-                }
-                case network::NetworkEventType::Disconnected:
-                    peer_id = -1;
-                    break;
-                default:
-                    break;
             }
         }
 
@@ -154,38 +88,7 @@ namespace modloader {
         csv_mutex.unlock();
     }
 
-    IL2CPP_MODLOADER_DLLEXPORT void send_trace(MessageType type, int level, std::string const& group, std::string const& message) {
-        // TODO: Maybe buffer these until we connect?
-        if (peer_id < 0)
-            return;
-
-        using namespace network::binary;
-
-        constexpr int BUFFER_SIZE = 512;
-        char buffer[BUFFER_SIZE];
-
-        BinaryWalker walker;
-        walker.cursor = 0;
-        walker.data = buffer;
-        walker.size = BUFFER_SIZE;
-
-        write_bw(walker, 0);
-        write_bw(walker, network::PackageType::TraceMessage);
-        write_bw(walker, type);
-        write_bw(walker, level);
-        write_str_bw(walker, group);
-        write_str_bw(walker, message);
-        auto size = walker.cursor;
-        walker.cursor = 0;
-        write_bw(walker, size - static_cast<int>(sizeof(int)));
-
-        network_mutex.lock();
-        network::send_data(network_data, peer_id, walker.data, size);
-        network_mutex.unlock();
-    }
-
     IL2CPP_MODLOADER_DLLEXPORT void trace(MessageType type, int level, std::string const& group, std::string const& message) {
-        send_trace(type, level, group, message);
         write_trace(type, level, group, message);
     }
 
@@ -221,25 +124,11 @@ namespace modloader {
         auto settings = create_randomizer_settings(base_path);
         load_settings_from_file(settings);
         auto wait_for_debugger = check_option(settings, "Flags", "WaitForDebugger", false);
-        while (wait_for_debugger && !::IsDebuggerPresent())
-            ::Sleep(100); // to avoid 100% CPU load
+        while (wait_for_debugger && !common::is_debugger_present())
+            common::sleep(100); // to avoid 100% CPU load
 
         initialize_trace_file();
         trace(MessageType::Info, 5, "initialize", "Mod Loader initialization.");
-
-        trace_enabled = check_option(settings, "Flags", "TraceEnabled", false);
-        trace_pinging_enabled = !check_option(settings, "Flags", "TracePingingDisabled", true);
-        if (trace_enabled) {
-            trace(MessageType::Info, 5, "initialize", "Initializing network tracing.");
-            network_data.is_server = false;
-            network_data.ip = "localhost";
-            network_data.port = 27666;
-            network_data.logging_callback = [](std::string const& str) { trace(MessageType::Info, 4, "network", str); };
-            network_data.event_handler = &network_event_handler;
-
-            network::initialize_peer(network_data);
-            network::start_peer(network_data);
-        }
 
         if (check_option(settings, "Flags", "Dev", false)) {
             trace(MessageType::Info, 5, "initialize", "Initializing console.");
@@ -251,7 +140,7 @@ namespace modloader {
             trace(MessageType::Info, 5, "initialize", "Failed to bootstrap, shutting down.");
             csv_file.close();
             shutdown_thread = true;
-            FreeLibraryAndExitThread(GetModuleHandleA("Il2CppModLoader.dll"), 0);
+            common::free_library_and_exit_thread("Il2CppModLoader.dll");
         }
 
         trace(MessageType::Info, 5, "initialize", "Performing intercepts.");
@@ -266,20 +155,16 @@ namespace modloader {
 
         while (!shutdown_thread) {
             console::console_poll();
-            if (trace_enabled)
-                network::poll_peer(network_data);
         }
 
         console::console_free();
-        if (trace_enabled)
-            network::shutdown_peer(network_data);
 
         if (write_to_csv)
             csv_file.close();
 
         intercept::interception_detach();
         bootstrap_shutdown();
-        FreeLibraryAndExitThread(GetModuleHandleA("Il2CppModLoader.dll"), 0);
+        common::free_library_and_exit_thread("Il2CppModLoader.dll");
     }
 
     STATIC_IL2CPP_BINDING(UnityEngine, Cursor, int32_t, get_lockState, ());

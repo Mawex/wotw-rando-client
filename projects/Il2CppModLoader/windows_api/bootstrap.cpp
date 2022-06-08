@@ -1,7 +1,6 @@
 #include <comdef.h>
 #include <metahost.h>
 #include <mscoree.h>
-#include <stdio.h>
 #pragma comment(lib, "mscoree.lib")
 
 #include <Common/ext.h>
@@ -9,13 +8,11 @@
 
 #include <json/json.hpp>
 
-#include <codecvt>
 #include <fstream>
-#include <locale>
 #include <string>
 #include <vector>
 
-namespace modloader {
+namespace modloader::win::bootstrap {
     extern std::string base_path;
     extern std::string modloader_path;
 

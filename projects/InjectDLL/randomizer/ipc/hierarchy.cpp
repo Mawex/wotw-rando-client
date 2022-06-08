@@ -6,9 +6,9 @@
 #include <Common/ext.h>
 
 #include <Il2CppModLoader/common.h>
-#include <Il2CppModLoader/console.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
+#include <Il2CppModLoader/windows_api/console.h>
 
 namespace randomizer {
     namespace ipc {

@@ -1,7 +1,8 @@
 #include <common.h>
-#include <console.h>
 #include <il2cpp_helpers.h>
 #include <interception_macros.h>
+#include <windows_api/console.h>
+#include <windows_api/memory.h>
 
 #include <Common/ext.h>
 
@@ -9,6 +10,8 @@
 #include <locale>
 #include <vector>
 #include <xstring>
+
+using namespace modloader::win;
 
 namespace il2cpp {
     namespace {
@@ -916,7 +919,7 @@ namespace il2cpp {
     }
 
     MethodInfo* resolve_generic_method(uint64_t address) {
-        return *reinterpret_cast<MethodInfo**>(modloader::intercept::resolve_rva(address));
+        return *reinterpret_cast<MethodInfo**>(memory::resolve_rva(address));
     }
 
     std::string convert_csstring(app::String* str) {

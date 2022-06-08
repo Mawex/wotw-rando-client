@@ -10,8 +10,10 @@ set(TYPE_FILES_COUNT 1514)
 
 set(
         SOURCE_FILES
-        "bootstrap.cpp"
-        "console.cpp"
+        "windows_api/bootstrap.cpp"
+        "windows_api/console.cpp"
+        "windows_api/memory.cpp"
+        "windows_api/detours.cpp"
         "dll_main.cpp"
         "il2cpp_helpers.cpp"
         "interception.cpp"
@@ -19,10 +21,10 @@ set(
 
 set(
         PUBLIC_HEADER_FILES
-        "console.h"
+        "windows_api/console.h"
+        "windows_api/memory.h"
         "common.h"
         "constants.h"
-        "framework.h"
         "il2cpp_helpers.h"
         "il2cpp_internals/il2cpp_internals.h"
 )
@@ -60,9 +62,10 @@ add_library(
         ${MISC_FILES}
 )
 
-target_compile_definitions(${PROJECT_NAME}
+target_compile_definitions(
+        ${PROJECT_NAME}
         PRIVATE COMPILING_IL2CPP_MODLOADER
-        )
+)
 
 set_target_properties(
         ${PROJECT_NAME}
@@ -88,7 +91,6 @@ target_link_libraries(
         ${PROJECT_NAME}
         "${WOTWR_LIB_DIR}/detours.lib"
         Common
-        WinNetwork
 )
 
 target_precompile_headers(
@@ -111,7 +113,10 @@ target_precompile_headers(
         PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_init.h>
 )
 
-set_source_files_properties(console.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
+set_source_files_properties(windows_api/console.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
+set_source_files_properties(windows_api/memory.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
+set_source_files_properties(windows_api/bootstrap.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
+set_source_files_properties(windows_api/detours.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
 
 message(STATUS "Assigning source groups.")
 

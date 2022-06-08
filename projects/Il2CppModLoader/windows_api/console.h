@@ -1,11 +1,10 @@
-#include <Il2CppModLoader/macros.h>
+#include "macros.h"
 
 #include <string>
 #include <unordered_map>
 #include <vector>
 
-namespace modloader {
-    namespace console {
+namespace modloader::win::console {
         struct CommandParam {
             std::string name;
             std::string value;
@@ -13,6 +12,7 @@ namespace modloader {
 
         using dev_command = void (*)(std::string const& name, std::vector<CommandParam> const& params);
 
+        IL2CPP_MODLOADER_DLLEXPORT void console_update();
         IL2CPP_MODLOADER_DLLEXPORT void console_initialize();
         IL2CPP_MODLOADER_DLLEXPORT void console_free();
         IL2CPP_MODLOADER_DLLEXPORT void console_poll();
@@ -27,5 +27,4 @@ namespace modloader {
         IL2CPP_MODLOADER_DLLEXPORT bool try_get_float(CommandParam const& param, float& value);
 
         IL2CPP_MODLOADER_DLLEXPORT bool try_convert_to_bool(std::string str, bool& value);
-    } // namespace console
-} // namespace modloader
+    } // namespace modloader

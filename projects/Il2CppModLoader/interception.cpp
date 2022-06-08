@@ -1,22 +1,17 @@
-#include <framework.h>
-
-#include <interception.h>
 #include <Common/ext.h>
 #include <common.h>
-#include <console.h>
-#include <detours/detours.h>
+
 #include <il2cpp_helpers.h>
+#include <interception.h>
+#include <windows_api/console.h>
+#include <windows_api/detours.h>
 
 #include <fstream>
 #include <json/json.hpp>
 
 #include <unordered_map>
 
-#define IL2CPP_TYPEDEF(a, n) n ## __Class** n ## __TypeInfo
-namespace app {
-#include "il2cpp_internals/il2cpp_typeinfo_registration.h"
-}
-#undef IL2CPP_TYPEDEF
+using namespace modloader::win;
 
 namespace modloader {
     extern std::string base_path;
@@ -28,66 +23,6 @@ namespace modloader {
         intercept* last_intercept = nullptr;
         il2cpp_intercept* first_il2cpp_intercept = nullptr;
         il2cpp_intercept* last_il2cpp_intercept = nullptr;
-
-        uint64_t game_assembly_address;
-
-        uint64_t resolve_rva(uint64_t rva) {
-            if (!game_assembly_address) {
-                auto handle = GetModuleHandleA("GameAssembly.dll");
-                if (handle == nullptr) {
-                    trace(MessageType::Error, 1, "initialize", "Failed to get handle of GameAssembly.dll");
-                    return 0;
-                }
-
-                game_assembly_address = reinterpret_cast<uint64_t>(handle);
-                console::console_send(format("game_assembly_address: %#018x", game_assembly_address));
-            }
-
-            return game_assembly_address + rva;
-        }
-
-        uint64_t unresolve_rva(uint64_t ptr) {
-            if (!game_assembly_address) {
-                auto handle = GetModuleHandleA("GameAssembly.dll");
-                if (handle == nullptr) {
-                    trace(MessageType::Error, 1, "initialize", "Failed to get handle of GameAssembly.dll");
-                    return 0;
-                }
-
-                game_assembly_address = reinterpret_cast<uint64_t>(handle);
-                console::console_send(format("game_assembly_address: %#018x", game_assembly_address));
-            }
-
-            return ptr - game_assembly_address;
-        }
-
-        void do_intercept(std::unordered_map<long long, void*>& intercept_cache, long long cache_index, std::string debug, void** original_pointer, void* intercept_pointer) {
-            auto it = intercept_cache.find(cache_index);
-            if (it != intercept_cache.end()) {
-                trace(MessageType::Debug, 3, "initialize", format("Changing intercept address (%d, %d)", *original_pointer, it->second));
-                *original_pointer = it->second;
-            }
-
-            trace(MessageType::Debug, 3, "initialize", format("Intercepting (il2cpp): %s @ %d -> %d", debug.c_str(), reinterpret_cast<uint64_t>(*original_pointer), reinterpret_cast<uint64_t>(intercept_pointer)));
-
-            PDETOUR_TRAMPOLINE trampoline = nullptr;
-            void* target = nullptr;
-            void* detour = nullptr;
-            const auto result = DetourAttachEx(
-                    original_pointer,
-                    intercept_pointer,
-                    &trampoline,
-                    &target,
-                    &detour
-            );
-
-            if (result)
-                trace(MessageType::Error, 3, "initialize", format("Error attaching %s : %d", debug.c_str(), result));
-            else {
-                trace(MessageType::Debug, 3, "initialize", format("Attach success (%d, %d, %d)", trampoline, target, detour));
-                intercept_cache[cache_index] = detour;
-            }
-        }
 
         void* get_method_pointer(Il2CppClass* klass, il2cpp_intercept const& i) {
             for (auto j = 0; j < i.virtual_count; ++j)
@@ -148,9 +83,7 @@ namespace modloader {
         }
 
         void il2cpp_intercepts() {
-            DetourRestoreAfterWith();
-            DetourTransactionBegin();
-            DetourUpdateThread(GetCurrentThread());
+            detours::start_transaction();
 
             std::unordered_map<long long, void*> intercept_cache;
             auto current = last_il2cpp_intercept;
@@ -182,7 +115,7 @@ namespace modloader {
                 *current->original_pointer = method;
                 if (current->intercept_pointer) {
                     auto cache_index = reinterpret_cast<long long>(method);
-                    do_intercept(
+                    detours::do_intercept(
                             intercept_cache,
                             cache_index,
                             format("%s.%s.%s", current->namezpace.data(), current->klass.data(), current->method_name.data()),
@@ -194,11 +127,7 @@ namespace modloader {
                 current = current->prev;
             }
 
-            const auto result = DetourTransactionCommit();
-            if (result)
-                trace(MessageType::Error, 3, "initialize", format("Error during il2cpp inject commit: %d", result));
-            else
-                trace(MessageType::Debug, 3, "initialize", "Il2Cpp injection completed");
+            detours::commit("il2cpp intercepts");
         }
 
         void internal_intercepts() {
@@ -224,9 +153,7 @@ namespace modloader {
                 }
             }
 
-            DetourRestoreAfterWith();
-            DetourTransactionBegin();
-            DetourUpdateThread(GetCurrentThread());
+            detours::start_transaction();
 
             std::unordered_map<long long, void*> intercept_cache;
             auto current = last_intercept;
@@ -238,12 +165,12 @@ namespace modloader {
                 } else
                     trace(MessageType::Debug, 5, "initialize", format("internal injection, default offset used '%s': %d", current->name.data(), current->offset));
 
-                *current->original_pointer = reinterpret_cast<void*>(resolve_rva(current->offset));
+                *current->original_pointer = reinterpret_cast<void*>(memory::resolve_rva(current->offset));
                 if (current->intercept_pointer) {
-                    do_intercept(
+                    detours::do_intercept(
                             intercept_cache,
                             current->offset,
-                            format("%s (%d, %d)", current->name.data(), game_assembly_address, current->offset),
+                            format("%s (%d, %d)", current->name.data(), memory::get_game_assembly_address(), current->offset),
                             current->original_pointer,
                             current->intercept_pointer
                     );
@@ -252,11 +179,7 @@ namespace modloader {
                 current = current->prev;
             }
 
-            const auto result = DetourTransactionCommit();
-            if (result)
-                trace(MessageType::Error, 3, "initialize", format("Error during internal inject commit: %d", result));
-            else
-                trace(MessageType::Debug, 3, "initialize", "Internal injection completed");
+            detours::commit("internal bindings");
         }
 
         void interception_init() {
@@ -265,23 +188,17 @@ namespace modloader {
         }
 
         void interception_detach() {
-            DetourRestoreAfterWith();
-            DetourTransactionBegin();
-            DetourUpdateThread(GetCurrentThread());
+            detours::start_transaction();
 
             auto current = last_intercept;
             while (current) {
                 if (current->intercept_pointer)
-                    DetourDetach(current->original_pointer, current->intercept_pointer);
+                    detours::detach(current->original_pointer, current->intercept_pointer);
 
                 current = current->prev;
             }
 
-            const auto result = DetourTransactionCommit();
-            if (result)
-                trace(MessageType::Error, 3, "uninitialize", format("Error during detach commit: %d", result));
-            else
-                trace(MessageType::Debug, 3, "uninitialize", "Detach completed");
+            detours::commit("Detach");
         }
 
         il2cpp_intercept::il2cpp_intercept(bool p_ztatic, std::string_view p_namezpace, std::string_view p_klass, std::string_view p_nested, std::string_view p_method_name, std::string p_params, std::string_view p_overload_params, void** p_original_pointer, void* p_intercept_pointer, int virtual_count) :
@@ -313,7 +230,7 @@ namespace modloader {
                 first_il2cpp_intercept = this;
         }
 
-        intercept::intercept(uint64_t o, PVOID* oP, PVOID iP, std::string_view s) :
+        intercept::intercept(uint64_t o, void** oP, void* iP, std::string_view s) :
                 name(std::move(s)), offset(o), original_pointer(oP), intercept_pointer(iP), next(nullptr) {
             prev = last_intercept;
             if (prev != nullptr)
