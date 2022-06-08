@@ -41,7 +41,7 @@ namespace game {
 
             IL2CPP_INTERCEPT(, SeinPickupProcessor, void, OnCollectExpOrbPickup, (app::SeinPickupProcessor * this_ptr, app::ExpOrbPickup* expOrbPickup)) {
                 // Any non-enemy exp drop has an associated message box.
-                ScopedSetter setter(collecting_pickup, expOrbPickup->fields.MessageType != app::ExpOrbPickup_ExpOrbMessageType__Enum_None);
+                ScopedSetter setter(collecting_pickup, expOrbPickup->fields.MessageType != app::ExpOrbPickup_ExpOrbMessageType__Enum::None);
                 SeinPickupProcessor::OnCollectExpOrbPickup(this_ptr, expOrbPickup);
             }
 

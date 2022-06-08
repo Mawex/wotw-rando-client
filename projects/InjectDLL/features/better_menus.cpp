@@ -13,7 +13,7 @@
 
 using namespace modloader;
 using modloader::console::console_flush;
-using modloader::console::console_send;
+using modloader::win::console::console_send;
 
 namespace {
     // Skip fade to black when opening menus

@@ -7,7 +7,7 @@
 namespace {
     IL2CPP_INTERCEPT_OVERLOAD(, PlayerSpiritShards, bool, IsGlobalShardEquipped, (app::PlayerSpiritShards * this_ptr, app::SpiritShardType__Enum value), (SpiritShardType)) {
         if (randomizer::settings::show_secrets() &&
-            value == app::SpiritShardType__Enum_Sense)
+            value == app::SpiritShardType__Enum::Sense)
             return true;
 
         return PlayerSpiritShards::IsGlobalShardEquipped(this_ptr, value);

@@ -15,7 +15,7 @@
 #include <interop/csharp_bridge.h>
 
 using namespace modloader;
-using modloader::console::console_send;
+using modloader::win::console::console_send;
 
 namespace {
     enum class TeleportState {
@@ -77,8 +77,8 @@ namespace {
     IL2CPP_BINDING(, GameStateMachine, void, SetToGame, (app::GameStateMachine * this_ptr))
 
     IL2CPP_INTERCEPT(Moon.uberSerializationWisp, PlayerUberStateAreaMapInformation, void, SetAreaState, (app::PlayerUberStateAreaMapInformation * this_ptr, app::GameWorldAreaID__Enum area_id, int index, app::WorldMapAreaState__Enum state, app::Vector3 position)) {
-        if (handling_start && state == app::WorldMapAreaState__Enum_Visited)
-            state = app::WorldMapAreaState__Enum_Discovered;
+        if (handling_start && state == app::WorldMapAreaState__Enum::Visited)
+            state = app::WorldMapAreaState__Enum::Discovered;
 
         PlayerUberStateAreaMapInformation::SetAreaState(this_ptr, area_id, index, state, position);
     }
@@ -108,7 +108,7 @@ namespace {
     STATIC_IL2CPP_INTERCEPT(, TitleScreenManager, void, SetScreen, (app::TitleScreenManager_Screen__Enum screen)) {
         TitleScreenManager::SetScreen(screen);
 
-        if (screen == app::TitleScreenManager_Screen__Enum_SaveSlots) {
+        if (screen == app::TitleScreenManager_Screen__Enum::SaveSlots) {
             auto save_slots_ui = get_save_slots_ui();
             if (save_slots_ui != nullptr) {
                 auto save_slot_ui = SaveSlotsUI::get_CurrentSaveSlot(save_slots_ui);
@@ -194,7 +194,7 @@ namespace {
     }
 
     void on_scene_load(scenes::SceneLoadEventMetadata* metadata, EventTiming timing) {
-        if (metadata->scene_name == "wotwTitleScreen" && metadata->state == app::SceneState__Enum_Loaded) {
+        if (metadata->scene_name == "wotwTitleScreen" && metadata->state == app::SceneState__Enum::Loaded) {
             auto scene_root = metadata->scene->fields.SceneRoot;
             auto scene_root_go = il2cpp::unity::get_game_object(scene_root);
 

@@ -7,7 +7,7 @@ namespace {
     IL2CPP_BINDING(, SeinLogicCycle, app::SeinLogicCycle_StateFlags__Enum, GetFlags, (app::SeinLogicCycle * this_ptr, app::SeinLogicCycle_StateFlags__Enum test));
     IL2CPP_INTERCEPT(, SeinLogicCycle, bool, get_AllowInteraction, (app::SeinLogicCycle * this_ptr)) {
         // Override this for the keystone door in wastes.
-        if (SeinLogicCycle::GetFlags(this_ptr, app::SeinLogicCycle_StateFlags__Enum_IsDigging) != 0)
+        if (SeinLogicCycle::GetFlags(this_ptr, app::SeinLogicCycle_StateFlags__Enum::IsDigging) != app::SeinLogicCycle_StateFlags__Enum::Clear)
             return true;
 
         return SeinLogicCycle::get_AllowInteraction(this_ptr);

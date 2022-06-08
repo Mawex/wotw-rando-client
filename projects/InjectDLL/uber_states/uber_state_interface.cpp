@@ -370,7 +370,7 @@ namespace uber_states {
     }
 
     void UberState::apply() const {
-        UberStateController::Apply(ptr(), app::UberStateApplyContext__Enum_ValueChanged);
+        UberStateController::Apply(ptr(), app::UberStateApplyContext__Enum::ValueChanged);
     }
 
     app::IUberState* UberState::ptr() const {
@@ -388,7 +388,7 @@ namespace uber_states {
     }
 
     void apply_all() {
-        UberStateController::ApplyAll(app::UberStateApplyContext__Enum_FullStateApply);
+        UberStateController::ApplyAll(app::UberStateApplyContext__Enum::FullStateApply);
     }
 
     void clear() {

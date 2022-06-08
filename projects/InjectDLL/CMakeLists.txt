@@ -237,10 +237,10 @@ target_link_libraries(
         Il2CppModLoader
 )
 
-target_precompile_headers(
-        ${PROJECT_NAME}
-        PRIVATE <tchar.h>
-)
+#target_precompile_headers(
+#        ${PROJECT_NAME}
+#        PRIVATE <tchar.h>
+#)
 
 message(STATUS "Assigning source groups.")
 

@@ -57,7 +57,7 @@ namespace {
             texture->apply(renderer);
         else {
             randomizer::textures::apply_default(renderer);
-            randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, reinterpret_cast<app::Texture*>(this_ptr->fields.m_upgradeItem->fields.Icon));
+            randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, reinterpret_cast<app::Texture*>(this_ptr->fields.m_upgradeItem->fields.Icon));
         }
     }
 
@@ -154,7 +154,7 @@ namespace {
         const auto key = get_key(item);
         const auto it = lupo_overrides.find(key);
 
-        // randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, item->fields.Icon);
+        // randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, item->fields.Icon);
         auto icon = shops::get_icon(shops::ShopType::Lupo, item);
         icon->apply(renderer);
 
@@ -165,7 +165,7 @@ namespace {
 
         auto can_purchase = can_afford && (it != lupo_overrides.end() && !it->second.is_locked && it->second.is_visible);
         auto color = can_purchase ? this_ptr->fields.PurchasableColor : this_ptr->fields.NotPurchasableColor;
-        randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor, &color);
+        randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &color);
 
         app::MessageProvider* name = nullptr;
         app::MessageProvider* description = nullptr;

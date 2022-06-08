@@ -14,6 +14,8 @@ set(
         "windows_api/console.cpp"
         "windows_api/memory.cpp"
         "windows_api/detours.cpp"
+        "windows_api/common.cpp"
+        "il2cpp_internals/il2cpp_init.cpp"
         "dll_main.cpp"
         "il2cpp_helpers.cpp"
         "interception.cpp"
@@ -39,7 +41,6 @@ list(
         "il2cpp_internals/il2cpp_api.h"
         "il2cpp_internals/il2cpp_typeinfo.h"
         "interception.h"
-        "il2cpp_internals/il2cpp_init.h"
         "interception_macros.h"
         "macros.h"
         "il2cpp_math.h"
@@ -110,13 +111,13 @@ target_precompile_headers(
         ${PROJECT_NAME}
         PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_api.h>
         PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_typeinfo.h>
-        PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_init.h>
 )
 
 set_source_files_properties(windows_api/console.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
 set_source_files_properties(windows_api/memory.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
 set_source_files_properties(windows_api/bootstrap.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
 set_source_files_properties(windows_api/detours.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
+set_source_files_properties(windows_api/common.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)
 
 message(STATUS "Assigning source groups.")
 

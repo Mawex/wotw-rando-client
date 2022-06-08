@@ -70,7 +70,7 @@ namespace scenes {
             auto scene_meta = ScenesManager::GetSceneInformation(scenes_manager, scene_name_csstring);
             auto scene_manager_scene = ScenesManager::GetFromCurrentScenes(scenes_manager, scene_meta);
 
-            modloader::console::console_send(format("%s: %d", scene_name.c_str(), state));
+            modloader::win::console::console_send(format("%s: %d", scene_name.c_str(), state));
             modloader::console::console_flush();
 
             SceneLoadEventMetadata event{
@@ -80,7 +80,7 @@ namespace scenes {
             };
             scenes_event_bus.trigger_event(&event);
 
-            if (state == app::SceneState__Enum_Loaded && scenes_to_load.contains(scene_name)) {
+            if (state == app::SceneState__Enum::Loaded && scenes_to_load.contains(scene_name)) {
                 auto pending_scene = scenes_to_load[scene_name];
                 auto go = il2cpp::unity::get_game_object(scene_manager_scene->fields.SceneRoot);
 

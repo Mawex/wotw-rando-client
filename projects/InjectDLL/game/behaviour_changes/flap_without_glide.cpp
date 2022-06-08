@@ -18,9 +18,9 @@ namespace {
     }
 
     IL2CPP_INTERCEPT(, SeinFeatherFlap, void, EnterAttack, (app::SeinFeatherFlap * this_ptr)) {
-        if (!game::player::has_ability(app::AbilityType__Enum_Glide)) {
+        if (!game::player::has_ability(app::AbilityType__Enum::Glide)) {
             temporary_glide_switch = true;
-            game::player::set_ability(app::AbilityType__Enum_Glide, true);
+            game::player::set_ability(app::AbilityType__Enum::Glide, true);
         }
 
         SeinFeatherFlap::EnterAttack(this_ptr);
@@ -32,7 +32,7 @@ namespace {
         if (temporary_glide_switch) {
             // If we picked up glide in the meantime don't remove it.
             if (!glide.get<bool>())
-                game::player::set_ability(app::AbilityType__Enum_Glide, false);
+                game::player::set_ability(app::AbilityType__Enum::Glide, false);
 
             temporary_glide_switch = false;
         }
@@ -40,12 +40,12 @@ namespace {
 
     void handle_enter_switches() {
         if (temporary_glide_switch)
-            game::player::set_ability(app::AbilityType__Enum_Glide, false);
+            game::player::set_ability(app::AbilityType__Enum::Glide, false);
     }
 
     void handle_exit_switches() {
         if (temporary_glide_switch)
-            game::player::set_ability(app::AbilityType__Enum_Glide, true);
+            game::player::set_ability(app::AbilityType__Enum::Glide, true);
     }
 
     void initialize() {

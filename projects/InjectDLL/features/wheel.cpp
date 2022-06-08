@@ -468,13 +468,13 @@ namespace {
         // Trigger movement so wheel updates selection after refresh.
         auto scheme = il2cpp::get_class<app::GameSettings__Class>("", "GameSettings")->static_fields->Instance->fields.m_currentControlSchemes;
         switch (scheme) {
-            case app::ControlScheme__Enum_Switch:
-            case app::ControlScheme__Enum_Controller:
-            case app::ControlScheme__Enum_Keyboard:
+            case app::ControlScheme__Enum::Switch:
+            case app::ControlScheme__Enum::Controller:
+            case app::ControlScheme__Enum::Keyboard:
                 // TODO: Maybe use some other axis.
                 select_closest(manager, manager->fields.m_lastMenuAxis);
                 break;
-            case app::ControlScheme__Enum_KeyboardAndMouse:
+            case app::ControlScheme__Enum::KeyboardAndMouse:
                 auto item = CleverMenuItemSelectionManager::get_CleverMenuItemUnderCursor_intercept(manager);
                 if (il2cpp::unity::is_valid(item)) {
                     CleverMenuItemSelectionManager::SetCurrentMenuItem(manager, item, true);

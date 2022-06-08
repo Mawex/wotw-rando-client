@@ -45,7 +45,7 @@ namespace {
         const auto damage_id = Damage::GetNewDamageID();
 
         auto* const camera = il2cpp::get_nested_class<app::UI_Cameras__Class>("Game", "UI", "Cameras")->static_fields->Current;
-        auto* const colliders = Physics::OverlapSphere(source_pos, range < 0 ? 150 : range, 0xfffffff, app::QueryTriggerInteraction__Enum_Collide);
+        auto* const colliders = Physics::OverlapSphere(source_pos, range < 0 ? 150 : range, 0xfffffff, app::QueryTriggerInteraction__Enum::Collide);
         for (auto i = 0; i < colliders->max_length; ++i) {
             auto* const collider = colliders->vector[i];
             auto* const go = il2cpp::unity::get_game_object(collider);
@@ -63,18 +63,18 @@ namespace {
                     initial_damage,
                     app::Vector2{ direction.x, direction.y },
                     source_pos,
-                    app::DamageType__Enum_Blaze,
-                    app::AbilityType__Enum_Blaze,
+                    app::DamageType__Enum::Blaze,
+                    app::AbilityType__Enum::Blaze,
                     il2cpp::unity::get_game_object(sein),
                     damage_id,
                     sein->fields._DamageOwner_k__BackingField,
-                    app::SpiritShardType__Enum_None,
+                    app::SpiritShardType__Enum::None,
                     false,
                     weight,
                     2.f,
                     false
             );
-            damage->fields.DamageLayerMask = app::DamageLayerMask__Enum_EnemyAndEnvironment;
+            damage->fields.DamageLayerMask = app::DamageLayerMask__Enum::EnemyAndEnvironment;
 
             Damage::DealToComponents(damage, go);
         }

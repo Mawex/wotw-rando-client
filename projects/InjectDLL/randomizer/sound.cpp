@@ -143,17 +143,17 @@ namespace randomizer {
 
     void SoundActor::pause() {
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        sound::WwiseEventSystem::SoundHandle::Pause(boxed, 0, app::AkCurveInterpolation__Enum_AkCurveInterpolation_Linear);
+        sound::WwiseEventSystem::SoundHandle::Pause(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
     }
 
     void SoundActor::resume() {
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        sound::WwiseEventSystem::SoundHandle::Resume(boxed, 0, app::AkCurveInterpolation__Enum_AkCurveInterpolation_Linear);
+        sound::WwiseEventSystem::SoundHandle::Resume(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
     }
 
     void SoundActor::stop() {
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        sound::WwiseEventSystem::SoundHandle::Stop(boxed, 0, app::AkCurveInterpolation__Enum_AkCurveInterpolation_Linear);
+        sound::WwiseEventSystem::SoundHandle::Stop(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
     }
 } // namespace randomizer
 

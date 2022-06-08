@@ -36,7 +36,7 @@ namespace ability_override {
 
         bool check_input(app::AbilityType__Enum ability, bool just_pressed = false) {
             auto sein = game::player::sein();
-            if (SeinLogicCycle::IsCharacterStateBlockedBy(sein->fields.LogicCycle, app::SeinLogicCycle_StateFlags__Enum_BlockInput))
+            if (SeinLogicCycle::IsCharacterStateBlockedBy(sein->fields.LogicCycle, app::SeinLogicCycle_StateFlags__Enum::BlockInput))
                 return false;
 
             auto processor = SeinInput::GetButton(sein->fields.Input, ability);
@@ -48,55 +48,55 @@ namespace ability_override {
 
         IL2CPP_BINDING(, SeinGrenadeAttack, void, UpdateCurrentThrow, (app::SeinGrenadeAttack * this_ptr));
         IL2CPP_INTERCEPT(, SeinGrenadeAttack, void, UpdateCharacterState, (app::SeinGrenadeAttack * this_ptr)) {
-            if (has_override(app::AbilityType__Enum_Grenade)) {
+            if (has_override(app::AbilityType__Enum::Grenade)) {
                 SeinGrenadeAttack::UpdateCurrentThrow(this_ptr);
-                if (check_input(app::AbilityType__Enum_Grenade))
-                    call_override(app::AbilityType__Enum_Grenade);
+                if (check_input(app::AbilityType__Enum::Grenade))
+                    call_override(app::AbilityType__Enum::Grenade);
             } else
                 SeinGrenadeAttack::UpdateCharacterState(this_ptr);
         }
 
         IL2CPP_INTERCEPT(, SeinBlazeSpell, void, UpdateInput, (app::SeinBlazeSpell * this_ptr)) {
-            if (has_override(app::AbilityType__Enum_Blaze)) {
-                if (check_input(app::AbilityType__Enum_Blaze))
-                    call_override(app::AbilityType__Enum_Blaze);
+            if (has_override(app::AbilityType__Enum::Blaze)) {
+                if (check_input(app::AbilityType__Enum::Blaze))
+                    call_override(app::AbilityType__Enum::Blaze);
             } else
                 UpdateInput(this_ptr);
         }
 
         bool started_sentry = false;
         IL2CPP_INTERCEPT(, SeinTurretSpell, void, UpdateCharacterState, (app::SeinTurretSpell * this_ptr)) {
-            if (has_override(app::AbilityType__Enum_TurretSpell)) {
-                if (check_input(app::AbilityType__Enum_TurretSpell))
-                    call_override(app::AbilityType__Enum_TurretSpell);
+            if (has_override(app::AbilityType__Enum::TurretSpell)) {
+                if (check_input(app::AbilityType__Enum::TurretSpell))
+                    call_override(app::AbilityType__Enum::TurretSpell);
             } else
                 UpdateCharacterState(this_ptr);
         }
 
         IL2CPP_INTERCEPT(, SeinGlowSpell, void, UpdateCharacterState, (app::SeinGlowSpell * this_ptr)) {
-            if (has_override(app::AbilityType__Enum_GlowSpell)) {
-                if (check_input(app::AbilityType__Enum_GlowSpell))
-                    call_override(app::AbilityType__Enum_GlowSpell);
+            if (has_override(app::AbilityType__Enum::GlowSpell)) {
+                if (check_input(app::AbilityType__Enum::GlowSpell))
+                    call_override(app::AbilityType__Enum::GlowSpell);
             } else
                 UpdateCharacterState(this_ptr);
         }
 
         IL2CPP_INTERCEPT(, SeinFeatherFlap, void, UpdateState, (app::SeinFeatherFlap * this_ptr)) {
-            if (has_override(app::AbilityType__Enum_FeatherFlap)) {
-                if (check_input(app::AbilityType__Enum_FeatherFlap))
-                    call_override(app::AbilityType__Enum_FeatherFlap);
+            if (has_override(app::AbilityType__Enum::FeatherFlap)) {
+                if (check_input(app::AbilityType__Enum::FeatherFlap))
+                    call_override(app::AbilityType__Enum::FeatherFlap);
             } else
                 SeinFeatherFlap::UpdateState(this_ptr);
         }
 
         IL2CPP_INTERCEPT(, SeinMeditateSpell, bool, get_ButtonDown, (app::SeinMeditateSpell * this_ptr)) {
             auto value = SeinMeditateSpell::get_ButtonDown(this_ptr);
-            auto o = overrides.find(app::AbilityType__Enum_Regenerate);
+            auto o = overrides.find(app::AbilityType__Enum::Regenerate);
             if (o == overrides.end())
                 return value;
 
             if (value)
-                o->second(app::AbilityType__Enum_Regenerate);
+                o->second(app::AbilityType__Enum::Regenerate);
 
             return false;
         }

@@ -66,10 +66,10 @@ namespace randomizer {
                     else {
                         auto code = static_cast<app::KeyCode__Enum>(button);
                         input.codes.push_back(code);
-                        input.shift |= code == app::KeyCode__Enum_LeftShift || code == app::KeyCode__Enum_RightShift;
-                        input.ctrl |= code == app::KeyCode__Enum_LeftControl || code == app::KeyCode__Enum_RightControl;
-                        input.alt |= code == app::KeyCode__Enum_LeftAlt || code == app::KeyCode__Enum_RightAlt;
-                        input.altgr |= code == app::KeyCode__Enum_AltGr;
+                        input.shift |= code == app::KeyCode__Enum::LeftShift || code == app::KeyCode__Enum::RightShift;
+                        input.ctrl |= code == app::KeyCode__Enum::LeftControl || code == app::KeyCode__Enum::RightControl;
+                        input.alt |= code == app::KeyCode__Enum::LeftAlt || code == app::KeyCode__Enum::RightAlt;
+                        input.altgr |= code == app::KeyCode__Enum::AltGr;
                     }
                 }
 
@@ -93,10 +93,10 @@ namespace randomizer {
             STATIC_IL2CPP_BINDING(UnityEngine, Input, bool, GetMouseButton, (int button));
             bool is_pressed(KeyboardMouseInput const& input) {
                 if (input.respects_modifiers) {
-                    auto shift = Input::GetKeyInt(app::KeyCode__Enum_LeftShift) || Input::GetKeyInt(app::KeyCode__Enum_RightShift);
-                    auto ctrl = Input::GetKeyInt(app::KeyCode__Enum_LeftControl) || Input::GetKeyInt(app::KeyCode__Enum_RightControl);
-                    auto alt = Input::GetKeyInt(app::KeyCode__Enum_LeftAlt) || Input::GetKeyInt(app::KeyCode__Enum_RightAlt);
-                    // auto altgr = Input::GetKeyInt(app::KeyCode__Enum_AltGr);
+                    auto shift = Input::GetKeyInt(app::KeyCode__Enum::LeftShift) || Input::GetKeyInt(app::KeyCode__Enum::RightShift);
+                    auto ctrl = Input::GetKeyInt(app::KeyCode__Enum::LeftControl) || Input::GetKeyInt(app::KeyCode__Enum::RightControl);
+                    auto alt = Input::GetKeyInt(app::KeyCode__Enum::LeftAlt) || Input::GetKeyInt(app::KeyCode__Enum::RightAlt);
+                    // auto altgr = Input::GetKeyInt(app::KeyCode__Enum::AltGr);
 
                     if (input.shift != shift || input.ctrl != ctrl || input.alt != alt)
                         return false;

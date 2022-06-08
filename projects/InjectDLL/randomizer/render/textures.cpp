@@ -43,10 +43,10 @@ namespace randomizer {
 
         void add_default_param(app::Renderer* renderer) {
             MaterialParams mparams;
-            auto texture = il2cpp::gchandle_new_weak(randomizer::shaders::UberShaderAPI::GetTexture(renderer, app::UberShaderProperty_Texture__Enum_MainTexture), true);
-            mparams.uvs = randomizer::shaders::UberShaderAPI::GetTextureAtlasUVs(renderer, app::UberShaderProperty_Texture__Enum_MainTexture);
-            mparams.scroll_rot = randomizer::shaders::UberShaderAPI::GetTextureScrollRotData(renderer, app::UberShaderProperty_Texture__Enum_MainTexture);
-            mparams.color = randomizer::shaders::UberShaderAPI::GetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor);
+            auto texture = il2cpp::gchandle_new_weak(randomizer::shaders::UberShaderAPI::GetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture), true);
+            mparams.uvs = randomizer::shaders::UberShaderAPI::GetTextureAtlasUVs(renderer, app::UberShaderProperty_Texture__Enum::MainTexture);
+            mparams.scroll_rot = randomizer::shaders::UberShaderAPI::GetTextureScrollRotData(renderer, app::UberShaderProperty_Texture__Enum::MainTexture);
+            mparams.color = randomizer::shaders::UberShaderAPI::GetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor);
             default_params[renderer] = std::make_pair(texture, mparams);
         }
 
@@ -80,7 +80,7 @@ namespace randomizer {
             if (texture.has_value()) {
                 auto texture_ptr = get();
                 if (texture_ptr != nullptr)
-                    randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, texture_ptr);
+                    randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, texture_ptr);
             }
         }
 
@@ -90,13 +90,13 @@ namespace randomizer {
 
             auto param = extra != nullptr ? extra : &local;
             if (param->uvs.has_value())
-                randomizer::shaders::UberShaderAPI::SetTextureAtlasUVs(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, &param->uvs.value());
+                randomizer::shaders::UberShaderAPI::SetTextureAtlasUVs(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, &param->uvs.value());
 
             if (param->scroll_rot.has_value())
-                randomizer::shaders::UberShaderAPI::SetTextureScrollRotData(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, &param->scroll_rot.value());
+                randomizer::shaders::UberShaderAPI::SetTextureScrollRotData(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, &param->scroll_rot.value());
 
             if (param->color.has_value())
-                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor, &param->color.value());
+                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &param->color.value());
         }
 
         void TextureData::apply_texture_unity(app::Renderer* renderer) {
@@ -164,10 +164,10 @@ namespace randomizer {
 
             auto& pair = default_params[renderer];
             auto& param = pair.second;
-            randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, il2cpp::gchandle_target<app::Texture>(pair.first));
-            randomizer::shaders::UberShaderAPI::SetTextureAtlasUVs(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, &param.uvs.value());
-            randomizer::shaders::UberShaderAPI::SetTextureScrollRotData(renderer, app::UberShaderProperty_Texture__Enum_MainTexture, &param.scroll_rot.value());
-            randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor, &param.color.value());
+            randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, il2cpp::gchandle_target<app::Texture>(pair.first));
+            randomizer::shaders::UberShaderAPI::SetTextureAtlasUVs(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, &param.uvs.value());
+            randomizer::shaders::UberShaderAPI::SetTextureScrollRotData(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, &param.scroll_rot.value());
+            randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &param.color.value());
         }
 
         void TextureData::set_texture(app::Texture* texture_ptr) {
@@ -323,7 +323,7 @@ namespace randomizer {
 
                     auto texture_ptr = il2cpp::create_object<app::Texture2D>("UnityEngine", "Texture2D");
 
-                    auto format = n == 3 ? app::TextureFormat__Enum_RGB24 : app::TextureFormat__Enum_RGBA32;
+                    auto format = n == 3 ? app::TextureFormat__Enum::RGB24 : app::TextureFormat__Enum::RGBA32;
                     Texture2D::ctor(texture_ptr, x, y, format, false, false);
                     Texture2D::LoadRawTextureData(texture_ptr, png_data, x * y * n);
                     Texture2D::Apply(texture_ptr, true, false);

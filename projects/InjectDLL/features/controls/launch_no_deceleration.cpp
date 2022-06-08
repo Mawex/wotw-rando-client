@@ -30,7 +30,7 @@ namespace {
 
         auto* sein = game::player::sein();
         auto* wrapper = sein->fields.Abilities->fields.ChargeJumpWrapper;
-        if (wrapper->fields.HasState && wrapper->fields.State->fields.m_state == app::SeinChargeJump_State__Enum_Aiming) {
+        if (wrapper->fields.HasState && wrapper->fields.State->fields.m_state == app::SeinChargeJump_State__Enum::Aiming) {
             aim_timer = NO_AIR_DECELERATION_DURATION;
             if (reset_timer > 0.0f)
                 this_ptr->fields.m_noDeceleration = true;

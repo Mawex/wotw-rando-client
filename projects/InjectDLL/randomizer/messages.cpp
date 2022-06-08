@@ -56,7 +56,7 @@ namespace {
 
     IL2CPP_BINDING(, MessageProvider, app::String__Array*, GetAllMessages, (app::MessageProvider * this_ptr));
     IL2CPP_INTERCEPT(, MessageControllerB, app::MessageBox*, ShowPickupMessage, (app::MessageControllerB * this_ptr, app::MessageProvider* message_provider, app::PickupContext* context, bool lockInput)) {
-        if (context->fields.PickupType == app::PickupMessageIcon_PickupType__Enum_QuestItem) {
+        if (context->fields.PickupType == app::PickupMessageIcon_PickupType__Enum::QuestItem) {
             auto arr = MessageProvider::GetAllMessages(context->fields.Name);
             if (arr->max_length > 0) {
                 auto name = il2cpp::convert_csstring(arr->vector[0]);
@@ -94,9 +94,9 @@ namespace {
         float fadeout = 0.5f;
         app::Color color = { 1.0f, 1.0f, 1.0f, 1.0f };
         float size = 1.0f;
-        app::AlignmentMode__Enum alignment = app::AlignmentMode__Enum_Center;
-        app::HorizontalAnchorMode__Enum horizontal_anchor = app::HorizontalAnchorMode__Enum_Center;
-        app::VerticalAnchorMode__Enum vertical_anchor = app::VerticalAnchorMode__Enum_Middle;
+        app::AlignmentMode__Enum alignment = app::AlignmentMode__Enum::Center;
+        app::HorizontalAnchorMode__Enum horizontal_anchor = app::HorizontalAnchorMode__Enum::Center;
+        app::VerticalAnchorMode__Enum vertical_anchor = app::VerticalAnchorMode__Enum::Middle;
         float line_spacing = 1.0f;
         creation_callback callback = nullptr;
         app::GameObject* obj = nullptr;
@@ -700,7 +700,7 @@ INJECT_C_DLLEXPORT bool should_handle_messages() {
     if (sein == nullptr || sein->fields.LogicCycle == nullptr)
         return false;
 
-    if (SeinLogicCycle::GetFlags(sein->fields.LogicCycle, app::SeinLogicCycle_StateFlags__Enum_IsInteracting) == 0)
+    if (SeinLogicCycle::GetFlags(sein->fields.LogicCycle, app::SeinLogicCycle_StateFlags__Enum::IsInteracting) == 0)
         return true;
 
     return false;

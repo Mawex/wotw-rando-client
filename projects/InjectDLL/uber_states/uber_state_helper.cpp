@@ -337,7 +337,7 @@ INJECT_C_DLLEXPORT void set_ability_level(app::AbilityType__Enum type, int value
 INJECT_C_DLLEXPORT app::GameWorldAreaID__Enum get_player_area() {
     app::GameWorld* game_world = il2cpp::get_class<app::GameWorld__Class>("", "GameWorld")->static_fields->Instance;
     if (game_world == nullptr || game_world->fields.CurrentArea == nullptr || game_world->fields.CurrentArea->fields.Area == nullptr)
-        return app::GameWorldAreaID__Enum_None;
+        return app::GameWorldAreaID__Enum::None;
     return game_world->fields.CurrentArea->fields.Area->fields.WorldMapAreaUniqueID;
 }
 
@@ -356,6 +356,6 @@ INJECT_C_DLLEXPORT bool is_loading_game() {
 
     auto scene_name = il2cpp::convert_csstring(scene->fields.Scene);
     auto game_state_machine = il2cpp::get_class<app::GameStateMachine__Class>("", "GameStateMachine")->static_fields->m_instance;
-    return game_state_machine->fields._CurrentState_k__BackingField == app::GameStateMachine_State__Enum_Game &&
+    return game_state_machine->fields._CurrentState_k__BackingField == app::GameStateMachine_State__Enum::Game &&
             (scene_name == "wotwTitleScreen" || scene_name == "kuFlyAway");
 }

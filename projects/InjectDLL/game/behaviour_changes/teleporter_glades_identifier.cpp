@@ -18,7 +18,7 @@ namespace {
             return false;
 
         auto area = get_player_area();
-        if (area != app::GameWorldAreaID__Enum_WellspringGlades)
+        if (area != app::GameWorldAreaID__Enum::WellspringGlades)
             return false;
 
         // We are in glades TP, activate that one instead.

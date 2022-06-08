@@ -22,14 +22,14 @@ using namespace modloader;
 
 namespace {
     const std::set<app::SpiritShardType__Enum> TWILLEN_SHARDS{
-        app::SpiritShardType__Enum_GlassCannon,
-        app::SpiritShardType__Enum_TripleJump,
-        app::SpiritShardType__Enum_AntiAir,
-        app::SpiritShardType__Enum_Swap,
-        app::SpiritShardType__Enum_SpiritLightLuck,
-        app::SpiritShardType__Enum_Vitality,
-        app::SpiritShardType__Enum_Energy,
-        app::SpiritShardType__Enum_CombatLuck
+        app::SpiritShardType__Enum::GlassCannon,
+        app::SpiritShardType__Enum::TripleJump,
+        app::SpiritShardType__Enum::AntiAir,
+        app::SpiritShardType__Enum::Swap,
+        app::SpiritShardType__Enum::SpiritLightLuck,
+        app::SpiritShardType__Enum::Vitality,
+        app::SpiritShardType__Enum::Energy,
+        app::SpiritShardType__Enum::CombatLuck
     };
 
     std::unordered_map<uint8_t, shops::ShopItem> twillen_overrides;
@@ -131,7 +131,7 @@ namespace {
                 if (it->second.description != 0)
                     description_provider = reinterpret_cast<app::MessageProvider*>(il2cpp::gchandle_target(it->second.description));
             } else
-                type = app::SpiritShardType__Enum_None;
+                type = app::SpiritShardType__Enum::None;
 
             auto is_visible = PlayerUberStateShards::Shard::get_VisibleInShop_intercept(item);
             auto is_locked = PlayerUberStateShards::Shard::get_PurchasableInShop(item);
@@ -156,7 +156,7 @@ namespace {
 
         auto* const description = il2cpp::invoke<app::SpiritShardDescription>(settings->fields.Descriptions, "GetValue", &type);
         if (!(item->fields.m_gained || !this_ptr->fields.RequireOwned) || locked_shard_overwrite)
-            type = app::SpiritShardType__Enum_None;
+            type = app::SpiritShardType__Enum::None;
 
         if (settings != nullptr) {
             auto* const renderer = il2cpp::unity::get_component<app::Renderer>(this_ptr->fields.IconGO, "UnityEngine", "Renderer");
@@ -208,7 +208,7 @@ namespace {
             il2cpp::invoke(this_ptr->fields.LevelNextDescriptionGO, "SetActive", &active);
 
             if (this_ptr->fields.ShowEquipStatus)
-                SpellUIShardEquipStatus::SetEquipment(this_ptr->fields.m_equipStatus, app::EquipmentType__Enum_None);
+                SpellUIShardEquipStatus::SetEquipment(this_ptr->fields.m_equipStatus, app::EquipmentType__Enum::None);
         }
     }
 
@@ -245,7 +245,7 @@ namespace {
             auto renderer = il2cpp::unity::get_components<app::Renderer>(
                     this_ptr->fields.IconGO, "UnityEngine", "Renderer"
             )[0];
-            auto shard = this_ptr->fields.m_spiritShard != nullptr ? this_ptr->fields.m_spiritShard->fields.m_type : app::SpiritShardType__Enum_None;
+            auto shard = this_ptr->fields.m_spiritShard != nullptr ? this_ptr->fields.m_spiritShard->fields.m_type : app::SpiritShardType__Enum::None;
             auto is_visible = this_ptr->fields.m_spiritShard != nullptr ? PlayerUberStateShards::Shard::get_VisibleInShop_intercept(this_ptr->fields.m_spiritShard) : false;
             auto is_locked = this_ptr->fields.m_spiritShard != nullptr ? !PlayerUberStateShards::Shard::get_PurchasableInShop_intercept(this_ptr->fields.m_spiritShard) : true;
             GameObject::SetActive(this_ptr->fields.IconGO, is_visible);
@@ -285,11 +285,11 @@ namespace {
             auto renderer = il2cpp::unity::get_component<app::Renderer>(this_ptr->fields.Shard->fields.IconGO, "UnityEngine", "Renderer");
             auto background_renderer = il2cpp::unity::get_component<app::Renderer>(this_ptr->fields.Shard->fields.Background, "UnityEngine", "Renderer");
             if ((purchasable && !owned) && (affordable && !owned)) {
-                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor, &this_ptr->fields.PurchasableColor);
-                randomizer::shaders::UberShaderAPI::SetColor(background_renderer, app::UberShaderProperty_Color__Enum_MainColor, &this_ptr->fields.PurchasableColor);
+                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &this_ptr->fields.PurchasableColor);
+                randomizer::shaders::UberShaderAPI::SetColor(background_renderer, app::UberShaderProperty_Color__Enum::MainColor, &this_ptr->fields.PurchasableColor);
             } else {
-                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor, &this_ptr->fields.UnpurchaseableColor);
-                randomizer::shaders::UberShaderAPI::SetColor(background_renderer, app::UberShaderProperty_Color__Enum_MainColor, &this_ptr->fields.UnpurchaseableColor);
+                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &this_ptr->fields.UnpurchaseableColor);
+                randomizer::shaders::UberShaderAPI::SetColor(background_renderer, app::UberShaderProperty_Color__Enum::MainColor, &this_ptr->fields.UnpurchaseableColor);
             }
 
             auto descriptions = il2cpp::get_class<app::SpiritShardSettings__Class>("", "SpiritShardSettings")->static_fields->Instance->fields.Descriptions;

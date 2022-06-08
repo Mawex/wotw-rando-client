@@ -230,11 +230,11 @@ namespace {
     }
 
     IL2CPP_INTERCEPT(, SeinTurretSpell, void, ChangeState, (app::SeinTurretSpell * this_ptr, app::SeinTurretSpell_State__Enum state)) {
-        if (state == app::SeinTurretSpell_State__Enum_StartReleasing)
+        if (state == app::SeinTurretSpell_State__Enum::StartReleasing)
             on_sentry.set(1);
 
         ChangeState(this_ptr, state);
-        if (state == app::SeinTurretSpell_State__Enum_Idle && on_sentry.get<bool>())
+        if (state == app::SeinTurretSpell_State__Enum::Idle && on_sentry.get<bool>())
             on_sentry.set(0);
     }
 
@@ -311,11 +311,11 @@ namespace {
     }
 
     IL2CPP_INTERCEPT(, SeinSwimming, void, ChangeState, (app::SeinSwimming * this_ptr, app::SeinSwimming_State__Enum state)) {
-        out_of_water = state == app::SeinSwimming_State__Enum_OutOfWater;
-        swimming_on_surface = state == app::SeinSwimming_State__Enum_SwimmingOnSurface;
+        out_of_water = state == app::SeinSwimming_State__Enum::OutOfWater;
+        swimming_on_surface = state == app::SeinSwimming_State__Enum::SwimmingOnSurface;
         switch (state) {
-            case app::SeinSwimming_State__Enum_Dashing:
-            case app::SeinSwimming_State__Enum_SurfaceDash:
+            case app::SeinSwimming_State__Enum::Dashing:
+            case app::SeinSwimming_State__Enum::SurfaceDash:
                 on_water_dash.set(1);
                 break;
             default:
@@ -343,9 +343,9 @@ namespace {
         auto old = this_ptr->fields.CurrentState;
         UpdateCharacterState(this_ptr);
         auto current = this_ptr->fields.CurrentState;
-        if (old != app::SeinMeditateSpell_State__Enum_Heal && current == app::SeinMeditateSpell_State__Enum_Heal)
+        if (old != app::SeinMeditateSpell_State__Enum::Heal && current == app::SeinMeditateSpell_State__Enum::Heal)
             on_regenerate.set(1);
-        else if (old == app::SeinMeditateSpell_State__Enum_Heal && current == app::SeinMeditateSpell_State__Enum_Idle)
+        else if (old == app::SeinMeditateSpell_State__Enum::Heal && current == app::SeinMeditateSpell_State__Enum::Idle)
             on_regenerate.set(0);
     }
 } // namespace

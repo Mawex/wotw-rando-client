@@ -4,6 +4,7 @@
 #include <il2cpp_helpers.h>
 #include <interception.h>
 #include <windows_api/console.h>
+#include <windows_api/memory.h>
 #include <windows_api/detours.h>
 
 #include <fstream>

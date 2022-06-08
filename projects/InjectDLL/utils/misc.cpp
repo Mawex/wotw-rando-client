@@ -9,7 +9,7 @@ namespace utils {
     void set_color(app::GameObject* go, app::Color& color, bool first) {
         auto renderers = il2cpp::unity::get_components_in_children<app::Renderer>(go, "UnityEngine", "Renderer");
         for (auto renderer : renderers) {
-            auto prev_color = randomizer::shaders::UberShaderAPI::GetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor);
+            auto prev_color = randomizer::shaders::UberShaderAPI::GetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor);
             app::Color actual_color = color;
             if (prev_color.a > 0.5f) {
                 if (prev_color.a < 0.9f) {
@@ -24,7 +24,7 @@ namespace utils {
                 }
 
                 actual_color.a = prev_color.a;
-                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum_MainColor, &actual_color);
+                randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &actual_color);
             }
         }
     }

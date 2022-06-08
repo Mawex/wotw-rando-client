@@ -26,15 +26,15 @@ namespace {
     };
 
     std::unordered_map<app::GameWorldAreaID__Enum, static_text_entries> text_overrides{
-        { app::GameWorldAreaID__Enum_InkwaterMarsh, static_text_entries::LupoMarshIntroduction },
-        { app::GameWorldAreaID__Enum_KwoloksHollow, static_text_entries::LupoHollowIntroduction },
-        { app::GameWorldAreaID__Enum_WaterMill, static_text_entries::LupoWellspringIntroduction },
-        { app::GameWorldAreaID__Enum_MidnightBurrow, static_text_entries::LupoBurrowIntroduction },
-        { app::GameWorldAreaID__Enum_BaursReach, static_text_entries::LupoReachIntroduction },
-        { app::GameWorldAreaID__Enum_LumaPools, static_text_entries::LupoPoolsIntroduction },
-        { app::GameWorldAreaID__Enum_MouldwoodDepths, static_text_entries::LupoDepthsIntroduction },
-        { app::GameWorldAreaID__Enum_WindsweptWastes, static_text_entries::LupoWastesIntroduction },
-        { app::GameWorldAreaID__Enum_WillowsEnd, static_text_entries::LupoWillowIntroduction },
+        { app::GameWorldAreaID__Enum::InkwaterMarsh, static_text_entries::LupoMarshIntroduction },
+        { app::GameWorldAreaID__Enum::KwoloksHollow, static_text_entries::LupoHollowIntroduction },
+        { app::GameWorldAreaID__Enum::WaterMill, static_text_entries::LupoWellspringIntroduction },
+        { app::GameWorldAreaID__Enum::MidnightBurrow, static_text_entries::LupoBurrowIntroduction },
+        { app::GameWorldAreaID__Enum::BaursReach, static_text_entries::LupoReachIntroduction },
+        { app::GameWorldAreaID__Enum::LumaPools, static_text_entries::LupoPoolsIntroduction },
+        { app::GameWorldAreaID__Enum::MouldwoodDepths, static_text_entries::LupoDepthsIntroduction },
+        { app::GameWorldAreaID__Enum::WindsweptWastes, static_text_entries::LupoWastesIntroduction },
+        { app::GameWorldAreaID__Enum::WillowsEnd, static_text_entries::LupoWillowIntroduction },
     };
 
     app::GameWorld* get_game_world() {
@@ -92,7 +92,7 @@ namespace {
         return true;
     }
 
-    app::GameWorldAreaID__Enum area_id = app::GameWorldAreaID__Enum_None;
+    app::GameWorldAreaID__Enum area_id = app::GameWorldAreaID__Enum::None;
 
     IL2CPP_BINDING(, GameMapUI, app::RuntimeGameWorldArea*, get_CurrentHighlightedArea, (app::GameMapUI * this_ptr));
     IL2CPP_INTERCEPT(, GameMapUI, void, FixedUpdate, (app::GameMapUI * this_ptr)) {
@@ -158,7 +158,7 @@ namespace {
     }
 
     void on_area_map(GameEvent game_event, EventTiming timing) {
-        area_id = app::GameWorldAreaID__Enum_None;
+        area_id = app::GameWorldAreaID__Enum::None;
     }
 
     void initialize() {

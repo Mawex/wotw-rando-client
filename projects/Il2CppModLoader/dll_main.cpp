@@ -5,8 +5,9 @@
 #include <il2cpp_helpers.h>
 #include <interception_macros.h>
 #include <macros.h>
-#include <windows_api/console.h>
 #include <windows_api/common.h>
+#include <windows_api/console.h>
+#include <windows_api/bootstrap.h>
 
 #include <fstream>
 #include <string>
@@ -27,8 +28,8 @@ namespace modloader {
     Il2CppExceptionWrapper ex;
 
     std::string base_path = "C:\\moon\\";
-    std::string mod_title = "Randomizer";
     std::string modloader_path = "modloader_config.json";
+    std::string mod_title = "Randomizer";
     std::string csv_path = "inject_log.csv";
     bool shutdown_thread = false;
 
@@ -111,9 +112,6 @@ namespace modloader {
 
     bool attached = false;
 
-    extern bool bootstrap();
-    extern void bootstrap_shutdown();
-
     STATIC_IL2CPP_BINDING(UnityEngine, Application, app::String*, get_version, ());
     STATIC_IL2CPP_BINDING(UnityEngine, Application, app::String*, get_unityVersion, ());
     STATIC_IL2CPP_BINDING(UnityEngine, Application, app::String*, get_productName, ());
@@ -136,7 +134,7 @@ namespace modloader {
         }
 
         trace(MessageType::Info, 5, "initialize", "Loading mods.");
-        if (!bootstrap()) {
+        if (!bootstrap::bootstrap()) {
             trace(MessageType::Info, 5, "initialize", "Failed to bootstrap, shutting down.");
             csv_file.close();
             shutdown_thread = true;
@@ -163,7 +161,7 @@ namespace modloader {
             csv_file.close();
 
         intercept::interception_detach();
-        bootstrap_shutdown();
+        bootstrap::bootstrap_shutdown();
         common::free_library_and_exit_thread("Il2CppModLoader.dll");
     }
 

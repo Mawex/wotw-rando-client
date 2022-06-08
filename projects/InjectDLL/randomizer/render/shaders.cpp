@@ -91,7 +91,7 @@ namespace randomizer {
 
         ShaderInfo get_info(app::Renderer* renderer) {
             ShaderInfo info;
-            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Texture__Enum_TotalTextureProperties); ++i) {
+            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Texture__Enum::TotalTextureProperties); ++i) {
                 auto value = static_cast<app::UberShaderProperty_Texture__Enum>(i);
                 TextureBlock block;
                 for (int j = 0; j < 6; ++j) {
@@ -110,19 +110,19 @@ namespace randomizer {
                 }
             }
 
-            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Color__Enum_TotalColorProperties); ++i) {
+            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Color__Enum::TotalColorProperties); ++i) {
                 auto value = static_cast<app::UberShaderProperty_Color__Enum>(i);
                 if (UberShaderAPI::HasPropertyColor(renderer, value))
                     info.colors.push_back({ value, UberShaderAPI::GetColor(renderer, value) });
             }
 
-            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Vector__Enum_TotalVectorProperties); ++i) {
+            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Vector__Enum::TotalVectorProperties); ++i) {
                 auto value = static_cast<app::UberShaderProperty_Vector__Enum>(i);
                 if (UberShaderAPI::HasPropertyVector(renderer, value))
                     info.vectors.push_back({ value, UberShaderAPI::GetVector(renderer, value) });
             }
 
-            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Float__Enum_TotalFloatProperties); ++i) {
+            for (int i = 0; i < static_cast<int>(app::UberShaderProperty_Float__Enum::TotalFloatProperties); ++i) {
                 auto value = static_cast<app::UberShaderProperty_Float__Enum>(i);
                 if (UberShaderAPI::HasPropertyFloat(renderer, value))
                     info.floats.push_back({ value, UberShaderAPI::GetFloat(renderer, value) });

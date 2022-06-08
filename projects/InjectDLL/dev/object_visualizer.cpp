@@ -36,10 +36,10 @@ namespace dev {
 
             std::string get_full_name(void* obj) {
                 auto cast = reinterpret_cast<Il2CppObject*>(obj);
-                if (std::string(cast->klass->namespaze).empty())
-                    return cast->klass->name;
+                if (std::string(cast->Il2CppClass.klass->namespaze).empty())
+                    return cast->Il2CppClass.klass->name;
                 else
-                    return format("%s.%s", cast->klass->namespaze, cast->klass->name);
+                    return format("%s.%s", cast->Il2CppClass.klass->namespaze, cast->Il2CppClass.klass->name);
             }
 
             void indent(Visualizer& visualizer, int pre = 0, int post = 0) {
@@ -151,9 +151,9 @@ namespace dev {
                         indent(visualizer);
 
                     if (is_value_type)
-                        vis(visualizer, reinterpret_cast<Il2CppObject*>(&element[i * arr->klass->_1.element_size]));
+                        vis(visualizer, reinterpret_cast<Il2CppObject*>(&element[i * arr->Il2CppClass.klass->_1.element_size]));
                     else if (is_value_type)
-                        vis(visualizer, reinterpret_cast<Il2CppObject*>(element[i * arr->klass->_1.element_size]));
+                        vis(visualizer, reinterpret_cast<Il2CppObject*>(element[i * arr->Il2CppClass.klass->_1.element_size]));
                 }
 
                 indent(visualizer, -1);
@@ -633,7 +633,7 @@ namespace dev {
                     return;
                 }
 
-                auto klass = current.first->klass;
+                auto klass = current.first->Il2CppClass.klass;
                 while (klass != nullptr) {
                     std::string full_name = get_full_name(klass);
                     auto it = visualizers.find(full_name);
@@ -649,7 +649,7 @@ namespace dev {
                 if (klass == nullptr) {
                     indent(visualizer);
                     std::string full_name = get_full_name(current.first);
-                    visualizer.stream << full_name << " - " << std::noshowbase << std::dec << reinterpret_cast<uint64_t>(current.first->klass) << visualizer.new_line;
+                    visualizer.stream << full_name << " - " << std::noshowbase << std::dec << reinterpret_cast<uint64_t>(current.first->Il2CppClass.klass) << visualizer.new_line;
                 }
             }
         }

@@ -158,7 +158,7 @@ namespace {
         description_box->fields.MessageProvider = temp;
 
         if (this_ptr->fields.ShowEquipStatus != false)
-            SpellUIShardEquipStatus::SetEquipment(this_ptr->fields.m_equipStatus, app::EquipmentType__Enum_None);
+            SpellUIShardEquipStatus::SetEquipment(this_ptr->fields.m_equipStatus, app::EquipmentType__Enum::None);
     }
 
     bool should_special_handle_shop() {

@@ -26,29 +26,29 @@ namespace {
     }
 
     std::unordered_map<uint16_t, uber_states::UberState> opher_weapon_costs{
-        { opher_key(app::AbilityType__Enum_WaterBreath, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10023) }, // Water breath
-        { opher_key(app::AbilityType__Enum_SpiritSpearSpell, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10074) }, // Spike
-        { opher_key(app::AbilityType__Enum_Hammer, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10098) }, // Hammer
+        { opher_key(app::AbilityType__Enum::WaterBreath, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10023) }, // Water breath
+        { opher_key(app::AbilityType__Enum::SpiritSpearSpell, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10074) }, // Spike
+        { opher_key(app::AbilityType__Enum::Hammer, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10098) }, // Hammer
         { opher_key(255, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10105) }, // Fast Travel
-        { opher_key(app::AbilityType__Enum_ChakramSpell, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10106) }, // Shuriken
-        { opher_key(app::AbilityType__Enum_Blaze, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10115) }, // Blaze
-        { opher_key(app::AbilityType__Enum_TurretSpell, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10116) }, // Sentry
-        { opher_key(255, app::AbilityType__Enum_SpiritSpearSpell), uber_states::UberState(UberStateGroup::OpherWeapon, 11074) }, // Exploding Spike
-        { opher_key(255, app::AbilityType__Enum_Hammer), uber_states::UberState(UberStateGroup::OpherWeapon, 11098) }, // Shock Smash
-        { opher_key(255, app::AbilityType__Enum_ChakramSpell), uber_states::UberState(UberStateGroup::OpherWeapon, 11106) }, // Static Shuriken
-        { opher_key(255, app::AbilityType__Enum_Blaze), uber_states::UberState(UberStateGroup::OpherWeapon, 11115) }, // Charged Blaze
-        { opher_key(255, app::AbilityType__Enum_TurretSpell), uber_states::UberState(UberStateGroup::OpherWeapon, 11116) }, // Rapid Sentry
+        { opher_key(app::AbilityType__Enum::ChakramSpell, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10106) }, // Shuriken
+        { opher_key(app::AbilityType__Enum::Blaze, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10115) }, // Blaze
+        { opher_key(app::AbilityType__Enum::TurretSpell, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10116) }, // Sentry
+        { opher_key(255, app::AbilityType__Enum::SpiritSpearSpell), uber_states::UberState(UberStateGroup::OpherWeapon, 11074) }, // Exploding Spike
+        { opher_key(255, app::AbilityType__Enum::Hammer), uber_states::UberState(UberStateGroup::OpherWeapon, 11098) }, // Shock Smash
+        { opher_key(255, app::AbilityType__Enum::ChakramSpell), uber_states::UberState(UberStateGroup::OpherWeapon, 11106) }, // Static Shuriken
+        { opher_key(255, app::AbilityType__Enum::Blaze), uber_states::UberState(UberStateGroup::OpherWeapon, 11115) }, // Charged Blaze
+        { opher_key(255, app::AbilityType__Enum::TurretSpell), uber_states::UberState(UberStateGroup::OpherWeapon, 11116) }, // Rapid Sentry
     };
 
     IL2CPP_INTERCEPT(, WeaponmasterItem, bool, get_IsOwned, (app::WeaponmasterItem * item)) {
         if (shops::is_in_shop(shops::ShopType::Opher)) {
             const app::AbilityType__Enum granted_type = item->fields.Upgrade->fields.AcquiredAbilityType;
             const app::AbilityType__Enum required_type = item->fields.Upgrade->fields.RequiredAbility;
-            if (granted_type != app::AbilityType__Enum_None)
+            if (granted_type != app::AbilityType__Enum::None)
                 return csharp_bridge::opher_bought_weapon(granted_type);
 
-            if (required_type == app::AbilityType__Enum_None) // fast travel; 255, 255 -> 105, 0
-                return csharp_bridge::opher_bought_weapon(app::AbilityType__Enum_TeleportSpell);
+            if (required_type == app::AbilityType__Enum::None) // fast travel; 255, 255 -> 105, 0
+                return csharp_bridge::opher_bought_weapon(app::AbilityType__Enum::TeleportSpell);
 
             return csharp_bridge::opher_bought_upgrade(required_type);
         }
@@ -92,12 +92,12 @@ namespace {
         weaponmaster_purchase_in_progress = false;
         // Weaponmasteritem$$DoPurchase
         const auto ability_type = item->fields.Upgrade->fields.AcquiredAbilityType;
-        if (ability_type != app::AbilityType__Enum_None) {
+        if (ability_type != app::AbilityType__Enum::None) {
             csharp_bridge::opher_buy_weapon(ability_type);
         } else {
             const auto required_type = item->fields.Upgrade->fields.RequiredAbility;
-            if (required_type == app::AbilityType__Enum_None) // fast travel; 255, 255 -> 105, 0
-                csharp_bridge::opher_buy_weapon(app::AbilityType__Enum_TeleportSpell);
+            if (required_type == app::AbilityType__Enum::None) // fast travel; 255, 255 -> 105, 0
+                csharp_bridge::opher_buy_weapon(app::AbilityType__Enum::TeleportSpell);
             else
                 csharp_bridge::opher_buy_upgrade(required_type);
         }

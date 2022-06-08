@@ -64,42 +64,42 @@ namespace randomizer {
             }
 
             void initialize_buttons() {
-                axis_map[app::XboxControllerInput_Axis__Enum_LeftStickX] = create_axis_input(app::XboxControllerInput_Axis__Enum_LeftStickX);
-                axis_map[app::XboxControllerInput_Axis__Enum_LeftStickY] = create_axis_input(app::XboxControllerInput_Axis__Enum_LeftStickY);
-                axis_map[app::XboxControllerInput_Axis__Enum_RightStickX] = create_axis_input(app::XboxControllerInput_Axis__Enum_RightStickX);
-                axis_map[app::XboxControllerInput_Axis__Enum_RightStickY] = create_axis_input(app::XboxControllerInput_Axis__Enum_RightStickY);
-                axis_map[app::XboxControllerInput_Axis__Enum_DpadX] = create_axis_input(app::XboxControllerInput_Axis__Enum_DpadX);
-                axis_map[app::XboxControllerInput_Axis__Enum_DpadY] = create_axis_input(app::XboxControllerInput_Axis__Enum_DpadY);
-                axis_map[app::XboxControllerInput_Axis__Enum_LeftTrigger] = create_axis_input(app::XboxControllerInput_Axis__Enum_LeftTrigger);
-                axis_map[app::XboxControllerInput_Axis__Enum_RightTrigger] = create_axis_input(app::XboxControllerInput_Axis__Enum_RightTrigger);
+                axis_map[app::XboxControllerInput_Axis__Enum::LeftStickX] = create_axis_input(app::XboxControllerInput_Axis__Enum::LeftStickX);
+                axis_map[app::XboxControllerInput_Axis__Enum::LeftStickY] = create_axis_input(app::XboxControllerInput_Axis__Enum::LeftStickY);
+                axis_map[app::XboxControllerInput_Axis__Enum::RightStickX] = create_axis_input(app::XboxControllerInput_Axis__Enum::RightStickX);
+                axis_map[app::XboxControllerInput_Axis__Enum::RightStickY] = create_axis_input(app::XboxControllerInput_Axis__Enum::RightStickY);
+                axis_map[app::XboxControllerInput_Axis__Enum::DpadX] = create_axis_input(app::XboxControllerInput_Axis__Enum::DpadX);
+                axis_map[app::XboxControllerInput_Axis__Enum::DpadY] = create_axis_input(app::XboxControllerInput_Axis__Enum::DpadY);
+                axis_map[app::XboxControllerInput_Axis__Enum::LeftTrigger] = create_axis_input(app::XboxControllerInput_Axis__Enum::LeftTrigger);
+                axis_map[app::XboxControllerInput_Axis__Enum::RightTrigger] = create_axis_input(app::XboxControllerInput_Axis__Enum::RightTrigger);
 
-                buttons_map[ControllerButton::LeftShoulder] = create_button_input(app::XboxControllerInput_Button__Enum_LeftShoulder);
-                buttons_map[ControllerButton::RightShoulder] = create_button_input(app::XboxControllerInput_Button__Enum_RightShoulder);
-                buttons_map[ControllerButton::LeftTrigger] = create_button_input(app::XboxControllerInput_Button__Enum_LeftTrigger);
-                buttons_map[ControllerButton::RightTrigger] = create_button_input(app::XboxControllerInput_Button__Enum_RightTrigger);
-                buttons_map[ControllerButton::Select] = create_button_input(app::XboxControllerInput_Button__Enum_Select);
-                buttons_map[ControllerButton::Start] = create_button_input(app::XboxControllerInput_Button__Enum_Start);
-                buttons_map[ControllerButton::LeftStick] = create_button_input(app::XboxControllerInput_Button__Enum_LeftStick);
-                buttons_map[ControllerButton::RightStick] = create_button_input(app::XboxControllerInput_Button__Enum_RightStick);
-                buttons_map[ControllerButton::ButtonA] = create_button_input(app::XboxControllerInput_Button__Enum_ButtonA);
-                buttons_map[ControllerButton::ButtonB] = create_button_input(app::XboxControllerInput_Button__Enum_ButtonB);
-                buttons_map[ControllerButton::ButtonX] = create_button_input(app::XboxControllerInput_Button__Enum_ButtonX);
-                buttons_map[ControllerButton::ButtonY] = create_button_input(app::XboxControllerInput_Button__Enum_ButtonY);
+                buttons_map[ControllerButton::LeftShoulder] = create_button_input(app::XboxControllerInput_Button__Enum::LeftShoulder);
+                buttons_map[ControllerButton::RightShoulder] = create_button_input(app::XboxControllerInput_Button__Enum::RightShoulder);
+                buttons_map[ControllerButton::LeftTrigger] = create_button_input(app::XboxControllerInput_Button__Enum::LeftTrigger);
+                buttons_map[ControllerButton::RightTrigger] = create_button_input(app::XboxControllerInput_Button__Enum::RightTrigger);
+                buttons_map[ControllerButton::Select] = create_button_input(app::XboxControllerInput_Button__Enum::Select);
+                buttons_map[ControllerButton::Start] = create_button_input(app::XboxControllerInput_Button__Enum::Start);
+                buttons_map[ControllerButton::LeftStick] = create_button_input(app::XboxControllerInput_Button__Enum::LeftStick);
+                buttons_map[ControllerButton::RightStick] = create_button_input(app::XboxControllerInput_Button__Enum::RightStick);
+                buttons_map[ControllerButton::ButtonA] = create_button_input(app::XboxControllerInput_Button__Enum::ButtonA);
+                buttons_map[ControllerButton::ButtonB] = create_button_input(app::XboxControllerInput_Button__Enum::ButtonB);
+                buttons_map[ControllerButton::ButtonX] = create_button_input(app::XboxControllerInput_Button__Enum::ButtonX);
+                buttons_map[ControllerButton::ButtonY] = create_button_input(app::XboxControllerInput_Button__Enum::ButtonY);
 
-                buttons_map[ControllerButton::DPadLeft] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_DpadX, app::AxisButtonInput_AxisMode__Enum_LessThan, -0.5f);
-                buttons_map[ControllerButton::DPadRight] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_DpadX, app::AxisButtonInput_AxisMode__Enum_GreaterThan, 0.5f);
-                buttons_map[ControllerButton::DPadUp] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_DpadY, app::AxisButtonInput_AxisMode__Enum_GreaterThan, 0.5f);
-                buttons_map[ControllerButton::DPadDown] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_DpadY, app::AxisButtonInput_AxisMode__Enum_LessThan, -0.5f);
+                buttons_map[ControllerButton::DPadLeft] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::DpadX, app::AxisButtonInput_AxisMode__Enum::LessThan, -0.5f);
+                buttons_map[ControllerButton::DPadRight] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::DpadX, app::AxisButtonInput_AxisMode__Enum::GreaterThan, 0.5f);
+                buttons_map[ControllerButton::DPadUp] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::DpadY, app::AxisButtonInput_AxisMode__Enum::GreaterThan, 0.5f);
+                buttons_map[ControllerButton::DPadDown] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::DpadY, app::AxisButtonInput_AxisMode__Enum::LessThan, -0.5f);
 
-                buttons_map[ControllerButton::LeftStickLeft] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_LeftStickX, app::AxisButtonInput_AxisMode__Enum_LessThan, -0.5f);
-                buttons_map[ControllerButton::LeftStickRight] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_LeftStickX, app::AxisButtonInput_AxisMode__Enum_GreaterThan, 0.5f);
-                buttons_map[ControllerButton::LeftStickUp] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_LeftStickY, app::AxisButtonInput_AxisMode__Enum_GreaterThan, 0.5f);
-                buttons_map[ControllerButton::LeftStickDown] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_LeftStickY, app::AxisButtonInput_AxisMode__Enum_LessThan, -0.5f);
+                buttons_map[ControllerButton::LeftStickLeft] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::LeftStickX, app::AxisButtonInput_AxisMode__Enum::LessThan, -0.5f);
+                buttons_map[ControllerButton::LeftStickRight] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::LeftStickX, app::AxisButtonInput_AxisMode__Enum::GreaterThan, 0.5f);
+                buttons_map[ControllerButton::LeftStickUp] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::LeftStickY, app::AxisButtonInput_AxisMode__Enum::GreaterThan, 0.5f);
+                buttons_map[ControllerButton::LeftStickDown] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::LeftStickY, app::AxisButtonInput_AxisMode__Enum::LessThan, -0.5f);
 
-                buttons_map[ControllerButton::RightStickLeft] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_RightStickX, app::AxisButtonInput_AxisMode__Enum_LessThan, -0.5f);
-                buttons_map[ControllerButton::RightStickRight] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_RightStickX, app::AxisButtonInput_AxisMode__Enum_GreaterThan, 0.5f);
-                buttons_map[ControllerButton::RightStickUp] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_RightStickY, app::AxisButtonInput_AxisMode__Enum_GreaterThan, 0.5f);
-                buttons_map[ControllerButton::RightStickDown] = create_axis_button_input(app::XboxControllerInput_Axis__Enum_RightStickY, app::AxisButtonInput_AxisMode__Enum_LessThan, -0.5f);
+                buttons_map[ControllerButton::RightStickLeft] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::RightStickX, app::AxisButtonInput_AxisMode__Enum::LessThan, -0.5f);
+                buttons_map[ControllerButton::RightStickRight] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::RightStickX, app::AxisButtonInput_AxisMode__Enum::GreaterThan, 0.5f);
+                buttons_map[ControllerButton::RightStickUp] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::RightStickY, app::AxisButtonInput_AxisMode__Enum::GreaterThan, 0.5f);
+                buttons_map[ControllerButton::RightStickDown] = create_axis_button_input(app::XboxControllerInput_Axis__Enum::RightStickY, app::AxisButtonInput_AxisMode__Enum::LessThan, -0.5f);
             }
 
             std::unordered_map<Action, std::vector<std::vector<ControllerButton>>> bindings;
@@ -138,14 +138,14 @@ namespace randomizer {
                     initialized = true;
                 }
 
-                CompoundAxisInput::Add(this_ptr->fields.HorizontalAnalogLeft, get_axis_input(app::XboxControllerInput_Axis__Enum_LeftStickX));
-                CompoundAxisInput::Add(this_ptr->fields.VerticalAnalogLeft, get_axis_input(app::XboxControllerInput_Axis__Enum_LeftStickY));
-                CompoundAxisInput::Add(this_ptr->fields.HorizontalAnalogRight, get_axis_input(app::XboxControllerInput_Axis__Enum_RightStickX));
-                CompoundAxisInput::Add(this_ptr->fields.VerticalAnalogRight, get_axis_input(app::XboxControllerInput_Axis__Enum_RightStickY));
-                CompoundAxisInput::Add(this_ptr->fields.HorizontalDigiPad, get_axis_input(app::XboxControllerInput_Axis__Enum_DpadX));
-                CompoundAxisInput::Add(this_ptr->fields.VerticalDigiPad, get_axis_input(app::XboxControllerInput_Axis__Enum_DpadY));
-                CompoundAxisInput::Add(this_ptr->fields.LeftTriggerAxis, get_axis_input(app::XboxControllerInput_Axis__Enum_LeftTrigger));
-                CompoundAxisInput::Add(this_ptr->fields.RightTriggerAxis, get_axis_input(app::XboxControllerInput_Axis__Enum_RightTrigger));
+                CompoundAxisInput::Add(this_ptr->fields.HorizontalAnalogLeft, get_axis_input(app::XboxControllerInput_Axis__Enum::LeftStickX));
+                CompoundAxisInput::Add(this_ptr->fields.VerticalAnalogLeft, get_axis_input(app::XboxControllerInput_Axis__Enum::LeftStickY));
+                CompoundAxisInput::Add(this_ptr->fields.HorizontalAnalogRight, get_axis_input(app::XboxControllerInput_Axis__Enum::RightStickX));
+                CompoundAxisInput::Add(this_ptr->fields.VerticalAnalogRight, get_axis_input(app::XboxControllerInput_Axis__Enum::RightStickY));
+                CompoundAxisInput::Add(this_ptr->fields.HorizontalDigiPad, get_axis_input(app::XboxControllerInput_Axis__Enum::DpadX));
+                CompoundAxisInput::Add(this_ptr->fields.VerticalDigiPad, get_axis_input(app::XboxControllerInput_Axis__Enum::DpadY));
+                CompoundAxisInput::Add(this_ptr->fields.LeftTriggerAxis, get_axis_input(app::XboxControllerInput_Axis__Enum::LeftTrigger));
+                CompoundAxisInput::Add(this_ptr->fields.RightTriggerAxis, get_axis_input(app::XboxControllerInput_Axis__Enum::RightTrigger));
 
                 // We use them for our own actions, so add them.
                 // if (player_input_rebinding_klass->static_fields->DEBUG_CONTROLS_ENABLED != false) {

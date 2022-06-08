@@ -27,7 +27,7 @@ namespace {
         settings = il2cpp::get_class<app::GameSettings__Class>("", "GameSettings")->static_fields->Instance;
         return il2cpp::unity::is_valid(settings)
                 ? settings->fields.m_currentControlSchemes
-                : app::ControlScheme__Enum_KeyboardAndMouse;
+                : app::ControlScheme__Enum::KeyboardAndMouse;
     }
 
     // float current, float target, ref float currentVelocity, float smoothTime, float maxSpeed = Mathf.Infinity, float deltaTime = Time.deltaTime
@@ -106,7 +106,7 @@ namespace {
         if (!player_input->fields.Active)
             return ret;
 
-        if (overwrite_input && current_controls() == app::ControlScheme__Enum_KeyboardAndMouse)
+        if (overwrite_input && current_controls() == app::ControlScheme__Enum::KeyboardAndMouse)
             ret = get_mouse_dir();
         else
             ret = Input::get_Axis();
