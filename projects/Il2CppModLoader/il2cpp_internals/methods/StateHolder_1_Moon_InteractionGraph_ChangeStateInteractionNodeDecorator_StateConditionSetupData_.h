@@ -1,0 +1,7 @@
+using namespace app;
+
+namespace app::methods::StateHolder_1_Moon::InteractionGraph::ChangeStateInteractionNodeDecorator_StateConditionSetupData_ {
+IL2CPP_REGISTER_METHOD(0x01D197E0, void, __ctor, (StateHolder_1_Moon_InteractionGraph_ChangeStateInteractionNodeDecorator_StateConditionSetupData_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0472F290, StateHolder_1_Moon_InteractionGraph_ChangeStateInteractionNodeDecorator_StateConditionSetupData___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01D195E0, void, GetSetupStates, (StateHolder_1_Moon_InteractionGraph_ChangeStateInteractionNodeDecorator_StateConditionSetupData_ * __this, List_1_IIndexedItem_ * toPopulate));
+}

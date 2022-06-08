@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ {
+IL2CPP_REGISTER_METHOD(0x01D17960, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_, GetInstance, (SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04742EE0, SimpleGenericPool_1_InstantiateUtility_InstantiateInfo__GetInstance__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01D177E0, void, __ctor, (SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ * __this, int32_t capacity));
+IL2CPP_REGISTER_METHODINFO(0x0470DCF0, SimpleGenericPool_1_InstantiateUtility_InstantiateInfo___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01D17C00, void, Destroy, (SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ * __this, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_ poolItem));
+IL2CPP_REGISTER_METHODINFO(0x0478E3C8, SimpleGenericPool_1_InstantiateUtility_InstantiateInfo__Destroy__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01D17D00, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_, AddNewToPool, (SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ * __this));
+IL2CPP_REGISTER_METHOD(0x01D17E30, void, TakeFromPool, (SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ * __this, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_ * item, int32_t index));
+}

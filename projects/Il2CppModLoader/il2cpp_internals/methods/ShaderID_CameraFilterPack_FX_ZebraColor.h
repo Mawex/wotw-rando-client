@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::ShaderID_CameraFilterPack_FX_ZebraColor {
+IL2CPP_REGISTER_METHOD(0x02B64B30, void, __cctor, (MethodInfo * method));
+}

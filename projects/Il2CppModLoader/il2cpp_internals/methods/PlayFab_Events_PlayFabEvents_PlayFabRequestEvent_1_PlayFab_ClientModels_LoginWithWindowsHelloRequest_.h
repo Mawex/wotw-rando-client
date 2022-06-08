@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ClientModels::LoginWithWindowsHelloRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_LoginWithWindowsHelloRequest_ * __this, LoginWithWindowsHelloRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04760008, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_LoginWithWindowsHelloRequest__Invoke__MethodInfo);
+}

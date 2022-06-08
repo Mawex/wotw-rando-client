@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::Moon::Rendering::ISliceRenderSettingsInfluencerExtensions {
+IL2CPP_REGISTER_METHOD(0x0078D1B0, int32_t, EffectiveOrder, (ISliceRenderSettingsInfluencer * influencer));
+}

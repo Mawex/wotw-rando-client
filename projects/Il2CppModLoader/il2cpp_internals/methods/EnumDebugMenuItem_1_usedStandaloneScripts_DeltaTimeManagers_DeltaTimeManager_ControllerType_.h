@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::EnumDebugMenuItem_1_usedStandaloneScripts::DeltaTimeManagers::DeltaTimeManager_ControllerType_ {
+IL2CPP_REGISTER_METHOD(0x019E1D40, void, __ctor, (EnumDebugMenuItem_1_usedStandaloneScripts_DeltaTimeManagers_DeltaTimeManager_ControllerType_ * __this, String * path, String * text, Func_1_usedStandaloneScripts_DeltaTimeManagers_DeltaTimeManager_ControllerType_ * getter, Action_1_usedStandaloneScripts_DeltaTimeManagers_DeltaTimeManager_ControllerType_ * setter, String * help, bool shouldShowOnlySelected));
+IL2CPP_REGISTER_METHODINFO(0x0476CBC8, EnumDebugMenuItem_1_usedStandaloneScripts_DeltaTimeManagers_DeltaTimeManager_ControllerType___ctor__MethodInfo);
+}

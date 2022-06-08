@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Array_InternalEnumerator_1_XGamingRuntime::Interop::XUserGetTokenAndSignatureUtf16HttpHeader_ {
+IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_XGamingRuntime_Interop_XUserGetTokenAndSignatureUtf16HttpHeader___Boxed * __this, Array * array));
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (Array_InternalEnumerator_1_XGamingRuntime_Interop_XUserGetTokenAndSignatureUtf16HttpHeader___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00160590, bool, MoveNext, (Array_InternalEnumerator_1_XGamingRuntime_Interop_XUserGetTokenAndSignatureUtf16HttpHeader___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00178280, XUserGetTokenAndSignatureUtf16HttpHeader_1, get_Current, (Array_InternalEnumerator_1_XGamingRuntime_Interop_XUserGetTokenAndSignatureUtf16HttpHeader___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04740A20, Array_InternalEnumerator_1_XGamingRuntime_Interop_XUserGetTokenAndSignatureUtf16HttpHeader__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00160610, void, IEnumerator_Reset, (Array_InternalEnumerator_1_XGamingRuntime_Interop_XUserGetTokenAndSignatureUtf16HttpHeader___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001782B0, Object *, IEnumerator_get_Current, (Array_InternalEnumerator_1_XGamingRuntime_Interop_XUserGetTokenAndSignatureUtf16HttpHeader___Boxed * __this));
+}

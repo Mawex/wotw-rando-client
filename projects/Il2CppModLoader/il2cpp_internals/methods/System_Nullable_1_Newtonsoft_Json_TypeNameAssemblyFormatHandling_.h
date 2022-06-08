@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Nullable_1_Newtonsoft::Json::TypeNameAssemblyFormatHandling_ {
+IL2CPP_REGISTER_METHOD(0x001F6090, bool, get_HasValue, (Nullable_1_Newtonsoft_Json_TypeNameAssemblyFormatHandling___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473CAC8, Nullable_1_Newtonsoft_Json_TypeNameAssemblyFormatHandling__get_HasValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0010E170, TypeNameAssemblyFormatHandling__Enum, GetValueOrDefault, (Nullable_1_Newtonsoft_Json_TypeNameAssemblyFormatHandling___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04753890, Nullable_1_Newtonsoft_Json_TypeNameAssemblyFormatHandling__GetValueOrDefault__MethodInfo);
+}

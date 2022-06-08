@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_SpiritShardType_Moon::uberSerializationWisp::PlayerUberStateShards_Shard_ {
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0478AE20, Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ * __this, SpiritShardType__Enum key, PlayerUberStateShards_Shard * value));
+IL2CPP_REGISTER_METHODINFO(0x04799510, Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02EAA0E0, PlayerUberStateShards_Shard *, get_Item, (Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ * __this, SpiritShardType__Enum key));
+IL2CPP_REGISTER_METHODINFO(0x047348B0, Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard__get_Item__MethodInfo);
+}

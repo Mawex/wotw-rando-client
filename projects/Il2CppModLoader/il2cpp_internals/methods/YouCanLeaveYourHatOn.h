@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::YouCanLeaveYourHatOn {
+IL2CPP_REGISTER_METHOD(0x01C5C870, String *, FindName, (Object_1 * o));
+IL2CPP_REGISTER_METHOD(0x01C5CD40, bool, DebugMenuPrintReport, (MethodInfo * method));
+IL2CPP_REGISTER_METHODINFO(0x047609D0, YouCanLeaveYourHatOn_DebugMenuPrintReport__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01C5CDC0, bool, DebugMenuPrintDontDestroyOnLoad, (MethodInfo * method));
+IL2CPP_REGISTER_METHODINFO(0x0478A7B8, YouCanLeaveYourHatOn_DebugMenuPrintDontDestroyOnLoad__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01C5D660, void, PrintReport, (String * reportName));
+}

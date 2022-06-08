@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::RemoveSharedGroupMembersRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_RemoveSharedGroupMembersRequest_ * __this, RemoveSharedGroupMembersRequest_1 * request));
+IL2CPP_REGISTER_METHODINFO(0x04788BD0, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_RemoveSharedGroupMembersRequest__Invoke__MethodInfo);
+}

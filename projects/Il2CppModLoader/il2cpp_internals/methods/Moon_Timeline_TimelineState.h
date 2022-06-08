@@ -1,0 +1,36 @@
+using namespace app;
+
+namespace app::methods::Moon::Timeline::TimelineState {
+IL2CPP_REGISTER_METHOD(0x01E8CC30, bool, get_InPreviewMode, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8CCD0, void, set_InPreviewMode, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8CD80, bool, get_IsOriAnimatorDrivingOri, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8CE20, void, set_IsOriAnimatorDrivingOri, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8CED0, bool, get_ShouldTimelineAnimateCamera, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8CF70, void, set_ShouldTimelineAnimateCamera, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8D020, float, get_CurrentTime, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8D0C0, void, set_CurrentTime, (float value));
+IL2CPP_REGISTER_METHOD(0x01E8D170, bool, get_IsPlaying, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8D210, void, set_IsPlaying, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8D2C0, bool, get_ClipStructureUpdated, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8D360, void, set_ClipStructureUpdated, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8D420, bool, get_HierarchyUpdated, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8D4C0, void, set_HierarchyUpdated, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8D570, bool, get_UndoRedoPerformed, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8D610, void, set_UndoRedoPerformed, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8D6C0, bool, get_IsScrubbing, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8D760, void, set_IsScrubbing, (bool value));
+IL2CPP_REGISTER_METHOD(0x01E8D810, void, add_OnPreviewablesSampledCallback, (Action_1_Single_ * value));
+IL2CPP_REGISTER_METHOD(0x01E8D950, void, remove_OnPreviewablesSampledCallback, (Action_1_Single_ * value));
+IL2CPP_REGISTER_METHOD(0x01E8DA90, void, add_OnTimelineStateChangeCallback, (Action * value));
+IL2CPP_REGISTER_METHOD(0x01E8DBD0, void, remove_OnTimelineStateChangeCallback, (Action * value));
+IL2CPP_REGISTER_METHOD(0x01E8DD10, float, get_MotionBlurScale, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8DEB0, void, set_MotionBlurScale, (float value));
+IL2CPP_REGISTER_METHOD(0x01E8DF60, void, AddObserver, (ITimelineStateObserver * observer));
+IL2CPP_REGISTER_METHOD(0x01E8E180, void, RemoveObserver, (ITimelineStateObserver * observer));
+IL2CPP_REGISTER_METHOD(0x01E8E240, void, OnPreviewablesSampled, (float time));
+IL2CPP_REGISTER_METHOD(0x01E8E4D0, void, OnPreviewablesEnter, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8E710, void, OnPreviewablesExit, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8E950, void, OnTimelineStateChange, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TimelineState * __this));
+IL2CPP_REGISTER_METHOD(0x01E8EA30, void, __cctor, (MethodInfo * method));
+}

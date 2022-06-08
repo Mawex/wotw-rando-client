@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Data::Listeners_1_TElem__Action_4_DataViewListener_DataViewListener_System::ComponentModel::ListChangedType_DataRow_System::Boolean_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Listeners_1_TElem_Action_4_DataViewListener_DataViewListener_System_ComponentModel_ListChangedType_DataRow_System_Boolean_ * __this, Object * object, void * method_1));
+IL2CPP_REGISTER_METHODINFO(0x04701330, Listeners_1_TElem_Action_4_DataViewListener_DataViewListener_System_ComponentModel_ListChangedType_DataRow_System_Boolean___ctor__MethodInfo);
+}

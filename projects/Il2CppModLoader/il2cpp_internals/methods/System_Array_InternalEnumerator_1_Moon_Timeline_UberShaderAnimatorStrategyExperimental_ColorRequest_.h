@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Array_InternalEnumerator_1_Moon::Timeline::UberShaderAnimatorStrategyExperimental_ColorRequest_ {
+IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest___Boxed * __this, Array * array));
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00160590, bool, MoveNext, (Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001665E0, UberShaderAnimatorStrategyExperimental_ColorRequest, get_Current, (Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0472D378, Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00160610, void, IEnumerator_Reset, (Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00166610, Object *, IEnumerator_get_Current, (Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest___Boxed * __this));
+}

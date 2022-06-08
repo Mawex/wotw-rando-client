@@ -1,0 +1,17 @@
+using namespace app;
+
+namespace app::methods::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility {
+IL2CPP_REGISTER_METHOD(0x015E7A50, Void *, GetUnsafeBufferPointerWithoutChecks, (NativeArray_1_UnityEngine_Bounds_ nativeArray));
+IL2CPP_REGISTER_METHODINFO(0x04738E28, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E7A50, Void *, GetUnsafeBufferPointerWithoutChecks, (NativeArray_1_System_Byte_ nativeArray));
+IL2CPP_REGISTER_METHODINFO(0x0471F850, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E7A50, Void *, GetUnsafeBufferPointerWithoutChecks, (NativeArray_1_UnityEngine_CapsulecastCommand_ nativeArray));
+IL2CPP_REGISTER_METHODINFO(0x0471C988, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_2__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E7A50, Void *, GetUnsafeBufferPointerWithoutChecks, (NativeArray_1_UnityEngine_RaycastHit_ nativeArray));
+IL2CPP_REGISTER_METHODINFO(0x0474A930, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_3__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E7A50, Void *, GetUnsafeBufferPointerWithoutChecks, (NativeArray_1_UnityEngine_RaycastCommand_ nativeArray));
+IL2CPP_REGISTER_METHODINFO(0x0474DC90, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_4__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E7A50, Void *, GetUnsafeBufferPointerWithoutChecks, (NativeArray_1_UnityEngine_SpherecastCommand_ nativeArray));
+IL2CPP_REGISTER_METHODINFO(0x04709BD8, NativeArrayUnsafeUtility_GetUnsafeBufferPointerWithoutChecks_5__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02FF6F40, NativeArray_1_System_Byte_, ConvertExistingDataToNativeArray, (Void * dataPointer, int32_t length, Allocator__Enum allocator));
+}

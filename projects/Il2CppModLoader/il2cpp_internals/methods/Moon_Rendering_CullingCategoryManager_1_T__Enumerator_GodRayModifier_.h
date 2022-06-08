@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::Moon::Rendering::CullingCategoryManager_1_T__Enumerator_GodRayModifier_ {
+IL2CPP_REGISTER_METHOD(0x00216120, CullingCategoryManager_1_T_Enumerator_GodRayModifier_, GetEnumerator, (CullingCategoryManager_1_T_Enumerator_GodRayModifier___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473D6A8, CullingCategoryManager_1_T_Enumerator_GodRayModifier__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00107C60, GodRayModifier *, get_Current, (CullingCategoryManager_1_T_Enumerator_GodRayModifier___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04722D98, CullingCategoryManager_1_T_Enumerator_GodRayModifier__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002160A0, bool, MoveNext, (CullingCategoryManager_1_T_Enumerator_GodRayModifier___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0472F660, CullingCategoryManager_1_T_Enumerator_GodRayModifier__MoveNext__MethodInfo);
+}

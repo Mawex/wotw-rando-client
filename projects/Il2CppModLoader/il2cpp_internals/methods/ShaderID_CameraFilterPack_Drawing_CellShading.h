@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::ShaderID_CameraFilterPack_Drawing_CellShading {
+IL2CPP_REGISTER_METHOD(0x0210AEE0, void, __cctor, (MethodInfo * method));
+}

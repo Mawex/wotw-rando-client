@@ -1,0 +1,16 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_AmplifyColor::VolumeEffectComponentFlags_ {
+IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_AmplifyColor_VolumeEffectComponentFlags_, GetEnumerator, (List_1_AmplifyColor_VolumeEffectComponentFlags_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04734568, List_1_AmplifyColor_VolumeEffectComponentFlags__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EFC50, VolumeEffectComponentFlags *, get_Item, (List_1_AmplifyColor_VolumeEffectComponentFlags_ * __this, int32_t index));
+IL2CPP_REGISTER_METHODINFO(0x04775D00, List_1_AmplifyColor_VolumeEffectComponentFlags__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_AmplifyColor_VolumeEffectComponentFlags_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04777080, List_1_AmplifyColor_VolumeEffectComponentFlags__get_Count__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_AmplifyColor_VolumeEffectComponentFlags_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04785658, List_1_AmplifyColor_VolumeEffectComponentFlags___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025F05A0, VolumeEffectComponentFlags *, Find, (List_1_AmplifyColor_VolumeEffectComponentFlags_ * __this, Predicate_1_AmplifyColor_VolumeEffectComponentFlags_ * match));
+IL2CPP_REGISTER_METHODINFO(0x047512F0, List_1_AmplifyColor_VolumeEffectComponentFlags__Find__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_AmplifyColor_VolumeEffectComponentFlags_ * __this, VolumeEffectComponentFlags * item));
+IL2CPP_REGISTER_METHODINFO(0x0476A7E8, List_1_AmplifyColor_VolumeEffectComponentFlags__Add__MethodInfo);
+}

@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::Sein::World::Keys {
+IL2CPP_REGISTER_METHOD(0x01071DA0, bool, get_GinsoTree, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01071E90, void, set_GinsoTree, (bool value));
+IL2CPP_REGISTER_METHOD(0x01071F80, bool, get_ForlornRuins, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01072070, void, set_ForlornRuins, (bool value));
+IL2CPP_REGISTER_METHOD(0x01072160, bool, get_MountHoru, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01072250, void, set_MountHoru, (bool value));
+}

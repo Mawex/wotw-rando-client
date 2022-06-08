@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_StateOverrideSystem_IStateOverrideEntry_ {
+IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry_ * __this, int32_t key, StateOverrideSystem_IStateOverrideEntry * * value));
+IL2CPP_REGISTER_METHODINFO(0x047946A8, Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry__TryGetValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry_ * __this, int32_t key, StateOverrideSystem_IStateOverrideEntry * value));
+IL2CPP_REGISTER_METHODINFO(0x04713318, Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry__set_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BBA360, bool, Remove, (Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x04781108, Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry__Remove__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BB8880, StateOverrideSystem_IStateOverrideEntry *, get_Item, (Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x047609C0, Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0474D118, Dictionary_2_System_Int32_StateOverrideSystem_IStateOverrideEntry___ctor__MethodInfo);
+}

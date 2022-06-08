@@ -1,0 +1,7 @@
+using namespace app;
+
+namespace app::methods::UnityEngine::UnhandledExceptionHandler {
+IL2CPP_REGISTER_METHOD(0x02C70720, void, RegisterUECatcher, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C709B0, void, _RegisterUECatcher_m__0, (Object * sender, UnhandledExceptionEventArgs * e));
+IL2CPP_REGISTER_METHODINFO(0x047514E8, UnhandledExceptionHandler__RegisterUECatcher_m__0__MethodInfo);
+}

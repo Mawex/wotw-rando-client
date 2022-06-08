@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::GetPlayFabIDsFromFacebookInstantGamesIdsRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_GetPlayFabIDsFromFacebookInstantGamesIdsRequest_ * __this, GetPlayFabIDsFromFacebookInstantGamesIdsRequest_1 * request));
+IL2CPP_REGISTER_METHODINFO(0x04704F28, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_GetPlayFabIDsFromFacebookInstantGamesIdsRequest__Invoke__MethodInfo);
+}

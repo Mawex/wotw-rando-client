@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Stack_1_HashSet_1_System::Linq::Expressions::ParameterExpression__ {
+IL2CPP_REGISTER_METHOD(0x0243CB70, void, __ctor, (Stack_1_HashSet_1_System_Linq_Expressions_ParameterExpression_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04789578, Stack_1_HashSet_1_System_Linq_Expressions_ParameterExpression___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02CF8030, void, Push, (Stack_1_HashSet_1_System_Linq_Expressions_ParameterExpression_ * __this, HashSet_1_System_Linq_Expressions_ParameterExpression_ * item));
+IL2CPP_REGISTER_METHODINFO(0x04756CA0, Stack_1_HashSet_1_System_Linq_Expressions_ParameterExpression__Push__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02CF7F90, HashSet_1_System_Linq_Expressions_ParameterExpression_ *, Pop, (Stack_1_HashSet_1_System_Linq_Expressions_ParameterExpression_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047085E0, Stack_1_HashSet_1_System_Linq_Expressions_ParameterExpression__Pop__MethodInfo);
+}

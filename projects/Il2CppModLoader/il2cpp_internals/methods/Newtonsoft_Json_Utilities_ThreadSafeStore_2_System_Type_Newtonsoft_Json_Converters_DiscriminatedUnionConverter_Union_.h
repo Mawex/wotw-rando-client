@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::Newtonsoft::Json::Utilities::ThreadSafeStore_2_System::Type_Newtonsoft::Json::Converters::DiscriminatedUnionConverter_Union_ {
+IL2CPP_REGISTER_METHOD(0x01D122F0, DiscriminatedUnionConverter_Union *, Get, (ThreadSafeStore_2_System_Type_Newtonsoft_Json_Converters_DiscriminatedUnionConverter_Union_ * __this, Type * key));
+IL2CPP_REGISTER_METHODINFO(0x0476F1B8, ThreadSafeStore_2_System_Type_Newtonsoft_Json_Converters_DiscriminatedUnionConverter_Union__Get__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01D12150, void, __ctor, (ThreadSafeStore_2_System_Type_Newtonsoft_Json_Converters_DiscriminatedUnionConverter_Union_ * __this, Func_2_Type_Newtonsoft_Json_Converters_DiscriminatedUnionConverter_Union_ * creator));
+IL2CPP_REGISTER_METHODINFO(0x04721C98, ThreadSafeStore_2_System_Type_Newtonsoft_Json_Converters_DiscriminatedUnionConverter_Union___ctor__MethodInfo);
+}

@@ -1,0 +1,16 @@
+using namespace app;
+
+namespace app::methods::Moon::ArtOptimization::ArtOptimizerDataContainer___c {
+IL2CPP_REGISTER_METHOD(0x01347160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ArtOptimizerDataContainer_c * __this));
+IL2CPP_REGISTER_METHOD(0x013472A0, IEnumerable_1_Moon_ArtOptimization_SerializableUberSaderModifierWrapper_ *, _CalculateEnergyLimitsByStripPercentage_b__18_2, (ArtOptimizerDataContainer_c * __this, SerializableUberShaderWrapper * uw));
+IL2CPP_REGISTER_METHODINFO(0x0478E710, ArtOptimizerDataContainer_c__CalculateEnergyLimitsByStripPercentage_b__18_2__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x013472A0, IEnumerable_1_Moon_ArtOptimization_SerializableUberSaderModifierWrapper_ *, _CalculateEnergyLimitsByStripPercentage_b__18_3, (ArtOptimizerDataContainer_c * __this, SerializableUberShaderWrapper * uw));
+IL2CPP_REGISTER_METHODINFO(0x0474AFA8, ArtOptimizerDataContainer_c__CalculateEnergyLimitsByStripPercentage_b__18_3__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x013472A0, IEnumerable_1_Moon_ArtOptimization_SerializableUberSaderModifierWrapper_ *, _CalculateEnergyLimitsByStripPercentage_b__18_4, (ArtOptimizerDataContainer_c * __this, SerializableUberShaderWrapper * uw));
+IL2CPP_REGISTER_METHODINFO(0x0477A850, ArtOptimizerDataContainer_c__CalculateEnergyLimitsByStripPercentage_b__18_4__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x013472C0, bool, _CalculateEnergyLimitsByStripPercentage_b__18_5, (ArtOptimizerDataContainer_c * __this, SerializableUberSaderModifierWrapper * w));
+IL2CPP_REGISTER_METHODINFO(0x04722E08, ArtOptimizerDataContainer_c__CalculateEnergyLimitsByStripPercentage_b__18_5__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01347370, bool, _CalculateEnergyLimitsByStripPercentage_b__18_7, (ArtOptimizerDataContainer_c * __this, SerializableUberSaderModifierWrapper * w));
+IL2CPP_REGISTER_METHODINFO(0x0475ADD8, ArtOptimizerDataContainer_c__CalculateEnergyLimitsByStripPercentage_b__18_7__MethodInfo);
+}

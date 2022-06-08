@@ -1,0 +1,16 @@
+using namespace app;
+
+namespace app::methods::AllContainer_1_CameraOffsetController_OffsetLayer_ {
+IL2CPP_REGISTER_METHOD(0x019D79F0, bool, Contains, (AllContainer_1_CameraOffsetController_OffsetLayer_ * __this, CameraOffsetController_OffsetLayer * item));
+IL2CPP_REGISTER_METHODINFO(0x04759E78, AllContainer_1_CameraOffsetController_OffsetLayer__Contains__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x019D7830, void, Add, (AllContainer_1_CameraOffsetController_OffsetLayer_ * __this, CameraOffsetController_OffsetLayer * item));
+IL2CPP_REGISTER_METHODINFO(0x047465A0, AllContainer_1_CameraOffsetController_OffsetLayer__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x019D7990, void, Remove, (AllContainer_1_CameraOffsetController_OffsetLayer_ * __this, CameraOffsetController_OffsetLayer * item));
+IL2CPP_REGISTER_METHODINFO(0x04762FD8, AllContainer_1_CameraOffsetController_OffsetLayer__Remove__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x019D79D0, void, Clear, (AllContainer_1_CameraOffsetController_OffsetLayer_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470B3A8, AllContainer_1_CameraOffsetController_OffsetLayer__Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x019D7A20, void, GetList, (AllContainer_1_CameraOffsetController_OffsetLayer_ * __this, List_1_CameraOffsetController_OffsetLayer_ * list));
+IL2CPP_REGISTER_METHODINFO(0x04743580, AllContainer_1_CameraOffsetController_OffsetLayer__GetList__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (AllContainer_1_CameraOffsetController_OffsetLayer_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04741000, AllContainer_1_CameraOffsetController_OffsetLayer___ctor__MethodInfo);
+}

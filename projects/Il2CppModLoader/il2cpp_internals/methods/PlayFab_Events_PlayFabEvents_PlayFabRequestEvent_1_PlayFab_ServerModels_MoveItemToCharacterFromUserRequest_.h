@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::MoveItemToCharacterFromUserRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_MoveItemToCharacterFromUserRequest_ * __this, MoveItemToCharacterFromUserRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x0475F398, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_MoveItemToCharacterFromUserRequest__Invoke__MethodInfo);
+}

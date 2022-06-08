@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Func_2_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, Object * object, void * method_1));
+IL2CPP_REGISTER_METHOD(0x02883150, InstantiateDebugUtility_InstanceInfo, Invoke, (Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, InstantiateDebugUtility_InstanceInfo arg));
+IL2CPP_REGISTER_METHOD(0x02883690, IAsyncResult *, BeginInvoke, (Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, InstantiateDebugUtility_InstanceInfo arg, AsyncCallback * callback, Object * object));
+IL2CPP_REGISTER_METHOD(0x028830F0, InstantiateDebugUtility_InstanceInfo, EndInvoke, (Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, IAsyncResult * result));
+}

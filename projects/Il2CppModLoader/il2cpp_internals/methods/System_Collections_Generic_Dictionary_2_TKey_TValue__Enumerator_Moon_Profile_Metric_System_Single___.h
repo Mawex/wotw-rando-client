@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_Moon::Profile::Metric_System::Single___ {
+IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_Moon_Profile_Metric_System_Single__1, get_Current, (Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475E560, Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001B86F0, bool, MoveNext, (Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473E9C8, Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04799EC8, Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single__Dispose__MethodInfo);
+}

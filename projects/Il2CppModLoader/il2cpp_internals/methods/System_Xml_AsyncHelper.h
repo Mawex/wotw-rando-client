@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::System::Xml::AsyncHelper {
+IL2CPP_REGISTER_METHOD(0x021E0BE0, void, __cctor, (MethodInfo * method));
+}

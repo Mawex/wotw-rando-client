@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_ZenFulcrum::EmbeddedBrowser::Browser_JSResultFunc_ {
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc_ * __this, int32_t key, Browser_JSResultFunc * value));
+IL2CPP_REGISTER_METHODINFO(0x04738C68, Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047485F8, Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BBA360, bool, Remove, (Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x0475C110, Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc__Remove__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc_ * __this, int32_t key, Browser_JSResultFunc * * value));
+IL2CPP_REGISTER_METHODINFO(0x0470C568, Dictionary_2_System_Int32_ZenFulcrum_EmbeddedBrowser_Browser_JSResultFunc__TryGetValue__MethodInfo);
+}

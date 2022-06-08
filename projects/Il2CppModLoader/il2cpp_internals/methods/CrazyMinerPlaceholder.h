@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::CrazyMinerPlaceholder {
+IL2CPP_REGISTER_METHOD(0x00DB7120, void, __ctor, (CrazyMinerPlaceholder * __this));
+}

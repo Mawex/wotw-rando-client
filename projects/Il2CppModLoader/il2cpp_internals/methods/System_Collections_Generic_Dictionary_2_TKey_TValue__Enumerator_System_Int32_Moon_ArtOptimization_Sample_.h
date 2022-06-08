@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::Int32_Moon::ArtOptimization::Sample_ {
+IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_System_Int32_Moon_ArtOptimization_Sample_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_System_Int32_Moon_ArtOptimization_Sample___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475BDC8, Dictionary_2_TKey_TValue_Enumerator_System_Int32_Moon_ArtOptimization_Sample__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001B58E0, bool, MoveNext, (Dictionary_2_TKey_TValue_Enumerator_System_Int32_Moon_ArtOptimization_Sample___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473EEB8, Dictionary_2_TKey_TValue_Enumerator_System_Int32_Moon_ArtOptimization_Sample__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (Dictionary_2_TKey_TValue_Enumerator_System_Int32_Moon_ArtOptimization_Sample___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470C028, Dictionary_2_TKey_TValue_Enumerator_System_Int32_Moon_ArtOptimization_Sample__Dispose__MethodInfo);
+}

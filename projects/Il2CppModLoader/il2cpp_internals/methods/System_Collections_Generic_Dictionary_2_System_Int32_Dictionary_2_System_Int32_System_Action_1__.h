@@ -1,0 +1,16 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Dictionary_2_System::Int32_System::Action_1__ {
+IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04734ED8, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__1 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04753568, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__1_Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__2 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04750198, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__2_Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475EF68, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__1 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04799DE0, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__1__ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__2 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04783818, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__2__ctor__MethodInfo);
+}

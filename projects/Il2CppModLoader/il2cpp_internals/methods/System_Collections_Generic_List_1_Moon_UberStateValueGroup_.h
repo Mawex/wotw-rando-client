@@ -1,0 +1,20 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_Moon::UberStateValueGroup_ {
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_Moon_UberStateValueGroup_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0474CA48, List_1_Moon_UberStateValueGroup___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_Moon_UberStateValueGroup_ * __this, UberStateValueGroup * item));
+IL2CPP_REGISTER_METHODINFO(0x04798F50, List_1_Moon_UberStateValueGroup__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EADB0, void, Sort, (List_1_Moon_UberStateValueGroup_ * __this, IComparer_1_Moon_UberStateValueGroup_ * comparer));
+IL2CPP_REGISTER_METHODINFO(0x047998F0, List_1_Moon_UberStateValueGroup__Sort__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_Moon_UberStateValueGroup_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04767CB8, List_1_Moon_UberStateValueGroup__get_Count__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EFC50, UberStateValueGroup *, get_Item, (List_1_Moon_UberStateValueGroup_ * __this, int32_t index));
+IL2CPP_REGISTER_METHODINFO(0x04738D68, List_1_Moon_UberStateValueGroup__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_Moon_UberStateValueGroup_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04798150, List_1_Moon_UberStateValueGroup__Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_Moon_UberStateValueGroup_ * __this, Comparison_1_Moon_UberStateValueGroup_ * comparison));
+IL2CPP_REGISTER_METHODINFO(0x04718F70, List_1_Moon_UberStateValueGroup__Sort_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_Moon_UberStateValueGroup_, GetEnumerator, (List_1_Moon_UberStateValueGroup_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04730960, List_1_Moon_UberStateValueGroup__GetEnumerator__MethodInfo);
+}

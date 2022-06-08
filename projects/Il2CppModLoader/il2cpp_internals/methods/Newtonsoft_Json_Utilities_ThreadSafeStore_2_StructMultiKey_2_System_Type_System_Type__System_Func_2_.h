@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::Newtonsoft::Json::Utilities::ThreadSafeStore_2_StructMultiKey_2_System::Type_System::Type__System::Func_2_ {
+IL2CPP_REGISTER_METHOD(0x01D12110, Func_2_Object_Object_ *, Get, (ThreadSafeStore_2_StructMultiKey_2_System_Type_System_Type_System_Func_2_ * __this, StructMultiKey_2_System_Type_System_Type_ key));
+IL2CPP_REGISTER_METHODINFO(0x04774770, ThreadSafeStore_2_StructMultiKey_2_System_Type_System_Type_System_Func_2__Get__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01D11F70, void, __ctor, (ThreadSafeStore_2_StructMultiKey_2_System_Type_System_Type_System_Func_2_ * __this, Func_2_Newtonsoft_Json_Utilities_StructMultiKey_2_Func_2_Object_Object_ * creator));
+IL2CPP_REGISTER_METHODINFO(0x0472EE60, ThreadSafeStore_2_StructMultiKey_2_System_Type_System_Type_System_Func_2___ctor__MethodInfo);
+}

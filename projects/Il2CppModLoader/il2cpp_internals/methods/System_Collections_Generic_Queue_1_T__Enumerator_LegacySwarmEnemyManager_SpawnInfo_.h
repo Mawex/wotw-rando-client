@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_LegacySwarmEnemyManager_SpawnInfo_ {
+IL2CPP_REGISTER_METHOD(0x001ED400, void, __ctor, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this, Queue_1_LegacySwarmEnemyManager_SpawnInfo_ * q));
+IL2CPP_REGISTER_METHOD(0x001ED450, void, Dispose, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001ED480, bool, MoveNext, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04764E30, Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001ED490, LegacySwarmEnemyManager_SpawnInfo, get_Current, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001ED4F0, void, ThrowEnumerationNotStartedOrEnded, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04715270, Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo__ThrowEnumerationNotStartedOrEnded__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001ED500, Object *, IEnumerator_get_Current, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001ED5E0, void, IEnumerator_Reset, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04781FB8, Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo__System_Collections_IEnumerator_Reset__MethodInfo);
+}

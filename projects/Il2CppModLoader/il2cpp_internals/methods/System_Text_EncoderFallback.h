@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Text::EncoderFallback {
+IL2CPP_REGISTER_METHOD(0x0244CB50, Object *, get_InternalSyncObject, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0244CCC0, EncoderFallback *, get_ReplacementFallback, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0244CFA0, EncoderFallback *, get_ExceptionFallback, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EncoderFallback * __this));
+}

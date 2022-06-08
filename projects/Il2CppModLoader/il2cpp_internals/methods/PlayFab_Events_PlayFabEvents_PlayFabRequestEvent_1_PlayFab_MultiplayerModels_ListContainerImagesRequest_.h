@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::MultiplayerModels::ListContainerImagesRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_MultiplayerModels_ListContainerImagesRequest_ * __this, ListContainerImagesRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04759B48, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_MultiplayerModels_ListContainerImagesRequest__Invoke__MethodInfo);
+}

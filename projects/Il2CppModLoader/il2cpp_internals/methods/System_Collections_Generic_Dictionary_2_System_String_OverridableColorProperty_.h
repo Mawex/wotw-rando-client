@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_OverridableColorProperty_ {
+IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_System_String_OverridableColorProperty_ *, get_Values, (Dictionary_2_System_String_OverridableColorProperty_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04773658, Dictionary_2_System_String_OverridableColorProperty__get_Values__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_String_OverridableColorProperty_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047422B0, Dictionary_2_System_String_OverridableColorProperty___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_System_String_OverridableColorProperty_, GetEnumerator, (Dictionary_2_System_String_OverridableColorProperty_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04768638, Dictionary_2_System_String_OverridableColorProperty__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_String_OverridableColorProperty_ * __this, String * key, OverridableColorProperty * * value));
+IL2CPP_REGISTER_METHODINFO(0x047546C8, Dictionary_2_System_String_OverridableColorProperty__TryGetValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_String_OverridableColorProperty_ * __this, String * key, OverridableColorProperty * value));
+IL2CPP_REGISTER_METHODINFO(0x04795FC8, Dictionary_2_System_String_OverridableColorProperty__Add__MethodInfo);
+}

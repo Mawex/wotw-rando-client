@@ -1,0 +1,13 @@
+using namespace app;
+
+namespace app::methods::System::Linq::Lookup_2_System::Object_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
+IL2CPP_REGISTER_METHOD(0x0153D6C0, Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ *, Create, (IEnumerable_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * source, Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_Object_ * keySelector, Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * elementSelector, IEqualityComparer_1_System_Object_ * comparer));
+IL2CPP_REGISTER_METHODINFO(0x047290B8, Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo__Create__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025481F0, void, __ctor, (Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, IEqualityComparer_1_System_Object_ * comparer));
+IL2CPP_REGISTER_METHOD(0x02548270, IEnumerator_1_System_Linq_IGrouping_2__1 *, GetEnumerator, (Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this));
+IL2CPP_REGISTER_METHOD(0x019D9BE0, IEnumerator *, IEnumerable_GetEnumerator, (Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this));
+IL2CPP_REGISTER_METHOD(0x02548390, int32_t, InternalGetHashCode, (Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, Object * key));
+IL2CPP_REGISTER_METHOD(0x02548410, Lookup_2_TKey_TElement_Grouping_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ *, GetGrouping, (Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, Object * key, bool create));
+IL2CPP_REGISTER_METHOD(0x025487A0, void, Resize, (Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0471BBB8, Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo__Resize__MethodInfo);
+}

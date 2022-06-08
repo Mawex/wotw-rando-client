@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Comparison_1_CameraTarget_TargetLayer_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Comparison_1_CameraTarget_TargetLayer_ * __this, Object * object, void * method_1));
+IL2CPP_REGISTER_METHODINFO(0x04734C38, Comparison_1_CameraTarget_TargetLayer___ctor__MethodInfo);
+}

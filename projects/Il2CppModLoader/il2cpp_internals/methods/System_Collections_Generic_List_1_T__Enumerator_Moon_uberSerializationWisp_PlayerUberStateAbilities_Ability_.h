@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::uberSerializationWisp::PlayerUberStateAbilities_Ability_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, PlayerUberStateAbilities_Ability *, get_Current, (List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateAbilities_Ability___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04791E58, List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateAbilities_Ability__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateAbilities_Ability___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475C6F8, List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateAbilities_Ability__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateAbilities_Ability___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04732818, List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateAbilities_Ability__Dispose__MethodInfo);
+}

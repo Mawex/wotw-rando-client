@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::TransitionBasedSetupHolder_1_Moon::Setups::ChangeStateSetupData_ {
+IL2CPP_REGISTER_METHOD(0x0225BDD0, IDesiredUberState *, GetRequirementsForTimeline, (TransitionBasedSetupHolder_1_Moon_Setups_ChangeStateSetupData_ * __this, MoonTimeline * timeline));
+IL2CPP_REGISTER_METHODINFO(0x0474A390, TransitionBasedSetupHolder_1_Moon_Setups_ChangeStateSetupData__GetRequirementsForTimeline__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0225B610, void, __ctor, (TransitionBasedSetupHolder_1_Moon_Setups_ChangeStateSetupData_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0474C988, TransitionBasedSetupHolder_1_Moon_Setups_ChangeStateSetupData___ctor__MethodInfo);
+}

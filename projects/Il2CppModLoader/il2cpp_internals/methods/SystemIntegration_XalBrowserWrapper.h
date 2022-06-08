@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::SystemIntegration::XalBrowserWrapper {
+IL2CPP_REGISTER_METHOD(0x00CDB300, void, __ctor, (XalBrowserWrapper * __this));
+IL2CPP_REGISTER_METHOD(0x00CDB4F0, bool, SetupBrowserInstance, (XalBrowserWrapper * __this));
+IL2CPP_REGISTER_METHOD(0x00CDB920, void, Cleanup, (XalBrowserWrapper * __this, bool wasCancel));
+IL2CPP_REGISTER_METHOD(0x00CDBA10, void, Cancel, (XalBrowserWrapper * __this));
+IL2CPP_REGISTER_METHOD(0x00CDBAE0, void, __ctor_b__8_0, (XalBrowserWrapper * __this, void * operationId, String * startUrl, String * finalUrl, bool suppressUi));
+IL2CPP_REGISTER_METHODINFO(0x04787210, XalBrowserWrapper___ctor_b__8_0__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00CDBCE0, void, __ctor_b__8_1, (XalBrowserWrapper * __this));
+IL2CPP_REGISTER_METHODINFO(0x0471BD70, XalBrowserWrapper___ctor_b__8_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00CDBD10, void, _SetupBrowserInstance_b__9_0, (XalBrowserWrapper * __this));
+IL2CPP_REGISTER_METHODINFO(0x04704E98, XalBrowserWrapper__SetupBrowserInstance_b__9_0__MethodInfo);
+}

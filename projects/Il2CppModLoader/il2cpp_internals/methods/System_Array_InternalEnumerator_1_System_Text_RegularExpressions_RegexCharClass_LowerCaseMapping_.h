@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Array_InternalEnumerator_1_System::Text::RegularExpressions::RegexCharClass_LowerCaseMapping_ {
+IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_System_Text_RegularExpressions_RegexCharClass_LowerCaseMapping___Boxed * __this, Array * array));
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (Array_InternalEnumerator_1_System_Text_RegularExpressions_RegexCharClass_LowerCaseMapping___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00160590, bool, MoveNext, (Array_InternalEnumerator_1_System_Text_RegularExpressions_RegexCharClass_LowerCaseMapping___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0019DAC0, RegexCharClass_LowerCaseMapping, get_Current, (Array_InternalEnumerator_1_System_Text_RegularExpressions_RegexCharClass_LowerCaseMapping___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04747E60, Array_InternalEnumerator_1_System_Text_RegularExpressions_RegexCharClass_LowerCaseMapping__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00160610, void, IEnumerator_Reset, (Array_InternalEnumerator_1_System_Text_RegularExpressions_RegexCharClass_LowerCaseMapping___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0019DAF0, Object *, IEnumerator_get_Current, (Array_InternalEnumerator_1_System_Text_RegularExpressions_RegexCharClass_LowerCaseMapping___Boxed * __this));
+}

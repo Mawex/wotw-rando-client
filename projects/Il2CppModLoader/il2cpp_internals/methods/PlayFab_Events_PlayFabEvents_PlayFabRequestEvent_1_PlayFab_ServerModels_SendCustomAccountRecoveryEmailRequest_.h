@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::SendCustomAccountRecoveryEmailRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_SendCustomAccountRecoveryEmailRequest_ * __this, SendCustomAccountRecoveryEmailRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x0475BE38, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_SendCustomAccountRecoveryEmailRequest__Invoke__MethodInfo);
+}

@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ClientModels::GetPhotonAuthenticationTokenRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_GetPhotonAuthenticationTokenRequest_ * __this, GetPhotonAuthenticationTokenRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x0474B8D8, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_GetPhotonAuthenticationTokenRequest__Invoke__MethodInfo);
+}

@@ -1,0 +1,13 @@
+using namespace app;
+
+namespace app::methods::KuIdle {
+IL2CPP_REGISTER_METHOD(0x01239C10, void, OnSetReferenceToKu, (KuIdle * __this));
+IL2CPP_REGISTER_METHOD(0x01239C40, void, OnEnter, (KuIdle * __this));
+IL2CPP_REGISTER_METHOD(0x01239C50, void, UpdateState, (KuIdle * __this));
+IL2CPP_REGISTER_METHOD(0x01239E10, void, PlayIdle, (KuIdle * __this));
+IL2CPP_REGISTER_METHOD(0x01239FB0, bool, ShouldGroundIdleAnimation, (KuIdle * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473FA00, KuIdle_ShouldGroundIdleAnimation__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0123A140, void, Update, (KuIdle * __this));
+IL2CPP_REGISTER_METHOD(0x0123A180, void, ResetVerticalSpeedData, (KuIdle * __this));
+IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (KuIdle * __this));
+}

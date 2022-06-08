@@ -1,0 +1,28 @@
+using namespace app;
+
+namespace app::methods::UnityEngine::NoAllocHelpers {
+IL2CPP_REGISTER_METHOD(0x02540D90, int32_t, SafeLength, (Array * values));
+IL2CPP_REGISTER_METHOD(0x02540DB0, void, Internal_ResizeList, (Object * list, int32_t size));
+IL2CPP_REGISTER_METHOD(0x02540E10, Array *, ExtractArrayFromList, (Object * list));
+IL2CPP_REGISTER_METHOD(0x015E61A0, void, ResizeList, (List_1_System_Object_ * list, int32_t size));
+IL2CPP_REGISTER_METHODINFO(0x0478B028, NoAllocHelpers_ResizeList__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E6120, void, EnsureListElemCount, (List_1_System_Object_ * list, int32_t count));
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_System_Object_ * values));
+IL2CPP_REGISTER_METHOD(0x02FF64F0, Object__Array *, ExtractArrayFromListT, (List_1_System_Object_ * list));
+IL2CPP_REGISTER_METHOD(0x02FF64F0, Vector4__Array *, ExtractArrayFromListT, (List_1_UnityEngine_Vector4_ * list));
+IL2CPP_REGISTER_METHODINFO(0x0476CC40, NoAllocHelpers_ExtractArrayFromListT_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_System_Int32_ * values));
+IL2CPP_REGISTER_METHODINFO(0x047489D0, NoAllocHelpers_SafeLength_2__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E6120, void, EnsureListElemCount, (List_1_UnityEngine_Rect_ * list, int32_t count));
+IL2CPP_REGISTER_METHODINFO(0x04705B90, NoAllocHelpers_EnsureListElemCount_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02FF64F0, Rect__Array *, ExtractArrayFromListT, (List_1_UnityEngine_Rect_ * list));
+IL2CPP_REGISTER_METHODINFO(0x04793768, NoAllocHelpers_ExtractArrayFromListT_2__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_MeshTrail_MeshTrailEmitter_ * values));
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_UnityEngine_Color32_ * values));
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_UnityEngine_Color_ * values));
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_UnityEngine_Vector2_ * values));
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_UnityEngine_Vector3_ * values));
+IL2CPP_REGISTER_METHOD(0x01539B00, int32_t, SafeLength, (List_1_UnityEngine_Vector4_ * values));
+IL2CPP_REGISTER_METHOD(0x015E62E0, void, ResizeList, (List_1_UnityEngine_Rect_ * list, int32_t size));
+IL2CPP_REGISTER_METHODINFO(0x0474E348, NoAllocHelpers_ResizeList_1__MethodInfo);
+}

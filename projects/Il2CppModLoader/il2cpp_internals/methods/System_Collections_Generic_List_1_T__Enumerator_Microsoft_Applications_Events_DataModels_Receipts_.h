@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Microsoft::Applications::Events::DataModels::Receipts_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, Receipts *, get_Current, (List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Receipts___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475F690, List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Receipts__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Receipts___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04791E80, List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Receipts__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Receipts___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04754D80, List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Receipts__Dispose__MethodInfo);
+}

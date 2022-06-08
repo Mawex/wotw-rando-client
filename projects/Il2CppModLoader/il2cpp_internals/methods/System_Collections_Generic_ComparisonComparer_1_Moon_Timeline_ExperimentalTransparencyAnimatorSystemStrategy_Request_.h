@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::ComparisonComparer_1_Moon::Timeline::ExperimentalTransparencyAnimatorSystemStrategy_Request_ {
+IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * __this, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparison));
+IL2CPP_REGISTER_METHOD(0x0162A2F0, int32_t, Compare, (ComparisonComparer_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * __this, ExperimentalTransparencyAnimatorSystemStrategy_Request x, ExperimentalTransparencyAnimatorSystemStrategy_Request y));
+}

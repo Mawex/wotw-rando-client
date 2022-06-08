@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::ShaderID_UberDofTextureGenerator {
+IL2CPP_REGISTER_METHOD(0x005A7ED0, void, __cctor, (MethodInfo * method));
+}

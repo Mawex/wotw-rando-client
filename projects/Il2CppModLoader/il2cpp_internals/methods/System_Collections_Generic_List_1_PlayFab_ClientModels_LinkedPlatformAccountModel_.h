@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_PlayFab::ClientModels::LinkedPlatformAccountModel_ {
+IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_PlayFab_ClientModels_LinkedPlatformAccountModel_, GetEnumerator, (List_1_PlayFab_ClientModels_LinkedPlatformAccountModel_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047181C0, List_1_PlayFab_ClientModels_LinkedPlatformAccountModel__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_PlayFab_ClientModels_LinkedPlatformAccountModel_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475B250, List_1_PlayFab_ClientModels_LinkedPlatformAccountModel___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_PlayFab_ClientModels_LinkedPlatformAccountModel_ * __this, LinkedPlatformAccountModel * item));
+IL2CPP_REGISTER_METHODINFO(0x04757AE0, List_1_PlayFab_ClientModels_LinkedPlatformAccountModel__Add__MethodInfo);
+}

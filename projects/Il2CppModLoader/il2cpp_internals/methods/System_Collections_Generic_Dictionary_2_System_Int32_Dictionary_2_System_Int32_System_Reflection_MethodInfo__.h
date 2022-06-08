@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Dictionary_2_System::Int32_System::Reflection::MethodInfo__ {
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MethodInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04780AA0, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MethodInfo___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MethodInfo_ * __this, int32_t key, Dictionary_2_System_Int32_System_Reflection_MethodInfo_ * value));
+IL2CPP_REGISTER_METHODINFO(0x04734298, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MethodInfo__set_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BB8880, Dictionary_2_System_Int32_System_Reflection_MethodInfo_ *, get_Item, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MethodInfo_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x0475D898, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MethodInfo__get_Item__MethodInfo);
+}

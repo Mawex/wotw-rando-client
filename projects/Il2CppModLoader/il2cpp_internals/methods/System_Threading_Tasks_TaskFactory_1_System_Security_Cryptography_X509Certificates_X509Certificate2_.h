@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Threading::Tasks::TaskFactory_1_System::Security::Cryptography::X509Certificates::X509Certificate2_ {
+IL2CPP_REGISTER_METHOD(0x027792C0, Task_1_System_Security_Cryptography_X509Certificates_X509Certificate2_ *, FromAsync, (TaskFactory_1_System_Security_Cryptography_X509Certificates_X509Certificate2_ * __this, Func_3_AsyncCallback_Object_IAsyncResult_ * beginMethod, Func_2_IAsyncResult_System_Security_Cryptography_X509Certificates_X509Certificate2_ * endMethod, Object * state));
+IL2CPP_REGISTER_METHODINFO(0x047084F0, TaskFactory_1_System_Security_Cryptography_X509Certificates_X509Certificate2__FromAsync__MethodInfo);
+}

@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::GetServerCustomIDsFromPlayFabIDsRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_GetServerCustomIDsFromPlayFabIDsRequest_ * __this, GetServerCustomIDsFromPlayFabIDsRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04726BD0, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_GetServerCustomIDsFromPlayFabIDsRequest__Invoke__MethodInfo);
+}

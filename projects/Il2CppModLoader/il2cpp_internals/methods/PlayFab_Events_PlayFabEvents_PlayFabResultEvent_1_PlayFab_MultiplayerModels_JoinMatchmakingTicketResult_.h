@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::MultiplayerModels::JoinMatchmakingTicketResult_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_JoinMatchmakingTicketResult_ * __this, JoinMatchmakingTicketResult * result));
+IL2CPP_REGISTER_METHODINFO(0x04791C28, PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_JoinMatchmakingTicketResult__Invoke__MethodInfo);
+}

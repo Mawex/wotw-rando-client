@@ -1,0 +1,16 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_InstantiationHistory_PrefabData_ {
+IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_System_String_InstantiationHistory_PrefabData_, GetEnumerator, (Dictionary_2_System_String_InstantiationHistory_PrefabData_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047881C8, Dictionary_2_System_String_InstantiationHistory_PrefabData__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_System_String_InstantiationHistory_PrefabData_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047118C8, Dictionary_2_System_String_InstantiationHistory_PrefabData__Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_System_String_InstantiationHistory_PrefabData_ * __this, String * key));
+IL2CPP_REGISTER_METHODINFO(0x04789150, Dictionary_2_System_String_InstantiationHistory_PrefabData__ContainsKey__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_String_InstantiationHistory_PrefabData_ * __this, String * key, InstantiationHistory_PrefabData * value));
+IL2CPP_REGISTER_METHODINFO(0x0472FE38, Dictionary_2_System_String_InstantiationHistory_PrefabData__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BD24D0, InstantiationHistory_PrefabData *, get_Item, (Dictionary_2_System_String_InstantiationHistory_PrefabData_ * __this, String * key));
+IL2CPP_REGISTER_METHODINFO(0x04723488, Dictionary_2_System_String_InstantiationHistory_PrefabData__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_String_InstantiationHistory_PrefabData_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04725D40, Dictionary_2_System_String_InstantiationHistory_PrefabData___ctor__MethodInfo);
+}

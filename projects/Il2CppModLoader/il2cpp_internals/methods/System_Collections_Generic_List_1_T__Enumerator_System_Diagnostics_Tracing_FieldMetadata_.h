@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_System::Diagnostics::Tracing::FieldMetadata_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, FieldMetadata *, get_Current, (List_1_T_Enumerator_System_Diagnostics_Tracing_FieldMetadata___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04777A70, List_1_T_Enumerator_System_Diagnostics_Tracing_FieldMetadata__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_System_Diagnostics_Tracing_FieldMetadata___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04719110, List_1_T_Enumerator_System_Diagnostics_Tracing_FieldMetadata__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_System_Diagnostics_Tracing_FieldMetadata___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0478F690, List_1_T_Enumerator_System_Diagnostics_Tracing_FieldMetadata__Dispose__MethodInfo);
+}

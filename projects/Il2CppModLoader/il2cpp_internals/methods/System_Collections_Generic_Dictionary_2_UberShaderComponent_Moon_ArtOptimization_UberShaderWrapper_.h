@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_UberShaderComponent_Moon::ArtOptimization::UberShaderWrapper_ {
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04791278, Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper_ * __this, UberShaderComponent * key));
+IL2CPP_REGISTER_METHODINFO(0x0470B978, Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper__ContainsKey__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper_ * __this, UberShaderComponent * key, UberShaderWrapper * value));
+IL2CPP_REGISTER_METHODINFO(0x04701208, Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper__set_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BD24D0, UberShaderWrapper *, get_Item, (Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper_ * __this, UberShaderComponent * key));
+IL2CPP_REGISTER_METHODINFO(0x04783140, Dictionary_2_UberShaderComponent_Moon_ArtOptimization_UberShaderWrapper__get_Item__MethodInfo);
+}

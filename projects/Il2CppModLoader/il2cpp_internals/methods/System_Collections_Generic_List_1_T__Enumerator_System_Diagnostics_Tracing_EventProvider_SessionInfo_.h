@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_System::Diagnostics::Tracing::EventProvider_SessionInfo_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, EventProvider_SessionInfo, get_Current, (List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04743C10, List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014CEB0, bool, MoveNext, (List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04767990, List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04780F10, List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo__Dispose__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014CC40, void, __ctor, (List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this, List_1_System_Diagnostics_Tracing_EventProvider_SessionInfo_ * list));
+IL2CPP_REGISTER_METHOD(0x0014CD40, bool, MoveNextRare, (List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0014CF70, Object *, IEnumerator_get_Current, (List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0014CE70, void, IEnumerator_Reset, (List_1_T_Enumerator_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this));
+}

@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon::Telemetry::Performance::ProfilingSettings_SettingType_Moon::Telemetry::Performance::Settings::IProfilingSetting_ {
+IL2CPP_REGISTER_METHOD(0x00107C10, IProfilingSetting *, get_Value, (KeyValuePair_2_Moon_Telemetry_Performance_ProfilingSettings_SettingType_Moon_Telemetry_Performance_Settings_IProfilingSetting___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047074E8, KeyValuePair_2_Moon_Telemetry_Performance_ProfilingSettings_SettingType_Moon_Telemetry_Performance_Settings_IProfilingSetting__get_Value__MethodInfo);
+}

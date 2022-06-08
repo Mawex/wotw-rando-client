@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::Moon::Timeline::ShowInteractiveTextEntity {
+IL2CPP_REGISTER_METHOD(0x00D02830, void, __ctor, (ShowInteractiveTextEntity * __this));
+}

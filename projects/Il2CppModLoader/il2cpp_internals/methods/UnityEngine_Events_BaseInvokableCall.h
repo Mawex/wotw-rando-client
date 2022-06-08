@@ -1,0 +1,20 @@
+using namespace app;
+
+namespace app::methods::UnityEngine::Events::BaseInvokableCall {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (BaseInvokableCall * __this));
+IL2CPP_REGISTER_METHOD(0x0242E930, void, __ctor, (BaseInvokableCall * __this, Object * target, MethodInfo_1 * function));
+IL2CPP_REGISTER_METHODINFO(0x0472BAE0, BaseInvokableCall__ctor_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0242EA20, bool, AllowInvoke, (Delegate * delegate));
+IL2CPP_REGISTER_METHOD(0x015E4BF0, void, ThrowOnInvalidArg, (Object * arg));
+IL2CPP_REGISTER_METHODINFO(0x04736010, BaseInvokableCall_ThrowOnInvalidArg__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E4850, void, ThrowOnInvalidArg, (Object * arg));
+IL2CPP_REGISTER_METHODINFO(0x0478B748, BaseInvokableCall_ThrowOnInvalidArg_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E4A20, void, ThrowOnInvalidArg, (Object * arg));
+IL2CPP_REGISTER_METHODINFO(0x0476E9E8, BaseInvokableCall_ThrowOnInvalidArg_2__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E4DC0, void, ThrowOnInvalidArg, (Object * arg));
+IL2CPP_REGISTER_METHODINFO(0x0470E7B8, BaseInvokableCall_ThrowOnInvalidArg_3__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E4F90, void, ThrowOnInvalidArg, (Object * arg));
+IL2CPP_REGISTER_METHODINFO(0x04708F80, BaseInvokableCall_ThrowOnInvalidArg_4__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x015E5160, void, ThrowOnInvalidArg, (Object * arg));
+IL2CPP_REGISTER_METHODINFO(0x0473E858, BaseInvokableCall_ThrowOnInvalidArg_5__MethodInfo);
+}

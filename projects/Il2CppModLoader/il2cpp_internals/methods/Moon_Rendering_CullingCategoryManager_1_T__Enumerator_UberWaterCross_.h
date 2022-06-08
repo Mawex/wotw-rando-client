@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::Moon::Rendering::CullingCategoryManager_1_T__Enumerator_UberWaterCross_ {
+IL2CPP_REGISTER_METHOD(0x00216120, CullingCategoryManager_1_T_Enumerator_UberWaterCross_, GetEnumerator, (CullingCategoryManager_1_T_Enumerator_UberWaterCross___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470C550, CullingCategoryManager_1_T_Enumerator_UberWaterCross__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00107C60, UberWaterCross *, get_Current, (CullingCategoryManager_1_T_Enumerator_UberWaterCross___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047060C8, CullingCategoryManager_1_T_Enumerator_UberWaterCross__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002160A0, bool, MoveNext, (CullingCategoryManager_1_T_Enumerator_UberWaterCross___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047675B0, CullingCategoryManager_1_T_Enumerator_UberWaterCross__MoveNext__MethodInfo);
+}

@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon::UberID_System::Single_ {
+IL2CPP_REGISTER_METHOD(0x00107C00, UberID *, get_Key, (KeyValuePair_2_Moon_UberID_System_Single___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04777968, KeyValuePair_2_Moon_UberID_System_Single__get_Key__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00111970, float, get_Value, (KeyValuePair_2_Moon_UberID_System_Single___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473F970, KeyValuePair_2_Moon_UberID_System_Single__get_Value__MethodInfo);
+}

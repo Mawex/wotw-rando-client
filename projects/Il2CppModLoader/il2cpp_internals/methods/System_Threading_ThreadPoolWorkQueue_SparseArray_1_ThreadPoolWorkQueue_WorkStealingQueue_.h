@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Threading::ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue_ {
+IL2CPP_REGISTER_METHOD(0x02775660, ThreadPoolWorkQueue_WorkStealingQueue__Array *, get_Current, (ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04763F90, ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02A61DB0, void, __ctor, (ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue_ * __this, int32_t initialSize));
+IL2CPP_REGISTER_METHODINFO(0x047926B0, ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02A61E20, int32_t, Add, (ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue_ * __this, ThreadPoolWorkQueue_WorkStealingQueue * e));
+IL2CPP_REGISTER_METHODINFO(0x0477D868, ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02A620A0, void, Remove, (ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue_ * __this, ThreadPoolWorkQueue_WorkStealingQueue * e));
+IL2CPP_REGISTER_METHODINFO(0x04733AD8, ThreadPoolWorkQueue_SparseArray_1_ThreadPoolWorkQueue_WorkStealingQueue__Remove__MethodInfo);
+}

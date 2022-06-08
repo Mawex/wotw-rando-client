@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::SeinController3D___c {
+IL2CPP_REGISTER_METHOD(0x006E22A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SeinController3D_c * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__89_0, (SeinController3D_c * __this, SeinController3D_EventId__Enum _p0_));
+IL2CPP_REGISTER_METHODINFO(0x047118B0, SeinController3D_c___ctor_b__89_0__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__89_1, (SeinController3D_c * __this, String * _p0_));
+IL2CPP_REGISTER_METHODINFO(0x04794480, SeinController3D_c___ctor_b__89_1__MethodInfo);
+}

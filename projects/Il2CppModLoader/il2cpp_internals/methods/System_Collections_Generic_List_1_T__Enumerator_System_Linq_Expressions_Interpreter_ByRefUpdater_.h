@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_System::Linq::Expressions::Interpreter::ByRefUpdater_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, ByRefUpdater *, get_Current, (List_1_T_Enumerator_System_Linq_Expressions_Interpreter_ByRefUpdater___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04798718, List_1_T_Enumerator_System_Linq_Expressions_Interpreter_ByRefUpdater__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_System_Linq_Expressions_Interpreter_ByRefUpdater___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470A010, List_1_T_Enumerator_System_Linq_Expressions_Interpreter_ByRefUpdater__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_System_Linq_Expressions_Interpreter_ByRefUpdater___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04783BB0, List_1_T_Enumerator_System_Linq_Expressions_Interpreter_ByRefUpdater__Dispose__MethodInfo);
+}

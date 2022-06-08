@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Collections::ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator {
+IL2CPP_REGISTER_METHOD(0x0202ACC0, void, __ctor, (ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator * __this, ListDictionaryInternal * list, bool isKeys));
+IL2CPP_REGISTER_METHOD(0x0202ACF0, Object *, get_Current, (ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator * __this));
+IL2CPP_REGISTER_METHODINFO(0x04750718, ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator_get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0202ADD0, bool, MoveNext, (ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator * __this));
+IL2CPP_REGISTER_METHODINFO(0x047089A8, ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator_MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0202AEE0, void, Reset, (ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473DFD0, ListDictionaryInternal_NodeKeyValueCollection_NodeKeyValueEnumerator_Reset__MethodInfo);
+}

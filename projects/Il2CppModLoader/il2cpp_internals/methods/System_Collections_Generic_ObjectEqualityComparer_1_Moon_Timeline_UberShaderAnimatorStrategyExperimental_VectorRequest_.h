@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::Timeline::UberShaderAnimatorStrategyExperimental_VectorRequest_ {
+IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ * __this, UberShaderAnimatorStrategyExperimental_VectorRequest x, UberShaderAnimatorStrategyExperimental_VectorRequest y));
+IL2CPP_REGISTER_METHOD(0x01CD0900, int32_t, GetHashCode, (ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ * __this, UberShaderAnimatorStrategyExperimental_VectorRequest obj));
+IL2CPP_REGISTER_METHOD(0x01CD0D00, int32_t, IndexOf, (ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ * __this, UberShaderAnimatorStrategyExperimental_VectorRequest__Array * array, UberShaderAnimatorStrategyExperimental_VectorRequest value, int32_t startIndex, int32_t count));
+IL2CPP_REGISTER_METHOD(0x01CD0E90, int32_t, LastIndexOf, (ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ * __this, UberShaderAnimatorStrategyExperimental_VectorRequest__Array * array, UberShaderAnimatorStrategyExperimental_VectorRequest value, int32_t startIndex, int32_t count));
+IL2CPP_REGISTER_METHOD(0x01CC3E60, bool, Equals, (ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ * __this, Object * obj));
+IL2CPP_REGISTER_METHOD(0x01CC3EB0, int32_t, GetHashCode, (ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ * __this));
+IL2CPP_REGISTER_METHOD(0x019F8810, void, __ctor, (ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ * __this));
+}

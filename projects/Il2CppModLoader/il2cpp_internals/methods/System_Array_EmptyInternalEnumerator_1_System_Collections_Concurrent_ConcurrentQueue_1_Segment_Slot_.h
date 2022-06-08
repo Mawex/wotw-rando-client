@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Array_EmptyInternalEnumerator_1_System::Collections::Concurrent::ConcurrentQueue_1_Segment_Slot_ {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Concurrent_ConcurrentQueue_1_Segment_Slot_ * __this));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Concurrent_ConcurrentQueue_1_Segment_Slot_ * __this));
+IL2CPP_REGISTER_METHOD(0x02041920, ConcurrentQueue_1_T_Segment_T_Slot_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Concurrent_ConcurrentQueue_1_Segment_Slot_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04745AD8, Array_EmptyInternalEnumerator_1_System_Collections_Concurrent_ConcurrentQueue_1_Segment_Slot__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Concurrent_ConcurrentQueue_1_Segment_Slot_ * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Concurrent_ConcurrentQueue_1_Segment_Slot_ * __this));
+IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Concurrent_ConcurrentQueue_1_Segment_Slot_ * __this));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+}

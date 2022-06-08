@@ -1,0 +1,25 @@
+using namespace app;
+
+namespace app::methods::Moon::TimeSlicer::AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ {
+IL2CPP_REGISTER_METHOD(0x02AF3CC0, void, __ctor, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this, String * name));
+IL2CPP_REGISTER_METHODINFO(0x04729568, AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AF3D30, bool, get_IsFinished, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047927C8, AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask__get_IsFinished__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AF3DC0, void, SetTask, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this, ScenesManagerPrediction_UpdateExtrapolatedPositionTask task));
+IL2CPP_REGISTER_METHODINFO(0x04705798, AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask__SetTask__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AF3E00, bool, Enqueue, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this, TimeSlicedJobPriority__Enum priority));
+IL2CPP_REGISTER_METHODINFO(0x04708898, AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Enqueue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AF3CE0, void, OnUpdateBeat, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Pause, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Resume, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x02AF3D00, void, OnJobFinished, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x002FBC20, String *, get_JobName, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x00420EE0, String *, get_TimesliceJobOwnerName, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x00738690, float, get_CustomTimeBudget, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x00990EC0, void, set_CustomTimeBudget, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this, float value));
+IL2CPP_REGISTER_METHOD(0x02AF3D40, String *, get_ContextualDebugData, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x003FC510, float, get_EnqueuedTime, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x00B83350, void, set_EnqueuedTime, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this, float value));
+IL2CPP_REGISTER_METHOD(0x003FC5D0, float, get_AvailableBudget, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this));
+IL2CPP_REGISTER_METHOD(0x008D27B0, void, set_AvailableBudget, (AllocFreeTimeSlicedJob_1_ScenesManagerPrediction_UpdateExtrapolatedPositionTask_ * __this, float value));
+}

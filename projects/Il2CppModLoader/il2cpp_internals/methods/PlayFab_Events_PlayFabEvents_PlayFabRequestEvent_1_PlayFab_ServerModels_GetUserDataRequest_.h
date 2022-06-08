@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::GetUserDataRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_GetUserDataRequest_ * __this, GetUserDataRequest_1 * request));
+IL2CPP_REGISTER_METHODINFO(0x0473C330, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_GetUserDataRequest__Invoke__MethodInfo);
+}

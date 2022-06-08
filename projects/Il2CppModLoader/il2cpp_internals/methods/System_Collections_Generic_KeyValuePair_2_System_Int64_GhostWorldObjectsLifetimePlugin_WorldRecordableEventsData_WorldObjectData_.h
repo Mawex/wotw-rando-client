@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Int64_GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData_ {
+IL2CPP_REGISTER_METHOD(0x00107C10, GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData *, get_Value, (KeyValuePair_2_System_Int64_GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04758CE8, KeyValuePair_2_System_Int64_GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData__get_Value__MethodInfo);
+}

@@ -1,0 +1,19 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::Timeline::ExperimentalTransparencyAnimatorSystemStrategy_Request_ {
+IL2CPP_REGISTER_METHOD(0x02F3A7E0, void, Sort, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHODINFO(0x04712D38, ArraySortHelper_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request__Sort__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F3AB00, int32_t, BinarySearch, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * array, int32_t index, int32_t length, ExperimentalTransparencyAnimatorSystemStrategy_Request value, IComparer_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHODINFO(0x04734B98, ArraySortHelper_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request__BinarySearch__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F3ACB0, void, Sort, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t index, int32_t length, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHODINFO(0x04716F90, ArraySortHelper_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request__Sort_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02C884A0, int32_t, InternalBinarySearch, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * array, int32_t index, int32_t length, ExperimentalTransparencyAnimatorSystemStrategy_Request value, IComparer_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHOD(0x02C88650, void, SwapIfGreater, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer, int32_t a, int32_t b));
+IL2CPP_REGISTER_METHOD(0x02C88810, void, Swap, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * a, int32_t i, int32_t j));
+IL2CPP_REGISTER_METHOD(0x02C86EC0, void, IntrospectiveSort, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t left, int32_t length, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHOD(0x02C86FB0, void, IntroSort, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t lo, int32_t hi, int32_t depthLimit, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHOD(0x02C888B0, int32_t, PickPivotAndPartition, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t lo, int32_t hi, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHOD(0x02C87750, void, Heapsort, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t lo, int32_t hi, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHOD(0x02C88CE0, void, DownHeap, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t i, int32_t n, int32_t lo, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+IL2CPP_REGISTER_METHOD(0x02C89050, void, InsertionSort, (ExperimentalTransparencyAnimatorSystemStrategy_Request__Array * keys, int32_t lo, int32_t hi, Comparison_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * comparer));
+}

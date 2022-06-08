@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::HashSet_1_System::Linq::Expressions::Interpreter::LabelScopeInfo_ {
+IL2CPP_REGISTER_METHOD(0x02ABEAC0, bool, Contains, (HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo_ * __this, LabelScopeInfo * item));
+IL2CPP_REGISTER_METHODINFO(0x0470EFE0, HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo__Contains__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02ABCD80, HashSet_1_T_Enumerator_System_Linq_Expressions_Interpreter_LabelScopeInfo_, GetEnumerator, (HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0478CAC8, HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AB4370, void, __ctor, (HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047107B8, HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AB4A60, bool, Add, (HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo_ * __this, LabelScopeInfo * item));
+IL2CPP_REGISTER_METHODINFO(0x04727968, HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo__Add__MethodInfo);
+}

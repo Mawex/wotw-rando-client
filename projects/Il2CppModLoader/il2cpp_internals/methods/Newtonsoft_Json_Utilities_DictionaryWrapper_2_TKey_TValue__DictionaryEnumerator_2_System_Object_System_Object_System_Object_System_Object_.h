@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::Newtonsoft::Json::Utilities::DictionaryWrapper_2_TKey_TValue__DictionaryEnumerator_2_System::Object_System::Object_System::Object_System::Object_ {
+IL2CPP_REGISTER_METHOD(0x001C9550, DictionaryEntry, get_Entry, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001C9580, Object *, get_Key, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001C95D0, Object *, get_Value, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001C9630, Object *, get_Current, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001C94B0, void, __ctor, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this, IEnumerator_1_KeyValuePair_2_System_Object_System_Object_ * e));
+IL2CPP_REGISTER_METHOD(0x001C9640, bool, MoveNext, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001C96D0, void, Reset, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this));
+}

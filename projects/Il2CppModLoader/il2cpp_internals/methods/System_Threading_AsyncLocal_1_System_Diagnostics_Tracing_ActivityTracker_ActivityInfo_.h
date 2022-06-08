@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Threading::AsyncLocal_1_System::Diagnostics::Tracing::ActivityTracker_ActivityInfo_ {
+IL2CPP_REGISTER_METHOD(0x02775090, ActivityTracker_ActivityInfo *, get_Value, (AsyncLocal_1_System_Diagnostics_Tracing_ActivityTracker_ActivityInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0471EB50, AsyncLocal_1_System_Diagnostics_Tracing_ActivityTracker_ActivityInfo__get_Value__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x027751A0, void, set_Value, (AsyncLocal_1_System_Diagnostics_Tracing_ActivityTracker_ActivityInfo_ * __this, ActivityTracker_ActivityInfo * value));
+IL2CPP_REGISTER_METHODINFO(0x04775FD0, AsyncLocal_1_System_Diagnostics_Tracing_ActivityTracker_ActivityInfo__set_Value__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x019D6B90, void, __ctor, (AsyncLocal_1_System_Diagnostics_Tracing_ActivityTracker_ActivityInfo_ * __this, Action_1_System_Threading_AsyncLocalValueChangedArgs_1__1 * valueChangedHandler));
+IL2CPP_REGISTER_METHODINFO(0x04717890, AsyncLocal_1_System_Diagnostics_Tracing_ActivityTracker_ActivityInfo___ctor__MethodInfo);
+}

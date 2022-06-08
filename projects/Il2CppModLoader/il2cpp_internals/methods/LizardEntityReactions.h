@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::LizardEntityReactions {
+IL2CPP_REGISTER_METHOD(0x00FAE7C0, void, ProcessEntityEvent, (LizardEntityReactions * __this, EntityEvent * eventInfo));
+IL2CPP_REGISTER_METHOD(0x00420B10, void, __ctor, (LizardEntityReactions * __this));
+}

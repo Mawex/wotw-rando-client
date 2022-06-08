@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Runtime::CompilerServices::TaskAwaiter_1_SystemIntegration::Races::RaceRequestResultEntry___ {
+IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (TaskAwaiter_1_SystemIntegration_Races_RaceRequestResultEntry___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04713CE0, TaskAwaiter_1_SystemIntegration_Races_RaceRequestResultEntry__get_IsCompleted__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001FF750, RaceRequestResultEntry__Array *, GetResult, (TaskAwaiter_1_SystemIntegration_Races_RaceRequestResultEntry___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04756B28, TaskAwaiter_1_SystemIntegration_Races_RaceRequestResultEntry__GetResult__MethodInfo);
+}

@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_AbilityType_List_1_Moon::ComboSystem::ComboMove__ {
+IL2CPP_REGISTER_METHOD(0x02EAA0E0, List_1_Moon_ComboSystem_ComboMove_ *, get_Item, (Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove_ * __this, AbilityType__Enum key));
+IL2CPP_REGISTER_METHODINFO(0x04784148, Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove_ * __this, AbilityType__Enum key));
+IL2CPP_REGISTER_METHODINFO(0x04768290, Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove__ContainsKey__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove_ * __this, AbilityType__Enum key, List_1_Moon_ComboSystem_ComboMove_ * value));
+IL2CPP_REGISTER_METHODINFO(0x04743890, Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047376C0, Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove___ctor__MethodInfo);
+}

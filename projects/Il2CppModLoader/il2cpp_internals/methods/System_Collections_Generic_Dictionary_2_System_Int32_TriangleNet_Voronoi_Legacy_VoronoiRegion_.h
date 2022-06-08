@@ -1,0 +1,16 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_TriangleNet::Voronoi::Legacy::VoronoiRegion_ {
+IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion_ *, get_Values, (Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04787810, Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion__get_Values__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02259DF0, void, __ctor, (Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion_ * __this, int32_t capacity));
+IL2CPP_REGISTER_METHODINFO(0x04786F18, Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion_ * __this, int32_t key, VoronoiRegion * value));
+IL2CPP_REGISTER_METHODINFO(0x04702628, Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BB8880, VoronoiRegion *, get_Item, (Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x0472A630, Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04765D28, Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion___ctor_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion_ * __this, int32_t key, VoronoiRegion * * value));
+IL2CPP_REGISTER_METHODINFO(0x04783EC0, Dictionary_2_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion__TryGetValue__MethodInfo);
+}

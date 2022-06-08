@@ -1,0 +1,7 @@
+using namespace app;
+
+namespace app::methods::BitLayer {
+IL2CPP_REGISTER_METHOD(0x01156D60, bool, ContainsLayer, (LayerMask layerMask, int32_t layer));
+IL2CPP_REGISTER_METHOD(0x02551C40, int32_t, MaskFromLayer, (int32_t layer));
+IL2CPP_REGISTER_METHOD(0x02551CD0, int32_t, LayerFromMask, (int32_t bitmask));
+}

@@ -1,0 +1,18 @@
+using namespace app;
+
+namespace app::methods::System::Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo_ {
+IL2CPP_REGISTER_METHOD(0x001F42C0, bool, get_HasValue, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047796F8, Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo__get_HasValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001F42D0, DynamicInstantiationDescriptor_ReflectionInfo, get_Value, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04759678, Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo__get_Value__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001F42B0, void, __ctor, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this, DynamicInstantiationDescriptor_ReflectionInfo value));
+IL2CPP_REGISTER_METHODINFO(0x04715F10, Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001F43D0, bool, Equals, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this, Object * other));
+IL2CPP_REGISTER_METHOD(0x001F4430, bool, Equals, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this, Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo_ other));
+IL2CPP_REGISTER_METHOD(0x001F44C0, int32_t, GetHashCode, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001F4590, DynamicInstantiationDescriptor_ReflectionInfo, GetValueOrDefault, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001F45B0, DynamicInstantiationDescriptor_ReflectionInfo, GetValueOrDefault, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this, DynamicInstantiationDescriptor_ReflectionInfo defaultValue));
+IL2CPP_REGISTER_METHOD(0x001F45F0, String *, ToString, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0254E580, Object *, Box, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo_ o));
+IL2CPP_REGISTER_METHOD(0x0254E610, Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo_, Unbox, (Object * o));
+}

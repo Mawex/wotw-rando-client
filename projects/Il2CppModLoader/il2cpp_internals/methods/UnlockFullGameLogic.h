@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::UnlockFullGameLogic {
+IL2CPP_REGISTER_METHOD(0x013AC460, void, FixedUpdate, (UnlockFullGameLogic * __this));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (UnlockFullGameLogic * __this));
+}

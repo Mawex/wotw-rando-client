@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Xml::ReadContentAsBinaryHelper {
+IL2CPP_REGISTER_METHOD(0x0199F510, void, Finish, (ReadContentAsBinaryHelper * __this));
+IL2CPP_REGISTER_METHODINFO(0x0471A768, ReadContentAsBinaryHelper_Finish__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0199F7B0, void, Reset, (ReadContentAsBinaryHelper * __this));
+IL2CPP_REGISTER_METHOD(0x0199F7C0, bool, MoveToNextContentNode, (ReadContentAsBinaryHelper * __this, bool moveIfOnContentNode));
+}

@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_WotwUberStateToWwiseData_AbilityRequirementCondition_ {
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_WotwUberStateToWwiseData_AbilityRequirementCondition_ * __this, WotwUberStateToWwiseData_AbilityRequirementCondition * item));
+IL2CPP_REGISTER_METHODINFO(0x0478B1F0, List_1_WotwUberStateToWwiseData_AbilityRequirementCondition__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EAEF0, WotwUberStateToWwiseData_AbilityRequirementCondition__Array *, ToArray, (List_1_WotwUberStateToWwiseData_AbilityRequirementCondition_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0472C280, List_1_WotwUberStateToWwiseData_AbilityRequirementCondition__ToArray__MethodInfo);
+}

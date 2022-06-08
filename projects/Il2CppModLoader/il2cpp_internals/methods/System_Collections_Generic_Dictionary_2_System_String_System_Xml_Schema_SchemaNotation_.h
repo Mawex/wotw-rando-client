@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_System::Xml::Schema::SchemaNotation_ {
+IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_System_String_System_Xml_Schema_SchemaNotation_ * __this, String * key));
+IL2CPP_REGISTER_METHODINFO(0x047251A0, Dictionary_2_System_String_System_Xml_Schema_SchemaNotation__ContainsKey__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_String_System_Xml_Schema_SchemaNotation_ * __this, String * key, SchemaNotation * value));
+IL2CPP_REGISTER_METHODINFO(0x0471D438, Dictionary_2_System_String_System_Xml_Schema_SchemaNotation__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_String_System_Xml_Schema_SchemaNotation_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04791740, Dictionary_2_System_String_System_Xml_Schema_SchemaNotation___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_System_String_System_Xml_Schema_SchemaNotation_ *, get_Values, (Dictionary_2_System_String_System_Xml_Schema_SchemaNotation_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470F448, Dictionary_2_System_String_System_Xml_Schema_SchemaNotation__get_Values__MethodInfo);
+}

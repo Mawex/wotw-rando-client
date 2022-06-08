@@ -1,0 +1,16 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_FramePerformanceMonitor_PerformanceEntry_ {
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_FramePerformanceMonitor_PerformanceEntry_ * __this, FramePerformanceMonitor_PerformanceEntry * item));
+IL2CPP_REGISTER_METHODINFO(0x0472B138, List_1_FramePerformanceMonitor_PerformanceEntry__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_FramePerformanceMonitor_PerformanceEntry_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04799A98, List_1_FramePerformanceMonitor_PerformanceEntry__Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_FramePerformanceMonitor_PerformanceEntry_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04761A20, List_1_FramePerformanceMonitor_PerformanceEntry___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_FramePerformanceMonitor_PerformanceEntry_ * __this, Comparison_1_FramePerformanceMonitor_PerformanceEntry_ * comparison));
+IL2CPP_REGISTER_METHODINFO(0x0474B530, List_1_FramePerformanceMonitor_PerformanceEntry__Sort__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_FramePerformanceMonitor_PerformanceEntry_, GetEnumerator, (List_1_FramePerformanceMonitor_PerformanceEntry_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04727150, List_1_FramePerformanceMonitor_PerformanceEntry__GetEnumerator__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02FE8360, void, __ctor, (List_1_FramePerformanceMonitor_PerformanceEntry_ * __this, IEnumerable_1_FramePerformanceMonitor_PerformanceEntry_ * collection));
+IL2CPP_REGISTER_METHODINFO(0x0472D618, List_1_FramePerformanceMonitor_PerformanceEntry___ctor_1__MethodInfo);
+}

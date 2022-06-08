@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::MultiplayerModels::GetMatchmakingTicketRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_MultiplayerModels_GetMatchmakingTicketRequest_ * __this, GetMatchmakingTicketRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x047915A0, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_MultiplayerModels_GetMatchmakingTicketRequest__Invoke__MethodInfo);
+}

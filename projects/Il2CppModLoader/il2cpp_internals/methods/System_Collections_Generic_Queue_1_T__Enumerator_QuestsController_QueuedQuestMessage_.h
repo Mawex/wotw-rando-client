@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_QuestsController_QueuedQuestMessage_ {
+IL2CPP_REGISTER_METHOD(0x001ECB90, void, __ctor, (Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage___Boxed * __this, Queue_1_QuestsController_QueuedQuestMessage_ * q));
+IL2CPP_REGISTER_METHOD(0x001ECBC0, void, Dispose, (Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001EDBF0, bool, MoveNext, (Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04763020, Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001EDC00, QuestsController_QueuedQuestMessage, get_Current, (Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001EDC40, void, ThrowEnumerationNotStartedOrEnded, (Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0471DEF0, Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage__ThrowEnumerationNotStartedOrEnded__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001EDC50, Object *, IEnumerator_get_Current, (Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001EDD00, void, IEnumerator_Reset, (Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04708848, Queue_1_T_Enumerator_QuestsController_QueuedQuestMessage__System_Collections_IEnumerator_Reset__MethodInfo);
+}

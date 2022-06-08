@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Text::UTF8Encoding_UTF8Decoder {
+IL2CPP_REGISTER_METHOD(0x0244A470, void, __ctor, (UTF8Encoding_UTF8Decoder * __this, UTF8Encoding * encoding));
+IL2CPP_REGISTER_METHOD(0x027D26A0, void, __ctor, (UTF8Encoding_UTF8Decoder * __this, SerializationInfo * info, StreamingContext context));
+IL2CPP_REGISTER_METHODINFO(0x047624B0, UTF8Encoding_UTF8Decoder__ctor_1__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x027D2930, void, ISerializable_GetObjectData, (UTF8Encoding_UTF8Decoder * __this, SerializationInfo * info, StreamingContext context));
+IL2CPP_REGISTER_METHODINFO(0x0473DBD8, UTF8Encoding_UTF8Decoder_System_Runtime_Serialization_ISerializable_GetObjectData__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x027D2A80, void, Reset, (UTF8Encoding_UTF8Decoder * __this));
+IL2CPP_REGISTER_METHOD(0x019A42C0, bool, get_HasState, (UTF8Encoding_UTF8Decoder * __this));
+}

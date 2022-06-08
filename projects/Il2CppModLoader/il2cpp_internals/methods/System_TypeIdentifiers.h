@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::System::TypeIdentifiers {
+IL2CPP_REGISTER_METHOD(0x027C09A0, TypeIdentifier *, FromDisplay, (String * displayName));
+}

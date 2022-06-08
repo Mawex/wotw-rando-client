@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ClientModels::UnlinkGameCenterAccountRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_UnlinkGameCenterAccountRequest_ * __this, UnlinkGameCenterAccountRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04715960, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_UnlinkGameCenterAccountRequest__Invoke__MethodInfo);
+}

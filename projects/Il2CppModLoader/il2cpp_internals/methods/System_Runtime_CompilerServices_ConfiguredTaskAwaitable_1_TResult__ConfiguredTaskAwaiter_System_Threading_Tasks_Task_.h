@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_TResult__ConfiguredTaskAwaiter_System::Threading::Tasks::Task_ {
+IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_Task___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047465F8, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_Task__get_IsCompleted__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001FF750, Task *, GetResult, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_Task___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04709430, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_Task__GetResult__MethodInfo);
+}

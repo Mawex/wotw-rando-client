@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Action_2_UnityEngine::ReflectionProbe_UnityEngine::ReflectionProbe_ReflectionProbeEvent_ {
+IL2CPP_REGISTER_METHOD(0x02C11970, void, Invoke, (Action_2_UnityEngine_ReflectionProbe_UnityEngine_ReflectionProbe_ReflectionProbeEvent_ * __this, ReflectionProbe * arg1, ReflectionProbe_ReflectionProbeEvent__Enum arg2));
+IL2CPP_REGISTER_METHODINFO(0x04798028, Action_2_UnityEngine_ReflectionProbe_UnityEngine_ReflectionProbe_ReflectionProbeEvent__Invoke__MethodInfo);
+}

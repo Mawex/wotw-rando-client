@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::CarryableRigidBody___c {
+IL2CPP_REGISTER_METHOD(0x00B29940, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CarryableRigidBody_c * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__53_0, (CarryableRigidBody_c * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475DBA8, CarryableRigidBody_c___ctor_b__53_0__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor_b__54_0, (CarryableRigidBody_c * __this));
+IL2CPP_REGISTER_METHODINFO(0x04752298, CarryableRigidBody_c___cctor_b__54_0__MethodInfo);
+}

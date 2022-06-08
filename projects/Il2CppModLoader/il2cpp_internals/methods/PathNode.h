@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PathNode {
+IL2CPP_REGISTER_METHOD(0x004485B0, bool, get_TangentsAreLinked, (PathNode * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PathNode * __this));
+}

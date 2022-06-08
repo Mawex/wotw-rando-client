@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_Moon::CrossSceneDependencyInjector_ {
+IL2CPP_REGISTER_METHOD(0x025EFC50, CrossSceneDependencyInjector *, get_Item, (List_1_Moon_CrossSceneDependencyInjector_ * __this, int32_t index));
+IL2CPP_REGISTER_METHODINFO(0x0472D8A0, List_1_Moon_CrossSceneDependencyInjector__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_Moon_CrossSceneDependencyInjector_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473A6F0, List_1_Moon_CrossSceneDependencyInjector__get_Count__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_Moon_CrossSceneDependencyInjector_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0478FB88, List_1_Moon_CrossSceneDependencyInjector___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_Moon_CrossSceneDependencyInjector_ * __this, CrossSceneDependencyInjector * item));
+IL2CPP_REGISTER_METHODINFO(0x0472EAA0, List_1_Moon_CrossSceneDependencyInjector__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025F12F0, bool, Remove, (List_1_Moon_CrossSceneDependencyInjector_ * __this, CrossSceneDependencyInjector * item));
+IL2CPP_REGISTER_METHODINFO(0x04767F28, List_1_Moon_CrossSceneDependencyInjector__Remove__MethodInfo);
+}

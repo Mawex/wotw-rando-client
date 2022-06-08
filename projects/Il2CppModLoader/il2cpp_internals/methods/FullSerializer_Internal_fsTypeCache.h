@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::FullSerializer::Internal::fsTypeCache {
+IL2CPP_REGISTER_METHOD(0x0165DC10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0165E5D0, void, OnAssemblyLoaded, (Object * sender, AssemblyLoadEventArgs * args));
+IL2CPP_REGISTER_METHODINFO(0x04745780, fsTypeCache_OnAssemblyLoaded__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0165E910, bool, TryDirectTypeLookup, (String * assemblyName, String * typeName, Type * * type));
+IL2CPP_REGISTER_METHOD(0x0165EAB0, bool, TryIndirectTypeLookup, (String * typeName, Type * * type));
+IL2CPP_REGISTER_METHOD(0x0165EDD0, void, Reset, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0165EF60, Type *, GetType, (String * name));
+IL2CPP_REGISTER_METHOD(0x0165F000, Type *, GetType, (String * name, String * assemblyHint));
+}

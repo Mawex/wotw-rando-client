@@ -1,0 +1,9 @@
+using namespace app;
+
+namespace app::methods::System::Runtime::CompilerServices::TaskAwaiter_1_System::Nullable_1_ {
+IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (TaskAwaiter_1_System_Nullable_1___Boxed * __this, Task_1_System_Nullable_1_ * task));
+IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (TaskAwaiter_1_System_Nullable_1___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0018F1B0, void, OnCompleted, (TaskAwaiter_1_System_Nullable_1___Boxed * __this, Action * continuation));
+IL2CPP_REGISTER_METHOD(0x0018F1E0, void, UnsafeOnCompleted, (TaskAwaiter_1_System_Nullable_1___Boxed * __this, Action * continuation));
+IL2CPP_REGISTER_METHOD(0x001FF6C0, Nullable_1_Int32_, GetResult, (TaskAwaiter_1_System_Nullable_1___Boxed * __this));
+}

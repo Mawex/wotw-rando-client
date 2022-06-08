@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ {
+IL2CPP_REGISTER_METHOD(0x019E35E0, SpiritShardIconsCollection_Icons, GetValue, (EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ * __this, SpiritShardType__Enum key));
+IL2CPP_REGISTER_METHODINFO(0x0477E388, EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons__GetValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x019E3B70, void, __ctor, (EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047515D0, EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnBeforeSerialize, (EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ * __this));
+IL2CPP_REGISTER_METHOD(0x019E3460, void, OnAfterDeserialize, (EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ * __this));
+IL2CPP_REGISTER_METHOD(0x019E35B0, void, OnValidate, (EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ * __this));
+IL2CPP_REGISTER_METHOD(0x019E3740, void, EnsureListMatchesEnum, (EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ * __this));
+}

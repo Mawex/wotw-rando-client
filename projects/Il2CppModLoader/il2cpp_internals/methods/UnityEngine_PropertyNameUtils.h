@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::UnityEngine::PropertyNameUtils {
+IL2CPP_REGISTER_METHOD(0x0296A4C0, PropertyName, PropertyNameFromString, (String * name));
+IL2CPP_REGISTER_METHOD(0x0296A530, void, PropertyNameFromString_Injected, (String * name, PropertyName * ret));
+}

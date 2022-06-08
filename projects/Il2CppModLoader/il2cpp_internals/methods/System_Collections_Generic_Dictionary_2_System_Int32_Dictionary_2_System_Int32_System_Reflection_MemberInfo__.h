@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Dictionary_2_System::Int32_System::Reflection::MemberInfo__ {
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0477FE50, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x04757B70, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo__ContainsKey__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo_ * __this, int32_t key, Dictionary_2_System_Int32_System_Reflection_MemberInfo_ * value));
+IL2CPP_REGISTER_METHODINFO(0x047905C8, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo__set_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BB8880, Dictionary_2_System_Int32_System_Reflection_MemberInfo_ *, get_Item, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x04711B50, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo__get_Item__MethodInfo);
+}

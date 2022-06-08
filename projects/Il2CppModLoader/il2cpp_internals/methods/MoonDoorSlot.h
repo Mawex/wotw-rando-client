@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::MoonDoorSlot {
+IL2CPP_REGISTER_METHOD(0x00F4A030, void, Awake, (MoonDoorSlot * __this));
+IL2CPP_REGISTER_METHOD(0x00F4A1D0, void, OnDestroy, (MoonDoorSlot * __this));
+IL2CPP_REGISTER_METHOD(0x00F4A360, void, OnGameSerializeLoad, (MoonDoorSlot * __this));
+IL2CPP_REGISTER_METHODINFO(0x04796468, MoonDoorSlot_OnGameSerializeLoad__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00F4A5A0, void, FixedUpdate, (MoonDoorSlot * __this));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (MoonDoorSlot * __this));
+}

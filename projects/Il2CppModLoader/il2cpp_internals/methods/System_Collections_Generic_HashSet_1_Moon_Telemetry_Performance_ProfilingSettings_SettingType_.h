@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::HashSet_1_Moon::Telemetry::Performance::ProfilingSettings_SettingType_ {
+IL2CPP_REGISTER_METHOD(0x02AB4A90, void, Clear, (HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04710FE0, HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType__Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AB4A60, bool, Add, (HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType_ * __this, ProfilingSettings_SettingType__Enum item));
+IL2CPP_REGISTER_METHODINFO(0x0471DAC0, HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AB90A0, bool, Contains, (HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType_ * __this, ProfilingSettings_SettingType__Enum item));
+IL2CPP_REGISTER_METHODINFO(0x0477D630, HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType__Contains__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02AB4370, void, __ctor, (HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04777A28, HashSet_1_Moon_Telemetry_Performance_ProfilingSettings_SettingType___ctor__MethodInfo);
+}

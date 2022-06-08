@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ClientModels::UnlinkKongregateAccountRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_UnlinkKongregateAccountRequest_ * __this, UnlinkKongregateAccountRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04756F40, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_UnlinkKongregateAccountRequest__Invoke__MethodInfo);
+}

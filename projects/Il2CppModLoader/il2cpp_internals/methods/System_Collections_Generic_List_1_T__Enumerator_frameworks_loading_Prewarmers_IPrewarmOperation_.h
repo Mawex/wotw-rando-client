@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_frameworks::loading::Prewarmers::IPrewarmOperation_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, IPrewarmOperation *, get_Current, (List_1_T_Enumerator_frameworks_loading_Prewarmers_IPrewarmOperation___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04729A28, List_1_T_Enumerator_frameworks_loading_Prewarmers_IPrewarmOperation__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_frameworks_loading_Prewarmers_IPrewarmOperation___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04711140, List_1_T_Enumerator_frameworks_loading_Prewarmers_IPrewarmOperation__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_frameworks_loading_Prewarmers_IPrewarmOperation___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04797058, List_1_T_Enumerator_frameworks_loading_Prewarmers_IPrewarmOperation__Dispose__MethodInfo);
+}

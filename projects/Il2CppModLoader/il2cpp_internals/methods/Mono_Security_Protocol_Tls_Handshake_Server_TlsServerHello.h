@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::Mono::Security::Protocol::Tls::Handshake::Server::TlsServerHello {
+IL2CPP_REGISTER_METHOD(0x01F74DC0, void, __ctor, (TlsServerHello * __this, Context_1 * context));
+IL2CPP_REGISTER_METHOD(0x01F74DF0, void, Update, (TlsServerHello * __this));
+IL2CPP_REGISTER_METHOD(0x01F6CDE0, void, ProcessAsSsl3, (TlsServerHello * __this));
+IL2CPP_REGISTER_METHOD(0x01F75240, void, ProcessAsTls1, (TlsServerHello * __this));
+}

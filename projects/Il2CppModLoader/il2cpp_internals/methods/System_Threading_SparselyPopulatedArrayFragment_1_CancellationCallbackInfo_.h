@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Threading::SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ {
+IL2CPP_REGISTER_METHOD(0x027754B0, CancellationCallbackInfo *, SafeAtomicRemove, (SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ * __this, int32_t index, CancellationCallbackInfo * expectedElement));
+IL2CPP_REGISTER_METHODINFO(0x047801E0, SparselyPopulatedArrayFragment_1_CancellationCallbackInfo__SafeAtomicRemove__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02027AB0, int32_t, get_Length, (SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04780628, SparselyPopulatedArrayFragment_1_CancellationCallbackInfo__get_Length__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02775470, CancellationCallbackInfo *, get_Item, (SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ * __this, int32_t index));
+IL2CPP_REGISTER_METHODINFO(0x0476DD20, SparselyPopulatedArrayFragment_1_CancellationCallbackInfo__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025F4490, SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ *, get_Prev, (SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470A700, SparselyPopulatedArrayFragment_1_CancellationCallbackInfo__get_Prev__MethodInfo);
+}

@@ -1,0 +1,14 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry_ {
+IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04701DD0, Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry__Clear__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry_ * __this, BaseAnimator * key));
+IL2CPP_REGISTER_METHODINFO(0x04745CB0, Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry__ContainsKey__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry_ * __this, BaseAnimator * key, LegacyTimelineSequence_SequenceEntry * value));
+IL2CPP_REGISTER_METHODINFO(0x04702FD8, Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry_ * __this, BaseAnimator * key, LegacyTimelineSequence_SequenceEntry * * value));
+IL2CPP_REGISTER_METHODINFO(0x0472A840, Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry__TryGetValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047041B0, Dictionary_2_BaseAnimator_LegacyTimelineSequence_SequenceEntry___ctor__MethodInfo);
+}

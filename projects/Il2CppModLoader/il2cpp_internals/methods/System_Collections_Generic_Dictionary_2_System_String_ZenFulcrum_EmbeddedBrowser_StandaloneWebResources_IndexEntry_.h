@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry_ {
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470ECE0, Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02DB6430, void, set_Item, (Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * __this, String * key, StandaloneWebResources_IndexEntry value));
+IL2CPP_REGISTER_METHODINFO(0x0474A020, Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry__set_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02DB8340, bool, TryGetValue, (Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * __this, String * key, StandaloneWebResources_IndexEntry * value));
+IL2CPP_REGISTER_METHODINFO(0x0471D368, Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry__TryGetValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02EF8F30, StandaloneWebResources_IndexEntry, get_Item, (Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * __this, String * key));
+IL2CPP_REGISTER_METHODINFO(0x0470A418, Dictionary_2_System_String_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry__get_Item__MethodInfo);
+}

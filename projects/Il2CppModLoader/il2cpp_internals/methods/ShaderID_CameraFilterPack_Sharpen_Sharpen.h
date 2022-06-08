@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::ShaderID_CameraFilterPack_Sharpen_Sharpen {
+IL2CPP_REGISTER_METHOD(0x02B6B160, void, __cctor, (MethodInfo * method));
+}

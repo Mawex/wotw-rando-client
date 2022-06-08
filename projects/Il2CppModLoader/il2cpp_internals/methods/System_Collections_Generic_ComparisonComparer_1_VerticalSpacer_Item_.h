@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::ComparisonComparer_1_VerticalSpacer_Item_ {
+IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_VerticalSpacer_Item_ * __this, Comparison_1_VerticalSpacer_Item_ * comparison));
+IL2CPP_REGISTER_METHOD(0x0162A210, int32_t, Compare, (ComparisonComparer_1_VerticalSpacer_Item_ * __this, VerticalSpacer_Item x, VerticalSpacer_Item y));
+}

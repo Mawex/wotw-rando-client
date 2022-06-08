@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::KeyValuePair_2_SmartInput::ICachableInput_SmartInput::InputCacheManager_SetupTempData_Node_ {
+IL2CPP_REGISTER_METHOD(0x00107C10, InputCacheManager_SetupTempData_Node *, get_Value, (KeyValuePair_2_SmartInput_ICachableInput_SmartInput_InputCacheManager_SetupTempData_Node___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047411A0, KeyValuePair_2_SmartInput_ICachableInput_SmartInput_InputCacheManager_SetupTempData_Node__get_Value__MethodInfo);
+}

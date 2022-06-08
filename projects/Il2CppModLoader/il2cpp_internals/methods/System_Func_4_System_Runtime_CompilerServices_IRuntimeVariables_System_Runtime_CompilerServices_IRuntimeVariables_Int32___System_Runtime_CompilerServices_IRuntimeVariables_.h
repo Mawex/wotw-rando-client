@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Func_4_System::Runtime::CompilerServices::IRuntimeVariables_System::Runtime::CompilerServices::IRuntimeVariables_Int32___System::Runtime::CompilerServices::IRuntimeVariables_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_4_System_Runtime_CompilerServices_IRuntimeVariables_System_Runtime_CompilerServices_IRuntimeVariables_Int32_System_Runtime_CompilerServices_IRuntimeVariables_ * __this, Object * object, void * method_1));
+IL2CPP_REGISTER_METHODINFO(0x04721168, Func_4_System_Runtime_CompilerServices_IRuntimeVariables_System_Runtime_CompilerServices_IRuntimeVariables_Int32_System_Runtime_CompilerServices_IRuntimeVariables___ctor__MethodInfo);
+}

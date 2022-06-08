@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::MultiplayerModels::RequestMultiplayerServerRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_MultiplayerModels_RequestMultiplayerServerRequest_ * __this, RequestMultiplayerServerRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04721868, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_MultiplayerModels_RequestMultiplayerServerRequest__Invoke__MethodInfo);
+}

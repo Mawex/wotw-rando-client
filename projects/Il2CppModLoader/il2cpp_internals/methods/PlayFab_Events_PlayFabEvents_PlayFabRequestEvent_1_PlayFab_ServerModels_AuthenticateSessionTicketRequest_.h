@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::AuthenticateSessionTicketRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_AuthenticateSessionTicketRequest_ * __this, AuthenticateSessionTicketRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04745E88, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_AuthenticateSessionTicketRequest__Invoke__MethodInfo);
+}

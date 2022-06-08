@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_Mono::Net::Security::AsyncProtocolResult_ {
+IL2CPP_REGISTER_METHOD(0x0010A980, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_Mono_Net_Security_AsyncProtocolResult_, GetAwaiter, (ConfiguredTaskAwaitable_1_Mono_Net_Security_AsyncProtocolResult___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047518C0, ConfiguredTaskAwaitable_1_Mono_Net_Security_AsyncProtocolResult__GetAwaiter__MethodInfo);
+}

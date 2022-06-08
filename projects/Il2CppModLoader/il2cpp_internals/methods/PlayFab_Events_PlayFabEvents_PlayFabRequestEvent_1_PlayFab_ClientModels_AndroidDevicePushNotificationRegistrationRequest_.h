@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ClientModels::AndroidDevicePushNotificationRegistrationRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_AndroidDevicePushNotificationRegistrationRequest_ * __this, AndroidDevicePushNotificationRegistrationRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x0471CF28, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_AndroidDevicePushNotificationRegistrationRequest__Invoke__MethodInfo);
+}

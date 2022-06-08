@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_Moon::Wwise::UberStateToWwiseData_DesiredConditionUberState_ {
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_Moon_Wwise_UberStateToWwiseData_DesiredConditionUberState_ * __this, UberStateToWwiseData_DesiredConditionUberState * item));
+IL2CPP_REGISTER_METHODINFO(0x04798A80, List_1_Moon_Wwise_UberStateToWwiseData_DesiredConditionUberState__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EAEF0, UberStateToWwiseData_DesiredConditionUberState__Array *, ToArray, (List_1_Moon_Wwise_UberStateToWwiseData_DesiredConditionUberState_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0471A1B0, List_1_Moon_Wwise_UberStateToWwiseData_DesiredConditionUberState__ToArray__MethodInfo);
+}

@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_System::Linq::Expressions::Interpreter::LocalVariables_VariableScope_ {
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_System_Linq_Expressions_Interpreter_LocalVariables_VariableScope_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04726F88, List_1_System_Linq_Expressions_Interpreter_LocalVariables_VariableScope___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_System_Linq_Expressions_Interpreter_LocalVariables_VariableScope_ * __this, LocalVariables_VariableScope * item));
+IL2CPP_REGISTER_METHODINFO(0x0476CF08, List_1_System_Linq_Expressions_Interpreter_LocalVariables_VariableScope__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EFC50, LocalVariables_VariableScope *, get_Item, (List_1_System_Linq_Expressions_Interpreter_LocalVariables_VariableScope_ * __this, int32_t index));
+IL2CPP_REGISTER_METHODINFO(0x04743150, List_1_System_Linq_Expressions_Interpreter_LocalVariables_VariableScope__get_Item__MethodInfo);
+}

@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester_ {
+IL2CPP_REGISTER_METHOD(0x02A64EE0, void, __ctor, (Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester_ * __this, GameController_ProfilingConfiguration__Enum item1, FrameCaptureTester * item2));
+IL2CPP_REGISTER_METHODINFO(0x0476DAF0, Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FB930, FrameCaptureTester *, get_Item2, (Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0474F720, Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester__get_Item2__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FC6D0, GameController_ProfilingConfiguration__Enum, get_Item1, (Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0476BDE8, Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester__get_Item1__MethodInfo);
+}

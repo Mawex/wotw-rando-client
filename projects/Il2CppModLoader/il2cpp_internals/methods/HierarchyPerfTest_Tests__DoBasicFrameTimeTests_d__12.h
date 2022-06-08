@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::HierarchyPerfTest::Tests__DoBasicFrameTimeTests_d__12 {
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (Tests_DoBasicFrameTimeTests_d_12 * __this, int32_t __1__state));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, IDisposable_Dispose, (Tests_DoBasicFrameTimeTests_d_12 * __this));
+IL2CPP_REGISTER_METHOD(0x01978FB0, bool, MoveNext, (Tests_DoBasicFrameTimeTests_d_12 * __this));
+IL2CPP_REGISTER_METHOD(0x002FB930, Object *, IEnumerator_object__get_Current, (Tests_DoBasicFrameTimeTests_d_12 * __this));
+IL2CPP_REGISTER_METHOD(0x019794F0, void, IEnumerator_Reset, (Tests_DoBasicFrameTimeTests_d_12 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04705130, Tests_DoBasicFrameTimeTests_d_12_System_Collections_IEnumerator_Reset__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FB930, Object *, IEnumerator_get_Current, (Tests_DoBasicFrameTimeTests_d_12 * __this));
+}

@@ -1,0 +1,7 @@
+using namespace app;
+
+namespace app::methods::SystemIntegration::Synchronizer::Achievements::XalAchievements___c__DisplayClass20_0 {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XalAchievements_c_DisplayClass20_0 * __this));
+IL2CPP_REGISTER_METHOD(0x0052E080, bool, _AchievementSetComplete_b__0, (XalAchievements_c_DisplayClass20_0 * __this, CacheData * o));
+IL2CPP_REGISTER_METHODINFO(0x04769780, XalAchievements_c_DisplayClass20_0__AchievementSetComplete_b__0__MethodInfo);
+}

@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_Moon::VerletPhysicsAnimationPostprocess_JointMetadata_ {
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata_ * __this, VerletPhysicsAnimationPostprocess_JointMetadata * item));
+IL2CPP_REGISTER_METHODINFO(0x0471FFD8, List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EFC50, VerletPhysicsAnimationPostprocess_JointMetadata *, get_Item, (List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata_ * __this, int32_t index));
+IL2CPP_REGISTER_METHODINFO(0x047340D0, List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04762D50, List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata__get_Count__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04785688, List_1_Moon_VerletPhysicsAnimationPostprocess_JointMetadata___ctor__MethodInfo);
+}

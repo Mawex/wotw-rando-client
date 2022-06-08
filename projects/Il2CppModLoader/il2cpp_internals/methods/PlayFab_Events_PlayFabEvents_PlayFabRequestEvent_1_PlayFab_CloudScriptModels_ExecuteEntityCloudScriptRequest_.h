@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::CloudScriptModels::ExecuteEntityCloudScriptRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_CloudScriptModels_ExecuteEntityCloudScriptRequest_ * __this, ExecuteEntityCloudScriptRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x0470D7D8, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_CloudScriptModels_ExecuteEntityCloudScriptRequest__Invoke__MethodInfo);
+}

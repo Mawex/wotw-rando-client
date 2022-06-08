@@ -1,0 +1,13 @@
+using namespace app;
+
+namespace app::methods::PlayerInputRebinding_KeyBindingSettings__GetKeysIterator_d__74 {
+IL2CPP_REGISTER_METHOD(0x01426B00, void, __ctor, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this, int32_t __1__state));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, IDisposable_Dispose, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this));
+IL2CPP_REGISTER_METHOD(0x01426B60, bool, MoveNext, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this));
+IL2CPP_REGISTER_METHOD(0x00C3DD30, PlayerInputRebinding_PlayerInputKey, System_Collections_Generic_IEnumerator_PlayerInputRebinding_PlayerInputKey__get_Current, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this));
+IL2CPP_REGISTER_METHOD(0x01426DF0, void, IEnumerator_Reset, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475B748, PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74_System_Collections_IEnumerator_Reset__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x01426E40, Object *, IEnumerator_get_Current, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this));
+IL2CPP_REGISTER_METHOD(0x01426ED0, IEnumerator_1_PlayerInputRebinding_PlayerInputKey_ *, System_Collections_Generic_IEnumerable_PlayerInputRebinding_PlayerInputKey__GetEnumerator, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this));
+IL2CPP_REGISTER_METHOD(0x014270C0, IEnumerator *, IEnumerable_GetEnumerator, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this));
+}

@@ -1,0 +1,7 @@
+using namespace app;
+
+namespace app::methods::Moon::PlayerLoopHelper {
+IL2CPP_REGISTER_METHOD(0x03159180, void, Insert, (List_1_UnityEngine_Experimental_LowLevel_PlayerLoopSystem_ * list, PlayerLoopSystem system, PlayerLoopHelper_InsertionMode__Enum insertionMode, String * insertionPoint));
+IL2CPP_REGISTER_METHODINFO(0x04754BE8, PlayerLoopHelper_Insert__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayerLoopHelper * __this));
+}

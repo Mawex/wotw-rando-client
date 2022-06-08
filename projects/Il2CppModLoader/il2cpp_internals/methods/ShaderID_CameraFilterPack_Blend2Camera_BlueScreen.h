@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::ShaderID_CameraFilterPack_Blend2Camera_BlueScreen {
+IL2CPP_REGISTER_METHOD(0x020FEAF0, void, __cctor, (MethodInfo * method));
+}

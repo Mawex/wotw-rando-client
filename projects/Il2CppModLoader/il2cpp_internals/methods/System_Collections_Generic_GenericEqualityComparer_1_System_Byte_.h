@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System::Byte_ {
+IL2CPP_REGISTER_METHOD(0x02021DC0, bool, Equals, (GenericEqualityComparer_1_System_Byte_ * __this, uint8_t x, uint8_t y));
+IL2CPP_REGISTER_METHOD(0x0265A770, int32_t, GetHashCode, (GenericEqualityComparer_1_System_Byte_ * __this, uint8_t obj));
+IL2CPP_REGISTER_METHOD(0x02AB1800, int32_t, IndexOf, (GenericEqualityComparer_1_System_Byte_ * __this, Byte__Array * array, uint8_t value, int32_t startIndex, int32_t count));
+IL2CPP_REGISTER_METHOD(0x02022050, int32_t, LastIndexOf, (GenericEqualityComparer_1_System_Byte_ * __this, Byte__Array * array, uint8_t value, int32_t startIndex, int32_t count));
+IL2CPP_REGISTER_METHOD(0x02AB0EE0, bool, Equals, (GenericEqualityComparer_1_System_Byte_ * __this, Object * obj));
+IL2CPP_REGISTER_METHOD(0x01CC3EB0, int32_t, GetHashCode, (GenericEqualityComparer_1_System_Byte_ * __this));
+IL2CPP_REGISTER_METHOD(0x0225BDA0, void, __ctor, (GenericEqualityComparer_1_System_Byte_ * __this));
+}

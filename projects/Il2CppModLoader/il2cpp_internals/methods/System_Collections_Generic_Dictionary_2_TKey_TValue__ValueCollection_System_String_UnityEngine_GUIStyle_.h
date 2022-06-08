@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System::String_UnityEngine::GUIStyle_ {
+IL2CPP_REGISTER_METHOD(0x01A729A0, Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enumerator_System_String_UnityEngine_GUIStyle_, GetEnumerator, (Dictionary_2_TKey_TValue_ValueCollection_System_String_UnityEngine_GUIStyle_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047603F8, Dictionary_2_TKey_TValue_ValueCollection_System_String_UnityEngine_GUIStyle__GetEnumerator__MethodInfo);
+}

@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_UberWaterReflectionView_Group_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, UberWaterReflectionView_Group *, get_Current, (List_1_T_Enumerator_UberWaterReflectionView_Group___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04747D48, List_1_T_Enumerator_UberWaterReflectionView_Group__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_UberWaterReflectionView_Group___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0472DFD8, List_1_T_Enumerator_UberWaterReflectionView_Group__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_UberWaterReflectionView_Group___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0473CBB0, List_1_T_Enumerator_UberWaterReflectionView_Group__Dispose__MethodInfo);
+}

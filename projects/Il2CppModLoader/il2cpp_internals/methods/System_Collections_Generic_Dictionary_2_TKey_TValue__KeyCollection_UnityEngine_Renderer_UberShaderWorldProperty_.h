@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_UnityEngine::Renderer_UberShaderWorldProperty_ {
+IL2CPP_REGISTER_METHOD(0x01A729A0, Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_UnityEngine_Renderer_UberShaderWorldProperty_, GetEnumerator, (Dictionary_2_TKey_TValue_KeyCollection_UnityEngine_Renderer_UberShaderWorldProperty_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04776100, Dictionary_2_TKey_TValue_KeyCollection_UnityEngine_Renderer_UberShaderWorldProperty__GetEnumerator__MethodInfo);
+}

@@ -1,0 +1,23 @@
+using namespace app;
+
+namespace app::methods::Newtonsoft::Json::JsonSerializerSettings {
+IL2CPP_REGISTER_METHOD(0x01EF0E50, ReferenceLoopHandling__Enum, get_ReferenceLoopHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF0EE0, MissingMemberHandling__Enum, get_MissingMemberHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF0F70, ObjectCreationHandling__Enum, get_ObjectCreationHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF1000, NullValueHandling__Enum, get_NullValueHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF1090, DefaultValueHandling__Enum, get_DefaultValueHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x002FBD60, IList_1_Newtonsoft_Json_JsonConverter_ *, get_Converters, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF1120, PreserveReferencesHandling__Enum, get_PreserveReferencesHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF11B0, TypeNameHandling__Enum, get_TypeNameHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF1240, MetadataPropertyHandling__Enum, get_MetadataPropertyHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF12D0, TypeNameAssemblyFormatHandling__Enum, get_TypeNameAssemblyFormatHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF1360, ConstructorHandling__Enum, get_ConstructorHandling, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x00660430, IContractResolver *, get_ContractResolver, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x005B0220, IEqualityComparer *, get_EqualityComparer, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x00418200, Func_1_Newtonsoft_Json_Serialization_IReferenceResolver_ *, get_ReferenceResolverProvider, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x0049F2B0, ITraceWriter *, get_TraceWriter, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x006A63A0, ISerializationBinder *, get_SerializationBinder, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x0065FBA0, EventHandler_1_Newtonsoft_Json_Serialization_ErrorEventArgs_ *, get_Error, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF13F0, StreamingContext, get_Context, (JsonSerializerSettings * __this));
+IL2CPP_REGISTER_METHOD(0x01EF14E0, void, __cctor, (MethodInfo * method));
+}

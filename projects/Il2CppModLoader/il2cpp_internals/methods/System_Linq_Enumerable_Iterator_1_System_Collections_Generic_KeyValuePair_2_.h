@@ -1,0 +1,28 @@
+using namespace app;
+
+namespace app::methods::System::Linq::Enumerable_Iterator_1_System::Collections::Generic::KeyValuePair_2_ {
+IL2CPP_REGISTER_METHOD(0x02980400, void, __ctor, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1 * __this));
+IL2CPP_REGISTER_METHOD(0x00C3DD30, KeyValuePair_2_System_Object_System_Int32_, get_Current, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1 * __this));
+IL2CPP_REGISTER_METHOD(0x0298B600, void, Dispose, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1 * __this));
+IL2CPP_REGISTER_METHOD(0x02980540, IEnumerator_1_KeyValuePair_2_System_Object_System_Int32_ *, GetEnumerator, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1 * __this));
+IL2CPP_REGISTER_METHOD(0x0298B620, Object *, IEnumerator_get_Current, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1 * __this));
+IL2CPP_REGISTER_METHOD(0x0225B610, IEnumerator *, IEnumerable_GetEnumerator, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1 * __this));
+IL2CPP_REGISTER_METHOD(0x0298B6E0, void, IEnumerator_Reset, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04762678, Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__1_System_Collections_IEnumerator_Reset__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02980400, void, __ctor, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHOD(0x00C3DD30, KeyValuePair_2_System_Object_System_Object_, get_Current, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHOD(0x0298B600, void, Dispose, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHOD(0x02980540, IEnumerator_1_KeyValuePair_2_System_Object_System_Object_ *, GetEnumerator, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHOD(0x0298B620, Object *, IEnumerator_get_Current, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHOD(0x0225B610, IEnumerator *, IEnumerable_GetEnumerator, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHOD(0x0298B730, void, IEnumerator_Reset, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04788CF8, Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__System_Collections_IEnumerator_Reset__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02980400, void, __ctor, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2 * __this));
+IL2CPP_REGISTER_METHOD(0x00C3DD30, KeyValuePair_2_System_Object_System_ValueTuple_2_, get_Current, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2 * __this));
+IL2CPP_REGISTER_METHOD(0x0298B600, void, Dispose, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2 * __this));
+IL2CPP_REGISTER_METHOD(0x02980540, IEnumerator_1_KeyValuePair_2_System_Object_System_ValueTuple_2_ *, GetEnumerator, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2 * __this));
+IL2CPP_REGISTER_METHOD(0x0298B620, Object *, IEnumerator_get_Current, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2 * __this));
+IL2CPP_REGISTER_METHOD(0x0225B610, IEnumerator *, IEnumerable_GetEnumerator, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2 * __this));
+IL2CPP_REGISTER_METHOD(0x0298B780, void, IEnumerator_Reset, (Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04734D68, Enumerable_Iterator_1_System_Collections_Generic_KeyValuePair_2__2_System_Collections_IEnumerator_Reset__MethodInfo);
+}

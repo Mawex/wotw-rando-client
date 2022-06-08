@@ -1,0 +1,18 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_System::Text::RegularExpressions::RegexCharClass_SingleRange_ {
+IL2CPP_REGISTER_METHOD(0x025E81E0, void, __ctor, (List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * __this, int32_t capacity));
+IL2CPP_REGISTER_METHODINFO(0x04786FD0, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * __this, RegexCharClass_SingleRange * item));
+IL2CPP_REGISTER_METHODINFO(0x0471C140, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0475B5F8, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange__get_Count__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EFC50, RegexCharClass_SingleRange *, get_Item, (List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * __this, int32_t index));
+IL2CPP_REGISTER_METHODINFO(0x0473A060, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * __this, int32_t index, int32_t count, IComparer_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * comparer));
+IL2CPP_REGISTER_METHODINFO(0x047566B8, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange__Sort__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EFC80, void, set_Item, (List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * __this, int32_t index, RegexCharClass_SingleRange * value));
+IL2CPP_REGISTER_METHODINFO(0x0472AC00, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange__set_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EABD0, void, RemoveRange, (List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * __this, int32_t index, int32_t count));
+IL2CPP_REGISTER_METHODINFO(0x047335A0, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange__RemoveRange__MethodInfo);
+}

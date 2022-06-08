@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::Mono::Security::X509::X520 {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (X520 * __this));
+}

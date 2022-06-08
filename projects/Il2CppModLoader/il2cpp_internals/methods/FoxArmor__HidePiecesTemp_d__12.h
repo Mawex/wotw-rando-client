@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::FoxArmor__HidePiecesTemp_d__12 {
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (FoxArmor_HidePiecesTemp_d_12 * __this, int32_t __1__state));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, IDisposable_Dispose, (FoxArmor_HidePiecesTemp_d_12 * __this));
+IL2CPP_REGISTER_METHOD(0x01282F10, bool, MoveNext, (FoxArmor_HidePiecesTemp_d_12 * __this));
+IL2CPP_REGISTER_METHOD(0x002FB930, Object *, IEnumerator_object__get_Current, (FoxArmor_HidePiecesTemp_d_12 * __this));
+IL2CPP_REGISTER_METHOD(0x012831D0, void, IEnumerator_Reset, (FoxArmor_HidePiecesTemp_d_12 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04766640, FoxArmor_HidePiecesTemp_d_12_System_Collections_IEnumerator_Reset__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x002FB930, Object *, IEnumerator_get_Current, (FoxArmor_HidePiecesTemp_d_12 * __this));
+}

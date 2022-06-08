@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ClientModels::GetPlayFabIDsFromGenericIDsRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_GetPlayFabIDsFromGenericIDsRequest_ * __this, GetPlayFabIDsFromGenericIDsRequest * request));
+IL2CPP_REGISTER_METHODINFO(0x04767450, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ClientModels_GetPlayFabIDsFromGenericIDsRequest__Invoke__MethodInfo);
+}

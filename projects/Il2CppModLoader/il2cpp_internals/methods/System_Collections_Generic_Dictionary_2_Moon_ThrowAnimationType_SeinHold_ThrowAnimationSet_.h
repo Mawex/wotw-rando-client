@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::ThrowAnimationType_SeinHold_ThrowAnimationSet_ {
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet_ * __this, ThrowAnimationType__Enum key, SeinHold_ThrowAnimationSet * value));
+IL2CPP_REGISTER_METHODINFO(0x0475BED8, Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02C35530, SeinHold_ThrowAnimationSet *, get_Item, (Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet_ * __this, ThrowAnimationType__Enum key));
+IL2CPP_REGISTER_METHODINFO(0x047024D8, Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet__get_Item__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0476FB90, Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet___ctor__MethodInfo);
+}

@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::Colorful::ShaderID_WaveDistortion {
+IL2CPP_REGISTER_METHOD(0x03052170, void, __cctor, (MethodInfo * method));
+}

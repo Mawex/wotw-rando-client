@@ -1,0 +1,11 @@
+using namespace app;
+
+namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_TResult__ConfiguredTaskAwaiter_System::Nullable_1_ {
+IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Nullable_1___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0470FEF0, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Nullable_1__get_IsCompleted__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x001FF6C0, Nullable_1_Int32_, GetResult, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Nullable_1___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04783EA8, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Nullable_1__GetResult__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00151890, void, __ctor, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Nullable_1___Boxed * __this, Task_1_System_Nullable_1_ * task, bool continueOnCapturedContext));
+IL2CPP_REGISTER_METHOD(0x0018EF00, void, OnCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Nullable_1___Boxed * __this, Action * continuation));
+IL2CPP_REGISTER_METHOD(0x0018EF30, void, UnsafeOnCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Nullable_1___Boxed * __this, Action * continuation));
+}

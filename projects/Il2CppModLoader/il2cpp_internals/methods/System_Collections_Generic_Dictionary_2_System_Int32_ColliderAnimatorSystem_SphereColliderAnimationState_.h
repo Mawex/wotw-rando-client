@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_ColliderAnimatorSystem_SphereColliderAnimationState_ {
+IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState_ * __this, int32_t key, ColliderAnimatorSystem_SphereColliderAnimationState * * value));
+IL2CPP_REGISTER_METHODINFO(0x047926E8, Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState__TryGetValue__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState_ * __this, int32_t key, ColliderAnimatorSystem_SphereColliderAnimationState * value));
+IL2CPP_REGISTER_METHODINFO(0x047043E8, Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x02BBA360, bool, Remove, (Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState_ * __this, int32_t key));
+IL2CPP_REGISTER_METHODINFO(0x047783E0, Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState__Remove__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x0478F820, Dictionary_2_System_Int32_ColliderAnimatorSystem_SphereColliderAnimationState___ctor__MethodInfo);
+}

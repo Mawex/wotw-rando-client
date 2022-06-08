@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Microsoft::Applications::Events::DataModels::Attributes_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, Attributes *, get_Current, (List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Attributes___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04759090, List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Attributes__get_Current__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Attributes___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x04728F48, List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Attributes__MoveNext__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Attributes___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x0477FE40, List_1_T_Enumerator_Microsoft_Applications_Events_DataModels_Attributes__Dispose__MethodInfo);
+}

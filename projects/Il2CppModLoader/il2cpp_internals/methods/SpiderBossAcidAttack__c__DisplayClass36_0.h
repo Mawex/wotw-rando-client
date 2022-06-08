@@ -1,0 +1,7 @@
+using namespace app;
+
+namespace app::methods::SpiderBossAcidAttack___c__DisplayClass36_0 {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SpiderBossAcidAttack_c_DisplayClass36_0 * __this));
+IL2CPP_REGISTER_METHOD(0x009651C0, void, _SpawnProjectile_b__0, (SpiderBossAcidAttack_c_DisplayClass36_0 * __this));
+IL2CPP_REGISTER_METHODINFO(0x04737908, SpiderBossAcidAttack_c_DisplayClass36_0__SpawnProjectile_b__0__MethodInfo);
+}

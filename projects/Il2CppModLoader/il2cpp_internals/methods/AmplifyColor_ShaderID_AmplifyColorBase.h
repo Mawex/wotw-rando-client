@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::AmplifyColor::ShaderID_AmplifyColorBase {
+IL2CPP_REGISTER_METHOD(0x030CC560, void, __cctor, (MethodInfo * method));
+}

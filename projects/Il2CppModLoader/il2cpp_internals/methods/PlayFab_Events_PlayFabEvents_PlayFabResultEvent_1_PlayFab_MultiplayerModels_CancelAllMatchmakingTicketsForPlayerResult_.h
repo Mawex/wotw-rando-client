@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::MultiplayerModels::CancelAllMatchmakingTicketsForPlayerResult_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_CancelAllMatchmakingTicketsForPlayerResult_ * __this, CancelAllMatchmakingTicketsForPlayerResult * result));
+IL2CPP_REGISTER_METHODINFO(0x04747ED0, PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_CancelAllMatchmakingTicketsForPlayerResult__Invoke__MethodInfo);
+}

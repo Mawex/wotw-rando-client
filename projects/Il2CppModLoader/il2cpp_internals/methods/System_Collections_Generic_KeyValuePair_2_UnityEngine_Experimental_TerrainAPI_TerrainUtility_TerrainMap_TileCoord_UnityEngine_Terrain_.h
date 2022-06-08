@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::KeyValuePair_2_UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap_TileCoord_UnityEngine::Terrain_ {
+IL2CPP_REGISTER_METHOD(0x00107C00, TerrainUtility_TerrainMap_TileCoord, get_Key, (KeyValuePair_2_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_UnityEngine_Terrain___Boxed * __this));
+IL2CPP_REGISTER_METHODINFO(0x047625C8, KeyValuePair_2_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_UnityEngine_Terrain__get_Key__MethodInfo);
+}

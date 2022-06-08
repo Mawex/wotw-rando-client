@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::RootMotion::Demos::ShaderID_FPSCharacter {
+IL2CPP_REGISTER_METHOD(0x0222FE50, void, __cctor, (MethodInfo * method));
+}

@@ -1,0 +1,12 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_KeyValuePair_2_Moon::UberID_System::Boolean__ {
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_KeyValuePair_2_Moon_UberID_System_Boolean_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04706128, List_1_KeyValuePair_2_Moon_UberID_System_Boolean___ctor__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025E8DE0, void, Add, (List_1_KeyValuePair_2_Moon_UberID_System_Boolean_ * __this, KeyValuePair_2_Moon_UberID_System_Boolean_ item));
+IL2CPP_REGISTER_METHODINFO(0x04705E70, List_1_KeyValuePair_2_Moon_UberID_System_Boolean__Add__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_KeyValuePair_2_Moon_UberID_System_Boolean_ * __this, Comparison_1_System_Collections_Generic_KeyValuePair_2__1 * comparison));
+IL2CPP_REGISTER_METHODINFO(0x0478CC70, List_1_KeyValuePair_2_Moon_UberID_System_Boolean__Sort__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x025E9D20, List_1_T_Enumerator_KeyValuePair_2_Moon_UberID_System_Boolean_, GetEnumerator, (List_1_KeyValuePair_2_Moon_UberID_System_Boolean_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04706EF8, List_1_KeyValuePair_2_Moon_UberID_System_Boolean__GetEnumerator__MethodInfo);
+}

@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::NetworkTest___c {
+IL2CPP_REGISTER_METHOD(0x005F9C40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (NetworkTest_c * __this));
+IL2CPP_REGISTER_METHOD(0x005F9D80, void, _AddReplay_b__6_0, (NetworkTest_c * __this, StatusCallback * callback));
+IL2CPP_REGISTER_METHODINFO(0x047414F8, NetworkTest_c__AddReplay_b__6_0__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x005F9D80, void, _WipeReplay_b__7_0, (NetworkTest_c * __this, StatusCallback * callback));
+IL2CPP_REGISTER_METHODINFO(0x0472D5E8, NetworkTest_c__WipeReplay_b__7_0__MethodInfo);
+}

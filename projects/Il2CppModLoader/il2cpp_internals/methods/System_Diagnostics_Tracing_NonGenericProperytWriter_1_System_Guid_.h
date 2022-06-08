@@ -1,0 +1,7 @@
+using namespace app;
+
+namespace app::methods::System::Diagnostics::Tracing::NonGenericProperytWriter_1_System::Guid_ {
+IL2CPP_REGISTER_METHOD(0x02BA0BD0, void, __ctor, (NonGenericProperytWriter_1_System_Guid_ * __this, PropertyAnalysis * property));
+IL2CPP_REGISTER_METHOD(0x02BA0EF0, void, Write, (NonGenericProperytWriter_1_System_Guid_ * __this, TraceLoggingDataCollector * collector, Guid * container));
+IL2CPP_REGISTER_METHOD(0x02BA0FC0, Object *, GetData, (NonGenericProperytWriter_1_System_Guid_ * __this, Guid container));
+}

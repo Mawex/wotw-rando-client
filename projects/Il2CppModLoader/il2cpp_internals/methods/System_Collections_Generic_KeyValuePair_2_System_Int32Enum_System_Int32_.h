@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Int32Enum_System::Int32_ {
+IL2CPP_REGISTER_METHOD(0x00115520, void, __ctor, (KeyValuePair_2_System_Int32Enum_System_Int32___Boxed * __this, Int32Enum__Enum key, int32_t value));
+IL2CPP_REGISTER_METHOD(0x0010E170, Int32Enum__Enum, get_Key, (KeyValuePair_2_System_Int32Enum_System_Int32___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00113CE0, int32_t, get_Value, (KeyValuePair_2_System_Int32Enum_System_Int32___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001509C0, String *, ToString, (KeyValuePair_2_System_Int32Enum_System_Int32___Boxed * __this));
+}

@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::List_1_CleverMenuItemGroup_CleverMenuItemGroupItem_ {
+IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_CleverMenuItemGroup_CleverMenuItemGroupItem_, GetEnumerator, (List_1_CleverMenuItemGroup_CleverMenuItemGroupItem_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x04792BE8, List_1_CleverMenuItemGroup_CleverMenuItemGroupItem__GetEnumerator__MethodInfo);
+}

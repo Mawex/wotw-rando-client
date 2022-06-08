@@ -1,0 +1,5 @@
+using namespace app;
+
+namespace app::methods::UberWaterReflectionGroup {
+IL2CPP_REGISTER_METHOD(0x012A14B0, void, __ctor, (UberWaterReflectionGroup * __this));
+}

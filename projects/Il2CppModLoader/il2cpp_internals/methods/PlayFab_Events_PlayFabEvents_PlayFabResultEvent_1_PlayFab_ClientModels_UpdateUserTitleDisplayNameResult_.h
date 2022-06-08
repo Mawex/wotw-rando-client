@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::ClientModels::UpdateUserTitleDisplayNameResult_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_UpdateUserTitleDisplayNameResult_ * __this, UpdateUserTitleDisplayNameResult * result));
+IL2CPP_REGISTER_METHODINFO(0x0473F6C8, PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_UpdateUserTitleDisplayNameResult__Invoke__MethodInfo);
+}

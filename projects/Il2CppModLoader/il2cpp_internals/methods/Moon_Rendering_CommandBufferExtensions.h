@@ -1,0 +1,6 @@
+using namespace app;
+
+namespace app::methods::Moon::Rendering::CommandBufferExtensions {
+IL2CPP_REGISTER_METHOD(0x00C53860, void, SetShaderKeyword, (CommandBuffer * cmd, int32_t keyword, bool enabled));
+IL2CPP_REGISTER_METHOD(0x00C53930, void, SetKeyword, (Material * mat, int32_t keyword, bool enabled));
+}

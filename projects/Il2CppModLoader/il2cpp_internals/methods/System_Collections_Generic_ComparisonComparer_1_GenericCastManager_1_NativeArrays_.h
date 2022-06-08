@@ -1,0 +1,10 @@
+using namespace app;
+
+namespace app::methods::System::Collections::Generic::ComparisonComparer_1_GenericCastManager_1_NativeArrays_ {
+IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_GenericCastManager_1_NativeArrays_ * __this, Comparison_1_GenericCastManager_1_NativeArrays_ * comparison));
+IL2CPP_REGISTER_METHOD(0x0162A270, int32_t, Compare, (ComparisonComparer_1_GenericCastManager_1_NativeArrays_ * __this, GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand_ x, GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand_ y));
+IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_GenericCastManager_1_NativeArrays__1 * __this, Comparison_1_GenericCastManager_1_NativeArrays__1 * comparison));
+IL2CPP_REGISTER_METHOD(0x0162A270, int32_t, Compare, (ComparisonComparer_1_GenericCastManager_1_NativeArrays__1 * __this, GenericCastManager_1_Command_NativeArrays_UnityEngine_RaycastCommand_ x, GenericCastManager_1_Command_NativeArrays_UnityEngine_RaycastCommand_ y));
+IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_GenericCastManager_1_NativeArrays__2 * __this, Comparison_1_GenericCastManager_1_NativeArrays__2 * comparison));
+IL2CPP_REGISTER_METHOD(0x0162A270, int32_t, Compare, (ComparisonComparer_1_GenericCastManager_1_NativeArrays__2 * __this, GenericCastManager_1_Command_NativeArrays_UnityEngine_SpherecastCommand_ x, GenericCastManager_1_Command_NativeArrays_UnityEngine_SpherecastCommand_ y));
+}

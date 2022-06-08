@@ -1,0 +1,8 @@
+using namespace app;
+
+namespace app::methods::TransitionBasedSetupHolder_1_AttackableSwitchSetupData_ {
+IL2CPP_REGISTER_METHOD(0x0225BDD0, IDesiredUberState *, GetRequirementsForTimeline, (TransitionBasedSetupHolder_1_AttackableSwitchSetupData_ * __this, MoonTimeline * timeline));
+IL2CPP_REGISTER_METHODINFO(0x04776F00, TransitionBasedSetupHolder_1_AttackableSwitchSetupData__GetRequirementsForTimeline__MethodInfo);
+IL2CPP_REGISTER_METHOD(0x0225B610, void, __ctor, (TransitionBasedSetupHolder_1_AttackableSwitchSetupData_ * __this));
+IL2CPP_REGISTER_METHODINFO(0x047233F0, TransitionBasedSetupHolder_1_AttackableSwitchSetupData___ctor__MethodInfo);
+}
