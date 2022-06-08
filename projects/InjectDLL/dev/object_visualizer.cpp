@@ -11,6 +11,7 @@
 #include <unordered_map>
 
 using namespace modloader;
+using namespace modloader::win;
 
 #define TRY(x)      \
     try {           \
@@ -151,9 +152,9 @@ namespace dev {
                         indent(visualizer);
 
                     if (is_value_type)
-                        vis(visualizer, reinterpret_cast<Il2CppObject*>(&element[i * arr->Il2CppClass.klass->_1.element_size]));
+                        vis(visualizer, reinterpret_cast<Il2CppObject*>(&element[i * arr->klass->_1.element_size]));
                     else if (is_value_type)
-                        vis(visualizer, reinterpret_cast<Il2CppObject*>(element[i * arr->Il2CppClass.klass->_1.element_size]));
+                        vis(visualizer, reinterpret_cast<Il2CppObject*>(element[i * arr->klass->_1.element_size]));
                 }
 
                 indent(visualizer, -1);
@@ -411,7 +412,7 @@ namespace dev {
                 indent(visualizer);
                 visualizer.stream << "value: " << item->fields.Value << visualizer.new_line;
                 indent(visualizer);
-                visualizer.stream << "mode: " << item->fields.Compare << visualizer.new_line;
+                visualizer.stream << "mode: " << static_cast<int>(item->fields.Compare) << visualizer.new_line;
 
                 if (item->fields.Descriptor != nullptr &&
                     il2cpp::invoke<app::Boolean__Boxed>(item->fields.Descriptor, "get_HasAReference")->fields &&

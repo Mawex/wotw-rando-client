@@ -25,6 +25,18 @@ namespace {
         return static_cast<uint16_t>(acq & 0xFF) | (static_cast<uint16_t>(req & 0xFF) << 8);
     }
 
+    uint16_t opher_key(app::AbilityType__Enum acq, int req) {
+        return opher_key(static_cast<int>(acq), req);
+    }
+
+    uint16_t opher_key(int acq, app::AbilityType__Enum req) {
+        return opher_key(acq, static_cast<int>(req));
+    }
+
+    uint16_t opher_key(app::AbilityType__Enum acq, app::AbilityType__Enum req) {
+        return opher_key(static_cast<int>(acq), static_cast<int>(req));
+    }
+
     std::unordered_map<uint16_t, uber_states::UberState> opher_weapon_costs{
         { opher_key(app::AbilityType__Enum::WaterBreath, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10023) }, // Water breath
         { opher_key(app::AbilityType__Enum::SpiritSpearSpell, 255), uber_states::UberState(UberStateGroup::OpherWeapon, 10074) }, // Spike

@@ -25,9 +25,9 @@ IL2CPP_API_BINDING(void, il2cpp_free, (void* ptr));
 IL2CPP_API_BINDING(Il2CppClass*, il2cpp_array_class_get, (Il2CppClass * element_class, uint32_t rank));
 IL2CPP_API_BINDING(uint32_t, il2cpp_array_length, (Il2CppArray * array));
 IL2CPP_API_BINDING(uint32_t, il2cpp_array_get_byte_length, (Il2CppArray * array));
-IL2CPP_API_BINDING(Il2CppArray*, il2cpp_array_new, (Il2CppClass * elementTypeInfo, il2cpp_array_size_t length));
-IL2CPP_API_BINDING(Il2CppArray*, il2cpp_array_new_specific, (Il2CppClass * arrayTypeInfo, il2cpp_array_size_t length));
-IL2CPP_API_BINDING(Il2CppArray*, il2cpp_array_new_full, (Il2CppClass * array_class, il2cpp_array_size_t * lengths, il2cpp_array_size_t * lower_bounds));
+IL2CPP_API_BINDING(Il2CppArraySize*, il2cpp_array_new, (Il2CppClass * elementTypeInfo, il2cpp_array_size_t length));
+IL2CPP_API_BINDING(Il2CppArraySize*, il2cpp_array_new_specific, (Il2CppClass * arrayTypeInfo, il2cpp_array_size_t length));
+IL2CPP_API_BINDING(Il2CppArraySize*, il2cpp_array_new_full, (Il2CppClass * array_class, il2cpp_array_size_t * lengths, il2cpp_array_size_t * lower_bounds));
 IL2CPP_API_BINDING(Il2CppClass*, il2cpp_bounded_array_class_get, (Il2CppClass * element_class, uint32_t rank, bool bounded));
 IL2CPP_API_BINDING(int, il2cpp_array_element_size, (const Il2CppClass * array_class));
 
@@ -261,7 +261,7 @@ IL2CPP_API_BINDING(Il2CppCustomAttrInfo*, il2cpp_custom_attrs_from_method, (cons
 
 IL2CPP_API_BINDING(Il2CppObject*, il2cpp_custom_attrs_get_attr, (Il2CppCustomAttrInfo * ainfo, Il2CppClass * attr_klass));
 IL2CPP_API_BINDING(bool, il2cpp_custom_attrs_has_attr, (Il2CppCustomAttrInfo * ainfo, Il2CppClass * attr_klass));
-IL2CPP_API_BINDING(Il2CppArray*,  il2cpp_custom_attrs_construct, (Il2CppCustomAttrInfo * cinfo));
+IL2CPP_API_BINDING(Il2CppArraySize*,  il2cpp_custom_attrs_construct, (Il2CppCustomAttrInfo * cinfo));
 
 IL2CPP_API_BINDING(void, il2cpp_custom_attrs_free, (Il2CppCustomAttrInfo * ainfo));
 

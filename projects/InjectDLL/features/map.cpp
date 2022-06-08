@@ -128,14 +128,14 @@ namespace {
     IL2CPP_BINDING(, MenuScreenManager, void, HideMenuScreen, (app::MenuScreenManager * this_ptr, bool immediate, bool fade));
     IL2CPP_INTERCEPT(Moon.Timeline, DiscoverAreasEntity, void, ChangeState, (app::DiscoverAreasEntity * this_ptr, app::DiscoverAreasEntity_State__Enum value)) {
         // Since we don't want the map to show up, lets speedrun the timeline entity.
-        if (value == app::DiscoverAreasEntity_State__Enum::DiscoverAreasEntity_State__Enum_Start) {
+        if (value == app::DiscoverAreasEntity_State__Enum::Start) {
             auto menu = UI::get_Menu();
             MenuScreenManager::HideMenuScreen(menu, true, false);
             State::SetValue(menu->fields.Sounds->fields.NoUIDisplayedState);
 
-            ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::DiscoverAreasEntity_State__Enum_Reveal);
-            ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::DiscoverAreasEntity_State__Enum_Fade);
-            ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::DiscoverAreasEntity_State__Enum_WaitForInput);
+            ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::Reveal);
+            ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::Fade);
+            ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::WaitForInput);
         } else
             DiscoverAreasEntity::ChangeState(this_ptr, value);
     }

@@ -22,6 +22,7 @@
 #include <unordered_set>
 
 using namespace modloader;
+using namespace modloader::win;
 
 namespace {
     enum class NewFilters : int32_t {
@@ -211,7 +212,7 @@ namespace {
                 if (spoiler_active ^ it->second.has_spoiler_icon) {
                     auto icon_enum = spoiler_active
                             ? csharp_bridge::filter_icon_type(static_cast<int>(it->second.state.group()), it->second.state.state(), static_cast<int>(it->second.value))
-                            : get_base_icon(this_ptr, it->second.state);
+                            : static_cast<int>(get_base_icon(this_ptr, it->second.state));
                     il2cpp::invoke(this_ptr, "SetIcon", &icon_enum);
                     it->second.has_spoiler_icon = spoiler_active;
                 }

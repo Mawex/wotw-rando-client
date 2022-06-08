@@ -7,6 +7,7 @@
 #include <Il2CppModLoader/windows_api/console.h>
 
 using namespace modloader;
+using namespace modloader::win;
 
 namespace {
     bool water_cheat_purified = false;

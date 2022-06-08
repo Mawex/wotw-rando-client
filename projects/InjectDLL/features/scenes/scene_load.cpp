@@ -71,7 +71,7 @@ namespace scenes {
             auto scene_manager_scene = ScenesManager::GetFromCurrentScenes(scenes_manager, scene_meta);
 
             modloader::win::console::console_send(format("%s: %d", scene_name.c_str(), state));
-            modloader::console::console_flush();
+            modloader::win::console::console_flush();
 
             SceneLoadEventMetadata event{
                 .scene_name = scene_name,

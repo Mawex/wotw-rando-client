@@ -700,7 +700,7 @@ INJECT_C_DLLEXPORT bool should_handle_messages() {
     if (sein == nullptr || sein->fields.LogicCycle == nullptr)
         return false;
 
-    if (SeinLogicCycle::GetFlags(sein->fields.LogicCycle, app::SeinLogicCycle_StateFlags__Enum::IsInteracting) == 0)
+    if (SeinLogicCycle::GetFlags(sein->fields.LogicCycle, app::SeinLogicCycle_StateFlags__Enum::IsInteracting) == app::SeinLogicCycle_StateFlags__Enum::Clear)
         return true;
 
     return false;

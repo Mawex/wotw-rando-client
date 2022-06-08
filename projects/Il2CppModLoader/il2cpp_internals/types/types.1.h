@@ -205,8 +205,11 @@ struct Decimal__Boxed {
 };
 
 struct Array {
-    struct Array__Class *klass;
-    MonitorData *monitor;
+    struct Object__Class *klass;
+    struct MonitorData *monitor;
+    struct Il2CppArrayBounds *bounds;
+    il2cpp_array_size_t max_length;
+    void * vector[32];
 };
 
 struct UInt32__Array {

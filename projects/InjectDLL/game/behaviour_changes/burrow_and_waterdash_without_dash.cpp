@@ -9,11 +9,11 @@
 namespace {
     IL2CPP_BINDING(, SeinDashNew, bool, ShouldDig, (app::SeinDashNew * this_ptr));
     IL2CPP_BINDING(, SeinDashNew, bool, ShouldSwim, (app::SeinDashNew * this_ptr));
-    IL2CPP_BINDING(Moon.uberSerializationWisp, PlayerUberStateAbilities, bool, HasAbility, (app::PlayerUberStateAbilities * this_ptr, uint8_t ability));
+    IL2CPP_BINDING(Moon.uberSerializationWisp, PlayerUberStateAbilities, bool, HasAbility, (app::PlayerUberStateAbilities * this_ptr, app::AbilityType__Enum ability));
 
     void update_dash_state(app::PlayerUberStateAbilities* this_ptr);
 
-    IL2CPP_INTERCEPT(Moon.uberSerializationWisp, PlayerUberStateAbilities, void, SetAbility, (app::PlayerUberStateAbilities * this_ptr, uint8_t ability, bool value)) {
+    IL2CPP_INTERCEPT(Moon.uberSerializationWisp, PlayerUberStateAbilities, void, SetAbility, (app::PlayerUberStateAbilities * this_ptr, app::AbilityType__Enum ability, bool value)) {
         PlayerUberStateAbilities::SetAbility(this_ptr, ability, value);
         switch (ability) {
             case app::AbilityType__Enum::WaterDash:

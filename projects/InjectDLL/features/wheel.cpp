@@ -34,8 +34,8 @@ extern bool is_in_trial;
 
 namespace {
     struct CustomWheelEntry {
-        using binding_action = void (*)(CustomWheelEntry const& entry, app::SpellUIItem* item, int binding);
-        using csharp_callback = void (*)(int wheel, int item, int binding);
+        using binding_action = void (*)(CustomWheelEntry const& entry, app::SpellUIItem* item, app::SpellInventory_Binding__Enum binding);
+        using csharp_callback = void (*)(int wheel, int item, app::SpellInventory_Binding__Enum binding);
 
         std::wstring name = L"";
         std::wstring description = L"";
@@ -392,7 +392,7 @@ namespace {
     //    }
     //}
 
-    void csharp_action(CustomWheelEntry const& entry, app::SpellUIItem* item, int binding) {
+    void csharp_action(CustomWheelEntry const& entry, app::SpellUIItem* item, app::SpellInventory_Binding__Enum binding) {
         auto index = EquipmentRadialSelection::GetWheelIndex(item->fields.m_spell->fields.m_type);
         entry.callback(wheel_index, index, binding);
 

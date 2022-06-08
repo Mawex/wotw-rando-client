@@ -552,15 +552,15 @@ namespace il2cpp {
             return output;
         }
 
-        Il2CppArray* array_new(Il2CppClass* element, il2cpp_array_size_t length) {
+        Il2CppArraySize* array_new(Il2CppClass* element, il2cpp_array_size_t length) {
             return il2cpp_array_new(element, length);
         }
 
-        Il2CppArray* array_new_specific(Il2CppClass* array_klass, il2cpp_array_size_t length) {
+        Il2CppArraySize* array_new_specific(Il2CppClass* array_klass, il2cpp_array_size_t length) {
             return il2cpp_array_new_specific(array_klass, length);
         }
 
-        Il2CppArray* array_new_full(Il2CppClass* array_klass, il2cpp_array_size_t* lengths, il2cpp_array_size_t* lower_bounds) {
+        Il2CppArraySize* array_new_full(Il2CppClass* array_klass, il2cpp_array_size_t* lengths, il2cpp_array_size_t* lower_bounds) {
             return il2cpp_array_new_full(array_klass, lengths, lower_bounds);
         }
     } // namespace untyped

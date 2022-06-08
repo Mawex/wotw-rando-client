@@ -7,6 +7,7 @@
 #include "pickups.h"
 
 using namespace modloader;
+using namespace modloader::win;
 
 namespace {
     // noop only - reward triggers on uberstate change.

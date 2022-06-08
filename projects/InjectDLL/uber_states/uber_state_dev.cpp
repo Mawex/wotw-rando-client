@@ -12,6 +12,7 @@
 #include <fstream>
 
 using namespace modloader;
+using namespace modloader::win;
 
 namespace {
     STATIC_IL2CPP_BINDING(Moon, UberStateController, bool, ApplierIsAffectedByUberState, (app::IUberStateApplier * applier, app::IUberState* descriptor));

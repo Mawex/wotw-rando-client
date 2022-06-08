@@ -10,6 +10,7 @@
 #include <uber_states/uber_state_interface.h>
 
 using namespace modloader;
+using namespace modloader::win;
 
 namespace {
     struct BoundingRect {

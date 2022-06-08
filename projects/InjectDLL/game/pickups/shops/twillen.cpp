@@ -188,7 +188,7 @@ namespace {
             if (overwrite_shard) {
                 name_box->fields.MessageProvider = name_provider;
                 description_box->fields.MessageProvider = description_provider;
-            } else if (type == 0) {
+            } else if (type == app::SpiritShardType__Enum::None) {
                 name_box->fields.MessageProvider = this_ptr->fields.LockedName;
                 description_box->fields.MessageProvider = this_ptr->fields.LockedDescription;
             } else {
@@ -232,7 +232,7 @@ namespace {
             for (int i = 0; i < shards_to_buy->fields._size; ++i) {
                 auto shard = shards_to_buy->fields._items->vector[i];
                 auto desc = il2cpp::invoke<app::SpiritShardDescription>(settings->fields.Descriptions, "GetValue", &shard);
-                desc->fields.InitialBuyCost = shards_to_buy->fields._items->vector[i];
+                desc->fields.InitialBuyCost = static_cast<int>(shards_to_buy->fields._items->vector[i]); // TODO: @BadWolf: Seems weird to me, is this correct?
             }
         }
 

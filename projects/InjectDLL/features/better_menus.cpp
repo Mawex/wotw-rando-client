@@ -12,7 +12,7 @@
 #include <utils/operations.h>
 
 using namespace modloader;
-using modloader::console::console_flush;
+using modloader::win::console::console_flush;
 using modloader::win::console::console_send;
 
 namespace {

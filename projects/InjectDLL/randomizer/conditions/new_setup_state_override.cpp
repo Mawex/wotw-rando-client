@@ -18,6 +18,7 @@
 #include "Common/ext.h"
 
 using namespace modloader;
+using namespace modloader::win;
 using namespace uber_states;
 
 namespace randomizer {

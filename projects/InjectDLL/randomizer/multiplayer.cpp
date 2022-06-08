@@ -18,6 +18,7 @@
 #include <unordered_map>
 
 using namespace modloader;
+using namespace modloader::win;
 
 INJECT_C_DLLEXPORT void add_player(const wchar_t* id, const wchar_t* name, multiplayer::PlayerIcon icon);
 INJECT_C_DLLEXPORT void set_player_icon(const wchar_t* id, multiplayer::PlayerIcon icon);

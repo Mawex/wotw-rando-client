@@ -225,6 +225,9 @@ namespace uber_states {
     UberState::UberState(UberStateGroup group, int state) :
             m_group(group), m_state(state) {}
 
+    UberState::UberState(UberStateGroup group, app::AbilityType__Enum state) :
+            m_group(group), m_state(static_cast<int>(state)) {}
+
     bool UberState::valid() const {
         if (m_group == UberStateGroup::Invalid || m_state < 0)
             return false;
