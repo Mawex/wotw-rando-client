@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlEventCache_XmlEvent {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, InitEvent, (XmlEventCache_XmlEvent__Boxed * __this, XmlEventCache_XmlEventType__Enum eventType));

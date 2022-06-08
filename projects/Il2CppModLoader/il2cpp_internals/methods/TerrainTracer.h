@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TerrainTracer {
 IL2CPP_REGISTER_METHOD(0x010D85E0, void, Init, (TerrainTracer * __this, PlatformMovement * plataformMovement, Transform * origin));

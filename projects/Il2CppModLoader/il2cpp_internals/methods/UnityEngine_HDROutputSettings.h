@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::HDROutputSettings {
 IL2CPP_REGISTER_METHOD(0x0252D330, void, SetPaperWhiteInNits, (float paperWhite));

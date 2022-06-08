@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MapMakerGiveMapBehaviour {
 IL2CPP_REGISTER_METHOD(0x0110E670, void, OnEnter, (MapMakerGiveMapBehaviour * __this, IContext * context));

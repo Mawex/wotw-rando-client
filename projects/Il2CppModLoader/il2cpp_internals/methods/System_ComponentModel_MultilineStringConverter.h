@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::MultilineStringConverter {
 IL2CPP_REGISTER_METHOD(0x0298FED0, Object *, ConvertTo, (MultilineStringConverter * __this, ITypeDescriptorContext * context, CultureInfo * culture, Object * value, Type * destinationType));

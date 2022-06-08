@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::DefaultReferenceResolver {
 IL2CPP_REGISTER_METHOD(0x0186A530, BidirectionalDictionary_2_System_String_System_Object_ *, GetMappings, (DefaultReferenceResolver * __this, Object * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::J2i::Net::XInputWrapper::XInputGamepad {
 IL2CPP_REGISTER_METHOD(0x0024B610, bool, IsButtonPressed, (XInputGamepad__Boxed * __this, int32_t buttonFlags));

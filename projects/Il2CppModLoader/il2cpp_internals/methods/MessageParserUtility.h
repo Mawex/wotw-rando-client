@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MessageParserUtility {
 IL2CPP_REGISTER_METHOD(0x0159B7F0, String__Array *, ProcessStringArray, (String * s));

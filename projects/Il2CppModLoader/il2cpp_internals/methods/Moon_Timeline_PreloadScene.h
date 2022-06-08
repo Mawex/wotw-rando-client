@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PreloadScene {
 IL2CPP_REGISTER_METHOD(0x0077CA30, void, OnEnable, (PreloadScene * __this));

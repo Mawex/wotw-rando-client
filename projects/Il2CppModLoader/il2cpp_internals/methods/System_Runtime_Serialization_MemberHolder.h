@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::MemberHolder {
 IL2CPP_REGISTER_METHOD(0x01ED5870, void, __ctor, (MemberHolder * __this, Type * type, StreamingContext ctx));

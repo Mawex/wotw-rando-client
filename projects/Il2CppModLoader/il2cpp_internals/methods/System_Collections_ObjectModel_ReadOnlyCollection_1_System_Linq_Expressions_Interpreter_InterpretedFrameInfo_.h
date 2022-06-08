@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_System::Linq::Expressions::Interpreter::InterpretedFrameInfo_ {
 IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, __ctor, (ReadOnlyCollection_1_System_Linq_Expressions_Interpreter_InterpretedFrameInfo_ * __this, IList_1_System_Linq_Expressions_Interpreter_InterpretedFrameInfo_ * list));

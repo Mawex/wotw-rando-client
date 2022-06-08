@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ZoneProcessor {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_ActiveListenerZones, (ZoneProcessor * __this));

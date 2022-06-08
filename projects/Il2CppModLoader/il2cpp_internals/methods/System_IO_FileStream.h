@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::FileStream {
 IL2CPP_REGISTER_METHOD(0x01E09CF0, void, __ctor, (FileStream * __this, void * handle, FileAccess__Enum access, bool ownsHandle, int32_t bufferSize));
@@ -74,5 +74,5 @@ IL2CPP_REGISTER_METHOD(0x01E0DD90, void, InitBuffer, (FileStream * __this, int32
 IL2CPP_REGISTER_METHODINFO(0x0477FD60, FileStream_InitBuffer__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E0E080, String *, GetSecureFileName, (FileStream * __this, String * filename));
 IL2CPP_REGISTER_METHOD(0x01E0E160, String *, GetSecureFileName, (FileStream * __this, String * filename, bool full));
-IL2CPP_REGISTER_METHOD(0x01E0E270, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E0E270, void, __cctor, ());
 }

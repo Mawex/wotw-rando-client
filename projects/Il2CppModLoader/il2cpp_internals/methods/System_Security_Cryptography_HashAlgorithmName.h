@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::HashAlgorithmName {
-IL2CPP_REGISTER_METHOD(0x020DBC10, HashAlgorithmName, get_MD5, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x020DBC90, HashAlgorithmName, get_SHA1, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x020DBD10, HashAlgorithmName, get_SHA256, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x020DBD90, HashAlgorithmName, get_SHA384, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x020DBE10, HashAlgorithmName, get_SHA512, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020DBC10, HashAlgorithmName, get_MD5, ());
+IL2CPP_REGISTER_METHOD(0x020DBC90, HashAlgorithmName, get_SHA1, ());
+IL2CPP_REGISTER_METHOD(0x020DBD10, HashAlgorithmName, get_SHA256, ());
+IL2CPP_REGISTER_METHOD(0x020DBD90, HashAlgorithmName, get_SHA384, ());
+IL2CPP_REGISTER_METHOD(0x020DBE10, HashAlgorithmName, get_SHA512, ());
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (HashAlgorithmName__Boxed * __this, String * name));
 IL2CPP_REGISTER_METHOD(0x00107C00, String *, get_Name, (HashAlgorithmName__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x001DC210, String *, ToString, (HashAlgorithmName__Boxed * __this));

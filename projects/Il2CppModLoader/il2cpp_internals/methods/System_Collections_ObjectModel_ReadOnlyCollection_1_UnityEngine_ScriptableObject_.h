@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_UnityEngine::ScriptableObject_ {
 IL2CPP_REGISTER_METHOD(0x02EC2580, ScriptableObject *, get_Item, (ReadOnlyCollection_1_UnityEngine_ScriptableObject_ * __this, int32_t index));

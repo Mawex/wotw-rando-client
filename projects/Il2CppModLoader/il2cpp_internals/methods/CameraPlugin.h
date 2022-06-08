@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraPlugin {
 IL2CPP_REGISTER_METHOD(0x0169F350, void, Awake, (CameraPlugin * __this));

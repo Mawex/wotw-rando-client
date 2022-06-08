@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryShardEquipEvent {
 IL2CPP_REGISTER_METHOD(0x01472090, void, __ctor, (MoonTelemetryShardEquipEvent * __this, PlayerUberStateShards_Shard * shard, bool equipped));

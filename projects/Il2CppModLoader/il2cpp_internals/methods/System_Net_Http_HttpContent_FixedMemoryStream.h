@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::HttpContent_FixedMemoryStream {
 IL2CPP_REGISTER_METHOD(0x02D1B5E0, void, CheckOverflow, (HttpContent_FixedMemoryStream * __this, int32_t count));

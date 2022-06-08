@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Xml::XmlEventCache_XmlEvent___ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, XmlEventCache_XmlEvent__Array *, get_Item, (List_1_System_Xml_XmlEventCache_XmlEvent_ * __this, int32_t index));

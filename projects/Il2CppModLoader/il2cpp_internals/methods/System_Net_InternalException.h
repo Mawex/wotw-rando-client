@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::InternalException {
 IL2CPP_REGISTER_METHOD(0x01E25790, void, __ctor, (InternalException * __this));

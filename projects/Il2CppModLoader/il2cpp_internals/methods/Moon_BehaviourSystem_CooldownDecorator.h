@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::CooldownDecorator {
 IL2CPP_REGISTER_METHOD(0x0300C550, float, get_TimeRemaining, (CooldownDecorator * __this));

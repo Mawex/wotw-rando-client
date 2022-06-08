@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransitionBasedSetupHolder_1_Moon::Setups::ChangeStateSetupData_ {
 IL2CPP_REGISTER_METHOD(0x0225BDD0, IDesiredUberState *, GetRequirementsForTimeline, (TransitionBasedSetupHolder_1_Moon_Setups_ChangeStateSetupData_ * __this, MoonTimeline * timeline));

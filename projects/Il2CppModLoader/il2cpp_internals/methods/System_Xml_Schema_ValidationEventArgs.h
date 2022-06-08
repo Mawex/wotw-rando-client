@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ValidationEventArgs {
 IL2CPP_REGISTER_METHOD(0x01ABDC50, void, __ctor, (ValidationEventArgs * __this, XmlSchemaException * ex));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MasterTimelineSequence {
 IL2CPP_REGISTER_METHOD(0x00A11940, float, get_UnlockedDuration, (MasterTimelineSequence * __this));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHOD(0x00A12870, void, SampleValue, (MasterTimelineSequence * 
 IL2CPP_REGISTER_METHOD(0x00A13150, void, SampleSceneAtRuntime, (MasterTimelineSequence * __this, float time, MasterTimelineSequence_SceneEntry * entry, bool forceSample));
 IL2CPP_REGISTER_METHOD(0x00A137E0, void, OnStopPlay, (MasterTimelineSequence * __this));
 IL2CPP_REGISTER_METHOD(0x00A138B0, void, __ctor, (MasterTimelineSequence * __this));
-IL2CPP_REGISTER_METHOD(0x00A13BE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A13BE0, void, __cctor, ());
 }

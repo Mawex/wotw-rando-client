@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NotInstruction_NotUInt16 {
 IL2CPP_REGISTER_METHOD(0x02407130, int32_t, Run, (NotInstruction_NotUInt16 * __this, InterpretedFrame * frame));

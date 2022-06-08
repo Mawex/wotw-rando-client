@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KamikazeLizardHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00E5BE20, void, OnInitializeTask, (KamikazeLizardHitReactionBehaviour * __this, IContext * context));

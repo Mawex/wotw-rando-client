@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::InteropHelp_UTF8StringHandle {
 IL2CPP_REGISTER_METHOD(0x01600550, void, __ctor, (InteropHelp_UTF8StringHandle * __this, String * str));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DashableSwitchAnimator {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonSetupVisuals *, get_MoonSetupVisuals, (DashableSwitchAnimator * __this));

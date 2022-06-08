@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VerletBodyIndexed_Point {
 IL2CPP_REGISTER_METHOD(0x001DC800, float, get_Mass, (VerletBodyIndexed_Point__Boxed * __this));

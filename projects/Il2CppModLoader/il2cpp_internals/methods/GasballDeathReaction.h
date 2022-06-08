@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasballDeathReaction {
 IL2CPP_REGISTER_METHOD(0x0041DB70, void, SetInstantDeath, (GasballDeathReaction * __this, bool instantDeath));

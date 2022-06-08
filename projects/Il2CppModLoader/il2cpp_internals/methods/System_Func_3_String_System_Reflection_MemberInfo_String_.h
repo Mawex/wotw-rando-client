@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_3_String_System::Reflection::MemberInfo_String_ {
 IL2CPP_REGISTER_METHOD(0x01D117F0, String *, Invoke, (Func_3_String_System_Reflection_MemberInfo_String_ * __this, String * arg1, MemberInfo_1 * arg2));

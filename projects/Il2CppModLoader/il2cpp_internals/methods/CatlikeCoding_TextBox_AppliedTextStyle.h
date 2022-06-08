@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::AppliedTextStyle {
 IL2CPP_REGISTER_METHOD(0x0011DFB0, void, Apply, (AppliedTextStyle__Boxed * __this, TextStyle * style, TextRenderer * renderer));

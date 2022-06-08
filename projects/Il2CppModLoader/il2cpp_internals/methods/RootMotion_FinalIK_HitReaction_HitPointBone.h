@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::HitReaction_HitPointBone {
 IL2CPP_REGISTER_METHOD(0x02076790, float, GetLength, (HitReaction_HitPointBone * __this));

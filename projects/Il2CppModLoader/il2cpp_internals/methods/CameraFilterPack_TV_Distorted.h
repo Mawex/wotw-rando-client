@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_TV_Distorted {
 IL2CPP_REGISTER_METHOD(0x020E8960, Material *, get_material, (CameraFilterPack_TV_Distorted * __this));

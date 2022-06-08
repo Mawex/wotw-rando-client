@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardCamouflageEntity {
 IL2CPP_REGISTER_METHOD(0x00FA9530, void, OnPoolSpawned, (LizardCamouflageEntity * __this));

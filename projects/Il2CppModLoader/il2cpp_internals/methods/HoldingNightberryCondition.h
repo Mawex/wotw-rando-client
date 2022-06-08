@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HoldingNightberryCondition {
 IL2CPP_REGISTER_METHOD(0x00B5ADC0, bool, Validate, (HoldingNightberryCondition * __this, IContext * context));

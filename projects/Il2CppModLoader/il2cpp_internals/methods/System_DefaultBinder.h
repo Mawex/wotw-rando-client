@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DefaultBinder {
 IL2CPP_REGISTER_METHOD(0x01737180, MethodBase *, BindToMethod, (DefaultBinder * __this, BindingFlags__Enum bindingAttr, MethodBase__Array * match, Object__Array * * args, ParameterModifier__Array * modifiers, CultureInfo * cultureInfo, String__Array * names, Object * * state));

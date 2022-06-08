@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BabySeinController {
 IL2CPP_REGISTER_METHOD(0x008616A0, bool, get_LockedInput, (BabySeinController * __this));

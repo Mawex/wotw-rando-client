@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_UnityEngine::RenderTexture_ {
 IL2CPP_REGISTER_METHOD(0x02CF8030, void, Push, (Stack_1_UnityEngine_RenderTexture_ * __this, RenderTexture * item));

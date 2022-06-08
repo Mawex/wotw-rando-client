@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationTester_AnimationTestEntry {
 IL2CPP_REGISTER_METHOD(0x00654950, int32_t, get_CurrentAnimationIndex, (AnimationTester_AnimationTestEntry * __this));

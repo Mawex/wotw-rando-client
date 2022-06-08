@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::UI::TextBoxLine_ {
 IL2CPP_REGISTER_METHOD(0x02F74F00, void, Sort, (TextBoxLine_1__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_UI_TextBoxLine_ * comparer));

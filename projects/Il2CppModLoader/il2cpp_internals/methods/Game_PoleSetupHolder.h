@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Game::PoleSetupHolder {
 IL2CPP_REGISTER_METHOD(0x01526DD0, PoleSetupData *, get_ReleasedState, (PoleSetupHolder * __this));

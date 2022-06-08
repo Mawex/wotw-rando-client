@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::NoThrowGetBinderMember {
 IL2CPP_REGISTER_METHOD(0x0301EDB0, void, __ctor, (NoThrowGetBinderMember * __this, GetMemberBinder * innerBinder));

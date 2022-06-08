@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonRegex {
 IL2CPP_REGISTER_METHOD(0x002FB950, BsonString *, get_Pattern, (BsonRegex * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberWaterForceActor {
 IL2CPP_REGISTER_METHOD(0x0129F010, void, Awake, (UberWaterForceActor * __this));

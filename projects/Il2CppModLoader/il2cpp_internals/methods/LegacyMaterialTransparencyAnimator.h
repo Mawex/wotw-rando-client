@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyMaterialTransparencyAnimator {
 IL2CPP_REGISTER_METHOD(0x00A24880, int32_t, get_PropertyID, (LegacyMaterialTransparencyAnimator * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlDocumentType {
 IL2CPP_REGISTER_METHOD(0x01DAB6F0, void, __ctor, (XmlDocumentType * __this, String * name, String * publicId, String * systemId, String * internalSubset, XmlDocument * doc));

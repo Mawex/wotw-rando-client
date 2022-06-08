@@ -1,16 +1,16 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FindObjectsWrapper {
 IL2CPP_REGISTER_METHOD(0x02559930, Object_1__Array *, FindObjectsOfType, (Type * t, bool runtimeOk));
 IL2CPP_REGISTER_METHOD(0x02559A80, Object_1__Array *, FindObjectsOfTypeAll, (Type * t, bool runtimeOk));
 IL2CPP_REGISTER_METHOD(0x02559BB0, GameObject *, Find, (String * name));
-IL2CPP_REGISTER_METHOD(0x02559DD0, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02559E90, void, HierarchyChanged, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02559F50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02559DD0, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x02559E90, void, HierarchyChanged, ());
+IL2CPP_REGISTER_METHOD(0x02559F50, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01586160, Object__Array *, FindObjectsOfType, (bool runtimeOk));
 IL2CPP_REGISTER_METHOD(0x015862B0, Object__Array *, FindObjectsOfTypeAll, (bool runtimeOk));
-IL2CPP_REGISTER_METHOD(0x015863E0, Object__Array *, FindObjectsOfTypeAllFast, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x015F1AC0, Object *, FindSceneObjectOfTypeFast, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015863E0, Object__Array *, FindObjectsOfTypeAllFast, ());
+IL2CPP_REGISTER_METHOD(0x015F1AC0, Object *, FindSceneObjectOfTypeFast, ());
 IL2CPP_REGISTER_METHOD(0x01550160, void, CollectObjectsRecursively, (Transform * trans, List_1_System_Object_ * result));
 IL2CPP_REGISTER_METHOD(0x015F1830, Object *, CollectSceneObjectRecursively, (Transform * trans));
 IL2CPP_REGISTER_METHOD(0x01586160, HierarchyPerfTestsSceneRoot__Array *, FindObjectsOfType, (bool runtimeOk));
@@ -23,7 +23,7 @@ IL2CPP_REGISTER_METHOD(0x01586160, GameObject__Array *, FindObjectsOfType, (bool
 IL2CPP_REGISTER_METHODINFO(0x04719CF0, FindObjectsWrapper_FindObjectsOfType_4__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01586160, ParticleSystem__Array *, FindObjectsOfType, (bool runtimeOk));
 IL2CPP_REGISTER_METHODINFO(0x04735E00, FindObjectsWrapper_FindObjectsOfType_5__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x015863E0, EntityPlaceholder__Array *, FindObjectsOfTypeAllFast, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015863E0, EntityPlaceholder__Array *, FindObjectsOfTypeAllFast, ());
 IL2CPP_REGISTER_METHODINFO(0x04732088, FindObjectsWrapper_FindObjectsOfTypeAllFast_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x015862B0, GameObject__Array *, FindObjectsOfTypeAll, (bool runtimeOk));
 IL2CPP_REGISTER_METHODINFO(0x0475CB60, FindObjectsWrapper_FindObjectsOfTypeAll_3__MethodInfo);

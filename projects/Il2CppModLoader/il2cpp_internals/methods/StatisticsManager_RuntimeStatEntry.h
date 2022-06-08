@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StatisticsManager_RuntimeStatEntry {
 IL2CPP_REGISTER_METHOD(0x00863E90, float, get_DirtyValue, (StatisticsManager_RuntimeStatEntry * __this));

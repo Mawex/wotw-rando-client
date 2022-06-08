@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterMinibossSpawn {
 IL2CPP_REGISTER_METHOD(0x00F1DC30, void, OnEnterTask, (LaserShooterMinibossSpawn * __this, IContext * context));

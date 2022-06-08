@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereEnumerableIterator_1_UnityEngine::Vector2_ {
 IL2CPP_REGISTER_METHOD(0x02892980, void, __ctor, (Enumerable_WhereEnumerableIterator_1_UnityEngine_Vector2_ * __this, IEnumerable_1_UnityEngine_Vector2_ * source, Func_2_UnityEngine_Vector2_Boolean_ * predicate));

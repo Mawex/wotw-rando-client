@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Utils {
 IL2CPP_REGISTER_METHOD(0x02580090, String *, FindOidInfo, (uint32_t keyType, String * keyValue, OidGroup__Enum oidGroup));

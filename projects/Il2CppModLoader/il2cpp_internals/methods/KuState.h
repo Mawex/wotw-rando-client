@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuState {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, Ku *, get_Ku, (KuState * __this));

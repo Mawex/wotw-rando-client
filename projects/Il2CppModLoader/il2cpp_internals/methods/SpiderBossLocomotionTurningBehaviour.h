@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossLocomotionTurningBehaviour {
 IL2CPP_REGISTER_METHOD(0x011B6B40, SpiderBossEntity *, get_SpiderBoss, (SpiderBossLocomotionTurningBehaviour * __this));

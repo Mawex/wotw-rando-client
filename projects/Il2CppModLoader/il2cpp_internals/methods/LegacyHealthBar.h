@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyHealthBar {
 IL2CPP_REGISTER_METHOD(0x00A26FE0, float, get_Value, (LegacyHealthBar * __this));

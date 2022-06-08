@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::moonCore::moonDriver::UpdateHelper_UpdateCategoryGetter_3_UnityEngine::Transform_UnityEngine::Rigidbody_Moon::UpdateCategory_ {
 IL2CPP_REGISTER_METHOD(0x02AD6B00, UpdateCategory__Enum, Invoke, (UpdateHelper_UpdateCategoryGetter_3_UnityEngine_Transform_UnityEngine_Rigidbody_Moon_UpdateCategory_ * __this, Transform * arg1, Rigidbody * * arg2));

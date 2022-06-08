@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryWeaponUpgradeEvent {
 IL2CPP_REGISTER_METHOD(0x01472F90, void, __ctor, (MoonTelemetryWeaponUpgradeEvent * __this, AbilityType__Enum type, int32_t newLevel, int32_t expSpent));

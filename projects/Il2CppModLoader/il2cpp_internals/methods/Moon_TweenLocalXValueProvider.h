@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TweenLocalXValueProvider {
 IL2CPP_REGISTER_METHOD(0x01E93690, float, GetTweenNormalizedValue, (TweenLocalXValueProvider * __this));

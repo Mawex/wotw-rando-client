@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ContractUtils {
-IL2CPP_REGISTER_METHOD(0x01F93C70, Exception *, get_Unreachable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F93C70, Exception *, get_Unreachable, ());
 IL2CPP_REGISTER_METHOD(0x01F93DC0, void, Requires, (bool precondition, String * paramName));
 IL2CPP_REGISTER_METHODINFO(0x04719FD8, ContractUtils_Requires__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01F93E60, void, RequiresNotNull, (Object * value, String * paramName));

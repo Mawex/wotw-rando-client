@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Browser {
 IL2CPP_REGISTER_METHOD(0x01C61210, void, add_onConsoleMessage, (Browser * __this, Action_2_String_String_ * value));
@@ -11,7 +11,7 @@ IL2CPP_REGISTER_METHOD(0x00675C60, bool, get_EnableInput, (Browser * __this));
 IL2CPP_REGISTER_METHOD(0x00675C70, void, set_EnableInput, (Browser * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x01C613F0, void, add_afterResize, (Browser * __this, Action_1_UnityEngine_Texture2D_ * value));
 IL2CPP_REGISTER_METHOD(0x01C614E0, void, remove_afterResize, (Browser * __this, Action_1_UnityEngine_Texture2D_ * value));
-IL2CPP_REGISTER_METHOD(0x01C615D0, String *, get_LocalUrlPrefix, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C615D0, String *, get_LocalUrlPrefix, ());
 IL2CPP_REGISTER_METHOD(0x002FBBE0, IBrowserUI *, get_UIHandler, (Browser * __this));
 IL2CPP_REGISTER_METHOD(0x01C616C0, void, set_UIHandler, (Browser * __this, IBrowserUI * value));
 IL2CPP_REGISTER_METHOD(0x002FBC20, CookieManager *, get_CookieManager, (Browser * __this));
@@ -118,7 +118,7 @@ IL2CPP_REGISTER_METHODINFO(0x04758168, Browser_CB_NavStateFunc__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01C6D210, void, CB_NewWindowFunc, (int32_t creatorBrowserId, int32_t newBrowserId, void * urlPtr));
 IL2CPP_REGISTER_METHODINFO(0x04780CB0, Browser_CB_NewWindowFunc__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01C6D5C0, void, __ctor, (Browser * __this));
-IL2CPP_REGISTER_METHOD(0x01C6EBD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C6EBD0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01C6F050, void, _Awake_b__105_0, (Browser * __this, int32_t id));
 IL2CPP_REGISTER_METHODINFO(0x04725D68, Browser__Awake_b__105_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01C6F1C0, void, _Awake_b__105_1, (Browser * __this, String * message, String * source));

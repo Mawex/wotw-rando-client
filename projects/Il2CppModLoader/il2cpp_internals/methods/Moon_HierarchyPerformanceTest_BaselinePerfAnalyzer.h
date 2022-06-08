@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::BaselinePerfAnalyzer {
 IL2CPP_REGISTER_METHOD(0x0149B670, bool, Analyze, (BaselinePerfAnalyzer * __this, List_1_Moon_HierarchyPerformanceTest_HPerfTestResult_ * results));

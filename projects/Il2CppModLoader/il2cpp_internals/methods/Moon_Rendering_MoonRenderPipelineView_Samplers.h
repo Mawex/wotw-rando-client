@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineView_Samplers {
-IL2CPP_REGISTER_METHOD(0x00EAEA20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00EAEA20, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00EAFC60, SrpSampler, root, (MoonRenderPipelineViewType__Enum viewType, bool appendFrameNumber));
 IL2CPP_REGISTER_METHOD(0x00EAFD60, SrpSampler, post, (IRenderPostprocessor * post));
 IL2CPP_REGISTER_METHOD(0x00EAFFF0, String *, releaseRT, (RenderTarget * rt));

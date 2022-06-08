@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ByteConverter {
 IL2CPP_REGISTER_METHOD(0x024A5B20, Type *, get_TargetType, (ByteConverter * __this));

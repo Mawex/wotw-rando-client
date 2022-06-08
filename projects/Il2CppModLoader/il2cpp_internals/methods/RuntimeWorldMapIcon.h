@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RuntimeWorldMapIcon {
 IL2CPP_REGISTER_METHOD(0x00C058E0, void, __ctor, (RuntimeWorldMapIcon * __this, GameWorldArea_WorldMapIcon * icon, RuntimeGameWorldArea * area));

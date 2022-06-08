@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightBerrySpiritRing {
 IL2CPP_REGISTER_METHOD(0x006016D0, void, OnTriggerEnter, (NightBerrySpiritRing * __this, Collider * collider));

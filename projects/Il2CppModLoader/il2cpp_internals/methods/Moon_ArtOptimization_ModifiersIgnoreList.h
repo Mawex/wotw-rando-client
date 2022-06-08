@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ModifiersIgnoreList {
 IL2CPP_REGISTER_METHOD(0x0134D750, List_1_Moon_ArtOptimization_ModifierDataModel_ *, get_ModifiersToggles, (ModifiersIgnoreList * __this));

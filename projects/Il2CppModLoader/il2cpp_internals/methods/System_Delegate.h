@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Delegate {
 IL2CPP_REGISTER_METHOD(0x0173D7B0, MethodInfo_1 *, get_Method, (Delegate * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::CookieParser {
 IL2CPP_REGISTER_METHOD(0x01EA7850, void, __ctor, (CookieParser * __this, String * cookieString));

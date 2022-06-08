@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LicFileLicenseProvider {
 IL2CPP_REGISTER_METHOD(0x01FEFF90, bool, IsKeyValid, (LicFileLicenseProvider * __this, String * key, Type * type));

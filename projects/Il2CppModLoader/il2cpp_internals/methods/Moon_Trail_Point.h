@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Trail_Point {
 IL2CPP_REGISTER_METHOD(0x001F9EE0, void, __ctor, (Trail_Point__Boxed * __this, Vector3 position, Vector3 tangent, Vector3 normal, Color color, float thickness, float lifetime, float u));

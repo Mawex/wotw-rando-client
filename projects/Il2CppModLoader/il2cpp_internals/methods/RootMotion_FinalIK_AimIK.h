@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::AimIK {
 IL2CPP_REGISTER_METHOD(0x0204D730, void, OpenUserManual, (AimIK * __this));

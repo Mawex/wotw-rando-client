@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Proxies::RemotingProxy {
 IL2CPP_REGISTER_METHOD(0x0231ECB0, void, __ctor, (RemotingProxy * __this, Type * type, ClientIdentity * identity));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x0231F830, IMessage *, ActivateRemoteObject, (RemotingPr
 IL2CPP_REGISTER_METHOD(0x0231FB20, String *, get_TypeName, (RemotingProxy * __this));
 IL2CPP_REGISTER_METHOD(0x0231FC90, bool, CanCastTo, (RemotingProxy * __this, Type * fromType, Object * o));
 IL2CPP_REGISTER_METHOD(0x0231FEA0, void, Finalize, (RemotingProxy * __this));
-IL2CPP_REGISTER_METHOD(0x0231FFE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0231FFE0, void, __cctor, ());
 }

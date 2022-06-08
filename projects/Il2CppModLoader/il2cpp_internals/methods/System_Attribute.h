@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Attribute {
 IL2CPP_REGISTER_METHOD(0x022990C0, Attribute__Array *, InternalGetCustomAttributes, (PropertyInfo_1 * element, Type * type, bool inherit));

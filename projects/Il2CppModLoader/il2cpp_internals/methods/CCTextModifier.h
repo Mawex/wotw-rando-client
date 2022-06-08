@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CCTextModifier {
 IL2CPP_REGISTER_METHOD(0x03161E20, void, UpdateAllCCText, (CCTextModifier * __this));

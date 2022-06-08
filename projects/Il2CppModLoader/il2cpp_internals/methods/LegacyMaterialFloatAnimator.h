@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyMaterialFloatAnimator {
 IL2CPP_REGISTER_METHOD(0x00A2DEC0, int32_t, get_PropertyID, (LegacyMaterialFloatAnimator * __this));

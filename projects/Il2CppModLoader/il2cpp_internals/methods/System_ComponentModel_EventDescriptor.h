@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::EventDescriptor {
 IL2CPP_REGISTER_METHOD(0x01FE9DF0, void, __ctor, (EventDescriptor_1 * __this, String * name, Attribute__Array * attrs));

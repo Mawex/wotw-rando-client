@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_UnityEngine::Vector4_ {
 IL2CPP_REGISTER_METHOD(0x001F4750, bool, get_HasValue, (Nullable_1_UnityEngine_Vector4___Boxed * __this));

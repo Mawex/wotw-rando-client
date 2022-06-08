@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XElement {
-IL2CPP_REGISTER_METHOD(0x03036610, IEnumerable_1_System_Xml_Linq_XElement_ *, get_EmptySequence, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03036610, IEnumerable_1_System_Xml_Linq_XElement_ *, get_EmptySequence, ());
 IL2CPP_REGISTER_METHOD(0x030366C0, void, __ctor, (XElement * __this, XName * name));
 IL2CPP_REGISTER_METHODINFO(0x04743690, XElement__ctor__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x03036780, void, __ctor, (XElement * __this, XElement * other));

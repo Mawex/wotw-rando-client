@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Voronoi::Legacy::SimpleVoronoi {
 IL2CPP_REGISTER_METHOD(0x02AAC360, void, __ctor, (SimpleVoronoi * __this, Mesh_1 * mesh));

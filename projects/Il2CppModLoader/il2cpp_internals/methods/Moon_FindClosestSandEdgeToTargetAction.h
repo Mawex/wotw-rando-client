@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FindClosestSandEdgeToTargetAction {
 IL2CPP_REGISTER_METHOD(0x01222F70, String *, get_Info, (FindClosestSandEdgeToTargetAction * __this));

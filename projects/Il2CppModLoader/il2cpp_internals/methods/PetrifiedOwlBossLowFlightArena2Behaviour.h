@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLowFlightArena2Behaviour {
 IL2CPP_REGISTER_METHOD(0x002FBD40, StateMachine_2 *, get_StateMachine, (PetrifiedOwlBossLowFlightArena2Behaviour * __this));

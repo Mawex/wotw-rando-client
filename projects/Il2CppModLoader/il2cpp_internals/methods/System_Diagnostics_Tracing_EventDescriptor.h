@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventDescriptor {
 IL2CPP_REGISTER_METHOD(0x0013DFE0, void, __ctor, (EventDescriptor__Boxed * __this, int32_t traceloggingId, uint8_t level, uint8_t opcode, int64_t keywords));

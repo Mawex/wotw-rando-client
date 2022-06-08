@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropSlugJumpAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x00BE5270, void, OnEntityInitialized, (DropSlugJumpAttackBehaviour * __this));

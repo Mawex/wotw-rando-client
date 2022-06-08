@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Iterators::EdgeIterator {
 IL2CPP_REGISTER_METHOD(0x02B10CF0, void, __ctor, (EdgeIterator * __this, Mesh_1 * mesh));

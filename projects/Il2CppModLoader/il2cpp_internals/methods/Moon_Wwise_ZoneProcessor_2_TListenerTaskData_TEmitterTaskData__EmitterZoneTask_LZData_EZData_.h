@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ZoneProcessor_2_TListenerTaskData_TEmitterTaskData__EmitterZoneTask_LZData_EZData_ {
 IL2CPP_REGISTER_METHOD(0x00724AE0, EZData, get_Data, (ZoneProcessor_2_TListenerTaskData_TEmitterTaskData_EmitterZoneTask_LZData_EZData_ * __this));

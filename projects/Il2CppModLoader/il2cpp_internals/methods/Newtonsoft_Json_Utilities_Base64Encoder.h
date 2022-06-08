@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::Base64Encoder {
 IL2CPP_REGISTER_METHOD(0x01BFFFC0, void, __ctor, (Base64Encoder_1 * __this, TextWriter * writer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::RuntimeWrappedException {
 IL2CPP_REGISTER_METHOD(0x01A92850, void, __ctor, (RuntimeWrappedException * __this, Object * thrownObject));

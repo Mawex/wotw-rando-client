@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InteractionPunchModifier__GetKeywordsForShader_d__12 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (InteractionPunchModifier_GetKeywordsForShader_d_12 * __this, int32_t __1__state));

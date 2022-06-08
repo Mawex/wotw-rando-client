@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ScreenSpaceAmbientOcclusion {
 IL2CPP_REGISTER_METHOD(0x02D61AB0, Material *, CreateMaterial, (Shader * shader));

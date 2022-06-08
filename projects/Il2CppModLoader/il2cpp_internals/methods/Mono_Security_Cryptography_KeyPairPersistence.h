@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::KeyPairPersistence {
 IL2CPP_REGISTER_METHOD(0x025CC460, void, __ctor, (KeyPairPersistence * __this, CspParameters * parameters));
@@ -11,9 +11,9 @@ IL2CPP_REGISTER_METHOD(0x025CC800, CspParameters *, get_Parameters, (KeyPairPers
 IL2CPP_REGISTER_METHOD(0x025CC810, bool, Load, (KeyPairPersistence * __this));
 IL2CPP_REGISTER_METHOD(0x025CC990, void, Save, (KeyPairPersistence * __this));
 IL2CPP_REGISTER_METHOD(0x025CCC80, void, Remove, (KeyPairPersistence * __this));
-IL2CPP_REGISTER_METHOD(0x025CCCA0, String *, get_UserPath, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025CCCA0, String *, get_UserPath, ());
 IL2CPP_REGISTER_METHODINFO(0x04706530, KeyPairPersistence_get_UserPath__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025CD210, String *, get_MachinePath, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025CD210, String *, get_MachinePath, ());
 IL2CPP_REGISTER_METHODINFO(0x04795E38, KeyPairPersistence_get_MachinePath__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00417870, bool, _CanSecure, (String * root));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, _ProtectUser, (String * path));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x025CDC00, String *, get_ContainerName, (KeyPairPersiste
 IL2CPP_REGISTER_METHOD(0x025CDE30, CspParameters *, Copy, (KeyPairPersistence * __this, CspParameters * p));
 IL2CPP_REGISTER_METHOD(0x025CDFD0, void, FromXml, (KeyPairPersistence * __this, String * xml));
 IL2CPP_REGISTER_METHOD(0x025CE210, String *, ToXml, (KeyPairPersistence * __this));
-IL2CPP_REGISTER_METHOD(0x025CE4E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025CE4E0, void, __cctor, ());
 }

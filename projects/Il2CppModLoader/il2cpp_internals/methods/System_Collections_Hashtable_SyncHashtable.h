@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Hashtable_SyncHashtable {
 IL2CPP_REGISTER_METHOD(0x002FBB50, void, __ctor, (Hashtable_SyncHashtable * __this, Hashtable * table));

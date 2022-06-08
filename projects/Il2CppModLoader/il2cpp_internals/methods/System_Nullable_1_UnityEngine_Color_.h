@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_UnityEngine::Color_ {
 IL2CPP_REGISTER_METHOD(0x00120520, void, __ctor, (Nullable_1_UnityEngine_Color___Boxed * __this, Color value));

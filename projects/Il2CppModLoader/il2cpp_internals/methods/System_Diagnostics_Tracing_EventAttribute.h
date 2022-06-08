@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventAttribute {
 IL2CPP_REGISTER_METHOD(0x0174A9D0, void, __ctor, (EventAttribute * __this, int32_t eventId));

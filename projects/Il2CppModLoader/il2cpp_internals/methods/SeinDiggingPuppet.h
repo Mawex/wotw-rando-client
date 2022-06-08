@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDiggingPuppet {
 IL2CPP_REGISTER_METHOD(0x007E3F30, int32_t, get_Id, (SeinDiggingPuppet * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ArgumentException {
 IL2CPP_REGISTER_METHOD(0x022901E0, void, __ctor, (ArgumentException * __this));

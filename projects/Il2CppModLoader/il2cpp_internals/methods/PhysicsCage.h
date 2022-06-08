@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsCage {
 IL2CPP_REGISTER_METHOD(0x013C9650, bool, get_IsSuspended, (PhysicsCage * __this));

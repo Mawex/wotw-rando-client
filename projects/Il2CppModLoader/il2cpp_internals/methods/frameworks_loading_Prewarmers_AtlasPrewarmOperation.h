@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::AtlasPrewarmOperation {
 IL2CPP_REGISTER_METHOD(0x00F5D860, void, __ctor, (AtlasPrewarmOperation * __this));

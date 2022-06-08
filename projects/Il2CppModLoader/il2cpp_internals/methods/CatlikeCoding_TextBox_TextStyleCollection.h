@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::TextStyleCollection {
 IL2CPP_REGISTER_METHOD(0x01038AA0, void, ComputeRendererCount, (TextStyleCollection * __this));

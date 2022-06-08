@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::Timeline::TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ {
 IL2CPP_REGISTER_METHOD(0x025E8DE0, void, Add, (List_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ * __this, TransparencyAnimatorSystemStrategy_SetSceneHiddenAction item));
@@ -64,5 +64,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_Moon_Timeline_Transparenc
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ * __this, Comparison_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, TransparencyAnimatorSystemStrategy_SetSceneHiddenAction__Array *, ToArray, (List_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

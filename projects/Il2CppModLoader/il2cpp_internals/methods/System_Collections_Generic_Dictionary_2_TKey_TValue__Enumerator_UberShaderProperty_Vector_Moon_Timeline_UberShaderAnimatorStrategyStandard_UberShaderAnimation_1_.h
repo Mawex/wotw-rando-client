@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_UberShaderProperty_Vector_Moon::Timeline::UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_UberShaderProperty_Vector_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_UberShaderProperty_Vector_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1___Boxed * __this));

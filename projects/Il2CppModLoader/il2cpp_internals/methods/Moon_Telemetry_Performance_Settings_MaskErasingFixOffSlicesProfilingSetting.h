@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::MaskErasingFixOffSlicesProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00DA2340, ProfilingSettings_SettingType__Enum, get_SettingType, (MaskErasingFixOffSlicesProfilingSetting * __this));

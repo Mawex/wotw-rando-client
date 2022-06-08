@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::InternalsVisibleToAttribute {
 IL2CPP_REGISTER_METHOD(0x00BA6CF0, void, __ctor, (InternalsVisibleToAttribute * __this, String * assemblyName));

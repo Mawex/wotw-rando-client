@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossTendrilStrikeBehaviour_StabLeftOutState {
 IL2CPP_REGISTER_METHOD(0x012F0720, void, __ctor, (KwolokBossTendrilStrikeBehaviour_StabLeftOutState * __this, KwolokBossTendrilStrikeBehaviour * behaviour));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ListOfCollidedObjects {
 IL2CPP_REGISTER_METHOD(0x00FA87C0, void, OnCollisionEnter, (ListOfCollidedObjects * __this, Collision * collision));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::BlockExpressionList__GetEnumerator_d__18 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (BlockExpressionList_GetEnumerator_d_18 * __this, int32_t __1__state));

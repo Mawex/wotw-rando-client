@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XmlToDatasetMap {
 IL2CPP_REGISTER_METHOD(0x023F2B30, void, __ctor, (XmlToDatasetMap * __this, DataSet * dataSet, XmlNameTable * nameTable));

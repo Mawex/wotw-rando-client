@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_5_System::Linq::Expressions::Expression_String_Boolean_System::Collections::ObjectModel::ReadOnlyCollection_1_System::Linq::Expressions::LambdaExpression_ {
 IL2CPP_REGISTER_METHOD(0x02FAB580, LambdaExpression *, Invoke, (Func_5_System_Linq_Expressions_Expression_String_Boolean_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Linq_Expressions_LambdaExpression_ * __this, Expression * arg1, String * arg2, bool arg3, ReadOnlyCollection_1_System_Linq_Expressions_ParameterExpression_ * arg4));

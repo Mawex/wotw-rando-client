@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FABRIKChain {
 IL2CPP_REGISTER_METHOD(0x02053C10, bool, IsValid, (FABRIKChain * __this, String * * message));

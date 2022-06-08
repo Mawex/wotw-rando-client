@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuLookUp {
 IL2CPP_REGISTER_METHOD(0x01241070, void, OnSetReferenceToKu, (KuLookUp * __this));

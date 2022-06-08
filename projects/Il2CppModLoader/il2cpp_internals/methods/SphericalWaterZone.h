@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SphericalWaterZone {
 IL2CPP_REGISTER_METHOD(0x00952F70, bool, Contains, (SphericalWaterZone * __this, Vector3 position));

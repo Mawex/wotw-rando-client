@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterPurityLogic {
 IL2CPP_REGISTER_METHOD(0x008DFE40, void, FixedUpdate, (WaterPurityLogic * __this));

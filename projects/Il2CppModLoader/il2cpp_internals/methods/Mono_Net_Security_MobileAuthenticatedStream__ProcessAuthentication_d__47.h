@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::MobileAuthenticatedStream__ProcessAuthentication_d__47 {
 IL2CPP_REGISTER_METHOD(0x001DCF70, void, MoveNext, (MobileAuthenticatedStream_ProcessAuthentication_d_47__Boxed * __this));

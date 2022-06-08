@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlTextWriter {
 IL2CPP_REGISTER_METHOD(0x01FBCAE0, void, __ctor, (XmlTextWriter * __this));
@@ -84,5 +84,5 @@ IL2CPP_REGISTER_METHOD(0x01FC2CA0, void, VerifyPrefixXml, (XmlTextWriter * __thi
 IL2CPP_REGISTER_METHODINFO(0x047635A0, XmlTextWriter_VerifyPrefixXml__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01FC2E20, void, PushStack, (XmlTextWriter * __this));
 IL2CPP_REGISTER_METHOD(0x01FC2F40, void, FlushEncoders, (XmlTextWriter * __this));
-IL2CPP_REGISTER_METHOD(0x01FC2F70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01FC2F70, void, __cctor, ());
 }

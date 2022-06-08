@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateGeneral {
 IL2CPP_REGISTER_METHOD(0x007EC230, Vector3, get_WorldPosition, (PlayerUberStateGeneral * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ImageEffectBase {
 IL2CPP_REGISTER_METHOD(0x02D59FA0, void, Start, (ImageEffectBase * __this));

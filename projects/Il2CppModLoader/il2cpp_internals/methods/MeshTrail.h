@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeshTrail {
 IL2CPP_REGISTER_METHOD(0x011354B0, Mesh *, get_RenderMesh, (MeshTrail * __this));
@@ -17,7 +17,7 @@ IL2CPP_REGISTER_METHOD(0x0310AE70, void, Clear, (MeshTrail * __this));
 IL2CPP_REGISTER_METHOD(0x0310AEB0, void, Reinitialize, (MeshTrail * __this));
 IL2CPP_REGISTER_METHOD(0x0310AED0, void, PrecomputeRuntimeData, (MeshTrail * __this));
 IL2CPP_REGISTER_METHOD(0x0310AEB0, void, Start, (MeshTrail * __this));
-IL2CPP_REGISTER_METHOD(0x0310AFB0, void, PreloadComputeShader, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0310AFB0, void, PreloadComputeShader, ());
 IL2CPP_REGISTER_METHOD(0x0310B080, void, RuntimeInitialize, (MeshTrail * __this));
 IL2CPP_REGISTER_METHOD(0x0310C1F0, void, InitLifetimeAnimatedParametersTexture, (MeshTrail * __this, Texture2D * * targetTexture, HideFlags__Enum hideFlags));
 IL2CPP_REGISTER_METHOD(0x0310C450, void, InitLifetimeAdditiveVelocityTexture, (MeshTrail * __this, Texture2D * * targetTexture, HideFlags__Enum hideFlags));
@@ -41,7 +41,7 @@ IL2CPP_REGISTER_METHOD(0x0310FD80, void, TimelineSample, (MeshTrail * __this, fl
 IL2CPP_REGISTER_METHOD(0x0310FEB0, void, ApplyStoredBuffers, (MeshTrail * __this));
 IL2CPP_REGISTER_METHOD(0x0310FED0, void, StoreBuffers, (MeshTrail * __this));
 IL2CPP_REGISTER_METHOD(0x0310FEF0, void, __ctor, (MeshTrail * __this));
-IL2CPP_REGISTER_METHOD(0x03110DB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03110DB0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0154A350, void, DestroyASAP, (Object * * obj));
 IL2CPP_REGISTER_METHOD(0x0154A350, void, DestroyASAP, (Texture2D * * obj));
 IL2CPP_REGISTER_METHODINFO(0x0472F5F8, MeshTrail_DestroyASAP_1__MethodInfo);

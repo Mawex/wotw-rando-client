@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScenesManagerBehaviourUtility {
 IL2CPP_REGISTER_METHOD(0x0105D090, Vector2, get_CurrentCameraTargetPositionExtrapolated, (ScenesManagerBehaviourUtility * __this));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x01062340, bool, ShouldKeepConnectedLoaded, (ScenesManag
 IL2CPP_REGISTER_METHOD(0x010623A0, void, FindScenesToEnable, (ScenesManagerBehaviourUtility * __this, bool limitOnce, bool async));
 IL2CPP_REGISTER_METHOD(0x01063930, void, SetTargetPosition, (ScenesManagerBehaviourUtility * __this, Vector3 target));
 IL2CPP_REGISTER_METHOD(0x01063A40, void, __ctor, (ScenesManagerBehaviourUtility * __this));
-IL2CPP_REGISTER_METHOD(0x01064800, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01064800, void, __cctor, ());
 }

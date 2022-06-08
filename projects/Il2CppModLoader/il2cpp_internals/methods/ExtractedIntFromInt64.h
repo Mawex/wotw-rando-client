@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ExtractedIntFromInt64 {
 IL2CPP_REGISTER_METHOD(0x00988420, void, __ctor, (ExtractedIntFromInt64 * __this, int32_t bits));

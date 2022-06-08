@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugDeathReaction {
 IL2CPP_REGISTER_METHOD(0x00B69260, void, OnInitializeTask, (HornBugDeathReaction * __this, IContext * context));

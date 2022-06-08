@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationTester_ToggleElementButton {
 IL2CPP_REGISTER_METHOD(0x002FA280, AnimationTester_IToogleGroup *, get_ToogleGroup, (AnimationTester_ToggleElementButton * __this));

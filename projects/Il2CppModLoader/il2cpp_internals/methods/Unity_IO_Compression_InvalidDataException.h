@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::InvalidDataException {
 IL2CPP_REGISTER_METHOD(0x02B7D140, void, __ctor, (InvalidDataException_1 * __this));

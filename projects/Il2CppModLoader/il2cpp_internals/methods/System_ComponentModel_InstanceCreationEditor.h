@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::InstanceCreationEditor {
 IL2CPP_REGISTER_METHOD(0x01FEEF20, String *, get_Text, (InstanceCreationEditor * __this));

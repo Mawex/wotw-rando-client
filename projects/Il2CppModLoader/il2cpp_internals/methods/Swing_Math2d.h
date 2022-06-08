@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::Math2d {
 IL2CPP_REGISTER_METHOD(0x0182B520, float, getAngle, (Vector2 _vector));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHOD(0x0182CB90, int32_t, min, (int32_t _value1, int32_t _valu
 IL2CPP_REGISTER_METHOD(0x0182CC40, int32_t, max, (int32_t _value1, int32_t _value2));
 IL2CPP_REGISTER_METHOD(0x0182CCF0, bool, raycastOnPlaneXY, (Ray _ray, Vector2 * _worldPos));
 IL2CPP_REGISTER_METHOD(0x0182CF30, bool, raycastOnPlaneXY, (Ray _ray, float _depth, Vector3 * _worldPos));
-IL2CPP_REGISTER_METHOD(0x0182D0C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0182D0C0, void, __cctor, ());
 }

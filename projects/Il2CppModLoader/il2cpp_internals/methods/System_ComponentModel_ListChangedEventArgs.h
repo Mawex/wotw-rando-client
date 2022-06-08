@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ListChangedEventArgs {
 IL2CPP_REGISTER_METHOD(0x01FF49E0, void, __ctor, (ListChangedEventArgs * __this, ListChangedType__Enum listChangedType, int32_t newIndex));

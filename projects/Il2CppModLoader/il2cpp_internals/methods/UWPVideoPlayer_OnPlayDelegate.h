@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UWPVideoPlayer_OnPlayDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UWPVideoPlayer_OnPlayDelegate * __this, Object * object, void * method_1));

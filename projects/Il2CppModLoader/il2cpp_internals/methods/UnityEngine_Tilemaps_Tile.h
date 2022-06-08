@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Tilemaps::Tile {
 IL2CPP_REGISTER_METHOD(0x031BEEA0, void, __ctor, (Tile * __this));

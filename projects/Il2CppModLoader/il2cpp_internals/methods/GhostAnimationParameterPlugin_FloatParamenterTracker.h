@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostAnimationParameterPlugin_FloatParamenterTracker {
 IL2CPP_REGISTER_METHOD(0x002FA280, FloatAnimationParameter *, get_Parameter, (GhostAnimationParameterPlugin_FloatParamenterTracker * __this));

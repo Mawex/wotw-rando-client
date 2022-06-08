@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntitySpawnTask {
 IL2CPP_REGISTER_METHOD(0x002FBC00, EntitySpawnSetup *, get_SpawnSetup, (EntitySpawnTask * __this));

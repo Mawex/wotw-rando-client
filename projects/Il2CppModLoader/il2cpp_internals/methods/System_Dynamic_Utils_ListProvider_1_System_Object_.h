@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ListProvider_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02879B70, Object *, get_Item, (ListProvider_1_System_Object_ * __this, int32_t index));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StressTester__RecordScreenshot_d__171 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (StressTester_RecordScreenshot_d_171 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MovingPlatformsController {
 IL2CPP_REGISTER_METHOD(0x002FB960, void, __ctor, (MovingPlatformsController * __this, PlatformMovement * platformMovement));

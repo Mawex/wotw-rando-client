@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::CameraSampler {
 IL2CPP_REGISTER_METHOD(0x01349100, void, __ctor, (CameraSampler * __this, SceneMetaData * sceneMeta, Camera * camera));

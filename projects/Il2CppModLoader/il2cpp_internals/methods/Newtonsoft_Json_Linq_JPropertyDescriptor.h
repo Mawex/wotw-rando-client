@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JPropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x01F0E5C0, void, __ctor, (JPropertyDescriptor * __this, String * name));

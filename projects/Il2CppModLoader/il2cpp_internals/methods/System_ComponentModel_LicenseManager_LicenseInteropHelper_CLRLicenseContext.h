@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LicenseManager_LicenseInteropHelper_CLRLicenseContext {
 IL2CPP_REGISTER_METHOD(0x0091DD30, void, __ctor, (LicenseManager_LicenseInteropHelper_CLRLicenseContext * __this, LicenseUsageMode__Enum usageMode, Type * type));

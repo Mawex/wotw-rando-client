@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BombSlugEntity {
 IL2CPP_REGISTER_METHOD(0x00D36680, bool, get_IsGoingToExplode, (BombSlugEntity * __this));

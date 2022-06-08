@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ServerCertValidationCallback {
 IL2CPP_REGISTER_METHOD(0x01BD34E0, void, __ctor, (ServerCertValidationCallback * __this, RemoteCertificateValidationCallback * validationCallback));

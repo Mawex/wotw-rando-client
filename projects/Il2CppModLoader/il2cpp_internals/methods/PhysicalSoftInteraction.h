@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicalSoftInteraction {
 IL2CPP_REGISTER_METHOD(0x003FF610, int32_t, get_Index, (PhysicalSoftInteraction * __this));
@@ -22,5 +22,5 @@ IL2CPP_REGISTER_METHOD(0x00D3D6A0, Vector3, GetPosition, (PhysicalSoftInteractio
 IL2CPP_REGISTER_METHOD(0x00B68B50, Vector3, GetExplodePoint, (PhysicalSoftInteraction * __this, Vector3 position));
 IL2CPP_REGISTER_METHOD(0x014EF200, void, OnDrawGizmosSelected, (PhysicalSoftInteraction * __this));
 IL2CPP_REGISTER_METHOD(0x014EF300, void, __ctor, (PhysicalSoftInteraction * __this));
-IL2CPP_REGISTER_METHOD(0x014EF3E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014EF3E0, void, __cctor, ());
 }

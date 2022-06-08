@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnderWaterLineModifier {
 IL2CPP_REGISTER_METHOD(0x012AB640, void, SetProperties, (UnderWaterLineModifier * __this));

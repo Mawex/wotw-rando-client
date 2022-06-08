@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PositionCondition {
 IL2CPP_REGISTER_METHOD(0x00C68860, bool, Validate, (PositionCondition * __this, IContext * context));

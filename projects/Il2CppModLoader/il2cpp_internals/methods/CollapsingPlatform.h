@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CollapsingPlatform {
 IL2CPP_REGISTER_METHOD(0x012C71C0, bool, get_IsCollapsed, (CollapsingPlatform * __this));
@@ -56,7 +56,7 @@ IL2CPP_REGISTER_METHOD(0x012CAB10, CollapsingPlatform *, GetCollapsingPlatformFr
 IL2CPP_REGISTER_METHOD(0x012CAC40, void, OnRestoreCheckpoint, (CollapsingPlatform * __this));
 IL2CPP_REGISTER_METHODINFO(0x04785D00, CollapsingPlatform_OnRestoreCheckpoint__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x012CAC50, void, __ctor, (CollapsingPlatform * __this));
-IL2CPP_REGISTER_METHOD(0x012CAD00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012CAD00, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x012CAE70, void, _DamageReceived_b__23_0, (CollapsingPlatform * __this));
 IL2CPP_REGISTER_METHODINFO(0x047802D0, CollapsingPlatform__DamageReceived_b__23_0__MethodInfo);
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NewEntityPlatformMovement {
 IL2CPP_REGISTER_METHOD(0x005FA060, bool, get_IsAnticipatingLanding, (NewEntityPlatformMovement * __this));

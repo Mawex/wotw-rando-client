@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_Mono::Net::Security::AsyncProtocolResult_ {
 IL2CPP_REGISTER_METHOD(0x0277FBD0, ConfiguredTaskAwaitable_1_Mono_Net_Security_AsyncProtocolResult_, ConfigureAwait, (Task_1_Mono_Net_Security_AsyncProtocolResult_ * __this, bool continueOnCapturedContext));

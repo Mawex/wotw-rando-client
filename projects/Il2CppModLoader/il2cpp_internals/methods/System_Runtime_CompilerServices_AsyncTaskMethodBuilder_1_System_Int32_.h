@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System::Int32_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Int32_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Int32_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x047925F8, AsyncTaskMethodBuilder_1_System_Int32__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3C20, void, Start, (AsyncTaskMethodBuilder_1_System_Int32___Boxed * __this, CryptoStream_ReadAsyncInternal_d_34 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x0477EFB0, AsyncTaskMethodBuilder_1_System_Int32__Start__MethodInfo);
@@ -30,5 +30,5 @@ IL2CPP_REGISTER_METHODINFO(0x04728850, AsyncTaskMethodBuilder_1_System_Int32__Aw
 IL2CPP_REGISTER_METHOD(0x001A3BF0, void, AwaitUnsafeOnCompleted, (AsyncTaskMethodBuilder_1_System_Int32___Boxed * __this, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Object_ * awaiter, MobileAuthenticatedStream_StartOperation_d_58 * stateMachine));
 IL2CPP_REGISTER_METHOD(0x001FF490, void, SetResult, (AsyncTaskMethodBuilder_1_System_Int32___Boxed * __this, Task_1_System_Int32_ * completedTask));
 IL2CPP_REGISTER_METHOD(0x001FF500, Task_1_System_Int32_ *, GetTaskForResult, (AsyncTaskMethodBuilder_1_System_Int32___Boxed * __this, int32_t result));
-IL2CPP_REGISTER_METHOD(0x02769710, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02769710, void, __cctor, ());
 }

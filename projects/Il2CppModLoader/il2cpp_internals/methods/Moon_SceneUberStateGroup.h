@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SceneUberStateGroup {
 IL2CPP_REGISTER_METHOD(0x01B65140, void, __ctor, (SceneUberStateGroup * __this, String * scenePath));

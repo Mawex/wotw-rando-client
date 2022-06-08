@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaObjectTable_XSODictionaryEnumerator {
 IL2CPP_REGISTER_METHOD(0x01CB8800, void, __ctor, (XmlSchemaObjectTable_XSODictionaryEnumerator * __this, List_1_System_Xml_Schema_XmlSchemaObjectTable_XmlSchemaObjectEntry_ * entries, int32_t size, XmlSchemaObjectTable_EnumeratorType__Enum enumType));

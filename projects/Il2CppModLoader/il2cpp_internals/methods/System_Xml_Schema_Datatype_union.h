@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_union {
 IL2CPP_REGISTER_METHOD(0x02360980, XmlValueConverter *, CreateValueConverter, (Datatype_union * __this, XmlSchemaType * schemaType));
@@ -15,5 +15,5 @@ IL2CPP_REGISTER_METHOD(0x02360F80, bool, IsUnionBaseOf, (Datatype_union * __this
 IL2CPP_REGISTER_METHOD(0x02361050, Exception *, TryParseValue, (Datatype_union * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x02361470, Exception *, TryParseValue, (Datatype_union * __this, Object * value, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHODINFO(0x0471C920, Datatype_union_TryParseValue_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02361A30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02361A30, void, __cctor, ());
 }

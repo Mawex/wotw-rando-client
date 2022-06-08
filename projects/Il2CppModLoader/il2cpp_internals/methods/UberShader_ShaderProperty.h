@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShader::ShaderProperty {
 IL2CPP_REGISTER_METHOD(0x001533D0, void, __ctor, (ShaderProperty__Boxed * __this, String * name));

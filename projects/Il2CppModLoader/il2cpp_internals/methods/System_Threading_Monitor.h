@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Monitor {
 IL2CPP_REGISTER_METHOD(0x027E0300, void, Enter, (Object * obj));
 IL2CPP_REGISTER_METHOD(0x027E0330, void, Enter, (Object * obj, bool * lockTaken));
-IL2CPP_REGISTER_METHOD(0x027E0360, void, ThrowLockTakenException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027E0360, void, ThrowLockTakenException, ());
 IL2CPP_REGISTER_METHODINFO(0x047580B8, Monitor_ThrowLockTakenException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027E03D0, void, Exit, (Object * obj));
 IL2CPP_REGISTER_METHOD(0x027E0400, void, TryEnter, (Object * obj, bool * lockTaken));

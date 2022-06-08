@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::VerletBody_Link_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, VerletBody_Link *, get_Item, (List_1_Moon_VerletBody_Link_ * __this, int32_t index));

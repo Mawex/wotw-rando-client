@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Xbox::Services::Xal::XalService_XalPlatformRemoteConnectClosePromptEventHandler {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XalService_XalPlatformRemoteConnectClosePromptEventHandler * __this, Object * object, void * method_1));

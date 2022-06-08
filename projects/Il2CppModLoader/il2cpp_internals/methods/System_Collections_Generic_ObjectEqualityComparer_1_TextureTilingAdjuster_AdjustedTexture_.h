@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ {
 IL2CPP_REGISTER_METHOD(0x01CD3170, bool, Equals, (ObjectEqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ * __this, TextureTilingAdjuster_AdjustedTexture x, TextureTilingAdjuster_AdjustedTexture y));

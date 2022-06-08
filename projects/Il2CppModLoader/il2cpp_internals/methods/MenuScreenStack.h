@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuScreenStack {
 IL2CPP_REGISTER_METHOD(0x009E6BB0, MenuScreen *, get_Top, (MenuScreenStack * __this));

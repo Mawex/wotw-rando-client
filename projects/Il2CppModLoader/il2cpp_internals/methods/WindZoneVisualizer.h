@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindZoneVisualizer {
 IL2CPP_REGISTER_METHOD(0x0057A6A0, void, Awake, (WindZoneVisualizer * __this));

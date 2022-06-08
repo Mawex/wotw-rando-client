@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinEnergyMinVisualProvider {
 IL2CPP_REGISTER_METHOD(0x00AD0A30, float, GetFloatValue, (SeinEnergyMinVisualProvider * __this));

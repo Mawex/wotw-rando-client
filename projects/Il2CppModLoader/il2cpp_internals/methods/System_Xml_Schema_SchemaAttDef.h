@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::SchemaAttDef {
 IL2CPP_REGISTER_METHOD(0x016E7630, void, __ctor, (SchemaAttDef * __this, XmlQualifiedName * name, String * prefix));
@@ -34,5 +34,5 @@ IL2CPP_REGISTER_METHOD(0x002FBC00, XmlSchemaAttribute *, get_SchemaAttribute, (S
 IL2CPP_REGISTER_METHOD(0x002FBC10, void, set_SchemaAttribute, (SchemaAttDef * __this, XmlSchemaAttribute * value));
 IL2CPP_REGISTER_METHOD(0x016E77A0, void, CheckXmlSpace, (SchemaAttDef * __this, IValidationEventHandling * validationEventHandling));
 IL2CPP_REGISTER_METHOD(0x016E7B40, SchemaAttDef *, Clone, (SchemaAttDef * __this));
-IL2CPP_REGISTER_METHOD(0x016E7C70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016E7C70, void, __cctor, ());
 }

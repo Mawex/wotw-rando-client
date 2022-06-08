@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::Vitals_DamageProcessHelper_SortedDamageEntry_ {
 IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ * __this));
@@ -67,5 +67,5 @@ IL2CPP_REGISTER_METHOD(0x025EADB0, void, Sort, (List_1_Moon_Vitals_DamageProcess
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ * __this, Comparison_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, Vitals_DamageProcessHelper_SortedDamageEntry__Array *, ToArray, (List_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

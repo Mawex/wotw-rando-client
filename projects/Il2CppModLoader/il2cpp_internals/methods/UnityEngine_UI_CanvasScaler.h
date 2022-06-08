@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CanvasScaler {
 IL2CPP_REGISTER_METHOD(0x01F2C240, void, __ctor, (CanvasScaler * __this));

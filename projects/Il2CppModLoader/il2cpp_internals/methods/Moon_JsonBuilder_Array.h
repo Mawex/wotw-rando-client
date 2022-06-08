@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::JsonBuilder_Array {
 IL2CPP_REGISTER_METHOD(0x002453D0, void, __ctor, (JsonBuilder_Array__Boxed * __this, int32_t ident, JsonBuilder * builder));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::AddComponentMenu {
 IL2CPP_REGISTER_METHOD(0x00E464D0, void, __ctor, (AddComponentMenu * __this, String * menuName));

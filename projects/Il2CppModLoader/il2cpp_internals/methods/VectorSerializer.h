@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VectorSerializer {
 IL2CPP_REGISTER_METHOD(0x013BB290, List_1_UnityEngine_Vector2_ *, Ser2ToVector2List, (List_1_Vector2Ser_ * serList));

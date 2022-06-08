@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuScreenManager___c {
-IL2CPP_REGISTER_METHOD(0x009E5840, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009E5840, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MenuScreenManager_c * __this));
 IL2CPP_REGISTER_METHOD(0x009E5980, void, _OnLastInventoryButtonPressed_b__87_0, (MenuScreenManager_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04792E70, MenuScreenManager_c__OnLastInventoryButtonPressed_b__87_0__MethodInfo);

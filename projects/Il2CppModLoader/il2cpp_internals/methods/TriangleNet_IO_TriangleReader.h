@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::IO::TriangleReader {
 IL2CPP_REGISTER_METHOD(0x02622160, bool, TryReadLine, (TriangleReader * __this, StreamReader * reader, String__Array * * token));
@@ -22,5 +22,5 @@ IL2CPP_REGISTER_METHOD(0x02624F30, List_1_TriangleNet_Geometry_Edge_ *, ReadEdge
 IL2CPP_REGISTER_METHODINFO(0x04770D90, TriangleReader_ReadEdgeFile__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02625690, bool, IsStringNullOrWhiteSpace, (TriangleReader * __this, String * value));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TriangleReader * __this));
-IL2CPP_REGISTER_METHOD(0x02625770, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02625770, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::AutoIncrementBigInteger {
 IL2CPP_REGISTER_METHOD(0x021492F0, Object *, get_Current, (AutoIncrementBigInteger * __this));

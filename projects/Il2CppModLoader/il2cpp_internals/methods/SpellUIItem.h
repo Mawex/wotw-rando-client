@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellUIItem {
 IL2CPP_REGISTER_METHOD(0x002FBBC0, PlayerUberStateInventory_InventoryItem *, get_Spell, (SpellUIItem * __this));

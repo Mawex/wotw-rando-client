@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Camera {
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (Camera * __this));
@@ -52,7 +52,7 @@ IL2CPP_REGISTER_METHOD(0x02422050, void, SetLayerCullDistances, (Camera * __this
 IL2CPP_REGISTER_METHOD(0x02422000, Single__Array *, get_layerCullDistances, (Camera * __this));
 IL2CPP_REGISTER_METHOD(0x024220B0, void, set_layerCullDistances, (Camera * __this, Single__Array * value));
 IL2CPP_REGISTER_METHODINFO(0x04753378, Camera_set_layerCullDistances__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x024221C0, int32_t, get_PreviewCullingLayer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024221C0, int32_t, get_PreviewCullingLayer, ());
 IL2CPP_REGISTER_METHOD(0x02422210, bool, get_useOcclusionCulling, (Camera * __this));
 IL2CPP_REGISTER_METHOD(0x02422260, void, set_useOcclusionCulling, (Camera * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x024222C0, Matrix4x4, get_cullingMatrix, (Camera * __this));
@@ -138,8 +138,8 @@ IL2CPP_REGISTER_METHOD(0x02424A50, void, CalculateProjectionMatrixFromPhysicalPr
 IL2CPP_REGISTER_METHOD(0x02424B00, void, CalculateProjectionMatrixFromPhysicalProperties, (Matrix4x4 * output, float focalLength, Vector2 sensorSize, Vector2 lensShift, float nearClip, float farClip, Camera_GateFitParameters gateFitParameters));
 IL2CPP_REGISTER_METHOD(0x02424BB0, float, FocalLengthToFOV, (float focalLength, float sensorSize));
 IL2CPP_REGISTER_METHOD(0x02424C20, float, FOVToFocalLength, (float fov, float sensorSize));
-IL2CPP_REGISTER_METHOD(0x02424C90, Camera *, get_main, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02424CE0, Camera *, get_current, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02424C90, Camera *, get_main, ());
+IL2CPP_REGISTER_METHOD(0x02424CE0, Camera *, get_current, ());
 IL2CPP_REGISTER_METHOD(0x02424D30, Scene, get_scene, (Camera * __this));
 IL2CPP_REGISTER_METHOD(0x02424DA0, void, set_scene, (Camera * __this, Scene value));
 IL2CPP_REGISTER_METHOD(0x02424E00, bool, get_stereoEnabled, (Camera * __this));
@@ -159,10 +159,10 @@ IL2CPP_REGISTER_METHOD(0x024253A0, void, SetStereoProjectionMatrix, (Camera * __
 IL2CPP_REGISTER_METHOD(0x02425410, void, ResetStereoProjectionMatrices, (Camera * __this));
 IL2CPP_REGISTER_METHOD(0x02425460, void, SetStereoViewMatrix, (Camera * __this, Camera_StereoscopicEye__Enum eye, Matrix4x4 matrix));
 IL2CPP_REGISTER_METHOD(0x024254D0, void, ResetStereoViewMatrices, (Camera * __this));
-IL2CPP_REGISTER_METHOD(0x02425520, int32_t, GetAllCamerasCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02425520, int32_t, GetAllCamerasCount, ());
 IL2CPP_REGISTER_METHOD(0x02425570, int32_t, GetAllCamerasImpl, (Camera__Array * cam));
-IL2CPP_REGISTER_METHOD(0x02425520, int32_t, get_allCamerasCount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x024255C0, Camera__Array *, get_allCameras, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02425520, int32_t, get_allCamerasCount, ());
+IL2CPP_REGISTER_METHOD(0x024255C0, Camera__Array *, get_allCameras, ());
 IL2CPP_REGISTER_METHOD(0x024256C0, int32_t, GetAllCameras, (Camera__Array * cameras));
 IL2CPP_REGISTER_METHODINFO(0x04780F88, Camera_GetAllCameras__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02425820, bool, RenderToCubemapImpl, (Camera * __this, Texture * tex, int32_t faceMask));

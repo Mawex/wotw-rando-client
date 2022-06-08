@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blur_DitherOffset {
 IL2CPP_REGISTER_METHOD(0x027659D0, Material *, get_material, (CameraFilterPack_Blur_DitherOffset * __this));

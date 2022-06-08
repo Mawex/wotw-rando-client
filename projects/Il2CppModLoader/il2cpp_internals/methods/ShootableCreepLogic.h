@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShootableCreepLogic {
 IL2CPP_REGISTER_METHOD(0x005B9760, IUberState *, get_UberState, (ShootableCreepLogic * __this));

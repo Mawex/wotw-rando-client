@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::ElementWriter {
 IL2CPP_REGISTER_METHOD(0x002411A0, void, __ctor, (ElementWriter__Boxed * __this, XmlWriter * writer));

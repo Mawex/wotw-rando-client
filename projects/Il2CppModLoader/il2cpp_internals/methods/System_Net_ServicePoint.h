@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ServicePoint {
 IL2CPP_REGISTER_METHOD(0x01BD4A90, void, __ctor, (ServicePoint * __this, Uri * uri, int32_t connectionLimit, int32_t maxIdleTime));
 IL2CPP_REGISTER_METHOD(0x002FA280, Uri *, get_Address, (ServicePoint * __this));
-IL2CPP_REGISTER_METHOD(0x01BD4C30, Exception *, GetMustImplement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BD4C30, Exception *, GetMustImplement, ());
 IL2CPP_REGISTER_METHOD(0x002FBBC0, BindIPEndPoint *, get_BindIPEndPointDelegate, (ServicePoint * __this));
 IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_BindIPEndPointDelegate, (ServicePoint * __this, BindIPEndPoint * value));
 IL2CPP_REGISTER_METHOD(0x01BD4D70, int32_t, get_ConnectionLeaseTimeout, (ServicePoint * __this));

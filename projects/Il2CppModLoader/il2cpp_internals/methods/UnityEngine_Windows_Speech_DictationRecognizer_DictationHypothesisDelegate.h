@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Windows::Speech::DictationRecognizer_DictationHypothesisDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (DictationRecognizer_DictationHypothesisDelegate * __this, Object * object, void * method_1));

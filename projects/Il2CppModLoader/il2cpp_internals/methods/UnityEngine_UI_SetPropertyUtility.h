@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::SetPropertyUtility {
 IL2CPP_REGISTER_METHOD(0x02674F40, bool, SetColor, (Color * currentValue, Color newValue));

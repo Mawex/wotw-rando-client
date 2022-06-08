@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFrustumOptimizer {
 IL2CPP_REGISTER_METHOD(0x0168A060, void, RegisterVisualDebug, (CameraFrustumOptimizer * __this));
@@ -7,7 +7,7 @@ IL2CPP_REGISTER_METHOD(0x0168A1C0, void, RenderDebug, (CameraFrustumOptimizer * 
 IL2CPP_REGISTER_METHOD(0x0052A070, bool, get_EnableDebug, (CameraFrustumOptimizer * __this));
 IL2CPP_REGISTER_METHOD(0x0168A640, void, set_EnableDebug, (CameraFrustumOptimizer * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x0168A790, Bounds, GetExtendedBounds, (IFrustumOptimizable * o, float expansionAmount));
-IL2CPP_REGISTER_METHOD(0x0168A8F0, int32_t, get_OptimizableCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168A8F0, int32_t, get_OptimizableCount, ());
 IL2CPP_REGISTER_METHOD(0x0168A9D0, void, Register, (IFrustumOptimizable * frustumOptimizable));
 IL2CPP_REGISTER_METHOD(0x0168AC70, void, Unregister, (IFrustumOptimizable * frustumOptimizable));
 IL2CPP_REGISTER_METHOD(0x0168ADD0, void, RegisterUninitialized, (IFrustumOptimizable * frustumOptimizable));
@@ -15,20 +15,20 @@ IL2CPP_REGISTER_METHOD(0x0168AE90, void, UnregisterUninitialized, (IFrustumOptim
 IL2CPP_REGISTER_METHOD(0x0168AF70, void, RegisterInstantEnabledOptimizable, (IFrustumEnabled * enabled));
 IL2CPP_REGISTER_METHOD(0x0168B030, void, RegisterEarlyZ, (MeshRenderer * renderer, int32_t frameDelay));
 IL2CPP_REGISTER_METHOD(0x0168B180, void, UnhideEarlyZObjects, (CameraFrustumOptimizer * __this));
-IL2CPP_REGISTER_METHOD(0x0168B5D0, bool, PrintOptimizables, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168B5D0, bool, PrintOptimizables, ());
 IL2CPP_REGISTER_METHODINFO(0x04731580, CameraFrustumOptimizer_PrintOptimizables__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0168C1B0, bool, get_UseBatchedFrustumChecks, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168C1B0, bool, get_UseBatchedFrustumChecks, ());
 IL2CPP_REGISTER_METHOD(0x0168C250, void, set_UseBatchedFrustumChecks, (bool value));
-IL2CPP_REGISTER_METHOD(0x0168C300, bool, get_DeferActivations, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168C300, bool, get_DeferActivations, ());
 IL2CPP_REGISTER_METHOD(0x0168C3A0, void, set_DeferActivations, (bool value));
-IL2CPP_REGISTER_METHOD(0x0168C450, bool, get_UseBoundsCache, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168C450, bool, get_UseBoundsCache, ());
 IL2CPP_REGISTER_METHOD(0x0168C4F0, void, set_UseBoundsCache, (bool value));
-IL2CPP_REGISTER_METHOD(0x0168C5A0, bool, get_VerifyCacheCorrectness, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168C5A0, bool, get_VerifyCacheCorrectness, ());
 IL2CPP_REGISTER_METHOD(0x0168C640, void, set_VerifyCacheCorrectness, (bool value));
 IL2CPP_REGISTER_METHOD(0x0168C6F0, Vector3, get_LastCameraTestPosition, (CameraFrustumOptimizer * __this));
 IL2CPP_REGISTER_METHOD(0x0168C710, void, SetMoonOptimized, (GameObject * go, bool ready));
 IL2CPP_REGISTER_METHOD(0x0168C830, void, SetMoonOptimized, (GameObject * go, Renderer__Array * renderers, bool ready));
-IL2CPP_REGISTER_METHOD(0x0168C920, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168C920, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00446970, bool, get_Enabled, (CameraFrustumOptimizer * __this));
 IL2CPP_REGISTER_METHOD(0x0168CB60, void, set_Enabled, (CameraFrustumOptimizer * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x0168CD00, void, Awake, (CameraFrustumOptimizer * __this));
@@ -38,9 +38,9 @@ IL2CPP_REGISTER_METHODINFO(0x04787A40, CameraFrustumOptimizer_OnAspectChanged__M
 IL2CPP_REGISTER_METHOD(0x0168D3B0, void, Start, (CameraFrustumOptimizer * __this));
 IL2CPP_REGISTER_METHOD(0x0168D550, void, DoDeferredActivations, (CameraFrustumOptimizer * __this, bool all));
 IL2CPP_REGISTER_METHOD(0x0168DD60, void, FixedUpdate, (CameraFrustumOptimizer * __this));
-IL2CPP_REGISTER_METHOD(0x0168E040, float, get_ExpansionAmount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0168E0F0, void, ForceInstantUpdate, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0168E260, void, RequestFullUpdate, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0168E040, float, get_ExpansionAmount, ());
+IL2CPP_REGISTER_METHOD(0x0168E0F0, void, ForceInstantUpdate, ());
+IL2CPP_REGISTER_METHOD(0x0168E260, void, RequestFullUpdate, ());
 IL2CPP_REGISTER_METHOD(0x0168E330, void, UpdateInstantEnabledOptimizables, (CameraFrustumOptimizer * __this));
 IL2CPP_REGISTER_METHOD(0x0168E6B0, void, UpdateFrustrumOptimizables, (CameraFrustumOptimizer * __this, bool instant));
 IL2CPP_REGISTER_METHOD(0x0168E7B0, void, UpdateFrustrumOptimizables, (CameraFrustumOptimizer * __this, bool multiCam, bool instant, bool forced));
@@ -58,5 +58,5 @@ IL2CPP_REGISTER_METHOD(0x0168FE90, void, DisableOptimization, (CameraFrustumOpti
 IL2CPP_REGISTER_METHOD(0x01690010, void, OnDrawGizmos, (CameraFrustumOptimizer * __this));
 IL2CPP_REGISTER_METHOD(0x016904E0, bool, InsideFrustrum, (Bounds bounds));
 IL2CPP_REGISTER_METHOD(0x00AB5740, void, __ctor, (CameraFrustumOptimizer * __this));
-IL2CPP_REGISTER_METHOD(0x01690680, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01690680, void, __cctor, ());
 }

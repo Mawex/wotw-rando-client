@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_EntityWeightData_EntityWeightSettings_ {
 IL2CPP_REGISTER_METHOD(0x01CD27F0, bool, Equals, (ObjectEqualityComparer_1_EntityWeightData_EntityWeightSettings_ * __this, EntityWeightData_EntityWeightSettings x, EntityWeightData_EntityWeightSettings y));

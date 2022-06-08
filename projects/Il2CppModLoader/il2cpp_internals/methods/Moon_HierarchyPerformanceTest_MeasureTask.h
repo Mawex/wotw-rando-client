@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::MeasureTask {
 IL2CPP_REGISTER_METHOD(0x014A89A0, void, __ctor, (MeasureTask * __this, HierarchyDebugMenu_GameObjectItem * item, SceneSample * model, IProfilingDataProvider * dataProvider, Action * onComplete));

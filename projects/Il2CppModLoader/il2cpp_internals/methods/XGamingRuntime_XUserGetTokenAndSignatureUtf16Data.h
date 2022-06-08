@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::XUserGetTokenAndSignatureUtf16Data {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (XUserGetTokenAndSignatureUtf16Data * __this, String * token, String * signature));

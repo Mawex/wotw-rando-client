@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_Moon::BehaviourSystem::UtilitySelectorNode_NodeUtility_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_Moon_BehaviourSystem_UtilitySelectorNode_NodeUtility___Boxed * __this, Array * array));

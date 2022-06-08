@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::Extensions::GeneralNames {
 IL2CPP_REGISTER_METHOD(0x0291F640, void, __ctor, (GeneralNames * __this, ASN1_1 * sequence));

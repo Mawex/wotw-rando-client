@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::AsymmetricAlgorithm {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AsymmetricAlgorithm * __this));
@@ -13,7 +13,7 @@ IL2CPP_REGISTER_METHOD(0x020C8B20, String *, get_SignatureAlgorithm, (Asymmetric
 IL2CPP_REGISTER_METHODINFO(0x04734B30, AsymmetricAlgorithm_get_SignatureAlgorithm__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x020C8B70, String *, get_KeyExchangeAlgorithm, (AsymmetricAlgorithm * __this));
 IL2CPP_REGISTER_METHODINFO(0x047746B0, AsymmetricAlgorithm_get_KeyExchangeAlgorithm__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x020C8BC0, AsymmetricAlgorithm *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020C8BC0, AsymmetricAlgorithm *, Create, ());
 IL2CPP_REGISTER_METHOD(0x020C8D10, AsymmetricAlgorithm *, Create, (String * algName));
 IL2CPP_REGISTER_METHOD(0x020C8DF0, void, FromXmlString, (AsymmetricAlgorithm * __this, String * xmlString));
 IL2CPP_REGISTER_METHODINFO(0x04756FD0, AsymmetricAlgorithm_FromXmlString__MethodInfo);

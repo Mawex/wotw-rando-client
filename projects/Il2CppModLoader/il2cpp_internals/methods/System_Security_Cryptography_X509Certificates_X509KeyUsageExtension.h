@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension {
 IL2CPP_REGISTER_METHOD(0x0257C610, void, __ctor, (X509KeyUsageExtension * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter {
 IL2CPP_REGISTER_METHOD(0x00151890, void, __ctor, (ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * __this, Task * task, bool continueOnCapturedContext));

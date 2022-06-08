@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::SocketPermissionAttribute {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (SocketPermissionAttribute * __this, SecurityAction__Enum action));

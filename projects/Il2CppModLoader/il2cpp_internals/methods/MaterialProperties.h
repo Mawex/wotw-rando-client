@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaterialProperties {
 IL2CPP_REGISTER_METHOD(0x01381450, void, ApplyMaterialProperties, (MaterialProperties * __this, MaterialProperties * materialProperties));

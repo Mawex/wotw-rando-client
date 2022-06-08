@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivationStateModifier {
 IL2CPP_REGISTER_METHOD(0x01B54A20, bool, get_Active, (ActivationStateModifier * __this));

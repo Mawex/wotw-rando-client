@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaCollectionEnumerator {
 IL2CPP_REGISTER_METHOD(0x01CA2E60, void, __ctor, (XmlSchemaCollectionEnumerator * __this, Hashtable * collection));

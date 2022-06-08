@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightSpear {
 IL2CPP_REGISTER_METHOD(0x0114F810, void, Awake, (LightSpear * __this));

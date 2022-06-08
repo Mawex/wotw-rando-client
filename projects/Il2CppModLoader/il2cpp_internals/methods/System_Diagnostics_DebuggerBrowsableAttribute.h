@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::DebuggerBrowsableAttribute {
 IL2CPP_REGISTER_METHOD(0x01741070, void, __ctor, (DebuggerBrowsableAttribute * __this, DebuggerBrowsableState__Enum state));

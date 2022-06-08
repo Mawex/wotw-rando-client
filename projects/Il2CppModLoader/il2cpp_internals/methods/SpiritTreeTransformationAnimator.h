@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritTreeTransformationAnimator {
 IL2CPP_REGISTER_METHOD(0x00D7C4E0, void, OnEnable, (SpiritTreeTransformationAnimator * __this));

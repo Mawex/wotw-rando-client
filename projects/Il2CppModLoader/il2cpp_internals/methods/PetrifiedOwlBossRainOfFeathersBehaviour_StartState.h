@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossRainOfFeathersBehaviour_StartState {
 IL2CPP_REGISTER_METHOD(0x0177D1A0, void, __ctor, (PetrifiedOwlBossRainOfFeathersBehaviour_StartState * __this, PetrifiedOwlBossRainOfFeathersBehaviour * behaviour));

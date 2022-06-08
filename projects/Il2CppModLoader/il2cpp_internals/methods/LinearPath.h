@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LinearPath {
 IL2CPP_REGISTER_METHOD(0x00FA76D0, Vector3, LocalToWorld, (LinearPath * __this, Vector3 position));

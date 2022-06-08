@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Enum_EnumResult {
 IL2CPP_REGISTER_METHOD(0x001557F0, void, Init, (Enum_EnumResult__Boxed * __this, bool canMethodThrow));

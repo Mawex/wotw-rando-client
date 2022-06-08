@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_EntityReactions_ReactionInterruptionSuspensionEntry_ {
 IL2CPP_REGISTER_METHOD(0x02C2A5B0, int32_t, Compare, (ObjectComparer_1_EntityReactions_ReactionInterruptionSuspensionEntry_ * __this, EntityReactions_ReactionInterruptionSuspensionEntry x, EntityReactions_ReactionInterruptionSuspensionEntry y));

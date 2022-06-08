@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLightAffectorRadiusAnimator {
 IL2CPP_REGISTER_METHOD(0x004167A0, bool, get_IsLooping, (SpiritLightAffectorRadiusAnimator * __this));

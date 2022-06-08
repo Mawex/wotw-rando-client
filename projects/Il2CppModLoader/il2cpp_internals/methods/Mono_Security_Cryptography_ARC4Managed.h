@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::ARC4Managed {
 IL2CPP_REGISTER_METHOD(0x025C4640, void, __ctor, (ARC4Managed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Mask {
 IL2CPP_REGISTER_METHOD(0x008223A0, void, __ctor, (Mask_1 * __this));

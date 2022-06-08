@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_Moon::ActiveAnimationHandle_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x01D50F80, void, __ctor, (Dictionary_2_TKey_TValue_KeyCollection_Moon_ActiveAnimationHandle_System_Int32_ * __this, Dictionary_2_Moon_ActiveAnimationHandle_System_Int32_ * dictionary));

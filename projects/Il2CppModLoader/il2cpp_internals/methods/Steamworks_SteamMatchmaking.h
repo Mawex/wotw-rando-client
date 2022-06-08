@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamMatchmaking {
-IL2CPP_REGISTER_METHOD(0x02786860, int32_t, GetFavoriteGameCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02786860, int32_t, GetFavoriteGameCount, ());
 IL2CPP_REGISTER_METHOD(0x02786910, bool, GetFavoriteGame, (int32_t iGame, AppId_t * pnAppID, uint32_t * pnIP, uint16_t * pnConnPort, uint16_t * pnQueryPort, uint32_t * punFlags, uint32_t * pRTime32LastPlayedOnServer));
 IL2CPP_REGISTER_METHOD(0x02786A30, int32_t, AddFavoriteGame, (AppId_t nAppID, uint32_t nIP, uint16_t nConnPort, uint16_t nQueryPort, uint32_t unFlags, uint32_t rTime32LastPlayedOnServer));
 IL2CPP_REGISTER_METHOD(0x02786B40, bool, RemoveFavoriteGame, (AppId_t nAppID, uint32_t nIP, uint16_t nConnPort, uint16_t nQueryPort, uint32_t unFlags));
-IL2CPP_REGISTER_METHOD(0x02786C40, SteamAPICall_t, RequestLobbyList, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02786C40, SteamAPICall_t, RequestLobbyList, ());
 IL2CPP_REGISTER_METHOD(0x02786D70, void, AddRequestLobbyListStringFilter, (String * pchKeyToMatch, String * pchValueToMatch, ELobbyComparison__Enum eComparisonType));
 IL2CPP_REGISTER_METHOD(0x027871C0, void, AddRequestLobbyListNumericalFilter, (String * pchKeyToMatch, int32_t nValueToMatch, ELobbyComparison__Enum eComparisonType));
 IL2CPP_REGISTER_METHOD(0x027874A0, void, AddRequestLobbyListNearValueFilter, (String * pchKeyToMatch, int32_t nValueToBeCloseTo));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XComment {
 IL2CPP_REGISTER_METHOD(0x0302F580, void, __ctor, (XComment * __this, String * value));

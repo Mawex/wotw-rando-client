@@ -1,6 +1,6 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnemyDebugger {
-IL2CPP_REGISTER_METHOD(0x00C048B0, void, DrawGeneralInfo, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C05070, void, DrawWormInfo, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C048B0, void, DrawGeneralInfo, ());
+IL2CPP_REGISTER_METHOD(0x00C05070, void, DrawWormInfo, ());
 }

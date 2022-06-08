@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::String_Microsoft::Applications::Events::DataModels::Value_ {
 IL2CPP_REGISTER_METHOD(0x00107C10, Value *, get_Value, (KeyValuePair_2_System_String_Microsoft_Applications_Events_DataModels_Value___Boxed * __this));

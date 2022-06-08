@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::JointRotationAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x00771980, void, OnStartPlayback, (JointRotationAnimatorEntity * __this, IContext * context));

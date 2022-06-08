@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::UploadStringCompletedEventArgs {
 IL2CPP_REGISTER_METHOD(0x01BCB240, void, __ctor, (UploadStringCompletedEventArgs * __this, String * result, Exception * exception, bool cancelled, Object * userToken));

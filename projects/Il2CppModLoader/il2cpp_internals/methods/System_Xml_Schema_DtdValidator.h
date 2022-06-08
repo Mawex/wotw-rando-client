@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::DtdValidator {
 IL2CPP_REGISTER_METHOD(0x023657A0, void, __ctor, (DtdValidator * __this, XmlValidatingReaderImpl * reader, IValidationEventHandling * eventHandling, bool processIdentityConstraints));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x02368450, void, Push, (DtdValidator * __this, XmlQualif
 IL2CPP_REGISTER_METHOD(0x02368680, bool, Pop, (DtdValidator * __this));
 IL2CPP_REGISTER_METHOD(0x023687E0, void, SetDefaultTypedValue, (SchemaAttDef * attdef, IDtdParserAdapter * readerAdapter));
 IL2CPP_REGISTER_METHOD(0x02368AB0, void, CheckDefaultValue, (SchemaAttDef * attdef, SchemaInfo * sinfo, IValidationEventHandling * eventHandling, String * baseUriStr));
-IL2CPP_REGISTER_METHOD(0x02368F40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02368F40, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabRaceServiceProvider__GetRaceData_d__10 {
 IL2CPP_REGISTER_METHOD(0x00111450, void, MoveNext, (PlayFabRaceServiceProvider_GetRaceData_d_10__Boxed * __this));

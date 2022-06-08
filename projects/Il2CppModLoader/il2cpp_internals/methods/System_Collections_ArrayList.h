@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ArrayList {
 IL2CPP_REGISTER_METHOD(0x022A3560, void, __ctor, (ArrayList * __this));
@@ -51,5 +51,5 @@ IL2CPP_REGISTER_METHODINFO(0x0470DB88, ArrayList_Sort_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x022A53F0, Object__Array *, ToArray, (ArrayList * __this));
 IL2CPP_REGISTER_METHOD(0x022A54B0, Array *, ToArray, (ArrayList * __this, Type * type));
 IL2CPP_REGISTER_METHODINFO(0x047805C8, ArrayList_ToArray_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x022A5600, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022A5600, void, __cctor, ());
 }

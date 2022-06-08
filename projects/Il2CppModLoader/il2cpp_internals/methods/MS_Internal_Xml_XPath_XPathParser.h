@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::XPathParser {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (XPathParser * __this, XPathScanner * scanner));
@@ -35,9 +35,9 @@ IL2CPP_REGISTER_METHOD(0x021DD6F0, void, NextLex, (XPathParser * __this));
 IL2CPP_REGISTER_METHOD(0x021DD710, bool, TestOp, (XPathParser * __this, String * op));
 IL2CPP_REGISTER_METHOD(0x021DD780, void, CheckNodeSet, (XPathParser * __this, XPathResultType__Enum t));
 IL2CPP_REGISTER_METHODINFO(0x047372A0, XPathParser_CheckNodeSet__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x021DD850, Hashtable *, CreateFunctionTable, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x021DF450, Hashtable *, CreateAxesTable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021DD850, Hashtable *, CreateFunctionTable, ());
+IL2CPP_REGISTER_METHOD(0x021DF450, Hashtable *, CreateAxesTable, ());
 IL2CPP_REGISTER_METHOD(0x021DF860, Axis_AxisType__Enum, GetAxis, (XPathParser * __this, XPathScanner * scaner));
 IL2CPP_REGISTER_METHODINFO(0x04701960, XPathParser_GetAxis__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x021DF9B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021DF9B0, void, __cctor, ());
 }

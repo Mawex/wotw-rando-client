@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoadingBootstrap__Start_d__25 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (LoadingBootstrap_Start_d_25 * __this, int32_t __1__state));

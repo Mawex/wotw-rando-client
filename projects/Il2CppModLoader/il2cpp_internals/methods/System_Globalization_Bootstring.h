@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::Bootstring {
 IL2CPP_REGISTER_METHOD(0x01A1D930, void, __ctor, (Bootstring * __this, uint16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN));

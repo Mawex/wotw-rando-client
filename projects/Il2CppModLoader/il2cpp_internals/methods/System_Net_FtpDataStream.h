@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::FtpDataStream {
 IL2CPP_REGISTER_METHOD(0x01D2CC90, void, __ctor, (FtpDataStream * __this, FtpWebRequest * request, Stream * stream, bool isRead));

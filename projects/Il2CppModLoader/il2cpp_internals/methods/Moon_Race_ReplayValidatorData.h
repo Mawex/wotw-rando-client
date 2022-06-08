@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::ReplayValidatorData {
 IL2CPP_REGISTER_METHOD(0x00C4C7F0, ReplayValidatorData *, FromTrialData, (ITrialData * data, bool setPositions));

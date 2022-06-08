@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RemoveWorldMapIconAction {
 IL2CPP_REGISTER_METHOD(0x008FD550, void, Perform, (RemoveWorldMapIconAction * __this, IContext * context));

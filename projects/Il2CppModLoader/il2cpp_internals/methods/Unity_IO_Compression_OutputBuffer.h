@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::OutputBuffer {
 IL2CPP_REGISTER_METHOD(0x00E464D0, void, UpdateBuffer, (OutputBuffer * __this, Byte__Array * output));

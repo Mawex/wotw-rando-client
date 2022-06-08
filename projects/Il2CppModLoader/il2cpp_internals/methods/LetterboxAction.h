@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LetterboxAction {
 IL2CPP_REGISTER_METHOD(0x011325F0, void, Perform, (LetterboxAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::CharMetaData {
 IL2CPP_REGISTER_METHOD(0x0011E1B0, void, EraseIfVisible, (CharMetaData_1__Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JProperty_JPropertyList {
 IL2CPP_REGISTER_METHOD(0x01F0E2D0, IEnumerator_1_Newtonsoft_Json_Linq_JToken_ *, GetEnumerator, (JProperty_JPropertyList * __this));

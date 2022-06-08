@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Logging::LogItem {
 IL2CPP_REGISTER_METHOD(0x002FA280, DateTime, get_Time, (LogItem * __this));

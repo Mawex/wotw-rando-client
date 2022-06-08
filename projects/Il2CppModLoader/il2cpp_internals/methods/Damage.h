@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Damage {
-IL2CPP_REGISTER_METHOD(0x00DC0030, int32_t, GetNewDamageID, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DC0030, int32_t, GetNewDamageID, ());
 IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_Charged, (Damage * __this));
 IL2CPP_REGISTER_METHOD(0x00533150, void, set_Charged, (Damage * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00DC00B0, void, __ctor, (Damage * __this, float amount, Vector2 force, Vector3 position, DamageType__Enum type, AbilityType__Enum abilityType, GameObject * sender, int32_t damageID, DamageOwner * owner, SpiritShardType__Enum shardType, bool ignoreKickback, DamageWeight__Enum weight, float speedTransfer, bool bypassPlayersInvincibility));

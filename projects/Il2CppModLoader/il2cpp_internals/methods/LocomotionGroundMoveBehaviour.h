@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocomotionGroundMoveBehaviour {
 IL2CPP_REGISTER_METHOD(0x00A1FBC0, Vector3, get_TargetPosition, (LocomotionGroundMoveBehaviour * __this));

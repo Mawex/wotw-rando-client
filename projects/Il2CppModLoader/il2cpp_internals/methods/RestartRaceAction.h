@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RestartRaceAction {
 IL2CPP_REGISTER_METHOD(0x0090B530, void, Perform, (RestartRaceAction * __this, IContext * context));

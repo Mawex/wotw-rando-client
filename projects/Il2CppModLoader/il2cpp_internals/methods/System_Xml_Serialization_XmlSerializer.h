@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSerializer {
-IL2CPP_REGISTER_METHOD(0x01949EF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01949EF0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0194A0D0, void, __ctor, (XmlSerializer * __this, Type * type));
 IL2CPP_REGISTER_METHOD(0x0194A100, void, __ctor, (XmlSerializer * __this, Type * type, XmlAttributeOverrides * overrides, Type__Array * extraTypes, XmlRootAttribute * root, String * defaultNamespace));
 IL2CPP_REGISTER_METHODINFO(0x04779A40, XmlSerializer__ctor_1__MethodInfo);

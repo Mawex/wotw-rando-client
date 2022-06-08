@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Lifetime::LeaseManager {
 IL2CPP_REGISTER_METHOD(0x02308060, void, SetPollTime, (LeaseManager * __this, TimeSpan timeSpan));

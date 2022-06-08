@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_Moon::VisualDebug::IRenderEntity_ {
 IL2CPP_REGISTER_METHOD(0x002FD1D0, int32_t, get_Count, (HashSet_1_Moon_VisualDebug_IRenderEntity_ * __this));

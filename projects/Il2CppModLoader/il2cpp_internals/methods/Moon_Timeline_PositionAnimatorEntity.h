@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PositionAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x01E794A0, Transform *, get_TransformTarget, (PositionAnimatorEntity * __this));

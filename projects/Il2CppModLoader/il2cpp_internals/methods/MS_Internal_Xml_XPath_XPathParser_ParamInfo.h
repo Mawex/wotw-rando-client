@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::XPathParser_ParamInfo {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, Function_FunctionType__Enum, get_FType, (XPathParser_ParamInfo * __this));

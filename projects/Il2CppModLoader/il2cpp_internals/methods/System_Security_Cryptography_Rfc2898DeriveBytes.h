@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::Rfc2898DeriveBytes {
 IL2CPP_REGISTER_METHOD(0x028EE7D0, void, __ctor, (Rfc2898DeriveBytes * __this, String * password, int32_t saltSize));

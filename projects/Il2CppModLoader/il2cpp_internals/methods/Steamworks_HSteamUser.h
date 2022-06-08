@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::HSteamUser {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (HSteamUser__Boxed * __this, int32_t value));

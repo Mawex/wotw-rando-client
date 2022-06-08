@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SpriteRenderer {
 IL2CPP_REGISTER_METHOD(0x02C63160, Color, get_color, (SpriteRenderer * __this));

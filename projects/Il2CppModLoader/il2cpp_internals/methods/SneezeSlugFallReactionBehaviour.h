@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SneezeSlugFallReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00EDCE30, void, OnEnterLand, (SneezeSlugFallReactionBehaviour * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropPickup {
-IL2CPP_REGISTER_METHOD(0x00BDDC50, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BDDC50, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x002FBBE0, Transform *, get_TransformSource, (DropPickup * __this));
 IL2CPP_REGISTER_METHOD(0x00BDDCF0, void, set_TransformSource, (DropPickup * __this, Transform * value));
 IL2CPP_REGISTER_METHOD(0x00BDDD00, Vector3, get_CurrentGravity, (DropPickup * __this));
@@ -29,7 +29,7 @@ IL2CPP_REGISTER_METHOD(0x003FBE80, void, set_IsSuspended, (DropPickup * __this, 
 IL2CPP_REGISTER_METHOD(0x003FBE90, SuspendableMask__Enum, get_Mask, (DropPickup * __this));
 IL2CPP_REGISTER_METHOD(0x00BE0640, void, set_Mask, (DropPickup * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x00BE0700, void, __ctor, (DropPickup * __this));
-IL2CPP_REGISTER_METHOD(0x00BE0740, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BE0740, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IDamageReciever_get_gameObject, (DropPickup * __this));
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, IDamageReciever_get_transform, (DropPickup * __this));
 }

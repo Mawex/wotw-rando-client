@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::NewDiffgramGen {
 IL2CPP_REGISTER_METHOD(0x01E44CB0, void, __ctor, (NewDiffgramGen * __this, DataSet * ds));

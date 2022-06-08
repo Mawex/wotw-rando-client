@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ByteMatcher {
 IL2CPP_REGISTER_METHOD(0x0229F8E0, void, AddMapping, (ByteMatcher * __this, TermInfoStrings__Enum key, Byte__Array * val));

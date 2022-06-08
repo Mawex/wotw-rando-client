@@ -1,5 +1,5 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumHelper_1_UnderlyingType__Caster_1_System::SByte_System::UInt16_ {
-IL2CPP_REGISTER_METHOD(0x02C4F740, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C4F740, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UnityEngine::Rect_ {
 IL2CPP_REGISTER_METHOD(0x02F6E2A0, void, Sort, (Rect__Array * keys, int32_t index, int32_t length, IComparer_1_UnityEngine_Rect_ * comparer));

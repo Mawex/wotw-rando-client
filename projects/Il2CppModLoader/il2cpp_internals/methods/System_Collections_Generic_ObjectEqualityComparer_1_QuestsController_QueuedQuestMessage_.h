@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_QuestsController_QueuedQuestMessage_ {
 IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals, (ObjectEqualityComparer_1_QuestsController_QueuedQuestMessage_ * __this, QuestsController_QueuedQuestMessage x, QuestsController_QueuedQuestMessage y));

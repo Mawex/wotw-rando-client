@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::DeflateInput {
 IL2CPP_REGISTER_METHOD(0x002FA280, Byte__Array *, get_Buffer, (DeflateInput * __this));

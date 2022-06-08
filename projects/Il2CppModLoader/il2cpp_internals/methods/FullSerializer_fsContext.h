@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsContext {
 IL2CPP_REGISTER_METHOD(0x015096E0, void, Reset, (fsContext * __this));

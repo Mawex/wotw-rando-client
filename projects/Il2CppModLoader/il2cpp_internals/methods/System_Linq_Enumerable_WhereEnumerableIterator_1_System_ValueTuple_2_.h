@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereEnumerableIterator_1_System::ValueTuple_2_ {
 IL2CPP_REGISTER_METHOD(0x02893370, void, __ctor, (Enumerable_WhereEnumerableIterator_1_System_ValueTuple_2_ * __this, IEnumerable_1_System_ValueTuple_2__4 * source, Func_2_ValueTuple_2_Int32_Object_Boolean_ * predicate));

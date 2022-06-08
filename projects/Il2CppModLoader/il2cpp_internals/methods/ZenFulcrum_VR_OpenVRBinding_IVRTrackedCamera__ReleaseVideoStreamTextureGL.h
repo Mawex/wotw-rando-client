@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRTrackedCamera__ReleaseVideoStreamTextureGL {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRTrackedCamera_ReleaseVideoStreamTextureGL * __this, Object * object, void * method_1));

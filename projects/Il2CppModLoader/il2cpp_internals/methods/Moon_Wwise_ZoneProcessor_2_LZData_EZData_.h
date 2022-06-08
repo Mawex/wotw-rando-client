@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ZoneProcessor_2_LZData_EZData_ {
 IL2CPP_REGISTER_METHOD(0x02AF6B80, void, __ctor, (ZoneProcessor_2_LZData_EZData_ * __this));

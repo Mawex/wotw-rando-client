@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::CallResult_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, SteamAPICall_t, get_Handle, (CallResult_1_System_Object_ * __this));

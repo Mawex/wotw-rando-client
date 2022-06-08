@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_T__Enumerator_UnityEngine::UI::Text_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, Text *, get_Current, (HashSet_1_T_Enumerator_UnityEngine_UI_Text___Boxed * __this));

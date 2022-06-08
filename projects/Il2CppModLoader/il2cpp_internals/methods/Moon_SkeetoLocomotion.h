@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SkeetoLocomotion {
 IL2CPP_REGISTER_METHOD(0x00418200, SkeetoAirEntityMovementProcessor *, get_SkeetoMovementProcessor, (SkeetoLocomotion * __this));

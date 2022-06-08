@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LianaHealLanternVisuals {
 IL2CPP_REGISTER_METHOD(0x0113F2B0, void, AttachVisuals, (LianaHealLanternVisuals * __this, Transform * followTransform));

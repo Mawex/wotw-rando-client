@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::InvokableCall_4_System::Object_System::Object_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02AC6F80, void, __ctor, (InvokableCall_4_System_Object_System_Object_System_Object_System_Object_ * __this, Object * target, MethodInfo_1 * theFunction));

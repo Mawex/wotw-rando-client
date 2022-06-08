@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Poser {
 IL2CPP_REGISTER_METHOD(0x00CC2AF0, void, Start, (Poser * __this));

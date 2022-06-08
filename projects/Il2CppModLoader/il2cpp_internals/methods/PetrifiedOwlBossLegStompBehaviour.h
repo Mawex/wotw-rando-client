@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLegStompBehaviour {
 IL2CPP_REGISTER_METHOD(0x017774B0, void, CopyData, (PetrifiedOwlBossLegStompBehaviour * __this, PetrifiedOwlBossBaseBehaviour * other));

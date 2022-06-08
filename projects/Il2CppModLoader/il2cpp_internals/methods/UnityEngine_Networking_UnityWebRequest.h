@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::UnityWebRequest {
 IL2CPP_REGISTER_METHOD(0x0317E420, void, __ctor, (UnityWebRequest * __this, String * url));
@@ -13,7 +13,7 @@ IL2CPP_REGISTER_METHOD(0x02668810, bool, get_disposeDownloadHandlerOnDispose, (U
 IL2CPP_REGISTER_METHOD(0x004379D0, void, set_disposeDownloadHandlerOnDispose, (UnityWebRequest * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x0317E850, bool, get_disposeUploadHandlerOnDispose, (UnityWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x004379F0, void, set_disposeUploadHandlerOnDispose, (UnityWebRequest * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x0317E860, void *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0317E860, void *, Create, ());
 IL2CPP_REGISTER_METHOD(0x0317E8B0, void, Release, (UnityWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x0317E900, void, InternalDestroy, (UnityWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x0317EA10, void, InternalSetDefaults, (UnityWebRequest * __this));

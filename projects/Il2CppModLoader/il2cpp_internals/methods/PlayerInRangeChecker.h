@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerInRangeChecker {
 IL2CPP_REGISTER_METHOD(0x0140FEC0, bool, get_IsInside, (PlayerInRangeChecker * __this));

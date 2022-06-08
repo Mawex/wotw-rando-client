@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BeautifyEffect::FreeCameraMove {
 IL2CPP_REGISTER_METHOD(0x0317C200, void, Start, (FreeCameraMove * __this));

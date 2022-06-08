@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::CanvasGroup {
 IL2CPP_REGISTER_METHOD(0x031A5E40, float, get_alpha, (CanvasGroup * __this));

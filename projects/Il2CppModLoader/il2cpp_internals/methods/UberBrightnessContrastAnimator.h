@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBrightnessContrastAnimator {
 IL2CPP_REGISTER_METHOD(0x013E41D0, float, get_Weight, (UberBrightnessContrastAnimator * __this));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x013E4350, void, OnStartWhenPlaybackOrPreview, (UberBrig
 IL2CPP_REGISTER_METHOD(0x013E4410, void, OnStopWhenPlaybackOrPreview, (UberBrightnessContrastAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x00623270, void, UpdateAtTime, (UberBrightnessContrastAnimator * __this, float timeValue));
 IL2CPP_REGISTER_METHOD(0x013E44D0, void, __ctor, (UberBrightnessContrastAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E4730, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013E4730, void, __cctor, ());
 }

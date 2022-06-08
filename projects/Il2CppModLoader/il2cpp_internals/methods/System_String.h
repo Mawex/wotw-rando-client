@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::String {
 IL2CPP_REGISTER_METHOD(0x01E26B60, String *, Join, (String * separator, String__Array * value));

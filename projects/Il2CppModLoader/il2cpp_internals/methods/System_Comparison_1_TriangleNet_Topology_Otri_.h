@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Comparison_1_TriangleNet::Topology::Otri_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Comparison_1_TriangleNet_Topology_Otri_ * __this, Object * object, void * method_1));

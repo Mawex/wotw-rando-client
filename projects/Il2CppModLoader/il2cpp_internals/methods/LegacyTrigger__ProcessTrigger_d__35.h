@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTrigger__ProcessTrigger_d__35 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (LegacyTrigger_ProcessTrigger_d_35 * __this, int32_t __1__state));

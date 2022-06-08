@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Shelf {
 IL2CPP_REGISTER_METHOD(0x005B20A0, GridObject *, get_CurrentGridObject, (Shelf * __this));

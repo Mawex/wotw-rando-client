@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::UberStateDataView {
 IL2CPP_REGISTER_METHOD(0x030C2840, void, UpdateWithModel, (UberStateDataView * __this, UberStateData stateData));

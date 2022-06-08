@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::WindowsConsoleDriver {
 IL2CPP_REGISTER_METHOD(0x0314E010, void, __ctor, (WindowsConsoleDriver * __this));

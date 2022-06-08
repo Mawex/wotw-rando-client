@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Buffer_1_MicroProfilerInspector_MetricData_ {
 IL2CPP_REGISTER_METHOD(0x00218B90, void, __ctor, (Buffer_1_MicroProfilerInspector_MetricData___Boxed * __this, IEnumerable_1_MicroProfilerInspector_MetricData_ * source));

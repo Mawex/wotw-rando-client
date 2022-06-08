@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::UnaryExpression {
 IL2CPP_REGISTER_METHOD(0x02FC57F0, void, __ctor, (UnaryExpression * __this, ExpressionType__Enum nodeType, Expression * expression, Type * type, MethodInfo_1 * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB990, IEqualityComparer_1_System_Object_ *, get_Comparer, (Dictionary_2_System_Object_System_Object_ * __this));

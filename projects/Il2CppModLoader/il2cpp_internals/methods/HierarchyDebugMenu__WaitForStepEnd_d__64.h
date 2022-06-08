@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyDebugMenu__WaitForStepEnd_d__64 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (HierarchyDebugMenu_WaitForStepEnd_d_64 * __this, int32_t __1__state));

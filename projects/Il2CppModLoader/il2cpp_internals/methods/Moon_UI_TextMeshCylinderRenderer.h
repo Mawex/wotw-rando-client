@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::TextMeshCylinderRenderer {
 IL2CPP_REGISTER_METHOD(0x01188E90, void, Prepare, (TextMeshCylinderRenderer_1 * __this));

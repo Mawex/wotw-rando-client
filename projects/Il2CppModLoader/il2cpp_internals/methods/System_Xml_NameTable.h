@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::NameTable {
 IL2CPP_REGISTER_METHOD(0x0199D9A0, void, __ctor, (NameTable * __this));

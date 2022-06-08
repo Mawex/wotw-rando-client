@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Color {
 IL2CPP_REGISTER_METHOD(0x00121740, void, __ctor, (Color__Boxed * __this, float r, float g, float b, float a));
@@ -16,17 +16,17 @@ IL2CPP_REGISTER_METHOD(0x02427EF0, Color, operator__, (Color a, float b));
 IL2CPP_REGISTER_METHOD(0x02427F40, bool, operator___, (Color lhs, Color rhs));
 IL2CPP_REGISTER_METHOD(0x02428060, bool, operator___, (Color lhs, Color rhs));
 IL2CPP_REGISTER_METHOD(0x02428090, Color, Lerp, (Color a, Color b, float t));
-IL2CPP_REGISTER_METHOD(0x024281D0, Color, get_red, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x024281E0, Color, get_green, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x024281F0, Color, get_blue, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00F87B80, Color, get_white, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02428200, Color, get_black, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02428210, Color, get_yellow, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02428220, Color, get_cyan, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02428230, Color, get_magenta, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02428240, Color, get_gray, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02428240, Color, get_grey, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00F87B90, Color, get_clear, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024281D0, Color, get_red, ());
+IL2CPP_REGISTER_METHOD(0x024281E0, Color, get_green, ());
+IL2CPP_REGISTER_METHOD(0x024281F0, Color, get_blue, ());
+IL2CPP_REGISTER_METHOD(0x00F87B80, Color, get_white, ());
+IL2CPP_REGISTER_METHOD(0x02428200, Color, get_black, ());
+IL2CPP_REGISTER_METHOD(0x02428210, Color, get_yellow, ());
+IL2CPP_REGISTER_METHOD(0x02428220, Color, get_cyan, ());
+IL2CPP_REGISTER_METHOD(0x02428230, Color, get_magenta, ());
+IL2CPP_REGISTER_METHOD(0x02428240, Color, get_gray, ());
+IL2CPP_REGISTER_METHOD(0x02428240, Color, get_grey, ());
+IL2CPP_REGISTER_METHOD(0x00F87B90, Color, get_clear, ());
 IL2CPP_REGISTER_METHOD(0x001EBD10, float, get_grayscale, (Color__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x001EBD50, Color, get_linear, (Color__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x001EBF20, Color, get_gamma, (Color__Boxed * __this));

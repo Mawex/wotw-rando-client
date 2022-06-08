@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::StringReference {
 IL2CPP_REGISTER_METHOD(0x00240CB0, uint16_t, get_Item, (StringReference__Boxed * __this, int32_t i));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisSpawnTask {
 IL2CPP_REGISTER_METHOD(0x00A09410, void, OnEnterTask, (MantisSpawnTask * __this, IContext * context));

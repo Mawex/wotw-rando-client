@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RC2CryptoServiceProvider {
 IL2CPP_REGISTER_METHOD(0x028DE660, void, __ctor, (RC2CryptoServiceProvider * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x028DEAA0, ICryptoTransform *, CreateDecryptor, (RC2Cryp
 IL2CPP_REGISTER_METHODINFO(0x0475F250, RC2CryptoServiceProvider_CreateDecryptor__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x028DEC50, void, GenerateKey, (RC2CryptoServiceProvider * __this));
 IL2CPP_REGISTER_METHOD(0x028DED30, void, GenerateIV, (RC2CryptoServiceProvider * __this));
-IL2CPP_REGISTER_METHOD(0x028DEE00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028DEE00, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::FastVignette {
 IL2CPP_REGISTER_METHOD(0x030435A0, void, OnRenderImage, (FastVignette * __this, RenderTexture * source, RenderTexture * destination));

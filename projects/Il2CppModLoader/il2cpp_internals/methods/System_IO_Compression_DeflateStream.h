@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Compression::DeflateStream {
 IL2CPP_REGISTER_METHOD(0x02006900, void, __ctor, (DeflateStream * __this, Stream * stream, CompressionMode__Enum mode));

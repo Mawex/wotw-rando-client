@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChallengeShrineManager {
 IL2CPP_REGISTER_METHOD(0x00A35F10, bool, get_IsChallengeOngoing, (ChallengeShrineManager * __this));

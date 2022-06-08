@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Animation::DelayJointPostprocess {
 IL2CPP_REGISTER_METHOD(0x01B00810, void, OnUpdateAnimatorPostprocessData, (DelayJointPostprocess * __this, Playable playable, AnimatorPostprocessUpdateData updateData));

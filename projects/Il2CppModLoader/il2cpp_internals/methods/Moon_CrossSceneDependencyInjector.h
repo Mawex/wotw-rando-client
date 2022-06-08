@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrossSceneDependencyInjector {
 IL2CPP_REGISTER_METHOD(0x00CD0400, void, Awake, (CrossSceneDependencyInjector * __this));

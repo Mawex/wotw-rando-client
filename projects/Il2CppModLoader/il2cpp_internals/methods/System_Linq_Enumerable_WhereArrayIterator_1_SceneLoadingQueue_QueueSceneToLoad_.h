@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereArrayIterator_1_SceneLoadingQueue_QueueSceneToLoad_ {
 IL2CPP_REGISTER_METHOD(0x02894030, void, __ctor, (Enumerable_WhereArrayIterator_1_SceneLoadingQueue_QueueSceneToLoad_ * __this, SceneLoadingQueue_QueueSceneToLoad__Array * source, Func_2_SceneLoadingQueue_QueueSceneToLoad_Boolean_ * predicate));

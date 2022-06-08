@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::AudioListener {
 IL2CPP_REGISTER_METHOD(0x03140E60, int32_t, GetNumExtensionProperties, (AudioListener * __this));

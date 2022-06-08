@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_OfflineRaceMetaData {
 IL2CPP_REGISTER_METHOD(0x0071B680, ReplayValidatorData *, ToReplayValidatorData, (RaceStateMachineContext_OfflineRaceMetaData * __this));

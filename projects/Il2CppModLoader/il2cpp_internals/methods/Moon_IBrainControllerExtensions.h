@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::IBrainControllerExtensions {
 IL2CPP_REGISTER_METHOD(0x01BAA500, int32_t, ToInt, (Enum e));

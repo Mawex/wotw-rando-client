@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextureMaskEntry {
 IL2CPP_REGISTER_METHOD(0x002FB990, Texture2D *, get_SourceTexture, (TextureMaskEntry * __this));

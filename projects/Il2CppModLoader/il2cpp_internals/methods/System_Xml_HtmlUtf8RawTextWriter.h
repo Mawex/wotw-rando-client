@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::HtmlUtf8RawTextWriter {
 IL2CPP_REGISTER_METHOD(0x0199B690, void, __ctor, (HtmlUtf8RawTextWriter * __this, Stream * stream, XmlWriterSettings * settings));

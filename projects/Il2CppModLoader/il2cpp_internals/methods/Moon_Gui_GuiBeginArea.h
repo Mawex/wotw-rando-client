@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Gui::GuiBeginArea {
 IL2CPP_REGISTER_METHOD(0x019889A0, void, __ctor, (GuiBeginArea * __this, Rect area));

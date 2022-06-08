@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UberShaderAtlasUtilities_TextureInfo_ {
 IL2CPP_REGISTER_METHOD(0x01CD1020, bool, Equals, (ObjectEqualityComparer_1_UberShaderAtlasUtilities_TextureInfo_ * __this, UberShaderAtlasUtilities_TextureInfo x, UberShaderAtlasUtilities_TextureInfo y));

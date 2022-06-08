@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossEscape1Behaviour_FlyStartState {
 IL2CPP_REGISTER_METHOD(0x01762DD0, void, __ctor, (PetrifiedOwlBossEscape1Behaviour_FlyStartState * __this, PetrifiedOwlBossEscape1Behaviour * behaviour));

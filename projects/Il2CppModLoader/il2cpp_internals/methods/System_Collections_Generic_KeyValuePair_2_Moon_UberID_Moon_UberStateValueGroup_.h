@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon::UberID_Moon::UberStateValueGroup_ {
 IL2CPP_REGISTER_METHOD(0x00107C10, UberStateValueGroup *, get_Value, (KeyValuePair_2_Moon_UberID_Moon_UberStateValueGroup___Boxed * __this));

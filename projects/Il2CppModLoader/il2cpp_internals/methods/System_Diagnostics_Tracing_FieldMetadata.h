@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::FieldMetadata {
 IL2CPP_REGISTER_METHOD(0x019FD900, void, __ctor, (FieldMetadata * __this, String * name, TraceLoggingDataType__Enum type, EventFieldTags__Enum tags, bool variableCount));

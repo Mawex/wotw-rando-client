@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::ListViewItem {
-IL2CPP_REGISTER_METHOD(0x019995A0, GUIStyle *, get_CenteredLabelStyle, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x019995A0, GUIStyle *, get_CenteredLabelStyle, ());
 IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_Name, (ListViewItem * __this));
 IL2CPP_REGISTER_METHOD(0x0052A030, bool, get_IsSelected, (ListViewItem * __this));
 IL2CPP_REGISTER_METHOD(0x01999830, void, __ctor, (ListViewItem * __this, int32_t controlId, String * name, ListView * parentView));

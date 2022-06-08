@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_EquipmentType_SpellDescription_ {
 IL2CPP_REGISTER_METHOD(0x019E5330, SpellDescription *, GetValue, (EnumDictionary_2_EquipmentType_SpellDescription_ * __this, EquipmentType__Enum key));

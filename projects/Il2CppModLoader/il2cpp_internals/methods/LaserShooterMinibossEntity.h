@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterMinibossEntity {
 IL2CPP_REGISTER_METHOD(0x00F189C0, LaserShieldRotationController *, get_ShieldController, (LaserShooterMinibossEntity * __this));

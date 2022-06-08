@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NormalSkeetoAggroMoveToAttackPositionConditionDecorator {
 IL2CPP_REGISTER_METHOD(0x0060C060, BehaviourStatus__Enum, OnExecute, (NormalSkeetoAggroMoveToAttackPositionConditionDecorator * __this, IContext * context));

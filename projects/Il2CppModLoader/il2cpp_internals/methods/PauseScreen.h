@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PauseScreen {
-IL2CPP_REGISTER_METHOD(0x0044A9D0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0044A9D0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_CanInterruptTab, (PauseScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, MenuTabBackground__Enum, get_BackgroundMode, (PauseScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (PauseScreen * __this));

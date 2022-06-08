@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RotationAnimatorB {
 IL2CPP_REGISTER_METHOD(0x01371210, void, CacheOriginals, (RotationAnimatorB * __this));

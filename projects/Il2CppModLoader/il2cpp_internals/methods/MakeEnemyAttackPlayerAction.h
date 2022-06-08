@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MakeEnemyAttackPlayerAction {
 IL2CPP_REGISTER_METHOD(0x009F7A00, void, Perform, (MakeEnemyAttackPlayerAction * __this, IContext * context));

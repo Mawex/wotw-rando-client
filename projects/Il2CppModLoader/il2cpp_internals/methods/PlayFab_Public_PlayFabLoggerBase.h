@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Public::PlayFabLoggerBase {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, IPAddress *, get_ip, (PlayFabLoggerBase * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHODINFO(0x04780200, PlayFabLoggerBase_HandleUnityLog__MethodI
 IL2CPP_REGISTER_METHOD(0x01AD2290, void, ActivateThreadWorker, (PlayFabLoggerBase * __this));
 IL2CPP_REGISTER_METHOD(0x01AD25B0, void, WriteLogThreadWorker, (PlayFabLoggerBase * __this));
 IL2CPP_REGISTER_METHODINFO(0x0475E258, PlayFabLoggerBase_WriteLogThreadWorker__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01AD2C50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01AD2C50, void, __cctor, ());
 }

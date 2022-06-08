@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ComponentEditor {
 IL2CPP_REGISTER_METHOD(0x024A9E40, bool, EditComponent, (ComponentEditor * __this, Object * component));

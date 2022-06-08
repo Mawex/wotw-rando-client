@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_TResult__ConfiguredTaskAwaiter_System::Threading::Tasks::Task_ {
 IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_Task___Boxed * __this));

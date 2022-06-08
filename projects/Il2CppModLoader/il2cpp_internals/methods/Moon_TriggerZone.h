@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TriggerZone {
 IL2CPP_REGISTER_METHOD(0x031B0F80, void, add_OnEnterTrigger, (TriggerZone * __this, Action * value));

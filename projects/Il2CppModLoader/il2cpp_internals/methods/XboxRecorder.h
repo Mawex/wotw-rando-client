@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxRecorder {
 IL2CPP_REGISTER_METHOD(0x004FBAC0, bool, get_Recording, (XboxRecorder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodyMovement {
 IL2CPP_REGISTER_METHOD(0x00913C50, void, Awake, (RigidbodyMovement * __this));

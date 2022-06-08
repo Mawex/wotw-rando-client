@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System::Nullable_1_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Nullable_1_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Nullable_1_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x04718718, AsyncTaskMethodBuilder_1_System_Nullable_1__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3C40, void, Start, (AsyncTaskMethodBuilder_1_System_Nullable_1___Boxed * __this, AsyncProtocolRequest_InnerRead_d_25 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x047358D8, AsyncTaskMethodBuilder_1_System_Nullable_1__Start__MethodInfo);
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x0018ED60, void, SetStateMachine, (AsyncTaskMethodBuilde
 IL2CPP_REGISTER_METHODINFO(0x04751E68, AsyncTaskMethodBuilder_1_System_Nullable_1__SetStateMachine__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001FF520, void, SetResult, (AsyncTaskMethodBuilder_1_System_Nullable_1___Boxed * __this, Task_1_System_Nullable_1_ * completedTask));
 IL2CPP_REGISTER_METHOD(0x001FF590, Task_1_System_Nullable_1_ *, GetTaskForResult, (AsyncTaskMethodBuilder_1_System_Nullable_1___Boxed * __this, Nullable_1_Int32_ result));
-IL2CPP_REGISTER_METHOD(0x0276AC50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0276AC50, void, __cctor, ());
 }

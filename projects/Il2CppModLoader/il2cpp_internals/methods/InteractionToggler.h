@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InteractionToggler {
 IL2CPP_REGISTER_METHOD(0x0063B910, String *, get_Path, (InteractionToggler * __this));

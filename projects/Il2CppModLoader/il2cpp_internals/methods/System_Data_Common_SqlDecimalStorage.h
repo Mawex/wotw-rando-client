@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlDecimalStorage {
 IL2CPP_REGISTER_METHOD(0x02851E00, void, __ctor, (SqlDecimalStorage * __this, DataColumn * column));

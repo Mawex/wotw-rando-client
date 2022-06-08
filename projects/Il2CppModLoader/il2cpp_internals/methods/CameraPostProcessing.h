@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraPostProcessing {
-IL2CPP_REGISTER_METHOD(0x0169F5E0, List_1_IPostProcessInfluencer_ *, get_Influencers, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0169F5E0, List_1_IPostProcessInfluencer_ *, get_Influencers, ());
 IL2CPP_REGISTER_METHOD(0x002FB990, CameraSettings *, get_CameraSettingsToUse, (CameraPostProcessing * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB00, SceneDefaultSettingsHelper *, get_SceneSettingsHelper, (CameraPostProcessing * __this));
 IL2CPP_REGISTER_METHOD(0x0169F680, void, SaveCameraSettings, (CameraPostProcessing * __this, CameraSettingsAsset * cameraSettings));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x016A0D30, void, ForceFogIntoCurrentCameraSettings, (Cam
 IL2CPP_REGISTER_METHOD(0x01132D30, void, ResetFog, (CameraPostProcessing * __this));
 IL2CPP_REGISTER_METHOD(0x01132D30, void, ForceApplySettings, (CameraPostProcessing * __this));
 IL2CPP_REGISTER_METHOD(0x016A0DC0, void, __ctor, (CameraPostProcessing * __this));
-IL2CPP_REGISTER_METHOD(0x016A10F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016A10F0, void, __cctor, ());
 }

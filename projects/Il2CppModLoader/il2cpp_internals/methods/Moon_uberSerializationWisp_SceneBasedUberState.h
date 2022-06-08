@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::SceneBasedUberState {
 IL2CPP_REGISTER_METHOD(0x00F44E70, IUberStateGroup *, get_UberStateGroup, (SceneBasedUberState * __this));

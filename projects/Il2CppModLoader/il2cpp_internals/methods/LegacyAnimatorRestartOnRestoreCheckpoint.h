@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyAnimatorRestartOnRestoreCheckpoint {
 IL2CPP_REGISTER_METHOD(0x015CD120, void, OnValidate, (LegacyAnimatorRestartOnRestoreCheckpoint * __this));

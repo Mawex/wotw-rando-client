@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::GotoExpression {
 IL2CPP_REGISTER_METHOD(0x022CFE50, void, __ctor, (GotoExpression * __this, GotoExpressionKind__Enum kind, LabelTarget * target, Expression * value, Type * type));

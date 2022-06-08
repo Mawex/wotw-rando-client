@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GrabbableSurfaceMovingWheel {
 IL2CPP_REGISTER_METHOD(0x01081AA0, bool, get_IsMoving, (GrabbableSurfaceMovingWheel * __this));

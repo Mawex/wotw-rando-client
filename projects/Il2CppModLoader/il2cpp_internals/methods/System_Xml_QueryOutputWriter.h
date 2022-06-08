@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::QueryOutputWriter {
 IL2CPP_REGISTER_METHOD(0x0199E650, void, __ctor, (QueryOutputWriter * __this, XmlRawWriter * writer, XmlWriterSettings * settings));

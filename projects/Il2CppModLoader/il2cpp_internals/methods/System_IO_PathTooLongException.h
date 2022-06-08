@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::PathTooLongException {
 IL2CPP_REGISTER_METHOD(0x0237B060, void, __ctor, (PathTooLongException * __this));

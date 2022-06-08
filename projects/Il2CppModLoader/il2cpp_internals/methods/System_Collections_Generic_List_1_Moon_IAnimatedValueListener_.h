@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::IAnimatedValueListener_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, IAnimatedValueListener *, get_Item, (List_1_Moon_IAnimatedValueListener_ * __this, int32_t index));

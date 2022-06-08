@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon::Timeline::TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ {
 IL2CPP_REGISTER_METHOD(0x01CC6180, int32_t, Compare, (ObjectComparer_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ * __this, TransparencyAnimatorSystemStrategy_SetSceneHiddenAction x, TransparencyAnimatorSystemStrategy_SetSceneHiddenAction y));

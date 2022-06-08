@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::DownloadHandlerAssetBundle {
 IL2CPP_REGISTER_METHOD(0x031C45A0, Byte__Array *, GetData, (DownloadHandlerAssetBundle * __this));

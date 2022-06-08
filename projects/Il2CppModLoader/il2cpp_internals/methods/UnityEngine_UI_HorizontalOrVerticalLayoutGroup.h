@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 IL2CPP_REGISTER_METHOD(0x024B6530, void, __ctor, (HorizontalOrVerticalLayoutGroup * __this));

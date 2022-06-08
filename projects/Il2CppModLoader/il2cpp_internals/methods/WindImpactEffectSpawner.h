@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindImpactEffectSpawner {
 IL2CPP_REGISTER_METHOD(0x005764F0, void, Awake, (WindImpactEffectSpawner * __this));

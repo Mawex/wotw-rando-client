@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_List_1_IDebugMenuItem__ {
 IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_List_1_IDebugMenuItem_ * __this, List_1_IDebugMenuItem_ * item));

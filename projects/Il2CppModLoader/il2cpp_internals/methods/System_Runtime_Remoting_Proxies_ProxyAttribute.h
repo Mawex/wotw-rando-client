@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Proxies::ProxyAttribute {
 IL2CPP_REGISTER_METHOD(0x0231D270, MarshalByRefObject *, CreateInstance, (ProxyAttribute * __this, Type * serverType));

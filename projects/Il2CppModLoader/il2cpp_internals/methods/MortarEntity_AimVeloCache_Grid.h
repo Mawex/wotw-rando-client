@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarEntity_AimVeloCache_Grid {
 IL2CPP_REGISTER_METHOD(0x0147BA80, bool, get_ShouldUnpack, (MortarEntity_AimVeloCache_Grid * __this));

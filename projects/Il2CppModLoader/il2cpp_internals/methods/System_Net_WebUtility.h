@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebUtility {
 IL2CPP_REGISTER_METHOD(0x021B8A50, String *, HtmlEncode, (String * value));
@@ -8,8 +8,8 @@ IL2CPP_REGISTER_METHOD(0x021B9060, String *, HtmlDecode, (String * value));
 IL2CPP_REGISTER_METHOD(0x021B9270, void, HtmlDecode, (String * value, TextWriter * output));
 IL2CPP_REGISTER_METHODINFO(0x04741B48, WebUtility_HtmlDecode_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021B96F0, int32_t, IndexOfHtmlEncodingChars, (String * s, int32_t startPos));
-IL2CPP_REGISTER_METHOD(0x021B9880, UnicodeDecodingConformance__Enum, get_HtmlDecodeConformance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x021B99F0, UnicodeEncodingConformance__Enum, get_HtmlEncodeConformance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B9880, UnicodeDecodingConformance__Enum, get_HtmlDecodeConformance, ());
+IL2CPP_REGISTER_METHOD(0x021B99F0, UnicodeEncodingConformance__Enum, get_HtmlEncodeConformance, ());
 IL2CPP_REGISTER_METHOD(0x021B9B60, Byte__Array *, UrlEncode, (Byte__Array * bytes, int32_t offset, int32_t count, bool alwaysCreateNewReturnValue));
 IL2CPP_REGISTER_METHOD(0x021B9CF0, Byte__Array *, UrlEncode, (Byte__Array * bytes, int32_t offset, int32_t count));
 IL2CPP_REGISTER_METHOD(0x021BA090, String *, UrlEncode, (String * value));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x021BACB0, bool, IsUrlSafeChar, (uint16_t ch));
 IL2CPP_REGISTER_METHOD(0x021BAD30, bool, ValidateUrlEncodingParameters, (Byte__Array * bytes, int32_t offset, int32_t count));
 IL2CPP_REGISTER_METHODINFO(0x04758880, WebUtility_ValidateUrlEncodingParameters__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021BAE80, bool, StringRequiresHtmlDecoding, (String * s));
-IL2CPP_REGISTER_METHOD(0x021BAFE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021BAFE0, void, __cctor, ());
 }

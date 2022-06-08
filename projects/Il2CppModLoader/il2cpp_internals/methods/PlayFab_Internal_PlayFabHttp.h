@@ -1,13 +1,13 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabHttp {
 IL2CPP_REGISTER_METHOD(0x01839A20, void, add_ApiProcessingEventHandler, (PlayFabHttp_ApiProcessingEvent_1_ApiProcessingEventArgs_ * value));
 IL2CPP_REGISTER_METHOD(0x01839B60, void, remove_ApiProcessingEventHandler, (PlayFabHttp_ApiProcessingEvent_1_ApiProcessingEventArgs_ * value));
 IL2CPP_REGISTER_METHOD(0x01839CA0, void, add_ApiProcessingErrorEventHandler, (PlayFabHttp_ApiProcessErrorEvent * value));
 IL2CPP_REGISTER_METHOD(0x01839DE0, void, remove_ApiProcessingErrorEventHandler, (PlayFabHttp_ApiProcessErrorEvent * value));
-IL2CPP_REGISTER_METHOD(0x01839F20, int32_t, GetPendingMessages, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01839F20, int32_t, GetPendingMessages, ());
 IL2CPP_REGISTER_METHOD(0x0183A010, void, SetAuthKey, (String * authKey));
-IL2CPP_REGISTER_METHOD(0x0183A0E0, void, InitializeHttp, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0183A0E0, void, InitializeHttp, ());
 IL2CPP_REGISTER_METHODINFO(0x04752028, PlayFabHttp_InitializeHttp__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0183A280, void, InitializeLogger, (IPlayFabLogger * setLogger));
 IL2CPP_REGISTER_METHODINFO(0x04725E48, PlayFabHttp_InitializeLogger__MethodInfo);
@@ -23,16 +23,16 @@ IL2CPP_REGISTER_METHOD(0x0183B530, void, OnDestroy, (PlayFabHttp * __this));
 IL2CPP_REGISTER_METHOD(0x0183B750, void, OnApplicationFocus, (PlayFabHttp * __this, bool isFocused));
 IL2CPP_REGISTER_METHOD(0x0183B890, void, OnApplicationQuit, (PlayFabHttp * __this));
 IL2CPP_REGISTER_METHOD(0x0183B9C0, void, Update, (PlayFabHttp * __this));
-IL2CPP_REGISTER_METHOD(0x0183BD50, bool, IsClientLoggedIn, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0183BE40, void, ForgetAllCredentials, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0183BD50, bool, IsClientLoggedIn, ());
+IL2CPP_REGISTER_METHOD(0x0183BE40, void, ForgetAllCredentials, ());
 IL2CPP_REGISTER_METHOD(0x0183BF40, PlayFabError *, GeneratePlayFabError, (String * apiEndpoint, String * json, Object * customData));
 IL2CPP_REGISTER_METHOD(0x0183C450, void, SendErrorEvent, (PlayFabRequestCommon * request, PlayFabError * error));
 IL2CPP_REGISTER_METHOD(0x0183C5A0, void, SendEvent, (String * apiEndpoint, PlayFabRequestCommon * request, PlayFabResultCommon * result, ApiProcessingEventType__Enum eventType));
-IL2CPP_REGISTER_METHOD(0x0183C7F0, void, ClearAllEvents, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0183C7F0, void, ClearAllEvents, ());
 IL2CPP_REGISTER_METHOD(0x0183C8B0, void, InjectInUnityThread, (PlayFabHttp * __this, IEnumerator * x));
 IL2CPP_REGISTER_METHOD(0x0183C950, void, InjectInUnityThread, (PlayFabHttp * __this, Action * action));
 IL2CPP_REGISTER_METHOD(0x0183C9F0, void, __ctor, (PlayFabHttp * __this));
-IL2CPP_REGISTER_METHOD(0x0183CC50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0183CC50, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015536E0, void, SetHttp, (Object * httpObj));
 IL2CPP_REGISTER_METHOD(0x01553410, void, MakeApiCall, (String * apiEndpoint, PlayFabRequestCommon * request, AuthType__Enum authType, Action_1_Object_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders, bool allowQueueing, PlayFabAuthenticationContext * authenticationContext, PlayFabApiSettings * apiSettings));
 IL2CPP_REGISTER_METHOD(0x015535B0, void, MakeApiCallWithFullUri, (String * fullUri, PlayFabRequestCommon * request, AuthType__Enum authType, Action_1_Object_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders, bool allowQueueing, PlayFabAuthenticationContext * authenticationContext, PlayFabApiSettings * apiSettings));

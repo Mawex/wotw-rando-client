@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlDouble {
 IL2CPP_REGISTER_METHOD(0x001E3B70, void, __ctor, (SqlDouble__Boxed * __this, bool fNull));
@@ -40,5 +40,5 @@ IL2CPP_REGISTER_METHOD(0x0013BB70, XmlSchema *, IXmlSerializable_GetSchema, (Sql
 IL2CPP_REGISTER_METHOD(0x001E3DC0, void, IXmlSerializable_ReadXml, (SqlDouble__Boxed * __this, XmlReader * reader));
 IL2CPP_REGISTER_METHOD(0x001E3F20, void, IXmlSerializable_WriteXml, (SqlDouble__Boxed * __this, XmlWriter * writer));
 IL2CPP_REGISTER_METHOD(0x022AFC10, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
-IL2CPP_REGISTER_METHOD(0x022AFD60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022AFD60, void, __cctor, ());
 }

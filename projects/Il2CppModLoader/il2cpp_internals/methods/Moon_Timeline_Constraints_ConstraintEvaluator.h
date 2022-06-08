@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Constraints::ConstraintEvaluator {
 IL2CPP_REGISTER_METHOD(0x01BB1790, IDisposable *, OpenCache, (IConstraintEntityCache * cache));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x01BB5AB0, bool, DirtyConstraintIfItReliesOn, (IConstrai
 IL2CPP_REGISTER_METHOD(0x01BB5BB0, float, EvaluateLastChildStop, (IConstraint * constraintObject, Constraint__Enum constraint, IConstrainedEntityWithChildren * parentEntity));
 IL2CPP_REGISTER_METHOD(0x01BB5F80, IConstraint *, GetConstraintFor, (IConstrainedEntity * constrainedEntity, Constraint__Enum constraint));
 IL2CPP_REGISTER_METHODINFO(0x04775F80, ConstraintEvaluator_GetConstraintFor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01BB60A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BB60A0, void, __cctor, ());
 }

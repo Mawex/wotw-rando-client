@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WorldCoordinatesMap {
 IL2CPP_REGISTER_METHOD(0x0057EC10, Vector3, WorldToLocal, (WorldCoordinatesMap * __this, Vector3 position));

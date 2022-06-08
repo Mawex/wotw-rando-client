@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::RendererCullingParameters_CategoryList {
 IL2CPP_REGISTER_METHOD(0x001F12F0, void, set_Item, (RendererCullingParameters_CategoryList__Boxed * __this, int32_t i, RendererCullingCategoryParameters value));

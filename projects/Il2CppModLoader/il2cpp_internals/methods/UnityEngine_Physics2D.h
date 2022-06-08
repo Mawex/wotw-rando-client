@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Physics2D {
-IL2CPP_REGISTER_METHOD(0x0316F310, PhysicsScene2D, get_defaultPhysicsScene, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0316F3F0, bool, get_queriesHitTriggers, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0316F310, PhysicsScene2D, get_defaultPhysicsScene, ());
+IL2CPP_REGISTER_METHOD(0x0316F3F0, bool, get_queriesHitTriggers, ());
 IL2CPP_REGISTER_METHOD(0x0316F440, int32_t, GetLayerCollisionMask, (int32_t layer));
 IL2CPP_REGISTER_METHODINFO(0x04776898, Physics2D_GetLayerCollisionMask__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0316F550, int32_t, GetLayerCollisionMask_Internal, (int32_t layer));
@@ -31,7 +31,7 @@ IL2CPP_REGISTER_METHOD(0x03171240, int32_t, GetColliderContacts, (Collider2D * c
 IL2CPP_REGISTER_METHOD(0x03171330, int32_t, GetRigidbodyContacts, (Rigidbody2D * rigidbody, ContactFilter2D contactFilter, ContactPoint2D__Array * results));
 IL2CPP_REGISTER_METHOD(0x03171420, int32_t, GetColliderContactsCollidersOnly, (Collider2D * collider, ContactFilter2D contactFilter, Collider2D__Array * results));
 IL2CPP_REGISTER_METHOD(0x03171510, int32_t, GetRigidbodyContactsCollidersOnly, (Rigidbody2D * rigidbody, ContactFilter2D contactFilter, Collider2D__Array * results));
-IL2CPP_REGISTER_METHOD(0x03171600, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03171600, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x03171750, void, get_defaultPhysicsScene_Injected, (PhysicsScene2D * ret));
 IL2CPP_REGISTER_METHOD(0x031717A0, void, Distance_Internal_Injected, (Collider2D * colliderA, Collider2D * colliderB, ColliderDistance2D * ret));
 IL2CPP_REGISTER_METHOD(0x03171810, RaycastHit2D__Array *, GetRayIntersectionAll_Internal_Injected, (PhysicsScene2D * physicsScene, Vector3 * origin, Vector3 * direction, float distance, int32_t layerMask));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::CastInstruction_CastInstructionT_1_System::Int16_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (CastInstruction_CastInstructionT_1_System_Int16_ * __this));

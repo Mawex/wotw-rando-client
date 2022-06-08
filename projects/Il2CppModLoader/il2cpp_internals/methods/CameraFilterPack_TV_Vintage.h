@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_TV_Vintage {
 IL2CPP_REGISTER_METHOD(0x020F0CF0, Material *, get_material, (CameraFilterPack_TV_Vintage * __this));

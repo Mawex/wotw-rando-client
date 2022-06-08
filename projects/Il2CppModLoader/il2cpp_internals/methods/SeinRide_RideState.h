@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinRide_RideState {
 IL2CPP_REGISTER_METHOD(0x005D6970, void, Initialize, (SeinRide_RideState * __this, SeinRide * seinRide));

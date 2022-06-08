@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsNullableConverter {
 IL2CPP_REGISTER_METHOD(0x01658FF0, bool, CanProcess, (fsNullableConverter * __this, Type * type));

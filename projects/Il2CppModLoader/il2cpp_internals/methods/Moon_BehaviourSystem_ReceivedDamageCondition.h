@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::ReceivedDamageCondition {
 IL2CPP_REGISTER_METHOD(0x00CBB040, String *, get_Info, (ReceivedDamageCondition * __this));

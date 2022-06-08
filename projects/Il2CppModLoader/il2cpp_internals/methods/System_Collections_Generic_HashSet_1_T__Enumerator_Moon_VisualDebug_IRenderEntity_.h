@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_T__Enumerator_Moon::VisualDebug::IRenderEntity_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, IRenderEntity *, get_Current, (HashSet_1_T_Enumerator_Moon_VisualDebug_IRenderEntity___Boxed * __this));

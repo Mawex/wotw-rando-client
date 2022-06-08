@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoParameterInfo {
 IL2CPP_REGISTER_METHOD(0x02692AB0, void, __ctor, (MonoParameterInfo * __this, ParameterInfo_1 * pinfo, MemberInfo_1 * member));

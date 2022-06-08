@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UnityEngine::EventSystems::RaycastResult_ {
 IL2CPP_REGISTER_METHOD(0x02438520, bool, Equals, (ObjectEqualityComparer_1_UnityEngine_EventSystems_RaycastResult_ * __this, RaycastResult x, RaycastResult y));

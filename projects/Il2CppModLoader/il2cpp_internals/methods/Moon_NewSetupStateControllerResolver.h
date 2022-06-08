@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver {
 IL2CPP_REGISTER_METHOD(0x002FB950, Dictionary_2_System_Int32_Moon_NewSetupStateControllerResolver_IRuntimeUberStateControllerDataLink_ *, get_DataLinks, (NewSetupStateControllerResolver * __this));
@@ -7,7 +7,7 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, OnAfterDeserialize, (NewSetupStateContr
 IL2CPP_REGISTER_METHOD(0x01B63960, void, RebuildDataLinks, (NewSetupStateControllerResolver * __this));
 IL2CPP_REGISTER_METHOD(0x01B63C00, NewSetupStateControllerResolver_IRuntimeUberStateControllerDataLink *, CreateRuntimeUberStateControllerDataLinkFromData, (NewSetupStateControllerResolver * __this, NewSetupStateControllerResolver_SetupStateControllerLinkSerializedData * data));
 IL2CPP_REGISTER_METHOD(0x01B64150, void, __ctor, (NewSetupStateControllerResolver * __this));
-IL2CPP_REGISTER_METHOD(0x01B64500, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01B64500, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015F11D0, Object *, ResolveSource, (NewSetupStateControllerResolver * __this, IMoonResolverContext * context, MoonTypeExtraData resolverExtraData));
 IL2CPP_REGISTER_METHOD(0x015EF770, bool, CanResolveSource, (NewSetupStateControllerResolver * __this, IMoonResolverContext * context, MoonTypeExtraData resolverExtraData));
 IL2CPP_REGISTER_METHOD(0x01B33090, bool, DoesDataLinkForTypeExist, (NewSetupStateControllerResolver * __this, int32_t guid));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FBBIKHeadEffector {
 IL2CPP_REGISTER_METHOD(0x02055F30, void, Awake, (FBBIKHeadEffector * __this));

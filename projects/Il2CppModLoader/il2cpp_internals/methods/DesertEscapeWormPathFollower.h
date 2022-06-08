@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DesertEscapeWormPathFollower {
 IL2CPP_REGISTER_METHOD(0x00B88320, void, Awake, (DesertEscapeWormPathFollower * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::PositionAsUV1 {
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (PositionAsUV1 * __this));

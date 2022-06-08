@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataColumnChangeEventArgs {
 IL2CPP_REGISTER_METHOD(0x0239A030, void, __ctor, (DataColumnChangeEventArgs * __this, DataRow * row));

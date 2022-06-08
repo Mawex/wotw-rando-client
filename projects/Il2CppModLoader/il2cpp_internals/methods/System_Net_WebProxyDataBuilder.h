@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebProxyDataBuilder {
 IL2CPP_REGISTER_METHOD(0x021B1D30, WebProxyData *, Build, (WebProxyDataBuilder * __this));

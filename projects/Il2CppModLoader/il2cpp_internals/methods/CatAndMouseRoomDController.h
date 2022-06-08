@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatAndMouseRoomDController {
 IL2CPP_REGISTER_METHOD(0x0102B6C0, void, Awake, (CatAndMouseRoomDController * __this));

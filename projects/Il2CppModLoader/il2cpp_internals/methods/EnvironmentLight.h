@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnvironmentLight {
 IL2CPP_REGISTER_METHOD(0x00CA6810, bool, get_IsSceneLight, (EnvironmentLight * __this));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x00CA6F20, Color, GetColorForChannel, (EnvironmentLight 
 IL2CPP_REGISTER_METHOD(0x00CA6F80, void, ClearBind, (Material * bindMaterial, int32_t num));
 IL2CPP_REGISTER_METHOD(0x00CA71F0, void, BindLightToMaterial, (EnvironmentLight * __this, Material * bindMaterial, float randomOffset, int32_t num));
 IL2CPP_REGISTER_METHOD(0x00CA7280, void, __ctor, (EnvironmentLight * __this));
-IL2CPP_REGISTER_METHOD(0x00CA74D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00CA74D0, void, __cctor, ());
 }

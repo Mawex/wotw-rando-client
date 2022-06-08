@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateSaveFileHandler {
 IL2CPP_REGISTER_METHOD(0x01B6D260, void, Save, (UberStateSaveFileHandler * __this, UberStateValueStore * uberStateValueStore, String * path));

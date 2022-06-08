@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberGhostTrail {
 IL2CPP_REGISTER_METHOD(0x013EE640, Renderer *, get_TargetRenderer, (UberGhostTrail * __this));
 IL2CPP_REGISTER_METHOD(0x013EE750, void, Reset, (UberGhostTrail * __this));
 IL2CPP_REGISTER_METHOD(0x013EE830, Renderer *, get_Renderer, (UberGhostTrail * __this));
-IL2CPP_REGISTER_METHOD(0x013EE900, void, WarmUpResource, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013EE900, void, WarmUpResource, ());
 IL2CPP_REGISTER_METHOD(0x013EE9E0, void, Awake, (UberGhostTrail * __this));
 IL2CPP_REGISTER_METHOD(0x013EEA80, void, OnDestroy, (UberGhostTrail * __this));
 IL2CPP_REGISTER_METHOD(0x013EEB20, void, OnEnable, (UberGhostTrail * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpriteRotationController {
 IL2CPP_REGISTER_METHOD(0x009AE9E0, void, Awake, (SpriteRotationController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::CacheData {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, SortingOrder__Enum, get_SortingOrder, (CacheData * __this));

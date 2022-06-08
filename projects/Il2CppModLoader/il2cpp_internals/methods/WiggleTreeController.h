@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WiggleTreeController {
 IL2CPP_REGISTER_METHOD(0x00574860, WiggleTreeController_WiggleSettings *, get_CurrentWiggleData, (WiggleTreeController * __this));

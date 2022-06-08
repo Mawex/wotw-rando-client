@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MainMenuState {
 IL2CPP_REGISTER_METHOD(0x009F44B0, void, OnEnterState, (MainMenuState * __this));

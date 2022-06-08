@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskToApm {
 IL2CPP_REGISTER_METHOD(0x023401B0, IAsyncResult *, Begin, (Task * task, AsyncCallback * callback, Object * state));

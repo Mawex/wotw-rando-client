@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::IKPostprocessPlayer {
 IL2CPP_REGISTER_METHOD(0x0076F5E0, IKTargetBehaviour *, get_TargetBehaviour, (IKPostprocessPlayer * __this));

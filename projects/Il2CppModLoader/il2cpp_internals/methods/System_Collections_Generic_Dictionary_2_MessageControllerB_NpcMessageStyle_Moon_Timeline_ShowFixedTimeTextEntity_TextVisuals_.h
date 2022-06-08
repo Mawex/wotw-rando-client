@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_MessageControllerB_NpcMessageStyle_Moon::Timeline::ShowFixedTimeTextEntity_TextVisuals_ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_MessageControllerB_NpcMessageStyle_Moon_Timeline_ShowFixedTimeTextEntity_TextVisuals_ * __this));

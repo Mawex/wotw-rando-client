@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AcidSlugCrawlingState {
 IL2CPP_REGISTER_METHOD(0x004C1F10, void, __ctor, (AcidSlugCrawlingState * __this, AcidSlugEnemy * slug, SoundSource * sound, SoundSource * moveSound));

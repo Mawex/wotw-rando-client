@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::RegistryKey {
-IL2CPP_REGISTER_METHOD(0x023B4890, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023B4890, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x023B4B60, void, __ctor, (RegistryKey * __this, RegistryHive__Enum hiveId));
 IL2CPP_REGISTER_METHOD(0x023B4B80, void, __ctor, (RegistryKey * __this, RegistryHive__Enum hiveId, void * keyHandle, bool remoteRoot));
 IL2CPP_REGISTER_METHOD(0x023B4DC0, void, __ctor, (RegistryKey * __this, Object * data, String * keyName, bool writable));
@@ -27,7 +27,7 @@ IL2CPP_REGISTER_METHODINFO(0x0478E6E0, RegistryKey_AssertKeyStillValid__MethodIn
 IL2CPP_REGISTER_METHOD(0x023B5DD0, void, AssertKeyNameLength, (RegistryKey * __this, String * name));
 IL2CPP_REGISTER_METHODINFO(0x04712DF8, RegistryKey_AssertKeyNameLength__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023B5E90, String *, DecodeString, (Byte__Array * data));
-IL2CPP_REGISTER_METHOD(0x023B5F90, IOException *, CreateMarkedForDeletionException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023B5F90, IOException *, CreateMarkedForDeletionException, ());
 IL2CPP_REGISTER_METHODINFO(0x0471EBC8, RegistryKey_CreateMarkedForDeletionException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023B5FF0, String *, GetHiveName, (RegistryHive__Enum hive));
 IL2CPP_REGISTER_METHODINFO(0x0477ADF8, RegistryKey_GetHiveName__MethodInfo);

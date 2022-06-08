@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::ScriptableRenderContext {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (ScriptableRenderContext__Boxed * __this, void * ptr));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Buffer_1_UnityEngine::Rect_ {
 IL2CPP_REGISTER_METHOD(0x00218C40, void, __ctor, (Buffer_1_UnityEngine_Rect___Boxed * __this, IEnumerable_1_UnityEngine_Rect_ * source));

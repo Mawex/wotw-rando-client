@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossExplosionRetaliate {
 IL2CPP_REGISTER_METHOD(0x012DFF60, void, Start, (KwolokBossExplosionRetaliate * __this));

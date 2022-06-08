@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::TaskAwaiter_1_System::Nullable_1_ {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (TaskAwaiter_1_System_Nullable_1___Boxed * __this, Task_1_System_Nullable_1_ * task));

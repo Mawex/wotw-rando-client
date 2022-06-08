@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath {
 IL2CPP_REGISTER_METHOD(0x02573FA0, float, Pulsate, (float from, float to, float frequence, float time));

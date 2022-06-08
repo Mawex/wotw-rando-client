@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::UInt32_frameworks::Switch::SwitchController_VibrationDataEntry_ {
 IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_System_UInt32_frameworks_Switch_SwitchController_VibrationDataEntry_ * __this, uint32_t key, SwitchController_VibrationDataEntry * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MicroProfiler_Timer {
 IL2CPP_REGISTER_METHOD(0x031579B0, void, Start, (MicroProfiler_Timer * __this));

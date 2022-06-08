@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyUberTransformFollow {
 IL2CPP_REGISTER_METHOD(0x0112D350, void, Awake, (LegacyUberTransformFollow * __this));

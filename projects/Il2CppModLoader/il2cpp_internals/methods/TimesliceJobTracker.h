@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimesliceJobTracker {
 IL2CPP_REGISTER_METHOD(0x00AF3960, String *, get_TestName, (TimesliceJobTracker * __this));

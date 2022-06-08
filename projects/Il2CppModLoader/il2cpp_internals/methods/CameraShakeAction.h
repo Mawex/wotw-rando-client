@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraShakeAction {
 IL2CPP_REGISTER_METHOD(0x00B1D490, void, Perform, (CameraShakeAction * __this, IContext * context));

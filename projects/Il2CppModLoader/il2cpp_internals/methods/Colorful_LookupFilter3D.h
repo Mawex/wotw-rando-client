@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::LookupFilter3D {
 IL2CPP_REGISTER_METHOD(0x03049F70, Shader *, get_Shader2DSafe, (LookupFilter3D * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::Statistic {
 IL2CPP_REGISTER_METHOD(0x01433F10, double, get_ShortestEdge, (Statistic * __this));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x02A9A110, void, GetAspectHistogram, (Statistic * __this
 IL2CPP_REGISTER_METHOD(0x02A9A930, void, Update, (Statistic * __this, Mesh_1 * mesh, int32_t sampleDegrees));
 IL2CPP_REGISTER_METHOD(0x02A9B990, void, ComputeAngles, (ITriangle * triangle, Double__Array * data));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Statistic * __this));
-IL2CPP_REGISTER_METHOD(0x02A9BDD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A9BDD0, void, __cctor, ());
 }

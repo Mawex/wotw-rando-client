@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::AssemblyFileVersionAttribute {
 IL2CPP_REGISTER_METHOD(0x022839E0, void, __ctor, (AssemblyFileVersionAttribute * __this, String * version));

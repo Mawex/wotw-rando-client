@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::Timeline::Reaction_ {
 IL2CPP_REGISTER_METHOD(0x02F3B420, void, Sort, (Reaction__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_Timeline_Reaction_ * comparer));

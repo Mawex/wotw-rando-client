@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::FromBase64Transform {
 IL2CPP_REGISTER_METHOD(0x020D7E70, void, __ctor, (FromBase64Transform * __this));

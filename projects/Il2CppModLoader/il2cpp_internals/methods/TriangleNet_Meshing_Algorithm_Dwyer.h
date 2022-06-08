@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Algorithm::Dwyer {
 IL2CPP_REGISTER_METHOD(0x026321A0, IMesh *, Triangulate, (Dwyer * __this, IList_1_TriangleNet_Geometry_Vertex_ * points, Configuration_1 * config));

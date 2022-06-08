@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisJumpAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x00A04E60, bool, get_m_jumpDirectionLeft, (MantisJumpAttackBehaviour * __this));

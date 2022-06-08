@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::RaceDataCache {
 IL2CPP_REGISTER_METHOD(0x002FB950, Dictionary_2_System_String_SystemIntegration_Races_RaceEntry_ *, get_Entries, (RaceDataCache * __this));

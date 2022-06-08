@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsInNPCInteractionCondition {
 IL2CPP_REGISTER_METHOD(0x00646140, bool, Validate, (IsInNPCInteractionCondition * __this, IContext * context));

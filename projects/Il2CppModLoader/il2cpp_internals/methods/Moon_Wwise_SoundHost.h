@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::SoundHost {
 IL2CPP_REGISTER_METHOD(0x0270B840, bool, IsActiveVersion, (SoundHost * __this, int32_t version));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Int32_Int32_ {
 IL2CPP_REGISTER_METHOD(0x02B33400, int32_t, Invoke, (Func_2_Int32_Int32_ * __this, int32_t arg));

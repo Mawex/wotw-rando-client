@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::RenderScopeExtensions {
 IL2CPP_REGISTER_METHOD(0x00EB1A50, bool, match, (RenderScope__Enum scope, MoonRenderPipelineViewType__Enum type));

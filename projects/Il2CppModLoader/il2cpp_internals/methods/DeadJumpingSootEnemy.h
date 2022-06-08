@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DeadJumpingSootEnemy {
 IL2CPP_REGISTER_METHOD(0x00DDB010, void, OnReceiveContext, (DeadJumpingSootEnemy * __this, IContext * context));

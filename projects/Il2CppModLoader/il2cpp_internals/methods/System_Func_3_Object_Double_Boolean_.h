@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_3_Object_Double_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_3_Object_Double_Boolean_ * __this, Object * object, void * method_1));

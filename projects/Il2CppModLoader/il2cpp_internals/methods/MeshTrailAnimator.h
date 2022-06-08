@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeshTrailAnimator {
 IL2CPP_REGISTER_METHOD(0x031119D0, MeshTrail *, get_MeshTrail, (MeshTrailAnimator * __this));

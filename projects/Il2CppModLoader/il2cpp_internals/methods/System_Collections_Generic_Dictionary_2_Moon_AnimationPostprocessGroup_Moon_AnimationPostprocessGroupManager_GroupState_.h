@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::AnimationPostprocessGroup_Moon::AnimationPostprocessGroupManager_GroupState_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_Moon_AnimationPostprocessGroup_Moon_AnimationPostprocessGroupManager_GroupState_ * __this, AnimationPostprocessGroup * key, AnimationPostprocessGroupManager_GroupState * * value));

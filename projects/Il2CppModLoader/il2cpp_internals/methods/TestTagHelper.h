@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TestTagHelper {
 IL2CPP_REGISTER_METHOD(0x010DFDC0, String *, TagString, (String * input, TestTagHelper_TestTypeTag__Enum tag, bool breakLine));

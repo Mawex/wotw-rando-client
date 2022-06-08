@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BlackboardVariableFloat {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonType_1_System_Single_ *, GetMoonType, (BlackboardVariableFloat * __this));

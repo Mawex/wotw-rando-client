@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Sensor_CanSeeCharacterHelper {
 IL2CPP_REGISTER_METHOD(0x00120590, void, Init, (Sensor_CanSeeCharacterHelper__Boxed * __this, Sensor * sensor));

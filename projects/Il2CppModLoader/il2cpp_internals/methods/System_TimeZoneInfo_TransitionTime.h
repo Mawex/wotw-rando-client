@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TimeZoneInfo_TransitionTime {
 IL2CPP_REGISTER_METHOD(0x00107C00, DateTime, get_TimeOfDay, (TimeZoneInfo_TransitionTime__Boxed * __this));

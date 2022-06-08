@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarWindupBehaviour {
 IL2CPP_REGISTER_METHOD(0x0147F890, void, OnEnter, (MortarWindupBehaviour * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_Line {
 IL2CPP_REGISTER_METHOD(0x02575B10, Vector3, ClosestPointOnLineSegmentToPoint2D, (Vector3 p1, Vector3 p2, Vector3 p));

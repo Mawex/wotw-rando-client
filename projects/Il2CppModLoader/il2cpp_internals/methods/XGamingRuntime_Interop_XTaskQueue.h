@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::XTaskQueue {
 IL2CPP_REGISTER_METHOD(0x002FA280, XTaskQueueHandle, get_handle, (XTaskQueue * __this));

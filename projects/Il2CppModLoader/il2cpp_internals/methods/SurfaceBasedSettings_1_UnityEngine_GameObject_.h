@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SurfaceBasedSettings_1_UnityEngine::GameObject_ {
 IL2CPP_REGISTER_METHOD(0x01D1CC50, GameObject *, GetValue, (SurfaceBasedSettings_1_UnityEngine_GameObject_ * __this, Collider * collider));

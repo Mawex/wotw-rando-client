@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::HttpListenerTimeoutsElement {
 IL2CPP_REGISTER_METHOD(0x02019800, void, __ctor, (HttpListenerTimeoutsElement * __this));

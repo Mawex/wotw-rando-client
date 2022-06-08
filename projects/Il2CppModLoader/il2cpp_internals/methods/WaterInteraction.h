@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterInteraction {
 IL2CPP_REGISTER_METHOD(0x008D6C00, void, add_OnWaterZoneEnterAction, (WaterInteraction * __this, Action * value));

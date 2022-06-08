@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::SortedList_SortedListDebugView {
 IL2CPP_REGISTER_METHOD(0x0202F660, void, __ctor, (SortedList_SortedListDebugView * __this, SortedList * sortedList));

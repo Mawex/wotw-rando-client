@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::BinaryConverter {
 IL2CPP_REGISTER_METHOD(0x01A4D430, void, WriteJson, (BinaryConverter_1 * __this, JsonWriter * writer, Object * value, JsonSerializer * serializer));

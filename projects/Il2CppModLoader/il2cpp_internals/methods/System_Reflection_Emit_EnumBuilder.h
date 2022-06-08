@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::EnumBuilder {
 IL2CPP_REGISTER_METHOD(0x0267FAB0, Assembly *, get_Assembly, (EnumBuilder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PoisonousWaterDrip {
 IL2CPP_REGISTER_METHOD(0x01431F70, void, Launch, (PoisonousWaterDrip * __this, float speed, Vector3 direction, float gravity, GameObject * owner, DamageOwner * damageOwner));

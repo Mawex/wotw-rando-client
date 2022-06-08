@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::P3D_Matrix {
-IL2CPP_REGISTER_METHOD(0x03094D50, P3D_Matrix, get_Identity, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03094D50, P3D_Matrix, get_Identity, ());
 IL2CPP_REGISTER_METHOD(0x03094D90, P3D_Matrix, Translation, (float x, float y));
 IL2CPP_REGISTER_METHOD(0x03094DF0, P3D_Matrix, Scaling, (float x, float y));
 IL2CPP_REGISTER_METHOD(0x03094E40, P3D_Matrix, Rotation, (float a));

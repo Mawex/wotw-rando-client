@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineHelper__EverythingConstrainedTo_d__28 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (TimelineHelper_EverythingConstrainedTo_d_28 * __this, int32_t __1__state));

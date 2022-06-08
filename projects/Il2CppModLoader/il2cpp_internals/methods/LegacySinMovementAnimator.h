@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacySinMovementAnimator {
 IL2CPP_REGISTER_METHOD(0x00A359C0, void, AnimateIt, (LegacySinMovementAnimator * __this, float value));

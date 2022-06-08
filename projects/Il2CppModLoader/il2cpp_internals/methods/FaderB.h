@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FaderB {
 IL2CPP_REGISTER_METHOD(0x00738690, float, get_EditorDebugValue, (FaderB * __this));
@@ -42,5 +42,5 @@ IL2CPP_REGISTER_METHOD(0x005065E0, void, BlockFader, (FaderB * __this, bool bloc
 IL2CPP_REGISTER_METHOD(0x00992AA0, void, DoCleanUpIsPossible, (FaderB * __this));
 IL2CPP_REGISTER_METHOD(0x00992AB0, void, OnGUI, (FaderB * __this));
 IL2CPP_REGISTER_METHOD(0x009935C0, void, __ctor, (FaderB * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

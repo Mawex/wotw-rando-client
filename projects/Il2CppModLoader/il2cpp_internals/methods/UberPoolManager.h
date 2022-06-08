@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolManager {
 IL2CPP_REGISTER_METHOD(0x00FD7890, void, DoLookUp, (UberPoolManager * __this));
@@ -9,7 +9,7 @@ IL2CPP_REGISTER_METHOD(0x00FD90B0, void, set_DoPool, (UberPoolManager * __this, 
 IL2CPP_REGISTER_METHOD(0x00508FE0, bool, get_DoPoolAnalysis, (UberPoolManager * __this));
 IL2CPP_REGISTER_METHOD(0x00508FF0, void, set_DoPoolAnalysis, (UberPoolManager * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x002FBBA0, List_1_UberPoolGroup_ *, get_Groups, (UberPoolManager * __this));
-IL2CPP_REGISTER_METHOD(0x00FD90C0, bool, get_AllowLoadFromSceneStreaming, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FD90C0, bool, get_AllowLoadFromSceneStreaming, ());
 IL2CPP_REGISTER_METHOD(0x00FD9160, void, set_AllowLoadFromSceneStreaming, (bool value));
 IL2CPP_REGISTER_METHOD(0x00FD9820, void, Awake, (UberPoolManager * __this));
 IL2CPP_REGISTER_METHOD(0x00FD9C50, void, OnDestroy, (UberPoolManager * __this));
@@ -54,7 +54,7 @@ IL2CPP_REGISTER_METHOD(0x00FDEB70, void, AddOnDestroyed, (UberPoolManager * __th
 IL2CPP_REGISTER_METHOD(0x00FDEE20, void, RunDestroyDelayed, (UberPoolManager * __this, float time, Action * run));
 IL2CPP_REGISTER_METHOD(0x00FDEF90, IEnumerator *, RunDelayed, (UberPoolManager * __this, float time, Action * run));
 IL2CPP_REGISTER_METHOD(0x00FDF0F0, void, RegisterForMoonEffectRevert, (UberPoolManager * __this, GameObject * instance, MoonEffectRevertHandle * revertHandle));
-IL2CPP_REGISTER_METHOD(0x00FDF310, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FDF310, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00FDF390, bool, __ctor_b__35_0, (UberPoolManager * __this, UberPoolManager * manager));
 IL2CPP_REGISTER_METHODINFO(0x04757990, UberPoolManager___ctor_b__35_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00FDF460, bool, __ctor_b__35_1, (UberPoolManager * __this, UberPoolManager * manager));

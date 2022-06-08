@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::Trail_Point_ {
 IL2CPP_REGISTER_METHOD(0x02DC9F90, Trail_Point, get_Item, (List_1_Moon_Trail_Point_ * __this, int32_t index));
@@ -67,5 +67,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_Moon_Trail_Point_ * __thi
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_Moon_Trail_Point_ * __this, Comparison_1_Moon_Trail_Point_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, Trail_Point__Array *, ToArray, (List_1_Moon_Trail_Point_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_Moon_Trail_Point_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

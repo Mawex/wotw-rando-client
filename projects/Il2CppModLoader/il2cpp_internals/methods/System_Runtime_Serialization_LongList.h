@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::LongList {
 IL2CPP_REGISTER_METHOD(0x01ED5410, void, __ctor, (LongList * __this));

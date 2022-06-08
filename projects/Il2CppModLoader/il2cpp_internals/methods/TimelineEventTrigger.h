@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimelineEventTrigger {
 IL2CPP_REGISTER_METHOD(0x004C65D0, String *, get_EventProviderName, (TimelineEventTrigger * __this));

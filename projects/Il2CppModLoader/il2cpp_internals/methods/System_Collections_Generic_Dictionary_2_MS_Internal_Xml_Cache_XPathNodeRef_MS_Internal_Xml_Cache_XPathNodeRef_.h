@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_MS::Internal::Xml::Cache::XPathNodeRef_MS::Internal::Xml::Cache::XPathNodeRef_ {
 IL2CPP_REGISTER_METHOD(0x0283B9A0, bool, ContainsKey, (Dictionary_2_MS_Internal_Xml_Cache_XPathNodeRef_MS_Internal_Xml_Cache_XPathNodeRef_ * __this, XPathNodeRef key));

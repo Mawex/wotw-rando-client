@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Mesh {
 IL2CPP_REGISTER_METHOD(0x02539620, void, __ctor, (Mesh * __this));

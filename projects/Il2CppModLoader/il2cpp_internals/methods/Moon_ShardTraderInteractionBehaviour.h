@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ShardTraderInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00E273B0, void, OnEnter, (ShardTraderInteractionBehaviour * __this, IContext * context));

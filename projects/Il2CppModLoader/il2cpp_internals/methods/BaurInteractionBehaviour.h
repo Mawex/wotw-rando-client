@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaurInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F9A690, void, OnEntityInitialized, (BaurInteractionBehaviour * __this));

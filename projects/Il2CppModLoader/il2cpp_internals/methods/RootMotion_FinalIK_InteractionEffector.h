@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionEffector {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, FullBodyBipedEffector__Enum, get_effectorType, (InteractionEffector * __this));

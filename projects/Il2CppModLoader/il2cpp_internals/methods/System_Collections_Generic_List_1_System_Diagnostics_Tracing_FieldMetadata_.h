@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Diagnostics::Tracing::FieldMetadata_ {
 IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_System_Diagnostics_Tracing_FieldMetadata_ * __this, FieldMetadata * item));

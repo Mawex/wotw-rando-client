@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::VertexHelper {
 IL2CPP_REGISTER_METHOD(0x009A3B50, void, __ctor, (VertexHelper * __this));
@@ -21,5 +21,5 @@ IL2CPP_REGISTER_METHOD(0x031AB8A0, void, AddUIVertexQuad, (VertexHelper * __this
 IL2CPP_REGISTER_METHOD(0x031ABAF0, void, AddUIVertexStream, (VertexHelper * __this, List_1_UnityEngine_UIVertex_ * verts, List_1_System_Int32_ * indices));
 IL2CPP_REGISTER_METHOD(0x031ABC90, void, AddUIVertexTriangleStream, (VertexHelper * __this, List_1_UnityEngine_UIVertex_ * verts));
 IL2CPP_REGISTER_METHOD(0x031ABDE0, void, GetUIVertexStream, (VertexHelper * __this, List_1_UnityEngine_UIVertex_ * stream));
-IL2CPP_REGISTER_METHOD(0x031ABEF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x031ABEF0, void, __cctor, ());
 }

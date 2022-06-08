@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DesiredUberStateBoolBase {
 IL2CPP_REGISTER_METHOD(0x01B578E0, void, WriteDesiredStates, (DesiredUberStateBoolBase * __this));

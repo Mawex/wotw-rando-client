@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuItemGroup {
 IL2CPP_REGISTER_METHOD(0x012B08D0, bool, get_AutoSelectFirstItemOnEnable, (CleverMenuItemGroup * __this));

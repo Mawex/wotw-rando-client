@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System::Data::SqlTypes::SqlBinary_ {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (Nullable_1_System_Data_SqlTypes_SqlBinary___Boxed * __this, SqlBinary value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::VirtualTimelineConstrainedTimelineEntity {
 IL2CPP_REGISTER_METHOD(0x01E92970, int32_t, get_ConstrainedEntitiesCount, (VirtualTimelineConstrainedTimelineEntity * __this));

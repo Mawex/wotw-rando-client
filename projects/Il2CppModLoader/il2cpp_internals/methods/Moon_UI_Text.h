@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::Text {
 IL2CPP_REGISTER_METHOD(0x01184DB0, int32_t, get_LineCount, (Text_1 * __this));

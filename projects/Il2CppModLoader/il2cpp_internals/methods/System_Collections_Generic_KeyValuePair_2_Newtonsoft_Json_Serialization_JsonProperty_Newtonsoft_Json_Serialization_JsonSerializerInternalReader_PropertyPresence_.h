@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Newtonsoft::Json::Serialization::JsonProperty_Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence_ {
 IL2CPP_REGISTER_METHOD(0x00107C00, JsonProperty *, get_Key, (KeyValuePair_2_Newtonsoft_Json_Serialization_JsonProperty_Newtonsoft_Json_Serialization_JsonSerializerInternalReader_PropertyPresence___Boxed * __this));

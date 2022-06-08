@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_Moon::Timeline::UberShaderAnimatorStrategyStandard_Request_1_ {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1_ * __this));
@@ -8,7 +8,7 @@ IL2CPP_REGISTER_METHODINFO(0x04702F70, Array_EmptyInternalEnumerator_1_Moon_Time
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1_ * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1_ * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1_ * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__1 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__1 * __this));
 IL2CPP_REGISTER_METHOD(0x01D06FD0, UberShaderAnimatorStrategyStandard_Request_1_System_Single_, get_Current, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__1 * __this));
@@ -16,7 +16,7 @@ IL2CPP_REGISTER_METHODINFO(0x04796CC8, Array_EmptyInternalEnumerator_1_Moon_Time
 IL2CPP_REGISTER_METHOD(0x01CFED80, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__1 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__1 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__1 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__2 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__2 * __this));
 IL2CPP_REGISTER_METHOD(0x01D07030, UberShaderAnimatorStrategyStandard_Request_1_UnityEngine_Color_, get_Current, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__2 * __this));
@@ -24,7 +24,7 @@ IL2CPP_REGISTER_METHODINFO(0x0473B5A0, Array_EmptyInternalEnumerator_1_Moon_Time
 IL2CPP_REGISTER_METHOD(0x01D02670, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__2 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__2 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__2 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__3 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__3 * __this));
 IL2CPP_REGISTER_METHOD(0x01D07090, UberShaderAnimatorStrategyStandard_Request_1_UnityEngine_Vector4_, get_Current, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__3 * __this));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHODINFO(0x047521C0, Array_EmptyInternalEnumerator_1_Moon_Time
 IL2CPP_REGISTER_METHOD(0x01D02670, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__3 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__3 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1__3 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 }

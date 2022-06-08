@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PauseGameAction {
 IL2CPP_REGISTER_METHOD(0x004494A0, void, Perform, (PauseGameAction * __this, IContext * context));

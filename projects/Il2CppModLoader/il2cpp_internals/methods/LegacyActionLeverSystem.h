@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyActionLeverSystem {
 IL2CPP_REGISTER_METHOD(0x015C8CA0, ILever *, get_Lever, (LegacyActionLeverSystem * __this));

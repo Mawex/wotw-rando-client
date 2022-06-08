@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WormChargingState {
 IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (WormChargingState * __this, WormEnemy * worm, TextureAnimationWithTransitions * charging, PrefabSpawner * chargingEffect));

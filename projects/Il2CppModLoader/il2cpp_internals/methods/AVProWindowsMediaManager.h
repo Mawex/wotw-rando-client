@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AVProWindowsMediaManager {
-IL2CPP_REGISTER_METHOD(0x0312C580, AVProWindowsMediaManager *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0312C580, AVProWindowsMediaManager *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x0312C790, void, Awake, (AVProWindowsMediaManager * __this));
 IL2CPP_REGISTER_METHOD(0x0312C830, void, OnDestroy, (AVProWindowsMediaManager * __this));
 IL2CPP_REGISTER_METHOD(0x0312C840, bool, Init, (AVProWindowsMediaManager * __this));

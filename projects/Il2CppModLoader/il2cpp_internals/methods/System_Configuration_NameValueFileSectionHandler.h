@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::NameValueFileSectionHandler {
 IL2CPP_REGISTER_METHOD(0x02961ED0, void, __ctor, (NameValueFileSectionHandler * __this));

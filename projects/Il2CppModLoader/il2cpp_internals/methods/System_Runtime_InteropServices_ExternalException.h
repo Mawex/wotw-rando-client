@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::ExternalException {
 IL2CPP_REGISTER_METHOD(0x01A94260, void, __ctor, (ExternalException * __this));

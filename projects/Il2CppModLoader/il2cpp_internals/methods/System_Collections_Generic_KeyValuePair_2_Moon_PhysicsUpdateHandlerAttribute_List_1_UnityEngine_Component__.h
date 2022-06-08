@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon::PhysicsUpdateHandlerAttribute_List_1_UnityEngine::Component__ {
 IL2CPP_REGISTER_METHOD(0x00107C10, List_1_UnityEngine_Component_ *, get_Value, (KeyValuePair_2_Moon_PhysicsUpdateHandlerAttribute_List_1_UnityEngine_Component___Boxed * __this));

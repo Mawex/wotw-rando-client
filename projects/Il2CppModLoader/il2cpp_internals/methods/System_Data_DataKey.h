@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataKey {
 IL2CPP_REGISTER_METHOD(0x001E9F50, void, __ctor, (DataKey__Boxed * __this, DataColumn__Array * columns, bool copyColumns));

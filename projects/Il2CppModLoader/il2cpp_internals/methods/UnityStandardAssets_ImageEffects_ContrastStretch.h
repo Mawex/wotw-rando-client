@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ContrastStretch {
 IL2CPP_REGISTER_METHOD(0x0251E1E0, Material *, get_materialLum, (ContrastStretch * __this));

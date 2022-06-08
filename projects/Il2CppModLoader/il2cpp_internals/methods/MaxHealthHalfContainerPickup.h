@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaxHealthHalfContainerPickup {
 IL2CPP_REGISTER_METHOD(0x01385FF0, GameObject *, get_EffectiveCollectedEffect, (MaxHealthHalfContainerPickup * __this));

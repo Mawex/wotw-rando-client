@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_CrossfadeAnimation {
-IL2CPP_REGISTER_METHOD(0x02115460, MoonAnimator_CrossfadeAnimation *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02115460, MoonAnimator_CrossfadeAnimation *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_BlendTreeSize, (MoonAnimator_CrossfadeAnimation * __this));
 IL2CPP_REGISTER_METHOD(0x00910BD0, AnimationType__Enum, get_Type, (MoonAnimator_CrossfadeAnimation * __this));
 IL2CPP_REGISTER_METHOD(0x02115540, void, CollectAnimationClips, (MoonAnimator_CrossfadeAnimation * __this, HashSet_1_UnityEngine_AnimationClip_ * clips));

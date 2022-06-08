@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::SortedList_SyncSortedList {
 IL2CPP_REGISTER_METHOD(0x0202FE70, void, __ctor, (SortedList_SyncSortedList * __this, SortedList * list));

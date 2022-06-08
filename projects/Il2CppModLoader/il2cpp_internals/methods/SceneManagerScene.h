@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneManagerScene {
 IL2CPP_REGISTER_METHOD(0x00BA9A60, void, __ctor, (SceneManagerScene * __this, SceneRoot * sceneRoot, RuntimeSceneMetaData * sceneMetaData, SceneState__Enum initalState));

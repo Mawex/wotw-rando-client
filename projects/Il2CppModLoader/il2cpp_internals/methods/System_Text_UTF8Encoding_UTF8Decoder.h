@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::UTF8Encoding_UTF8Decoder {
 IL2CPP_REGISTER_METHOD(0x0244A470, void, __ctor, (UTF8Encoding_UTF8Decoder * __this, UTF8Encoding * encoding));

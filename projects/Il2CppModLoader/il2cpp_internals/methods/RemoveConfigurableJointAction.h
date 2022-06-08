@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RemoveConfigurableJointAction {
 IL2CPP_REGISTER_METHOD(0x008FD490, void, Perform, (RemoveConfigurableJointAction * __this, IContext * context));

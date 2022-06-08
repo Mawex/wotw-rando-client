@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ColorBlock {
 IL2CPP_REGISTER_METHOD(0x001D9980, Color, get_normalColor, (ColorBlock__Boxed * __this));
@@ -13,7 +13,7 @@ IL2CPP_REGISTER_METHOD(0x001D99F0, float, get_colorMultiplier, (ColorBlock__Boxe
 IL2CPP_REGISTER_METHOD(0x001D9A00, void, set_colorMultiplier, (ColorBlock__Boxed * __this, float value));
 IL2CPP_REGISTER_METHOD(0x001D9A10, float, get_fadeDuration, (ColorBlock__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x001D9A20, void, set_fadeDuration, (ColorBlock__Boxed * __this, float value));
-IL2CPP_REGISTER_METHOD(0x01F2FF00, ColorBlock, get_defaultColorBlock, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F2FF00, ColorBlock, get_defaultColorBlock, ());
 IL2CPP_REGISTER_METHOD(0x001D9A30, bool, Equals, (ColorBlock__Boxed * __this, Object * obj));
 IL2CPP_REGISTER_METHOD(0x001D9A40, bool, Equals, (ColorBlock__Boxed * __this, ColorBlock other));
 IL2CPP_REGISTER_METHOD(0x01F30310, bool, operator___, (ColorBlock point1, ColorBlock point2));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::PromiseTimer {
 IL2CPP_REGISTER_METHOD(0x01669140, IPromise *, WaitFor, (PromiseTimer * __this, float seconds));

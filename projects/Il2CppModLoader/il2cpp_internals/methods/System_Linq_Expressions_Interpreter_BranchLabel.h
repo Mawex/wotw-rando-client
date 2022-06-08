@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::BranchLabel {
 IL2CPP_REGISTER_METHOD(0x002FB970, int32_t, get_LabelIndex, (BranchLabel * __this));

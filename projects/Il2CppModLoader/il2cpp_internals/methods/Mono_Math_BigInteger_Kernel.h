@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Math::BigInteger_Kernel {
 IL2CPP_REGISTER_METHOD(0x023C8C80, BigInteger *, AddSameSign, (BigInteger * bi1, BigInteger * bi2));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_KwolokBossBaseBehaviour_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, KwolokBossBaseBehaviour *, get_Current, (List_1_T_Enumerator_KwolokBossBaseBehaviour___Boxed * __this));

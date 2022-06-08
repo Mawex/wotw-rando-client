@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonSerializerInternalBase_ReferenceEqualsEqualityComparer {
 IL2CPP_REGISTER_METHOD(0x01652210, bool, IEqualityComparer_object__Equals, (JsonSerializerInternalBase_ReferenceEqualsEqualityComparer * __this, Object * x, Object * y));

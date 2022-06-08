@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::AsyncLocal_1_System::Globalization::CultureInfo_ {
 IL2CPP_REGISTER_METHOD(0x019D6B90, void, __ctor, (AsyncLocal_1_System_Globalization_CultureInfo_ * __this, Action_1_System_Threading_AsyncLocalValueChangedArgs_1_ * valueChangedHandler));

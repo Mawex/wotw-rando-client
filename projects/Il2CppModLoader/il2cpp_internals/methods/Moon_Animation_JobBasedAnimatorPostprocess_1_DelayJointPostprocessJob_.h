@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Animation::JobBasedAnimatorPostprocess_1_DelayJointPostprocessJob_ {
 IL2CPP_REGISTER_METHOD(0x0154A430, void, DisposeIfCreated, (JobBasedAnimatorPostprocess_1_DelayJointPostprocessJob_ * __this, NativeArray_1_UnityEngine_Quaternion_ * array));

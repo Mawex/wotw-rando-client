@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CutsceneScreenController {
 IL2CPP_REGISTER_METHOD(0x00DBEB70, void, Awake, (CutsceneScreenController * __this));

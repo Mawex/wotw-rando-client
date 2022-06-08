@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::SecurityUtils {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DemandReflectionAccess, (Type * type));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHOD(0x02580680, Object *, SecureConstructorInvoke, (Type * ty
 IL2CPP_REGISTER_METHODINFO(0x04784370, SecurityUtils_SecureConstructorInvoke_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02580840, bool, GenericArgumentsAreVisible, (MethodInfo_1 * method_1));
 IL2CPP_REGISTER_METHOD(0x025808F0, Object *, MethodInfoInvoke, (MethodInfo_1 * method_1, Object * target, Object__Array * args));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

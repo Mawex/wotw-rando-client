@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossRainOfFeathersBehaviour_EndState {
 IL2CPP_REGISTER_METHOD(0x0177CC60, void, __ctor, (PetrifiedOwlBossRainOfFeathersBehaviour_EndState * __this, PetrifiedOwlBossRainOfFeathersBehaviour * behaviour));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Spider3Controller {
 IL2CPP_REGISTER_METHOD(0x00953C30, void, Update, (Spider3Controller * __this));

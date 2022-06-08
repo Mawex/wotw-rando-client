@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossLocationTimelineBehaviour {
 IL2CPP_REGISTER_METHOD(0x011B26C0, String *, get_Info, (SpiderBossLocationTimelineBehaviour * __this));

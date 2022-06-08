@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::EventHandler_1_System::Diagnostics::Tracing::EventCommandEventArgs_ {
 IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (EventHandler_1_System_Diagnostics_Tracing_EventCommandEventArgs_ * __this, Object * sender, EventCommandEventArgs * e));

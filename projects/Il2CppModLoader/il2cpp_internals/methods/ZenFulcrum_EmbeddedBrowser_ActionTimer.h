@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ActionTimer {
 IL2CPP_REGISTER_METHOD(0x01C60770, void, OnTriggerEnter, (ActionTimer * __this, Collider * other));

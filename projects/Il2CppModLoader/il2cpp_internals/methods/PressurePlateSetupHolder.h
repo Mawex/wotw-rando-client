@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PressurePlateSetupHolder {
 IL2CPP_REGISTER_METHOD(0x00C73190, PressurePlateSetupData *, get_NotPressed, (PressurePlateSetupHolder * __this));

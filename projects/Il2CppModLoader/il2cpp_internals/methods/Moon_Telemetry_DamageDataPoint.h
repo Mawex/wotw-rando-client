@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::DamageDataPoint {
 IL2CPP_REGISTER_METHOD(0x00E32500, void, __ctor, (DamageDataPoint * __this, String * playerKey, String * sessionKey, String * time, String * level, DataPointType__Enum type, Vector3 position, float damageTaken, String * damagerName));

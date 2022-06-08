@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDebugMenuItem_1_UberShader::optimizations::gc::UberGCLogic_ResourceCollectPriorityMode_ {
 IL2CPP_REGISTER_METHOD(0x019E1D40, void, __ctor, (EnumDebugMenuItem_1_UberShader_optimizations_gc_UberGCLogic_ResourceCollectPriorityMode_ * __this, String * path, String * text, Func_1_UberShader_optimizations_gc_UberGCLogic_ResourceCollectPriorityMode_ * getter, Action_1_UberShader_optimizations_gc_UberGCLogic_ResourceCollectPriorityMode_ * setter, String * help, bool shouldShowOnlySelected));

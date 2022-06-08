@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PlayerPrefsUtility::StringPref {
 IL2CPP_REGISTER_METHOD(0x00C3DA40, void, __ctor, (StringPref * __this, String * _key, String * _defaultValue));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DamageLayerMaskExtensions {
 IL2CPP_REGISTER_METHOD(0x00CD0C10, bool, Contains, (DamageLayerMask__Enum mask, DamageLayer__Enum tag));

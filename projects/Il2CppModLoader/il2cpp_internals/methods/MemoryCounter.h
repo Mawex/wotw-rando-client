@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MemoryCounter {
 IL2CPP_REGISTER_METHOD(0x009D7710, void, FixedUpdate, (MemoryCounter * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritGrenadeDamageDealer {
 IL2CPP_REGISTER_METHOD(0x00D58E60, void, Awake, (SpiritGrenadeDamageDealer * __this));

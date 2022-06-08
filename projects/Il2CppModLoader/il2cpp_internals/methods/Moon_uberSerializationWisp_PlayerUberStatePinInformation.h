@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStatePinInformation {
 IL2CPP_REGISTER_METHOD(0x00F3ED30, void, SetPinActiveState, (PlayerUberStatePinInformation * __this, GameMapPins_PinColour__Enum color, bool state));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x00F3FDB0, void, OnGui, (PlayerUberStatePinInformation *
 IL2CPP_REGISTER_METHOD(0x00F400E0, int64_t, get_Size, (PlayerUberStatePinInformation * __this));
 IL2CPP_REGISTER_METHOD(0x00F402C0, void, RunSetDirtyCallback, (PlayerUberStatePinInformation * __this));
 IL2CPP_REGISTER_METHOD(0x00F40450, GameMapPins_Pin *, GetPin, (PlayerUberStatePinInformation * __this, GameMapPins_PinColour__Enum color));
-IL2CPP_REGISTER_METHOD(0x00F404F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F404F0, void, __cctor, ());
 }

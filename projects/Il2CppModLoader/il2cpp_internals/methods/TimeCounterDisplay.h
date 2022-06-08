@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimeCounterDisplay {
 IL2CPP_REGISTER_METHOD(0x010ED820, void, Update, (TimeCounterDisplay * __this));

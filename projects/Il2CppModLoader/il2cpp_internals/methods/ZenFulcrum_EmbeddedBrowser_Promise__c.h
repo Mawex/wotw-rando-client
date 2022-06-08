@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promise___c {
-IL2CPP_REGISTER_METHOD(0x01667CE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01667CE0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Promise_c * __this));
 IL2CPP_REGISTER_METHOD(0x01667E20, void, __cctor_b__0_0, (Promise_c * __this, Object * sender, ExceptionEventArgs * args));
 IL2CPP_REGISTER_METHODINFO(0x04706EC0, Promise_c___cctor_b__0_0__MethodInfo);

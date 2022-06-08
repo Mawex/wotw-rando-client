@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsAotConfiguration {
 IL2CPP_REGISTER_METHOD(0x01507490, bool, TryFindEntry, (fsAotConfiguration * __this, Type * type, fsAotConfiguration_Entry * result));

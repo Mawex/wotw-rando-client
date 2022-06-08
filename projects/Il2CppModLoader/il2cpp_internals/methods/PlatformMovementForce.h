@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlatformMovementForce {
 IL2CPP_REGISTER_METHOD(0x0116F490, PlatformBehaviour *, get_PlatformBehaviour, (PlatformMovementForce * __this));

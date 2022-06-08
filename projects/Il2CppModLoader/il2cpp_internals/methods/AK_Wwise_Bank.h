@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AK::Wwise::Bank {
 IL2CPP_REGISTER_METHOD(0x00AD8BA0, WwiseObjectType__Enum, get_WwiseObjectType, (Bank * __this));

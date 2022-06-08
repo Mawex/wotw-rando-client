@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BackupSaveCleverMenuItemSelectionManager {
 IL2CPP_REGISTER_METHOD(0x00F81DA0, void, Awake, (BackupSaveCleverMenuItemSelectionManager * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PowerLineSetup {
 IL2CPP_REGISTER_METHOD(0x00C6B6C0, MoonTimeline *, get_AllDestroyedResolvedTimeline, (PowerLineSetup * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTimelineUiFader {
 IL2CPP_REGISTER_METHOD(0x01473C40, bool, get_IsPlaying, (MoonTimelineUiFader * __this));

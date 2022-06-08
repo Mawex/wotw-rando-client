@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_WhenAllPromise_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02776B30, bool, get_ShouldNotifyDebuggerOfWaitCompletion, (Task_WhenAllPromise_1_System_Object_ * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimeDebugMenuPage___c {
-IL2CPP_REGISTER_METHOD(0x010EF780, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010EF780, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TimeDebugMenuPage_c * __this));
 IL2CPP_REGISTER_METHOD(0x010EF8C0, bool, _GetItems_b__9_2, (TimeDebugMenuPage_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470C408, TimeDebugMenuPage_c__GetItems_b__9_2__MethodInfo);

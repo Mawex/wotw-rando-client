@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderlingNPCEntity {
 IL2CPP_REGISTER_METHOD(0x011C6C20, String *, get_DialogActorName, (SpiderlingNPCEntity * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::ReportMetadata {
 IL2CPP_REGISTER_METHOD(0x00E39DE0, void, __ctor, (ReportMetadata * __this));

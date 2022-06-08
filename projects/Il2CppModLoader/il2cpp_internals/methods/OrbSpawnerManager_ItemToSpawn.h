@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OrbSpawnerManager_ItemToSpawn {
 IL2CPP_REGISTER_METHOD(0x00112F10, void, __ctor, (OrbSpawnerManager_ItemToSpawn__Boxed * __this, OrbSpawnerManager_ItemType__Enum itemType, Vector2 position, Vector2 velocity, DropPickup_State__Enum initialState, Transform * transformSource));

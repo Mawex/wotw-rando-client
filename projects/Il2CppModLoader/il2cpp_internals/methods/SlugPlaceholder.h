@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SlugPlaceholder {
 IL2CPP_REGISTER_METHOD(0x006C8770, GameObject *, get_Prefab, (SlugPlaceholder * __this));

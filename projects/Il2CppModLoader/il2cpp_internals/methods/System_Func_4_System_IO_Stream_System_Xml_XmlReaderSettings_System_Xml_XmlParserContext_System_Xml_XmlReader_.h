@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_4_System::IO::Stream_System::Xml::XmlReaderSettings_System::Xml::XmlParserContext_System::Xml::XmlReader_ {
 IL2CPP_REGISTER_METHOD(0x02FA8B20, XmlReader *, Invoke, (Func_4_System_IO_Stream_System_Xml_XmlReaderSettings_System_Xml_XmlParserContext_System_Xml_XmlReader_ * __this, Stream * arg1, XmlReaderSettings * arg2, XmlParserContext * arg3));

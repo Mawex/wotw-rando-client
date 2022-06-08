@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NumericConvertInstruction_ToUnderlying {
 IL2CPP_REGISTER_METHOD(0x02409F50, String *, get_InstructionName, (NumericConvertInstruction_ToUnderlying * __this));

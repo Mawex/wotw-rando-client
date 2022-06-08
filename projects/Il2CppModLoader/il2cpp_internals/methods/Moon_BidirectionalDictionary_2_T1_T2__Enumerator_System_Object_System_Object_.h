@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BidirectionalDictionary_2_T1_T2__Enumerator_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x001FEFA0, BidirectionalValuePair_2_System_Object_System_Object_, get_Current, (BidirectionalDictionary_2_T1_T2_Enumerator_System_Object_System_Object___Boxed * __this));

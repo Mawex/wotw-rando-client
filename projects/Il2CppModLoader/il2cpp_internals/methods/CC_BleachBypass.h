@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CC_BleachBypass {
 IL2CPP_REGISTER_METHOD(0x03192750, void, OnRenderImage, (CC_BleachBypass * __this, RenderTexture * source, RenderTexture * destination));

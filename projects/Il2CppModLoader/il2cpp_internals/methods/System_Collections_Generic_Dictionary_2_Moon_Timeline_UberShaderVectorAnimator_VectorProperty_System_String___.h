@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::Timeline::UberShaderVectorAnimator_VectorProperty_System::String___ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_Moon_Timeline_UberShaderVectorAnimator_VectorProperty_System_String_ * __this, UberShaderVectorAnimator_VectorProperty__Enum key));

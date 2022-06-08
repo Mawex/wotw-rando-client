@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Motion {
 IL2CPP_REGISTER_METHOD(0x030872F0, void, __ctor, (Motion * __this));

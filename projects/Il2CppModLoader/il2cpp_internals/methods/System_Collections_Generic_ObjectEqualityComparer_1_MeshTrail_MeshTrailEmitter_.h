@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_MeshTrail_MeshTrailEmitter_ {
 IL2CPP_REGISTER_METHOD(0x0243A6F0, bool, Equals, (ObjectEqualityComparer_1_MeshTrail_MeshTrailEmitter_ * __this, MeshTrail_MeshTrailEmitter x, MeshTrail_MeshTrailEmitter y));

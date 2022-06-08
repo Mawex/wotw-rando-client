@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MicroProfiler_StatInfo {
 IL2CPP_REGISTER_METHOD(0x0011DC50, MicroProfiler_StatType__Enum, get_Type, (MicroProfiler_StatInfo__Boxed * __this));

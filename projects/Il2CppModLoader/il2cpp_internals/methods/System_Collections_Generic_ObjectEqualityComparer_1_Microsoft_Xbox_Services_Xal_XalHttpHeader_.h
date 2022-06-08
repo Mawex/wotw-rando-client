@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Microsoft::Xbox::Services::Xal::XalHttpHeader_ {
 IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals, (ObjectEqualityComparer_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * __this, XalHttpHeader x, XalHttpHeader y));

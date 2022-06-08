@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::CullingCategoryManager_1_UberWaterEdge_ {
 IL2CPP_REGISTER_METHOD(0x029044B0, void, Register, (CullingCategoryManager_1_UberWaterEdge_ * __this, Renderer * renderer, UberWaterEdge * item, Component_1 * logContext));

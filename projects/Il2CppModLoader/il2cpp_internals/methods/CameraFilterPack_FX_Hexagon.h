@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_FX_Hexagon {
 IL2CPP_REGISTER_METHOD(0x0246FDA0, Material *, get_material, (CameraFilterPack_FX_Hexagon * __this));

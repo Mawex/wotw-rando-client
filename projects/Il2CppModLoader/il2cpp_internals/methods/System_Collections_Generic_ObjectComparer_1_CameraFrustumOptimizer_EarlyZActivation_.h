@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_CameraFrustumOptimizer_EarlyZActivation_ {
 IL2CPP_REGISTER_METHOD(0x02C29790, int32_t, Compare, (ObjectComparer_1_CameraFrustumOptimizer_EarlyZActivation_ * __this, CameraFrustumOptimizer_EarlyZActivation x, CameraFrustumOptimizer_EarlyZActivation y));

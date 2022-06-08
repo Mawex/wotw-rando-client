@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandstormZone {
 IL2CPP_REGISTER_METHOD(0x008D4DF0, Vector2, get_NormalizedStormDirection, (SandstormZone * __this));

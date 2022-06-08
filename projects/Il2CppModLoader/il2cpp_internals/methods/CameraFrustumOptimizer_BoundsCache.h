@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFrustumOptimizer_BoundsCache {
 IL2CPP_REGISTER_METHOD(0x0013B9E0, void, Init, (CameraFrustumOptimizer_BoundsCache__Boxed * __this));

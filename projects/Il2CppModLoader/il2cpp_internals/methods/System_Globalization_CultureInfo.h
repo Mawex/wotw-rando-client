@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::CultureInfo {
-IL2CPP_REGISTER_METHOD(0x025F5100, CultureInfo *, get_InvariantCulture, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025F51B0, CultureInfo *, get_CurrentCulture, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025F51E0, CultureInfo *, get_CurrentUICulture, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025F5210, CultureInfo *, ConstructCurrentCulture, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025F5450, CultureInfo *, ConstructCurrentUICulture, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025F5100, CultureInfo *, get_InvariantCulture, ());
+IL2CPP_REGISTER_METHOD(0x025F51B0, CultureInfo *, get_CurrentCulture, ());
+IL2CPP_REGISTER_METHOD(0x025F51E0, CultureInfo *, get_CurrentUICulture, ());
+IL2CPP_REGISTER_METHOD(0x025F5210, CultureInfo *, ConstructCurrentCulture, ());
+IL2CPP_REGISTER_METHOD(0x025F5450, CultureInfo *, ConstructCurrentUICulture, ());
 IL2CPP_REGISTER_METHOD(0x002FBBE0, String *, get_Territory, (CultureInfo * __this));
 IL2CPP_REGISTER_METHOD(0x00CC59E0, int32_t, get_LCID, (CultureInfo * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9F0, String *, get_Name, (CultureInfo * __this));
@@ -35,7 +35,7 @@ IL2CPP_REGISTER_METHOD(0x025F72A0, Object *, GetFormat, (CultureInfo * __this, T
 IL2CPP_REGISTER_METHOD(0x025F73E0, void, Construct, (CultureInfo * __this));
 IL2CPP_REGISTER_METHOD(0x025F7440, bool, construct_internal_locale_from_lcid, (CultureInfo * __this, int32_t lcid));
 IL2CPP_REGISTER_METHOD(0x025F74A0, bool, construct_internal_locale_from_name, (CultureInfo * __this, String * name));
-IL2CPP_REGISTER_METHOD(0x025F75C0, String *, get_current_locale_name, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025F75C0, String *, get_current_locale_name, ());
 IL2CPP_REGISTER_METHOD(0x025F7650, CultureInfo__Array *, internal_get_cultures, (bool neutral, bool specific, bool installed));
 IL2CPP_REGISTER_METHOD(0x025F7770, void, ConstructInvariant, (CultureInfo * __this, bool read_only));
 IL2CPP_REGISTER_METHOD(0x025F78C0, TextInfo *, CreateTextInfo, (CultureInfo * __this, bool readOnly));
@@ -63,16 +63,16 @@ IL2CPP_REGISTER_METHODINFO(0x047359D0, CultureInfo_get_CalendarType__MethodInfo)
 IL2CPP_REGISTER_METHOD(0x025FAF30, Calendar *, CreateCalendar, (int32_t calendarType));
 IL2CPP_REGISTER_METHODINFO(0x04756720, CultureInfo_CreateCalendar__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025FB250, Exception *, CreateNotFoundException, (String * name));
-IL2CPP_REGISTER_METHOD(0x025FB3D0, CultureInfo *, get_DefaultThreadCurrentCulture, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025FB480, CultureInfo *, get_DefaultThreadCurrentUICulture, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025FB3D0, CultureInfo *, get_DefaultThreadCurrentCulture, ());
+IL2CPP_REGISTER_METHOD(0x025FB480, CultureInfo *, get_DefaultThreadCurrentUICulture, ());
 IL2CPP_REGISTER_METHOD(0x002FB9F0, String *, get_SortName, (CultureInfo * __this));
-IL2CPP_REGISTER_METHOD(0x025FB530, CultureInfo *, get_UserDefaultUICulture, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025FB5C0, CultureInfo *, get_UserDefaultCulture, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025FB530, CultureInfo *, get_UserDefaultUICulture, ());
+IL2CPP_REGISTER_METHOD(0x025FB5C0, CultureInfo *, get_UserDefaultCulture, ());
 IL2CPP_REGISTER_METHOD(0x025FB650, void, CheckDomainSafetyObject, (Object * obj, Object * container));
 IL2CPP_REGISTER_METHODINFO(0x04751A60, CultureInfo_CheckDomainSafetyObject__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025FB870, bool, get_HasInvariantCultureName, (CultureInfo * __this));
 IL2CPP_REGISTER_METHOD(0x025FB970, bool, VerifyCultureName, (String * cultureName, bool throwException));
 IL2CPP_REGISTER_METHODINFO(0x047829C0, CultureInfo_VerifyCultureName__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025FBAF0, bool, VerifyCultureName, (CultureInfo * culture, bool throwException));
-IL2CPP_REGISTER_METHOD(0x025FBBE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025FBBE0, void, __cctor, ());
 }

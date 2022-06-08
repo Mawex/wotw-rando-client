@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1ClawSlamBehaviour {
 IL2CPP_REGISTER_METHOD(0x01765620, void, CopyData, (PetrifiedOwlBossFight1ClawSlamBehaviour * __this, PetrifiedOwlBossBaseBehaviour * other));

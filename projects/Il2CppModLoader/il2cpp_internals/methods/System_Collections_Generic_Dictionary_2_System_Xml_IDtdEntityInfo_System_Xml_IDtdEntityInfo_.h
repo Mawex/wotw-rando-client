@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Xml::IDtdEntityInfo_System::Xml::IDtdEntityInfo_ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_System_Xml_IDtdEntityInfo_System_Xml_IDtdEntityInfo_ * __this, IDtdEntityInfo * key));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardLocomotionTurningTimelineBehaviour {
 IL2CPP_REGISTER_METHOD(0x00FB17C0, Transform *, get_VFXHolder, (LizardLocomotionTurningTimelineBehaviour * __this));

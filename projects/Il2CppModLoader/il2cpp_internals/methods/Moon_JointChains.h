@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::JointChains {
 IL2CPP_REGISTER_METHOD(0x01B16260, bool, IsValidChain, (Transform__Array * chain));

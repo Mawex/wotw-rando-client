@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Iterators::VertexCirculator__EnumerateTriangles_d__3 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (VertexCirculator_EnumerateTriangles_d_3 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsFullyInstalledCondition {
 IL2CPP_REGISTER_METHOD(0x00645F00, bool, Validate, (IsFullyInstalledCondition * __this, IContext * context));

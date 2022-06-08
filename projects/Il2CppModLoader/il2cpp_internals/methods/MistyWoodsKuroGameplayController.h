@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MistyWoodsKuroGameplayController {
 IL2CPP_REGISTER_METHOD(0x01328EF0, bool, get_IsHidden, (MistyWoodsKuroGameplayController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__RepeatIterator_d__117_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, Object *, System_Collections_Generic_IEnumerator_TResult__get_Current, (Enumerable_RepeatIterator_d_117_1_System_Object_ * __this));

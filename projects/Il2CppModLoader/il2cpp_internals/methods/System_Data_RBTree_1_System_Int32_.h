@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::RBTree_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02FB3CE0, int32_t, get_Item, (RBTree_1_System_Int32_ * __this, int32_t index));

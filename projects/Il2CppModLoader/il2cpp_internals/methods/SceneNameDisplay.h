@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneNameDisplay {
 IL2CPP_REGISTER_METHOD(0x00BB1390, void, FixedUpdate, (SceneNameDisplay * __this));

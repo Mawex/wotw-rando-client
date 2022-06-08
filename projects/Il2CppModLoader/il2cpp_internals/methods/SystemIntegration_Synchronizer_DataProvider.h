@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::DataProvider {
 IL2CPP_REGISTER_METHOD(0x005332A0, bool, get_HasSynchronised, (DataProvider * __this));

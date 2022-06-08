@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShrineCombat {
 IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_IsSuspended, (ShrineCombat * __this));
@@ -20,8 +20,8 @@ IL2CPP_REGISTER_METHOD(0x0073A420, bool, IsInAllowedArea, (ShrineCombat * __this
 IL2CPP_REGISTER_METHOD(0x0073A610, bool, get_IsOnGround, (ShrineCombat * __this));
 IL2CPP_REGISTER_METHOD(0x0073A660, bool, get_CanTriggerShrine, (ShrineCombat * __this));
 IL2CPP_REGISTER_METHOD(0x0073A790, bool, get_IsRunning, (ShrineCombat * __this));
-IL2CPP_REGISTER_METHOD(0x0073A7C0, bool, IsAnyShrineRunning, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0073A990, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0073A7C0, bool, IsAnyShrineRunning, ());
+IL2CPP_REGISTER_METHOD(0x0073A990, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0073AA70, void, Awake, (ShrineCombat * __this));
 IL2CPP_REGISTER_METHOD(0x0073ACF0, void, OnEnable, (ShrineCombat * __this));
 IL2CPP_REGISTER_METHOD(0x0073AF90, void, OnDisable, (ShrineCombat * __this));
@@ -49,5 +49,5 @@ IL2CPP_REGISTER_METHOD(0x0073C510, String *, GetConditionNameFromGuid, (ShrineCo
 IL2CPP_REGISTER_METHOD(0x0073C600, bool, IsConditionGuidValid, (ShrineCombat * __this, int32_t guid));
 IL2CPP_REGISTER_METHOD(0x0073C610, bool, Validate, (ShrineCombat * __this, int32_t guid));
 IL2CPP_REGISTER_METHOD(0x0073C650, void, __ctor, (ShrineCombat * __this));
-IL2CPP_REGISTER_METHOD(0x0073C960, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0073C960, void, __cctor, ());
 }

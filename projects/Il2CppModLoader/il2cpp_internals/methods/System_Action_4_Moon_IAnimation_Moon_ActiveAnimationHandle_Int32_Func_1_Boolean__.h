@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_4_Moon::IAnimation_Moon::ActiveAnimationHandle_Int32_Func_1_Boolean__ {
 IL2CPP_REGISTER_METHOD(0x02C17600, void, Invoke, (Action_4_Moon_IAnimation_Moon_ActiveAnimationHandle_Int32_Func_1_Boolean_ * __this, IAnimation * arg1, ActiveAnimationHandle arg2, int32_t arg3, Func_1_Boolean_ * arg4));

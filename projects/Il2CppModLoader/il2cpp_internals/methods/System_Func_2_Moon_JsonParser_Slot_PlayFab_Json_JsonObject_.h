@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Moon::JsonParser_Slot_PlayFab::Json::JsonObject_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_Moon_JsonParser_Slot_PlayFab_Json_JsonObject_ * __this, Object * object, void * method_1));

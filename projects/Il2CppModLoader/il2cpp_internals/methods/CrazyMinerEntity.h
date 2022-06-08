@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CrazyMinerEntity {
 IL2CPP_REGISTER_METHOD(0x00DB7040, void, OnDied, (CrazyMinerEntity * __this, DamageResult result));

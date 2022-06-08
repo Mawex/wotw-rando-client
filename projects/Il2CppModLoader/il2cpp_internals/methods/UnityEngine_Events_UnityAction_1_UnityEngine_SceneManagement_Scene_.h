@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityAction_1_UnityEngine::SceneManagement::Scene_ {
 IL2CPP_REGISTER_METHOD(0x02AC77B0, void, Invoke, (UnityAction_1_UnityEngine_SceneManagement_Scene_ * __this, Scene arg0));

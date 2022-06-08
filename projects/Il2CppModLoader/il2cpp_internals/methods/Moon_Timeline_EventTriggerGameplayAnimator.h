@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EventTriggerGameplayAnimator {
 IL2CPP_REGISTER_METHOD(0x01BBD9E0, List_1_Moon_Timeline_EventTriggerGameplayAnimator_ *, FindInTimeline, (MoonTimeline * timeline, EventTriggerGameplayAnimator_Type__Enum type));

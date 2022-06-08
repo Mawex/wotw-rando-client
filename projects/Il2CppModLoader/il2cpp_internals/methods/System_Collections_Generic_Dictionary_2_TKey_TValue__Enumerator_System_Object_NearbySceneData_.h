@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::Object_NearbySceneData_ {
 IL2CPP_REGISTER_METHOD(0x00133F40, void, __ctor, (Dictionary_2_TKey_TValue_Enumerator_System_Object_NearbySceneData___Boxed * __this, Dictionary_2_System_Object_NearbySceneData_ * dictionary, int32_t getEnumeratorRetType));

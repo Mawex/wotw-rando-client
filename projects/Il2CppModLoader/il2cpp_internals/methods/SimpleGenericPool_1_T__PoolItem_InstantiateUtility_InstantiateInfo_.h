@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SimpleGenericPool_1_T__PoolItem_InstantiateUtility_InstantiateInfo_ {
 IL2CPP_REGISTER_METHOD(0x001C99E0, void, SetInstantiationSettings, (SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo___Boxed * __this, bool optional, int32_t maxLife));

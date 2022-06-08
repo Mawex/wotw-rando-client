@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationEntry {
 IL2CPP_REGISTER_METHOD(0x004FC8F0, void, __ctor, (AnimationEntry * __this));

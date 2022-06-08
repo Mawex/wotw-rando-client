@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RightMenuManager {
 IL2CPP_REGISTER_METHOD(0x00910BE0, void, OnEnable, (RightMenuManager * __this));

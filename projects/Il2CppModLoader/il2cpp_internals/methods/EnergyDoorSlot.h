@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnergyDoorSlot {
 IL2CPP_REGISTER_METHOD(0x00C89290, void, Awake, (EnergyDoorSlot * __this));

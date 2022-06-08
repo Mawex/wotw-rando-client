@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSerializationReaderInterpreter_FixupCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x010415E0, void, __ctor, (XmlSerializationReaderInterpreter_FixupCallbackInfo * __this, XmlSerializationReaderInterpreter * sri, ClassMap * map, bool isValueList));

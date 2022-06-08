@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Animator {
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (Animator * __this));
-IL2CPP_REGISTER_METHOD(0x0307F1D0, bool, get_avatarRootIsAnimator, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0307F1D0, bool, get_avatarRootIsAnimator, ());
 IL2CPP_REGISTER_METHOD(0x0307F220, void, set_avatarRootIsAnimator, (bool value));
-IL2CPP_REGISTER_METHOD(0x0307F270, bool, get_additiveLoopingAnimationOptimizationEnabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0307F270, bool, get_additiveLoopingAnimationOptimizationEnabled, ());
 IL2CPP_REGISTER_METHOD(0x0307F2C0, void, set_additiveLoopingAnimationOptimizationEnabled, (bool value));
 IL2CPP_REGISTER_METHOD(0x0307F310, bool, get_isOptimizeAnimationSystemEnabled, (Animator * __this));
 IL2CPP_REGISTER_METHOD(0x0307F360, void, set_isOptimizeAnimationSystemEnabled, (Animator * __this, bool value));

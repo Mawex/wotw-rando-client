@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::PKCS1 {
 IL2CPP_REGISTER_METHOD(0x025D0AD0, bool, Compare, (Byte__Array * array1, Byte__Array * array2));
@@ -26,7 +26,7 @@ IL2CPP_REGISTER_METHOD(0x025D2750, Byte__Array *, MGF1, (HashAlgorithm * hash, B
 IL2CPP_REGISTER_METHODINFO(0x047697A0, PKCS1_MGF1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025D29A0, HashAlgorithm *, CreateFromName, (String * name));
 IL2CPP_REGISTER_METHODINFO(0x04743FD8, PKCS1_CreateFromName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025D2E00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025D2E00, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x025D0AD0, bool, Compare, (Byte__Array * array1, Byte__Array * array2));
 IL2CPP_REGISTER_METHOD(0x02A3E610, Byte__Array *, I2OSP, (Byte__Array * x, int32_t size));
 IL2CPP_REGISTER_METHOD(0x02A3E6E0, Byte__Array *, OS2IP, (Byte__Array * x));
@@ -42,5 +42,5 @@ IL2CPP_REGISTER_METHODINFO(0x0474C4C8, PKCS1_1_HashNameFromOid__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A3F6F0, HashAlgorithm *, CreateFromOid, (String * oid));
 IL2CPP_REGISTER_METHOD(0x02A3F7A0, HashAlgorithm *, CreateFromName, (String * name));
 IL2CPP_REGISTER_METHODINFO(0x0475C1B0, PKCS1_1_CreateFromName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02A3FC00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A3FC00, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Colors_Adjust_PreFilters {
 IL2CPP_REGISTER_METHOD(0x024DE600, Material *, get_material, (CameraFilterPack_Colors_Adjust_PreFilters * __this));

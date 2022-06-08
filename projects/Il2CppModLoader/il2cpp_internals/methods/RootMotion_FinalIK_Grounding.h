@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Grounding {
 IL2CPP_REGISTER_METHOD(0x002FBB40, Grounding_Leg__Array *, get_legs, (Grounding * __this));

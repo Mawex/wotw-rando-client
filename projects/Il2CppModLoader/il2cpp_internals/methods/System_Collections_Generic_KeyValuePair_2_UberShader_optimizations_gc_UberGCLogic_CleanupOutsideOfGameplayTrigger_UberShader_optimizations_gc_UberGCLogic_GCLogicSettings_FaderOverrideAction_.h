@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_UberShader::optimizations::gc::UberGCLogic_CleanupOutsideOfGameplayTrigger_UberShader::optimizations::gc::UberGCLogic_GCLogicSettings_FaderOverrideAction_ {
 IL2CPP_REGISTER_METHOD(0x0010E170, UberGCLogic_CleanupOutsideOfGameplayTrigger__Enum, get_Key, (KeyValuePair_2_UberShader_optimizations_gc_UberGCLogic_CleanupOutsideOfGameplayTrigger_UberShader_optimizations_gc_UberGCLogic_GCLogicSettings_FaderOverrideAction___Boxed * __this));

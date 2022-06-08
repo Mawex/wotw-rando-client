@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AK::Wwise::State {
 IL2CPP_REGISTER_METHOD(0x0043D9A0, WwiseObjectType__Enum, get_WwiseObjectType, (State * __this));

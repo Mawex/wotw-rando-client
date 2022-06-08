@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneMetaData_SeinInitialValuesBlindForest {
 IL2CPP_REGISTER_METHOD(0x00BAE200, void, ApplyInitialValues, (SceneMetaData_SeinInitialValuesBlindForest * __this));

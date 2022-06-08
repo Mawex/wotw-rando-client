@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_Moon::ActiveAnimationHandle_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x00133A30, void, __ctor, (Dictionary_2_TKey_TValue_Enumerator_Moon_ActiveAnimationHandle_System_Int32___Boxed * __this, Dictionary_2_Moon_ActiveAnimationHandle_System_Int32_ * dictionary, int32_t getEnumeratorRetType));

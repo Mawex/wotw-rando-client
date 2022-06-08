@@ -1,5 +1,5 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShaderID_CameraFilterPack_FX_superDot {
-IL2CPP_REGISTER_METHOD(0x02B64CB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02B64CB0, void, __cctor, ());
 }

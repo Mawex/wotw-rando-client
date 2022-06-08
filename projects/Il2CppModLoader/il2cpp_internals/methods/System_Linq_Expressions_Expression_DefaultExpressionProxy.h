@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_DefaultExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x029D4C10, void, __ctor, (Expression_DefaultExpressionProxy * __this, DefaultExpression * node));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateHolder_1_Moon::dialogGraph::ChangeStateDialogDecorator_StateConditionSetupData_ {
 IL2CPP_REGISTER_METHOD(0x01D197E0, void, __ctor, (StateHolder_1_Moon_dialogGraph_ChangeStateDialogDecorator_StateConditionSetupData_ * __this));

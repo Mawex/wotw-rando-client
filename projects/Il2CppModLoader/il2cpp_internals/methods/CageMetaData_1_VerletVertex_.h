@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageMetaData_1_VerletVertex_ {
 IL2CPP_REGISTER_METHOD(0x019DD450, void, Add, (CageMetaData_1_VerletVertex_ * __this, VerletVertex * dataEntry, int32_t id));

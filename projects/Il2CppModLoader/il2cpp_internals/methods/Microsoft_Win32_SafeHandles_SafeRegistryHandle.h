@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::SafeHandles::SafeRegistryHandle {
 IL2CPP_REGISTER_METHOD(0x021722B0, void, __ctor, (SafeRegistryHandle * __this, void * preexistingHandle, bool ownsHandle));

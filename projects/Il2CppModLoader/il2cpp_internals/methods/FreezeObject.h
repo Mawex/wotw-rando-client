@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FreezeObject {
 IL2CPP_REGISTER_METHOD(0x02553230, void, Awake, (FreezeObject * __this));

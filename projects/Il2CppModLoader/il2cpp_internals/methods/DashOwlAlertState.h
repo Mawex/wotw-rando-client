@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DashOwlAlertState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (DashOwlAlertState * __this, DashOwlEnemy * dashOwl));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::HMAC {
 IL2CPP_REGISTER_METHOD(0x02A3C290, Byte__Array *, get_Key, (HMAC_1 * __this));

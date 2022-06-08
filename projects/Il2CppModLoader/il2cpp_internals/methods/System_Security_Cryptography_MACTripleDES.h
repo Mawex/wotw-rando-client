@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::MACTripleDES {
 IL2CPP_REGISTER_METHOD(0x020DC4C0, void, __ctor, (MACTripleDES * __this));

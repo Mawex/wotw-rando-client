@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InstantiationHistory_PrefabData {
 IL2CPP_REGISTER_METHOD(0x00635BE0, void, __ctor, (InstantiationHistory_PrefabData * __this));

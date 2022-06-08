@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MethodBase {
 IL2CPP_REGISTER_METHOD(0x0268C9D0, MethodBase *, GetMethodFromHandle, (RuntimeMethodHandle handle));

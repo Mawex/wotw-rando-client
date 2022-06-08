@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::NullableConverter {
 IL2CPP_REGISTER_METHOD(0x02991010, void, __ctor, (NullableConverter * __this, Type * type));

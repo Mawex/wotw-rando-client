@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::GrdkAchievements {
 IL2CPP_REGISTER_METHOD(0x0052BB80, String *, get_Name, (GrdkAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052BC00, bool, get_IsSynchronising, (GrdkAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052BCA0, bool, get_HasSynchronised, (GrdkAchievements * __this));
-IL2CPP_REGISTER_METHOD(0x0052BD40, bool, get_Disable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0052BD40, bool, get_Disable, ());
 IL2CPP_REGISTER_METHOD(0x0052BDC0, void, set_Disable, (bool value));
 IL2CPP_REGISTER_METHOD(0x0052BE50, CacheData__Array *, AwardedOnServer, (GrdkAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052C2C0, void, AwardOnServer, (GrdkAchievements * __this, CacheData * data));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlNameEx {
 IL2CPP_REGISTER_METHOD(0x01DC0AF0, void, __ctor, (XmlNameEx * __this, String * prefix, String * localName, String * ns, int32_t hashCode, XmlDocument * ownerDoc, XmlName * next, IXmlSchemaInfo * schemaInfo));

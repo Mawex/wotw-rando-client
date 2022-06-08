@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::SortedList {
 IL2CPP_REGISTER_METHOD(0x0202CBF0, void, __ctor, (SortedList * __this));
@@ -48,5 +48,5 @@ IL2CPP_REGISTER_METHODINFO(0x0470AF68, SortedList_RemoveAt__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0202EC90, void, Remove, (SortedList * __this, Object * key));
 IL2CPP_REGISTER_METHOD(0x0202ECD0, SortedList *, Synchronized, (SortedList * list));
 IL2CPP_REGISTER_METHODINFO(0x04791418, SortedList_Synchronized__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0202EEE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0202EEE0, void, __cctor, ());
 }

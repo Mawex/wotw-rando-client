@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::FileWebRequest {
 IL2CPP_REGISTER_METHOD(0x01D27E90, void, __ctor, (FileWebRequest * __this, Uri * uri));
@@ -52,5 +52,5 @@ IL2CPP_REGISTER_METHOD(0x01D2A700, void, set_UseDefaultCredentials, (FileWebRequ
 IL2CPP_REGISTER_METHODINFO(0x04712600, FileWebRequest_set_UseDefaultCredentials__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D2A740, void, Abort, (FileWebRequest * __this));
 IL2CPP_REGISTER_METHODINFO(0x0478E860, FileWebRequest_Abort__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01D2AB10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D2AB10, void, __cctor, ());
 }

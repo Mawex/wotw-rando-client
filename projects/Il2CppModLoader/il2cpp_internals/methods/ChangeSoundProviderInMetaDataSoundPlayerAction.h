@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChangeSoundProviderInMetaDataSoundPlayerAction {
 IL2CPP_REGISTER_METHOD(0x01045FA0, void, Perform, (ChangeSoundProviderInMetaDataSoundPlayerAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostPlayer {
 IL2CPP_REGISTER_METHOD(0x002FBC40, String *, get_GhostReplay, (GhostPlayer * __this));
@@ -8,7 +8,7 @@ IL2CPP_REGISTER_METHOD(0x0041DB70, void, set_IsFinished, (GhostPlayer * __this, 
 IL2CPP_REGISTER_METHOD(0x007DBE90, GhostRecordingMetaDataData *, get_MetaData, (GhostPlayer * __this));
 IL2CPP_REGISTER_METHOD(0x007DC000, void, OnEnable, (GhostPlayer * __this));
 IL2CPP_REGISTER_METHOD(0x007DC540, void, OnDisable, (GhostPlayer * __this));
-IL2CPP_REGISTER_METHOD(0x007DC760, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007DC760, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnPoolSpawned, (GhostPlayer * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnPoolDespawned, (GhostPlayer * __this));
 IL2CPP_REGISTER_METHOD(0x007DC800, void, InitializeVisualize, (GhostPlayer * __this, OriGhostRigVisuals_GhostVisualSettings * visualSettings));
@@ -43,7 +43,7 @@ IL2CPP_REGISTER_METHOD(0x0065FBE0, SoundHost *, get_SoundHost, (GhostPlayer * __
 IL2CPP_REGISTER_METHOD(0x007DF180, bool, HasAbility, (GhostPlayer * __this, AbilityType__Enum abilityType));
 IL2CPP_REGISTER_METHOD(0x007DF1A0, bool, IsStatePerforming, (GhostPlayer * __this, CharacterState * state));
 IL2CPP_REGISTER_METHOD(0x007DF1D0, void, __ctor, (GhostPlayer * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015EA340, Object *, GetPlugin, (GhostPlayer * __this));
 IL2CPP_REGISTER_METHOD(0x015EA250, Object *, GetFrameData, (GhostPlayer * __this, int32_t frame));
 IL2CPP_REGISTER_METHOD(0x01EB8750, List_1_System_Object_ *, GetFrameDatas, (GhostPlayer * __this, int32_t frame));

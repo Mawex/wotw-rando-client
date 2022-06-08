@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::WandererPatrolBehaviour {
 IL2CPP_REGISTER_METHOD(0x011A3AB0, void, OnEntityInitialized, (WandererPatrolBehaviour * __this));

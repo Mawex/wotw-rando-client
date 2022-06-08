@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::DemoList {
 IL2CPP_REGISTER_METHOD(0x01DD35D0, void, Start, (DemoList * __this));

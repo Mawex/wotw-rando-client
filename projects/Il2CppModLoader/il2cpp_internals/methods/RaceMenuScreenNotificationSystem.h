@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceMenuScreenNotificationSystem {
 IL2CPP_REGISTER_METHOD(0x0070EBC0, void, __ctor, (RaceMenuScreenNotificationSystem * __this));

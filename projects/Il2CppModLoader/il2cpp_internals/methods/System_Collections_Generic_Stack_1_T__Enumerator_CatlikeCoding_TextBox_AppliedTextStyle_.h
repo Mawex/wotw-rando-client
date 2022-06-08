@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_T__Enumerator_CatlikeCoding::TextBox::AppliedTextStyle_ {
 IL2CPP_REGISTER_METHOD(0x002337B0, void, __ctor, (Stack_1_T_Enumerator_CatlikeCoding_TextBox_AppliedTextStyle___Boxed * __this, Stack_1_CatlikeCoding_TextBox_AppliedTextStyle_ * stack));

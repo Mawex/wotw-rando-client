@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::Vertex {
 IL2CPP_REGISTER_METHOD(0x0261E6E0, void, __ctor, (Vertex * __this));

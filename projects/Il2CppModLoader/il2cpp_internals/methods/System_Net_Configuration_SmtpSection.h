@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::SmtpSection {
 IL2CPP_REGISTER_METHOD(0x01E99080, void, __ctor, (SmtpSection * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateHolder_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01D19450, Object *, ResolveCurrent, (StateHolder_1_System_Object_ * __this));

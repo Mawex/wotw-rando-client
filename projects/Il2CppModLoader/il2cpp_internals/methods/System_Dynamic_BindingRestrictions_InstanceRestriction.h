@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::BindingRestrictions_InstanceRestriction {
 IL2CPP_REGISTER_METHOD(0x01F892C0, void, __ctor, (BindingRestrictions_InstanceRestriction * __this, Expression * parameter, Object * instance));

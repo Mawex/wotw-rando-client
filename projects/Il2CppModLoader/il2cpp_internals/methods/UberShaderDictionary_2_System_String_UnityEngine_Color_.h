@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_System::String_UnityEngine::Color_ {
 IL2CPP_REGISTER_METHOD(0x0225DBC0, void, __ctor, (UberShaderDictionary_2_System_String_UnityEngine_Color_ * __this));

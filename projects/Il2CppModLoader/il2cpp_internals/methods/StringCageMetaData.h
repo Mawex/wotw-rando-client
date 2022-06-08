@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StringCageMetaData {
 IL2CPP_REGISTER_METHOD(0x00670E00, void, OnEnable, (StringCageMetaData * __this));

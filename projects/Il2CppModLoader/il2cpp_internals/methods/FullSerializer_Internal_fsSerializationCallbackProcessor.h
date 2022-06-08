@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsSerializationCallbackProcessor {
 IL2CPP_REGISTER_METHOD(0x0165D3F0, bool, CanProcess, (fsSerializationCallbackProcessor * __this, Type * type));

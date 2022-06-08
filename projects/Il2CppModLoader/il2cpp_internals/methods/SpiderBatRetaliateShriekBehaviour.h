@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatRetaliateShriekBehaviour {
 IL2CPP_REGISTER_METHOD(0x0095F720, void, OnEnter, (SpiderBatRetaliateShriekBehaviour * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AutoScrollTexture {
 IL2CPP_REGISTER_METHOD(0x0085DDA0, void, Awake, (AutoScrollTexture * __this));

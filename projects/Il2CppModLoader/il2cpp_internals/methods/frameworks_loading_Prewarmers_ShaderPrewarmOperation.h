@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::ShaderPrewarmOperation {
 IL2CPP_REGISTER_METHOD(0x00F62000, void, __ctor, (ShaderPrewarmOperation * __this));

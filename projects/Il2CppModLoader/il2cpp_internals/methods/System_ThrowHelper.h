@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ThrowHelper {
 IL2CPP_REGISTER_METHOD(0x027ABA90, void, ThrowArgumentNullException, (ExceptionArgument__Enum argument));
@@ -10,16 +10,16 @@ IL2CPP_REGISTER_METHOD(0x027ABC90, Exception *, CreateArrayTypeMismatchException
 IL2CPP_REGISTER_METHOD(0x027ABE00, void, ThrowArgumentException_InvalidTypeWithPointersNotSupported, (Type * type));
 IL2CPP_REGISTER_METHODINFO(0x0477B860, ThrowHelper_ThrowArgumentException_InvalidTypeWithPointersNotSupported__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027ABE40, Exception *, CreateArgumentException_InvalidTypeWithPointersNotSupported, (Type * type));
-IL2CPP_REGISTER_METHOD(0x027ABFB0, void, ThrowIndexOutOfRangeException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027ABFB0, void, ThrowIndexOutOfRangeException, ());
 IL2CPP_REGISTER_METHODINFO(0x047326D8, ThrowHelper_ThrowIndexOutOfRangeException__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x027ABFF0, Exception *, CreateIndexOutOfRangeException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027ABFF0, Exception *, CreateIndexOutOfRangeException, ());
 IL2CPP_REGISTER_METHOD(0x027AC130, void, ThrowArgumentOutOfRangeException, (ExceptionArgument__Enum argument));
 IL2CPP_REGISTER_METHODINFO(0x04730B40, ThrowHelper_ThrowArgumentOutOfRangeException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027AC170, Exception *, CreateArgumentOutOfRangeException, (ExceptionArgument__Enum argument));
-IL2CPP_REGISTER_METHOD(0x027AC300, void, ThrowArgumentOutOfRangeException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027AC300, void, ThrowArgumentOutOfRangeException, ());
 IL2CPP_REGISTER_METHOD(0x027AC320, void, ThrowWrongValueTypeArgumentException, (Object * value, Type * targetType));
 IL2CPP_REGISTER_METHODINFO(0x0475D708, ThrowHelper_ThrowWrongValueTypeArgumentException__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x027AC3F0, void, ThrowKeyNotFoundException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027AC3F0, void, ThrowKeyNotFoundException, ());
 IL2CPP_REGISTER_METHODINFO(0x04752468, ThrowHelper_ThrowKeyNotFoundException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027AC440, void, ThrowArgumentException, (ExceptionResource__Enum resource));
 IL2CPP_REGISTER_METHODINFO(0x04754FA8, ThrowHelper_ThrowArgumentException__MethodInfo);

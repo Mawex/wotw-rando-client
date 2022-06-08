@@ -1,14 +1,14 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSliceSystem {
-IL2CPP_REGISTER_METHOD(0x010BCA70, bool, get_DebuggingBudgetExceeded, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010BCB40, bool, get_TimeslicedEnabled, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010BCB60, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_LowPriorityQueue, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010BCC00, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_MediumPriorityQueue, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010BCCA0, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_HighPriorityQueue, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010BCD40, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_MandatoryPriorityQueue, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010BCDE0, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010BCF60, double, get_LastFrameElapsedMilliseconds, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010BCA70, bool, get_DebuggingBudgetExceeded, ());
+IL2CPP_REGISTER_METHOD(0x010BCB40, bool, get_TimeslicedEnabled, ());
+IL2CPP_REGISTER_METHOD(0x010BCB60, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_LowPriorityQueue, ());
+IL2CPP_REGISTER_METHOD(0x010BCC00, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_MediumPriorityQueue, ());
+IL2CPP_REGISTER_METHOD(0x010BCCA0, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_HighPriorityQueue, ());
+IL2CPP_REGISTER_METHOD(0x010BCD40, Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ *, get_MandatoryPriorityQueue, ());
+IL2CPP_REGISTER_METHOD(0x010BCDE0, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x010BCF60, double, get_LastFrameElapsedMilliseconds, ());
 IL2CPP_REGISTER_METHOD(0x010BD0C0, double, get_ElaspedMiliseconds, (TimeSliceSystem * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB80, String *, get_LastJobName, (TimeSliceSystem * __this));
 IL2CPP_REGISTER_METHOD(0x010BD110, double, get_LastJobDuration, (TimeSliceSystem * __this));
@@ -33,7 +33,7 @@ IL2CPP_REGISTER_METHOD(0x010BF890, void, FinishJob, (TimeSliceSystem * __this, I
 IL2CPP_REGISTER_METHOD(0x010BFAF0, void, OnJobCancelled, (TimeSliceSystem * __this, ITimeSlicedJob * job));
 IL2CPP_REGISTER_METHOD(0x010BFC20, bool, ShouldExecuteAMediumJob, (TimeSliceSystem * __this));
 IL2CPP_REGISTER_METHOD(0x010BFC40, void, __ctor, (TimeSliceSystem * __this));
-IL2CPP_REGISTER_METHOD(0x010BFDA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010BFDA0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015515F0, void, UpdateCustomBudgetForJobsOfType, (float newBudget));
 IL2CPP_REGISTER_METHOD(0x015512E0, void, ExecuteAllJobsOfTypeOnSingleFrame, (Queue_1_Moon_TimeSlicer_ITimeSlicedJob_ * queue, Type__Array * exclusions));
 IL2CPP_REGISTER_METHOD(0x015514C0, void, FinishAllJobsOfTypeImmediately, (Type__Array * exclusions));

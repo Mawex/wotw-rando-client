@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FlutteringShotDownBehaviour_FlutterShotDownState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (FlutteringShotDownBehaviour_FlutterShotDownState * __this, FlutteringShotDownBehaviour * behaviour));

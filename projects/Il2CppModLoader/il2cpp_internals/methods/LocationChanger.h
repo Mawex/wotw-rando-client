@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocationChanger {
 IL2CPP_REGISTER_METHOD(0x00FC1570, void, Start, (LocationChanger * __this));

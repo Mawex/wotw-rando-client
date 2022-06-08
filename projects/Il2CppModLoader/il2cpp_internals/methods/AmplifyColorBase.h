@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AmplifyColorBase {
 IL2CPP_REGISTER_METHOD(0x030D48D0, Texture2D *, get_DefaultLut, (AmplifyColorBase * __this));

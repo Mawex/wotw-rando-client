@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RockyEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x01361870, LegacyEntity *, Instantiate, (RockyEnemyPlaceholder * __this));

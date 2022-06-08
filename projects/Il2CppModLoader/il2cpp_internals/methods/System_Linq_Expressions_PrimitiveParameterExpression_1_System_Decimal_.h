@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::PrimitiveParameterExpression_1_System::Decimal_ {
 IL2CPP_REGISTER_METHOD(0x025462B0, void, __ctor, (PrimitiveParameterExpression_1_System_Decimal_ * __this, String * name));

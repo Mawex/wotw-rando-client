@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_GameMapPins_PinColour_GameMapPins_Pin_ {
 IL2CPP_REGISTER_METHOD(0x02C35530, GameMapPins_Pin *, get_Item, (Dictionary_2_GameMapPins_PinColour_GameMapPins_Pin_ * __this, GameMapPins_PinColour__Enum key));

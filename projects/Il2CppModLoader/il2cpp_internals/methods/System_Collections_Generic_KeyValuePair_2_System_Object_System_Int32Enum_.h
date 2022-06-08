@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Object_System::Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x0011D2D0, void, __ctor, (KeyValuePair_2_System_Object_System_Int32Enum___Boxed * __this, Object * key, Int32Enum__Enum value));

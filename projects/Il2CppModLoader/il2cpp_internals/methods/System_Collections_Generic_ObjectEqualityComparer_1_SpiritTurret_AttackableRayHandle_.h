@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_SpiritTurret_AttackableRayHandle_ {
 IL2CPP_REGISTER_METHOD(0x01CD1020, bool, Equals, (ObjectEqualityComparer_1_SpiritTurret_AttackableRayHandle_ * __this, SpiritTurret_AttackableRayHandle x, SpiritTurret_AttackableRayHandle y));

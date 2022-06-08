@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControlListGridController {
 IL2CPP_REGISTER_METHOD(0x011EE200, void, Awake, (ControlListGridController * __this));

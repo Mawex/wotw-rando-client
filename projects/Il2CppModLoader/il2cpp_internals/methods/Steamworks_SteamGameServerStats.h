@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerStats {
 IL2CPP_REGISTER_METHOD(0x027FD120, SteamAPICall_t, RequestUserStats, (CSteamID steamIDUser));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_anySimpleType {
 IL2CPP_REGISTER_METHOD(0x023582F0, XmlValueConverter *, CreateValueConverter, (Datatype_anySimpleType * __this, XmlSchemaType * schemaType));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x0043D9E0, XmlSchemaWhiteSpace__Enum, get_BuiltInWhitesp
 IL2CPP_REGISTER_METHOD(0x02358570, int32_t, Compare, (Datatype_anySimpleType * __this, Object * value1, Object * value2));
 IL2CPP_REGISTER_METHOD(0x023586A0, Exception *, TryParseValue, (Datatype_anySimpleType * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x023586C0, void, __ctor, (Datatype_anySimpleType * __this));
-IL2CPP_REGISTER_METHOD(0x02358750, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02358750, void, __cctor, ());
 }

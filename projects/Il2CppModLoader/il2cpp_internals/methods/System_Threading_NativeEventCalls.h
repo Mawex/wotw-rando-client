@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::NativeEventCalls {
 IL2CPP_REGISTER_METHOD(0x027E1250, void *, CreateEvent_internal, (bool manual, bool initial, String * name, int32_t * errorCode));

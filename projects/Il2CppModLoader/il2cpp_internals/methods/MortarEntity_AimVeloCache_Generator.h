@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarEntity_AimVeloCache_Generator {
 IL2CPP_REGISTER_METHOD(0x0147A540, void, EnumerateVelocitiesForTarget, (MortarEntity_AimVeloCache_Generator * __this, Vector3 targetPosWorld));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_EntityReactions_ReactionInterruptionSuspensionEntry_ {
 IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, __ctor, (ReadOnlyCollection_1_EntityReactions_ReactionInterruptionSuspensionEntry_ * __this, IList_1_EntityReactions_ReactionInterruptionSuspensionEntry_ * list));

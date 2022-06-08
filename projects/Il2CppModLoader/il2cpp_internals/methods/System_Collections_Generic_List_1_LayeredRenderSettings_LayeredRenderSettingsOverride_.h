@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_LayeredRenderSettings_LayeredRenderSettingsOverride_ {
 IL2CPP_REGISTER_METHOD(0x025EC760, LayeredRenderSettings_LayeredRenderSettingsOverride, get_Item, (List_1_LayeredRenderSettings_LayeredRenderSettingsOverride_ * __this, int32_t index));
@@ -63,5 +63,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_LayeredRenderSettings_Lay
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_LayeredRenderSettings_LayeredRenderSettingsOverride_ * __this, Comparison_1_LayeredRenderSettings_LayeredRenderSettingsOverride_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, LayeredRenderSettings_LayeredRenderSettingsOverride__Array *, ToArray, (List_1_LayeredRenderSettings_LayeredRenderSettingsOverride_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_LayeredRenderSettings_LayeredRenderSettingsOverride_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlowChargeEffect {
 IL2CPP_REGISTER_METHOD(0x007FAA40, void, Awake, (GlowChargeEffect * __this));

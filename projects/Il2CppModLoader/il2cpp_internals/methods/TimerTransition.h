@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimerTransition {
 IL2CPP_REGISTER_METHOD(0x010F9340, bool, ShouldTransition, (TimerTransition * __this));

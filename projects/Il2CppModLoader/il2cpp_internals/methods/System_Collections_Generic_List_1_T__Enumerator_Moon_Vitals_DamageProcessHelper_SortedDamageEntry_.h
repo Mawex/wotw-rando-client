@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::Vitals_DamageProcessHelper_SortedDamageEntry_ {
 IL2CPP_REGISTER_METHOD(0x0014D030, void, __ctor, (List_1_T_Enumerator_Moon_Vitals_DamageProcessHelper_SortedDamageEntry___Boxed * __this, List_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ * list));

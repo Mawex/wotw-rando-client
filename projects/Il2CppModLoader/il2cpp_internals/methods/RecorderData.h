@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecorderData {
 IL2CPP_REGISTER_METHOD(0x003FC7F0, int32_t, get_FlushedFramesCount, (RecorderData * __this));

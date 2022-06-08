@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DelegateSerializationHolder {
 IL2CPP_REGISTER_METHOD(0x017401E0, void, __ctor, (DelegateSerializationHolder * __this, SerializationInfo * info, StreamingContext ctx));

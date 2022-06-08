@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::TraceLoggingMetadataCollector_Impl {
 IL2CPP_REGISTER_METHOD(0x01A0D610, void, AddScalar, (TraceLoggingMetadataCollector_Impl * __this, int32_t size));

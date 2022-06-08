@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Net::NetworkInformation::Win32IPGlobalProperties_Win32_MIB_TCPROW_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_System_Net_NetworkInformation_Win32IPGlobalProperties_Win32_MIB_TCPROW_ * __this));

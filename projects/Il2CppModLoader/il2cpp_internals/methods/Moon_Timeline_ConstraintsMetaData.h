@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ConstraintsMetaData {
 IL2CPP_REGISTER_METHOD(0x01BB8230, bool, HasFlags, (ConstraintsMetaData * __this, ConstraintFlag__Enum flags));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocomotionTurningTimelineBehaviour {
 IL2CPP_REGISTER_METHOD(0x006C14C0, bool, ShouldPauseLocomotion, (LocomotionTurningTimelineBehaviour * __this));

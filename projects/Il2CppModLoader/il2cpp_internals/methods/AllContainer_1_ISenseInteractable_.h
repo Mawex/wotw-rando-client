@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AllContainer_1_ISenseInteractable_ {
 IL2CPP_REGISTER_METHOD(0x019D79F0, bool, Contains, (AllContainer_1_ISenseInteractable_ * __this, ISenseInteractable * item));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_AttackTokens_Request_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_AttackTokens_Request_ * __this, AttackTokens_Request x, AttackTokens_Request y));

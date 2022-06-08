@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuScreenManager__PostFadeMenuOpen_d__100 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (MenuScreenManager_PostFadeMenuOpen_d_100 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ChunkedInputStream {
 IL2CPP_REGISTER_METHOD(0x02016D60, void, __ctor, (ChunkedInputStream * __this, HttpListenerContext * context, Stream * stream, Byte__Array * buffer, int32_t offset, int32_t length));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerGrabPushPullHintSystem {
 IL2CPP_REGISTER_METHOD(0x0140ECE0, void, OnEnterRange, (PlayerGrabPushPullHintSystem * __this, bool bash));

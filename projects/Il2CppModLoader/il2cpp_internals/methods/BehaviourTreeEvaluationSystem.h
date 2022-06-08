@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BehaviourTreeEvaluationSystem {
 IL2CPP_REGISTER_METHOD(0x00998570, UpdateType__Enum, get_UpdateType, (BehaviourTreeEvaluationSystem * __this));

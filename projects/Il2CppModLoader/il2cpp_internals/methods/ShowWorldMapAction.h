@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowWorldMapAction {
 IL2CPP_REGISTER_METHOD(0x00739780, void, Perform, (ShowWorldMapAction * __this, IContext * context));

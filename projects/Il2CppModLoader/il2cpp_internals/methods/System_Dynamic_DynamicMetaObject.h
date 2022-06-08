@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::DynamicMetaObject {
 IL2CPP_REGISTER_METHOD(0x01F8A880, void, __ctor, (DynamicMetaObject * __this, Expression * expression, BindingRestrictions * restrictions));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x01F8AB80, DynamicMetaObject *, BindSetMember, (DynamicM
 IL2CPP_REGISTER_METHOD(0x01F8AC50, IEnumerable_1_System_String_ *, GetDynamicMemberNames, (DynamicMetaObject * __this));
 IL2CPP_REGISTER_METHOD(0x01F8ACD0, DynamicMetaObject *, Create, (Object * value, Expression * expression));
 IL2CPP_REGISTER_METHODINFO(0x0476C218, DynamicMetaObject_Create__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01F8AEE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F8AEE0, void, __cctor, ());
 }

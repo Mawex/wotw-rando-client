@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::InternalDataCollectionBase {
 IL2CPP_REGISTER_METHOD(0x01E3FA80, int32_t, get_Count, (InternalDataCollectionBase * __this));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x01E3FB50, int32_t, NamesEqual, (InternalDataCollectionB
 IL2CPP_REGISTER_METHOD(0x004C50A0, Object *, get_SyncRoot, (InternalDataCollectionBase * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, ArrayList *, get_List, (InternalDataCollectionBase * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (InternalDataCollectionBase * __this));
-IL2CPP_REGISTER_METHOD(0x01E3FC50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E3FC50, void, __cctor, ());
 }

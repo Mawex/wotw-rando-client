@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::pooling::UberPoolPrewarmMasterList {
 IL2CPP_REGISTER_METHOD(0x00F30ED0, UberPoolPrewarmMasterList_PrewarmConfig *, GetConfig, (UberPoolPrewarmMasterList * __this, String * id));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::MaskedTextProvider {
 IL2CPP_REGISTER_METHOD(0x01FF6640, void, __ctor, (MaskedTextProvider * __this, String * mask));
@@ -15,7 +15,7 @@ IL2CPP_REGISTER_METHOD(0x002FB970, int32_t, get_AssignedEditPositionCount, (Mask
 IL2CPP_REGISTER_METHOD(0x01FF7360, int32_t, get_AvailableEditPositionCount, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x01FF7370, Object *, Clone, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x002FB930, CultureInfo *, get_Culture, (MaskedTextProvider * __this));
-IL2CPP_REGISTER_METHOD(0x005D6E50, uint16_t, get_DefaultPasswordChar, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005D6E50, uint16_t, get_DefaultPasswordChar, ());
 IL2CPP_REGISTER_METHOD(0x01FF7B70, int32_t, get_EditPositionCount, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x01FF7B80, IEnumerator *, get_EditPositions, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x01FF7F40, bool, get_IncludeLiterals, (MaskedTextProvider * __this));
@@ -25,7 +25,7 @@ IL2CPP_REGISTER_METHOD(0x01FF8190, void, set_IncludePrompt, (MaskedTextProvider 
 IL2CPP_REGISTER_METHOD(0x01FF8260, bool, get_AsciiOnly, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x01FF8320, bool, get_IsPassword, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x01FF8330, void, set_IsPassword, (MaskedTextProvider * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00597B10, int32_t, get_InvalidIndex, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00597B10, int32_t, get_InvalidIndex, ());
 IL2CPP_REGISTER_METHOD(0x01FF83F0, int32_t, get_LastAssignedPosition, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x01FF8440, int32_t, get_Length, (MaskedTextProvider * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9B0, String *, get_Mask, (MaskedTextProvider * __this));
@@ -121,5 +121,5 @@ IL2CPP_REGISTER_METHOD(0x01FFD790, bool, VerifyChar, (MaskedTextProvider * __thi
 IL2CPP_REGISTER_METHOD(0x01FFD7E0, bool, VerifyEscapeChar, (MaskedTextProvider * __this, uint16_t input, int32_t position));
 IL2CPP_REGISTER_METHOD(0x01FFD820, bool, VerifyString, (MaskedTextProvider * __this, String * input));
 IL2CPP_REGISTER_METHOD(0x01FFD860, bool, VerifyString, (MaskedTextProvider * __this, String * input, int32_t * testPosition, MaskedTextResultHint__Enum * resultHint));
-IL2CPP_REGISTER_METHOD(0x01FFD8A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01FFD8A0, void, __cctor, ());
 }

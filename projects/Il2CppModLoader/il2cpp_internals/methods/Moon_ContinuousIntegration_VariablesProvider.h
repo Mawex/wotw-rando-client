@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ContinuousIntegration::VariablesProvider {
 IL2CPP_REGISTER_METHOD(0x0318EC30, Dictionary_2_System_String_System_String_ *, get_Arguments, (VariablesProvider * __this));

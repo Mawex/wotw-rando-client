@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::TailStream {
 IL2CPP_REGISTER_METHOD(0x01E112F0, void, __ctor, (TailStream * __this, int32_t bufferSize));

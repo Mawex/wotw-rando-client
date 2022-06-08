@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightTorch {
 IL2CPP_REGISTER_METHOD(0x00601090, bool, get_IsChasing, (LightTorch * __this));

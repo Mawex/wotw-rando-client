@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XName {
 IL2CPP_REGISTER_METHOD(0x03038AD0, void, __ctor, (XName * __this, XNamespace * ns, String * localName));

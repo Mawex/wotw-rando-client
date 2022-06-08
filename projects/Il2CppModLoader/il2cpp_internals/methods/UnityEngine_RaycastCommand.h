@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RaycastCommand {
 IL2CPP_REGISTER_METHOD(0x00244600, void, __ctor, (RaycastCommand__Boxed * __this, Vector3 from, Vector3 direction, float distance, int32_t layerMask, int32_t maxHits));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ContinuousIntegration::VariablesProvider___c__DisplayClass5_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (VariablesProvider_c_DisplayClass5_0 * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::RaceDataCache___c {
-IL2CPP_REGISTER_METHOD(0x00529B00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00529B00, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RaceDataCache_c * __this));
 IL2CPP_REGISTER_METHOD(0x00529C40, bool, _RemoveOwnEntries_b__14_0, (RaceDataCache_c * __this, KeyValuePair_2_System_String_SystemIntegration_Races_RaceEntry_ o));
 IL2CPP_REGISTER_METHODINFO(0x0478BA88, RaceDataCache_c__RemoveOwnEntries_b__14_0__MethodInfo);

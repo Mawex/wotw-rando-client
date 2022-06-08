@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsTypeConverter {
 IL2CPP_REGISTER_METHOD(0x01502A50, bool, CanProcess, (fsTypeConverter * __this, Type * type));

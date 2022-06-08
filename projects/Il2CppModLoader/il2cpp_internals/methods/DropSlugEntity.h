@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropSlugEntity {
 IL2CPP_REGISTER_METHOD(0x00BE3E30, float, get_ExposedFallRange, (DropSlugEntity * __this));

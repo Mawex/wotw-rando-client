@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_KeyValuePair_2_System::Object_System::Byte__ {
 IL2CPP_REGISTER_METHOD(0x0014CA00, void, __ctor, (List_1_T_Enumerator_KeyValuePair_2_System_Object_System_Byte___Boxed * __this, List_1_KeyValuePair_2_System_Object_System_Byte_ * list));

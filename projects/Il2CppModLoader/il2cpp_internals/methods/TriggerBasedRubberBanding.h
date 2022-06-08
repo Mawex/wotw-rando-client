@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriggerBasedRubberBanding {
 IL2CPP_REGISTER_METHOD(0x00B125C0, bool, IsEnabled, (TriggerBasedRubberBanding * __this));

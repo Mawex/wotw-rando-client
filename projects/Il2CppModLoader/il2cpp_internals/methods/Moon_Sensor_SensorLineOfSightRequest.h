@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Sensor_SensorLineOfSightRequest {
 IL2CPP_REGISTER_METHOD(0x00120650, void, Init, (Sensor_SensorLineOfSightRequest__Boxed * __this, Sensor * _sensor));

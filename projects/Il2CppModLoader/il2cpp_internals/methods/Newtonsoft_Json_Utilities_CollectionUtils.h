@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::CollectionUtils {
 IL2CPP_REGISTER_METHOD(0x01C00BD0, bool, IsDictionaryType, (Type * type));
@@ -17,9 +17,9 @@ IL2CPP_REGISTER_METHOD(0x01B34F90, bool, Contains, (List_1_System_Object_ * list
 IL2CPP_REGISTER_METHODINFO(0x0476AA58, CollectionUtils_Contains__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02654F40, int32_t, IndexOfReference, (List_1_System_Object_ * list, Object * item));
 IL2CPP_REGISTER_METHOD(0x01553340, void, FastReverse, (List_1_System_Object_ * list));
-IL2CPP_REGISTER_METHOD(0x01586730, Object__Array *, ArrayEmpty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01586730, Object__Array *, ArrayEmpty, ());
 IL2CPP_REGISTER_METHODINFO(0x04769688, CollectionUtils_ArrayEmpty__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01586730, Byte__Array *, ArrayEmpty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01586730, Byte__Array *, ArrayEmpty, ());
 IL2CPP_REGISTER_METHODINFO(0x04785CD0, CollectionUtils_ArrayEmpty_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01B350A0, bool, IsNullOrEmpty, (ICollection_1_Newtonsoft_Json_JsonConverter_ * collection));
 IL2CPP_REGISTER_METHODINFO(0x04771FE0, CollectionUtils_IsNullOrEmpty_1__MethodInfo);
@@ -35,16 +35,16 @@ IL2CPP_REGISTER_METHOD(0x01552F40, void, AddRange, (IList_1_Newtonsoft_Json_Seri
 IL2CPP_REGISTER_METHODINFO(0x04712640, CollectionUtils_AddRange_3__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01552F40, void, AddRange, (IList_1_System_Reflection_MemberInfo_ * initial, IEnumerable_1_System_Reflection_MemberInfo_ * collection));
 IL2CPP_REGISTER_METHODINFO(0x04708BD0, CollectionUtils_AddRange_4__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01586730, Int32__Array *, ArrayEmpty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01586730, Int32__Array *, ArrayEmpty, ());
 IL2CPP_REGISTER_METHODINFO(0x0475C328, CollectionUtils_ArrayEmpty_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01586730, DynamicMetaObject__Array *, ArrayEmpty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01586730, DynamicMetaObject__Array *, ArrayEmpty, ());
 IL2CPP_REGISTER_METHODINFO(0x04756FA0, CollectionUtils_ArrayEmpty_3__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02654D30, int32_t, IndexOf, (IEnumerable_1_System_Reflection_PropertyInfo_ * collection, Func_2_System_Reflection_PropertyInfo_Boolean_ * predicate));
 IL2CPP_REGISTER_METHODINFO(0x04785AB8, CollectionUtils_IndexOf_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01586730, Expression__Array *, ArrayEmpty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01586730, Expression__Array *, ArrayEmpty, ());
 IL2CPP_REGISTER_METHODINFO(0x047962C8, CollectionUtils_ArrayEmpty_4__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01552F40, void, AddRange, (IList_1_System_Linq_Expressions_Expression_ * initial, IEnumerable_1_System_Linq_Expressions_Expression_ * collection));
 IL2CPP_REGISTER_METHODINFO(0x04707C30, CollectionUtils_AddRange_5__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01586730, String__Array *, ArrayEmpty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01586730, String__Array *, ArrayEmpty, ());
 IL2CPP_REGISTER_METHODINFO(0x047868E8, CollectionUtils_ArrayEmpty_5__MethodInfo);
 }

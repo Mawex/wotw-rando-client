@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamEncryptedAppTicket {
 IL2CPP_REGISTER_METHOD(0x016022C0, bool, BDecryptTicket, (Byte__Array * rgubTicketEncrypted, uint32_t cubTicketEncrypted, Byte__Array * rgubTicketDecrypted, uint32_t * pcubTicketDecrypted, Byte__Array * rgubKey, int32_t cubKey));

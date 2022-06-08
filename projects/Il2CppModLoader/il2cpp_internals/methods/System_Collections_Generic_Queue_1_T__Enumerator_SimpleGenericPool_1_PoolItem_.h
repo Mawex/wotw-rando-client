@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_SimpleGenericPool_1_PoolItem_ {
 IL2CPP_REGISTER_METHOD(0x001EDDD0, void, __ctor, (Queue_1_T_Enumerator_SimpleGenericPool_1_PoolItem___Boxed * __this, Queue_1_SimpleGenericPool_1_PoolItem_ * q));

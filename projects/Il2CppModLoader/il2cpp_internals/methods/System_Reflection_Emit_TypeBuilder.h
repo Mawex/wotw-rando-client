@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::TypeBuilder {
 IL2CPP_REGISTER_METHOD(0x02689600, Assembly *, get_Assembly, (TypeBuilder * __this));

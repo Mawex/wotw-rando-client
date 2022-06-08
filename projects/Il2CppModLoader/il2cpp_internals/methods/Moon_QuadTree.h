@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::QuadTree {
 IL2CPP_REGISTER_METHOD(0x01994E70, void, __ctor, (QuadTree * __this, Rect rootRect));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHOD(0x01995DA0, void, QueryRecursively, (QuadTree * __this, Q
 IL2CPP_REGISTER_METHOD(0x01996040, void, QueryRecursively, (QuadTree * __this, QuadTree_Node * node, Rect rect, Byte__Array * bitmask, List_1_System_Int32_ * listToPopulate));
 IL2CPP_REGISTER_METHOD(0x019963C0, void, AddObject, (QuadTree * __this, IRectProvider * rectProvider, int32_t idx));
 IL2CPP_REGISTER_METHOD(0x019963F0, void, AddObjectRecursively, (QuadTree * __this, QuadTree_Node * node, IRectProvider * rectProvider, int32_t idx));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStateMatcher {
 IL2CPP_REGISTER_METHOD(0x00529FF0, UberStateMatcher_UberStateMatcherTypeIds__Enum, get_MatcherTypeID, (UberStateMatcher * __this));

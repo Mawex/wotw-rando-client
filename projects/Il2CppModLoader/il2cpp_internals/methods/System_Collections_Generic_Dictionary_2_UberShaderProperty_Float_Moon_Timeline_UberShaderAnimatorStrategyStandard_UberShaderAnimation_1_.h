@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UberShaderProperty_Float_Moon::Timeline::UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_ {
 IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_UberShaderProperty_Float_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_, GetEnumerator, (Dictionary_2_UberShaderProperty_Float_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_ * __this));

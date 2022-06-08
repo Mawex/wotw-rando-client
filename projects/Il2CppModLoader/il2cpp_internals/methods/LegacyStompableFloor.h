@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyStompableFloor {
 IL2CPP_REGISTER_METHOD(0x00A37AF0, void, Awake, (LegacyStompableFloor * __this));

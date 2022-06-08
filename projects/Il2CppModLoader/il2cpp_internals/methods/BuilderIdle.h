@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BuilderIdle {
 IL2CPP_REGISTER_METHOD(0x00816A70, BuilderEntity *, get_m_builder, (BuilderIdle * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindPipeZone {
 IL2CPP_REGISTER_METHOD(0x00577F30, void, OnTriggerStay, (WindPipeZone * __this, Collider * col));

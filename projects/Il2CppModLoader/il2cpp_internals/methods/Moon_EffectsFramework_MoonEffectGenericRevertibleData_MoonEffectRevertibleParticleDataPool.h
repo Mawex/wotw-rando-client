@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::MoonEffectGenericRevertibleData_MoonEffectRevertibleParticleDataPool {
 IL2CPP_REGISTER_METHOD(0x002FA280, Stack_1_Moon_EffectsFramework_MoonEffectGenericRevertibleData_MoonEffectRevertibleParticleData_ *, get_Instances, (MoonEffectGenericRevertibleData_MoonEffectRevertibleParticleDataPool * __this));

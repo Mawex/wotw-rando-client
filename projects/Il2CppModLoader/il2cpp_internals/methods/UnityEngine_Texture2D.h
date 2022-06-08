@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Texture2D {
 IL2CPP_REGISTER_METHOD(0x02C66B50, void, __ctor, (Texture2D * __this, int32_t width, int32_t height, GraphicsFormat__Enum format, TextureCreationFlags__Enum flags, void * nativeTex));
@@ -9,8 +9,8 @@ IL2CPP_REGISTER_METHOD(0x02C66EA0, void, __ctor, (Texture2D * __this, int32_t wi
 IL2CPP_REGISTER_METHOD(0x02C66F70, void, __ctor, (Texture2D * __this, int32_t width, int32_t height));
 IL2CPP_REGISTER_METHOD(0x02C67090, int32_t, get_mipmapCount, (Texture2D * __this));
 IL2CPP_REGISTER_METHOD(0x02C670E0, TextureFormat__Enum, get_format, (Texture2D * __this));
-IL2CPP_REGISTER_METHOD(0x02C67130, Texture2D *, get_whiteTexture, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x018F9090, Texture2D *, get_blackTexture, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C67130, Texture2D *, get_whiteTexture, ());
+IL2CPP_REGISTER_METHOD(0x018F9090, Texture2D *, get_blackTexture, ());
 IL2CPP_REGISTER_METHOD(0x02C67180, void, Compress, (Texture2D * __this, bool highQuality));
 IL2CPP_REGISTER_METHOD(0x02C671E0, bool, Internal_CreateImpl, (Texture2D * mono, int32_t w, int32_t h, GraphicsFormat__Enum format, TextureCreationFlags__Enum flags, void * nativeTex));
 IL2CPP_REGISTER_METHOD(0x02C67260, void, Internal_Create, (Texture2D * mono, int32_t w, int32_t h, GraphicsFormat__Enum format, TextureCreationFlags__Enum flags, void * nativeTex));

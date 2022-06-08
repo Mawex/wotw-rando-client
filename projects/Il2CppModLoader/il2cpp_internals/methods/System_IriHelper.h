@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IriHelper {
 IL2CPP_REGISTER_METHOD(0x0200D2B0, bool, CheckIriUnicodeRange, (uint16_t unicode, bool isQuery));

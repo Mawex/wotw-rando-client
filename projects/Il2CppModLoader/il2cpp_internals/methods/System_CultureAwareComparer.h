@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::CultureAwareComparer {
 IL2CPP_REGISTER_METHOD(0x028A0750, void, __ctor, (CultureAwareComparer * __this, CultureInfo * culture, bool ignoreCase));

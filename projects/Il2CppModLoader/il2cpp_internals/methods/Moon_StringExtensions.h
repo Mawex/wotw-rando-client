@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::StringExtensions {
 IL2CPP_REGISTER_METHOD(0x030F35E0, String *, ToCSharpStringLiteral, (String * this_1, bool omitQuotes, bool escapeAllNonAscii));

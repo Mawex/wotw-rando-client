@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::FloatAnimator {
 IL2CPP_REGISTER_METHOD(0x013E41D0, float, get_CurrentValue, (FloatAnimator * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Animation::AnimatorPostprocessPlayer {
 IL2CPP_REGISTER_METHOD(0x00597B10, UpdateType__Enum, get_UpdateType, (AnimatorPostprocessPlayer * __this));

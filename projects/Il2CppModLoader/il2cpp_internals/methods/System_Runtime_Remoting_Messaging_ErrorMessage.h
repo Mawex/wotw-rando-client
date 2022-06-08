@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ErrorMessage {
 IL2CPP_REGISTER_METHOD(0x023104C0, void, __ctor, (ErrorMessage * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BabySeinSpriteRotationController {
 IL2CPP_REGISTER_METHOD(0x003FCB00, bool, get_IsSuspended, (BabySeinSpriteRotationController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxOneController_ButtonInput {
 IL2CPP_REGISTER_METHOD(0x00420EE0, XboxOneController_Button__Enum, get_Button, (XboxOneController_ButtonInput * __this));

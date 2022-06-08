@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::GrounderIK {
 IL2CPP_REGISTER_METHOD(0x02069C80, void, OpenUserManual, (GrounderIK * __this));

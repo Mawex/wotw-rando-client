@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::InteractionBinding {
 IL2CPP_REGISTER_METHOD(0x0198D3F0, IMessageProvider *, get_ResolvedMessageProvider, (InteractionBinding * __this));

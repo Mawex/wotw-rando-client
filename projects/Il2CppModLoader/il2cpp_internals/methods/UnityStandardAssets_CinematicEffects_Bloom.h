@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::Bloom {
 IL2CPP_REGISTER_METHOD(0x02500450, Shader *, get_shader, (Bloom_1 * __this));

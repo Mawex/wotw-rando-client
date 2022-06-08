@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlBooleanConverter {
 IL2CPP_REGISTER_METHOD(0x02244E40, void, __ctor, (XmlBooleanConverter * __this, XmlSchemaType * schemaType));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkBaseArray_1_AkExternalSourceInfo_ {
 IL2CPP_REGISTER_METHOD(0x019D7280, void, __ctor, (AkBaseArray_1_AkExternalSourceInfo_ * __this, int32_t capacity));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeConverter {
-IL2CPP_REGISTER_METHOD(0x02944320, bool, get_UseCompatibleTypeConversion, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02944320, bool, get_UseCompatibleTypeConversion, ());
 IL2CPP_REGISTER_METHOD(0x024A9E40, bool, CanConvertFrom, (TypeConverter * __this, Type * sourceType));
 IL2CPP_REGISTER_METHOD(0x029443D0, bool, CanConvertFrom, (TypeConverter * __this, ITypeDescriptorContext * context, Type * sourceType));
 IL2CPP_REGISTER_METHOD(0x02944480, bool, CanConvertTo, (TypeConverter * __this, Type * destinationType));
@@ -45,5 +45,5 @@ IL2CPP_REGISTER_METHOD(0x029457B0, bool, IsValid, (TypeConverter * __this, Objec
 IL2CPP_REGISTER_METHOD(0x029457D0, bool, IsValid, (TypeConverter * __this, ITypeDescriptorContext * context, Object * value));
 IL2CPP_REGISTER_METHOD(0x029459C0, PropertyDescriptorCollection *, SortProperties, (TypeConverter * __this, PropertyDescriptorCollection * props, String__Array * names));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TypeConverter * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

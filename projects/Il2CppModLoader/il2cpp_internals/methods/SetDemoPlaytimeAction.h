@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetDemoPlaytimeAction {
 IL2CPP_REGISTER_METHOD(0x005A2900, void, Perform, (SetDemoPlaytimeAction * __this, IContext * context));

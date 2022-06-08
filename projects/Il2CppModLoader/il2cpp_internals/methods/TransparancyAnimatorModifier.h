@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransparancyAnimatorModifier {
 IL2CPP_REGISTER_METHOD(0x00B0BEA0, void, ApplyMultipliers, (TransparancyAnimatorModifier * __this, float strength, float speed));

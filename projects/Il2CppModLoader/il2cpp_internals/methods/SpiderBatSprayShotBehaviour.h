@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatSprayShotBehaviour {
 IL2CPP_REGISTER_METHOD(0x00961CF0, void, Shoot, (SpiderBatSprayShotBehaviour * __this));

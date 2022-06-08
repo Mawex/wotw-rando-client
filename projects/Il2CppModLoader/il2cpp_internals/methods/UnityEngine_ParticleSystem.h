@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem {
 IL2CPP_REGISTER_METHOD(0x03132610, void, Emit, (ParticleSystem * __this, Vector3 position, Vector3 velocity, float size, float lifetime, Color32 color));
@@ -47,11 +47,11 @@ IL2CPP_REGISTER_METHOD(0x03133550, void, Clear, (ParticleSystem * __this));
 IL2CPP_REGISTER_METHOD(0x031335B0, void, Emit, (ParticleSystem * __this, int32_t count));
 IL2CPP_REGISTER_METHOD(0x031335B0, void, Emit_Internal, (ParticleSystem * __this, int32_t count));
 IL2CPP_REGISTER_METHOD(0x03133610, void, Emit, (ParticleSystem * __this, ParticleSystem_EmitParams emitParams, int32_t count));
-IL2CPP_REGISTER_METHOD(0x03133680, bool, GetDeallocateInactiveParticles, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03133680, bool, GetDeallocateInactiveParticles, ());
 IL2CPP_REGISTER_METHOD(0x031336D0, void, SetDeallocateInactiveParticles, (bool value));
-IL2CPP_REGISTER_METHOD(0x03133720, bool, GetDisableAllParticles, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03133720, bool, GetDisableAllParticles, ());
 IL2CPP_REGISTER_METHOD(0x03133770, void, SetDisableAllParticles, (bool value));
-IL2CPP_REGISTER_METHOD(0x00490410, bool, GetDisableFixedTimestep, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00490410, bool, GetDisableFixedTimestep, ());
 IL2CPP_REGISTER_METHOD(0x031337C0, void, SetDisableFixedTimestep, (bool value));
 IL2CPP_REGISTER_METHOD(0x03133810, void, Internal_EmitOld, (ParticleSystem * __this, ParticleSystem_Particle * particle));
 IL2CPP_REGISTER_METHOD(0x03133870, void, Emit_Injected, (ParticleSystem * __this, ParticleSystem_EmitParams * emitParams, int32_t count));

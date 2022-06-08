@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::CharacterBase {
 IL2CPP_REGISTER_METHOD(0x022100A0, Vector3, GetGravity, (CharacterBase * __this));

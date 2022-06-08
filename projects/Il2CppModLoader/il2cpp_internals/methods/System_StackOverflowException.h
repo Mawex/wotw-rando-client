@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::StackOverflowException {
 IL2CPP_REGISTER_METHOD(0x01E26AB0, void, __ctor, (StackOverflowException * __this));

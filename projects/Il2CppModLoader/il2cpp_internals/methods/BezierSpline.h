@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BezierSpline {
 IL2CPP_REGISTER_METHOD(0x00F9F600, void, AppendPoint, (BezierSpline * __this, Vector3 pos, BaseSpline_SplinePointType__Enum type, Vector3 cp1, Vector3 cp2));

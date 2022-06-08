@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossAcidAttack {
 IL2CPP_REGISTER_METHOD(0x009628E0, bool, get_IsAttacking, (SpiderBossAcidAttack * __this));

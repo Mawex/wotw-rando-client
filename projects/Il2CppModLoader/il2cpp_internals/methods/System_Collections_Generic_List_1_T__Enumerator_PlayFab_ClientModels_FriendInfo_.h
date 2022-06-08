@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_PlayFab::ClientModels::FriendInfo_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, FriendInfo *, get_Current, (List_1_T_Enumerator_PlayFab_ClientModels_FriendInfo___Boxed * __this));

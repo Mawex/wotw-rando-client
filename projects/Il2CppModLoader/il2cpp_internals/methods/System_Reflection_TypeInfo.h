@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::TypeInfo {
 IL2CPP_REGISTER_METHOD(0x02698EE0, void, __ctor, (TypeInfo * __this));

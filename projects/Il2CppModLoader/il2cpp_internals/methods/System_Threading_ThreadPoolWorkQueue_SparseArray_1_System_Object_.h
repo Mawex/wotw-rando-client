@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadPoolWorkQueue_SparseArray_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02775660, Object__Array *, get_Current, (ThreadPoolWorkQueue_SparseArray_1_System_Object_ * __this));

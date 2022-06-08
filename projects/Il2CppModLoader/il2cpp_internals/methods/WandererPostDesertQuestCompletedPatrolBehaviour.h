@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WandererPostDesertQuestCompletedPatrolBehaviour {
 IL2CPP_REGISTER_METHOD(0x008D1D30, void, OnEntityInitialized, (WandererPostDesertQuestCompletedPatrolBehaviour * __this));

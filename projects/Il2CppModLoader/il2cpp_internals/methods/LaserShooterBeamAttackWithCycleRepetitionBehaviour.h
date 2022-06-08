@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterBeamAttackWithCycleRepetitionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F115E0, void, OnEntityInitialized, (LaserShooterBeamAttackWithCycleRepetitionBehaviour * __this));

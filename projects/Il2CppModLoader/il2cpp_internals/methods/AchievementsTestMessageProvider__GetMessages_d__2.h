@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AchievementsTestMessageProvider__GetMessages_d__2 {
 IL2CPP_REGISTER_METHOD(0x004BD8A0, void, __ctor, (AchievementsTestMessageProvider_GetMessages_d_2 * __this, int32_t __1__state));

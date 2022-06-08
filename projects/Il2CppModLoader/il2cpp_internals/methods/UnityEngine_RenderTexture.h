@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RenderTexture {
 IL2CPP_REGISTER_METHOD(0x02970C30, void, __ctor, (RenderTexture * __this));
@@ -22,9 +22,9 @@ IL2CPP_REGISTER_METHOD(0x029717C0, int32_t, get_volumeDepth, (RenderTexture * __
 IL2CPP_REGISTER_METHOD(0x02971810, void, set_volumeDepth, (RenderTexture * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x02971870, void, set_enableRandomWrite, (RenderTexture * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, set_isPowerOfTwo, (RenderTexture * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x029718D0, RenderTexture *, GetActive, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029718D0, RenderTexture *, GetActive, ());
 IL2CPP_REGISTER_METHOD(0x02971920, void, SetActive, (RenderTexture * rt));
-IL2CPP_REGISTER_METHOD(0x029718D0, RenderTexture *, get_active, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029718D0, RenderTexture *, get_active, ());
 IL2CPP_REGISTER_METHOD(0x02971920, void, set_active, (RenderTexture * value));
 IL2CPP_REGISTER_METHOD(0x02971970, RenderBuffer, GetColorBuffer, (RenderTexture * __this));
 IL2CPP_REGISTER_METHOD(0x029719F0, RenderBuffer, GetDepthBuffer, (RenderTexture * __this));

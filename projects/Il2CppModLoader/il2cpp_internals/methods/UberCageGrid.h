@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberCageGrid {
 IL2CPP_REGISTER_METHOD(0x013E4880, void, OnEnable, (UberCageGrid * __this));

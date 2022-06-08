@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChakramProjectileEffect {
 IL2CPP_REGISTER_METHOD(0x01040E70, void, Initialize, (ChakramProjectileEffect * __this, ChakramProjectile * chakram));

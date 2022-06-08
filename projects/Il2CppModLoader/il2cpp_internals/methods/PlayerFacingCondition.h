@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerFacingCondition {
 IL2CPP_REGISTER_METHOD(0x0140EB90, bool, Validate, (PlayerFacingCondition * __this, IContext * context));

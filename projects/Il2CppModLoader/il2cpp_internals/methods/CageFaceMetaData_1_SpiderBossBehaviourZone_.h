@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageFaceMetaData_1_SpiderBossBehaviourZone_ {
 IL2CPP_REGISTER_METHOD(0x019DA570, void, OnEnable, (CageFaceMetaData_1_SpiderBossBehaviourZone_ * __this));

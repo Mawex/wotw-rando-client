@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_UnityEngine::Experimental::Rendering::VisibleReflectionProbe_ {
 IL2CPP_REGISTER_METHOD(0x01CCEAE0, int32_t, Compare, (ObjectComparer_1_UnityEngine_Experimental_Rendering_VisibleReflectionProbe_ * __this, VisibleReflectionProbe x, VisibleReflectionProbe y));

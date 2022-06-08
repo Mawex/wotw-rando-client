@@ -1,18 +1,18 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneFPSTest {
 IL2CPP_REGISTER_METHOD(0x00939BC0, List_1_RuntimeSceneMetaData_ *, get_SceneList, (SceneFPSTest * __this));
-IL2CPP_REGISTER_METHOD(0x00939C50, String *, GetInputFilePath, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00939D20, String *, GetDoneFilePath, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00939DF0, bool, IsRunning, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00939EC0, void, SetupTheTest, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0093A350, void, ReadSettingsAndStartTest, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00939C50, String *, GetInputFilePath, ());
+IL2CPP_REGISTER_METHOD(0x00939D20, String *, GetDoneFilePath, ());
+IL2CPP_REGISTER_METHOD(0x00939DF0, bool, IsRunning, ());
+IL2CPP_REGISTER_METHOD(0x00939EC0, void, SetupTheTest, ());
+IL2CPP_REGISTER_METHOD(0x0093A350, void, ReadSettingsAndStartTest, ());
 IL2CPP_REGISTER_METHOD(0x0093AB50, void, Start, (SceneFPSTest * __this));
 IL2CPP_REGISTER_METHOD(0x0093AE90, void, OnDestroy, (SceneFPSTest * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, BuildEditorRuntimeSceneMetadata, (SceneFPSTest * __this));
 IL2CPP_REGISTER_METHOD(0x0093AF70, void, BuildAdditionalTestsDictionaries, (SceneFPSTest * __this));
 IL2CPP_REGISTER_METHOD(0x0093B850, void, FixedUpdate, (SceneFPSTest * __this));
-IL2CPP_REGISTER_METHOD(0x0093C720, String *, GetKeepaliveFilePath, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0093C720, String *, GetKeepaliveFilePath, ());
 IL2CPP_REGISTER_METHOD(0x0093C7F0, void, ChangeState, (SceneFPSTest * __this, SceneFPSTest_State__Enum state));
 IL2CPP_REGISTER_METHOD(0x0093E740, MoonProfilerFrame, MoonProfilerFrameFromDataProvider, (SceneFPSTest * __this));
 IL2CPP_REGISTER_METHOD(0x0093E970, void, OnMemorySnapshotFinished, (SceneFPSTest * __this, String * arg1, bool arg2));
@@ -46,5 +46,5 @@ IL2CPP_REGISTER_METHODINFO(0x04723AE8, SceneFPSTest_OnSceneRootLoadEarlyStart__M
 IL2CPP_REGISTER_METHOD(0x009421E0, String *, GetSampleID, (float xPosition, float yPosition, String * sceneName));
 IL2CPP_REGISTER_METHOD(0x00942320, String *, GetSampleID, (int32_t metaDataIndex, int32_t sampleIndex, String * sceneName));
 IL2CPP_REGISTER_METHOD(0x00942470, void, __ctor, (SceneFPSTest * __this));
-IL2CPP_REGISTER_METHOD(0x00942DD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00942DD0, void, __cctor, ());
 }

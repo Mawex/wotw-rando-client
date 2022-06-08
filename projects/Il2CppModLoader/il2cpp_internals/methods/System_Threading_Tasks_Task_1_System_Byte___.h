@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_System::Byte___ {
 IL2CPP_REGISTER_METHOD(0x02A5BF40, Task *, ContinueWith, (Task_1_System_Byte_ * __this, Action_1_System_Threading_Tasks_Task_1__3 * continuationAction));

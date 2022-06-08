@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinGlidePuppet {
 IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_Id, (SeinGlidePuppet * __this));

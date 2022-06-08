@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SerializationFieldInfo {
 IL2CPP_REGISTER_METHOD(0x017171B0, Module *, get_Module, (SerializationFieldInfo * __this));

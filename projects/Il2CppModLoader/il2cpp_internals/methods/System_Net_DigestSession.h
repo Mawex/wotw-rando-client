@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::DigestSession {
-IL2CPP_REGISTER_METHOD(0x01EAF500, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EAF500, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01EAF590, void, __ctor, (DigestSession * __this));
 IL2CPP_REGISTER_METHOD(0x01EAF640, String *, get_Algorithm, (DigestSession * __this));
 IL2CPP_REGISTER_METHOD(0x01EAF690, String *, get_Realm, (DigestSession * __this));

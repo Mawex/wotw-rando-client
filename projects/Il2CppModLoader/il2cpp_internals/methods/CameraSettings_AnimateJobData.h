@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraSettings_AnimateJobData {
 IL2CPP_REGISTER_METHOD(0x016A7800, void, CreateArrays, (CameraSettings_AnimateJobData * __this, int32_t length, int32_t multLength));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraChaseTargetSpeedRatioController {
 IL2CPP_REGISTER_METHOD(0x01684330, void, Start, (CameraChaseTargetSpeedRatioController * __this));

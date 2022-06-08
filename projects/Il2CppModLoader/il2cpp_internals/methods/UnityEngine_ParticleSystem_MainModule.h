@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_MainModule {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (ParticleSystem_MainModule__Boxed * __this, ParticleSystem * particleSystem));

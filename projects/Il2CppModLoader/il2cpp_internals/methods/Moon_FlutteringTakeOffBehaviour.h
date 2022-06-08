@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FlutteringTakeOffBehaviour {
 IL2CPP_REGISTER_METHOD(0x014862D0, void, OnEntityInitialized, (FlutteringTakeOffBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Distortion_Dissipation {
 IL2CPP_REGISTER_METHOD(0x024E5840, Material *, get_material, (CameraFilterPack_Distortion_Dissipation * __this));

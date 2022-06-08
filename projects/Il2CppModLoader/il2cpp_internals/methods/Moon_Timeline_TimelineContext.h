@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineContext {
 IL2CPP_REGISTER_METHOD(0x002FA280, MoonTimeline *, get_ContainingTimeline, (TimelineContext * __this));

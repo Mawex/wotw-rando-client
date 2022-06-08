@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::RegexConverter {
 IL2CPP_REGISTER_METHOD(0x01A54DE0, void, WriteJson, (RegexConverter * __this, JsonWriter * writer, Object * value, JsonSerializer * serializer));

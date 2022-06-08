@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Rope {
 IL2CPP_REGISTER_METHOD(0x00A1FBC0, Vector3, get_OffsetBetweenLinks, (Rope * __this));
@@ -30,5 +30,5 @@ IL2CPP_REGISTER_METHOD(0x0136A730, void, WasAttached, (Rope * __this, IPhysicsAt
 IL2CPP_REGISTER_METHOD(0x0136A9E0, void, Rebuild, (Rope * __this));
 IL2CPP_REGISTER_METHOD(0x0136C500, void, ConnectRopeLinks, (Rope * __this, GameObject * previousLink, GameObject * nextLink));
 IL2CPP_REGISTER_METHOD(0x0136C910, void, __ctor, (Rope * __this));
-IL2CPP_REGISTER_METHOD(0x0136CA90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0136CA90, void, __cctor, ());
 }

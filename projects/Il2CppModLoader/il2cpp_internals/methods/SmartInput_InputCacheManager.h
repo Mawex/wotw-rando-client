@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SmartInput::InputCacheManager {
 IL2CPP_REGISTER_METHOD(0x006CB5A0, void, DeclareSource, (InputCacheManager * __this, ICachableInput * input));

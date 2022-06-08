@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x001FF3E0, Task_1_System_Object_ *, get_Task, (AsyncTaskMethodBuilder_1_System_Object___Boxed * __this));
 IL2CPP_REGISTER_METHODINFO(0x04716E38, AsyncTaskMethodBuilder_1_System_Object__get_Task__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Object_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Object_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x047776A8, AsyncTaskMethodBuilder_1_System_Object__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3D60, void, Start, (AsyncTaskMethodBuilder_1_System_Object___Boxed * __this, Object * * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x047983C8, AsyncTaskMethodBuilder_1_System_Object__Start__MethodInfo);
@@ -17,7 +17,7 @@ IL2CPP_REGISTER_METHOD(0x001FF5B0, void, SetResult, (AsyncTaskMethodBuilder_1_Sy
 IL2CPP_REGISTER_METHOD(0x001FF610, void, SetException, (AsyncTaskMethodBuilder_1_System_Object___Boxed * __this, Exception * exception));
 IL2CPP_REGISTER_METHODINFO(0x0478DC18, AsyncTaskMethodBuilder_1_System_Object__SetException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001FF620, Task_1_System_Object_ *, GetTaskForResult, (AsyncTaskMethodBuilder_1_System_Object___Boxed * __this, Object * result));
-IL2CPP_REGISTER_METHOD(0x0276B430, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0276B430, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x001A3D80, void, Start, (AsyncTaskMethodBuilder_1_System_Object___Boxed * __this, XmlUrlResolver_GetEntityAsync_d_15 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x0475A580, AsyncTaskMethodBuilder_1_System_Object__Start_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3C90, void, AwaitUnsafeOnCompleted, (AsyncTaskMethodBuilder_1_System_Object___Boxed * __this, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_IO_Stream_ * awaiter, XmlUrlResolver_GetEntityAsync_d_15 * stateMachine));

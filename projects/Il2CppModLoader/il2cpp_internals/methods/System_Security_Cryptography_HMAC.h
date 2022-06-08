@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::HMAC {
 IL2CPP_REGISTER_METHOD(0x00654950, int32_t, get_BlockSizeValue, (HMAC * __this));
@@ -11,7 +11,7 @@ IL2CPP_REGISTER_METHODINFO(0x04707C80, HMAC_set_Key__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FB9B0, String *, get_HashName, (HMAC * __this));
 IL2CPP_REGISTER_METHOD(0x020D9080, void, set_HashName, (HMAC * __this, String * value));
 IL2CPP_REGISTER_METHODINFO(0x04765B30, HMAC_set_HashName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x020D9170, HMAC *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020D9170, HMAC *, Create, ());
 IL2CPP_REGISTER_METHOD(0x020D92B0, HMAC *, Create, (String * algorithmName));
 IL2CPP_REGISTER_METHOD(0x020D9390, void, Initialize, (HMAC * __this));
 IL2CPP_REGISTER_METHOD(0x020D93F0, void, HashCore, (HMAC * __this, Byte__Array * rgb, int32_t ib, int32_t cb));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwitchSeriesPuzzle {
 IL2CPP_REGISTER_METHOD(0x01834490, void, Awake, (SwitchSeriesPuzzle * __this));

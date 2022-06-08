@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ArtOptimizerDataContainer___c {
-IL2CPP_REGISTER_METHOD(0x01347160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01347160, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ArtOptimizerDataContainer_c * __this));
 IL2CPP_REGISTER_METHOD(0x013472A0, IEnumerable_1_Moon_ArtOptimization_SerializableUberSaderModifierWrapper_ *, _CalculateEnergyLimitsByStripPercentage_b__18_2, (ArtOptimizerDataContainer_c * __this, SerializableUberShaderWrapper * uw));
 IL2CPP_REGISTER_METHODINFO(0x0478E710, ArtOptimizerDataContainer_c__CalculateEnergyLimitsByStripPercentage_b__18_2__MethodInfo);

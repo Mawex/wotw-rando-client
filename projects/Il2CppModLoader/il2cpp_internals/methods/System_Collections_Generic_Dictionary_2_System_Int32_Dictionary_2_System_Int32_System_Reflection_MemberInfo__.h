@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Dictionary_2_System::Int32_System::Reflection::MemberInfo__ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Reflection_MemberInfo_ * __this));

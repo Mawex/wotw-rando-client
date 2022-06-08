@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossAnimationDirectionBrainController {
 IL2CPP_REGISTER_METHOD(0x0049C110, Enum__Array *, GetEntries, (PetrifiedOwlBossAnimationDirectionBrainController * __this));

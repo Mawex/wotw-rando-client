@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChangeProtectiveLightRadius {
 IL2CPP_REGISTER_METHOD(0x01045F60, void, FixedUpdate, (ChangeProtectiveLightRadius * __this));

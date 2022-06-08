@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BrightnessProvider {
 IL2CPP_REGISTER_METHOD(0x00D510D0, float, GetFloatValue, (BrightnessProvider * __this));

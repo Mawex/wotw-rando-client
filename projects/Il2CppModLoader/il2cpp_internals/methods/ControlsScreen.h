@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControlsScreen {
-IL2CPP_REGISTER_METHOD(0x011F2DC0, bool, get_IsVisible, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x011F2EF0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011F2DC0, bool, get_IsVisible, ());
+IL2CPP_REGISTER_METHOD(0x011F2EF0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x011F2F70, void, Awake, (ControlsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x011F2F80, void, Initialize, (ControlsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x011F44D0, void, OnDestroy, (ControlsScreen * __this));

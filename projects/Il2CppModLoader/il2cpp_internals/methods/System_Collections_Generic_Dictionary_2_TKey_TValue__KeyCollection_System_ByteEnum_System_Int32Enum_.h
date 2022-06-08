@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_System::ByteEnum_System::Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x01D54FA0, void, __ctor, (Dictionary_2_TKey_TValue_KeyCollection_System_ByteEnum_System_Int32Enum_ * __this, Dictionary_2_System_ByteEnum_System_Int32Enum_ * dictionary));

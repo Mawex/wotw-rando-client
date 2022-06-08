@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::CameraShakeAnimator {
-IL2CPP_REGISTER_METHOD(0x010C8C60, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010C8C60, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x010C8D30, void, set_ExternalStrenghtMultiplier, (CameraShakeAnimator * __this, float value));
 IL2CPP_REGISTER_METHOD(0x0064D970, void, set_ExternalSpeedMultiplier, (CameraShakeAnimator * __this, float value));
 IL2CPP_REGISTER_METHOD(0x010C8D40, float, get_ModifiedStrength, (CameraShakeAnimator * __this));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x010C9D00, void, OnValidate, (CameraShakeAnimator * __th
 IL2CPP_REGISTER_METHOD(0x010C9DD0, void, SynchronizeData, (CameraShakeAnimator * __this, MoonTimeline * timeline, TimelineEntityRecord * record));
 IL2CPP_REGISTER_METHOD(0x010C9F40, bool, ApproximateEvent, (CameraShakeAnimator * __this, int32_t evt, float * time));
 IL2CPP_REGISTER_METHOD(0x010CA020, void, __ctor, (CameraShakeAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x010CA120, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010CA120, void, __cctor, ());
 }

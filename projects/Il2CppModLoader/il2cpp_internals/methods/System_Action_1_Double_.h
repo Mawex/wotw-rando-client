@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_Double_ {
 IL2CPP_REGISTER_METHOD(0x02A05520, void, Invoke, (Action_1_Double_ * __this, double obj));

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsMetaType {
 IL2CPP_REGISTER_METHOD(0x015113F0, fsMetaType *, Get, (fsConfig * config, Type * type));
-IL2CPP_REGISTER_METHOD(0x01511900, void, ClearCache, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01511900, void, ClearCache, ());
 IL2CPP_REGISTER_METHOD(0x01511B80, void, __ctor, (fsMetaType * __this, fsConfig * config, Type * reflectedType));
 IL2CPP_REGISTER_METHOD(0x01511D30, void, CollectProperties, (fsConfig * config, List_1_FullSerializer_Internal_fsMetaProperty_ * properties, Type * reflectedType));
 IL2CPP_REGISTER_METHOD(0x01512620, bool, IsAutoProperty, (PropertyInfo_1 * property, MemberInfo_1__Array * members));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x01513600, bool, get_HasDefaultConstructor, (fsMetaType 
 IL2CPP_REGISTER_METHOD(0x01513880, bool, get_IsDefaultConstructorPublic, (fsMetaType * __this));
 IL2CPP_REGISTER_METHOD(0x015139A0, Object *, CreateInstance, (fsMetaType * __this));
 IL2CPP_REGISTER_METHODINFO(0x04736BF0, fsMetaType_CreateInstance__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01513DC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01513DC0, void, __cctor, ());
 }

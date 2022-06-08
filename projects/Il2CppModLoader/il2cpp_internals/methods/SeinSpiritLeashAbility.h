@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSpiritLeashAbility {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinSpiritLeashAbility * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, ButtonInputType__Enum, get_ButtonInputType, (SeinSpiritLeashAbility * __this));
 IL2CPP_REGISTER_METHOD(0x005E57B0, Transform *, get_LeashMarkPositionTransform, (SeinSpiritLeashAbility * __this));
-IL2CPP_REGISTER_METHOD(0x005E59C0, LayerMask, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005E59C0, LayerMask, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x005E5AD0, LayerMask, get_RaycastMask, (SeinSpiritLeashAbility * __this));
 IL2CPP_REGISTER_METHOD(0x005E5C70, bool, get_IsPerformingSpiritLeash, (SeinSpiritLeashAbility * __this));
 IL2CPP_REGISTER_METHOD(0x005E5C90, bool, get_HasTarget, (SeinSpiritLeashAbility * __this));
@@ -182,7 +182,7 @@ IL2CPP_REGISTER_METHOD(0x005F8D30, void, set_StressTestStatus, (SeinSpiritLeashA
 IL2CPP_REGISTER_METHOD(0x005F8D40, bool, get_CanExecuteStressTest, (SeinSpiritLeashAbility * __this));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_StopMovingPlayerWhilePerforming, (SeinSpiritLeashAbility * __this));
 IL2CPP_REGISTER_METHOD(0x005F8DF0, void, __ctor, (SeinSpiritLeashAbility * __this));
-IL2CPP_REGISTER_METHOD(0x005F9B30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005F9B30, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x005F9BE0, bool, _ThrowLeashStartAnimation_b__209_0, (SeinSpiritLeashAbility * __this));
 IL2CPP_REGISTER_METHODINFO(0x04708F58, SeinSpiritLeashAbility__ThrowLeashStartAnimation_b__209_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x005F9BE0, bool, _ThrowLeashStartAnimation_b__209_1, (SeinSpiritLeashAbility * __this));

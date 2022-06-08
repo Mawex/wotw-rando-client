@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuCrouch {
 IL2CPP_REGISTER_METHOD(0x0122EAF0, void, OnSetReferenceToKu, (KuCrouch * __this));

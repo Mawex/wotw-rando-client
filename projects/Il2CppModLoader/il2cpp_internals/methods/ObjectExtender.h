@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ObjectExtender {
 IL2CPP_REGISTER_METHOD(0x0060E350, Component_1 *, GetComponentInParents, (GameObject * gameObject, Type * type));

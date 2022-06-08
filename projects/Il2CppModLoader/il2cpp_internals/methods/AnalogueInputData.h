@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnalogueInputData {
 IL2CPP_REGISTER_METHOD(0x004F9CE0, void, Initialize, (AnalogueInputData * __this));

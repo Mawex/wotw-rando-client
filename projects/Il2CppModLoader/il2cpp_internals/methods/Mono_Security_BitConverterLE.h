@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::BitConverterLE {
 IL2CPP_REGISTER_METHOD(0x025C3C30, Byte__Array *, GetUIntBytes, (uint8_t * bytes));

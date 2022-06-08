@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::SoundListenerReference {
 IL2CPP_REGISTER_METHOD(0x001FEA80, void, __ctor, (SoundListenerReference__Boxed * __this, ISoundListener * listener));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::BitmapFont {
 IL2CPP_REGISTER_METHOD(0x00D23B60, BitmapFontChar_1 *, get_Item, (BitmapFont_1 * __this, uint16_t c));

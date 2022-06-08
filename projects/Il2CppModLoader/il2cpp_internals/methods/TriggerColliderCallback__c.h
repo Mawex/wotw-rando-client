@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriggerColliderCallback___c {
-IL2CPP_REGISTER_METHOD(0x00B14270, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B14270, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TriggerColliderCallback_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__7_0, (TriggerColliderCallback_c * __this, Collider * _p0_));
 IL2CPP_REGISTER_METHODINFO(0x04737018, TriggerColliderCallback_c___ctor_b__7_0__MethodInfo);

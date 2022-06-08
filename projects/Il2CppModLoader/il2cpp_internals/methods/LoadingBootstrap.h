@@ -1,13 +1,13 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoadingBootstrap {
-IL2CPP_REGISTER_METHOD(0x00FB6B00, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FB6B00, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00FB6CA0, void, Awake, (LoadingBootstrap * __this));
 IL2CPP_REGISTER_METHOD(0x00FB6DA0, void, OnDisable, (LoadingBootstrap * __this));
-IL2CPP_REGISTER_METHOD(0x00FB6F00, void, CheckForContentPackage, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FB6F00, void, CheckForContentPackage, ());
 IL2CPP_REGISTER_METHOD(0x00FB7030, PlayerLoopSystem, FilterLoopSubsytems, (PlayerLoopSystem root, Type__Array * types));
 IL2CPP_REGISTER_METHOD(0x00FB72B0, void, SetLoadingIntegrationTimeSlice, (ThreadPriority__Enum_1 priority, double value));
-IL2CPP_REGISTER_METHOD(0x00FB73E0, void, InitializePlayerLoop, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FB73E0, void, InitializePlayerLoop, ());
 IL2CPP_REGISTER_METHOD(0x00FB7FA0, void, InitializeCommonTweaks, (LoadingBootstrap * __this));
 IL2CPP_REGISTER_METHOD(0x00FB86A0, void, InitializeStandaloneTweaks, (LoadingBootstrap * __this));
 IL2CPP_REGISTER_METHOD(0x00FB87C0, void, ParseNvnPoolSizes, (LoadingBootstrap * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x00FBBF40, void, InitializePrewarmOperations, (LoadingBo
 IL2CPP_REGISTER_METHOD(0x002FA000, void, ActiveSceneChanged, (LoadingBootstrap * __this, Scene arg0, Scene arg1));
 IL2CPP_REGISTER_METHODINFO(0x0472BFD0, LoadingBootstrap_ActiveSceneChanged__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00FBDC40, void, __ctor, (LoadingBootstrap * __this));
-IL2CPP_REGISTER_METHOD(0x00FBDC50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FBDC50, void, __cctor, ());
 }

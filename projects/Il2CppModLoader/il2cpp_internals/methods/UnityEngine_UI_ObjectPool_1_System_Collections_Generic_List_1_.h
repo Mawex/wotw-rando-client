@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ObjectPool_1_System::Collections::Generic::List_1_ {
 IL2CPP_REGISTER_METHOD(0x02ACEDE0, void, __ctor, (ObjectPool_1_System_Collections_Generic_List_1_ * __this, UnityAction_1_System_Collections_Generic_List_1_ * actionOnGet, UnityAction_1_System_Collections_Generic_List_1_ * actionOnRelease));

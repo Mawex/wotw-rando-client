@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Event {
 IL2CPP_REGISTER_METHOD(0x029D52C0, void, __ctor, (Event * __this));
@@ -32,7 +32,7 @@ IL2CPP_REGISTER_METHOD(0x029D5E90, void, Finalize, (Event * __this));
 IL2CPP_REGISTER_METHOD(0x029D5FB0, bool, get_shift, (Event * __this));
 IL2CPP_REGISTER_METHOD(0x029D6010, bool, get_control, (Event * __this));
 IL2CPP_REGISTER_METHOD(0x029D6070, bool, get_alt, (Event * __this));
-IL2CPP_REGISTER_METHOD(0x029D60D0, Event *, get_current, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029D60D0, Event *, get_current, ());
 IL2CPP_REGISTER_METHOD(0x029D6150, bool, get_isKey, (Event * __this));
 IL2CPP_REGISTER_METHOD(0x029D61C0, bool, get_isMouse, (Event * __this));
 IL2CPP_REGISTER_METHOD(0x029D6240, Event *, KeyboardEvent, (String * key));

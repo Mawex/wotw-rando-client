@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::GrounderBipedIK {
 IL2CPP_REGISTER_METHOD(0x02065EA0, void, OpenUserManual, (GrounderBipedIK * __this));

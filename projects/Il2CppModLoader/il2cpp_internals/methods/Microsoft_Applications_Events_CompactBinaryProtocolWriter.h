@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::CompactBinaryProtocolWriter {
 IL2CPP_REGISTER_METHOD(0x002FA280, List_1_System_Byte_ *, get_Data, (CompactBinaryProtocolWriter * __this));

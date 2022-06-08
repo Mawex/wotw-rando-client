@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Ntlm::MessageBase {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (MessageBase * __this, int32_t messageType));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x02A4B130, Byte__Array *, PrepareMessage, (MessageBase *
 IL2CPP_REGISTER_METHOD(0x02A4B2A0, void, Decode, (MessageBase * __this, Byte__Array * message));
 IL2CPP_REGISTER_METHODINFO(0x0475F380, MessageBase_Decode__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A4B5B0, bool, CheckHeader, (MessageBase * __this, Byte__Array * message));
-IL2CPP_REGISTER_METHOD(0x02A4B750, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A4B750, void, __cctor, ());
 }

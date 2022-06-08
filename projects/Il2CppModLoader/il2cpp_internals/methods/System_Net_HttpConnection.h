@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpConnection {
 IL2CPP_REGISTER_METHOD(0x01D3DAA0, void, __ctor, (HttpConnection * __this, Socket * sock, EndPointListener * epl, bool secure, X509Certificate_1 * cert));
@@ -30,7 +30,7 @@ IL2CPP_REGISTER_METHOD(0x01D3FD50, void, Unbind, (HttpConnection * __this));
 IL2CPP_REGISTER_METHOD(0x01D3FDA0, void, Close, (HttpConnection * __this));
 IL2CPP_REGISTER_METHOD(0x01D3FDB0, void, CloseSocket, (HttpConnection * __this));
 IL2CPP_REGISTER_METHOD(0x01D3FF00, void, Close, (HttpConnection * __this, bool force_close));
-IL2CPP_REGISTER_METHOD(0x01D40360, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D40360, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01D404C0, bool, __ctor_b__24_0, (HttpConnection * __this, Object * t, X509Certificate_1 * c, X509Chain * ch, SslPolicyErrors__Enum e));
 IL2CPP_REGISTER_METHODINFO(0x0475E478, HttpConnection___ctor_b__24_0__MethodInfo);
 }

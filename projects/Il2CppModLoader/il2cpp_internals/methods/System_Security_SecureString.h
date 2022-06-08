@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::SecureString {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01E1D750, void, __ctor, (SecureString * __this));
 IL2CPP_REGISTER_METHOD(0x01E1D7E0, void, __ctor, (SecureString * __this, uint16_t * value, int32_t length));
 IL2CPP_REGISTER_METHODINFO(0x04745068, SecureString__ctor_1__MethodInfo);

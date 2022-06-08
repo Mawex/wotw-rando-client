@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_Moon::BehaviourSystem::DecoratorNode_ {
 IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (Action_1_Moon_BehaviourSystem_DecoratorNode_ * __this, DecoratorNode * obj));

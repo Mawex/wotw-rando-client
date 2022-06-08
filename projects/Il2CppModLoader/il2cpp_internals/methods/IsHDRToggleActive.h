@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsHDRToggleActive {
 IL2CPP_REGISTER_METHOD(0x00646040, bool, Validate, (IsHDRToggleActive * __this, IContext * context));

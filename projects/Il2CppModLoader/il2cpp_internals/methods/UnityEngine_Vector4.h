@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Vector4 {
 IL2CPP_REGISTER_METHOD(0x00121740, void, __ctor, (Vector4__Boxed * __this, float x, float y, float z, float w));
@@ -22,8 +22,8 @@ IL2CPP_REGISTER_METHOD(0x02C78BD0, float, Distance, (Vector4 a, Vector4 b));
 IL2CPP_REGISTER_METHOD(0x02C78CE0, float, Magnitude, (Vector4 a));
 IL2CPP_REGISTER_METHOD(0x00229A50, float, get_magnitude, (Vector4__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00229A60, float, get_sqrMagnitude, (Vector4__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x02C78FE0, Vector4, get_zero, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C79090, Vector4, get_one, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C78FE0, Vector4, get_zero, ());
+IL2CPP_REGISTER_METHOD(0x02C79090, Vector4, get_one, ());
 IL2CPP_REGISTER_METHOD(0x02427D30, Vector4, operator__, (Vector4 a, Vector4 b));
 IL2CPP_REGISTER_METHOD(0x02427D90, Vector4, operator__, (Vector4 a, Vector4 b));
 IL2CPP_REGISTER_METHOD(0x02427E50, Vector4, operator__, (Vector4 a, float d));
@@ -38,5 +38,5 @@ IL2CPP_REGISTER_METHOD(0x0296D4D0, Vector2, operator_, (Vector4 v));
 IL2CPP_REGISTER_METHOD(0x00229A70, String *, ToString, (Vector4__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x02C796F0, float, SqrMagnitude, (Vector4 a));
 IL2CPP_REGISTER_METHOD(0x00229A80, float, SqrMagnitude, (Vector4__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x02C797D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C797D0, void, __cctor, ());
 }

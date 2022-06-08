@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ClearScenesLoadedForCheckpointAction {
 IL2CPP_REGISTER_METHOD(0x012AD320, void, Perform, (ClearScenesLoadedForCheckpointAction * __this, IContext * context));

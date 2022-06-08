@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Analytics::AnalyticsSessionInfo_SessionStateChanged {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (AnalyticsSessionInfo_SessionStateChanged * __this, Object * object, void * method_1));

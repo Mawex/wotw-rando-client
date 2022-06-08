@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WormEmergingState {
 IL2CPP_REGISTER_METHOD(0x0058D710, void, __ctor, (WormEmergingState * __this, WormEnemy * worm, TextureAnimationWithTransitions * emerging, PrefabSpawner * emergingEffect, SoundSource * emergingSound));

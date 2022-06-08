@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VitalsHealthProvider {
 IL2CPP_REGISTER_METHOD(0x008C2B20, void, OnValidate, (VitalsHealthProvider * __this));

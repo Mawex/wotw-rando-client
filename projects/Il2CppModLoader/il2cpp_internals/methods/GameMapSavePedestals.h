@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameMapSavePedestals {
 IL2CPP_REGISTER_METHOD(0x006A1160, List_1_GameMapSavePedestal_ *, get_Pedestals, (GameMapSavePedestals * __this));

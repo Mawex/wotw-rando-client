@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::BoxCollider2D {
 IL2CPP_REGISTER_METHOD(0x0316CB60, Vector2, get_size, (BoxCollider2D * __this));

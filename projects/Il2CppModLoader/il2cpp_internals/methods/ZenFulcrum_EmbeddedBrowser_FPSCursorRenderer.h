@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer {
-IL2CPP_REGISTER_METHOD(0x01DDD440, FPSCursorRenderer *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DDD440, FPSCursorRenderer *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00446590, bool, get_EnableInput, (FPSCursorRenderer * __this));
 IL2CPP_REGISTER_METHOD(0x005150D0, void, set_EnableInput, (FPSCursorRenderer * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x01DDD660, void, SetUpBrowserInput, (Browser * browser, MeshCollider * mesh));

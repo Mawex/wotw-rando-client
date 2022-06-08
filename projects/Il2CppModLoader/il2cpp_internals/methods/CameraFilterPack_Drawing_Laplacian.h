@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Drawing_Laplacian {
 IL2CPP_REGISTER_METHOD(0x024F2680, Material *, get_material, (CameraFilterPack_Drawing_Laplacian * __this));

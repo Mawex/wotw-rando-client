@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RuntimeDynamicDataLink_1_System::Int16_ {
 IL2CPP_REGISTER_METHOD(0x0290BD90, bool, Init, (RuntimeDynamicDataLink_1_System_Int16_ * __this, DynamicDataLinkSerializedData data, MemberInfo_1 * memberInfo));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::QuadTree_Node {
 IL2CPP_REGISTER_METHOD(0x01996640, void, __ctor, (QuadTree_Node * __this, Rect rect, int32_t depth));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimelineActionTrigger {
 IL2CPP_REGISTER_METHOD(0x010F4900, void, OnStartPlay, (TimelineActionTrigger * __this));

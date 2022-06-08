@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction_ExclusiveOrBoolean {
 IL2CPP_REGISTER_METHOD(0x022E4DB0, int32_t, Run, (ExclusiveOrInstruction_ExclusiveOrBoolean * __this, InterpretedFrame * frame));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Equipment {
 IL2CPP_REGISTER_METHOD(0x00CAAF90, Equipment_Category__Enum, EquipmentTypeToCategory, (EquipmentType__Enum type));

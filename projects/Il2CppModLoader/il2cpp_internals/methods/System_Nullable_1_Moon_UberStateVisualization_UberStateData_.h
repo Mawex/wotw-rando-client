@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Moon::UberStateVisualization::UberStateData_ {
 IL2CPP_REGISTER_METHOD(0x001F7170, void, __ctor, (Nullable_1_Moon_UberStateVisualization_UberStateData___Boxed * __this, UberStateData value));

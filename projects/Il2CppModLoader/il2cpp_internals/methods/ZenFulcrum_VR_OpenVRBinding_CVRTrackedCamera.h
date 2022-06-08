@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRTrackedCamera {
 IL2CPP_REGISTER_METHOD(0x0167E230, void, __ctor, (CVRTrackedCamera * __this, void * pInterface));

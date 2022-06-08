@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (Nullable_1_Int32Enum___Boxed * __this, Int32Enum__Enum value));

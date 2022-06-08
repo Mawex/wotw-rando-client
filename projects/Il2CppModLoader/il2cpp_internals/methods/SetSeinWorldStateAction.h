@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetSeinWorldStateAction {
 IL2CPP_REGISTER_METHOD(0x005A4400, void, Perform, (SetSeinWorldStateAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuDashPuppet {
 IL2CPP_REGISTER_METHOD(0x012345B0, MoonAnimator *, get_KuAnimator, (KuDashPuppet * __this));

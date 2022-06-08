@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimationMontage_Entry {
 IL2CPP_REGISTER_METHOD(0x00B83F30, float, get_StartTime, (AnimationMontage_Entry * __this));

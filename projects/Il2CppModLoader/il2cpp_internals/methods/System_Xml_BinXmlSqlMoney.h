@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::BinXmlSqlMoney {
 IL2CPP_REGISTER_METHOD(0x001DE610, void, __ctor, (BinXmlSqlMoney__Boxed * __this, int32_t v));

@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::GregorianCalendar {
 IL2CPP_REGISTER_METHOD(0x02610650, void, OnDeserialized, (GregorianCalendar * __this, StreamingContext ctx));
 IL2CPP_REGISTER_METHODINFO(0x04799E10, GregorianCalendar_OnDeserialized__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02610770, DateTime, get_MinSupportedDateTime, (GregorianCalendar * __this));
 IL2CPP_REGISTER_METHOD(0x02610810, DateTime, get_MaxSupportedDateTime, (GregorianCalendar * __this));
-IL2CPP_REGISTER_METHOD(0x026108B0, Calendar *, GetDefaultInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x026108B0, Calendar *, GetDefaultInstance, ());
 IL2CPP_REGISTER_METHOD(0x02610AA0, void, __ctor, (GregorianCalendar * __this));
 IL2CPP_REGISTER_METHOD(0x02610AB0, void, __ctor, (GregorianCalendar * __this, GregorianCalendarTypes__Enum type));
 IL2CPP_REGISTER_METHODINFO(0x0478D838, GregorianCalendar__ctor_1__MethodInfo);
@@ -29,5 +29,5 @@ IL2CPP_REGISTER_METHOD(0x026117E0, bool, TryToDateTime, (GregorianCalendar * __t
 IL2CPP_REGISTER_METHOD(0x02611930, int32_t, get_TwoDigitYearMax, (GregorianCalendar * __this));
 IL2CPP_REGISTER_METHOD(0x02611970, int32_t, ToFourDigitYear, (GregorianCalendar * __this, int32_t year));
 IL2CPP_REGISTER_METHODINFO(0x0473D918, GregorianCalendar_ToFourDigitYear__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02611BE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02611BE0, void, __cctor, ());
 }

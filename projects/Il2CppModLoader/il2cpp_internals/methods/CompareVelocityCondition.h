@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CompareVelocityCondition {
 IL2CPP_REGISTER_METHOD(0x011DEDF0, void, Awake, (CompareVelocityCondition * __this));

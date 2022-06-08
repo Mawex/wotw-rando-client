@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ReturnMessage {
 IL2CPP_REGISTER_METHOD(0x02319710, void, __ctor, (ReturnMessage * __this, Object * ret, Object__Array * outArgs, int32_t outArgsCount, LogicalCallContext * callCtx, IMethodCallMessage * mcm));

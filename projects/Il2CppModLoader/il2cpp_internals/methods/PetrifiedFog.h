@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedFog {
-IL2CPP_REGISTER_METHOD(0x0049ABF0, float, get_RemainingDuration, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0049ABF0, float, get_RemainingDuration, ());
 IL2CPP_REGISTER_METHOD(0x0049AC70, void, OnEnable, (PetrifiedFog * __this));
 IL2CPP_REGISTER_METHOD(0x0049AC80, void, Activate, (PetrifiedFog * __this));
 IL2CPP_REGISTER_METHOD(0x0049AD70, bool, PositionInPetrifiedFog, (Vector3 position));

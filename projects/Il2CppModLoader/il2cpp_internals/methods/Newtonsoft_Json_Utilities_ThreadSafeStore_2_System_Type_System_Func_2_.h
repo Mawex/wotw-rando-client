@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ThreadSafeStore_2_System::Type_System::Func_2_ {
 IL2CPP_REGISTER_METHOD(0x01D122F0, Func_2_Object_Object__1 *, Get, (ThreadSafeStore_2_System_Type_System_Func_2_ * __this, Type * key));

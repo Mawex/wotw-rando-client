@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CoroutineTween::FloatTween {
 IL2CPP_REGISTER_METHOD(0x001D9B90, float, get_startValue, (FloatTween__Boxed * __this));

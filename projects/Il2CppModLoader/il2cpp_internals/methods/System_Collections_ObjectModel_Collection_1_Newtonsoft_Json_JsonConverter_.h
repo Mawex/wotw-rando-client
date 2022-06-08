@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::Collection_1_Newtonsoft::Json::JsonConverter_ {
 IL2CPP_REGISTER_METHOD(0x02776BF0, void, __ctor, (Collection_1_Newtonsoft_Json_JsonConverter_ * __this));

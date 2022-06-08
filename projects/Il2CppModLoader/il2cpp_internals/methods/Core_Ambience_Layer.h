@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Core::Ambience_Layer {
 IL2CPP_REGISTER_METHOD(0x011F7960, int32_t, Sort, (Ambience_Layer * layerA, Ambience_Layer * layerB));

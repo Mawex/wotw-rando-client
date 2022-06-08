@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::ExpressionStringBuilder {
 IL2CPP_REGISTER_METHOD(0x022C78D0, void, __ctor, (ExpressionStringBuilder * __this));

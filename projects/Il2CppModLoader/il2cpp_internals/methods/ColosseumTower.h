@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColosseumTower {
 IL2CPP_REGISTER_METHOD(0x011DDB80, void, Upgrade, (ColosseumTower * __this));

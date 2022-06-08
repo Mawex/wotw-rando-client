@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Playables::PlayableHandle {
-IL2CPP_REGISTER_METHOD(0x02964F40, PlayableHandle, get_Null, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02964F40, PlayableHandle, get_Null, ());
 IL2CPP_REGISTER_METHOD(0x00216AB0, Playable, GetInput, (PlayableHandle__Boxed * __this, int32_t inputPort));
 IL2CPP_REGISTER_METHOD(0x00216AE0, bool, SetInputWeight, (PlayableHandle__Boxed * __this, int32_t inputIndex, float weight));
 IL2CPP_REGISTER_METHOD(0x00216B40, float, GetInputWeight, (PlayableHandle__Boxed * __this, int32_t inputIndex));
@@ -31,7 +31,7 @@ IL2CPP_REGISTER_METHOD(0x00216DC0, void *, GetAdditionalPayload, (PlayableHandle
 IL2CPP_REGISTER_METHOD(0x00216AB0, PlayableHandle, GetInputHandle, (PlayableHandle__Boxed * __this, int32_t index));
 IL2CPP_REGISTER_METHOD(0x00216DD0, void, SetInputWeightFromIndex, (PlayableHandle__Boxed * __this, int32_t index, float weight));
 IL2CPP_REGISTER_METHOD(0x00216DE0, float, GetInputWeightFromIndex, (PlayableHandle__Boxed * __this, int32_t index));
-IL2CPP_REGISTER_METHOD(0x029663A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029663A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02966430, bool, IsValid_Injected, (PlayableHandle * _unity_self));
 IL2CPP_REGISTER_METHOD(0x02966480, Type *, GetPlayableType_Injected, (PlayableHandle * _unity_self));
 IL2CPP_REGISTER_METHOD(0x029664D0, Type *, GetJobType_Injected, (PlayableHandle * _unity_self));

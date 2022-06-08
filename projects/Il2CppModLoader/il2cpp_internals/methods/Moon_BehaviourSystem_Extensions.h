@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::Extensions {
 IL2CPP_REGISTER_METHOD(0x0154F200, void, Shuffle, (IList_1_System_Object_ * list));

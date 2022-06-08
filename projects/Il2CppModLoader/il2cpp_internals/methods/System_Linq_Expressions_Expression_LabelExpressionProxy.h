@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_LabelExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x029D4EB0, void, __ctor, (Expression_LabelExpressionProxy * __this, LabelExpression * node));

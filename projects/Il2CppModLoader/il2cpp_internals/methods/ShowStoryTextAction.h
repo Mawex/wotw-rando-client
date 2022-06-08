@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowStoryTextAction {
 IL2CPP_REGISTER_METHOD(0x00737F30, void, Perform, (ShowStoryTextAction * __this, IContext * context));

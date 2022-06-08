@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlobalBrightnessAnimator {
 IL2CPP_REGISTER_METHOD(0x007F5790, float, get_CurrentWeight, (GlobalBrightnessAnimator * __this));

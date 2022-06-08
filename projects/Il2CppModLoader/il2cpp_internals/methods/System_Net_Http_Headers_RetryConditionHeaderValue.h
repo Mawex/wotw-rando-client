@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::RetryConditionHeaderValue {
 IL2CPP_REGISTER_METHOD(0x02D16BF0, void, __ctor, (RetryConditionHeaderValue * __this, DateTimeOffset date));

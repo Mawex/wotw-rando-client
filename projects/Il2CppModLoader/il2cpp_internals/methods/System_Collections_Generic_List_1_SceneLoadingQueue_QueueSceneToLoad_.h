@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_SceneLoadingQueue_QueueSceneToLoad_ {
 IL2CPP_REGISTER_METHOD(0x025EC760, SceneLoadingQueue_QueueSceneToLoad, get_Item, (List_1_SceneLoadingQueue_QueueSceneToLoad_ * __this, int32_t index));
@@ -66,5 +66,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_SceneLoadingQueue_QueueSc
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_SceneLoadingQueue_QueueSceneToLoad_ * __this, Comparison_1_SceneLoadingQueue_QueueSceneToLoad_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, SceneLoadingQueue_QueueSceneToLoad__Array *, ToArray, (List_1_SceneLoadingQueue_QueueSceneToLoad_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_SceneLoadingQueue_QueueSceneToLoad_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

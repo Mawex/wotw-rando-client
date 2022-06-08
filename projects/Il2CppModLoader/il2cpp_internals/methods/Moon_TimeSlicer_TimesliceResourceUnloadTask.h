@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimesliceResourceUnloadTask {
 IL2CPP_REGISTER_METHOD(0x002FBBC0, String *, get_SceneName, (TimesliceResourceUnloadTask * __this));
@@ -12,6 +12,6 @@ IL2CPP_REGISTER_METHOD(0x010C5870, void, Reset, (TimesliceResourceUnloadTask * _
 IL2CPP_REGISTER_METHOD(0x010C58A0, String *, get_JobName, (TimesliceResourceUnloadTask * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9D0, String *, get_TimesliceJobOwnerName, (TimesliceResourceUnloadTask * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_ContextualDebugData, (TimesliceResourceUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C5970, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010C5970, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01552880, void, Config, (TimesliceResourceUnloadTask * __this, List_1_System_Object_ * targetObjects, Action_1_Boolean_ * onJobCompleted));
 }

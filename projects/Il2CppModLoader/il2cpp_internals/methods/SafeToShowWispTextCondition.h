@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SafeToShowWispTextCondition {
 IL2CPP_REGISTER_METHOD(0x00C07E40, bool, Validate, (SafeToShowWispTextCondition * __this, IContext * context));

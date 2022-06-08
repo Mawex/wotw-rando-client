@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyDoorWithSlots {
 IL2CPP_REGISTER_METHOD(0x00A1AEA0, int32_t, get_NumberOfOrbsUsed, (LegacyDoorWithSlots * __this));

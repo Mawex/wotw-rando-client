@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillUpgradeUIUpgradeDetails {
 IL2CPP_REGISTER_METHOD(0x006BCC10, void, Awake, (SkillUpgradeUIUpgradeDetails * __this));

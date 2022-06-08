@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StaticEntityLookBehaviour {
 IL2CPP_REGISTER_METHOD(0x009B6EB0, StaticEntityLocomotion *, get_Locomotion, (StaticEntityLookBehaviour * __this));

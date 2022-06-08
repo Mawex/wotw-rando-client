@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_XboxOneStatistics_StatisticReading_ {
 IL2CPP_REGISTER_METHOD(0x01CD0280, int32_t, Compare, (ObjectComparer_1_XboxOneStatistics_StatisticReading_ * __this, XboxOneStatistics_StatisticReading x, XboxOneStatistics_StatisticReading y));

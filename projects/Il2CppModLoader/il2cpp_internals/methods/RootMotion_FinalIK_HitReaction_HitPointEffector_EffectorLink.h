@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::HitReaction_HitPointEffector_EffectorLink {
 IL2CPP_REGISTER_METHOD(0x02077950, void, Apply, (HitReaction_HitPointEffector_EffectorLink * __this, IKSolverFullBodyBiped * solver, Vector3 offset, float crossFader));

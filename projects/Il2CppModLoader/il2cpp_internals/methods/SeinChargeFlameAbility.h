@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinChargeFlameAbility {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinChargeFlameAbility * __this));
@@ -29,5 +29,5 @@ IL2CPP_REGISTER_METHOD(0x00A47290, void, UpdateCharacterState, (SeinChargeFlameA
 IL2CPP_REGISTER_METHOD(0x00A47300, void, OnExit, (SeinChargeFlameAbility * __this));
 IL2CPP_REGISTER_METHOD(0x00A47530, SoundSource *, CurrentChargingSound, (SeinChargeFlameAbility * __this));
 IL2CPP_REGISTER_METHOD(0x00A47620, void, __ctor, (SeinChargeFlameAbility * __this));
-IL2CPP_REGISTER_METHOD(0x00A47840, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A47840, void, __cctor, ());
 }

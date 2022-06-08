@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::loading::LoadingClassInitialization {
 IL2CPP_REGISTER_METHOD(0x00F2CE80, void, __ctor, (LoadingClassInitialization * __this, bool prewarmAllTypes, bool shouldGc));

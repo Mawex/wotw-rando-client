@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HorizontalKickbackTimelineBehaviour {
 IL2CPP_REGISTER_METHOD(0x006B8960, bool, get_PlayingAirAnimation, (HorizontalKickbackTimelineBehaviour * __this));

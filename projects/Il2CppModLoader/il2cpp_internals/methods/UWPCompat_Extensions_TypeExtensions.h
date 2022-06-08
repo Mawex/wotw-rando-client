@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UWPCompat::Extensions::TypeExtensions {
 IL2CPP_REGISTER_METHOD(0x013DD200, Type *, BaseType, (Type * type));

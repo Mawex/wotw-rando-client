@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RisingWaterTrigger {
 IL2CPP_REGISTER_METHOD(0x01358590, void, FixedUpdate, (RisingWaterTrigger * __this));

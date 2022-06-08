@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::LinkedList_1_System::WeakReference_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (LinkedList_1_System_WeakReference_ * __this));

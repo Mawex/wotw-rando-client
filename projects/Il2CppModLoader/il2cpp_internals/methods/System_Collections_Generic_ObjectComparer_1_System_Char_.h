@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_System::Char_ {
 IL2CPP_REGISTER_METHOD(0x01CC9EA0, int32_t, Compare, (ObjectComparer_1_System_Char_ * __this, uint16_t x, uint16_t y));

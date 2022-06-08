@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_System::Collections::Generic::Dictionary_2_Entry_ {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry_ * __this));
@@ -8,7 +8,7 @@ IL2CPP_REGISTER_METHODINFO(0x04768078, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry_ * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry_ * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry_ * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__1 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__1 * __this));
 IL2CPP_REGISTER_METHOD(0x02041A40, Dictionary_2_TKey_TValue_Entry_MS_Internal_Xml_Cache_XPathNodeRef_MS_Internal_Xml_Cache_XPathNodeRef_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__1 * __this));
@@ -16,7 +16,7 @@ IL2CPP_REGISTER_METHODINFO(0x0471C2F0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00950, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__1 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__1 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__1 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__2 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__2 * __this));
 IL2CPP_REGISTER_METHOD(0x02041AA0, Dictionary_2_TKey_TValue_Entry_Moon_ActiveAnimationHandle_System_Int32_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__2 * __this));
@@ -24,7 +24,7 @@ IL2CPP_REGISTER_METHODINFO(0x0477B5A8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__2 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__2 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__2 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__3 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__3 * __this));
 IL2CPP_REGISTER_METHOD(0x02041B00, Dictionary_2_TKey_TValue_Entry_Moon_CrossSceneReferenceId_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__3 * __this));
@@ -32,7 +32,7 @@ IL2CPP_REGISTER_METHODINFO(0x04740EF0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00950, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__3 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__3 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__3 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__4 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__4 * __this));
 IL2CPP_REGISTER_METHOD(0x02041B60, Dictionary_2_TKey_TValue_Entry_PlayFab_PluginContractKey_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__4 * __this));
@@ -40,7 +40,7 @@ IL2CPP_REGISTER_METHODINFO(0x047698F0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__4 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__4 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__4 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__5 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__5 * __this));
 IL2CPP_REGISTER_METHOD(0x02041BC0, Dictionary_2_TKey_TValue_Entry_Swing_Int2_Moon_Rendering_SrpSampler_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__5 * __this));
@@ -48,7 +48,7 @@ IL2CPP_REGISTER_METHODINFO(0x04748D68, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00EE0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__5 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__5 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__5 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__6 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__6 * __this));
 IL2CPP_REGISTER_METHOD(0x02041C20, Dictionary_2_TKey_TValue_Entry_System_ByteEnum_SpiritShardIconsCollection_Icons_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__6 * __this));
@@ -56,7 +56,7 @@ IL2CPP_REGISTER_METHODINFO(0x04778040, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00BB0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__6 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__6 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__6 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__7 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__7 * __this));
 IL2CPP_REGISTER_METHOD(0x02041C80, Dictionary_2_TKey_TValue_Entry_System_ByteEnum_System_Boolean_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__7 * __this));
@@ -64,7 +64,7 @@ IL2CPP_REGISTER_METHODINFO(0x04794080, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFFA00, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__7 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__7 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__7 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__8 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__8 * __this));
 IL2CPP_REGISTER_METHOD(0x02041CE0, Dictionary_2_TKey_TValue_Entry_System_ByteEnum_System_Int32_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__8 * __this));
@@ -72,7 +72,7 @@ IL2CPP_REGISTER_METHODINFO(0x0476D678, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__8 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__8 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__8 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__9 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__9 * __this));
 IL2CPP_REGISTER_METHOD(0x02041D40, Dictionary_2_TKey_TValue_Entry_System_ByteEnum_System_Int32Enum_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__9 * __this));
@@ -80,7 +80,7 @@ IL2CPP_REGISTER_METHODINFO(0x047082D0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__9 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__9 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__9 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__10 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__10 * __this));
 IL2CPP_REGISTER_METHOD(0x02041DA0, Dictionary_2_TKey_TValue_Entry_System_ByteEnum_System_Int64Enum_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__10 * __this));
@@ -88,7 +88,7 @@ IL2CPP_REGISTER_METHODINFO(0x04760310, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__10 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__10 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__10 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__11 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__11 * __this));
 IL2CPP_REGISTER_METHOD(0x02041E00, Dictionary_2_TKey_TValue_Entry_System_ByteEnum_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__11 * __this));
@@ -96,7 +96,7 @@ IL2CPP_REGISTER_METHODINFO(0x0471D9E8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__11 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__11 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__11 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__12 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__12 * __this));
 IL2CPP_REGISTER_METHOD(0x02041E60, Dictionary_2_TKey_TValue_Entry_KeyValuePair_2_System_Object_System_Object_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__12 * __this));
@@ -104,7 +104,7 @@ IL2CPP_REGISTER_METHODINFO(0x0477E2A8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__12 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__12 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__12 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__13 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__13 * __this));
 IL2CPP_REGISTER_METHOD(0x02041EC0, Dictionary_2_TKey_TValue_Entry_System_Guid_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__13 * __this));
@@ -112,7 +112,7 @@ IL2CPP_REGISTER_METHODINFO(0x04713088, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__13 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__13 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__13 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__14 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__14 * __this));
 IL2CPP_REGISTER_METHOD(0x02041F20, Dictionary_2_TKey_TValue_Entry_System_Int32_LightCanvasEditorTextureCache_LightCanvasEditorTextureData_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__14 * __this));
@@ -120,7 +120,7 @@ IL2CPP_REGISTER_METHODINFO(0x04785FF8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00BB0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__14 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__14 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__14 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__15 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__15 * __this));
 IL2CPP_REGISTER_METHOD(0x02041F80, Dictionary_2_TKey_TValue_Entry_System_Int32_Moon_Timeline_ActivateAnimatorSystem_ObjectState_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__15 * __this));
@@ -128,7 +128,7 @@ IL2CPP_REGISTER_METHODINFO(0x047072A8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00950, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__15 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__15 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__15 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__16 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__16 * __this));
 IL2CPP_REGISTER_METHOD(0x02041FE0, Dictionary_2_TKey_TValue_Entry_System_Int32_Moon_Timeline_EventHistoryItem_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__16 * __this));
@@ -136,7 +136,7 @@ IL2CPP_REGISTER_METHODINFO(0x047872E8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__16 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__16 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__16 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__17 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__17 * __this));
 IL2CPP_REGISTER_METHOD(0x02042040, Dictionary_2_TKey_TValue_Entry_System_Int32_PoolTransformPosition_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__17 * __this));
@@ -144,7 +144,7 @@ IL2CPP_REGISTER_METHODINFO(0x0475B558, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D01C20, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__17 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__17 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__17 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__18 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__18 * __this));
 IL2CPP_REGISTER_METHOD(0x020420A0, Dictionary_2_TKey_TValue_Entry_System_Int32_System_Boolean_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__18 * __this));
@@ -152,7 +152,7 @@ IL2CPP_REGISTER_METHODINFO(0x04789E80, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__18 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__18 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__18 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__19 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__19 * __this));
 IL2CPP_REGISTER_METHOD(0x02042100, Dictionary_2_TKey_TValue_Entry_System_Int32_System_ByteEnum_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__19 * __this));
@@ -160,7 +160,7 @@ IL2CPP_REGISTER_METHODINFO(0x04751E60, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__19 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__19 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__19 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__20 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__20 * __this));
 IL2CPP_REGISTER_METHOD(0x02042160, Dictionary_2_TKey_TValue_Entry_System_Int32_System_Int32_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__20 * __this));
@@ -168,7 +168,7 @@ IL2CPP_REGISTER_METHODINFO(0x047662B8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__20 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__20 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__20 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__21 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__21 * __this));
 IL2CPP_REGISTER_METHOD(0x020421C0, Dictionary_2_TKey_TValue_Entry_System_Int32_System_Int32Enum_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__21 * __this));
@@ -176,7 +176,7 @@ IL2CPP_REGISTER_METHODINFO(0x04745CC8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__21 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__21 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__21 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__22 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__22 * __this));
 IL2CPP_REGISTER_METHOD(0x02042220, Dictionary_2_TKey_TValue_Entry_System_Int32_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__22 * __this));
@@ -184,7 +184,7 @@ IL2CPP_REGISTER_METHODINFO(0x04786C20, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__22 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__22 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__22 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__23 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__23 * __this));
 IL2CPP_REGISTER_METHOD(0x02042280, Dictionary_2_TKey_TValue_Entry_System_Int32_System_Single_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__23 * __this));
@@ -192,7 +192,7 @@ IL2CPP_REGISTER_METHODINFO(0x0478BB98, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__23 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__23 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__23 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__24 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__24 * __this));
 IL2CPP_REGISTER_METHOD(0x020422E0, Dictionary_2_TKey_TValue_Entry_System_Int32_UberGhostTrailMeshUpdate_TextureInfo_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__24 * __this));
@@ -200,7 +200,7 @@ IL2CPP_REGISTER_METHODINFO(0x0473EB80, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00EE0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__24 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__24 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__24 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__25 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__25 * __this));
 IL2CPP_REGISTER_METHOD(0x02042340, Dictionary_2_TKey_TValue_Entry_System_Int32_UberShaderTextureBase_SubBindIdCache_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__25 * __this));
@@ -208,7 +208,7 @@ IL2CPP_REGISTER_METHODINFO(0x04706238, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__25 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__25 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__25 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__26 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__26 * __this));
 IL2CPP_REGISTER_METHOD(0x020423A0, Dictionary_2_TKey_TValue_Entry_System_Int32_UnityEngine_RaycastHit_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__26 * __this));
@@ -216,7 +216,7 @@ IL2CPP_REGISTER_METHODINFO(0x04757950, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00EE0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__26 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__26 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__26 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__27 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__27 * __this));
 IL2CPP_REGISTER_METHOD(0x02042400, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_EntityWeightData_EntityWeightSettings_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__27 * __this));
@@ -224,7 +224,7 @@ IL2CPP_REGISTER_METHODINFO(0x0474C368, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x02042460, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__27 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__27 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__27 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__28 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__28 * __this));
 IL2CPP_REGISTER_METHOD(0x02042540, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_SpellIconsCollection_Icons_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__28 * __this));
@@ -232,7 +232,7 @@ IL2CPP_REGISTER_METHODINFO(0x0472FBA0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00950, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__28 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__28 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__28 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__29 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__29 * __this));
 IL2CPP_REGISTER_METHOD(0x020425A0, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_System_Boolean_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__29 * __this));
@@ -240,7 +240,7 @@ IL2CPP_REGISTER_METHODINFO(0x04705290, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__29 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__29 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__29 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__30 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__30 * __this));
 IL2CPP_REGISTER_METHOD(0x02042600, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_System_ByteEnum_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__30 * __this));
@@ -248,7 +248,7 @@ IL2CPP_REGISTER_METHODINFO(0x047060D0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__30 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__30 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__30 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__31 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__31 * __this));
 IL2CPP_REGISTER_METHOD(0x02042660, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_System_Double_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__31 * __this));
@@ -256,7 +256,7 @@ IL2CPP_REGISTER_METHODINFO(0x04798E18, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__31 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__31 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__31 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__32 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__32 * __this));
 IL2CPP_REGISTER_METHOD(0x020426C0, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_System_Int32_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__32 * __this));
@@ -264,7 +264,7 @@ IL2CPP_REGISTER_METHODINFO(0x04701E08, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__32 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__32 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__32 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__33 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__33 * __this));
 IL2CPP_REGISTER_METHOD(0x02042720, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_System_Int32Enum_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__33 * __this));
@@ -272,7 +272,7 @@ IL2CPP_REGISTER_METHODINFO(0x0472FBA8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__33 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__33 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__33 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__34 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__34 * __this));
 IL2CPP_REGISTER_METHOD(0x02042780, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__34 * __this));
@@ -280,7 +280,7 @@ IL2CPP_REGISTER_METHODINFO(0x04737C40, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__34 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__34 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__34 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__35 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__35 * __this));
 IL2CPP_REGISTER_METHOD(0x020427E0, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_System_Single_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__35 * __this));
@@ -288,7 +288,7 @@ IL2CPP_REGISTER_METHODINFO(0x04755088, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__35 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__35 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__35 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__36 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__36 * __this));
 IL2CPP_REGISTER_METHOD(0x02042840, Dictionary_2_TKey_TValue_Entry_System_Int32Enum_UnityEngine_Color_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__36 * __this));
@@ -296,7 +296,7 @@ IL2CPP_REGISTER_METHODINFO(0x0472B300, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D02750, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__36 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__36 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__36 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__37 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__37 * __this));
 IL2CPP_REGISTER_METHOD(0x020428A0, Dictionary_2_TKey_TValue_Entry_System_Int64_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__37 * __this));
@@ -304,7 +304,7 @@ IL2CPP_REGISTER_METHODINFO(0x0477D5E0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__37 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__37 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__37 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__38 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__38 * __this));
 IL2CPP_REGISTER_METHOD(0x02042900, Dictionary_2_TKey_TValue_Entry_System_Int64_System_Single_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__38 * __this));
@@ -312,7 +312,7 @@ IL2CPP_REGISTER_METHODINFO(0x0477B060, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__38 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__38 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__38 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__39 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__39 * __this));
 IL2CPP_REGISTER_METHOD(0x02042960, Dictionary_2_TKey_TValue_Entry_System_Object_FullSerializer_Internal_fsOption_1_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__39 * __this));
@@ -320,7 +320,7 @@ IL2CPP_REGISTER_METHODINFO(0x04749DD0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00BB0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__39 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__39 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__39 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__40 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__40 * __this));
 IL2CPP_REGISTER_METHOD(0x020429C0, Dictionary_2_TKey_TValue_Entry_System_Object_GlideFeatherAnimator_AtlasAndSpriteTexture_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__40 * __this));
@@ -328,7 +328,7 @@ IL2CPP_REGISTER_METHODINFO(0x0471CF00, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__40 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__40 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__40 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__41 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__41 * __this));
 IL2CPP_REGISTER_METHOD(0x02042A20, Dictionary_2_TKey_TValue_Entry_System_Object_Moon_ActiveAnimationHandle_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__41 * __this));
@@ -336,7 +336,7 @@ IL2CPP_REGISTER_METHODINFO(0x04777EE8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__41 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__41 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__41 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__42 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__42 * __this));
 IL2CPP_REGISTER_METHOD(0x02042A80, Dictionary_2_TKey_TValue_Entry_System_Object_Moon_Rendering_SrpSampler_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__42 * __this));
@@ -344,7 +344,7 @@ IL2CPP_REGISTER_METHODINFO(0x04767C70, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00EE0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__42 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__42 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__42 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__43 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__43 * __this));
 IL2CPP_REGISTER_METHOD(0x02042AE0, Dictionary_2_TKey_TValue_Entry_System_Object_NearbySceneData_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__43 * __this));
@@ -352,7 +352,7 @@ IL2CPP_REGISTER_METHODINFO(0x047965D8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00950, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__43 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__43 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__43 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__44 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__44 * __this));
 IL2CPP_REGISTER_METHOD(0x02042B40, Dictionary_2_TKey_TValue_Entry_System_Object_SeinNaruComboAnimator_AtlasAndSpriteTexture_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__44 * __this));
@@ -360,7 +360,7 @@ IL2CPP_REGISTER_METHODINFO(0x0477F3A8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__44 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__44 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__44 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__45 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__45 * __this));
 IL2CPP_REGISTER_METHOD(0x02042BA0, Dictionary_2_TKey_TValue_Entry_System_Object_SpiritTurret_AttackableRayHandle_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__45 * __this));
@@ -368,7 +368,7 @@ IL2CPP_REGISTER_METHODINFO(0x047339D0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__45 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__45 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__45 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__46 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__46 * __this));
 IL2CPP_REGISTER_METHOD(0x02042C00, Dictionary_2_TKey_TValue_Entry_System_Object_System_Boolean_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__46 * __this));
@@ -376,7 +376,7 @@ IL2CPP_REGISTER_METHODINFO(0x04779E90, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__46 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__46 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__46 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__47 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__47 * __this));
 IL2CPP_REGISTER_METHOD(0x02042C60, Dictionary_2_TKey_TValue_Entry_System_Object_System_Byte_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__47 * __this));
@@ -384,7 +384,7 @@ IL2CPP_REGISTER_METHODINFO(0x04799F38, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__47 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__47 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__47 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__48 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__48 * __this));
 IL2CPP_REGISTER_METHOD(0x02042CC0, Dictionary_2_TKey_TValue_Entry_System_Object_KeyValuePair_2_System_Object_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__48 * __this));
@@ -392,7 +392,7 @@ IL2CPP_REGISTER_METHODINFO(0x0477A960, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__48 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__48 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__48 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__49 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__49 * __this));
 IL2CPP_REGISTER_METHOD(0x02042D20, Dictionary_2_TKey_TValue_Entry_System_Object_System_Double_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__49 * __this));
@@ -400,7 +400,7 @@ IL2CPP_REGISTER_METHODINFO(0x04718DD8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__49 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__49 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__49 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__50 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__50 * __this));
 IL2CPP_REGISTER_METHOD(0x02042D80, Dictionary_2_TKey_TValue_Entry_System_Object_System_Int32_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__50 * __this));
@@ -408,7 +408,7 @@ IL2CPP_REGISTER_METHODINFO(0x04723FF8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__50 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__50 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__50 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__51 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__51 * __this));
 IL2CPP_REGISTER_METHOD(0x02042DE0, Dictionary_2_TKey_TValue_Entry_System_Object_System_Int32Enum_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__51 * __this));
@@ -416,7 +416,7 @@ IL2CPP_REGISTER_METHODINFO(0x04754718, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__51 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__51 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__51 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__52 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__52 * __this));
 IL2CPP_REGISTER_METHOD(0x02042E40, Dictionary_2_TKey_TValue_Entry_System_Object_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__52 * __this));
@@ -424,7 +424,7 @@ IL2CPP_REGISTER_METHODINFO(0x04771F70, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__52 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__52 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__52 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__53 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__53 * __this));
 IL2CPP_REGISTER_METHOD(0x02042EA0, Dictionary_2_TKey_TValue_Entry_System_Object_System_Resources_ResourceLocator_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__53 * __this));
@@ -432,7 +432,7 @@ IL2CPP_REGISTER_METHODINFO(0x04739C80, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__53 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__53 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__53 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__54 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__54 * __this));
 IL2CPP_REGISTER_METHOD(0x02042F00, Dictionary_2_TKey_TValue_Entry_System_Object_System_Single_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__54 * __this));
@@ -440,7 +440,7 @@ IL2CPP_REGISTER_METHODINFO(0x0475B2D0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__54 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__54 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__54 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__55 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__55 * __this));
 IL2CPP_REGISTER_METHOD(0x02042F60, Dictionary_2_TKey_TValue_Entry_System_Object_System_UInt32_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__55 * __this));
@@ -448,7 +448,7 @@ IL2CPP_REGISTER_METHODINFO(0x0472EE10, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__55 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__55 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__55 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__56 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__56 * __this));
 IL2CPP_REGISTER_METHOD(0x02042FC0, Dictionary_2_TKey_TValue_Entry_System_Object_System_ValueTuple_2_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__56 * __this));
@@ -456,7 +456,7 @@ IL2CPP_REGISTER_METHODINFO(0x04704F98, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__56 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__56 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__56 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__57 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__57 * __this));
 IL2CPP_REGISTER_METHOD(0x02043020, Dictionary_2_TKey_TValue_Entry_System_Object_TextureAnimation_AnimationTextureInfo_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__57 * __this));
@@ -464,7 +464,7 @@ IL2CPP_REGISTER_METHODINFO(0x047190B8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__57 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__57 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__57 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__58 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__58 * __this));
 IL2CPP_REGISTER_METHOD(0x02043080, Dictionary_2_TKey_TValue_Entry_System_Object_UberAtlasExclusions_SceneExclusion_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__58 * __this));
@@ -472,7 +472,7 @@ IL2CPP_REGISTER_METHODINFO(0x0474F1C8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__58 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__58 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__58 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__59 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__59 * __this));
 IL2CPP_REGISTER_METHOD(0x020430E0, Dictionary_2_TKey_TValue_Entry_System_Object_UberShaderAtlasUtilities_TextureInfo_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__59 * __this));
@@ -480,7 +480,7 @@ IL2CPP_REGISTER_METHODINFO(0x04716608, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__59 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__59 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__59 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__60 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__60 * __this));
 IL2CPP_REGISTER_METHOD(0x02043140, Dictionary_2_TKey_TValue_Entry_System_Object_UberShaderCurveBake_CurveData_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__60 * __this));
@@ -488,7 +488,7 @@ IL2CPP_REGISTER_METHODINFO(0x04701E10, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00EE0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__60 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__60 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__60 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__61 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__61 * __this));
 IL2CPP_REGISTER_METHOD(0x020431A0, Dictionary_2_TKey_TValue_Entry_System_Object_UberShaderCurveBake_GradientData_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__61 * __this));
@@ -496,7 +496,7 @@ IL2CPP_REGISTER_METHODINFO(0x04768E40, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00EE0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__61 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__61 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__61 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__62 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__62 * __this));
 IL2CPP_REGISTER_METHOD(0x02043200, Dictionary_2_TKey_TValue_Entry_System_Object_UnityEngine_Color_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__62 * __this));
@@ -504,7 +504,7 @@ IL2CPP_REGISTER_METHODINFO(0x04777410, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__62 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__62 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__62 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__63 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__63 * __this));
 IL2CPP_REGISTER_METHOD(0x02043260, Dictionary_2_TKey_TValue_Entry_System_Object_UnityEngine_Quaternion_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__63 * __this));
@@ -512,7 +512,7 @@ IL2CPP_REGISTER_METHODINFO(0x04705AB0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__63 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__63 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__63 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__64 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__64 * __this));
 IL2CPP_REGISTER_METHOD(0x020432C0, Dictionary_2_TKey_TValue_Entry_System_Object_UnityEngine_Rect_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__64 * __this));
@@ -520,7 +520,7 @@ IL2CPP_REGISTER_METHODINFO(0x0470B138, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__64 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__64 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__64 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__65 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__65 * __this));
 IL2CPP_REGISTER_METHOD(0x02043320, Dictionary_2_TKey_TValue_Entry_System_Object_UnityEngine_Vector2_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__65 * __this));
@@ -528,7 +528,7 @@ IL2CPP_REGISTER_METHODINFO(0x04728BC8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__65 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__65 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__65 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__66 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__66 * __this));
 IL2CPP_REGISTER_METHOD(0x02043380, Dictionary_2_TKey_TValue_Entry_System_Object_UnityEngine_Vector3_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__66 * __this));
@@ -536,7 +536,7 @@ IL2CPP_REGISTER_METHODINFO(0x047982E8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__66 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__66 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__66 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__67 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__67 * __this));
 IL2CPP_REGISTER_METHOD(0x020433E0, Dictionary_2_TKey_TValue_Entry_System_Object_UnityEngine_Vector4_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__67 * __this));
@@ -544,7 +544,7 @@ IL2CPP_REGISTER_METHODINFO(0x04756208, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__67 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__67 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__67 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__68 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__68 * __this));
 IL2CPP_REGISTER_METHOD(0x02043440, Dictionary_2_TKey_TValue_Entry_System_Object_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__68 * __this));
@@ -552,7 +552,7 @@ IL2CPP_REGISTER_METHODINFO(0x04714D10, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00950, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__68 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__68 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__68 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__69 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__69 * __this));
 IL2CPP_REGISTER_METHOD(0x020434A0, Dictionary_2_TKey_TValue_Entry_System_UInt16_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__69 * __this));
@@ -560,7 +560,7 @@ IL2CPP_REGISTER_METHODINFO(0x0473EF38, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__69 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__69 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__69 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__70 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__70 * __this));
 IL2CPP_REGISTER_METHOD(0x02043500, Dictionary_2_TKey_TValue_Entry_System_UInt32_RuntimeGuidMapping_CacheEntry_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__70 * __this));
@@ -568,7 +568,7 @@ IL2CPP_REGISTER_METHODINFO(0x04773C60, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D02670, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__70 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__70 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__70 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__71 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__71 * __this));
 IL2CPP_REGISTER_METHOD(0x02043560, Dictionary_2_TKey_TValue_Entry_System_UInt32_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__71 * __this));
@@ -576,7 +576,7 @@ IL2CPP_REGISTER_METHODINFO(0x0476C7E8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__71 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__71 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__71 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__72 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__72 * __this));
 IL2CPP_REGISTER_METHOD(0x020435C0, Dictionary_2_TKey_TValue_Entry_System_UInt32_System_Single_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__72 * __this));
@@ -584,7 +584,7 @@ IL2CPP_REGISTER_METHODINFO(0x04756AF8, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEE40, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__72 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__72 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__72 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__73 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__73 * __this));
 IL2CPP_REGISTER_METHOD(0x02043620, Dictionary_2_TKey_TValue_Entry_System_UInt64_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__73 * __this));
@@ -592,7 +592,7 @@ IL2CPP_REGISTER_METHODINFO(0x0473BE70, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__73 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__73 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__73 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__74 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__74 * __this));
 IL2CPP_REGISTER_METHOD(0x02043680, Dictionary_2_TKey_TValue_Entry_System_ValueTuple_2_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__74 * __this));
@@ -600,7 +600,7 @@ IL2CPP_REGISTER_METHODINFO(0x0478FC50, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFEFD0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__74 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__74 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__74 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__75 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__75 * __this));
 IL2CPP_REGISTER_METHOD(0x020436E0, Dictionary_2_TKey_TValue_Entry_System_ValueTuple_2_System_ValueTuple_3__1, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__75 * __this));
@@ -608,7 +608,7 @@ IL2CPP_REGISTER_METHODINFO(0x04713B68, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D00BB0, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__75 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__75 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__75 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__76 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__76 * __this));
 IL2CPP_REGISTER_METHOD(0x02043740, Dictionary_2_TKey_TValue_Entry_UnityEngine_Bounds_System_Boolean_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__76 * __this));
@@ -616,7 +616,7 @@ IL2CPP_REGISTER_METHODINFO(0x0470C458, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01D01E30, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__76 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__76 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__76 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__77 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, MoveNext, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__77 * __this));
 IL2CPP_REGISTER_METHOD(0x020437A0, Dictionary_2_TKey_TValue_Entry_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_System_Object_, get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__77 * __this));
@@ -624,5 +624,5 @@ IL2CPP_REGISTER_METHODINFO(0x047445E0, Array_EmptyInternalEnumerator_1_System_Co
 IL2CPP_REGISTER_METHOD(0x01CFF500, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__77 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__77 * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry__77 * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::LargeHeader {
 IL2CPP_REGISTER_METHOD(0x02A2BAD0, void, __ctor, (LargeHeader * __this, String * name));

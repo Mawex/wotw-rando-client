@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AbilitiesPlugin {
 IL2CPP_REGISTER_METHOD(0x004ABA40, Object *, ReflectionHack, (String * FullName));

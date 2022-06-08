@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::Profile::Metric_System::Single___ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_Moon_Profile_Metric_System_Single__1 * __this));

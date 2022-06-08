@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::InstructionArray_DebugView {
 IL2CPP_REGISTER_METHOD(0x01CD7AE0, void, __ctor, (InstructionArray_DebugView * __this, InstructionArray array));

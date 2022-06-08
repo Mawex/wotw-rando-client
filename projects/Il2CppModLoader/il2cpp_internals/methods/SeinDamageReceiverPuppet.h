@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDamageReceiverPuppet {
 IL2CPP_REGISTER_METHOD(0x006E4170, int32_t, get_Id, (SeinDamageReceiverPuppet * __this));

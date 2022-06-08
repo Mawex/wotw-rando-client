@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DateTimeUtils {
-IL2CPP_REGISTER_METHOD(0x01C089A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C089A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01C08AA0, TimeSpan, GetUtcOffset, (DateTime d));
 IL2CPP_REGISTER_METHOD(0x01C08AE0, XmlDateTimeSerializationMode__Enum, ToSerializationMode, (DateTimeKind__Enum kind));
 IL2CPP_REGISTER_METHODINFO(0x047122E8, DateTimeUtils_ToSerializationMode__MethodInfo);

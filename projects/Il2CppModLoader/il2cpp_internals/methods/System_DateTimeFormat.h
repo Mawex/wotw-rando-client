@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DateTimeFormat {
 IL2CPP_REGISTER_METHOD(0x028A6D20, void, FormatDigits, (StringBuilder * outputBuffer, int32_t value, int32_t len));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHODINFO(0x047114E8, DateTimeFormat_GetAllDateTimes__MethodInf
 IL2CPP_REGISTER_METHOD(0x028AA370, String__Array *, GetAllDateTimes, (DateTime dateTime, DateTimeFormatInfo * dtfi));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, InvalidFormatForLocal, (String * format, DateTime dateTime));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, InvalidFormatForUtc, (String * format, DateTime dateTime));
-IL2CPP_REGISTER_METHOD(0x028AA650, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028AA650, void, __cctor, ());
 }

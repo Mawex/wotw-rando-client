@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::OrderedEnumerable_1_TElement___GetEnumerator_d__1_System::Collections::Generic::KeyValuePair_2_ {
 IL2CPP_REGISTER_METHOD(0x01D09710, void, __ctor, (OrderedEnumerable_1_TElement_GetEnumerator_d_1_System_Collections_Generic_KeyValuePair_2_ * __this, int32_t __1__state));

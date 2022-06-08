@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::CSteamID {
 IL2CPP_REGISTER_METHOD(0x0012F2F0, void, __ctor, (CSteamID__Boxed * __this, AccountID_t unAccountID, EUniverse__Enum eUniverse, EAccountType__Enum eAccountType));
@@ -41,5 +41,5 @@ IL2CPP_REGISTER_METHOD(0x004C50A0, CSteamID, operator_, (uint64_t value));
 IL2CPP_REGISTER_METHOD(0x004C50A0, uint64_t, operator_, (CSteamID that));
 IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals, (CSteamID__Boxed * __this, CSteamID other));
 IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (CSteamID__Boxed * __this, CSteamID other));
-IL2CPP_REGISTER_METHOD(0x015FA690, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015FA690, void, __cctor, ());
 }

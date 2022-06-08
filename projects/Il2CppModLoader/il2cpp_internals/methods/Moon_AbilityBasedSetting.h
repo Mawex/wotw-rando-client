@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AbilityBasedSetting {
 IL2CPP_REGISTER_METHOD(0x013321E0, void, GetDebugMenuItems, (AbilityBasedSetting * __this, List_1_IDebugMenuItem_ * list, String * menuName));

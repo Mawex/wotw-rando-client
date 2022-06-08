@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Xml::XmlQualifiedName_System::Xml::Schema::SchemaAttDef_ {
 IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_Xml_XmlQualifiedName_System_Xml_Schema_SchemaAttDef_ * __this, XmlQualifiedName * key, SchemaAttDef * value));

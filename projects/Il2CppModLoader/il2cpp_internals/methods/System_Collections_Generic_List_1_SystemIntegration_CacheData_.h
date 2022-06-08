@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_SystemIntegration::CacheData_ {
 IL2CPP_REGISTER_METHOD(0x025EAEF0, CacheData__Array *, ToArray, (List_1_SystemIntegration_CacheData_ * __this));

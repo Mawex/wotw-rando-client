@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ContinuousIntegration::DisableAllLoggingLogHandler {
 IL2CPP_REGISTER_METHOD(0x0318B010, void, __ctor, (DisableAllLoggingLogHandler * __this));

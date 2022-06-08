@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncVoidMethodBuilder {
-IL2CPP_REGISTER_METHOD(0x01A91D60, AsyncVoidMethodBuilder, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A91D60, AsyncVoidMethodBuilder, Create, ());
 IL2CPP_REGISTER_METHOD(0x0018EE20, void, SetStateMachine, (AsyncVoidMethodBuilder__Boxed * __this, IAsyncStateMachine * stateMachine));
 IL2CPP_REGISTER_METHOD(0x0018EE30, void, SetResult, (AsyncVoidMethodBuilder__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0018EE40, void, SetException, (AsyncVoidMethodBuilder__Boxed * __this, Exception * exception));

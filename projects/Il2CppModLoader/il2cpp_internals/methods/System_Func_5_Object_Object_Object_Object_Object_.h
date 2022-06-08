@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_5_Object_Object_Object_Object_Object_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_5_Object_Object_Object_Object_Object_ * __this, Object * object, void * method_1));

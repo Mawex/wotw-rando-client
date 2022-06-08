@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsNotRunningBehaviourCondition {
 IL2CPP_REGISTER_METHOD(0x006469D0, void, Awake, (IsNotRunningBehaviourCondition * __this));

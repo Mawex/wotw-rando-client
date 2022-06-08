@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionModifier__GetBaseVertexTextureNames_d__66 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (UberInteractionModifier_GetBaseVertexTextureNames_d_66 * __this, int32_t __1__state));

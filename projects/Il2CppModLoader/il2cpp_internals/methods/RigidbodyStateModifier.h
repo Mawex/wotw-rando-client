@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodyStateModifier {
 IL2CPP_REGISTER_METHOD(0x01B789A0, Vector3, get_Position, (RigidbodyStateModifier * __this));

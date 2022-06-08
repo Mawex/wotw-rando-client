@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FBBIKHeadEffector_BendBone {
 IL2CPP_REGISTER_METHOD(0x0205C030, void, __ctor, (FBBIKHeadEffector_BendBone * __this));

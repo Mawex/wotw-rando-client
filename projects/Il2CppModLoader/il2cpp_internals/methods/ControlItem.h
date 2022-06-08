@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControlItem {
 IL2CPP_REGISTER_METHOD(0x011E8210, void, __ctor, (ControlItem * __this, CommandBinding * binding));

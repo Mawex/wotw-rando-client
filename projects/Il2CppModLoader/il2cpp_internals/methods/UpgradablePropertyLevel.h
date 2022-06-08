@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UpgradablePropertyLevel {
 IL2CPP_REGISTER_METHOD(0x013AE020, bool, HasProperty, (UpgradablePropertyLevel * __this, UpgradablePropertyType__Enum propertyType));

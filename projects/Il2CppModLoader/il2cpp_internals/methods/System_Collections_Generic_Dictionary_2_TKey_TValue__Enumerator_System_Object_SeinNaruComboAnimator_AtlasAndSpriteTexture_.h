@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::Object_SeinNaruComboAnimator_AtlasAndSpriteTexture_ {
 IL2CPP_REGISTER_METHOD(0x00133A30, void, __ctor, (Dictionary_2_TKey_TValue_Enumerator_System_Object_SeinNaruComboAnimator_AtlasAndSpriteTexture___Boxed * __this, Dictionary_2_System_Object_SeinNaruComboAnimator_AtlasAndSpriteTexture_ * dictionary, int32_t getEnumeratorRetType));

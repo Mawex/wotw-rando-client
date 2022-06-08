@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlAnyElementAttribute {
 IL2CPP_REGISTER_METHOD(0x00443280, void, __ctor, (XmlAnyElementAttribute * __this));

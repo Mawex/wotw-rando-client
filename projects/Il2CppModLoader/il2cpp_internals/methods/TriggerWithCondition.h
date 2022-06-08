@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriggerWithCondition {
 IL2CPP_REGISTER_METHOD(0x00B143B0, void, Awake, (TriggerWithCondition * __this));

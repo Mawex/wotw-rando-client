@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterSplashControl {
 IL2CPP_REGISTER_METHOD(0x00623240, float, get_DeltaTime, (WaterSplashControl * __this));

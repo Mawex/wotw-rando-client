@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindowsVideoPlayer {
 IL2CPP_REGISTER_METHOD(0x0057B9F0, void, set_Filename, (WindowsVideoPlayer * __this, String * value));

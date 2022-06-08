@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::FXAAProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00D51450, ProfilingSettings_SettingType__Enum, get_SettingType, (FXAAProfilingSetting * __this));

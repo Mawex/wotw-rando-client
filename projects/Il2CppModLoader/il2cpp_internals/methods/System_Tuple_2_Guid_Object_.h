@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_Guid_Object_ {
 IL2CPP_REGISTER_METHOD(0x01349560, Guid, get_Item1, (Tuple_2_Guid_Object_ * __this));

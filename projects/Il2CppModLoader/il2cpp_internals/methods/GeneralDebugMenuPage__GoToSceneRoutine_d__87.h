@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GeneralDebugMenuPage__GoToSceneRoutine_d__87 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GeneralDebugMenuPage_GoToSceneRoutine_d_87 * __this, int32_t __1__state));

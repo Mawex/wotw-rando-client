@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::OneDSEventsAPI__WaitWhile_d__13 {
 IL2CPP_REGISTER_METHOD(0x0014EC50, void, MoveNext, (OneDSEventsAPI_WaitWhile_d_13__Boxed * __this));

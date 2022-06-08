@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_Rectangle {
 IL2CPP_REGISTER_METHOD(0x025796D0, bool, GetIntersection, (Rect rect, Vector2 p1, Vector2 p2, Vector2 * intersection));

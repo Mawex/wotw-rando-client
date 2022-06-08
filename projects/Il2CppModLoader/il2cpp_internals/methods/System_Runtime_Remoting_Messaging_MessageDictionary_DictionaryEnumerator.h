@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator {
 IL2CPP_REGISTER_METHOD(0x02314440, void, __ctor, (MessageDictionary_DictionaryEnumerator * __this, MessageDictionary * methodDictionary));

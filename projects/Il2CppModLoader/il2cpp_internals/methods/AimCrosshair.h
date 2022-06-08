@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AimCrosshair {
 IL2CPP_REGISTER_METHOD(0x004F0EC0, void, FixedUpdate, (AimCrosshair * __this));

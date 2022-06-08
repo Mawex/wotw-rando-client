@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_CatlikeCoding::TextBox::TextBoxLine_ {
 IL2CPP_REGISTER_METHOD(0x02C29BD0, int32_t, Compare, (ObjectComparer_1_CatlikeCoding_TextBox_TextBoxLine_ * __this, TextBoxLine x, TextBoxLine y));

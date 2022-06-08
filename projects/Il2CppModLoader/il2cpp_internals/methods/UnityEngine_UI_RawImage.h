@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::RawImage {
 IL2CPP_REGISTER_METHOD(0x02663790, void, __ctor, (RawImage * __this));

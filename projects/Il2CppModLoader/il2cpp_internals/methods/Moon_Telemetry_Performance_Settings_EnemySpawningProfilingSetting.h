@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::EnemySpawningProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00E16AE0, ProfilingSettings_SettingType__Enum, get_SettingType, (EnemySpawningProfilingSetting * __this));

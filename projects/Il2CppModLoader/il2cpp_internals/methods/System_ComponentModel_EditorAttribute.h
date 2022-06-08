@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::EditorAttribute {
 IL2CPP_REGISTER_METHOD(0x01FE7CE0, void, __ctor, (EditorAttribute * __this));

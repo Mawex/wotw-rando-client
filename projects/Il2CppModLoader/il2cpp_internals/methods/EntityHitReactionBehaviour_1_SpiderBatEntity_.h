@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityHitReactionBehaviour_1_SpiderBatEntity_ {
 IL2CPP_REGISTER_METHOD(0x019E1460, void, ApplyExternalKickbackForce, (EntityHitReactionBehaviour_1_SpiderBatEntity_ * __this, Vector2 force, DamageWeight__Enum damageWeight));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XDeclaration {
 IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (XDeclaration * __this, String * version, String * encoding, String * standalone));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStateArchive {
 IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_CaretPosition, (UberStateArchive * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterThatRockFallsInto {
 IL2CPP_REGISTER_METHOD(0x008E5070, void, OnTriggerEnter, (WaterThatRockFallsInto * __this, Collider * collider));

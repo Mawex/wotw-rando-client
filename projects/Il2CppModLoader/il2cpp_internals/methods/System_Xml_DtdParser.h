@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::DtdParser {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x021E9AD0, void, __ctor, (DtdParser * __this));
-IL2CPP_REGISTER_METHOD(0x021E9BE0, IDtdParser *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021E9BE0, IDtdParser *, Create, ());
 IL2CPP_REGISTER_METHOD(0x021E9E00, void, Initialize, (DtdParser * __this, IDtdParserAdapter * readerAdapter));
 IL2CPP_REGISTER_METHOD(0x021EA130, void, InitializeFreeFloatingDtd, (DtdParser * __this, String * baseUri, String * docTypeName, String * publicId, String * systemId, String * internalSubset, IDtdParserAdapter * adapter));
 IL2CPP_REGISTER_METHODINFO(0x04786498, DtdParser_InitializeFreeFloatingDtd__MethodInfo);

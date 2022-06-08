@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::IPEndPoint {
 IL2CPP_REGISTER_METHOD(0x004F0AC0, AddressFamily__Enum, get_AddressFamily, (IPEndPoint * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHODINFO(0x04794D78, IPEndPoint_Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E697C0, bool, Equals, (IPEndPoint * __this, Object * comparand));
 IL2CPP_REGISTER_METHOD(0x01E69980, int32_t, GetHashCode, (IPEndPoint * __this));
 IL2CPP_REGISTER_METHOD(0x01E699C0, IPEndPoint *, Snapshot, (IPEndPoint * __this));
-IL2CPP_REGISTER_METHOD(0x01E69B30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E69B30, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TurtleShellAttackBehaviorNew {
 IL2CPP_REGISTER_METHOD(0x00D206B0, void, OnEnter, (TurtleShellAttackBehaviorNew * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::TimeSpanParse_TimeSpanResult {
 IL2CPP_REGISTER_METHOD(0x001D43C0, void, Init, (TimeSpanParse_TimeSpanResult__Boxed * __this, TimeSpanParse_TimeSpanThrowStyle__Enum canThrow));

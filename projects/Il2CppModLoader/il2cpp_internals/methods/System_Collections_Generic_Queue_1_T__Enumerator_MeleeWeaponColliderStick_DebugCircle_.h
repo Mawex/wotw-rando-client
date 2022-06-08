@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_MeleeWeaponColliderStick_DebugCircle_ {
 IL2CPP_REGISTER_METHOD(0x001EE300, MeleeWeaponColliderStick_DebugCircle *, get_Current, (Queue_1_T_Enumerator_MeleeWeaponColliderStick_DebugCircle___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlInt64Storage {
 IL2CPP_REGISTER_METHOD(0x0285A5B0, void, __ctor, (SqlInt64Storage * __this, DataColumn * column));

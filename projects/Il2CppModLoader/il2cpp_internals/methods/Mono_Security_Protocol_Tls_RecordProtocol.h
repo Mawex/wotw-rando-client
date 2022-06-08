@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::RecordProtocol {
 IL2CPP_REGISTER_METHOD(0x002FB930, Context_1 *, get_Context, (RecordProtocol * __this));
@@ -44,5 +44,5 @@ IL2CPP_REGISTER_METHOD(0x01F7A280, Byte__Array *, encryptRecordFragment, (Record
 IL2CPP_REGISTER_METHOD(0x01F7A440, Byte__Array *, decryptRecordFragment, (RecordProtocol * __this, ContentType__Enum contentType, Byte__Array * fragment));
 IL2CPP_REGISTER_METHODINFO(0x04706E10, RecordProtocol_decryptRecordFragment__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01F7A750, bool, Compare, (RecordProtocol * __this, Byte__Array * array1, Byte__Array * array2));
-IL2CPP_REGISTER_METHOD(0x01F7A7D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F7A7D0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SettingsStringProvider {
 IL2CPP_REGISTER_METHOD(0x005A58A0, String *, get_On, (SettingsStringProvider * __this));

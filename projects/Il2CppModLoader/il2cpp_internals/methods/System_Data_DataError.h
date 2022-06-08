@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataError {
 IL2CPP_REGISTER_METHOD(0x0239F0B0, void, __ctor, (DataError * __this));

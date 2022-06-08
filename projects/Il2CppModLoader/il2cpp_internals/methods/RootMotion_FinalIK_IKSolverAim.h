@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverAim {
 IL2CPP_REGISTER_METHOD(0x02BE78A0, float, GetAngle, (IKSolverAim * __this));

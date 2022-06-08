@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Firefly {
 IL2CPP_REGISTER_METHOD(0x009CA200, bool, get_IsAlive, (Firefly * __this));

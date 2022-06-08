@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::AuthenticationModuleElement {
 IL2CPP_REGISTER_METHOD(0x020180B0, void, __ctor, (AuthenticationModuleElement * __this));

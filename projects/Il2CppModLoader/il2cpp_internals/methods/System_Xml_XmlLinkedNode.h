@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlLinkedNode {
 IL2CPP_REGISTER_METHOD(0x01DB9A00, void, __ctor, (XmlLinkedNode * __this, XmlDocument * doc));

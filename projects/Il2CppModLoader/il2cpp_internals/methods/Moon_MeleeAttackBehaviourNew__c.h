@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MeleeAttackBehaviourNew___c {
-IL2CPP_REGISTER_METHOD(0x01113340, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01113340, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MeleeAttackBehaviourNew_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _ProcessWallRecoil_b__70_0, (MeleeAttackBehaviourNew_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x047338D8, MeleeAttackBehaviourNew_c__ProcessWallRecoil_b__70_0__MethodInfo);

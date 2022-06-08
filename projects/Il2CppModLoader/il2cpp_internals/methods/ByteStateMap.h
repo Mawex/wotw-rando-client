@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ByteStateMap {
 IL2CPP_REGISTER_METHOD(0x01B56660, List_1_GenericMappingEntry_ *, GetGenericMapping, (ByteStateMap * __this));

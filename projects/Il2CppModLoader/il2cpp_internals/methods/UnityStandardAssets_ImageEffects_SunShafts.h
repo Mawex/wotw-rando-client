@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::SunShafts {
 IL2CPP_REGISTER_METHOD(0x02D67860, bool, CheckResources, (SunShafts * __this));

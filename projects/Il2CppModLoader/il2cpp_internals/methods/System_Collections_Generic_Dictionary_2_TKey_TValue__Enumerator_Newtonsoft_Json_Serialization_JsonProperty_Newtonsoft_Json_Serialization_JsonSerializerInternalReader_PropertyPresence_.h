@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_Newtonsoft::Json::Serialization::JsonProperty_Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_Newtonsoft_Json_Serialization_JsonProperty_Newtonsoft_Json_Serialization_JsonSerializerInternalReader_PropertyPresence_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_Newtonsoft_Json_Serialization_JsonProperty_Newtonsoft_Json_Serialization_JsonSerializerInternalReader_PropertyPresence___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpawnWormsAttack {
 IL2CPP_REGISTER_METHOD(0x00EF6860, void, Start, (SpawnWormsAttack * __this));

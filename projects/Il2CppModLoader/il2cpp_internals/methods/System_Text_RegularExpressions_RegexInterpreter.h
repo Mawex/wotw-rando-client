@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexInterpreter {
 IL2CPP_REGISTER_METHOD(0x02593420, void, __ctor, (RegexInterpreter * __this, RegexCode * code, CultureInfo * culture));

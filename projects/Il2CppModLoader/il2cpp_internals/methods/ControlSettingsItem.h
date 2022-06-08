@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControlSettingsItem {
 IL2CPP_REGISTER_METHOD(0x011F05A0, void, Awake, (ControlSettingsItem * __this));

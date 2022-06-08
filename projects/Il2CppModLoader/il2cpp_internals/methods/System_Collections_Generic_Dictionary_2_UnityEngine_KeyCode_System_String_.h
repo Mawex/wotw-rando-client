@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::KeyCode_System::String_ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_UnityEngine_KeyCode_System_String_ * __this, KeyCode__Enum key));

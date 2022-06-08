@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinLocalSpeedAction {
 IL2CPP_REGISTER_METHOD(0x008926C0, void, Perform, (SeinLocalSpeedAction * __this, IContext * context));

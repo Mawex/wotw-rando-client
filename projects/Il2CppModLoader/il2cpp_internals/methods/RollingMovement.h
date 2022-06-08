@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RollingMovement {
 IL2CPP_REGISTER_METHOD(0x00724040, float, get_SpeedY, (RollingMovement * __this));

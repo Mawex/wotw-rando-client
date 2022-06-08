@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinBlazeSpell_BalancingData {
 IL2CPP_REGISTER_METHOD(0x00D94750, bool, get_IsChargeUnlocked, (SeinBlazeSpell_BalancingData * __this));

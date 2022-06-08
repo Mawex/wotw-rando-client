@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabEvent {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, PlayFabEventType__Enum, get_EventType, (PlayFabEvent * __this));

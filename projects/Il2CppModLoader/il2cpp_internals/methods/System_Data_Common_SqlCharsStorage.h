@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlCharsStorage {
 IL2CPP_REGISTER_METHOD(0x02847880, void, __ctor, (SqlCharsStorage * __this, DataColumn * column));

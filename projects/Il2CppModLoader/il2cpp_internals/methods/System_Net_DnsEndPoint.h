@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::DnsEndPoint {
 IL2CPP_REGISTER_METHOD(0x01EB37F0, void, __ctor, (DnsEndPoint * __this, String * host, int32_t port));

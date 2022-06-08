@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsTriggerCollidingCondition {
 IL2CPP_REGISTER_METHOD(0x00647DD0, void, Start, (IsTriggerCollidingCondition * __this));

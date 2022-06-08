@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Playables::PlayableExtensions {
 IL2CPP_REGISTER_METHOD(0x015E6670, void, SetInputWeight, (AnimationLayerMixerPlayable playable, int32_t inputIndex, float weight));

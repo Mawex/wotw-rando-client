@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LocalDefinition {
 IL2CPP_REGISTER_METHOD(0x0013C010, void, __ctor, (LocalDefinition__Boxed * __this, int32_t localIndex, ParameterExpression * parameter));

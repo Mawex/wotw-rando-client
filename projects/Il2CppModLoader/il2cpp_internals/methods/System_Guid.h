@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Guid {
 IL2CPP_REGISTER_METHOD(0x001D46A0, void, __ctor, (Guid__Boxed * __this, Byte__Array * b));
@@ -45,6 +45,6 @@ IL2CPP_REGISTER_METHOD(0x01DFC340, int32_t, HexsToChars, (uint16_t * guidChars, 
 IL2CPP_REGISTER_METHOD(0x01DFC420, int32_t, HexsToChars, (uint16_t * guidChars, int32_t offset, int32_t a, int32_t b, bool hex));
 IL2CPP_REGISTER_METHOD(0x001D47F0, String *, ToString, (Guid__Boxed * __this, String * format, IFormatProvider * provider));
 IL2CPP_REGISTER_METHODINFO(0x04763920, Guid_ToString_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01DFCC80, Guid, NewGuid, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01DFCF20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DFCC80, Guid, NewGuid, ());
+IL2CPP_REGISTER_METHOD(0x01DFCF20, void, __cctor, ());
 }

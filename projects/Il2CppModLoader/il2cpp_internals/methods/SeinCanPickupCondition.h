@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinCanPickupCondition {
 IL2CPP_REGISTER_METHOD(0x00DA2F90, bool, Validate, (SeinCanPickupCondition * __this, IContext * context));

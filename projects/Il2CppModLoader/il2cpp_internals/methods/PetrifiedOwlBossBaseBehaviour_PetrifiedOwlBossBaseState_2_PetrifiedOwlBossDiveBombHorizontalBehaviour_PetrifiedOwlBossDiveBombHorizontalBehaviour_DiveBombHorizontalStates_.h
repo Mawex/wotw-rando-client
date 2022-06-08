@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseState_2_PetrifiedOwlBossDiveBombHorizontalBehaviour_PetrifiedOwlBossDiveBombHorizontalBehaviour_DiveBombHorizontalStates_ {
 IL2CPP_REGISTER_METHOD(0x01D14C90, void, __ctor, (PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseState_2_PetrifiedOwlBossDiveBombHorizontalBehaviour_PetrifiedOwlBossDiveBombHorizontalBehaviour_DiveBombHorizontalStates_ * __this, PetrifiedOwlBossBaseBehaviour * behaviour));

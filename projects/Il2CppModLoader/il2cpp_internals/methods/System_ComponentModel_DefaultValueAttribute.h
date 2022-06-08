@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DefaultValueAttribute {
 IL2CPP_REGISTER_METHOD(0x01FE2240, void, __ctor, (DefaultValueAttribute * __this, Type * type, String * value));

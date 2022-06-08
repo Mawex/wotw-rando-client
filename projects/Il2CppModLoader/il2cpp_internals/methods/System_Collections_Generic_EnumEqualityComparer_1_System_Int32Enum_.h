@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EnumEqualityComparer_1_System::Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x02CBD390, bool, Equals, (EnumEqualityComparer_1_System_Int32Enum_ * __this, Int32Enum__Enum x, Int32Enum__Enum y));

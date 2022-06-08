@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Newtonsoft::Json::Serialization::JsonSerializerInternalReader_CreatorPropertyContext_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, JsonSerializerInternalReader_CreatorPropertyContext *, get_Current, (List_1_T_Enumerator_Newtonsoft_Json_Serialization_JsonSerializerInternalReader_CreatorPropertyContext___Boxed * __this));

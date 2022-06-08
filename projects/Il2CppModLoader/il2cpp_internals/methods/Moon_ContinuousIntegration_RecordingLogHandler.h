@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ContinuousIntegration::RecordingLogHandler {
 IL2CPP_REGISTER_METHOD(0x0318BC50, void, __ctor, (RecordingLogHandler * __this, bool quickExit));

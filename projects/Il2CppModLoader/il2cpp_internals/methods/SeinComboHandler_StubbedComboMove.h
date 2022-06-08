@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinComboHandler_StubbedComboMove {
 IL2CPP_REGISTER_METHOD(0x002FB980, void, __ctor, (SeinComboHandler_StubbedComboMove * __this, ComboMoveType__Enum moveType));

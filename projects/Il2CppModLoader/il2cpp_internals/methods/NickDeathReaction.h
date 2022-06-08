@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NickDeathReaction {
 IL2CPP_REGISTER_METHOD(0x005FC700, void, OnInitializeTask, (NickDeathReaction * __this, IContext * context));

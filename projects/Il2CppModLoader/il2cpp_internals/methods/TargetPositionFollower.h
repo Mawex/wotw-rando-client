@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TargetPositionFollower {
 IL2CPP_REGISTER_METHOD(0x00CE3330, void, FixedUpdate, (TargetPositionFollower * __this));

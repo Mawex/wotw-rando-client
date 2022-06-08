@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossEntity {
 IL2CPP_REGISTER_METHOD(0x0096C1B0, SpiderBossEntity_SpiderFightState__Enum, get_CurrentUberState, (SpiderBossEntity * __this));

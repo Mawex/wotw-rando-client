@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::PropertyDescriptorCollection {
 IL2CPP_REGISTER_METHOD(0x029940A0, void, __ctor, (PropertyDescriptorCollection * __this, PropertyDescriptor__Array * properties));
@@ -60,5 +60,5 @@ IL2CPP_REGISTER_METHOD(0x02997070, void, IList_RemoveAt, (PropertyDescriptorColl
 IL2CPP_REGISTER_METHOD(0x02997080, Object *, IList_get_Item, (PropertyDescriptorCollection * __this, int32_t index));
 IL2CPP_REGISTER_METHOD(0x029970A0, void, IList_set_Item, (PropertyDescriptorCollection * __this, int32_t index, Object * value));
 IL2CPP_REGISTER_METHODINFO(0x047958E0, PropertyDescriptorCollection_System_Collections_IList_set_Item__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02997270, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02997270, void, __cctor, ());
 }

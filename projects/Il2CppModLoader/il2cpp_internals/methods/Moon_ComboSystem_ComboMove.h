@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::ComboMove {
 IL2CPP_REGISTER_METHOD(0x00CC5B40, void, __ctor, (ComboMove * __this));

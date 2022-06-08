@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NotEqualInstruction_NotEqualByteLiftedToNull {
 IL2CPP_REGISTER_METHOD(0x02403F90, int32_t, Run, (NotEqualInstruction_NotEqualByteLiftedToNull * __this, InterpretedFrame * frame));

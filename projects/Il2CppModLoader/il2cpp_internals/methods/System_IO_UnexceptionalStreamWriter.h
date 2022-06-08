@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::UnexceptionalStreamWriter {
 IL2CPP_REGISTER_METHOD(0x02389090, void, __ctor, (UnexceptionalStreamWriter * __this, Stream * stream, Encoding * encoding));

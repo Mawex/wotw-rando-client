@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Configuration___c {
-IL2CPP_REGISTER_METHOD(0x0261A290, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0261A290, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Configuration_c * __this));
 IL2CPP_REGISTER_METHOD(0x0261A3D0, IPredicates *, __ctor_b__0_0, (Configuration_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04728AE8, Configuration_c___ctor_b__0_0__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LanguageToggler {
 IL2CPP_REGISTER_METHOD(0x00F05330, String *, get_Path, (LanguageToggler * __this));

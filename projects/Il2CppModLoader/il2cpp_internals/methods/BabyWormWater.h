@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BabyWormWater {
 IL2CPP_REGISTER_METHOD(0x00F80B90, bool, DigEdgeZoneEdgeAhead, (BabyWormWater * __this));

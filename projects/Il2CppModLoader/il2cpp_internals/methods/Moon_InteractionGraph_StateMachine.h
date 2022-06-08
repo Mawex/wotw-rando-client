@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::StateMachine {
 IL2CPP_REGISTER_METHOD(0x004C87B0, float, get_CurrentStateTime, (StateMachine_1 * __this));

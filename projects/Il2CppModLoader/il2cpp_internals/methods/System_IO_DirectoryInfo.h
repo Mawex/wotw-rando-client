@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::DirectoryInfo {
 IL2CPP_REGISTER_METHOD(0x01E03AC0, void, __ctor, (DirectoryInfo * __this, String * path));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuPlatformMovement {
 IL2CPP_REGISTER_METHOD(0x005C7620, Vector3, get_Position, (KuPlatformMovement * __this));

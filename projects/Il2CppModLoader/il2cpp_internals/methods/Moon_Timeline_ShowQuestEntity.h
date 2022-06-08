@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ShowQuestEntity {
 IL2CPP_REGISTER_METHOD(0x00D02D50, void, OnEnable, (ShowQuestEntity * __this));

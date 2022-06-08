@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::NumberFormatInfo {
 IL2CPP_REGISTER_METHOD(0x01DE9EB0, void, __ctor, (NumberFormatInfo * __this));
@@ -6,7 +6,7 @@ IL2CPP_REGISTER_METHOD(0x01DE9EC0, void, OnSerializing, (NumberFormatInfo * __th
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDeserializing, (NumberFormatInfo * __this, StreamingContext ctx));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDeserialized, (NumberFormatInfo * __this, StreamingContext ctx));
 IL2CPP_REGISTER_METHOD(0x01DE9FE0, void, __ctor, (NumberFormatInfo * __this, CultureData * cultureData));
-IL2CPP_REGISTER_METHOD(0x01DEA630, NumberFormatInfo *, get_InvariantInfo, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DEA630, NumberFormatInfo *, get_InvariantInfo, ());
 IL2CPP_REGISTER_METHOD(0x01DEA7E0, NumberFormatInfo *, GetInstance, (IFormatProvider * formatProvider));
 IL2CPP_REGISTER_METHOD(0x01DEA970, Object *, Clone, (NumberFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x0063D090, int32_t, get_CurrencyDecimalDigits, (NumberFormatInfo * __this));
@@ -17,7 +17,7 @@ IL2CPP_REGISTER_METHOD(0x01DEABF0, Int32__Array *, get_NumberGroupSizes, (Number
 IL2CPP_REGISTER_METHOD(0x01DEAD30, Int32__Array *, get_PercentGroupSizes, (NumberFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9F0, String *, get_CurrencyGroupSeparator, (NumberFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB60, String *, get_CurrencySymbol, (NumberFormatInfo * __this));
-IL2CPP_REGISTER_METHOD(0x01DEAE70, NumberFormatInfo *, get_CurrentInfo, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DEAE70, NumberFormatInfo *, get_CurrentInfo, ());
 IL2CPP_REGISTER_METHOD(0x002FBBA0, String *, get_NaNSymbol, (NumberFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x0073EDA0, int32_t, get_CurrencyNegativePattern, (NumberFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x00855600, int32_t, get_NumberNegativePattern, (NumberFormatInfo * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::ElementInit {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (ElementInit * __this, MethodInfo_1 * addMethod, ReadOnlyCollection_1_System_Linq_Expressions_Expression_ * arguments));

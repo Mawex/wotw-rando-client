@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System::Xml::Schema::SequenceNode_SequenceConstructPosContext_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_System_Xml_Schema_SequenceNode_SequenceConstructPosContext___Boxed * __this, Array * array));

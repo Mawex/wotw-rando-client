@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkPlaylist {
 IL2CPP_REGISTER_METHOD(0x0188A780, void, __ctor, (AkPlaylist * __this, void * cPtr, bool cMemoryOwn));

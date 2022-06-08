@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LizardSpitAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x01109E10, void, OnEntityInitialized, (LizardSpitAttackBehaviour * __this));

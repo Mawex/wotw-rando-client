@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Button__OnFinishSubmit_c__Iterator0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Button_OnFinishSubmit_c_Iterator0 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostFrame {
 IL2CPP_REGISTER_METHOD(0x00E199E0, void, SaveToFile, (GhostFrame * __this, BinaryWriter * binaryWriter));

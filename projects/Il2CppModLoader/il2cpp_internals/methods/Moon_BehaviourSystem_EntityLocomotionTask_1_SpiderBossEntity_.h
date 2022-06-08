@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityLocomotionTask_1_SpiderBossEntity_ {
 IL2CPP_REGISTER_METHOD(0x019E1C80, SpiderBossEntity *, get_Entity, (EntityLocomotionTask_1_SpiderBossEntity_ * __this));

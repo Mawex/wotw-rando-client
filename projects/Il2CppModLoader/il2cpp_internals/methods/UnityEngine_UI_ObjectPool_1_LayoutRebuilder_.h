@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ObjectPool_1_LayoutRebuilder_ {
 IL2CPP_REGISTER_METHOD(0x02ACEDE0, void, __ctor, (ObjectPool_1_LayoutRebuilder_ * __this, UnityAction_1_UnityEngine_UI_LayoutRebuilder_ * actionOnGet, UnityAction_1_UnityEngine_UI_LayoutRebuilder_ * actionOnRelease));

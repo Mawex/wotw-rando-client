@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GameObject {
 IL2CPP_REGISTER_METHOD(0x02527110, void, __ctor, (GameObject * __this, String * name));

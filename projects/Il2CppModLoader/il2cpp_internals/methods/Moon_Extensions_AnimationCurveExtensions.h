@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Extensions::AnimationCurveExtensions {
 IL2CPP_REGISTER_METHOD(0x031B38E0, float, GetMaxAnimationCurveDuration, (AnimationCurve__Array * curves));

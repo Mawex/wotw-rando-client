@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexMatchTimeoutException {
 IL2CPP_REGISTER_METHOD(0x025959D0, void, __ctor, (RegexMatchTimeoutException * __this, String * regexInput, String * regexPattern, TimeSpan matchTimeout));

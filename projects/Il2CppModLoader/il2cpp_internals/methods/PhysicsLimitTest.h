@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsLimitTest {
 IL2CPP_REGISTER_METHOD(0x01152C10, String *, get_Path, (PhysicsLimitTest * __this));
@@ -20,12 +20,12 @@ IL2CPP_REGISTER_METHOD(0x011535D0, void, OnEnable, (PhysicsLimitTest * __this));
 IL2CPP_REGISTER_METHOD(0x01153670, void, OnDestroy, (PhysicsLimitTest * __this));
 IL2CPP_REGISTER_METHOD(0x007893E0, bool, get_Active, (PhysicsLimitTest * __this));
 IL2CPP_REGISTER_METHOD(0x01153790, void, set_Active, (PhysicsLimitTest * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x011537F0, bool, get_IsSynced, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011537F0, bool, get_IsSynced, ());
 IL2CPP_REGISTER_METHOD(0x01153910, void, SetSingleFixedUpdate, (PhysicsLimitTest * __this));
 IL2CPP_REGISTER_METHOD(0x01153970, void, SetDoubleFixedUpdate, (PhysicsLimitTest * __this));
-IL2CPP_REGISTER_METHOD(0x011539D0, bool, get_ShouldAllowPhysicsLimiter, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011539D0, bool, get_ShouldAllowPhysicsLimiter, ());
 IL2CPP_REGISTER_METHOD(0x01153A70, void, set_ShouldAllowPhysicsLimiter, (bool value));
 IL2CPP_REGISTER_METHOD(0x01153B80, bool, get_ShouldRunPhysicsLimiter, (PhysicsLimitTest * __this));
 IL2CPP_REGISTER_METHOD(0x01153D00, void, __ctor, (PhysicsLimitTest * __this));
-IL2CPP_REGISTER_METHOD(0x01153DA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01153DA0, void, __cctor, ());
 }

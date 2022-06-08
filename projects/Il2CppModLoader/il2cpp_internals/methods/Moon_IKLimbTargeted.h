@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::IKLimbTargeted {
 IL2CPP_REGISTER_METHOD(0x010FE720, void, OnAddedToAnimator, (IKLimbTargeted * __this, MoonAnimator * animator));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_MinMaxGradient {
 IL2CPP_REGISTER_METHOD(0x00248760, void, __ctor, (ParticleSystem_MinMaxGradient__Boxed * __this, Color color));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AttackableSwitch {
 IL2CPP_REGISTER_METHOD(0x00854340, bool, get_Activated, (AttackableSwitch * __this));

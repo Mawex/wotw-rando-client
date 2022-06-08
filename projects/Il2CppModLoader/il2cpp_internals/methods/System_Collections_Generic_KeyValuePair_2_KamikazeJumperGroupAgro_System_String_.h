@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_KamikazeJumperGroupAgro_System::String_ {
 IL2CPP_REGISTER_METHOD(0x00107C10, String *, get_Value, (KeyValuePair_2_KamikazeJumperGroupAgro_System_String___Boxed * __this));

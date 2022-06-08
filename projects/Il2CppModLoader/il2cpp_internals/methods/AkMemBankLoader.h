@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkMemBankLoader {
 IL2CPP_REGISTER_METHOD(0x026F9230, void, Start, (AkMemBankLoader * __this));

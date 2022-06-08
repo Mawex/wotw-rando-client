@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageReceiversKilledStateWriter {
 IL2CPP_REGISTER_METHOD(0x00DC8E30, void, OnEnable, (DamageReceiversKilledStateWriter * __this));

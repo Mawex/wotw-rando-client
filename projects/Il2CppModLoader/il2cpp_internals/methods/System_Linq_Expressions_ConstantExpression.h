@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::ConstantExpression {
 IL2CPP_REGISTER_METHOD(0x01FA3760, void, __ctor, (ConstantExpression * __this, Object * value));

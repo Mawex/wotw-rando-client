@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryAbilityChangeEvent {
 IL2CPP_REGISTER_METHOD(0x006A63A0, String *, get_Name, (MoonTelemetryAbilityChangeEvent * __this));

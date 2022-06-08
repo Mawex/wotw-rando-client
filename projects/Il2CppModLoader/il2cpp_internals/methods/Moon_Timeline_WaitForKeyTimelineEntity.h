@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::WaitForKeyTimelineEntity {
 IL2CPP_REGISTER_METHOD(0x0064D960, float, get_CurrentTime, (WaitForKeyTimelineEntity * __this));

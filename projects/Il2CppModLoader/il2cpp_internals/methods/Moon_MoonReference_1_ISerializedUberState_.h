@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_ISerializedUberState_ {
 IL2CPP_REGISTER_METHOD(0x02720EB0, ISerializedUberState *, SafeResolve, (MoonReference_1_ISerializedUberState_ * __this, IMoonResolverContext * context));

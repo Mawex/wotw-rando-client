@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_System::Threading::Tasks::Task_ {
 IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_System_Int32_System_Threading_Tasks_Task_ * __this, int32_t key, Task * value));

@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameplaySoundManager {
-IL2CPP_REGISTER_METHOD(0x004108F0, bool, get_ShowCinematicDebug, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004108F0, bool, get_ShowCinematicDebug, ());
 IL2CPP_REGISTER_METHOD(0x00410990, void, set_ShowCinematicDebug, (bool value));
 IL2CPP_REGISTER_METHOD(0x00410AC0, void, SetAudioQuality, (GameplaySoundManager * __this, GameplaySoundManager_AudioQualitySetting__Enum qualitySetting));
-IL2CPP_REGISTER_METHOD(0x00410BE0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00410BE0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00410CA0, void, Awake, (GameplaySoundManager * __this));
 IL2CPP_REGISTER_METHOD(0x00410D70, void, Start, (GameplaySoundManager * __this));
 IL2CPP_REGISTER_METHOD(0x00411020, void, CacheCinematicStateId, (GameplaySoundManager * __this));
@@ -25,10 +25,10 @@ IL2CPP_REGISTER_METHOD(0x00413160, bool, get_IsSuspended, (GameplaySoundManager 
 IL2CPP_REGISTER_METHOD(0x00413170, void, set_IsSuspended, (GameplaySoundManager * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00413180, SuspendableMask__Enum, get_Mask, (GameplaySoundManager * __this));
 IL2CPP_REGISTER_METHOD(0x00413190, void, set_Mask, (GameplaySoundManager * __this, SuspendableMask__Enum value));
-IL2CPP_REGISTER_METHOD(0x004131A0, void, SetCinematicScope, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004131A0, void, SetCinematicScope, ());
 IL2CPP_REGISTER_METHOD(0x004132B0, void, UpdateCinematicState, (GameplaySoundManager * __this));
 IL2CPP_REGISTER_METHOD(0x004133D0, void, OnGUI, (GameplaySoundManager * __this));
 IL2CPP_REGISTER_METHOD(0x00413B70, bool, get_IsCharacterInputLocked, (GameplaySoundManager * __this));
 IL2CPP_REGISTER_METHOD(0x00414040, void, __ctor, (GameplaySoundManager * __this));
-IL2CPP_REGISTER_METHOD(0x00414060, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00414060, void, __cctor, ());
 }

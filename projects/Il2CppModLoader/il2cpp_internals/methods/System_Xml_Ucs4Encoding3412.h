@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Ucs4Encoding3412 {
 IL2CPP_REGISTER_METHOD(0x019530B0, void, __ctor, (Ucs4Encoding3412 * __this));

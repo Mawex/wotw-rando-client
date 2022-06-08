@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_LegacyMaterialColorGradientAnimator_RendererData_ {
 IL2CPP_REGISTER_METHOD(0x025ECB30, void, Add, (List_1_LegacyMaterialColorGradientAnimator_RendererData_ * __this, LegacyMaterialColorGradientAnimator_RendererData item));
@@ -63,5 +63,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_LegacyMaterialColorGradie
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_LegacyMaterialColorGradientAnimator_RendererData_ * __this, Comparison_1_LegacyMaterialColorGradientAnimator_RendererData_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, LegacyMaterialColorGradientAnimator_RendererData__Array *, ToArray, (List_1_LegacyMaterialColorGradientAnimator_RendererData_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_LegacyMaterialColorGradientAnimator_RendererData_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

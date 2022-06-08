@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::NfaContentValidator {
 IL2CPP_REGISTER_METHOD(0x016D0120, void, __ctor, (NfaContentValidator * __this, BitSet * firstpos, BitSet__Array * followpos, SymbolsDictionary * symbols, Positions * positions, int32_t endMarkerPos, XmlSchemaContentType__Enum contentType, bool isOpen, bool isEmptiable));

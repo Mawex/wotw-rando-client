@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AwardAchievementAction {
 IL2CPP_REGISTER_METHOD(0x0085F360, void, Perform, (AwardAchievementAction * __this, IContext * context));

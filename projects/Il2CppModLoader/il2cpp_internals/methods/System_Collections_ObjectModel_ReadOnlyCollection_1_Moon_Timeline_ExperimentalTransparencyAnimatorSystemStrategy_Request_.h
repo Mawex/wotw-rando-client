@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_Moon::Timeline::ExperimentalTransparencyAnimatorSystemStrategy_Request_ {
 IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, __ctor, (ReadOnlyCollection_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * __this, IList_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * list));

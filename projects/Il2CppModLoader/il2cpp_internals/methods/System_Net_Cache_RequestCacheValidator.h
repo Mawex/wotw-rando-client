@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Cache::RequestCacheValidator {
 IL2CPP_REGISTER_METHOD(0x020164C0, Object *, CreateValidator, (RequestCacheValidator * __this));

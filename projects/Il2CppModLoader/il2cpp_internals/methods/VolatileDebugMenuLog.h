@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VolatileDebugMenuLog {
 IL2CPP_REGISTER_METHOD(0x002FB990, String *, get_Path, (VolatileDebugMenuLog * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x008C3B00, void, Reset, (VolatileDebugMenuLog * __this))
 IL2CPP_REGISTER_METHOD(0x008C3BC0, void, Log, (String * text, bool shouldSendTelemetry));
 IL2CPP_REGISTER_METHOD(0x008C3E30, void, DeleteMessage, (String * text));
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (VolatileDebugMenuLog * __this));
-IL2CPP_REGISTER_METHOD(0x008C3FF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008C3FF0, void, __cctor, ());
 }

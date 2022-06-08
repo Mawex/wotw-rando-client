@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnvrionmentBasedSoundProvider {
 IL2CPP_REGISTER_METHOD(0x00CAADD0, SoundDescriptor *, GetSound, (EnvrionmentBasedSoundProvider * __this, IContext * context));

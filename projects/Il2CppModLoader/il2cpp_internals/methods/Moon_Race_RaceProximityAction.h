@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::RaceProximityAction {
 IL2CPP_REGISTER_METHOD(0x00C497D0, void, Perform, (RaceProximityAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PositionCheckerPlugin {
 IL2CPP_REGISTER_METHOD(0x00C675B0, void, Awake, (PositionCheckerPlugin * __this));

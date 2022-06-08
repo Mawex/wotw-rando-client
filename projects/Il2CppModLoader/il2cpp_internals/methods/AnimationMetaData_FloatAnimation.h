@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationMetaData_FloatAnimation {
 IL2CPP_REGISTER_METHOD(0x004FE9B0, float, GetValueAtFrame, (AnimationMetaData_FloatAnimation * __this, int32_t frame));

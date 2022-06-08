@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_TKey_TValue__Enumerator_MoonGuid_RuntimeQuest_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, RuntimeQuest *, get_Current, (Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enumerator_MoonGuid_RuntimeQuest___Boxed * __this));

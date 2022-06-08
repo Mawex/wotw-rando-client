@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_TriangleNet::Meshing::Algorithm::SweepLine_SplayNode_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_TriangleNet_Meshing_Algorithm_SweepLine_SplayNode_ * __this));

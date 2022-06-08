@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::DictionaryEntry {
 IL2CPP_REGISTER_METHOD(0x00110270, void, __ctor, (DictionaryEntry__Boxed * __this, Object * key, Object * value));

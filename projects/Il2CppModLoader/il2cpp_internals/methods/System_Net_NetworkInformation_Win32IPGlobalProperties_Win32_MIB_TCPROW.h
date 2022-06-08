@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::Win32IPGlobalProperties_Win32_MIB_TCPROW {
 IL2CPP_REGISTER_METHOD(0x01BCAA80, IPEndPoint *, get_LocalEndPoint, (Win32IPGlobalProperties_Win32_MIB_TCPROW * __this));

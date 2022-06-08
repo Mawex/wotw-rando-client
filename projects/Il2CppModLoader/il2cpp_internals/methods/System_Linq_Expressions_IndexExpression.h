@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::IndexExpression {
 IL2CPP_REGISTER_METHOD(0x022D0050, void, __ctor, (IndexExpression * __this, Expression * instance, PropertyInfo_1 * indexer, IReadOnlyList_1_System_Linq_Expressions_Expression_ * arguments));

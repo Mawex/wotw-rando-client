@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedHeirarchyEnablingTask__TimeSlicedEnable_d__6 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (TimeSlicedHeirarchyEnablingTask_TimeSlicedEnable_d_6 * __this, int32_t __1__state));

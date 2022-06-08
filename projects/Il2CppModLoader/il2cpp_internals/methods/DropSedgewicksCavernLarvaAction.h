@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropSedgewicksCavernLarvaAction {
 IL2CPP_REGISTER_METHOD(0x00BE07E0, void, Perform, (DropSedgewicksCavernLarvaAction * __this, IContext * context));

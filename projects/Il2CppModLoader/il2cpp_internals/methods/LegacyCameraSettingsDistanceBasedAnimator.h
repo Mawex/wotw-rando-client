@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyCameraSettingsDistanceBasedAnimator {
 IL2CPP_REGISTER_METHOD(0x015DD330, Bounds, GetOuterBounds, (LegacyCameraSettingsDistanceBasedAnimator * __this));

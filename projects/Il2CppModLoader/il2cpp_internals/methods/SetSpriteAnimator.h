@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetSpriteAnimator {
 IL2CPP_REGISTER_METHOD(0x005A48A0, void, CacheOriginals, (SetSpriteAnimator * __this));

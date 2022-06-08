@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::BindableAttribute {
 IL2CPP_REGISTER_METHOD(0x024A4D00, void, __ctor, (BindableAttribute * __this, bool bindable));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x00CC59E0, BindingDirection__Enum, get_Direction, (Binda
 IL2CPP_REGISTER_METHOD(0x024A4D50, bool, Equals, (BindableAttribute * __this, Object * obj));
 IL2CPP_REGISTER_METHOD(0x01FDE3D0, int32_t, GetHashCode, (BindableAttribute * __this));
 IL2CPP_REGISTER_METHOD(0x024A4E40, bool, IsDefaultAttribute, (BindableAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x024A4F10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024A4F10, void, __cctor, ());
 }

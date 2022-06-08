@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderlingHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00A64220, EntityDamageEvent *, get_DamageEvent, (SpiderlingHitReactionBehaviour * __this));

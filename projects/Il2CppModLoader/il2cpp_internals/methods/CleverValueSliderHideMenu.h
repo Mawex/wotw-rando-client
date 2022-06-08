@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverValueSliderHideMenu {
 IL2CPP_REGISTER_METHOD(0x012C4840, float, get_Value, (CleverValueSliderHideMenu * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::Decoder {
 IL2CPP_REGISTER_METHOD(0x02448100, void, SerializeDecoder, (Decoder * __this, SerializationInfo * info));

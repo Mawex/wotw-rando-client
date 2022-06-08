@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleVomitBehaviour {
 IL2CPP_REGISTER_METHOD(0x010BBB10, void, OnEnter, (TentacleVomitBehaviour * __this, IContext * context));

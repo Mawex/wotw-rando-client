@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnergyOrbPickup {
 IL2CPP_REGISTER_METHOD(0x00C895A0, void, Awake, (EnergyOrbPickup * __this));

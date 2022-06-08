@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceConfiguration {
 IL2CPP_REGISTER_METHOD(0x00E976D0, String *, get_RaceName, (RaceConfiguration * __this));

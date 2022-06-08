@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SplitTurnAnimationMoonTimeline {
 IL2CPP_REGISTER_METHOD(0x0051DB40, bool, get_IsDone, (SplitTurnAnimationMoonTimeline * __this));

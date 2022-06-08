@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::FloatRange {
 IL2CPP_REGISTER_METHOD(0x00125480, void, __ctor, (FloatRange__Boxed * __this, float _min, float _max));

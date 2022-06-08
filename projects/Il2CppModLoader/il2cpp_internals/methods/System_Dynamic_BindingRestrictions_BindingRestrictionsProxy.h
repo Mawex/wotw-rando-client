@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::BindingRestrictions_BindingRestrictionsProxy {
 IL2CPP_REGISTER_METHOD(0x01F88CD0, void, __ctor, (BindingRestrictions_BindingRestrictionsProxy * __this, BindingRestrictions * node));

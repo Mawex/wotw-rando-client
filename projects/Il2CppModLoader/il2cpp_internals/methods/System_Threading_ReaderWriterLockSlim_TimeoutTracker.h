@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ReaderWriterLockSlim_TimeoutTracker {
 IL2CPP_REGISTER_METHOD(0x00240600, void, __ctor, (ReaderWriterLockSlim_TimeoutTracker__Boxed * __this, int32_t millisecondsTimeout));

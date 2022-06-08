@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameObjectReference {
 IL2CPP_REGISTER_METHOD(0x003F8B20, GameObject *, GetReference, (GameObjectReference * gameObjectReference));

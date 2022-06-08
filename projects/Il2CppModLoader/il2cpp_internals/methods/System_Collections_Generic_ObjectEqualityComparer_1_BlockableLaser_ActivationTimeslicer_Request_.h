@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_BlockableLaser_ActivationTimeslicer_Request_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_BlockableLaser_ActivationTimeslicer_Request_ * __this, BlockableLaser_ActivationTimeslicer_Request x, BlockableLaser_ActivationTimeslicer_Request y));

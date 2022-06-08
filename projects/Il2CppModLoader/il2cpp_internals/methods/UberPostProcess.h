@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPostProcess {
-IL2CPP_REGISTER_METHOD(0x00FF2180, bool, get_DebugOverrideEnabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FF2180, bool, get_DebugOverrideEnabled, ());
 IL2CPP_REGISTER_METHOD(0x00FF2220, void, set_DebugOverrideEnabled, (bool value));
-IL2CPP_REGISTER_METHOD(0x00FF22D0, bool, get_DebugOverrideInitialValuesSet, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FF22D0, bool, get_DebugOverrideInitialValuesSet, ());
 IL2CPP_REGISTER_METHOD(0x00FF2370, void, set_DebugOverrideInitialValuesSet, (bool value));
 IL2CPP_REGISTER_METHOD(0x003FC510, float, get_DebugOverrideSepBlurSpread, (UberPostProcess * __this));
 IL2CPP_REGISTER_METHOD(0x00B83350, void, set_DebugOverrideSepBlurSpread, (UberPostProcess * __this, float value));
@@ -18,12 +18,12 @@ IL2CPP_REGISTER_METHOD(0x00FF2640, ColorVariationManager *, get_ColorVariationMa
 IL2CPP_REGISTER_METHOD(0x00FF27A0, Vector3, get_Speed, (UberPostProcess * __this));
 IL2CPP_REGISTER_METHOD(0x00FF27C0, void, set_Speed, (UberPostProcess * __this, Vector3 value));
 IL2CPP_REGISTER_METHOD(0x006D41F0, float, get_CurrentTime, (UberPostProcess * __this));
-IL2CPP_REGISTER_METHOD(0x00FF27E0, UberPostProcess *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FF27E0, UberPostProcess *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00FF2880, SeinController3D *, get_CurrentSeinController3D, (UberPostProcess * __this));
 IL2CPP_REGISTER_METHOD(0x00D2CDF0, bool, get_DoRender, (UberPostProcess * __this));
 IL2CPP_REGISTER_METHOD(0x00FF2920, void, set_DoRender, (UberPostProcess * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00FF2B30, Camera *, get_MainCamera, (UberPostProcess * __this));
-IL2CPP_REGISTER_METHOD(0x00FF2C30, Texture2D *, CreateNoDistortionTex, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FF2C30, Texture2D *, CreateNoDistortionTex, ());
 IL2CPP_REGISTER_METHOD(0x00FF2E50, void, Awake, (UberPostProcess * __this));
 IL2CPP_REGISTER_METHOD(0x00FF3380, void, QueueGrabPass, (UberPostProcess * __this, MeshFilter * go));
 IL2CPP_REGISTER_METHOD(0x00FF3450, void, BindAll, (UberPostProcess * __this));
@@ -65,6 +65,6 @@ IL2CPP_REGISTER_METHOD(0x00FF9740, void, ApplySettings, (UberPostProcess * __thi
 IL2CPP_REGISTER_METHOD(0x00FF9CC0, void, SaveSettings, (UberPostProcess * __this, CameraSettingsAsset * settings));
 IL2CPP_REGISTER_METHOD(0x00FFA2C0, void, SetDebugOverrideInitialValues, (UberPostProcess * __this));
 IL2CPP_REGISTER_METHOD(0x00FFA530, void, __ctor, (UberPostProcess * __this));
-IL2CPP_REGISTER_METHOD(0x00FFB5C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FFB5C0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x007893E0, bool, IRenderPostprocessor_get_enabled, (UberPostProcess * __this));
 }

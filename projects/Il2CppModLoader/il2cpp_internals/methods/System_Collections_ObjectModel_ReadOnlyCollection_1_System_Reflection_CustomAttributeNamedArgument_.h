@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_System::Reflection::CustomAttributeNamedArgument_ {
 IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, __ctor, (ReadOnlyCollection_1_System_Reflection_CustomAttributeNamedArgument_ * __this, IList_1_System_Reflection_CustomAttributeNamedArgument_ * list));

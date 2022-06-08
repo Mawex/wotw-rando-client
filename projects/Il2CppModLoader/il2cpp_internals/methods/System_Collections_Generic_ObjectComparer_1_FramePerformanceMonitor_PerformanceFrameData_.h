@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_FramePerformanceMonitor_PerformanceFrameData_ {
 IL2CPP_REGISTER_METHOD(0x02C2AA00, int32_t, Compare, (ObjectComparer_1_FramePerformanceMonitor_PerformanceFrameData_ * __this, FramePerformanceMonitor_PerformanceFrameData x, FramePerformanceMonitor_PerformanceFrameData y));

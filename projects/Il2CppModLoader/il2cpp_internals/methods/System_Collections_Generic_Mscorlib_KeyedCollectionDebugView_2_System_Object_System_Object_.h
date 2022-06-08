@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Mscorlib_KeyedCollectionDebugView_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02C28EB0, Object__Array *, get_Items, (Mscorlib_KeyedCollectionDebugView_2_System_Object_System_Object_ * __this));

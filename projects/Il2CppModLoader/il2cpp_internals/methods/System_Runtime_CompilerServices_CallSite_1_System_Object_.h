@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::CallSite_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0276D310, Object *, get_Update, (CallSite_1_System_Object_ * __this));

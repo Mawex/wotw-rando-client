@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Rendering::CommandBuffer {
 IL2CPP_REGISTER_METHOD(0x02973C90, void, __ctor, (CommandBuffer * __this));
 IL2CPP_REGISTER_METHOD(0x02973CF0, void, SetInvertCulling, (CommandBuffer * __this, bool invertCulling));
-IL2CPP_REGISTER_METHOD(0x02973D50, void *, InitBuffer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02973D50, void *, InitBuffer, ());
 IL2CPP_REGISTER_METHOD(0x02973DA0, void, ReleaseBuffer, (CommandBuffer * __this));
 IL2CPP_REGISTER_METHOD(0x02973DF0, void, SetComputeFloatParam, (CommandBuffer * __this, ComputeShader * computeShader, int32_t nameID, float val));
 IL2CPP_REGISTER_METHOD(0x02973E70, void, SetComputeVectorParam, (CommandBuffer * __this, ComputeShader * computeShader, int32_t nameID, Vector4 val));

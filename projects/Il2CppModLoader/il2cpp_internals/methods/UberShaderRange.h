@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderRange {
 IL2CPP_REGISTER_METHOD(0x0191AFB0, void, __ctor, (UberShaderRange * __this, float minValue, float maxValue));

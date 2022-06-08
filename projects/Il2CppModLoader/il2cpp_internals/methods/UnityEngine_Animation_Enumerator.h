@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Animation_Enumerator {
 IL2CPP_REGISTER_METHOD(0x01DC2A00, void, __ctor, (Animation_Enumerator * __this, Animation * outer));

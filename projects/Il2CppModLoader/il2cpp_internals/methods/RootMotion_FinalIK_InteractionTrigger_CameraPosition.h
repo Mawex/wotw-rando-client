@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionTrigger_CameraPosition {
 IL2CPP_REGISTER_METHOD(0x02A163D0, Quaternion, GetRotation, (InteractionTrigger_CameraPosition * __this));

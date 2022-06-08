@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::RaycastResult {
 IL2CPP_REGISTER_METHOD(0x001D9820, GameObject *, get_gameObject, (RaycastResult__Boxed * __this));

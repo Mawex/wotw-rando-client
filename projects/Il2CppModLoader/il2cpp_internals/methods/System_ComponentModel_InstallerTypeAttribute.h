@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::InstallerTypeAttribute {
 IL2CPP_REGISTER_METHOD(0x01FEED00, void, __ctor, (InstallerTypeAttribute * __this, Type * installerType));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UISoundSettingsAsset {
 IL2CPP_REGISTER_METHOD(0x013DCDF0, void, PlaySoundEvent, (UISoundSettingsAsset * __this, Event_1 * soundEvent));

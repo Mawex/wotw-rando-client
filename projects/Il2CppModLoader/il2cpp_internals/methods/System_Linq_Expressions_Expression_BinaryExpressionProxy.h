@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_BinaryExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x029D4790, void, __ctor, (Expression_BinaryExpressionProxy * __this, BinaryExpression * node));

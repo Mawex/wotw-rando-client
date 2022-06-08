@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Blend {
 IL2CPP_REGISTER_METHOD(0x0303F6B0, void, OnRenderImage, (Blend * __this, RenderTexture * source, RenderTexture * destination));

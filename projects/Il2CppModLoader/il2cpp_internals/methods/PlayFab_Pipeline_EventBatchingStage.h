@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::EventBatchingStage {
 IL2CPP_REGISTER_METHOD(0x002FB970, int32_t, get_BatchSize, (EventBatchingStage * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x017AF300, void, StoreAllBatches, (EventBatchingStage * 
 IL2CPP_REGISTER_METHOD(0x017AF4A0, void, CreateNewBatch, (EventBatchingStage * __this, String * titleId));
 IL2CPP_REGISTER_METHOD(0x017AF640, void, InitNewBatch, (EventBatchingStage * __this, String * titleId));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, ValidationCheck, (IPlayFabEmitEventRequest * request));
-IL2CPP_REGISTER_METHOD(0x017AF710, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017AF710, void, __cctor, ());
 }

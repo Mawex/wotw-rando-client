@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlAutoDetectWriter {
 IL2CPP_REGISTER_METHOD(0x0195DDC0, void, __ctor, (XmlAutoDetectWriter * __this, XmlWriterSettings * writerSettings));

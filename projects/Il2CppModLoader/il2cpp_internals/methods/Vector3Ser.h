@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Vector3Ser {
 IL2CPP_REGISTER_METHOD(0x00CFCF00, void, __ctor, (Vector3Ser * __this, float x, float y, float z));

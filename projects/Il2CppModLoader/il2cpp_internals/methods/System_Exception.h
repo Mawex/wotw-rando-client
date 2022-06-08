@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Exception {
 IL2CPP_REGISTER_METHOD(0x01A1AFC0, void, Init, (Exception * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x002FD760, void, set_HResult, (Exception * __this, int32
 IL2CPP_REGISTER_METHOD(0x01A1C4F0, Type *, GetType, (Exception * __this));
 IL2CPP_REGISTER_METHOD(0x01A1C500, String *, GetMessageFromNativeResources, (Exception_ExceptionMessageKind__Enum kind));
 IL2CPP_REGISTER_METHOD(0x01A1C590, Exception *, FixRemotingException, (Exception * __this));
-IL2CPP_REGISTER_METHOD(0x01A1C6D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A1C6D0, void, __cctor, ());
 }

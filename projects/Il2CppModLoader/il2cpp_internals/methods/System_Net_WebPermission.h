@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebPermission {
-IL2CPP_REGISTER_METHOD(0x01D77B80, Regex *, get_MatchAllRegex, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D77B80, Regex *, get_MatchAllRegex, ());
 IL2CPP_REGISTER_METHOD(0x01D77D10, IEnumerator *, get_ConnectList, (WebPermission * __this));
 IL2CPP_REGISTER_METHOD(0x01D78130, IEnumerator *, get_AcceptList, (WebPermission * __this));
 IL2CPP_REGISTER_METHOD(0x01D78550, void, __ctor, (WebPermission * __this, PermissionState__Enum state));

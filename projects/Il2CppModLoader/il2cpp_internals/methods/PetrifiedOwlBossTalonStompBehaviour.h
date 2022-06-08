@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossTalonStompBehaviour {
 IL2CPP_REGISTER_METHOD(0x0177FB70, void, CopyData, (PetrifiedOwlBossTalonStompBehaviour * __this, PetrifiedOwlBossBaseBehaviour * other));

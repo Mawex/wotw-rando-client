@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageText {
 IL2CPP_REGISTER_METHOD(0x00DC9AD0, void, Awake, (DamageText * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LookBlendAnimationControl {
 IL2CPP_REGISTER_METHOD(0x009ED040, Sensor *, get_Sensor, (LookBlendAnimationControl * __this));

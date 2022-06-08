@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabHttp_ApiProcessErrorEvent {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (PlayFabHttp_ApiProcessErrorEvent * __this, Object * object, void * method_1));

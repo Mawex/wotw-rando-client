@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::TlsClientSettings {
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_TargetHost, (TlsClientSettings * __this));

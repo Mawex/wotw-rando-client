@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColosseumTimer {
 IL2CPP_REGISTER_METHOD(0x00449EA0, float, get_TimeRemaining, (ColosseumTimer * __this));

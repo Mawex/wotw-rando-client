@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Core::Music_Layer {
 IL2CPP_REGISTER_METHOD(0x00DAD8C0, bool, UsesGivenSoundProvider, (Music_Layer * __this, SoundProvider * soundProvider));

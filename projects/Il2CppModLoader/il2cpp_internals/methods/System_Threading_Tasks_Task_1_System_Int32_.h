@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02A58F00, int32_t, get_Result, (Task_1_System_Int32_ * __this));
@@ -33,10 +33,10 @@ IL2CPP_REGISTER_METHOD(0x02A58F50, int32_t, GetResultCore, (Task_1_System_Int32_
 IL2CPP_REGISTER_METHOD(0x0277F8C0, bool, TrySetException, (Task_1_System_Int32_ * __this, Object * exceptionObject));
 IL2CPP_REGISTER_METHOD(0x0277F950, bool, TrySetCanceled, (Task_1_System_Int32_ * __this, CancellationToken tokenToRecord));
 IL2CPP_REGISTER_METHOD(0x0277F980, bool, TrySetCanceled, (Task_1_System_Int32_ * __this, CancellationToken tokenToRecord, Object * cancellationException));
-IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_System_Int32_ *, get_Factory, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_System_Int32_ *, get_Factory, ());
 IL2CPP_REGISTER_METHOD(0x02A58FF0, void, InnerInvoke, (Task_1_System_Int32_ * __this));
 IL2CPP_REGISTER_METHOD(0x02A590C0, Task *, ContinueWith, (Task_1_System_Int32_ * __this, Action_1_System_Threading_Tasks_Task_1__7 * continuationAction));
 IL2CPP_REGISTER_METHOD(0x02A591C0, Task *, ContinueWith, (Task_1_System_Int32_ * __this, Action_1_System_Threading_Tasks_Task_1__7 * continuationAction, TaskScheduler * scheduler, CancellationToken cancellationToken, TaskContinuationOptions__Enum continuationOptions, StackCrawlMark__Enum * stackMark));
 IL2CPP_REGISTER_METHODINFO(0x0472C248, Task_1_System_Int32__ContinueWith_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, ());
 }

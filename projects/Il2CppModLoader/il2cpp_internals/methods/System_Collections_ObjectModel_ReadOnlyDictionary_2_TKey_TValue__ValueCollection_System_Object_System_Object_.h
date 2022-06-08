@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyDictionary_2_TKey_TValue__ValueCollection_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02B7DD20, int32_t, get_Count, (ReadOnlyDictionary_2_TKey_TValue_ValueCollection_System_Object_System_Object_ * __this));

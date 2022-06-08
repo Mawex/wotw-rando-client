@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatDebugMenuItem {
 IL2CPP_REGISTER_METHOD(0x01270930, void, __ctor, (FloatDebugMenuItem * __this));

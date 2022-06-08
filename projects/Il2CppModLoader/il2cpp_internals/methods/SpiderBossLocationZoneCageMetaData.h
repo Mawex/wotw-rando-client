@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossLocationZoneCageMetaData {
 IL2CPP_REGISTER_METHOD(0x011B3F60, void, OnEnable, (SpiderBossLocationZoneCageMetaData * __this));

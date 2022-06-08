@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XDocumentType {
 IL2CPP_REGISTER_METHOD(0x03036150, void, __ctor, (XDocumentType * __this, String * name, String * publicId, String * systemId, String * internalSubset));

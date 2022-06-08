@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_Moon::uberSerializationWisp::PlayerStateMap_Mapping_ {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ * __this));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHODINFO(0x0473D4D8, Array_EmptyInternalEnumerator_1_Moon_uber
 IL2CPP_REGISTER_METHOD(0x01CFFA00, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 }

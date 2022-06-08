@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AllContainer_1_CollectablePlaceholder_ {
 IL2CPP_REGISTER_METHOD(0x019D79D0, void, Clear, (AllContainer_1_CollectablePlaceholder_ * __this));

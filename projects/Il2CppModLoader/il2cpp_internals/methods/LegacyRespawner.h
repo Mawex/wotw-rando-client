@@ -1,13 +1,13 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyRespawner {
-IL2CPP_REGISTER_METHOD(0x00A32B00, void, UpdateRespawners, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A32B00, void, UpdateRespawners, ());
 IL2CPP_REGISTER_METHOD(0x00A32C70, void, ProvideComponents, (LegacyRespawner * __this));
 IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_IsSuspended, (LegacyRespawner * __this));
 IL2CPP_REGISTER_METHOD(0x0094FCE0, void, set_IsSuspended, (LegacyRespawner * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x005065F0, SuspendableMask__Enum, get_Mask, (LegacyRespawner * __this));
 IL2CPP_REGISTER_METHOD(0x00A32D00, void, set_Mask, (LegacyRespawner * __this, SuspendableMask__Enum value));
-IL2CPP_REGISTER_METHOD(0x00A32DC0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A32DC0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00A32EA0, void, Awake, (LegacyRespawner * __this));
 IL2CPP_REGISTER_METHOD(0x00A33130, void, OnDestroy, (LegacyRespawner * __this));
 IL2CPP_REGISTER_METHOD(0x00A33370, void, OnSceneStartLateBeforeSerialize, (LegacyRespawner * __this, SceneRoot * sceneRoot));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x00A34340, void, PerformTimedRespawn, (LegacyRespawner *
 IL2CPP_REGISTER_METHOD(0x00A34630, void, PerformRespawn, (LegacyRespawner * __this));
 IL2CPP_REGISTER_METHOD(0x00A34660, void, Serialize, (LegacyRespawner * __this, Archive * ar));
 IL2CPP_REGISTER_METHOD(0x00A34750, void, __ctor, (LegacyRespawner * __this));
-IL2CPP_REGISTER_METHOD(0x00A34770, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A34770, void, __cctor, ());
 }

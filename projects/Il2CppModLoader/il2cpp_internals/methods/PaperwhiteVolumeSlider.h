@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PaperwhiteVolumeSlider {
 IL2CPP_REGISTER_METHOD(0x00443D70, void, Awake, (PaperwhiteVolumeSlider * __this));

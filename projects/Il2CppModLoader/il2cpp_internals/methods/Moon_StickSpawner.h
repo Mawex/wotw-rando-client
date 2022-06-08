@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::StickSpawner {
 IL2CPP_REGISTER_METHOD(0x00E31ED0, Input_InputButtonProcessor *, get_ActivationButton, (StickSpawner * __this));

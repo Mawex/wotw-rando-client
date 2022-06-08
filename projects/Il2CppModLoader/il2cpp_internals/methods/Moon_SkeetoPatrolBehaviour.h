@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SkeetoPatrolBehaviour {
 IL2CPP_REGISTER_METHOD(0x00E2CF70, void, OnEntityInitialized, (SkeetoPatrolBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexBoyerMoore {
 IL2CPP_REGISTER_METHOD(0x025878B0, void, __ctor, (RegexBoyerMoore * __this, String * pattern, bool caseInsensitive, bool rightToLeft, CultureInfo * culture));

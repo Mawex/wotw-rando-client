@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugBossHeadSlamBehaviour_new {
 IL2CPP_REGISTER_METHOD(0x00B64DD0, void, OnEntityInitialized, (HornBugBossHeadSlamBehaviour_new * __this));

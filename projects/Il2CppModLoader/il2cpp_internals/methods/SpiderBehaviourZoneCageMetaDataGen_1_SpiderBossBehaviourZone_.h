@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBehaviourZoneCageMetaDataGen_1_SpiderBossBehaviourZone_ {
 IL2CPP_REGISTER_METHOD(0x019DA540, void, __ctor, (SpiderBehaviourZoneCageMetaDataGen_1_SpiderBossBehaviourZone_ * __this));

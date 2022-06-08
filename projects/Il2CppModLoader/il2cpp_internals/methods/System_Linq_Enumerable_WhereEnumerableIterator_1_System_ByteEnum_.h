@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereEnumerableIterator_1_System::ByteEnum_ {
 IL2CPP_REGISTER_METHOD(0x02892980, void, __ctor, (Enumerable_WhereEnumerableIterator_1_System_ByteEnum_ * __this, IEnumerable_1_System_ByteEnum_ * source, Func_2_ByteEnum_Boolean_ * predicate));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageMath_Vector {
 IL2CPP_REGISTER_METHOD(0x00823C00, float, Sign, (Vector2 p1, Vector2 p2, Vector2 p3));

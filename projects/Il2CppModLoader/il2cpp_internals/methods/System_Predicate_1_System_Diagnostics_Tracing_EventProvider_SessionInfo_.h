@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Predicate_1_System::Diagnostics::Tracing::EventProvider_SessionInfo_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Predicate_1_System_Diagnostics_Tracing_EventProvider_SessionInfo_ * __this, Object * object, void * method_1));

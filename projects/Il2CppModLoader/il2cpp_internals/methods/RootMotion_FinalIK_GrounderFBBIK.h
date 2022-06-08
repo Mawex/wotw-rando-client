@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::GrounderFBBIK {
 IL2CPP_REGISTER_METHOD(0x02068110, void, OpenTutorial, (GrounderFBBIK * __this));

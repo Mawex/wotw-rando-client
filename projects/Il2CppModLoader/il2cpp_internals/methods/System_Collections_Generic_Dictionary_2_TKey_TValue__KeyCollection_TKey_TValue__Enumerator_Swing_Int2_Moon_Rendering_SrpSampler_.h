@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_Swing::Int2_Moon::Rendering::SrpSampler_ {
 IL2CPP_REGISTER_METHOD(0x001438F0, void, __ctor, (Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_Swing_Int2_Moon_Rendering_SrpSampler___Boxed * __this, Dictionary_2_Swing_Int2_Moon_Rendering_SrpSampler_ * dictionary));

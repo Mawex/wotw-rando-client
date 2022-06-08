@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathNavigator {
 IL2CPP_REGISTER_METHOD(0x00CC2AF0, String *, ToString, (XPathNavigator * __this));
@@ -21,5 +21,5 @@ IL2CPP_REGISTER_METHOD(0x01957630, IXmlSchemaInfo *, get_SchemaInfo, (XPathNavig
 IL2CPP_REGISTER_METHOD(0x019576B0, bool, IsText, (XPathNodeType__Enum type));
 IL2CPP_REGISTER_METHOD(0x019576C0, Object *, get_debuggerDisplayProxy, (XPathNavigator * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XPathNavigator * __this));
-IL2CPP_REGISTER_METHOD(0x01957750, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01957750, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GetReplaysCallback {
 IL2CPP_REGISTER_METHOD(0x02E91BC0, void, OnResult, (GetReplaysCallback * __this, Byte__Array * data));

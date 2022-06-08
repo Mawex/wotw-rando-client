@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::TextMesh {
 IL2CPP_REGISTER_METHOD(0x0319D520, String *, get_text, (TextMesh * __this));

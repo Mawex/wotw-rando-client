@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::CompareInfo {
 IL2CPP_REGISTER_METHOD(0x01A229B0, void, __ctor, (CompareInfo * __this, CultureInfo * culture));
@@ -35,7 +35,7 @@ IL2CPP_REGISTER_METHOD(0x01A24480, int32_t, GetHashCodeOfString, (CompareInfo * 
 IL2CPP_REGISTER_METHOD(0x01A245E0, int32_t, GetHashCodeOfString, (CompareInfo * __this, String * source, CompareOptions__Enum options, bool forceRandomizedHashing, int64_t additionalEntropy));
 IL2CPP_REGISTER_METHODINFO(0x047539F8, CompareInfo_GetHashCodeOfString_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01A24750, String *, ToString, (CompareInfo * __this));
-IL2CPP_REGISTER_METHOD(0x01A247F0, bool, get_UseManagedCollation, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A247F0, bool, get_UseManagedCollation, ());
 IL2CPP_REGISTER_METHOD(0x01A24920, SimpleCollator *, GetCollator, (CompareInfo * __this));
 IL2CPP_REGISTER_METHOD(0x01A24D60, SortKey *, CreateSortKeyCore, (CompareInfo * __this, String * source, CompareOptions__Enum options));
 IL2CPP_REGISTER_METHOD(0x01A24FD0, int32_t, internal_index_switch, (CompareInfo * __this, String * s1, int32_t sindex, int32_t count, String * s2, CompareOptions__Enum opt, bool first));

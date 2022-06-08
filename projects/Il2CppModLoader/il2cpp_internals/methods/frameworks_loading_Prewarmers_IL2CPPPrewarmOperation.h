@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::IL2CPPPrewarmOperation {
 IL2CPP_REGISTER_METHOD(0x00F60540, void, __ctor, (IL2CPPPrewarmOperation * __this));

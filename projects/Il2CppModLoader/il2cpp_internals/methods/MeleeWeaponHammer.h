@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeWeaponHammer {
 IL2CPP_REGISTER_METHOD(0x009CD4A0, float, get_MoveDurationDept, (MeleeWeaponHammer * __this));

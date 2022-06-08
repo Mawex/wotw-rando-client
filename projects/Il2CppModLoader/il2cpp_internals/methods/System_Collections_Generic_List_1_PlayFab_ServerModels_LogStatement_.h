@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_PlayFab::ServerModels::LogStatement_ {
 IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_PlayFab_ServerModels_LogStatement_ * __this, LogStatement_2 * item));

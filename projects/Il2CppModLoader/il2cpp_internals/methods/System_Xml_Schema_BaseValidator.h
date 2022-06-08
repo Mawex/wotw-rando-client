@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::BaseValidator {
 IL2CPP_REGISTER_METHOD(0x019A5BB0, void, __ctor, (BaseValidator * __this, BaseValidator * other));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ArtificialSoundHost {
 IL2CPP_REGISTER_METHOD(0x02708AF0, void, __ctor, (ArtificialSoundHost * __this, uint64_t i));

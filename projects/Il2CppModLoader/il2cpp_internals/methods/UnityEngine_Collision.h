@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Collision {
 IL2CPP_REGISTER_METHOD(0x030A0120, ContactPoint__Array *, GetContacts_Internal, (Collision * __this));

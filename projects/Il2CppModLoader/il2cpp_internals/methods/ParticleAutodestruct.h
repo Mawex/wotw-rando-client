@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ParticleAutodestruct {
 IL2CPP_REGISTER_METHOD(0x004445B0, void, Start, (ParticleAutodestruct * __this));

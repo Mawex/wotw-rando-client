@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_BlockExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x029D48A0, void, __ctor, (Expression_BlockExpressionProxy * __this, BlockExpression * node));

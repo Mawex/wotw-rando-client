@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlPhaseABrain {
 IL2CPP_REGISTER_METHOD(0x014E3D60, void, Awake, (PetrifiedOwlPhaseABrain * __this));

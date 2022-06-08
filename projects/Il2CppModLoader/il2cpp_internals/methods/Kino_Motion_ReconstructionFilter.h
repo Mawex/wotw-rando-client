@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Kino::Motion_ReconstructionFilter {
 IL2CPP_REGISTER_METHOD(0x01228630, void, __ctor, (Motion_ReconstructionFilter * __this));

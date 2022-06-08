@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinInventory {
 IL2CPP_REGISTER_METHOD(0x01014320, int32_t, get_Keystones, (SeinInventory * __this));

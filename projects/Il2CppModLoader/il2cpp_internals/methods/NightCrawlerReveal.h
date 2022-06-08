@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightCrawlerReveal {
 IL2CPP_REGISTER_METHOD(0x0051DB40, bool, get_IsSuspended, (NightCrawlerReveal * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine::Component_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, Component_1 *, get_Item, (List_1_UnityEngine_Component_ * __this, int32_t index));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraBasedColliderChain {
 IL2CPP_REGISTER_METHOD(0x01682070, Vector3, get_CameraPosition, (CameraBasedColliderChain * __this));

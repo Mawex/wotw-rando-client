@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerPrefixCollection {
 IL2CPP_REGISTER_METHOD(0x01D45B30, void, __ctor, (HttpListenerPrefixCollection * __this, HttpListener * listener));

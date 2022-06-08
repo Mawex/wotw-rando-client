@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_SorterObjectArray {
 IL2CPP_REGISTER_METHOD(0x001E14D0, void, __ctor, (Array_SorterObjectArray__Boxed * __this, Object__Array * keys, Object__Array * items, IComparer * comparer));

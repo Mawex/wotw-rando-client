@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrossSceneReferenceId_CrossSceneReferenceIdEqualityComparer {
 IL2CPP_REGISTER_METHOD(0x02B605C0, bool, Equals, (CrossSceneReferenceId_CrossSceneReferenceIdEqualityComparer * __this, CrossSceneReferenceId x, CrossSceneReferenceId y));

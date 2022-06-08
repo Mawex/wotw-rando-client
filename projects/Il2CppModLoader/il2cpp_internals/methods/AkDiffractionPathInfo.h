@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkDiffractionPathInfo {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkDiffractionPathInfo * __this, void * cPtr, bool cMemoryOwn));
@@ -16,7 +16,7 @@ IL2CPP_REGISTER_METHOD(0x026DFDF0, void, set_totLength, (AkDiffractionPathInfo *
 IL2CPP_REGISTER_METHOD(0x026DFF20, float, get_totLength, (AkDiffractionPathInfo * __this));
 IL2CPP_REGISTER_METHOD(0x026E0040, void, set_obstructionValue, (AkDiffractionPathInfo * __this, float value));
 IL2CPP_REGISTER_METHOD(0x026E0170, float, get_obstructionValue, (AkDiffractionPathInfo * __this));
-IL2CPP_REGISTER_METHOD(0x026E0290, int32_t, GetSizeOf, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x026E0290, int32_t, GetSizeOf, ());
 IL2CPP_REGISTER_METHOD(0x026E0320, AkVector *, GetNodes, (AkDiffractionPathInfo * __this, uint32_t idx));
 IL2CPP_REGISTER_METHOD(0x026E0540, float, GetAngles, (AkDiffractionPathInfo * __this, uint32_t idx));
 IL2CPP_REGISTER_METHOD(0x026E0670, uint64_t, GetPortals, (AkDiffractionPathInfo * __this, uint32_t idx));

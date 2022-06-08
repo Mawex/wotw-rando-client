@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuItemSelectionManager {
 IL2CPP_REGISTER_METHOD(0x012B4A00, List_1_ICleverMenuFadeObserver_ *, get_ResolvedFaderObservers, (CleverMenuItemSelectionManager * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XsdValidatingReader {
 IL2CPP_REGISTER_METHOD(0x03102080, void, __ctor, (XsdValidatingReader * __this, XmlReader * reader, XmlResolver * xmlResolver, XmlReaderSettings * readerSettings, XmlSchemaObject * partialValidationType));

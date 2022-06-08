@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Sini::Unity::ColorExtensions {
 IL2CPP_REGISTER_METHOD(0x031144D0, Color, WithAlpha, (Color color, float alpha));

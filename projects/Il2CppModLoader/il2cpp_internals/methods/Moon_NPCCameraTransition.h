@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::NPCCameraTransition {
-IL2CPP_REGISTER_METHOD(0x011202B0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011202B0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x011202C0, Transform *, get_NpcTarget, (NPCCameraTransition * __this));
 IL2CPP_REGISTER_METHOD(0x011205C0, Transform *, get_OpenStoreTarget, (NPCCameraTransition * __this));
-IL2CPP_REGISTER_METHOD(0x011208C0, NPCCameraTransition *, get_ActiveTransiton, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011208C0, NPCCameraTransition *, get_ActiveTransiton, ());
 IL2CPP_REGISTER_METHOD(0x01120940, void, set_ActiveTransiton, (NPCCameraTransition * value));
 IL2CPP_REGISTER_METHOD(0x003FDCE0, NPCCameraBlendState__Enum, get_State, (NPCCameraTransition * __this));
 IL2CPP_REGISTER_METHOD(0x011209D0, Vector3, Position, (NPCCameraTransition * __this, NPCCameraTargetPositionType__Enum target));

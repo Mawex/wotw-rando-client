@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostCharacterAbilitiesData {
 IL2CPP_REGISTER_METHOD(0x002FA280, HashSet_1_AbilityType_ *, get_Abilities, (GhostCharacterAbilitiesData * __this));

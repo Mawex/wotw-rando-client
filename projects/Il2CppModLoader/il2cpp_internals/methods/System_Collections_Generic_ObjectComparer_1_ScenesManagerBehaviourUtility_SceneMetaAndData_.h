@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_ScenesManagerBehaviourUtility_SceneMetaAndData_ {
 IL2CPP_REGISTER_METHOD(0x01CC8AE0, int32_t, Compare, (ObjectComparer_1_ScenesManagerBehaviourUtility_SceneMetaAndData_ * __this, ScenesManagerBehaviourUtility_SceneMetaAndData x, ScenesManagerBehaviourUtility_SceneMetaAndData y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ProjectileExplodeWall {
 IL2CPP_REGISTER_METHOD(0x00C7B7A0, void, Awake, (ProjectileExplodeWall * __this));

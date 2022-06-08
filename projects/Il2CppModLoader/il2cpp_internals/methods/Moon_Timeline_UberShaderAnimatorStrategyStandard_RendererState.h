@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::UberShaderAnimatorStrategyStandard_RendererState {
 IL2CPP_REGISTER_METHOD(0x00D18960, bool, get_IsValid, (UberShaderAnimatorStrategyStandard_RendererState * __this));

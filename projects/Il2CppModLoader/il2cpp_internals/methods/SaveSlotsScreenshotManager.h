@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveSlotsScreenshotManager {
 IL2CPP_REGISTER_METHOD(0x0092ABF0, void, Awake, (SaveSlotsScreenshotManager * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CollisionEventHandler {
 IL2CPP_REGISTER_METHOD(0x02557FE0, void, OnCollisionEnter, (CollisionEventHandler * __this, Collision * collision));

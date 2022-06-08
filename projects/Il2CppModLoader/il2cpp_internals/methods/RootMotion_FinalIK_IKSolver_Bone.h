@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolver_Bone {
 IL2CPP_REGISTER_METHOD(0x02BE5490, RotationLimit *, get_rotationLimit, (IKSolver_Bone * __this));

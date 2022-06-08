@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlDocument {
 IL2CPP_REGISTER_METHOD(0x0196C010, void, __ctor, (XmlDocument * __this));
@@ -99,5 +99,5 @@ IL2CPP_REGISTER_METHOD(0x0065FBE0, String *, get_BaseURI, (XmlDocument * __this)
 IL2CPP_REGISTER_METHOD(0x0065FBF0, void, SetBaseURI, (XmlDocument * __this, String * inBaseURI));
 IL2CPP_REGISTER_METHOD(0x01972BB0, XmlNode *, AppendChildForLoad, (XmlDocument * __this, XmlNode * newChild, XmlDocument * doc));
 IL2CPP_REGISTER_METHODINFO(0x04717940, XmlDocument_AppendChildForLoad__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01972DF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01972DF0, void, __cctor, ());
 }

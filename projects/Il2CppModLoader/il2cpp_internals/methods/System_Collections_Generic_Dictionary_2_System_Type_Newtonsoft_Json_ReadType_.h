@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Type_Newtonsoft::Json::ReadType_ {
 IL2CPP_REGISTER_METHOD(0x02BCDF80, bool, TryGetValue, (Dictionary_2_System_Type_Newtonsoft_Json_ReadType_ * __this, Type * key, ReadType__Enum * value));

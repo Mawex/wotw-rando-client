@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MapStoneActivatedCondition {
 IL2CPP_REGISTER_METHOD(0x00A0AB60, bool, Validate, (MapStoneActivatedCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RuntimeInitializeOnLoadMethodAttribute {
 IL2CPP_REGISTER_METHOD(0x002FC780, void, __ctor, (RuntimeInitializeOnLoadMethodAttribute * __this));

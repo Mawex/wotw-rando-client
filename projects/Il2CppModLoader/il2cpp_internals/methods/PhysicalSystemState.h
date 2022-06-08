@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicalSystemState {
 IL2CPP_REGISTER_METHOD(0x014FB5B0, void, Init, (PhysicalSystemState * __this, PhysicalSystemManager * manager));

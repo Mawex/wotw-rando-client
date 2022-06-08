@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_System::Linq::Expressions::Interpreter::InstructionList_DebugView_InstructionView_ {
 IL2CPP_REGISTER_METHOD(0x030013C0, void, Sort, (InstructionList_DebugView_InstructionView__Array * keys, int32_t index, int32_t length, IComparer_1_System_Linq_Expressions_Interpreter_InstructionList_DebugView_InstructionView_ * comparer));

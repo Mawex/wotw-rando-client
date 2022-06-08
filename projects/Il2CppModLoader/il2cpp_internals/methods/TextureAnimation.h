@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextureAnimation {
 IL2CPP_REGISTER_METHOD(0x010E90B0, float, get_Duration, (TextureAnimation * __this));

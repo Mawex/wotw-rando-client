@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FPSTestOutput {
 IL2CPP_REGISTER_METHOD(0x0098DE70, void, __ctor, (FPSTestOutput * __this, String * outputFileName));
@@ -7,5 +7,5 @@ IL2CPP_REGISTER_METHOD(0x0098E8B0, void, Write, (FPSTestOutput * __this, FPSTest
 IL2CPP_REGISTER_METHOD(0x0098EC00, void, FinalizePointSamples, (FPSTestOutput * __this));
 IL2CPP_REGISTER_METHOD(0x0098ED20, void, Close, (FPSTestOutput * __this));
 IL2CPP_REGISTER_METHOD(0x002FB930, String *, GetOutputPath, (FPSTestOutput * __this));
-IL2CPP_REGISTER_METHOD(0x0098EDC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0098EDC0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinCharacter {
 IL2CPP_REGISTER_METHOD(0x006A63A0, SpiritLightRadialVisualAffector *, get_LightAffector, (SeinCharacter * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UnityEngine::Experimental::Rendering::VisibleLight_ {
 IL2CPP_REGISTER_METHOD(0x02F68850, void, Sort, (VisibleLight__Array * keys, int32_t index, int32_t length, IComparer_1_UnityEngine_Experimental_Rendering_VisibleLight_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TargetMatch {
 IL2CPP_REGISTER_METHOD(0x031B6D90, void, Awake, (TargetMatch * __this));

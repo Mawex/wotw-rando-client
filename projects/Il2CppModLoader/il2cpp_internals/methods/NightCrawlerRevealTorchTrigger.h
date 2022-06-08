@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightCrawlerRevealTorchTrigger {
 IL2CPP_REGISTER_METHOD(0x00608EB0, void, LateUpdate, (NightCrawlerRevealTorchTrigger * __this));

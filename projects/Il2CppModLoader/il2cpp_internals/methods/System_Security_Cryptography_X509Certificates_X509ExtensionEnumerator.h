@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator {
 IL2CPP_REGISTER_METHOD(0x0257B9A0, void, __ctor, (X509ExtensionEnumerator * __this, ArrayList * list));

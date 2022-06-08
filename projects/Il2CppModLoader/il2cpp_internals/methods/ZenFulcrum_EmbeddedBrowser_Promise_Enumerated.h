@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promise_Enumerated {
 IL2CPP_REGISTER_METHOD(0x01669060, void, __ctor, (Promise_Enumerated * __this, Promise * promise, bool abortOnFail));

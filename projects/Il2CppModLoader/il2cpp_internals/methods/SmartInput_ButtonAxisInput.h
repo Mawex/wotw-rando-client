@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SmartInput::ButtonAxisInput {
 IL2CPP_REGISTER_METHOD(0x006CA160, void, __ctor, (ButtonAxisInput * __this, IButtonInput * buttonInput, ButtonAxisInput_Mode__Enum mode));

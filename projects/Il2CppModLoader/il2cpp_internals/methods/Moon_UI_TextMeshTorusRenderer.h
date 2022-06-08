@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::TextMeshTorusRenderer {
 IL2CPP_REGISTER_METHOD(0x0118A720, void, Apply, (TextMeshTorusRenderer_1 * __this));

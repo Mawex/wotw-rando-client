@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyActivateAnimator {
 IL2CPP_REGISTER_METHOD(0x015C9FE0, void, OnStartPlay, (LegacyActivateAnimator * __this));

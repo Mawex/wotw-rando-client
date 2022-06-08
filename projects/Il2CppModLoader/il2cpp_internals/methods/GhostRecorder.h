@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostRecorder {
 IL2CPP_REGISTER_METHOD(0x002FBBC0, BinaryWriter *, get_RecorderStream, (GhostRecorder * __this));
@@ -32,7 +32,7 @@ IL2CPP_REGISTER_METHOD(0x0057BAC0, void, set_IsSuspended, (GhostRecorder * __thi
 IL2CPP_REGISTER_METHOD(0x0070DEC0, SuspendableMask__Enum, get_Mask, (GhostRecorder * __this));
 IL2CPP_REGISTER_METHOD(0x007E2390, void, set_Mask, (GhostRecorder * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x007E2450, void, __ctor, (GhostRecorder * __this));
-IL2CPP_REGISTER_METHOD(0x007E2760, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007E2760, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015EA5B0, Object *, GetPlugin, (GhostRecorder * __this));
 IL2CPP_REGISTER_METHOD(0x015EA5B0, GhostServerEventsPlugin *, GetPlugin, (GhostRecorder * __this));
 IL2CPP_REGISTER_METHODINFO(0x0471F278, GhostRecorder_GetPlugin_1__MethodInfo);

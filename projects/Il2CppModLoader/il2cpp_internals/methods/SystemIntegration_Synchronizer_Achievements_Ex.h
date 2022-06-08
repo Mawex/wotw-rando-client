@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::Ex {
 IL2CPP_REGISTER_METHOD(0x00E7DDB0, IEnumerable_1_List_1_System_Object_ *, Chunk, (IEnumerable_1_System_Object_ * values, int32_t chunkSize));

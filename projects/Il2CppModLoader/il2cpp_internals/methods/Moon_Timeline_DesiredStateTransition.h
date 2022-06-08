@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::DesiredStateTransition {
 IL2CPP_REGISTER_METHOD(0x00107C30, IGenericUberState *, get_GenericUberState, (DesiredStateTransition__Boxed * __this));

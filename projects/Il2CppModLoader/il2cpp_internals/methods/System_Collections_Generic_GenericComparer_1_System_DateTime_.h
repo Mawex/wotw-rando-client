@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericComparer_1_System::DateTime_ {
 IL2CPP_REGISTER_METHOD(0x02B60280, int32_t, Compare, (GenericComparer_1_System_DateTime_ * __this, DateTime x, DateTime y));

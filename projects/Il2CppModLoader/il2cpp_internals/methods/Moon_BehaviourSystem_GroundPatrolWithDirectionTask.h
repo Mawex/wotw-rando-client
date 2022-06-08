@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::GroundPatrolWithDirectionTask {
 IL2CPP_REGISTER_METHOD(0x00CB7600, Vector3, get_PatrolOrigin, (GroundPatrolWithDirectionTask * __this));

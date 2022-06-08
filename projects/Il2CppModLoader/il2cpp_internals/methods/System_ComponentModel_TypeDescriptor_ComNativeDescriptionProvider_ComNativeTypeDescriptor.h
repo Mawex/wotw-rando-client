@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_ComNativeDescriptionProvider_ComNativeTypeDescriptor {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (TypeDescriptor_ComNativeDescriptionProvider_ComNativeTypeDescriptor * __this, IComNativeDescriptorHandler * handler, Object * instance));

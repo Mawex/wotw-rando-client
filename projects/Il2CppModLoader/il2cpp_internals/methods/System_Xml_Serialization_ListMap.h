@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::ListMap {
 IL2CPP_REGISTER_METHOD(0x002FB940, void, set_ChoiceMember, (ListMap * __this, String * value));

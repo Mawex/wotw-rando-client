@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostTimelineEventsPlugin_TimelineEventData {
 IL2CPP_REGISTER_METHOD(0x007EC140, GhostFrame_FrameDataTypes__Enum, get_FrameType, (GhostTimelineEventsPlugin_TimelineEventData * __this));

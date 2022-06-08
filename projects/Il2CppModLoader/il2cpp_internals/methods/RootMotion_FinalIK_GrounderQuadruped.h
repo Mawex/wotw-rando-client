@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::GrounderQuadruped {
 IL2CPP_REGISTER_METHOD(0x0206BC80, void, OpenUserManual, (GrounderQuadruped * __this));

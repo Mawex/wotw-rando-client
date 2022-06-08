@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ProgressChangedEventArgs {
 IL2CPP_REGISTER_METHOD(0x029923D0, void, __ctor, (ProgressChangedEventArgs * __this, int32_t progressPercentage, Object * userState));

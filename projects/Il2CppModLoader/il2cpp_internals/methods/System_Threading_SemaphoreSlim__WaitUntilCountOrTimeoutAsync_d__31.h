@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::SemaphoreSlim__WaitUntilCountOrTimeoutAsync_d__31 {
 IL2CPP_REGISTER_METHOD(0x001E6A20, void, MoveNext, (SemaphoreSlim_WaitUntilCountOrTimeoutAsync_d_31__Boxed * __this));

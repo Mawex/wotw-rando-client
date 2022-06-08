@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MultiplatformVideoPlayer {
 IL2CPP_REGISTER_METHOD(0x00879500, void, Perform, (MultiplatformVideoPlayer * __this));

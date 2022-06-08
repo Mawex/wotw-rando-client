@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DigZone {
 IL2CPP_REGISTER_METHOD(0x00B92F40, Collider *, get_CageCollider, (DigZone * __this));

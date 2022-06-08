@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__63 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (JObject_GetEnumerator_d_63 * __this, int32_t __1__state));

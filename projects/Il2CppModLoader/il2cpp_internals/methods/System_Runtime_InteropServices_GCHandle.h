@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::GCHandle {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (GCHandle__Boxed * __this, void * h));

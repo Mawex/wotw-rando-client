@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuItem___c {
-IL2CPP_REGISTER_METHOD(0x012B0760, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012B0760, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CleverMenuItem_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__91_0, (CleverMenuItem_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x0477C168, CleverMenuItem_c___ctor_b__91_0__MethodInfo);

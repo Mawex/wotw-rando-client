@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Channels::SinkProviderData {
 IL2CPP_REGISTER_METHOD(0x01A9FD40, void, __ctor, (SinkProviderData * __this, String * name));

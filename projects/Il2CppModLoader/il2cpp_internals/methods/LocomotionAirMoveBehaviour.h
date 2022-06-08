@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocomotionAirMoveBehaviour {
 IL2CPP_REGISTER_METHOD(0x009EB5F0, Vector3, get_TargetPosition, (LocomotionAirMoveBehaviour * __this));

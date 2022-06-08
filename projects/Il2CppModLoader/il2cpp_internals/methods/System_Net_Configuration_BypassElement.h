@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::BypassElement {
 IL2CPP_REGISTER_METHOD(0x02018500, void, __ctor, (BypassElement * __this));

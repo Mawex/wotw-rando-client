@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InverseKinematicsPostprocess {
 IL2CPP_REGISTER_METHOD(0x01B14380, IK *, get_IK, (InverseKinematicsPostprocess * __this));

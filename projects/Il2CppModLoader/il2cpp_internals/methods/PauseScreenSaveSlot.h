@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PauseScreenSaveSlot {
 IL2CPP_REGISTER_METHOD(0x0044BFB0, void, OnEnable, (PauseScreenSaveSlot * __this));

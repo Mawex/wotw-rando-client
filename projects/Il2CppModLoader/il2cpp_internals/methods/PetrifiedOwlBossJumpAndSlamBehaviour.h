@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossJumpAndSlamBehaviour {
 IL2CPP_REGISTER_METHOD(0x00660430, StateMachine_2 *, get_StateMachine, (PetrifiedOwlBossJumpAndSlamBehaviour * __this));

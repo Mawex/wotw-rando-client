@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimedDoor {
 IL2CPP_REGISTER_METHOD(0x010F3C70, void, Awake, (TimedDoor * __this));

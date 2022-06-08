@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RunActionCondition {
 IL2CPP_REGISTER_METHOD(0x01372AB0, void, Perform, (RunActionCondition * __this, IContext * context));

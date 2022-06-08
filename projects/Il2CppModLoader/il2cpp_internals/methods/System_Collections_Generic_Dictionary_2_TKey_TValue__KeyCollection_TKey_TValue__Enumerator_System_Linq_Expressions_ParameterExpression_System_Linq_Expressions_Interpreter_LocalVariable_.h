@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_System::Linq::Expressions::ParameterExpression_System::Linq::Expressions::Interpreter::LocalVariable_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, ParameterExpression *, get_Current, (Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_System_Linq_Expressions_ParameterExpression_System_Linq_Expressions_Interpreter_LocalVariable___Boxed * __this));

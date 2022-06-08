@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyContactSwitch {
 IL2CPP_REGISTER_METHOD(0x00A170C0, Renderer *, get_Renderer, (LegacyContactSwitch * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Base64Encoder {
 IL2CPP_REGISTER_METHOD(0x021E1290, void, __ctor, (Base64Encoder * __this));

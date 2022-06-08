@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Mail::MailAddress {
 IL2CPP_REGISTER_METHOD(0x01E6E080, void, __ctor, (MailAddress * __this, String * address));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x01E6E7E0, String *, get_DisplayName, (MailAddress * __t
 IL2CPP_REGISTER_METHOD(0x01E6E870, bool, Equals, (MailAddress * __this, Object * value));
 IL2CPP_REGISTER_METHOD(0x01D25F50, int32_t, GetHashCode, (MailAddress * __this));
 IL2CPP_REGISTER_METHOD(0x01E6EA20, String *, ToString, (MailAddress * __this));
-IL2CPP_REGISTER_METHOD(0x01E6EBA0, FormatException *, CreateFormatException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E6EBA0, FormatException *, CreateFormatException, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::CharacterStateComboAdapter {
 IL2CPP_REGISTER_METHOD(0x00CC50C0, void, OnInitialize, (CharacterStateComboAdapter * __this));

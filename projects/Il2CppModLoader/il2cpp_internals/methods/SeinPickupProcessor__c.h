@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinPickupProcessor___c {
-IL2CPP_REGISTER_METHOD(0x008B7BB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008B7BB0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SeinPickupProcessor_c * __this));
 IL2CPP_REGISTER_METHOD(0x008B7CF0, void, _OnFinishedReading_b__48_0, (SeinPickupProcessor_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04793BD0, SeinPickupProcessor_c__OnFinishedReading_b__48_0__MethodInfo);

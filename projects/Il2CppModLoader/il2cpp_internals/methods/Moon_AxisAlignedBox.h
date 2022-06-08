@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AxisAlignedBox {
 IL2CPP_REGISTER_METHOD(0x00CB5430, void, __ctor, (AxisAlignedBox * __this));

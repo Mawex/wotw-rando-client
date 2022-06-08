@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__UnionIterator_d__71_1_System::Char_ {
 IL2CPP_REGISTER_METHOD(0x02984B50, void, __ctor, (Enumerable_UnionIterator_d_71_1_System_Char_ * __this, int32_t __1__state));

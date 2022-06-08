@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EditorTools::SceneTracking::SceneTrackingChange {
 IL2CPP_REGISTER_METHOD(0x01209560, void, __ctor, (SceneTrackingChange * __this, SceneTracking * sceneTracking));

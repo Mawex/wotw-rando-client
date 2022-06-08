@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::GenericMesher {
 IL2CPP_REGISTER_METHOD(0x02B0F0C0, void, __ctor, (GenericMesher * __this));

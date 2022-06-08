@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimatorAction {
 IL2CPP_REGISTER_METHOD(0x00503F60, void, Start, (AnimatorAction * __this));

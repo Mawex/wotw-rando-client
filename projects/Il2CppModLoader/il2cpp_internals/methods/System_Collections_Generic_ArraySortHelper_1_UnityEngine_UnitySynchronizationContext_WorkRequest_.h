@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UnityEngine::UnitySynchronizationContext_WorkRequest_ {
 IL2CPP_REGISTER_METHOD(0x02F71370, void, Sort, (UnitySynchronizationContext_WorkRequest__Array * keys, int32_t index, int32_t length, IComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::JsonSerializer {
 IL2CPP_REGISTER_METHOD(0x01A6C580, void, add_Error, (JsonSerializer * __this, EventHandler_1_Newtonsoft_Json_Serialization_ErrorEventArgs_ * value));
@@ -39,9 +39,9 @@ IL2CPP_REGISTER_METHOD(0x01A6D2E0, StreamingContext, get_Context, (JsonSerialize
 IL2CPP_REGISTER_METHOD(0x01A6D2F0, void, set_Context, (JsonSerializer * __this, StreamingContext value));
 IL2CPP_REGISTER_METHOD(0x01A6D300, bool, get_CheckAdditionalContent, (JsonSerializer * __this));
 IL2CPP_REGISTER_METHOD(0x01A6D390, void, __ctor, (JsonSerializer * __this));
-IL2CPP_REGISTER_METHOD(0x01A6D4D0, JsonSerializer *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A6D4D0, JsonSerializer *, Create, ());
 IL2CPP_REGISTER_METHOD(0x01A6D610, JsonSerializer *, Create, (JsonSerializerSettings * settings));
-IL2CPP_REGISTER_METHOD(0x01A6D770, JsonSerializer *, CreateDefault, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A6D770, JsonSerializer *, CreateDefault, ());
 IL2CPP_REGISTER_METHOD(0x01A6D960, void, ApplySerializerSettings, (JsonSerializer * serializer, JsonSerializerSettings * settings));
 IL2CPP_REGISTER_METHOD(0x01A6E5E0, Object *, Deserialize, (JsonSerializer * __this, JsonReader * reader, Type * objectType));
 IL2CPP_REGISTER_METHOD(0x01A6E600, Object *, DeserializeInternal, (JsonSerializer * __this, JsonReader * reader, Type * objectType));

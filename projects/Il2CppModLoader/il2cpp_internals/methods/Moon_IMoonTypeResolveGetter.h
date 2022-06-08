@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::IMoonTypeResolveGetter {
 IL2CPP_REGISTER_METHODINFO(0x0475A3B0, IMoonTypeResolveGetter_GetResolverForType_1__MethodInfo);

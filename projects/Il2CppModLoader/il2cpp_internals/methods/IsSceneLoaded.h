@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsSceneLoaded {
 IL2CPP_REGISTER_METHOD(0x006478E0, bool, Validate, (IsSceneLoaded * __this, IContext * context));

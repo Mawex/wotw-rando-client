@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Cache::RequestCachePolicy {
 IL2CPP_REGISTER_METHOD(0x020162E0, void, __ctor, (RequestCachePolicy * __this, RequestCacheLevel__Enum level));

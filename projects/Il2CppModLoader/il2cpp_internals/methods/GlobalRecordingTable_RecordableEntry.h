@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlobalRecordingTable_RecordableEntry {
 IL2CPP_REGISTER_METHOD(0x007FA1D0, void, __ctor, (GlobalRecordingTable_RecordableEntry * __this, RecordableType__Enum recordableType, Component_1 * targetObject, int64_t id, String * assetGuid));

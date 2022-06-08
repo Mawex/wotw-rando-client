@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKMapping {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, IsValid, (IKMapping * __this, IKSolver * solver, String * * message));

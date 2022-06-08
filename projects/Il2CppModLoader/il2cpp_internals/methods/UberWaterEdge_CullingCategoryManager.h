@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberWaterEdge_CullingCategoryManager {
 IL2CPP_REGISTER_METHOD(0x0129EDE0, void, __ctor, (UberWaterEdge_CullingCategoryManager * __this));

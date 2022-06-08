@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Kickback {
 IL2CPP_REGISTER_METHOD(0x00863E90, float, get_TimeRemaining, (Kickback * __this));

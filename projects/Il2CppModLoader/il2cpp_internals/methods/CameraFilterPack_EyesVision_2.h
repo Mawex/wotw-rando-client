@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_EyesVision_2 {
 IL2CPP_REGISTER_METHOD(0x02467580, Material *, get_material, (CameraFilterPack_EyesVision_2 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::VolumetricAreaLight {
 IL2CPP_REGISTER_METHOD(0x00EBFC50, Vector3, get_WorldPos, (VolumetricAreaLight * __this));

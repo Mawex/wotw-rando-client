@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BeautifyEffect::Demo1 {
 IL2CPP_REGISTER_METHOD(0x0317AFE0, void, OnGUI, (Demo1 * __this));

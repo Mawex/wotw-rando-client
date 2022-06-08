@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FilteredRandomRange {
 IL2CPP_REGISTER_METHOD(0x02559030, void, __ctor, (FilteredRandomRange * __this, IRng * rng, int32_t historyLength));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_System::Byte_ {
 IL2CPP_REGISTER_METHOD(0x001DFA50, Byte__Array *, ToArray, (NativeArray_1_System_Byte___Boxed * __this));

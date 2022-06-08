@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseSoundBankSystem {
 IL2CPP_REGISTER_METHOD(0x02716B80, void, Initialize, (WwiseSoundBankSystem * __this, AkWwiseInitializationSettings * config));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x027173E0, HashSet_1_System_String_ *, GetAll, (WwiseSou
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Update, (WwiseSoundBankSystem * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (WwiseSoundBankSystem * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (WwiseSoundBankSystem * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

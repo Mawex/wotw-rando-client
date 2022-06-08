@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::WarningException {
 IL2CPP_REGISTER_METHOD(0x0295DC00, void, __ctor, (WarningException * __this));

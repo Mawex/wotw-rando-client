@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::LogicalBinaryExpression {
 IL2CPP_REGISTER_METHOD(0x02417850, void, __ctor, (LogicalBinaryExpression * __this, ExpressionType__Enum nodeType, Expression * left, Expression * right));

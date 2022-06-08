@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ResetDamageRecieversAction {
 IL2CPP_REGISTER_METHOD(0x00904C80, void, Perform, (ResetDamageRecieversAction * __this, IContext * context));

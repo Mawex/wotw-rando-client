@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ManifestBuilder {
 IL2CPP_REGISTER_METHOD(0x019FF750, void, __ctor, (ManifestBuilder * __this, String * providerName, Guid providerGuid, String * dllName, ResourceManager * resources, EventManifestOptions__Enum flags));

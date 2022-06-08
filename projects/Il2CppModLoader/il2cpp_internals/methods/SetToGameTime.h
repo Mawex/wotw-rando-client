@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetToGameTime {
 IL2CPP_REGISTER_METHOD(0x005A4E40, void, Update, (SetToGameTime * __this));

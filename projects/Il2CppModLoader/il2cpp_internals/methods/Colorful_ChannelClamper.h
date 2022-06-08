@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::ChannelClamper {
 IL2CPP_REGISTER_METHOD(0x0303FEE0, void, OnRenderImage, (ChannelClamper * __this, RenderTexture * source, RenderTexture * destination));

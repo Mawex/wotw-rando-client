@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamHTMLSurface {
-IL2CPP_REGISTER_METHOD(0x02804CE0, bool, Init, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02804D90, bool, Shutdown, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02804CE0, bool, Init, ());
+IL2CPP_REGISTER_METHOD(0x02804D90, bool, Shutdown, ());
 IL2CPP_REGISTER_METHOD(0x02804E40, SteamAPICall_t, CreateBrowser, (String * pchUserAgent, String * pchUserCSS));
 IL2CPP_REGISTER_METHOD(0x028052B0, void, RemoveBrowser, (HHTMLBrowser unBrowserHandle));
 IL2CPP_REGISTER_METHOD(0x02805360, void, LoadURL, (HHTMLBrowser unBrowserHandle, String * pchURL, String * pchPostData));

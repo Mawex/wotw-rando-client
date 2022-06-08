@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlaySoundPhaseAction {
 IL2CPP_REGISTER_METHOD(0x0117B380, bool, get_IsPerforming, (PlaySoundPhaseAction * __this));

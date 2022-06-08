@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::JsonArray {
 IL2CPP_REGISTER_METHOD(0x01846A70, void, __ctor, (JsonArray * __this));

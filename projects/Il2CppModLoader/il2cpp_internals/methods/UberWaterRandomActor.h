@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberWaterRandomActor {
 IL2CPP_REGISTER_METHOD(0x0129F710, void, OnValidate, (UberWaterRandomActor * __this));

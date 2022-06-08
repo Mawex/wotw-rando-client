@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::InitializeLocalInstruction_Reference {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (InitializeLocalInstruction_Reference * __this, int32_t index));

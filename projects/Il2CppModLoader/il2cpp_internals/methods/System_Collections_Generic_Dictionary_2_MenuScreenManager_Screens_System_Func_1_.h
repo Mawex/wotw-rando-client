@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_MenuScreenManager_Screens_System::Func_1_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_MenuScreenManager_Screens_System_Func_1_ * __this, MenuScreenManager_Screens__Enum key, Func_1_MenuScreen_ * * value));

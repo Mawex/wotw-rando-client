@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BrightnessZoneModifier {
 IL2CPP_REGISTER_METHOD(0x00D51450, GlobalBrightnessController_BrigthnessContributionOrder__Enum, get_BrightnessInfluceOrder, (BrightnessZoneModifier * __this));

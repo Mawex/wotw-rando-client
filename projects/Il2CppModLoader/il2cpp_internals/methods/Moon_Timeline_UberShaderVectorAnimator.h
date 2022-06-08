@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::UberShaderVectorAnimator {
 IL2CPP_REGISTER_METHOD(0x00D1AEB0, GameObject *, get_EffectiveTarget, (UberShaderVectorAnimator * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x00D1B190, void, SetTime, (UberShaderVectorAnimator * __
 IL2CPP_REGISTER_METHOD(0x00D1B430, String__Array *, GetCustomNames, (UberShaderVectorAnimator_VectorProperty__Enum property));
 IL2CPP_REGISTER_METHOD(0x00D1B6F0, void, SynchronizePad, (UberShaderVectorAnimator * __this, MoonTimeline * timeline, TimelineEntityRecord * record, TimelineEntity * entity, Constraint__Enum type));
 IL2CPP_REGISTER_METHOD(0x00D1B8E0, void, __ctor, (UberShaderVectorAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00D1B9D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D1B9D0, void, __cctor, ());
 }

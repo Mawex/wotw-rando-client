@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlBaseConverter {
 IL2CPP_REGISTER_METHOD(0x0223D4D0, void, __ctor, (XmlBaseConverter * __this, XmlSchemaType * schemaType));
@@ -139,5 +139,5 @@ IL2CPP_REGISTER_METHOD(0x022446C0, uint32_t, Int64ToUInt32, (int64_t value));
 IL2CPP_REGISTER_METHODINFO(0x0472CCC8, XmlBaseConverter_Int64ToUInt32__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02244820, DateTime, UntypedAtomicToDateTime, (String * value));
 IL2CPP_REGISTER_METHOD(0x022448F0, DateTimeOffset, UntypedAtomicToDateTimeOffset, (String * value));
-IL2CPP_REGISTER_METHOD(0x022449E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022449E0, void, __cctor, ());
 }

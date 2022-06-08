@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::ConditionalDecorator {
 IL2CPP_REGISTER_METHOD(0x0300B200, String *, get_Info, (ConditionalDecorator * __this));

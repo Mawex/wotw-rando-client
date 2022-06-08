@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::DSASignatureDeformatter {
 IL2CPP_REGISTER_METHOD(0x020D72C0, void, __ctor, (DSASignatureDeformatter * __this));

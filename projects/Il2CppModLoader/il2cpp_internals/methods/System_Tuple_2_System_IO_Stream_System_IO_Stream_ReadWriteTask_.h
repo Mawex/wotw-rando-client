@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_System::IO::Stream_System::IO::Stream_ReadWriteTask_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, Stream *, get_Item1, (Tuple_2_System_IO_Stream_System_IO_Stream_ReadWriteTask_ * __this));

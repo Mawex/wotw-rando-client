@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::DynamicDataResolver_SerializedDynamicDataLinkItem_ {
 IL2CPP_REGISTER_METHOD(0x02F35140, void, Sort, (DynamicDataResolver_SerializedDynamicDataLinkItem__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_DynamicDataResolver_SerializedDynamicDataLinkItem_ * comparer));

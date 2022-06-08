@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon::BehaviourSystem::TreeBehaviour_Exception_ {
 IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (Action_2_Moon_BehaviourSystem_TreeBehaviour_Exception_ * __this, TreeBehaviour * arg1, Exception * arg2));

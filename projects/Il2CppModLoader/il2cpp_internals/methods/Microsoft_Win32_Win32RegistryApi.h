@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::Win32RegistryApi {
 IL2CPP_REGISTER_METHOD(0x023B7F60, int32_t, RegCloseKey, (void * keyHandle));

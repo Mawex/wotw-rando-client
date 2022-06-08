@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System::Threading::ThreadLocal_1_LinkedSlotVolatile_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_System_Threading_ThreadLocal_1_LinkedSlotVolatile___Boxed * __this, Array * array));

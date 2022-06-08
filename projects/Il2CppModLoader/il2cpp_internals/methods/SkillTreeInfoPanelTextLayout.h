@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillTreeInfoPanelTextLayout {
 IL2CPP_REGISTER_METHOD(0x006B5550, void, FixedUpdate, (SkillTreeInfoPanelTextLayout * __this));

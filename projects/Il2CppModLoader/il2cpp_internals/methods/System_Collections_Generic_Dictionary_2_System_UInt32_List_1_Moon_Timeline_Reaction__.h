@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::UInt32_List_1_Moon::Timeline::Reaction__ {
 IL2CPP_REGISTER_METHOD(0x0283B2A0, int32_t, get_Count, (Dictionary_2_System_UInt32_List_1_Moon_Timeline_Reaction_ * __this));

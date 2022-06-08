@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColliderMask {
 IL2CPP_REGISTER_METHOD(0x012CF6E0, void, OnEnable, (ColliderMask * __this));

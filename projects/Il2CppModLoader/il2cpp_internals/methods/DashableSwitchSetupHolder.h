@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DashableSwitchSetupHolder {
 IL2CPP_REGISTER_METHOD(0x00DD3140, DashableSwitchSetupData *, get_DeactivatedState, (DashableSwitchSetupHolder * __this));

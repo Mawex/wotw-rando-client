@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_UnityEngine::Windows::Speech::SemanticMeaning_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_UnityEngine_Windows_Speech_SemanticMeaning___Boxed * __this, Array * array));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPostProcessingAnimation {
 IL2CPP_REGISTER_METHOD(0x018F3EC0, void, CopyCameraSettings, (CameraSettings * * settings, CameraSettings * fromSettings));

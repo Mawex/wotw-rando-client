@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TeleportDebugMenuPage___c__DisplayClass6_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TeleportDebugMenuPage_c_DisplayClass6_0 * __this));

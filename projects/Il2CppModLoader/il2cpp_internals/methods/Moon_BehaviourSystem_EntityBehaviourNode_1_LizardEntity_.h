@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityBehaviourNode_1_LizardEntity_ {
 IL2CPP_REGISTER_METHOD(0x0271C510, LizardEntity *, get_Entity, (EntityBehaviourNode_1_LizardEntity_ * __this));

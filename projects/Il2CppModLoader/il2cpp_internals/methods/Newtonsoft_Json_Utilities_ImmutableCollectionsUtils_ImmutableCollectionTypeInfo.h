@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo {
 IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (ImmutableCollectionsUtils_ImmutableCollectionTypeInfo * __this, String * contractTypeName, String * createdTypeName, String * builderTypeName));

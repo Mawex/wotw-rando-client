@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MovieTextureControllerB__DestroyRoutine_d__22 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (MovieTextureControllerB_DestroyRoutine_d_22 * __this, int32_t __1__state));

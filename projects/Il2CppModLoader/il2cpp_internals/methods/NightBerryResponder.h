@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightBerryResponder {
 IL2CPP_REGISTER_METHOD(0x006013B0, void, FixedUpdate, (NightBerryResponder * __this));

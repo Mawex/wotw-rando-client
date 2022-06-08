@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AudioDeviceOptions___c__DisplayClass4_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AudioDeviceOptions_c_DisplayClass4_0 * __this));

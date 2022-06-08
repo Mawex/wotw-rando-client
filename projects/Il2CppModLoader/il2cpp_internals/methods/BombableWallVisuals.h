@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BombableWallVisuals {
 IL2CPP_REGISTER_METHOD(0x00D39CE0, void, DestroyWallEvent, (BombableWallVisuals * __this));

@@ -1,13 +1,13 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ServerObjectSerializer {
 IL2CPP_REGISTER_METHOD(0x00AC12D0, ServerObject *, Serialize, (GameObject * gameObj, bool isPrefab));
 IL2CPP_REGISTER_METHOD(0x00AC19E0, GameObject *, Deserialize, (ServerObject * serverObj, Transform * parent));
-IL2CPP_REGISTER_METHOD(0x00AC1FC0, void, GetSupportTypes, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00AC1FC0, void, GetSupportTypes, ());
 IL2CPP_REGISTER_METHODINFO(0x04788478, ServerObjectSerializer_GetSupportTypes__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00AC2230, String *, SerializeToJSon, (Type * type, Object * value));
 IL2CPP_REGISTER_METHOD(0x00AC23E0, Object *, DeserializeFromJson, (Type * type, String * serializedState));
-IL2CPP_REGISTER_METHOD(0x00AC25A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00AC25A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x016AB780, Object *, GetCopyOf, (Component_1 * comp, Object * other));
 IL2CPP_REGISTER_METHOD(0x016AB6A0, Object *, AddComponentCopy, (GameObject * go, Object * toAdd));
 IL2CPP_REGISTER_METHOD(0x016AB6A0, BreakablePhysicalSetup *, AddComponentCopy, (GameObject * go, BreakablePhysicalSetup * toAdd));

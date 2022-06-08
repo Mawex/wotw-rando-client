@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Block5 {
 IL2CPP_REGISTER_METHOD(0x01F9ED00, void, __ctor, (Block5 * __this, Expression * arg0, Expression * arg1, Expression * arg2, Expression * arg3, Expression * arg4));

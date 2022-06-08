@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossTendril {
 IL2CPP_REGISTER_METHOD(0x00989BF0, KwolokBossTendril_DurationType__Enum, get_Duration, (KwolokBossTendril * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsRunningAutomationCondition {
 IL2CPP_REGISTER_METHOD(0x00647660, bool, Validate, (IsRunningAutomationCondition * __this, IContext * context));

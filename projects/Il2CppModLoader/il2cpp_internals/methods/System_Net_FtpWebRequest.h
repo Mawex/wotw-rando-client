@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::FtpWebRequest {
 IL2CPP_REGISTER_METHOD(0x01D2EF90, void, __ctor, (FtpWebRequest * __this, Uri * uri));
-IL2CPP_REGISTER_METHOD(0x01D2F150, Exception *, GetMustImplement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D2F150, Exception *, GetMustImplement, ());
 IL2CPP_REGISTER_METHOD(0x01D2F290, X509CertificateCollection_1 *, get_ClientCertificates, (FtpWebRequest * __this));
 IL2CPP_REGISTER_METHODINFO(0x04787E90, FtpWebRequest_get_ClientCertificates__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D2F330, void, set_ClientCertificates, (FtpWebRequest * __this, X509CertificateCollection_1 * value));
@@ -118,7 +118,7 @@ IL2CPP_REGISTER_METHOD(0x01D361E0, void, Authenticate, (FtpWebRequest * __this))
 IL2CPP_REGISTER_METHODINFO(0x04716450, FtpWebRequest_Authenticate__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D369A0, FtpStatus *, SendCommand, (FtpWebRequest * __this, String * command, String__Array * parameters));
 IL2CPP_REGISTER_METHOD(0x01D369C0, FtpStatus *, SendCommand, (FtpWebRequest * __this, bool waitResponse, String * command, String__Array * parameters));
-IL2CPP_REGISTER_METHOD(0x01D36C50, FtpStatus *, ServiceNotAvailable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D36C50, FtpStatus *, ServiceNotAvailable, ());
 IL2CPP_REGISTER_METHOD(0x01D36DA0, FtpStatus *, GetResponseStatus, (FtpWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x01D37170, void, InitiateSecureConnection, (FtpWebRequest * __this, Stream * * stream));
 IL2CPP_REGISTER_METHODINFO(0x04798CA8, FtpWebRequest_InitiateSecureConnection__MethodInfo);
@@ -129,7 +129,7 @@ IL2CPP_REGISTER_METHOD(0x01D374E0, void, CheckIfAborted, (FtpWebRequest * __this
 IL2CPP_REGISTER_METHODINFO(0x04795FC0, FtpWebRequest_CheckIfAborted__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D375A0, void, CheckFinalState, (FtpWebRequest * __this));
 IL2CPP_REGISTER_METHODINFO(0x04751EB8, FtpWebRequest_CheckFinalState__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01D37670, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D37670, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01D37BB0, void, __ctor, (FtpWebRequest * __this));
 IL2CPP_REGISTER_METHODINFO(0x04775B18, FtpWebRequest__ctor_1__MethodInfo);
 }

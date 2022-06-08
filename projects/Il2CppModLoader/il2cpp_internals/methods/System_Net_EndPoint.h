@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::EndPoint {
 IL2CPP_REGISTER_METHOD(0x01EB4230, AddressFamily__Enum, get_AddressFamily, (EndPoint * __this));

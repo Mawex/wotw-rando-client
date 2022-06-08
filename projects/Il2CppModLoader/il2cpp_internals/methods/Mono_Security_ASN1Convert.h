@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::ASN1Convert {
 IL2CPP_REGISTER_METHOD(0x025C2DB0, ASN1 *, FromInt32, (int32_t value));

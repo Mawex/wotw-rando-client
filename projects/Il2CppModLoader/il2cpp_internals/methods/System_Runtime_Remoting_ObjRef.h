@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::ObjRef {
 IL2CPP_REGISTER_METHOD(0x0231B8D0, void, __ctor, (ObjRef * __this));
@@ -21,5 +21,5 @@ IL2CPP_REGISTER_METHOD(0x0231C450, void, GetObjectData, (ObjRef * __this, Serial
 IL2CPP_REGISTER_METHOD(0x0231C5F0, Object *, GetRealObject, (ObjRef * __this, StreamingContext context));
 IL2CPP_REGISTER_METHOD(0x0231C6E0, void, UpdateChannelInfo, (ObjRef * __this));
 IL2CPP_REGISTER_METHOD(0x0231C8A0, Type *, get_ServerType, (ObjRef * __this));
-IL2CPP_REGISTER_METHOD(0x0231C9B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0231C9B0, void, __cctor, ());
 }

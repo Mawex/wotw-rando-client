@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinEnergyCurrentProvider {
 IL2CPP_REGISTER_METHOD(0x00AD0710, float, GetFloatValue, (SeinEnergyCurrentProvider * __this));

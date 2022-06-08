@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::BranchingContext {
 IL2CPP_REGISTER_METHOD(0x0011DC50, bool, get_ShouldRecord, (BranchingContext__Boxed * __this));

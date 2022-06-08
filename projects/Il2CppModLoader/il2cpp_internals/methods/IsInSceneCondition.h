@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsInSceneCondition {
 IL2CPP_REGISTER_METHOD(0x006462E0, SceneMetaData *, get_CurrentMetaData, (IsInSceneCondition * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blur_Noise {
 IL2CPP_REGISTER_METHOD(0x024D2C20, Material *, get_material, (CameraFilterPack_Blur_Noise * __this));

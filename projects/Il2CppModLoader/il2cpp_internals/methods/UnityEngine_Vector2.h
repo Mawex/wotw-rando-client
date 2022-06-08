@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Vector2 {
 IL2CPP_REGISTER_METHOD(0x00125480, void, __ctor, (Vector2__Boxed * __this, float x, float y));
@@ -43,11 +43,11 @@ IL2CPP_REGISTER_METHOD(0x02C73E80, bool, operator___, (Vector2 lhs, Vector2 rhs)
 IL2CPP_REGISTER_METHOD(0x02C73F50, bool, operator___, (Vector2 lhs, Vector2 rhs));
 IL2CPP_REGISTER_METHOD(0x0296D4D0, Vector2, operator_, (Vector3 v));
 IL2CPP_REGISTER_METHOD(0x02C74010, Vector3, operator_, (Vector2 v));
-IL2CPP_REGISTER_METHOD(0x02C74050, Vector2, get_zero, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C74100, Vector2, get_one, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C741B0, Vector2, get_up, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C74260, Vector2, get_down, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C74310, Vector2, get_left, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C743C0, Vector2, get_right, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C74470, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C74050, Vector2, get_zero, ());
+IL2CPP_REGISTER_METHOD(0x02C74100, Vector2, get_one, ());
+IL2CPP_REGISTER_METHOD(0x02C741B0, Vector2, get_up, ());
+IL2CPP_REGISTER_METHOD(0x02C74260, Vector2, get_down, ());
+IL2CPP_REGISTER_METHOD(0x02C74310, Vector2, get_left, ());
+IL2CPP_REGISTER_METHOD(0x02C743C0, Vector2, get_right, ());
+IL2CPP_REGISTER_METHOD(0x02C74470, void, __cctor, ());
 }

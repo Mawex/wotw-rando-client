@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_T__Enumerator_TriangleNet::Topology::Triangle_ {
 IL2CPP_REGISTER_METHOD(0x00234060, Triangle *, get_Current, (Stack_1_T_Enumerator_TriangleNet_Topology_Triangle___Boxed * __this));

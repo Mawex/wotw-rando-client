@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Voronoi::BoundedVoronoi {
 IL2CPP_REGISTER_METHOD(0x02AA7800, void, __ctor, (BoundedVoronoi * __this, Mesh_1 * mesh));

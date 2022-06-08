@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverHeuristic {
 IL2CPP_REGISTER_METHOD(0x02BFA210, bool, SetChain, (IKSolverHeuristic * __this, Transform__Array * hierarchy, Transform * root));

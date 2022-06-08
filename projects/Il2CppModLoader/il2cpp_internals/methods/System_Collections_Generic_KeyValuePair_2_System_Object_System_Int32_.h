@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Object_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x0010A860, int32_t, get_Value, (KeyValuePair_2_System_Object_System_Int32___Boxed * __this));

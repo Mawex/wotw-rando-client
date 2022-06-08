@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NotCondition {
 IL2CPP_REGISTER_METHOD(0x0060C300, bool, Validate, (NotCondition * __this, IContext * context));

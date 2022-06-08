@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::WaitNodeNonFixedRandom {
 IL2CPP_REGISTER_METHOD(0x00CBB5C0, float, get_TimeRemaining, (WaitNodeNonFixedRandom * __this));

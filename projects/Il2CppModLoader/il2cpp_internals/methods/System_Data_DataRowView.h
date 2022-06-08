@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataRowView {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (DataRowView * __this, DataView * dataView, DataRow * row));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHOD(0x017E2340, EventDescriptorCollection *, ICustomTypeDescr
 IL2CPP_REGISTER_METHOD(0x017E2490, PropertyDescriptorCollection *, ICustomTypeDescriptor_GetProperties, (DataRowView * __this));
 IL2CPP_REGISTER_METHOD(0x017E2510, PropertyDescriptorCollection *, ICustomTypeDescriptor_GetProperties, (DataRowView * __this, Attribute__Array * attributes));
 IL2CPP_REGISTER_METHOD(0x004C50A0, Object *, ICustomTypeDescriptor_GetPropertyOwner, (DataRowView * __this, PropertyDescriptor * pd));
-IL2CPP_REGISTER_METHOD(0x017E2600, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017E2600, void, __cctor, ());
 }

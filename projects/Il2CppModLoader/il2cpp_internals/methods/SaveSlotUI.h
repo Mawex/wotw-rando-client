@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveSlotUI {
 IL2CPP_REGISTER_METHOD(0x009238D0, void, OnDrawGizmos, (SaveSlotUI * __this));

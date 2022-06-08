@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_fsm::IState_List_1_fsm::Transition__ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_fsm_IState_List_1_fsm_Transition_ * __this, IState_2 * key, List_1_fsm_Transition_ * * value));

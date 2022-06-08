@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostCharacterStatesData {
 IL2CPP_REGISTER_METHOD(0x002FA280, Dictionary_2_System_Int32_System_Boolean_ *, get_States, (GhostCharacterStatesData * __this));

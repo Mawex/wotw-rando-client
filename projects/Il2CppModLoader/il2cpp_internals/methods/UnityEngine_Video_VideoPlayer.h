@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Video::VideoPlayer {
 IL2CPP_REGISTER_METHOD(0x031B7200, void, set_source, (VideoPlayer * __this, VideoSource__Enum value));

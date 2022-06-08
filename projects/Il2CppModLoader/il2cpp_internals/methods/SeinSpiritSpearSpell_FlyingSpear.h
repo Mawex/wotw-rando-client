@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSpiritSpearSpell_FlyingSpear {
 IL2CPP_REGISTER_METHOD(0x0011C410, Vector3, get_Direction, (SeinSpiritSpearSpell_FlyingSpear__Boxed * __this));

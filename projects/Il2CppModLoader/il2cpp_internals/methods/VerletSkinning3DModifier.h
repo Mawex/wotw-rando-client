@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletSkinning3DModifier {
 IL2CPP_REGISTER_METHOD(0x013C5680, void, OnEnable, (VerletSkinning3DModifier * __this));

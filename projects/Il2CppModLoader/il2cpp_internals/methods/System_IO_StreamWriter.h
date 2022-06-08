@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::StreamWriter {
 IL2CPP_REGISTER_METHOD(0x02382180, void, CheckAsyncTaskInProgress, (StreamWriter * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470CDD0, StreamWriter_CheckAsyncTaskInProgress__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02382260, Encoding *, get_UTF8NoBOM, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02382260, Encoding *, get_UTF8NoBOM, ());
 IL2CPP_REGISTER_METHOD(0x02382460, void, __ctor, (StreamWriter * __this));
 IL2CPP_REGISTER_METHOD(0x02382500, void, __ctor, (StreamWriter * __this, Stream * stream));
 IL2CPP_REGISTER_METHOD(0x023825D0, void, __ctor, (StreamWriter * __this, Stream * stream, Encoding * encoding));
@@ -31,5 +31,5 @@ IL2CPP_REGISTER_METHOD(0x023834D0, void, Write, (StreamWriter * __this, Char__Ar
 IL2CPP_REGISTER_METHOD(0x023835A0, void, Write, (StreamWriter * __this, Char__Array * buffer, int32_t index, int32_t count));
 IL2CPP_REGISTER_METHODINFO(0x04742720, StreamWriter_Write_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023837F0, void, Write, (StreamWriter * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x023838C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023838C0, void, __cctor, ());
 }

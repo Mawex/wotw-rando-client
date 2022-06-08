@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System::Data::DataKey_ {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (Nullable_1_System_Data_DataKey___Boxed * __this, DataKey value));

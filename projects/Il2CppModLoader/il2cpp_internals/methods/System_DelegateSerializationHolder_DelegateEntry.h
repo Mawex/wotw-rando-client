@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DelegateSerializationHolder_DelegateEntry {
 IL2CPP_REGISTER_METHOD(0x01740800, void, __ctor, (DelegateSerializationHolder_DelegateEntry * __this, Delegate * del, String * targetLabel));

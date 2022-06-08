@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_T__Enumerator_UnityEngine::Vector3_ {
 IL2CPP_REGISTER_METHOD(0x00220FC0, void, __ctor, (HashSet_1_T_Enumerator_UnityEngine_Vector3___Boxed * __this, HashSet_1_UnityEngine_Vector3_ * set));

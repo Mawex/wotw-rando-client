@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_LegacyMaterialColorGradientAnimator_RendererData_ {
 IL2CPP_REGISTER_METHOD(0x01CC3CF0, int32_t, Compare, (ObjectComparer_1_LegacyMaterialColorGradientAnimator_RendererData_ * __this, LegacyMaterialColorGradientAnimator_RendererData x, LegacyMaterialColorGradientAnimator_RendererData y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShardTraderNPC {
 IL2CPP_REGISTER_METHOD(0x003FFBD0, int32_t, get_CurrentState, (ShardTraderNPC * __this));

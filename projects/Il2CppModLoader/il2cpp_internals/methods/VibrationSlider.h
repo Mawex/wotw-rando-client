@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VibrationSlider {
 IL2CPP_REGISTER_METHOD(0x008BB5A0, float, get_Value, (VibrationSlider * __this));

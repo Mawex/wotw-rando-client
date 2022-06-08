@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::RaceLeaderboardUI_Entry {
 IL2CPP_REGISTER_METHOD(0x00C49210, void, Display, (RaceLeaderboardUI_Entry * __this, int32_t rank, String * playerName, float time, bool accuracy, Color nameColor, Color rankAndTimeColor));

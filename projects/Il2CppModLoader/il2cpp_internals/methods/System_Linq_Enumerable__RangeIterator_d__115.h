@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__RangeIterator_d__115 {
 IL2CPP_REGISTER_METHOD(0x01F9B3A0, void, __ctor, (Enumerable_RangeIterator_d_115 * __this, int32_t __1__state));

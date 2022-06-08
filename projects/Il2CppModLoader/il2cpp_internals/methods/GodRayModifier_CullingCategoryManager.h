@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GodRayModifier_CullingCategoryManager {
 IL2CPP_REGISTER_METHOD(0x00800E60, void, __ctor, (GodRayModifier_CullingCategoryManager * __this));

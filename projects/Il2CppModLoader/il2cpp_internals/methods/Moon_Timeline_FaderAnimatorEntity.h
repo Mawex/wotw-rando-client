@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::FaderAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x00769F00, void, OnStartPlayback, (FaderAnimatorEntity * __this, IContext * context));

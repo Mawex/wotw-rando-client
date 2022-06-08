@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::ComboInput {
 IL2CPP_REGISTER_METHOD(0x00CC59C0, void, __ctor, (ComboInput * __this, InputDirection__Enum direction, AbilityType__Enum action, ButtonInputType__Enum inputType, bool facingLeft));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_PlayFab::ClientModels::CloudScriptRevisionOption_ {
 IL2CPP_REGISTER_METHOD(0x001F6090, bool, get_HasValue, (Nullable_1_PlayFab_ClientModels_CloudScriptRevisionOption___Boxed * __this));

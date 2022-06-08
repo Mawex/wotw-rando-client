@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameController__SetRunInBackgroundToTrue_d__181 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GameController_SetRunInBackgroundToTrue_d_181 * __this, int32_t __1__state));

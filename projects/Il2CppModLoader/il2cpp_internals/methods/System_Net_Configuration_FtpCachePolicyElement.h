@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::FtpCachePolicyElement {
 IL2CPP_REGISTER_METHOD(0x020193E0, void, __ctor, (FtpCachePolicyElement * __this));

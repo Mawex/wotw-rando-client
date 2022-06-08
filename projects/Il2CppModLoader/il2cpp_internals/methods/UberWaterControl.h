@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberWaterControl {
 IL2CPP_REGISTER_METHOD(0x00B1B670, bool, get_TimelineUpdate, (UberWaterControl * __this));
@@ -6,15 +6,15 @@ IL2CPP_REGISTER_METHOD(0x01293D20, void, set_TimelineUpdate, (UberWaterControl *
 IL2CPP_REGISTER_METHOD(0x00BEB090, bool, get_IsValid, (UberWaterControl * __this));
 IL2CPP_REGISTER_METHOD(0x01293D30, float, get_SimDt, (UberWaterControl * __this));
 IL2CPP_REGISTER_METHOD(0x01293ED0, float, get_FixedDt, (UberWaterControl * __this));
-IL2CPP_REGISTER_METHOD(0x01293EE0, int64_t, get_WaterControllVersion, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01293EE0, int64_t, get_WaterControllVersion, ());
 IL2CPP_REGISTER_METHOD(0x01293F80, void, set_WaterControllVersion, (int64_t value));
-IL2CPP_REGISTER_METHOD(0x01294030, void, IncrementVersion, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01294130, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01294280, void, CleanUpList, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01294030, void, IncrementVersion, ());
+IL2CPP_REGISTER_METHOD(0x01294130, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x01294280, void, CleanUpList, ());
 IL2CPP_REGISTER_METHOD(0x01294500, void, UpdateResolution, (UberWaterControl * __this, float qualityOveride));
 IL2CPP_REGISTER_METHOD(0x012946D0, Bounds, UpdateBoundary, (UberWaterControl * __this));
 IL2CPP_REGISTER_METHOD(0x01294840, void, UpdateBoundaryInteraction, (UberWaterControl * __this));
-IL2CPP_REGISTER_METHOD(0x01294B50, UberWaterControl_VisualDebugMode__Enum, get_visualDebugMode, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01294B50, UberWaterControl_VisualDebugMode__Enum, get_visualDebugMode, ());
 IL2CPP_REGISTER_METHOD(0x01294BF0, void, set_visualDebugMode, (UberWaterControl_VisualDebugMode__Enum value));
 IL2CPP_REGISTER_METHOD(0x01294E20, void, RegisterVisualDebug, (UberWaterControl * __this));
 IL2CPP_REGISTER_METHOD(0x01294F00, void, UnregisterVisualDebug, (UberWaterControl * __this));
@@ -76,7 +76,7 @@ IL2CPP_REGISTER_METHOD(0x0129C450, void, ISuspendable_set_Mask, (UberWaterContro
 IL2CPP_REGISTER_METHOD(0x00A79450, bool, ISuspendable_get_IsSuspended, (UberWaterControl * __this));
 IL2CPP_REGISTER_METHOD(0x00A79460, void, ISuspendable_set_IsSuspended, (UberWaterControl * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x0129C460, void, __ctor, (UberWaterControl * __this));
-IL2CPP_REGISTER_METHOD(0x0129C610, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0129C610, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0129C8B0, void, _SetImpact_g__Dequeue_116_0, (int32_t bufName, UberWaterControl_ImpactBuf buf, UberWaterControl_c_DisplayClass116_0 * param_000163ee));
 IL2CPP_REGISTER_METHOD(0x0129C970, void, _SetImpact_g__DequeueEmpty_116_1, (int32_t bufName, UberWaterControl_c_DisplayClass116_0 * param_000163f0));
 IL2CPP_REGISTER_METHOD(0x015E3770, void, DestroyImmediate, (Object * * o));

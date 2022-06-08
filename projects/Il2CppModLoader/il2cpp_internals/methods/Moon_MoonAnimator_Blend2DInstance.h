@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_Blend2DInstance {
 IL2CPP_REGISTER_METHOD(0x02110BF0, bool, get_HasValidInput, (MoonAnimator_Blend2DInstance * __this));

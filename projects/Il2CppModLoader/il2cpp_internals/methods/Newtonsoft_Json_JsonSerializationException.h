@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::JsonSerializationException {
 IL2CPP_REGISTER_METHOD(0x01A6BEE0, void, __ctor, (JsonSerializationException * __this));

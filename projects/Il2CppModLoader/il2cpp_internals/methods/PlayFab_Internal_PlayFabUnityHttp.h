@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabUnityHttp {
 IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_AuthKey, (PlayFabUnityHttp * __this));

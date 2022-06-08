@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Timers::Timer {
 IL2CPP_REGISTER_METHOD(0x02A7AED0, void, __ctor, (Timer_1 * __this));

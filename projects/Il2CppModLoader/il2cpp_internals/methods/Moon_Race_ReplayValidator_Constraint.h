@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::ReplayValidator_Constraint {
 IL2CPP_REGISTER_METHOD(0x00C4C420, bool, IntervalComplete, (ReplayValidator_Constraint * __this, ReplayValidator_Snapshot * past, ReplayValidator_Snapshot * current));

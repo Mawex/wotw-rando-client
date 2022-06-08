@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaintainAspectRatio {
 IL2CPP_REGISTER_METHOD(0x009F76F0, void, Awake, (MaintainAspectRatio * __this));

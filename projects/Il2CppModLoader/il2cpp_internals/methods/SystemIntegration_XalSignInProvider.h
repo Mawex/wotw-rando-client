@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::XalSignInProvider {
 IL2CPP_REGISTER_METHOD(0x00CDC050, void, __ctor, (XalSignInProvider * __this, INetworkConnectivityChecker * netConnectivityChecker));
@@ -24,7 +24,7 @@ IL2CPP_REGISTER_METHODINFO(0x0474C0B8, XalSignInProvider_GetGamerPicture__Method
 IL2CPP_REGISTER_METHOD(0x00CDD190, int32_t, GetErrorCode, (Task * task));
 IL2CPP_REGISTER_METHOD(0x00CDD400, void, DebugLog, (String * areaName, XalTraceLevel__Enum level, uint64_t threadId, uint64_t timestamp, String * message));
 IL2CPP_REGISTER_METHOD(0x00CDD630, void, Update, (XalSignInProvider * __this));
-IL2CPP_REGISTER_METHOD(0x00CDD770, void, CancelLogin, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00CDD770, void, CancelLogin, ());
 IL2CPP_REGISTER_METHOD(0x00CDD8C0, void, TokenUpdate, (XalSignInProvider * __this));
 IL2CPP_REGISTER_METHOD(0x00CDDC70, void, OnSignOut, (XalSignInProvider * __this));
 IL2CPP_REGISTER_METHODINFO(0x04775E30, XalSignInProvider_OnSignOut__MethodInfo);

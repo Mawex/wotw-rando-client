@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoftCollider {
 IL2CPP_REGISTER_METHOD(0x00EE29E0, void, OnEnable, (SoftCollider * __this));

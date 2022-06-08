@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BuildHasPrologueCondition {
 IL2CPP_REGISTER_METHOD(0x00815AB0, bool, Validate, (BuildHasPrologueCondition * __this, IContext * context));

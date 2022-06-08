@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolManager_ContinuousTimesliceJob {
 IL2CPP_REGISTER_METHOD(0x00FDF8A0, void, __ctor, (UberPoolManager_ContinuousTimesliceJob * __this, UberPoolManager * manager, String * name, TimeSlicedJobPriority__Enum priority, Func_2_UberPoolManager_Boolean_ * callback));

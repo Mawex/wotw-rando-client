@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceTimelineAnimator {
 IL2CPP_REGISTER_METHOD(0x013D5840, TurbulenceManager *, get_Manager, (TurbulenceTimelineAnimator * __this));

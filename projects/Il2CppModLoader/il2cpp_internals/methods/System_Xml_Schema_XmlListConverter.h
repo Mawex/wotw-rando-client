@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlListConverter {
 IL2CPP_REGISTER_METHOD(0x0224A020, void, __ctor, (XmlListConverter * __this, XmlBaseConverter * atomicConverter));

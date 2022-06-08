@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ExpText {
 IL2CPP_REGISTER_METHOD(0x003FCB00, bool, get_IsSuspended, (ExpText * __this));

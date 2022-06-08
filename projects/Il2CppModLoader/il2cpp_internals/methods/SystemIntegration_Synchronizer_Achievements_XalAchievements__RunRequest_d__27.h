@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::XalAchievements__RunRequest_d__27 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (XalAchievements_RunRequest_d_27 * __this, int32_t __1__state));

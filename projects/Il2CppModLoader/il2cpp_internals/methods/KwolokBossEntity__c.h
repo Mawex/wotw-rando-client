@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossEntity___c {
-IL2CPP_REGISTER_METHOD(0x012DDD90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012DDD90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (KwolokBossEntity_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__223_0, (KwolokBossEntity_c * __this, float * _p0_, float * _p1_, float * _p2_, float * _p3_));
 IL2CPP_REGISTER_METHODINFO(0x0471C740, KwolokBossEntity_c___ctor_b__223_0__MethodInfo);

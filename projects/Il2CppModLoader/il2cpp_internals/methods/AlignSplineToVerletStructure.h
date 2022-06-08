@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AlignSplineToVerletStructure {
 IL2CPP_REGISTER_METHOD(0x004F1E60, void, FindJoints, (AlignSplineToVerletStructure * __this));

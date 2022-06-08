@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDebugMenuItem_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_Path, (EnumDebugMenuItem_1_System_Object_ * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x019E2CC0, void, OnSelectedFixedUpdate, (EnumDebugMenuIt
 IL2CPP_REGISTER_METHOD(0x019E2350, void, ResetHold, (EnumDebugMenuItem_1_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x019E2360, void, UpdateHold, (EnumDebugMenuItem_1_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x019E2F10, void, IncrementValue, (EnumDebugMenuItem_1_System_Object_ * __this, int32_t delta));
-IL2CPP_REGISTER_METHOD(0x019E32D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x019E32D0, void, __cctor, ());
 }

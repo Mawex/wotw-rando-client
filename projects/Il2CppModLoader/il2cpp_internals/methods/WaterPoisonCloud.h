@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterPoisonCloud {
 IL2CPP_REGISTER_METHOD(0x008D8D00, void, EditorInitializeMesh, (WaterPoisonCloud * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Jobs::IJobParallelForTransformExtensions {
 IL2CPP_REGISTER_METHOD(0x02FF7760, JobHandle, Schedule, (SimpleSwayBossAnimPostprocess_Job jobData, TransformAccessArray transforms, JobHandle dependsOn));

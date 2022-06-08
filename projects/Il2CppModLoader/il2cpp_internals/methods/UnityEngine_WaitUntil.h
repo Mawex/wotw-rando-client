@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::WaitUntil {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (WaitUntil * __this, Func_1_Boolean_ * predicate));

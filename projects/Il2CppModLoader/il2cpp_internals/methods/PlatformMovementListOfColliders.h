@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlatformMovementListOfColliders {
 IL2CPP_REGISTER_METHOD(0x01170090, void, Start, (PlatformMovementListOfColliders * __this));

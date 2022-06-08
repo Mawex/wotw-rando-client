@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::usedStandaloneScripts::SystemIntegration::SignIn::User::PlayFabUser {
 IL2CPP_REGISTER_METHOD(0x03127490, void, __ctor, (PlayFabUser * __this, LoginResult * loginResult));

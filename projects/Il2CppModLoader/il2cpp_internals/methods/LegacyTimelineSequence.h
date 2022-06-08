@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTimelineSequence {
 IL2CPP_REGISTER_METHOD(0x0074B530, float, get_UnlockedDuration, (LegacyTimelineSequence * __this));

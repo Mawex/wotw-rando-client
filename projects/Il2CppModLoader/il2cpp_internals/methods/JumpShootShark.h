@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JumpShootShark {
 IL2CPP_REGISTER_METHOD(0x00E4CB20, bool, ShouldIgnoreDamage, (JumpShootShark * __this, Damage * damage));
@@ -16,7 +16,7 @@ IL2CPP_REGISTER_METHOD(0x00E4E350, void, ShootProjectileAtPlayer, (JumpShootShar
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, ShouldEmerge, (JumpShootShark * __this));
 IL2CPP_REGISTER_METHOD(0x00E4E6B0, void, SetEmergeLocation, (JumpShootShark * __this, Vector3 position));
 IL2CPP_REGISTER_METHOD(0x00E4EA90, void, __ctor, (JumpShootShark * __this));
-IL2CPP_REGISTER_METHOD(0x00E4EBE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E4EBE0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00E4ED30, void, _Start_b__21_0, (JumpShootShark * __this));
 IL2CPP_REGISTER_METHODINFO(0x0477B410, JumpShootShark__Start_b__21_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00E4CD90, void, _Start_b__21_1, (JumpShootShark * __this));

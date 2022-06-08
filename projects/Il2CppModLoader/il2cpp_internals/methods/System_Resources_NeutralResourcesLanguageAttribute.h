@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::NeutralResourcesLanguageAttribute {
 IL2CPP_REGISTER_METHOD(0x01A84120, void, __ctor, (NeutralResourcesLanguageAttribute * __this, String * cultureName));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Version {
 IL2CPP_REGISTER_METHOD(0x0314B480, void, __ctor, (Version * __this, int32_t major, int32_t minor, int32_t build, int32_t revision));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x0314D320, bool, operator___, (Version * v1, Version * v
 IL2CPP_REGISTER_METHODINFO(0x04717E00, Version_op_LessThanOrEqual__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0314D3F0, bool, operator__, (Version * v1, Version * v2));
 IL2CPP_REGISTER_METHOD(0x0314D4A0, bool, operator___, (Version * v1, Version * v2));
-IL2CPP_REGISTER_METHOD(0x0314D550, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0314D550, void, __cctor, ());
 }

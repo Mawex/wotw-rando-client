@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TintModifier {
 IL2CPP_REGISTER_METHOD(0x00AF7180, void, ApplyMultipliers, (TintModifier * __this, float strength, float speed));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraOffsetZone {
 IL2CPP_REGISTER_METHOD(0x003FF790, bool, get_IsPerformingZoomOutAndDisable, (CameraOffsetZone * __this));

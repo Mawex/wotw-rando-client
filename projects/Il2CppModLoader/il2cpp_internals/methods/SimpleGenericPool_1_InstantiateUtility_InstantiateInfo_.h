@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ {
 IL2CPP_REGISTER_METHOD(0x01D17960, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_, GetInstance, (SimpleGenericPool_1_InstantiateUtility_InstantiateInfo_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderPrewarmerProgress {
 IL2CPP_REGISTER_METHOD(0x01917060, float, GetFloatValue, (UberShaderPrewarmerProgress * __this));

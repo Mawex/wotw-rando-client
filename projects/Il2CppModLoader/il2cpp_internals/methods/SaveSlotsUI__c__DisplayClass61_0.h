@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveSlotsUI___c__DisplayClass61_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SaveSlotsUI_c_DisplayClass61_0 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::MonoChunkStream {
 IL2CPP_REGISTER_METHOD(0x01E6F210, void, __ctor, (MonoChunkStream * __this, Byte__Array * buffer, int32_t offset, int32_t size, WebHeaderCollection * headers));

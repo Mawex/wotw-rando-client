@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::DeflateStream {
 IL2CPP_REGISTER_METHOD(0x02B72150, void, __ctor, (DeflateStream_1 * __this, Stream * stream, CompressionMode__Enum_2 mode));
 IL2CPP_REGISTER_METHOD(0x02B72170, void, __ctor, (DeflateStream_1 * __this, Stream * stream, CompressionMode__Enum_2 mode, bool leaveOpen));
 IL2CPP_REGISTER_METHODINFO(0x0477C510, DeflateStream_1__ctor_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02B72830, IDeflater *, CreateDeflater, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02B72830, IDeflater *, CreateDeflater, ());
 IL2CPP_REGISTER_METHODINFO(0x04705338, DeflateStream_1_CreateDeflater__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00417870, DeflateStream_WorkerType__Enum, GetDeflaterType, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, DeflateStream_WorkerType__Enum, GetDeflaterType, ());
 IL2CPP_REGISTER_METHOD(0x02B72970, void, SetFileFormatReader, (DeflateStream_1 * __this, IFileFormatReader * reader));
 IL2CPP_REGISTER_METHOD(0x02B729A0, void, SetFileFormatWriter, (DeflateStream_1 * __this, IFileFormatWriter * writer));
 IL2CPP_REGISTER_METHOD(0x002FBB00, Stream *, get_BaseStream, (DeflateStream_1 * __this));

@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::TestRunner {
-IL2CPP_REGISTER_METHOD(0x019753C0, bool, Run, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x019753C0, bool, Run, ());
 IL2CPP_REGISTER_METHODINFO(0x04712130, TestRunner_Run__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x019753E0, void, Awake, (TestRunner * __this));
-IL2CPP_REGISTER_METHOD(0x01975470, void, SpawnTestRunnerAndStart, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01975470, void, SpawnTestRunnerAndStart, ());
 IL2CPP_REGISTER_METHOD(0x01975630, void, RecordTest, (TestRunner * __this, PerfTestTimer * test));
 IL2CPP_REGISTER_METHOD(0x01975700, void, DumpData, (TestRunner * __this));
 IL2CPP_REGISTER_METHOD(0x01975870, void, StartTestCoroutine, (TestRunner * __this));

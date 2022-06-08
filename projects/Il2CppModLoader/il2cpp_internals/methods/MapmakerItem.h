@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MapmakerItem {
 IL2CPP_REGISTER_METHOD(0x00A0B250, int32_t, GetCost, (MapmakerItem * __this));

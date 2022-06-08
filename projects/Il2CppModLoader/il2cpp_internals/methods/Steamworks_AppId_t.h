@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::AppId_t {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (AppId_t__Boxed * __this, uint32_t value));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x006CE970, AppId_t, operator_, (uint32_t value));
 IL2CPP_REGISTER_METHOD(0x006CE970, uint32_t, operator_, (AppId_t that));
 IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals, (AppId_t__Boxed * __this, AppId_t other));
 IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (AppId_t__Boxed * __this, AppId_t other));
-IL2CPP_REGISTER_METHOD(0x015F7800, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015F7800, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormDeathBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C0BE80, void, OnInitializeTask, (SandWormDeathBehaviour * __this, IContext * context));

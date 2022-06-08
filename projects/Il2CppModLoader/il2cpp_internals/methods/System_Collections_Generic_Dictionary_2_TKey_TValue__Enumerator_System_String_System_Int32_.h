@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::String_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_System_String_System_Int32_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_System_String_System_Int32___Boxed * __this));

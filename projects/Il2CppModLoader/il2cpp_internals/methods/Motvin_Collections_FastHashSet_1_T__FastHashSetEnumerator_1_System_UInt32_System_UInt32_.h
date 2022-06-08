@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Motvin::Collections::FastHashSet_1_T__FastHashSetEnumerator_1_System::UInt32_System::UInt32_ {
 IL2CPP_REGISTER_METHOD(0x02AF7D00, void, __ctor, (FastHashSet_1_T_FastHashSetEnumerator_1_System_UInt32_System_UInt32_ * __this, FastHashSet_1_System_UInt32_ * set));

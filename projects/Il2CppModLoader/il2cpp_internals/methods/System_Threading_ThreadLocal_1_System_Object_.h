@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadLocal_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02A60590, Object *, get_Value, (ThreadLocal_1_System_Object_ * __this));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHODINFO(0x0477D438, ThreadLocal_1_System_Object__CreateLinked
 IL2CPP_REGISTER_METHOD(0x02A613F0, List_1_System_Object_ *, GetValuesAsList, (ThreadLocal_1_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02A61920, void, GrowTable, (ThreadLocal_1_System_Object_ * __this, ThreadLocal_1_T_LinkedSlotVolatile_System_Object___Array * * table, int32_t minLength));
 IL2CPP_REGISTER_METHOD(0x02A61BE0, int32_t, GetNewTableSize, (int32_t minSize));
-IL2CPP_REGISTER_METHOD(0x02A61C20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A61C20, void, __cctor, ());
 }

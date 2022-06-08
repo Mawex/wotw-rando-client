@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ConstructionResponse {
 IL2CPP_REGISTER_METHOD(0x023100E0, void, __ctor, (ConstructionResponse * __this, Object * resultObject, LogicalCallContext * callCtx, IMethodCallMessage * msg));

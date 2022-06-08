@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Proxies::RealProxy {
 IL2CPP_REGISTER_METHOD(0x0231D520, void, __ctor, (RealProxy * __this, Type * classToProxy));

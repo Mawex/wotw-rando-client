@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlobalPlaceholderCountData {
 IL2CPP_REGISTER_METHOD(0x007F7B50, void, Reset, (GlobalPlaceholderCountData * __this));

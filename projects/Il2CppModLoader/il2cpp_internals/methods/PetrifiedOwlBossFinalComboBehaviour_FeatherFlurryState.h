@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_FeatherFlurryState {
 IL2CPP_REGISTER_METHOD(0x0176FFA0, void, __ctor, (PetrifiedOwlBossFinalComboBehaviour_FeatherFlurryState * __this, PetrifiedOwlBossFinalComboBehaviour * behaviour));

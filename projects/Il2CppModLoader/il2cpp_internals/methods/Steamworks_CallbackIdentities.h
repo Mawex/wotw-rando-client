@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::CallbackIdentities {
 IL2CPP_REGISTER_METHOD(0x015FA810, int32_t, GetCallbackIdentity, (Type * callbackStruct));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraData {
 IL2CPP_REGISTER_METHOD(0x0043D9E0, RecorderFrame_FrameDataTypes__Enum, FrameType, (CameraData * __this));

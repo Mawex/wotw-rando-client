@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuItemSelectionManager___c__DisplayClass92_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CleverMenuItemSelectionManager_c_DisplayClass92_0 * __this));

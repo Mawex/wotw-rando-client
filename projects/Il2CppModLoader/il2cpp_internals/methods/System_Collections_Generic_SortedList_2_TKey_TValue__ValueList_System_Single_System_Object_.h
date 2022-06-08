@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_TKey_TValue__ValueList_System::Single_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x019D6B90, void, __ctor, (SortedList_2_TKey_TValue_ValueList_System_Single_System_Object_ * __this, SortedList_2_System_Single_System_Object_ * dictionary));

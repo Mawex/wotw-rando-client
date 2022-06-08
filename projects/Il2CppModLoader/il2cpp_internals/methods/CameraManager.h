@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraManager {
 IL2CPP_REGISTER_METHOD(0x01692FD0, void, OnEnable, (CameraManager * __this));

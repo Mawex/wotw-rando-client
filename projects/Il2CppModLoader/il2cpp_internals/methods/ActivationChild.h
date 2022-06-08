@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivationChild {
 IL2CPP_REGISTER_METHOD(0x004C90F0, void, OnEnable, (ActivationChild * __this));

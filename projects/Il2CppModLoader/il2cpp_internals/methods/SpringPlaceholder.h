@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpringPlaceholder {
 IL2CPP_REGISTER_METHOD(0x009A8240, void, Awake, (SpringPlaceholder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateMachineBehaviourProxy {
 IL2CPP_REGISTER_METHOD(0x009B53C0, void, add_OnIntEventAction, (StateMachineBehaviourProxy * __this, Action_1_Int32_ * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MapStone {
 IL2CPP_REGISTER_METHOD(0x00A09730, void, Awake, (MapStone * __this));

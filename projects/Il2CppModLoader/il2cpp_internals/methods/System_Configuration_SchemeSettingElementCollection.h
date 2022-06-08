@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::SchemeSettingElementCollection {
 IL2CPP_REGISTER_METHOD(0x029620B0, void, __ctor, (SchemeSettingElementCollection * __this));

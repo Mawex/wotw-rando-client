@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerSpiritShards {
 IL2CPP_REGISTER_METHOD(0x01428CF0, PlayerUberStateShards *, get_PlayerUberStateShards, (PlayerSpiritShards * __this));
 IL2CPP_REGISTER_METHOD(0x01428DD0, List_1_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ *, get_Shards, (PlayerSpiritShards * __this));
-IL2CPP_REGISTER_METHOD(0x00420230, int32_t, get_MinShardSlots, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0043D9A0, int32_t, get_MaxShardSlots, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00420230, int32_t, get_MinShardSlots, ());
+IL2CPP_REGISTER_METHOD(0x0043D9A0, int32_t, get_MaxShardSlots, ());
 IL2CPP_REGISTER_METHOD(0x01428DF0, bool, InArrayBounds, (PlayerSpiritShards * __this, SpiritShardType__Enum shardType));
 IL2CPP_REGISTER_METHOD(0x01428E20, void, OnDestroy, (PlayerSpiritShards * __this));
 IL2CPP_REGISTER_METHOD(0x01429650, void, OnInventoryUpdateCallback, (PlayerSpiritShards * __this, PlayerUberStateShards_Shard * shard));
@@ -62,5 +62,5 @@ IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_ApplyOnEditor, (PlayerSpiritShards 
 IL2CPP_REGISTER_METHOD(0x0142D370, IUberState__Array *, get_AffectingUberStates, (PlayerSpiritShards * __this));
 IL2CPP_REGISTER_METHOD(0x002FBC80, List_1_UnityEngine_GameObject_ *, get_AllTargets, (PlayerSpiritShards * __this));
 IL2CPP_REGISTER_METHOD(0x0142D4B0, void, __ctor, (PlayerSpiritShards * __this));
-IL2CPP_REGISTER_METHOD(0x0142DDE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0142DDE0, void, __cctor, ());
 }

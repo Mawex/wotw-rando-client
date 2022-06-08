@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransformExtensions {
 IL2CPP_REGISTER_METHOD(0x0157F160, Object *, GetCommonParent, (Object * left, Object * right));

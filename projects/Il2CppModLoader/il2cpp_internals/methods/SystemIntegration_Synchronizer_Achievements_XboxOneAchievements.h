@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::XboxOneAchievements {
-IL2CPP_REGISTER_METHOD(0x00532FC0, bool, get_Disable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00532FC0, bool, get_Disable, ());
 IL2CPP_REGISTER_METHOD(0x00533040, void, set_Disable, (bool value));
 IL2CPP_REGISTER_METHOD(0x005330D0, String *, get_Name, (XboxOneAchievements_1 * __this));
 IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_IsSynchronising, (XboxOneAchievements_1 * __this));

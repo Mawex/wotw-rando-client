@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MeleeAttackBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x0110EDE0, bool, get_Cancellable, (MeleeAttackBehaviourNew * __this));

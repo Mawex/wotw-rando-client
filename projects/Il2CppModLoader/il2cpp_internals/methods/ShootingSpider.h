@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShootingSpider {
 IL2CPP_REGISTER_METHOD(0x005BAC30, void, Awake, (ShootingSpider * __this));

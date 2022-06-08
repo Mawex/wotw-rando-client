@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Dns {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01EB0B40, IAsyncResult *, BeginGetHostByName, (String * hostName, AsyncCallback * requestCallback, Object * stateObject));
 IL2CPP_REGISTER_METHODINFO(0x04747A40, Dns_BeginGetHostByName__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01EB0D00, IAsyncResult *, BeginResolve, (String * hostName, AsyncCallback * requestCallback, Object * stateObject));
@@ -39,7 +39,7 @@ IL2CPP_REGISTER_METHOD(0x01EB2920, IPAddress__Array *, GetHostAddresses, (String
 IL2CPP_REGISTER_METHODINFO(0x0474DA18, Dns_GetHostAddresses__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01EB2B50, IPHostEntry *, GetHostByName, (String * hostName));
 IL2CPP_REGISTER_METHODINFO(0x0472B488, Dns_GetHostByName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01EB2CD0, String *, GetHostName, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EB2CD0, String *, GetHostName, ());
 IL2CPP_REGISTER_METHOD(0x01EB2E60, IPHostEntry *, Resolve, (String * hostName));
 IL2CPP_REGISTER_METHODINFO(0x04704AD8, Dns_Resolve__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01EB3010, Task_1_System_Net_IPAddress_ *, GetHostAddressesAsync, (String * hostNameOrAddress));

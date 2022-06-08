@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterMinibossWaypoint {
 IL2CPP_REGISTER_METHOD(0x005B96A0, LaserShooterMinibossWaypoint_Connection *, get_FromPreviousToThis, (LaserShooterMinibossWaypoint * __this));

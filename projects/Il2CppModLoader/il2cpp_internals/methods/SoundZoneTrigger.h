@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundZoneTrigger {
 IL2CPP_REGISTER_METHOD(0x00EF3770, String *, get_GizmoText, (SoundZoneTrigger * __this));

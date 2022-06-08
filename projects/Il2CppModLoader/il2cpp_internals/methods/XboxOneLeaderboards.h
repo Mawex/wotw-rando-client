@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxOneLeaderboards {
-IL2CPP_REGISTER_METHOD(0x01C58D80, bool, get_EnableLeaderboards, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C58D80, bool, get_EnableLeaderboards, ());
 IL2CPP_REGISTER_METHOD(0x01C58E00, void, set_EnableLeaderboards, (bool value));
-IL2CPP_REGISTER_METHOD(0x00420EE0, LeaderboardData *, get_LeaderboardData, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00420EE0, LeaderboardData *, get_LeaderboardData, ());
 IL2CPP_REGISTER_METHOD(0x00417870, bool, UpdateLeaderboard, (LeaderboardB__Enum leaderboard, LeaderboardFilter__Enum filter, Action * success, Action * failure));
 IL2CPP_REGISTER_METHOD(0x01C58E90, bool, SendLeaderboardData, (LeaderboardB__Enum leaderboard, int64_t data));
 IL2CPP_REGISTER_METHOD(0x01C58F30, String *, GetLeaderboardEventName, (LeaderboardB__Enum leaderboard));

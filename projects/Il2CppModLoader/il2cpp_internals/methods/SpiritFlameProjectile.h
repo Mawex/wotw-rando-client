@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritFlameProjectile {
 IL2CPP_REGISTER_METHOD(0x011D4750, bool, get_IsSuspended, (SpiritFlameProjectile * __this));
@@ -51,7 +51,7 @@ IL2CPP_REGISTER_METHOD(0x011D7DF0, bool, RayTest, (SpiritFlameProjectile * __thi
 IL2CPP_REGISTER_METHOD(0x011D81A0, ISpiritFlameAttackable *, IsShootableTarget, (SpiritFlameProjectile * __this, Collider * target));
 IL2CPP_REGISTER_METHOD(0x011D8580, void, FixedUpdate, (SpiritFlameProjectile * __this));
 IL2CPP_REGISTER_METHOD(0x011D88D0, void, __ctor, (SpiritFlameProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x011D8B00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011D8B00, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01032B30, void, _Detonate_b__106_0, (SpiritFlameProjectile * __this));
 IL2CPP_REGISTER_METHODINFO(0x04703680, SpiritFlameProjectile__Detonate_b__106_0__MethodInfo);
 }

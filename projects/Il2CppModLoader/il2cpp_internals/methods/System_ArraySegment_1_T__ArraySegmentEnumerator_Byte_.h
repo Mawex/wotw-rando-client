@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ArraySegment_1_T__ArraySegmentEnumerator_Byte_ {
 IL2CPP_REGISTER_METHOD(0x01A70D80, void, __ctor, (ArraySegment_1_T_ArraySegmentEnumerator_Byte_ * __this, ArraySegment_1_Byte_ arraySegment));

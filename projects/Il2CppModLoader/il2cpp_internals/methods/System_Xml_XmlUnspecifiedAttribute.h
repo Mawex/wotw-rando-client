@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlUnspecifiedAttribute {
 IL2CPP_REGISTER_METHOD(0x0195AF70, void, __ctor, (XmlUnspecifiedAttribute * __this, String * prefix, String * localName, String * namespaceURI, XmlDocument * doc));

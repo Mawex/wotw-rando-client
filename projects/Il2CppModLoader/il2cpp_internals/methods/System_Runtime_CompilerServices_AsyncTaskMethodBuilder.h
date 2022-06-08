@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder, Create, ());
 IL2CPP_REGISTER_METHOD(0x0018EDC0, void, SetStateMachine, (AsyncTaskMethodBuilder__Boxed * __this, IAsyncStateMachine * stateMachine));
 IL2CPP_REGISTER_METHOD(0x0018EDD0, Task *, get_Task, (AsyncTaskMethodBuilder__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0018EDE0, void, SetResult, (AsyncTaskMethodBuilder__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0018EDF0, void, SetException, (AsyncTaskMethodBuilder__Boxed * __this, Exception * exception));
-IL2CPP_REGISTER_METHOD(0x01A91CB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A91CB0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x001A3AB0, void, Start, (AsyncTaskMethodBuilder__Boxed * __this, Object * * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x04726600, AsyncTaskMethodBuilder_Start__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3820, void, AwaitOnCompleted, (AsyncTaskMethodBuilder__Boxed * __this, Object * * awaiter, Object * * stateMachine));

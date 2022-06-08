@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::StateNode {
 IL2CPP_REGISTER_METHOD(0x013DF6E0, void, __ctor, (StateNode * __this, String * name, IBehaviourState * state));

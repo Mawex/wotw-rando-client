@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderComponent {
 IL2CPP_REGISTER_METHOD(0x0190CF90, Transform *, get_TransformCache, (UberShaderComponent * __this));
@@ -20,7 +20,7 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnable, (UberShaderComponent * __this
 IL2CPP_REGISTER_METHOD(0x002FA000, void, RefreshAnchoredTextureEditor, (UberShaderComponent * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, RefreshAnchoredTexturePlaymode, (UberShaderComponent * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_ShouldRebind, (UberShaderComponent * __this));
-IL2CPP_REGISTER_METHOD(0x0190DBB0, bool, get_UseNewRebinderStack, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0190DBB0, bool, get_UseNewRebinderStack, ());
 IL2CPP_REGISTER_METHOD(0x0190DC50, void, set_UseNewRebinderStack, (bool value));
 IL2CPP_REGISTER_METHOD(0x0051DB40, bool, get_IsDoingRebinding, (UberShaderComponent * __this));
 IL2CPP_REGISTER_METHOD(0x0051DB50, void, set_IsDoingRebinding, (UberShaderComponent * __this, bool value));
@@ -30,7 +30,7 @@ IL2CPP_REGISTER_METHOD(0x008543B0, bool, get_RequiresWorldProjectedTexturesUpdat
 IL2CPP_REGISTER_METHOD(0x00DC31D0, void, set_RequiresWorldProjectedTexturesUpdate, (UberShaderComponent * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Awake, (UberShaderComponent * __this));
 IL2CPP_REGISTER_METHOD(0x0190DD00, void, __ctor, (UberShaderComponent * __this));
-IL2CPP_REGISTER_METHOD(0x0190E020, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0190E020, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0157BB20, Object *, GetModifier, (UberShaderComponent * __this));
 IL2CPP_REGISTER_METHOD(0x0157BB20, TintModifier *, GetModifier, (UberShaderComponent * __this));
 IL2CPP_REGISTER_METHODINFO(0x047965F0, UberShaderComponent_GetModifier_2__MethodInfo);

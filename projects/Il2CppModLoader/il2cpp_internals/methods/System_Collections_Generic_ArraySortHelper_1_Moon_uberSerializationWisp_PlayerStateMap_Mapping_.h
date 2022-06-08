@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::uberSerializationWisp::PlayerStateMap_Mapping_ {
 IL2CPP_REGISTER_METHOD(0x02F791A0, void, Sort, (PlayerStateMap_Mapping__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ * comparer));

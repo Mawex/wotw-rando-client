@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaseSpline {
 IL2CPP_REGISTER_METHOD(0x002FD1D0, int32_t, get_BuildNum, (BaseSpline * __this));

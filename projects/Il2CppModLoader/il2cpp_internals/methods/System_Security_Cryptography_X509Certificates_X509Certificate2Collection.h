@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Certificate2Collection {
 IL2CPP_REGISTER_METHOD(0x01C9A650, void, __ctor, (X509Certificate2Collection * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHODINFO(0x0473FDD0, X509Certificate2Collection_Contains__Meth
 IL2CPP_REGISTER_METHOD(0x021C61D0, X509Certificate2Collection *, Find, (X509Certificate2Collection * __this, X509FindType__Enum findType, Object * findValue, bool validOnly));
 IL2CPP_REGISTER_METHODINFO(0x0472A1B0, X509Certificate2Collection_Find__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021C7150, X509Certificate2Enumerator *, GetEnumerator, (X509Certificate2Collection * __this));
-IL2CPP_REGISTER_METHOD(0x021C7310, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021C7310, void, __cctor, ());
 }

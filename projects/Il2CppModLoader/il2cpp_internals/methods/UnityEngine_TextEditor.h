@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::TextEditor {
 IL2CPP_REGISTER_METHOD(0x03182CE0, void, __ctor, (TextEditor * __this));

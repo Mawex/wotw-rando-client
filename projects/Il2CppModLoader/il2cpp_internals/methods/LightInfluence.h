@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightInfluence {
 IL2CPP_REGISTER_METHOD(0x0114D0B0, void, __ctor, (LightInfluence * __this, LightPriority_Layer__Enum layer));

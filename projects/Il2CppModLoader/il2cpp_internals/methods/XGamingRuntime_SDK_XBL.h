@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK_XBL {
 IL2CPP_REGISTER_METHOD(0x030B9230, int32_t, XblAchievementsResultGetAchievements, (XblAchievementsResultHandle * resultHandle, XblAchievement__Array * * achievements));

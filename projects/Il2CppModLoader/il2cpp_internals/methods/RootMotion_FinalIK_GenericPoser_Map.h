@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::GenericPoser_Map {
 IL2CPP_REGISTER_METHOD(0x02064DD0, void, __ctor, (GenericPoser_Map * __this, Transform * bone, Transform * target));

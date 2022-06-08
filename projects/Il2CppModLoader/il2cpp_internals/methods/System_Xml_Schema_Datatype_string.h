@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_string {
 IL2CPP_REGISTER_METHOD(0x02360500, XmlValueConverter *, CreateValueConverter, (Datatype_string * __this, XmlSchemaType * schemaType));

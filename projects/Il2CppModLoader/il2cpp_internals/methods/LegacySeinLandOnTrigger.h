@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacySeinLandOnTrigger {
 IL2CPP_REGISTER_METHOD(0x00A35510, void, OnCollisionEnter, (LegacySeinLandOnTrigger * __this, Collision * collision));

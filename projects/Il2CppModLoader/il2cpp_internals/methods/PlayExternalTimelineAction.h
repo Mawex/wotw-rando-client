@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayExternalTimelineAction {
 IL2CPP_REGISTER_METHOD(0x011790D0, void, Perform, (PlayExternalTimelineAction * __this, IContext * context));

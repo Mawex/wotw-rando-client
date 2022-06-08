@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VisualDebug::DebugRenderer {
 IL2CPP_REGISTER_METHOD(0x0118D920, void, Register, (IDebugRendererSubscriber * subscriber));
@@ -27,15 +27,15 @@ IL2CPP_REGISTER_METHOD(0x011905C0, void, render, (DebugRenderer * __this, Render
 IL2CPP_REGISTER_METHOD(0x01190CC0, void, PrepareRendering, (RenderingType__Enum renderingType, Camera * camera));
 IL2CPP_REGISTER_METHOD(0x01190FA0, void, FinishRendering, (RenderingType__Enum renderingType, Camera * camera));
 IL2CPP_REGISTER_METHOD(0x01191100, void, SetGLMode, (int32_t mode));
-IL2CPP_REGISTER_METHOD(0x01191310, Material *, get_GLMaterial, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01191310, Material *, get_GLMaterial, ());
 IL2CPP_REGISTER_METHOD(0x01191570, void, set_GLMaterial, (Material * value));
-IL2CPP_REGISTER_METHOD(0x01191620, Material *, get_WireframeMaterial, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01191620, Material *, get_WireframeMaterial, ());
 IL2CPP_REGISTER_METHOD(0x01191880, void, set_WireframeMaterial, (Material * value));
-IL2CPP_REGISTER_METHOD(0x01191930, Material *, get_TransparentColorMaterial, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01191930, Material *, get_TransparentColorMaterial, ());
 IL2CPP_REGISTER_METHOD(0x01191B90, void, set_TransparentColorMaterial, (Material * value));
-IL2CPP_REGISTER_METHOD(0x01191C40, DebugRenderer *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01191E30, bool, get_Enabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01191C40, DebugRenderer *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x01191E30, bool, get_Enabled, ());
 IL2CPP_REGISTER_METHOD(0x01191ED0, void, set_Enabled, (bool value));
 IL2CPP_REGISTER_METHOD(0x01191F80, void, __ctor, (DebugRenderer * __this));
-IL2CPP_REGISTER_METHOD(0x011923F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011923F0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossCleanWaterPhaseStartBehaviour_MoveToCenterState {
 IL2CPP_REGISTER_METHOD(0x01251B60, void, __ctor, (KwolokBossCleanWaterPhaseStartBehaviour_MoveToCenterState * __this, KwolokBossCleanWaterPhaseStartBehaviour * behaviour));

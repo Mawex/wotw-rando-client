@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabEventAPI {
 IL2CPP_REGISTER_METHOD(0x002FA280, IPlayFabEventRouter *, get_EventRouter, (PlayFabEventAPI * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TestSpiderColliderManager {
 IL2CPP_REGISTER_METHOD(0x010DEE40, void, Start, (TestSpiderColliderManager * __this));

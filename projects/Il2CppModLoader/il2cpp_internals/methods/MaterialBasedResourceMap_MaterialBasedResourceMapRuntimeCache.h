@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache {
 IL2CPP_REGISTER_METHOD(0x01380BD0, List_1_MaterialBasedResourceMapEntry_ *, get_Entries, (MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::VertexSorter {
 IL2CPP_REGISTER_METHOD(0x02A9F090, void, __ctor, (VertexSorter * __this, Vertex__Array * points, int32_t seed));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LowestDifficultyToggler {
 IL2CPP_REGISTER_METHOD(0x009F3F90, String *, get_Path, (LowestDifficultyToggler * __this));

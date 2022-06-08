@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayRandomSound {
 IL2CPP_REGISTER_METHOD(0x0117A9A0, void, Start, (PlayRandomSound * __this));

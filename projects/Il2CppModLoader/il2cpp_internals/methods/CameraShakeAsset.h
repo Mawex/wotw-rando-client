@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraShakeAsset {
 IL2CPP_REGISTER_METHOD(0x00B1D590, float, get_Duration, (CameraShakeAsset * __this));

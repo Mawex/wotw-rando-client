@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderAttackSettings {
 IL2CPP_REGISTER_METHOD(0x005150C0, bool, IsSpecialAttack, (SpiderAttackSettings * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritShardIcons {
 IL2CPP_REGISTER_METHOD(0x00D680F0, Texture2D *, GetIcon, (SpiritShardIcons * __this, SpiritShardType__Enum type));

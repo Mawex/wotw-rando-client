@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RepeatInvoker {
 IL2CPP_REGISTER_METHOD(0x008FE3B0, bool, Update, (RepeatInvoker * __this, float dt));

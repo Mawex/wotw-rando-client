@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ComputeShader {
 IL2CPP_REGISTER_METHOD(0x0242A6B0, int32_t, FindKernel, (ComputeShader * __this, String * name));

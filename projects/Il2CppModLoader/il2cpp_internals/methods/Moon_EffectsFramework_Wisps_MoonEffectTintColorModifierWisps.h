@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::Wisps::MoonEffectTintColorModifierWisps {
 IL2CPP_REGISTER_METHOD(0x0120BD20, void, Apply, (MoonEffectTintColorModifierWisps * __this, IMoonEffectComponentCache * input, MoonEffectRevertHandle * revertHandle));

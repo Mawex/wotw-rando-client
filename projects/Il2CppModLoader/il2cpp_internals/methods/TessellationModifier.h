@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TessellationModifier {
 IL2CPP_REGISTER_METHOD(0x010D9050, void, ApplyMultipliers, (TessellationModifier * __this, float strength, float speed));

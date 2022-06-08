@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionManager {
 IL2CPP_REGISTER_METHOD(0x013F7820, UberInteractionManager_PropertyIDCache *, GetCachedPropertyID, (UberInteractionManager_PropertyIDCache * * staticCache, String * propertyInteractionName));
-IL2CPP_REGISTER_METHOD(0x013F7980, String *, GetInteractionCurveString, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013F7980, String *, GetInteractionCurveString, ());
 IL2CPP_REGISTER_METHOD(0x013F7D00, float, get_InteractionTime, (UberInteractionManager * __this));
 IL2CPP_REGISTER_METHOD(0x013F7E40, void, OnEnable, (UberInteractionManager * __this));
 IL2CPP_REGISTER_METHOD(0x013F7FC0, void, OnDisable, (UberInteractionManager * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x013FD4C0, void, RemoveActor, (UberInteractionManager * 
 IL2CPP_REGISTER_METHOD(0x013FD5D0, void, OnDrawGizmos, (UberInteractionManager * __this));
 IL2CPP_REGISTER_METHOD(0x013FDA10, void, InitializeAccelerationStructure, (UberInteractionManager * __this));
 IL2CPP_REGISTER_METHOD(0x013FDB70, void, __ctor, (UberInteractionManager * __this));
-IL2CPP_REGISTER_METHOD(0x013FE710, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013FE710, void, __cctor, ());
 }

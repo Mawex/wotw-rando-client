@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::StackBuilderSink {
 IL2CPP_REGISTER_METHOD(0x0231A770, void, __ctor, (StackBuilderSink * __this, MarshalByRefObject * obj, bool forceInternalExecute));

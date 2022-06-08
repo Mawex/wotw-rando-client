@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::JsonTokenizer {
 IL2CPP_REGISTER_METHOD(0x030F0670, JsonToken__Enum, Next, (String * json, Substr span, Substr * remainder, StringBuilder * buffer, double * number));

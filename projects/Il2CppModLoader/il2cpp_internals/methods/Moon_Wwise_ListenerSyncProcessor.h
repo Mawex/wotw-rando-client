@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ListenerSyncProcessor {
 IL2CPP_REGISTER_METHOD(0x02709E80, void, Initialize, (ListenerSyncProcessor * __this, AkWwiseInitializationSettings * config));

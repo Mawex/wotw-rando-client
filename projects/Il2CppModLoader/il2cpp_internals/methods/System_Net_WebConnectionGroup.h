@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebConnectionGroup {
 IL2CPP_REGISTER_METHOD(0x01D68CC0, void, __ctor, (WebConnectionGroup * __this, ServicePoint * sPoint, String * name));

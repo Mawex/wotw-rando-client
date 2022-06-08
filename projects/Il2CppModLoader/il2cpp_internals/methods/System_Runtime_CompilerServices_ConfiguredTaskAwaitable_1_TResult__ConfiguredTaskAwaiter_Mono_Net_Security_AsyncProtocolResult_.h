@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_TResult__ConfiguredTaskAwaiter_Mono::Net::Security::AsyncProtocolResult_ {
 IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_Mono_Net_Security_AsyncProtocolResult___Boxed * __this));

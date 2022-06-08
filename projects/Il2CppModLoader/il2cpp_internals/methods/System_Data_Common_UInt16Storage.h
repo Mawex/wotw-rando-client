@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::UInt16Storage {
 IL2CPP_REGISTER_METHOD(0x02866120, void, __ctor, (UInt16Storage * __this, DataColumn * column));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x02867430, String *, ConvertObjectToXml, (UInt16Storage 
 IL2CPP_REGISTER_METHOD(0x02867510, Object *, GetEmptyStorage, (UInt16Storage * __this, int32_t recordCount));
 IL2CPP_REGISTER_METHOD(0x02867590, void, CopyValue, (UInt16Storage * __this, int32_t record, Object * store, BitArray * nullbits, int32_t storeIndex));
 IL2CPP_REGISTER_METHOD(0x02867720, void, SetStorage, (UInt16Storage * __this, Object * store, BitArray * nullbits));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

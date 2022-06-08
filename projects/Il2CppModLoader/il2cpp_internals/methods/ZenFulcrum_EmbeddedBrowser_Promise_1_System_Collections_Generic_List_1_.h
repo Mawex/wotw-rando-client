@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promise_1_System::Collections::Generic::List_1_ {
 IL2CPP_REGISTER_METHOD(0x02AD6200, IPromise_1_System_Collections_Generic_List_1_ *, Resolved, (List_1_ZenFulcrum_EmbeddedBrowser_Cookie_ * promisedValue));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Metaballs2D::MetaballRenderer_TransformMetaball {
 IL2CPP_REGISTER_METHOD(0x015A4070, Vector2, get_Position, (MetaballRenderer_TransformMetaball * __this));

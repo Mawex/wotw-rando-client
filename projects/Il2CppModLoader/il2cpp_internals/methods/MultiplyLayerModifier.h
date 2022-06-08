@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MultiplyLayerModifier {
 IL2CPP_REGISTER_METHOD(0x0087BFC0, void, ApplyMultipliers, (MultiplyLayerModifier * __this, float strength, float speed));

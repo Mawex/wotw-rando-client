@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::CustomAttributeFormatException {
 IL2CPP_REGISTER_METHOD(0x0267EB30, void, __ctor, (CustomAttributeFormatException * __this));

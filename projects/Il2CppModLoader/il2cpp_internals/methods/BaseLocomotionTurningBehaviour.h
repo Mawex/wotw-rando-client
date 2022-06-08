@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaseLocomotionTurningBehaviour {
 IL2CPP_REGISTER_METHOD(0x00623260, float, get_TargetLookDirectionX, (BaseLocomotionTurningBehaviour * __this));

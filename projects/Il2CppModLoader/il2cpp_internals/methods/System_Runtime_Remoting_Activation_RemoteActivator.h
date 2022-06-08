@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Activation::RemoteActivator {
 IL2CPP_REGISTER_METHOD(0x01A99690, IConstructionReturnMessage *, Activate, (RemoteActivator * __this, IConstructionCallMessage * msg));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::CatchBlock {
 IL2CPP_REGISTER_METHOD(0x01FA0FE0, void, __ctor, (CatchBlock * __this, Type * test, ParameterExpression * variable, Expression * body, Expression * filter));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerformLoremasterReplayRestartAction {
 IL2CPP_REGISTER_METHOD(0x0044CCC0, void, Perform, (PerformLoremasterReplayRestartAction * __this, IContext * context));

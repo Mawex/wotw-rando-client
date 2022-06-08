@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryShrineStartEvent {
 IL2CPP_REGISTER_METHOD(0x01472910, void, __ctor, (MoonTelemetryShrineStartEvent * __this, String * sceneName));

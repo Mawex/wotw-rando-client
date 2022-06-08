@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::SteamAchievements {
 IL2CPP_REGISTER_METHOD(0x0052E6A0, String *, get_Name, (SteamAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsSynchronising, (SteamAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_HasSynchronised, (SteamAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052C650, void, set_HasSynchronised, (SteamAchievements * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x0052E720, bool, get_Disable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0052E720, bool, get_Disable, ());
 IL2CPP_REGISTER_METHOD(0x0052E7A0, void, set_Disable, (bool value));
 IL2CPP_REGISTER_METHOD(0x0052E830, void, __ctor, (SteamAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052EBB0, void, OnAchievementStored, (SteamAchievements * __this, UserAchievementStored_t param));

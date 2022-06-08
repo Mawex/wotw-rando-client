@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::PKCS1MaskGenerationMethod {
 IL2CPP_REGISTER_METHOD(0x020DF880, void, __ctor, (PKCS1MaskGenerationMethod * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::CancelEventArgs {
 IL2CPP_REGISTER_METHOD(0x024A5EC0, void, __ctor, (CancelEventArgs * __this));

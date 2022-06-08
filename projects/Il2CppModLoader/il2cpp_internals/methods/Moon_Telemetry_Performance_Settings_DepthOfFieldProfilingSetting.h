@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::DepthOfFieldProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x008E77B0, ProfilingSettings_SettingType__Enum, get_SettingType, (DepthOfFieldProfilingSetting * __this));

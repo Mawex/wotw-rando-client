@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RestoreHealthAction {
 IL2CPP_REGISTER_METHOD(0x0090CC90, void, Perform, (RestoreHealthAction * __this, IContext * context));

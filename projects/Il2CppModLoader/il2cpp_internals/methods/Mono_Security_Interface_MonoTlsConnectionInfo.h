@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Interface::MonoTlsConnectionInfo {
 IL2CPP_REGISTER_METHOD(0x01B67060, CipherSuiteCode__Enum, get_CipherSuiteCode, (MonoTlsConnectionInfo * __this));

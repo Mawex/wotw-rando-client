@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceMenuScreenMemoriesPage {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0070D380, CleverMenuItemSelectionManager *, get_Navigation, (RaceMenuScreenMemoriesPage * __this));
 IL2CPP_REGISTER_METHOD(0x0070D450, MemoryUISlot *, get_SelectedItem, (RaceMenuScreenMemoriesPage * __this));
 IL2CPP_REGISTER_METHOD(0x0070D540, void, Awake, (RaceMenuScreenMemoriesPage * __this));

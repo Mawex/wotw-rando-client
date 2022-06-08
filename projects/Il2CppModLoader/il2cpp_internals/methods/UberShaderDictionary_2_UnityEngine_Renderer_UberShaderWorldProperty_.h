@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_UnityEngine::Renderer_UberShaderWorldProperty_ {
 IL2CPP_REGISTER_METHOD(0x0225D7D0, Dictionary_2_TKey_TValue_KeyCollection_UnityEngine_Renderer_UberShaderWorldProperty_ *, get_Keys, (UberShaderDictionary_2_UnityEngine_Renderer_UberShaderWorldProperty_ * __this));

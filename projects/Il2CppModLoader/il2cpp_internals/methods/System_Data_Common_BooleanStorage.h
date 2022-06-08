@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::BooleanStorage {
 IL2CPP_REGISTER_METHOD(0x02156620, void, __ctor, (BooleanStorage * __this, DataColumn * column));

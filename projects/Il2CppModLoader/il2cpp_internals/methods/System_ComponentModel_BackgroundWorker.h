@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::BackgroundWorker {
 IL2CPP_REGISTER_METHOD(0x024A2970, void, __ctor, (BackgroundWorker * __this));
@@ -31,5 +31,5 @@ IL2CPP_REGISTER_METHOD(0x004F4CE0, bool, get_WorkerSupportsCancellation, (Backgr
 IL2CPP_REGISTER_METHOD(0x004F4CF0, void, set_WorkerSupportsCancellation, (BackgroundWorker * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x024A3C70, void, WorkerThreadStart, (BackgroundWorker * __this, Object * argument));
 IL2CPP_REGISTER_METHODINFO(0x0470EEA8, BackgroundWorker_WorkerThreadStart__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x024A3FC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024A3FC0, void, __cctor, ());
 }

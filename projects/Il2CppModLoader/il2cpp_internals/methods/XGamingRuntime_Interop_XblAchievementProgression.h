@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::XblAchievementProgression {
 IL2CPP_REGISTER_METHOD(0x002406A0, Object__Array *, GetRequirements, (XblAchievementProgression_1__Boxed * __this, Func_2_XGamingRuntime_Interop_XblAchievementRequirement_Object_ * ctor));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_UnityEngine::GameObject_UnityEngine::GameObject_ {
 IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (Action_2_UnityEngine_GameObject_UnityEngine_GameObject_ * __this, GameObject * arg1, GameObject * arg2));

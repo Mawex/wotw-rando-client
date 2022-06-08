@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossEscape1Behaviour_WaitState {
 IL2CPP_REGISTER_METHOD(0x01763B30, void, __ctor, (PetrifiedOwlBossEscape1Behaviour_WaitState * __this, PetrifiedOwlBossEscape1Behaviour * behaviour));

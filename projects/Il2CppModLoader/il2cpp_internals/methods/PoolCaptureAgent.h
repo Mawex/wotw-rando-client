@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PoolCaptureAgent {
 IL2CPP_REGISTER_METHOD(0x00C5F740, void, MarkUnpooledInstantiation, (String * prefabName, float elapsedMilliseconds));

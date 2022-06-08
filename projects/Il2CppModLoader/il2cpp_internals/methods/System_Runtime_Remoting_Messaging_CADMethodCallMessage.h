@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::CADMethodCallMessage {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, String *, get_Uri, (CADMethodCallMessage * __this));

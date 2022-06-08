@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::CopyEncoder {
 IL2CPP_REGISTER_METHOD(0x02B71C80, void, GetBlock, (CopyEncoder * __this, DeflateInput * input, OutputBuffer * output, bool isFinal));

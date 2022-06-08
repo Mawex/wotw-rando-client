@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StatisticianIdle {
 IL2CPP_REGISTER_METHOD(0x009B7930, void, OnInitializeTask, (StatisticianIdle * __this, IContext * context));

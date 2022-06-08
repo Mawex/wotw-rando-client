@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InterpolateCollider {
 IL2CPP_REGISTER_METHOD(0x0063D190, void, Awake, (InterpolateCollider * __this));

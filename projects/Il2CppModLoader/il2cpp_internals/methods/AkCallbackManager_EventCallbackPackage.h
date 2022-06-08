@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkCallbackManager_EventCallbackPackage {
 IL2CPP_REGISTER_METHOD(0x026D4880, AkCallbackManager_EventCallbackPackage *, Create, (AkCallbackManager_EventCallback * in_cb, Object * in_cookie, uint32_t * io_Flags));

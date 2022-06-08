@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Int32Converter {
 IL2CPP_REGISTER_METHOD(0x01FEF4D0, Type *, get_TargetType, (Int32Converter * __this));

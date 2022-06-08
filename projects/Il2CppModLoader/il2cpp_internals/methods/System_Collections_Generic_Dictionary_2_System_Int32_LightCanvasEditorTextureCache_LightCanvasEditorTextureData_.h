@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_LightCanvasEditorTextureCache_LightCanvasEditorTextureData_ {
 IL2CPP_REGISTER_METHOD(0x02DCC9C0, void, set_Item, (Dictionary_2_System_Int32_LightCanvasEditorTextureCache_LightCanvasEditorTextureData_ * __this, int32_t key, LightCanvasEditorTextureCache_LightCanvasEditorTextureData value));

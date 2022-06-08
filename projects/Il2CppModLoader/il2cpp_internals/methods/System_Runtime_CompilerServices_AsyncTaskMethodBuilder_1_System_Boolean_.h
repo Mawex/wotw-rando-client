@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System::Boolean_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Boolean_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Boolean_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x0475D410, AsyncTaskMethodBuilder_1_System_Boolean__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3BA0, void, Start, (AsyncTaskMethodBuilder_1_System_Boolean___Boxed * __this, SemaphoreSlim_WaitUntilCountOrTimeoutAsync_d_31 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x0475B9F8, AsyncTaskMethodBuilder_1_System_Boolean__Start__MethodInfo);
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHODINFO(0x0475EC70, AsyncTaskMethodBuilder_1_System_Boolean__
 IL2CPP_REGISTER_METHOD(0x001A3B90, void, AwaitUnsafeOnCompleted, (AsyncTaskMethodBuilder_1_System_Boolean___Boxed * __this, ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Object_ * awaiter, SemaphoreSlim_WaitUntilCountOrTimeoutAsync_d_31 * stateMachine));
 IL2CPP_REGISTER_METHOD(0x001FF400, void, SetResult, (AsyncTaskMethodBuilder_1_System_Boolean___Boxed * __this, Task_1_System_Boolean_ * completedTask));
 IL2CPP_REGISTER_METHOD(0x001FF470, Task_1_System_Boolean_ *, GetTaskForResult, (AsyncTaskMethodBuilder_1_System_Boolean___Boxed * __this, bool result));
-IL2CPP_REGISTER_METHOD(0x02768260, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02768260, void, __cctor, ());
 }

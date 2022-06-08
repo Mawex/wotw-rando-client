@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::AnimationCurve_DirectConverter {
 IL2CPP_REGISTER_METHOD(0x0164ADD0, fsResult, DoSerialize, (AnimationCurve_DirectConverter * __this, AnimationCurve * model, Dictionary_2_System_String_FullSerializer_fsData_ * serialized));

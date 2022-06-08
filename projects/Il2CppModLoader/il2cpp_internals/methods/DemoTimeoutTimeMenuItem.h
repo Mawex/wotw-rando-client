@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DemoTimeoutTimeMenuItem {
 IL2CPP_REGISTER_METHOD(0x00B82AD0, void, __ctor, (DemoTimeoutTimeMenuItem * __this, String * path, String * str, DemoTimeoutTimeMenuItem_TimeoutType__Enum type));

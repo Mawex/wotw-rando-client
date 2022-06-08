@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ComponentCollection {
 IL2CPP_REGISTER_METHOD(0x024A97C0, void, __ctor, (ComponentCollection * __this, IComponent__Array * components));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Scrollbar {
 IL2CPP_REGISTER_METHOD(0x0266F180, void, __ctor, (Scrollbar * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceTargetIndicator {
 IL2CPP_REGISTER_METHOD(0x00723E70, bool, get_AllowIndicator, (RaceTargetIndicator * __this));

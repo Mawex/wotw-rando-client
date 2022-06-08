@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Security::SslStream {
 IL2CPP_REGISTER_METHOD(0x01BD1C90, IMonoSslStream *, get_Impl, (SslStream * __this));

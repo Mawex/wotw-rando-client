@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinBowAttack {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinBowAttack * __this));
@@ -122,5 +122,5 @@ IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_CanExecuteStressTest, (SeinBowAttac
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_StopMovingPlayerWhilePerforming, (SeinBowAttack * __this));
 IL2CPP_REGISTER_METHOD(0x00420230, RecordableParsingGroup__Enum, get_ParsingGroup, (SeinBowAttack * __this));
 IL2CPP_REGISTER_METHOD(0x00DA0C40, void, __ctor, (SeinBowAttack * __this));
-IL2CPP_REGISTER_METHOD(0x00DA14A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DA14A0, void, __cctor, ());
 }

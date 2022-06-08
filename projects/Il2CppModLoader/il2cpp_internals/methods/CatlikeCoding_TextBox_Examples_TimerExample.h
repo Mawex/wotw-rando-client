@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::Examples::TimerExample {
 IL2CPP_REGISTER_METHOD(0x0102E910, void, Start, (TimerExample * __this));

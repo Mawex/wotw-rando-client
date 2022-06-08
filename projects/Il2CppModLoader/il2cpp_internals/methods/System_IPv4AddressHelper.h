@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IPv4AddressHelper {
 IL2CPP_REGISTER_METHOD(0x0200AE30, String *, ParseCanonicalName, (String * str, int32_t start, int32_t end, bool * isLoopback));

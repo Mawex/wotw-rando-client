@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IntPtr {
 IL2CPP_REGISTER_METHOD(0x001DE610, void, __ctor, (IntPtr__Boxed * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (IntPtr__Boxed * __this, int64_t value));
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (IntPtr__Boxed * __this, Void * value));
 IL2CPP_REGISTER_METHOD(0x001E9770, void, __ctor, (IntPtr__Boxed * __this, SerializationInfo * info, StreamingContext context));
-IL2CPP_REGISTER_METHOD(0x0043D9A0, int32_t, get_Size, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0043D9A0, int32_t, get_Size, ());
 IL2CPP_REGISTER_METHOD(0x001E9810, void, ISerializable_GetObjectData, (IntPtr__Boxed * __this, SerializationInfo * info, StreamingContext context));
 IL2CPP_REGISTER_METHODINFO(0x04708FA8, IntPtr_System_Runtime_Serialization_ISerializable_GetObjectData__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001E98E0, bool, Equals, (IntPtr__Boxed * __this, Object * obj));

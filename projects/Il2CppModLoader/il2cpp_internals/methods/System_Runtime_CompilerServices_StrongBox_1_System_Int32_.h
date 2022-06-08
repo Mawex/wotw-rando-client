@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::StrongBox_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x01D09710, void, __ctor, (StrongBox_1_System_Int32_ * __this, int32_t value));

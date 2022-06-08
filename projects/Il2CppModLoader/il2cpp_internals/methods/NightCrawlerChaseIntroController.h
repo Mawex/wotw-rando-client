@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightCrawlerChaseIntroController {
 IL2CPP_REGISTER_METHOD(0x00603BC0, Enum__Array *, GetEntries, (NightCrawlerChaseIntroController * __this));

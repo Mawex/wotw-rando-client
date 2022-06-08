@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugBossBullChargeBehaviour {
 IL2CPP_REGISTER_METHOD(0x00B606F0, void, OnEntityInitialized, (HornBugBossBullChargeBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_Moon::Network::Web::WebResponse_ {
 IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (Action_1_Moon_Network_Web_WebResponse_ * __this, WebResponse_1 * obj));

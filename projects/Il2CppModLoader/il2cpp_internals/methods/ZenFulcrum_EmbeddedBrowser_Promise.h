@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promise {
-IL2CPP_REGISTER_METHOD(0x01663380, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01663380, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01663700, void, add_UnhandledException, (EventHandler_1_ZenFulcrum_EmbeddedBrowser_ExceptionEventArgs_ * value));
 IL2CPP_REGISTER_METHOD(0x016637F0, void, remove_UnhandledException, (EventHandler_1_ZenFulcrum_EmbeddedBrowser_ExceptionEventArgs_ * value));
-IL2CPP_REGISTER_METHOD(0x016638E0, IEnumerable_1_ZenFulcrum_EmbeddedBrowser_IPromiseInfo_ *, GetPendingPromises, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016638E0, IEnumerable_1_ZenFulcrum_EmbeddedBrowser_IPromiseInfo_ *, GetPendingPromises, ());
 IL2CPP_REGISTER_METHOD(0x002FB970, int32_t, get_Id, (Promise * __this));
 IL2CPP_REGISTER_METHOD(0x002FB980, void, set_Id, (Promise * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x002FB990, String *, get_Name, (Promise * __this));
@@ -44,7 +44,7 @@ IL2CPP_REGISTER_METHOD(0x01666B30, IPromise *, ThenRace, (Promise * __this, Func
 IL2CPP_REGISTER_METHOD(0x01666D70, IPromise *, Race, (IPromise__Array * promises));
 IL2CPP_REGISTER_METHOD(0x01666E10, IPromise *, Race, (IEnumerable_1_ZenFulcrum_EmbeddedBrowser_IPromise_ * promises));
 IL2CPP_REGISTER_METHODINFO(0x04715038, Promise_Race_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01667180, IPromise *, Resolved, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01667180, IPromise *, Resolved, ());
 IL2CPP_REGISTER_METHOD(0x016672E0, IPromise *, Rejected, (Exception * ex));
 IL2CPP_REGISTER_METHOD(0x01667440, void, PropagateUnhandledException, (Object * sender, Exception * ex));
 IL2CPP_REGISTER_METHOD(0x01667690, IEnumerator *, ToWaitFor, (Promise * __this, bool abortOnFail));

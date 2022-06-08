@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::RuntimeVariablesInstruction {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (RuntimeVariablesInstruction * __this, int32_t count));

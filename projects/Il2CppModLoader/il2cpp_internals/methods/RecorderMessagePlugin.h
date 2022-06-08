@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecorderMessagePlugin {
 IL2CPP_REGISTER_METHOD(0x008F3470, void, Awake, (RecorderMessagePlugin * __this));

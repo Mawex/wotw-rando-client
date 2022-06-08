@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossLocationTimelineSet {
 IL2CPP_REGISTER_METHOD(0x011B2970, void, SwapIdle, (SpiderBossLocationTimelineSet * __this, SpiderBossLocationZone__Enum zone, MirroredTimelineSet * timelines));

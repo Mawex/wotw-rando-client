@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationMetaDataDrivenTransform {
 IL2CPP_REGISTER_METHOD(0x005023A0, void, Awake, (AnimationMetaDataDrivenTransform * __this));

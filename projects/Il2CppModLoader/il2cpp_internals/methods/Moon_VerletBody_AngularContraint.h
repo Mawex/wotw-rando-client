@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VerletBody_AngularContraint {
 IL2CPP_REGISTER_METHOD(0x00418FC0, float, get_MaxAngle, (VerletBody_AngularContraint * __this));

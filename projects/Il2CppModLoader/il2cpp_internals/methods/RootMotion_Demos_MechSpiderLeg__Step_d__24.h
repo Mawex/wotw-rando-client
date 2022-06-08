@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::MechSpiderLeg__Step_d__24 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (MechSpiderLeg_Step_d_24 * __this, int32_t __1__state));

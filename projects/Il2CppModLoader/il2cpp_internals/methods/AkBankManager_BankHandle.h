@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkBankManager_BankHandle {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (AkBankManager_BankHandle * __this, String * name));

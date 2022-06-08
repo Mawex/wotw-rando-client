@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RunActionAndWait {
 IL2CPP_REGISTER_METHOD(0x013727E0, void, Awake, (RunActionAndWait * __this));

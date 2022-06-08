@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::IsPositionInNoGoZoneCondition {
 IL2CPP_REGISTER_METHOD(0x00CBA2C0, String *, get_Info, (IsPositionInNoGoZoneCondition * __this));

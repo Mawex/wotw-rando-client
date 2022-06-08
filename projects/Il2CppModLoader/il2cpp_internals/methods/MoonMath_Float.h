@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_Float {
 IL2CPP_REGISTER_METHOD(0x02574DA0, float, Normalize, (float x));

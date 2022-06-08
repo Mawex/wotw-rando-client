@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimatingFloat {
 IL2CPP_REGISTER_METHOD(0x004FBCF0, bool, Update, (AnimatingFloat * __this, float dt));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlChars {
 IL2CPP_REGISTER_METHOD(0x01E518F0, void, __ctor, (SqlChars * __this));
@@ -21,5 +21,5 @@ IL2CPP_REGISTER_METHOD(0x01E52D80, void, IXmlSerializable_WriteXml, (SqlChars * 
 IL2CPP_REGISTER_METHOD(0x01E52F90, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
 IL2CPP_REGISTER_METHOD(0x01E530E0, void, ISerializable_GetObjectData, (SqlChars * __this, SerializationInfo * info, StreamingContext context));
 IL2CPP_REGISTER_METHODINFO(0x0470DCA0, SqlChars_System_Runtime_Serialization_ISerializable_GetObjectData__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E53130, SqlChars *, get_Null, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E53130, SqlChars *, get_Null, ());
 }

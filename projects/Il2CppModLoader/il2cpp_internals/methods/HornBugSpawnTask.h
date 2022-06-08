@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugSpawnTask {
 IL2CPP_REGISTER_METHOD(0x00B6DFC0, void, OnEnterTask, (HornBugSpawnTask * __this, IContext * context));

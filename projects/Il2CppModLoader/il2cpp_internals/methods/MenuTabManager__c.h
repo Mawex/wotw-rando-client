@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuTabManager___c {
-IL2CPP_REGISTER_METHOD(0x009EAE20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009EAE20, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MenuTabManager_c * __this));
 IL2CPP_REGISTER_METHOD(0x009EAF60, bool, _FixedUpdate_b__26_0, (MenuTabManager_c * __this, MenuTabEntry * x));
 IL2CPP_REGISTER_METHODINFO(0x0476F780, MenuTabManager_c__FixedUpdate_b__26_0__MethodInfo);

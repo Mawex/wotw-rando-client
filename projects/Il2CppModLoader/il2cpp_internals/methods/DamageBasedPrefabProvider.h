@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageBasedPrefabProvider {
 IL2CPP_REGISTER_METHOD(0x00DC1C80, GameObject *, Prefab, (DamageBasedPrefabProvider * __this, IContext * context));

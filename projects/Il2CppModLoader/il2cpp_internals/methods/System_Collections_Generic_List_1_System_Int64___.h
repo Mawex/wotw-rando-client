@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Int64___ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, Int64__Array *, get_Item, (List_1_System_Int64_ * __this, int32_t index));

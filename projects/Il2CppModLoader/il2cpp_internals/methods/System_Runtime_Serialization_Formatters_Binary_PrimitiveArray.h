@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray {
 IL2CPP_REGISTER_METHOD(0x01D9E280, void, __ctor, (PrimitiveArray * __this, InternalPrimitiveTypeE__Enum code, Array * array));

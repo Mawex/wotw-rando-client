@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlAsyncCheckReaderWithNS {
 IL2CPP_REGISTER_METHOD(0x01959F90, void, __ctor, (XmlAsyncCheckReaderWithNS * __this, XmlReader * reader));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::CFNetwork {
 IL2CPP_REGISTER_METHOD(0x02173E80, void *, CFNetworkCopyProxiesForAutoConfigurationScriptSequential, (void * proxyAutoConfigurationScript, void * targetURL, void * * error));
 IL2CPP_REGISTER_METHOD(0x02173F30, void *, CFNetworkExecuteProxyAutoConfigurationURL, (void * proxyAutoConfigURL, void * targetURL, CFNetwork_CFProxyAutoConfigurationResultCallback * cb, CFStreamClientContext * clientContext));
-IL2CPP_REGISTER_METHOD(0x02174000, void, CFNetworkCopyProxiesForAutoConfigurationScriptThread, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02174000, void, CFNetworkCopyProxiesForAutoConfigurationScriptThread, ());
 IL2CPP_REGISTER_METHODINFO(0x04707868, CFNetwork_CFNetworkCopyProxiesForAutoConfigurationScriptThread__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021743E0, void *, CFNetworkCopyProxiesForAutoConfigurationScript, (void * proxyAutoConfigurationScript, void * targetURL, void * * error));
 IL2CPP_REGISTER_METHOD(0x02174C70, CFArray *, CopyProxiesForAutoConfigurationScript, (void * proxyAutoConfigurationScript, CFUrl * targetURL));
@@ -18,8 +18,8 @@ IL2CPP_REGISTER_METHOD(0x02175BB0, CFProxy__Array *, GetProxiesForURL, (CFUrl * 
 IL2CPP_REGISTER_METHODINFO(0x04758F40, CFNetwork_GetProxiesForURL__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02175FB0, CFProxy__Array *, GetProxiesForUri, (Uri * uri, CFProxySettings * proxySettings));
 IL2CPP_REGISTER_METHODINFO(0x04764000, CFNetwork_GetProxiesForUri__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x021760F0, void *, CFNetworkCopySystemProxySettings, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02176180, CFProxySettings *, GetSystemProxySettings, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02176450, IWebProxy *, GetDefaultProxy, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02176590, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021760F0, void *, CFNetworkCopySystemProxySettings, ());
+IL2CPP_REGISTER_METHOD(0x02176180, CFProxySettings *, GetSystemProxySettings, ());
+IL2CPP_REGISTER_METHOD(0x02176450, IWebProxy *, GetDefaultProxy, ());
+IL2CPP_REGISTER_METHOD(0x02176590, void, __cctor, ());
 }

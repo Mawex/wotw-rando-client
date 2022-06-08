@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ToggleModifierTask {
 IL2CPP_REGISTER_METHOD(0x00CB3630, void, __ctor, (ToggleModifierTask * __this, UberShaderComponent * uberShader, UberShaderModifier * modifier, bool modifierState));

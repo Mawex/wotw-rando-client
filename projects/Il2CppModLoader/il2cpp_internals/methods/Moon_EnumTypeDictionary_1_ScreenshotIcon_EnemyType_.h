@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EnumTypeDictionary_1_ScreenshotIcon_EnemyType_ {
 IL2CPP_REGISTER_METHOD(0x0271E090, void, __ctor, (EnumTypeDictionary_1_ScreenshotIcon_EnemyType_ * __this));

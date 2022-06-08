@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::QuaternionRotationAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x01E7D4F0, Transform *, get_TransformTarget, (QuaternionRotationAnimatorEntity * __this));

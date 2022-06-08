@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatStateMap {
 IL2CPP_REGISTER_METHOD(0x01B5AB80, List_1_GenericMappingEntry_ *, GetGenericMapping, (FloatStateMap * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeshTrailModifier {
-IL2CPP_REGISTER_METHOD(0x0158C530, void, DrawDebugInfo, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0158C530, void, DrawDebugInfo, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, SetProperties, (MeshTrailModifier * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsProcedural, (MeshTrailModifier * __this));
 IL2CPP_REGISTER_METHOD(0x0158CAE0, void, UberShaderEditorUpdate, (MeshTrailModifier * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x002FD760, void, set_Mask, (MeshTrailModifier * __this, 
 IL2CPP_REGISTER_METHOD(0x0158D8E0, bool, get_IsSuspended, (MeshTrailModifier * __this));
 IL2CPP_REGISTER_METHOD(0x0158D900, void, set_IsSuspended, (MeshTrailModifier * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00597BB0, void, __ctor, (MeshTrailModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0158D920, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0158D920, void, __cctor, ());
 }

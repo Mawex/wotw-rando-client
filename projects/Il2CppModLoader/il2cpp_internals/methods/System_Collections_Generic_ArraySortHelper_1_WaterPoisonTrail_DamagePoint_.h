@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_WaterPoisonTrail_DamagePoint_ {
 IL2CPP_REGISTER_METHOD(0x02C8CDF0, void, Sort, (WaterPoisonTrail_DamagePoint__Array * keys, int32_t index, int32_t length, IComparer_1_WaterPoisonTrail_DamagePoint_ * comparer));

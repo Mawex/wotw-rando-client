@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::InternalEncoderBestFitFallbackBuffer {
-IL2CPP_REGISTER_METHOD(0x02458BC0, Object *, get_InternalSyncObject, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02458BC0, Object *, get_InternalSyncObject, ());
 IL2CPP_REGISTER_METHOD(0x02458D30, void, __ctor, (InternalEncoderBestFitFallbackBuffer * __this, InternalEncoderBestFitFallback * fallback));
 IL2CPP_REGISTER_METHOD(0x02458FD0, bool, Fallback, (InternalEncoderBestFitFallbackBuffer * __this, uint16_t charUnknown, int32_t index));
 IL2CPP_REGISTER_METHOD(0x02459010, bool, Fallback, (InternalEncoderBestFitFallbackBuffer * __this, uint16_t charUnknownHigh, uint16_t charUnknownLow, int32_t index));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RectTransform {
 IL2CPP_REGISTER_METHOD(0x0296E8B0, void, add_reapplyDrivenProperties, (RectTransform_ReapplyDrivenProperties * value));

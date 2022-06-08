@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::ArrayBuilderExtensions {
 IL2CPP_REGISTER_METHOD(0x01EBB8E0, ReadOnlyCollection_1_System_Object_ *, ToReadOnly, (ArrayBuilder_1_System_Object_ builder));

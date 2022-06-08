@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::RigidbodyParametersAnimator {
 IL2CPP_REGISTER_METHOD(0x007808F0, GameObject *, get_ExternalTarget, (RigidbodyParametersAnimator * __this));

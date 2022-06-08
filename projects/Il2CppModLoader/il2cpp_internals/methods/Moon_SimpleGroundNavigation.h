@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SimpleGroundNavigation {
 IL2CPP_REGISTER_METHOD(0x00E27620, void, Awake, (SimpleGroundNavigation * __this));

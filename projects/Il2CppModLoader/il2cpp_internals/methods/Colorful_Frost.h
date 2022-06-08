@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Frost {
 IL2CPP_REGISTER_METHOD(0x030438A0, void, OnRenderImage, (Frost * __this, RenderTexture * source, RenderTexture * destination));

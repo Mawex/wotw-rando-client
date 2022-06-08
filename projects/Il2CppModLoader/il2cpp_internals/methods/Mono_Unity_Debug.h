@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::Debug {
 IL2CPP_REGISTER_METHOD(0x02186A20, void, CheckAndThrow, (UnityTls_unitytls_errorstate errorState, String * context, AlertDescription__Enum defaultAlert));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::SecurityDocument {
 IL2CPP_REGISTER_METHOD(0x01E1DF90, void, __ctor, (SecurityDocument * __this, int32_t numData));

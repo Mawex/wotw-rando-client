@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_Moon::ArtOptimization::TexturePoolEntity_ {
 IL2CPP_REGISTER_METHOD(0x0243CB70, void, __ctor, (Stack_1_Moon_ArtOptimization_TexturePoolEntity_ * __this));

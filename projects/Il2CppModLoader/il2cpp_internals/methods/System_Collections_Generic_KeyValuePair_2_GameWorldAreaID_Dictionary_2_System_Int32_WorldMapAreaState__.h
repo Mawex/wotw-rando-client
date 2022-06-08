@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_GameWorldAreaID_Dictionary_2_System::Int32_WorldMapAreaState__ {
 IL2CPP_REGISTER_METHOD(0x00107C10, Dictionary_2_System_Int32_WorldMapAreaState_ *, get_Value, (KeyValuePair_2_GameWorldAreaID_Dictionary_2_System_Int32_WorldMapAreaState___Boxed * __this));

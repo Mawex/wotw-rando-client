@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PushPullBlock {
-IL2CPP_REGISTER_METHOD(0x00E80480, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E80480, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_SpiritFlamePriority, (PushPullBlock * __this));
 IL2CPP_REGISTER_METHOD(0x00CA3850, float, get_OriDistanceFromAttackable, (PushPullBlock * __this));
 IL2CPP_REGISTER_METHOD(0x00CA3860, float, get_SpiritFlameRange, (PushPullBlock * __this));
@@ -85,7 +85,7 @@ IL2CPP_REGISTER_METHOD(0x00A1D9E0, void, set_TrackingExclusions, (PushPullBlock 
 IL2CPP_REGISTER_METHOD(0x00420EE0, RecordableParsingGroup__Enum, get_ParsingGroup, (PushPullBlock * __this));
 IL2CPP_REGISTER_METHOD(0x00418200, IDamageReciever__Array *, get_AffectedReceivers, (PushPullBlock * __this));
 IL2CPP_REGISTER_METHOD(0x00E83CB0, void, __ctor, (PushPullBlock * __this));
-IL2CPP_REGISTER_METHOD(0x00E83ED0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E83ED0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IDamageReciever_get_gameObject, (PushPullBlock * __this));
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, IDamageReciever_get_transform, (PushPullBlock * __this));
 }

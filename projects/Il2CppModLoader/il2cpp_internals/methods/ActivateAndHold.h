@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivateAndHold {
 IL2CPP_REGISTER_METHOD(0x004C7770, ILever *, get_ResolvedLever, (ActivateAndHold * __this));

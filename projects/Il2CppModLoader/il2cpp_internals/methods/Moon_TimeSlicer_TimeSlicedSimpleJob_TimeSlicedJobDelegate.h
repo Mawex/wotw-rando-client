@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedSimpleJob_TimeSlicedJobDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (TimeSlicedSimpleJob_TimeSlicedJobDelegate * __this, Object * object, void * method_1));

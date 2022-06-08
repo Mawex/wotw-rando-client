@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ValleyOfTheWindKuroGameplayController {
 IL2CPP_REGISTER_METHOD(0x013B8420, void, Awake, (ValleyOfTheWindKuroGameplayController * __this));

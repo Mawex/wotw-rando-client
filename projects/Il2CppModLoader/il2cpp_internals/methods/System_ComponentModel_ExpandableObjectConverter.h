@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ExpandableObjectConverter {
 IL2CPP_REGISTER_METHOD(0x01FECA60, void, __ctor, (ExpandableObjectConverter * __this));

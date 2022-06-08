@@ -1,5 +1,5 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShaderID_CameraFilterPack_AAA_WaterDrop {
-IL2CPP_REGISTER_METHOD(0x020FD790, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020FD790, void, __cctor, ());
 }

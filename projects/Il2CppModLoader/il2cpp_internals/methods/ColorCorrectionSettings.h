@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColorCorrectionSettings {
 IL2CPP_REGISTER_METHOD(0x012D2ED0, ColorCorrectionSettings *, Clone, (ColorCorrectionSettings * __this));

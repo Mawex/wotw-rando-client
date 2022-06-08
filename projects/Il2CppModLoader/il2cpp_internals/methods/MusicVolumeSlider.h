@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MusicVolumeSlider {
 IL2CPP_REGISTER_METHOD(0x0087EB70, float, get_Value, (MusicVolumeSlider * __this));

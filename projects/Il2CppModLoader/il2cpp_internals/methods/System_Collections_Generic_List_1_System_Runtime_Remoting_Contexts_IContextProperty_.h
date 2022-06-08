@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Runtime::Remoting::Contexts::IContextProperty_ {
 IL2CPP_REGISTER_METHOD(0x025EAEF0, IContextProperty__Array *, ToArray, (List_1_System_Runtime_Remoting_Contexts_IContextProperty_ * __this));

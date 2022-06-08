@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_MessagesConfiguration {
 IL2CPP_REGISTER_METHOD(0x0071B5A0, MessageProvider *, For, (RaceStateMachineContext_MessagesConfiguration * __this, ScoreResult__Enum result));

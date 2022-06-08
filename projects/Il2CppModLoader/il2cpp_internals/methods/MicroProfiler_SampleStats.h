@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MicroProfiler_SampleStats {
 IL2CPP_REGISTER_METHOD(0x002FA280, MicroProfiler_MetricStats__Array *, GetMetricStats, (MicroProfiler_SampleStats * __this));

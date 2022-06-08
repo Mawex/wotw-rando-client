@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MothLandBehaviour {
 IL2CPP_REGISTER_METHOD(0x008663D0, float, get_LandRadius, (MothLandBehaviour * __this));

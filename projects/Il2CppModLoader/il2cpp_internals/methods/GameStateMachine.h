@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameStateMachine {
-IL2CPP_REGISTER_METHOD(0x00403F70, GameStateMachine *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00403F70, GameStateMachine *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x002FC6D0, GameStateMachine_State__Enum, get_CurrentState, (GameStateMachine * __this));
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_CurrentState, (GameStateMachine * __this, GameStateMachine_State__Enum value));
-IL2CPP_REGISTER_METHOD(0x004040D0, bool, get_IsGame, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004040D0, bool, get_IsGame, ());
 IL2CPP_REGISTER_METHOD(0x00404110, bool, IsInExtendedTitleScreen, (GameStateMachine * __this));
 IL2CPP_REGISTER_METHOD(0x002FC780, void, SetToLogos, (GameStateMachine * __this));
 IL2CPP_REGISTER_METHOD(0x00404170, void, SetToStartScreen, (GameStateMachine * __this));

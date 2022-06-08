@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityAction_2_UnityEngine::SceneManagement::Scene_UnityEngine::SceneManagement::LoadSceneMode_ {
 IL2CPP_REGISTER_METHOD(0x02AC7C60, void, Invoke, (UnityAction_2_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_ * __this, Scene arg0, LoadSceneMode__Enum arg1));

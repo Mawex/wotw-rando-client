@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterCapsuleController {
 IL2CPP_REGISTER_METHOD(0x0104A2C0, void, EnableCollider, (CharacterCapsuleController * __this, bool enable));

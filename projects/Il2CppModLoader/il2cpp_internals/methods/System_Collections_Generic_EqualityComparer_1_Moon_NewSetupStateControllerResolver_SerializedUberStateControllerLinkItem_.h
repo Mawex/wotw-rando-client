@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_Moon::NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ {
-IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ *, get_Default, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02CE2110, EqualityComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ *, CreateComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ *, get_Default, ());
+IL2CPP_REGISTER_METHOD(0x02CE2110, EqualityComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ *, CreateComparer, ());
 IL2CPP_REGISTER_METHOD(0x02B48D60, int32_t, IndexOf, (EqualityComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ * __this, NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem__Array * array, NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B48E30, int32_t, LastIndexOf, (EqualityComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ * __this, NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem__Array * array, NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B48F00, int32_t, IEqualityComparer_GetHashCode, (EqualityComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ * __this, Object * obj));

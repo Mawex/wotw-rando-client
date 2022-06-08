@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VisualDebug::ConcurrentBagPool_1_LineEntity_ {
 IL2CPP_REGISTER_METHOD(0x02AF4640, void, __ctor, (ConcurrentBagPool_1_LineEntity_ * __this, Func_1_Moon_VisualDebug_LineEntity_ * objectGenerator, int32_t initialSize, bool autoChangeSize));

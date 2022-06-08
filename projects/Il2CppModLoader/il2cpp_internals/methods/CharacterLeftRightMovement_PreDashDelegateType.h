@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterLeftRightMovement_PreDashDelegateType {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (CharacterLeftRightMovement_PreDashDelegateType * __this, Object * object, void * method_1));

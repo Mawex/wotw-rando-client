@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::ServerModels::GetCharacterStatisticsResult_ {
 IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_ServerModels_GetCharacterStatisticsResult_ * __this, GetCharacterStatisticsResult_1 * result));

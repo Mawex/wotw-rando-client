@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterHommingMissleAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F14A60, void, MisslePrefabInstantiation, (LaserShooterHommingMissleAttackBehaviour * __this, List_1_DynamicInstantiationDescriptor_ * instantiations));

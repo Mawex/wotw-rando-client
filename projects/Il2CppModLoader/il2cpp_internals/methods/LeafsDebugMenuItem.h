@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeafsDebugMenuItem {
 IL2CPP_REGISTER_METHOD(0x015C26D0, void, __ctor, (LeafsDebugMenuItem * __this, String * path, String * str));

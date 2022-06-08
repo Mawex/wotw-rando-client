@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinCinematic {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinCinematic * __this));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHODINFO(0x0474D958, SeinCinematic_ModifyGravityPlatformMoveme
 IL2CPP_REGISTER_METHOD(0x00A5AD00, void, OnRootMotionProcess, (SeinCinematic * __this, Vector3 rootSpeed));
 IL2CPP_REGISTER_METHODINFO(0x04786D58, SeinCinematic_OnRootMotionProcess__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x005C9550, void, __ctor, (SeinCinematic * __this));
-IL2CPP_REGISTER_METHOD(0x00A5AE80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A5AE80, void, __cctor, ());
 }

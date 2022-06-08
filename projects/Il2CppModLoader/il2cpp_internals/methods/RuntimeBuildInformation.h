@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RuntimeBuildInformation {
 IL2CPP_REGISTER_METHOD(0x01373490, String *, ToString, (RuntimeBuildInformation * __this));

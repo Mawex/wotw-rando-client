@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HomingProjectile {
 IL2CPP_REGISTER_METHOD(0x00B5D330, void, FixedUpdate, (HomingProjectile * __this));

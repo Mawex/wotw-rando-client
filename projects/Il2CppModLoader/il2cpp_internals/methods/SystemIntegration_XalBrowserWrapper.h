@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::XalBrowserWrapper {
 IL2CPP_REGISTER_METHOD(0x00CDB300, void, __ctor, (XalBrowserWrapper * __this));

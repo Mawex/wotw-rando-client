@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarWaitForShotBehaviour {
 IL2CPP_REGISTER_METHOD(0x0147F7E0, void, OnEntityInitialized, (MortarWaitForShotBehaviour * __this));

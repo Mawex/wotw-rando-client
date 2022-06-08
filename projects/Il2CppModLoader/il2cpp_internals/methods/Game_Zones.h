@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Game::Zones {
 IL2CPP_REGISTER_METHOD(0x00687630, EnemyNoGoZone *, GetNoGoZoneAtPoint, (Vector3 position));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x00688560, void, GetWaterZonesWithinRect, (List_1_WaterZ
 IL2CPP_REGISTER_METHOD(0x006887A0, void, GetDigZonesWithinCircle, (List_1_DigZone_ * zones, Vector3 center, float radius, float predictionTime));
 IL2CPP_REGISTER_METHOD(0x00688AA0, bool, IsZoneTypeAtPoint, (Vector3 point, NavigationType__Enum zoneType));
 IL2CPP_REGISTER_METHOD(0x00688CD0, NavigationType__Enum, GetZoneTypeAtPoint, (Vector3 point));
-IL2CPP_REGISTER_METHOD(0x00688DD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00688DD0, void, __cctor, ());
 }

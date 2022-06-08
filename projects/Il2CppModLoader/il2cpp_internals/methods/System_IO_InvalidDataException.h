@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::InvalidDataException {
 IL2CPP_REGISTER_METHOD(0x0200A9E0, void, __ctor, (InvalidDataException * __this));

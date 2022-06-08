@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MusicAction {
 IL2CPP_REGISTER_METHOD(0x0087DD00, void, Perform, (MusicAction * __this, IContext * context));

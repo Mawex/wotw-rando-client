@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FSM::StateMachine {
 IL2CPP_REGISTER_METHOD(0x002FA280, IState *, get_CurrentState, (StateMachine * __this));

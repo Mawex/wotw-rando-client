@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_PlayFab::DataModels::GetFileMetadata_ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_String_PlayFab_DataModels_GetFileMetadata_ * __this));

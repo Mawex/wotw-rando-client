@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_SpellInventory_Binding_EquipmentType_ {
 IL2CPP_REGISTER_METHOD(0x00113CE0, EquipmentType__Enum, get_Value, (KeyValuePair_2_SpellInventory_Binding_EquipmentType___Boxed * __this));

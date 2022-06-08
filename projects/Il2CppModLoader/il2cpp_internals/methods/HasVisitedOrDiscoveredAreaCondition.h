@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasVisitedOrDiscoveredAreaCondition {
 IL2CPP_REGISTER_METHOD(0x0109F0B0, bool, Validate, (HasVisitedOrDiscoveredAreaCondition * __this, IContext * context));

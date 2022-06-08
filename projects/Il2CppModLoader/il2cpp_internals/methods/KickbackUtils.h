@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KickbackUtils {
 IL2CPP_REGISTER_METHOD(0x00E714E0, Vector3, ModifyDeathKickbackForce, (Vector3 damageForce, EntityWeightData_EntityWeight__Enum entityWeight, bool isOnGround));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OriCellBar {
 IL2CPP_REGISTER_METHOD(0x00437A00, void, SetShowCondition, (OriCellBar * __this, Func_1_Boolean_ * shouldShowNow));

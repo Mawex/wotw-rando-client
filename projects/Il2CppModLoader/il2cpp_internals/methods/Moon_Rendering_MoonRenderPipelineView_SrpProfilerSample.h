@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineView_SrpProfilerSample {
 IL2CPP_REGISTER_METHOD(0x00120070, float, get_totalTime, (MoonRenderPipelineView_SrpProfilerSample__Boxed * __this));

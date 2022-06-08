@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MeleeAttackBehaviourNew___c__DisplayClass60_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MeleeAttackBehaviourNew_c_DisplayClass60_0 * __this));

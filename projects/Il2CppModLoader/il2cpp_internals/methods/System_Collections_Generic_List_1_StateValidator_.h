@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_StateValidator_ {
 IL2CPP_REGISTER_METHOD(0x025ED850, List_1_T_Enumerator_StateValidator_, GetEnumerator, (List_1_StateValidator_ * __this));
@@ -61,5 +61,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_StateValidator_ * __this,
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_StateValidator_ * __this, Comparison_1_StateValidator_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, StateValidator__Array *, ToArray, (List_1_StateValidator_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_StateValidator_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

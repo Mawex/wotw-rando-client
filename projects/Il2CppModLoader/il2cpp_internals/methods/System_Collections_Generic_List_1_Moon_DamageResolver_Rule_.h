@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::DamageResolver_Rule_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, DamageResolver_Rule *, get_Item, (List_1_Moon_DamageResolver_Rule_ * __this, int32_t index));

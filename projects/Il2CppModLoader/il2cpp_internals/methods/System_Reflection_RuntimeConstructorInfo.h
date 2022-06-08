@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::RuntimeConstructorInfo {
 IL2CPP_REGISTER_METHOD(0x02696B10, Module *, get_Module, (RuntimeConstructorInfo * __this));

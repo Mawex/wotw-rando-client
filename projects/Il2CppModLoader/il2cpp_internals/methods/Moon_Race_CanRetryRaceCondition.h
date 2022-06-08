@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::CanRetryRaceCondition {
 IL2CPP_REGISTER_METHOD(0x00C3EF70, bool, Validate, (CanRetryRaceCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MirroredSet_1_Moon::Timeline::MoonTimeline_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (MirroredSet_1_Moon_Timeline_MoonTimeline_ * __this));

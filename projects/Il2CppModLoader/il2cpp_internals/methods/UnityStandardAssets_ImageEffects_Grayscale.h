@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Grayscale {
 IL2CPP_REGISTER_METHOD(0x02D59DA0, void, OnRenderImage, (Grayscale_1 * __this, RenderTexture * source, RenderTexture * destination));

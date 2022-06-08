@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::TakeScreenshotsDuringDynamicTestProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00C754B0, ProfilingSettings_SettingType__Enum, get_SettingType, (TakeScreenshotsDuringDynamicTestProfilingSetting * __this));

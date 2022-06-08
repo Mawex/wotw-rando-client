@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XAttributeValuePropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x03028C80, void, __ctor, (XAttributeValuePropertyDescriptor * __this));

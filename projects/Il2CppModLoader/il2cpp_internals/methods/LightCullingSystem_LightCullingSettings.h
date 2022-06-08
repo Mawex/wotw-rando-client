@@ -1,5 +1,5 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightCullingSystem_LightCullingSettings {
-IL2CPP_REGISTER_METHOD(0x0114C6F0, LightCullingSystem_LightCullingSettings, DefaultSettings, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0114C6F0, LightCullingSystem_LightCullingSettings, DefaultSettings, ());
 }

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MicroProfilerInspector___c {
-IL2CPP_REGISTER_METHOD(0x01433D70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01433D70, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MicroProfilerInspector_c * __this));
 IL2CPP_REGISTER_METHOD(0x01433EB0, Metric__Enum, _OnGUI_b__64_0, (MicroProfilerInspector_c * __this, MicroProfilerInspector_MetricData x));
 IL2CPP_REGISTER_METHODINFO(0x0478B988, MicroProfilerInspector_c__OnGUI_b__64_0__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::AngleRange {
 IL2CPP_REGISTER_METHOD(0x00115520, void, __ctor, (AngleRange__Boxed * __this, Angle _min, Angle _max));

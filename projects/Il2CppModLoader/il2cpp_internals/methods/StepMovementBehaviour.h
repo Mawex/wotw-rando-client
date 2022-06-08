@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StepMovementBehaviour {
 IL2CPP_REGISTER_METHOD(0x006505D0, void, OnInitialize, (StepMovementBehaviour * __this));

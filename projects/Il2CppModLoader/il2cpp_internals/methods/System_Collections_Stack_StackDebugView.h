@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Stack_StackDebugView {
 IL2CPP_REGISTER_METHOD(0x020329D0, void, __ctor, (Stack_StackDebugView * __this, Stack * stack));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon::Timeline::TimelineHelper_ConstraintWrapper_ {
 IL2CPP_REGISTER_METHOD(0x01CC6010, int32_t, Compare, (ObjectComparer_1_Moon_Timeline_TimelineHelper_ConstraintWrapper_ * __this, TimelineHelper_ConstraintWrapper x, TimelineHelper_ConstraintWrapper y));

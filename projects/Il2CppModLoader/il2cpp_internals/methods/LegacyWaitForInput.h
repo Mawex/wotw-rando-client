@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyWaitForInput {
 IL2CPP_REGISTER_METHOD(0x01131720, Func_2_IContext_Boolean_ *, get_CodeCondition, (LegacyWaitForInput * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LimitedLifetime {
 IL2CPP_REGISTER_METHOD(0x00FA4B90, void, OnPoolSpawned, (LimitedLifetime * __this));

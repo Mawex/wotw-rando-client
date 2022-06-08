@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_MinMaxCurve {
 IL2CPP_REGISTER_METHOD(0x00248700, void, __ctor, (ParticleSystem_MinMaxCurve__Boxed * __this, float constant));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinStomp {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinStomp * __this));
@@ -53,5 +53,5 @@ IL2CPP_REGISTER_METHOD(0x00A830D0, void, remove_OnStompLandEvent, (Action * valu
 IL2CPP_REGISTER_METHOD(0x00A83210, void, add_OnStompDownEvent, (Action * value));
 IL2CPP_REGISTER_METHOD(0x00A83350, void, remove_OnStompDownEvent, (Action * value));
 IL2CPP_REGISTER_METHOD(0x00A83490, void, __ctor, (SeinStomp * __this));
-IL2CPP_REGISTER_METHOD(0x00A836C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A836C0, void, __cctor, ());
 }

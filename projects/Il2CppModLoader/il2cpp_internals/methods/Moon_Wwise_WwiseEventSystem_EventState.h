@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseEventSystem_EventState {
 IL2CPP_REGISTER_METHOD(0x01B67070, bool, get_IsDispatched, (WwiseEventSystem_EventState * __this));

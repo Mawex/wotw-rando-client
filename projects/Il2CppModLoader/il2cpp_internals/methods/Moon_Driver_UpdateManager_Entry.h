@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Driver::UpdateManager_Entry {
 IL2CPP_REGISTER_METHOD(0x0313A6F0, bool, get_ShouldUpdate, (UpdateManager_Entry * __this));

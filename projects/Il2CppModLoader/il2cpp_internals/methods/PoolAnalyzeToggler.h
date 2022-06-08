@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PoolAnalyzeToggler {
 IL2CPP_REGISTER_METHOD(0x00C5F3B0, String *, get_Path, (PoolAnalyzeToggler * __this));

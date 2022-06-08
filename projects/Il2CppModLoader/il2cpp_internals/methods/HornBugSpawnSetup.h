@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugSpawnSetup {
 IL2CPP_REGISTER_METHOD(0x00B6D770, void, TriggerWallBurstTimeline, (HornBugSpawnSetup * __this));

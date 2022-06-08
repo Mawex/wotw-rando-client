@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InvisibleOnStartUnlessDebug {
 IL2CPP_REGISTER_METHOD(0x00645B00, void, Start, (InvisibleOnStartUnlessDebug * __this));

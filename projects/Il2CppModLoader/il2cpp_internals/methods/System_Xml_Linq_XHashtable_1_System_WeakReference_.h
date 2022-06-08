@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XHashtable_1_System::WeakReference_ {
 IL2CPP_REGISTER_METHOD(0x0225AE80, void, __ctor, (XHashtable_1_System_WeakReference_ * __this, XHashtable_1_TValue_ExtractKeyDelegate_System_WeakReference_ * extractKey, int32_t capacity));

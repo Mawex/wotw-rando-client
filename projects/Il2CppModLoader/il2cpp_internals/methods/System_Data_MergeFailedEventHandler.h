@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::MergeFailedEventHandler {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (MergeFailedEventHandler * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::AesManaged {
 IL2CPP_REGISTER_METHOD(0x02FC8A30, void, __ctor, (AesManaged * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::ClientModels::UpdateUserDataRequest {
 IL2CPP_REGISTER_METHOD(0x002FB990, String *, get_PlayFabId, (UpdateUserDataRequest * __this));

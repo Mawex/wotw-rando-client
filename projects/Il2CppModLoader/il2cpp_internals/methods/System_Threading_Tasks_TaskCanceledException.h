@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskCanceledException {
 IL2CPP_REGISTER_METHOD(0x0233BE40, void, __ctor, (TaskCanceledException * __this));

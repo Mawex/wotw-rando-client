@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwarmTargetingBehaviour {
 IL2CPP_REGISTER_METHOD(0x01825920, void, Start, (SwarmTargetingBehaviour * __this));

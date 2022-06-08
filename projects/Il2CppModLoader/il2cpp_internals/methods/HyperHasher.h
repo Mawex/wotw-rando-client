@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HyperHasher {
-IL2CPP_REGISTER_METHOD(0x025571C0, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02557300, uint8_t, get_HashSize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025571C0, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x02557300, uint8_t, get_HashSize, ());
 IL2CPP_REGISTER_METHOD(0x025573A0, void, set_HashSize, (uint8_t value));
 IL2CPP_REGISTER_METHOD(0x02557470, uint32_t, Hash, (int32_t part1, int32_t part2, int32_t part3));
 IL2CPP_REGISTER_METHOD(0x025575B0, uint32_t, Hash, (int32_t part1, int32_t part2));

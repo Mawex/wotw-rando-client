@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::LayoutGroup {
 IL2CPP_REGISTER_METHOD(0x024CF7B0, void, __ctor, (LayoutGroup * __this));

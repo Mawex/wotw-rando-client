@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Light_Water2 {
 IL2CPP_REGISTER_METHOD(0x0247FE20, Material *, get_material, (CameraFilterPack_Light_Water2 * __this));

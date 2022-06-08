@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::DeflateManager {
 IL2CPP_REGISTER_METHOD(0x03065460, void, __ctor, (DeflateManager * __this));
@@ -41,5 +41,5 @@ IL2CPP_REGISTER_METHOD(0x0306A960, void, Reset, (DeflateManager * __this));
 IL2CPP_REGISTER_METHOD(0x0306ACA0, void, SetDeflater, (DeflateManager * __this));
 IL2CPP_REGISTER_METHOD(0x0306AFB0, int32_t, Deflate, (DeflateManager * __this, FlushType__Enum flush));
 IL2CPP_REGISTER_METHODINFO(0x04716390, DeflateManager_Deflate__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0306BA60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0306BA60, void, __cctor, ());
 }

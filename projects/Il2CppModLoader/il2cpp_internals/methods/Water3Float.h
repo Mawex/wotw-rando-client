@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Water3Float {
 IL2CPP_REGISTER_METHOD(0x02D75770, void, Start, (Water3Float * __this));

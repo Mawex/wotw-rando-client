@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuDoubleJump {
-IL2CPP_REGISTER_METHOD(0x01234A70, int32_t, get_ExtraJumpsAvailable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01234A70, int32_t, get_ExtraJumpsAvailable, ());
 IL2CPP_REGISTER_METHOD(0x01234B00, KuJump *, get_Jump, (KuDoubleJump * __this));
 IL2CPP_REGISTER_METHOD(0x01234B30, bool, get_IsStatePerforming, (KuDoubleJump * __this));
 IL2CPP_REGISTER_METHOD(0x01234B40, bool, get_WantsToJump, (KuDoubleJump * __this));

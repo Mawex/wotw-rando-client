@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_Mono::Net::Security::AsyncProtocolResult_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_Mono_Net_Security_AsyncProtocolResult_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_Mono_Net_Security_AsyncProtocolResult_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x04754FE0, AsyncTaskMethodBuilder_1_Mono_Net_Security_AsyncProtocolResult__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3D20, void, Start, (AsyncTaskMethodBuilder_1_Mono_Net_Security_AsyncProtocolResult___Boxed * __this, AsyncProtocolRequest_StartOperation_d_23 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x04758508, AsyncTaskMethodBuilder_1_Mono_Net_Security_AsyncProtocolResult__Start__MethodInfo);

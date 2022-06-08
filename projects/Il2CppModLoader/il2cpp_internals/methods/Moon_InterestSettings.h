@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InterestSettings {
 IL2CPP_REGISTER_METHOD(0x01103530, void, GetDebugMenuItems, (InterestSettings * __this, List_1_IDebugMenuItem_ * list, String * menuName));

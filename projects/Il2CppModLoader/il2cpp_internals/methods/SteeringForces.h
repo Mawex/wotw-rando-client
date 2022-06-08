@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SteeringForces {
 IL2CPP_REGISTER_METHOD(0x0064E550, void, Init, (SteeringForces * __this));

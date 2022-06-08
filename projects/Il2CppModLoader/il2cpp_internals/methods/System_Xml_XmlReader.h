@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlReader {
 IL2CPP_REGISTER_METHOD(0x00420EE0, XmlReaderSettings *, get_Settings, (XmlReader * __this));
@@ -49,5 +49,5 @@ IL2CPP_REGISTER_METHOD(0x01704160, int32_t, CalcBufferSize, (Stream * input));
 IL2CPP_REGISTER_METHODINFO(0x04779370, XmlReader_CalcBufferSize__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01704260, Object *, get_debuggerDisplayProxy, (XmlReader * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XmlReader * __this));
-IL2CPP_REGISTER_METHOD(0x017042F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017042F0, void, __cctor, ());
 }

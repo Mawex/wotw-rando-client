@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwarmAllowedArea {
 IL2CPP_REGISTER_METHOD(0x01812CD0, void, Start, (SwarmAllowedArea * __this));

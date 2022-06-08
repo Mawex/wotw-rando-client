@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_System::ByteEnum_ {
 IL2CPP_REGISTER_METHOD(0x0014E330, void, __ctor, (List_1_T_Enumerator_System_ByteEnum___Boxed * __this, List_1_System_ByteEnum_ * list));

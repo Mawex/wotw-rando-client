@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceTranslationModifier__GetKeywordsForShader_d__9 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (TurbulenceTranslationModifier_GetKeywordsForShader_d_9 * __this, int32_t __1__state));

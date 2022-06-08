@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_TKey_TElement__Grouping_System::Object_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
 IL2CPP_REGISTER_METHOD(0x02547780, void, Add, (Lookup_2_TKey_TElement_Grouping_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, InstantiateDebugUtility_InstanceInfo element));

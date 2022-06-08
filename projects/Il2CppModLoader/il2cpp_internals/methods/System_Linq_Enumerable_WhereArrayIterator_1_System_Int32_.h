@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereArrayIterator_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x00E77D90, IEnumerable_1_System_Byte_ *, Select, (Enumerable_WhereArrayIterator_1_System_Int32_ * __this, Func_2_Int32_Byte_ * selector));

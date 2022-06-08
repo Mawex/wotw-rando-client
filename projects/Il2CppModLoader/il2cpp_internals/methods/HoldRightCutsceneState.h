@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HoldRightCutsceneState {
 IL2CPP_REGISTER_METHOD(0x00B585B0, CharacterAnimationSystem *, get_Animation, (HoldRightCutsceneState * __this));

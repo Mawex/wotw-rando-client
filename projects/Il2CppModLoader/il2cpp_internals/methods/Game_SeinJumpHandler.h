@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Game::SeinJumpHandler {
 IL2CPP_REGISTER_METHOD(0x01529030, SeinCharacter *, get_Sein, (SeinJumpHandler * __this));

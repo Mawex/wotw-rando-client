@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::DistanceToPointCondition {
 IL2CPP_REGISTER_METHOD(0x0300D7B0, String *, get_Info, (DistanceToPointCondition * __this));

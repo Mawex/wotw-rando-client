@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Util::TokenizerStream {
 IL2CPP_REGISTER_METHOD(0x01E24D80, void, __ctor, (TokenizerStream * __this));

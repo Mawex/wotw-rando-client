@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ComboMoveStressTest {
 IL2CPP_REGISTER_METHOD(0x002FA280, IComboMove *, get_ComboMove, (ComboMoveStressTest * __this));

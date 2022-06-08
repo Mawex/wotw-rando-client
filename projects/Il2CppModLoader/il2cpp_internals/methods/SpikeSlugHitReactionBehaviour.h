@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpikeSlugHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00A64240, EntityDamageEvent *, get_DamageEvent, (SpikeSlugHitReactionBehaviour * __this));

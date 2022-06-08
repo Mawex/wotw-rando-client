@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Res {
 IL2CPP_REGISTER_METHOD(0x004C50A0, String *, GetString, (String * name));

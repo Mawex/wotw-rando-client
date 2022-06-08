@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::UberShaderAnimatorSystem {
-IL2CPP_REGISTER_METHOD(0x00D19A50, UberShaderAnimatorStrategyBase *, get_Strategy, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00D19C00, void, ToggleStrategy, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00D19EC0, UberShaderAnimatorSystem *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00D1A1E0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D19A50, UberShaderAnimatorStrategyBase *, get_Strategy, ());
+IL2CPP_REGISTER_METHOD(0x00D19C00, void, ToggleStrategy, ());
+IL2CPP_REGISTER_METHOD(0x00D19EC0, UberShaderAnimatorSystem *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x00D1A1E0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00D1A300, void, Awake, (UberShaderAnimatorSystem * __this));
 IL2CPP_REGISTER_METHOD(0x0043D9E0, UpdateType__Enum, get_UpdateType, (UberShaderAnimatorSystem * __this));
 IL2CPP_REGISTER_METHOD(0x00D1A550, void, SubmitDynamicColor, (UberShaderAnimatorSystem * __this, Renderer * renderer, UberShaderProperty_Color__Enum property, Color value, float weight));

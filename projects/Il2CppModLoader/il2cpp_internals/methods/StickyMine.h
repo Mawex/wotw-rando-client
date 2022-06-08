@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StickyMine {
 IL2CPP_REGISTER_METHOD(0x006513C0, bool, get_IsLockOnTargetValid, (StickyMine * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlDownloadManager {
 IL2CPP_REGISTER_METHOD(0x01DABC20, Stream *, GetStream, (XmlDownloadManager * __this, Uri * uri, ICredentials * credentials, IWebProxy * proxy, RequestCachePolicy * cachePolicy));

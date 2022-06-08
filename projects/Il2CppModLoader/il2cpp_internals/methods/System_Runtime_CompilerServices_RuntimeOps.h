@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::RuntimeOps {
 IL2CPP_REGISTER_METHOD(0x02FC8220, bool, ExpandoTryGetValue, (ExpandoObject * expando, Object * indexClass, int32_t index, String * name, bool ignoreCase, Object * * value));

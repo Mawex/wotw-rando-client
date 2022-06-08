@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionSystem_InteractionDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (InteractionSystem_InteractionDelegate * __this, Object * object, void * method_1));

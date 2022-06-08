@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_anyURI {
 IL2CPP_REGISTER_METHOD(0x02356E60, XmlValueConverter *, CreateValueConverter, (Datatype_anyURI * __this, XmlSchemaType * schemaType));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x00E40570, RestrictionFlags__Enum, get_ValidRestrictionF
 IL2CPP_REGISTER_METHOD(0x02358A00, int32_t, Compare, (Datatype_anyURI * __this, Object * value1, Object * value2));
 IL2CPP_REGISTER_METHOD(0x02358B80, Exception *, TryParseValue, (Datatype_anyURI * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x02358D70, void, __ctor, (Datatype_anyURI * __this));
-IL2CPP_REGISTER_METHOD(0x02358E10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02358E10, void, __cctor, ());
 }

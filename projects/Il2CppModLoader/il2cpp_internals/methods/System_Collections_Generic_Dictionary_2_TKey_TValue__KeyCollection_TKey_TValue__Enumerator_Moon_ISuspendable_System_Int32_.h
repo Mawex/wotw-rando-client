@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_Moon::ISuspendable_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, ISuspendable *, get_Current, (Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_Moon_ISuspendable_System_Int32___Boxed * __this));

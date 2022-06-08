@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SplitFlameMenuItem {
 IL2CPP_REGISTER_METHOD(0x009A3220, void, __ctor, (SplitFlameMenuItem * __this, String * str));

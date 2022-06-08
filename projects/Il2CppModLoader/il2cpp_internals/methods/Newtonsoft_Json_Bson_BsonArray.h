@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonArray {
 IL2CPP_REGISTER_METHOD(0x01A485B0, void, Add, (BsonArray * __this, BsonToken * token));

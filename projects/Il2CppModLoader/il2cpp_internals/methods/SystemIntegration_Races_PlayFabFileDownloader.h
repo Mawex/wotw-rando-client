@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabFileDownloader {
 IL2CPP_REGISTER_METHOD(0x00521550, void, __ctor, (PlayFabFileDownloader * __this, String * ownerId, String * fileName, RaceDataLeaderBoardType__Enum data, int32_t maxSize));

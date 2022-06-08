@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::StackGuard {
 IL2CPP_REGISTER_METHOD(0x02FBFB20, bool, TryEnterOnCurrentStack, (StackGuard_1 * __this));

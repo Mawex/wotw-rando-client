@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Helper {
 IL2CPP_REGISTER_METHOD(0x01E178B0, void, InstallNativeHelper, (INativeCertificateHelper * helper));
@@ -8,7 +8,7 @@ IL2CPP_REGISTER_METHOD(0x01E17A80, X509CertificateImpl *, InitFromCertificate, (
 IL2CPP_REGISTER_METHOD(0x01E17CF0, bool, IsValid, (X509CertificateImpl * impl));
 IL2CPP_REGISTER_METHOD(0x01E17D10, void, ThrowIfContextInvalid, (X509CertificateImpl * impl));
 IL2CPP_REGISTER_METHODINFO(0x04726110, X509Helper_ThrowIfContextInvalid__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E17DC0, Exception *, GetInvalidContextException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E17DC0, Exception *, GetInvalidContextException, ());
 IL2CPP_REGISTER_METHOD(0x01E17F20, X509Certificate *, ImportPkcs12, (Byte__Array * rawData, String * password));
 IL2CPP_REGISTER_METHOD(0x01E18530, Byte__Array *, PEM, (String * type, Byte__Array * data));
 IL2CPP_REGISTER_METHOD(0x01E18730, Byte__Array *, ConvertData, (Byte__Array * data));

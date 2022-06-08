@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__SkipIterator_d__31_1_System::Double_ {
 IL2CPP_REGISTER_METHOD(0x0225B170, void, __ctor, (Enumerable_SkipIterator_d_31_1_System_Double_ * __this, int32_t __1__state));

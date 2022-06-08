@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ParticlesSuspendable {
 IL2CPP_REGISTER_METHOD(0x00446340, void, Awake, (ParticlesSuspendable * __this));

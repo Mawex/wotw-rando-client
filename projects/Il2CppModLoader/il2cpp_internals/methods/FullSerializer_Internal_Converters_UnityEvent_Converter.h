@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::Converters::UnityEvent_Converter {
 IL2CPP_REGISTER_METHOD(0x0164AAA0, bool, CanProcess, (UnityEvent_Converter * __this, Type * type));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameController__LoadAssets_d__182 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GameController_LoadAssets_d_182 * __this, int32_t __1__state));

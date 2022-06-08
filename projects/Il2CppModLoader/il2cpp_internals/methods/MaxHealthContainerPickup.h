@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaxHealthContainerPickup {
 IL2CPP_REGISTER_METHOD(0x01385E50, void, OnCollectorCandidateTouch, (MaxHealthContainerPickup * __this, GameObject * collector));

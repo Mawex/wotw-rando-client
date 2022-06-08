@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DestroyObjectAction {
 IL2CPP_REGISTER_METHOD(0x00B8C140, void, Perform, (DestroyObjectAction * __this, IContext * context));

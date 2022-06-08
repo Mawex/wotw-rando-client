@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WandererInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x008C8600, void, OnEntityInitialized, (WandererInteractionBehaviour * __this));

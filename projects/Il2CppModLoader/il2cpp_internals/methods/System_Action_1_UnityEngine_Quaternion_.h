@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Quaternion_ {
 IL2CPP_REGISTER_METHOD(0x029FE890, void, Invoke, (Action_1_UnityEngine_Quaternion_ * __this, Quaternion obj));

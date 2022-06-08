@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OnTimerPerformAction {
 IL2CPP_REGISTER_METHOD(0x006142D0, bool, get_IsSuspended, (OnTimerPerformAction * __this));

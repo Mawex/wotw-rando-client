@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrameCaptureTester_AgentOutput {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (FrameCaptureTester_AgentOutput * __this, FrameCaptureTester * self));

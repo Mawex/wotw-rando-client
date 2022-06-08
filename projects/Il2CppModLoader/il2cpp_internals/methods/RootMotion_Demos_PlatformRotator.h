@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::PlatformRotator {
 IL2CPP_REGISTER_METHOD(0x0222D600, void, Start, (PlatformRotator * __this));

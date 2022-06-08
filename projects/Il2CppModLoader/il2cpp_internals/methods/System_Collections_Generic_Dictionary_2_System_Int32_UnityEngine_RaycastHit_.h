@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_UnityEngine::RaycastHit_ {
 IL2CPP_REGISTER_METHOD(0x02DAE8B0, void, set_Item, (Dictionary_2_System_Int32_UnityEngine_RaycastHit_ * __this, int32_t key, RaycastHit value));

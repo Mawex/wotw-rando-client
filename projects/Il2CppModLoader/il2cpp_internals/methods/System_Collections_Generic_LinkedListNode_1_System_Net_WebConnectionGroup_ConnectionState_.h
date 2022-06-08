@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::LinkedListNode_1_System::Net::WebConnectionGroup_ConnectionState_ {
 IL2CPP_REGISTER_METHOD(0x002FBB00, WebConnectionGroup_ConnectionState *, get_Value, (LinkedListNode_1_System_Net_WebConnectionGroup_ConnectionState_ * __this));

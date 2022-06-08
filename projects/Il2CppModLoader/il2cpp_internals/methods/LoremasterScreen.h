@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoremasterScreen {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_CanInterruptTab, (LoremasterScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, MenuTabBackground__Enum, get_BackgroundMode, (LoremasterScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (LoremasterScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedOreUI, (LoremasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x009F1920, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009F1920, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x009F19A0, CleverMenuItemSelectionManager *, get_Navigation, (LoremasterScreen * __this));
 IL2CPP_REGISTER_METHOD(0x009F19C0, LoremasterUISlot *, get_SelectedItem, (LoremasterScreen * __this));
 IL2CPP_REGISTER_METHOD(0x009F1AB0, void, Awake, (LoremasterScreen * __this));

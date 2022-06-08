@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_3_UInt32_UnityEngine::Vector3_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02C169D0, void, Invoke, (Action_3_UInt32_UnityEngine_Vector3_Boolean_ * __this, uint32_t arg1, Vector3 arg2, bool arg3));

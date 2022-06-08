@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::InterpretedFrame__GetStackTraceDebugInfo_d__29 {
 IL2CPP_REGISTER_METHOD(0x01426B00, void, __ctor, (InterpretedFrame_GetStackTraceDebugInfo_d_29 * __this, int32_t __1__state));

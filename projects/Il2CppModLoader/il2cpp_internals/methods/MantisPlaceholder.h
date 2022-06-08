@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisPlaceholder {
 IL2CPP_REGISTER_METHOD(0x006253D0, GameObject *, get_Prefab, (MantisPlaceholder * __this));

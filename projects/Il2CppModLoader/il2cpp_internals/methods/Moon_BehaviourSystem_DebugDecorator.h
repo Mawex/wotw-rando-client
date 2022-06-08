@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::DebugDecorator {
 IL2CPP_REGISTER_METHOD(0x0300CA40, void, OnEnter, (DebugDecorator * __this, IContext * context));

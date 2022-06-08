@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeshRendererFrustrumOptimiser {
 IL2CPP_REGISTER_METHOD(0x009EB2E0, void, __ctor, (MeshRendererFrustrumOptimiser * __this, GameObject * gameObject));

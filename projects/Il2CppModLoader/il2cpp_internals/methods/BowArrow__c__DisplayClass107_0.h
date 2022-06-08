@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BowArrow___c__DisplayClass107_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (BowArrow_c_DisplayClass107_0 * __this));

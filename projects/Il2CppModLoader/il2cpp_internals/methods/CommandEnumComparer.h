@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CommandEnumComparer {
 IL2CPP_REGISTER_METHOD(0x00124C50, bool, Equals, (CommandEnumComparer__Boxed * __this, Input_Command__Enum x, Input_Command__Enum y));

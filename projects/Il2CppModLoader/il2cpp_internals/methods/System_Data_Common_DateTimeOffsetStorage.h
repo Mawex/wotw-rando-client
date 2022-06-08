@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::DateTimeOffsetStorage {
 IL2CPP_REGISTER_METHOD(0x021603E0, void, __ctor, (DateTimeOffsetStorage * __this, DataColumn * column));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x021617A0, String *, ConvertObjectToXml, (DateTimeOffset
 IL2CPP_REGISTER_METHOD(0x02161890, Object *, GetEmptyStorage, (DateTimeOffsetStorage * __this, int32_t recordCount));
 IL2CPP_REGISTER_METHOD(0x02161910, void, CopyValue, (DateTimeOffsetStorage * __this, int32_t record, Object * store, BitArray * nullbits, int32_t storeIndex));
 IL2CPP_REGISTER_METHOD(0x02161AB0, void, SetStorage, (DateTimeOffsetStorage * __this, Object * store, BitArray * nullbits));
-IL2CPP_REGISTER_METHOD(0x02161B80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02161B80, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::TraceLoggingDataCollector {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TraceLoggingDataCollector * __this));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHOD(0x01A0B230, void, AddArray, (TraceLoggingDataCollector * 
 IL2CPP_REGISTER_METHOD(0x01A0B340, void, AddArray, (TraceLoggingDataCollector * __this, Double__Array * value));
 IL2CPP_REGISTER_METHOD(0x01A0B450, void, AddArray, (TraceLoggingDataCollector * __this, Char__Array * value));
 IL2CPP_REGISTER_METHOD(0x01A0B560, void, AddArray, (TraceLoggingDataCollector * __this, Guid__Array * value));
-IL2CPP_REGISTER_METHOD(0x01A0B670, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A0B670, void, __cctor, ());
 }

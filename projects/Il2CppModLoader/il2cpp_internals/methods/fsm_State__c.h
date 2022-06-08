@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::fsm::State___c {
-IL2CPP_REGISTER_METHOD(0x00F6E8E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F6E8E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (State_c_1 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__4_0, (State_c_1 * __this));
 IL2CPP_REGISTER_METHODINFO(0x04746100, State_c_1___ctor_b__4_0__MethodInfo);

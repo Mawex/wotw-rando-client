@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChargeShotCollider {
 IL2CPP_REGISTER_METHOD(0x01319C80, GameObject *, get_Reflectable, (ChargeShotCollider * __this));

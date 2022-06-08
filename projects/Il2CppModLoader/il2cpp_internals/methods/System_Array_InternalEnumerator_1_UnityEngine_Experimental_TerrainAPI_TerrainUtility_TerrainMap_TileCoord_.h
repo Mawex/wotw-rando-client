@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap_TileCoord_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord___Boxed * __this, Array * array));

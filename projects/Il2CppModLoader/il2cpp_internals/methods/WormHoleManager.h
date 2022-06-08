@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WormHoleManager {
 IL2CPP_REGISTER_METHOD(0x0058E420, MortarWormEnemy *, FindMortarWorm, (WormHoleManager * __this));

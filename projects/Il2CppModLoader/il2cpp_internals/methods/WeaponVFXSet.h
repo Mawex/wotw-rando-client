@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WeaponVFXSet {
 IL2CPP_REGISTER_METHOD(0x005709F0, void, __ctor, (WeaponVFXSet * __this, EquipmentType__Enum weapon));

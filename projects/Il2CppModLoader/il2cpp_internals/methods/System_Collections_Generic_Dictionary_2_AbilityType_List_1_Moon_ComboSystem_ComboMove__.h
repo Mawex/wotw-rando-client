@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_AbilityType_List_1_Moon::ComboSystem::ComboMove__ {
 IL2CPP_REGISTER_METHOD(0x02EAA0E0, List_1_Moon_ComboSystem_ComboMove_ *, get_Item, (Dictionary_2_AbilityType_List_1_Moon_ComboSystem_ComboMove_ * __this, AbilityType__Enum key));

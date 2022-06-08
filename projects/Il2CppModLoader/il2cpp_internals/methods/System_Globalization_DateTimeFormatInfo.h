@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::DateTimeFormatInfo {
-IL2CPP_REGISTER_METHOD(0x00417870, bool, InitPreferExistingTokens, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, InitPreferExistingTokens, ());
 IL2CPP_REGISTER_METHOD(0x025FC900, String *, get_CultureName, (DateTimeFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x025FC930, CultureInfo *, get_Culture, (DateTimeFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x025FCA10, String *, get_LanguageName, (DateTimeFormatInfo * __this));
@@ -15,8 +15,8 @@ IL2CPP_REGISTER_METHOD(0x025FCD70, void, InitializeOverridableProperties, (DateT
 IL2CPP_REGISTER_METHOD(0x025FCF70, void, OnDeserialized, (DateTimeFormatInfo * __this, StreamingContext ctx));
 IL2CPP_REGISTER_METHODINFO(0x04790180, DateTimeFormatInfo_OnDeserialized__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025FD710, void, OnSerializing, (DateTimeFormatInfo * __this, StreamingContext ctx));
-IL2CPP_REGISTER_METHOD(0x025FDA30, DateTimeFormatInfo *, get_InvariantInfo, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025FDC50, DateTimeFormatInfo *, get_CurrentInfo, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025FDA30, DateTimeFormatInfo *, get_InvariantInfo, ());
+IL2CPP_REGISTER_METHOD(0x025FDC50, DateTimeFormatInfo *, get_CurrentInfo, ());
 IL2CPP_REGISTER_METHOD(0x025FDD80, DateTimeFormatInfo *, GetInstance, (IFormatProvider * provider));
 IL2CPP_REGISTER_METHOD(0x025FDF20, Object *, GetFormat, (DateTimeFormatInfo * __this, Type * formatType));
 IL2CPP_REGISTER_METHOD(0x025FDFF0, Object *, Clone, (DateTimeFormatInfo * __this));
@@ -103,8 +103,8 @@ IL2CPP_REGISTER_METHOD(0x02602370, DateTimeFormatFlags__Enum, get_FormatFlags, (
 IL2CPP_REGISTER_METHOD(0x02602920, bool, get_HasForceTwoDigitYears, (DateTimeFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x02602960, bool, get_HasYearMonthAdjustment, (DateTimeFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x02602980, bool, YearMonthAdjustment, (DateTimeFormatInfo * __this, int32_t * year, int32_t * month, bool parsedMonthName));
-IL2CPP_REGISTER_METHOD(0x02602AB0, DateTimeFormatInfo *, GetJapaneseCalendarDTFI, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02602CE0, DateTimeFormatInfo *, GetTaiwanCalendarDTFI, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02602AB0, DateTimeFormatInfo *, GetJapaneseCalendarDTFI, ());
+IL2CPP_REGISTER_METHOD(0x02602CE0, DateTimeFormatInfo *, GetTaiwanCalendarDTFI, ());
 IL2CPP_REGISTER_METHOD(0x02602F10, void, ClearTokenHashTable, (DateTimeFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x02602F30, TokenHashValue__Array *, CreateTokenHashTable, (DateTimeFormatInfo * __this));
 IL2CPP_REGISTER_METHOD(0x02604320, void, AddMonthNames, (DateTimeFormatInfo * __this, TokenHashValue__Array * temp, String * monthPostfix));
@@ -113,5 +113,5 @@ IL2CPP_REGISTER_METHOD(0x026046B0, bool, IsHebrewChar, (uint16_t ch));
 IL2CPP_REGISTER_METHOD(0x026046D0, bool, Tokenize, (DateTimeFormatInfo * __this, TokenType__Enum TokenMask, TokenType__Enum * tokenType, int32_t * tokenValue, _DTString * str));
 IL2CPP_REGISTER_METHOD(0x02604BD0, void, InsertAtCurrentHashNode, (DateTimeFormatInfo * __this, TokenHashValue__Array * hashTable, String * str, uint16_t ch, TokenType__Enum tokenType, int32_t tokenValue, int32_t pos, int32_t hashcode, int32_t hashProbe));
 IL2CPP_REGISTER_METHOD(0x02604ED0, void, InsertHash, (DateTimeFormatInfo * __this, TokenHashValue__Array * hashTable, String * str, TokenType__Enum tokenType, int32_t tokenValue));
-IL2CPP_REGISTER_METHOD(0x026053B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x026053B0, void, __cctor, ());
 }

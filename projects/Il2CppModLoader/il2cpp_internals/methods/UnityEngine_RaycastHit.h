@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RaycastHit {
 IL2CPP_REGISTER_METHOD(0x00244650, Collider *, get_collider, (RaycastHit__Boxed * __this));

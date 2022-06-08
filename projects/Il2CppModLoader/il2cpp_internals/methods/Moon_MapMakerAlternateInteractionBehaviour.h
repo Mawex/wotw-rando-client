@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MapMakerAlternateInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x0110E3D0, void, OnEnter, (MapMakerAlternateInteractionBehaviour * __this, IContext * context));

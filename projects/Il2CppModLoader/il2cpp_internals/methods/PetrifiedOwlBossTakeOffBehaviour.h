@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossTakeOffBehaviour {
 IL2CPP_REGISTER_METHOD(0x0177FA30, void, CopyData, (PetrifiedOwlBossTakeOffBehaviour * __this, PetrifiedOwlBossBaseBehaviour * other));

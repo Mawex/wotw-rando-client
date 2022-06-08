@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::StringBuilderExtensions {
 IL2CPP_REGISTER_METHOD(0x030F27E0, void, AppendGuid, (StringBuilder * sb, Guid value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MeleeComboMoveChainsword {
 IL2CPP_REGISTER_METHOD(0x01116570, float, get_EffectiveDamage, (MeleeComboMoveChainsword * __this));

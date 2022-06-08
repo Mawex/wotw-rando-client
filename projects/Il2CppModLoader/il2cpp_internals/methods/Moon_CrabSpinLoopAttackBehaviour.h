@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrabSpinLoopAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x00CCD280, void, OnEnter, (CrabSpinLoopAttackBehaviour * __this, IContext * context));

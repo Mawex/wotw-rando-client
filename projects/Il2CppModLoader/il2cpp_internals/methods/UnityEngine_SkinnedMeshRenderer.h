@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SkinnedMeshRenderer {
 IL2CPP_REGISTER_METHOD(0x0297DC60, Transform *, get_rootBone, (SkinnedMeshRenderer * __this));

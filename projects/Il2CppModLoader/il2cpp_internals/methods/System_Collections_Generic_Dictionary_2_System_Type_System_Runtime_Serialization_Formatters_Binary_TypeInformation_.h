@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Type_System::Runtime::Serialization::Formatters::Binary::TypeInformation_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Type_System_Runtime_Serialization_Formatters_Binary_TypeInformation_ * __this, Type * key, TypeInformation * * value));

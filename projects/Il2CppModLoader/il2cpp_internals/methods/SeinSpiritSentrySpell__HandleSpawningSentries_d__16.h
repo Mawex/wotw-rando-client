@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSpiritSentrySpell__HandleSpawningSentries_d__16 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (SeinSpiritSentrySpell_HandleSpawningSentries_d_16 * __this, int32_t __1__state));

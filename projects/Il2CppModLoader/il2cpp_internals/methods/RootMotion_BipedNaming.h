@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::BipedNaming {
 IL2CPP_REGISTER_METHOD(0x021FCD40, Transform__Array *, GetBonesOfType, (BipedNaming_BoneType__Enum boneType, Transform__Array * bones));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x021FE870, bool, matchesLastLetter, (String * boneName, 
 IL2CPP_REGISTER_METHOD(0x021FE970, bool, LastLetterIs, (String * boneName, String * letter));
 IL2CPP_REGISTER_METHOD(0x021FE9D0, String *, firstLetter, (String * boneName));
 IL2CPP_REGISTER_METHOD(0x021FEA70, String *, lastLetter, (String * boneName));
-IL2CPP_REGISTER_METHOD(0x021FEB10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021FEB10, void, __cctor, ());
 }

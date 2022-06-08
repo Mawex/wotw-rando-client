@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::AudioPrewarmOperation {
 IL2CPP_REGISTER_METHOD(0x00F5DDD0, void, __ctor, (AudioPrewarmOperation * __this));

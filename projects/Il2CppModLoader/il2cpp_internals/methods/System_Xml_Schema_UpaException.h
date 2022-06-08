@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::UpaException {
 IL2CPP_REGISTER_METHOD(0x01ABDB90, void, __ctor, (UpaException * __this, Object * particle1, Object * particle2));

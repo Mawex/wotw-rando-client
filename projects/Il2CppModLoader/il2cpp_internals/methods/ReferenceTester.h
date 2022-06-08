@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ReferenceTester {
 IL2CPP_REGISTER_METHOD(0x02F9C010, void, Start, (ReferenceTester * __this));

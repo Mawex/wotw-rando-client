@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::RobustPredicates {
-IL2CPP_REGISTER_METHOD(0x02B277F0, RobustPredicates *, get_Default, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02B27AE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02B277F0, RobustPredicates *, get_Default, ());
+IL2CPP_REGISTER_METHOD(0x02B27AE0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02B27D90, void, __ctor, (RobustPredicates * __this));
 IL2CPP_REGISTER_METHOD(0x02B27DA0, double, CounterClockwise, (RobustPredicates * __this, Point * pa, Point * pb, Point * pc));
 IL2CPP_REGISTER_METHOD(0x02B28000, double, InCircle, (RobustPredicates * __this, Point * pa, Point * pb, Point * pc, Point * pd));

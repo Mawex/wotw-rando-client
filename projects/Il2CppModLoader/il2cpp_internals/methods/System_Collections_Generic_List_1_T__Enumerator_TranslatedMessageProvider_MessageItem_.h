@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_TranslatedMessageProvider_MessageItem_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, TranslatedMessageProvider_MessageItem *, get_Current, (List_1_T_Enumerator_TranslatedMessageProvider_MessageItem___Boxed * __this));

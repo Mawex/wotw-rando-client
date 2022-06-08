@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::QuestIconsUI {
 IL2CPP_REGISTER_METHOD(0x00E88290, GameObject *, get_ObjectiveMarker, (QuestIconsUI * __this));

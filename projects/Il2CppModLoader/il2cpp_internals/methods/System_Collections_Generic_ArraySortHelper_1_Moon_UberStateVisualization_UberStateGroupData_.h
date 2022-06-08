@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::UberStateVisualization::UberStateGroupData_ {
 IL2CPP_REGISTER_METHOD(0x02F772D0, void, Sort, (UberStateGroupData__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_UberStateVisualization_UberStateGroupData_ * comparer));

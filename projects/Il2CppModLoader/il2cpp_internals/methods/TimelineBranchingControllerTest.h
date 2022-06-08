@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimelineBranchingControllerTest {
 IL2CPP_REGISTER_METHOD(0x010F52E0, Enum__Array *, GetEntries, (TimelineBranchingControllerTest * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameController__StartBuildInScene_d__178 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GameController_StartBuildInScene_d_178 * __this, int32_t __1__state));

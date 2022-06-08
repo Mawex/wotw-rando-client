@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::DictionaryExtensions {
 IL2CPP_REGISTER_METHOD(0x01565240, bool, TryAdd, (Dictionary_2_System_Object_System_Object_ * _this, Object * key, Object * value));

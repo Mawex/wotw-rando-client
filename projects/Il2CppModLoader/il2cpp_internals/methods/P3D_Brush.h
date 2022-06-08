@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::P3D_Brush {
-IL2CPP_REGISTER_METHOD(0x03087690, P3D_Brush *, get_TempInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03087690, P3D_Brush *, get_TempInstance, ());
 IL2CPP_REGISTER_METHOD(0x030878A0, Object *, get_ExtraData, (P3D_Brush * __this));
 IL2CPP_REGISTER_METHOD(0x03087920, void, set_ExtraData, (P3D_Brush * __this, Object * value));
 IL2CPP_REGISTER_METHOD(0x030879B0, P3D_Brush *, GetTempClone, (P3D_Brush * __this));

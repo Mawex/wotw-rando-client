@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KamikazeJumperKillOnHit {
 IL2CPP_REGISTER_METHOD(0x00E5ADE0, void, Start, (KamikazeJumperKillOnHit * __this));

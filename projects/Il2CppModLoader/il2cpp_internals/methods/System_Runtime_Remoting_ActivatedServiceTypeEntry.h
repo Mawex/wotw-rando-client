@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::ActivatedServiceTypeEntry {
 IL2CPP_REGISTER_METHOD(0x01A97700, void, __ctor, (ActivatedServiceTypeEntry * __this, String * typeName, String * assemblyName));

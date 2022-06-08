@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::String_InstantiationHistory_PrefabData_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_System_String_InstantiationHistory_PrefabData_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_System_String_InstantiationHistory_PrefabData___Boxed * __this));

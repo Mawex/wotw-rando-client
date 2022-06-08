@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XAttribute {
 IL2CPP_REGISTER_METHOD(0x0302E320, void, __ctor, (XAttribute * __this, XName * name, Object * value));

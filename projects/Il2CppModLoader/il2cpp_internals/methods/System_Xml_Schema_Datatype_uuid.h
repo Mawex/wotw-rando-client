@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_uuid {
 IL2CPP_REGISTER_METHOD(0x023637C0, Type *, get_ValueType, (Datatype_uuid * __this));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x023639D0, Object *, ParseValue, (Datatype_uuid * __this
 IL2CPP_REGISTER_METHODINFO(0x04722268, Datatype_uuid_ParseValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02363B40, Exception *, TryParseValue, (Datatype_uuid * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x02363C30, void, __ctor, (Datatype_uuid * __this));
-IL2CPP_REGISTER_METHOD(0x02363CD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02363CD0, void, __cctor, ());
 }

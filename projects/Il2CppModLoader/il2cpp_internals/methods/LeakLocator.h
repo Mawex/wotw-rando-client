@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeakLocator {
 IL2CPP_REGISTER_METHOD(0x015C2F90, void, Awake, (LeakLocator * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_FullSerializer::Internal::fsPortableReflection_AttributeQuery_System::Attribute_ {
 IL2CPP_REGISTER_METHOD(0x0283AC50, void, __ctor, (Dictionary_2_FullSerializer_Internal_fsPortableReflection_AttributeQuery_System_Attribute_ * __this, IEqualityComparer_1_FullSerializer_Internal_fsPortableReflection_AttributeQuery_ * comparer));

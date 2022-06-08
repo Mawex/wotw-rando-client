@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WeaponMasterIdle {
 IL2CPP_REGISTER_METHOD(0x008E86A0, WeaponMasterEntity *, get_m_weaponMaster, (WeaponMasterIdle * __this));

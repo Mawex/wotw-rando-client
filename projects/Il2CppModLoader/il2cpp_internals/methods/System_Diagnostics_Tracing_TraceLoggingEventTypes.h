@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::TraceLoggingEventTypes {
 IL2CPP_REGISTER_METHOD(0x01A0B7B0, void, __ctor, (TraceLoggingEventTypes * __this, String * name, EventTags__Enum tags, Type__Array * types));

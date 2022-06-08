@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System::Dynamic::BindingRestrictions_TestBuilder_AndNode_ {
 IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals, (ObjectEqualityComparer_1_System_Dynamic_BindingRestrictions_TestBuilder_AndNode_ * __this, BindingRestrictions_TestBuilder_AndNode x, BindingRestrictions_TestBuilder_AndNode y));

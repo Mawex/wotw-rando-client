@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ImageEffects {
 IL2CPP_REGISTER_METHOD(0x02D5A430, void, RenderDistortion, (Material * material, RenderTexture * source, RenderTexture * destination, float angle, Vector2 center, Vector2 radius));

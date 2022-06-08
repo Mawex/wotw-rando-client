@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrogLocomotionIdleBehaviour {
 IL2CPP_REGISTER_METHOD(0x01649A20, void, OnEnterTask, (FrogLocomotionIdleBehaviour * __this, IContext * context));

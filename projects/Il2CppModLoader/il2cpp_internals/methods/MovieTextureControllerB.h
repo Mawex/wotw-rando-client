@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MovieTextureControllerB {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDestroy, (MovieTextureControllerB * __this));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x0086BC20, void, FixedUpdate, (MovieTextureControllerB *
 IL2CPP_REGISTER_METHOD(0x0086C210, void, Update, (MovieTextureControllerB * __this));
 IL2CPP_REGISTER_METHOD(0x00653F90, bool, IsFinished, (MovieTextureControllerB * __this));
 IL2CPP_REGISTER_METHOD(0x0086C3F0, void, __ctor, (MovieTextureControllerB * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

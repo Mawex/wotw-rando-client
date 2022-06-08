@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InetractionControllerPassthrough {
 IL2CPP_REGISTER_METHOD(0x006285B0, void, OnCollisionEnter, (InetractionControllerPassthrough * __this, Collision * collision));

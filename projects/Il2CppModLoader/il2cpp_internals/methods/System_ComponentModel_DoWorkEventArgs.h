@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DoWorkEventArgs {
 IL2CPP_REGISTER_METHOD(0x01FE7810, void, __ctor, (DoWorkEventArgs * __this, Object * argument));

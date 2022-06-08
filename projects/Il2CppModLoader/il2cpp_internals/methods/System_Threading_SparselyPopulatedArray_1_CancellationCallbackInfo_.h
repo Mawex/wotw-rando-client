@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::SparselyPopulatedArray_1_CancellationCallbackInfo_ {
 IL2CPP_REGISTER_METHOD(0x02775520, void, __ctor, (SparselyPopulatedArray_1_CancellationCallbackInfo_ * __this, int32_t initialSize));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::DomNameTable {
 IL2CPP_REGISTER_METHOD(0x021E9360, void, __ctor, (DomNameTable * __this, XmlDocument * document));

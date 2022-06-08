@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayAnimationCutsceneState {
 IL2CPP_REGISTER_METHOD(0x01175740, SeinCharacter *, get_Sein, (PlayAnimationCutsceneState * __this));

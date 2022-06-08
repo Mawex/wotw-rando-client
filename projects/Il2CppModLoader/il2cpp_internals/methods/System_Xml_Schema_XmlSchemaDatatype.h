@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaDatatype {
 IL2CPP_REGISTER_METHOD(0x00420EE0, XmlSchemaDatatypeVariety__Enum, get_Variety, (XmlSchemaDatatype * __this));

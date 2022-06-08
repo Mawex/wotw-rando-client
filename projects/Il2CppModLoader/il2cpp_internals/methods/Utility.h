@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Utility {
-IL2CPP_REGISTER_METHOD(0x013B1C70, void, Initialize, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x013B1E90, bool, get_IsQuitting, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsPlaying, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x013B1F30, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x013B21A0, void, OnQuit, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013B1C70, void, Initialize, ());
+IL2CPP_REGISTER_METHOD(0x013B1E90, bool, get_IsQuitting, ());
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsPlaying, ());
+IL2CPP_REGISTER_METHOD(0x013B1F30, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x013B21A0, void, OnQuit, ());
 IL2CPP_REGISTER_METHODINFO(0x0477B818, Utility_OnQuit__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x013B2240, void, DisableLate, (MonoBehaviour * target));
 IL2CPP_REGISTER_METHOD(0x013B2300, IEnumerator *, DisableLater, (MonoBehaviour * target));
@@ -51,31 +51,31 @@ IL2CPP_REGISTER_METHOD(0x013B7270, void, Destroy, (Object_1 * obj));
 IL2CPP_REGISTER_METHOD(0x013B7310, String *, GetObjectHierarchy, (Component_1 * cmp, bool includeScene));
 IL2CPP_REGISTER_METHOD(0x013B7420, String *, GetObjectHierarchy, (GameObject * go, bool includeScene));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Utility * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0157DBD0, Object *, GetComponentUpwards, (Transform * transform));
 IL2CPP_REGISTER_METHOD(0x0156B1F0, bool, TryParseEnum, (String * stringValue, Object * * enumValue));
 IL2CPP_REGISTER_METHOD(0x015E6D70, void, Swap, (Object * * a, Object * * b));
 IL2CPP_REGISTER_METHOD(0x015E6B90, void, Destroy, (IList_1_System_Object_ * objects));
 IL2CPP_REGISTER_METHOD(0x015E6CC0, void, Destroy, (Object * * obj));
-IL2CPP_REGISTER_METHOD(0x01539DE0, int32_t, EnumCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01539DE0, int32_t, EnumCount, ());
 IL2CPP_REGISTER_METHOD(0x015E6B90, void, Destroy, (IList_1_UnityEngine_Material_ * objects));
 IL2CPP_REGISTER_METHODINFO(0x0471C408, Utility_Destroy_3__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x015E6D70, void, Swap, (RenderTarget * * a, RenderTarget * * b));
 IL2CPP_REGISTER_METHODINFO(0x04797598, Utility_Swap_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, ());
 IL2CPP_REGISTER_METHODINFO(0x0477BE90, Utility_EnumCount_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01539D00, int32_t, EnumCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01539D00, int32_t, EnumCount, ());
 IL2CPP_REGISTER_METHODINFO(0x047665D8, Utility_EnumCount_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, ());
 IL2CPP_REGISTER_METHODINFO(0x0476BFD8, Utility_EnumCount_3__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01539D00, int32_t, EnumCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01539D00, int32_t, EnumCount, ());
 IL2CPP_REGISTER_METHODINFO(0x04709D28, Utility_EnumCount_4__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, ());
 IL2CPP_REGISTER_METHODINFO(0x047264F8, Utility_EnumCount_5__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x015E6D70, void, Swap, (List_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ * * a, List_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ * * b));
 IL2CPP_REGISTER_METHODINFO(0x04700CE0, Utility_Swap_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x015E6D70, void, Swap, (HashSet_1_UberWaterReflectionView_Group_ * * a, HashSet_1_UberWaterReflectionView_Group_ * * b));
 IL2CPP_REGISTER_METHODINFO(0x04787640, Utility_Swap_3__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01539D00, int32_t, EnumCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01539C20, int32_t, EnumCount, ());
+IL2CPP_REGISTER_METHOD(0x01539D00, int32_t, EnumCount, ());
 }

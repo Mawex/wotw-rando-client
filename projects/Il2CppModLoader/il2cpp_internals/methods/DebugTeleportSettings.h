@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugTeleportSettings {
 IL2CPP_REGISTER_METHOD(0x002FCE30, bool, ShowPositionOverride, (DebugTeleportSettings * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Ionic::Crc::CRC32 {
 IL2CPP_REGISTER_METHOD(0x002FB930, int64_t, get_TotalBytesRead, (CRC32 * __this));

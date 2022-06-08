@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_MergedTypeDescriptor {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (TypeDescriptor_MergedTypeDescriptor * __this, ICustomTypeDescriptor * primary, ICustomTypeDescriptor * secondary));

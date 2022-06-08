@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BehaviourTreeEvaluationSystem_BehaviourTreeEvaluationEntry {
 IL2CPP_REGISTER_METHOD(0x002FB930, Entity *, get_Entity, (BehaviourTreeEvaluationSystem_BehaviourTreeEvaluationEntry * __this));

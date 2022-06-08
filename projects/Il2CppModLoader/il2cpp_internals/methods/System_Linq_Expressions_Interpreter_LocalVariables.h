@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LocalVariables {
 IL2CPP_REGISTER_METHOD(0x023FAA70, LocalDefinition, DefineLocal, (LocalVariables * __this, ParameterExpression * variable, int32_t start));

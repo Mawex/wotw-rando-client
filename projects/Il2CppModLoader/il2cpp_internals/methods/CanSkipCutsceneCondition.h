@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CanSkipCutsceneCondition {
 IL2CPP_REGISTER_METHOD(0x00B22180, bool, Validate, (CanSkipCutsceneCondition * __this, IContext * context));

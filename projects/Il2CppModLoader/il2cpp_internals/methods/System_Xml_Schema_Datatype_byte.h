@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_byte {
 IL2CPP_REGISTER_METHOD(0x02359A50, FacetsChecker *, get_FacetsChecker, (Datatype_byte * __this));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHOD(0x02359BB0, Type *, get_ValueType, (Datatype_byte * __thi
 IL2CPP_REGISTER_METHOD(0x02359C50, Type *, get_ListValueType, (Datatype_byte * __this));
 IL2CPP_REGISTER_METHOD(0x02359CF0, Exception *, TryParseValue, (Datatype_byte * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x02359EA0, void, __ctor, (Datatype_byte * __this));
-IL2CPP_REGISTER_METHOD(0x02359F40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02359F40, void, __cctor, ());
 }

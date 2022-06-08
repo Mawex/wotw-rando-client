@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_T__Enumerator_System::UInt32_ {
 IL2CPP_REGISTER_METHOD(0x0021FC60, void, __ctor, (HashSet_1_T_Enumerator_System_UInt32___Boxed * __this, HashSet_1_System_UInt32_ * set));

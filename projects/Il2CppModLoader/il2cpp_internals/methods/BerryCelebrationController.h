@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BerryCelebrationController {
 IL2CPP_REGISTER_METHOD(0x00F9E1C0, void, OnNaruCollided, (BerryCelebrationController * __this));

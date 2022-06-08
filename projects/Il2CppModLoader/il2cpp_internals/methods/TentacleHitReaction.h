@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleHitReaction {
 IL2CPP_REGISTER_METHOD(0x002FBC20, EntityDamageEvent *, get_DamageEvent, (TentacleHitReaction * __this));

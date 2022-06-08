@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::AmbientValueAttribute {
 IL2CPP_REGISTER_METHOD(0x0249ED40, void, __ctor, (AmbientValueAttribute * __this, Type * type, String * value));

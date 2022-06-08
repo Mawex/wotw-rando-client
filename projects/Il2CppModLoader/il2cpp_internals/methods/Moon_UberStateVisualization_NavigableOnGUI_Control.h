@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::NavigableOnGUI_Control {
 IL2CPP_REGISTER_METHOD(0x001C0380, void, __ctor, (NavigableOnGUI_Control__Boxed * __this, NavigableOnGUI * ui));

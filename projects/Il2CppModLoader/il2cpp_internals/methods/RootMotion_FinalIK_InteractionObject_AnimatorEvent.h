@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionObject_AnimatorEvent {
 IL2CPP_REGISTER_METHOD(0x02A0D6B0, void, Activate, (InteractionObject_AnimatorEvent * __this, bool pickUp));

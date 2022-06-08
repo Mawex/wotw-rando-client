@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::StreamReader_NullStreamReader {
 IL2CPP_REGISTER_METHOD(0x02381F00, void, __ctor, (StreamReader_NullStreamReader * __this));

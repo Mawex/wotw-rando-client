@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::BranchInstruction {
 IL2CPP_REGISTER_METHOD(0x022D61E0, Instruction__Array *, get_Cache, (BranchInstruction * __this));

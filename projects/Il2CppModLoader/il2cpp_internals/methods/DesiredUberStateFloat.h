@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DesiredUberStateFloat {
 IL2CPP_REGISTER_METHOD(0x01B59780, void, WriteDesiredStates, (DesiredUberStateFloat * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::InternalEncoderBestFitFallback {
 IL2CPP_REGISTER_METHOD(0x02458940, void, __ctor, (InternalEncoderBestFitFallback * __this, Encoding * encoding));

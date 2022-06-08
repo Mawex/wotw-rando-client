@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacySetKuAnimator {
 IL2CPP_REGISTER_METHOD(0x0061E2F0, bool, get_IsLooping, (LegacySetKuAnimator * __this));

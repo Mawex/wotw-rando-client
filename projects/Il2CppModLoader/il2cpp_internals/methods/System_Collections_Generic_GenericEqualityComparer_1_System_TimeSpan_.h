@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System::TimeSpan_ {
 IL2CPP_REGISTER_METHOD(0x01652210, bool, Equals, (GenericEqualityComparer_1_System_TimeSpan_ * __this, TimeSpan x, TimeSpan y));

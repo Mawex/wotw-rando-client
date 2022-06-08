@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::UTF32Encoding {
 IL2CPP_REGISTER_METHOD(0x027C77C0, void, __ctor, (UTF32Encoding * __this));

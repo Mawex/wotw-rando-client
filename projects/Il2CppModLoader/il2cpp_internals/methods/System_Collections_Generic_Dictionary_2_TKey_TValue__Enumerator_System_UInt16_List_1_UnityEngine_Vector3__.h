@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::UInt16_List_1_UnityEngine::Vector3__ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_System_UInt16_List_1_UnityEngine_Vector3_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_System_UInt16_List_1_UnityEngine_Vector3___Boxed * __this));

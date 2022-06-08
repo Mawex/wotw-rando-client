@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::IPv6AddressFormatter {
 IL2CPP_REGISTER_METHOD(0x00110270, void, __ctor, (IPv6AddressFormatter__Boxed * __this, UInt16__Array * addr, int64_t scopeId));

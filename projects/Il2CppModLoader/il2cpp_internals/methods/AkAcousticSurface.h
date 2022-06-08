@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkAcousticSurface {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkAcousticSurface * __this, void * cPtr, bool cMemoryOwn));
@@ -15,6 +15,6 @@ IL2CPP_REGISTER_METHOD(0x026C4880, void, set_strName, (AkAcousticSurface * __thi
 IL2CPP_REGISTER_METHOD(0x026C4A80, String *, get_strName, (AkAcousticSurface * __this));
 IL2CPP_REGISTER_METHOD(0x026C4BD0, void, Clear, (AkAcousticSurface * __this));
 IL2CPP_REGISTER_METHOD(0x026C4C70, void, DeleteName, (AkAcousticSurface * __this));
-IL2CPP_REGISTER_METHOD(0x026C4D90, int32_t, GetSizeOf, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x026C4D90, int32_t, GetSizeOf, ());
 IL2CPP_REGISTER_METHOD(0x026C4E20, void, Clone, (AkAcousticSurface * __this, AkAcousticSurface * other));
 }

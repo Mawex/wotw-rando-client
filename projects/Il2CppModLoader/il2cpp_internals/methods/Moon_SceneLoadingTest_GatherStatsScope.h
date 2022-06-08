@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SceneLoadingTest_GatherStatsScope {
 IL2CPP_REGISTER_METHOD(0x00ECB3A0, void, __ctor, (SceneLoadingTest_GatherStatsScope * __this, SceneLoadingTest_Context * ctx, SceneLoadingTest_Stats * stats));

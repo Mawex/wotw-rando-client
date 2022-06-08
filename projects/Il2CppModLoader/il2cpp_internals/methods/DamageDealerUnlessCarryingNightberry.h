@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageDealerUnlessCarryingNightberry {
 IL2CPP_REGISTER_METHOD(0x00DC7DF0, void, Awake, (DamageDealerUnlessCarryingNightberry * __this));

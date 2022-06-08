@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WandererEntity {
-IL2CPP_REGISTER_METHOD(0x008C6F10, WandererEntity *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008C6F10, WandererEntity *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x008C6F90, void, set_Instance, (WandererEntity * value));
 IL2CPP_REGISTER_METHOD(0x008C7020, void, Awake, (WandererEntity * __this));
-IL2CPP_REGISTER_METHOD(0x008C7040, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008C7040, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x008C7050, void, Start, (WandererEntity * __this));
 IL2CPP_REGISTER_METHOD(0x008C7160, WandererEntity_WandererAnimationState__Enum, get_CurrentAnimState, (WandererEntity * __this));
 IL2CPP_REGISTER_METHOD(0x008C7170, MoonAnimation *, get_IdleBreakupAnimation, (WandererEntity * __this));

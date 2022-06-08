@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Experimental::XR::SessionTrackingStateChangedEventArgs_ {
 IL2CPP_REGISTER_METHOD(0x01D247B0, void, Invoke, (Action_1_UnityEngine_Experimental_XR_SessionTrackingStateChangedEventArgs_ * __this, SessionTrackingStateChangedEventArgs obj));

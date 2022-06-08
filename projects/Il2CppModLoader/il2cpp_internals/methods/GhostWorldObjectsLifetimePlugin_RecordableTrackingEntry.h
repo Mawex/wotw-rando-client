@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostWorldObjectsLifetimePlugin_RecordableTrackingEntry {
 IL2CPP_REGISTER_METHOD(0x007F08A0, IRecordable *, get_Recordable, (GhostWorldObjectsLifetimePlugin_RecordableTrackingEntry * __this));

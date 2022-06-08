@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::SemaphoreSlim {
 IL2CPP_REGISTER_METHOD(0x0232AD00, int32_t, get_CurrentCount, (SemaphoreSlim * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHODINFO(0x047105A0, SemaphoreSlim_CancellationTokenCanceledEv
 IL2CPP_REGISTER_METHOD(0x0232C4D0, void, CheckDispose, (SemaphoreSlim * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470AA70, SemaphoreSlim_CheckDispose__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x004C50A0, String *, GetResourceString, (String * str));
-IL2CPP_REGISTER_METHOD(0x0232C5B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0232C5B0, void, __cctor, ());
 }

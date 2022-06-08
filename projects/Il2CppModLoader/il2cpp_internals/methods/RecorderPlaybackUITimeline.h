@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecorderPlaybackUITimeline {
-IL2CPP_REGISTER_METHOD(0x008F92D0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008F92D0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_IsInitialised, (RecorderPlaybackUITimeline * __this));
 IL2CPP_REGISTER_METHOD(0x008F9350, int32_t, get_TotalFrames, (RecorderPlaybackUITimeline * __this));
 IL2CPP_REGISTER_METHOD(0x008F9400, int32_t, get_CurrentFrame, (RecorderPlaybackUITimeline * __this));

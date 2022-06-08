@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TeleportPlayerAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x00CE8CF0, void, OnStartPlayback, (TeleportPlayerAnimatorEntity * __this, IContext * context));

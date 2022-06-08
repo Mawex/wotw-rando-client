@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::TransportContext {
 IL2CPP_REGISTER_METHOD(0x020AAA60, IEnumerable_1_System_Security_Authentication_ExtendedProtection_TokenBinding_ *, GetTlsTokenBindings, (TransportContext * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_UberShaderTextureBase_SubBindIdCache_ {
 IL2CPP_REGISTER_METHOD(0x02BA6D40, bool, TryGetValue, (Dictionary_2_System_Int32_UberShaderTextureBase_SubBindIdCache_ * __this, int32_t key, UberShaderTextureBase_SubBindIdCache * value));

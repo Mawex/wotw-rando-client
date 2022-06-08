@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::BitmapFont {
 IL2CPP_REGISTER_METHOD(0x0102E2F0, BitmapFontChar *, get_Item, (BitmapFont * __this, uint16_t c));

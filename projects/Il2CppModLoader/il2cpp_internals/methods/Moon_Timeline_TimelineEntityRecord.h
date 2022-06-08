@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineEntityRecord {
 IL2CPP_REGISTER_METHOD(0x01E85EE0, void, set_Parent, (TimelineEntityRecord * __this, ITimelineEntityParent * value));

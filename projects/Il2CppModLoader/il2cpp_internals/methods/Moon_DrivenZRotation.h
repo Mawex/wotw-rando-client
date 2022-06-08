@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DrivenZRotation {
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_ShouldUpdate, (DrivenZRotation * __this));

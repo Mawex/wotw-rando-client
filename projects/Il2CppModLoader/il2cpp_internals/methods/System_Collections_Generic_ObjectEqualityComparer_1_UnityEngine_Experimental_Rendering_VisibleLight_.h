@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UnityEngine::Experimental::Rendering::VisibleLight_ {
 IL2CPP_REGISTER_METHOD(0x02438990, bool, Equals, (ObjectEqualityComparer_1_UnityEngine_Experimental_Rendering_VisibleLight_ * __this, VisibleLight x, VisibleLight y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_DiveVerticalState {
 IL2CPP_REGISTER_METHOD(0x0176F9F0, void, __ctor, (PetrifiedOwlBossFinalComboBehaviour_DiveVerticalState * __this, PetrifiedOwlBossFinalComboBehaviour * behaviour));

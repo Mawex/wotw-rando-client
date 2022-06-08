@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::DrawingContext {
 IL2CPP_REGISTER_METHOD(0x00E32FE0, bool, operator___, (DrawingContext c1, DrawingContext c2));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossSimpleLookAt {
 IL2CPP_REGISTER_METHOD(0x012E9B00, void, Start, (KwolokBossSimpleLookAt * __this));

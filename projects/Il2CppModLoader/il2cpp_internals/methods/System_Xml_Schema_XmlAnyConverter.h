@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlAnyConverter {
 IL2CPP_REGISTER_METHOD(0x02236CC0, void, __ctor, (XmlAnyConverter * __this, XmlTypeCode__Enum typeCode));
@@ -38,5 +38,5 @@ IL2CPP_REGISTER_METHOD(0x0223ADE0, Object *, ChangeTypeWildcardDestination, (Xml
 IL2CPP_REGISTER_METHOD(0x0223AF50, Object *, ChangeTypeWildcardSource, (XmlAnyConverter * __this, Object * value, Type * destinationType, IXmlNamespaceResolver * nsResolver));
 IL2CPP_REGISTER_METHOD(0x0223B110, XPathNavigator *, ToNavigator, (XmlAnyConverter * __this, XPathNavigator * nav));
 IL2CPP_REGISTER_METHODINFO(0x04727880, XmlAnyConverter_ToNavigator__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0223B210, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0223B210, void, __cctor, ());
 }

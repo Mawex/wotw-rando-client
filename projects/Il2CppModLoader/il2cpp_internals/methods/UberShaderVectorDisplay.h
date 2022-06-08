@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderVectorDisplay {
 IL2CPP_REGISTER_METHOD(0x0128A000, bool, get_DisplayX, (UberShaderVectorDisplay * __this));

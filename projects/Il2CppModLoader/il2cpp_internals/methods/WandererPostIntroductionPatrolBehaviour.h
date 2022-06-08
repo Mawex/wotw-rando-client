@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WandererPostIntroductionPatrolBehaviour {
 IL2CPP_REGISTER_METHOD(0x008D2350, void, OnEntityInitialized, (WandererPostIntroductionPatrolBehaviour * __this));

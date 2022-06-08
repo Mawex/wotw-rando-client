@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DynamicLightsManager {
 IL2CPP_REGISTER_METHOD(0x00BEC850, SceneRoot *, SceneRootFromPosition, (DynamicLightsManager * __this, Vector3 position));

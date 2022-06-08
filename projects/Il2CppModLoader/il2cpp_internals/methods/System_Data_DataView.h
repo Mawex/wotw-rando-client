@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataView {
 IL2CPP_REGISTER_METHOD(0x01F3F230, void, __ctor, (DataView * __this, DataTable * table, bool locked));
@@ -122,5 +122,5 @@ IL2CPP_REGISTER_METHOD(0x01F46830, void, ParentRelationCollectionChanged, (DataV
 IL2CPP_REGISTER_METHOD(0x01F46DE0, void, ColumnCollectionChanged, (DataView * __this, Object * sender, CollectionChangeEventArgs * e));
 IL2CPP_REGISTER_METHOD(0x01F473A0, void, ColumnCollectionChangedInternal, (DataView * __this, Object * sender, CollectionChangeEventArgs * e));
 IL2CPP_REGISTER_METHOD(0x008519C0, int32_t, get_ObjectID, (DataView * __this));
-IL2CPP_REGISTER_METHOD(0x01F473C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F473C0, void, __cctor, ());
 }

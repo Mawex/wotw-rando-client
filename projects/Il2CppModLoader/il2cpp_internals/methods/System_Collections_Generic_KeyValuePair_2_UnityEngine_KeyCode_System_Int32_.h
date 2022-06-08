@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_UnityEngine::KeyCode_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x00113CE0, int32_t, get_Value, (KeyValuePair_2_UnityEngine_KeyCode_System_Int32___Boxed * __this));

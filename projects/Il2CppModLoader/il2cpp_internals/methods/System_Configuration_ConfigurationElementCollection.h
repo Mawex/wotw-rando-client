@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::ConfigurationElementCollection {
 IL2CPP_REGISTER_METHOD(0x031BBAB0, ConfigurationElementCollectionType__Enum, get_CollectionType, (ConfigurationElementCollection * __this));

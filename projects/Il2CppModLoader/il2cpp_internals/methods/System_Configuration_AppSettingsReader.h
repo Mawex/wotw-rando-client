@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::AppSettingsReader {
 IL2CPP_REGISTER_METHOD(0x02960FA0, void, __ctor, (AppSettingsReader * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_ZenFulcrum::EmbeddedBrowser::PointerUIBase_PointerState_ {
 IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this));
@@ -64,5 +64,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_ZenFulcrum_EmbeddedBrowse
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this, Comparison_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, PointerUIBase_PointerState__Array *, ToArray, (List_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

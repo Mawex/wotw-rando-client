@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetNightBerryRespawnPosition {
 IL2CPP_REGISTER_METHOD(0x005A2F50, void, Perform, (SetNightBerryRespawnPosition * __this, IContext * context));

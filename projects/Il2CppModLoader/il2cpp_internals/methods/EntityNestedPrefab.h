@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityNestedPrefab {
 IL2CPP_REGISTER_METHOD(0x00C93010, void, OnValidate, (EntityNestedPrefab * __this));

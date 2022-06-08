@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::BilateralGaussianBlur {
 IL2CPP_REGISTER_METHOD(0x0303E420, void, Start, (BilateralGaussianBlur * __this));

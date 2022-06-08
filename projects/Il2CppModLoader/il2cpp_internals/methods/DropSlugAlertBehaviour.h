@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropSlugAlertBehaviour {
 IL2CPP_REGISTER_METHOD(0x00BE0A40, void, OnEnter, (DropSlugAlertBehaviour * __this, IContext * context));

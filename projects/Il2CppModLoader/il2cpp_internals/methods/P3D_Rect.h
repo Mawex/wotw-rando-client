@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::P3D_Rect {
 IL2CPP_REGISTER_METHOD(0x00243E50, bool, get_IsSet, (P3D_Rect__Boxed * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x00243F50, void, Add, (P3D_Rect__Boxed * __this, int32_t
 IL2CPP_REGISTER_METHOD(0x00243FA0, bool, Overlaps, (P3D_Rect__Boxed * __this, P3D_Rect other));
 IL2CPP_REGISTER_METHOD(0x00244030, void, Clear, (P3D_Rect__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x002440E0, Rect, get_UnityRect, (P3D_Rect__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x03096D60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03096D60, void, __cctor, ());
 }

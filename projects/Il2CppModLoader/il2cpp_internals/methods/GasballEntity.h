@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasballEntity {
 IL2CPP_REGISTER_METHOD(0x0041EBA0, GasballEntity_InflateState__Enum, GetNextInflateState, (GasballEntity * __this));

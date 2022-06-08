@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_SimpleGenericPool_1_PoolItem_ {
 IL2CPP_REGISTER_METHOD(0x02FF0F10, void, Sort, (SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo___Array * keys, int32_t index, int32_t length, IComparer_1_SimpleGenericPool_1_PoolItem_ * comparer));

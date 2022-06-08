@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrabClawAttackBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x00CCAD00, void, OnEntityInitialized, (CrabClawAttackBehaviourNew * __this));

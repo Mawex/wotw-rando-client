@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineDebugUI_FpsCounter {
 IL2CPP_REGISTER_METHOD(0x00119820, void, increment, (MoonRenderPipelineDebugUI_FpsCounter__Boxed * __this, float frameTime));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility {
 IL2CPP_REGISTER_METHOD(0x015E7A50, Void *, GetUnsafeBufferPointerWithoutChecks, (NativeArray_1_UnityEngine_Bounds_ nativeArray));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwitchSeriesPuzzleSwitchSetupHolder {
 IL2CPP_REGISTER_METHOD(0x01835240, SwitchSeriesPuzzleSetupData *, get_DeactivatedState, (SwitchSeriesPuzzleSwitchSetupHolder * __this));

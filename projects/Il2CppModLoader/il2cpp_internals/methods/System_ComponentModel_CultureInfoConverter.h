@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::CultureInfoConverter {
 IL2CPP_REGISTER_METHOD(0x01FDA1E0, String *, get_DefaultCultureString, (CultureInfoConverter * __this));

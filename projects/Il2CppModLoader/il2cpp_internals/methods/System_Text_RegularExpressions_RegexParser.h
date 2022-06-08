@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexParser {
 IL2CPP_REGISTER_METHOD(0x02597B50, RegexTree *, Parse, (String * re, RegexOptions__Enum op));
@@ -92,5 +92,5 @@ IL2CPP_REGISTER_METHOD(0x025A18B0, uint16_t, CharAt, (RegexParser * __this, int3
 IL2CPP_REGISTER_METHOD(0x025A18D0, uint16_t, RightChar, (RegexParser * __this));
 IL2CPP_REGISTER_METHOD(0x025A1900, uint16_t, RightChar, (RegexParser * __this, int32_t i));
 IL2CPP_REGISTER_METHOD(0x025A1930, int32_t, CharsRight, (RegexParser * __this));
-IL2CPP_REGISTER_METHOD(0x025A1950, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025A1950, void, __cctor, ());
 }

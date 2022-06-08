@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::TraceJsonReader {
 IL2CPP_REGISTER_METHOD(0x01BFCC20, void, __ctor, (TraceJsonReader * __this, JsonReader * innerReader));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwaggerJSONParser {
 IL2CPP_REGISTER_METHOD(0x02EA35E0, Object *, GetValue, (SwaggerJSONParser * __this, Object * filedValue, Type * type));

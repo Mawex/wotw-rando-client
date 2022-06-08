@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumHelper_1_UnderlyingType__Transformer_1_System::UInt16_System::DateTimeOffset_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (EnumHelper_1_UnderlyingType_Transformer_1_System_UInt16_System_DateTimeOffset_ * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Permissions::SecurityPermissionAttribute {
 IL2CPP_REGISTER_METHOD(0x01E1BCD0, void, set_SkipVerification, (SecurityPermissionAttribute * __this, bool value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::SimpleCameraSampler {
 IL2CPP_REGISTER_METHOD(0x014AAE40, void, __ctor, (SimpleCameraSampler * __this, SceneMetaData * sceneMeta, Camera * camera));

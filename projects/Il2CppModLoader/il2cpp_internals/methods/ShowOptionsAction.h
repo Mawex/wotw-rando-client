@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowOptionsAction {
 IL2CPP_REGISTER_METHOD(0x005C5060, void, Perform, (ShowOptionsAction * __this, IContext * context));

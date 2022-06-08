@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DictionaryList_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x019E0B10, int32_t, get_Count, (DictionaryList_2_System_Object_System_Object_ * __this));

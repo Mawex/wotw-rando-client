@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator {
 IL2CPP_REGISTER_METHOD(0x0249D300, void, __ctor, (OrderedDictionary_OrderedDictionaryEnumerator * __this, ArrayList * array, int32_t objectReturnType));

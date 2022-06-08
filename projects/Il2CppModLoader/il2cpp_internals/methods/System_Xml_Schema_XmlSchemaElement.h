@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaElement {
 IL2CPP_REGISTER_METHOD(0x005D8A80, bool, get_IsAbstract, (XmlSchemaElement * __this));

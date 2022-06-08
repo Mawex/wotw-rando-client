@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoadingFinishedCondition {
 IL2CPP_REGISTER_METHOD(0x00FC0C20, bool, Validate, (LoadingFinishedCondition * __this, IContext * context));

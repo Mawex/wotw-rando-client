@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodyState {
 IL2CPP_REGISTER_METHOD(0x013527F0, bool, GetGoThroughComponent, (RigidbodyState * __this, GoThroughPlatform * * comp));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x01353B50, void, ApplyStateLegacy, (RigidbodyState * __t
 IL2CPP_REGISTER_METHOD(0x01353ED0, void, ApplyState, (RigidbodyState * __this, Vector3 RootShift, bool UseLocalCoordinates, bool resetXYRotations, bool resetZ, bool applyActive, bool applyKinematic, bool applyGravity));
 IL2CPP_REGISTER_METHOD(0x013543A0, void, ApplyDynamicSettings, (RigidbodyState * __this));
 IL2CPP_REGISTER_METHOD(0x01354720, void, __ctor, (RigidbodyState * __this));
-IL2CPP_REGISTER_METHOD(0x01354870, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01354870, void, __cctor, ());
 }

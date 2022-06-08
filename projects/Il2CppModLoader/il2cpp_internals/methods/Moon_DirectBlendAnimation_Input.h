@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DirectBlendAnimation_Input {
 IL2CPP_REGISTER_METHOD(0x01B0E260, bool, get_IsValid, (DirectBlendAnimation_Input * __this));

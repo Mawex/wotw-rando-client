@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::EarlyZGrid {
 IL2CPP_REGISTER_METHOD(0x00118FE0, void, __ctor, (EarlyZGrid__Boxed * __this, Bounds bounds, Vector3 cellSize));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::AsyncLocal_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02775090, Object *, get_Value, (AsyncLocal_1_System_Object_ * __this));

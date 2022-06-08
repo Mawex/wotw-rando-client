@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::BinHexEncoder {
 IL2CPP_REGISTER_METHOD(0x021E1E90, void, Encode, (Byte__Array * buffer, int32_t index, int32_t count, XmlWriter * writer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StatisticianInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x009B8C30, void, OnEntityInitialized, (StatisticianInteractionBehaviour * __this));

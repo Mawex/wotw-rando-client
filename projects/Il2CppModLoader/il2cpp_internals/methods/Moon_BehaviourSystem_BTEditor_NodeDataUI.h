@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BTEditor::NodeDataUI {
 IL2CPP_REGISTER_METHOD(0x002FA280, BehaviourNode *, get_Node, (NodeDataUI * __this));

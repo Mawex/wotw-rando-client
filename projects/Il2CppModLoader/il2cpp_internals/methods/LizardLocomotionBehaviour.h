@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardLocomotionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00FB0BA0, Transform *, get_VFXHolder, (LizardLocomotionBehaviour * __this));

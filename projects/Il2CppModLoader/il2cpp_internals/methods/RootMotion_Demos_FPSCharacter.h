@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FPSCharacter {
 IL2CPP_REGISTER_METHOD(0x0221DBE0, void, Start, (FPSCharacter * __this));

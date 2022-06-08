@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataRowCollection_DataRowTree {
 IL2CPP_REGISTER_METHOD(0x017E11B0, void, __ctor, (DataRowCollection_DataRowTree * __this));

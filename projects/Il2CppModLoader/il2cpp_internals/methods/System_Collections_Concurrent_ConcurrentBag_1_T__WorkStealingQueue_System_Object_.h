@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentBag_1_T__WorkStealingQueue_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02ADB040, int32_t, get_DangerousCount, (ConcurrentBag_1_T_WorkStealingQueue_System_Object_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::NameValueCollection {
 IL2CPP_REGISTER_METHOD(0x024997A0, void, __ctor, (NameValueCollection * __this));

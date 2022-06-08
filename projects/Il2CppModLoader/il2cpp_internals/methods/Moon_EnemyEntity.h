@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EnemyEntity {
-IL2CPP_REGISTER_METHOD(0x0120D000, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0120D0A0, void, ResetLogSettingStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0120D000, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x0120D0A0, void, ResetLogSettingStatics, ());
 IL2CPP_REGISTER_METHOD(0x00696560, EnemyEntity_SpawnPopFixState__Enum, get_PopFixState, (EnemyEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00696570, void, set_PopFixState, (EnemyEntity * __this, EnemyEntity_SpawnPopFixState__Enum value));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_UsesHealthbar, (EnemyEntity * __this));
@@ -44,5 +44,5 @@ IL2CPP_REGISTER_METHOD(0x012106F0, bool, TryGetPlatformMovement, (EnemyEntity * 
 IL2CPP_REGISTER_METHOD(0x01210760, void, ApplyRepellForce, (EnemyEntity * __this));
 IL2CPP_REGISTER_METHOD(0x01210C80, Vector3, ModifyKickbackForce, (EnemyEntity * __this, Vector3 force, Damage * damage, bool applyDeathModification));
 IL2CPP_REGISTER_METHOD(0x01211350, void, __ctor, (EnemyEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

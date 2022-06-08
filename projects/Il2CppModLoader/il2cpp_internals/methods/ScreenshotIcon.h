@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScreenshotIcon {
 IL2CPP_REGISTER_METHOD(0x01068C40, Type *, get_Type, (ScreenshotIcon * __this));

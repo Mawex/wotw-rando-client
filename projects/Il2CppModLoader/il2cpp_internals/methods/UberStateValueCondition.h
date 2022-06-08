@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStateValueCondition {
 IL2CPP_REGISTER_METHOD(0x0128B500, bool, Validate, (UberStateValueCondition * __this, IContext * context));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x0128B790, void, OnEnable, (UberStateValueCondition * __
 IL2CPP_REGISTER_METHOD(0x0128B830, void, OnDisable, (UberStateValueCondition * __this));
 IL2CPP_REGISTER_METHOD(0x0128B8D0, void, Apply, (UberStateValueCondition * __this, UberStateApplyContext__Enum context));
 IL2CPP_REGISTER_METHOD(0x0128BA90, void, __ctor, (UberStateValueCondition * __this));
-IL2CPP_REGISTER_METHOD(0x0128BBF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0128BBF0, void, __cctor, ());
 }

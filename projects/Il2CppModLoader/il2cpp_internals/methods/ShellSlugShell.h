@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShellSlugShell {
 IL2CPP_REGISTER_METHOD(0x005B3ED0, void, ShatterEffectPrefabsInstantiation, (ShellSlugShell * __this, List_1_DynamicInstantiationDescriptor_ * instantiations));

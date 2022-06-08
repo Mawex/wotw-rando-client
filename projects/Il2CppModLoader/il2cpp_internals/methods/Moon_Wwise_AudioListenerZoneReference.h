@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::AudioListenerZoneReference {
 IL2CPP_REGISTER_METHOD(0x001FE700, void, __ctor, (AudioListenerZoneReference__Boxed * __this, AudioListenerZone * zone));

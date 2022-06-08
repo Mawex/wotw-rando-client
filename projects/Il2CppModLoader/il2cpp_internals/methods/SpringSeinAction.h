@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpringSeinAction {
 IL2CPP_REGISTER_METHOD(0x009A8670, void, Perform, (SpringSeinAction * __this, IContext * context));

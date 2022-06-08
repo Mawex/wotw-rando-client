@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Noise_TV_3 {
 IL2CPP_REGISTER_METHOD(0x02483840, Material *, get_material, (CameraFilterPack_Noise_TV_3 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SeinUIEntity {
 IL2CPP_REGISTER_METHOD(0x00405F50, bool, get_Show, (SeinUIEntity * __this));

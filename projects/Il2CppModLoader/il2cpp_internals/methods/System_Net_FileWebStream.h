@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::FileWebStream {
 IL2CPP_REGISTER_METHOD(0x01D2BB10, void, __ctor, (FileWebStream * __this, FileWebRequest * request, String * path, FileMode__Enum mode, FileAccess__Enum access, FileShare__Enum sharing));

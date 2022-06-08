@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ActivityFilter {
 IL2CPP_REGISTER_METHOD(0x01742A20, void, DisableFilter, (ActivityFilter * * filterList, EventSource * source));

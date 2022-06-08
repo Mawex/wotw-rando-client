@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::PropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x01FE9DF0, void, __ctor, (PropertyDescriptor * __this, String * name, Attribute__Array * attrs));

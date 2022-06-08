@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Drawing_NewCellShading {
 IL2CPP_REGISTER_METHOD(0x024F8220, Material *, get_material, (CameraFilterPack_Drawing_NewCellShading * __this));

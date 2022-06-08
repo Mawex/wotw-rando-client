@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonPhysics {
 IL2CPP_REGISTER_METHOD(0x0145C220, void, IgnoreLayerCollision, (int32_t layer1, int32_t layer2, bool ignore));
@@ -29,5 +29,5 @@ IL2CPP_REGISTER_METHOD(0x0145F140, void, ToWorldSpaceCapsule, (CapsuleCollider *
 IL2CPP_REGISTER_METHOD(0x0145FA50, void, SortClosestToFurthest, (RaycastHit__Array * hits, int32_t hitCount));
 IL2CPP_REGISTER_METHOD(0x0145FC70, Vector3, AbsVec3, (Vector3 v));
 IL2CPP_REGISTER_METHOD(0x0145FD70, float, MaxVec3, (Vector3 v));
-IL2CPP_REGISTER_METHOD(0x0145FE30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0145FE30, void, __cctor, ());
 }

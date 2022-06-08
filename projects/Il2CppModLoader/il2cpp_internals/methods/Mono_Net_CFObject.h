@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::CFObject {
 IL2CPP_REGISTER_METHOD(0x02177F70, void *, dlopen, (String * path, int32_t mode));

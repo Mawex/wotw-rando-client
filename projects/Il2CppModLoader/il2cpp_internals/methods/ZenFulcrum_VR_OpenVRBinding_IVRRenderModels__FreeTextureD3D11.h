@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRRenderModels__FreeTextureD3D11 {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRRenderModels_FreeTextureD3D11 * __this, Object * object, void * method_1));

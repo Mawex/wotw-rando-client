@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DynamicAnimationPlayer {
 IL2CPP_REGISTER_METHOD(0x01BAA050, void, Clone, (DynamicAnimationPlayer * __this, AnimationPlayer * player));

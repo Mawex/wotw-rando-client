@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_Microsoft::Xbox::Services::Xal::XalUser_ {
 IL2CPP_REGISTER_METHOD(0x02A5A760, XalUser_1 *, get_Result, (Task_1_Microsoft_Xbox_Services_Xal_XalUser_ * __this));

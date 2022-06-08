@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::GennadiysDice {
 IL2CPP_REGISTER_METHOD(0x01BC0070, Int32__Array *, GetEventsIds, (GennadiysDice * __this));

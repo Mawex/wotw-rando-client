@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoRunAwayBehaviour {
 IL2CPP_REGISTER_METHOD(0x006AF270, SkeetoLocomotion *, get_Locomotion, (SkeetoRunAwayBehaviour * __this));

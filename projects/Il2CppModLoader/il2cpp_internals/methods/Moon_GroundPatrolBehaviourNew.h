@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::GroundPatrolBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x01492620, Vector3, get_EffectivePatrollOrigin, (GroundPatrolBehaviourNew * __this));

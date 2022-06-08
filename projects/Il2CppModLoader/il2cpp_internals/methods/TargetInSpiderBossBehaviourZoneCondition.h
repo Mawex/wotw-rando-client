@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TargetInSpiderBossBehaviourZoneCondition {
 IL2CPP_REGISTER_METHOD(0x00CE24B0, String *, get_Info, (TargetInSpiderBossBehaviourZoneCondition * __this));

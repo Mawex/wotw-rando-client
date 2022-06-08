@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ITimelineEntityParentExtensions {
 IL2CPP_REGISTER_METHOD(0x01BC0C90, bool, IsExternalRecord, (ITimelineEntityParent * registry, EntityId entityId));

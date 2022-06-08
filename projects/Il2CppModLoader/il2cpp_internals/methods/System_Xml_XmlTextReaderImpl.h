@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlTextReaderImpl {
 IL2CPP_REGISTER_METHOD(0x01717AA0, void, __ctor, (XmlTextReaderImpl * __this, XmlNameTable * nt));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Extensions::SortExtensions {
 IL2CPP_REGISTER_METHOD(0x0156C230, IEnumerable_1_System_Object_ *, TopologicalSort, (IEnumerable_1_System_Object_ * source, Func_2_Object_System_Collections_Generic_IEnumerable_1_ * dependencies, bool throwOnCycle));

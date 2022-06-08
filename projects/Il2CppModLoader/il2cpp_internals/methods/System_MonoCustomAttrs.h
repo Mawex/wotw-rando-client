@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::MonoCustomAttrs {
 IL2CPP_REGISTER_METHOD(0x0226AAB0, bool, IsUserCattrProvider, (Object * obj));
@@ -22,5 +22,5 @@ IL2CPP_REGISTER_METHOD(0x0226D550, ICustomAttributeProvider *, GetBase, (ICustom
 IL2CPP_REGISTER_METHOD(0x0226D860, AttributeUsageAttribute *, RetrieveAttributeUsageNoCache, (Type * attributeType));
 IL2CPP_REGISTER_METHODINFO(0x04724F28, MonoCustomAttrs_RetrieveAttributeUsageNoCache__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0226DBB0, AttributeUsageAttribute *, RetrieveAttributeUsage, (Type * attributeType));
-IL2CPP_REGISTER_METHOD(0x0226DF60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0226DF60, void, __cctor, ());
 }

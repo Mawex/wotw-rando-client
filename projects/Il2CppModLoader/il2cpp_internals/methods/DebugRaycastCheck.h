@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugRaycastCheck {
 IL2CPP_REGISTER_METHOD(0x00B72FB0, void, CheckForFirstBetweenHereAndTarget, (DebugRaycastCheck * __this));

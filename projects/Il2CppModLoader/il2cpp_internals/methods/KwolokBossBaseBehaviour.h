@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossBaseBehaviour {
 IL2CPP_REGISTER_METHOD(0x01246D80, KwolokBossLocomotion *, get_Locomotion, (KwolokBossBaseBehaviour * __this));

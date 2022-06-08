@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::PropertyCollection {
 IL2CPP_REGISTER_METHOD(0x01E49380, void, __ctor, (PropertyCollection * __this));

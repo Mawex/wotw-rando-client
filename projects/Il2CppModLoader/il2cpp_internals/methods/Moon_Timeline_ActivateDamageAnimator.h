@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ActivateDamageAnimator {
 IL2CPP_REGISTER_METHOD(0x00A35F10, bool, ShouldShowDamageField, (ActivateDamageAnimator * __this));

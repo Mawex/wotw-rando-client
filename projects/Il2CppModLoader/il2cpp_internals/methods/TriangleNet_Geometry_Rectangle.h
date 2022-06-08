@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::Rectangle {
 IL2CPP_REGISTER_METHOD(0x0261DD00, void, __ctor, (Rectangle * __this));

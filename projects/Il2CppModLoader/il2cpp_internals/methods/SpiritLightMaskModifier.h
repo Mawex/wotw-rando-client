@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLightMaskModifier {
 IL2CPP_REGISTER_METHOD(0x00D62090, IEnumerable_1_System_String_ *, GetKeywordsForShader, (SpiritLightMaskModifier * __this));

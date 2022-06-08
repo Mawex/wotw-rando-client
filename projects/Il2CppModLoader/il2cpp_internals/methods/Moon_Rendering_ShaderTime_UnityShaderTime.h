@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::ShaderTime_UnityShaderTime {
 IL2CPP_REGISTER_METHOD(0x00EBC550, void, setTimeConstants, (CommandBuffer * cb, float time, float deltaTime, float smoothDeltaTime));

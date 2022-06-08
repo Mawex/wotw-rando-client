@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Recorder__ResetRecorderAndComponents_d__59 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (Recorder_ResetRecorderAndComponents_d_59 * __this, int32_t __1__state));

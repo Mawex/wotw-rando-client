@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionExplosionAnimator {
 IL2CPP_REGISTER_METHOD(0x013F74A0, UberExplosionActor *, get_Actor, (UberInteractionExplosionAnimator * __this));

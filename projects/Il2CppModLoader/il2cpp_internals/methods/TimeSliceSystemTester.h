@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimeSliceSystemTester {
 IL2CPP_REGISTER_METHOD(0x010F0BF0, void, Start, (TimeSliceSystemTester * __this));

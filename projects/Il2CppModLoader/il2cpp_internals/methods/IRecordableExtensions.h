@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IRecordableExtensions {
 IL2CPP_REGISTER_METHOD(0x02557A10, Component_1 *, AsComponent, (IRecordable * recordable));

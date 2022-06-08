@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall {
 IL2CPP_REGISTER_METHOD(0x01D8E470, void, Write, (BinaryMethodCall * __this, _BinaryWriter * sout));

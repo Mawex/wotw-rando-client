@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaseAnimatorSerializer {
 IL2CPP_REGISTER_METHOD(0x00F85D70, void, OnValidate, (BaseAnimatorSerializer * __this));

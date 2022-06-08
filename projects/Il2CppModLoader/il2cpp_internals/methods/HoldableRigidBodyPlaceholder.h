@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HoldableRigidBodyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x00B5A730, void, FixedUpdate, (HoldableRigidBodyPlaceholder * __this));

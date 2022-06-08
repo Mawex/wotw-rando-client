@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::GroundChaseBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x0148C470, float, get_EffectiveTraversalSpeed, (GroundChaseBehaviourNew * __this));

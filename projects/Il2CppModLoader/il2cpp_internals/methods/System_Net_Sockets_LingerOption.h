@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::LingerOption {
 IL2CPP_REGISTER_METHOD(0x01BE0270, void, __ctor, (LingerOption * __this, bool enable, int32_t seconds));

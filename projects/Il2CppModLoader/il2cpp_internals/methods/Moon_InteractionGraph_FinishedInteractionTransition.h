@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::FinishedInteractionTransition {
 IL2CPP_REGISTER_METHOD(0x0198D180, IInteractionNode *, get_TransitionDestination, (FinishedInteractionTransition * __this));

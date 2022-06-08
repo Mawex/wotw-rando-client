@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartPlatformMovement {
 IL2CPP_REGISTER_METHOD(0x00B3D890, Vector2, WorldToLocal, (CartPlatformMovement * __this, Vector2 world));

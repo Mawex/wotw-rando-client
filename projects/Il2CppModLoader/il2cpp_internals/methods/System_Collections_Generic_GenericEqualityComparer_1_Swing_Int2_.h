@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_Swing::Int2_ {
 IL2CPP_REGISTER_METHOD(0x02B60970, bool, Equals, (GenericEqualityComparer_1_Swing_Int2_ * __this, Int2 x, Int2 y));

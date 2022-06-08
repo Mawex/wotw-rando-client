@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::PKCS8_EncryptedPrivateKeyInfo {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PKCS8_EncryptedPrivateKeyInfo * __this));

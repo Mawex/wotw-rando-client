@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UnityEngine::UIVertex_ {
 IL2CPP_REGISTER_METHOD(0x02439AC0, bool, Equals, (ObjectEqualityComparer_1_UnityEngine_UIVertex_ * __this, UIVertex x, UIVertex y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::SRDescriptionAttribute {
 IL2CPP_REGISTER_METHOD(0x021BC5A0, void, __ctor, (SRDescriptionAttribute * __this, String * description));

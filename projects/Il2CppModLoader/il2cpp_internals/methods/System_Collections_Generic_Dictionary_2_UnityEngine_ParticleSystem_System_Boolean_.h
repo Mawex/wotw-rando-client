@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::ParticleSystem_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02BBF070, bool, get_Item, (Dictionary_2_UnityEngine_ParticleSystem_System_Boolean_ * __this, ParticleSystem * key));

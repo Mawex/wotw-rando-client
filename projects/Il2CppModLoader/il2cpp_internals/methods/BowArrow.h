@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BowArrow {
 IL2CPP_REGISTER_METHOD(0x00413160, bool, get_Charged, (BowArrow * __this));
@@ -52,5 +52,5 @@ IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_TrackTranformChangesForRecording, (
 IL2CPP_REGISTER_METHOD(0x0043D9E0, RecordableParsingGroup__Enum, get_ParsingGroup, (BowArrow * __this));
 IL2CPP_REGISTER_METHOD(0x00D47870, TrackingExclusions, get_TrackingExclusions, (BowArrow * __this));
 IL2CPP_REGISTER_METHOD(0x00D47880, void, __ctor, (BowArrow * __this));
-IL2CPP_REGISTER_METHOD(0x00D47BB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D47BB0, void, __cctor, ());
 }

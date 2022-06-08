@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkAcousticSurfaceArray {
 IL2CPP_REGISTER_METHOD(0x026C4F40, void, __ctor, (AkAcousticSurfaceArray * __this, int32_t count));

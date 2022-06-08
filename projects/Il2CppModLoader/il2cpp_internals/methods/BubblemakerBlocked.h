@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BubblemakerBlocked {
 IL2CPP_REGISTER_METHOD(0x00805460, void, Start, (BubblemakerBlocked * __this));

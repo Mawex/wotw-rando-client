@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivateLianaTongueAction {
 IL2CPP_REGISTER_METHOD(0x004C8B80, void, Perform, (ActivateLianaTongueAction * __this, IContext * context));

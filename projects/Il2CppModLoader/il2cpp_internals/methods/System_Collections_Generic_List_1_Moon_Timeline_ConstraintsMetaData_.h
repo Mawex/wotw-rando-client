@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::Timeline::ConstraintsMetaData_ {
 IL2CPP_REGISTER_METHOD(0x025EAEF0, ConstraintsMetaData__Array *, ToArray, (List_1_Moon_Timeline_ConstraintsMetaData_ * __this));

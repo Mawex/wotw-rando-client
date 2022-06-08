@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Collections::IndexedSet_1_UnityEngine::UI::ICanvasElement_ {
 IL2CPP_REGISTER_METHOD(0x02ACD120, void, __ctor, (IndexedSet_1_UnityEngine_UI_ICanvasElement_ * __this));

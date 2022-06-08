@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DrownPlayer {
 IL2CPP_REGISTER_METHOD(0x00BE8450, void, OnTriggerStay, (DrownPlayer * __this, Collider * other));

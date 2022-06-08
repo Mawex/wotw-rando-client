@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ParameterizedStrings_LowLevelStack {
 IL2CPP_REGISTER_METHOD(0x0227E470, void, __ctor, (ParameterizedStrings_LowLevelStack * __this));

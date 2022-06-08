@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LockPlayerInputManualAction {
 IL2CPP_REGISTER_METHOD(0x00FC3490, void, Perform, (LockPlayerInputManualAction * __this, IContext * context));

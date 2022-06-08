@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::InteractionGraph_InteractionGraphContext {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, Init, (InteractionGraph_InteractionGraphContext * __this, InteractionGraph * graph, IInteractionNode * node));

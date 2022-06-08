@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::Condition {
 IL2CPP_REGISTER_METHOD(0x01E16610, String *, get_Info, (Condition * __this));

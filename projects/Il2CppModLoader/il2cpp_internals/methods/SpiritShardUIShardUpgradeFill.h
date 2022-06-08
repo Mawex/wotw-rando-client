@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritShardUIShardUpgradeFill {
 IL2CPP_REGISTER_METHOD(0x00D70650, void, SetFill, (SpiritShardUIShardUpgradeFill * __this, float fill, bool ignoreTime));

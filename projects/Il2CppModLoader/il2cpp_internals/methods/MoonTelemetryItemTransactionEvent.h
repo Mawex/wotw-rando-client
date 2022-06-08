@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryItemTransactionEvent {
 IL2CPP_REGISTER_METHOD(0x0146F430, void, __ctor, (MoonTelemetryItemTransactionEvent * __this, MoonTelemetryItemTransactionEvent_ItemTransactionID__Enum itemID));

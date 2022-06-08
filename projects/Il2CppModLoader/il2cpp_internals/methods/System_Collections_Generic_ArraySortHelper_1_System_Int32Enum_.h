@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_System::Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x030007A0, void, Sort, (Int32Enum__Enum__Array * keys, int32_t index, int32_t length, IComparer_1_System_Int32Enum_ * comparer));

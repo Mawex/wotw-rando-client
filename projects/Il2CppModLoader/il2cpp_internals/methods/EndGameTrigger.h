@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EndGameTrigger {
 IL2CPP_REGISTER_METHOD(0x00BFD600, void, OnValidate, (EndGameTrigger * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InputLockAnimator {
 IL2CPP_REGISTER_METHOD(0x00628CF0, void, OnStartPlay, (InputLockAnimator * __this));

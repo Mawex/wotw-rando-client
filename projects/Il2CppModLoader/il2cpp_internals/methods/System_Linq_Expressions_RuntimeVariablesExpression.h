@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::RuntimeVariablesExpression {
 IL2CPP_REGISTER_METHOD(0x02FBEDB0, void, __ctor, (RuntimeVariablesExpression * __this, ReadOnlyCollection_1_System_Linq_Expressions_ParameterExpression_ * variables));

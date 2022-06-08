@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NavigableOnGUI_Control {
 IL2CPP_REGISTER_METHOD(0x0011A9F0, void, __ctor, (NavigableOnGUI_Control_1__Boxed * __this, NavigableOnGUI_1 * ui));

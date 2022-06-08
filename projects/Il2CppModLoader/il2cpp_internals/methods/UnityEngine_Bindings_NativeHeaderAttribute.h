@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Bindings::NativeHeaderAttribute {
 IL2CPP_REGISTER_METHOD(0x031BB220, void, __ctor, (NativeHeaderAttribute * __this, String * header));

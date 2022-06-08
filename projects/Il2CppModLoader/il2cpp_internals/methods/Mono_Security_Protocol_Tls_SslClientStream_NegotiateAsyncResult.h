@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslClientStream_NegotiateAsyncResult {
 IL2CPP_REGISTER_METHOD(0x01F81210, void, __ctor, (SslClientStream_NegotiateAsyncResult * __this, AsyncCallback * userCallback, Object * userState, SslClientStream_NegotiateState__Enum state));

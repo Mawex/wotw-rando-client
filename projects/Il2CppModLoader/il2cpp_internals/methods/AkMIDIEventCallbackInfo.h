@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkMIDIEventCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x026F60E0, void, __ctor, (AkMIDIEventCallbackInfo * __this, void * cPtr, bool cMemoryOwn));

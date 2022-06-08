@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardEntity {
 IL2CPP_REGISTER_METHOD(0x00FAC8C0, bool, get_IsInOneTwoThreeAttackRange, (LizardEntity * __this));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHOD(0x00FAE0C0, Vector3, ModifyKickbackForce, (LizardEntity *
 IL2CPP_REGISTER_METHOD(0x00FAE250, void, OnAttackEnd, (LizardEntity * __this));
 IL2CPP_REGISTER_METHOD(0x0043D9A0, SelectableCategory__Enum, get_Category, (LizardEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00FAE260, void, __ctor, (LizardEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00FAE4B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FAE4B0, void, __cctor, ());
 }

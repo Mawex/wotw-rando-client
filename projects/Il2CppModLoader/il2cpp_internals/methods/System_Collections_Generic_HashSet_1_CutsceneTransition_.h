@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_CutsceneTransition_ {
 IL2CPP_REGISTER_METHOD(0x02ABCD80, HashSet_1_T_Enumerator_CutsceneTransition_, GetEnumerator, (HashSet_1_CutsceneTransition_ * __this));

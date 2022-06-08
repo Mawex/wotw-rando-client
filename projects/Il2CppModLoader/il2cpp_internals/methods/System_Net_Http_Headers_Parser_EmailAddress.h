@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::Parser_EmailAddress {
 IL2CPP_REGISTER_METHOD(0x02D124D0, bool, TryParse, (String * input, String * * result));

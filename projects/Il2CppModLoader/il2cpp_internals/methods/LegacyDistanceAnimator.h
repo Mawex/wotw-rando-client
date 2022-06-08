@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyDistanceAnimator {
 IL2CPP_REGISTER_METHOD(0x00A19E90, void, Start, (LegacyDistanceAnimator * __this));

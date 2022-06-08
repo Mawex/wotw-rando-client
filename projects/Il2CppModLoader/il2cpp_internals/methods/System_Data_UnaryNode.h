@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::UnaryNode {
 IL2CPP_REGISTER_METHOD(0x0199E410, void, __ctor, (UnaryNode * __this, DataTable * table, int32_t op, ExpressionNode * right));

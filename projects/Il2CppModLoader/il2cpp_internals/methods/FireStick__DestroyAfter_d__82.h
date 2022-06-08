@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FireStick__DestroyAfter_d__82 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (FireStick_DestroyAfter_d_82 * __this, int32_t __1__state));

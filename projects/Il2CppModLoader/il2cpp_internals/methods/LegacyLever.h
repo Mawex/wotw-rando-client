@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyLever {
 IL2CPP_REGISTER_METHOD(0x004430B0, bool, get_InRange, (LegacyLever * __this));
@@ -63,7 +63,7 @@ IL2CPP_REGISTER_METHOD(0x0061E5E0, SuspendableMask__Enum, get_Mask, (LegacyLever
 IL2CPP_REGISTER_METHOD(0x00A2A750, void, set_Mask, (LegacyLever * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x00A2A810, bool, get_CanBeGrabbed, (LegacyLever * __this));
 IL2CPP_REGISTER_METHOD(0x00A2A8F0, void, AdjustLeverOnGround, (LegacyLever * __this));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x00A2AC10, void, OnFrustumEnter, (LegacyLever * __this));
 IL2CPP_REGISTER_METHOD(0x00A2AC20, void, OnFrustumExit, (LegacyLever * __this));
 IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_InsideFrustum, (LegacyLever * __this));

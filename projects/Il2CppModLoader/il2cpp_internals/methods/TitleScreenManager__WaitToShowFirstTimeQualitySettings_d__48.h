@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TitleScreenManager__WaitToShowFirstTimeQualitySettings_d__48 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (TitleScreenManager_WaitToShowFirstTimeQualitySettings_d_48 * __this, int32_t __1__state));

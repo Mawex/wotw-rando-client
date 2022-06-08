@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerspectiveRotationAdjustment {
 IL2CPP_REGISTER_METHOD(0x00446960, float, get_Weight, (PerspectiveRotationAdjustment * __this));

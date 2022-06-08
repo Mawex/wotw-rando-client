@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple {
 IL2CPP_REGISTER_METHOD(0x022916C0, int32_t, CombineHashCodes, (int32_t h1, int32_t h2));

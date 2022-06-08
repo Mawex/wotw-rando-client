@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Color_GrayScale {
 IL2CPP_REGISTER_METHOD(0x024D9A80, Material *, get_material, (CameraFilterPack_Color_GrayScale * __this));

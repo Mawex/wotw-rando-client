@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator {
 IL2CPP_REGISTER_METHOD(0x021CE540, void, __ctor, (X509ChainElementEnumerator * __this, IEnumerable * enumerable));

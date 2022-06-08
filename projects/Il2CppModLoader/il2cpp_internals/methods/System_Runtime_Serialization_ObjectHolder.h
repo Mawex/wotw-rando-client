@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::ObjectHolder {
 IL2CPP_REGISTER_METHOD(0x01ED59B0, void, __ctor, (ObjectHolder * __this, int64_t objID));

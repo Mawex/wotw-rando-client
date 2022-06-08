@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UberWaterControl_SplashInfo_ {
 IL2CPP_REGISTER_METHOD(0x02F63A30, void, Sort, (UberWaterControl_SplashInfo__Array * keys, int32_t index, int32_t length, IComparer_1_UberWaterControl_SplashInfo_ * comparer));

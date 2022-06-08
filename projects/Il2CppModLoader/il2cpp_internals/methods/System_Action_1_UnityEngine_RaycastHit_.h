@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::RaycastHit_ {
 IL2CPP_REGISTER_METHOD(0x02C0BD90, void, Invoke, (Action_1_UnityEngine_RaycastHit_ * __this, RaycastHit obj));

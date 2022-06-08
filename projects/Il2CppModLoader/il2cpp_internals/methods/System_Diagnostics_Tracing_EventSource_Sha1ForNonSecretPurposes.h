@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSource_Sha1ForNonSecretPurposes {
 IL2CPP_REGISTER_METHOD(0x00154C30, void, Start, (EventSource_Sha1ForNonSecretPurposes__Boxed * __this));

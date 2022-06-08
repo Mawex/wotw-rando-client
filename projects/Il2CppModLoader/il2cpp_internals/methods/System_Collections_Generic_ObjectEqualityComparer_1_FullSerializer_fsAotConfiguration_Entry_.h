@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_FullSerializer::fsAotConfiguration_Entry_ {
 IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals, (ObjectEqualityComparer_1_FullSerializer_fsAotConfiguration_Entry_ * __this, fsAotConfiguration_Entry x, fsAotConfiguration_Entry y));

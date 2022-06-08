@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseGameObjectSystem {
 IL2CPP_REGISTER_METHOD(0x027153E0, void, Initialize, (WwiseGameObjectSystem * __this, AkWwiseInitializationSettings * config));

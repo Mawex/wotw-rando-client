@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::AutoIncrementInt64 {
 IL2CPP_REGISTER_METHOD(0x02149EB0, Object *, get_Current, (AutoIncrementInt64 * __this));

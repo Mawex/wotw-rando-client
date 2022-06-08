@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ClassPropertyWriter_2_ContainerType_ValueType__Getter_EmptyStruct_System::Int64_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (ClassPropertyWriter_2_ContainerType_ValueType_Getter_EmptyStruct_System_Int64_ * __this, Object * object, void * method_1));

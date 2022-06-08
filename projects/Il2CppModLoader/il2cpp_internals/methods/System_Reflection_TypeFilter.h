@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::TypeFilter {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (TypeFilter * __this, Object * object, void * method_1));

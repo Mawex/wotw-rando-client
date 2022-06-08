@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolPerfTest__BenchmarkSinglePrefabPrewarm_d__39 {
 IL2CPP_REGISTER_METHOD(0x00123880, void, MoveNext, (UberPoolPerfTest_BenchmarkSinglePrefabPrewarm_d_39__Boxed * __this));

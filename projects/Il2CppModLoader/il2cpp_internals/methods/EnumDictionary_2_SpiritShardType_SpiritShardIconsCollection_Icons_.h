@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x019E35E0, SpiritShardIconsCollection_Icons, GetValue, (EnumDictionary_2_SpiritShardType_SpiritShardIconsCollection_Icons_ * __this, SpiritShardType__Enum key));

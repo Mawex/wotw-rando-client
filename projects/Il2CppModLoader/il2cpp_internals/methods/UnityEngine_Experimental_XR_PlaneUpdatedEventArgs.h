@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::XR::PlaneUpdatedEventArgs {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, set_PlaneSubsystem, (PlaneUpdatedEventArgs__Boxed * __this, XRPlaneSubsystem * value));

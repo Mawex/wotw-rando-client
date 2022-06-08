@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLeashEffectPoseAnimator {
 IL2CPP_REGISTER_METHOD(0x00D5C840, void, Awake, (SpiritLeashEffectPoseAnimator * __this));

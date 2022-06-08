@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::SchemaCollectionPreprocessor {
 IL2CPP_REGISTER_METHOD(0x01AA5130, void, __ctor, (SchemaCollectionPreprocessor * __this, XmlNameTable * nameTable, SchemaNames * schemaNames, ValidationEventHandler * eventHandler));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_4_Object_Object_Object_Object_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, Object *, get_Item1, (Tuple_4_Object_Object_Object_Object_ * __this));

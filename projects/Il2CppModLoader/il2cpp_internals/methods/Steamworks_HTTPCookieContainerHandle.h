@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::HTTPCookieContainerHandle {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (HTTPCookieContainerHandle__Boxed * __this, uint32_t value));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x006CE970, HTTPCookieContainerHandle, operator_, (uint32
 IL2CPP_REGISTER_METHOD(0x006CE970, uint32_t, operator_, (HTTPCookieContainerHandle that));
 IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals, (HTTPCookieContainerHandle__Boxed * __this, HTTPCookieContainerHandle other));
 IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (HTTPCookieContainerHandle__Boxed * __this, HTTPCookieContainerHandle other));
-IL2CPP_REGISTER_METHOD(0x015FBCA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015FBCA0, void, __cctor, ());
 }

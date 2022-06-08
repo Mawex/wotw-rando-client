@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::Handshake::HandshakeMessage {
 IL2CPP_REGISTER_METHOD(0x002FB9D0, Context_1 *, get_Context, (HandshakeMessage * __this));

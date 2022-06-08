@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::LinkedListNode_1_System::Text::RegularExpressions::CachedCodeEntry_ {
 IL2CPP_REGISTER_METHOD(0x002FBB00, CachedCodeEntry *, get_Value, (LinkedListNode_1_System_Text_RegularExpressions_CachedCodeEntry_ * __this));

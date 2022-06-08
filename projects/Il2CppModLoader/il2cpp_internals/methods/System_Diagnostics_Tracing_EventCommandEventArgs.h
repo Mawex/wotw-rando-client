@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventCommandEventArgs {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, EventCommand__Enum, get_Command, (EventCommandEventArgs * __this));

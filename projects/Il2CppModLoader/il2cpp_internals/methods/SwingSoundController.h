@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwingSoundController {
 IL2CPP_REGISTER_METHOD(0x01833180, void, Awake, (SwingSoundController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterInflateToAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F155B0, bool, get_WasHitDuringAttack, (LaserShooterInflateToAttackBehaviour * __this));

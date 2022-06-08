@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LevelUpDamageAction {
 IL2CPP_REGISTER_METHOD(0x01132D30, void, Perform, (LevelUpDamageAction * __this, IContext * context));

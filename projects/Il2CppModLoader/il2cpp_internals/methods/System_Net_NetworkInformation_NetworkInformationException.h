@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::NetworkInformationException {
 IL2CPP_REGISTER_METHOD(0x01BC9610, void, __ctor, (NetworkInformationException * __this));

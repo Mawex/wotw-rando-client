@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::PropertyAccessor_1_System::Char_ {
 IL2CPP_REGISTER_METHOD(0x02BA2460, PropertyAccessor_1_System_Char_ *, Create, (PropertyAnalysis * property));

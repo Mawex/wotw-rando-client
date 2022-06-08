@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::RotationLimitPolygonal {
 IL2CPP_REGISTER_METHOD(0x02A220F0, void, OpenUserManual, (RotationLimitPolygonal * __this));

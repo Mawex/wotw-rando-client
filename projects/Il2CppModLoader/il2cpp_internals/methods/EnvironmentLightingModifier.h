@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnvironmentLightingModifier {
 IL2CPP_REGISTER_METHOD(0x00CA8BA0, void, OnEnable, (EnvironmentLightingModifier * __this));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x00CA9510, void, UpdateFilterBind, (EnvironmentLightingM
 IL2CPP_REGISTER_METHOD(0x00CA9960, String *, GetBaseShaderProperties, (EnvironmentLightingModifier * __this));
 IL2CPP_REGISTER_METHOD(0x00CA9A00, void, SetProperties, (EnvironmentLightingModifier * __this));
 IL2CPP_REGISTER_METHOD(0x00CA9AF0, void, __ctor, (EnvironmentLightingModifier * __this));
-IL2CPP_REGISTER_METHOD(0x00CA9D30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00CA9D30, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2_System::Linq::Expressions::ParameterExpression_LocalVariables_VariableScope_ {
 IL2CPP_REGISTER_METHOD(0x025457C0, bool, TryGetValue, (HybridReferenceDictionary_2_System_Linq_Expressions_ParameterExpression_LocalVariables_VariableScope_ * __this, ParameterExpression * key, LocalVariables_VariableScope * * value));

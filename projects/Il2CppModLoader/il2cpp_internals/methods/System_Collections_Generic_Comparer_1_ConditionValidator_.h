@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Comparer_1_ConditionValidator_ {
-IL2CPP_REGISTER_METHOD(0x02807CD0, Comparer_1_ConditionValidator_ *, get_Default, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02807CD0, Comparer_1_ConditionValidator_ *, get_Default, ());
 IL2CPP_REGISTER_METHOD(0x02C970F0, Comparer_1_ConditionValidator_ *, Create, (Comparison_1_ConditionValidator_ * comparison));
 IL2CPP_REGISTER_METHODINFO(0x0471B698, Comparer_1_ConditionValidator__Create__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02C972F0, Comparer_1_ConditionValidator_ *, CreateComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C972F0, Comparer_1_ConditionValidator_ *, CreateComparer, ());
 IL2CPP_REGISTER_METHOD(0x028085A0, int32_t, IComparer_Compare, (Comparer_1_ConditionValidator_ * __this, Object * x, Object * y));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Comparer_1_ConditionValidator_ * __this));
 }

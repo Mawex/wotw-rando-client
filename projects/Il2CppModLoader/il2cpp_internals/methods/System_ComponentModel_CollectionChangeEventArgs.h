@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::CollectionChangeEventArgs {
 IL2CPP_REGISTER_METHOD(0x024A84B0, void, __ctor, (CollectionChangeEventArgs * __this, CollectionChangeAction__Enum action, Object * element));

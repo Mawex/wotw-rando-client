@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyHierarchyTransparancyAnimatorController {
 IL2CPP_REGISTER_METHOD(0x00A283D0, void, Start, (LegacyHierarchyTransparancyAnimatorController * __this));

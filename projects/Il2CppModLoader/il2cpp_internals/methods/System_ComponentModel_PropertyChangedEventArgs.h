@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::PropertyChangedEventArgs {
 IL2CPP_REGISTER_METHOD(0x02992480, void, __ctor, (PropertyChangedEventArgs * __this, String * propertyName));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossLocationTurningTimelineBehaviour {
 IL2CPP_REGISTER_METHOD(0x011B3D10, void, OnEnter, (SpiderBossLocationTurningTimelineBehaviour * __this, IContext * context));

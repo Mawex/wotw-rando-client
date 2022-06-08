@@ -1,19 +1,19 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Recorder {
-IL2CPP_REGISTER_METHOD(0x008E9240, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x008E9B20, bool, get_IsPlaying, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x008E9C20, bool, get_IsRecordering, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008E9240, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x008E9B20, bool, get_IsPlaying, ());
+IL2CPP_REGISTER_METHOD(0x008E9C20, bool, get_IsRecordering, ());
 IL2CPP_REGISTER_METHOD(0x008E9D20, float, get_PositionTolerance, (Recorder_1 * __this));
 IL2CPP_REGISTER_METHOD(0x008E9D40, float, get_RotationTolerance, (Recorder_1 * __this));
 IL2CPP_REGISTER_METHOD(0x008E9D60, RecorderFrame *, get_CurrentFrame, (Recorder_1 * __this));
-IL2CPP_REGISTER_METHOD(0x008E9D90, bool, get_Is4K, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008E9D90, bool, get_Is4K, ());
 IL2CPP_REGISTER_METHOD(0x008E9E30, void, set_Is4K, (bool value));
-IL2CPP_REGISTER_METHOD(0x008E9EE0, Recorder_RecorderState__Enum, get_State, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008E9EE0, Recorder_RecorderState__Enum, get_State, ());
 IL2CPP_REGISTER_METHOD(0x008E9F80, void, set_State, (Recorder_RecorderState__Enum value));
 IL2CPP_REGISTER_METHOD(0x008EA030, void, AddReplayToQueue, (String * replayPath, int32_t index));
-IL2CPP_REGISTER_METHOD(0x008EA160, bool, IsReplayQueueEmpty, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x008EA210, String *, GetReplayFromQueue, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008EA160, bool, IsReplayQueueEmpty, ());
+IL2CPP_REGISTER_METHOD(0x008EA210, String *, GetReplayFromQueue, ());
 IL2CPP_REGISTER_METHOD(0x008EA3B0, bool, OnPerformLoad, (Recorder_1 * __this));
 IL2CPP_REGISTER_METHOD(0x008EA4D0, void, OnPerformSave, (Recorder_1 * __this));
 IL2CPP_REGISTER_METHOD(0x008EA560, void, OnSceneRootActivatedScene, (Recorder_1 * __this, SceneRoot * sceneRoot));
@@ -40,12 +40,12 @@ IL2CPP_REGISTER_METHOD(0x008ECE90, void, RegisterPlugin, (Recorder_1 * __this, I
 IL2CPP_REGISTER_METHOD(0x008ECF30, void, DeregisterPlugin, (Recorder_1 * __this, IRecorderPlugin * plugin));
 IL2CPP_REGISTER_METHOD(0x008ECFD0, void, OnDestroy, (Recorder_1 * __this));
 IL2CPP_REGISTER_METHOD(0x008ED420, void, OnApplicationQuit, (Recorder_1 * __this));
-IL2CPP_REGISTER_METHOD(0x008ED500, void, AssertFoldersExist, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008ED500, void, AssertFoldersExist, ());
 IL2CPP_REGISTER_METHOD(0x008ED6A0, void, HandleLog, (Recorder_1 * __this, String * logString, String * stackTrace, LogType__Enum logType));
 IL2CPP_REGISTER_METHOD(0x008ED880, void, Exit, (Recorder_1 * __this));
 IL2CPP_REGISTER_METHOD(0x008EDA80, void, __ctor, (Recorder_1 * __this));
-IL2CPP_REGISTER_METHOD(0x008EDBF0, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x016AA670, Object *, GetPlugin, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008EDBF0, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x016AA670, Object *, GetPlugin, ());
 IL2CPP_REGISTER_METHOD(0x016AA2E0, Object *, GetFrameData, (int32_t frame));
 IL2CPP_REGISTER_METHOD(0x016AA2E0, CharacterData *, GetFrameData, (int32_t frame));
 IL2CPP_REGISTER_METHODINFO(0x04793A00, Recorder_1_GetFrameData_1__MethodInfo);

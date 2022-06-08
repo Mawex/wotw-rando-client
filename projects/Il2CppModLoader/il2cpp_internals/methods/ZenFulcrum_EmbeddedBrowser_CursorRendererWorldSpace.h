@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::CursorRendererWorldSpace {
 IL2CPP_REGISTER_METHOD(0x01DD2740, void, Awake, (CursorRendererWorldSpace * __this));

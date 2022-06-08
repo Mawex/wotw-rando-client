@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ScenariosParticleSystemAnimator {
 IL2CPP_REGISTER_METHOD(0x01E81F20, Transform *, get_TransformTarget, (ScenariosParticleSystemAnimator * __this));

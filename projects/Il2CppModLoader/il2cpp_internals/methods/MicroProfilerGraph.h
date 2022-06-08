@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MicroProfilerGraph {
 IL2CPP_REGISTER_METHOD(0x006142D0, bool, get_IsExpanded, (MicroProfilerGraph * __this));
@@ -10,7 +10,7 @@ IL2CPP_REGISTER_METHOD(0x015A47E0, void, _initDataProvider, (MicroProfilerGraph 
 IL2CPP_REGISTER_METHOD(0x015A4920, void, Awake, (MicroProfilerGraph * __this));
 IL2CPP_REGISTER_METHOD(0x015A5510, void, GetStartAndEndFrameForHighlightedTimeMarker, (MicroProfilerGraph * __this, int32_t * startIndex, int32_t * endIndex));
 IL2CPP_REGISTER_METHOD(0x015A56D0, void, InitializeMetrics, (MicroProfilerGraph * __this, Metric__Enum__Array * visibleMetrics, int32_t MaxMS));
-IL2CPP_REGISTER_METHOD(0x00417FF0, float, _getResScale, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417FF0, float, _getResScale, ());
 IL2CPP_REGISTER_METHOD(0x015A6290, void, OnEnable, (MicroProfilerGraph * __this));
 IL2CPP_REGISTER_METHOD(0x015A6460, void, OnDisable, (MicroProfilerGraph * __this));
 IL2CPP_REGISTER_METHOD(0x015A6630, void, OnEndOfFrame, (MicroProfilerGraph * __this));
@@ -46,5 +46,5 @@ IL2CPP_REGISTER_METHOD(0x007458F0, void, DrawRect, (MicroProfilerGraph * __this,
 IL2CPP_REGISTER_METHOD(0x015AC2A0, void, DrawNumber, (MicroProfilerGraph * __this, int32_t x, int32_t y, int32_t num, bool isLeading));
 IL2CPP_REGISTER_METHOD(0x015AC4F0, void, DrawDot, (MicroProfilerGraph * __this, int32_t x, int32_t y));
 IL2CPP_REGISTER_METHOD(0x015AC570, void, __ctor, (MicroProfilerGraph * __this));
-IL2CPP_REGISTER_METHOD(0x015AC610, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015AC610, void, __cctor, ());
 }

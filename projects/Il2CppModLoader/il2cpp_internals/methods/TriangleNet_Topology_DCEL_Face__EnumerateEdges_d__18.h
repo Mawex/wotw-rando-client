@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::DCEL::Face__EnumerateEdges_d__18 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (Face_EnumerateEdges_d_18 * __this, int32_t __1__state));

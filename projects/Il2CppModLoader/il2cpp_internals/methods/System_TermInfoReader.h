@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TermInfoReader {
 IL2CPP_REGISTER_METHOD(0x02444C20, void, __ctor, (TermInfoReader * __this, String * term, String * filename));

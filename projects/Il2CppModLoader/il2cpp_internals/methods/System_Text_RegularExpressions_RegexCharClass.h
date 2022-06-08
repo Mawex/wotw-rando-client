@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexCharClass {
-IL2CPP_REGISTER_METHOD(0x02588600, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02588600, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0258D500, void, __ctor, (RegexCharClass * __this));
 IL2CPP_REGISTER_METHOD(0x0258D760, void, __ctor, (RegexCharClass * __this, bool negate, List_1_System_Text_RegularExpressions_RegexCharClass_SingleRange_ * ranges, StringBuilder * categories, RegexCharClass * subtraction));
 IL2CPP_REGISTER_METHOD(0x0258D780, bool, get_CanMerge, (RegexCharClass * __this));

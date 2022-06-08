@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DamageResolver {
 IL2CPP_REGISTER_METHOD(0x01200D00, void, AddRuleOverrides, (DamageResolver * __this, DamageResolver_Rule__Array * rulesToOverride));

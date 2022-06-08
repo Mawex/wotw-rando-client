@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Animation::JobBasedAnimatorPostprocess_1_MatchJointsJob_ {
 IL2CPP_REGISTER_METHOD(0x019FC330, void, __ctor, (JobBasedAnimatorPostprocess_1_MatchJointsJob_ * __this));

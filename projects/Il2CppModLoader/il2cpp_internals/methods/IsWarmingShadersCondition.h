@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsWarmingShadersCondition {
 IL2CPP_REGISTER_METHOD(0x00648D30, bool, Validate, (IsWarmingShadersCondition * __this, IContext * context));

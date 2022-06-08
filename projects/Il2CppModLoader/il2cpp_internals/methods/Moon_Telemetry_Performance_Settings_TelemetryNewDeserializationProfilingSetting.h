@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::TelemetryNewDeserializationProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00E402B0, ProfilingSettings_SettingType__Enum, get_SettingType, (TelemetryNewDeserializationProfilingSetting * __this));

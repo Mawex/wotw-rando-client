@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerPuppetAbilities {
 IL2CPP_REGISTER_METHOD(0x01427E20, bool, HasAbility, (PlayerPuppetAbilities * __this, AbilityType__Enum abilityType));

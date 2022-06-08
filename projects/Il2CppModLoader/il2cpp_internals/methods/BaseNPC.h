@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaseNPC {
 IL2CPP_REGISTER_METHOD(0x00F86A90, void, Awake, (BaseNPC * __this));

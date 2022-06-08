@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_Moon::MoonAnimator_ {
 IL2CPP_REGISTER_METHOD(0x02CA7610, void, Enqueue, (Queue_1_Moon_MoonAnimator_ * __this, MoonAnimator * item));

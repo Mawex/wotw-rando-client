@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlatformMovement {
 IL2CPP_REGISTER_METHOD(0x011654C0, void, RefreshCapsulePropertiesCache, (PlatformMovement * __this));
@@ -140,7 +140,7 @@ IL2CPP_REGISTER_METHOD(0x0116D9C0, Collider *, get_GoThroughPlatformTesterCollid
 IL2CPP_REGISTER_METHOD(0x0061BAF0, float, get_GoThroughPlatformTestingRayRadius, (PlatformMovement * __this));
 IL2CPP_REGISTER_METHOD(0x0116D9D0, Vector3, get_RaySidewaysOffset, (PlatformMovement * __this));
 IL2CPP_REGISTER_METHOD(0x0116DB40, void, __ctor, (PlatformMovement * __this));
-IL2CPP_REGISTER_METHOD(0x0116ED10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0116ED10, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (PlatformMovement * __this));
 IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (PlatformMovement * __this));
 IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (PlatformMovement * __this));

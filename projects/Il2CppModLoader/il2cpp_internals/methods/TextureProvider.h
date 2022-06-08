@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextureProvider {
 IL2CPP_REGISTER_METHOD(0x010EC660, Texture2D *, GetTexture, (TextureProvider * __this));

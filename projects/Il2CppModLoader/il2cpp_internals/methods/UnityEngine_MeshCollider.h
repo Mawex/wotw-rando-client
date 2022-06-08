@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::MeshCollider {
 IL2CPP_REGISTER_METHOD(0x030A3710, Mesh *, get_sharedMesh, (MeshCollider * __this));

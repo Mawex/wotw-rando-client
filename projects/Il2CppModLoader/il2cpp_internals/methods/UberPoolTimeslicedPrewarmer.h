@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolTimeslicedPrewarmer {
 IL2CPP_REGISTER_METHOD(0x002FB990, UberPoolGroupWarmer__Array *, get_Warmers, (UberPoolTimeslicedPrewarmer * __this));

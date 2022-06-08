@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UnityTls_unitytls_interface_struct_unitytls_x509list_append_der_t * __this, Object * object, void * method_1));

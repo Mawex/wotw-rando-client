@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::BinaryWriter {
 IL2CPP_REGISTER_METHOD(0x01DFF690, void, __ctor, (BinaryWriter * __this));
@@ -33,5 +33,5 @@ IL2CPP_REGISTER_METHOD(0x01E008C0, void, Write, (BinaryWriter * __this, float va
 IL2CPP_REGISTER_METHOD(0x01E00920, void, Write, (BinaryWriter * __this, String * value));
 IL2CPP_REGISTER_METHODINFO(0x04767CC0, BinaryWriter_Write_15__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E00C90, void, Write7BitEncodedInt, (BinaryWriter * __this, int32_t value));
-IL2CPP_REGISTER_METHOD(0x01E00D00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E00D00, void, __cctor, ());
 }

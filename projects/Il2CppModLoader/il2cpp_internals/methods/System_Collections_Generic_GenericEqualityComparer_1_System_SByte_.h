@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System::SByte_ {
 IL2CPP_REGISTER_METHOD(0x02021DC0, bool, Equals, (GenericEqualityComparer_1_System_SByte_ * __this, int8_t x, int8_t y));

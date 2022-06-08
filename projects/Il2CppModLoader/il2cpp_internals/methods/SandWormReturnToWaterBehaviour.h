@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormReturnToWaterBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C22AF0, void, OnEntityInitialized, (SandWormReturnToWaterBehaviour * __this));

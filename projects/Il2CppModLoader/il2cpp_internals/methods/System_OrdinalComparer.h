@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::OrdinalComparer {
 IL2CPP_REGISTER_METHOD(0x0227C1D0, void, __ctor, (OrdinalComparer * __this, bool ignoreCase));

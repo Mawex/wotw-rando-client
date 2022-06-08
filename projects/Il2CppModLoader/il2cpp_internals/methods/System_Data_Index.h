@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Index {
 IL2CPP_REGISTER_METHOD(0x01E39C40, void, __ctor, (Index * __this, DataTable * table, IndexField__Array * indexFields, DataViewRowState__Enum recordStates, IFilter * rowFilter));

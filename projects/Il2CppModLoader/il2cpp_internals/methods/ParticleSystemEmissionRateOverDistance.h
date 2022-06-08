@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ParticleSystemEmissionRateOverDistance {
 IL2CPP_REGISTER_METHOD(0x00444FB0, void, OnPoolSpawned, (ParticleSystemEmissionRateOverDistance * __this));

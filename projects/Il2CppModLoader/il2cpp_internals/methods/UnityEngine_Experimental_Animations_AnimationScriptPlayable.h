@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Animations::AnimationScriptPlayable {
 IL2CPP_REGISTER_METHOD(0x00242700, void, __ctor, (AnimationScriptPlayable__Boxed * __this, PlayableHandle handle));
@@ -8,7 +8,7 @@ IL2CPP_REGISTER_METHOD(0x0307C600, Playable, operator_, (AnimationScriptPlayable
 IL2CPP_REGISTER_METHOD(0x03086610, AnimationScriptPlayable, operator_, (Playable playable));
 IL2CPP_REGISTER_METHOD(0x00242720, bool, Equals, (AnimationScriptPlayable__Boxed * __this, AnimationScriptPlayable other));
 IL2CPP_REGISTER_METHOD(0x03086650, bool, CreateHandleInternal, (PlayableGraph graph, PlayableHandle * handle, void * jobReflectionData));
-IL2CPP_REGISTER_METHOD(0x03086740, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03086740, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x03086810, bool, CreateHandleInternal_Injected, (PlayableGraph * graph, PlayableHandle * handle, void * jobReflectionData));
 IL2CPP_REGISTER_METHOD(0x0012E910, void, CheckJobTypeValidity, (AnimationScriptPlayable__Boxed * __this));
 IL2CPP_REGISTER_METHODINFO(0x047838D8, AnimationScriptPlayable_CheckJobTypeValidity__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SendMessageAction {
 IL2CPP_REGISTER_METHOD(0x00AB5B70, void, Perform, (SendMessageAction * __this, IContext * context));

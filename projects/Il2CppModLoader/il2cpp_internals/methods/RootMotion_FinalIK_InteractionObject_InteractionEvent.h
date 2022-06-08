@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionObject_InteractionEvent {
 IL2CPP_REGISTER_METHOD(0x02A0DC20, void, Activate, (InteractionObject_InteractionEvent * __this, Transform * t));

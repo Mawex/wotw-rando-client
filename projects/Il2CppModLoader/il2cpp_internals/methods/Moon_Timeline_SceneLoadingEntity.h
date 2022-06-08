@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SceneLoadingEntity {
 IL2CPP_REGISTER_METHOD(0x00783C60, void, OnStartPlayback, (SceneLoadingEntity * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecordingTransformTracker {
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_TrackTranformChangesForRecording, (RecordingTransformTracker * __this));

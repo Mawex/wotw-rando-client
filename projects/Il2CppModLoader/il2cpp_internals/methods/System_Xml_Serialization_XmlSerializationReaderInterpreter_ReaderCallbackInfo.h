@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSerializationReaderInterpreter_ReaderCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (XmlSerializationReaderInterpreter_ReaderCallbackInfo * __this, XmlSerializationReaderInterpreter * sri, XmlTypeMapping * typeMap));

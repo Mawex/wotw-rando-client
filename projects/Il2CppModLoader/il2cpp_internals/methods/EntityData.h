@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityData {
 IL2CPP_REGISTER_METHOD(0x00C8F220, RecorderFrame_FrameDataTypes__Enum, FrameType, (EntityData * __this));

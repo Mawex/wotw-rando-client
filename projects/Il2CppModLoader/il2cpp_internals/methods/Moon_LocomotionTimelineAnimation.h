@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LocomotionTimelineAnimation {
 IL2CPP_REGISTER_METHOD(0x0110E240, float, get_SpeedFromDistanceAndDuration, (LocomotionTimelineAnimation * __this));

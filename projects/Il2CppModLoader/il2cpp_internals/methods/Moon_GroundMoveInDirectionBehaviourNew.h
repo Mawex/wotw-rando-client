@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::GroundMoveInDirectionBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x014919F0, void, OnEnter, (GroundMoveInDirectionBehaviourNew * __this, IContext * context));

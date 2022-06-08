@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::KeepScenesLoaded {
 IL2CPP_REGISTER_METHOD(0x00772AB0, void, OnEnable, (KeepScenesLoaded * __this));

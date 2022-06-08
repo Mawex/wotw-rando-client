@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::ForceSuccessDecorator {
 IL2CPP_REGISTER_METHOD(0x0300DDF0, BehaviourStatus__Enum, OnExecute, (ForceSuccessDecorator * __this, IContext * context));

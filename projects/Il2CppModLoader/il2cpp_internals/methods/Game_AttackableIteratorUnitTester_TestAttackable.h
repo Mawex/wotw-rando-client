@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Game::AttackableIteratorUnitTester_TestAttackable {
 IL2CPP_REGISTER_METHOD(0x01521270, Vector3, get_Position, (AttackableIteratorUnitTester_TestAttackable * __this));

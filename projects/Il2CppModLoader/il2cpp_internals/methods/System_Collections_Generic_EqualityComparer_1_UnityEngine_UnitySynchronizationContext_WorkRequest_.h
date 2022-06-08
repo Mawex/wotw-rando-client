@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_UnityEngine::UnitySynchronizationContext_WorkRequest_ {
-IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ *, get_Default, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02B57ED0, EqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ *, CreateComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ *, get_Default, ());
+IL2CPP_REGISTER_METHOD(0x02B57ED0, EqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ *, CreateComparer, ());
 IL2CPP_REGISTER_METHOD(0x02B49B00, int32_t, IndexOf, (EqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ * __this, UnitySynchronizationContext_WorkRequest__Array * array, UnitySynchronizationContext_WorkRequest value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B49BF0, int32_t, LastIndexOf, (EqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ * __this, UnitySynchronizationContext_WorkRequest__Array * array, UnitySynchronizationContext_WorkRequest value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B49CE0, int32_t, IEqualityComparer_GetHashCode, (EqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ * __this, Object * obj));

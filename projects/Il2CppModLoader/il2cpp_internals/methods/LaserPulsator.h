@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserPulsator {
 IL2CPP_REGISTER_METHOD(0x00F08060, void, Awake, (LaserPulsator * __this));

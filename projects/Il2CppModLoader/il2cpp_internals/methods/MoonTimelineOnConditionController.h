@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTimelineOnConditionController {
 IL2CPP_REGISTER_METHOD(0x014732D0, MoonTimeline *, get_OnConditionEnterResolved, (MoonTimelineOnConditionController * __this));

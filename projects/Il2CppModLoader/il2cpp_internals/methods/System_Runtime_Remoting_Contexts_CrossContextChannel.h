@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Contexts::CrossContextChannel {
 IL2CPP_REGISTER_METHOD(0x023048D0, IMessage *, SyncProcessMessage, (CrossContextChannel * __this, IMessage * msg));

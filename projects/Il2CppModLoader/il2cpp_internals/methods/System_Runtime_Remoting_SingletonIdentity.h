@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::SingletonIdentity {
 IL2CPP_REGISTER_METHOD(0x01D836D0, void, __ctor, (SingletonIdentity * __this, String * objectUri, Context * context, Type * objectType));

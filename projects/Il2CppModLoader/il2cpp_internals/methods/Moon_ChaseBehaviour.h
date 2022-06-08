@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ChaseBehaviour {
 IL2CPP_REGISTER_METHOD(0x002FBBE0, GameObject *, get_ChaseTarget, (ChaseBehaviour * __this));

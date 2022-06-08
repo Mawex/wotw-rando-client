@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleJoint {
 IL2CPP_REGISTER_METHOD(0x010CDB80, void, add_ReceiveDamageCallback, (TentacleJoint * __this, Action_2_Damage_Int32_ * value));

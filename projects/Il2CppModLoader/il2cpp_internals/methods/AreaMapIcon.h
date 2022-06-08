@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AreaMapIcon {
 IL2CPP_REGISTER_METHOD(0x0050CA80, bool, ShouldShowAttentionMarker, (AreaMapIcon * __this, GameWorldAreaID__Enum areaID));

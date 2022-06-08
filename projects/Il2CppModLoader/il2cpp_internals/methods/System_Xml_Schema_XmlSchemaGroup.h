@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaGroup {
 IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_Name, (XmlSchemaGroup * __this));

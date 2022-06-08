@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceMenuScreenPlaceholder {
 IL2CPP_REGISTER_METHOD(0x007101C0, void, Awake, (RaceMenuScreenPlaceholder * __this));

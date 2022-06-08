@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UpgradeAbilityItem {
 IL2CPP_REGISTER_METHOD(0x013AF3B0, int32_t, get_MaxLevel, (UpgradeAbilityItem * __this));

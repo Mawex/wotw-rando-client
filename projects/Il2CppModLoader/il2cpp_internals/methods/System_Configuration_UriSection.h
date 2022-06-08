@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::UriSection {
 IL2CPP_REGISTER_METHOD(0x01FFE320, void, __ctor, (UriSection * __this));

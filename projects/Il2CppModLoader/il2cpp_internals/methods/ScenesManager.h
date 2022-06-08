@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScenesManager {
 IL2CPP_REGISTER_METHOD(0x00BC1A90, bool, SceneVisibleAtPosition, (ScenesManager * __this, Vector3 position));
@@ -55,7 +55,7 @@ IL2CPP_REGISTER_METHOD(0x00BC7A80, void, Update, (ScenesManager * __this));
 IL2CPP_REGISTER_METHOD(0x00BC7B70, void, OnDestroy, (ScenesManager * __this));
 IL2CPP_REGISTER_METHOD(0x00BC8170, void, OnSceneLoaded, (ScenesManager * __this, Scene scene, LoadSceneMode__Enum loadMode));
 IL2CPP_REGISTER_METHODINFO(0x04724088, ScenesManager_OnSceneLoaded__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00BC82E0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BC82E0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00BC83C0, void, FixedUpdate, (ScenesManager * __this));
 IL2CPP_REGISTER_METHOD(0x00BC8620, void, LateUpdate, (ScenesManager * __this));
 IL2CPP_REGISTER_METHOD(0x00BC8B90, void, RefreshUnreadiedScenes, (ScenesManager * __this));
@@ -167,7 +167,7 @@ IL2CPP_REGISTER_METHOD(0x00BD6170, bool, ShouldSceneBeHidden, (ScenesManager * _
 IL2CPP_REGISTER_METHOD(0x00BD61B0, void, CheckVisibilityInPadding, (ScenesManager * __this, SceneManagerScene * scene));
 IL2CPP_REGISTER_METHOD(0x00BD63F0, void, CheckVisibilityOutsidePadding, (ScenesManager * __this, SceneManagerScene * smScene));
 IL2CPP_REGISTER_METHOD(0x00BD67C0, void, TestForFallOutOfWorld, (ScenesManager * __this));
-IL2CPP_REGISTER_METHOD(0x00BD6CB0, void, AddOutOfWorldTelemetryGraceTime, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BD6CB0, void, AddOutOfWorldTelemetryGraceTime, ());
 IL2CPP_REGISTER_METHOD(0x00BD6D90, IEnumerator *, ShowFellOutOfWorldMessage, (ScenesManager * __this));
 IL2CPP_REGISTER_METHOD(0x00BD6ED0, void, ForceTestForOutOfWorld, (ScenesManager * __this));
 IL2CPP_REGISTER_METHOD(0x00BD6EF0, void, DrawScenesManagerDebugData, (ScenesManager * __this, bool extended));
@@ -195,5 +195,5 @@ IL2CPP_REGISTER_METHOD(0x00BD8580, bool, get_SimulateBadStreaming, (ScenesManage
 IL2CPP_REGISTER_METHOD(0x00BD8590, void, set_SimulateBadStreaming, (ScenesManager * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DisableBuildPipelineInterfacesCallbacks, (ScenesManager * __this));
 IL2CPP_REGISTER_METHOD(0x00BD8AF0, void, __ctor, (ScenesManager * __this));
-IL2CPP_REGISTER_METHOD(0x00BDA620, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BDA620, void, __cctor, ());
 }

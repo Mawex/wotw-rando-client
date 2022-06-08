@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Navigation {
 IL2CPP_REGISTER_METHOD(0x001EBC90, Navigation_Mode__Enum, get_mode, (Navigation__Boxed * __this));
@@ -11,6 +11,6 @@ IL2CPP_REGISTER_METHOD(0x001FBBB0, Selectable *, get_selectOnLeft, (Navigation__
 IL2CPP_REGISTER_METHOD(0x0010D3C0, void, set_selectOnLeft, (Navigation__Boxed * __this, Selectable * value));
 IL2CPP_REGISTER_METHOD(0x001FBBC0, Selectable *, get_selectOnRight, (Navigation__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0010D3D0, void, set_selectOnRight, (Navigation__Boxed * __this, Selectable * value));
-IL2CPP_REGISTER_METHOD(0x02662E00, Navigation, get_defaultNavigation, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02662E00, Navigation, get_defaultNavigation, ());
 IL2CPP_REGISTER_METHOD(0x001FBBD0, bool, Equals, (Navigation__Boxed * __this, Navigation other));
 }

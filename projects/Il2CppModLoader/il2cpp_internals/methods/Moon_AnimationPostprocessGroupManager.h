@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimationPostprocessGroupManager {
 IL2CPP_REGISTER_METHOD(0x01B04910, float, GetGroupWeight, (AnimationPostprocessGroupManager * __this, AnimationPostprocessGroup * group));

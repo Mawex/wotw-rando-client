@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinCarry__DelayedPickupSound_d__41 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (SeinCarry_DelayedPickupSound_d_41 * __this, int32_t __1__state));

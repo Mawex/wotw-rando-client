@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::J2i::Net::XInputWrapper::XboxControllerStateChangedEventArgs {
 IL2CPP_REGISTER_METHOD(0x011927A0, void, set_CurrentInputState, (XboxControllerStateChangedEventArgs * __this, XInputState value));

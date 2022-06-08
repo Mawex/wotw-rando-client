@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUILayoutEntry {
 IL2CPP_REGISTER_METHOD(0x029E6F30, void, __ctor, (GUILayoutEntry * __this, float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, GUIStyle * _style));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x029E7450, void, SetVertical, (GUILayoutEntry * __this, 
 IL2CPP_REGISTER_METHOD(0x029E7460, void, ApplyStyleSettings, (GUILayoutEntry * __this, GUIStyle * style));
 IL2CPP_REGISTER_METHOD(0x029E75F0, void, ApplyOptions, (GUILayoutEntry * __this, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E79E0, String *, ToString, (GUILayoutEntry * __this));
-IL2CPP_REGISTER_METHOD(0x029E8260, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E8260, void, __cctor, ());
 }

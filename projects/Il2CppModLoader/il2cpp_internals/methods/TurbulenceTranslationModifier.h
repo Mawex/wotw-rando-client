@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceTranslationModifier {
 IL2CPP_REGISTER_METHOD(0x013D6150, void, OnPresetCreation, (TurbulenceTranslationModifier * __this));

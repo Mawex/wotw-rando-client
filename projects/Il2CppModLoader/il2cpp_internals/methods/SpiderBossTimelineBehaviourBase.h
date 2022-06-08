@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossTimelineBehaviourBase {
 IL2CPP_REGISTER_METHOD(0x011BADD0, void, OnEnter, (SpiderBossTimelineBehaviourBase * __this, IContext * context));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDashNew___c {
-IL2CPP_REGISTER_METHOD(0x006FCE30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006FCE30, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SeinDashNew_c * __this));
 IL2CPP_REGISTER_METHOD(0x00502220, MonoBehaviour *, _FindClosestDiggableBody_b__93_0, (SeinDashNew_c * __this, DigZone * x));
 IL2CPP_REGISTER_METHODINFO(0x04760240, SeinDashNew_c__FindClosestDiggableBody_b__93_0__MethodInfo);

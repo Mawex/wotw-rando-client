@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoEvent {
 IL2CPP_REGISTER_METHOD(0x0268FF20, MethodInfo_1 *, GetAddMethod, (MonoEvent * __this, bool nonPublic));

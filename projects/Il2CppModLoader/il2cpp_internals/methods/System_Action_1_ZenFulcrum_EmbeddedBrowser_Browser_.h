@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_ZenFulcrum::EmbeddedBrowser::Browser_ {
 IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (Action_1_ZenFulcrum_EmbeddedBrowser_Browser_ * __this, Browser * obj));

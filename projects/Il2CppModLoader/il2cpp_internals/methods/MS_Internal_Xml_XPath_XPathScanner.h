@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::XPathScanner {
 IL2CPP_REGISTER_METHOD(0x021DFD20, void, __ctor, (XPathScanner * __this, String * xpathExpr));

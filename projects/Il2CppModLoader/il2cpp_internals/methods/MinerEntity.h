@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerEntity {
 IL2CPP_REGISTER_METHOD(0x014489D0, bool, get_CanHaveShield, (MinerEntity * __this));

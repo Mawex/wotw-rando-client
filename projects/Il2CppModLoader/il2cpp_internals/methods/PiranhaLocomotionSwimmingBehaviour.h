@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PiranhaLocomotionSwimmingBehaviour {
 IL2CPP_REGISTER_METHOD(0x01160790, Vector3, get_TargetPosition, (PiranhaLocomotionSwimmingBehaviour * __this));

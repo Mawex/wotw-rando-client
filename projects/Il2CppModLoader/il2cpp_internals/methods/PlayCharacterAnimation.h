@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayCharacterAnimation {
 IL2CPP_REGISTER_METHOD(0x01176D90, void, Perform, (PlayCharacterAnimation * __this, IContext * context));

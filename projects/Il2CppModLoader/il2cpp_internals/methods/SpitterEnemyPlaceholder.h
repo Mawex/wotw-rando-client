@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpitterEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x0099F850, LegacyEntity *, Instantiate, (SpitterEnemyPlaceholder * __this));

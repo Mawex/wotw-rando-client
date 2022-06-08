@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlWellFormedWriter_AttributeValueCache {
 IL2CPP_REGISTER_METHOD(0x01FD3600, String *, get_StringValue, (XmlWellFormedWriter_AttributeValueCache * __this));

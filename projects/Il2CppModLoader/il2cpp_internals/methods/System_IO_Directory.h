@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Directory {
 IL2CPP_REGISTER_METHOD(0x01E01E10, String__Array *, GetFiles, (String * path));
@@ -23,8 +23,8 @@ IL2CPP_REGISTER_METHODINFO(0x047960E8, Directory_Delete__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E02EC0, void, RecursiveDelete, (String * path));
 IL2CPP_REGISTER_METHOD(0x01E03070, void, Delete, (String * path, bool recursive));
 IL2CPP_REGISTER_METHOD(0x01E03140, bool, Exists, (String * path));
-IL2CPP_REGISTER_METHOD(0x01A18980, String *, GetCurrentDirectory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01E032C0, String *, InsecureGetCurrentDirectory, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A18980, String *, GetCurrentDirectory, ());
+IL2CPP_REGISTER_METHOD(0x01E032C0, String *, InsecureGetCurrentDirectory, ());
 IL2CPP_REGISTER_METHODINFO(0x0470FC30, Directory_InsecureGetCurrentDirectory__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E03420, bool, IsRootDirectory, (String * path));
 IL2CPP_REGISTER_METHOD(0x01E03560, DirectoryInfo *, GetParent, (String * path));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::BindingRestrictions {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (BindingRestrictions * __this));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHOD(0x01F887B0, BindingRestrictions *, GetTypeRestriction, (D
 IL2CPP_REGISTER_METHOD(0x01F888C0, BindingRestrictions *, GetInstanceRestriction, (Expression * expression, Object * instance));
 IL2CPP_REGISTER_METHOD(0x00980110, Expression *, ToExpression, (BindingRestrictions * __this));
 IL2CPP_REGISTER_METHOD(0x01F88AA0, String *, get_DebugView, (BindingRestrictions * __this));
-IL2CPP_REGISTER_METHOD(0x01F88AE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F88AE0, void, __cctor, ());
 }

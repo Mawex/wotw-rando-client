@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoHitReaction {
 IL2CPP_REGISTER_METHOD(0x0049F2B0, EntityDamageEvent *, get_DamageEvent, (SkeetoHitReaction * __this));

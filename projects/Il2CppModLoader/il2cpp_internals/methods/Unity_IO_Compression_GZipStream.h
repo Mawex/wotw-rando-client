@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::GZipStream {
 IL2CPP_REGISTER_METHOD(0x02B78E60, void, __ctor, (GZipStream_2 * __this, Stream * stream, CompressionMode__Enum_2 mode));

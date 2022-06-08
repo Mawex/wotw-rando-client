@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Animations::AnimationVerletPlayable {
 IL2CPP_REGISTER_METHOD(0x00241FC0, void, __ctor, (AnimationVerletPlayable__Boxed * __this, PlayableHandle handle));

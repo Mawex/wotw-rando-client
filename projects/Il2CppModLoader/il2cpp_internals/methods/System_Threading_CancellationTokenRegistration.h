@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::CancellationTokenRegistration {
 IL2CPP_REGISTER_METHOD(0x00151540, void, __ctor, (CancellationTokenRegistration__Boxed * __this, CancellationCallbackInfo * callbackInfo, SparselyPopulatedArrayAddInfo_1_CancellationCallbackInfo_ registrationInfo));

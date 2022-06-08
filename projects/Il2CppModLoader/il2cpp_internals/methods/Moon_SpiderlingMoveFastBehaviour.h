@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SpiderlingMoveFastBehaviour {
 IL2CPP_REGISTER_METHOD(0x007586C0, Vector3, get_PatrolOrigin, (SpiderlingMoveFastBehaviour * __this));

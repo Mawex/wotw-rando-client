@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::VersionNotFoundException {
 IL2CPP_REGISTER_METHOD(0x022C1950, void, __ctor, (VersionNotFoundException * __this, SerializationInfo * info, StreamingContext context));

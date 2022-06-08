@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_MS::Internal::Xml::Cache::XPathNodeRef_MS::Internal::Xml::Cache::XPathNodeRef_ {
 IL2CPP_REGISTER_METHOD(0x01D50690, void, __ctor, (Dictionary_2_TKey_TValue_KeyCollection_MS_Internal_Xml_Cache_XPathNodeRef_MS_Internal_Xml_Cache_XPathNodeRef_ * __this, Dictionary_2_MS_Internal_Xml_Cache_XPathNodeRef_MS_Internal_Xml_Cache_XPathNodeRef_ * dictionary));

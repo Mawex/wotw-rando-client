@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::SparselyPopulatedArrayFragment_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02775470, Object *, get_Item, (SparselyPopulatedArrayFragment_1_System_Object_ * __this, int32_t index));

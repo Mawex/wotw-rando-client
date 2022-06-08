@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IMoonEffectPoolExtensions {
 IL2CPP_REGISTER_METHOD(0x0154A080, void, ReturnToPool, (IMoonEffectPool_1_System_Object_ * pool, Object * instance));

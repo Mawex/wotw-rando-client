@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JumpShotProjectile {
 IL2CPP_REGISTER_METHOD(0x00E4FE70, void, Start, (JumpShotProjectile * __this));

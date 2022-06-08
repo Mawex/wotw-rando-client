@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_FullSerializer::Internal::fsVersionedType_ {
 IL2CPP_REGISTER_METHOD(0x0243CB70, void, __ctor, (Queue_1_FullSerializer_Internal_fsVersionedType_ * __this));

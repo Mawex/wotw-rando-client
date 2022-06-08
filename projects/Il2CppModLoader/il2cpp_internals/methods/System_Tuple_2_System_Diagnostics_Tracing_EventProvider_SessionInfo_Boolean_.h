@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_System::Diagnostics::Tracing::EventProvider_SessionInfo_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, EventProvider_SessionInfo, get_Item1, (Tuple_2_System_Diagnostics_Tracing_EventProvider_SessionInfo_Boolean_ * __this));

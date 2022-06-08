@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Jobs::TransformAccessArray {
 IL2CPP_REGISTER_METHOD(0x001F2790, void, __ctor, (TransformAccessArray__Boxed * __this, Transform__Array * transforms, int32_t desiredJobCount));

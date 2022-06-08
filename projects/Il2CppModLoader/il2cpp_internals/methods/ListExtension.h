@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ListExtension {
 IL2CPP_REGISTER_METHOD(0x018F2D30, bool, RemoveAtUnordered, (List_1_System_Object_ * list, int32_t index));

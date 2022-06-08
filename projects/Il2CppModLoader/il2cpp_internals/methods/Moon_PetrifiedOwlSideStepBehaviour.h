@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PetrifiedOwlSideStepBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C396A0, void, Awake, (PetrifiedOwlSideStepBehaviour * __this));

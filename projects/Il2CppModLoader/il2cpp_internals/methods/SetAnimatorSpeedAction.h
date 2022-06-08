@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetAnimatorSpeedAction {
 IL2CPP_REGISTER_METHOD(0x005A1AC0, void, Perform, (SetAnimatorSpeedAction * __this, IContext * context));

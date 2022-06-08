@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundPlayerRef {
 IL2CPP_REGISTER_METHOD(0x00107C00, SoundPlayer *, get_Player, (SoundPlayerRef__Boxed * __this));

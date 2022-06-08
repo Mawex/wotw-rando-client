@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::RectExtensions {
 IL2CPP_REGISTER_METHOD(0x0182EF30, Rect, scale, (Rect _this, float _scale));

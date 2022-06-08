@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TypeDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x02947440, IComNativeDescriptorHandler *, get_ComNativeDescriptorHandler, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02947440, IComNativeDescriptorHandler *, get_ComNativeDescriptorHandler, ());
 IL2CPP_REGISTER_METHOD(0x02947530, void, set_ComNativeDescriptorHandler, (IComNativeDescriptorHandler * value));
-IL2CPP_REGISTER_METHOD(0x02947790, Type *, get_ComObjectType, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02947830, Type *, get_InterfaceType, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x029478D0, int32_t, get_MetadataVersion, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02947790, Type *, get_ComObjectType, ());
+IL2CPP_REGISTER_METHOD(0x02947830, Type *, get_InterfaceType, ());
+IL2CPP_REGISTER_METHOD(0x029478D0, int32_t, get_MetadataVersion, ());
 IL2CPP_REGISTER_METHOD(0x02947970, void, add_Refreshed, (RefreshEventHandler * value));
 IL2CPP_REGISTER_METHOD(0x02947AB0, void, remove_Refreshed, (RefreshEventHandler * value));
 IL2CPP_REGISTER_METHOD(0x02947BF0, TypeDescriptionProvider *, AddAttributes, (Type * type, Attribute__Array * attributes));
@@ -133,5 +133,5 @@ IL2CPP_REGISTER_METHOD(0x029555F0, bool, ShouldHideMember, (MemberDescriptor * m
 IL2CPP_REGISTER_METHOD(0x029556B0, void, SortDescriptorArray, (IList * infos));
 IL2CPP_REGISTER_METHODINFO(0x0477A720, TypeDescriptor_SortDescriptorArray__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Trace, (String * message, Object__Array * args));
-IL2CPP_REGISTER_METHOD(0x029557E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029557E0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::OrderedDictionary {
 IL2CPP_REGISTER_METHOD(0x0249BA70, void, __ctor, (OrderedDictionary * __this));

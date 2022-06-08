@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::Angle {
 IL2CPP_REGISTER_METHOD(0x0010FDD0, float, get_rad, (Angle__Boxed * __this));
@@ -53,5 +53,5 @@ IL2CPP_REGISTER_METHOD(0x0182A870, Angle, fromArcLength, (float _arcLength, floa
 IL2CPP_REGISTER_METHOD(0x0014AB20, float, get_cos, (Angle__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0014ABD0, float, get_sin, (Angle__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0014AC80, void, clamp, (Angle__Boxed * __this, Angle _min, Angle _max));
-IL2CPP_REGISTER_METHOD(0x0182A880, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0182A880, void, __cctor, ());
 }

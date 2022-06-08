@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Newtonsoft::Json::JsonPosition_ {
 IL2CPP_REGISTER_METHOD(0x01CC7E80, int32_t, Compare, (ObjectComparer_1_Newtonsoft_Json_JsonPosition_ * __this, JsonPosition x, JsonPosition y));

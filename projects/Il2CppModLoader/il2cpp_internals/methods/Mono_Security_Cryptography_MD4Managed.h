@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::MD4Managed {
 IL2CPP_REGISTER_METHOD(0x025CF410, void, __ctor, (MD4Managed * __this));

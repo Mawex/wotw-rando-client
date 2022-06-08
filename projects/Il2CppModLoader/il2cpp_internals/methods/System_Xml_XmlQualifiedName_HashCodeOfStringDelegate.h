@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlQualifiedName_HashCodeOfStringDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XmlQualifiedName_HashCodeOfStringDelegate * __this, Object * object, void * method_1));

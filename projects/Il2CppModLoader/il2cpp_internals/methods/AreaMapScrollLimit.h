@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AreaMapScrollLimit {
 IL2CPP_REGISTER_METHOD(0x00417920, SelectableCategory__Enum, get_Category, (AreaMapScrollLimit * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::FreezeColorVariationProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00E3CE50, ProfilingSettings_SettingType__Enum, get_SettingType, (FreezeColorVariationProfilingSetting * __this));

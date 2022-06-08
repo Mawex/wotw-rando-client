@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OriLayeredAnimationsController {
 IL2CPP_REGISTER_METHOD(0x0043DA30, MoonAnimator *, get_OriAnimator, (OriLayeredAnimationsController * __this));

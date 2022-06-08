@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::LazyInitializer {
 IL2CPP_REGISTER_METHOD(0x0157AA30, Object *, EnsureInitialized, (Object * * target, Func_1_Object_ * valueFactory));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Dithering {
 IL2CPP_REGISTER_METHOD(0x030427D0, void, OnRenderImage, (Dithering * __this, RenderTexture * source, RenderTexture * destination));

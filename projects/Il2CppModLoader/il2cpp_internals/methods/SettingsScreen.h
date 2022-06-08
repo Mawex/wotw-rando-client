@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SettingsScreen {
-IL2CPP_REGISTER_METHOD(0x005A5280, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005A5280, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x005A5300, void, Awake, (SettingsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x005A5400, void, OnDestroy, (SettingsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x005A54E0, void, FixedUpdate, (SettingsScreen * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_PlayFab::EventsModels::EventContents_ {
 IL2CPP_REGISTER_METHOD(0x02CA7610, void, Enqueue, (Queue_1_PlayFab_EventsModels_EventContents_ * __this, EventContents * item));

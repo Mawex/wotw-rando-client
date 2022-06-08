@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartAnimation {
 IL2CPP_REGISTER_METHOD(0x00B31760, void, set_AddtiveRotation, (CartAnimation * __this, float value));

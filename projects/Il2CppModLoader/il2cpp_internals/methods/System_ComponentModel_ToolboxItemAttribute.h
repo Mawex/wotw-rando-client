@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ToolboxItemAttribute {
 IL2CPP_REGISTER_METHOD(0x029ADF90, bool, IsDefaultAttribute, (ToolboxItemAttribute * __this));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHODINFO(0x0473CAE8, ToolboxItemAttribute_get_ToolboxItemType_
 IL2CPP_REGISTER_METHOD(0x029AE390, String *, get_ToolboxItemTypeName, (ToolboxItemAttribute * __this));
 IL2CPP_REGISTER_METHOD(0x029AE420, bool, Equals, (ToolboxItemAttribute * __this, Object * obj));
 IL2CPP_REGISTER_METHOD(0x029AE550, int32_t, GetHashCode, (ToolboxItemAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x029AE580, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029AE580, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CutsceneButtonPressedTransition {
 IL2CPP_REGISTER_METHOD(0x00DBD8C0, bool, ShouldTransition, (CutsceneButtonPressedTransition * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Ku {
 IL2CPP_REGISTER_METHOD(0x0122A160, Vector3, get_WorldSpeed, (Ku * __this));
@@ -33,7 +33,7 @@ IL2CPP_REGISTER_METHOD(0x0122B040, bool, IsPointInsideCollectableDetector, (Ku *
 IL2CPP_REGISTER_METHOD(0x0122B1D0, Action_1_Single_ *, get_OnJump, (Ku * __this));
 IL2CPP_REGISTER_METHOD(0x0122B2C0, void, set_OnJump, (Ku * __this, Action_1_Single_ * value));
 IL2CPP_REGISTER_METHOD(0x0122B3B0, void, Update, (Ku * __this));
-IL2CPP_REGISTER_METHOD(0x0122B750, void, DestroyIfOutOfBounds, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0122B750, void, DestroyIfOutOfBounds, ());
 IL2CPP_REGISTER_METHOD(0x008612A0, void, set_Active, (Ku * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x006514B0, bool, get_Active, (Ku * __this));
 IL2CPP_REGISTER_METHOD(0x0122BA30, ActiveAnimationHandle, PlayAnimation, (Ku * __this, MoonAnimation * animation, int32_t priority, Func_1_Boolean_ * continueCondition, Action * onAnimationEnd, bool forceOverride));

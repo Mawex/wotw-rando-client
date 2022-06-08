@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::SocketAsyncEventArgs {
 IL2CPP_REGISTER_METHOD(0x002FB990, Socket *, get_AcceptSocket, (SocketAsyncEventArgs * __this));

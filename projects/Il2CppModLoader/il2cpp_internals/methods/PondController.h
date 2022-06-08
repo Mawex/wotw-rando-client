@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PondController {
 IL2CPP_REGISTER_METHOD(0x00C5E4E0, void, FixedUpdate, (PondController * __this));

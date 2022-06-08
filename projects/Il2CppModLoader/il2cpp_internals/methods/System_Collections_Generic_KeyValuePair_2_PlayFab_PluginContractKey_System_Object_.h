@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_PlayFab::PluginContractKey_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0011BFB0, void, __ctor, (KeyValuePair_2_PlayFab_PluginContractKey_System_Object___Boxed * __this, PluginContractKey key, Object * value));

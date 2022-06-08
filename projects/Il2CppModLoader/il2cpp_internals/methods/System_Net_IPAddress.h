@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::IPAddress {
 IL2CPP_REGISTER_METHOD(0x01E66070, void, __ctor, (IPAddress * __this, int64_t newAddress));
@@ -45,5 +45,5 @@ IL2CPP_REGISTER_METHOD(0x01E680C0, IPAddress *, Snapshot, (IPAddress * __this));
 IL2CPP_REGISTER_METHODINFO(0x0474B760, IPAddress_Snapshot__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E68340, IPAddress *, MapToIPv6, (IPAddress * __this));
 IL2CPP_REGISTER_METHOD(0x01E68570, IPAddress *, MapToIPv4, (IPAddress * __this));
-IL2CPP_REGISTER_METHOD(0x01E68760, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E68760, void, __cctor, ());
 }

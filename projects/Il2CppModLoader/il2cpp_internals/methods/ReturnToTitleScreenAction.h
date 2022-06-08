@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ReturnToTitleScreenAction {
 IL2CPP_REGISTER_METHOD(0x0090F900, void, Perform, (ReturnToTitleScreenAction * __this, IContext * context));

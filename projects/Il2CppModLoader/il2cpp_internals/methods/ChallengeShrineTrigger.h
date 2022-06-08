@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChallengeShrineTrigger {
 IL2CPP_REGISTER_METHOD(0x01045060, void, OnTriggerEnter, (ChallengeShrineTrigger * __this, Collider * collider));

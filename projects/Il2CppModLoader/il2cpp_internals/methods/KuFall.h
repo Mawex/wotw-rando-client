@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuFall {
 IL2CPP_REGISTER_METHOD(0x01235EE0, void, OnSetReferenceToKu, (KuFall * __this));

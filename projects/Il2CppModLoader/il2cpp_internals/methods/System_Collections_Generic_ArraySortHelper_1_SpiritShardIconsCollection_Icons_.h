@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_SpiritShardIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x02FF2DD0, void, Sort, (SpiritShardIconsCollection_Icons__Array * keys, int32_t index, int32_t length, IComparer_1_SpiritShardIconsCollection_Icons_ * comparer));

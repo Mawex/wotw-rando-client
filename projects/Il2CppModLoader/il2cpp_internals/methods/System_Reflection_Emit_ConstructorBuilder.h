@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::ConstructorBuilder {
 IL2CPP_REGISTER_METHOD(0x0267F4F0, MethodAttributes__Enum, get_Attributes, (ConstructorBuilder * __this));

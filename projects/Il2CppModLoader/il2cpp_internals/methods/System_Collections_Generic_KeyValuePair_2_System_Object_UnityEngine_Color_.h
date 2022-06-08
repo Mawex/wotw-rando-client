@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Object_UnityEngine::Color_ {
 IL2CPP_REGISTER_METHOD(0x00151540, void, __ctor, (KeyValuePair_2_System_Object_UnityEngine_Color___Boxed * __this, Object * key, Color value));

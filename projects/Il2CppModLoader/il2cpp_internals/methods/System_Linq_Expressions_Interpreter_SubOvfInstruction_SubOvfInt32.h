@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::SubOvfInstruction_SubOvfInt32 {
 IL2CPP_REGISTER_METHOD(0x02413C30, int32_t, Run, (SubOvfInstruction_SubOvfInt32 * __this, InterpretedFrame * frame));

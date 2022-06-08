@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraOffsetAnimationZone {
 IL2CPP_REGISTER_METHOD(0x01693660, bool, get_IsActivated, (CameraOffsetAnimationZone * __this));
 IL2CPP_REGISTER_METHOD(0x01693680, void, set_IsActivated, (CameraOffsetAnimationZone * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x01693660, bool, get_IsInfluencingCamera, (CameraOffsetAnimationZone * __this));
-IL2CPP_REGISTER_METHOD(0x01693690, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01693690, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x016939C0, void, Awake, (CameraOffsetAnimationZone * __this));
 IL2CPP_REGISTER_METHOD(0x01693BC0, void, CreateOffsetLayer, (CameraOffsetAnimationZone * __this));
 IL2CPP_REGISTER_METHOD(0x01693E10, void, Init, (CameraOffsetAnimationZone * __this));
@@ -41,5 +41,5 @@ IL2CPP_REGISTER_METHOD(0x0043D9E0, VirtualTimelineRepresentationGroup__Enum, get
 IL2CPP_REGISTER_METHOD(0x016966D0, String *, get_NameDisplayedOnClip, (CameraOffsetAnimationZone * __this));
 IL2CPP_REGISTER_METHOD(0x01696750, void, Build, (CameraOffsetAnimationZone * __this, VirtualClipsBuilder * builder));
 IL2CPP_REGISTER_METHOD(0x016969A0, void, __ctor, (CameraOffsetAnimationZone * __this));
-IL2CPP_REGISTER_METHOD(0x01696BA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01696BA0, void, __cctor, ());
 }

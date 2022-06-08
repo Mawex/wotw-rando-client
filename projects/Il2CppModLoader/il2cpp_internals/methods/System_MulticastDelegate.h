@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::MulticastDelegate {
 IL2CPP_REGISTER_METHOD(0x0173FA70, void, GetObjectData, (MulticastDelegate * __this, SerializationInfo * info, StreamingContext context));

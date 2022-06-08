@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::GroundEntityLocomotion {
 IL2CPP_REGISTER_METHOD(0x0049F2B0, GroundEntityMovementProcessor *, get_GroundMovement, (GroundEntityLocomotion * __this));
@@ -57,7 +57,7 @@ IL2CPP_REGISTER_METHOD(0x014910D0, bool, get_IsTurning, (GroundEntityLocomotion 
 IL2CPP_REGISTER_METHOD(0x0049F2B0, MovementProcessor *, get_MovementProcessor, (GroundEntityLocomotion * __this));
 IL2CPP_REGISTER_METHOD(0x014910E0, void, OnDrawGizmosSelected, (GroundEntityLocomotion * __this));
 IL2CPP_REGISTER_METHOD(0x01491570, void, __ctor, (GroundEntityLocomotion * __this));
-IL2CPP_REGISTER_METHOD(0x014915A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014915A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01491620, bool, _ConfigureStateMachine_b__47_0, (GroundEntityLocomotion * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470F290, GroundEntityLocomotion__ConfigureStateMachine_b__47_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01491660, bool, _ConfigureStateMachine_b__47_1, (GroundEntityLocomotion * __this));

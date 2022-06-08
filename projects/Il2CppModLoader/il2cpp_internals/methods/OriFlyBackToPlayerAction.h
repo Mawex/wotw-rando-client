@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OriFlyBackToPlayerAction {
 IL2CPP_REGISTER_METHOD(0x0043BA80, void, Perform, (OriFlyBackToPlayerAction * __this, IContext * context));

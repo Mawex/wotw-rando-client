@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Range {
 IL2CPP_REGISTER_METHOD(0x001D5BC0, void, __ctor, (Range__Boxed * __this, int32_t min, int32_t max));

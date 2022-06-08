@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_GenericCastManager_1_NativeArrays_ {
 IL2CPP_REGISTER_METHOD(0x02F5CB70, void, Sort, (GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand___Array * keys, int32_t index, int32_t length, IComparer_1_GenericCastManager_1_NativeArrays_ * comparer));

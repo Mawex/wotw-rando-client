@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator___c {
-IL2CPP_REGISTER_METHOD(0x0210DF60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0210DF60, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MoonAnimator_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _ClearRootMotion_b__202_0, (MoonAnimator_c * __this, Vector3 _p0_));
 IL2CPP_REGISTER_METHODINFO(0x04735C88, MoonAnimator_c__ClearRootMotion_b__202_0__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PatrolBehaviour {
 IL2CPP_REGISTER_METHOD(0x0064D930, Vector3, get_PatrolOrigin, (PatrolBehaviour * __this));

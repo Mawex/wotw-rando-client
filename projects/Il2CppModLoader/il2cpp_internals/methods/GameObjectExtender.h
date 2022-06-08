@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameObjectExtender {
 IL2CPP_REGISTER_METHOD(0x003F8460, Transform *, FindChildRecursive, (GameObject * gameObject, String * name, bool includeInactive));

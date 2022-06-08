@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NPCEntityPlaceholder {
 IL2CPP_REGISTER_METHOD(0x0087F600, ICharacterInteractable *, get_CharacterInteractable, (NPCEntityPlaceholder * __this));

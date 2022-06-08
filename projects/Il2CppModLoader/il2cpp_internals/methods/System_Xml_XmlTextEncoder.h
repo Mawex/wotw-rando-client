@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlTextEncoder {
 IL2CPP_REGISTER_METHOD(0x01714D10, void, __ctor, (XmlTextEncoder * __this, TextWriter * textWriter));

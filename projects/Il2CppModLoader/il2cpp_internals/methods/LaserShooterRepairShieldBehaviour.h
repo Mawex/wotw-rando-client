@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterRepairShieldBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F1F8E0, void, OnEnter, (LaserShooterRepairShieldBehaviour * __this, IContext * context));

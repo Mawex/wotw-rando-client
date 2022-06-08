@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_T__Enumerator_UnityEngine::RaycastHit_ {
 IL2CPP_REGISTER_METHOD(0x001DF020, void, __ctor, (NativeArray_1_T_Enumerator_UnityEngine_RaycastHit___Boxed * __this, NativeArray_1_UnityEngine_RaycastHit_ * array));

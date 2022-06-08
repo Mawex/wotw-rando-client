@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_PhysicsDebugTools::RecordEntry_ {
 IL2CPP_REGISTER_METHOD(0x025F1690, void, RemoveAt, (List_1_PhysicsDebugTools_RecordEntry_ * __this, int32_t index));

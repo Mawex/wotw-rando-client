@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GetEquipmentAction {
 IL2CPP_REGISTER_METHOD(0x00E11BE0, void, Perform, (GetEquipmentAction * __this, IContext * context));

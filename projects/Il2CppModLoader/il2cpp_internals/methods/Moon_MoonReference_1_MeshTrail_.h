@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_MeshTrail_ {
 IL2CPP_REGISTER_METHOD(0x02720EB0, MeshTrail *, SafeResolve, (MoonReference_1_MeshTrail_ * __this, IMoonResolverContext * context));

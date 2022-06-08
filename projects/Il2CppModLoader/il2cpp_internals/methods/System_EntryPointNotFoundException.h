@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::EntryPointNotFoundException {
 IL2CPP_REGISTER_METHOD(0x01A10CC0, void, __ctor, (EntryPointNotFoundException * __this));

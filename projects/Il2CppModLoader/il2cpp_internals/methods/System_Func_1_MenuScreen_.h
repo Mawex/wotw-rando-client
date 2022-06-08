@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_1_MenuScreen_ {
 IL2CPP_REGISTER_METHOD(0x01938310, MenuScreen *, Invoke, (Func_1_MenuScreen_ * __this));

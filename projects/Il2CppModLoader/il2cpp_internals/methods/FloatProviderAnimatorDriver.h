@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatProviderAnimatorDriver {
 IL2CPP_REGISTER_METHOD(0x01270E80, void, Start, (FloatProviderAnimatorDriver * __this));

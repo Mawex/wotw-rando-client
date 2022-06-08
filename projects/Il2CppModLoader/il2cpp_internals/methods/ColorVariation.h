@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColorVariation {
 IL2CPP_REGISTER_METHOD(0x00CFBCF0, bool, get_IsVisible, (ColorVariation * __this));

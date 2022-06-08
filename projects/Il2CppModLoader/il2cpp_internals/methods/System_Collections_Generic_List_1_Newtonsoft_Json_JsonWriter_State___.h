@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Newtonsoft::Json::JsonWriter_State___ {
 IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_Newtonsoft_Json_JsonWriter_State_ * __this));

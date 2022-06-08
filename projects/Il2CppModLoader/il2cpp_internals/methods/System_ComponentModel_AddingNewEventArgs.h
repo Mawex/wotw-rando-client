@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::AddingNewEventArgs {
 IL2CPP_REGISTER_METHOD(0x0249EC00, void, __ctor, (AddingNewEventArgs * __this));

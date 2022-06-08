@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossEntity_OnDamageReceivedDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (KwolokBossEntity_OnDamageReceivedDelegate * __this, Object * object, void * method_1));

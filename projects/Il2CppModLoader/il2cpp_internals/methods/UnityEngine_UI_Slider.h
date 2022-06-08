@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Slider {
 IL2CPP_REGISTER_METHOD(0x02675C10, void, __ctor, (Slider * __this));

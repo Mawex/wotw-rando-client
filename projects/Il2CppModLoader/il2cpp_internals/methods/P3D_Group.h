@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::P3D_Group {
 IL2CPP_REGISTER_METHOD(0x00243CE0, void, __ctor, (P3D_Group__Boxed * __this, int32_t newIndex));

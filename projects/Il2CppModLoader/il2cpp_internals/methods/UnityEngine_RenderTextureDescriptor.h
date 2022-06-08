@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RenderTextureDescriptor {
 IL2CPP_REGISTER_METHOD(0x00218070, void, __ctor, (RenderTextureDescriptor__Boxed * __this, int32_t width, int32_t height));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x002181D0, void, set_enableRandomWrite, (RenderTextureDe
 IL2CPP_REGISTER_METHOD(0x002181F0, void, set_bindMS, (RenderTextureDescriptor__Boxed * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00218210, void, set_createdFromScript, (RenderTextureDescriptor__Boxed * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00218230, void, set_useDynamicScale, (RenderTextureDescriptor__Boxed * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x02972820, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02972820, void, __cctor, ());
 }

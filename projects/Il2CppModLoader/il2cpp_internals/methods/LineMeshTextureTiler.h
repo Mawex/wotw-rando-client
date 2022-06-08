@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LineMeshTextureTiler {
 IL2CPP_REGISTER_METHOD(0x00FA6DD0, void, Awake, (LineMeshTextureTiler * __this));

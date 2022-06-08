@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossDiveBombVerticalBehaviour_BackgroundFlightState {
 IL2CPP_REGISTER_METHOD(0x004A17F0, void, __ctor, (PetrifiedOwlBossDiveBombVerticalBehaviour_BackgroundFlightState * __this, PetrifiedOwlBossDiveBombVerticalBehaviour * behaviour));

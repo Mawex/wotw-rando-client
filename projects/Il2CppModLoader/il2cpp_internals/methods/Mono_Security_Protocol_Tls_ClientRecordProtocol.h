@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::ClientRecordProtocol {
 IL2CPP_REGISTER_METHOD(0x01F66450, void, __ctor, (ClientRecordProtocol * __this, Stream * innerStream, ClientContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::BlockDamageInterruption {
 IL2CPP_REGISTER_METHOD(0x002FBBE0, Action_1_DamageWeightMask_ *, get_EventStart, (BlockDamageInterruption * __this));

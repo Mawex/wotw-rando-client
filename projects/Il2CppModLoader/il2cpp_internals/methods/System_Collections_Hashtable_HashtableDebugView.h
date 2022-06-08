@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Hashtable_HashtableDebugView {
 IL2CPP_REGISTER_METHOD(0x02026FE0, void, __ctor, (Hashtable_HashtableDebugView * __this, Hashtable * hashtable));

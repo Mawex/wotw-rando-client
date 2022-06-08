@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedHeirarchyEnablingTask {
 IL2CPP_REGISTER_METHOD(0x010C2BF0, void, __ctor, (TimeSlicedHeirarchyEnablingTask * __this, Transform * root, GameObject * owner, bool reenableRoot, Action_1_Boolean_ * onJobCompleted, String * sceneName));

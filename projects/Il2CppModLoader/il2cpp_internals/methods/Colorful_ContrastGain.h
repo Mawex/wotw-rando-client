@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::ContrastGain {
 IL2CPP_REGISTER_METHOD(0x03041760, void, OnRenderImage, (ContrastGain * __this, RenderTexture * source, RenderTexture * destination));

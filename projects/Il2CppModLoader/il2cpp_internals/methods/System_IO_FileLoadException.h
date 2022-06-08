@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::FileLoadException {
 IL2CPP_REGISTER_METHOD(0x01E08E00, void, __ctor, (FileLoadException * __this));

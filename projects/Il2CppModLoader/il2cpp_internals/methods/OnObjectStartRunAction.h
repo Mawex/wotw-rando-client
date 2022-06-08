@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OnObjectStartRunAction {
 IL2CPP_REGISTER_METHOD(0x00611C80, void, Start, (OnObjectStartRunAction * __this));

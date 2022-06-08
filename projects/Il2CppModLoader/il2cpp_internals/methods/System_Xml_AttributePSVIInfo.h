@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::AttributePSVIInfo {
 IL2CPP_REGISTER_METHOD(0x021E1050, void, __ctor, (AttributePSVIInfo * __this));

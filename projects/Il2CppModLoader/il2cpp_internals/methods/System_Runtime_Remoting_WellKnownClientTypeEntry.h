@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::WellKnownClientTypeEntry {
 IL2CPP_REGISTER_METHOD(0x01D87770, void, __ctor, (WellKnownClientTypeEntry * __this, String * typeName, String * assemblyName, String * objectUrl));

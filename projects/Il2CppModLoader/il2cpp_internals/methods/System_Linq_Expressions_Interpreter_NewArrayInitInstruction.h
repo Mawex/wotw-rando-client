@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NewArrayInitInstruction {
 IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (NewArrayInitInstruction * __this, Type * elementType, int32_t elementCount));

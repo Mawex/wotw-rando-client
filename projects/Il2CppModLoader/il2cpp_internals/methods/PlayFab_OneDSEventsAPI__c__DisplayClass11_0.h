@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::OneDSEventsAPI___c__DisplayClass11_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (OneDSEventsAPI_c_DisplayClass11_0 * __this));

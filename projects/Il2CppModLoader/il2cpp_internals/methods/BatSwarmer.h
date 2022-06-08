@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BatSwarmer {
 IL2CPP_REGISTER_METHOD(0x00F96AF0, Vector2, get_Position, (BatSwarmer * __this));

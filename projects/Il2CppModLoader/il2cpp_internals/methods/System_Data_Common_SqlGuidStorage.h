@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlGuidStorage {
 IL2CPP_REGISTER_METHOD(0x02855A90, void, __ctor, (SqlGuidStorage * __this, DataColumn * column));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_CleverMenuItem_ExtraNavigationButton_ {
 IL2CPP_REGISTER_METHOD(0x00114150, CleverMenuItem_ExtraNavigationButton__Enum, get_Current, (List_1_T_Enumerator_CleverMenuItem_ExtraNavigationButton___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::InstructionList_DebugView {
 IL2CPP_REGISTER_METHOD(0x01CE09D0, void, __ctor, (InstructionList_DebugView * __this, InstructionList * list));

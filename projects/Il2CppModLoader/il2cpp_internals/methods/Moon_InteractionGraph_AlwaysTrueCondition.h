@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::AlwaysTrueCondition {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, Validate, (AlwaysTrueCondition * __this, IContext * context));

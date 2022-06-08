@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LandOnAnimator {
 IL2CPP_REGISTER_METHOD(0x009A6580, MoonTimeline *, get_OnDestroyTimeline, (LandOnAnimator * __this));

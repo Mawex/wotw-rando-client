@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropLootSettings {
 IL2CPP_REGISTER_METHOD(0x0052A030, bool, get_IsEnemyLoot, (DropLootSettings * __this));

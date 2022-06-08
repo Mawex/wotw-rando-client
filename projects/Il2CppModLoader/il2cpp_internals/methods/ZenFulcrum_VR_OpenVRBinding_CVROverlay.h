@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVROverlay {
 IL2CPP_REGISTER_METHOD(0x01678A40, void, __ctor, (CVROverlay * __this, void * pInterface));

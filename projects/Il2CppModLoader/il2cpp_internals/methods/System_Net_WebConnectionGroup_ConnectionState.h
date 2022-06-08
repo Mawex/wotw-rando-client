@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebConnectionGroup_ConnectionState {
 IL2CPP_REGISTER_METHOD(0x002FA280, WebConnection *, get_Connection, (WebConnectionGroup_ConnectionState * __this));

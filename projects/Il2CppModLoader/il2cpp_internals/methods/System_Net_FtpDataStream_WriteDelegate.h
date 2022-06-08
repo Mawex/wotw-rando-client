@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::FtpDataStream_WriteDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (FtpDataStream_WriteDelegate * __this, Object * object, void * method_1));

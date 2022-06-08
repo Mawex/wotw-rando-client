@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension {
 IL2CPP_REGISTER_METHOD(0x0291D710, void, __ctor, (AuthorityKeyIdentifierExtension * __this, X509Extension_2 * extension));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::AudioClip {
 IL2CPP_REGISTER_METHOD(0x0313DB80, void, __ctor, (AudioClip * __this));
@@ -29,6 +29,6 @@ IL2CPP_REGISTER_METHOD(0x0313E780, void, add_m_PCMSetPositionCallback, (AudioCli
 IL2CPP_REGISTER_METHOD(0x0313E870, void, remove_m_PCMSetPositionCallback, (AudioClip * __this, AudioClip_PCMSetPositionCallback * value));
 IL2CPP_REGISTER_METHOD(0x02C79D90, void, InvokePCMReaderCallback_Internal, (AudioClip * __this, Single__Array * data));
 IL2CPP_REGISTER_METHOD(0x0313E960, void, InvokePCMSetPositionCallback_Internal, (AudioClip * __this, int32_t position));
-IL2CPP_REGISTER_METHOD(0x0313E980, AudioClip *, Construct_Internal, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0313E980, AudioClip *, Construct_Internal, ());
 IL2CPP_REGISTER_METHOD(0x0313E9D0, void, Init_Internal, (AudioClip * __this, String * name, int32_t lengthSamples, int32_t channels, int32_t frequency, bool stream));
 }

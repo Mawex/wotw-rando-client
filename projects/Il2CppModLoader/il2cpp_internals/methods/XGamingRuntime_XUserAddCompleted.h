@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::XUserAddCompleted {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XUserAddCompleted * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::CertificateHandler {
 IL2CPP_REGISTER_METHOD(0x0317DB70, void, Release, (CertificateHandler * __this));

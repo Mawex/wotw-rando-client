@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_InstantiateUtility_InstantiationInfo_ {
 IL2CPP_REGISTER_METHOD(0x02F5E450, void, Sort, (InstantiateUtility_InstantiationInfo__Array * keys, int32_t index, int32_t length, IComparer_1_InstantiateUtility_InstantiationInfo_ * comparer));

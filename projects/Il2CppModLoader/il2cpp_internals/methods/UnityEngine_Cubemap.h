@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Cubemap {
 IL2CPP_REGISTER_METHOD(0x0242AE70, void, __ctor, (Cubemap * __this, int32_t width, GraphicsFormat__Enum format, TextureCreationFlags__Enum flags));

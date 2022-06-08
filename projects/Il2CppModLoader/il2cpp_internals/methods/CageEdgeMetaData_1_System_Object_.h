@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageEdgeMetaData_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x019D8900, void, OnEnable, (CageEdgeMetaData_1_System_Object_ * __this));

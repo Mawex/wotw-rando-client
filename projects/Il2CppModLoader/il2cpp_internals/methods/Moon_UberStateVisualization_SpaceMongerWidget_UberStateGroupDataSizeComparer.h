@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::SpaceMongerWidget_UberStateGroupDataSizeComparer {
 IL2CPP_REGISTER_METHOD(0x030C25A0, int32_t, Compare, (SpaceMongerWidget_UberStateGroupDataSizeComparer * __this, UberStateGroupData x, UberStateGroupData y));

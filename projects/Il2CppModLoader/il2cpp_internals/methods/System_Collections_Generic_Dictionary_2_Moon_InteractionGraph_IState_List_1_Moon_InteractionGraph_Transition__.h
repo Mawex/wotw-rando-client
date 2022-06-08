@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::InteractionGraph::IState_List_1_Moon::InteractionGraph::Transition__ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_Moon_InteractionGraph_IState_List_1_Moon_InteractionGraph_Transition_ * __this, IState_1 * key, List_1_Moon_InteractionGraph_Transition_ * * value));

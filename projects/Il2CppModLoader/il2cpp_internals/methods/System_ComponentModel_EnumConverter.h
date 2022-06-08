@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::EnumConverter {
 IL2CPP_REGISTER_METHOD(0x01FE8140, void, __ctor, (EnumConverter * __this, Type * type));

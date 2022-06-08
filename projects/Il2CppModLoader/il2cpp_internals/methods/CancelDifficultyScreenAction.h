@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CancelDifficultyScreenAction {
 IL2CPP_REGISTER_METHOD(0x00B22670, void, Perform, (CancelDifficultyScreenAction * __this, IContext * context));

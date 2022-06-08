@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_System::Int32_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02CAE5F0, void, __ctor, (SortedList_2_System_Int32_System_Object_ * __this));

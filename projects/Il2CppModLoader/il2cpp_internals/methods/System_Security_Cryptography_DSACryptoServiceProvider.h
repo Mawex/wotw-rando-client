@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::DSACryptoServiceProvider {
 IL2CPP_REGISTER_METHOD(0x020D5A60, void, __ctor, (DSACryptoServiceProvider * __this));
@@ -14,7 +14,7 @@ IL2CPP_REGISTER_METHOD(0x004F4CE0, bool, get_PersistKeyInCsp, (DSACryptoServiceP
 IL2CPP_REGISTER_METHOD(0x004F4CF0, void, set_PersistKeyInCsp, (DSACryptoServiceProvider * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x020D63D0, bool, get_PublicOnly, (DSACryptoServiceProvider * __this));
 IL2CPP_REGISTER_METHOD(0x020D63F0, String *, get_SignatureAlgorithm, (DSACryptoServiceProvider * __this));
-IL2CPP_REGISTER_METHOD(0x020D6470, bool, get_UseMachineKeyStore, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020D6470, bool, get_UseMachineKeyStore, ());
 IL2CPP_REGISTER_METHOD(0x020D64F0, void, set_UseMachineKeyStore, (bool value));
 IL2CPP_REGISTER_METHOD(0x020D6580, DSAParameters, ExportParameters, (DSACryptoServiceProvider * __this, bool includePrivateParameters));
 IL2CPP_REGISTER_METHODINFO(0x0474A510, DSACryptoServiceProvider_ExportParameters__MethodInfo);

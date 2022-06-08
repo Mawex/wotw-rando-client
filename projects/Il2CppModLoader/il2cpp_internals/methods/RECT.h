@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RECT {
 IL2CPP_REGISTER_METHOD(0x0011FC50, void, __ctor, (RECT__Boxed * __this, int32_t left, int32_t top, int32_t right, int32_t bottom));

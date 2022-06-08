@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GroundEntityReactions {
 IL2CPP_REGISTER_METHOD(0x010941D0, void, ProcessEntityEvent, (GroundEntityReactions * __this, EntityEvent * eventInfo));

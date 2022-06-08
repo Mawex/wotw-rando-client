@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PrefabSpawner {
 IL2CPP_REGISTER_METHOD(0x00C6EA00, void, DynamicPrefabProvider, (PrefabSpawner * __this, List_1_DynamicInstantiationDescriptor_ * descriptors));

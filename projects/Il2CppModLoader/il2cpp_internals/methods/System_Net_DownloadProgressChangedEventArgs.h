@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::DownloadProgressChangedEventArgs {
 IL2CPP_REGISTER_METHOD(0x01EB4050, void, __ctor, (DownloadProgressChangedEventArgs * __this, int32_t progressPercentage, Object * userToken, int64_t bytesReceived, int64_t totalBytesToReceive));

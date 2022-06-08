@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::HUDManager {
-IL2CPP_REGISTER_METHOD(0x01DE0590, HUDManager *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DE0590, HUDManager *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x01DE0610, void, set_Instance, (HUDManager * value));
 IL2CPP_REGISTER_METHOD(0x002FB9D0, Browser *, get_HUDBrowser, (HUDManager * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9E0, void, set_HUDBrowser, (HUDManager * __this, Browser * value));

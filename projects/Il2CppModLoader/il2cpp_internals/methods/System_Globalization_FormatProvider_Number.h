@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::FormatProvider_Number {
 IL2CPP_REGISTER_METHOD(0x02270570, bool, IsWhite, (uint16_t ch));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHOD(0x030F7D60, void, FormatPercent, (StringBuilder * sb, For
 IL2CPP_REGISTER_METHOD(0x030F8060, void, RoundNumber, (FormatProvider_Number_NumberBuffer * number, int32_t pos));
 IL2CPP_REGISTER_METHOD(0x030F8140, int32_t, FindSection, (String * format, int32_t section));
 IL2CPP_REGISTER_METHOD(0x030F81E0, String *, NumberToStringFormat, (FormatProvider_Number_NumberBuffer number, String * format, NumberFormatInfo * info));
-IL2CPP_REGISTER_METHOD(0x030F9120, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030F9120, void, __cctor, ());
 }

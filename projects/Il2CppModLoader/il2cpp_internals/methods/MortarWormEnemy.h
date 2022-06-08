@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarWormEnemy {
 IL2CPP_REGISTER_METHOD(0x01480330, bool, CanBeOptimized, (MortarWormEnemy * __this));
@@ -18,7 +18,7 @@ IL2CPP_REGISTER_METHOD(0x01481E30, void, OnDestroy, (MortarWormEnemy * __this));
 IL2CPP_REGISTER_METHOD(0x01481FF0, void, FixedUpdate, (MortarWormEnemy * __this));
 IL2CPP_REGISTER_METHOD(0x01482210, void, UpdateMortarTrajectoryPeriodically, (MortarWormEnemy * __this));
 IL2CPP_REGISTER_METHOD(0x014822D0, void, __ctor, (MortarWormEnemy * __this));
-IL2CPP_REGISTER_METHOD(0x01482420, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01482420, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x014825B0, bool, _Start_b__28_0, (MortarWormEnemy * __this));
 IL2CPP_REGISTER_METHODINFO(0x047146D0, MortarWormEnemy__Start_b__28_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x014825E0, bool, _Start_b__28_1, (MortarWormEnemy * __this));

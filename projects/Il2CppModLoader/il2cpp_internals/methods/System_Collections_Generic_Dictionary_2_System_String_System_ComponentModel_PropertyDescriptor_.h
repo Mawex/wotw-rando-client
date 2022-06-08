@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_System::ComponentModel::PropertyDescriptor_ {
 IL2CPP_REGISTER_METHOD(0x02259DF0, void, __ctor, (Dictionary_2_System_String_System_ComponentModel_PropertyDescriptor_ * __this, int32_t capacity));

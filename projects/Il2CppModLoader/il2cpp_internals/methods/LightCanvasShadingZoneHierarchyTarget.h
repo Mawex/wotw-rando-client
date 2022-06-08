@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightCanvasShadingZoneHierarchyTarget {
 IL2CPP_REGISTER_METHOD(0x01148F70, void, OnEnable, (LightCanvasShadingZoneHierarchyTarget * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::WaitForConditionEntity {
 IL2CPP_REGISTER_METHOD(0x00D1E020, void, OnStartPlayback, (WaitForConditionEntity * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StomperLogic {
 IL2CPP_REGISTER_METHOD(0x00659560, void, Awake, (StomperLogic * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobExtensions_JobStruct_1_T__ExecuteJobFunction_Core::Devices::XboxControllerManager_VibrationJob_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * __this, Object * object, void * method_1));

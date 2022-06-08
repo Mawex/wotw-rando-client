@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::AsyncProtocolRequest {
 IL2CPP_REGISTER_METHOD(0x002FA280, MobileAuthenticatedStream *, get_Parent, (AsyncProtocolRequest * __this));

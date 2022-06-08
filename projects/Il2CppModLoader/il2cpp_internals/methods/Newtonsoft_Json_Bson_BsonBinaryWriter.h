@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonBinaryWriter {
 IL2CPP_REGISTER_METHOD(0x002FD1D0, DateTimeKind__Enum, get_DateTimeKindHandling, (BsonBinaryWriter * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x01A497D0, int32_t, CalculateSize, (BsonBinaryWriter * _
 IL2CPP_REGISTER_METHOD(0x01A497E0, int32_t, CalculateSizeWithLength, (BsonBinaryWriter * __this, int32_t stringByteCount, bool includeSize));
 IL2CPP_REGISTER_METHOD(0x01A497F0, int32_t, CalculateSize, (BsonBinaryWriter * __this, BsonToken * t));
 IL2CPP_REGISTER_METHODINFO(0x0474BF70, BsonBinaryWriter_CalculateSize_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01A49DC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A49DC0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FallingRocksGroup {
 IL2CPP_REGISTER_METHOD(0x00998560, int32_t, get_GroundMask, (FallingRocksGroup * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeeSeinTrigger {
 IL2CPP_REGISTER_METHOD(0x0106BAA0, void, ProvideComponents, (SeeSeinTrigger * __this));

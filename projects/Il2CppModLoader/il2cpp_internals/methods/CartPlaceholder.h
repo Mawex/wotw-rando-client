@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartPlaceholder {
 IL2CPP_REGISTER_METHOD(0x002FBCA0, Cart *, get_ActiveCart, (CartPlaceholder * __this));

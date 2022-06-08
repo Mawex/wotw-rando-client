@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ArgIterator {
 IL2CPP_REGISTER_METHOD(0x001E13F0, bool, Equals, (ArgIterator__Boxed * __this, Object * o));

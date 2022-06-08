@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Locomotion {
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawGizmos, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawGizmos, ());
 IL2CPP_REGISTER_METHOD(0x00447340, float, get_TraversalTier, (Locomotion * __this));
 IL2CPP_REGISTER_METHOD(0x00447350, void, set_TraversalTier, (Locomotion * __this, float value));
 IL2CPP_REGISTER_METHOD(0x00CB5CD0, Nullable_1_UnityEngine_Vector3_, get_ReplacementRegisteredPoint, (Locomotion * __this));

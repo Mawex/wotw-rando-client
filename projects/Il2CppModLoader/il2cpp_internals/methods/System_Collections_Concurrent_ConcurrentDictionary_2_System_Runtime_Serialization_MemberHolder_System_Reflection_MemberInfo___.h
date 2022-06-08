@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_System::Runtime::Serialization::MemberHolder_System::Reflection::MemberInfo___ {
 IL2CPP_REGISTER_METHOD(0x02ADDC30, void, __ctor, (ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo_ * __this));

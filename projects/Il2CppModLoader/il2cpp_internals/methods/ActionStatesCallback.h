@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActionStatesCallback {
 IL2CPP_REGISTER_METHOD(0x02E8DAC0, void, OnResult, (ActionStatesCallback * __this, Byte__Array * data));

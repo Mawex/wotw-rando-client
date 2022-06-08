@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowSeinUIAction {
 IL2CPP_REGISTER_METHOD(0x00737200, void, Perform, (ShowSeinUIAction * __this, IContext * context));

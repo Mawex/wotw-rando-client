@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AK::Wwise::BaseType {
 IL2CPP_REGISTER_METHOD(0x026C1570, String *, get_Name, (BaseType * __this));

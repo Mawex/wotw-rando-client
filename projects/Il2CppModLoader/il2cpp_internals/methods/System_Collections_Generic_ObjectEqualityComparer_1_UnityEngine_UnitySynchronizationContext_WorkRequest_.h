@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UnityEngine::UnitySynchronizationContext_WorkRequest_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ * __this, UnitySynchronizationContext_WorkRequest x, UnitySynchronizationContext_WorkRequest y));

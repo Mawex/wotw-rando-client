@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::CurrentSystemTimeZone {
 IL2CPP_REGISTER_METHOD(0x028A0BF0, void, __ctor, (CurrentSystemTimeZone * __this));

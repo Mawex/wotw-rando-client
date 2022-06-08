@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::CancellationTokenSource {
 IL2CPP_REGISTER_METHOD(0x027D94A0, void, LinkedTokenCancelDelegate, (Object * source));
@@ -20,7 +20,7 @@ IL2CPP_REGISTER_METHODINFO(0x04735008, CancellationTokenSource_TimerCallbackLogi
 IL2CPP_REGISTER_METHOD(0x027D97F0, void, Dispose, (CancellationTokenSource * __this));
 IL2CPP_REGISTER_METHOD(0x027D98A0, void, Dispose, (CancellationTokenSource * __this, bool disposing));
 IL2CPP_REGISTER_METHOD(0x027D9990, void, ThrowIfDisposed, (CancellationTokenSource * __this));
-IL2CPP_REGISTER_METHOD(0x027D9A30, void, ThrowObjectDisposedException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027D9A30, void, ThrowObjectDisposedException, ());
 IL2CPP_REGISTER_METHODINFO(0x0471FFE0, CancellationTokenSource_ThrowObjectDisposedException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027D9AA0, CancellationTokenSource *, InternalGetStaticSource, (bool set));
 IL2CPP_REGISTER_METHOD(0x027D9B80, CancellationTokenRegistration, InternalRegister, (CancellationTokenSource * __this, Action_1_Object_ * callback, Object * stateForCallback, SynchronizationContext * targetSyncContext, ExecutionContext * executionContext));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHOD(0x027DAA70, CancellationTokenSource *, CreateLinkedTokenS
 IL2CPP_REGISTER_METHOD(0x027DAD80, CancellationTokenSource *, CreateLinkedTokenSource, (CancellationToken__Array * tokens));
 IL2CPP_REGISTER_METHODINFO(0x04784628, CancellationTokenSource_CreateLinkedTokenSource_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027DB080, void, WaitForCallbackToComplete, (CancellationTokenSource * __this, CancellationCallbackInfo * callbackInfo));
-IL2CPP_REGISTER_METHOD(0x027DB160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027DB160, void, __cctor, ());
 }

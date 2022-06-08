@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_System::Nullable_1_ {
 IL2CPP_REGISTER_METHOD(0x0277FBD0, ConfiguredTaskAwaitable_1_System_Nullable_1_, ConfigureAwait, (Task_1_System_Nullable_1_ * __this, bool continueOnCapturedContext));
@@ -28,11 +28,11 @@ IL2CPP_REGISTER_METHOD(0x02A5A7B0, Nullable_1_Int32_, GetResultCore, (Task_1_Sys
 IL2CPP_REGISTER_METHOD(0x0277F8C0, bool, TrySetException, (Task_1_System_Nullable_1_ * __this, Object * exceptionObject));
 IL2CPP_REGISTER_METHOD(0x0277F950, bool, TrySetCanceled, (Task_1_System_Nullable_1_ * __this, CancellationToken tokenToRecord));
 IL2CPP_REGISTER_METHOD(0x0277F980, bool, TrySetCanceled, (Task_1_System_Nullable_1_ * __this, CancellationToken tokenToRecord, Object * cancellationException));
-IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_System_Nullable_1_ *, get_Factory, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_System_Nullable_1_ *, get_Factory, ());
 IL2CPP_REGISTER_METHOD(0x02A5A860, void, InnerInvoke, (Task_1_System_Nullable_1_ * __this));
 IL2CPP_REGISTER_METHOD(0x004C50A0, TaskAwaiter_1_System_Nullable_1_, GetAwaiter, (Task_1_System_Nullable_1_ * __this));
 IL2CPP_REGISTER_METHOD(0x02A5A930, Task *, ContinueWith, (Task_1_System_Nullable_1_ * __this, Action_1_System_Threading_Tasks_Task_1__8 * continuationAction));
 IL2CPP_REGISTER_METHOD(0x02A5AA30, Task *, ContinueWith, (Task_1_System_Nullable_1_ * __this, Action_1_System_Threading_Tasks_Task_1__8 * continuationAction, TaskScheduler * scheduler, CancellationToken cancellationToken, TaskContinuationOptions__Enum continuationOptions, StackCrawlMark__Enum * stackMark));
 IL2CPP_REGISTER_METHODINFO(0x047474E8, Task_1_System_Nullable_1__ContinueWith_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, ());
 }

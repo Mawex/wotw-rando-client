@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslStreamBase_InternalAsyncResult {
 IL2CPP_REGISTER_METHOD(0x0291A490, void, __ctor, (SslStreamBase_InternalAsyncResult * __this, AsyncCallback * userCallback, Object * userState, Byte__Array * buffer, int32_t offset, int32_t count, bool fromWrite, bool proceedAfterHandshake));

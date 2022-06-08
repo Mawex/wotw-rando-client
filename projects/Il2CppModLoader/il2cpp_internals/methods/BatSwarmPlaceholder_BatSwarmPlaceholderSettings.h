@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BatSwarmPlaceholder_BatSwarmPlaceholderSettings {
 IL2CPP_REGISTER_METHOD(0x00F96AB0, void, __ctor, (BatSwarmPlaceholder_BatSwarmPlaceholderSettings * __this));

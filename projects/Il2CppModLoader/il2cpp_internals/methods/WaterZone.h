@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterZone {
 IL2CPP_REGISTER_METHOD(0x008E5E60, void, OnValidate, (WaterZone * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TrajectoryLoggerGizmo {
 IL2CPP_REGISTER_METHOD(0x00B05870, void, OnDrawGizmos, (TrajectoryLoggerGizmo * __this));

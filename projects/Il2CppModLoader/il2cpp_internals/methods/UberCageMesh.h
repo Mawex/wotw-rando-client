@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberCageMesh {
 IL2CPP_REGISTER_METHOD(0x013E5270, void, OnEnable, (UberCageMesh * __this));

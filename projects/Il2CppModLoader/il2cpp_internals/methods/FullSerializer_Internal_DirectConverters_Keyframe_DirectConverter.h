@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::Keyframe_DirectConverter {
 IL2CPP_REGISTER_METHOD(0x0164F4E0, fsResult, DoSerialize, (Keyframe_DirectConverter * __this, Keyframe model, Dictionary_2_System_String_FullSerializer_fsData_ * serialized));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecorderPlaybackUI {
-IL2CPP_REGISTER_METHOD(0x008F4A40, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008F4A40, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0040B220, Recorder_1 *, get_Recorder, (RecorderPlaybackUI * __this));
 IL2CPP_REGISTER_METHOD(0x00675C60, bool, get_DoBlast, (RecorderPlaybackUI * __this));
 IL2CPP_REGISTER_METHOD(0x008F4C80, void, set_DoBlast, (RecorderPlaybackUI * __this, bool value));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x008F62C0, void, Awake, (RecorderPlaybackUI * __this));
 IL2CPP_REGISTER_METHOD(0x008F7080, IEnumerator *, Start, (RecorderPlaybackUI * __this));
 IL2CPP_REGISTER_METHOD(0x008F71D0, void, JumpToFrame, (RecorderPlaybackUI * __this, int32_t frameIndex));
 IL2CPP_REGISTER_METHOD(0x008F72C0, void, __ctor, (RecorderPlaybackUI * __this));
-IL2CPP_REGISTER_METHOD(0x008F7650, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008F7650, void, __cctor, ());
 }

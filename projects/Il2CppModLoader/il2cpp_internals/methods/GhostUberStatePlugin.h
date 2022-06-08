@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostUberStatePlugin {
 IL2CPP_REGISTER_METHOD(0x007EC420, void, OnStartRecording, (GhostUberStatePlugin * __this, PreRecordingData * preRecordingData));

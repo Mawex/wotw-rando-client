@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SplitTurnAnimation {
 IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_IsDone, (SplitTurnAnimation * __this));

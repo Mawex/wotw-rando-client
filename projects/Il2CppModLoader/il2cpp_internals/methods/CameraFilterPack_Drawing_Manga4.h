@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Drawing_Manga4 {
 IL2CPP_REGISTER_METHOD(0x024F4DA0, Material *, get_material, (CameraFilterPack_Drawing_Manga4 * __this));

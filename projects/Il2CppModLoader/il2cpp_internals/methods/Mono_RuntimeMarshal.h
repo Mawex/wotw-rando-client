@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::RuntimeMarshal {
 IL2CPP_REGISTER_METHOD(0x023CEA70, String *, PtrToUtf8String, (void * ptr));

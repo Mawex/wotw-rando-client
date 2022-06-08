@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColosseumDisplay {
 IL2CPP_REGISTER_METHOD(0x011DAFD0, void, SetRemainingTime, (ColosseumDisplay * __this, float seconds));

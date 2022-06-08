@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::ISuspendable_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_Moon_ISuspendable_System_Int32_ * __this));

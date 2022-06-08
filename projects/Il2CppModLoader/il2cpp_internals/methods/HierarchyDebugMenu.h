@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyDebugMenu {
 IL2CPP_REGISTER_METHOD(0x002FB990, List_1_List_1_IDebugMenuItem_ *, get_Items, (HierarchyDebugMenu * __this));

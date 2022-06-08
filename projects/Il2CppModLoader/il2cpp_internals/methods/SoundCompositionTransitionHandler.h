@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundCompositionTransitionHandler {
 IL2CPP_REGISTER_METHOD(0x00EE7F60, void, FixedUpdate, (SoundCompositionTransitionHandler * __this));

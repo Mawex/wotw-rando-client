@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_SmartInput::IButtonInput_Core::Input_InputButtonProcessor_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_SmartInput_IButtonInput_Core_Input_InputButtonProcessor_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_SmartInput_IButtonInput_Core_Input_InputButtonProcessor___Boxed * __this));

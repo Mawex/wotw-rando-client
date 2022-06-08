@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinMaxSpeedBasedOnDistance {
 IL2CPP_REGISTER_METHOD(0x008A34E0, void, OnHorizontalInputCalculate, (SeinMaxSpeedBasedOnDistance * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__CastIterator_d__99_1_System::Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x02984B50, void, __ctor, (Enumerable_CastIterator_d_99_1_System_Int32Enum_ * __this, int32_t __1__state));

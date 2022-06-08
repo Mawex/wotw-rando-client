@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonSet_1_Moon::BehaviourSystem::EntityLocomotionTask_ {
 IL2CPP_REGISTER_METHOD(0x01584050, LocomotionAirMoveBehaviour *, GetValueOfType, (MoonSet_1_Moon_BehaviourSystem_EntityLocomotionTask_ * __this));

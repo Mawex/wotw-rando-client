@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageTextureUtility {
 IL2CPP_REGISTER_METHOD(0x01680D30, CageTextureUtility_PointaState__Enum, GetPointState, (Vector3 point, Texture2D * texture, Bounds bounds));

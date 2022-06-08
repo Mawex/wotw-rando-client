@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LabelScopeInfo {
 IL2CPP_REGISTER_METHOD(0x01CE43D0, void, __ctor, (LabelScopeInfo * __this, LabelScopeInfo * parent, LabelScopeKind__Enum kind));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::SetVector3Action {
 IL2CPP_REGISTER_METHOD(0x03011130, String *, get_Info, (SetVector3Action * __this));

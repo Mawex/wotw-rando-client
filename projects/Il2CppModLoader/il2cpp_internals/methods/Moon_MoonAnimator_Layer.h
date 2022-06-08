@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_Layer {
-IL2CPP_REGISTER_METHOD(0x02117030, void, AssureActiveAnimationBufferInitialized, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02117340, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x021173E0, int32_t, get_ActiveAnimationBufferSize, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02117490, int32_t, get_ActiveAnimationAllocationCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02117030, void, AssureActiveAnimationBufferInitialized, ());
+IL2CPP_REGISTER_METHOD(0x02117340, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x021173E0, int32_t, get_ActiveAnimationBufferSize, ());
+IL2CPP_REGISTER_METHOD(0x02117490, int32_t, get_ActiveAnimationAllocationCount, ());
 IL2CPP_REGISTER_METHOD(0x02117530, void, set_ActiveAnimationAllocationCount, (int32_t value));
 IL2CPP_REGISTER_METHOD(0x021175E0, MoonAnimator_ActiveAnimation *, AllocateActiveAnimation, (MoonAnimator_Layer * __this, IAnimation * animation, int32_t priority, MoonAnimator * animator));
 IL2CPP_REGISTER_METHOD(0x021179A0, void, DeallocateActiveAnimation, (MoonAnimator_Layer * __this, MoonAnimator_ActiveAnimation * activeAnimation));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x02118FB0, void, Play, (MoonAnimator_Layer * __this, Moo
 IL2CPP_REGISTER_METHOD(0x021191A0, void, RemoveAnimationAt, (MoonAnimator_Layer * __this, int32_t index));
 IL2CPP_REGISTER_METHOD(0x02119240, void, StartAnimation, (MoonAnimator_Layer * __this, MoonAnimator_ActiveAnimation * animation));
 IL2CPP_REGISTER_METHOD(0x02119270, void, StopAnimation, (MoonAnimator_Layer * __this, MoonAnimator_ActiveAnimation * animation));
-IL2CPP_REGISTER_METHOD(0x021192D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021192D0, void, __cctor, ());
 }

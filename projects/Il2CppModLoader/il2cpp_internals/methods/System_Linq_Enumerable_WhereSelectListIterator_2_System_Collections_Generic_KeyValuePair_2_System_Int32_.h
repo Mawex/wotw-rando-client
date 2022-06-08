@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereSelectListIterator_2_System::Collections::Generic::KeyValuePair_2_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02895170, void, __ctor, (Enumerable_WhereSelectListIterator_2_System_Collections_Generic_KeyValuePair_2_System_Int32_ * __this, List_1_KeyValuePair_2_System_Object_System_Int32_ * source, Func_2_System_Collections_Generic_KeyValuePair_2_Boolean__4 * predicate, Func_2_System_Collections_Generic_KeyValuePair_2_Int32__1 * selector));

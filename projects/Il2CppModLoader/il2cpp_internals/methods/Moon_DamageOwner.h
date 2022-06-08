@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DamageOwner {
 IL2CPP_REGISTER_METHOD(0x002FB990, Entity *, get_Entity, (DamageOwner * __this));

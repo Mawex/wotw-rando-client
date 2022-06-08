@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::ConfigurationSection {
 IL2CPP_REGISTER_METHOD(0x031BBDE0, void, DeserializeSection, (ConfigurationSection * __this, XmlReader * reader));

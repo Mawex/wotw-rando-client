@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour_ExhaustState {
 IL2CPP_REGISTER_METHOD(0x00C52540, String *, get_StateName, (RammingBehaviour_ExhaustState * __this));

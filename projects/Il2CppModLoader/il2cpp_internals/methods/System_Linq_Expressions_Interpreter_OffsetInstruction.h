@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::OffsetInstruction {
 IL2CPP_REGISTER_METHOD(0x0240B100, Instruction *, Fixup, (OffsetInstruction * __this, int32_t offset));

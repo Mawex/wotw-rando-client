@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DisplayScaleSlider {
 IL2CPP_REGISTER_METHOD(0x00B99220, void, Awake, (DisplayScaleSlider * __this));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x00B99850, void, ApplyScaleSettings, (DisplayScaleSlider
 IL2CPP_REGISTER_METHOD(0x00B99980, void, FixedUpdate, (DisplayScaleSlider * __this));
 IL2CPP_REGISTER_METHOD(0x00B99B50, void, OnDisable, (DisplayScaleSlider * __this));
 IL2CPP_REGISTER_METHOD(0x00B99C30, void, __ctor, (DisplayScaleSlider * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

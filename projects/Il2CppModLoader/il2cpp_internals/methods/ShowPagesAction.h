@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowPagesAction {
 IL2CPP_REGISTER_METHOD(0x005C51A0, void, Perform, (ShowPagesAction * __this, IContext * context));

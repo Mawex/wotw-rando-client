@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuRun {
 IL2CPP_REGISTER_METHOD(0x003FDD20, float, get_RunSquashFloat, (KuRun * __this));

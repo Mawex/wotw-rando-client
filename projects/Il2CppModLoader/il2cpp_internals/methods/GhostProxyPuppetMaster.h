@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostProxyPuppetMaster {
 IL2CPP_REGISTER_METHOD(0x002FB990, CharacterAnimationSystem *, IPuppetBase_get_Animation, (GhostProxyPuppetMaster * __this));

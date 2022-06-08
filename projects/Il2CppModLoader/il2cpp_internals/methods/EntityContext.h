@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityContext {
 IL2CPP_REGISTER_METHOD(0x002FA280, Entity *, get_Entity, (EntityContext * __this));

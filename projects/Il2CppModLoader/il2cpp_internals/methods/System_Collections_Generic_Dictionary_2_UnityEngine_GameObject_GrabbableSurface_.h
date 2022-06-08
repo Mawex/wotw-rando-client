@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::GameObject_GrabbableSurface_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_UnityEngine_GameObject_GrabbableSurface_ * __this, GameObject * key, GrabbableSurface * * value));

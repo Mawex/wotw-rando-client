@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartBrakeDurationProvider {
 IL2CPP_REGISTER_METHOD(0x00B338F0, float, GetFloatValue, (CartBrakeDurationProvider * __this));

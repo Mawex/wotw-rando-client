@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::ConfigurationElement {
 IL2CPP_REGISTER_METHOD(0x031BB900, ConfigurationPropertyCollection *, get_Properties, (ConfigurationElement * __this));

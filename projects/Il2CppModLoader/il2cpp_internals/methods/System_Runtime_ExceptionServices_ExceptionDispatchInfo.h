@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::ExceptionServices::ExceptionDispatchInfo {
 IL2CPP_REGISTER_METHOD(0x01A93870, void, __ctor, (ExceptionDispatchInfo * __this, Exception * exception));

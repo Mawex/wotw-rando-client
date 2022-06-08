@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTimelineUiFaderOnEnable {
 IL2CPP_REGISTER_METHOD(0x01474380, void, OnEnable, (MoonTimelineUiFaderOnEnable * __this));

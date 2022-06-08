@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StretchGameObject {
 IL2CPP_REGISTER_METHOD(0x00670970, void, OnPoolSpawned, (StretchGameObject * __this));

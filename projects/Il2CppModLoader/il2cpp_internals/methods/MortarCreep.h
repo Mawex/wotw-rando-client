@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarCreep {
 IL2CPP_REGISTER_METHOD(0x01475290, void, OnEnable, (MortarCreep * __this));

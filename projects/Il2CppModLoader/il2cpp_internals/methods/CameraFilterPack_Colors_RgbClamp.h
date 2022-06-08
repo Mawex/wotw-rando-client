@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Colors_RgbClamp {
 IL2CPP_REGISTER_METHOD(0x024E2B40, Material *, get_material, (CameraFilterPack_Colors_RgbClamp * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StressTester___c {
-IL2CPP_REGISTER_METHOD(0x0066C2C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0066C2C0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (StressTester_c * __this));
 IL2CPP_REGISTER_METHOD(0x0066C400, bool, _StartTestFromScene_b__134_0, (StressTester_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04724E50, StressTester_c__StartTestFromScene_b__134_0__MethodInfo);

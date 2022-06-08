@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_T__Enumerator_AbilityType_ {
 IL2CPP_REGISTER_METHOD(0x00113140, AbilityType__Enum, get_Current, (HashSet_1_T_Enumerator_AbilityType___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JumpFlipPlatform {
 IL2CPP_REGISTER_METHOD(0x00E4A210, void, OnValidate, (JumpFlipPlatform * __this));
@@ -22,5 +22,5 @@ IL2CPP_REGISTER_METHOD(0x0057BAC0, void, set_IsSuspended, (JumpFlipPlatform * __
 IL2CPP_REGISTER_METHOD(0x0070DEC0, SuspendableMask__Enum, get_Mask, (JumpFlipPlatform * __this));
 IL2CPP_REGISTER_METHOD(0x00E4BDE0, void, set_Mask, (JumpFlipPlatform * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x00E4BEA0, void, __ctor, (JumpFlipPlatform * __this));
-IL2CPP_REGISTER_METHOD(0x00E4C0E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E4C0E0, void, __cctor, ());
 }

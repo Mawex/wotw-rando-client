@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivateRailAction {
 IL2CPP_REGISTER_METHOD(0x004C8E00, void, Perform, (ActivateRailAction * __this, IContext * context));

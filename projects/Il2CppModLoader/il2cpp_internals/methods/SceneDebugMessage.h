@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneDebugMessage {
 IL2CPP_REGISTER_METHOD(0x03113B90, void, OnDrawGizmos, (SceneDebugMessage * __this));

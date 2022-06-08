@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControlUIItem {
 IL2CPP_REGISTER_METHOD(0x011F07F0, void, SetItemContext, (ControlUIItem * __this, Object * context, Object * gridContext));

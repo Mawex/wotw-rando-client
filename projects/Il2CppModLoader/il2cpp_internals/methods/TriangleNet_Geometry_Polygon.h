@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::Polygon {
 IL2CPP_REGISTER_METHOD(0x002FA280, List_1_TriangleNet_Geometry_Vertex_ *, get_Points, (Polygon * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameMapPins {
 IL2CPP_REGISTER_METHOD(0x0069E090, GameObject *, GetPinObject, (GameMapPins * __this, GameMapPins_PinColour__Enum pin));

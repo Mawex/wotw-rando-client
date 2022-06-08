@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::SimpleScripting {
 IL2CPP_REGISTER_METHOD(0x0166BC70, void, Start, (SimpleScripting * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VideoTrimMarker {
 IL2CPP_REGISTER_METHOD(0x008C08F0, void, ResetPosition, (VideoTrimMarker * __this));

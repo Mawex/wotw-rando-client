@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::SocketException {
-IL2CPP_REGISTER_METHOD(0x020A2700, int32_t, WSAGetLastError_internal, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020A2700, int32_t, WSAGetLastError_internal, ());
 IL2CPP_REGISTER_METHOD(0x020A2730, void, __ctor, (SocketException * __this));
 IL2CPP_REGISTER_METHOD(0x020A2800, void, __ctor, (SocketException * __this, int32_t error, String * message));
 IL2CPP_REGISTER_METHOD(0x020A28C0, void, __ctor, (SocketException * __this, int32_t errorCode));

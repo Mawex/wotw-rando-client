@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::NameValueWithParametersHeaderValue {
 IL2CPP_REGISTER_METHOD(0x02D11210, void, __ctor, (NameValueWithParametersHeaderValue * __this, NameValueWithParametersHeaderValue * source));

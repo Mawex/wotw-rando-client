@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RSA {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RSA * __this));
-IL2CPP_REGISTER_METHOD(0x028E48A0, RSA *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028E48A0, RSA *, Create, ());
 IL2CPP_REGISTER_METHOD(0x028E49F0, RSA *, Create, (String * algName));
 IL2CPP_REGISTER_METHOD(0x028E4AD0, Byte__Array *, Encrypt, (RSA * __this, Byte__Array * data, RSAEncryptionPadding * padding));
 IL2CPP_REGISTER_METHODINFO(0x04711AD0, RSA_Encrypt__MethodInfo);
@@ -28,8 +28,8 @@ IL2CPP_REGISTER_METHOD(0x028E5270, bool, VerifyData, (RSA * __this, Byte__Array 
 IL2CPP_REGISTER_METHODINFO(0x047989E8, RSA_VerifyData_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x028E5500, bool, VerifyData, (RSA * __this, Stream * data, Byte__Array * signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding * padding));
 IL2CPP_REGISTER_METHODINFO(0x0473C2F0, RSA_VerifyData_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x028E56F0, Exception *, DerivedClassMustOverride, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x028E5850, Exception *, HashAlgorithmNameNullOrEmpty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028E56F0, Exception *, DerivedClassMustOverride, ());
+IL2CPP_REGISTER_METHOD(0x028E5850, Exception *, HashAlgorithmNameNullOrEmpty, ());
 IL2CPP_REGISTER_METHOD(0x028E59C0, Byte__Array *, DecryptValue, (RSA * __this, Byte__Array * rgb));
 IL2CPP_REGISTER_METHODINFO(0x04776DB0, RSA_DecryptValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x028E5A30, Byte__Array *, EncryptValue, (RSA * __this, Byte__Array * rgb));

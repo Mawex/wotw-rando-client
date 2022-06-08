@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ShaderFreezeTask {
 IL2CPP_REGISTER_METHOD(0x00CB29E0, void, __ctor, (ShaderFreezeTask * __this, bool freezeShaderTime, float time));

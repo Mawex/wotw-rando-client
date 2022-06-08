@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ThreadSafeStore_2_System::String_System::Runtime::CompilerServices::CallSite_1_ {
 IL2CPP_REGISTER_METHOD(0x01D12150, void, __ctor, (ThreadSafeStore_2_System_String_System_Runtime_CompilerServices_CallSite_1_ * __this, Func_2_String_System_Runtime_CompilerServices_CallSite_1_ * creator));

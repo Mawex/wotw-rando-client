@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityTextStringDisplayValue {
 IL2CPP_REGISTER_METHOD(0x013AB540, void, Awake, (UnityTextStringDisplayValue * __this));

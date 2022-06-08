@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ObjectDisposedException {
 IL2CPP_REGISTER_METHOD(0x0227B460, void, __ctor, (ObjectDisposedException * __this));

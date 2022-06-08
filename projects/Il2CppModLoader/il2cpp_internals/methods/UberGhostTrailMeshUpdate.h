@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberGhostTrailMeshUpdate {
 IL2CPP_REGISTER_METHOD(0x002FBC60, Mesh *, get_TrailMesh, (UberGhostTrailMeshUpdate * __this));

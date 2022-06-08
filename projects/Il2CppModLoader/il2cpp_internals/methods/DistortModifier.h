@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DistortModifier {
 IL2CPP_REGISTER_METHOD(0x00B99D90, IEnumerable_1_System_String_ *, GetKeywordsForShader, (DistortModifier * __this));

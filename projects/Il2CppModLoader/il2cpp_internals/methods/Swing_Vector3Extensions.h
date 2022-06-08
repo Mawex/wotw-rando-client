@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::Vector3Extensions {
 IL2CPP_REGISTER_METHOD(0x018318F0, Vector3, perpendicular, (Vector3 _this));

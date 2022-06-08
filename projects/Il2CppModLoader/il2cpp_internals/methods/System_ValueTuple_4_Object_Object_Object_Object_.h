@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_4_Object_Object_Object_Object_ {
 IL2CPP_REGISTER_METHOD(0x001DEB10, void, __ctor, (ValueTuple_4_Object_Object_Object_Object___Boxed * __this, Object * item1, Object * item2, Object * item3, Object * item4));

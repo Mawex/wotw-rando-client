@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XDRSchema {
 IL2CPP_REGISTER_METHOD(0x022C1A50, void, __ctor, (XDRSchema * __this, DataSet * ds, bool fInline));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x022C3D50, DataTable *, InstantiateTable, (XDRSchema * _
 IL2CPP_REGISTER_METHODINFO(0x04751B68, XDRSchema_InstantiateTable__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x022C4520, DataTable *, InstantiateSimpleTable, (XDRSchema * __this, DataSet * dataSet, XmlElement * node));
 IL2CPP_REGISTER_METHODINFO(0x04779E78, XDRSchema_InstantiateSimpleTable__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x022C48B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022C48B0, void, __cctor, ());
 }

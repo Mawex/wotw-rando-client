@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap_TileCoord_UnityEngine::Terrain_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_UnityEngine_Terrain_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_UnityEngine_Terrain___Boxed * __this));

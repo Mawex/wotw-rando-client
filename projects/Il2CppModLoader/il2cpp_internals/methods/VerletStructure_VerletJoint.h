@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletStructure_VerletJoint {
 IL2CPP_REGISTER_METHOD(0x013D00E0, Vector3, get_Velocity, (VerletStructure_VerletJoint * __this));

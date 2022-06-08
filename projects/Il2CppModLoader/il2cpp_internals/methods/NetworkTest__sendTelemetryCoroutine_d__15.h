@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NetworkTest__sendTelemetryCoroutine_d__15 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (NetworkTest_sendTelemetryCoroutine_d_15 * __this, int32_t __1__state));

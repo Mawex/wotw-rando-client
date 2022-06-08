@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::OpCode {
 IL2CPP_REGISTER_METHOD(0x001FCAD0, void, __ctor, (OpCode__Boxed * __this, int32_t p, int32_t q));

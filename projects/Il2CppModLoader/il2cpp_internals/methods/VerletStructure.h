@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletStructure {
-IL2CPP_REGISTER_METHOD(0x013C8F00, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013C8F00, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x013C8FC0, void, Awake, (VerletStructure * __this));
 IL2CPP_REGISTER_METHOD(0x013C9300, void, OnDestroy, (VerletStructure * __this));
 IL2CPP_REGISTER_METHOD(0x013C9410, Bounds, get_WorldBounds, (VerletStructure * __this));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x013CE480, void, ApplyState, (VerletStructure * __this, 
 IL2CPP_REGISTER_METHOD(0x013CE7C0, void, UpdateFromMainThread, (VerletStructure * __this, float dt));
 IL2CPP_REGISTER_METHOD(0x013CE800, bool, get_NeedsPostJob, (VerletStructure * __this));
 IL2CPP_REGISTER_METHOD(0x013CE820, void, __ctor, (VerletStructure * __this));
-IL2CPP_REGISTER_METHOD(0x013CED10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013CED10, void, __cctor, ());
 }

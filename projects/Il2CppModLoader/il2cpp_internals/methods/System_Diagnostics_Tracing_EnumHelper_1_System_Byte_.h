@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumHelper_1_System::Byte_ {
 IL2CPP_REGISTER_METHOD(0x02FF68C0, uint8_t, Cast, (bool value));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHOD(0x02FF6990, uint8_t, Cast, (uint16_t value));
 IL2CPP_REGISTER_METHOD(0x02FF6DA0, uint8_t, Cast, (uint32_t value));
 IL2CPP_REGISTER_METHOD(0x02FF6E70, uint8_t, Cast, (uint64_t value));
 IL2CPP_REGISTER_METHOD(0x02FF6E70, uint8_t, Cast, (void * value));
-IL2CPP_REGISTER_METHOD(0x02F48110, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02F48110, void, __cctor, ());
 }

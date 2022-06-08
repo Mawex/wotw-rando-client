@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SnakeAnimator {
 IL2CPP_REGISTER_METHOD(0x03087460, void, BeginChain, (SnakeAnimator * __this, SnakeAnimatorConfiguration configuration));

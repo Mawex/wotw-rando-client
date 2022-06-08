@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRNotifications__RemoveNotification {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRNotifications_RemoveNotification * __this, Object * object, void * method_1));

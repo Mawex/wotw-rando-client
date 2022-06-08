@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PointSegment {
 IL2CPP_REGISTER_METHOD(0x01431940, Vector3, get_FirstPoint, (PointSegment * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRExtendedDisplay {
 IL2CPP_REGISTER_METHOD(0x016786F0, void, __ctor, (CVRExtendedDisplay * __this, void * pInterface));

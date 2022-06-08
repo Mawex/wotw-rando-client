@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ForeignKeyConstraint {
 IL2CPP_REGISTER_METHOD(0x01F5EB80, void, __ctor, (ForeignKeyConstraint * __this, DataColumn * parentColumn, DataColumn * childColumn));

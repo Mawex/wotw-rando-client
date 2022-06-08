@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::SimpleLocomotion {
 IL2CPP_REGISTER_METHOD(0x0098F4A0, bool, get_isGrounded, (SimpleLocomotion * __this));

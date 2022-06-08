@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ConditionBasedBrainController {
 IL2CPP_REGISTER_METHOD(0x011E3D60, Enum__Array *, GetEntries, (ConditionBasedBrainController * __this));

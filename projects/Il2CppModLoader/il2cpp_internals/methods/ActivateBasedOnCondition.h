@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivateBasedOnCondition {
 IL2CPP_REGISTER_METHOD(0x004C8280, GameObject *, get_EffectiveTarget, (ActivateBasedOnCondition * __this));

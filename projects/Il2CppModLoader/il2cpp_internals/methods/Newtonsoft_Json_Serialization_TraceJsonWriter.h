@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::TraceJsonWriter {
 IL2CPP_REGISTER_METHOD(0x01BFD6D0, void, __ctor, (TraceJsonWriter * __this, JsonWriter * innerWriter));

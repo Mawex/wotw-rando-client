@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkBaseArray_1_AkSourceSettings_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, void *, GetBuffer, (AkBaseArray_1_AkSourceSettings_ * __this));

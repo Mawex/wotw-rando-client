@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::Parser_TimeSpanSeconds {
 IL2CPP_REGISTER_METHOD(0x02D12E20, bool, TryParse, (String * input, TimeSpan * result));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::ObjectStorage {
 IL2CPP_REGISTER_METHOD(0x0216A970, void, __ctor, (ObjectStorage * __this, DataColumn * column, Type * type));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x0216E020, void, VerifyIDynamicMetaObjectProvider, (Type
 IL2CPP_REGISTER_METHODINFO(0x0477D340, ObjectStorage_VerifyIDynamicMetaObjectProvider__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0216E190, XmlSerializer *, GetXmlSerializer, (Type * type));
 IL2CPP_REGISTER_METHOD(0x0216E270, XmlSerializer *, GetXmlSerializer, (Type * type, XmlRootAttribute * attribute));
-IL2CPP_REGISTER_METHOD(0x0216EBC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0216EBC0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_LaserShieldDamageReceiver_FollowingEffect_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_LaserShieldDamageReceiver_FollowingEffect_ * __this, LaserShieldDamageReceiver_FollowingEffect x, LaserShieldDamageReceiver_FollowingEffect y));

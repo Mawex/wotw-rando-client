@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacySpring {
 IL2CPP_REGISTER_METHOD(0x00A377C0, void, OnCollisionEnter, (LegacySpring * __this, Collision * collision));

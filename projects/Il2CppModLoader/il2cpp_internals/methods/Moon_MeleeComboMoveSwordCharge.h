@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MeleeComboMoveSwordCharge {
 IL2CPP_REGISTER_METHOD(0x002FBC20, SeinCharacter *, get_Sein, (MeleeComboMoveSwordCharge * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x011191E0, void, UpdateCharged, (MeleeComboMoveSwordChar
 IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateAttacking, (MeleeComboMoveSwordCharge * __this, float deltaTime));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_ShouldUpdateWhileDisabled, (MeleeComboMoveSwordCharge * __this));
 IL2CPP_REGISTER_METHOD(0x01119200, void, __ctor, (MeleeComboMoveSwordCharge * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

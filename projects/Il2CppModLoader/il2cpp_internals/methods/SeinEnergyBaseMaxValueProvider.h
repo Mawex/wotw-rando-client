@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinEnergyBaseMaxValueProvider {
 IL2CPP_REGISTER_METHOD(0x00AD0570, float, GetFloatValue, (SeinEnergyBaseMaxValueProvider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinOutsideZoneCondition {
 IL2CPP_REGISTER_METHOD(0x008AFD90, bool, Validate, (SeinOutsideZoneCondition * __this, IContext * context));

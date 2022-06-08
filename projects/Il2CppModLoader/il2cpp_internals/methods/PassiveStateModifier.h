@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PassiveStateModifier {
 IL2CPP_REGISTER_METHOD(0x01B779A0, int32_t, get_StateGUIDToApply, (PassiveStateModifier * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 IL2CPP_REGISTER_METHOD(0x023B6530, void, __ctor, (SafeHandleZeroOrMinusOneIsInvalid * __this, bool ownsHandle));

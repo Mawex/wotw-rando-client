@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletSkinningModifier {
 IL2CPP_REGISTER_METHOD(0x013C8070, void, Awake, (VerletSkinningModifier * __this));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x0061E2E0, void, set_IsSuspended, (VerletSkinningModifie
 IL2CPP_REGISTER_METHOD(0x005035C0, SuspendableMask__Enum, get_Mask, (VerletSkinningModifier * __this));
 IL2CPP_REGISTER_METHOD(0x013C84F0, void, set_Mask, (VerletSkinningModifier * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x013C8500, void, __ctor, (VerletSkinningModifier * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

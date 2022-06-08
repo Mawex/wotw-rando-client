@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Int32_PoolTransformPosition_ {
 IL2CPP_REGISTER_METHOD(0x00150760, void, __ctor, (KeyValuePair_2_System_Int32_PoolTransformPosition___Boxed * __this, int32_t key, PoolTransformPosition value));

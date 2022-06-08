@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::DebugHelper {
-IL2CPP_REGISTER_METHOD(0x01F6A0F0, void, Initialize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F6A0F0, void, Initialize, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteLine, (String * format, Object__Array * args));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteLine, (String * message));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteLine, (String * message, Byte__Array * buffer));

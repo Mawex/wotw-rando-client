@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
 IL2CPP_REGISTER_METHOD(0x00133F90, InstantiateDebugUtility_InstanceInfo, get_Current, (List_1_T_Enumerator_InstantiateDebug_InstantiateDebugUtility_InstanceInfo___Boxed * __this));

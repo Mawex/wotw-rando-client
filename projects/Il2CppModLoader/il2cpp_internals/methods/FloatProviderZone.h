@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatProviderZone {
 IL2CPP_REGISTER_METHOD(0x01270FC0, float, GetValue, (FloatProviderZone * __this));

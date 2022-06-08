@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DateTimeOffset {
 IL2CPP_REGISTER_METHOD(0x00214B90, void, __ctor, (DateTimeOffset__Boxed * __this, int64_t ticks, TimeSpan offset));
@@ -8,7 +8,7 @@ IL2CPP_REGISTER_METHODINFO(0x04789730, DateTimeOffset__ctor_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00214BC0, void, __ctor, (DateTimeOffset__Boxed * __this, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, TimeSpan offset));
 IL2CPP_REGISTER_METHOD(0x00214CF0, void, __ctor, (DateTimeOffset__Boxed * __this, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, TimeSpan offset));
 IL2CPP_REGISTER_METHOD(0x00214E20, void, __ctor, (DateTimeOffset__Boxed * __this, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, Calendar * calendar, TimeSpan offset));
-IL2CPP_REGISTER_METHOD(0x028AAE10, DateTimeOffset, get_Now, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028AAE10, DateTimeOffset, get_Now, ());
 IL2CPP_REGISTER_METHOD(0x00214F60, DateTime, get_DateTime, (DateTimeOffset__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00214F70, DateTime, get_UtcDateTime, (DateTimeOffset__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00214F80, DateTime, get_LocalDateTime, (DateTimeOffset__Boxed * __this));
@@ -65,5 +65,5 @@ IL2CPP_REGISTER_METHODINFO(0x04717A70, DateTimeOffset_ValidateStyles__MethodInfo
 IL2CPP_REGISTER_METHOD(0x028ACBA0, DateTimeOffset, operator_, (DateTime dateTime));
 IL2CPP_REGISTER_METHOD(0x028ACBC0, bool, operator___, (DateTimeOffset left, DateTimeOffset right));
 IL2CPP_REGISTER_METHOD(0x028ACC90, bool, operator___, (DateTimeOffset left, DateTimeOffset right));
-IL2CPP_REGISTER_METHOD(0x028ACD60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028ACD60, void, __cctor, ());
 }

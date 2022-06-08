@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetupStateModifierData {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Apply, (SetupStateModifierData * __this, MoonReference_1_UnityEngine_GameObject_ * target, UberStateApplyContext__Enum context));

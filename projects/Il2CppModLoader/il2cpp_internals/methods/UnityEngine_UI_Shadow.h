@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Shadow {
 IL2CPP_REGISTER_METHOD(0x02662FD0, void, __ctor, (Shadow * __this));

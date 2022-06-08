@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::PendulumExample {
 IL2CPP_REGISTER_METHOD(0x02228ED0, void, Start, (PendulumExample * __this));

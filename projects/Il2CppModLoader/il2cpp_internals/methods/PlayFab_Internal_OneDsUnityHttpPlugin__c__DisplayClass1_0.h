@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::OneDsUnityHttpPlugin___c__DisplayClass1_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (OneDsUnityHttpPlugin_c_DisplayClass1_0 * __this));

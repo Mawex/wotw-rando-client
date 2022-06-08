@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CrabHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00A64230, EntityDamageEvent *, get_DamageEvent, (CrabHitReactionBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::NamedPermissionSet {
 IL2CPP_REGISTER_METHOD(0x01E18EC0, void, __ctor, (NamedPermissionSet * __this));

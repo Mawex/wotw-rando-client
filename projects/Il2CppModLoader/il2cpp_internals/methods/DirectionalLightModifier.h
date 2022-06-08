@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DirectionalLightModifier {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, ApplyMultipliers, (DirectionalLightModifier * __this, float strength, float speed));

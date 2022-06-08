@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Recorder___c {
-IL2CPP_REGISTER_METHOD(0x008EE250, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008EE250, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Recorder_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _ResetStatics_b__24_0, (Recorder_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04784768, Recorder_c__ResetStatics_b__24_0__MethodInfo);

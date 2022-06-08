@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::StaticProxy {
 IL2CPP_REGISTER_METHOD(0x020A5B70, void, __ctor, (StaticProxy * __this, Uri * destination, Uri * proxy));

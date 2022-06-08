@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ProjectileDamageDealer {
 IL2CPP_REGISTER_METHOD(0x00C7B450, void, Awake, (ProjectileDamageDealer * __this));

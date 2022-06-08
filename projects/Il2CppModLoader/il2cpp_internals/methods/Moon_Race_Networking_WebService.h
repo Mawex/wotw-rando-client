@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::Networking::WebService {
 IL2CPP_REGISTER_METHOD(0x00C454F0, ReplayData *, GetReplay, (String * raceName, String * playerId));

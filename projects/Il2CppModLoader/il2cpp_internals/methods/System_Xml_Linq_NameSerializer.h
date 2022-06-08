@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::NameSerializer {
 IL2CPP_REGISTER_METHOD(0x0302C390, void, __ctor, (NameSerializer * __this, SerializationInfo * info, StreamingContext context));

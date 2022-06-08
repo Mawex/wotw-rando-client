@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Newtonsoft::Json::Serialization::JsonSerializerInternalReader_PropertyPresence_ {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (Nullable_1_Newtonsoft_Json_Serialization_JsonSerializerInternalReader_PropertyPresence___Boxed * __this, JsonSerializerInternalReader_PropertyPresence__Enum value));

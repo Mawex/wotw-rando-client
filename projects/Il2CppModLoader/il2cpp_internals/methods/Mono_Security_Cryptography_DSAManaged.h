@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::DSAManaged {
 IL2CPP_REGISTER_METHOD(0x025C92E0, void, __ctor, (DSAManaged * __this, int32_t dwKeySize));

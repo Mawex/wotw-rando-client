@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateOverrideSystem_PassiveStateOverride {
 IL2CPP_REGISTER_METHOD(0x002498D0, void, ApplyDynamic, (StateOverrideSystem_PassiveStateOverride__Boxed * __this));

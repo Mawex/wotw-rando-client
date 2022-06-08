@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Led {
 IL2CPP_REGISTER_METHOD(0x03048010, void, OnRenderImage, (Led * __this, RenderTexture * source, RenderTexture * destination));

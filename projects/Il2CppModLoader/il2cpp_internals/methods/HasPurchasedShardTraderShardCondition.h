@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasPurchasedShardTraderShardCondition {
 IL2CPP_REGISTER_METHOD(0x0109EE40, bool, Validate, (HasPurchasedShardTraderShardCondition * __this, IContext * context));

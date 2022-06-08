@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::OffsetEffector {
 IL2CPP_REGISTER_METHOD(0x022288B0, void, Start, (OffsetEffector * __this));

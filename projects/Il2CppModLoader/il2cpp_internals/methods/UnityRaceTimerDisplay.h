@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityRaceTimerDisplay {
 IL2CPP_REGISTER_METHOD(0x012ABFF0, void, Awake, (UnityRaceTimerDisplay * __this));

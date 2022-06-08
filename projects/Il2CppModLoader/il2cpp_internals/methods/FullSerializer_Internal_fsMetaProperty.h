@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsMetaProperty {
 IL2CPP_REGISTER_METHOD(0x01658810, void, __ctor, (fsMetaProperty * __this, fsConfig * config, FieldInfo_1 * field));

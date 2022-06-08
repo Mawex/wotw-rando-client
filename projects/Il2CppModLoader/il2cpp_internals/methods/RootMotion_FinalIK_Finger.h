@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Finger {
 IL2CPP_REGISTER_METHOD(0x00446590, bool, get_initiated, (Finger * __this));

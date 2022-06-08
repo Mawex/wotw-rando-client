@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimationTransition {
 IL2CPP_REGISTER_METHOD(0x01B053F0, Object *, Clone, (AnimationTransition * __this));

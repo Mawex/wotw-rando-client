@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DomainNameHelper {
 IL2CPP_REGISTER_METHOD(0x020056B0, String *, ParseCanonicalName, (String * str, int32_t start, int32_t end, bool * loopback));

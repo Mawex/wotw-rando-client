@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WandererNPC___c {
-IL2CPP_REGISTER_METHOD(0x008D14F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008D14F0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (WandererNPC_c * __this));
 IL2CPP_REGISTER_METHOD(0x008D1630, void, _OnEndInteraction_b__79_0, (WandererNPC_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04708A68, WandererNPC_c__OnEndInteraction_b__79_0__MethodInfo);

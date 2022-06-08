@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NotificationChecker {
 IL2CPP_REGISTER_METHOD(0x0060C330, void, __ctor, (NotificationChecker * __this, RaceSettings * settings, String * raceID, int32_t originalRank, LeaderBoardService * leaderBoardService, int32_t slotIndex));

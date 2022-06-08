@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Light {
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (Light * __this));
@@ -54,8 +54,8 @@ IL2CPP_REGISTER_METHOD(0x0252F700, void, set_renderMode, (Light * __this, LightR
 IL2CPP_REGISTER_METHOD(0x01F2AB70, int32_t, get_bakedIndex, (Light * __this));
 IL2CPP_REGISTER_METHOD(0x00654960, void, set_bakedIndex, (Light * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x0252F760, void, SetFalloffTable, (Light * __this, Single__Array * input));
-IL2CPP_REGISTER_METHOD(0x0252F7C0, void, SetAllLightsFalloffToInverseSquared, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0252F810, void, SetAllLightsFalloffToUnityLegacy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0252F7C0, void, SetAllLightsFalloffToInverseSquared, ());
+IL2CPP_REGISTER_METHOD(0x0252F810, void, SetAllLightsFalloffToUnityLegacy, ());
 IL2CPP_REGISTER_METHOD(0x0252F860, void, AddCommandBuffer, (Light * __this, LightEvent__Enum evt, CommandBuffer * buffer));
 IL2CPP_REGISTER_METHOD(0x0252F8E0, void, AddCommandBuffer, (Light * __this, LightEvent__Enum evt, CommandBuffer * buffer, ShadowMapPass__Enum shadowPassMask));
 IL2CPP_REGISTER_METHOD(0x0252F960, void, AddCommandBufferAsync, (Light * __this, LightEvent__Enum evt, CommandBuffer * buffer, ComputeQueueType__Enum queueType));
@@ -65,7 +65,7 @@ IL2CPP_REGISTER_METHOD(0x0252FAE0, void, RemoveCommandBuffers, (Light * __this, 
 IL2CPP_REGISTER_METHOD(0x0252FB40, void, RemoveAllCommandBuffers, (Light * __this));
 IL2CPP_REGISTER_METHOD(0x0252FB90, CommandBuffer__Array *, GetCommandBuffers, (Light * __this, LightEvent__Enum evt));
 IL2CPP_REGISTER_METHOD(0x0252FBF0, int32_t, get_commandBufferCount, (Light * __this));
-IL2CPP_REGISTER_METHOD(0x0252FC40, int32_t, get_pixelLightCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0252FC40, int32_t, get_pixelLightCount, ());
 IL2CPP_REGISTER_METHOD(0x0252FC90, void, set_pixelLightCount, (int32_t value));
 IL2CPP_REGISTER_METHOD(0x0252FCE0, Light__Array *, GetLights, (LightType__Enum type, int32_t layer));
 IL2CPP_REGISTER_METHOD(0x024BF590, float, get_shadowConstantBias, (Light * __this));

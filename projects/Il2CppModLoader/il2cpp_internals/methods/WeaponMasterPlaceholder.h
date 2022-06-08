@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WeaponMasterPlaceholder {
 IL2CPP_REGISTER_METHOD(0x0056FAD0, ICondition *, get_ResolvedCondition, (WeaponMasterPlaceholder * __this));

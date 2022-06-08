@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PlaybackStatus {
 IL2CPP_REGISTER_METHOD(0x011FE8D0, bool, get_IsPending, (PlaybackStatus * __this));

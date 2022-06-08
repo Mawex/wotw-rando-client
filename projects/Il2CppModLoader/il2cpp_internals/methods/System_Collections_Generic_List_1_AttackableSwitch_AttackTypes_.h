@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_AttackableSwitch_AttackTypes_ {
 IL2CPP_REGISTER_METHOD(0x02D201B0, List_1_T_Enumerator_AttackableSwitch_AttackTypes_, GetEnumerator, (List_1_AttackableSwitch_AttackTypes_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpikeSlugDeathReaction {
 IL2CPP_REGISTER_METHOD(0x011C7BD0, void, OnCacheSerializedComponents, (SpikeSlugDeathReaction * __this, Entity * owner));

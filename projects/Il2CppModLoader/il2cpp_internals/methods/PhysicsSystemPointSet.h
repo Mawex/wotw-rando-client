@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsSystemPointSet {
 IL2CPP_REGISTER_METHOD(0x011554C0, void, UpdateWorldSpacePointCache, (PhysicsSystemPointSet * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::CFNumber {
 IL2CPP_REGISTER_METHOD(0x02177D80, bool, CFNumberGetValue, (void * handle, void * type, int32_t * value));

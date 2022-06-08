@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DamageReceiver_DamageEntry {
 IL2CPP_REGISTER_METHOD(0x01200C90, bool, get_WillBeProcessedThisFrame, (DamageReceiver_DamageEntry * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_System::ByteEnum_SpiritShardIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnBeforeSerialize, (EnumDictionary_2_System_ByteEnum_SpiritShardIconsCollection_Icons_ * __this));

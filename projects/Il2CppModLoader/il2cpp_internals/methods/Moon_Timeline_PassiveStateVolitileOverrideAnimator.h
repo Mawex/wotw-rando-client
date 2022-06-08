@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PassiveStateVolitileOverrideAnimator {
 IL2CPP_REGISTER_METHOD(0x01E78F40, IPassiveStateDescriptor *, get_ResolvedDescriptor, (PassiveStateVolitileOverrideAnimator * __this));

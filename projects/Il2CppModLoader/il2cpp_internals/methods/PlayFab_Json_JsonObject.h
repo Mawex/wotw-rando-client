@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::JsonObject {
 IL2CPP_REGISTER_METHOD(0x01846C80, void, __ctor, (JsonObject * __this));

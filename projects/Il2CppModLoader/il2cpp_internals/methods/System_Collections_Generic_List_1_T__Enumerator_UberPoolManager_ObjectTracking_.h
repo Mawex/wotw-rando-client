@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_UberPoolManager_ObjectTracking_ {
 IL2CPP_REGISTER_METHOD(0x0014CA00, void, __ctor, (List_1_T_Enumerator_UberPoolManager_ObjectTracking___Boxed * __this, List_1_UberPoolManager_ObjectTracking_ * list));

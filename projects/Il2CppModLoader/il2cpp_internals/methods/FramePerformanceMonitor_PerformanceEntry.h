@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FramePerformanceMonitor_PerformanceEntry {
 IL2CPP_REGISTER_METHOD(0x016421F0, void, __ctor, (FramePerformanceMonitor_PerformanceEntry * __this, String * label));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__TakeIterator_d__25_1_System::Double_ {
 IL2CPP_REGISTER_METHOD(0x0225B170, void, __ctor, (Enumerable_TakeIterator_d_25_1_System_Double_ * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ConditionalDialogTransition {
 IL2CPP_REGISTER_METHOD(0x011E4120, IDialogNode *, get_TransitionDestination, (ConditionalDialogTransition * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Microsoft::Applications::Events::DataModels::CustomerContent_ {
 IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_Microsoft_Applications_Events_DataModels_CustomerContent_ * __this));

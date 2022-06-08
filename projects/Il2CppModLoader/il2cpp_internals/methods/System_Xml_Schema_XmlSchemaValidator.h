@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaValidator {
 IL2CPP_REGISTER_METHOD(0x0191EF60, void, __ctor, (XmlSchemaValidator * __this, XmlNameTable * nameTable, XmlSchemaSet * schemas, IXmlNamespaceResolver * namespaceResolver, XmlSchemaValidationFlags__Enum validationFlags));
@@ -107,5 +107,5 @@ IL2CPP_REGISTER_METHOD(0x0192E310, void, SendValidationEvent, (XmlSchemaValidato
 IL2CPP_REGISTER_METHODINFO(0x047308B0, XmlSchemaValidator_SendValidationEvent_9__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0192E5E0, void, SendValidationEvent, (ValidationEventHandler * eventHandler, Object * sender, XmlSchemaValidationException * e, XmlSeverityType__Enum severity));
 IL2CPP_REGISTER_METHODINFO(0x04733AE0, XmlSchemaValidator_SendValidationEvent_10__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0192E780, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0192E780, void, __cctor, ());
 }

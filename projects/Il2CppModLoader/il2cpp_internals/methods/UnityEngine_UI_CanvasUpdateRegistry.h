@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CanvasUpdateRegistry {
 IL2CPP_REGISTER_METHOD(0x01F2CEB0, void, __ctor, (CanvasUpdateRegistry * __this));
-IL2CPP_REGISTER_METHOD(0x01F2D260, CanvasUpdateRegistry *, get_instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F2D260, CanvasUpdateRegistry *, get_instance, ());
 IL2CPP_REGISTER_METHOD(0x01F2D450, bool, ObjectValidForUpdate, (CanvasUpdateRegistry * __this, ICanvasElement * element));
 IL2CPP_REGISTER_METHOD(0x01F2D590, void, CleanInvalidItems, (CanvasUpdateRegistry * __this));
 IL2CPP_REGISTER_METHOD(0x01F2D830, void, PerformUpdate, (CanvasUpdateRegistry * __this));
@@ -19,7 +19,7 @@ IL2CPP_REGISTER_METHOD(0x01F2E860, bool, InternalRegisterCanvasElementForGraphic
 IL2CPP_REGISTER_METHOD(0x01F2E990, void, UnRegisterCanvasElementForRebuild, (ICanvasElement * element));
 IL2CPP_REGISTER_METHOD(0x01F2ED00, void, InternalUnRegisterCanvasElementForLayoutRebuild, (CanvasUpdateRegistry * __this, ICanvasElement * element));
 IL2CPP_REGISTER_METHOD(0x01F2EE90, void, InternalUnRegisterCanvasElementForGraphicRebuild, (CanvasUpdateRegistry * __this, ICanvasElement * element));
-IL2CPP_REGISTER_METHOD(0x01F2F020, bool, IsRebuildingLayout, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F2F0C0, bool, IsRebuildingGraphics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F2F160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F2F020, bool, IsRebuildingLayout, ());
+IL2CPP_REGISTER_METHOD(0x01F2F0C0, bool, IsRebuildingGraphics, ());
+IL2CPP_REGISTER_METHOD(0x01F2F160, void, __cctor, ());
 }

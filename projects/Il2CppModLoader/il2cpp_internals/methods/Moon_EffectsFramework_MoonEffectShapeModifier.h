@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::MoonEffectShapeModifier {
 IL2CPP_REGISTER_METHOD(0x01983000, void, Apply, (MoonEffectShapeModifier * __this, IMoonEffectComponentCache * input, MoonEffectRevertHandle * revertHandle));

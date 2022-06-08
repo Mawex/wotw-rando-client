@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::ObjectWriter {
 IL2CPP_REGISTER_METHOD(0x01D9A180, void, __ctor, (ObjectWriter * __this, ISurrogateSelector * selector, StreamingContext context, InternalFE * formatterEnums, SerializationBinder * binder));

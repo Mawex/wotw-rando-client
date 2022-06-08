@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_MoonGuid_ {
 IL2CPP_REGISTER_METHOD(0x02AB4A60, bool, Add, (HashSet_1_MoonGuid_ * __this, MoonGuid * item));

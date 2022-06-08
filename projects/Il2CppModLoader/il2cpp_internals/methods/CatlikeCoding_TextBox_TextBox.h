@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::TextBox {
 IL2CPP_REGISTER_METHOD(0x01032580, int32_t, get_LineCount, (TextBox * __this));

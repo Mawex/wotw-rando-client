@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ButtonDialogTransition {
 IL2CPP_REGISTER_METHOD(0x003FC7F0, InteractionBidingButton__Enum, get_Button, (ButtonDialogTransition * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_ZenFulcrum::EmbeddedBrowser::BrowserNative_CursorType_ZenFulcrum::EmbeddedBrowser::BrowserCursor_CursorInfo_ {
 IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_ZenFulcrum_EmbeddedBrowser_BrowserNative_CursorType_ZenFulcrum_EmbeddedBrowser_BrowserCursor_CursorInfo_ * __this, BrowserNative_CursorType__Enum key, BrowserCursor_CursorInfo * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaInferenceException {
 IL2CPP_REGISTER_METHOD(0x0191EC50, void, __ctor, (XmlSchemaInferenceException * __this, SerializationInfo * info, StreamingContext context));

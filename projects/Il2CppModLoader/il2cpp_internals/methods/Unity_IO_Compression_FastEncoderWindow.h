@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::FastEncoderWindow {
 IL2CPP_REGISTER_METHOD(0x02B775B0, void, __ctor, (FastEncoderWindow * __this));

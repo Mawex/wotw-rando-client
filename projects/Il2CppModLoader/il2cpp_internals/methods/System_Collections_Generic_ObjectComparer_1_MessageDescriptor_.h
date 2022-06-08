@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_MessageDescriptor_ {
 IL2CPP_REGISTER_METHOD(0x01CC44E0, int32_t, Compare, (ObjectComparer_1_MessageDescriptor_ * __this, MessageDescriptor x, MessageDescriptor y));

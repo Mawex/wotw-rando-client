@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DeathsPlugin {
 IL2CPP_REGISTER_METHOD(0x00DE0FB0, void, Awake, (DeathsPlugin * __this));

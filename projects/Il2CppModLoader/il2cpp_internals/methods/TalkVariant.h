@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TalkVariant {
 IL2CPP_REGISTER_METHOD(0x00CE0920, void, Finalize, (TalkVariant * __this));

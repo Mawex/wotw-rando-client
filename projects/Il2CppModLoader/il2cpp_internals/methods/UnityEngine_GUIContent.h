@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUIContent {
 IL2CPP_REGISTER_METHOD(0x029E2910, void, __ctor, (GUIContent * __this));
@@ -12,6 +12,6 @@ IL2CPP_REGISTER_METHOD(0x01704A60, String *, get_tooltip, (GUIContent * __this))
 IL2CPP_REGISTER_METHOD(0x002FB960, void, set_tooltip, (GUIContent * __this, String * value));
 IL2CPP_REGISTER_METHOD(0x029E2C20, GUIContent *, Temp, (String * t));
 IL2CPP_REGISTER_METHOD(0x029E2D20, GUIContent *, Temp, (Texture * i));
-IL2CPP_REGISTER_METHOD(0x029E2E20, void, ClearStaticCache, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x029E2FA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E2E20, void, ClearStaticCache, ());
+IL2CPP_REGISTER_METHOD(0x029E2FA0, void, __cctor, ());
 }

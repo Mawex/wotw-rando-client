@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::Trail_Point_ {
 IL2CPP_REGISTER_METHOD(0x026597A0, bool, Equals, (ObjectEqualityComparer_1_Moon_Trail_Point_ * __this, Trail_Point x, Trail_Point y));

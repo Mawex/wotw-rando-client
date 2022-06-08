@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocalSpacePointSet {
 IL2CPP_REGISTER_METHOD(0x00FC0D50, List_1_UnityEngine_Vector3_ *, get_WorldSpaceWorldSpaceInteractionPoints, (LocalSpacePointSet * __this));

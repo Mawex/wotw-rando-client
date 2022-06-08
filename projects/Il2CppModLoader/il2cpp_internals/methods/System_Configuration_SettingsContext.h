@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsContext {
 IL2CPP_REGISTER_METHOD(0x02962B60, void, __ctor, (SettingsContext * __this));

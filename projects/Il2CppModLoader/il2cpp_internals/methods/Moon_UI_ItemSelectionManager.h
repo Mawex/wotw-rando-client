@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::ItemSelectionManager {
 IL2CPP_REGISTER_METHOD(0x00D251B0, void, OnDrawGizmosSelected, (ItemSelectionManager * __this));

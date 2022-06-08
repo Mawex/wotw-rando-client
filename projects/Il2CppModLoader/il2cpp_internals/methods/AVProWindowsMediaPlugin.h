@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AVProWindowsMediaPlugin {
-IL2CPP_REGISTER_METHOD(0x0312FFC0, bool, Init, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03130050, void, Deinit, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0312FFC0, bool, Init, ());
+IL2CPP_REGISTER_METHOD(0x03130050, void, Deinit, ());
 IL2CPP_REGISTER_METHOD(0x031300E0, void, SetUnityFeatures, (bool supportExternalTextures));
-IL2CPP_REGISTER_METHOD(0x03130180, float, GetPluginVersion, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03130210, int32_t, GetInstanceHandle, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03130180, float, GetPluginVersion, ());
+IL2CPP_REGISTER_METHOD(0x03130210, int32_t, GetInstanceHandle, ());
 IL2CPP_REGISTER_METHOD(0x031302A0, void, FreeInstanceHandle, (int32_t handle));
 IL2CPP_REGISTER_METHOD(0x03130340, bool, LoadMovie, (int32_t handle, void * filename, bool playFromMemory, bool allowNativeFormat, bool allowAudio, bool useAudioDelay, bool useAudioMixer, bool useDisplaySync));
 IL2CPP_REGISTER_METHOD(0x03130440, bool, LoadMovieFromMemory, (int32_t handle, void * moviePointer, int64_t movieLength, bool allowNativeFormat, bool allowAudio, bool useAudioDelay, bool useAudioMixer, bool useDisplaySync));

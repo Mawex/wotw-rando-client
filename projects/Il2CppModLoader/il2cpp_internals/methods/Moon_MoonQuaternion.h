@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonQuaternion {
 IL2CPP_REGISTER_METHOD(0x02F972C0, bool, get_IsCrossSceneReference, (MoonQuaternion * __this));

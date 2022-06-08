@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CCTextRangeColorer {
 IL2CPP_REGISTER_METHOD(0x03162000, void, Modify, (CCTextRangeColorer * __this, CCText * text));

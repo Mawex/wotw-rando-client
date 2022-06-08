@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlSqlBinaryReader_AttrInfo {
 IL2CPP_REGISTER_METHOD(0x0013C710, void, Set, (XmlSqlBinaryReader_AttrInfo__Boxed * __this, XmlSqlBinaryReader_QName n, String * v));

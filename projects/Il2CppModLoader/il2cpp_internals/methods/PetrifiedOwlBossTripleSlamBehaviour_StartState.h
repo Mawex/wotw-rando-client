@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossTripleSlamBehaviour_StartState {
 IL2CPP_REGISTER_METHOD(0x017817E0, void, __ctor, (PetrifiedOwlBossTripleSlamBehaviour_StartState * __this, PetrifiedOwlBossTripleSlamBehaviour * behaviour));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinAbilityCondition {
 IL2CPP_REGISTER_METHOD(0x00D7FCA0, bool, Validate, (SeinAbilityCondition * __this, IContext * context));

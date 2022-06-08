@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellUIShardListOverlay {
 IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_IsSuspended, (SpellUIShardListOverlay * __this));

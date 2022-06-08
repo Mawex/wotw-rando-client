@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RammingEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x0072D020, LegacyEntity *, Instantiate, (RammingEnemyPlaceholder * __this));

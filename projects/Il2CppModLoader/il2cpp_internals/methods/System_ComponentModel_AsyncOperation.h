@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::AsyncOperation {
 IL2CPP_REGISTER_METHOD(0x024A0500, void, __ctor, (AsyncOperation * __this, Object * userSuppliedState, SynchronizationContext * syncContext));

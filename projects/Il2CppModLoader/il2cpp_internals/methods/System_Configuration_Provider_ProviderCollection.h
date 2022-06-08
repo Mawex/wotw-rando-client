@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::Provider::ProviderCollection {
 IL2CPP_REGISTER_METHOD(0x031BC020, int32_t, get_Count, (ProviderCollection * __this));

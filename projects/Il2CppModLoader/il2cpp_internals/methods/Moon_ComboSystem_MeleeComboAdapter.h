@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::MeleeComboAdapter {
 IL2CPP_REGISTER_METHOD(0x00CC7730, void, OnInitialize, (MeleeComboAdapter * __this));

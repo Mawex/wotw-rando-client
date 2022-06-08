@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::ApplicationQuit {
 IL2CPP_REGISTER_METHOD(0x0220B7E0, void, Update, (ApplicationQuit * __this));

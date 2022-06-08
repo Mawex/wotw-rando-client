@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlWellFormedWriter_ElementScope {
 IL2CPP_REGISTER_METHOD(0x001DB2C0, void, Set, (XmlWellFormedWriter_ElementScope__Boxed * __this, String * prefix, String * localName, String * namespaceUri, int32_t prevNSTop));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaSimpleTypeUnion {
 IL2CPP_REGISTER_METHOD(0x002FBB40, XmlSchemaObjectCollection *, get_BaseTypes, (XmlSchemaSimpleTypeUnion * __this));

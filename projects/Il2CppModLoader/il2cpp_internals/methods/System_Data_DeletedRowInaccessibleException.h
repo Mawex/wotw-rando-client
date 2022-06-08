@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DeletedRowInaccessibleException {
 IL2CPP_REGISTER_METHOD(0x01F4D060, void, __ctor, (DeletedRowInaccessibleException * __this, SerializationInfo * info, StreamingContext context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents_MessageTypeSubscribers {
 IL2CPP_REGISTER_METHOD(0x02540BE0, void, __ctor, (PlayerEditorConnectionEvents_MessageTypeSubscribers * __this));

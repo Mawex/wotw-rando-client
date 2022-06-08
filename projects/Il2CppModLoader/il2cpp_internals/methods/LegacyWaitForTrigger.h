@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyWaitForTrigger {
 IL2CPP_REGISTER_METHOD(0x011318A0, Rect, get_Bounds, (LegacyWaitForTrigger * __this));

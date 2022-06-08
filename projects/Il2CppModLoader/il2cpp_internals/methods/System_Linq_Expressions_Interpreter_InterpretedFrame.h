@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::InterpretedFrame {
 IL2CPP_REGISTER_METHOD(0x01CE1270, void, __ctor, (InterpretedFrame * __this, Interpreter * interpreter, IStrongBox__Array * closure));

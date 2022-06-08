@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryDebugLogEvent {
 IL2CPP_REGISTER_METHOD(0x002FBC20, String *, get_Name, (MoonTelemetryDebugLogEvent * __this));

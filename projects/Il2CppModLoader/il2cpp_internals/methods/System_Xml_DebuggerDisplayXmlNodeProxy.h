@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::DebuggerDisplayXmlNodeProxy {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (DebuggerDisplayXmlNodeProxy__Boxed * __this, XmlNode * node));

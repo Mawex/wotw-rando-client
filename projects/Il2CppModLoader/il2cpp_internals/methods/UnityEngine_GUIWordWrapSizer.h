@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUIWordWrapSizer {
 IL2CPP_REGISTER_METHOD(0x029F9700, void, __ctor, (GUIWordWrapSizer * __this, GUIStyle * style, GUIContent * content, GUILayoutOption__Array * options));

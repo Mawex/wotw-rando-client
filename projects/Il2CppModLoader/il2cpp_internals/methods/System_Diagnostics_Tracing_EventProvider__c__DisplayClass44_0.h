@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventProvider___c__DisplayClass44_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EventProvider_c_DisplayClass44_0 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_SwitchCaseProxy {
 IL2CPP_REGISTER_METHOD(0x022C7540, void, __ctor, (Expression_SwitchCaseProxy * __this, SwitchCase * node));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JsonLoadSettings {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, CommentHandling__Enum, get_CommentHandling, (JsonLoadSettings * __this));

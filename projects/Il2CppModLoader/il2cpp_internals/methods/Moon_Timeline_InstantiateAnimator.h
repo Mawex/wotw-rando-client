@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::InstantiateAnimator {
 IL2CPP_REGISTER_METHOD(0x0076FFC0, Transform *, get_EffectiveLocation, (InstantiateAnimator * __this));

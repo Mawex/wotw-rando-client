@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScaleWidthForAspectRatio {
 IL2CPP_REGISTER_METHOD(0x00934910, void, OnAspectRatioChanged, (ScaleWidthForAspectRatio * __this));

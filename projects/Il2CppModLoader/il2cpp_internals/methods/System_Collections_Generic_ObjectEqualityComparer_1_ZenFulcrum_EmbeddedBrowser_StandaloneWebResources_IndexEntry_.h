@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * __this, StandaloneWebResources_IndexEntry x, StandaloneWebResources_IndexEntry y));

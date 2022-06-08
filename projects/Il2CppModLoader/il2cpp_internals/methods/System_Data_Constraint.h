@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Constraint {
 IL2CPP_REGISTER_METHOD(0x002FBB00, String *, get_ConstraintName, (Constraint_1 * __this));

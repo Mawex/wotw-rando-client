@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CollisionFilter {
 IL2CPP_REGISTER_METHOD(0x012D08F0, void, Awake, (CollisionFilter * __this));

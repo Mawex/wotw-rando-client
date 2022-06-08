@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Animations::AnimationPosePlayable {
 IL2CPP_REGISTER_METHOD(0x00241DC0, void, __ctor, (AnimationPosePlayable__Boxed * __this, PlayableHandle handle));
 IL2CPP_REGISTER_METHODINFO(0x04712608, AnimationPosePlayable__ctor__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001D9980, PlayableHandle, GetHandle, (AnimationPosePlayable__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00241DE0, bool, Equals, (AnimationPosePlayable__Boxed * __this, AnimationPosePlayable other));
-IL2CPP_REGISTER_METHOD(0x0307E3A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0307E3A0, void, __cctor, ());
 }

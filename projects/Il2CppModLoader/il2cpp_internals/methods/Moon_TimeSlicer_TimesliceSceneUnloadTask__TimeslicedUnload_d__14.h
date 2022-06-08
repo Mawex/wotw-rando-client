@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimesliceSceneUnloadTask__TimeslicedUnload_d__14 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (TimesliceSceneUnloadTask_TimeslicedUnload_d_14 * __this, int32_t __1__state));

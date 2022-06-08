@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::HierarchyPerformanceTester_Old_HPerfTestResultComparer {
 IL2CPP_REGISTER_METHOD(0x0149F480, void, __ctor, (HierarchyPerformanceTester_Old_HPerfTestResultComparer * __this, bool ascending, GameObject * root));

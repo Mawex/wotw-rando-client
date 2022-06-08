@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::DelegatedStream {
 IL2CPP_REGISTER_METHOD(0x01EACA50, void, __ctor, (DelegatedStream * __this));

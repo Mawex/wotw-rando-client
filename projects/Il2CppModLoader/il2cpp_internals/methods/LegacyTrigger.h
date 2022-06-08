@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTrigger {
 IL2CPP_REGISTER_METHOD(0x00CA4070, bool, get_IsSuspended, (LegacyTrigger * __this));

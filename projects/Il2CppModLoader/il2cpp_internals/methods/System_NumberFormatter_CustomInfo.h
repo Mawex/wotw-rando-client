@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::NumberFormatter_CustomInfo {
 IL2CPP_REGISTER_METHOD(0x02279FC0, void, GetActiveSection, (String * format, bool * positive, bool zero, int32_t * offset, int32_t * length));

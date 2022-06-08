@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::HasLineOfSightCondition {
 IL2CPP_REGISTER_METHOD(0x00CB90A0, String *, get_Info, (HasLineOfSightCondition * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SimpleFPS {
 IL2CPP_REGISTER_METHOD(0x0073ECE0, Color, _getColorForLightCount, (SimpleFPS * __this, int32_t lights));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x00746DF0, void, DrawLetter, (SimpleFPS * __this, int32_
 IL2CPP_REGISTER_METHOD(0x00747130, int32_t, LetterOffset, (SimpleFPS * __this, int32_t letter));
 IL2CPP_REGISTER_METHOD(0x007471E0, void, DrawDebugVideoString, (SimpleFPS * __this, String * text, float time));
 IL2CPP_REGISTER_METHOD(0x00747370, void, __ctor, (SimpleFPS * __this));
-IL2CPP_REGISTER_METHOD(0x00747EC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00747EC0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::MonoCustomAttrs_AttributeInfo {
 IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (MonoCustomAttrs_AttributeInfo * __this, AttributeUsageAttribute * usage, int32_t inheritanceLevel));

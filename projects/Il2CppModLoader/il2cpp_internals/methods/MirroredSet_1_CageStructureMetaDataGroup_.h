@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MirroredSet_1_CageStructureMetaDataGroup_ {
 IL2CPP_REGISTER_METHOD(0x019FA1B0, CageStructureMetaDataGroup *, GetItem, (MirroredSet_1_CageStructureMetaDataGroup_ * __this, float lookDirection));

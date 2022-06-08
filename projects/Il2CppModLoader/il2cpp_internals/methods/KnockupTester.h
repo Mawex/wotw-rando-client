@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KnockupTester {
 IL2CPP_REGISTER_METHOD(0x01229AF0, void, Update, (KnockupTester * __this));

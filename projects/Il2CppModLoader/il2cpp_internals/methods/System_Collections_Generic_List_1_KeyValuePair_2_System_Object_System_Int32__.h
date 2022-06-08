@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_KeyValuePair_2_System::Object_System::Int32__ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_KeyValuePair_2_System_Object_System_Int32_ * __this));
@@ -59,5 +59,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_KeyValuePair_2_System_Obj
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_KeyValuePair_2_System_Object_System_Int32_ * __this, Comparison_1_System_Collections_Generic_KeyValuePair_2__7 * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, KeyValuePair_2_System_Object_System_Int32___Array *, ToArray, (List_1_KeyValuePair_2_System_Object_System_Int32_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_KeyValuePair_2_System_Object_System_Int32_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

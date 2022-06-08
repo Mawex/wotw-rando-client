@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::BehaviourTreeBuilder {
 IL2CPP_REGISTER_METHOD(0x013E07F0, BehaviourTreeBuilder *, DoState, (BehaviourTreeBuilder * __this, String * name, IBehaviourState * state));

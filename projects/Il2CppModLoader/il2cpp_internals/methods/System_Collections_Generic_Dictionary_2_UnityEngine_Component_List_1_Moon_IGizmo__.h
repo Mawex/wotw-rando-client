@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::Component_List_1_Moon::IGizmo__ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_UnityEngine_Component_List_1_Moon_IGizmo_ * __this, Component_1 * key, List_1_Moon_IGizmo_ * * value));

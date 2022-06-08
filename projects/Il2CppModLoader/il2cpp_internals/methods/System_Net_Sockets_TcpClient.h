@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::TcpClient {
 IL2CPP_REGISTER_METHOD(0x020A2BC0, void, __ctor, (TcpClient * __this));

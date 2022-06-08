@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ {
-IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ *, get_Default, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02D460A0, EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ *, CreateComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ *, get_Default, ());
+IL2CPP_REGISTER_METHOD(0x02D460A0, EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ *, CreateComparer, ());
 IL2CPP_REGISTER_METHOD(0x02B48030, int32_t, IndexOf, (EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ * __this, PreRecordingDynamicSceneObjectEntry__Array * array, PreRecordingDynamicSceneObjectEntry value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B480E0, int32_t, LastIndexOf, (EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ * __this, PreRecordingDynamicSceneObjectEntry__Array * array, PreRecordingDynamicSceneObjectEntry value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B48190, int32_t, IEqualityComparer_GetHashCode, (EqualityComparer_1_PreRecordingDynamicSceneObjectEntry_ * __this, Object * obj));

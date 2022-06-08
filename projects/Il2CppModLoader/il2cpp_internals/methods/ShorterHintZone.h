@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShorterHintZone {
-IL2CPP_REGISTER_METHOD(0x005C3A20, bool, get_IsInside, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005C3A20, bool, get_IsInside, ());
 IL2CPP_REGISTER_METHOD(0x005C3C90, void, Awake, (ShorterHintZone * __this));
 IL2CPP_REGISTER_METHOD(0x005C3E60, void, OnEnable, (ShorterHintZone * __this));
 IL2CPP_REGISTER_METHOD(0x005C3F20, void, OnDisable, (ShorterHintZone * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::Switch::ButtonInput {
 IL2CPP_REGISTER_METHOD(0x00420EE0, Button__Enum, get_Button, (ButtonInput * __this));

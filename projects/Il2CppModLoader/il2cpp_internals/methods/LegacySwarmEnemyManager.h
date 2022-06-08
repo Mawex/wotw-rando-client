@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacySwarmEnemyManager {
 IL2CPP_REGISTER_METHOD(0x00A3AA30, void, Awake, (LegacySwarmEnemyManager * __this));

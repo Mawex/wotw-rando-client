@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::WebRequestModuleElement {
 IL2CPP_REGISTER_METHOD(0x01E995C0, void, __ctor, (WebRequestModuleElement * __this));

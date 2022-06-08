@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_DataPointType_Dictionary_2_System::String_Moon::Telemetry::GameSession__ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_DataPointType_Dictionary_2_System_String_Moon_Telemetry_GameSession_ * __this));

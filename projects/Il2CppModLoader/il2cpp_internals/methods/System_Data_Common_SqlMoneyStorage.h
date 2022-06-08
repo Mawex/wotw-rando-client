@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlMoneyStorage {
 IL2CPP_REGISTER_METHOD(0x0285C370, void, __ctor, (SqlMoneyStorage * __this, DataColumn * column));

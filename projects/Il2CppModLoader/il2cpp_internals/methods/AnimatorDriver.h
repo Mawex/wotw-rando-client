@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimatorDriver {
 IL2CPP_REGISTER_METHOD(0x00504D80, bool, get_IsPlaying, (AnimatorDriver * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataColumn {
 IL2CPP_REGISTER_METHOD(0x02392480, void, __ctor, (DataColumn * __this));

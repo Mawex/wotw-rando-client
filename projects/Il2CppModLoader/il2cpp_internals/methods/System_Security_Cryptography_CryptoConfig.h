@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CryptoConfig {
 IL2CPP_REGISTER_METHOD(0x020C91F0, Byte__Array *, EncodeOID, (String * str));
 IL2CPP_REGISTER_METHODINFO(0x0477C5B0, CryptoConfig_EncodeOID__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x020C9690, Byte__Array *, EncodeLongNumber, (int64_t x));
 IL2CPP_REGISTER_METHODINFO(0x04766D58, CryptoConfig_EncodeLongNumber__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_AllowOnlyFipsAlgorithms, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_AllowOnlyFipsAlgorithms, ());
 IL2CPP_REGISTER_METHOD(0x020C9840, void, AddAlgorithm, (Type * algorithm, String__Array * names));
 IL2CPP_REGISTER_METHODINFO(0x04726578, CryptoConfig_AddAlgorithm__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x020C9890, void, AddOID, (String * oid, String__Array * names));

@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GardenerScreen {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (GardenerScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedOreUI, (GardenerScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00418200, ShopkeeperItem__Array *, get_Items, (GardenerScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00418210, GardenerScreen *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00418210, GardenerScreen *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00418290, void, set_Instance, (GardenerScreen * value));
 IL2CPP_REGISTER_METHOD(0x00418320, ShopkeeperScreen *, get_ShopInstance, (GardenerScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00418330, void, set_ShopInstance, (GardenerScreen * __this, ShopkeeperScreen * value));

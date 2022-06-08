@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GeometryUtility {
 IL2CPP_REGISTER_METHOD(0x02528E00, Plane__Array *, CalculateFrustumPlanes, (Camera * camera));

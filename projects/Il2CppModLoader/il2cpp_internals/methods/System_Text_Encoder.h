@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::Encoder {
 IL2CPP_REGISTER_METHOD(0x0244B830, void, SerializeEncoder, (Encoder * __this, SerializationInfo * info));

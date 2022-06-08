@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System::Linq::Expressions::Interpreter::LocalDefinition_ {
 IL2CPP_REGISTER_METHOD(0x001F4750, bool, get_HasValue, (Nullable_1_System_Linq_Expressions_Interpreter_LocalDefinition___Boxed * __this));

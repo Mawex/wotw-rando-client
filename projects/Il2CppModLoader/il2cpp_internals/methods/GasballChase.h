@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasballChase {
 IL2CPP_REGISTER_METHOD(0x0041B780, Vector3, get_TargetPos, (GasballChase * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebHeaderCollection_HeaderEncoding {
 IL2CPP_REGISTER_METHOD(0x01D77690, String *, GetString, (Byte__Array * bytes, int32_t byteIndex, int32_t byteCount));

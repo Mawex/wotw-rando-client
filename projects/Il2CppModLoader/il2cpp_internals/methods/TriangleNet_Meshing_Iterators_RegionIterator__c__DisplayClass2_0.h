@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Iterators::RegionIterator___c__DisplayClass2_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RegionIterator_c_DisplayClass2_0 * __this));

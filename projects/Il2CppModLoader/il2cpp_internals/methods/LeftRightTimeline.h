@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeftRightTimeline {
 IL2CPP_REGISTER_METHOD(0x0012E3E0, void, Play, (LeftRightTimeline__Boxed * __this, LeftRightTimeline_Side__Enum side));

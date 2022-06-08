@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinBashAttackPuppet {
 IL2CPP_REGISTER_METHOD(0x00D8F3B0, void, BashFailed, (SeinBashAttackPuppet * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::TouchWalls_EffectorLink {
 IL2CPP_REGISTER_METHOD(0x02047870, void, Initiate, (TouchWalls_EffectorLink * __this, InteractionSystem * interactionSystem));

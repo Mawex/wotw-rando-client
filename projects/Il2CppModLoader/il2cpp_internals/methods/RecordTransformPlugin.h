@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecordTransformPlugin {
 IL2CPP_REGISTER_METHOD(0x00735C80, void, Awake, (RecordTransformPlugin * __this));

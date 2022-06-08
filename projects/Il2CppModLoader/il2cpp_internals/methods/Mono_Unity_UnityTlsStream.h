@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTlsStream {
 IL2CPP_REGISTER_METHOD(0x02491D80, void, __ctor, (UnityTlsStream * __this, Stream * innerStream, bool leaveInnerStreamOpen, SslStream * owner, MonoTlsSettings * settings, MonoTlsProvider * provider));

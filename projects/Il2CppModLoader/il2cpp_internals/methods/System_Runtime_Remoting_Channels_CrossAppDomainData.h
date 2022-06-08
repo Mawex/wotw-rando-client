@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Channels::CrossAppDomainData {
 IL2CPP_REGISTER_METHOD(0x01A9EB20, void, __ctor, (CrossAppDomainData * __this, int32_t domainId));

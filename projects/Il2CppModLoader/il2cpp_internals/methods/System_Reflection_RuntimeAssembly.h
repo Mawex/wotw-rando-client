@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::RuntimeAssembly {
 IL2CPP_REGISTER_METHOD(0x026968D0, void, GetObjectData, (RuntimeAssembly * __this, SerializationInfo * info, StreamingContext context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Tonemapping {
 IL2CPP_REGISTER_METHOD(0x02D68DC0, bool, CheckResources, (Tonemapping * __this));

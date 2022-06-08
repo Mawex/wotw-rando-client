@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::PositionInBoxColliderCondition {
 IL2CPP_REGISTER_METHOD(0x00CBAB10, String *, get_Info, (PositionInBoxColliderCondition * __this));

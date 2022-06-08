@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::MatchmakingExtensions {
 IL2CPP_REGISTER_METHOD(0x00C44530, List_1_Moon_Race_LeaderBoardEntry_ *, GetEntriesInRange, (List_1_Moon_Race_LeaderBoardEntry_ * leaderboard, int32_t amount, int32_t pivotSlot, int32_t * startedRangeIndex));

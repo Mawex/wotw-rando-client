@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::ISteamMatchmakingPlayersResponse_InternalPlayersRefreshComplete {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (ISteamMatchmakingPlayersResponse_InternalPlayersRefreshComplete * __this, Object * object, void * method_1));

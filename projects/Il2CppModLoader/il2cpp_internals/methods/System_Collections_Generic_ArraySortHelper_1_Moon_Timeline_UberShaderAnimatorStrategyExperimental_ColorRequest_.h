@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::Timeline::UberShaderAnimatorStrategyExperimental_ColorRequest_ {
 IL2CPP_REGISTER_METHOD(0x02F3C680, void, Sort, (UberShaderAnimatorStrategyExperimental_ColorRequest__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_ColorRequest_ * comparer));

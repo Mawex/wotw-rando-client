@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoreNodeWisps {
 IL2CPP_REGISTER_METHOD(0x009ED350, bool, get_IsActive, (LoreNodeWisps * __this));

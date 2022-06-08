@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::ASN1 {
 IL2CPP_REGISTER_METHOD(0x023CF080, void, __ctor, (ASN1 * __this, uint8_t tag));

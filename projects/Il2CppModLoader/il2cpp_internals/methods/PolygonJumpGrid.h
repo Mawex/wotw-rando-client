@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PolygonJumpGrid {
 IL2CPP_REGISTER_METHOD(0x002FB9C0, void, Init, (PolygonJumpGrid * __this, ILocomotionTurningHandler * turningHandler));

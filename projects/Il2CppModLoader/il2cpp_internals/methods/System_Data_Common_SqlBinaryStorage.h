@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlBinaryStorage {
 IL2CPP_REGISTER_METHOD(0x02842470, void, __ctor, (SqlBinaryStorage * __this, DataColumn * column));

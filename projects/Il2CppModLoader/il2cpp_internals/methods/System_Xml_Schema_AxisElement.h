@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::AxisElement {
 IL2CPP_REGISTER_METHOD(0x002FA280, DoubleLinkAxis *, get_CurNode, (AxisElement * __this));

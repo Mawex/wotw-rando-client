@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::TextWriter_SyncTextWriter {
 IL2CPP_REGISTER_METHOD(0x023882C0, void, __ctor, (TextWriter_SyncTextWriter * __this, TextWriter * t));

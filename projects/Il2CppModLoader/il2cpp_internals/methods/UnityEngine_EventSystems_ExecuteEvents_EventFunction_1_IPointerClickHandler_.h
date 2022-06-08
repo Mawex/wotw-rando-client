@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::ExecuteEvents_EventFunction_1_IPointerClickHandler_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (ExecuteEvents_EventFunction_1_IPointerClickHandler_ * __this, Object * object, void * method_1));

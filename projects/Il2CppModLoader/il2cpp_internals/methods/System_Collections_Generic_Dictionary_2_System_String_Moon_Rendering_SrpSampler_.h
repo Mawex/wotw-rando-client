@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_Moon::Rendering::SrpSampler_ {
 IL2CPP_REGISTER_METHOD(0x02DA9FC0, bool, TryGetValue, (Dictionary_2_System_String_Moon_Rendering_SrpSampler_ * __this, String * key, SrpSampler * value));

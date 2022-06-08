@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Bindings::NativeConditionalAttribute {
 IL2CPP_REGISTER_METHOD(0x020D0390, void, __ctor, (NativeConditionalAttribute * __this, String * condition));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::OneDSEventsAPI__GetTelemetryIngestionConfigAsync_d__12 {
 IL2CPP_REGISTER_METHOD(0x0014EBB0, void, MoveNext, (OneDSEventsAPI_GetTelemetryIngestionConfigAsync_d_12__Boxed * __this));

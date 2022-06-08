@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::P3D_Helper {
 IL2CPP_REGISTER_METHOD(0x03091AD0, TextureFormat__Enum, GetTextureFormat, (P3D_Format__Enum format));
 IL2CPP_REGISTER_METHOD(0x03091B00, bool, IndexInMask, (int32_t index, LayerMask mask));
 IL2CPP_REGISTER_METHOD(0x03091B20, Texture2D *, CreateTexture, (int32_t width, int32_t height, TextureFormat__Enum format, bool mipMaps));
 IL2CPP_REGISTER_METHOD(0x03091CB0, void, ClearTexture, (Texture2D * texture2D, Color color, bool apply));
-IL2CPP_REGISTER_METHOD(0x03091E00, Material *, get_ClearMaterial, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03091E00, Material *, get_ClearMaterial, ());
 IL2CPP_REGISTER_METHOD(0x03092030, Mesh *, GetMesh, (GameObject * gameObject, Mesh * * bakedMesh));
 IL2CPP_REGISTER_METHOD(0x03092410, void, DestroyMesh, (Mesh * * mesh));
 IL2CPP_REGISTER_METHOD(0x030924E0, Material *, GetMaterial, (GameObject * gameObject, int32_t materialIndex));

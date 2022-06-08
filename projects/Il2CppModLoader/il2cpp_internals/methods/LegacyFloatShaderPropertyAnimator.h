@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyFloatShaderPropertyAnimator {
 IL2CPP_REGISTER_METHOD(0x00A24880, int32_t, get_PropertyID, (LegacyFloatShaderPropertyAnimator * __this));

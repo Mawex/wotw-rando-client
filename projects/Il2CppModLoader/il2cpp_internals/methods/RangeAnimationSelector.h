@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RangeAnimationSelector {
 IL2CPP_REGISTER_METHOD(0x016AA250, Object *, GetEntry, (Object__Array * entries, float parameter));

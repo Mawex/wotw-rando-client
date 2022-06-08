@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceSet {
 IL2CPP_REGISTER_METHOD(0x01A8DA30, void, __ctor, (ResourceSet * __this));

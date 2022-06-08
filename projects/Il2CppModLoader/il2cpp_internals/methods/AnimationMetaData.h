@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationMetaData {
 IL2CPP_REGISTER_METHOD(0x004FCA50, int32_t, get_FrameCount, (AnimationMetaData * __this));

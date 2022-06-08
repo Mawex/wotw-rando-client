@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::CullingCategoryManager {
 IL2CPP_REGISTER_METHOD(0x00C53A00, void, __ctor, (CullingCategoryManager * __this, CullingCategory__Enum mask, bool needsList, bool perSlice));

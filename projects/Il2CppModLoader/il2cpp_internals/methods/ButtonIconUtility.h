@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ButtonIconUtility {
 IL2CPP_REGISTER_METHOD(0x0081E660, String *, KeyCodeToString, (KeyCode__Enum keyCode));
@@ -17,10 +17,10 @@ IL2CPP_REGISTER_METHOD(0x0081F660, String *, GetSwitchButtonString, (AxisButtonI
 IL2CPP_REGISTER_METHOD(0x0081F740, String *, GetButtonString, (ButtonInput * buttonInput));
 IL2CPP_REGISTER_METHOD(0x0081F7D0, String *, GetAxisIcon, (IAxisInput * axisInput, bool positive));
 IL2CPP_REGISTER_METHOD(0x0081FAC0, String *, GetButtonString, (CompoundButtonInput * compoundButtonInput));
-IL2CPP_REGISTER_METHOD(0x0081FD70, String *, GetNeutralLeftAxis, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0081FDF0, String *, GetIconDigiPad, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0081FE70, String *, GetIconKeyboardNavigationArrows, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0081FEF0, String *, GetIconMouseNavigation, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0081FF70, String *, GetIconAnalogueStick, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0081FFF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0081FD70, String *, GetNeutralLeftAxis, ());
+IL2CPP_REGISTER_METHOD(0x0081FDF0, String *, GetIconDigiPad, ());
+IL2CPP_REGISTER_METHOD(0x0081FE70, String *, GetIconKeyboardNavigationArrows, ());
+IL2CPP_REGISTER_METHOD(0x0081FEF0, String *, GetIconMouseNavigation, ());
+IL2CPP_REGISTER_METHOD(0x0081FF70, String *, GetIconAnalogueStick, ());
+IL2CPP_REGISTER_METHOD(0x0081FFF0, void, __cctor, ());
 }

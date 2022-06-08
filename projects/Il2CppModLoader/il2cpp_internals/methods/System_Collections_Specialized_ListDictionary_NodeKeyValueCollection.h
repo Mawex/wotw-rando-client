@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::ListDictionary_NodeKeyValueCollection {
 IL2CPP_REGISTER_METHOD(0x01669060, void, __ctor, (ListDictionary_NodeKeyValueCollection * __this, ListDictionary * list, bool isKeys));

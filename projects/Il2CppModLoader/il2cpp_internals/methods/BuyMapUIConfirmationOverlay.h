@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BuyMapUIConfirmationOverlay {
 IL2CPP_REGISTER_METHOD(0x008223B0, void, FixedUpdate, (BuyMapUIConfirmationOverlay * __this));

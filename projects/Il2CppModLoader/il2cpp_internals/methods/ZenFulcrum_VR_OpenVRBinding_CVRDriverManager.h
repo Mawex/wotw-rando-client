@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRDriverManager {
 IL2CPP_REGISTER_METHOD(0x016785A0, void, __ctor, (CVRDriverManager * __this, void * pInterface));

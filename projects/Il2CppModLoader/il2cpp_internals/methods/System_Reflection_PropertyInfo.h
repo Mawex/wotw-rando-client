@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::PropertyInfo {
 IL2CPP_REGISTER_METHOD(0x007E3F10, MemberTypes__Enum, get_MemberType, (PropertyInfo_1 * __this));
@@ -11,7 +11,7 @@ IL2CPP_REGISTER_METHOD(0x02695AF0, void, SetValue, (PropertyInfo_1 * __this, Obj
 IL2CPP_REGISTER_METHOD(0x02695B30, void, SetValue, (PropertyInfo_1 * __this, Object * obj, Object * value));
 IL2CPP_REGISTER_METHOD(0x02695B70, Type__Array *, GetOptionalCustomModifiers, (PropertyInfo_1 * __this));
 IL2CPP_REGISTER_METHOD(0x02695C10, Type__Array *, GetRequiredCustomModifiers, (PropertyInfo_1 * __this));
-IL2CPP_REGISTER_METHOD(0x02695CB0, NotImplementedException *, CreateNIE, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02695CB0, NotImplementedException *, CreateNIE, ());
 IL2CPP_REGISTER_METHOD(0x02695DF0, Object *, GetConstantValue, (PropertyInfo_1 * __this));
 IL2CPP_REGISTER_METHODINFO(0x047331E0, PropertyInfo_1_GetConstantValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02695E30, Object *, GetRawConstantValue, (PropertyInfo_1 * __this));

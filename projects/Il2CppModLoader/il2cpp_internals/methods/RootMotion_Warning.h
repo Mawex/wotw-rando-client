@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Warning {
 IL2CPP_REGISTER_METHOD(0x02A2EF60, void, Log, (String * message, Warning_Logger * logger, bool logInEditMode));

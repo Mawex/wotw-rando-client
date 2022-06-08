@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyDebugMenu_GameObjectItem {
 IL2CPP_REGISTER_METHOD(0x00B52660, void, __ctor, (HierarchyDebugMenu_GameObjectItem * __this, GameObject * go));

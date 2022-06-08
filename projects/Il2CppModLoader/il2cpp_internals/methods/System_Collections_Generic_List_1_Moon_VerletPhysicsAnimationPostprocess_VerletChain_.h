@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::VerletPhysicsAnimationPostprocess_VerletChain_ {
 IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_Moon_VerletPhysicsAnimationPostprocess_VerletChain_ * __this, VerletPhysicsAnimationPostprocess_VerletChain * item));

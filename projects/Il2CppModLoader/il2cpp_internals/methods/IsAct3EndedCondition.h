@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsAct3EndedCondition {
 IL2CPP_REGISTER_METHOD(0x00645C20, bool, Validate, (IsAct3EndedCondition * __this, IContext * context));

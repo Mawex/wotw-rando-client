@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XObject__Annotations_d__16_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, Object *, System_Collections_Generic_IEnumerator_T__get_Current, (XObject_Annotations_d_16_1_System_Object_ * __this));

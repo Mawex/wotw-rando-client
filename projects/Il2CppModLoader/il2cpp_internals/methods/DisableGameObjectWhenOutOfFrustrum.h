@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DisableGameObjectWhenOutOfFrustrum {
 IL2CPP_REGISTER_METHOD(0x00B953C0, void, AutoGenerate, (DisableGameObjectWhenOutOfFrustrum * __this));
@@ -32,7 +32,7 @@ IL2CPP_REGISTER_METHOD(0x00417870, bool, get_ShouldSetMoonReady, (DisableGameObj
 IL2CPP_REGISTER_METHOD(0x00B97830, void, OnBuild, (DisableGameObjectWhenOutOfFrustrum * __this));
 IL2CPP_REGISTER_METHOD(0x00B979E0, void, Prewarm, (DisableGameObjectWhenOutOfFrustrum * __this));
 IL2CPP_REGISTER_METHOD(0x00B97A80, void, __ctor, (DisableGameObjectWhenOutOfFrustrum * __this));
-IL2CPP_REGISTER_METHOD(0x00B97F10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B97F10, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00B97FB0, void, _OnFrustumEnter_b__25_0, (DisableGameObjectWhenOutOfFrustrum * __this, bool success));
 IL2CPP_REGISTER_METHODINFO(0x047187B0, DisableGameObjectWhenOutOfFrustrum__OnFrustumEnter_b__25_0__MethodInfo);
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_UnityEngine::GameObject_Moon::UberTransformFollow_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, GameObject *, get_Item1, (Tuple_2_UnityEngine_GameObject_Moon_UberTransformFollow_ * __this));

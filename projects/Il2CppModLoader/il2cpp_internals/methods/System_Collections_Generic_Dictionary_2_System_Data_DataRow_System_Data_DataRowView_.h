@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Data::DataRow_System::Data::DataRowView_ {
 IL2CPP_REGISTER_METHOD(0x0283AC50, void, __ctor, (Dictionary_2_System_Data_DataRow_System_Data_DataRowView_ * __this, IEqualityComparer_1_System_Data_DataRow_ * comparer));

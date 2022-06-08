@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterStateWrapper_1_SeinSpiritSlash_ {
 IL2CPP_REGISTER_METHOD(0x019DF450, void, Refresh, (CharacterStateWrapper_1_SeinSpiritSlash_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindShaftController {
 IL2CPP_REGISTER_METHOD(0x00578CD0, void, Awake, (WindShaftController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterAnimationSystem {
 IL2CPP_REGISTER_METHOD(0x010475F0, void, RemoveState, (CharacterAnimationSystem * __this, int32_t index));

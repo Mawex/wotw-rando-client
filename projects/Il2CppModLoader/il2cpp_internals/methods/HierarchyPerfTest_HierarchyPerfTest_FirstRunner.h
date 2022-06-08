@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::HierarchyPerfTest_FirstRunner {
 IL2CPP_REGISTER_METHOD(0x01973970, void, Awake, (HierarchyPerfTest_FirstRunner * __this));

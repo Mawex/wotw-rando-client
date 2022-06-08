@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameWorld {
 IL2CPP_REGISTER_METHOD(0x00406190, bool, HasCompletedEverything, (GameWorld * __this));

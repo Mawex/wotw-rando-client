@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HornBugStunBehaviour {
 IL2CPP_REGISTER_METHOD(0x010FA930, void, OnEntityInitialized, (HornBugStunBehaviour * __this));

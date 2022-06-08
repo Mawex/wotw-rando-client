@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::HServerListRequest {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (HServerListRequest__Boxed * __this, void * value));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x015FB9B0, bool, operator___, (HServerListRequest x, HSe
 IL2CPP_REGISTER_METHOD(0x004C50A0, HServerListRequest, operator_, (void * value));
 IL2CPP_REGISTER_METHOD(0x004C50A0, void *, operator_, (HServerListRequest that));
 IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals, (HServerListRequest__Boxed * __this, HServerListRequest other));
-IL2CPP_REGISTER_METHOD(0x015FBA60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015FBA60, void, __cctor, ());
 }

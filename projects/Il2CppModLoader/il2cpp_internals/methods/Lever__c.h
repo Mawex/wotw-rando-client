@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Lever___c {
-IL2CPP_REGISTER_METHOD(0x01136C00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01136C00, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Lever_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__153_0, (Lever_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x047618D8, Lever_c___ctor_b__153_0__MethodInfo);

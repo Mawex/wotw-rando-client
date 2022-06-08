@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_Task_ {
 IL2CPP_REGISTER_METHOD(0x0277FBD0, ConfiguredTaskAwaitable_1_System_Threading_Tasks_Task_, ConfigureAwait, (Task_1_Task_ * __this, bool continueOnCapturedContext));
 IL2CPP_REGISTER_METHODINFO(0x0478C260, Task_1_Task__ConfigureAwait__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_Task_ *, get_Factory, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_Task_ *, get_Factory, ());
 IL2CPP_REGISTER_METHODINFO(0x04701080, Task_1_Task__get_Factory__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A5ACF0, void, __ctor, (Task_1_Task_ * __this));
 IL2CPP_REGISTER_METHODINFO(0x04711590, Task_1_Task___ctor__MethodInfo);

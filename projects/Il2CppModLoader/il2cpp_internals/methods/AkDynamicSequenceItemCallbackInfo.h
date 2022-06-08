@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkDynamicSequenceItemCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x026E19F0, void, __ctor, (AkDynamicSequenceItemCallbackInfo * __this, void * cPtr, bool cMemoryOwn));

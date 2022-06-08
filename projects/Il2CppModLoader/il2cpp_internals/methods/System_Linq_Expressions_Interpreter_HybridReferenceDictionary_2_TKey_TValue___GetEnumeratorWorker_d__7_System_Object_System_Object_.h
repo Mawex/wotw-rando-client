@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2_TKey_TValue___GetEnumeratorWorker_d__7_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00C3DD30, KeyValuePair_2_System_Object_System_Object_, System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current, (HybridReferenceDictionary_2_TKey_TValue_GetEnumeratorWorker_d_7_System_Object_System_Object_ * __this));

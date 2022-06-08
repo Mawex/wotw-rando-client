@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_UnityEngine::GUIStyle_ {
 IL2CPP_REGISTER_METHOD(0x0283AC50, void, __ctor, (Dictionary_2_System_String_UnityEngine_GUIStyle_ * __this, IEqualityComparer_1_System_String_ * comparer));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::LayoutRebuilder {
-IL2CPP_REGISTER_METHOD(0x0265B9B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0265B9B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LayoutRebuilder * __this));
 IL2CPP_REGISTER_METHOD(0x0265BDB0, void, Initialize, (LayoutRebuilder * __this, RectTransform * controller));
 IL2CPP_REGISTER_METHOD(0x0098AB30, void, Clear, (LayoutRebuilder * __this));

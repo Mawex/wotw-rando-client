@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WidgetUIHorizontalSelect {
 IL2CPP_REGISTER_METHOD(0x00573CF0, void, SetNames, (WidgetUIHorizontalSelect * __this, String__Array * names));

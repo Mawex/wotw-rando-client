@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinKeystonesFloatProvider {
 IL2CPP_REGISTER_METHOD(0x01020A90, float, GetFloatValue, (SeinKeystonesFloatProvider * __this));

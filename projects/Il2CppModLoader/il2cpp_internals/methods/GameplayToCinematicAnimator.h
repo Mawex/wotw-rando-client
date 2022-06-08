@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameplayToCinematicAnimator {
 IL2CPP_REGISTER_METHOD(0x002FBC60, CameraPuppetController *, get_Puppet, (GameplayToCinematicAnimator * __this));

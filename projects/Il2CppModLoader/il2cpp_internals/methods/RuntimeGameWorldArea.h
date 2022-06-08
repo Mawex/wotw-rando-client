@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RuntimeGameWorldArea {
 IL2CPP_REGISTER_METHOD(0x01374BF0, PlayerUberStateAreaMapInformation *, get_AreaMapUberState, (RuntimeGameWorldArea * __this));

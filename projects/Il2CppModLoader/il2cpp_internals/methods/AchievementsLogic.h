@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AchievementsLogic {
 IL2CPP_REGISTER_METHOD(0x004B6340, List_1_AchievementAsset_ *, get_WispsAchievements, (AchievementsLogic * __this));
@@ -76,6 +76,6 @@ IL2CPP_REGISTER_METHOD(0x004BAFA0, void, OnGameEnd, (AchievementsLogic * __this)
 IL2CPP_REGISTER_METHOD(0x004BB260, void, PostAchievementProgress, (AchievementsLogic * __this, AchievementAsset * asset, AchievementsLogic_Func_3_System_Int32_System_Int32_System_Boolean_ * countProgressMethod));
 IL2CPP_REGISTER_METHOD(0x004BB370, void, PostAllAchievementsProgress, (AchievementsLogic * __this));
 IL2CPP_REGISTER_METHOD(0x004BBB90, void, ValidateEndGameAchievements, (AchievementsLogic * __this));
-IL2CPP_REGISTER_METHOD(0x004BBC60, void, DrawDebugInfo, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004BBC60, void, DrawDebugInfo, ());
 IL2CPP_REGISTER_METHOD(0x004BBF10, void, __ctor, (AchievementsLogic * __this));
 }

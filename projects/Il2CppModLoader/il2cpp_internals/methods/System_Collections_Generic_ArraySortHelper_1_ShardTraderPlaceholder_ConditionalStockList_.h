@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_ShardTraderPlaceholder_ConditionalStockList_ {
 IL2CPP_REGISTER_METHOD(0x02FF08F0, void, Sort, (ShardTraderPlaceholder_ConditionalStockList__Array * keys, int32_t index, int32_t length, IComparer_1_ShardTraderPlaceholder_ConditionalStockList_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlTypeAttribute {
 IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_IncludeInSchema, (XmlTypeAttribute * __this));

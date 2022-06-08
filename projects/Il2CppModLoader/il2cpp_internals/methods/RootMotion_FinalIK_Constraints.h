@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Constraints {
 IL2CPP_REGISTER_METHOD(0x02052E00, bool, IsValid, (Constraints * __this));

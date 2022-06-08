@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::SHA512Managed {
 IL2CPP_REGISTER_METHOD(0x01E0E5F0, void, __ctor, (SHA512Managed * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x01E0F7A0, uint64_t, Sigma_1, (uint64_t x));
 IL2CPP_REGISTER_METHOD(0x01E0F870, uint64_t, sigma_0, (uint64_t x));
 IL2CPP_REGISTER_METHOD(0x01E0F930, uint64_t, sigma_1, (uint64_t x));
 IL2CPP_REGISTER_METHOD(0x01E0F9F0, void, SHA512Expand, (uint64_t * x));
-IL2CPP_REGISTER_METHOD(0x01E0FAE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E0FAE0, void, __cctor, ());
 }

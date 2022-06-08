@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ArtOptimizationDataModel {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, TexturesPool *, get_Pool, (ArtOptimizationDataModel * __this));

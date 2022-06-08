@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShellShatterEffect {
 IL2CPP_REGISTER_METHOD(0x005B2370, void, OnEnable, (ShellShatterEffect * __this));

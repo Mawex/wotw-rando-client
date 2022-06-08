@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinAnimationUtils {
 IL2CPP_REGISTER_METHOD(0x00D84B90, void, Play, (String * name, Action * onStopPlaying, Func_1_Boolean_ * condition));

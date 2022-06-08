@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LicenseException {
 IL2CPP_REGISTER_METHOD(0x01FF0890, void, __ctor, (LicenseException * __this, Type * type));

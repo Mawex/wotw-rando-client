@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WorldmapModifier {
 IL2CPP_REGISTER_METHOD(0x0058D2A0, void, SetProperties, (WorldmapModifier * __this));

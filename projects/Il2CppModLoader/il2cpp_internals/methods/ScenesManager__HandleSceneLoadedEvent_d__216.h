@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScenesManager__HandleSceneLoadedEvent_d__216 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (ScenesManager_HandleSceneLoadedEvent_d_216 * __this, int32_t __1__state));

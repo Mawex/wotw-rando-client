@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::WebProxyScriptElement {
 IL2CPP_REGISTER_METHOD(0x01E994D0, void, __ctor, (WebProxyScriptElement * __this));

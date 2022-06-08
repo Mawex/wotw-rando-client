@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blend2Camera_Multiply {
 IL2CPP_REGISTER_METHOD(0x02757AD0, Material *, get_material, (CameraFilterPack_Blend2Camera_Multiply * __this));

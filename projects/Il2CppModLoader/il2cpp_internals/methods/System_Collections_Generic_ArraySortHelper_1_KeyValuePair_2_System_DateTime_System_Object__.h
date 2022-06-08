@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_KeyValuePair_2_System::DateTime_System::Object__ {
 IL2CPP_REGISTER_METHOD(0x02FF9410, void, Sort, (KeyValuePair_2_System_DateTime_System_Object___Array * keys, int32_t index, int32_t length, IComparer_1_KeyValuePair_2_System_DateTime_System_Object_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Module {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Module * __this));
@@ -23,7 +23,7 @@ IL2CPP_REGISTER_METHOD(0x0268E640, Guid, get_ModuleVersionId, (Module * __this))
 IL2CPP_REGISTER_METHODINFO(0x04778968, Module_get_ModuleVersionId__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0268E6E0, String *, get_FullyQualifiedName, (Module * __this));
 IL2CPP_REGISTER_METHODINFO(0x0477E910, Module_get_FullyQualifiedName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0268E780, Exception *, CreateNIE, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0268E780, Exception *, CreateNIE, ());
 IL2CPP_REGISTER_METHOD(0x0268E8D0, bool, IsResource, (Module * __this));
 IL2CPP_REGISTER_METHODINFO(0x04762A80, Module_IsResource__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0268E970, Object__Array *, GetCustomAttributes, (Module * __this, bool inherit));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x0268EA10, Object__Array *, GetCustomAttributes, (Module
 IL2CPP_REGISTER_METHODINFO(0x047440C8, Module_GetCustomAttributes_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0268EAB0, bool, IsDefined, (Module * __this, Type * attributeType, bool inherit));
 IL2CPP_REGISTER_METHODINFO(0x04798700, Module_IsDefined__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0268EB50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0268EB50, void, __cctor, ());
 }

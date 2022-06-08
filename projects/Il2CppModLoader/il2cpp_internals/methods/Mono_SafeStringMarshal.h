@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::SafeStringMarshal {
 IL2CPP_REGISTER_METHOD(0x023CED90, void *, StringToUtf8, (String * str));

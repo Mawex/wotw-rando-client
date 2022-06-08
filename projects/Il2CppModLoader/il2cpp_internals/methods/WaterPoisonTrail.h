@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterPoisonTrail {
 IL2CPP_REGISTER_METHOD(0x008DE010, Damage *, GetDamageForPosition, (WaterPoisonTrail * __this, Vector3 position));

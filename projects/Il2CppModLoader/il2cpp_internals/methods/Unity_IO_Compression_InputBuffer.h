@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::InputBuffer {
 IL2CPP_REGISTER_METHOD(0x00529E80, int32_t, get_AvailableBits, (InputBuffer * __this));

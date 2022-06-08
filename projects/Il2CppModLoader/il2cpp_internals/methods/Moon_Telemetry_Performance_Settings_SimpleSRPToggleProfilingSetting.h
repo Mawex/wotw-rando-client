@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::SimpleSRPToggleProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x0044E710, MoonRenderPipelineAsset *, get_mrpAsset, (SimpleSRPToggleProfilingSetting * __this));

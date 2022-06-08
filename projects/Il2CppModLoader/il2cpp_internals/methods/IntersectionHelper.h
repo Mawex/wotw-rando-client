@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IntersectionHelper {
 IL2CPP_REGISTER_METHOD(0x0063E090, bool, LinesIntersect, (Vector3 start0, Vector3 end0, Vector3 start1, Vector3 end1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase {
 IL2CPP_REGISTER_METHOD(0x023CD2B0, BigInteger *, GenerateSearchBase, (SequentialSearchPrimeGeneratorBase * __this, int32_t bits, Object * context));

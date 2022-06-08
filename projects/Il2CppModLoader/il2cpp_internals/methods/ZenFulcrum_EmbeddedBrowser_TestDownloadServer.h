@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::TestDownloadServer {
 IL2CPP_REGISTER_METHOD(0x0166E610, void, OnEnable, (TestDownloadServer * __this));

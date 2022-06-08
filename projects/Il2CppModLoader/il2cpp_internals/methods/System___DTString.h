@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::__DTString {
 IL2CPP_REGISTER_METHOD(0x00249FC0, void, __ctor, (_DTString__Boxed * __this, String * str, DateTimeFormatInfo * dtfi, bool checkDigitToken));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x0024A210, void, RemoveTrailingInQuoteSpaces, (_DTString
 IL2CPP_REGISTER_METHOD(0x0024A220, void, RemoveLeadingInQuoteSpaces, (_DTString__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0024A230, DTSubString, GetSubString, (_DTString__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0024A260, void, ConsumeSubString, (_DTString__Boxed * __this, DTSubString sub));
-IL2CPP_REGISTER_METHOD(0x0314FD20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0314FD20, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::SetFloatAction {
 IL2CPP_REGISTER_METHOD(0x03010540, String *, get_Info, (SetFloatAction * __this));

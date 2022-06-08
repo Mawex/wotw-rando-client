@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TraceGroundMovementSurfaceProvider {
 IL2CPP_REGISTER_METHOD(0x00B02010, SurfaceMaterialType__Enum, GetSurfaceType, (TraceGroundMovementSurfaceProvider * __this));

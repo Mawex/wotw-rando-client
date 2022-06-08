@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RocksGenerator {
 IL2CPP_REGISTER_METHOD(0x0135A190, void, Awake, (RocksGenerator * __this));

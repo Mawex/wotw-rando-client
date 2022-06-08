@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TestEntity {
 IL2CPP_REGISTER_METHOD(0x002FB990, BehaviourTree *, get_BehaviourTree, (TestEntity * __this));

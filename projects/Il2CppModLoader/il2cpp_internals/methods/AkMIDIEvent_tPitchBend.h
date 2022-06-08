@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkMIDIEvent_tPitchBend {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkMIDIEvent_tPitchBend * __this, void * cPtr, bool cMemoryOwn));

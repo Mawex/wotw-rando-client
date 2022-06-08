@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityEvent_3_System::Object_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01F2C230, void, __ctor, (UnityEvent_3_System_Object_System_Object_System_Object_ * __this));

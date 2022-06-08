@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasKeystonesCondition {
 IL2CPP_REGISTER_METHOD(0x0109E880, bool, Validate, (HasKeystonesCondition * __this, IContext * context));

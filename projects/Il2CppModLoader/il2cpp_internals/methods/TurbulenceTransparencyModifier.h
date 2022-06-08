@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceTransparencyModifier {
 IL2CPP_REGISTER_METHOD(0x013D7570, void, Randomize, (TurbulenceTransparencyModifier * __this));

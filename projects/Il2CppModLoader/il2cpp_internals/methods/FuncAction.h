@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FuncAction {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (FuncAction * __this, Action * action));

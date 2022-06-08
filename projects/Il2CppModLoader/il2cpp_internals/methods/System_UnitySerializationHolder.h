@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UnitySerializationHolder {
 IL2CPP_REGISTER_METHOD(0x027C5C80, void, GetUnitySerializationInfo, (SerializationInfo * info, Missing * missing));

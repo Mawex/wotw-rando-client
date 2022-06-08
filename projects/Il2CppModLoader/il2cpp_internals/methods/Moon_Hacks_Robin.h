@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Hacks::Robin {
 IL2CPP_REGISTER_METHOD(0x01499E10, void, FixedUpdate, (Robin * __this));

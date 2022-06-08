@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatEntityReactions {
 IL2CPP_REGISTER_METHOD(0x0095B870, void, ProcessEntityEvent, (SpiderBatEntityReactions * __this, EntityEvent * eventInfo));

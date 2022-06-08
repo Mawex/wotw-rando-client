@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinStandingOnEdge {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinStandingOnEdge * __this));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x009922B0, bool, ShouldStandingOnEdgeFacingForwardsAnima
 IL2CPP_REGISTER_METHODINFO(0x04786BE0, SeinStandingOnEdge_ShouldStandingOnEdgeFacingForwardsAnimationKeepPlaying__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00A7DBC0, bool, StandingOnEdgeRayHit, (SeinStandingOnEdge * __this, float offset, int32_t * reqId));
 IL2CPP_REGISTER_METHOD(0x00A7DF70, void, __ctor, (SeinStandingOnEdge * __this));
-IL2CPP_REGISTER_METHOD(0x00A7DF90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A7DF90, void, __cctor, ());
 }

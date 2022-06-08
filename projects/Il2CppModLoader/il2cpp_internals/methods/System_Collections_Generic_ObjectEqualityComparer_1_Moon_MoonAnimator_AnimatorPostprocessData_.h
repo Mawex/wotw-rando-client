@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::MoonAnimator_AnimatorPostprocessData_ {
 IL2CPP_REGISTER_METHOD(0x01CD2D60, bool, Equals, (ObjectEqualityComparer_1_Moon_MoonAnimator_AnimatorPostprocessData_ * __this, MoonAnimator_AnimatorPostprocessData x, MoonAnimator_AnimatorPostprocessData y));

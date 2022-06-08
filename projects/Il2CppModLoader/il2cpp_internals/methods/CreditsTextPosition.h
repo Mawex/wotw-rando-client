@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CreditsTextPosition {
 IL2CPP_REGISTER_METHOD(0x00DB7970, bool, get_IsLooping, (CreditsTextPosition * __this));

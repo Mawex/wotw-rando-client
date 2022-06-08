@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterAbility {
 IL2CPP_REGISTER_METHOD(0x01046690, void, __ctor, (CharacterAbility * __this, PlayerAbilities * playerAbilities, AbilityType__Enum abilityType));

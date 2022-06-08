@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpawnPrefabOnAccelerationChange {
 IL2CPP_REGISTER_METHOD(0x00EF6040, void, Awake, (SpawnPrefabOnAccelerationChange * __this));

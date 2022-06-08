@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinRide {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsAllowedNonZeroZPosition, (SeinRide * __this));
-IL2CPP_REGISTER_METHOD(0x005D17A0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005D17A0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinRide * __this));
 IL2CPP_REGISTER_METHOD(0x005D1840, SeinRidePuppet *, get_Puppet, (SeinRide * __this));
 IL2CPP_REGISTER_METHOD(0x005D1900, SeinRide_RideState *, get_CurrentRideState, (SeinRide * __this));
@@ -29,5 +29,5 @@ IL2CPP_REGISTER_METHODINFO(0x0478CC08, SeinRide_IsRiding__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x005D2E80, void, StopRiding, (SeinRide * __this, Vector2 extraForce));
 IL2CPP_REGISTER_METHOD(0x005D3550, void, OnDrawGizmos, (SeinRide * __this));
 IL2CPP_REGISTER_METHOD(0x005D3A20, void, __ctor, (SeinRide * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

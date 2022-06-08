@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::XGameSaveUpdateHandle {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (XGameSaveUpdateHandle * __this, XGameSaveUpdateHandle_1 interopHandle));

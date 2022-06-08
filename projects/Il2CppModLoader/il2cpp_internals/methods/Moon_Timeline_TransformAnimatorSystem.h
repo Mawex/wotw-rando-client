@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransformAnimatorSystem {
-IL2CPP_REGISTER_METHOD(0x0311C670, TransformAnimatorSystem *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0311C820, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0311C670, TransformAnimatorSystem *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x0311C820, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0311C8A0, TransformAnimatorSystem_PositionModification, CreatePositionModification, (TransformAnimatorSystem * __this, Transform * t, Vector3 position, Space__Enum space));
 IL2CPP_REGISTER_METHOD(0x0311CB50, void, SubmitDynamicPosition, (TransformAnimatorSystem * __this, Transform * t, Vector3 position, Space__Enum space, HandoverMode__Enum handoverMode, UpdateCategory__Enum category));
 IL2CPP_REGISTER_METHOD(0x0311CE70, void, SubmitStaticPosition, (TransformAnimatorSystem * __this, Transform * t, Vector3 position, Space__Enum space, UpdateCategory__Enum category, bool immediatelyApply));

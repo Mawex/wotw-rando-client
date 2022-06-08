@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleEnemy_TentacleState {
 IL2CPP_REGISTER_METHOD(0x00CFCB30, BehaviourTreeStatus__Enum, OnUpdate, (TentacleEnemy_TentacleState * __this, TickData tick));

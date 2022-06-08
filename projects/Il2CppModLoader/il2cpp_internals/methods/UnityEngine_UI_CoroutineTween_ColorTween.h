@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CoroutineTween::ColorTween {
 IL2CPP_REGISTER_METHOD(0x001D9AC0, Color, get_startColor, (ColorTween__Boxed * __this));

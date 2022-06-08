@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Blend_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x019D8380, Object *, get_Current, (Blend_1_System_Object_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatSpawnTask {
 IL2CPP_REGISTER_METHOD(0x00960460, void, OnEnterTask, (SpiderBatSpawnTask * __this, IContext * context));

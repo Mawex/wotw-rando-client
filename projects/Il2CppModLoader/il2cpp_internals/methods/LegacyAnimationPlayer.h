@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyAnimationPlayer {
 IL2CPP_REGISTER_METHOD(0x015CB490, void, Awake, (LegacyAnimationPlayer * __this));

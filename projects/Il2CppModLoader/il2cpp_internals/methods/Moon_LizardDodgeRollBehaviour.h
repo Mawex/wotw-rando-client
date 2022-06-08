@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LizardDodgeRollBehaviour {
 IL2CPP_REGISTER_METHOD(0x01104240, void, OnEnter, (LizardDodgeRollBehaviour * __this, IContext * context));

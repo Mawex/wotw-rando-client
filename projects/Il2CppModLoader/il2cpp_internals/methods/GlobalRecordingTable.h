@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlobalRecordingTable {
 IL2CPP_REGISTER_METHOD(0x007F7BE0, void, AddEntry, (GlobalRecordingTable * __this, GlobalRecordingTable_RecordableEntry * entry));

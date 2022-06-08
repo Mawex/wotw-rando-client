@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageContext {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (DamageContext__Boxed * __this, Damage * damage));

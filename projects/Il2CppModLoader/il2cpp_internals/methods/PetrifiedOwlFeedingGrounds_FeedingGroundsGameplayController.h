@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::FeedingGroundsGameplayController {
 IL2CPP_REGISTER_METHOD(0x01785A30, PetrifiedOwlUberState__Enum, get_CurrentUberState, (FeedingGroundsGameplayController * __this));

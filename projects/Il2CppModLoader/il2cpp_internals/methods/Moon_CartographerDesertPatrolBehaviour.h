@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CartographerDesertPatrolBehaviour {
 IL2CPP_REGISTER_METHOD(0x00CC2B10, void, OnEntityInitialized, (CartographerDesertPatrolBehaviour * __this));

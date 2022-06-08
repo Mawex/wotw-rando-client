@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AudioAPIOptions {
 IL2CPP_REGISTER_METHOD(0x00856B40, void, OnEnable, (AudioAPIOptions * __this));

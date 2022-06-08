@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::ScreenSpaceReflection {
 IL2CPP_REGISTER_METHOD(0x0250B530, Shader *, get_shader, (ScreenSpaceReflection * __this));

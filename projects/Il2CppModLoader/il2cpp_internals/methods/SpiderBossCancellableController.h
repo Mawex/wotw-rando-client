@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossCancellableController {
 IL2CPP_REGISTER_METHOD(0x0096B230, void, InitializeForTimeline, (SpiderBossCancellableController * __this, MoonTimeline * timeline));

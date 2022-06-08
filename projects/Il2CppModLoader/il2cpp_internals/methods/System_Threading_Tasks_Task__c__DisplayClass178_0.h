@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task___c__DisplayClass178_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Task_c_DisplayClass178_0 * __this));

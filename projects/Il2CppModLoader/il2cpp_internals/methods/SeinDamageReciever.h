@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDamageReciever {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinDamageReciever * __this));
@@ -84,7 +84,7 @@ IL2CPP_REGISTER_METHOD(0x006ECDD0, void, IPinnable_StartRavage, (SeinDamageRecie
 IL2CPP_REGISTER_METHOD(0x006ECDE0, void, IPinnable_EndRavage, (SeinDamageReciever * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IPinnable_UpdateRavage, (SeinDamageReciever * __this));
 IL2CPP_REGISTER_METHOD(0x006ECDF0, void, __ctor, (SeinDamageReciever * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IDamageReciever_get_gameObject, (SeinDamageReciever * __this));
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, IDamageReciever_get_transform, (SeinDamageReciever * __this));
 }

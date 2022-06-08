@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::AnimatorController3rdPersonIK {
 IL2CPP_REGISTER_METHOD(0x02209C80, void, OnGUI, (AnimatorController3rdPersonIK * __this));

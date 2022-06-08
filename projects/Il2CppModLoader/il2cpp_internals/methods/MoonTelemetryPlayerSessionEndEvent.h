@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryPlayerSessionEndEvent {
 IL2CPP_REGISTER_METHOD(0x0146F610, void, __ctor, (MoonTelemetryPlayerSessionEndEvent * __this, RestartReason__Enum restartReason, float sessionDuration));

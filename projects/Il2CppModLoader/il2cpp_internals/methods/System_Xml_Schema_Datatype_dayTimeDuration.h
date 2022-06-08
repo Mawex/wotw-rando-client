@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_dayTimeDuration {
 IL2CPP_REGISTER_METHOD(0x0235B380, Exception *, TryParseValue, (Datatype_dayTimeDuration * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataExpression {
 IL2CPP_REGISTER_METHOD(0x0239FA60, void, __ctor, (DataExpression * __this, DataTable * table, String * expression));

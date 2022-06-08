@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Span_1_Object_ {
 IL2CPP_REGISTER_METHOD(0x001FFA00, String *, get_DebuggerDisplay, (Span_1_Object___Boxed * __this));

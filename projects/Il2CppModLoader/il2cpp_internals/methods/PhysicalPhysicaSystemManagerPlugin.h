@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicalPhysicaSystemManagerPlugin {
 IL2CPP_REGISTER_METHOD(0x002FB9F0, GlobalRecordingTable *, get_GlobalRecordingTable, (PhysicalPhysicaSystemManagerPlugin * __this));

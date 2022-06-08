@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ {
 IL2CPP_REGISTER_METHOD(0x02F797C0, void, Sort, (MoonTelemetryCharacterHeartbeatEvent_Cleanup__Array * keys, int32_t index, int32_t length, IComparer_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ * comparer));

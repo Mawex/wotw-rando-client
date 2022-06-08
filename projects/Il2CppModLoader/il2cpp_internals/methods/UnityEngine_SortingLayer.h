@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SortingLayer {
 IL2CPP_REGISTER_METHOD(0x02C60C10, int32_t, GetLayerValueFromID, (int32_t id));

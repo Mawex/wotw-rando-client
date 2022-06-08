@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::GroundQuickStopBehaviour {
 IL2CPP_REGISTER_METHOD(0x01497010, void, OnEntityInitialized, (GroundQuickStopBehaviour * __this));

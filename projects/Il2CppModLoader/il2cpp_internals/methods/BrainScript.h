@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BrainScript {
 IL2CPP_REGISTER_METHOD(0x00D486C0, float, get_Duration, (BrainScript * __this));

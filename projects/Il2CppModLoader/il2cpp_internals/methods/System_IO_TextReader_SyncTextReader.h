@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::TextReader_SyncTextReader {
 IL2CPP_REGISTER_METHOD(0x02385D50, void, __ctor, (TextReader_SyncTextReader * __this, TextReader * t));

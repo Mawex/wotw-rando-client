@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Distortion_Twist_Square {
 IL2CPP_REGISTER_METHOD(0x024EC460, Material *, get_material, (CameraFilterPack_Distortion_Twist_Square * __this));

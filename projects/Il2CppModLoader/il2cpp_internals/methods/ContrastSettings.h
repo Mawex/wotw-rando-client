@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ContrastSettings {
 IL2CPP_REGISTER_METHOD(0x00863E90, float, get_DebugOverrideContrast, (ContrastSettings * __this));

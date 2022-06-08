@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Newtonsoft::Json::Linq::JToken_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_Newtonsoft_Json_Linq_JToken_ * __this));

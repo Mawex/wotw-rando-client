@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::ValidateNames {
 IL2CPP_REGISTER_METHOD(0x019536B0, int32_t, ParseNmtoken, (String * s, int32_t offset));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHODINFO(0x0472CAC0, ValidateNames_ThrowInvalidName__MethodInf
 IL2CPP_REGISTER_METHOD(0x01954260, Exception *, GetInvalidNameException, (String * s, int32_t offsetStartChar, int32_t offsetBadChar));
 IL2CPP_REGISTER_METHOD(0x01954690, void, SplitQName, (String * name, String * * prefix, String * * lname));
 IL2CPP_REGISTER_METHODINFO(0x0471D448, ValidateNames_SplitQName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01954800, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01954800, void, __cctor, ());
 }

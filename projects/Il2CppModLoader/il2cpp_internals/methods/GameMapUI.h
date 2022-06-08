@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameMapUI {
 IL2CPP_REGISTER_METHOD(0x0049F2B0, GameMapShowObjective *, get_ShowObjective, (GameMapUI * __this));
@@ -91,5 +91,5 @@ IL2CPP_REGISTER_METHOD(0x006AEBD0, bool, IsinDanger, (GameMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x006AECA0, void, ShowHint, (GameMapUI * __this, MessageProvider * messageProvider));
 IL2CPP_REGISTER_METHOD(0x006AEF80, void, HideExistingHint, (GameMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x006AF070, void, __ctor, (GameMapUI * __this));
-IL2CPP_REGISTER_METHOD(0x006AF1F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006AF1F0, void, __cctor, ());
 }

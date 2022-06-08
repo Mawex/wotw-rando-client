@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionModifier {
 IL2CPP_REGISTER_METHOD(0x00FCBA80, Bounds, get_Bounds, (UberInteractionModifier * __this));
@@ -44,5 +44,5 @@ IL2CPP_REGISTER_METHOD(0x00FCE7C0, Vector3, GetExplodePoint, (UberInteractionMod
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnPlay, (UberInteractionModifier * __this, float strength, bool explosion));
 IL2CPP_REGISTER_METHOD(0x00FCE910, void, InitializeMaterialParametersShadowCopy, (UberInteractionModifier * __this));
 IL2CPP_REGISTER_METHOD(0x00FCEB20, void, __ctor, (UberInteractionModifier * __this));
-IL2CPP_REGISTER_METHOD(0x00FCEB40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FCEB40, void, __cctor, ());
 }

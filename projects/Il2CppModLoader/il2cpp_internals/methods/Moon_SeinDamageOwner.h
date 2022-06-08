@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SeinDamageOwner {
 IL2CPP_REGISTER_METHOD(0x00ECB7C0, void, HandleDamageBoostShard, (SeinDamageOwner * __this, Damage * damage));

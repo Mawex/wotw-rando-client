@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::ClearPoolingRefsPrewarmOperation {
 IL2CPP_REGISTER_METHOD(0x00F5E7C0, void, __ctor, (ClearPoolingRefsPrewarmOperation * __this));

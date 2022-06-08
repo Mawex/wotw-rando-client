@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::PhysicsScene2D {
 IL2CPP_REGISTER_METHOD(0x0024A820, String *, ToString, (PhysicsScene2D__Boxed * __this));

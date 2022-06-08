@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossProjectileFlurryBehaviour {
 IL2CPP_REGISTER_METHOD(0x012E8730, bool, get_IsAttackOver, (KwolokBossProjectileFlurryBehaviour * __this));

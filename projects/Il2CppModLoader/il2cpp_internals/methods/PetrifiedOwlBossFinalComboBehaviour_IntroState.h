@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_IntroState {
 IL2CPP_REGISTER_METHOD(0x01770D60, void, __ctor, (PetrifiedOwlBossFinalComboBehaviour_IntroState * __this, PetrifiedOwlBossFinalComboBehaviour * behaviour));

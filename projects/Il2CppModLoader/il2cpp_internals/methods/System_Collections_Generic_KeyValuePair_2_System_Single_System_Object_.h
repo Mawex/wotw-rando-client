@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Single_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00122F20, void, __ctor, (KeyValuePair_2_System_Single_System_Object___Boxed * __this, float key, Object * value));

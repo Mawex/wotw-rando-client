@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::SafeBuffer {
 IL2CPP_REGISTER_METHOD(0x01A96CB0, void, AcquirePointer, (SafeBuffer * __this, uint8_t * * pointer));

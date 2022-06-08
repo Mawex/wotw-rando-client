@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_LayeredInstance {
 IL2CPP_REGISTER_METHOD(0x02119350, bool, get_HasValidInput, (MoonAnimator_LayeredInstance * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonSet_1_Moon::EntityBehaviour_ {
 IL2CPP_REGISTER_METHOD(0x02AF7B00, void, __ctor, (MoonSet_1_Moon_EntityBehaviour_ * __this));

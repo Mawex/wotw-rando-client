@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SoftJointLimit {
 IL2CPP_REGISTER_METHOD(0x001EB400, float, get_limit, (SoftJointLimit__Boxed * __this));

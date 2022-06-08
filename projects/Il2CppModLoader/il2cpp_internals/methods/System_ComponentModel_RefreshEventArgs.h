@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::RefreshEventArgs {
 IL2CPP_REGISTER_METHOD(0x029ABBD0, void, __ctor, (RefreshEventArgs * __this, Object * componentChanged));

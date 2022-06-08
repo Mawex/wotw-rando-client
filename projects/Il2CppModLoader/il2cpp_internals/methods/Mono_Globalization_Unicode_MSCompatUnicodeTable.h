@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Globalization::Unicode::MSCompatUnicodeTable {
 IL2CPP_REGISTER_METHOD(0x023BA2C0, TailoringInfo *, GetTailoringInfo, (int32_t lcid));
@@ -17,11 +17,11 @@ IL2CPP_REGISTER_METHOD(0x023BB9B0, bool, HasSpecialWeight, (uint16_t c));
 IL2CPP_REGISTER_METHOD(0x023BBA20, bool, IsHalfWidthKana, (uint16_t c));
 IL2CPP_REGISTER_METHOD(0x023BBA40, bool, IsHiragana, (uint16_t c));
 IL2CPP_REGISTER_METHOD(0x023BBA60, bool, IsJapaneseSmallLetter, (uint16_t c));
-IL2CPP_REGISTER_METHOD(0x023BBBD0, bool, get_IsReady, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023BBBD0, bool, get_IsReady, ());
 IL2CPP_REGISTER_METHOD(0x023BBC70, void *, GetResource, (String * name));
 IL2CPP_REGISTER_METHODINFO(0x0472AB38, MSCompatUnicodeTable_GetResource__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023BBD20, uint32_t, UInt32FromBytePtr, (uint8_t * raw, uint32_t idx));
-IL2CPP_REGISTER_METHOD(0x023BBD60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023BBD60, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x023BC3C0, void, FillCJK, (String * culture, CodePointIndexer * * cjkIndexer, uint8_t * * catTable, uint8_t * * lv1Table, CodePointIndexer * * lv2Indexer, uint8_t * * lv2Table));
 IL2CPP_REGISTER_METHOD(0x023BC5C0, void, FillCJKCore, (String * culture, CodePointIndexer * * cjkIndexer, uint8_t * * catTable, uint8_t * * lv1Table, CodePointIndexer * * cjkLv2Indexer, uint8_t * * lv2Table));
 }

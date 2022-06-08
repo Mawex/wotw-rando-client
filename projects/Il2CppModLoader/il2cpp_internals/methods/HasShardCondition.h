@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasShardCondition {
 IL2CPP_REGISTER_METHOD(0x0109EEF0, bool, Validate, (HasShardCondition * __this, IContext * context));

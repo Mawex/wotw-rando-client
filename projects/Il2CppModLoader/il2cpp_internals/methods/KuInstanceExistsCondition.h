@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuInstanceExistsCondition {
 IL2CPP_REGISTER_METHOD(0x0123A250, bool, Validate, (KuInstanceExistsCondition * __this, IContext * context));

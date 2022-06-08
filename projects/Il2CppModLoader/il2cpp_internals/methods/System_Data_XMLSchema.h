@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XMLSchema {
 IL2CPP_REGISTER_METHOD(0x023D3700, TypeConverter *, GetConverter, (Type * type));

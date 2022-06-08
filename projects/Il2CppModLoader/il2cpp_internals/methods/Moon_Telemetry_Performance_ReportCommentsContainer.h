@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::ReportCommentsContainer {
 IL2CPP_REGISTER_METHOD(0x0052A040, void, set_IsChanged, (ReportCommentsContainer * __this, bool value));

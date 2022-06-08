@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostTimeTrackingPlugin {
 IL2CPP_REGISTER_METHOD(0x007E9F70, void, OnStartRecording, (GhostTimeTrackingPlugin * __this, PreRecordingData * preRecordingData));

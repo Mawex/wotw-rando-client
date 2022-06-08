@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterFallMaskModifier {
 IL2CPP_REGISTER_METHOD(0x008D6620, void, Randomize, (WaterFallMaskModifier * __this));

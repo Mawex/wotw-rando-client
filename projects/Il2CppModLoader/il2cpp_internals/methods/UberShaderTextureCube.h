@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderTextureCube {
 IL2CPP_REGISTER_METHOD(0x01289730, void, BindProperties, (UberShaderTextureCube * __this));

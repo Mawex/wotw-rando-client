@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RotatingObstacleVisuals {
 IL2CPP_REGISTER_METHOD(0x0136FAE0, void, Start, (RotatingObstacleVisuals * __this));

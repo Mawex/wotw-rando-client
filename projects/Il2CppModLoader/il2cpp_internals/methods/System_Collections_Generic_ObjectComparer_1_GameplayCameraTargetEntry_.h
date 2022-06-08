@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_GameplayCameraTargetEntry_ {
 IL2CPP_REGISTER_METHOD(0x02C2AE40, int32_t, Compare, (ObjectComparer_1_GameplayCameraTargetEntry_ * __this, GameplayCameraTargetEntry x, GameplayCameraTargetEntry y));

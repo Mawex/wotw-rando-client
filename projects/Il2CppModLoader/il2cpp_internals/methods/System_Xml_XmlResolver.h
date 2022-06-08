@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlResolver {
 IL2CPP_REGISTER_METHOD(0x01706E60, Uri *, ResolveUri, (XmlResolver * __this, Uri * baseUri, String * relativeUri));

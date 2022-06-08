@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoveTowardsQuaternionTweenable {
 IL2CPP_REGISTER_METHOD(0x01BAB3B0, Quaternion, Update, (MoveTowardsQuaternionTweenable * __this, Quaternion currentValue, Quaternion startValue, Quaternion endValue, float speed));

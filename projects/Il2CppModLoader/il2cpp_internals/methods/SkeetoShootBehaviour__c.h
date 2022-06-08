@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoShootBehaviour___c {
-IL2CPP_REGISTER_METHOD(0x006B3490, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006B3490, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SkeetoShootBehaviour_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _OnExit_b__33_0, (SkeetoShootBehaviour_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04735828, SkeetoShootBehaviour_c__OnExit_b__33_0__MethodInfo);

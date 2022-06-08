@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::FunctionNode {
 IL2CPP_REGISTER_METHOD(0x01E33B10, void, __ctor, (FunctionNode * __this, DataTable * table, String * name));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x01E37910, FunctionId__Enum, get_Aggregate, (FunctionNod
 IL2CPP_REGISTER_METHOD(0x01E37A10, bool, get_IsAggregate, (FunctionNode * __this));
 IL2CPP_REGISTER_METHOD(0x01E37DC0, void, Check, (FunctionNode * __this));
 IL2CPP_REGISTER_METHODINFO(0x0474D160, FunctionNode_Check__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E380F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E380F0, void, __cctor, ());
 }

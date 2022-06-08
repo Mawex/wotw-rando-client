@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinGoldenSeinAbility {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinGoldenSeinAbility * __this));
 IL2CPP_REGISTER_METHOD(0x00AEE110, Input_InputButtonProcessor *, get_Button, (SeinGoldenSeinAbility * __this));
 IL2CPP_REGISTER_METHOD(0x00720040, GoldenSein *, get_GoldenSeinInstance, (SeinGoldenSeinAbility * __this));
-IL2CPP_REGISTER_METHOD(0x00AEE150, void, AddAndSpawnGoldenSein, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00AEE150, void, AddAndSpawnGoldenSein, ());
 IL2CPP_REGISTER_METHOD(0x00AEE2D0, void, SpawnGoldenSein, (SeinGoldenSeinAbility * __this));
 IL2CPP_REGISTER_METHOD(0x00AEE680, void, OnSetReferenceToSein, (SeinGoldenSeinAbility * __this));
 IL2CPP_REGISTER_METHOD(0x00AEE6C0, void, Start, (SeinGoldenSeinAbility * __this));

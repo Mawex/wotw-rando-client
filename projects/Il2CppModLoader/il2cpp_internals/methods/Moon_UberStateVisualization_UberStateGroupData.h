@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::UberStateGroupData {
 IL2CPP_REGISTER_METHOD(0x00245100, String *, get_Name, (UberStateGroupData__Boxed * __this));

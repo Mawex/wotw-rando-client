@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UriParser {
 IL2CPP_REGISTER_METHOD(0x002FB950, String *, get_SchemeName, (UriParser * __this));
@@ -10,8 +10,8 @@ IL2CPP_REGISTER_METHODINFO(0x04703B48, UriParser_Resolve__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0319E150, String *, GetComponents, (UriParser * __this, Uri * uri, UriComponents__Enum components, UriFormat__Enum format));
 IL2CPP_REGISTER_METHODINFO(0x047231F0, UriParser_GetComponents__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0319E3A0, bool, IsWellFormedOriginalString, (UriParser * __this, Uri * uri));
-IL2CPP_REGISTER_METHOD(0x0319E3C0, bool, get_ShouldUseLegacyV2Quirks, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0319E470, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0319E3C0, bool, get_ShouldUseLegacyV2Quirks, ());
+IL2CPP_REGISTER_METHOD(0x0319E470, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FC6D0, UriSyntaxFlags__Enum, get_Flags, (UriParser * __this));
 IL2CPP_REGISTER_METHOD(0x0319FCB0, bool, NotAny, (UriParser * __this, UriSyntaxFlags__Enum flags));
 IL2CPP_REGISTER_METHOD(0x0319FCF0, bool, InFact, (UriParser * __this, UriSyntaxFlags__Enum flags));

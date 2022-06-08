@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Type_Queue_1_Moon::Timeline::IPoolableTimelineEntity__ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_System_Type_Queue_1_Moon_Timeline_IPoolableTimelineEntity_ * __this, Type * key));

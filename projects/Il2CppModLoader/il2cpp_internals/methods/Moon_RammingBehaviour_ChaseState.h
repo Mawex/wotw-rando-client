@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour_ChaseState {
 IL2CPP_REGISTER_METHOD(0x00C503D0, String *, get_StateName, (RammingBehaviour_ChaseState * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FlutteringTakeOffBehaviour_FlutterTakeOffState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (FlutteringTakeOffBehaviour_FlutterTakeOffState * __this, FlutteringTakeOffBehaviour * behaviour));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PostStateDefinition_PostState {
 IL2CPP_REGISTER_METHOD(0x00C6A760, CameraSettings *, get_Settings, (PostStateDefinition_PostState * __this));

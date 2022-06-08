@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Conversions {
 IL2CPP_REGISTER_METHOD(0x011F6220, CinematicCharacterAnimator_Character__Enum, AsCharacter, (LegacyCinematicCharacterAnimator_Character__Enum character));

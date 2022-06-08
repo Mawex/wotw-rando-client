@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ZoneProcessor_2_TListenerTaskData_TEmitterTaskData__ListenerZoneTask_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ {
 IL2CPP_REGISTER_METHOD(0x02AF4E70, bool, get_IsValid, (ZoneProcessor_2_TListenerTaskData_TEmitterTaskData_ListenerZoneTask_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));

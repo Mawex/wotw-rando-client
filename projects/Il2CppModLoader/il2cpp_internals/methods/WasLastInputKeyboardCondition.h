@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WasLastInputKeyboardCondition {
 IL2CPP_REGISTER_METHOD(0x008D36D0, bool, Validate, (WasLastInputKeyboardCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon::IEntityBehaviour_Moon::EntityBehaviourStatus_ {
 IL2CPP_REGISTER_METHOD(0x02C11970, void, Invoke, (Action_2_Moon_IEntityBehaviour_Moon_EntityBehaviourStatus_ * __this, IEntityBehaviour * arg1, EntityBehaviourStatus__Enum arg2));

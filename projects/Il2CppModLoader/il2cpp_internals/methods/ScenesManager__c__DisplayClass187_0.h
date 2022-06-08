@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScenesManager___c__DisplayClass187_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ScenesManager_c_DisplayClass187_0 * __this));

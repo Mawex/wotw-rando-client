@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::OidCollection {
 IL2CPP_REGISTER_METHOD(0x021C0A10, void, __ctor, (OidCollection * __this));

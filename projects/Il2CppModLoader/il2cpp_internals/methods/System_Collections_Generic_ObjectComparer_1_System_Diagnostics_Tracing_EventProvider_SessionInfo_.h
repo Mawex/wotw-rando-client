@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_System::Diagnostics::Tracing::EventProvider_SessionInfo_ {
 IL2CPP_REGISTER_METHOD(0x01CCB1A0, int32_t, Compare, (ObjectComparer_1_System_Diagnostics_Tracing_EventProvider_SessionInfo_ * __this, EventProvider_SessionInfo x, EventProvider_SessionInfo y));

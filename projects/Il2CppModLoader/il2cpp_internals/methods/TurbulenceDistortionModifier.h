@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceDistortionModifier {
 IL2CPP_REGISTER_METHOD(0x00B14990, void, ApplyMultipliers, (TurbulenceDistortionModifier * __this, float strength, float speed));

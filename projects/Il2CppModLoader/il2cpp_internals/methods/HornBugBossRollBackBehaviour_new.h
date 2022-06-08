@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugBossRollBackBehaviour_new {
 IL2CPP_REGISTER_METHOD(0x00B68320, Damage *, TweakDamage, (HornBugBossRollBackBehaviour_new * __this, Damage * dmg, DamageDealer * dealer, IDamageReciever * reciever));

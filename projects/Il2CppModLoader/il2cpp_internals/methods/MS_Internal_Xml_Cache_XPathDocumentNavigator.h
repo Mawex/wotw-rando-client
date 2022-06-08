@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Cache::XPathDocumentNavigator {
 IL2CPP_REGISTER_METHOD(0x021D6E20, void, __ctor, (XPathDocumentNavigator * __this, XPathNode__Array * pageCurrent, int32_t idxCurrent, XPathNode__Array * pageParent, int32_t idxParent));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkReflectionPathInfo {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkReflectionPathInfo * __this, void * cPtr, bool cMemoryOwn));
@@ -16,7 +16,7 @@ IL2CPP_REGISTER_METHOD(0x01893F20, void, set_level, (AkReflectionPathInfo * __th
 IL2CPP_REGISTER_METHOD(0x01894050, float, get_level, (AkReflectionPathInfo * __this));
 IL2CPP_REGISTER_METHOD(0x01894170, void, set_isOccluded, (AkReflectionPathInfo * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x018942A0, bool, get_isOccluded, (AkReflectionPathInfo * __this));
-IL2CPP_REGISTER_METHOD(0x018943D0, int32_t, GetSizeOf, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018943D0, int32_t, GetSizeOf, ());
 IL2CPP_REGISTER_METHOD(0x01894460, AkVector *, GetPathPoint, (AkReflectionPathInfo * __this, uint32_t idx));
 IL2CPP_REGISTER_METHOD(0x01894680, AkAcousticSurface *, GetAcousticSurface, (AkReflectionPathInfo * __this, uint32_t idx));
 IL2CPP_REGISTER_METHOD(0x01894880, float, GetDiffraction, (AkReflectionPathInfo * __this, uint32_t idx));

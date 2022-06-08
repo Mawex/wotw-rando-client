@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F13C60, void, HandleReasonToNotInterrupt, (LaserShooterHitReactionBehaviour * __this, EntityReactionBehaviour_ReasonWhyReactionWontInterrupt reason, EntityEvent * reactionEvent));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Animations::AnimatorJobExtensions {
 IL2CPP_REGISTER_METHOD(0x03086E30, TransformStreamHandle, BindStreamTransform, (Animator * animator, Transform * transform));

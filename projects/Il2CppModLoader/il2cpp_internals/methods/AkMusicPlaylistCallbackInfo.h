@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkMusicPlaylistCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x01881EE0, void, __ctor, (AkMusicPlaylistCallbackInfo * __this, void * cPtr, bool cMemoryOwn));

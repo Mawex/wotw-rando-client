@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OriUpgradeMenuItem {
 IL2CPP_REGISTER_METHOD(0x00440FF0, void, __ctor, (OriUpgradeMenuItem * __this, String * str));

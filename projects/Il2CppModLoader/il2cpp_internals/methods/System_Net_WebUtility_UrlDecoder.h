@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebUtility_UrlDecoder {
 IL2CPP_REGISTER_METHOD(0x021BB4D0, void, FlushBytes, (WebUtility_UrlDecoder * __this));

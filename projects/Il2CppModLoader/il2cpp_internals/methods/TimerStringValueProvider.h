@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimerStringValueProvider {
 IL2CPP_REGISTER_METHOD(0x010F8600, String *, GetStringValue, (TimerStringValueProvider * __this));

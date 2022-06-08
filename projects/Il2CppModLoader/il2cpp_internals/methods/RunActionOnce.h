@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RunActionOnce {
 IL2CPP_REGISTER_METHOD(0x01372F40, void, Perform, (RunActionOnce * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::PixelMatrix {
 IL2CPP_REGISTER_METHOD(0x0304C680, void, OnRenderImage, (PixelMatrix * __this, RenderTexture * source, RenderTexture * destination));

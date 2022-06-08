@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundCompositionSoundVolumeAnimator {
 IL2CPP_REGISTER_METHOD(0x00EE78A0, void, AnimateIt, (SoundCompositionSoundVolumeAnimator * __this, float value));

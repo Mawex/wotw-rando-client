@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameController {
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsPressTourBuild, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00447370, void, set_IsPressTourBuild, (GameController * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00689940, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00689940, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00689A60, GameController_GameDifficultyModes__Enum, get_GameDifficultyMode, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00689A90, void, set_GameDifficultyMode, (GameController * __this, GameController_GameDifficultyModes__Enum value));
 IL2CPP_REGISTER_METHOD(0x00689BE0, bool, get_GameFinished, (GameController * __this));
@@ -14,7 +14,7 @@ IL2CPP_REGISTER_METHOD(0x00689DA0, bool, get_MainMenuCanBeOpened, (GameControlle
 IL2CPP_REGISTER_METHOD(0x00689DB0, void, set_MainMenuCanBeOpened, (GameController * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00689DC0, bool, get_SecondaryMapAndInventoryCanBeOpened, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00689DD0, void, set_SecondaryMapAndInventoryCanBeOpened, (GameController * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00689DE0, GameParameters *, get_Parameters, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00689DE0, GameParameters *, get_Parameters, ());
 IL2CPP_REGISTER_METHOD(0x00689E80, void, set_Parameters, (GameParameters * value));
 IL2CPP_REGISTER_METHOD(0x00689F30, String *, get_GameParametersFilePath, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x0068A020, int32_t, get_GameTimeInSeconds, (GameController * __this));
@@ -71,9 +71,9 @@ IL2CPP_REGISTER_METHOD(0x0068E4E0, void, OnCurrentValueStoreChanged, (GameContro
 IL2CPP_REGISTER_METHODINFO(0x04706EA8, GameController_OnCurrentValueStoreChanged__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0068E580, void, OnLogMessageReceived, (GameController * __this, String * condition, String * stacktrace, LogType__Enum type));
 IL2CPP_REGISTER_METHODINFO(0x04742440, GameController_OnLogMessageReceived__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0068ECA0, int32_t, get_TotalExceptionsCount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0068ED40, int32_t, get_RecentExceptionsCount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0068EDE0, void, ResetRecentExceptionsCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0068ECA0, int32_t, get_TotalExceptionsCount, ());
+IL2CPP_REGISTER_METHOD(0x0068ED40, int32_t, get_RecentExceptionsCount, ());
+IL2CPP_REGISTER_METHOD(0x0068EDE0, void, ResetRecentExceptionsCount, ());
 IL2CPP_REGISTER_METHOD(0x0068EE80, void, ProcessGameParamsSwitch, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x0068EF70, void, ParseCommandLineArgs, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x0068FE50, IEnumerator *, StartBuildInScene, (GameController * __this, String * sceneName));
@@ -94,7 +94,7 @@ IL2CPP_REGISTER_METHOD(0x00691730, IEnumerator *, WarmUpResourcesRoutine, (GameC
 IL2CPP_REGISTER_METHOD(0x00691880, void, SetupGameplay, (GameController * __this, SceneRoot * sceneRoot, WorldEventsOnAwake * worldEventsOnAwake));
 IL2CPP_REGISTER_METHOD(0x00691BF0, void, OnApplicationQuit, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00691E00, void, Update, (GameController * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, CheckPackageFullyInstalled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, CheckPackageFullyInstalled, ());
 IL2CPP_REGISTER_METHOD(0x00692380, void, FixedUpdate, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00692C80, void, RegisterOnNetworkStatusChangedCallback, (GameController * __this, Action_1_Boolean_ * action));
 IL2CPP_REGISTER_METHOD(0x00692D40, void, RegisterOnActuallyOfflineCallback, (GameController * __this, Action * action));
@@ -105,7 +105,7 @@ IL2CPP_REGISTER_METHODINFO(0x04767C10, GameController_ShowOfflineHint__MethodInf
 IL2CPP_REGISTER_METHOD(0x005F0520, bool, get_UnityInputJoystickConnected, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00693140, void, set_UnityInputJoystickConnected, (GameController * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00693150, void, HandleControllerConnectionTracking, (GameController * __this));
-IL2CPP_REGISTER_METHOD(0x006934C0, bool, get_ShowDebug, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006934C0, bool, get_ShowDebug, ());
 IL2CPP_REGISTER_METHOD(0x00693560, void, set_ShowDebug, (bool value));
 IL2CPP_REGISTER_METHOD(0x00693690, void, OnGUI, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x006951B0, void, ProcessScheduledTests, (GameController * __this));
@@ -163,7 +163,7 @@ IL2CPP_REGISTER_METHOD(0x00696F20, void, HandleTelemetry, (GameController * __th
 IL2CPP_REGISTER_METHOD(0x00697A40, void, ResetFpsTelemetryData, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00697A70, void, ResetInstantiationsTelemetryData, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, HandleLoadTest, (GameController * __this));
-IL2CPP_REGISTER_METHOD(0x00697B60, void, EnsureRuntimeScene, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00697B60, void, EnsureRuntimeScene, ());
 IL2CPP_REGISTER_METHOD(0x00697D30, GameController_GameModeBalanceSettings *, get_CurrentGameModeBalanceSettings, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00697E30, float, GetOriDealtDamageMultiplier, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00697E50, float, GetOriReceivedDamageMultiplier, (GameController * __this));
@@ -171,7 +171,7 @@ IL2CPP_REGISTER_METHOD(0x00697E70, float, GetExperienceOrbCostMultiplier, (GameC
 IL2CPP_REGISTER_METHOD(0x00697E90, float, GetBossesHealthMultiplier, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00697EB0, float, GetEscapeSpeedMultiplier, (GameController * __this));
 IL2CPP_REGISTER_METHOD(0x00697ED0, void, __ctor, (GameController * __this));
-IL2CPP_REGISTER_METHOD(0x00698BE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00698BE0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00698E60, void, _HandleTelemetryKillSwitch_b__332_0, (GameController * __this, ExecuteCloudScriptResult * success));
 IL2CPP_REGISTER_METHODINFO(0x0477CEC8, GameController__HandleTelemetryKillSwitch_b__332_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00699050, void, _HandleTelemetryKillSwitch_b__332_1, (GameController * __this, PlayFabError * error));

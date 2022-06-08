@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ApplicationQuit {
 IL2CPP_REGISTER_METHOD(0x00505970, void, Awake, (ApplicationQuit_1 * __this));

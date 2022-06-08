@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::PrimitiveParameterExpression_1_System::Object___ {
 IL2CPP_REGISTER_METHOD(0x025462B0, void, __ctor, (PrimitiveParameterExpression_1_System_Object__1 * __this, String * name));

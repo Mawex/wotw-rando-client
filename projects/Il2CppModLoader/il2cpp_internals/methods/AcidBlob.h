@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AcidBlob {
 IL2CPP_REGISTER_METHOD(0x004C15C0, void, OnPoolSpawned, (AcidBlob * __this));

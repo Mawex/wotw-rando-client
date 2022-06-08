@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentaclePhysicsController {
 IL2CPP_REGISTER_METHOD(0x010CE240, bool, get_Enabled, (TentaclePhysicsController * __this));
 IL2CPP_REGISTER_METHOD(0x010CE300, bool, get_IsHeadStuck, (TentaclePhysicsController * __this));
 IL2CPP_REGISTER_METHOD(0x010CE310, bool, get_IsAlive, (TentaclePhysicsController * __this));
-IL2CPP_REGISTER_METHOD(0x010CE330, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010CE330, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x010CE3D0, void, OnAwake, (TentaclePhysicsController * __this));
 IL2CPP_REGISTER_METHOD(0x010CEEA0, void, IgnoreInterCollisions, (TentaclePhysicsController * __this));
 IL2CPP_REGISTER_METHOD(0x010CF010, void, IgnoreInterCollisions, (TentaclePhysicsController * __this, Collider * collider, bool ignore));
@@ -33,5 +33,5 @@ IL2CPP_REGISTER_METHOD(0x010D59C0, void, ResetJoints, (TentaclePhysicsController
 IL2CPP_REGISTER_METHOD(0x010D61A0, void, ResetActivated, (TentaclePhysicsController * __this));
 IL2CPP_REGISTER_METHOD(0x010D61B0, void, Die, (TentaclePhysicsController * __this));
 IL2CPP_REGISTER_METHOD(0x010D6200, void, __ctor, (TentaclePhysicsController * __this));
-IL2CPP_REGISTER_METHOD(0x010D67C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010D67C0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::TypeInfo {
 IL2CPP_REGISTER_METHOD(0x01D870A0, void, __ctor, (TypeInfo_1 * __this, Type * type));

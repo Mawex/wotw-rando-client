@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::PKCS7 {
 IL2CPP_REGISTER_METHOD(0x02A472B0, ASN1_1 *, AlgorithmIdentifier, (String * oid));

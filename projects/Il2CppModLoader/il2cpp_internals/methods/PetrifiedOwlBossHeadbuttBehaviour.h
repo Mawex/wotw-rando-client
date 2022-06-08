@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossHeadbuttBehaviour {
 IL2CPP_REGISTER_METHOD(0x01772F90, void, OnEnter, (PetrifiedOwlBossHeadbuttBehaviour * __this, IContext * context));

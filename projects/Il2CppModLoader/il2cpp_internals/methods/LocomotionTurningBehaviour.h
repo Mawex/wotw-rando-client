@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocomotionTurningBehaviour {
 IL2CPP_REGISTER_METHOD(0x00FC9020, bool, get_IsPlaying, (LocomotionTurningBehaviour * __this));

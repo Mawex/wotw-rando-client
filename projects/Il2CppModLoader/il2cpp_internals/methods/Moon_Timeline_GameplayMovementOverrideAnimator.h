@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::GameplayMovementOverrideAnimator {
 IL2CPP_REGISTER_METHOD(0x0076D140, void, OnStartPlayback, (GameplayMovementOverrideAnimator * __this, IContext * context));

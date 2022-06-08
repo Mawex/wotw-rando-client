@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostService {
 IL2CPP_REGISTER_METHOD(0x007E85E0, int32_t, get_TotalGhosts, (GhostService * __this));

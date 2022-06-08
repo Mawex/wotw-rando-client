@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRRenderModels__RenderModelHasComponent {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRRenderModels_RenderModelHasComponent * __this, Object * object, void * method_1));

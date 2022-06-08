@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FoxArmor {
 IL2CPP_REGISTER_METHOD(0x01281CC0, void, Start, (FoxArmor * __this));

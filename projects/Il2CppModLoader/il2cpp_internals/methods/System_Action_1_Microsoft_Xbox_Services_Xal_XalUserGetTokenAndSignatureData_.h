@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_Microsoft::Xbox::Services::Xal::XalUserGetTokenAndSignatureData_ {
 IL2CPP_REGISTER_METHOD(0x029FD190, void, Invoke, (Action_1_Microsoft_Xbox_Services_Xal_XalUserGetTokenAndSignatureData_ * __this, XalUserGetTokenAndSignatureData obj));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ExitGameAction {
 IL2CPP_REGISTER_METHOD(0x00986ED0, void, Perform, (ExitGameAction * __this, IContext * context));

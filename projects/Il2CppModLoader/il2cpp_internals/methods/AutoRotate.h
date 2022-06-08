@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AutoRotate {
 IL2CPP_REGISTER_METHOD(0x0085CEE0, void, Awake, (AutoRotate * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x0085D760, void, Serialize, (AutoRotate * __this, Archiv
 IL2CPP_REGISTER_METHOD(0x0085D790, void, OnDrawGizmos, (AutoRotate * __this));
 IL2CPP_REGISTER_METHOD(0x0085DBF0, void, GetManagedEarlyZDynamicGraphicTargets, (AutoRotate * __this, List_1_UnityEngine_GameObject_ * targets));
 IL2CPP_REGISTER_METHOD(0x0085DCE0, void, __ctor, (AutoRotate * __this));
-IL2CPP_REGISTER_METHOD(0x0085DD00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0085DD00, void, __cctor, ());
 }

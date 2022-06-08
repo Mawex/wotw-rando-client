@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChangeDetectorFloat {
 IL2CPP_REGISTER_METHOD(0x010457E0, bool, CheckValueChanged, (ChangeDetectorFloat * __this, float t));

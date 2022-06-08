@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolver_UpdateDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IKSolver_UpdateDelegate * __this, Object * object, void * method_1));

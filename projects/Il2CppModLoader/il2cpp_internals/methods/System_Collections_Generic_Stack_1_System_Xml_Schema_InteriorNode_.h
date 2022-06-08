@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_System::Xml::Schema::InteriorNode_ {
 IL2CPP_REGISTER_METHOD(0x0243CB70, void, __ctor, (Stack_1_System_Xml_Schema_InteriorNode_ * __this));

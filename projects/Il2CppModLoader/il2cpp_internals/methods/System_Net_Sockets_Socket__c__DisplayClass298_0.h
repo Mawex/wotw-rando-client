@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::Socket___c__DisplayClass298_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Socket_c_DisplayClass298_0 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::FixedDurationSceneEntity_SceneEntityEvent {
 IL2CPP_REGISTER_METHOD(0x0076CEF0, void, __ctor, (FixedDurationSceneEntity_SceneEntityEvent * __this, FixedDurationSceneEntity_Markers__Enum event));

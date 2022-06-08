@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::BitConverter {
-IL2CPP_REGISTER_METHOD(0x0229C490, bool, AmILittleEndian, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0229C490, bool, AmILittleEndian, ());
 IL2CPP_REGISTER_METHOD(0x0229C4B0, Byte__Array *, GetBytes, (bool value));
 IL2CPP_REGISTER_METHOD(0x0229C560, Byte__Array *, GetBytes, (uint16_t value));
 IL2CPP_REGISTER_METHOD(0x0229C600, Byte__Array *, GetBytes, (int16_t value));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x0229D870, bool, ToBoolean, (Byte__Array * value, int32_
 IL2CPP_REGISTER_METHODINFO(0x047693A8, BitConverter_ToBoolean__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01969710, int64_t, DoubleToInt64Bits, (double value));
 IL2CPP_REGISTER_METHOD(0x0229D9F0, double, Int64BitsToDouble, (int64_t value));
-IL2CPP_REGISTER_METHOD(0x0229DA00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0229DA00, void, __cctor, ());
 }

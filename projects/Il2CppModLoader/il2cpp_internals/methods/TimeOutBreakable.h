@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimeOutBreakable {
 IL2CPP_REGISTER_METHOD(0x010F03C0, void, OnEnable, (TimeOutBreakable * __this));

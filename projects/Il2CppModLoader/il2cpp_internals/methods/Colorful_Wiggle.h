@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Wiggle {
 IL2CPP_REGISTER_METHOD(0x030557E0, void, Update, (Wiggle * __this));

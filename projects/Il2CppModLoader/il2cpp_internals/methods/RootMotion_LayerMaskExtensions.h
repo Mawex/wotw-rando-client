@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::LayerMaskExtensions {
 IL2CPP_REGISTER_METHOD(0x02A2BC20, bool, Contains, (LayerMask mask, int32_t layer));

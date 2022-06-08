@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::entity::SimpleNPCEntity {
 IL2CPP_REGISTER_METHOD(0x00F5BA90, Vector2, get_EffectivePlayerAnchor, (SimpleNPCEntity * __this));

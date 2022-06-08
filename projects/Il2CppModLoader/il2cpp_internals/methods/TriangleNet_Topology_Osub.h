@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::Osub {
 IL2CPP_REGISTER_METHOD(0x00107C00, SubSegment *, get_Segment, (Osub__Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BrainBehaviour {
 IL2CPP_REGISTER_METHOD(0x00CC04B0, bool, get_IsOnCooldown, (BrainBehaviour * __this));

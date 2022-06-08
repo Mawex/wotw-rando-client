@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoSpawnTask {
 IL2CPP_REGISTER_METHOD(0x006B35D0, void, OnEnterTask, (SkeetoSpawnTask * __this, IContext * context));

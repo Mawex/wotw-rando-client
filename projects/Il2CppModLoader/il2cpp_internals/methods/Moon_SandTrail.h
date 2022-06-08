@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SandTrail {
 IL2CPP_REGISTER_METHOD(0x00EC1160, bool, get_UseMainTrail, (SandTrail * __this));

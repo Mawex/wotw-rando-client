@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InGameUIEnabler {
 IL2CPP_REGISTER_METHOD(0x00627EC0, void, Awake, (InGameUIEnabler * __this));

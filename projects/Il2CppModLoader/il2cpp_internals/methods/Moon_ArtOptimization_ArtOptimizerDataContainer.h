@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ArtOptimizerDataContainer {
 IL2CPP_REGISTER_METHOD(0x01345040, float, get_ObjectEnergyLimit, (ArtOptimizerDataContainer * __this));

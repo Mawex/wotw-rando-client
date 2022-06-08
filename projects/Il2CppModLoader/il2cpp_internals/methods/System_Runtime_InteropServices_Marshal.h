@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::Marshal {
 IL2CPP_REGISTER_METHOD(0x01A94B10, void *, AllocCoTaskMem, (int32_t cb));
@@ -19,7 +19,7 @@ IL2CPP_REGISTER_METHOD(0x01A951E0, void, ZeroFreeBSTR, (void * s));
 IL2CPP_REGISTER_METHOD(0x01A95370, void, ClearUnicode, (void * ptr));
 IL2CPP_REGISTER_METHOD(0x01A954B0, void, ZeroFreeGlobalAllocUnicode, (void * s));
 IL2CPP_REGISTER_METHOD(0x01A95680, int32_t, GetHRForException, (Exception * e));
-IL2CPP_REGISTER_METHOD(0x01A95690, int32_t, GetLastWin32Error, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A95690, int32_t, GetLastWin32Error, ());
 IL2CPP_REGISTER_METHOD(0x01A956F0, String *, PtrToStringAnsi, (void * ptr));
 IL2CPP_REGISTER_METHOD(0x01A95710, String *, PtrToStringUni, (void * ptr));
 IL2CPP_REGISTER_METHOD(0x01A95780, String *, PtrToStringBSTR, (void * ptr));
@@ -60,7 +60,7 @@ IL2CPP_REGISTER_METHODINFO(0x04772898, Marshal_GetDelegateForFunctionPointer__Me
 IL2CPP_REGISTER_METHOD(0x01A96950, void *, GetFunctionPointerForDelegateInternal, (Delegate * d));
 IL2CPP_REGISTER_METHOD(0x01A96960, void *, GetFunctionPointerForDelegate, (Delegate * d));
 IL2CPP_REGISTER_METHODINFO(0x0473E4D0, Marshal_GetFunctionPointerForDelegate__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01A96A30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A96A30, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015E14C0, void, PtrToStructure, (void * ptr, Object * structure));
 IL2CPP_REGISTER_METHOD(0x0157A900, Object *, PtrToStructure, (void * ptr));
 IL2CPP_REGISTER_METHOD(0x01539970, int32_t, SizeOf, (Object * structure));

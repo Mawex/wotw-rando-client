@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JToken {
 IL2CPP_REGISTER_METHOD(0x002FA280, JContainer *, get_Parent, (JToken * __this));
@@ -124,7 +124,7 @@ IL2CPP_REGISTER_METHOD(0x008009A0, Object *, ICloneable_Clone, (JToken * __this)
 IL2CPP_REGISTER_METHOD(0x008009A0, JToken *, DeepClone, (JToken * __this));
 IL2CPP_REGISTER_METHOD(0x01F19550, void, AddAnnotation, (JToken * __this, Object * annotation));
 IL2CPP_REGISTER_METHODINFO(0x0473D3F8, JToken_AddAnnotation__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01F19830, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F19830, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015F3960, Object *, Annotation, (JToken * __this));
 IL2CPP_REGISTER_METHOD(0x015F3960, JToken_LineInfoAnnotation *, Annotation, (JToken * __this));
 IL2CPP_REGISTER_METHODINFO(0x04775A98, JToken_Annotation_1__MethodInfo);

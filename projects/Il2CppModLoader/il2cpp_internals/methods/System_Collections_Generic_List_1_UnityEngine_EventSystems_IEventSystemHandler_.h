@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine::EventSystems::IEventSystemHandler_ {
 IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_UnityEngine_EventSystems_IEventSystemHandler_ * __this));

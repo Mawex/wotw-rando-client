@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokNpcEntity {
 IL2CPP_REGISTER_METHOD(0x012FBAD0, String *, get_DialogActorName, (KwolokNpcEntity * __this));

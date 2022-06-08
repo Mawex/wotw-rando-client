@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Single {
 IL2CPP_REGISTER_METHOD(0x01E26010, bool, IsInfinity, (float f));

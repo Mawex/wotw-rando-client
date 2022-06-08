@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_LoopExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x029D50E0, void, __ctor, (Expression_LoopExpressionProxy * __this, LoopExpression * node));

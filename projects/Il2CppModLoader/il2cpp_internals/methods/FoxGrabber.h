@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FoxGrabber {
 IL2CPP_REGISTER_METHOD(0x016331B0, void, Awake, (FoxGrabber * __this));

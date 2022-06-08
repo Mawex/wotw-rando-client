@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_Angle {
 IL2CPP_REGISTER_METHOD(0x013B3770, float, Wrap, (float angle));

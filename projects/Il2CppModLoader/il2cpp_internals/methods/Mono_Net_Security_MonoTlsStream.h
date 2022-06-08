@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::MonoTlsStream {
 IL2CPP_REGISTER_METHOD(0x002FB950, HttpWebRequest *, get_Request, (MonoTlsStream * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinController {
 IL2CPP_REGISTER_METHOD(0x006DB840, bool, get_IsPlayingAnimation, (SeinController * __this));

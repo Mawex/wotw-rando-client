@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardDeathReaction {
 IL2CPP_REGISTER_METHOD(0x00FA9E50, void, OnCacheSerializedComponents, (LizardDeathReaction * __this, Entity * owner));

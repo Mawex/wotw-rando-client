@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasballSpawnSetup {
 IL2CPP_REGISTER_METHOD(0x00420C50, Vector3, get_StartPosition, (GasballSpawnSetup * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberColorAnimator {
 IL2CPP_REGISTER_METHOD(0x013E5540, GameObject *, get_CurrentTarget, (UberColorAnimator * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::DataModels::Value {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, ValueKind__Enum, get_type, (Value * __this));

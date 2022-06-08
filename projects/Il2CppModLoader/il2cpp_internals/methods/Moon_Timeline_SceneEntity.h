@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SceneEntity {
 IL2CPP_REGISTER_METHOD(0x007835D0, void, OnUpdateEntity, (SceneEntity * __this, float deltaTime));

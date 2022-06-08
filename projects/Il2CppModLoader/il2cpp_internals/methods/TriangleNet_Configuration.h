@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Configuration {
 IL2CPP_REGISTER_METHOD(0x02619D80, void, __ctor, (Configuration_1 * __this));

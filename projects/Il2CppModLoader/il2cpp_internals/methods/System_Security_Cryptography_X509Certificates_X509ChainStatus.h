@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ChainStatus {
 IL2CPP_REGISTER_METHOD(0x001DE2E0, void, __ctor, (X509ChainStatus__Boxed * __this, X509ChainStatusFlags__Enum flag));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HttpHeaders {
-IL2CPP_REGISTER_METHOD(0x02D083E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02D083E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02D0C270, void, __ctor, (HttpHeaders * __this));
 IL2CPP_REGISTER_METHOD(0x02D0C410, void, __ctor, (HttpHeaders * __this, HttpHeaderKind__Enum headerKind));
 IL2CPP_REGISTER_METHOD(0x02D0C440, IEnumerator_1_KeyValuePair_2_System_String_IEnumerable_1_System_String_ *, GetEnumerator, (HttpHeaders * __this));

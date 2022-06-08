@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Colors_HUE_Rotate {
 IL2CPP_REGISTER_METHOD(0x024E18E0, Material *, get_material, (CameraFilterPack_Colors_HUE_Rotate * __this));

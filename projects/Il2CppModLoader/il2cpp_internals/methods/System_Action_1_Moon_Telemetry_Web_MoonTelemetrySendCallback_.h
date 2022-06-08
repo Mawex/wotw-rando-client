@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_Moon::Telemetry::Web::MoonTelemetrySendCallback_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Action_1_Moon_Telemetry_Web_MoonTelemetrySendCallback_ * __this, Object * object, void * method_1));

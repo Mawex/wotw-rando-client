@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TimeSpan {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (TimeSpan__Boxed * __this, int64_t ticks));
@@ -56,7 +56,7 @@ IL2CPP_REGISTER_METHOD(0x027ADFC0, bool, operator__, (TimeSpan t1, TimeSpan t2))
 IL2CPP_REGISTER_METHOD(0x027ADFD0, bool, operator___, (TimeSpan t1, TimeSpan t2));
 IL2CPP_REGISTER_METHOD(0x027ADFE0, bool, operator__, (TimeSpan t1, TimeSpan t2));
 IL2CPP_REGISTER_METHOD(0x027ADFF0, bool, operator___, (TimeSpan t1, TimeSpan t2));
-IL2CPP_REGISTER_METHOD(0x027AE000, bool, GetLegacyFormatMode, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027AE0A0, bool, get_LegacyMode, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027AE260, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027AE000, bool, GetLegacyFormatMode, ());
+IL2CPP_REGISTER_METHOD(0x027AE0A0, bool, get_LegacyMode, ());
+IL2CPP_REGISTER_METHOD(0x027AE260, void, __cctor, ());
 }

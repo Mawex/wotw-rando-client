@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WorldEvents {
 IL2CPP_REGISTER_METHOD(0x00581340, String *, GetNameFromID, (WorldEvents * __this, int32_t id));

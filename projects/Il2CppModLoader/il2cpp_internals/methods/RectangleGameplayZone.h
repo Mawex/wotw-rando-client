@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RectangleGameplayZone {
 IL2CPP_REGISTER_METHOD(0x008FB270, bool, ContainsPoint, (RectangleGameplayZone * __this, Vector2 point));

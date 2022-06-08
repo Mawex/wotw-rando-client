@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::DisposerReplySink {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (DisposerReplySink * __this, IMessageSink * next, IDisposable * disposable));

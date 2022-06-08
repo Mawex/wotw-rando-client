@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::GraphicsFormatUtility {
 IL2CPP_REGISTER_METHOD(0x02434390, GraphicsFormat__Enum, GetGraphicsFormat, (TextureFormat__Enum format, bool isSRGB));

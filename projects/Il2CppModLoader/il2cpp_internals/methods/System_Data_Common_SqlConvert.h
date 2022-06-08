@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlConvert {
 IL2CPP_REGISTER_METHOD(0x028489B0, SqlByte, ConvertToSqlByte, (Object * value));

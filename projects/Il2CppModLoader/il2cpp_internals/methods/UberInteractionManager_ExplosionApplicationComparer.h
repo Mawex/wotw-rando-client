@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionManager_ExplosionApplicationComparer {
 IL2CPP_REGISTER_METHOD(0x013FE7A0, int32_t, Compare, (UberInteractionManager_ExplosionApplicationComparer * __this, UberInteractionManager_ExplosionApplication a, UberInteractionManager_ExplosionApplication b));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FBBIKArmBending {
 IL2CPP_REGISTER_METHOD(0x02054C60, void, LateUpdate, (FBBIKArmBending * __this));

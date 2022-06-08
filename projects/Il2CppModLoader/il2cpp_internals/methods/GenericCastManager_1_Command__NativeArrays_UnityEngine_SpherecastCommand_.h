@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericCastManager_1_Command__NativeArrays_UnityEngine::SpherecastCommand_ {
 IL2CPP_REGISTER_METHOD(0x00115940, int32_t, get_Capacity, (GenericCastManager_1_Command_NativeArrays_UnityEngine_SpherecastCommand___Boxed * __this));

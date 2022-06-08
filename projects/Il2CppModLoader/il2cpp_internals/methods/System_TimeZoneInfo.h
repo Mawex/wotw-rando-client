@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TimeZoneInfo {
 IL2CPP_REGISTER_METHOD(0x027AE7B0, bool, UtcOffsetOutOfRange, (TimeSpan offset));
 IL2CPP_REGISTER_METHOD(0x027AE7E0, List_1_System_TimeZoneInfo_AdjustmentRule_ *, CreateAdjustmentRule, (int32_t year, Int64__Array * * data, String__Array * * names, String * standardNameCurrentYear, String * daylightNameCurrentYear));
-IL2CPP_REGISTER_METHOD(0x027AED10, TimeZoneInfo *, CreateLocalUnity, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027AED10, TimeZoneInfo *, CreateLocalUnity, ());
 IL2CPP_REGISTER_METHODINFO(0x0477E618, TimeZoneInfo_CreateLocalUnity__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027AEE70, uint32_t, EnumDynamicTimeZoneInformation, (uint32_t dwIndex, TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION * lpTimeZoneInformation));
 IL2CPP_REGISTER_METHOD(0x027AEFA0, uint32_t, GetDynamicTimeZoneInformation, (TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION * pTimeZoneInformation));
@@ -13,30 +13,30 @@ IL2CPP_REGISTER_METHOD(0x027AF330, bool, GetTimeZoneInformationForYear, (uint16_
 IL2CPP_REGISTER_METHOD(0x027AF510, TimeZoneInfo_AdjustmentRule *, CreateAdjustmentRuleFromTimeZoneInformation, (TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION * timeZoneInformation, DateTime startDate, DateTime endDate, int32_t defaultBaseUtcOffset));
 IL2CPP_REGISTER_METHOD(0x027AFAA0, bool, TransitionTimeFromTimeZoneInformation, (TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation, TimeZoneInfo_TransitionTime * transitionTime, bool readStartDate));
 IL2CPP_REGISTER_METHOD(0x027AFC90, TimeZoneInfo *, TryCreateTimeZone, (TimeZoneInfo_DYNAMIC_TIME_ZONE_INFORMATION timeZoneInformation));
-IL2CPP_REGISTER_METHOD(0x027B04A0, TimeZoneInfo *, GetLocalTimeZoneInfoWinRTFallback, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027B0670, String *, GetLocalTimeZoneKeyNameWin32Fallback, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027B04A0, TimeZoneInfo *, GetLocalTimeZoneInfoWinRTFallback, ());
+IL2CPP_REGISTER_METHOD(0x027B0670, String *, GetLocalTimeZoneKeyNameWin32Fallback, ());
 IL2CPP_REGISTER_METHOD(0x027B0800, TimeZoneInfo *, FindSystemTimeZoneByIdWinRTFallback, (String * id));
 IL2CPP_REGISTER_METHODINFO(0x0476B5A8, TimeZoneInfo_FindSystemTimeZoneByIdWinRTFallback__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x027B0B10, List_1_System_TimeZoneInfo_ *, GetSystemTimeZonesWinRTFallback, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027B0B10, List_1_System_TimeZoneInfo_ *, GetSystemTimeZonesWinRTFallback, ());
 IL2CPP_REGISTER_METHOD(0x002FA280, TimeSpan, get_BaseUtcOffset, (TimeZoneInfo * __this));
 IL2CPP_REGISTER_METHOD(0x002FB950, String *, get_DisplayName, (TimeZoneInfo * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB00, String *, get_Id, (TimeZoneInfo * __this));
-IL2CPP_REGISTER_METHOD(0x027B0E20, TimeZoneInfo *, get_Local, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027B0E20, TimeZoneInfo *, get_Local, ());
 IL2CPP_REGISTER_METHODINFO(0x04778160, TimeZoneInfo_get_Local__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027B0F10, int32_t, readlink, (String * path, Byte__Array * buffer, int32_t buflen));
 IL2CPP_REGISTER_METHOD(0x027B10B0, String *, readlink, (String * path));
 IL2CPP_REGISTER_METHOD(0x027B1360, bool, TryGetNameFromPath, (String * path, String * * name));
-IL2CPP_REGISTER_METHOD(0x027B1600, TimeZoneInfo *, CreateLocal, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027B1600, TimeZoneInfo *, CreateLocal, ());
 IL2CPP_REGISTER_METHOD(0x027B1B80, TimeZoneInfo *, FindSystemTimeZoneByIdCore, (String * id));
 IL2CPP_REGISTER_METHOD(0x027B1C40, void, GetSystemTimeZonesCore, (List_1_System_TimeZoneInfo_ * systemTimeZones));
 IL2CPP_REGISTER_METHODINFO(0x04774960, TimeZoneInfo_GetSystemTimeZonesCore__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00446590, bool, get_SupportsDaylightSavingTime, (TimeZoneInfo * __this));
-IL2CPP_REGISTER_METHOD(0x027B2790, TimeZoneInfo *, get_Utc, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027B2860, String *, get_TimeZoneDirectory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027B2910, bool, get_IsWindows, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027B2790, TimeZoneInfo *, get_Utc, ());
+IL2CPP_REGISTER_METHOD(0x027B2860, String *, get_TimeZoneDirectory, ());
+IL2CPP_REGISTER_METHOD(0x027B2910, bool, get_IsWindows, ());
 IL2CPP_REGISTER_METHOD(0x027B2950, String *, TrimSpecial, (String * str));
-IL2CPP_REGISTER_METHOD(0x027B2AB0, RegistryKey *, get_TimeZoneKey, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027B2BF0, RegistryKey *, get_LocalZoneKey, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027B2AB0, RegistryKey *, get_TimeZoneKey, ());
+IL2CPP_REGISTER_METHOD(0x027B2BF0, RegistryKey *, get_LocalZoneKey, ());
 IL2CPP_REGISTER_METHOD(0x027B2D30, bool, TryAddTicks, (DateTime date, int64_t ticks, DateTime * result, DateTimeKind__Enum kind));
 IL2CPP_REGISTER_METHOD(0x027B2EF0, DateTime, ConvertTime, (DateTime dateTime, TimeZoneInfo * sourceTimeZone, TimeZoneInfo * destinationTimeZone));
 IL2CPP_REGISTER_METHODINFO(0x0477F120, TimeZoneInfo_ConvertTime__MethodInfo);
@@ -65,7 +65,7 @@ IL2CPP_REGISTER_METHOD(0x027B4780, TimeZoneInfo_AdjustmentRule__Array *, GetAdju
 IL2CPP_REGISTER_METHOD(0x027B48E0, int32_t, GetHashCode, (TimeZoneInfo * __this));
 IL2CPP_REGISTER_METHOD(0x027B4AD0, void, ISerializable_GetObjectData, (TimeZoneInfo * __this, SerializationInfo * info, StreamingContext context));
 IL2CPP_REGISTER_METHODINFO(0x0477D6E8, TimeZoneInfo_System_Runtime_Serialization_ISerializable_GetObjectData__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x027B4C40, ReadOnlyCollection_1_System_TimeZoneInfo_ *, GetSystemTimeZones, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027B4C40, ReadOnlyCollection_1_System_TimeZoneInfo_ *, GetSystemTimeZones, ());
 IL2CPP_REGISTER_METHOD(0x027B4EB0, TimeSpan, GetUtcOffset, (TimeZoneInfo * __this, DateTime dateTime));
 IL2CPP_REGISTER_METHOD(0x027B4ED0, TimeSpan, GetUtcOffset, (TimeZoneInfo * __this, DateTime dateTime, bool * isDST));
 IL2CPP_REGISTER_METHOD(0x027B4FD0, TimeSpan, GetUtcOffsetHelper, (DateTime dateTime, TimeZoneInfo * tz, bool * isDST));

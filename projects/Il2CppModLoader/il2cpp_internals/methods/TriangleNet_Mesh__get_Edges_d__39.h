@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Mesh__get_Edges_d__39 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (Mesh_get_Edges_d_39 * __this, int32_t __1__state));

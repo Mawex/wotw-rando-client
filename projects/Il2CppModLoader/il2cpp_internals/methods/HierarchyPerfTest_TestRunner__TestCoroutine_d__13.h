@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::TestRunner__TestCoroutine_d__13 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (TestRunner_TestCoroutine_d_13 * __this, int32_t __1__state));

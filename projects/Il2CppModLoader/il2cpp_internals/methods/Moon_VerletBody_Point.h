@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VerletBody_Point {
 IL2CPP_REGISTER_METHOD(0x00C1B1E0, Vector3, get_Acceleration, (VerletBody_Point * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x02126F60, void, __ctor, (VerletBody_Point * __this, Vec
 IL2CPP_REGISTER_METHOD(0x02127060, void, AddForce, (VerletBody_Point * __this, Vector3 force));
 IL2CPP_REGISTER_METHOD(0x02127170, void, AddAcceleration, (VerletBody_Point * __this, Vector3 acceleration));
 IL2CPP_REGISTER_METHOD(0x02127280, void, Update, (VerletBody_Point * __this, float dt));
-IL2CPP_REGISTER_METHOD(0x02127450, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02127450, void, __cctor, ());
 }

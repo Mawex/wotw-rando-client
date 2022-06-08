@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::MethodCall {
 IL2CPP_REGISTER_METHOD(0x0230EC70, void, __ctor, (MethodCall * __this, SerializationInfo * info, StreamingContext context));

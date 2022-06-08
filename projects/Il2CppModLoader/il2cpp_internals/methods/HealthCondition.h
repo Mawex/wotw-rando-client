@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HealthCondition {
 IL2CPP_REGISTER_METHOD(0x010A1490, bool, Validate, (HealthCondition * __this, IContext * context));

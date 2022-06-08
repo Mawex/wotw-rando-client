@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinHealthCurrentNormalizedProvider {
 IL2CPP_REGISTER_METHOD(0x00FFF5E0, float, GetFloatValue, (SeinHealthCurrentNormalizedProvider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::CCallbackBaseVTable_RunCBDel {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (CCallbackBaseVTable_RunCBDel * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTimedTrigger {
 IL2CPP_REGISTER_METHOD(0x00A3C560, void, Awake, (LegacyTimedTrigger * __this));

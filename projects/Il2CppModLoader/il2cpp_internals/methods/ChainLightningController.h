@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChainLightningController {
 IL2CPP_REGISTER_METHOD(0x0103BB20, void, Initialize, (ChainLightningController * __this, DamageReceiver * firstDamageReceiver, Damage * damage));

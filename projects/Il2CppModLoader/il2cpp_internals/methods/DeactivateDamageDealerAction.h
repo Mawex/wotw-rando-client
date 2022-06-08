@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DeactivateDamageDealerAction {
 IL2CPP_REGISTER_METHOD(0x00DD63B0, void, Perform, (DeactivateDamageDealerAction * __this, IContext * context));

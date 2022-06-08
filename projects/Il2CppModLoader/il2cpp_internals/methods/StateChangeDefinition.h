@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateChangeDefinition {
 IL2CPP_REGISTER_METHOD(0x01E945E0, void, Perform, (StateChangeDefinition * __this, bool alwaysPlayTransition));

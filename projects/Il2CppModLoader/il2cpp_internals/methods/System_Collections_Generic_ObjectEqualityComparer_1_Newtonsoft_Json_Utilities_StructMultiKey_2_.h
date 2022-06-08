@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Newtonsoft::Json::Utilities::StructMultiKey_2_ {
 IL2CPP_REGISTER_METHOD(0x024373C0, bool, Equals, (ObjectEqualityComparer_1_Newtonsoft_Json_Utilities_StructMultiKey_2_ * __this, StructMultiKey_2_System_Object_System_Object_ x, StructMultiKey_2_System_Object_System_Object_ y));

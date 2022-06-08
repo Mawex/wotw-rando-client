@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DelayedAction_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00B7FB70, float, get_DonePercentage, (DelayedAction_1_System_Object_ * __this));

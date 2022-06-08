@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PlayerPrefsUtility::BoolPref {
 IL2CPP_REGISTER_METHOD(0x00C3D150, void, __ctor, (BoolPref * __this, String * _key, bool _defaultValue));

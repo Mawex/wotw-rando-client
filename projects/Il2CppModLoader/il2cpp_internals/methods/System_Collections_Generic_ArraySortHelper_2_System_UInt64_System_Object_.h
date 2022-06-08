@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_2_System::UInt64_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x02C90A60, ArraySortHelper_2_System_UInt64_System_Object_ *, get_Default, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C90B10, ArraySortHelper_2_System_UInt64_System_Object_ *, CreateArraySortHelper, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C90A60, ArraySortHelper_2_System_UInt64_System_Object_ *, get_Default, ());
+IL2CPP_REGISTER_METHOD(0x02C90B10, ArraySortHelper_2_System_UInt64_System_Object_ *, CreateArraySortHelper, ());
 IL2CPP_REGISTER_METHOD(0x02C92170, void, Sort, (ArraySortHelper_2_System_UInt64_System_Object_ * __this, UInt64__Array * keys, Object__Array * values, int32_t index, int32_t length, IComparer_1_System_UInt64_ * comparer));
 IL2CPP_REGISTER_METHODINFO(0x04768348, ArraySortHelper_2_System_UInt64_System_Object__Sort__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02C90E40, void, SwapIfGreaterWithItems, (UInt64__Array * keys, Object__Array * values, IComparer_1_System_UInt64_ * comparer, int32_t a, int32_t b));

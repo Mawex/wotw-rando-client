@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ExtensionCollection {
 IL2CPP_REGISTER_METHOD(0x021D5A60, void, __ctor, (X509ExtensionCollection_2 * __this, X509Certificate_2 * cert));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x021D6950, void, ICollection_CopyTo, (X509ExtensionColle
 IL2CPP_REGISTER_METHODINFO(0x047771D0, X509ExtensionCollection_2_System_Collections_ICollection_CopyTo__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021D6AB0, X509ExtensionEnumerator *, GetEnumerator, (X509ExtensionCollection_2 * __this));
 IL2CPP_REGISTER_METHOD(0x021D6C20, IEnumerator *, IEnumerable_GetEnumerator, (X509ExtensionCollection_2 * __this));
-IL2CPP_REGISTER_METHOD(0x021D6D90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021D6D90, void, __cctor, ());
 }

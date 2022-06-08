@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceManager_ResourceManagerMediator {
 IL2CPP_REGISTER_METHOD(0x01A88460, void, __ctor, (ResourceManager_ResourceManagerMediator * __this, ResourceManager * rm));

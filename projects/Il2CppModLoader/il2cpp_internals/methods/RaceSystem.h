@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceSystem {
-IL2CPP_REGISTER_METHOD(0x0071E490, RaceSystem *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0071E490, RaceSystem *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x0071E530, void, set_Instance, (RaceSystem * value));
-IL2CPP_REGISTER_METHOD(0x0071E5E0, bool, get_ShowDebug, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0071E5E0, bool, get_ShowDebug, ());
 IL2CPP_REGISTER_METHOD(0x0071E680, void, set_ShowDebug, (bool value));
-IL2CPP_REGISTER_METHOD(0x0071E7B0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0071E7B0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00446970, bool, get_IsSuspended, (RaceSystem * __this));
 IL2CPP_REGISTER_METHOD(0x00446980, void, set_IsSuspended, (RaceSystem * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x003FC7F0, SuspendableMask__Enum, get_Mask, (RaceSystem * __this));
@@ -17,8 +17,8 @@ IL2CPP_REGISTER_METHOD(0x0071EAB0, RaceTargetIndicator *, get_TargetIndicator, (
 IL2CPP_REGISTER_METHOD(0x0071EAC0, void, WroteOfflineReplayFiles, (RaceSystem * __this));
 IL2CPP_REGISTER_METHOD(0x00689DA0, bool, get_IsLoadingRace, (RaceSystem * __this));
 IL2CPP_REGISTER_METHOD(0x0071EAD0, float, get_CurrentStateTime, (RaceSystem * __this));
-IL2CPP_REGISTER_METHOD(0x0071EAF0, bool, get_IsIdle, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0071ECA0, bool, get_AllowSpawn, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0071EAF0, bool, get_IsIdle, ());
+IL2CPP_REGISTER_METHOD(0x0071ECA0, bool, get_AllowSpawn, ());
 IL2CPP_REGISTER_METHOD(0x0071EE50, bool, IsOverridingState, (IUberState * state));
 IL2CPP_REGISTER_METHOD(0x0071F090, void, RequestSceneLoading, (List_1_SceneMetaData_ * scenes));
 IL2CPP_REGISTER_METHOD(0x0071F210, RaceStateMachineContext *, get_Context, (RaceSystem * __this));
@@ -71,7 +71,7 @@ IL2CPP_REGISTER_METHOD(0x00722DE0, void, OnFinishedLoadingRace, (RaceSystem * __
 IL2CPP_REGISTER_METHODINFO(0x04763E38, RaceSystem_OnFinishedLoadingRace__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00722F40, void, UnloadScene, (RaceSystem * __this, String * sceneName));
 IL2CPP_REGISTER_METHOD(0x00723050, void, __ctor, (RaceSystem * __this));
-IL2CPP_REGISTER_METHOD(0x00723480, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00723480, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01B350F0, bool, IsInState, (RaceSystem * __this));
 IL2CPP_REGISTER_METHOD(0x01555460, void, ChangeState, (RaceSystem * __this));
 IL2CPP_REGISTER_METHODINFO(0x04759468, RaceSystem_ChangeState__MethodInfo);

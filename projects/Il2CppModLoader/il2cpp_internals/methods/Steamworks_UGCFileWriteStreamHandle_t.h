@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::UGCFileWriteStreamHandle_t {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (UGCFileWriteStreamHandle_t__Boxed * __this, uint64_t value));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x004C50A0, UGCFileWriteStreamHandle_t, operator_, (uint6
 IL2CPP_REGISTER_METHOD(0x004C50A0, uint64_t, operator_, (UGCFileWriteStreamHandle_t that));
 IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals, (UGCFileWriteStreamHandle_t__Boxed * __this, UGCFileWriteStreamHandle_t other));
 IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (UGCFileWriteStreamHandle_t__Boxed * __this, UGCFileWriteStreamHandle_t other));
-IL2CPP_REGISTER_METHOD(0x027A68B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027A68B0, void, __cctor, ());
 }

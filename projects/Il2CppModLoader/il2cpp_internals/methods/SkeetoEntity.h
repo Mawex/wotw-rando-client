@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoEntity {
-IL2CPP_REGISTER_METHOD(0x00755320, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00755320, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x007553F0, Vector3, get_CharacterPatrolTarget, (SkeetoEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00755530, bool, get_IsOnScreen, (SkeetoEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00755540, bool, get_IsTurning, (SkeetoEntity * __this));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x007565D0, void, ResetAttacksInRowCounter, (SkeetoEntity
 IL2CPP_REGISTER_METHOD(0x007565E0, void, DrawAttackRangeGizmos, (SkeetoEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00756880, void, OnDrawGizmosSelected, (SkeetoEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00756890, void, __ctor, (SkeetoEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00756980, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00756980, void, __cctor, ());
 }

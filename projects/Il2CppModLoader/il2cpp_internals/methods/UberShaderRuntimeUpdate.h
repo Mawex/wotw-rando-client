@@ -1,13 +1,13 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderRuntimeUpdate {
-IL2CPP_REGISTER_METHOD(0x01285650, UberShaderRuntimeUpdate *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01285650, UberShaderRuntimeUpdate *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00597B10, UpdateType__Enum, get_UpdateType, (UberShaderRuntimeUpdate * __this));
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_IsSuspended, (UberShaderRuntimeUpdate * __this));
 IL2CPP_REGISTER_METHOD(0x0052A060, void, set_IsSuspended, (UberShaderRuntimeUpdate * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00998570, SuspendableMask__Enum, get_Mask, (UberShaderRuntimeUpdate * __this));
 IL2CPP_REGISTER_METHOD(0x01285850, void, set_Mask, (UberShaderRuntimeUpdate * __this, SuspendableMask__Enum value));
-IL2CPP_REGISTER_METHOD(0x01285900, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01285900, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x01285980, void, OnEnable, (UberShaderRuntimeUpdate * __this));
 IL2CPP_REGISTER_METHOD(0x01285A40, void, OnDisable, (UberShaderRuntimeUpdate * __this));
 IL2CPP_REGISTER_METHOD(0x01285B00, void, OnUpdate, (UberShaderRuntimeUpdate * __this, float delta));

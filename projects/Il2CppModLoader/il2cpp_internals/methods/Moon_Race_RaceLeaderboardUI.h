@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::RaceLeaderboardUI {
 IL2CPP_REGISTER_METHOD(0x00C48C10, void, Show, (RaceLeaderboardUI * __this, List_1_Moon_Race_LeaderBoardEntry_ * entries));

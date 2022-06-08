@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PhysicsUpdateHandlerManager {
 IL2CPP_REGISTER_METHOD(0x00C3B590, void, Reset, (PhysicsUpdateHandlerManager * __this));
@@ -9,6 +9,6 @@ IL2CPP_REGISTER_METHOD(0x00C3C420, void, UpdateLate, (PhysicsUpdateHandlerManage
 IL2CPP_REGISTER_METHOD(0x00C3C6A0, void, UpdateAll, (PhysicsUpdateHandlerManager * __this, float dt));
 IL2CPP_REGISTER_METHOD(0x00C3C6E0, PhysicsUpdateHandlerAttribute *, GetTypeInfo, (Type * type));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PhysicsUpdateHandlerManager * __this));
-IL2CPP_REGISTER_METHOD(0x00C3C8A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C3C8A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00C3CA10, IJobSystem__Array *, _Init_g__CreateSystems_5_0, (Dictionary_2_Moon_PhysicsUpdateHandlerAttribute_List_1_UnityEngine_Component_ * systemDictionary));
 }

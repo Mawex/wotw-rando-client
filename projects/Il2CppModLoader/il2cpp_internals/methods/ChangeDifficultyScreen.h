@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChangeDifficultyScreen {
 IL2CPP_REGISTER_METHOD(0x010459A0, String *, DifficultyToText, (ChangeDifficultyScreen * __this, DifficultyMode__Enum mode));

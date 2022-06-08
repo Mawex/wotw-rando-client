@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightTorchZone {
 IL2CPP_REGISTER_METHOD(0x00FA2CA0, void, Awake, (LightTorchZone * __this));

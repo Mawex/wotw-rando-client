@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarEntity {
 IL2CPP_REGISTER_METHOD(0x01476150, bool, get_ShouldCharge, (MortarEntity * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x01477F40, void, ResolveDamage, (MortarEntity * __this, 
 IL2CPP_REGISTER_METHOD(0x01478020, void, AssignRegularIdle, (MortarEntity * __this));
 IL2CPP_REGISTER_METHOD(0x01478050, void, AssignHiddenIdle, (MortarEntity * __this));
 IL2CPP_REGISTER_METHOD(0x01478080, void, __ctor, (MortarEntity * __this));
-IL2CPP_REGISTER_METHOD(0x01478130, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01478130, void, __cctor, ());
 }

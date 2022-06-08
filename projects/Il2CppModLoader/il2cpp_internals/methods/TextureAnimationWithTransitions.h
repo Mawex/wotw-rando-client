@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextureAnimationWithTransitions {
 IL2CPP_REGISTER_METHOD(0x010E9EE0, TextureAnimationWithTransitions_TextureAnimationPair *, GetTransition, (TextureAnimationWithTransitions * __this, int32_t currentFrame, TextureAnimationWithTransitions * from, TextureAnimation * fromAnimation, bool flip));

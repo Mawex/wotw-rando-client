@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LogCallbackHandler {
 IL2CPP_REGISTER_METHOD(0x0318F920, void, __ctor, (LogCallbackHandler * __this));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHOD(0x00CE0760, void, Hide, (LogCallbackHandler * __this));
 IL2CPP_REGISTER_METHOD(0x0052A030, bool, IsVisible, (LogCallbackHandler * __this));
 IL2CPP_REGISTER_METHOD(0x03190640, bool, ShouldFilterOut, (LogCallbackHandler * __this, String * msg));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, ShouldShowWarnings, (LogCallbackHandler * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

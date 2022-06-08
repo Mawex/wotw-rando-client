@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::DnsPermission {
 IL2CPP_REGISTER_METHOD(0x01EB3EA0, void, __ctor, (DnsPermission * __this, PermissionState__Enum state));

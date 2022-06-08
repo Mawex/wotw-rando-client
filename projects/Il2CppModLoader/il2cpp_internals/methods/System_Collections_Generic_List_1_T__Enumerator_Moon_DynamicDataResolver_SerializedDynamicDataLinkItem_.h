@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::DynamicDataResolver_SerializedDynamicDataLinkItem_ {
 IL2CPP_REGISTER_METHOD(0x001350C0, DynamicDataResolver_SerializedDynamicDataLinkItem, get_Current, (List_1_T_Enumerator_Moon_DynamicDataResolver_SerializedDynamicDataLinkItem___Boxed * __this));

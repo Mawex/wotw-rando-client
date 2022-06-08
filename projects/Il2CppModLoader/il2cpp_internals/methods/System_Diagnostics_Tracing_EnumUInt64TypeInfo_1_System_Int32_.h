@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumUInt64TypeInfo_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02B97350, void, WriteMetadata, (EnumUInt64TypeInfo_1_System_Int32_ * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));

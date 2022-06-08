@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BindAbilityButtonAction {
 IL2CPP_REGISTER_METHOD(0x00D2AFD0, void, Perform, (BindAbilityButtonAction * __this, IContext * context));

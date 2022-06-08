@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolver {
 IL2CPP_REGISTER_METHOD(0x02BE42F0, bool, IsValid, (IKSolver * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x02BE48F0, float, PreSolveBones, (IKSolver_Bone__Array *
 IL2CPP_REGISTER_METHOD(0x02BE4F60, void, SolverRotateBonesAroundPoint, (IKSolver_Bone__Array * bones, int32_t index, Vector3 point, Quaternion rotation));
 IL2CPP_REGISTER_METHOD(0x02BE5200, void, SolverRotate, (IKSolver_Bone__Array * bones, int32_t index, Quaternion rotation));
 IL2CPP_REGISTER_METHOD(0x02BE53A0, void, __ctor, (IKSolver * __this));
-IL2CPP_REGISTER_METHOD(0x02BE53B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02BE53B0, void, __cctor, ());
 }

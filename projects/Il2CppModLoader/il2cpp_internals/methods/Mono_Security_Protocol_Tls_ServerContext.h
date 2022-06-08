@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::ServerContext {
 IL2CPP_REGISTER_METHOD(0x005B0220, SslServerStream *, get_SslStream, (ServerContext * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OrbSpawner {
 IL2CPP_REGISTER_METHOD(0x0061AEE0, void, CopySettings, (OrbSpawner * __this, OrbSpawner * other));

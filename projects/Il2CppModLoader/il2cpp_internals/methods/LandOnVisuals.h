@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LandOnVisuals {
 IL2CPP_REGISTER_METHOD(0x00F029A0, void, OnChangeState, (LandOnVisuals * __this, LandOnState__Enum newState));

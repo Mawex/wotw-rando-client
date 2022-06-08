@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberTextureSettingsAnimator {
 IL2CPP_REGISTER_METHOD(0x012902E0, Vector2, get_OriginalOffset, (UberTextureSettingsAnimator * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x01291780, float, get_Duration, (UberTextureSettingsAnim
 IL2CPP_REGISTER_METHOD(0x012918A0, void, RestoreToOriginalState, (UberTextureSettingsAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x01291910, bool, get_IsLooping, (UberTextureSettingsAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x01291C90, void, __ctor, (UberTextureSettingsAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x01291D60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01291D60, void, __cctor, ());
 }

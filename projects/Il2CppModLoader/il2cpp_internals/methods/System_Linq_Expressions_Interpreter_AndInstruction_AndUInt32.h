@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::AndInstruction_AndUInt32 {
 IL2CPP_REGISTER_METHOD(0x022D50C0, int32_t, Run, (AndInstruction_AndUInt32 * __this, InterpretedFrame * frame));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::DateTimeFacetsChecker {
 IL2CPP_REGISTER_METHOD(0x02364270, Exception *, CheckValueFacets, (DateTimeFacetsChecker * __this, Object * value, XmlSchemaDatatype * datatype));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CounterAction {
 IL2CPP_REGISTER_METHOD(0x00DB1490, void, Perform, (CounterAction * __this, IContext * context));

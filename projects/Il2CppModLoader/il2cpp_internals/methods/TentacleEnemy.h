@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleEnemy {
 IL2CPP_REGISTER_METHOD(0x00CEF030, TentacleEnemy_Joint *, get_HeadJoint, (TentacleEnemy * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::QuaTools {
 IL2CPP_REGISTER_METHOD(0x02A2C380, Quaternion, LinearBlend, (Quaternion q, float weight));

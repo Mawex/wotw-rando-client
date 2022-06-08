@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InstantiationRecycleHelper {
 IL2CPP_REGISTER_METHOD(0x006366B0, void, __ctor, (InstantiationRecycleHelper * __this, int32_t prewarmAmount, bool limitAmountOfActiveInstances));

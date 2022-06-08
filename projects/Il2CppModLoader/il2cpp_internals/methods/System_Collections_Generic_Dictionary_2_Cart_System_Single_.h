@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Cart_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_Cart_System_Single_, GetEnumerator, (Dictionary_2_Cart_System_Single_ * __this));

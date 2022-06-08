@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScaleToTextBox {
 IL2CPP_REGISTER_METHOD(0x009343B0, void, FixedUpdate, (ScaleToTextBox * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_DestroyManager_CountAndCallback_ {
 IL2CPP_REGISTER_METHOD(0x02CF78E0, void, __ctor, (Stack_1_DestroyManager_CountAndCallback_ * __this, int32_t capacity));

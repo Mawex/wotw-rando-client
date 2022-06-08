@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NotInstruction_NotSByte {
 IL2CPP_REGISTER_METHOD(0x02406FF0, int32_t, Run, (NotInstruction_NotSByte * __this, InterpretedFrame * frame));

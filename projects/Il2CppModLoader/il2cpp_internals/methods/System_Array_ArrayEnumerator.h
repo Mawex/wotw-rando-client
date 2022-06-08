@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_ArrayEnumerator {
 IL2CPP_REGISTER_METHOD(0x02296A30, void, __ctor, (Array_ArrayEnumerator * __this, Array * array));

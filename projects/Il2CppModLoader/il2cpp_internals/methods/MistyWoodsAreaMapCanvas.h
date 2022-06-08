@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MistyWoodsAreaMapCanvas {
 IL2CPP_REGISTER_METHOD(0x01327DF0, void, OnEnable, (MistyWoodsAreaMapCanvas * __this));

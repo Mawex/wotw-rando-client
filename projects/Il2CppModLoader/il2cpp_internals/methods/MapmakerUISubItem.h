@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MapmakerUISubItem {
 IL2CPP_REGISTER_METHOD(0x00A0F4A0, void, Update, (MapmakerUISubItem * __this));

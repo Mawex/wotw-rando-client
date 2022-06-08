@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadPool__EnumerateQueuedWorkItems_d__21 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (ThreadPool_EnumerateQueuedWorkItems_d_21 * __this, int32_t __1__state));

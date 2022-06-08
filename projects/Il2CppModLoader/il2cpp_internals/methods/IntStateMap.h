@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IntStateMap {
 IL2CPP_REGISTER_METHOD(0x01B5E220, List_1_GenericMappingEntry_ *, GetGenericMapping, (IntStateMap * __this));

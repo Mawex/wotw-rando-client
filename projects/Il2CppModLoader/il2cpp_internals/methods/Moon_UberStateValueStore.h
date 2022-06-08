@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateValueStore {
 IL2CPP_REGISTER_METHOD(0x00CC59E0, int32_t, get_Version, (UberStateValueStore * __this));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHOD(0x0043D9A0, int64_t, get_HeaderSize, (UberStateValueStore
 IL2CPP_REGISTER_METHOD(0x01B72EF0, int64_t, get_DataSize, (UberStateValueStore * __this));
 IL2CPP_REGISTER_METHOD(0x01B730E0, int64_t, get_FullSize, (UberStateValueStore * __this));
 IL2CPP_REGISTER_METHOD(0x01B73100, void, DebugLog, (UberStateValueStore * __this, String * txt));
-IL2CPP_REGISTER_METHOD(0x01B73190, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01B73190, void, __cctor, ());
 }

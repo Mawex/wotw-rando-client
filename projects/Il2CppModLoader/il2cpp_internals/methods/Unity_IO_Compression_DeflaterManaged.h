@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::DeflaterManaged {
 IL2CPP_REGISTER_METHOD(0x02B756F0, void, __ctor, (DeflaterManaged * __this));

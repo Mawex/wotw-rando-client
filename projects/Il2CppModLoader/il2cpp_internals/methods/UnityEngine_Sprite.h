@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Sprite {
 IL2CPP_REGISTER_METHOD(0x02C60CC0, void, __ctor, (Sprite * __this));

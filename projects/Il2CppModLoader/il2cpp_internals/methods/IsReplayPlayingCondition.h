@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsReplayPlayingCondition {
 IL2CPP_REGISTER_METHOD(0x006475D0, bool, Validate, (IsReplayPlayingCondition * __this, IContext * context));

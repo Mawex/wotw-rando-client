@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuOptionsList {
 IL2CPP_REGISTER_METHOD(0x012BFF60, void, ClearItems, (CleverMenuOptionsList * __this));

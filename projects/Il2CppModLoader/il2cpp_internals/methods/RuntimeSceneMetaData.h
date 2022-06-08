@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RuntimeSceneMetaData {
 IL2CPP_REGISTER_METHOD(0x0137B160, void, __ctor, (RuntimeSceneMetaData * __this));
@@ -6,7 +6,7 @@ IL2CPP_REGISTER_METHOD(0x0137BD00, void, __ctor, (RuntimeSceneMetaData * __this,
 IL2CPP_REGISTER_METHOD(0x0137C570, Dictionary_2_MoonGuid_NearbySceneData_ *, get_NearbyReachableScenes, (RuntimeSceneMetaData * __this));
 IL2CPP_REGISTER_METHOD(0x0137C6F0, Rect, get_SceneBounds, (RuntimeSceneMetaData * __this));
 IL2CPP_REGISTER_METHOD(0x0137C970, Rect, get_TotalBounds, (RuntimeSceneMetaData * __this));
-IL2CPP_REGISTER_METHOD(0x0137C9B0, float, get_PaddingWidthExtension, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0137C9B0, float, get_PaddingWidthExtension, ());
 IL2CPP_REGISTER_METHOD(0x0137CA40, Rect, Encapsulate, (RuntimeSceneMetaData * __this, Rect original, Rect add));
 IL2CPP_REGISTER_METHOD(0x0137CBA0, void, DoTotal, (RuntimeSceneMetaData * __this));
 IL2CPP_REGISTER_METHOD(0x0137D1B0, bool, IsInTotal, (RuntimeSceneMetaData * __this, Vector3 position));

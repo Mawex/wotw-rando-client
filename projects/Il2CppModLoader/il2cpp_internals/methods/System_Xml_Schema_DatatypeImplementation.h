@@ -1,21 +1,21 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::DatatypeImplementation {
-IL2CPP_REGISTER_METHOD(0x0234DC40, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02351840, XmlSchemaSimpleType *, get_AnySimpleType, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x023518E0, XmlSchemaSimpleType *, get_UntypedAtomicType, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0234DC40, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x02351840, XmlSchemaSimpleType *, get_AnySimpleType, ());
+IL2CPP_REGISTER_METHOD(0x023518E0, XmlSchemaSimpleType *, get_UntypedAtomicType, ());
 IL2CPP_REGISTER_METHOD(0x02351980, DatatypeImplementation *, FromXmlTokenizedType, (XmlTokenizedType__Enum token));
 IL2CPP_REGISTER_METHOD(0x02351A50, DatatypeImplementation *, FromXmlTokenizedTypeXsd, (XmlTokenizedType__Enum token));
 IL2CPP_REGISTER_METHOD(0x02351B20, DatatypeImplementation *, FromXdrName, (String * name));
 IL2CPP_REGISTER_METHOD(0x02351C50, DatatypeImplementation *, FromTypeName, (String * name));
 IL2CPP_REGISTER_METHOD(0x02351D80, XmlSchemaSimpleType *, StartBuiltinType, (XmlQualifiedName * qname, XmlSchemaDatatype * dataType));
 IL2CPP_REGISTER_METHOD(0x02351FD0, void, FinishBuiltinType, (XmlSchemaSimpleType * derivedType, XmlSchemaSimpleType * baseType));
-IL2CPP_REGISTER_METHOD(0x02352430, void, CreateBuiltinTypes, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02352430, void, CreateBuiltinTypes, ());
 IL2CPP_REGISTER_METHOD(0x02353570, XmlSchemaSimpleType *, GetSimpleTypeFromTypeCode, (XmlTypeCode__Enum typeCode));
 IL2CPP_REGISTER_METHOD(0x02353640, XmlSchemaSimpleType *, GetSimpleTypeFromXsdType, (XmlQualifiedName * qname));
-IL2CPP_REGISTER_METHOD(0x02353760, XmlSchemaSimpleType *, GetNormalizedStringTypeV1Compat, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02353A20, XmlSchemaSimpleType *, GetTokenTypeV1Compat, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02353CE0, XmlSchemaSimpleType__Array *, GetBuiltInTypes, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02353760, XmlSchemaSimpleType *, GetNormalizedStringTypeV1Compat, ());
+IL2CPP_REGISTER_METHOD(0x02353A20, XmlSchemaSimpleType *, GetTokenTypeV1Compat, ());
+IL2CPP_REGISTER_METHOD(0x02353CE0, XmlSchemaSimpleType__Array *, GetBuiltInTypes, ());
 IL2CPP_REGISTER_METHOD(0x02353D80, XmlTypeCode__Enum, GetPrimitiveTypeCode, (XmlTypeCode__Enum typeCode));
 IL2CPP_REGISTER_METHOD(0x02353F00, XmlSchemaDatatype *, DeriveByRestriction, (DatatypeImplementation * __this, XmlSchemaObjectCollection * facets, XmlNameTable * nameTable, XmlSchemaType * schemaType));
 IL2CPP_REGISTER_METHOD(0x023540D0, XmlSchemaDatatype *, DeriveByList, (DatatypeImplementation * __this, XmlSchemaType * schemaType));

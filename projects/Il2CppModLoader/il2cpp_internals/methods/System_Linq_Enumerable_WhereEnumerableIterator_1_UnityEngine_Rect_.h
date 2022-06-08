@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereEnumerableIterator_1_UnityEngine::Rect_ {
 IL2CPP_REGISTER_METHOD(0x00E77C70, IEnumerable_1_System_Boolean_ *, Select, (Enumerable_WhereEnumerableIterator_1_UnityEngine_Rect_ * __this, Func_2_UnityEngine_Rect_Boolean_ * selector));

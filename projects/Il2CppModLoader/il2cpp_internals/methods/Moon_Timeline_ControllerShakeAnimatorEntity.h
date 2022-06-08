@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ControllerShakeAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x00763150, void, OnPoolSpawned, (ControllerShakeAnimatorEntity * __this));

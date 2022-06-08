@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameWorldArea {
 IL2CPP_REGISTER_METHOD(0x0040A2E0, Bounds, get_Bounds, (GameWorldArea * __this));

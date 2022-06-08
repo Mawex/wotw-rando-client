@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System::Diagnostics::Tracing::EventProvider_SessionInfo_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_System_Diagnostics_Tracing_EventProvider_SessionInfo___Boxed * __this, Array * array));

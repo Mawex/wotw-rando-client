@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Animation::NativeVerletAnimationPostprocess {
 IL2CPP_REGISTER_METHOD(0x01B026D0, bool, get_IsAllowed, (NativeVerletAnimationPostprocess * __this));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x002FB9E0, void, OnAddedToAnimator, (NativeVerletAnimati
 IL2CPP_REGISTER_METHOD(0x00405E70, void, OnRemovedFromAnimator, (NativeVerletAnimationPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x01B02C10, void, UpdateAnimatorPostprocessData, (NativeVerletAnimationPostprocess * __this, Playable playable, AnimatorPostprocessUpdateData updateData));
 IL2CPP_REGISTER_METHOD(0x01B03160, void, __ctor, (NativeVerletAnimationPostprocess * __this));
-IL2CPP_REGISTER_METHOD(0x01B031F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01B031F0, void, __cctor, ());
 }

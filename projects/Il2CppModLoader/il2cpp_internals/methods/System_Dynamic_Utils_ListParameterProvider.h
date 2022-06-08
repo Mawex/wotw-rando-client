@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ListParameterProvider {
 IL2CPP_REGISTER_METHOD(0x01F95C40, void, __ctor, (ListParameterProvider * __this, IParameterProvider * provider, ParameterExpression * arg0));

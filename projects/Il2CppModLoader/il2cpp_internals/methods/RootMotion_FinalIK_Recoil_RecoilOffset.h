@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Recoil_RecoilOffset {
 IL2CPP_REGISTER_METHOD(0x02A1F3C0, void, Start, (Recoil_RecoilOffset * __this));

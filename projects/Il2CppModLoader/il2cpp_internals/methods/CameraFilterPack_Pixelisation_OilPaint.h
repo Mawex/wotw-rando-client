@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Pixelisation_OilPaint {
 IL2CPP_REGISTER_METHOD(0x02489800, Material *, get_material, (CameraFilterPack_Pixelisation_OilPaint * __this));

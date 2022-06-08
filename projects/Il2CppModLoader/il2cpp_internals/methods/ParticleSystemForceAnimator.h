@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ParticleSystemForceAnimator {
 IL2CPP_REGISTER_METHOD(0x00445770, void, CacheOriginals, (ParticleSystemForceAnimator * __this, ParticleSystem * particleSystemToAnimate));

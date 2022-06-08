@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostLineRendererPlugin_LineRendererData {
 IL2CPP_REGISTER_METHOD(0x00E21D20, GhostFrame_FrameDataTypes__Enum, get_FrameType, (GhostLineRendererPlugin_LineRendererData * __this));

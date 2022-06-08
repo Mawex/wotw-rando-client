@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsUsingAzertyKeyboardCondition {
 IL2CPP_REGISTER_METHOD(0x00648C70, bool, Validate, (IsUsingAzertyKeyboardCondition * __this, IContext * context));

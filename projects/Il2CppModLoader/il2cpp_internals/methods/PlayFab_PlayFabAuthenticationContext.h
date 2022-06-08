@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabAuthenticationContext {
 IL2CPP_REGISTER_METHOD(0x017B43D0, void, __ctor, (PlayFabAuthenticationContext * __this));

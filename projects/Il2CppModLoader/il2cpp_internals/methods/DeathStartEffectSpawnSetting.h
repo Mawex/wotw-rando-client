@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DeathStartEffectSpawnSetting {
 IL2CPP_REGISTER_METHOD(0x002FB9C0, void, OnEntityInitialized, (DeathStartEffectSpawnSetting * __this, Entity * entity));

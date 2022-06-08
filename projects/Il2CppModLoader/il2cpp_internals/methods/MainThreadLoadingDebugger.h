@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MainThreadLoadingDebugger {
 IL2CPP_REGISTER_METHOD(0x009F4FF0, GUIStyle *, get_LabelStyle, (MainThreadLoadingDebugger * __this));
-IL2CPP_REGISTER_METHOD(0x009F5360, MainThreadLoadingDebugger *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009F53E0, bool, get_Enabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009F5360, MainThreadLoadingDebugger *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x009F53E0, bool, get_Enabled, ());
 IL2CPP_REGISTER_METHOD(0x009F5490, void, set_Enabled, (bool value));
 IL2CPP_REGISTER_METHOD(0x009F5630, void, EnsureImgui, (MainThreadLoadingDebugger * __this, bool registered));
 IL2CPP_REGISTER_METHOD(0x009F5720, void, Awake, (MainThreadLoadingDebugger * __this));

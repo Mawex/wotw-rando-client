@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IContextExtensions {
 IL2CPP_REGISTER_METHOD(0x015EAD90, Object *, GetContextAs, (IContext * context, bool * sucess));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrossSceneDependencyInjector_ObjectReference {
 IL2CPP_REGISTER_METHOD(0x00CD0AE0, bool, get_IsValid, (CrossSceneDependencyInjector_ObjectReference * __this));

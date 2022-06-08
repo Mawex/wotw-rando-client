@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoAirEntityMovementProcessor {
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawGizmos, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawGizmos, ());
 IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_ApplyNoise, (SkeetoAirEntityMovementProcessor * __this));
 IL2CPP_REGISTER_METHOD(0x002FCE40, void, set_ApplyNoise, (SkeetoAirEntityMovementProcessor * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x0074B530, float, get_AccelerationMultiplier, (SkeetoAirEntityMovementProcessor * __this));

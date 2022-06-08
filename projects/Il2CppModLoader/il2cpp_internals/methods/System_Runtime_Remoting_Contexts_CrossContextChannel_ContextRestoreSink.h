@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Contexts::CrossContextChannel_ContextRestoreSink {
 IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (CrossContextChannel_ContextRestoreSink * __this, IMessageSink * next, Context * context, IMessage * call));

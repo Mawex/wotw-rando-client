@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLavaController {
 IL2CPP_REGISTER_METHOD(0x01776990, float, get_Height, (PetrifiedOwlBossLavaController * __this));

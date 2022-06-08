@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DateTimeOffsetConverter {
 IL2CPP_REGISTER_METHOD(0x01FDFD00, bool, CanConvertFrom, (DateTimeOffsetConverter * __this, ITypeDescriptorContext * context, Type * sourceType));

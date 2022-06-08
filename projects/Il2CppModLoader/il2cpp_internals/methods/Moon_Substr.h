@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Substr {
 IL2CPP_REGISTER_METHOD(0x00245E70, void, __ctor, (Substr__Boxed * __this, String * str));

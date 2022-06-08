@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::ValueTuple_4_ {
 IL2CPP_REGISTER_METHOD(0x025ECB30, void, Add, (List_1_System_ValueTuple_4_ * __this, ValueTuple_4_String_Int32_Int32_Single_ item));
@@ -67,5 +67,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_System_ValueTuple_4__1 * 
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_System_ValueTuple_4__1 * __this, Comparison_1_ValueTuple_4_Object_Int32_Int32_Single_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, ValueTuple_4_Object_Int32_Int32_Single___Array *, ToArray, (List_1_System_ValueTuple_4__1 * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_System_ValueTuple_4__1 * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

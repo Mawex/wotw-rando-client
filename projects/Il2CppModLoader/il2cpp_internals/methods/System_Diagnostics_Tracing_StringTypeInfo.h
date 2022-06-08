@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::StringTypeInfo {
 IL2CPP_REGISTER_METHOD(0x01A08E70, void, WriteMetadata, (StringTypeInfo * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));

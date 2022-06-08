@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameTimer {
 IL2CPP_REGISTER_METHOD(0x00404DA0, void, Awake, (GameTimer * __this));

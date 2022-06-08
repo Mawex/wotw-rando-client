@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::MatchmakingExtensions___c {
-IL2CPP_REGISTER_METHOD(0x00C45360, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C45360, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MatchmakingExtensions_c * __this));
 IL2CPP_REGISTER_METHOD(0x00C454A0, int32_t, _GetEntriesInRange_b__0_0, (MatchmakingExtensions_c * __this, LeaderBoardEntry * o));
 IL2CPP_REGISTER_METHODINFO(0x04776200, MatchmakingExtensions_c__GetEntriesInRange_b__0_0__MethodInfo);

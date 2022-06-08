@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ComparisonComparer_1_System::ValueTuple_2_ {
 IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_System_ValueTuple_2_ * __this, Comparison_1_ValueTuple_2_Int32_Object_ * comparison));

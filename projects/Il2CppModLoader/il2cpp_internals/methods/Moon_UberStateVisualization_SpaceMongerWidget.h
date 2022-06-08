@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::SpaceMongerWidget {
 IL2CPP_REGISTER_METHOD(0x030BED70, void, add_OnSelectionChanged, (SpaceMongerWidget * __this, Action_1_Moon_UberStateVisualization_UberStateData_ * value));

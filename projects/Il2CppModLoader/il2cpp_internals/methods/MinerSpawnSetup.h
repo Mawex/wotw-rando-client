@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerSpawnSetup {
 IL2CPP_REGISTER_METHOD(0x0144FAF0, void, TriggerWallBurstTimeline, (MinerSpawnSetup * __this));

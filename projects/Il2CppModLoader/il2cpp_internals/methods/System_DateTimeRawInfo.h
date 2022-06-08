@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DateTimeRawInfo {
 IL2CPP_REGISTER_METHOD(0x00215B80, void, Init, (DateTimeRawInfo__Boxed * __this, int32_t * numberBuffer));

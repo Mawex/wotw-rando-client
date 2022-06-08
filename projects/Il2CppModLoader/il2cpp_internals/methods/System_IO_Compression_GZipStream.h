@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Compression::GZipStream {
 IL2CPP_REGISTER_METHOD(0x02009FA0, void, __ctor, (GZipStream * __this, Stream * stream, CompressionMode__Enum mode));
@@ -29,6 +29,6 @@ IL2CPP_REGISTER_METHOD(0x0200A790, Task_1_System_Int32_ *, ReadAsync, (GZipStrea
 IL2CPP_REGISTER_METHOD(0x0200A7C0, Task *, WriteAsync, (GZipStream * __this, Byte__Array * array, int32_t offset, int32_t count, CancellationToken cancellationToken));
 IL2CPP_REGISTER_METHOD(0x0200A7F0, Task *, FlushAsync, (GZipStream * __this, CancellationToken cancellationToken));
 IL2CPP_REGISTER_METHOD(0x0200A820, void, CheckDeflateStream, (GZipStream * __this));
-IL2CPP_REGISTER_METHOD(0x0200A840, void, ThrowStreamClosedException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0200A840, void, ThrowStreamClosedException, ());
 IL2CPP_REGISTER_METHODINFO(0x0472AF38, GZipStream_ThrowStreamClosedException__MethodInfo);
 }

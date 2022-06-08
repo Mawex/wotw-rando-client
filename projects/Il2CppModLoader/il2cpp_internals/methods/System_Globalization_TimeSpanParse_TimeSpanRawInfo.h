@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::TimeSpanParse_TimeSpanRawInfo {
 IL2CPP_REGISTER_METHOD(0x001D3C30, TimeSpanFormat_FormatLiterals, get_PositiveInvariant, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this));

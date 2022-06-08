@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ProvidePropertyAttribute {
 IL2CPP_REGISTER_METHOD(0x029989E0, void, __ctor, (ProvidePropertyAttribute * __this, String * propertyName, Type * receiverType));

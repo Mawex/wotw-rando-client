@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UnityEngine::UICharInfo_ {
 IL2CPP_REGISTER_METHOD(0x02F6EEE0, void, Sort, (UICharInfo__Array * keys, int32_t index, int32_t length, IComparer_1_UnityEngine_UICharInfo_ * comparer));

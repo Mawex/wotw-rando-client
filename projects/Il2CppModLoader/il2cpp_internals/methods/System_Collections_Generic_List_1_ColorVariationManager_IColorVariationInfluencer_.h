@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_ColorVariationManager_IColorVariationInfluencer_ {
 IL2CPP_REGISTER_METHOD(0x02FE8D00, bool, Contains, (List_1_ColorVariationManager_IColorVariationInfluencer_ * __this, ColorVariationManager_IColorVariationInfluencer * item));

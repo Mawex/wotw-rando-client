@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Camera_CameraCallback {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Camera_CameraCallback * __this, Object * object, void * method_1));

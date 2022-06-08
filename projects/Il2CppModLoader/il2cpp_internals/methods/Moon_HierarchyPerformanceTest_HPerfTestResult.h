@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::HPerfTestResult {
 IL2CPP_REGISTER_METHOD(0x0149BC20, void, __ctor, (HPerfTestResult * __this, int32_t id, double cpuTime, double gpuTime, double srpGameViewTime, int32_t childCount, String * path, GameObject * target));

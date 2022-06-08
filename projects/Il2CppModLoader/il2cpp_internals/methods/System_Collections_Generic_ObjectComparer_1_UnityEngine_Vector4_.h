@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_UnityEngine::Vector4_ {
 IL2CPP_REGISTER_METHOD(0x01CCFCE0, int32_t, Compare, (ObjectComparer_1_UnityEngine_Vector4_ * __this, Vector4 x, Vector4 y));

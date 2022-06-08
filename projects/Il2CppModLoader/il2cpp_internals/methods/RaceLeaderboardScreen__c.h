@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceLeaderboardScreen___c {
-IL2CPP_REGISTER_METHOD(0x00EA37D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00EA37D0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RaceLeaderboardScreen_c * __this));
 IL2CPP_REGISTER_METHOD(0x00C40EF0, int32_t, _Setup_b__46_0, (RaceLeaderboardScreen_c * __this, LeaderBoardEntry * a, LeaderBoardEntry * b));
 IL2CPP_REGISTER_METHODINFO(0x04717550, RaceLeaderboardScreen_c__Setup_b__46_0__MethodInfo);

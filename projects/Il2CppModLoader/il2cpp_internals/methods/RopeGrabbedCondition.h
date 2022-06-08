@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RopeGrabbedCondition {
 IL2CPP_REGISTER_METHOD(0x0136CB40, bool, Validate, (RopeGrabbedCondition * __this, IContext * context));

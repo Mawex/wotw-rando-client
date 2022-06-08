@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnergyDoor {
 IL2CPP_REGISTER_METHOD(0x00C878F0, void, OnValidate, (EnergyDoor * __this));

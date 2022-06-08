@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::DCEL::DcelMesh {
 IL2CPP_REGISTER_METHOD(0x02AA0220, void, __ctor, (DcelMesh * __this));

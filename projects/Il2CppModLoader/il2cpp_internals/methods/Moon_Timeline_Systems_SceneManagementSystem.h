@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Systems::SceneManagementSystem {
 IL2CPP_REGISTER_METHOD(0x00D094B0, void, IncreaseSceneEntityPlayCount, (SceneManagementSystem * __this));

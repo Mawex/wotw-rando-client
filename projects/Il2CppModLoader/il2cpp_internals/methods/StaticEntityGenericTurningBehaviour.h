@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StaticEntityGenericTurningBehaviour {
 IL2CPP_REGISTER_METHOD(0x003FDD20, float, get_TargetLookDirectionX, (StaticEntityGenericTurningBehaviour * __this));

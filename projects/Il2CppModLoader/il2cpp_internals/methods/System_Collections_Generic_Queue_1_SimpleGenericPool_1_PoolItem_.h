@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_SimpleGenericPool_1_PoolItem_ {
 IL2CPP_REGISTER_METHOD(0x02CA60D0, void, Enqueue, (Queue_1_SimpleGenericPool_1_PoolItem_ * __this, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_ item));

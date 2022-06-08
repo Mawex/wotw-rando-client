@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JContainer {
 IL2CPP_REGISTER_METHOD(0x01F050C0, void, add_ListChanged, (JContainer * __this, ListChangedEventHandler * value));

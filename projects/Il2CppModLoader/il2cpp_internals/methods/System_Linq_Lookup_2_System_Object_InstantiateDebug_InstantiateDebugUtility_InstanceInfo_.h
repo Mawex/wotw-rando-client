@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_System::Object_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
 IL2CPP_REGISTER_METHOD(0x0153D6C0, Lookup_2_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ *, Create, (IEnumerable_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * source, Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_Object_ * keySelector, Func_2_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * elementSelector, IEqualityComparer_1_System_Object_ * comparer));

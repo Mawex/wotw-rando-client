@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MudkisserHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00418200, EntityDamageEvent *, get_DamageEvent, (MudkisserHitReactionBehaviour * __this));

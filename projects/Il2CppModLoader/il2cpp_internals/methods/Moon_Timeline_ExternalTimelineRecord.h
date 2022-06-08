@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ExternalTimelineRecord {
 IL2CPP_REGISTER_METHOD(0x01BBF7A0, void, __ctor, (ExternalTimelineRecord * __this, EntityId id));

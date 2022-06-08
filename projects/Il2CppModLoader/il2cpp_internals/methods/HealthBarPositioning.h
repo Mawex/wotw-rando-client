@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HealthBarPositioning {
 IL2CPP_REGISTER_METHOD(0x010A0B60, void, OnEnable, (HealthBarPositioning * __this));

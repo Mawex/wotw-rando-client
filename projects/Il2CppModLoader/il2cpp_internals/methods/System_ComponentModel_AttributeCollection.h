@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::AttributeCollection {
 IL2CPP_REGISTER_METHOD(0x024A0EB0, void, __ctor, (AttributeCollection * __this, Attribute__Array * attributes));
@@ -21,5 +21,5 @@ IL2CPP_REGISTER_METHOD(0x00417870, bool, ICollection_get_IsSynchronized, (Attrib
 IL2CPP_REGISTER_METHOD(0x00420EE0, Object *, ICollection_get_SyncRoot, (AttributeCollection * __this));
 IL2CPP_REGISTER_METHOD(0x024A2410, void, CopyTo, (AttributeCollection * __this, Array * array, int32_t index));
 IL2CPP_REGISTER_METHOD(0x024A21E0, IEnumerator *, IEnumerable_GetEnumerator, (AttributeCollection * __this));
-IL2CPP_REGISTER_METHOD(0x024A24A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024A24A0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::TransitionManager {
 IL2CPP_REGISTER_METHOD(0x01994540, TransitionManager *, AddTransition, (TransitionManager * __this, IState_1 * from, IState_1 * to, ICondition * condition, IContext * context));

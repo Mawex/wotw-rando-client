@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::UberStateVisualization::UberStateData_ {
 IL2CPP_REGISTER_METHOD(0x02659C00, bool, Equals, (ObjectEqualityComparer_1_Moon_UberStateVisualization_UberStateData_ * __this, UberStateData x, UberStateData y));

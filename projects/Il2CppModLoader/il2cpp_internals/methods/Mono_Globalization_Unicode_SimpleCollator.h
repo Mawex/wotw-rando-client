@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Globalization::Unicode::SimpleCollator {
 IL2CPP_REGISTER_METHOD(0x023BDF30, void, __ctor, (SimpleCollator * __this, CultureInfo * culture));
@@ -50,5 +50,5 @@ IL2CPP_REGISTER_METHOD(0x023C3370, bool, MatchesForwardCore, (SimpleCollator * _
 IL2CPP_REGISTER_METHOD(0x023C37A0, bool, MatchesPrimitive, (SimpleCollator * __this, CompareOptions__Enum opt, uint8_t * source, int32_t si, SimpleCollator_ExtenderType__Enum ext, uint8_t * target, int32_t ti, bool noLv4));
 IL2CPP_REGISTER_METHOD(0x023C39F0, bool, MatchesBackward, (SimpleCollator * __this, String * s, int32_t * idx, int32_t end, int32_t orgStart, int32_t ti, uint8_t * sortkey, bool noLv4, SimpleCollator_Context * ctx));
 IL2CPP_REGISTER_METHOD(0x023C3BD0, bool, MatchesBackwardCore, (SimpleCollator * __this, String * s, int32_t * idx, int32_t end, int32_t orgStart, int32_t ti, uint8_t * sortkey, bool noLv4, SimpleCollator_ExtenderType__Enum ext, Contraction * * ct, SimpleCollator_Context * ctx));
-IL2CPP_REGISTER_METHOD(0x023C4230, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023C4230, void, __cctor, ());
 }

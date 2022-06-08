@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::DCEL::Face {
-IL2CPP_REGISTER_METHOD(0x02AA1600, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AA1600, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_ID, (Face * __this));
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_ID, (Face * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x002FB950, HalfEdge *, get_Edge, (Face * __this));

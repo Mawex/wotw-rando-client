@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_3_Int32_IntPtr_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02F42CF0, bool, Invoke, (Func_3_Int32_IntPtr_Boolean_ * __this, int32_t arg1, void * arg2));

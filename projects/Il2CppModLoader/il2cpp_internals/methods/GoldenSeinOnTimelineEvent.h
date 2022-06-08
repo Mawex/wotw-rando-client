@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GoldenSeinOnTimelineEvent {
 IL2CPP_REGISTER_METHOD(0x01078A70, void, Awake, (GoldenSeinOnTimelineEvent * __this));

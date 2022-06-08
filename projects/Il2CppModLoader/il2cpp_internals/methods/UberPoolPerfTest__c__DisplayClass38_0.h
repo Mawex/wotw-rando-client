@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolPerfTest___c__DisplayClass38_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (UberPoolPerfTest_c_DisplayClass38_0 * __this));

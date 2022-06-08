@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::SequenceNode {
 IL2CPP_REGISTER_METHOD(0x01AB9C70, void, ConstructPos, (SequenceNode * __this, BitSet * firstpos, BitSet * lastpos, BitSet__Array * followpos));

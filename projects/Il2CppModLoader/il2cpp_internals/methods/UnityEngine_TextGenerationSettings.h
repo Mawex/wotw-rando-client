@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::TextGenerationSettings {
 IL2CPP_REGISTER_METHOD(0x0024B230, bool, CompareColors, (TextGenerationSettings__Boxed * __this, Color left, Color right));

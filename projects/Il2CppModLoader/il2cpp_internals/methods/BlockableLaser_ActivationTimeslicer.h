@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BlockableLaser_ActivationTimeslicer {
 IL2CPP_REGISTER_METHOD(0x00D345C0, void, QueueActivation, (BlockableLaser_ActivationTimeslicer * __this, BlockableLaser * laser));

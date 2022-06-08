@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrameGraph {
 IL2CPP_REGISTER_METHOD(0x0163ED70, void, Awake, (FrameGraph * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x0163F8C0, void, DrawSampleBar, (FrameGraph * __this, in
 IL2CPP_REGISTER_METHOD(0x0163FAF0, void, Update, (FrameGraph * __this));
 IL2CPP_REGISTER_METHOD(0x0163FB90, void, Draw, (FrameGraph * __this));
 IL2CPP_REGISTER_METHOD(0x016408A0, void, __ctor, (FrameGraph * __this));
-IL2CPP_REGISTER_METHOD(0x016408C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016408C0, void, __cctor, ());
 }

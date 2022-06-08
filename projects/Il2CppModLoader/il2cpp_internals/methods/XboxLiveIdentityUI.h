@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxLiveIdentityUI {
 IL2CPP_REGISTER_METHOD(0x00594530, bool, get_IsGrdk, (XboxLiveIdentityUI * __this));

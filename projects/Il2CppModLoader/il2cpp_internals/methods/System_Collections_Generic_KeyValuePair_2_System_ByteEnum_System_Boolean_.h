@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::ByteEnum_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x0014FF40, void, __ctor, (KeyValuePair_2_System_ByteEnum_System_Boolean___Boxed * __this, ByteEnum__Enum key, bool value));

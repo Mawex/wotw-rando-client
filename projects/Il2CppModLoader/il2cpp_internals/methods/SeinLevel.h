@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinLevel {
 IL2CPP_REGISTER_METHOD(0x010226C0, int32_t, get_Experience, (SeinLevel * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x010236C0, void, LoseOre, (SeinLevel * __this, int32_t a
 IL2CPP_REGISTER_METHOD(0x01023710, void, SetReferenceToSein, (SeinLevel * __this, SeinCharacter * sein));
 IL2CPP_REGISTER_METHOD(0x00E84200, void, GainSkillPoint, (SeinLevel * __this));
 IL2CPP_REGISTER_METHOD(0x01023730, void, __ctor, (SeinLevel * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayMovieTextureActionC {
 IL2CPP_REGISTER_METHOD(0x005D2E60, void, OnDestroy, (PlayMovieTextureActionC * __this));

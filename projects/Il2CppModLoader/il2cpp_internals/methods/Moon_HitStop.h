@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HitStop {
 IL2CPP_REGISTER_METHOD(0x014AC1C0, void, SubmitHitStop, (GameObject * go, float duration));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x014ACE60, void, OnDestroy, (HitStop * __this));
 IL2CPP_REGISTER_METHOD(0x014ACFB0, void, UpdateHitStop, (HitStop * __this));
 IL2CPP_REGISTER_METHOD(0x014AD2A0, void, Clear, (HitStop * __this));
 IL2CPP_REGISTER_METHOD(0x014AD440, void, __ctor, (HitStop * __this));
-IL2CPP_REGISTER_METHOD(0x014AD680, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014AD680, void, __cctor, ());
 }

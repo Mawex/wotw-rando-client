@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::ILGenerator {
 IL2CPP_REGISTER_METHOD(0x02680C20, LocalBuilder *, DeclareLocal, (ILGenerator * __this, Type * localType));

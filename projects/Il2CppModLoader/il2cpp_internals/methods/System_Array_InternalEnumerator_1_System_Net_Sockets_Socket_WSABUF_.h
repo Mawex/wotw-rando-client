@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System::Net::Sockets::Socket_WSABUF_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_System_Net_Sockets_Socket_WSABUF___Boxed * __this, Array * array));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::DownloadHandlerBuffer {
 IL2CPP_REGISTER_METHOD(0x0317E370, void, __ctor, (DownloadHandlerBuffer * __this));

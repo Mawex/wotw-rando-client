@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_System::ValueTuple_2_ {
 IL2CPP_REGISTER_METHOD(0x001EE680, ValueTuple_2_Int32_UnityEngine_GameObject_, get_Current, (Queue_1_T_Enumerator_System_ValueTuple_2___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine::Vector3_ {
 IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_UnityEngine_Vector3_ * __this));
@@ -75,5 +75,5 @@ IL2CPP_REGISTER_METHOD(0x025EAD50, void, Sort, (List_1_UnityEngine_Vector3_ * __
 IL2CPP_REGISTER_METHOD(0x025EADB0, void, Sort, (List_1_UnityEngine_Vector3_ * __this, IComparer_1_UnityEngine_Vector3_ * comparer));
 IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_UnityEngine_Vector3_ * __this, int32_t index, int32_t count, IComparer_1_UnityEngine_Vector3_ * comparer));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_UnityEngine_Vector3_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

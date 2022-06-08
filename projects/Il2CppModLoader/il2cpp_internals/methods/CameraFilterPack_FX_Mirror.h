@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_FX_Mirror {
 IL2CPP_REGISTER_METHOD(0x02471D90, Material *, get_material, (CameraFilterPack_FX_Mirror * __this));

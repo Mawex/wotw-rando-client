@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::OrderedEnumerable_1_TElement___GetEnumerator_d__1_MicroProfilerInspector_MetricData_ {
 IL2CPP_REGISTER_METHOD(0x01D09710, void, __ctor, (OrderedEnumerable_1_TElement_GetEnumerator_d_1_MicroProfilerInspector_MetricData_ * __this, int32_t __1__state));

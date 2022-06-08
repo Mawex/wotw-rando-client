@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::MemberBinding {
 IL2CPP_REGISTER_METHOD(0x0091DD30, void, __ctor, (MemberBinding * __this, MemberBindingType__Enum type, MemberInfo_1 * member));

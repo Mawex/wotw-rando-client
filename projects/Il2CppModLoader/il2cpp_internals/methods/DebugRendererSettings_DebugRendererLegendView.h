@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugRendererSettings_DebugRendererLegendView {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, UpdateModel, (DebugRendererSettings_DebugRendererLegendView * __this, DebugRendererSettings_SettingsPattern * pattern));

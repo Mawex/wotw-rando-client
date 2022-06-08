@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::UberShaderDrivenComponent {
 IL2CPP_REGISTER_METHOD(0x008009A0, void, Awake, (UberShaderDrivenComponent * __this));

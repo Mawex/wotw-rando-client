@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::ZlibCodec {
 IL2CPP_REGISTER_METHOD(0x030791D0, void, __ctor, (ZlibCodec * __this));

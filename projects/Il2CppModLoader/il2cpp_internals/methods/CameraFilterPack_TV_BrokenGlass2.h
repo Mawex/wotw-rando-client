@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_TV_BrokenGlass2 {
 IL2CPP_REGISTER_METHOD(0x020E6640, Material *, get_material, (CameraFilterPack_TV_BrokenGlass2 * __this));

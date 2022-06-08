@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1DiveLaserBehaviour_WaitState {
 IL2CPP_REGISTER_METHOD(0x01766D00, void, __ctor, (PetrifiedOwlBossFight1DiveLaserBehaviour_WaitState * __this, PetrifiedOwlBossFight1DiveLaserBehaviour * behaviour));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::AimPoser_Pose {
 IL2CPP_REGISTER_METHOD(0x0204DED0, bool, IsInDirection, (AimPoser_Pose * __this, Vector3 d));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Warning_Logger {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Warning_Logger * __this, Object * object, void * method_1));

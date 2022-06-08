@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Base64Stream_ReadStateInfo {
 IL2CPP_REGISTER_METHOD(0x0052B590, uint8_t, get_Val, (Base64Stream_ReadStateInfo * __this));

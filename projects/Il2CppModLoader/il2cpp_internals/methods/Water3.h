@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Water3 {
 IL2CPP_REGISTER_METHOD(0x02D70900, void, Start, (Water3 * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x02D74B20, Vector4, CameraSpacePlane, (Water3 * __this, 
 IL2CPP_REGISTER_METHOD(0x02D74FD0, void, CalculateObliqueMatrix, (Matrix4x4 * projection, Vector4 clipPlane));
 IL2CPP_REGISTER_METHOD(0x02D6FFF0, void, CalculateReflectionMatrix, (Matrix4x4 * reflectionMat, Vector4 plane));
 IL2CPP_REGISTER_METHOD(0x02D75590, void, __ctor, (Water3 * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

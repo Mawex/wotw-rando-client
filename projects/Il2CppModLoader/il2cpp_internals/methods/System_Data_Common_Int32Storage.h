@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::Int32Storage {
 IL2CPP_REGISTER_METHOD(0x02167D70, void, __ctor, (Int32Storage * __this, DataColumn * column));

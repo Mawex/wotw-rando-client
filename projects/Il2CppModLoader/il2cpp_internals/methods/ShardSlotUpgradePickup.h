@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShardSlotUpgradePickup {
 IL2CPP_REGISTER_METHOD(0x005ABE60, void, OnCollectorCandidateTouch, (ShardSlotUpgradePickup * __this, GameObject * collector));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Trail {
 IL2CPP_REGISTER_METHOD(0x00B02030, void, OnPoolSpawned, (Trail_1 * __this));

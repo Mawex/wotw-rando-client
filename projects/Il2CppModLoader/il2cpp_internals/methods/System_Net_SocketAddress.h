@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::SocketAddress {
 IL2CPP_REGISTER_METHOD(0x01BDB850, AddressFamily__Enum, get_Family, (SocketAddress * __this));

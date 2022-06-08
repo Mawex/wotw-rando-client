@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterLineModifier {
 IL2CPP_REGISTER_METHOD(0x008D8010, void, OnEnable, (WaterLineModifier * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::AssemblyName {
 IL2CPP_REGISTER_METHOD(0x02283AA0, void, __ctor, (AssemblyName * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AggregateCondition {
 IL2CPP_REGISTER_METHOD(0x004F0B60, bool, Validate, (AggregateCondition * __this, IContext * context));

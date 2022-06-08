@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::ProductInfoHeaderValue {
 IL2CPP_REGISTER_METHOD(0x02D13B10, void, __ctor, (ProductInfoHeaderValue * __this, ProductHeaderValue * product));

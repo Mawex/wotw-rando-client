@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1FeatherFlurryBehaviour_StartState {
 IL2CPP_REGISTER_METHOD(0x01768C00, void, __ctor, (PetrifiedOwlBossFight1FeatherFlurryBehaviour_StartState * __this, PetrifiedOwlBossFight1FeatherFlurryBehaviour * behaviour));

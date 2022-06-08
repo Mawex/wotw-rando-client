@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageMetaData_1_Moon::TentacleStabBehaviour_TentacleAttack_ {
 IL2CPP_REGISTER_METHOD(0x019DC010, void, OnEnable, (CageMetaData_1_Moon_TentacleStabBehaviour_TentacleAttack_ * __this));

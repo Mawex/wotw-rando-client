@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryPlayerSuspendScreenOpenEvent {
 IL2CPP_REGISTER_METHOD(0x01470B90, void, SynchronousInitialize, (MoonTelemetryPlayerSuspendScreenOpenEvent * __this));

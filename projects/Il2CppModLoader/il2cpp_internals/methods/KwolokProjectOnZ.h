@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokProjectOnZ {
 IL2CPP_REGISTER_METHOD(0x012FCD90, void, Update, (KwolokProjectOnZ * __this));

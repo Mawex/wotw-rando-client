@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::LayerMask_DirectConverter {
 IL2CPP_REGISTER_METHOD(0x0164FB40, fsResult, DoSerialize, (LayerMask_DirectConverter * __this, LayerMask model, Dictionary_2_System_String_FullSerializer_fsData_ * serialized));

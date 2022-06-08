@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimatorDefinition {
 IL2CPP_REGISTER_METHOD(0x0211B730, MoonAnimatorLayerDefinition__Array *, get_AdditionalLayers, (MoonAnimatorDefinition * __this));

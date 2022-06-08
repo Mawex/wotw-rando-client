@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Xbox::Services::Xal::XalService___c__DisplayClass30_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XalService_c_DisplayClass30_0 * __this));

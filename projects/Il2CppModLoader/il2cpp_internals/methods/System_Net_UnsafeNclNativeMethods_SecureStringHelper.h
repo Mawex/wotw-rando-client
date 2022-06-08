@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::UnsafeNclNativeMethods_SecureStringHelper {
 IL2CPP_REGISTER_METHOD(0x020ACA80, String *, CreateString, (SecureString * secureString));

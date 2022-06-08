@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PreloadSceneAction {
 IL2CPP_REGISTER_METHOD(0x00C6F4B0, void, Perform, (PreloadSceneAction * __this, IContext * context));

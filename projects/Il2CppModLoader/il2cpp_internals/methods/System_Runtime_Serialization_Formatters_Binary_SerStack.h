@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::SerStack {
 IL2CPP_REGISTER_METHOD(0x01DA1140, void, __ctor, (SerStack * __this, String * stackId));

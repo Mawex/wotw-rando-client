@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::FeedingGroundsPetrifiedOwlController {
-IL2CPP_REGISTER_METHOD(0x014D9C60, bool, get_ShowDebug, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014D9C60, bool, get_ShowDebug, ());
 IL2CPP_REGISTER_METHOD(0x014D9D00, void, set_ShowDebug, (bool value));
 IL2CPP_REGISTER_METHOD(0x014D9E30, Quaternion, get_RootMotionRotation, (FeedingGroundsPetrifiedOwlController * __this));
 IL2CPP_REGISTER_METHOD(0x014D9EF0, Quaternion, get_NonRootMotionRotation, (FeedingGroundsPetrifiedOwlController * __this));
@@ -12,7 +12,7 @@ IL2CPP_REGISTER_METHOD(0x014D9FF0, bool, get_IsAlert, (FeedingGroundsPetrifiedOw
 IL2CPP_REGISTER_METHOD(0x014DA000, void, set_IsAlert, (FeedingGroundsPetrifiedOwlController * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x014DA010, FeedingGroundsPetrifiedOwlController_FeedingGroundsChaseState__Enum, get_CurrentChaseState, (FeedingGroundsPetrifiedOwlController * __this));
 IL2CPP_REGISTER_METHOD(0x014DA040, void, set_CurrentChaseState, (FeedingGroundsPetrifiedOwlController * __this, FeedingGroundsPetrifiedOwlController_FeedingGroundsChaseState__Enum value));
-IL2CPP_REGISTER_METHOD(0x014DA0A0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014DA0A0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x014DA130, void, Awake, (FeedingGroundsPetrifiedOwlController * __this));
 IL2CPP_REGISTER_METHOD(0x014DA380, void, OnEnable, (FeedingGroundsPetrifiedOwlController * __this));
 IL2CPP_REGISTER_METHOD(0x014DAC40, void, OnDisable, (FeedingGroundsPetrifiedOwlController * __this));
@@ -69,5 +69,5 @@ IL2CPP_REGISTER_METHODINFO(0x0476D578, FeedingGroundsPetrifiedOwlController_Hide
 IL2CPP_REGISTER_METHOD(0x014DEA90, void, ShowOwl, (FeedingGroundsPetrifiedOwlController * __this));
 IL2CPP_REGISTER_METHOD(0x014DEBD0, void, OnGUI, (FeedingGroundsPetrifiedOwlController * __this));
 IL2CPP_REGISTER_METHOD(0x014DEDA0, void, __ctor, (FeedingGroundsPetrifiedOwlController * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberTurbulanceAnimator {
 IL2CPP_REGISTER_METHOD(0x01291E10, float, get_SpeedWeight, (UberTurbulanceAnimator * __this));

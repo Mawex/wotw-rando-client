@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_KwolokBossBehaviourZones_ {
 IL2CPP_REGISTER_METHOD(0x02720EB0, KwolokBossBehaviourZones *, SafeResolve, (MoonReference_1_KwolokBossBehaviourZones_ * __this, IMoonResolverContext * context));

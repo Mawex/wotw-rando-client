@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::UberStateToWwiseData_UberStateToWWiseEntry {
 IL2CPP_REGISTER_METHOD(0x0270D350, bool, IsFulfilled, (UberStateToWwiseData_UberStateToWWiseEntry * __this));

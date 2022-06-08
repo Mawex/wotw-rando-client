@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::MobileAuthenticatedStream {
 IL2CPP_REGISTER_METHOD(0x0217E0D0, void, __ctor, (MobileAuthenticatedStream * __this, Stream * innerStream, bool leaveInnerStreamOpen, SslStream * owner, MonoTlsSettings * settings, MonoTlsProvider * provider));
@@ -53,7 +53,7 @@ IL2CPP_REGISTER_METHOD(0x02180FE0, int32_t, get_ReadTimeout, (MobileAuthenticate
 IL2CPP_REGISTER_METHOD(0x02181010, void, set_ReadTimeout, (MobileAuthenticatedStream * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x02181040, int32_t, get_WriteTimeout, (MobileAuthenticatedStream * __this));
 IL2CPP_REGISTER_METHOD(0x02181070, void, set_WriteTimeout, (MobileAuthenticatedStream * __this, int32_t value));
-IL2CPP_REGISTER_METHOD(0x021810A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021810A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02181120, void, _InnerWrite_b__67_0, (MobileAuthenticatedStream * __this));
 IL2CPP_REGISTER_METHODINFO(0x04706698, MobileAuthenticatedStream__InnerWrite_b__67_0__MethodInfo);
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceReader_ResourceEnumerator {
 IL2CPP_REGISTER_METHOD(0x01A8D130, void, __ctor, (ResourceReader_ResourceEnumerator * __this, ResourceReader * reader));

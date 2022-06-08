@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HorizontalPlatformMovementSettings {
 IL2CPP_REGISTER_METHOD(0x00B602E0, void, CopyFrom, (HorizontalPlatformMovementSettings * __this, HorizontalPlatformMovementSettings * settings));

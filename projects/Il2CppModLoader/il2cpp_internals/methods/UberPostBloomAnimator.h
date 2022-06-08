@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPostBloomAnimator {
 IL2CPP_REGISTER_METHOD(0x00FEED20, void, Awake, (UberPostBloomAnimator * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x00FEF410, void, RestoreToOriginalState, (UberPostBloomA
 IL2CPP_REGISTER_METHOD(0x00FEF570, float, get_Duration, (UberPostBloomAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x00933870, bool, get_IsLooping, (UberPostBloomAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x00FEF650, void, __ctor, (UberPostBloomAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00FEFA30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FEFA30, void, __cctor, ());
 }

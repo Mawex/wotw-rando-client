@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlobalTurbulenceMaskAnimator {
 IL2CPP_REGISTER_METHOD(0x007FA2D0, SceneSettingsComponent *, get_SceneSettings, (GlobalTurbulenceMaskAnimator * __this));

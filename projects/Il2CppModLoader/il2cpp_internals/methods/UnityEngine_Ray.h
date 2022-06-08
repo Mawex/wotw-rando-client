@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Ray {
 IL2CPP_REGISTER_METHOD(0x00217910, void, __ctor, (Ray__Boxed * __this, Vector3 origin, Vector3 direction));

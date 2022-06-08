@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection {
 IL2CPP_REGISTER_METHOD(0x01669060, void, __ctor, (OrderedDictionary_OrderedDictionaryKeyValueCollection * __this, ArrayList * array, bool isKeys));

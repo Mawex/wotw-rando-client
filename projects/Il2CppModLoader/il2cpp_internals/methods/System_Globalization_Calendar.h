@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::Calendar {
 IL2CPP_REGISTER_METHOD(0x01A1E410, DateTime, get_MinSupportedDateTime, (Calendar * __this));

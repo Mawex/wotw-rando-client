@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ResetPathFollowerToNode {
 IL2CPP_REGISTER_METHOD(0x00904D90, void, Perform, (ResetPathFollowerToNode * __this, IContext * context));

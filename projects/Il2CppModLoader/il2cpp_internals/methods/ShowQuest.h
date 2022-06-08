@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowQuest {
 IL2CPP_REGISTER_METHOD(0x005C5F70, void, ChangeState, (ShowQuest * __this, ShowQuest_State__Enum state));

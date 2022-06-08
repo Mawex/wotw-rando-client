@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RammingEnemy {
 IL2CPP_REGISTER_METHOD(0x00728C30, bool, CanBeOptimized, (RammingEnemy * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::IntrospectionExtensions {
 IL2CPP_REGISTER_METHOD(0x0268AC00, TypeInfo *, GetTypeInfo, (Type * type));

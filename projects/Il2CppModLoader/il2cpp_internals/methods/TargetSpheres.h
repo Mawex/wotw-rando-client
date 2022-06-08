@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TargetSpheres {
 IL2CPP_REGISTER_METHOD(0x00CE3830, TargetSpheres_Sphere *, GetRandomSphereFromClosestGroup, (TargetSpheres * __this, Transform * transform, Vector3 position));

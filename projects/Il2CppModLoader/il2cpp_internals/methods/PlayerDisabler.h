@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerDisabler {
 IL2CPP_REGISTER_METHOD(0x0140E520, void, OnEnable, (PlayerDisabler * __this));

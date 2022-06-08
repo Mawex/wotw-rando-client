@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KamikazeSootEnemy {
 IL2CPP_REGISTER_METHOD(0x00E60AA0, bool, CanBeOptimized, (KamikazeSootEnemy * __this));

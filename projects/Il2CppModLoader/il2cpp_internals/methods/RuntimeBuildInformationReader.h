@@ -1,5 +1,5 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RuntimeBuildInformationReader {
-IL2CPP_REGISTER_METHOD(0x013747D0, RuntimeBuildInformation *, Read, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013747D0, RuntimeBuildInformation *, Read, ());
 }

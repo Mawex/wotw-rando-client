@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_ShardTraderPlaceholder_ConditionalStockList_ {
 IL2CPP_REGISTER_METHOD(0x025E9D20, List_1_T_Enumerator_ShardTraderPlaceholder_ConditionalStockList_, GetEnumerator, (List_1_ShardTraderPlaceholder_ConditionalStockList_ * __this));
@@ -63,5 +63,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_ShardTraderPlaceholder_Co
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_ShardTraderPlaceholder_ConditionalStockList_ * __this, Comparison_1_ShardTraderPlaceholder_ConditionalStockList_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, ShardTraderPlaceholder_ConditionalStockList__Array *, ToArray, (List_1_ShardTraderPlaceholder_ConditionalStockList_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_ShardTraderPlaceholder_ConditionalStockList_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

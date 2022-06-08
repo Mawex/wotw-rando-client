@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaAnyAttribute {
 IL2CPP_REGISTER_METHOD(0x002FBB50, void, set_Namespace, (XmlSchemaAnyAttribute * __this, String * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension {
 IL2CPP_REGISTER_METHOD(0x021D4A00, void, __ctor, (X509EnhancedKeyUsageExtension * __this, AsnEncodedData * encodedEnhancedKeyUsages, bool critical));

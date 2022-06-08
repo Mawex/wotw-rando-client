@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBloomAnimator {
 IL2CPP_REGISTER_METHOD(0x01291E10, float, get_IntensityWeight, (UberBloomAnimator * __this));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHOD(0x013E39E0, void, OnStartWhenPlaybackOrPreview, (UberBloo
 IL2CPP_REGISTER_METHOD(0x013E3BA0, void, OnStopWhenPlaybackOrPreview, (UberBloomAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x01292100, void, UpdateAtTime, (UberBloomAnimator * __this, float timeValue));
 IL2CPP_REGISTER_METHOD(0x013E3C60, void, __ctor, (UberBloomAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E4080, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013E4080, void, __cctor, ());
 }

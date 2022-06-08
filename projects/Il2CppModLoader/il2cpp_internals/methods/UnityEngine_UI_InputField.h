@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::InputField {
 IL2CPP_REGISTER_METHOD(0x024C0BE0, void, __ctor, (InputField * __this));
@@ -76,7 +76,7 @@ IL2CPP_REGISTER_METHOD(0x024C4440, void, OnFocus, (InputField * __this));
 IL2CPP_REGISTER_METHOD(0x024C4450, void, SelectAll, (InputField * __this));
 IL2CPP_REGISTER_METHOD(0x024C44E0, void, MoveTextEnd, (InputField * __this, bool shift));
 IL2CPP_REGISTER_METHOD(0x024C4600, void, MoveTextStart, (InputField * __this, bool shift));
-IL2CPP_REGISTER_METHOD(0x024C46F0, String *, get_clipboard, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024C46F0, String *, get_clipboard, ());
 IL2CPP_REGISTER_METHOD(0x024C4740, void, set_clipboard, (String * value));
 IL2CPP_REGISTER_METHOD(0x01F1B650, bool, InPlaceEditing, (InputField * __this));
 IL2CPP_REGISTER_METHOD(0x024C4790, void, UpdateCaretFromKeyboard, (InputField * __this));
@@ -156,6 +156,6 @@ IL2CPP_REGISTER_METHOD(0x024BF590, float, get_minHeight, (InputField * __this));
 IL2CPP_REGISTER_METHOD(0x024CDDA0, float, get_preferredHeight, (InputField * __this));
 IL2CPP_REGISTER_METHOD(0x024BF740, float, get_flexibleHeight, (InputField * __this));
 IL2CPP_REGISTER_METHOD(0x024CE020, int32_t, get_layoutPriority, (InputField * __this));
-IL2CPP_REGISTER_METHOD(0x024CE030, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024CE030, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, ICanvasElement_get_transform, (InputField * __this));
 }

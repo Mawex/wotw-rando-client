@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinRunToTargetAction {
 IL2CPP_REGISTER_METHOD(0x005D89B0, void, Stop, (SeinRunToTargetAction * __this));

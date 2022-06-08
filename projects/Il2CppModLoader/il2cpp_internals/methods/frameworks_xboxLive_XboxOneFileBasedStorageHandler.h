@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::xboxLive::XboxOneFileBasedStorageHandler {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (XboxOneFileBasedStorageHandler * __this, String * sourceKey));

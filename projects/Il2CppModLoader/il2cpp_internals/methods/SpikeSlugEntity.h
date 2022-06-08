@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpikeSlugEntity {
 IL2CPP_REGISTER_METHOD(0x011C9260, GroundPatrolDirectionMode__Enum, get_MovementPattern, (SpikeSlugEntity * __this));

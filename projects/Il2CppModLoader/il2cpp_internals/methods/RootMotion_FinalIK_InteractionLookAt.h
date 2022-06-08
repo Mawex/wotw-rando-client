@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionLookAt {
 IL2CPP_REGISTER_METHOD(0x02A0A870, void, Look, (InteractionLookAt * __this, Transform * target, float time));

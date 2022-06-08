@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Gui::GuiBeginScrollView {
 IL2CPP_REGISTER_METHOD(0x00F28550, Vector2, get_Scroll, (GuiBeginScrollView * __this));

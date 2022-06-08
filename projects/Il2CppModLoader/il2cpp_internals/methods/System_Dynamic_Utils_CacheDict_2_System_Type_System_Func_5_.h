@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CacheDict_2_System::Type_System::Func_5_ {
 IL2CPP_REGISTER_METHOD(0x02879320, void, __ctor, (CacheDict_2_System_Type_System_Func_5_ * __this, int32_t size));

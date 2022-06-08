@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoadFromMasterAtStart {
 IL2CPP_REGISTER_METHOD(0x00FB4120, void, Start, (LoadFromMasterAtStart * __this));

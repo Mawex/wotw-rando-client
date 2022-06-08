@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Type_System::MonoCustomAttrs_AttributeInfo_ {
 IL2CPP_REGISTER_METHOD(0x02259DF0, void, __ctor, (Dictionary_2_System_Type_System_MonoCustomAttrs_AttributeInfo_ * __this, int32_t capacity));

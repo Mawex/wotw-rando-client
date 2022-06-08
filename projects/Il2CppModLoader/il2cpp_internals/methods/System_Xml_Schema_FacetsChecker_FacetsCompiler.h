@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::FacetsChecker_FacetsCompiler {
 IL2CPP_REGISTER_METHOD(0x001E6F60, void, __ctor, (FacetsChecker_FacetsCompiler__Boxed * __this, DatatypeImplementation * baseDatatype, RestrictionFacets * restriction));
@@ -40,5 +40,5 @@ IL2CPP_REGISTER_METHOD(0x001E7090, void, CheckDupFlag, (FacetsChecker_FacetsComp
 IL2CPP_REGISTER_METHODINFO(0x0472C5C0, FacetsChecker_FacetsCompiler_CheckDupFlag__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001E70A0, void, SetFlag, (FacetsChecker_FacetsCompiler__Boxed * __this, XmlSchemaFacet * facet, RestrictionFlags__Enum flag));
 IL2CPP_REGISTER_METHOD(0x001E7110, void, SetFlag, (FacetsChecker_FacetsCompiler__Boxed * __this, RestrictionFlags__Enum flag));
-IL2CPP_REGISTER_METHOD(0x0236EC50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0236EC50, void, __cctor, ());
 }

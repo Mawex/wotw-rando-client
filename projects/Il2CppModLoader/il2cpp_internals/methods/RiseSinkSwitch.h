@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RiseSinkSwitch {
 IL2CPP_REGISTER_METHOD(0x01355AA0, void, Awake, (RiseSinkSwitch * __this));

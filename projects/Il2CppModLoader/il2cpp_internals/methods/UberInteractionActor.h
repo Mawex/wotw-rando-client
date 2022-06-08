@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionActor {
 IL2CPP_REGISTER_METHOD(0x002FBBA0, UberWaterControl *, get_Water, (UberInteractionActor * __this));

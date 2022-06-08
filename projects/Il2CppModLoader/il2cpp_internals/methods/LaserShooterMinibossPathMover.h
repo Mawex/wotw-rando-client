@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterMinibossPathMover {
 IL2CPP_REGISTER_METHOD(0x00F1B330, LaserShooterMinibossPath *, get_Paths, (LaserShooterMinibossPathMover * __this));

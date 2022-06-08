@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ForeignKeyConstraintEnumerator {
 IL2CPP_REGISTER_METHOD(0x01E327F0, void, __ctor, (ForeignKeyConstraintEnumerator * __this, DataSet * dataSet));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderAPI {
 IL2CPP_REGISTER_METHOD(0x01905780, bool, TryGetEditableMaterial, (Renderer * renderer, Material * * material));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHOD(0x019081B0, void, SetFloat, (Renderer * renderer, UberSha
 IL2CPP_REGISTER_METHOD(0x002FA000, void, ClearPropertyBlock, (Renderer * renderer));
 IL2CPP_REGISTER_METHOD(0x019082C0, void, SetVectorInPropertyBlock, (Renderer * renderer, UberShaderProperty_Vector__Enum property, Vector4 value));
 IL2CPP_REGISTER_METHOD(0x019083B0, void, SetFloatInPropertyBlock, (Renderer * renderer, UberShaderProperty_Float__Enum property, float value));
-IL2CPP_REGISTER_METHOD(0x019084A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x019084A0, void, __cctor, ());
 }

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promises::EnumerableExt {
-IL2CPP_REGISTER_METHOD(0x0156C730, IEnumerable_1_System_Object_ *, Empty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0156C730, IEnumerable_1_System_Object_ *, Empty, ());
 IL2CPP_REGISTER_METHOD(0x00E7D170, IEnumerable_1_System_Object_ *, LazyEach, (IEnumerable_1_System_Object_ * source, Action_1_Object_ * fn));
 IL2CPP_REGISTER_METHOD(0x015E7050, void, Each, (IEnumerable_1_System_Object_ * source, Action_1_Object_ * fn));
 IL2CPP_REGISTER_METHOD(0x015E7270, void, Each, (IEnumerable_1_System_Object_ * source, Action_2_Object_Int32_ * fn));

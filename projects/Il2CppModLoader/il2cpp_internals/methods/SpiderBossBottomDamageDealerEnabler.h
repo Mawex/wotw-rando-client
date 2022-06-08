@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossBottomDamageDealerEnabler {
 IL2CPP_REGISTER_METHOD(0x009699D0, void, Perform, (SpiderBossBottomDamageDealerEnabler * __this, IContext * context));

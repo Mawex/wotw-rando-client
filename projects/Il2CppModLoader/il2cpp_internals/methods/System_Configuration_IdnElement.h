@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::IdnElement {
 IL2CPP_REGISTER_METHOD(0x02961B40, void, __ctor, (IdnElement * __this));

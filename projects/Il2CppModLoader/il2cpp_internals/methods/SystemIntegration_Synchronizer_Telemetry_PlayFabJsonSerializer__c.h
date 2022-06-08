@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Telemetry::PlayFabJsonSerializer___c {
-IL2CPP_REGISTER_METHOD(0x00CD6820, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00CD6820, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabJsonSerializer_c * __this));
 IL2CPP_REGISTER_METHOD(0x00CD6960, void, _AddGeneratedSerializers_b__12_0, (PlayFabJsonSerializer_c * __this, JsonBuilder_Slot slot, Object * value));
 IL2CPP_REGISTER_METHODINFO(0x04727870, PlayFabJsonSerializer_c__AddGeneratedSerializers_b__12_0__MethodInfo);

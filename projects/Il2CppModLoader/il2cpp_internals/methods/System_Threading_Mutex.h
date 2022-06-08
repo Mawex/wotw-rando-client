@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Mutex {
 IL2CPP_REGISTER_METHOD(0x027E0FD0, bool, ReleaseMutex_internal, (void * handle));

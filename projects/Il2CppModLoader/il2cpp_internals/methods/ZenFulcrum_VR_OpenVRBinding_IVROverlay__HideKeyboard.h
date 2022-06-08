@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVROverlay__HideKeyboard {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVROverlay_HideKeyboard * __this, Object * object, void * method_1));

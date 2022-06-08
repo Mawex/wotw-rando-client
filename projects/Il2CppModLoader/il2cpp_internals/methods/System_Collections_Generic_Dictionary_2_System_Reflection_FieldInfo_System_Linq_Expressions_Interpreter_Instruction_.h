@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Reflection::FieldInfo_System::Linq::Expressions::Interpreter::Instruction_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Reflection_FieldInfo_System_Linq_Expressions_Interpreter_Instruction_ * __this, FieldInfo_1 * key, Instruction * * value));

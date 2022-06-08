@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::InterlockedGate {
 IL2CPP_REGISTER_METHOD(0x001267F0, void, Reset, (InterlockedGate__Boxed * __this));

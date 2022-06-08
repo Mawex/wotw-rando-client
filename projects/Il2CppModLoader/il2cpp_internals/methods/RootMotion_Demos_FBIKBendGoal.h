@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FBIKBendGoal {
 IL2CPP_REGISTER_METHOD(0x02219B40, void, Start, (FBIKBendGoal * __this));

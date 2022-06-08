@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::GradientRampDynamic {
 IL2CPP_REGISTER_METHOD(0x03045A90, void, Start, (GradientRampDynamic * __this));

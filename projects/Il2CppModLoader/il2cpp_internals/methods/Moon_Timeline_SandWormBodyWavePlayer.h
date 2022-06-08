@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SandWormBodyWavePlayer {
 IL2CPP_REGISTER_METHOD(0x00781E30, void, OnStartPlayback, (SandWormBodyWavePlayer * __this, IContext * context));

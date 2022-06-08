@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolGroup {
 IL2CPP_REGISTER_METHOD(0x002FB990, UberPoolSettings *, get_Settings, (UberPoolGroup * __this));
@@ -21,5 +21,5 @@ IL2CPP_REGISTER_METHOD(0x00FD4A30, bool, PruneObjectAtIndex, (UberPoolGroup * __
 IL2CPP_REGISTER_METHOD(0x00FD4D00, void, PruneToMinAmount, (UberPoolGroup * __this));
 IL2CPP_REGISTER_METHOD(0x00FD4920, void, PruneObjectsIfNeeded, (UberPoolGroup * __this));
 IL2CPP_REGISTER_METHOD(0x00FD4DE0, void, __ctor, (UberPoolGroup * __this));
-IL2CPP_REGISTER_METHOD(0x00FD4F40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FD4F40, void, __cctor, ());
 }

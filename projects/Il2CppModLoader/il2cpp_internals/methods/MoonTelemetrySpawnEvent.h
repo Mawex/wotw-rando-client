@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetrySpawnEvent {
 IL2CPP_REGISTER_METHOD(0x01472DB0, void, __ctor, (MoonTelemetrySpawnEvent * __this, MoonTelemetrySpawnEvent_SpawnReason__Enum reason));

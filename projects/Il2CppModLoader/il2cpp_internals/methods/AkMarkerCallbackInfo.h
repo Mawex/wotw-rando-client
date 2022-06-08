@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkMarkerCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x026F88A0, void, __ctor, (AkMarkerCallbackInfo * __this, void * cPtr, bool cMemoryOwn));

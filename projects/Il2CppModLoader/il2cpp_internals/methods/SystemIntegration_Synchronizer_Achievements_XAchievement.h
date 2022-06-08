@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::XAchievement {
 IL2CPP_REGISTER_METHOD(0x0052F750, XProgressState__Enum, get_progressStateEnum, (XAchievement * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::EntityTagHeaderValue {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EntityTagHeaderValue * __this));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHODINFO(0x04706688, EntityTagHeaderValue_TryParseElement__Met
 IL2CPP_REGISTER_METHOD(0x02D07F40, bool, TryParse, (String * input, int32_t minimalCount, List_1_System_Net_Http_Headers_EntityTagHeaderValue_ * * result));
 IL2CPP_REGISTER_METHODINFO(0x047530F0, EntityTagHeaderValue_TryParse_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02D080C0, String *, ToString, (EntityTagHeaderValue * __this));
-IL2CPP_REGISTER_METHOD(0x02D08160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02D08160, void, __cctor, ());
 }

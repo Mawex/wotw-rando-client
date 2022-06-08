@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BuilderScreen {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (BuilderScreen * __this));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_NeedOreUI, (BuilderScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00418200, ShopkeeperItem__Array *, get_Items, (BuilderScreen * __this));
-IL2CPP_REGISTER_METHOD(0x0081C600, BuilderScreen *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0081C600, BuilderScreen *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x0081C680, void, set_Instance, (BuilderScreen * value));
 IL2CPP_REGISTER_METHOD(0x0081C710, ShopkeeperScreen *, get_ShopInstance, (BuilderScreen * __this));
 IL2CPP_REGISTER_METHOD(0x0081C720, void, set_ShopInstance, (BuilderScreen * __this, ShopkeeperScreen * value));

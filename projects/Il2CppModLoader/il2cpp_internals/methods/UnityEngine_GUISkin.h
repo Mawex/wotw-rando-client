@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUISkin {
 IL2CPP_REGISTER_METHOD(0x029F01A0, void, __ctor, (GUISkin * __this));
 IL2CPP_REGISTER_METHOD(0x029F0330, void, OnEnable, (GUISkin * __this));
-IL2CPP_REGISTER_METHOD(0x029F0340, void, CleanupRoots, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029F0340, void, CleanupRoots, ());
 IL2CPP_REGISTER_METHOD(0x01F25880, Font *, get_font, (GUISkin * __this));
 IL2CPP_REGISTER_METHOD(0x029F03D0, void, set_font, (GUISkin * __this, Font * value));
 IL2CPP_REGISTER_METHOD(0x01704A60, GUIStyle *, get_box, (GUISkin * __this));
@@ -49,7 +49,7 @@ IL2CPP_REGISTER_METHOD(0x029F0680, void, set_scrollView, (GUISkin * __this, GUIS
 IL2CPP_REGISTER_METHOD(0x02671DF0, GUIStyle__Array *, get_customStyles, (GUISkin * __this));
 IL2CPP_REGISTER_METHOD(0x029F0690, void, set_customStyles, (GUISkin * __this, GUIStyle__Array * value));
 IL2CPP_REGISTER_METHOD(0x029F06A0, GUISettings *, get_settings, (GUISkin * __this));
-IL2CPP_REGISTER_METHOD(0x029F06B0, GUIStyle *, get_error, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029F06B0, GUIStyle *, get_error, ());
 IL2CPP_REGISTER_METHOD(0x029F0850, void, Apply, (GUISkin * __this));
 IL2CPP_REGISTER_METHOD(0x029F0900, void, BuildStyleCache, (GUISkin * __this));
 IL2CPP_REGISTER_METHOD(0x029F24C0, GUIStyle *, GetStyle, (GUISkin * __this, String * styleName));

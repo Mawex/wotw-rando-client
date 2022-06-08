@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MessageControllerB {
 IL2CPP_REGISTER_METHOD(0x01202300, bool, get_LastMessageWasShard, (MessageControllerB * __this));

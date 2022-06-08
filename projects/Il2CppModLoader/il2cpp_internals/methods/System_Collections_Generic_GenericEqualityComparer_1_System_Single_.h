@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x02AB1860, bool, Equals, (GenericEqualityComparer_1_System_Single_ * __this, float x, float y));

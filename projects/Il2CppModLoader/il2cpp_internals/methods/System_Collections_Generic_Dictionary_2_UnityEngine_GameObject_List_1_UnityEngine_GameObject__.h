@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::GameObject_List_1_UnityEngine::GameObject__ {
 IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_UnityEngine_GameObject_List_1_UnityEngine_GameObject_, GetEnumerator, (Dictionary_2_UnityEngine_GameObject_List_1_UnityEngine_GameObject_ * __this));

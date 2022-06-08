@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ContinuousTimelineSequenceBehaviour {
 IL2CPP_REGISTER_METHOD(0x011E7B90, void, OnExecute, (ContinuousTimelineSequenceBehaviour * __this, IBlackboard * blackboard));

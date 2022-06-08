@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Ucs4Encoding {
 IL2CPP_REGISTER_METHOD(0x0173D7B0, String *, get_WebName, (Ucs4Encoding * __this));
@@ -13,9 +13,9 @@ IL2CPP_REGISTER_METHOD(0x019524D0, int32_t, GetChars, (Ucs4Encoding * __this, By
 IL2CPP_REGISTER_METHOD(0x01952500, int32_t, GetMaxCharCount, (Ucs4Encoding * __this, int32_t byteCount));
 IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_CodePage, (Ucs4Encoding * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, Encoder *, GetEncoder, (Ucs4Encoding * __this));
-IL2CPP_REGISTER_METHOD(0x01952510, Encoding *, get_UCS4_Littleendian, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01952650, Encoding *, get_UCS4_Bigendian, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01952790, Encoding *, get_UCS4_2143, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x019528D0, Encoding *, get_UCS4_3412, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01952510, Encoding *, get_UCS4_Littleendian, ());
+IL2CPP_REGISTER_METHOD(0x01952650, Encoding *, get_UCS4_Bigendian, ());
+IL2CPP_REGISTER_METHOD(0x01952790, Encoding *, get_UCS4_2143, ());
+IL2CPP_REGISTER_METHOD(0x019528D0, Encoding *, get_UCS4_3412, ());
 IL2CPP_REGISTER_METHOD(0x01952A10, void, __ctor, (Ucs4Encoding * __this));
 }

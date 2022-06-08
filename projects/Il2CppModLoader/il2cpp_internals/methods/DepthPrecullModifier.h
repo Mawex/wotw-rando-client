@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DepthPrecullModifier {
 IL2CPP_REGISTER_METHOD(0x00B83D00, void, SetProperties, (DepthPrecullModifier * __this));

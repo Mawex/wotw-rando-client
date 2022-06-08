@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Shader {
 IL2CPP_REGISTER_METHOD(0x0297D2D0, void, __ctor, (Shader * __this));

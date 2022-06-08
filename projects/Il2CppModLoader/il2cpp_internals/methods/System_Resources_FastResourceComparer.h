@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::FastResourceComparer {
 IL2CPP_REGISTER_METHOD(0x02699220, int32_t, GetHashCode, (FastResourceComparer * __this, Object * key));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x02699750, int32_t, CompareOrdinal, (String * a, Byte__A
 IL2CPP_REGISTER_METHOD(0x02699830, int32_t, CompareOrdinal, (Byte__Array * bytes, int32_t aCharLength, String * b));
 IL2CPP_REGISTER_METHOD(0x02699980, int32_t, CompareOrdinal, (uint8_t * a, int32_t byteLen, String * b));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (FastResourceComparer * __this));
-IL2CPP_REGISTER_METHOD(0x02699A30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02699A30, void, __cctor, ());
 }

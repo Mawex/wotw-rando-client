@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RespawningPlaceholder {
 IL2CPP_REGISTER_METHOD(0x002FBBB0, void, SetCurrentEntity, (RespawningPlaceholder * __this, LegacyEntity * entity));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x003FF7D0, SuspendableMask__Enum, get_Mask, (RespawningP
 IL2CPP_REGISTER_METHOD(0x0090A480, void, set_Mask, (RespawningPlaceholder * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x0058E140, Vector3, get_Position, (RespawningPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x0090A530, void, __ctor, (RespawningPlaceholder * __this));
-IL2CPP_REGISTER_METHOD(0x0090A720, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0090A720, void, __cctor, ());
 }

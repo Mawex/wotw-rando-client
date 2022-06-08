@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SandWormStickOutBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x00EC5520, void, OnEnter, (SandWormStickOutBehaviourNew * __this, IContext * context));

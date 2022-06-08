@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DodgeLayerModifier {
 IL2CPP_REGISTER_METHOD(0x0087BFC0, void, ApplyMultipliers, (DodgeLayerModifier * __this, float strength, float speed));

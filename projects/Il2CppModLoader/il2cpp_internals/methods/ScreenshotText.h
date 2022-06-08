@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScreenshotText {
 IL2CPP_REGISTER_METHOD(0x01069540, void, __ctor, (ScreenshotText * __this, ScreenshotTextMarker * screenshotTextMarker));

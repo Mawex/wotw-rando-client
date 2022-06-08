@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MistyWoodsKuroController {
 IL2CPP_REGISTER_METHOD(0x01327FB0, bool, get_IsHunting, (MistyWoodsKuroController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskCompletionSource_1_SystemIntegration::Races::RaceRequestResult_ {
 IL2CPP_REGISTER_METHOD(0x02777740, void, SetResult, (TaskCompletionSource_1_SystemIntegration_Races_RaceRequestResult_ * __this, RaceRequestResult * result));

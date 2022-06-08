@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlEventCache {
 IL2CPP_REGISTER_METHOD(0x01DB6180, void, __ctor, (XmlEventCache * __this, String * baseUri, bool hasRootNode));

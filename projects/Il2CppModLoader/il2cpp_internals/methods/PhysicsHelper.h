@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsHelper {
 IL2CPP_REGISTER_METHOD(0x014FF820, void, AddForceSafe, (Rigidbody * rigidbody, Vector2 force));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x01502540, float, CalculateSpeedFromHeight, (float heigh
 IL2CPP_REGISTER_METHOD(0x01502600, float, CalculateHeightFromSpeed, (float speed, float gravity));
 IL2CPP_REGISTER_METHOD(0x01502620, Vector2, CalculateJumpPeak, (Vector2 fromPosition, Vector2 jumpSpeed, Vector2 gravity));
 IL2CPP_REGISTER_METHOD(0x015028A0, Vector2, CalculateJumpPeak, (Vector2 from, Vector2 to, float extraHeight, float fromWeight, float toWeight));
-IL2CPP_REGISTER_METHOD(0x015029C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x015029C0, void, __cctor, ());
 }

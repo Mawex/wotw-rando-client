@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink {
 IL2CPP_REGISTER_METHOD(0x02319F80, IMessage *, SyncProcessMessage, (ServerContextTerminatorSink * __this, IMessage * msg));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraScrollLock {
 IL2CPP_REGISTER_METHOD(0x00C3DF40, Vector3, get_ScrollCenter, (CameraScrollLock * __this));

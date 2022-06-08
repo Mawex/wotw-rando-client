@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::CharMetaData {
 IL2CPP_REGISTER_METHOD(0x00123DF0, String *, ToString, (CharMetaData__Boxed * __this));

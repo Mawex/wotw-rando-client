@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillUpgradeScreen {
-IL2CPP_REGISTER_METHOD(0x006B88C0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006B88C0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x006B8940, CleverMenuItemSelectionManager *, get_NavigationManager, (SkillUpgradeScreen * __this));
 IL2CPP_REGISTER_METHOD(0x006B8960, bool, get_PurchasedSkillUpgrade, (SkillUpgradeScreen * __this));
 IL2CPP_REGISTER_METHOD(0x006B8970, void, set_PurchasedSkillUpgrade, (SkillUpgradeScreen * __this, bool value));

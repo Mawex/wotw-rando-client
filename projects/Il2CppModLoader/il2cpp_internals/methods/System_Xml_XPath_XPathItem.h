@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathItem {
 IL2CPP_REGISTER_METHOD(0x01955C90, Object *, ValueAs, (XPathItem * __this, Type * returnType));

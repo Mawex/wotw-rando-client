@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WriteStreamClosedEventArgs {
 IL2CPP_REGISTER_METHOD(0x021BB870, void, __ctor, (WriteStreamClosedEventArgs * __this));

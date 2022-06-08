@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameControllerLate__OnEndOfFrame_d__6 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GameControllerLate_OnEndOfFrame_d_6 * __this, int32_t __1__state));

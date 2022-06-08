@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Sensor {
-IL2CPP_REGISTER_METHOD(0x00ECCB90, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00ECCB90, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsSuspended, (Sensor * __this));
 IL2CPP_REGISTER_METHOD(0x00447370, void, set_IsSuspended, (Sensor * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x003FC830, SuspendableMask__Enum, get_Mask, (Sensor * __this));
@@ -53,7 +53,7 @@ IL2CPP_REGISTER_METHOD(0x00ED0E70, void, OnPlayerDied, (Sensor * __this));
 IL2CPP_REGISTER_METHODINFO(0x047020F8, Sensor_OnPlayerDied__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00ED0E80, bool, IsInCone, (Sensor * __this, Vector3 targetPosition, Vector3 coneOriginPosition, Vector3 coneForward, float coneAngle));
 IL2CPP_REGISTER_METHOD(0x00ED1060, void, __ctor, (Sensor * __this));
-IL2CPP_REGISTER_METHOD(0x00ED10E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00ED10E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (Sensor * __this));
 IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (Sensor * __this));
 IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (Sensor * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ReplayScreen {
-IL2CPP_REGISTER_METHOD(0x008FE400, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008FE400, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x008FE480, void, Awake, (ReplayScreen * __this));
 IL2CPP_REGISTER_METHOD(0x008FE550, void, OnDestroy, (ReplayScreen * __this));
 IL2CPP_REGISTER_METHOD(0x008FE700, void, Hide, (ReplayScreen * __this, bool change));

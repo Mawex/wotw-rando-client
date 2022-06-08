@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FPSLimitNotEnabledCondition {
 IL2CPP_REGISTER_METHOD(0x00988CF0, bool, Validate, (FPSLimitNotEnabledCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Text {
 IL2CPP_REGISTER_METHOD(0x026793B0, void, __ctor, (Text * __this));
@@ -49,5 +49,5 @@ IL2CPP_REGISTER_METHOD(0x024BF590, float, get_minHeight, (Text * __this));
 IL2CPP_REGISTER_METHOD(0x0267BBD0, float, get_preferredHeight, (Text * __this));
 IL2CPP_REGISTER_METHOD(0x024BF740, float, get_flexibleHeight, (Text * __this));
 IL2CPP_REGISTER_METHOD(0x01F1B660, int32_t, get_layoutPriority, (Text * __this));
-IL2CPP_REGISTER_METHOD(0x0267BCE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0267BCE0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::ListViewItem_1_UberStateData_ {
 IL2CPP_REGISTER_METHOD(0x02AF4520, void, __ctor, (ListViewItem_1_UberStateData_ * __this, int32_t controlId, UberStateData data, ListView * parentView));

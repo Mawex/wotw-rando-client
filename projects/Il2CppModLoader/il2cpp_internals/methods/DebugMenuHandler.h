@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugMenuHandler {
 IL2CPP_REGISTER_METHOD(0x00DF3B30, void, FixedUpdate, (DebugMenuHandler * __this));

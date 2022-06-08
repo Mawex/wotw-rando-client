@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UnitySynchronizationContext {
 IL2CPP_REGISTER_METHOD(0x02C71310, void, __ctor, (UnitySynchronizationContext * __this, int32_t mainThreadID));
@@ -10,7 +10,7 @@ IL2CPP_REGISTER_METHOD(0x02C71AE0, void, Post, (UnitySynchronizationContext * __
 IL2CPP_REGISTER_METHOD(0x02C71C60, SynchronizationContext *, CreateCopy, (UnitySynchronizationContext * __this));
 IL2CPP_REGISTER_METHOD(0x02C71DC0, void, Exec, (UnitySynchronizationContext * __this));
 IL2CPP_REGISTER_METHOD(0x02C72110, bool, HasPendingTasks, (UnitySynchronizationContext * __this));
-IL2CPP_REGISTER_METHOD(0x02C721C0, void, InitializeSynchronizationContext, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C723A0, void, ExecuteTasks, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C721C0, void, InitializeSynchronizationContext, ());
+IL2CPP_REGISTER_METHOD(0x02C723A0, void, ExecuteTasks, ());
 IL2CPP_REGISTER_METHOD(0x02C72460, bool, ExecutePendingTasks, (int64_t millisecondsTimeout));
 }

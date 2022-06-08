@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::Statics {
 IL2CPP_REGISTER_METHOD(0x01A07C40, Byte__Array *, MetadataForString, (String * name, int32_t prefixSize, int32_t suffixSize, int32_t additionalSize));
@@ -28,7 +28,7 @@ IL2CPP_REGISTER_METHOD(0x01A088D0, bool, IsGenericMatch, (Type * type, Object * 
 IL2CPP_REGISTER_METHODINFO(0x0472F450, Statics_IsGenericMatch__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x013DCFD0, Delegate *, CreateDelegate, (Type * delegateType, MethodInfo_1 * methodInfo));
 IL2CPP_REGISTER_METHOD(0x01A08A10, TraceLoggingTypeInfo *, GetTypeInfoInstance, (Type * dataType, List_1_System_Type_ * recursionCheck));
-IL2CPP_REGISTER_METHOD(0x01A08DC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A08DC0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x018E83E0, Object *, GetCustomAttribute, (PropertyInfo_1 * propInfo));
 IL2CPP_REGISTER_METHOD(0x018E8530, Object *, GetCustomAttribute, (Type * type));
 IL2CPP_REGISTER_METHOD(0x02644220, TraceLoggingTypeInfo_1_System_Object__1 *, CreateDefaultTypeInfo, (List_1_System_Type_ * recursionCheck));

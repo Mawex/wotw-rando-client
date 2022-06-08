@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Newtonsoft::Json::Utilities::StructMultiKey_2_Object_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_Newtonsoft_Json_Utilities_StructMultiKey_2_Object_ * __this, Object * object, void * method_1));

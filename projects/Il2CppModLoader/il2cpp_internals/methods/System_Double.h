@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Double {
 IL2CPP_REGISTER_METHOD(0x01A0FB90, bool, IsInfinity, (double d));
@@ -42,5 +42,5 @@ IL2CPP_REGISTER_METHOD(0x00155580, Decimal, IConvertible_ToDecimal, (Double__Box
 IL2CPP_REGISTER_METHOD(0x001556E0, DateTime, IConvertible_ToDateTime, (Double__Boxed * __this, IFormatProvider * provider));
 IL2CPP_REGISTER_METHODINFO(0x0471C108, Double_System_IConvertible_ToDateTime__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001556F0, Object *, IConvertible_ToType, (Double__Boxed * __this, Type * type, IFormatProvider * provider));
-IL2CPP_REGISTER_METHOD(0x01A10980, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A10980, void, __cctor, ());
 }

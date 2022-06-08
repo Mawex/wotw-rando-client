@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x011BD6A0, Quest *, get_SpiderlingQuest, (SpiderInteractionBehaviour * __this));

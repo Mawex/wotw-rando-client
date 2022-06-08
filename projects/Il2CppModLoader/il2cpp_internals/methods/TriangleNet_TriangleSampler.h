@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::TriangleSampler {
 IL2CPP_REGISTER_METHOD(0x02AA7540, void, __ctor, (TriangleSampler * __this, Mesh_1 * mesh));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::RegionInfo {
-IL2CPP_REGISTER_METHOD(0x01DEB470, RegionInfo *, get_CurrentRegion, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DEB470, RegionInfo *, get_CurrentRegion, ());
 IL2CPP_REGISTER_METHOD(0x01DEB760, void, __ctor, (RegionInfo * __this, int32_t culture));
 IL2CPP_REGISTER_METHODINFO(0x0470FC88, RegionInfo__ctor__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01DEB880, void, __ctor, (RegionInfo * __this, String * name));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_TwoLetterISORegionName, (Region
 IL2CPP_REGISTER_METHOD(0x01DEBD20, bool, Equals, (RegionInfo * __this, Object * value));
 IL2CPP_REGISTER_METHOD(0x01DEBE60, int32_t, GetHashCode, (RegionInfo * __this));
 IL2CPP_REGISTER_METHOD(0x01DEBEA0, String *, ToString, (RegionInfo * __this));
-IL2CPP_REGISTER_METHOD(0x01DEBEC0, void, ClearCachedData, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DEBEC0, void, ClearCachedData, ());
 }

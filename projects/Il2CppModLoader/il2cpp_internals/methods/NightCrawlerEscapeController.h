@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightCrawlerEscapeController {
 IL2CPP_REGISTER_METHOD(0x00603D40, bool, Validate, (NightCrawlerEscapeController * __this, IContext * context));

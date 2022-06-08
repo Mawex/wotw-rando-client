@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blend2Camera_Lighten {
 IL2CPP_REGISTER_METHOD(0x02750C30, Material *, get_material, (CameraFilterPack_Blend2Camera_Lighten * __this));

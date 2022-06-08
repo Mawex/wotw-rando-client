@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundController2D {
 IL2CPP_REGISTER_METHOD(0x00EE8B70, void, OnStart, (SoundController2D * __this));

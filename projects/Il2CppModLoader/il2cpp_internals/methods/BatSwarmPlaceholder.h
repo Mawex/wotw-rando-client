@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BatSwarmPlaceholder {
 IL2CPP_REGISTER_METHOD(0x004430B0, bool, get_IsSuspended, (BatSwarmPlaceholder * __this));

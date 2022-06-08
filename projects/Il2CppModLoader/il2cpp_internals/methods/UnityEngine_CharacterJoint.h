@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::CharacterJoint {
 IL2CPP_REGISTER_METHOD(0x0309F1E0, void, set_swingAxis, (CharacterJoint * __this, Vector3 value));

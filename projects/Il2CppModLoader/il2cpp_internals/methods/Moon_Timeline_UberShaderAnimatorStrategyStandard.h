@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::UberShaderAnimatorStrategyStandard {
 IL2CPP_REGISTER_METHOD(0x00D16130, void, ClearColorRequests, (UberShaderAnimatorStrategyStandard * __this, Renderer__Array * targetRenderers));
@@ -18,11 +18,11 @@ IL2CPP_REGISTER_METHOD(0x00D181E0, UberShaderAnimatorStrategyStandard_RendererSt
 IL2CPP_REGISTER_METHOD(0x00D18360, void, ReturnStateToPool, (UberShaderAnimatorStrategyStandard * __this, UberShaderAnimatorStrategyStandard_RendererState * state));
 IL2CPP_REGISTER_METHOD(0x00D18470, void, Initialize, (UberShaderAnimatorStrategyStandard * __this));
 IL2CPP_REGISTER_METHOD(0x00D18640, void, __ctor, (UberShaderAnimatorStrategyStandard * __this));
-IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_System_Object_ *, GetUberShaderAnimationInstance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_UnityEngine_Color_ *, GetUberShaderAnimationInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_System_Object_ *, GetUberShaderAnimationInstance, ());
+IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_UnityEngine_Color_ *, GetUberShaderAnimationInstance, ());
 IL2CPP_REGISTER_METHODINFO(0x0478CA80, UberShaderAnimatorStrategyStandard_GetUberShaderAnimationInstance_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_UnityEngine_Vector4_ *, GetUberShaderAnimationInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_UnityEngine_Vector4_ *, GetUberShaderAnimationInstance, ());
 IL2CPP_REGISTER_METHODINFO(0x04776080, UberShaderAnimatorStrategyStandard_GetUberShaderAnimationInstance_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_System_Single_ *, GetUberShaderAnimationInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018F0340, UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_System_Single_ *, GetUberShaderAnimationInstance, ());
 IL2CPP_REGISTER_METHODINFO(0x0473DCA0, UberShaderAnimatorStrategyStandard_GetUberShaderAnimationInstance_3__MethodInfo);
 }

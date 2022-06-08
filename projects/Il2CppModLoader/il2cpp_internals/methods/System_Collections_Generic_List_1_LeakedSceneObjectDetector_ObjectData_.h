@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_LeakedSceneObjectDetector_ObjectData_ {
 IL2CPP_REGISTER_METHOD(0x02FE8360, void, __ctor, (List_1_LeakedSceneObjectDetector_ObjectData_ * __this, IEnumerable_1_LeakedSceneObjectDetector_ObjectData_ * collection));

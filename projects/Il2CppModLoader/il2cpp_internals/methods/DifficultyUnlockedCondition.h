@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DifficultyUnlockedCondition {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, Validate, (DifficultyUnlockedCondition * __this, IContext * context));

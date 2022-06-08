@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Data::DataTable_List_1_System::Data::DataTable__ {
 IL2CPP_REGISTER_METHOD(0x02BD24D0, List_1_System_Data_DataTable_ *, get_Item, (Dictionary_2_System_Data_DataTable_List_1_System_Data_DataTable_ * __this, DataTable * key));

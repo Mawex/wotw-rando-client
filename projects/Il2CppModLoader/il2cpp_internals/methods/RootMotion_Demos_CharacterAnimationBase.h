@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::CharacterAnimationBase {
 IL2CPP_REGISTER_METHOD(0x0058E140, Vector3, GetPivotPoint, (CharacterAnimationBase * __this));

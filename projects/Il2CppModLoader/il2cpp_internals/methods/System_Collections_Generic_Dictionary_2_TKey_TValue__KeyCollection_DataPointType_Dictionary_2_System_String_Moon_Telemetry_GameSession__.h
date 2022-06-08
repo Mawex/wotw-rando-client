@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_DataPointType_Dictionary_2_System::String_Moon::Telemetry::GameSession__ {
 IL2CPP_REGISTER_METHOD(0x01A78360, Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_DataPointType_Dictionary_2_System_String_Moon_Telemetry_GameSession_, GetEnumerator, (Dictionary_2_TKey_TValue_KeyCollection_DataPointType_Dictionary_2_System_String_Moon_Telemetry_GameSession_ * __this));

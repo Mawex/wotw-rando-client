@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::PointerUIGUI__WatchResize_d__5 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (PointerUIGUI_WatchResize_d_5 * __this, int32_t __1__state));

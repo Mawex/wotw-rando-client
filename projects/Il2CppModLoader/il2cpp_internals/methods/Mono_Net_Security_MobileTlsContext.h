@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::MobileTlsContext {
 IL2CPP_REGISTER_METHOD(0x02182D80, void, __ctor, (MobileTlsContext * __this, MobileAuthenticatedStream * parent, bool serverMode, String * targetHost, SslProtocols__Enum enabledProtocols, X509Certificate_1 * serverCertificate, X509CertificateCollection_1 * clientCertificates, bool askForClientCert));

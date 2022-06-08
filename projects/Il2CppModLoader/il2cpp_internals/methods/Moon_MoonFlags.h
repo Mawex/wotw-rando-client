@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonFlags {
 IL2CPP_REGISTER_METHOD(0x01119B40, bool, HasFlag, (GameObject * go, uint32_t flag));

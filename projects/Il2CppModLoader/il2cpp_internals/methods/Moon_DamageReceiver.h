@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DamageReceiver {
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsSuspended, (DamageReceiver * __this));
@@ -68,7 +68,7 @@ IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, get_VirtualTimelineTarget, (Dam
 IL2CPP_REGISTER_METHOD(0x00420230, VirtualTimelineRepresentationGroup__Enum, get_VirtualTimelineGroup, (DamageReceiver * __this));
 IL2CPP_REGISTER_METHOD(0x00CD5FD0, String *, get_NameDisplayedOnClip, (DamageReceiver * __this));
 IL2CPP_REGISTER_METHOD(0x00CD60A0, void, __ctor, (DamageReceiver * __this));
-IL2CPP_REGISTER_METHOD(0x00CD6770, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00CD6770, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IDamageReciever_get_gameObject, (DamageReceiver * __this));
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, IDamageReciever_get_transform, (DamageReceiver * __this));
 }

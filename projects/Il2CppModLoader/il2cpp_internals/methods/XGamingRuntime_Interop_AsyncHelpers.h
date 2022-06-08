@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::AsyncHelpers {
 IL2CPP_REGISTER_METHOD(0x030AFB50, XAsyncBlockPtr, WrapAsyncBlock, (XTaskQueueHandle queue, XAsyncCompletionRoutine * callback));

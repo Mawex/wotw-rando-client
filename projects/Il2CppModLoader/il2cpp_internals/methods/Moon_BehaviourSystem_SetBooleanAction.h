@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::SetBooleanAction {
 IL2CPP_REGISTER_METHOD(0x0300FFA0, String *, get_Info, (SetBooleanAction * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::UnmanagedCallback_2_XAsyncCompletionRoutine_XAsyncCompletionRoutine_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (UnmanagedCallback_2_XAsyncCompletionRoutine_XAsyncCompletionRoutine_ * __this));

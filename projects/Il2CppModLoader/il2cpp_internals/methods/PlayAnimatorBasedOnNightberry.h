@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayAnimatorBasedOnNightberry {
 IL2CPP_REGISTER_METHOD(0x01176AD0, void, Start, (PlayAnimatorBasedOnNightberry * __this));

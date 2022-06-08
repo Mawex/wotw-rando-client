@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_OverridableFloatProperty_ {
 IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_System_String_OverridableFloatProperty_ *, get_Values, (Dictionary_2_System_String_OverridableFloatProperty_ * __this));

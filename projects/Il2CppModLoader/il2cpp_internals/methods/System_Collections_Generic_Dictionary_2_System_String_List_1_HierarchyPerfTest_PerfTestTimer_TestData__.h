@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_List_1_HierarchyPerfTest::PerfTestTimer_TestData__ {
 IL2CPP_REGISTER_METHOD(0x02BD24D0, List_1_HierarchyPerfTest_PerfTestTimer_TestData_ *, get_Item, (Dictionary_2_System_String_List_1_HierarchyPerfTest_PerfTestTimer_TestData_ * __this, String * key));

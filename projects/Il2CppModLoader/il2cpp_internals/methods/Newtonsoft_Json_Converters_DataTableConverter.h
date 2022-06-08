@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::DataTableConverter {
 IL2CPP_REGISTER_METHOD(0x01A4F350, void, WriteJson, (DataTableConverter * __this, JsonWriter * writer, Object * value, JsonSerializer * serializer));

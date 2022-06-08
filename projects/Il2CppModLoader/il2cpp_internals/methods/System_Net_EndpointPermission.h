@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::EndpointPermission {
 IL2CPP_REGISTER_METHOD(0x01D25D60, void, __ctor, (EndpointPermission * __this, String * hostname, int32_t port, TransportType__Enum transport));
@@ -18,7 +18,7 @@ IL2CPP_REGISTER_METHOD(0x01D26E80, int32_t, ToNumber, (EndpointPermission * __th
 IL2CPP_REGISTER_METHODINFO(0x04799768, EndpointPermission_ToNumber__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D27010, void, Resolve, (EndpointPermission * __this));
 IL2CPP_REGISTER_METHOD(0x00CE0760, void, UndoResolve, (EndpointPermission * __this));
-IL2CPP_REGISTER_METHOD(0x01D27260, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D27260, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01D27320, void, __ctor, (EndpointPermission * __this));
 IL2CPP_REGISTER_METHODINFO(0x0477D858, EndpointPermission__ctor_1__MethodInfo);
 }

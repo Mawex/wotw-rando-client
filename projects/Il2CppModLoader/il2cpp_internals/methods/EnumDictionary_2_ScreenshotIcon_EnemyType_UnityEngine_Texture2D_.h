@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_ScreenshotIcon_EnemyType_UnityEngine::Texture2D_ {
 IL2CPP_REGISTER_METHOD(0x019E4530, void, __ctor, (EnumDictionary_2_ScreenshotIcon_EnemyType_UnityEngine_Texture2D_ * __this));

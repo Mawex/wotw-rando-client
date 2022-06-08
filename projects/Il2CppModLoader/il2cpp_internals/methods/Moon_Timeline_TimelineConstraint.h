@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineConstraint {
 IL2CPP_REGISTER_METHOD(0x0052A010, ConstraintFlag__Enum, get_Flags, (TimelineConstraint * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarEntity_AimVeloCache_EntityParams {
 IL2CPP_REGISTER_METHOD(0x014797A0, void, __ctor, (MortarEntity_AimVeloCache_EntityParams * __this, MortarEntity * entity));

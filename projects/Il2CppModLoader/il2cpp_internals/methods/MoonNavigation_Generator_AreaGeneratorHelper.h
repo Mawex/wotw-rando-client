@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonNavigation::Generator::AreaGeneratorHelper {
 IL2CPP_REGISTER_METHOD(0x0145B5C0, bool, LineIntersection, (Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 * intersection));

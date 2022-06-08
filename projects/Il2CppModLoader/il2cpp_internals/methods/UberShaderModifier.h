@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderModifier {
 IL2CPP_REGISTER_METHOD(0x019130E0, RuntimeTypeHandle, get_TypeId, (UberShaderModifier * __this));

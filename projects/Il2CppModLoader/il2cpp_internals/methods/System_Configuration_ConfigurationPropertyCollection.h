@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::ConfigurationPropertyCollection {
 IL2CPP_REGISTER_METHOD(0x031BBCF0, int32_t, get_Count, (ConfigurationPropertyCollection * __this));

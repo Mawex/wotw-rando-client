@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUIStyle {
 IL2CPP_REGISTER_METHOD(0x029F2F40, void, __ctor, (GUIStyle * __this));
@@ -51,7 +51,7 @@ IL2CPP_REGISTER_METHOD(0x029F42B0, Vector2, Internal_CalcSizeWithConstraints, (G
 IL2CPP_REGISTER_METHOD(0x029F4330, float, Internal_CalcHeight, (GUIStyle * __this, GUIContent * content, float width));
 IL2CPP_REGISTER_METHOD(0x029F43A0, Vector2, Internal_CalcMinMaxWidth, (GUIStyle * __this, GUIContent * content));
 IL2CPP_REGISTER_METHOD(0x029F4420, void, SetMouseTooltip, (String * tooltip, Rect screenRect));
-IL2CPP_REGISTER_METHOD(0x029F4510, float, Internal_GetCursorFlashOffset, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029F4510, float, Internal_GetCursorFlashOffset, ());
 IL2CPP_REGISTER_METHOD(0x029F4560, void, SetDefaultFont, (Font * font));
 IL2CPP_REGISTER_METHOD(0x029F45B0, void, Finalize, (GUIStyle * __this));
 IL2CPP_REGISTER_METHOD(0x029F46F0, GUIStyleState *, get_normal, (GUIStyle * __this));
@@ -90,7 +90,7 @@ IL2CPP_REGISTER_METHOD(0x029F63A0, void, DrawWithTextSelection, (GUIStyle * __th
 IL2CPP_REGISTER_METHOD(0x029F6500, void, DrawWithTextSelection, (GUIStyle * __this, Rect position, GUIContent * content, int32_t controlID, int32_t firstSelectedCharacter, int32_t lastSelectedCharacter, bool drawSelectionAsComposition));
 IL2CPP_REGISTER_METHOD(0x029F6790, void, DrawWithTextSelection, (GUIStyle * __this, Rect position, GUIContent * content, int32_t controlID, int32_t firstSelectedCharacter, int32_t lastSelectedCharacter));
 IL2CPP_REGISTER_METHOD(0x029F67D0, GUIStyle *, operator_, (String * str));
-IL2CPP_REGISTER_METHOD(0x029F6900, GUIStyle *, get_none, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029F6900, GUIStyle *, get_none, ());
 IL2CPP_REGISTER_METHOD(0x029F6AB0, Vector2, GetCursorPixelPosition, (GUIStyle * __this, Rect position, GUIContent * content, int32_t cursorStringIndex));
 IL2CPP_REGISTER_METHOD(0x029F6B50, int32_t, GetCursorStringIndex, (GUIStyle * __this, Rect position, GUIContent * content, Vector2 cursorPixelPosition));
 IL2CPP_REGISTER_METHOD(0x029F4230, Vector2, CalcSize, (GUIStyle * __this, GUIContent * content));
@@ -99,7 +99,7 @@ IL2CPP_REGISTER_METHOD(0x029F4330, float, CalcHeight, (GUIStyle * __this, GUICon
 IL2CPP_REGISTER_METHOD(0x029F6BD0, bool, get_isHeightDependantOnWidth, (GUIStyle * __this));
 IL2CPP_REGISTER_METHOD(0x029F6CD0, void, CalcMinMaxWidth, (GUIStyle * __this, GUIContent * content, float * minWidth, float * maxWidth));
 IL2CPP_REGISTER_METHOD(0x029F6D70, String *, ToString, (GUIStyle * __this));
-IL2CPP_REGISTER_METHOD(0x029F6EB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029F6EB0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x029F6F30, void, get_contentOffset_Injected, (GUIStyle * __this, Vector2 * ret));
 IL2CPP_REGISTER_METHOD(0x029F6F90, void, set_contentOffset_Injected, (GUIStyle * __this, Vector2 * value));
 IL2CPP_REGISTER_METHOD(0x029F6FF0, void, set_Internal_clipOffset_Injected, (GUIStyle * __this, Vector2 * value));

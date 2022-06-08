@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::TypeExtensions {
 IL2CPP_REGISTER_METHOD(0x019E35B0, MemberTypes__Enum, MemberType, (MemberInfo_1 * memberInfo));

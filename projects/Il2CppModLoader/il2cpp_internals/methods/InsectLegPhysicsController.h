@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InsectLegPhysicsController {
 IL2CPP_REGISTER_METHOD(0x00629980, void, OnUpdatePhysics, (InsectLegPhysicsController * __this, float dt));

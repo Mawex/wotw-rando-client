@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::PropertyNameUtils {
 IL2CPP_REGISTER_METHOD(0x0296A4C0, PropertyName, PropertyNameFromString, (String * name));

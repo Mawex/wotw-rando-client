@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::AudioSourceExtension {
 IL2CPP_REGISTER_METHOD(0x03144650, void, __ctor, (AudioSourceExtension * __this));

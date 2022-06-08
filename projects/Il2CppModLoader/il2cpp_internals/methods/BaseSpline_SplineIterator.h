@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaseSpline_SplineIterator {
 IL2CPP_REGISTER_METHOD(0x00F89440, void, __ctor, (BaseSpline_SplineIterator * __this, BaseSpline * spline, bool reverse, int32_t startidx, int32_t endidx));

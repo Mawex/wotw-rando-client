@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::__BinaryParser {
 IL2CPP_REGISTER_METHOD(0x01DA46A0, void, __ctor, (_BinaryParser * __this, Stream * stream, ObjectReader * objectReader));
@@ -58,5 +58,5 @@ IL2CPP_REGISTER_METHOD(0x01DAA300, Object *, ReadValue, (_BinaryParser * __this,
 IL2CPP_REGISTER_METHODINFO(0x04784DF0, _BinaryParser_ReadValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01DAA8F0, ObjectProgress *, GetOp, (_BinaryParser * __this));
 IL2CPP_REGISTER_METHOD(0x01DAAC10, void, PutOp, (_BinaryParser * __this, ObjectProgress * op));
-IL2CPP_REGISTER_METHOD(0x01DAAD90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DAAD90, void, __cctor, ());
 }

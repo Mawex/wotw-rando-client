@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::AppDomain {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AppDomain * __this));
 IL2CPP_REGISTER_METHOD(0x0228CC40, AppDomainSetup *, getSetup, (AppDomain * __this));
 IL2CPP_REGISTER_METHOD(0x0228CC50, AppDomainSetup *, get_SetupInformation, (AppDomain * __this));
 IL2CPP_REGISTER_METHOD(0x0228CE60, String *, getFriendlyName, (AppDomain * __this));
-IL2CPP_REGISTER_METHOD(0x0228CE80, AppDomain *, getCurDomain, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0228CE80, AppDomain *, get_CurrentDomain, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0228CE80, AppDomain *, getCurDomain, ());
+IL2CPP_REGISTER_METHOD(0x0228CE80, AppDomain *, get_CurrentDomain, ());
 IL2CPP_REGISTER_METHOD(0x0228CF90, Assembly__Array *, GetAssemblies, (AppDomain * __this, bool refOnly));
 IL2CPP_REGISTER_METHOD(0x0228CF90, Assembly__Array *, GetAssemblies, (AppDomain * __this));
 IL2CPP_REGISTER_METHOD(0x0228D040, Object *, GetData, (AppDomain * __this, String * name));
@@ -20,18 +20,18 @@ IL2CPP_REGISTER_METHODINFO(0x04723BA8, AppDomain_Load_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0228D810, AppDomain *, InternalSetDomainByID, (int32_t domain_id));
 IL2CPP_REGISTER_METHOD(0x0228D820, AppDomain *, InternalSetDomain, (AppDomain * context));
 IL2CPP_REGISTER_METHOD(0x0228D830, void, InternalPushDomainRefByID, (int32_t domain_id));
-IL2CPP_REGISTER_METHOD(0x0228D840, void, InternalPopDomainRef, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0228D840, void, InternalPopDomainRef, ());
 IL2CPP_REGISTER_METHOD(0x0228D850, Context *, InternalSetContext, (Context * context));
-IL2CPP_REGISTER_METHOD(0x0228D860, Context *, InternalGetContext, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0228D860, Context *, InternalGetDefaultContext, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0228D860, Context *, InternalGetContext, ());
+IL2CPP_REGISTER_METHOD(0x0228D860, Context *, InternalGetDefaultContext, ());
 IL2CPP_REGISTER_METHOD(0x0228D8A0, String *, InternalGetProcessGuid, (String * newguid));
 IL2CPP_REGISTER_METHOD(0x0228D8B0, Object *, InvokeInDomainByID, (int32_t domain_id, MethodInfo_1 * method_1, Object * obj, Object__Array * args));
 IL2CPP_REGISTER_METHODINFO(0x04787D80, AppDomain_InvokeInDomainByID__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0228D920, String *, GetProcessGuid, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0228D920, String *, GetProcessGuid, ());
 IL2CPP_REGISTER_METHOD(0x00417870, bool, InternalIsFinalizingForUnload, (int32_t domain_id));
 IL2CPP_REGISTER_METHOD(0x0228D9F0, bool, IsFinalizingForUnload, (AppDomain * __this));
 IL2CPP_REGISTER_METHOD(0x0228DA20, int32_t, getDomainID, (AppDomain * __this));
-IL2CPP_REGISTER_METHOD(0x0228DA50, int32_t, GetCurrentThreadId, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0228DA50, int32_t, GetCurrentThreadId, ());
 IL2CPP_REGISTER_METHOD(0x0228CE60, String *, ToString, (AppDomain * __this));
 IL2CPP_REGISTER_METHOD(0x0228DA80, void, DoAssemblyLoad, (AppDomain * __this, Assembly * assembly));
 IL2CPP_REGISTER_METHOD(0x0228DC70, Assembly *, DoAssemblyResolve, (AppDomain * __this, String * name, Assembly * requestingAssembly, bool refonly));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XsdValidator {
 IL2CPP_REGISTER_METHOD(0x01C83140, void, __ctor, (XsdValidator * __this, BaseValidator * validator));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x01C889A0, void, ElementIdentityConstraints, (XsdValidat
 IL2CPP_REGISTER_METHOD(0x01C88E50, void, AttributeIdentityConstraints, (XsdValidator * __this, String * name, String * ns, Object * obj, String * sobj, SchemaAttDef * attdef));
 IL2CPP_REGISTER_METHOD(0x01C89290, Object *, UnWrapUnion, (XsdValidator * __this, Object * typedValue));
 IL2CPP_REGISTER_METHOD(0x01C89360, void, EndElementIdentityConstraints, (XsdValidator * __this));
-IL2CPP_REGISTER_METHOD(0x01C8A720, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C8A720, void, __cctor, ());
 }

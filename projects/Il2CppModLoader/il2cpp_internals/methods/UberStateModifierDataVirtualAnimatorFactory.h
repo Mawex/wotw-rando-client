@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStateModifierDataVirtualAnimatorFactory {
 IL2CPP_REGISTER_METHOD(0x01E96370, ITimelineEntity *, CreateAnimatorForType, (SetupStateModifierDataType__Enum type, NewSetupStateController * stateController, SetupStateModifier * modifier, int32_t stateGuid, VirtualTimelineEntityPool * pool));

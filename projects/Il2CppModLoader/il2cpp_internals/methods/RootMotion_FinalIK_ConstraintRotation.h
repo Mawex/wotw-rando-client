@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::ConstraintRotation {
 IL2CPP_REGISTER_METHOD(0x020524D0, void, UpdateConstraint, (ConstraintRotation * __this));

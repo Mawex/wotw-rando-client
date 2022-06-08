@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ParameterizedStrings_FormatParam {
 IL2CPP_REGISTER_METHOD(0x001E1180, void, __ctor, (ParameterizedStrings_FormatParam__Boxed * __this, int32_t value));

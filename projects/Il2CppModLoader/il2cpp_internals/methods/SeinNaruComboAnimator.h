@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinNaruComboAnimator {
 IL2CPP_REGISTER_METHOD(0x008ADB50, AtlasSpriteTexture *, get_NaruCurrentTexture, (SeinNaruComboAnimator * __this));

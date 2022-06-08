@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamRemoteStorage {
 IL2CPP_REGISTER_METHOD(0x02790310, bool, FileWrite, (String * pchFile, Byte__Array * pvData, int32_t cubData));
@@ -19,17 +19,17 @@ IL2CPP_REGISTER_METHOD(0x02792450, bool, FilePersisted, (String * pchFile));
 IL2CPP_REGISTER_METHOD(0x02792730, int32_t, GetFileSize, (String * pchFile));
 IL2CPP_REGISTER_METHOD(0x02792A10, int64_t, GetFileTimestamp, (String * pchFile));
 IL2CPP_REGISTER_METHOD(0x02792CF0, ERemoteStoragePlatform__Enum, GetSyncPlatforms, (String * pchFile));
-IL2CPP_REGISTER_METHOD(0x02792FD0, int32_t, GetFileCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02792FD0, int32_t, GetFileCount, ());
 IL2CPP_REGISTER_METHOD(0x02793080, String *, GetFileNameAndSize, (int32_t iFile, int32_t * pnFileSizeInBytes));
 IL2CPP_REGISTER_METHOD(0x02793150, bool, GetQuota, (uint64_t * pnTotalBytes, uint64_t * puAvailableBytes));
-IL2CPP_REGISTER_METHOD(0x02793220, bool, IsCloudEnabledForAccount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027932D0, bool, IsCloudEnabledForApp, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02793220, bool, IsCloudEnabledForAccount, ());
+IL2CPP_REGISTER_METHOD(0x027932D0, bool, IsCloudEnabledForApp, ());
 IL2CPP_REGISTER_METHOD(0x02793380, void, SetCloudEnabledForApp, (bool bEnabled));
 IL2CPP_REGISTER_METHOD(0x02793440, SteamAPICall_t, UGCDownload, (UGCHandle_t hContent, uint32_t unPriority));
 IL2CPP_REGISTER_METHOD(0x02793590, bool, GetUGCDownloadProgress, (UGCHandle_t hContent, int32_t * pnBytesDownloaded, int32_t * pnBytesExpected));
 IL2CPP_REGISTER_METHOD(0x02793670, bool, GetUGCDetails, (UGCHandle_t hContent, AppId_t * pnAppID, String * * ppchName, int32_t * pnFileSizeInBytes, CSteamID * pSteamIDOwner));
 IL2CPP_REGISTER_METHOD(0x02793790, int32_t, UGCRead, (UGCHandle_t hContent, Byte__Array * pvData, int32_t cubDataToRead, uint32_t cOffset, EUGCReadAction__Enum eAction));
-IL2CPP_REGISTER_METHOD(0x027938A0, int32_t, GetCachedUGCCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027938A0, int32_t, GetCachedUGCCount, ());
 IL2CPP_REGISTER_METHOD(0x02793950, UGCHandle_t, GetCachedUGCHandle, (int32_t iCachedContent));
 IL2CPP_REGISTER_METHOD(0x02793A90, SteamAPICall_t, PublishWorkshopFile, (String * pchFile, String * pchPreviewFile, AppId_t nConsumerAppId, String * pchTitle, String * pchDescription, ERemoteStoragePublishedFileVisibility__Enum eVisibility, IList_1_System_String_ * pTags, EWorkshopFileType__Enum eWorkshopFileType));
 IL2CPP_REGISTER_METHOD(0x02794170, PublishedFileUpdateHandle_t, CreatePublishedFileUpdateRequest, (PublishedFileId_t unPublishedFileId));

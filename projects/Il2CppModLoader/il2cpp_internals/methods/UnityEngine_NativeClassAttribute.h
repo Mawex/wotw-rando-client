@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::NativeClassAttribute {
 IL2CPP_REGISTER_METHOD(0x031BB790, void, __ctor, (NativeClassAttribute * __this, String * qualifiedCppName));

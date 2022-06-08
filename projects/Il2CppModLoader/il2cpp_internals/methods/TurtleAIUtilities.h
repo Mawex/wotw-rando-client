@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurtleAIUtilities {
 IL2CPP_REGISTER_METHOD(0x013D7A10, Sensor *, get_Sensor, (TurtleAIUtilities * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderBlock {
 IL2CPP_REGISTER_METHOD(0x0190AE40, bool, get_HasRotateZ, (UberShaderBlock * __this));

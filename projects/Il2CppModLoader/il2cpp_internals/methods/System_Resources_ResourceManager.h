@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceManager {
 IL2CPP_REGISTER_METHOD(0x01A84750, void, Init, (ResourceManager * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x01A87870, bool, CompareNames, (String * asmTypeName1, S
 IL2CPP_REGISTER_METHOD(0x002FA000, void, SetAppXConfiguration, (ResourceManager * __this));
 IL2CPP_REGISTER_METHOD(0x01A87DA0, String *, GetString, (ResourceManager * __this, String * name, CultureInfo * culture));
 IL2CPP_REGISTER_METHODINFO(0x0472DCC8, ResourceManager_GetString__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01A88280, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A88280, void, __cctor, ());
 }

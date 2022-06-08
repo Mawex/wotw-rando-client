@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaterialVFXManager {
-IL2CPP_REGISTER_METHOD(0x01383BF0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01383BF0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x01383C70, void, Awake, (MaterialVFXManager * __this));
 IL2CPP_REGISTER_METHOD(0x01383D40, void, Instantiate, (MaterialVFXManager * __this, Collider * collider, MaterialTypeVFXSettings_EffectSize__Enum surfaceImpactSize, Vector3 position, Quaternion rotation, EquipmentType__Enum weapon, MaterialTypeVFXSettings_EffectSize__Enum weaponImpactSize));
 IL2CPP_REGISTER_METHOD(0x01383EE0, void, Instantiate, (MaterialVFXManager * __this, PhysicMaterial * material, MaterialTypeVFXSettings_EffectSize__Enum surfaceImpactSize, Vector3 position, Quaternion rotation, EquipmentType__Enum weapon, MaterialTypeVFXSettings_EffectSize__Enum weaponImpactSize));

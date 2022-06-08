@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Uri {
 IL2CPP_REGISTER_METHOD(0x02A7C400, bool, get_IsImplicitFile, (Uri * __this));
@@ -64,8 +64,8 @@ IL2CPP_REGISTER_METHODINFO(0x0473EC10, Uri_get_IsUnc__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A7EB80, String *, get_Host, (Uri * __this));
 IL2CPP_REGISTER_METHODINFO(0x0474AED0, Uri_get_Host__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A7EC60, bool, StaticIsFile, (UriParser * syntax));
-IL2CPP_REGISTER_METHOD(0x02A7EC80, Object *, get_InitializeLock, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02A7EE60, void, InitializeUriConfig, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A7EC80, Object *, get_InitializeLock, ());
+IL2CPP_REGISTER_METHOD(0x02A7EE60, void, InitializeUriConfig, ());
 IL2CPP_REGISTER_METHOD(0x02A7F0C0, String *, GetLocalPath, (Uri * __this));
 IL2CPP_REGISTER_METHOD(0x02A7F930, int32_t, get_Port, (Uri * __this));
 IL2CPP_REGISTER_METHODINFO(0x04731018, Uri_get_Port__MethodInfo);
@@ -163,5 +163,5 @@ IL2CPP_REGISTER_METHODINFO(0x04731020, Uri_GetRelativeSerializationString__Metho
 IL2CPP_REGISTER_METHOD(0x02A8D7D0, String *, GetComponentsHelper, (Uri * __this, UriComponents__Enum uriComponents, UriFormat__Enum uriFormat));
 IL2CPP_REGISTER_METHODINFO(0x04752578, Uri_GetComponentsHelper__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A8DA80, void, CreateThisFromUri, (Uri * __this, Uri * otherUri));
-IL2CPP_REGISTER_METHOD(0x02A8DC30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A8DC30, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::Timeline::UberShaderAnimatorStrategyExperimental_RendererState_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, UberShaderAnimatorStrategyExperimental_RendererState *, get_Item, (List_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_RendererState_ * __this, int32_t index));

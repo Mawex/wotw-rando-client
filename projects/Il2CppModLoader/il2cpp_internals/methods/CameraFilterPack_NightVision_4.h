@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_NightVision_4 {
 IL2CPP_REGISTER_METHOD(0x02481790, Material *, get_material, (CameraFilterPack_NightVision_4 * __this));

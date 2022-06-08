@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleAnimatedSettings {
 IL2CPP_REGISTER_METHOD(0x00CEB0F0, TentacleAnimatedSettings, Lerp, (TentacleAnimatedSettings from, TentacleAnimatedSettings to, float t));

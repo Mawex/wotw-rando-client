@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::HoldingHands {
 IL2CPP_REGISTER_METHOD(0x0221FBC0, void, Start, (HoldingHands * __this));

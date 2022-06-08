@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_TriangleNet::Topology::Otri_ {
 IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, __ctor, (ReadOnlyCollection_1_TriangleNet_Topology_Otri_ * __this, IList_1_TriangleNet_Topology_Otri_ * list));

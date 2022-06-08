@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::NameNode {
 IL2CPP_REGISTER_METHOD(0x01E44480, void, __ctor, (NameNode * __this, DataTable * table, Char__Array * text, int32_t start, int32_t pos));

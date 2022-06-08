@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::Physics2DRaycaster {
 IL2CPP_REGISTER_METHOD(0x01F215C0, void, __ctor, (Physics2DRaycaster * __this));

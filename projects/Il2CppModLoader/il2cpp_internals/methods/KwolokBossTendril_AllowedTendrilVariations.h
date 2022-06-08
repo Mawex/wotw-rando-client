@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossTendril_AllowedTendrilVariations {
 IL2CPP_REGISTER_METHOD(0x012EE180, List_1_KwolokBossTendril_DurationType_ *, GetDurations, (KwolokBossTendril_AllowedTendrilVariations * __this));

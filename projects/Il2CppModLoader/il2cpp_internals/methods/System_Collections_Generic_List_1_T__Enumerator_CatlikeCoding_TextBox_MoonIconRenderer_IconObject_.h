@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_CatlikeCoding::TextBox::MoonIconRenderer_IconObject_ {
 IL2CPP_REGISTER_METHOD(0x00133A80, MoonIconRenderer_IconObject, get_Current, (List_1_T_Enumerator_CatlikeCoding_TextBox_MoonIconRenderer_IconObject___Boxed * __this));

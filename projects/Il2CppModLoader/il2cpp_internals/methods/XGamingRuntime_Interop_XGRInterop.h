@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::XGRInterop {
 IL2CPP_REGISTER_METHOD(0x030B18E0, int32_t, XGameSaveInitializeProviderAsync, (XUserHandle_1 userContext, Byte__Array * configurationId, bool syncOnDemand, XAsyncBlockPtr asyncBlock));
@@ -30,7 +30,7 @@ IL2CPP_REGISTER_METHOD(0x030B2E60, int32_t, XUserResolveIssueWithUiUtf16Async, (
 IL2CPP_REGISTER_METHOD(0x030B2F20, int32_t, XUserResolveIssueWithUiUtf16Result, (XAsyncBlockPtr asyncBlock));
 IL2CPP_REGISTER_METHOD(0x030B2FC0, int32_t, XUserRegisterForChangeEvent, (XTaskQueueHandle queue, void * context, XUserChangeEventCallback_1 * callback, XTaskQueueRegistrationToken * token));
 IL2CPP_REGISTER_METHOD(0x030B3090, bool, XUserUnregisterForChangeEvent, (XTaskQueueRegistrationToken token, bool wait));
-IL2CPP_REGISTER_METHOD(0x030B3140, int32_t, XGameRuntimeInitialize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030B3140, int32_t, XGameRuntimeInitialize, ());
 IL2CPP_REGISTER_METHOD(0x030B31D0, int32_t, XTaskQueueCreate, (XTaskQueueDispatchMode__Enum workDispatchMode, XTaskQueueDispatchMode__Enum completionDispatchMode, XTaskQueueHandle * queue));
 IL2CPP_REGISTER_METHOD(0x030B3280, void, XTaskQueueDispatch, (XTaskQueueHandle queue, XTaskQueuePort__Enum port, uint32_t timeoutInMs));
 IL2CPP_REGISTER_METHOD(0x030B3330, int32_t, XAsyncGetStatus, (XAsyncBlockPtr asyncBlock, bool wait));

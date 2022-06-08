@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FadeOut {
 IL2CPP_REGISTER_METHOD(0x0098F310, void, Perform, (FadeOut * __this, IContext * context));

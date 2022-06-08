@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Xml::Schema::RangePositionInfo_ {
 IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_System_Xml_Schema_RangePositionInfo_ * __this));
@@ -66,5 +66,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_System_Xml_Schema_RangePo
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_System_Xml_Schema_RangePositionInfo_ * __this, Comparison_1_System_Xml_Schema_RangePositionInfo_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, RangePositionInfo__Array *, ToArray, (List_1_System_Xml_Schema_RangePositionInfo_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_System_Xml_Schema_RangePositionInfo_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

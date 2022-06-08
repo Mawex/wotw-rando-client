@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SimpleType {
 IL2CPP_REGISTER_METHOD(0x01E4C230, void, __ctor, (SimpleType * __this, String * baseType));

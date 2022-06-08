@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlSingleStorage {
 IL2CPP_REGISTER_METHOD(0x0285E1B0, void, __ctor, (SqlSingleStorage * __this, DataColumn * column));

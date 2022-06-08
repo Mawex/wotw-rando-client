@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NormalSkeetoDiveAttackDecorator {
 IL2CPP_REGISTER_METHOD(0x0060C1D0, BehaviourStatus__Enum, OnExecute, (NormalSkeetoDiveAttackDecorator * __this, IContext * context));

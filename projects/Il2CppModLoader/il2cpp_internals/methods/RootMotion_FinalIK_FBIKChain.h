@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FBIKChain {
 IL2CPP_REGISTER_METHOD(0x0205C2B0, void, __ctor, (FBIKChain * __this));

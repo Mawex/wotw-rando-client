@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::WaterFallMask {
 IL2CPP_REGISTER_METHOD(0x011A7910, float, get_LineWidth, (WaterFallMask * __this));

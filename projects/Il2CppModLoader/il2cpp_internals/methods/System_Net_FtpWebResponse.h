@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::FtpWebResponse {
 IL2CPP_REGISTER_METHOD(0x01D37BE0, void, __ctor, (FtpWebResponse * __this, FtpWebRequest * request, Uri * uri, String * method_1, bool keepAlive));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SliderHandler {
 IL2CPP_REGISTER_METHOD(0x00218FB0, void, __ctor, (SliderHandler__Boxed * __this, Rect position, float currentValue, float size, float start, float end, GUIStyle * slider, GUIStyle * thumb, bool horiz, int32_t id));

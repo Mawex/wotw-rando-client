@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebConnection {
 IL2CPP_REGISTER_METHOD(0x002FBBA0, MonoChunkStream *, get_MonoChunkStream, (WebConnection * __this));

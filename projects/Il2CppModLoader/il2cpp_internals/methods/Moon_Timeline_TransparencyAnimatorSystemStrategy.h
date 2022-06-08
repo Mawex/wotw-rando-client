@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransparencyAnimatorSystemStrategy {
 IL2CPP_REGISTER_METHOD(0x00D0EA50, void, Prewarm, (TransparencyAnimatorSystemStrategy * __this));

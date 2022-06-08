@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Math::Prime::PrimalityTests {
 IL2CPP_REGISTER_METHOD(0x023CDD00, int32_t, GetSPPRounds, (BigInteger * bi, ConfidenceFactor__Enum confidence));

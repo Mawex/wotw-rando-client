@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::BootConfigData {
 IL2CPP_REGISTER_METHOD(0x0241F730, void, __ctor, (BootConfigData * __this, void * nativeHandle));

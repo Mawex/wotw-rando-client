@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoMethod {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MonoMethod * __this));
@@ -39,6 +39,6 @@ IL2CPP_REGISTER_METHOD(0x026922D0, bool, get_IsGenericMethod, (MonoMethod * __th
 IL2CPP_REGISTER_METHOD(0x02692300, bool, get_ContainsGenericParameters, (MonoMethod * __this));
 IL2CPP_REGISTER_METHOD(0x0268FBB0, MethodBody *, GetMethodBody, (MonoMethod * __this));
 IL2CPP_REGISTER_METHOD(0x0268FE80, IList_1_System_Reflection_CustomAttributeData_ *, GetCustomAttributesData, (MonoMethod * __this));
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_core_clr_security_level, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_core_clr_security_level, ());
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsSecurityCritical, (MonoMethod * __this));
 }

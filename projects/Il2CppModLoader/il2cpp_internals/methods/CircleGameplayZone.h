@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CircleGameplayZone {
 IL2CPP_REGISTER_METHOD(0x01323F40, void, OnValidate, (CircleGameplayZone * __this));

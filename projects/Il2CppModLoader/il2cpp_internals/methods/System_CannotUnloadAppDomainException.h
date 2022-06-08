@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::CannotUnloadAppDomainException {
 IL2CPP_REGISTER_METHOD(0x022A0070, void, __ctor, (CannotUnloadAppDomainException * __this));

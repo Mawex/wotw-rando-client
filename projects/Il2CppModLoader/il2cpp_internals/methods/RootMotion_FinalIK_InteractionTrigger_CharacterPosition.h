@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionTrigger_CharacterPosition {
 IL2CPP_REGISTER_METHOD(0x02A16B70, Vector3, get_offset3D, (InteractionTrigger_CharacterPosition * __this));

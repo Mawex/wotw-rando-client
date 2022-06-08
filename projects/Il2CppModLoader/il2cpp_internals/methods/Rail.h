@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Rail {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_Activated, (Rail * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_RequiresCart, (Rail * __this));
 IL2CPP_REGISTER_METHOD(0x00727F90, void, Serialize, (Rail * __this, Archive * ar));
 IL2CPP_REGISTER_METHOD(0x00727FE0, void, OnDrawGizmos, (Rail * __this));
 IL2CPP_REGISTER_METHOD(0x00728350, void, __ctor, (Rail * __this));
-IL2CPP_REGISTER_METHOD(0x007284D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007284D0, void, __cctor, ());
 }

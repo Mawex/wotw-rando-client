@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Graphics {
-IL2CPP_REGISTER_METHOD(0x0252A790, int32_t, Internal_GetMaxDrawMeshInstanceCount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0252A7E0, void, Internal_SetNullRT, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0252A790, int32_t, Internal_GetMaxDrawMeshInstanceCount, ());
+IL2CPP_REGISTER_METHOD(0x0252A7E0, void, Internal_SetNullRT, ());
 IL2CPP_REGISTER_METHOD(0x0252A830, void, Internal_SetRTSimple, (RenderBuffer color, RenderBuffer depth, int32_t mip, CubemapFace__Enum face, int32_t depthSlice));
 IL2CPP_REGISTER_METHOD(0x0252A940, void, Internal_SetMRTSimple, (RenderBuffer__Array * color, RenderBuffer depth, int32_t mip, CubemapFace__Enum face, int32_t depthSlice));
 IL2CPP_REGISTER_METHOD(0x0252AA50, void, Internal_SetRandomWriteTargetBuffer, (int32_t index, ComputeBuffer * uav, bool preserveCounterValue));
-IL2CPP_REGISTER_METHOD(0x0252AAC0, void, ClearRandomWriteTargets, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0252AAC0, void, ClearRandomWriteTargets, ());
 IL2CPP_REGISTER_METHOD(0x0252AB10, void, CopyTexture_Full, (Texture * src, Texture * dst));
 IL2CPP_REGISTER_METHOD(0x0252AB70, void, Internal_DrawMeshNow2, (Mesh * mesh, int32_t subsetIndex, Matrix4x4 matrix));
 IL2CPP_REGISTER_METHOD(0x0252AC60, void, Internal_DrawTexture, (Internal_DrawTextureArguments * args));
@@ -43,7 +43,7 @@ IL2CPP_REGISTER_METHODINFO(0x0474CF50, Graphics_BlitMultiTap__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0252CD10, void, DrawTexture, (Rect screenRect, Texture * texture, Rect sourceRect, int32_t leftBorder, int32_t rightBorder, int32_t topBorder, int32_t bottomBorder, Color color));
 IL2CPP_REGISTER_METHOD(0x0252CE60, void, SetRenderTarget, (RenderTexture * rt));
 IL2CPP_REGISTER_METHOD(0x0252CF90, void, SetRandomWriteTarget, (int32_t index, ComputeBuffer * uav));
-IL2CPP_REGISTER_METHOD(0x0252D040, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0252D040, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0252D100, void, Internal_SetRTSimple_Injected, (RenderBuffer * color, RenderBuffer * depth, int32_t mip, CubemapFace__Enum face, int32_t depthSlice));
 IL2CPP_REGISTER_METHOD(0x0252D190, void, Internal_SetMRTSimple_Injected, (RenderBuffer__Array * color, RenderBuffer * depth, int32_t mip, CubemapFace__Enum face, int32_t depthSlice));
 IL2CPP_REGISTER_METHOD(0x0252D220, void, Internal_DrawMeshNow2_Injected, (Mesh * mesh, int32_t subsetIndex, Matrix4x4 * matrix));

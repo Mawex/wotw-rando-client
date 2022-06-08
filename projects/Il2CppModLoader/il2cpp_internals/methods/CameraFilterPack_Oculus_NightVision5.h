@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Oculus_NightVision5 {
 IL2CPP_REGISTER_METHOD(0x02486030, Material *, get_material, (CameraFilterPack_Oculus_NightVision5 * __this));

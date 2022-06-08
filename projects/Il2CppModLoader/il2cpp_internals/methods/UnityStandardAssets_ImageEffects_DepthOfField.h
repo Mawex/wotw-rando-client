@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::DepthOfField {
 IL2CPP_REGISTER_METHOD(0x0251FF20, bool, CheckResources, (DepthOfField * __this));

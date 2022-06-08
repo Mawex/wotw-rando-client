@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::FileWebResponse {
 IL2CPP_REGISTER_METHOD(0x01D2AEA0, void, __ctor, (FileWebResponse * __this, FileWebRequest * request, Uri * uri, FileAccess__Enum access, bool asyncHint));

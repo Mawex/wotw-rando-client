@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_tokenV1Compat {
 IL2CPP_REGISTER_METHOD(0x00E3EE80, XmlTypeCode__Enum, get_TypeCode, (Datatype_tokenV1Compat * __this));

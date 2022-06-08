@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MinerBuilderTurningBehaviour {
 IL2CPP_REGISTER_METHOD(0x01119220, void, OnEnterTask, (MinerBuilderTurningBehaviour * __this, IContext * context));

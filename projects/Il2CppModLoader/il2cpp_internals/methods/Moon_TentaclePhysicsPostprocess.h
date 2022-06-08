@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentaclePhysicsPostprocess {
-IL2CPP_REGISTER_METHOD(0x010ADD80, bool, get_ClassEnabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010ADD80, bool, get_ClassEnabled, ());
 IL2CPP_REGISTER_METHOD(0x010ADE20, void, set_ClassEnabled, (bool value));
 IL2CPP_REGISTER_METHOD(0x003FF7B0, int32_t, get_Order, (TentaclePhysicsPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x010ADED0, TentaclePhysicsController *, get_PhysCtrl, (TentaclePhysicsPostprocess * __this));
@@ -39,5 +39,5 @@ IL2CPP_REGISTER_METHOD(0x010B4540, void, AdaptCapsulesToRange, (TentaclePhysicsP
 IL2CPP_REGISTER_METHOD(0x010B4920, void, AddAdaptiveCapsule, (TentaclePhysicsPostprocess * __this, Vector3__Array * jointPos, int32_t fromIndex, int32_t toIndex));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDrawGizmosSelected, (TentaclePhysicsPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x010B4D00, void, __ctor, (TentaclePhysicsPostprocess * __this));
-IL2CPP_REGISTER_METHOD(0x010B4E20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010B4E20, void, __cctor, ());
 }

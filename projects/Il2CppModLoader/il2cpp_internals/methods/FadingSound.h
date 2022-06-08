@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FadingSound {
 IL2CPP_REGISTER_METHOD(0x00994270, void, Start, (FadingSound * __this));

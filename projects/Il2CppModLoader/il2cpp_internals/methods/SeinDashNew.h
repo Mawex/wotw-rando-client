@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDashNew {
 IL2CPP_REGISTER_METHOD(0x00417920, ComboMoveType__Enum, get_ComboMoveType, (SeinDashNew * __this));
@@ -93,5 +93,5 @@ IL2CPP_REGISTER_METHODINFO(0x047329F8, SeinDashNew_OnResetAirLimits__MethodInfo)
 IL2CPP_REGISTER_METHOD(0x006FC520, void, OnMoonControllerCollision, (SeinDashNew * __this, MoonControllerColliderHit hit));
 IL2CPP_REGISTER_METHODINFO(0x04743C48, SeinDashNew_OnMoonControllerCollision__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x006FC700, void, __ctor, (SeinDashNew * __this));
-IL2CPP_REGISTER_METHOD(0x006FCDB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006FCDB0, void, __cctor, ());
 }

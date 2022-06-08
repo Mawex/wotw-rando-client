@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RacesUiService {
 IL2CPP_REGISTER_METHOD(0x00724AE0, bool, get_LockedByUi, (RacesUiService * __this));

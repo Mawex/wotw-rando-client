@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DesignerAttribute {
 IL2CPP_REGISTER_METHOD(0x01FE6280, void, __ctor, (DesignerAttribute * __this, String * designerTypeName));

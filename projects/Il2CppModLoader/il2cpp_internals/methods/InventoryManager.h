@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InventoryManager {
 IL2CPP_REGISTER_METHOD(0x0063F0E0, void, Show, (InventoryManager * __this));

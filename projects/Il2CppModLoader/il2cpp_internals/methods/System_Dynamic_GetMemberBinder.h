@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::GetMemberBinder {
 IL2CPP_REGISTER_METHOD(0x01F93770, void, __ctor, (GetMemberBinder * __this, String * name, bool ignoreCase));

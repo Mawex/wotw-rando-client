@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Moon::uberSerializationWisp::PlayerUberStateShards_Shard_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_Boolean_ * __this, Object * object, void * method_1));

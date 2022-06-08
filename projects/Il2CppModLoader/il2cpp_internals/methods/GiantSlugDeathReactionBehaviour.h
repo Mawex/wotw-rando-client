@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GiantSlugDeathReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x007F2CD0, int32_t, get_RandomIndex, (GiantSlugDeathReactionBehaviour * __this));

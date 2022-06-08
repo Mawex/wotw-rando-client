@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsArrayConverter {
 IL2CPP_REGISTER_METHOD(0x01650EE0, bool, CanProcess, (fsArrayConverter * __this, Type * type));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EventTriggerAnimator {
 IL2CPP_REGISTER_METHOD(0x002FBBC0, Action_1_Moon_Timeline_EventTriggerAnimator_ *, get_EventStartWithTriggerInfo, (EventTriggerAnimator * __this));

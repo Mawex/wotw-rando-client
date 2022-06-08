@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SneezeSlugBurrowBehaviour {
 IL2CPP_REGISTER_METHOD(0x00ED5050, bool, IsBlockingInterruption, (SneezeSlugBurrowBehaviour * __this, EntityDamageEvent * damageEvent, EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason));

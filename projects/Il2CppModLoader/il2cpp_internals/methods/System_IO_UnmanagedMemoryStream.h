@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::UnmanagedMemoryStream {
 IL2CPP_REGISTER_METHOD(0x02389540, void, __ctor, (UnmanagedMemoryStream * __this));

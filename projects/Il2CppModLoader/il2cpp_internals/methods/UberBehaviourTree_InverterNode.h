@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::InverterNode {
 IL2CPP_REGISTER_METHOD(0x002FB940, void, __ctor, (InverterNode * __this, String * name));

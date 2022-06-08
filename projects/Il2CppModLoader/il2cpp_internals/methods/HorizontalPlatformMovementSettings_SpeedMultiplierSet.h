@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HorizontalPlatformMovementSettings_SpeedMultiplierSet {
 IL2CPP_REGISTER_METHOD(0x00B605A0, void, CopyFrom, (HorizontalPlatformMovementSettings_SpeedMultiplierSet * __this, HorizontalPlatformMovementSettings_SpeedMultiplierSet * multiplierSet));

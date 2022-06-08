@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SpriteTransparencyAnimator {
 IL2CPP_REGISTER_METHOD(0x01E821C0, void, OnStartPlayback, (SpriteTransparencyAnimator * __this, IContext * context));

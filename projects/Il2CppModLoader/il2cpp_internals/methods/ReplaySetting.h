@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ReplaySetting {
 IL2CPP_REGISTER_METHOD(0x006B8960, bool, ShowPositionOverride, (ReplaySetting * __this));

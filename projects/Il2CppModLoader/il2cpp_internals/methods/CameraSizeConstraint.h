@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraSizeConstraint {
 IL2CPP_REGISTER_METHOD(0x00B1E080, void, Start, (CameraSizeConstraint * __this));

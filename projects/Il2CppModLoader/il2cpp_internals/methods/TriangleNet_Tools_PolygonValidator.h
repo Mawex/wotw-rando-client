@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::PolygonValidator {
 IL2CPP_REGISTER_METHOD(0x02A97720, bool, IsConsistent, (IPolygon * poly));

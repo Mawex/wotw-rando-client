@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_FullSerializer::Internal::fsVersionedType_ {
 IL2CPP_REGISTER_METHOD(0x02F5B2F0, void, Sort, (fsVersionedType__Array * keys, int32_t index, int32_t length, IComparer_1_FullSerializer_Internal_fsVersionedType_ * comparer));

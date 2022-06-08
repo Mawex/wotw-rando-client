@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraTransformMetaDataDrivenAnimator {
 IL2CPP_REGISTER_METHOD(0x00B21100, int32_t, GetFrameAtTime, (CameraTransformMetaDataDrivenAnimator * __this, float index));

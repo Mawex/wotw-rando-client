@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::FileStreamAsyncResult {
 IL2CPP_REGISTER_METHOD(0x0236F0A0, void, __ctor, (FileStreamAsyncResult * __this, AsyncCallback * cb, Object * state));

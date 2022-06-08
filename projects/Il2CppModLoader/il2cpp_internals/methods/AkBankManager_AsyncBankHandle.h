@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkBankManager_AsyncBankHandle {
 IL2CPP_REGISTER_METHOD(0x0239A1A0, void, __ctor, (AkBankManager_AsyncBankHandle * __this, String * name, AkCallbackManager_BankCallback * callback));

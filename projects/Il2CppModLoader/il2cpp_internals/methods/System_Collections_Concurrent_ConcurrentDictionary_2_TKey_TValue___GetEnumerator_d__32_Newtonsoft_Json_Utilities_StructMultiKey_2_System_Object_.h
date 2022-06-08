@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_TKey_TValue___GetEnumerator_d__32_Newtonsoft::Json::Utilities::StructMultiKey_2_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01D09710, void, __ctor, (ConcurrentDictionary_2_TKey_TValue_GetEnumerator_d_32_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this, int32_t __1__state));

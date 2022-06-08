@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::ExtensionMethods {
 IL2CPP_REGISTER_METHOD(0x0261B9B0, IMesh *, Triangulate, (IPolygon * polygon));

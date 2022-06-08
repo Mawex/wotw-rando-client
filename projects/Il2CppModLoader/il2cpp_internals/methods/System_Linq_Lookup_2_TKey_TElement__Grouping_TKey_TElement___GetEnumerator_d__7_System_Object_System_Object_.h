@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_TKey_TElement__Grouping_TKey_TElement___GetEnumerator_d__7_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, Object *, System_Collections_Generic_IEnumerator_TElement__get_Current, (Lookup_2_TKey_TElement_Grouping_TKey_TElement_GetEnumerator_d_7_System_Object_System_Object_ * __this));

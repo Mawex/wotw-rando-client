@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindupSwitch {
 IL2CPP_REGISTER_METHOD(0x0057BBF0, bool, CanBeSpiritSlashed, (WindupSwitch * __this));

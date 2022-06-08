@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RockTreeSetup {
 IL2CPP_REGISTER_METHOD(0x01359810, void, Start, (RockTreeSetup * __this));

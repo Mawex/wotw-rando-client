@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_FullSerializer::Internal::fsVersionedType_ {
 IL2CPP_REGISTER_METHOD(0x001ECDC0, void, __ctor, (Queue_1_T_Enumerator_FullSerializer_Internal_fsVersionedType___Boxed * __this, Queue_1_FullSerializer_Internal_fsVersionedType_ * q));

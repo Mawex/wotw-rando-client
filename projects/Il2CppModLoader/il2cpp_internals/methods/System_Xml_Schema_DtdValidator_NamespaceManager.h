@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::DtdValidator_NamespaceManager {
 IL2CPP_REGISTER_METHOD(0x00502220, String *, LookupNamespace, (DtdValidator_NamespaceManager * __this, String * prefix));

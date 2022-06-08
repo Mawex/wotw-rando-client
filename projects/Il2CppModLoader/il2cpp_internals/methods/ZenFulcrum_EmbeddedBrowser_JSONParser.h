@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::JSONParser {
-IL2CPP_REGISTER_METHOD(0x01DE3CA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DE3CA0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01DE3F50, JSONNode *, Parse, (String * json));
 IL2CPP_REGISTER_METHODINFO(0x047398B8, JSONParser_Parse__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01DE40D0, bool, TryDeserializeObject, (String * json, JSONNode * * obj));

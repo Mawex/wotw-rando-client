@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransformFollowAnimator {
 IL2CPP_REGISTER_METHOD(0x01E90020, Transform *, get_TransformTarget, (TransformFollowAnimator * __this));

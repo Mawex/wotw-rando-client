@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Cheat {
 IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (Cheat * __this, Input_InputButtonProcessor__Array * combination, Action * action, Func_1_Boolean_ * condition));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SelfDestruct {
 IL2CPP_REGISTER_METHOD(0x00AB57E0, void, OnPoolSpawned, (SelfDestruct * __this));

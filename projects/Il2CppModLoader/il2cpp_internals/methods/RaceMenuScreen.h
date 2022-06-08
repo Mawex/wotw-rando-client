@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceMenuScreen {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_CanInterruptTab, (RaceMenuScreen * __this));
@@ -7,7 +7,7 @@ IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (RaceMenuScreen 
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedOreUI, (RaceMenuScreen * __this));
 IL2CPP_REGISTER_METHOD(0x008A6E90, bool, get_IsFadingOut, (RaceMenuScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00CA3DE0, void, set_IsFadingOut, (RaceMenuScreen * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00EA7090, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00EA7090, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x006514B0, bool, get_IsVisible, (RaceMenuScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00689DA0, bool, get_WasEnabledInTitlescreen, (RaceMenuScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00EA7130, CleverMenuItemSelectionManager *, get_Navigation, (RaceMenuScreen * __this));
@@ -64,7 +64,7 @@ IL2CPP_REGISTER_METHOD(0x00EAC660, void, SaveLastSelectedRaceIndex, (RaceMenuScr
 IL2CPP_REGISTER_METHOD(0x00EAC740, void, SaveLastSelectedMemoryIndex, (RaceMenuScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00EAC820, void, RestoreSelection, (RaceMenuScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00EAC9B0, void, __ctor, (RaceMenuScreen * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00EAC9D0, void, _OnInstantiate_b__85_0, (RaceMenuScreen * __this, GameObject * x));
 IL2CPP_REGISTER_METHODINFO(0x0477D728, RaceMenuScreen__OnInstantiate_b__85_0__MethodInfo);
 }

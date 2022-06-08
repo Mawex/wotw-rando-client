@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FireflyHive {
 IL2CPP_REGISTER_METHOD(0x0125F550, Firefly *, get_FireflyInstance, (FireflyHive * __this));

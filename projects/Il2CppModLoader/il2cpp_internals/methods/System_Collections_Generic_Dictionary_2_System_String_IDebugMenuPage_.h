@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_IDebugMenuPage_ {
 IL2CPP_REGISTER_METHOD(0x02BD24D0, IDebugMenuPage *, get_Item, (Dictionary_2_System_String_IDebugMenuPage_ * __this, String * key));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimeTrackerForMoonGuid_TrackerEntry {
 IL2CPP_REGISTER_METHOD(0x010F23A0, void, __ctor, (TimeTrackerForMoonGuid_TrackerEntry * __this, MoonGuid * guid, float timeout));

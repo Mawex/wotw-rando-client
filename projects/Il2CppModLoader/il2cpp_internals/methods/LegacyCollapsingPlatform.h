@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyCollapsingPlatform {
 IL2CPP_REGISTER_METHOD(0x002FBB60, GameObject *, get_PlatformGameObject, (LegacyCollapsingPlatform * __this));

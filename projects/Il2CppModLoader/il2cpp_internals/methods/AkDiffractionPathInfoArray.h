@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkDiffractionPathInfoArray {
 IL2CPP_REGISTER_METHOD(0x026E0B10, void, __ctor, (AkDiffractionPathInfoArray * __this, int32_t count));

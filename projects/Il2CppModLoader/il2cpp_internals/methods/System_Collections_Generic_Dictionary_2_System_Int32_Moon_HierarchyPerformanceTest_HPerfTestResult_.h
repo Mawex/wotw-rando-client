@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Moon::HierarchyPerformanceTest::HPerfTestResult_ {
 IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_System_Int32_Moon_HierarchyPerformanceTest_HPerfTestResult_ *, get_Values, (Dictionary_2_System_Int32_Moon_HierarchyPerformanceTest_HPerfTestResult_ * __this));

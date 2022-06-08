@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlSignificantWhitespace {
 IL2CPP_REGISTER_METHOD(0x01707400, void, __ctor, (XmlSignificantWhitespace * __this, String * strData, XmlDocument * doc));

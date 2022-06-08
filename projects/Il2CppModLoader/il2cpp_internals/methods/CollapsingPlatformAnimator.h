@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CollapsingPlatformAnimator {
 IL2CPP_REGISTER_METHOD(0x0040B220, GameObject *, get_Platform, (CollapsingPlatformAnimator * __this));

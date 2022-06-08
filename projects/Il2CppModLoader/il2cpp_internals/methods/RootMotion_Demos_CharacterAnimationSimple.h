@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::CharacterAnimationSimple {
 IL2CPP_REGISTER_METHOD(0x0220E280, void, Start, (CharacterAnimationSimple * __this));

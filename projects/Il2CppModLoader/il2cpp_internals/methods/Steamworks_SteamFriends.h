@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamFriends {
-IL2CPP_REGISTER_METHOD(0x027E9BB0, String *, GetPersonaName, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027E9BB0, String *, GetPersonaName, ());
 IL2CPP_REGISTER_METHOD(0x027E9C60, SteamAPICall_t, SetPersonaName, (String * pchPersonaName));
-IL2CPP_REGISTER_METHOD(0x027E9F60, EPersonaState__Enum, GetPersonaState, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027E9F60, EPersonaState__Enum, GetPersonaState, ());
 IL2CPP_REGISTER_METHOD(0x027EA010, int32_t, GetFriendCount, (EFriendFlags__Enum iFriendFlags));
 IL2CPP_REGISTER_METHOD(0x027EA0C0, CSteamID, GetFriendByIndex, (int32_t iFriend, EFriendFlags__Enum iFriendFlags));
 IL2CPP_REGISTER_METHOD(0x027EA210, EFriendRelationship__Enum, GetFriendRelationship, (CSteamID steamIDFriend));
@@ -13,13 +13,13 @@ IL2CPP_REGISTER_METHOD(0x027EA450, bool, GetFriendGamePlayed, (CSteamID steamIDF
 IL2CPP_REGISTER_METHOD(0x027EA520, String *, GetFriendPersonaNameHistory, (CSteamID steamIDFriend, int32_t iPersonaName));
 IL2CPP_REGISTER_METHOD(0x027EA5F0, int32_t, GetFriendSteamLevel, (CSteamID steamIDFriend));
 IL2CPP_REGISTER_METHOD(0x027EA6B0, String *, GetPlayerNickname, (CSteamID steamIDPlayer));
-IL2CPP_REGISTER_METHOD(0x027EA770, int32_t, GetFriendsGroupCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027EA770, int32_t, GetFriendsGroupCount, ());
 IL2CPP_REGISTER_METHOD(0x027EA820, FriendsGroupID_t, GetFriendsGroupIDByIndex, (int32_t iFG));
 IL2CPP_REGISTER_METHOD(0x027EA960, String *, GetFriendsGroupName, (FriendsGroupID_t friendsGroupID));
 IL2CPP_REGISTER_METHOD(0x027EAA20, int32_t, GetFriendsGroupMembersCount, (FriendsGroupID_t friendsGroupID));
 IL2CPP_REGISTER_METHOD(0x027EAAE0, void, GetFriendsGroupMembersList, (FriendsGroupID_t friendsGroupID, CSteamID__Array * pOutSteamIDMembers, int32_t nMembersCount));
 IL2CPP_REGISTER_METHOD(0x027EABC0, bool, HasFriend, (CSteamID steamIDFriend, EFriendFlags__Enum iFriendFlags));
-IL2CPP_REGISTER_METHOD(0x027EAC90, int32_t, GetClanCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027EAC90, int32_t, GetClanCount, ());
 IL2CPP_REGISTER_METHOD(0x027EAD40, CSteamID, GetClanByIndex, (int32_t iClan));
 IL2CPP_REGISTER_METHOD(0x027EAE80, String *, GetClanName, (CSteamID steamIDClan));
 IL2CPP_REGISTER_METHOD(0x027EAF40, String *, GetClanTag, (CSteamID steamIDClan));
@@ -43,15 +43,15 @@ IL2CPP_REGISTER_METHOD(0x027EC3D0, SteamAPICall_t, RequestClanOfficerList, (CSte
 IL2CPP_REGISTER_METHOD(0x027EC510, CSteamID, GetClanOwner, (CSteamID steamIDClan));
 IL2CPP_REGISTER_METHOD(0x027EC650, int32_t, GetClanOfficerCount, (CSteamID steamIDClan));
 IL2CPP_REGISTER_METHOD(0x027EC710, CSteamID, GetClanOfficerByIndex, (CSteamID steamIDClan, int32_t iOfficer));
-IL2CPP_REGISTER_METHOD(0x027EC860, uint32_t, GetUserRestrictions, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027EC860, uint32_t, GetUserRestrictions, ());
 IL2CPP_REGISTER_METHOD(0x027EC910, bool, SetRichPresence, (String * pchKey, String * pchValue));
-IL2CPP_REGISTER_METHOD(0x027ECD60, void, ClearRichPresence, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027ECD60, void, ClearRichPresence, ());
 IL2CPP_REGISTER_METHOD(0x027ECE10, String *, GetFriendRichPresence, (CSteamID steamIDFriend, String * pchKey));
 IL2CPP_REGISTER_METHOD(0x027ED100, int32_t, GetFriendRichPresenceKeyCount, (CSteamID steamIDFriend));
 IL2CPP_REGISTER_METHOD(0x027ED1C0, String *, GetFriendRichPresenceKeyByIndex, (CSteamID steamIDFriend, int32_t iKey));
 IL2CPP_REGISTER_METHOD(0x027ED290, void, RequestFriendRichPresence, (CSteamID steamIDFriend));
 IL2CPP_REGISTER_METHOD(0x027ED350, bool, InviteUserToGame, (CSteamID steamIDFriend, String * pchConnectString));
-IL2CPP_REGISTER_METHOD(0x027ED640, int32_t, GetCoplayFriendCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027ED640, int32_t, GetCoplayFriendCount, ());
 IL2CPP_REGISTER_METHOD(0x027ED6F0, CSteamID, GetCoplayFriend, (int32_t iCoplayFriend));
 IL2CPP_REGISTER_METHOD(0x027ED830, int32_t, GetFriendCoplayTime, (CSteamID steamIDFriend));
 IL2CPP_REGISTER_METHOD(0x027ED8F0, AppId_t, GetFriendCoplayGame, (CSteamID steamIDFriend));
@@ -73,5 +73,5 @@ IL2CPP_REGISTER_METHOD(0x027EECE0, SteamAPICall_t, IsFollowing, (CSteamID steamI
 IL2CPP_REGISTER_METHOD(0x027EEE20, SteamAPICall_t, EnumerateFollowingList, (uint32_t unStartIndex));
 IL2CPP_REGISTER_METHOD(0x027EEF60, bool, IsClanPublic, (CSteamID steamIDClan));
 IL2CPP_REGISTER_METHOD(0x027EF020, bool, IsClanOfficialGameGroup, (CSteamID steamIDClan));
-IL2CPP_REGISTER_METHOD(0x027EF0E0, int32_t, GetNumChatsWithUnreadPriorityMessages, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027EF0E0, int32_t, GetNumChatsWithUnreadPriorityMessages, ());
 }

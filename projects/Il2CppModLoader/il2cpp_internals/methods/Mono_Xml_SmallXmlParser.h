@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Xml::SmallXmlParser {
 IL2CPP_REGISTER_METHOD(0x02287290, void, __ctor, (SmallXmlParser * __this));

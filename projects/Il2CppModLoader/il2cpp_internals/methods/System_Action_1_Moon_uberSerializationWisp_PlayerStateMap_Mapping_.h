@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_Moon::uberSerializationWisp::PlayerStateMap_Mapping_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Action_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ * __this, Object * object, void * method_1));

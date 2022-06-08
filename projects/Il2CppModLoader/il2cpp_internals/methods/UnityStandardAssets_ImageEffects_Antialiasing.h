@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Antialiasing {
 IL2CPP_REGISTER_METHOD(0x02510990, Material *, CurrentAAMaterial, (Antialiasing * __this));

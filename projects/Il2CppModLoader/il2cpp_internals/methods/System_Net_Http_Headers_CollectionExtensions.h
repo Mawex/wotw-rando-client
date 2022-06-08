@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::CollectionExtensions {
 IL2CPP_REGISTER_METHOD(0x01567DA0, bool, SequenceEqual, (List_1_System_Object_ * first, List_1_System_Object_ * second));

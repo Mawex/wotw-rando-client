@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AirEntityLocomotion {
 IL2CPP_REGISTER_METHOD(0x0049F2B0, AirEntityMovementProcessor *, get_AirMovement, (AirEntityLocomotion * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Int32_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x0010E170, int32_t, get_Key, (KeyValuePair_2_System_Int32_System_Boolean___Boxed * __this));

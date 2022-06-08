@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::ChannelInfo {
 IL2CPP_REGISTER_METHOD(0x01A9AAA0, void, __ctor, (ChannelInfo * __this));

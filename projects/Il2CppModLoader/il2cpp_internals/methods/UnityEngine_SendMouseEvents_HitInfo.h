@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SendMouseEvents_HitInfo {
 IL2CPP_REGISTER_METHOD(0x00218890, void, SendMessage, (SendMouseEvents_HitInfo__Boxed * __this, String * name));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataRelationCollection {
 IL2CPP_REGISTER_METHOD(0x00654950, int32_t, get_ObjectID, (DataRelationCollection * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CspKeyContainerInfo {
 IL2CPP_REGISTER_METHOD(0x020D0390, void, __ctor, (CspKeyContainerInfo * __this, CspParameters * parameters));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (FormattableStringFactory_ConcreteFormattableString * __this, String * format, Object__Array * arguments));

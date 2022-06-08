@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnvironmentTintModifier {
 IL2CPP_REGISTER_METHOD(0x00CAA750, int32_t, GetEnvTintColorID, (EnvironmentTintModifier * __this));

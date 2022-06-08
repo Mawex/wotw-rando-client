@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::SavePedestalUberState_PedestalState {
 IL2CPP_REGISTER_METHOD(0x00F44BC0, void, __ctor, (SavePedestalUberState_PedestalState * __this));

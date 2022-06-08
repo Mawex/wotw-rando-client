@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameMapObjectiveIcons {
 IL2CPP_REGISTER_METHOD(0x0069DD30, void, ShowIcons, (GameMapObjectiveIcons * __this));

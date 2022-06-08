@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HookFlingPlant {
 IL2CPP_REGISTER_METHOD(0x00B5D6D0, SeinSpiritLeashAbility *, get_Leash, (HookFlingPlant * __this));

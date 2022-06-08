@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuOriMounting {
 IL2CPP_REGISTER_METHOD(0x01244740, bool, get_MountInFront, (KuOriMounting * __this));

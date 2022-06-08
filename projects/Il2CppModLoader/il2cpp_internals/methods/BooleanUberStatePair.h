@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BooleanUberStatePair {
 IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_EffectiveValue, (BooleanUberStatePair * __this));

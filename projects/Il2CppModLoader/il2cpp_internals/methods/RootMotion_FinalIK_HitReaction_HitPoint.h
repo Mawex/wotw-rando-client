@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::HitReaction_HitPoint {
 IL2CPP_REGISTER_METHOD(0x00E2F880, float, get_crossFader, (HitReaction_HitPoint * __this));

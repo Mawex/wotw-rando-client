@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoveCameraToPlayerAction {
 IL2CPP_REGISTER_METHOD(0x008682E0, void, Perform, (MoveCameraToPlayerAction * __this, IContext * context));

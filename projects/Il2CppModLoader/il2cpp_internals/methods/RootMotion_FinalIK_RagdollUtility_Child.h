@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::RagdollUtility_Child {
 IL2CPP_REGISTER_METHOD(0x02A1BDB0, void, __ctor, (RagdollUtility_Child * __this, Transform * transform));

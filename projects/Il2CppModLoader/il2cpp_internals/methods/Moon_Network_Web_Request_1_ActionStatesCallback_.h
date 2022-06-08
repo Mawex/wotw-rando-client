@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Request_1_ActionStatesCallback_ {
 IL2CPP_REGISTER_METHOD(0x02722770, void, Send, (Request_1_ActionStatesCallback_ * __this, Action_1_ActionStatesCallback_ * callback));

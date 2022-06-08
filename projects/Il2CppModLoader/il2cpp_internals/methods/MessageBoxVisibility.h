@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MessageBoxVisibility {
 IL2CPP_REGISTER_METHOD(0x015935D0, bool, get_Visible, (MessageBoxVisibility * __this));

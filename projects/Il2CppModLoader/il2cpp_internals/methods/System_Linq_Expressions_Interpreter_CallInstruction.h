@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::CallInstruction {
 IL2CPP_REGISTER_METHOD(0x022D75B0, String *, get_InstructionName, (CallInstruction * __this));

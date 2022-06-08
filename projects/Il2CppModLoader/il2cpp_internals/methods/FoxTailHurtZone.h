@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FoxTailHurtZone {
 IL2CPP_REGISTER_METHOD(0x01633ED0, void, add_ReceiveDamageCallback, (FoxTailHurtZone * __this, Action_1_Damage_ * value));

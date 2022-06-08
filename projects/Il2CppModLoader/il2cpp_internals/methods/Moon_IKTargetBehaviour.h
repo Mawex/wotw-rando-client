@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::IKTargetBehaviour {
 IL2CPP_REGISTER_METHOD(0x01101D50, void, Start, (IKTargetBehaviour * __this));

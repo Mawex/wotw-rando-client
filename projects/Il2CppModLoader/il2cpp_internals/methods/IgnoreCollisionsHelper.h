@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IgnoreCollisionsHelper {
 IL2CPP_REGISTER_METHOD(0x00113420, bool, IsIgnorning, (IgnoreCollisionsHelper__Boxed * __this, Collider * other));

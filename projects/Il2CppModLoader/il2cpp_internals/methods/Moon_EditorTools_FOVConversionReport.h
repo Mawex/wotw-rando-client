@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EditorTools::FOVConversionReport {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, CanRemoveObject, (FOVConversionReport * __this, GameObject * target));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Lever {
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_InRange, (Lever * __this));
@@ -68,7 +68,7 @@ IL2CPP_REGISTER_METHOD(0x0074F800, SuspendableMask__Enum, get_Mask, (Lever * __t
 IL2CPP_REGISTER_METHOD(0x011354C0, void, set_Mask, (Lever * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x01135580, bool, get_CanBeGrabbed, (Lever * __this));
 IL2CPP_REGISTER_METHOD(0x01135670, void, AdjustLeverOnGround, (Lever * __this));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x00BFFEB0, void, OnFrustumEnter, (Lever * __this));
 IL2CPP_REGISTER_METHOD(0x00AB0300, void, OnFrustumExit, (Lever * __this));
 IL2CPP_REGISTER_METHOD(0x005DA240, bool, get_InsideFrustum, (Lever * __this));
@@ -80,5 +80,5 @@ IL2CPP_REGISTER_METHOD(0x01135A50, void, OnDrawGizmos, (Lever * __this));
 IL2CPP_REGISTER_METHOD(0x01135B10, IDesiredUberState *, GetRequirementsForTimeline, (Lever * __this, MoonTimeline * timeline));
 IL2CPP_REGISTER_METHOD(0x01135BB0, void, OnSceneRootPostEnable, (Lever * __this, SceneRoot * sceneRoot));
 IL2CPP_REGISTER_METHOD(0x01135BC0, void, __ctor, (Lever * __this));
-IL2CPP_REGISTER_METHOD(0x01136AB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01136AB0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AcidSlugEnemy {
 IL2CPP_REGISTER_METHOD(0x004C2860, void, FixedUpdate, (AcidSlugEnemy * __this));

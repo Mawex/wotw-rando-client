@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameMapShowObjective {
 IL2CPP_REGISTER_METHOD(0x006A2E90, void, add_OnFinish, (GameMapShowObjective * __this, Action * value));

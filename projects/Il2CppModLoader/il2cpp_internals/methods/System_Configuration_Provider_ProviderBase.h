@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::Provider::ProviderBase {
 IL2CPP_REGISTER_METHOD(0x031BBFF0, void, Initialize, (ProviderBase * __this, String * name, NameValueCollection * config));

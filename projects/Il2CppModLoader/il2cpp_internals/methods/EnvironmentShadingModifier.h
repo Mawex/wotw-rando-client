@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnvironmentShadingModifier {
 IL2CPP_REGISTER_METHOD(0x006D41F0, float, get_FadeTime, (EnvironmentShadingModifier * __this));

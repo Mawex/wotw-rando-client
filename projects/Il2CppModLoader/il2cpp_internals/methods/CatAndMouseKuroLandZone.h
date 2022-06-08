@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatAndMouseKuroLandZone {
 IL2CPP_REGISTER_METHOD(0x010283C0, void, Awake, (CatAndMouseKuroLandZone * __this));

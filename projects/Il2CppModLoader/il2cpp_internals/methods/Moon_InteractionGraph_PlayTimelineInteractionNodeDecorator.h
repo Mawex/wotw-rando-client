@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::PlayTimelineInteractionNodeDecorator {
 IL2CPP_REGISTER_METHOD(0x01990DE0, MoonTimeline *, get_ResolvedTimeline, (PlayTimelineInteractionNodeDecorator * __this));

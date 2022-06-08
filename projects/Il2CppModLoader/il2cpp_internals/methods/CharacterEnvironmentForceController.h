@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterEnvironmentForceController {
 IL2CPP_REGISTER_METHOD(0x0104E000, void, Start, (CharacterEnvironmentForceController * __this));

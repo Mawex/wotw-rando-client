@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::Bounds_DirectConverter {
 IL2CPP_REGISTER_METHOD(0x0164B690, fsResult, DoSerialize, (Bounds_DirectConverter * __this, Bounds model, Dictionary_2_System_String_FullSerializer_fsData_ * serialized));

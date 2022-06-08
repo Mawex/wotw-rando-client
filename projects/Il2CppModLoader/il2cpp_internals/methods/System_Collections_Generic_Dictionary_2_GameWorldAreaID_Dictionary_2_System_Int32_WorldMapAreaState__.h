@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_GameWorldAreaID_Dictionary_2_System::Int32_WorldMapAreaState__ {
 IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_GameWorldAreaID_Dictionary_2_System_Int32_WorldMapAreaState_, GetEnumerator, (Dictionary_2_GameWorldAreaID_Dictionary_2_System_Int32_WorldMapAreaState_ * __this));

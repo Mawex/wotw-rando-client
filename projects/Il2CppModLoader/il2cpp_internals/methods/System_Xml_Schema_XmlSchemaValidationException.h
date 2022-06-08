@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaValidationException {
 IL2CPP_REGISTER_METHOD(0x0191EC50, void, __ctor, (XmlSchemaValidationException * __this, SerializationInfo * info, StreamingContext context));

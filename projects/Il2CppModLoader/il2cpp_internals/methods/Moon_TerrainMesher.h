@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TerrainMesher {
 IL2CPP_REGISTER_METHOD(0x025669C0, void, ProcessTerrain, (TerrainMesherData data));

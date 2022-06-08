@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuScreenManager___c__DisplayClass112_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MenuScreenManager_c_DisplayClass112_0 * __this));

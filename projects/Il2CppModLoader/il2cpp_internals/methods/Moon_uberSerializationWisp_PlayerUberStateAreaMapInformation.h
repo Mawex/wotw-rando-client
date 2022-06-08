@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateAreaMapInformation {
 IL2CPP_REGISTER_METHOD(0x00F35560, int64_t, get_Size, (PlayerUberStateAreaMapInformation * __this));

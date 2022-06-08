@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Certificate {
 IL2CPP_REGISTER_METHOD(0x01E15DC0, void, __ctor, (X509Certificate_1 * __this, Byte__Array * data, bool dates));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::XElementWrapper {
 IL2CPP_REGISTER_METHOD(0x01A58EF0, XElement *, get_Element, (XElementWrapper * __this));

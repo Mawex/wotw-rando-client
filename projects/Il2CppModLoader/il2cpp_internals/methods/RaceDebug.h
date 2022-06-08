@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceDebug {
 IL2CPP_REGISTER_METHOD(0x00E98580, void, DownloadReplay, (RaceDebug * __this));

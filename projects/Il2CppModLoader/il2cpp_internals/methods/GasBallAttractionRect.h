@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasBallAttractionRect {
 IL2CPP_REGISTER_METHOD(0x00418B70, void, Enable, (GasBallAttractionRect * __this, IGasBallBait * owner));

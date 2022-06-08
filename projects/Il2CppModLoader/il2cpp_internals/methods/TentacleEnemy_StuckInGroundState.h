@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleEnemy_StuckInGroundState {
 IL2CPP_REGISTER_METHOD(0x00CFBCF0, bool, get_IsStuck, (TentacleEnemy_StuckInGroundState * __this));

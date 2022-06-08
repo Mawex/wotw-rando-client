@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Recoil {
 IL2CPP_REGISTER_METHOD(0x02A1CF80, void, SetHandRotations, (Recoil * __this, Quaternion leftHandRotation, Quaternion rightHandRotation));

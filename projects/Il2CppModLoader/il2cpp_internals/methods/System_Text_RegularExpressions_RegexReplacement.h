@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexReplacement {
 IL2CPP_REGISTER_METHOD(0x02A76300, void, __ctor, (RegexReplacement * __this, String * rep, RegexNode * concat, Hashtable * _caps));

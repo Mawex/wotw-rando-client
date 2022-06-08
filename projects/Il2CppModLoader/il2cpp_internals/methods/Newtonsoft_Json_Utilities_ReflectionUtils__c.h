@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ReflectionUtils___c {
-IL2CPP_REGISTER_METHOD(0x03026560, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03026560, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ReflectionUtils_c * __this));
 IL2CPP_REGISTER_METHOD(0x030266A0, bool, _GetDefaultConstructor_b__11_0, (ReflectionUtils_c * __this, ConstructorInfo * c));
 IL2CPP_REGISTER_METHODINFO(0x04788398, ReflectionUtils_c__GetDefaultConstructor_b__11_0__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XDeferredAxis_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x019F8670, void, __ctor, (XDeferredAxis_1_System_Object_ * __this, Func_3_System_Xml_Linq_XElement_System_Xml_Linq_XName_System_Collections_Generic_IEnumerable_1__1 * func, XElement * element, XName * name));

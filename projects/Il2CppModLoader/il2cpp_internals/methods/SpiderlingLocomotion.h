@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderlingLocomotion {
 IL2CPP_REGISTER_METHOD(0x011C5920, float, get_ContinousRotationSpeed, (SpiderlingLocomotion * __this));

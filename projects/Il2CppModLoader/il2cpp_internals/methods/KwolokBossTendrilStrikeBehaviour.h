@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossTendrilStrikeBehaviour {
-IL2CPP_REGISTER_METHOD(0x012EE6D0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012EE6D0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x00417870, bool, IsLocomotionFollowAllowed, (KwolokBossTendrilStrikeBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, IsLocomotionStayAtRangeAllowed, (KwolokBossTendrilStrikeBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x012EE6E0, void, ModifyPostAttackCooldown, (KwolokBossTendrilStrikeBehaviour * __this, bool * cooldown));

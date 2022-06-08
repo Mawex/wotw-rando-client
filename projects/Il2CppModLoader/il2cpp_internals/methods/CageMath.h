@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageMath {
 IL2CPP_REGISTER_METHOD(0x00823240, bool, IsPointInsideCage, (Vector2 point, CageStructureTool * cage));

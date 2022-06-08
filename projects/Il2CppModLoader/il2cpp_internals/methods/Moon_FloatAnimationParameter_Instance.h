@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FloatAnimationParameter_Instance {
 IL2CPP_REGISTER_METHOD(0x00863E90, float, get_TargetValue, (FloatAnimationParameter_Instance * __this));

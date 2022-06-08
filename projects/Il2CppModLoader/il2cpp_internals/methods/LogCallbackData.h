@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LogCallbackData {
 IL2CPP_REGISTER_METHOD(0x00910BD0, RecorderFrame_FrameDataTypes__Enum, FrameType, (LogCallbackData * __this));

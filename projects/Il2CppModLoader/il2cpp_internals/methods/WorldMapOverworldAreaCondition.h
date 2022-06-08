@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WorldMapOverworldAreaCondition {
 IL2CPP_REGISTER_METHOD(0x005847F0, bool, Validate, (WorldMapOverworldAreaCondition * __this, IContext * context));

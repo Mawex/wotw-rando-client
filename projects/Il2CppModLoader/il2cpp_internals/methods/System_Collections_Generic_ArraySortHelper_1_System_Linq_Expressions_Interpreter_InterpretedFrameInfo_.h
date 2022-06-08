@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_System::Linq::Expressions::Interpreter::InterpretedFrameInfo_ {
 IL2CPP_REGISTER_METHOD(0x030019E0, void, Sort, (InterpretedFrameInfo__Array * keys, int32_t index, int32_t length, IComparer_1_System_Linq_Expressions_Interpreter_InterpretedFrameInfo_ * comparer));

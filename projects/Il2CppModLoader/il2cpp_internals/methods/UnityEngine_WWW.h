@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::WWW {
 IL2CPP_REGISTER_METHOD(0x031BC190, void, __ctor, (WWW * __this, String * url));

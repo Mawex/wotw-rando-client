@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Trail_TrailPosition_ {
 IL2CPP_REGISTER_METHOD(0x01CCCFA0, int32_t, Compare, (ObjectComparer_1_Trail_TrailPosition_ * __this, Trail_TrailPosition x, Trail_TrailPosition y));

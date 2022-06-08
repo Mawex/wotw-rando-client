@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ProfilerExtensions {
 IL2CPP_REGISTER_METHOD(0x00C3EE70, double, elapsedMilliseconds, (Recorder * recorder));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System::IO::Stream_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_IO_Stream_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_IO_Stream_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x04778980, AsyncTaskMethodBuilder_1_System_IO_Stream__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3D70, void, Start, (AsyncTaskMethodBuilder_1_System_IO_Stream___Boxed * __this, XmlDownloadManager_GetNonFileStreamAsync_d_5 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x047661B0, AsyncTaskMethodBuilder_1_System_IO_Stream__Start__MethodInfo);

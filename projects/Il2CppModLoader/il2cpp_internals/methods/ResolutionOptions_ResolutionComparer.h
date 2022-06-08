@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ResolutionOptions_ResolutionComparer {
 IL2CPP_REGISTER_METHOD(0x009079F0, bool, Equals, (ResolutionOptions_ResolutionComparer * __this, ResolutionOptions_ResolutionEntry * x, ResolutionOptions_ResolutionEntry * y));

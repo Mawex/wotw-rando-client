@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::RTime32 {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (RTime32__Boxed * __this, uint32_t value));

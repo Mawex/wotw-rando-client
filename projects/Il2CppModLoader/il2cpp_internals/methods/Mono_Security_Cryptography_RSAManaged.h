@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::RSAManaged {
 IL2CPP_REGISTER_METHOD(0x025D4FD0, void, __ctor, (RSAManaged * __this, int32_t keySize));

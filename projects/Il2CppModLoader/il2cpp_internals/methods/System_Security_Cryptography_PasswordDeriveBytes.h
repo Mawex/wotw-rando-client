@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::PasswordDeriveBytes {
 IL2CPP_REGISTER_METHOD(0x020DFA80, void, __ctor, (PasswordDeriveBytes * __this, String * strPassword, Byte__Array * rgbSalt));

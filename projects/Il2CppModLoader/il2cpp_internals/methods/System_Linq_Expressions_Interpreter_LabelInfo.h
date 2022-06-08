@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LabelInfo {
 IL2CPP_REGISTER_METHOD(0x01CE31F0, void, __ctor, (LabelInfo * __this, LabelTarget * node));

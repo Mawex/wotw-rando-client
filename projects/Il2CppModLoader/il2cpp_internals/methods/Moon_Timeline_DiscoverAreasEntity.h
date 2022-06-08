@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::DiscoverAreasEntity {
 IL2CPP_REGISTER_METHOD(0x00764800, SpellUIExperience *, get_Experience, (DiscoverAreasEntity * __this));

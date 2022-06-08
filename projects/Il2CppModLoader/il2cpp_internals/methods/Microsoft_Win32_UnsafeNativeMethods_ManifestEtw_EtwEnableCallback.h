@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EtwEnableCallback {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UnsafeNativeMethods_ManifestEtw_EtwEnableCallback * __this, Object * object, void * method_1));

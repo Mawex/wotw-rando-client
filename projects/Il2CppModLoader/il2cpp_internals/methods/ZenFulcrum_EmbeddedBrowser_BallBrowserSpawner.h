@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::BallBrowserSpawner {
 IL2CPP_REGISTER_METHOD(0x01C60D90, void, Start, (BallBrowserSpawner * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CompleteQuest {
 IL2CPP_REGISTER_METHOD(0x011DEFC0, void, Perform, (CompleteQuest * __this, IContext * context));

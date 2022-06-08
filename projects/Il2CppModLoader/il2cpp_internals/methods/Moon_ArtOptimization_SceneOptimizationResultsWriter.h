@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::SceneOptimizationResultsWriter {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (SceneOptimizationResultsWriter * __this, Dictionary_2_System_String_Moon_ArtOptimization_SceneOptimizationResults_ * sceneResults));

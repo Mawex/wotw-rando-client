@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::AspectRatioFitter {
 IL2CPP_REGISTER_METHOD(0x01F2AB50, void, __ctor, (AspectRatioFitter * __this));

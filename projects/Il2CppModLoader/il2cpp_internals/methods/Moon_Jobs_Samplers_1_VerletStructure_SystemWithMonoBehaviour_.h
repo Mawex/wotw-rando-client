@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Jobs::Samplers_1_VerletStructure_SystemWithMonoBehaviour_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Samplers_1_VerletStructure_SystemWithMonoBehaviour_ * __this));

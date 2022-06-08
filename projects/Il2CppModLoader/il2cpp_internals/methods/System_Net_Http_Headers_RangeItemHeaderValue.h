@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::RangeItemHeaderValue {
 IL2CPP_REGISTER_METHOD(0x02D16450, void, __ctor, (RangeItemHeaderValue * __this, Nullable_1_Int64_ from, Nullable_1_Int64_ to));

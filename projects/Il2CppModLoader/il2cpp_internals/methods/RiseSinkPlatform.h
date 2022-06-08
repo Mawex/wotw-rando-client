@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RiseSinkPlatform {
 IL2CPP_REGISTER_METHOD(0x01355070, void, Awake, (RiseSinkPlatform * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CameraExtensions {
 IL2CPP_REGISTER_METHOD(0x00CC2400, Int2, pixelSize, (Camera * _this));

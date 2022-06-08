@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VolumeEntityMovementProcessor {
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawObstacleHitAvoidanceGizmos, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawObstacleHitAvoidanceGizmos, ());
 IL2CPP_REGISTER_METHOD(0x0119CE50, bool, get_GravityDisabled, (VolumeEntityMovementProcessor * __this));
 IL2CPP_REGISTER_METHOD(0x0119CE60, bool, get_IsObstacleAvoidanceDisabled, (VolumeEntityMovementProcessor * __this));
 IL2CPP_REGISTER_METHOD(0x0119CE70, void, set_IsObstacleAvoidanceDisabled, (VolumeEntityMovementProcessor * __this, bool value));

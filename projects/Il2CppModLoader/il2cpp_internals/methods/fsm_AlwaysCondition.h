@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::fsm::AlwaysCondition {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, Validate, (AlwaysCondition * __this, IContext * context));

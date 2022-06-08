@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JRaw {
 IL2CPP_REGISTER_METHOD(0x01F0F8F0, void, __ctor, (JRaw * __this, JRaw * other));

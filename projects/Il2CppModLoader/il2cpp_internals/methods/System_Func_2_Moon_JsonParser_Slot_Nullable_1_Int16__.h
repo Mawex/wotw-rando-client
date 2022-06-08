@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Moon::JsonParser_Slot_Nullable_1_Int16__ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_Moon_JsonParser_Slot_Nullable_1_Int16_ * __this, Object * object, void * method_1));

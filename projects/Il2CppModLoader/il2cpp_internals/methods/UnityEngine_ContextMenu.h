@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ContextMenu {
 IL2CPP_REGISTER_METHOD(0x0242AD30, void, __ctor, (ContextMenu * __this, String * itemName));

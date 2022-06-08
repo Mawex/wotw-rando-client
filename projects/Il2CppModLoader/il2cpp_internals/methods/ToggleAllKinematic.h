@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ToggleAllKinematic {
 IL2CPP_REGISTER_METHOD(0x00AFBA80, String *, get_Path, (ToggleAllKinematic * __this));

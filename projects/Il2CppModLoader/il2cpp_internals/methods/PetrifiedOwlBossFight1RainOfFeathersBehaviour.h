@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1RainOfFeathersBehaviour {
 IL2CPP_REGISTER_METHOD(0x017694F0, float, get_TimeBetweenProjectiles, (PetrifiedOwlBossFight1RainOfFeathersBehaviour * __this));

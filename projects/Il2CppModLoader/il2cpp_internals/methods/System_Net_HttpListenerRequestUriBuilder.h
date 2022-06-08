@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerRequestUriBuilder {
-IL2CPP_REGISTER_METHOD(0x01D4A6A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D4A6A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01D4A9D0, void, __ctor, (HttpListenerRequestUriBuilder * __this, String * rawUri, String * cookedUriScheme, String * cookedUriHost, String * cookedUriPath, String * cookedUriQuery));
 IL2CPP_REGISTER_METHOD(0x01D4AAC0, Uri *, GetRequestUri, (String * rawUri, String * cookedUriScheme, String * cookedUriHost, String * cookedUriPath, String * cookedUriQuery));
 IL2CPP_REGISTER_METHOD(0x01D4ADD0, Uri *, Build, (HttpListenerRequestUriBuilder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SavePedestal {
 IL2CPP_REGISTER_METHOD(0x009147C0, bool, get_IsShowingHint, (SavePedestal * __this));
@@ -38,10 +38,10 @@ IL2CPP_REGISTER_METHOD(0x00917370, void, ShowHint, (SavePedestal * __this));
 IL2CPP_REGISTER_METHOD(0x009175B0, void, HideHint, (SavePedestal * __this));
 IL2CPP_REGISTER_METHOD(0x00917680, void, SaveOnPedestal, (SavePedestal * __this));
 IL2CPP_REGISTER_METHOD(0x00917BD0, void, SaveGame, (SavePedestal * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnSceneSave, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnSceneSave, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnSceneSave, (SceneRoot * root));
 IL2CPP_REGISTER_METHOD(0x006B8960, bool, get_InvalidateParentTimelineCache, (SavePedestal * __this));
 IL2CPP_REGISTER_METHOD(0x006B8970, void, set_InvalidateParentTimelineCache, (SavePedestal * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00917D50, void, __ctor, (SavePedestal * __this));
-IL2CPP_REGISTER_METHOD(0x00917E00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00917E00, void, __cctor, ());
 }

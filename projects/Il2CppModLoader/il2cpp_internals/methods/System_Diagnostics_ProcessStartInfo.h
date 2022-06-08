@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::ProcessStartInfo {
 IL2CPP_REGISTER_METHOD(0x020035C0, void, __ctor, (ProcessStartInfo * __this, Process * parent));
@@ -25,5 +25,5 @@ IL2CPP_REGISTER_METHOD(0x02003E10, String *, get_WorkingDirectory, (ProcessStart
 IL2CPP_REGISTER_METHOD(0x02003EA0, void, set_WindowStyle, (ProcessStartInfo * __this, ProcessWindowStyle__Enum value));
 IL2CPP_REGISTER_METHODINFO(0x047288F0, ProcessStartInfo_set_WindowStyle__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0107BE90, bool, get_HaveEnvVars, (ProcessStartInfo * __this));
-IL2CPP_REGISTER_METHOD(0x02004020, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02004020, void, __cctor, ());
 }

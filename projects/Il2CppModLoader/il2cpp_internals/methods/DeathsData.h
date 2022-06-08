@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DeathsData {
 IL2CPP_REGISTER_METHOD(0x00AB4D20, RecorderFrame_FrameDataTypes__Enum, FrameType, (DeathsData * __this));

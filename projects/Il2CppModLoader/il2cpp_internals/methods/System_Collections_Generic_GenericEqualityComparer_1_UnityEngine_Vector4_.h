@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_UnityEngine::Vector4_ {
 IL2CPP_REGISTER_METHOD(0x02AB28A0, bool, Equals, (GenericEqualityComparer_1_UnityEngine_Vector4_ * __this, Vector4 x, Vector4 y));

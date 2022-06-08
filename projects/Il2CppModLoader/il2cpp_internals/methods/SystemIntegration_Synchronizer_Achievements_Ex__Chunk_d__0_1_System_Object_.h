@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::Ex__Chunk_d__0_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, List_1_System_Object_ *, System_Collections_Generic_IEnumerator_System_Collections_Generic_List_TValue___get_Current, (Ex_Chunk_d_0_1_System_Object_ * __this));

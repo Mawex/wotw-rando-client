@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UnityTls_unitytls_tlsctx_write_callback * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AVProWindowsMediaMovie {
 IL2CPP_REGISTER_METHOD(0x0312E3B0, Texture *, get_OutputTexture, (AVProWindowsMediaMovie * __this));

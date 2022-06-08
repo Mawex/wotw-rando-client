@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AVProWindowsMediaControlPlayOnEnable {
 IL2CPP_REGISTER_METHOD(0x03129830, void, OnEnable, (AVProWindowsMediaControlPlayOnEnable * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BossHealthbar {
 IL2CPP_REGISTER_METHOD(0x00A26FE0, float, get_Value, (BossHealthbar * __this));

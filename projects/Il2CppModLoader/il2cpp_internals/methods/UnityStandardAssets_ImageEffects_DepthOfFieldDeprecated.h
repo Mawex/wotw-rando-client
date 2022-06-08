@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::DepthOfFieldDeprecated {
 IL2CPP_REGISTER_METHOD(0x02D54500, void, CreateMaterials, (DepthOfFieldDeprecated * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x02D56D70, void, AddBokeh, (DepthOfFieldDeprecated * __t
 IL2CPP_REGISTER_METHOD(0x02D57480, void, ReleaseTextures, (DepthOfFieldDeprecated * __this));
 IL2CPP_REGISTER_METHOD(0x02D57800, void, AllocateTextures, (DepthOfFieldDeprecated * __this, bool blurForeground, RenderTexture * source, int32_t divider, int32_t lowTexDivider));
 IL2CPP_REGISTER_METHOD(0x02D58040, void, __ctor, (DepthOfFieldDeprecated * __this));
-IL2CPP_REGISTER_METHOD(0x02D58100, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02D58100, void, __cctor, ());
 }

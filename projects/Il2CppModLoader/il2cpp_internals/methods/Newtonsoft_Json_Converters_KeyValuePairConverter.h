@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::KeyValuePairConverter {
 IL2CPP_REGISTER_METHOD(0x01A53E30, ReflectionObject *, InitializeReflectionObject, (Type * t));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHOD(0x01A543D0, Object *, ReadJson, (KeyValuePairConverter * 
 IL2CPP_REGISTER_METHODINFO(0x0477E6E0, KeyValuePairConverter_ReadJson__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01A54A60, bool, CanConvert, (KeyValuePairConverter * __this, Type * objectType));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (KeyValuePairConverter * __this));
-IL2CPP_REGISTER_METHOD(0x01A54BB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A54BB0, void, __cctor, ());
 }

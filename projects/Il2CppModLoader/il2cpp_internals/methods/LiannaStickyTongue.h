@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LiannaStickyTongue {
 IL2CPP_REGISTER_METHOD(0x0113F7E0, void, FixedUpdate, (LiannaStickyTongue * __this));

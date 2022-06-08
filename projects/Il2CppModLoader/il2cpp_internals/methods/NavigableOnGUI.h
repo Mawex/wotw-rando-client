@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NavigableOnGUI {
 IL2CPP_REGISTER_METHOD(0x00887DE0, bool, get_isSelected, (NavigableOnGUI_1 * __this));
@@ -26,7 +26,7 @@ IL2CPP_REGISTER_METHOD(0x008899F0, float, FloatField, (NavigableOnGUI_1 * __this
 IL2CPP_REGISTER_METHOD(0x00889B50, int32_t, IntField, (NavigableOnGUI_1 * __this, String * label, int32_t value));
 IL2CPP_REGISTER_METHOD(0x00889C90, void, LabelField, (NavigableOnGUI_1 * __this, String * label, String * value));
 IL2CPP_REGISTER_METHOD(0x00889D90, void, __ctor, (NavigableOnGUI_1 * __this));
-IL2CPP_REGISTER_METHOD(0x00889DB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00889DB0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0088A110, void, _UpdateInput_g__updateTracker_16_0, (NavigableOnGUI_1 * __this, NavigableOnGUI_Tracker_1 * tracker, Input_InputButtonProcessor * decrementButton, Input_InputButtonProcessor * incrementButton, bool updateChangingValue));
 IL2CPP_REGISTER_METHOD(0x0157F8C0, MoonRenderPipelineAsset_FXAADepthPrecull__Enum, EnumField, (NavigableOnGUI_1 * __this, String * label, MoonRenderPipelineAsset_FXAADepthPrecull__Enum value, bool sliderMode));
 IL2CPP_REGISTER_METHODINFO(0x04711B38, NavigableOnGUI_1_EnumField__MethodInfo);

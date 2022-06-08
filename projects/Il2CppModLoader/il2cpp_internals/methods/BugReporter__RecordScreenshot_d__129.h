@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BugReporter__RecordScreenshot_d__129 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (BugReporter_RecordScreenshot_d_129 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::Image {
 IL2CPP_REGISTER_METHOD(0x00D24C40, void, RefreshSprite, (Image_1 * __this));

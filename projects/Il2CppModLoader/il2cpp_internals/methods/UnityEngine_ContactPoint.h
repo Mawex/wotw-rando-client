@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ContactPoint {
 IL2CPP_REGISTER_METHOD(0x001EB5F0, Vector3, get_point, (ContactPoint__Boxed * __this));

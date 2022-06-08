@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsEdge {
 IL2CPP_REGISTER_METHOD(0x014FE040, void, Set, (PhysicsEdge * __this, PhysicsEdge * physicsEdge, bool setSkinning));

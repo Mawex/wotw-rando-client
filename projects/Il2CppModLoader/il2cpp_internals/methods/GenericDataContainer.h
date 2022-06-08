@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericDataContainer {
 IL2CPP_REGISTER_METHOD(0x01B5C7F0, void, CopyDataFrom, (GenericDataContainer * __this, GenericDataContainer * other));

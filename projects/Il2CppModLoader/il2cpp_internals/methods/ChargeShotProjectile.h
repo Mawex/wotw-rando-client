@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChargeShotProjectile {
 IL2CPP_REGISTER_METHOD(0x00675C60, bool, get_IsSuspended, (ChargeShotProjectile * __this));

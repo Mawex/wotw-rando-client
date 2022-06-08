@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_SeinGlowSpell_GlowLightInfo_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, SeinGlowSpell_GlowLightInfo *, get_Current, (List_1_T_Enumerator_SeinGlowSpell_GlowLightInfo___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FadeWhileSceneLoading {
 IL2CPP_REGISTER_METHOD(0x0098FAC0, void, FixedUpdate, (FadeWhileSceneLoading * __this));

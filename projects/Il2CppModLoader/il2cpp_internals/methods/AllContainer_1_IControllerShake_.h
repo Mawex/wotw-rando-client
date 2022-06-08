@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AllContainer_1_IControllerShake_ {
 IL2CPP_REGISTER_METHOD(0x019D7830, void, Add, (AllContainer_1_IControllerShake_ * __this, IControllerShake * item));

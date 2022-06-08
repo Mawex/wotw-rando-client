@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::Vitals_DamageProcessHelper_DamageBucket_ {
 IL2CPP_REGISTER_METHOD(0x00140C90, Vitals_DamageProcessHelper_DamageBucket, get_Current, (List_1_T_Enumerator_Moon_Vitals_DamageProcessHelper_DamageBucket___Boxed * __this));

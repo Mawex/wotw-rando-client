@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MokiNPCEntity {
 IL2CPP_REGISTER_METHOD(0x01331490, String *, get_DialogActorName, (MokiNPCEntity * __this));

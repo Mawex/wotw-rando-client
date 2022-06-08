@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ParticleContentValidator {
 IL2CPP_REGISTER_METHOD(0x016D5510, void, __ctor, (ParticleContentValidator * __this, XmlSchemaContentType__Enum contentType));

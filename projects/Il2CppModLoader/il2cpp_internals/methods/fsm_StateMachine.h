@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::fsm::StateMachine {
 IL2CPP_REGISTER_METHOD(0x00F6EA60, void, __ctor, (StateMachine_2 * __this));

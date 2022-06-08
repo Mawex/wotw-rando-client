@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_TKey_TElement__Grouping_TKey_TElement___GetEnumerator_d__7_System::Object_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
 IL2CPP_REGISTER_METHOD(0x01D09710, void, __ctor, (Lookup_2_TKey_TElement_Grouping_TKey_TElement_GetEnumerator_d_7_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, int32_t __1__state));

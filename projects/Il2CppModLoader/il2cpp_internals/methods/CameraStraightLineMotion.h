@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraStraightLineMotion {
 IL2CPP_REGISTER_METHOD(0x00B1E330, void, add_OnMotionFinishedEvent, (CameraStraightLineMotion * __this, Action * value));

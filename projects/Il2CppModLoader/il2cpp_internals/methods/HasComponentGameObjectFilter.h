@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasComponentGameObjectFilter {
 IL2CPP_REGISTER_METHOD(0x0109DFE0, void, Start, (HasComponentGameObjectFilter * __this));

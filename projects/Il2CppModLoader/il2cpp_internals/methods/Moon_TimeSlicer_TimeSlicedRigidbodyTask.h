@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedRigidbodyTask {
 IL2CPP_REGISTER_METHOD(0x010C4560, void, __ctor, (TimeSlicedRigidbodyTask * __this, PhysicalSystemManager * manager, IEnumerator * routine, bool activate, GameObject * owner, Action_1_Boolean_ * onJobCompleted, String * sceneName));

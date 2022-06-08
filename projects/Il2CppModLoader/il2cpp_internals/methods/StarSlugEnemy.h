@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StarSlugEnemy {
 IL2CPP_REGISTER_METHOD(0x009AF690, void, FixedUpdate, (StarSlugEnemy * __this));

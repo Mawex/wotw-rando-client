@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_UnityEngine::UI::ColorBlock_ {
 IL2CPP_REGISTER_METHOD(0x02AB2AE0, bool, Equals, (GenericEqualityComparer_1_UnityEngine_UI_ColorBlock_ * __this, ColorBlock x, ColorBlock y));

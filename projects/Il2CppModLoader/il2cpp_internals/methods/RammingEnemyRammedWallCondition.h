@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RammingEnemyRammedWallCondition {
 IL2CPP_REGISTER_METHOD(0x0072D760, bool, Validate, (RammingEnemyRammedWallCondition * __this, IContext * context));

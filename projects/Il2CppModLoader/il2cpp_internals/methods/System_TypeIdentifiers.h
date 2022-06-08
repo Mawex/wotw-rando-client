@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TypeIdentifiers {
 IL2CPP_REGISTER_METHOD(0x027C09A0, TypeIdentifier *, FromDisplay, (String * displayName));

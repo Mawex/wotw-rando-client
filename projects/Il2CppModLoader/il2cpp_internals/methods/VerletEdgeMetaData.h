@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletEdgeMetaData {
 IL2CPP_REGISTER_METHOD(0x013C4400, void, OnAddEdge, (VerletEdgeMetaData * __this, CageStructureTool_Edge * edge));

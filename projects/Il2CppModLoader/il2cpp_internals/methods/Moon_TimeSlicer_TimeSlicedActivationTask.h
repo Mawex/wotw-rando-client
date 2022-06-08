@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedActivationTask {
 IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_Activate, (TimeSlicedActivationTask * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x010C19F0, void, Reset, (TimeSlicedActivationTask * __th
 IL2CPP_REGISTER_METHOD(0x010C1A20, String *, get_JobName, (TimeSlicedActivationTask * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9D0, String *, get_TimesliceJobOwnerName, (TimeSlicedActivationTask * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_ContextualDebugData, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C1B10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010C1B10, void, __cctor, ());
 }

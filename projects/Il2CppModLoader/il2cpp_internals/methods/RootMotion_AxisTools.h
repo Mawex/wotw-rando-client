@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::AxisTools {
 IL2CPP_REGISTER_METHOD(0x021FB560, Vector3, ToVector3, (Axis__Enum axis));

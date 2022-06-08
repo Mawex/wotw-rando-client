@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::CinematicCharacterAnimator {
 IL2CPP_REGISTER_METHOD(0x0040CCC0, float, get_CachedMoonAnimationDuration, (CinematicCharacterAnimator * __this));

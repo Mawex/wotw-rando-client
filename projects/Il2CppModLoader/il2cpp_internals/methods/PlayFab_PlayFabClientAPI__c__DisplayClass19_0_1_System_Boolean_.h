@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabClientAPI___c__DisplayClass19_0_1_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (PlayFabClientAPI_c_DisplayClass19_0_1_System_Boolean_ * __this));

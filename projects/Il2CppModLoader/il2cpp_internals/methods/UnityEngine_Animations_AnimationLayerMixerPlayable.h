@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Animations::AnimationLayerMixerPlayable {
 IL2CPP_REGISTER_METHOD(0x002417B0, void, __ctor, (AnimationLayerMixerPlayable__Boxed * __this, PlayableHandle handle));
@@ -15,6 +15,6 @@ IL2CPP_REGISTER_METHODINFO(0x0471C9A0, AnimationLayerMixerPlayable_SetLayerMaskF
 IL2CPP_REGISTER_METHOD(0x0307D040, bool, CreateHandleInternal, (PlayableGraph graph, PlayableHandle * handle));
 IL2CPP_REGISTER_METHOD(0x0307D130, void, SetLayerAdditiveInternal, (PlayableHandle * handle, uint32_t layerIndex, bool value));
 IL2CPP_REGISTER_METHOD(0x0307D1A0, void, SetLayerMaskFromAvatarMaskInternal, (PlayableHandle * handle, uint32_t layerIndex, AvatarMask * mask));
-IL2CPP_REGISTER_METHOD(0x0307D210, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0307D210, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0307D2E0, bool, CreateHandleInternal_Injected, (PlayableGraph * graph, PlayableHandle * handle));
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Queue_QueueEnumerator {
 IL2CPP_REGISTER_METHOD(0x0202C5A0, void, __ctor, (Queue_QueueEnumerator * __this, Queue * q));

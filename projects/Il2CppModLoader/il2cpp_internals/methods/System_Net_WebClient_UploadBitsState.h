@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebClient_UploadBitsState {
 IL2CPP_REGISTER_METHOD(0x01D60B60, void, __ctor, (WebClient_UploadBitsState * __this, WebRequest * request, Stream * readStream, Byte__Array * buffer, int32_t chunkSize, Byte__Array * header, Byte__Array * footer, CompletionDelegate * uploadCompletionDelegate, CompletionDelegate * downloadCompletionDelegate, AsyncOperation * asyncOp, WebClient_ProgressData * progress, WebClient * webClient));

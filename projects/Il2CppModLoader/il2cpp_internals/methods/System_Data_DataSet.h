@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataSet {
 IL2CPP_REGISTER_METHOD(0x017E2750, void, __ctor, (DataSet * __this));
@@ -111,5 +111,5 @@ IL2CPP_REGISTER_METHOD(0x017F2DB0, void, IXmlSerializable_WriteXml, (DataSet * _
 IL2CPP_REGISTER_METHOD(0x002FBBC0, String *, get_MainTableName, (DataSet * __this));
 IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_MainTableName, (DataSet * __this, String * value));
 IL2CPP_REGISTER_METHOD(0x00989BF0, int32_t, get_ObjectID, (DataSet * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

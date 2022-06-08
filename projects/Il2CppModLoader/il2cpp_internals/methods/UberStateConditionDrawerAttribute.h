@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStateConditionDrawerAttribute {
 IL2CPP_REGISTER_METHOD(0x002FA280, Type *, get_ConditionType, (UberStateConditionDrawerAttribute * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::HMACSHA384 {
 IL2CPP_REGISTER_METHOD(0x020DA450, void, __ctor, (HMACSHA384 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::BufferOffsetSize2 {
 IL2CPP_REGISTER_METHOD(0x0217C920, void, __ctor, (BufferOffsetSize2 * __this, int32_t size));

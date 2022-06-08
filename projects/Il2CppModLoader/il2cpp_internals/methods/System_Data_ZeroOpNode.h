@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ZeroOpNode {
 IL2CPP_REGISTER_METHOD(0x030649E0, void, __ctor, (ZeroOpNode * __this, int32_t op));

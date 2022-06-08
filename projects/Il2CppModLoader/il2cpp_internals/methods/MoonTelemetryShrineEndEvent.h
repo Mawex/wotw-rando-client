@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryShrineEndEvent {
 IL2CPP_REGISTER_METHOD(0x01472650, void, __ctor, (MoonTelemetryShrineEndEvent * __this, float time, MoonTelemetryShrineEndEvent_ShrineResult__Enum result, String * sceneName));

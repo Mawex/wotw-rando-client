@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::NameObjectCollectionBase {
 IL2CPP_REGISTER_METHOD(0x02496680, void, __ctor, (NameObjectCollectionBase * __this));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHOD(0x02498980, Object *, ICollection_get_SyncRoot, (NameObje
 IL2CPP_REGISTER_METHOD(0x00417870, bool, ICollection_get_IsSynchronized, (NameObjectCollectionBase * __this));
 IL2CPP_REGISTER_METHOD(0x02498AE0, String__Array *, BaseGetAllKeys, (NameObjectCollectionBase * __this));
 IL2CPP_REGISTER_METHOD(0x02498C20, NameObjectCollectionBase_KeysCollection *, get_Keys, (NameObjectCollectionBase * __this));
-IL2CPP_REGISTER_METHOD(0x02498D70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02498D70, void, __cctor, ());
 }

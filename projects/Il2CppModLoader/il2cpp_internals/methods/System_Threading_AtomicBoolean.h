@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::AtomicBoolean {
 IL2CPP_REGISTER_METHOD(0x027D82B0, bool, TryRelaxedSet, (AtomicBoolean * __this));

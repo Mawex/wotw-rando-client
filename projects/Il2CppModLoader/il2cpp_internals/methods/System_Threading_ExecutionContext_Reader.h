@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ExecutionContext_Reader {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (ExecutionContext_Reader__Boxed * __this, ExecutionContext * ec));

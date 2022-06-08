@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Authenticode::PrivateKey {
 IL2CPP_REGISTER_METHOD(0x02A38DB0, void, __ctor, (PrivateKey * __this, Byte__Array * data, String * password));

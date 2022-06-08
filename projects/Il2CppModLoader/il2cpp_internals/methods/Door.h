@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Door {
 IL2CPP_REGISTER_METHOD(0x00B9C830, GameObject *, get_Target, (Door * __this));

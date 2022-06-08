@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_doubleXdr {
 IL2CPP_REGISTER_METHOD(0x0235C4B0, Object *, ParseValue, (Datatype_doubleXdr * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr));

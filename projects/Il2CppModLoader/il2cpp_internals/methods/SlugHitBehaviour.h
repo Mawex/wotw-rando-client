@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SlugHitBehaviour {
 IL2CPP_REGISTER_METHOD(0x006C5B70, void, OnInitialize, (SlugHitBehaviour * __this));

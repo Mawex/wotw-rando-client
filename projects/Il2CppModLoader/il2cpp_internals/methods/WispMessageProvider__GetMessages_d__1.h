@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WispMessageProvider__GetMessages_d__1 {
 IL2CPP_REGISTER_METHOD(0x004BD8A0, void, __ctor, (WispMessageProvider_GetMessages_d_1 * __this, int32_t __1__state));

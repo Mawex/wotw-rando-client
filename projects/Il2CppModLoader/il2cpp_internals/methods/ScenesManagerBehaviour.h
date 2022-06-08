@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScenesManagerBehaviour {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, List_1_SceneOperation_ *, get_SceneOperationsEnable, (ScenesManagerBehaviour * __this));

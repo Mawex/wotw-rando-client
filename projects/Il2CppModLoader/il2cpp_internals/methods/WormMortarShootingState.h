@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WormMortarShootingState {
 IL2CPP_REGISTER_METHOD(0x0058EEA0, void, __ctor, (WormMortarShootingState * __this, WormEnemy * worm, MortarWormDirectionalAnimations * shoot, PrefabSpawner * shootEffect, SoundSource * shootSound, ProjectileSpawner * projectileSpawner, float shootDelay, float projectileDamage));

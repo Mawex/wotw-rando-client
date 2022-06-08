@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriggerColliderCallback_OnTrigger_Callback {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (TriggerColliderCallback_OnTrigger_Callback * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::CustomTimelineConstraint {
 IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_Dirty, (CustomTimelineConstraint * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LagoonContactSwitchGroupAction {
 IL2CPP_REGISTER_METHOD(0x00F01420, void, OnEnable, (LagoonContactSwitchGroupAction * __this));

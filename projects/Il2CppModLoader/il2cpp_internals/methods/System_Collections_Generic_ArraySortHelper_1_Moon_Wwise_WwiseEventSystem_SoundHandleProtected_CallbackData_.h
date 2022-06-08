@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::Wwise::WwiseEventSystem_SoundHandleProtected_CallbackData_ {
 IL2CPP_REGISTER_METHOD(0x02F78B80, void, Sort, (WwiseEventSystem_SoundHandleProtected_CallbackData__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_Wwise_WwiseEventSystem_SoundHandleProtected_CallbackData_ * comparer));

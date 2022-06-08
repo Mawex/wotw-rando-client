@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FinishHandlerService {
 IL2CPP_REGISTER_METHOD(0x01255F50, void, Setup, (FinishHandlerService * __this, List_1_GhostPlayer_ * ghosts));

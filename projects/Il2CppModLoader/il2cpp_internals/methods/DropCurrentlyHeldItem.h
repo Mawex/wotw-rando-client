@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropCurrentlyHeldItem {
 IL2CPP_REGISTER_METHOD(0x00BDCEE0, void, Perform, (DropCurrentlyHeldItem * __this, IContext * context));

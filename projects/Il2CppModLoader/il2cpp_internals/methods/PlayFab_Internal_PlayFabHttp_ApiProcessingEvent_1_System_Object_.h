@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabHttp_ApiProcessingEvent_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (PlayFabHttp_ApiProcessingEvent_1_System_Object_ * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HealthController {
 IL2CPP_REGISTER_METHOD(0x010A16F0, void, Awake, (HealthController * __this));

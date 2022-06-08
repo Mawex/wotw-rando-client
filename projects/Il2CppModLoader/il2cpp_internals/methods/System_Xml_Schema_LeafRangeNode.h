@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::LeafRangeNode {
 IL2CPP_REGISTER_METHOD(0x016CD250, void, __ctor, (LeafRangeNode * __this, Decimal min, Decimal max));

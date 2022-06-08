@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DataObjectFieldAttribute {
 IL2CPP_REGISTER_METHOD(0x01FDE6D0, void, __ctor, (DataObjectFieldAttribute * __this, bool primaryKey));

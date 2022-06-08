@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::AlphaBlendModeEntity {
 IL2CPP_REGISTER_METHOD(0x010C7360, IAlphaBlendModeController *, get_EffectiveTarget, (AlphaBlendModeEntity * __this));

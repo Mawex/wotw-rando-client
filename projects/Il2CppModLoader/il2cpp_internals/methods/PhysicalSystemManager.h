@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicalSystemManager {
-IL2CPP_REGISTER_METHOD(0x014EF460, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014EF460, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x014EF540, bool, get_UseTimesliceEffective, (PhysicalSystemManager * __this));
 IL2CPP_REGISTER_METHOD(0x014EF600, void, set_UseTimesliceEffective, (PhysicalSystemManager * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x014EF610, bool, get_UseMoonFlags, (PhysicalSystemManager * __this));
@@ -88,5 +88,5 @@ IL2CPP_REGISTER_METHOD(0x00420EE0, RecordableParsingGroup__Enum, IRecordable_get
 IL2CPP_REGISTER_METHOD(0x014F84F0, void, SetIterations, (PhysicalSystemManager * __this, Rigidbody__Array * bodies, int32_t iterations));
 IL2CPP_REGISTER_METHOD(0x014F85B0, void, Prewarm, (PhysicalSystemManager * __this));
 IL2CPP_REGISTER_METHOD(0x014F8640, void, __ctor, (PhysicalSystemManager * __this));
-IL2CPP_REGISTER_METHOD(0x014F8C80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014F8C80, void, __cctor, ());
 }

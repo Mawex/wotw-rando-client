@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaxEnergyDebugMenuItem {
 IL2CPP_REGISTER_METHOD(0x013855B0, void, __ctor, (MaxEnergyDebugMenuItem * __this, String * path, String * str));

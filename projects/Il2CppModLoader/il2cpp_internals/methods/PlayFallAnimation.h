@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFallAnimation {
 IL2CPP_REGISTER_METHOD(0x01179380, void, Perform, (PlayFallAnimation * __this, IContext * context));

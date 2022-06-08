@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeWeapon {
 IL2CPP_REGISTER_METHOD(0x002FB9F0, MoonAnimator *, get_WeaponAnimator, (MeleeWeapon * __this));
@@ -43,7 +43,7 @@ IL2CPP_REGISTER_METHOD(0x00420230, RecordableParsingGroup__Enum, get_ParsingGrou
 IL2CPP_REGISTER_METHOD(0x009C6AF0, TrackingExclusions, get_TrackingExclusions, (MeleeWeapon * __this));
 IL2CPP_REGISTER_METHOD(0x009C6B00, void, ResetInputCache, (MeleeWeapon * __this));
 IL2CPP_REGISTER_METHOD(0x009C6B10, void, __ctor, (MeleeWeapon * __this));
-IL2CPP_REGISTER_METHOD(0x009C6E20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009C6E20, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonTypeResolver *, GetResolverForType, (MeleeWeapon * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonTypeResolver *, GetResolverForType, (MeleeWeapon * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonTypeResolver *, GetResolverForType, (MeleeWeapon * __this));

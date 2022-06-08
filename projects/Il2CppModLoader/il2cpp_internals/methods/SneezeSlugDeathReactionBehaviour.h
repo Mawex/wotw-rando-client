@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SneezeSlugDeathReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00ED84E0, void, OnCacheSerializedComponents, (SneezeSlugDeathReactionBehaviour * __this, Entity * owner));

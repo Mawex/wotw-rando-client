@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::EnumMap_EnumMapMember {
 IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (EnumMap_EnumMapMember * __this, String * xmlName, String * enumName, int64_t value));

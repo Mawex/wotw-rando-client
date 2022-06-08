@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameObjectExtensions {
 IL2CPP_REGISTER_METHOD(0x015855E0, Object__Array *, GetInterfaces, (GameObject * gObj));

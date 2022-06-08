@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletEdge {
 IL2CPP_REGISTER_METHOD(0x013C3E30, void, Set, (VerletEdge * __this, VerletEdge * verletEdge, bool setSkinning));

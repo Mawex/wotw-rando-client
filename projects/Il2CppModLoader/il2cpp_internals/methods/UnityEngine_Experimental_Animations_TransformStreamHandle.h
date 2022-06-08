@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Animations::TransformStreamHandle {
 IL2CPP_REGISTER_METHOD(0x002431E0, bool, IsValidInternal, (TransformStreamHandle__Boxed * __this, AnimationStream * stream));

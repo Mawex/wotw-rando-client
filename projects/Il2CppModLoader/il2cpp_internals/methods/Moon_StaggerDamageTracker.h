@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::StaggerDamageTracker {
 IL2CPP_REGISTER_METHOD(0x00E2F880, float, get_Acumulator, (StaggerDamageTracker * __this));

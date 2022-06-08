@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpitterEnemyThrownState {
 IL2CPP_REGISTER_METHOD(0x004C1E90, void, __ctor, (SpitterEnemyThrownState * __this, SpitterEnemy * enemy));

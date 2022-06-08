@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ModularZone {
 IL2CPP_REGISTER_METHOD(0x0132F750, float, get_TimeSinceLastActive, (ModularZone * __this));

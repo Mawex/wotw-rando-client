@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AcidSlugEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x004C4260, LegacyEntity *, Instantiate, (AcidSlugEnemyPlaceholder * __this));

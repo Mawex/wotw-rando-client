@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::LineRenderer {
 IL2CPP_REGISTER_METHOD(0x0252FEC0, void, SetWidth, (LineRenderer * __this, float start, float end));

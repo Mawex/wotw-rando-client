@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_OrbSpawnerManager_ItemToSpawn_ {
 IL2CPP_REGISTER_METHOD(0x001ED940, void, __ctor, (Queue_1_T_Enumerator_OrbSpawnerManager_ItemToSpawn___Boxed * __this, Queue_1_OrbSpawnerManager_ItemToSpawn_ * q));

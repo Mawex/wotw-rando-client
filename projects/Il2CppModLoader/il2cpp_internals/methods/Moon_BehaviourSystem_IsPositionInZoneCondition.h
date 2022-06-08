@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::IsPositionInZoneCondition {
 IL2CPP_REGISTER_METHOD(0x00CBA440, String *, get_Info, (IsPositionInZoneCondition * __this));

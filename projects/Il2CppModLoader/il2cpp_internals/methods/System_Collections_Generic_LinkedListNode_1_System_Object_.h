@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::LinkedListNode_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x018E6AD0, LinkedListNode_1_System_Object_ *, get_Next, (LinkedListNode_1_System_Object_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SceneManagement::LoadSceneParameters {
 IL2CPP_REGISTER_METHOD(0x00218590, void, __ctor, (LoadSceneParameters__Boxed * __this, LoadSceneMode__Enum mode));

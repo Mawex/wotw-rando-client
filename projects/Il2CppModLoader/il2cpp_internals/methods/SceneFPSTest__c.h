@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneFPSTest___c {
-IL2CPP_REGISTER_METHOD(0x00B9D4D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B9D4D0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SceneFPSTest_c * __this));
 IL2CPP_REGISTER_METHOD(0x00B9D610, bool, _HandleLastTestFinished_b__79_0, (SceneFPSTest_c * __this, SceneManagerScene * sceneManagerScene));
 IL2CPP_REGISTER_METHODINFO(0x04722B08, SceneFPSTest_c__HandleLastTestFinished_b__79_0__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NodeGraphPathFinder {
 IL2CPP_REGISTER_METHOD(0x0060AA00, bool, GeneratePathUsingDijkstra, (NodeGraphPathFinder * __this, Segment_1 * startSegment, Vector3 startPosition, Segment_1 * goalSegment, Vector3 endPosition));

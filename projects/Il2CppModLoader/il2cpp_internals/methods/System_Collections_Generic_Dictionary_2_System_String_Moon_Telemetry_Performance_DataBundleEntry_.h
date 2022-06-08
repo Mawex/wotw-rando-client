@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_Moon::Telemetry::Performance::DataBundleEntry_ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_String_Moon_Telemetry_Performance_DataBundleEntry_ * __this));

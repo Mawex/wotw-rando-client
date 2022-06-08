@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageStructureTool {
 IL2CPP_REGISTER_METHOD(0x00824770, void, add_OnAddVertex, (CageStructureTool * __this, Action_1_CageStructureTool_Vertex_ * value));
@@ -101,7 +101,7 @@ IL2CPP_REGISTER_METHOD(0x00838240, Bounds, CalculateBoundsFromFaces, (CageStruct
 IL2CPP_REGISTER_METHOD(0x008383B0, Bounds, CalculateBoundsFromFace, (CageStructureTool * __this, CageStructureTool_Face * face));
 IL2CPP_REGISTER_METHOD(0x008389C0, int32_t, GetHashForVerticeList, (List_1_System_Int32_ * verts));
 IL2CPP_REGISTER_METHOD(0x00838B90, void, __ctor, (CageStructureTool * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02654810, int32_t, GetSequenceHashCode, (IList_1_System_Object_ * sequence));
 IL2CPP_REGISTER_METHOD(0x02654810, int32_t, GetSequenceHashCode, (IList_1_System_Int32_ * sequence));
 IL2CPP_REGISTER_METHODINFO(0x047459D0, CageStructureTool_GetSequenceHashCode_1__MethodInfo);

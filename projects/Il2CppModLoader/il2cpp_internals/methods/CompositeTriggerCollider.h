@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CompositeTriggerCollider {
 IL2CPP_REGISTER_METHOD(0x011DF060, void, Start, (CompositeTriggerCollider * __this));

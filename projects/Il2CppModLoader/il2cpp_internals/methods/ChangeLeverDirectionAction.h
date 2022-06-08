@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChangeLeverDirectionAction {
 IL2CPP_REGISTER_METHOD(0x004994E0, float, get_Duration, (ChangeLeverDirectionAction * __this));

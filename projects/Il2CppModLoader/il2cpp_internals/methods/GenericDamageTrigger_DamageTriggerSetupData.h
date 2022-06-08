@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericDamageTrigger_DamageTriggerSetupData {
 IL2CPP_REGISTER_METHOD(0x002FA280, MoonReference_1_Moon_Timeline_MoonTimeline_ *, get_TransitionMoonReference, (GenericDamageTrigger_DamageTriggerSetupData * __this));

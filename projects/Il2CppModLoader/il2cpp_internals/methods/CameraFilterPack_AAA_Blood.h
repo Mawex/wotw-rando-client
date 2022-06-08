@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_AAA_Blood {
 IL2CPP_REGISTER_METHOD(0x0273A040, Material *, get_material, (CameraFilterPack_AAA_Blood * __this));

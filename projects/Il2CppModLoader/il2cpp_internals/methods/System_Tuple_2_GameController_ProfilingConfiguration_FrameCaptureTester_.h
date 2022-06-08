@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester_ {
 IL2CPP_REGISTER_METHOD(0x02A64EE0, void, __ctor, (Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester_ * __this, GameController_ProfilingConfiguration__Enum item1, FrameCaptureTester * item2));

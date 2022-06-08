@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Extensions::RecursiveSelectExtensions {
 IL2CPP_REGISTER_METHOD(0x00E7D2A0, IEnumerable_1_System_Object_ *, RecursiveSelect, (IEnumerable_1_System_Object_ * source, Func_2_Object_System_Collections_Generic_IEnumerable_1_ * childSelector));

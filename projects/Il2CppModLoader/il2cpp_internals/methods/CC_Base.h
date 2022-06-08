@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CC_Base {
 IL2CPP_REGISTER_METHOD(0x031922C0, void, Start, (CC_Base * __this));

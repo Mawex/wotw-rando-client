@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::CanSkipRaceCondition {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, Validate, (CanSkipRaceCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VideoProgressBar {
 IL2CPP_REGISTER_METHOD(0x008C04B0, void, Awake, (VideoProgressBar * __this));

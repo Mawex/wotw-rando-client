@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerRequest_Context {
 IL2CPP_REGISTER_METHOD(0x01D4A310, ChannelBinding *, GetChannelBinding, (HttpListenerRequest_Context * __this, ChannelBindingKind__Enum kind));

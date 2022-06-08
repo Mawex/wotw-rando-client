@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_Moon::IWaterfallInteractionAgent_ {
 IL2CPP_REGISTER_METHOD(0x02AB4A90, void, Clear, (HashSet_1_Moon_IWaterfallInteractionAgent_ * __this));

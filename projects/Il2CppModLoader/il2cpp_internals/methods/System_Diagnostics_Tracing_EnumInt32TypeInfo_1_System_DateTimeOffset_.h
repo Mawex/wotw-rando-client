@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumInt32TypeInfo_1_System::DateTimeOffset_ {
 IL2CPP_REGISTER_METHOD(0x02F4BAE0, void, WriteMetadata, (EnumInt32TypeInfo_1_System_DateTimeOffset_ * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));

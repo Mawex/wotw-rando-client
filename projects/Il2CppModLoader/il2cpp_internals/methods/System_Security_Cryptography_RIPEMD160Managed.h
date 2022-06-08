@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RIPEMD160Managed {
 IL2CPP_REGISTER_METHOD(0x028E0A70, void, __ctor, (RIPEMD160Managed * __this));

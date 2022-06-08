@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::AxisEventData {
 IL2CPP_REGISTER_METHOD(0x01F19AE0, void, __ctor, (AxisEventData * __this, EventSystem * eventSystem));

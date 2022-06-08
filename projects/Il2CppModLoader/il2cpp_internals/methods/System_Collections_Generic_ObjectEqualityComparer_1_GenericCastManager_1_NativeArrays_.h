@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_GenericCastManager_1_NativeArrays_ {
 IL2CPP_REGISTER_METHOD(0x01CD2D60, bool, Equals, (ObjectEqualityComparer_1_GenericCastManager_1_NativeArrays_ * __this, GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand_ x, GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand_ y));

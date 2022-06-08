@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_SetOnInvokeMres {
 IL2CPP_REGISTER_METHOD(0x0233B580, void, __ctor, (Task_SetOnInvokeMres * __this));

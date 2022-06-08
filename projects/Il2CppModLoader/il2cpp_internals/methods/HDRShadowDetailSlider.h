@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HDRShadowDetailSlider {
 IL2CPP_REGISTER_METHOD(0x0109BB50, void, Awake, (HDRShadowDetailSlider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Type {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Type * __this));
@@ -19,8 +19,8 @@ IL2CPP_REGISTER_METHOD(0x027BB5E0, Type *, MakeArrayType, (Type * __this, int32_
 IL2CPP_REGISTER_METHODINFO(0x04787FD0, Type_MakeArrayType_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027BB630, TypeCode__Enum, GetTypeCode, (Type * type));
 IL2CPP_REGISTER_METHOD(0x027BB6E0, TypeCode__Enum, GetTypeCodeImpl, (Type * __this));
-IL2CPP_REGISTER_METHOD(0x027BB820, Binder *, get_DefaultBinder, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x027BB920, void, CreateBinder, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027BB820, Binder *, get_DefaultBinder, ());
+IL2CPP_REGISTER_METHOD(0x027BB920, void, CreateBinder, ());
 IL2CPP_REGISTER_METHOD(0x027BBAC0, Object *, InvokeMember, (Type * __this, String * name, BindingFlags__Enum invokeAttr, Binder * binder, Object * target, Object__Array * args));
 IL2CPP_REGISTER_METHOD(0x027BBB10, RuntimeTypeHandle, get_TypeHandle, (Type * __this));
 IL2CPP_REGISTER_METHODINFO(0x047034C8, Type_get_TypeHandle__MethodInfo);
@@ -151,5 +151,5 @@ IL2CPP_REGISTER_METHOD(0x027C0290, Type *, GetType, (String * typeName, bool thr
 IL2CPP_REGISTER_METHODINFO(0x04733600, Type_GetType_6__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027C0480, Type *, GetTypeFromHandle, (RuntimeTypeHandle handle));
 IL2CPP_REGISTER_METHOD(0x027C0530, Type *, internal_from_handle, (void * handle));
-IL2CPP_REGISTER_METHOD(0x027C0550, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027C0550, void, __cctor, ());
 }

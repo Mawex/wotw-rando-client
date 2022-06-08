@@ -1,14 +1,14 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUIClip {
-IL2CPP_REGISTER_METHOD(0x029E2440, Rect, get_visibleRect, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E2440, Rect, get_visibleRect, ());
 IL2CPP_REGISTER_METHOD(0x029E24B0, void, Internal_Push, (Rect screenRect, Vector2 scrollOffset, Vector2 renderOffset, bool resetOffset));
-IL2CPP_REGISTER_METHOD(0x029E2530, void, Internal_Pop, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E2530, void, Internal_Pop, ());
 IL2CPP_REGISTER_METHOD(0x029E2580, Vector2, Unclip_Vector2, (Vector2 pos));
-IL2CPP_REGISTER_METHOD(0x029D9F60, Matrix4x4, GetMatrix, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029D9F60, Matrix4x4, GetMatrix, ());
 IL2CPP_REGISTER_METHOD(0x029E25F0, void, SetMatrix, (Matrix4x4 m));
 IL2CPP_REGISTER_METHOD(0x029E2640, void, Push, (Rect screenRect, Vector2 scrollOffset, Vector2 renderOffset, bool resetOffset));
-IL2CPP_REGISTER_METHOD(0x029E2530, void, Pop, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E2530, void, Pop, ());
 IL2CPP_REGISTER_METHOD(0x029E26C0, Vector2, Unclip, (Vector2 pos));
 IL2CPP_REGISTER_METHOD(0x029E2730, void, get_visibleRect_Injected, (Rect * ret));
 IL2CPP_REGISTER_METHOD(0x029E2780, void, Internal_Push_Injected, (Rect * screenRect, Vector2 * scrollOffset, Vector2 * renderOffset, bool resetOffset));

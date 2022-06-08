@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartDamageCheckAction {
 IL2CPP_REGISTER_METHOD(0x00B35ED0, void, Perform, (CartDamageCheckAction * __this, IContext * context));

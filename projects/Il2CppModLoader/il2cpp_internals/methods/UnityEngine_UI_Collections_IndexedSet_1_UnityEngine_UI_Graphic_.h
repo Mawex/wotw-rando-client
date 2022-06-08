@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Collections::IndexedSet_1_UnityEngine::UI::Graphic_ {
 IL2CPP_REGISTER_METHOD(0x02ACD3D0, bool, AddUnique, (IndexedSet_1_UnityEngine_UI_Graphic_ * __this, Graphic * item));

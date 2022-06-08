@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarEmergeBehaviour {
 IL2CPP_REGISTER_METHOD(0x01475DC0, void, OnEnter, (MortarEmergeBehaviour * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerRequest_GCCDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (HttpListenerRequest_GCCDelegate * __this, Object * object, void * method_1));

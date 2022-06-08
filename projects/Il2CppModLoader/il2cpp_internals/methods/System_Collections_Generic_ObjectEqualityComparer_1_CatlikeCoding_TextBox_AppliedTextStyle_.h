@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_CatlikeCoding::TextBox::AppliedTextStyle_ {
 IL2CPP_REGISTER_METHOD(0x01CD1410, bool, Equals, (ObjectEqualityComparer_1_CatlikeCoding_TextBox_AppliedTextStyle_ * __this, AppliedTextStyle x, AppliedTextStyle y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::AnimatorStateInfo {
 IL2CPP_REGISTER_METHOD(0x00242670, bool, IsName, (AnimatorStateInfo__Boxed * __this, String * name));

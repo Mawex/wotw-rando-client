@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlTypeMapping {
 IL2CPP_REGISTER_METHOD(0x0194FA20, void, __ctor, (XmlTypeMapping * __this, String * elementName, String * ns, TypeData * typeData, String * xmlType, String * xmlTypeNamespace));

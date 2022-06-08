@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_QName {
 IL2CPP_REGISTER_METHOD(0x02356E60, XmlValueConverter *, CreateValueConverter, (Datatype_QName * __this, XmlSchemaType * schemaType));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x02357820, Type *, get_ListValueType, (Datatype_QName * 
 IL2CPP_REGISTER_METHOD(0x0043D9E0, XmlSchemaWhiteSpace__Enum, get_BuiltInWhitespaceFacet, (Datatype_QName * __this));
 IL2CPP_REGISTER_METHOD(0x023578C0, Exception *, TryParseValue, (Datatype_QName * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x02357B90, void, __ctor, (Datatype_QName * __this));
-IL2CPP_REGISTER_METHOD(0x02357C30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02357C30, void, __cctor, ());
 }

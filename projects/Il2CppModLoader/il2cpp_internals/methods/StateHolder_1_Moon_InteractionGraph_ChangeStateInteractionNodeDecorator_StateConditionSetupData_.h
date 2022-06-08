@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateHolder_1_Moon::InteractionGraph::ChangeStateInteractionNodeDecorator_StateConditionSetupData_ {
 IL2CPP_REGISTER_METHOD(0x01D197E0, void, __ctor, (StateHolder_1_Moon_InteractionGraph_ChangeStateInteractionNodeDecorator_StateConditionSetupData_ * __this));

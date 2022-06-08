@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerPickaxeAttack {
 IL2CPP_REGISTER_METHOD(0x0144E540, void, OnEntityInitialized, (MinerPickaxeAttack * __this));

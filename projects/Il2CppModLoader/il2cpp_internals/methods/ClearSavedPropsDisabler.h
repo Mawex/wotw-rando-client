@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ClearSavedPropsDisabler {
 IL2CPP_REGISTER_METHOD(0x012ACB70, void, OnEnable, (ClearSavedPropsDisabler * __this));

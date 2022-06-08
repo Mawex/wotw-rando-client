@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransformAnimator {
 IL2CPP_REGISTER_METHOD(0x00B06110, Transform *, get_EffectiveTranform, (TransformAnimator * __this));

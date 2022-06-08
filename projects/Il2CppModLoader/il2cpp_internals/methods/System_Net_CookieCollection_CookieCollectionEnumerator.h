@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::CookieCollection_CookieCollectionEnumerator {
 IL2CPP_REGISTER_METHOD(0x01EA2210, void, __ctor, (CookieCollection_CookieCollectionEnumerator * __this, CookieCollection * cookies));

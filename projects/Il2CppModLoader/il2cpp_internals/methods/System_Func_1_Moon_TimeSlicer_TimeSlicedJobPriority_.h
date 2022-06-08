@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_1_Moon::TimeSlicer::TimeSlicedJobPriority_ {
 IL2CPP_REGISTER_METHOD(0x0167F180, TimeSlicedJobPriority__Enum, Invoke, (Func_1_Moon_TimeSlicer_TimeSlicedJobPriority_ * __this));

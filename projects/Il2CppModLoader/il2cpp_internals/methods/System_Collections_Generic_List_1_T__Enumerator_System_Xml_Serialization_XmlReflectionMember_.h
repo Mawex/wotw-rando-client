@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_System::Xml::Serialization::XmlReflectionMember_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, XmlReflectionMember *, get_Current, (List_1_T_Enumerator_System_Xml_Serialization_XmlReflectionMember___Boxed * __this));

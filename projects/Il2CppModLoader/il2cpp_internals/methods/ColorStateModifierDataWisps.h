@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColorStateModifierDataWisps {
 IL2CPP_REGISTER_METHOD(0x012D3960, Color, get_Color, (ColorStateModifierDataWisps * __this));

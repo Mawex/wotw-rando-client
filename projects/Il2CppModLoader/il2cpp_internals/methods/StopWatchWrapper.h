@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StopWatchWrapper {
 IL2CPP_REGISTER_METHOD(0x0065CAB0, void, __ctor, (StopWatchWrapper * __this, bool shouldStart));

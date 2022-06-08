@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowHintAction {
 IL2CPP_REGISTER_METHOD(0x005C4820, void, Perform, (ShowHintAction * __this, IContext * context));

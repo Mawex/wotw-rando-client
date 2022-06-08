@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SlugDamageReciever {
 IL2CPP_REGISTER_METHOD(0x006C5340, void, OnRecieveDamage, (SlugDamageReciever * __this, Damage * damage));

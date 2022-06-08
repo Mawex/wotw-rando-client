@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::UGCHandle_t {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (UGCHandle_t__Boxed * __this, uint64_t value));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x004C50A0, UGCHandle_t, operator_, (uint64_t value));
 IL2CPP_REGISTER_METHOD(0x004C50A0, uint64_t, operator_, (UGCHandle_t that));
 IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals, (UGCHandle_t__Boxed * __this, UGCHandle_t other));
 IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (UGCHandle_t__Boxed * __this, UGCHandle_t other));
-IL2CPP_REGISTER_METHOD(0x027A69E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027A69E0, void, __cctor, ());
 }

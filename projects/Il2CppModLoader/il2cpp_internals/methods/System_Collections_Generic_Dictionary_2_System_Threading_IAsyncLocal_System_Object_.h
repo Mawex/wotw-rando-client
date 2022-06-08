@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Threading::IAsyncLocal_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Threading_IAsyncLocal_System_Object_ * __this, IAsyncLocal * key, Object * * value));

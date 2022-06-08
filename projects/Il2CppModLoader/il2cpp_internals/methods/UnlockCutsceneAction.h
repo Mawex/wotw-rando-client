@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnlockCutsceneAction {
 IL2CPP_REGISTER_METHOD(0x013AC0E0, void, Perform, (UnlockCutsceneAction * __this, IContext * context));

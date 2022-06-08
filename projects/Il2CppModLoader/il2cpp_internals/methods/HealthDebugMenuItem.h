@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HealthDebugMenuItem {
 IL2CPP_REGISTER_METHOD(0x010A1E60, void, __ctor, (HealthDebugMenuItem * __this, String * path, String * str));

@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FPSMonitor {
 IL2CPP_REGISTER_METHOD(0x004994E0, float, get_FrameTime, (FPSMonitor * __this));
 IL2CPP_REGISTER_METHOD(0x00989390, float, get_FrameTimeMilliseconds, (FPSMonitor * __this));
 IL2CPP_REGISTER_METHOD(0x006A45A0, float, get_RenderedFrames, (FPSMonitor * __this));
-IL2CPP_REGISTER_METHOD(0x009893A0, void, CreateInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009893A0, void, CreateInstance, ());
 IL2CPP_REGISTER_METHOD(0x002FB990, DroppedFrameMonitor *, get_DroppedFrameMonitor, (FPSMonitor * __this));
 IL2CPP_REGISTER_METHOD(0x00989540, void, Awake, (FPSMonitor * __this));
 IL2CPP_REGISTER_METHOD(0x00989840, void, Start, (FPSMonitor * __this));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x0098A170, void, DumpData, (FPSMonitor * __this));
 IL2CPP_REGISTER_METHOD(0x0098A350, Color, GetColorForGPUHealth, (int32_t health));
 IL2CPP_REGISTER_METHOD(0x0098A540, int32_t, GetGPUHealth, (int32_t drsScale, float gpuTime));
 IL2CPP_REGISTER_METHOD(0x0098A8C0, void, __ctor, (FPSMonitor * __this));
-IL2CPP_REGISTER_METHOD(0x0098A980, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0098A980, void, __cctor, ());
 }

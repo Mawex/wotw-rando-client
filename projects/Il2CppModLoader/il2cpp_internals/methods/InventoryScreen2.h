@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InventoryScreen2 {
-IL2CPP_REGISTER_METHOD(0x00640F90, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00640F90, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00641010, InventoryScreenItem *, get_SelectedItem, (InventoryScreen2 * __this));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_CanInterruptTab, (InventoryScreen2 * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (InventoryScreen2 * __this));

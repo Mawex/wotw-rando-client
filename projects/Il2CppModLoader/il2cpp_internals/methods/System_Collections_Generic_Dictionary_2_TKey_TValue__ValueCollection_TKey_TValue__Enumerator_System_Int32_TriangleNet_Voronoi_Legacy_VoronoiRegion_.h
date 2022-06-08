@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_TKey_TValue__Enumerator_System::Int32_TriangleNet::Voronoi::Legacy::VoronoiRegion_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, VoronoiRegion *, get_Current, (Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enumerator_System_Int32_TriangleNet_Voronoi_Legacy_VoronoiRegion___Boxed * __this));

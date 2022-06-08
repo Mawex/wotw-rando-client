@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerBasketEntity {
 IL2CPP_REGISTER_METHOD(0x01445560, void, Awake, (MinerBasketEntity * __this));

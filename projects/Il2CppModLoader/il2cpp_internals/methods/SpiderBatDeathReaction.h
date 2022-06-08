@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatDeathReaction {
 IL2CPP_REGISTER_METHOD(0x00955A30, void, OnCacheSerializedComponents, (SpiderBatDeathReaction * __this, Entity * owner));

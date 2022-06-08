@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDebugMenuItem_1_System::Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_Path, (EnumDebugMenuItem_1_System_Int32Enum_ * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x019E2360, void, UpdateHold, (EnumDebugMenuItem_1_System
 IL2CPP_REGISTER_METHOD(0x002FB9D0, Func_1_String_ *, get_DynamicText, (EnumDebugMenuItem_1_System_Int32Enum_ * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9E0, void, set_DynamicText, (EnumDebugMenuItem_1_System_Int32Enum_ * __this, Func_1_String_ * value));
 IL2CPP_REGISTER_METHOD(0x019E23E0, void, IncrementValue, (EnumDebugMenuItem_1_System_Int32Enum_ * __this, int32_t delta));
-IL2CPP_REGISTER_METHOD(0x019E27A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x019E27A0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::TaskAwaiter_1_SystemIntegration::Races::RaceRequestResult_ {
 IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (TaskAwaiter_1_SystemIntegration_Races_RaceRequestResult___Boxed * __this));

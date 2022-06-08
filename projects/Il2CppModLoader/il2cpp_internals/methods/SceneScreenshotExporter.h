@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneScreenshotExporter {
 IL2CPP_REGISTER_METHOD(0x00BBA740, void, OnDrawGizmosSelected, (SceneScreenshotExporter * __this));

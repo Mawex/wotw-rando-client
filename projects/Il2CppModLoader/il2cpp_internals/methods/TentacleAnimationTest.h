@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleAnimationTest {
 IL2CPP_REGISTER_METHOD(0x00CEB810, void, Start, (TentacleAnimationTest * __this));

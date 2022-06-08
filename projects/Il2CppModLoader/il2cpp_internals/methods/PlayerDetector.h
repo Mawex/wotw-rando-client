@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerDetector {
 IL2CPP_REGISTER_METHOD(0x0140E450, void, OnTriggerStay, (PlayerDetector * __this, Collider * col));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::EnumerableSorter_1_MicroProfilerInspector_MetricData_ {
 IL2CPP_REGISTER_METHOD(0x0289C130, Int32__Array *, Sort, (EnumerableSorter_1_MicroProfilerInspector_MetricData_ * __this, MicroProfilerInspector_MetricData__Array * elements, int32_t count));

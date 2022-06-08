@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_Waiter {
 IL2CPP_REGISTER_METHOD(0x0071BBD0, void, __ctor, (RaceStateMachineContext_Waiter * __this, float timeleft, RaceStateMachineContext * context));

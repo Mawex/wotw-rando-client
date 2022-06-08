@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Math::Prime::Generator::PrimeGeneratorBase {
 IL2CPP_REGISTER_METHOD(0x0043D9E0, ConfidenceFactor__Enum, get_Confidence, (PrimeGeneratorBase * __this));

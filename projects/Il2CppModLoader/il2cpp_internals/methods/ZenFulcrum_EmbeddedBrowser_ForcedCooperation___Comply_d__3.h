@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ForcedCooperation___Comply_d__3 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (ForcedCooperation_Comply_d_3 * __this, int32_t __1__state));

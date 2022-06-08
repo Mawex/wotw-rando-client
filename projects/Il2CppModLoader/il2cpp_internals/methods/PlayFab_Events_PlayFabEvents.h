@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Events::PlayFabEvents {
 IL2CPP_REGISTER_METHOD(0x00303920, void, add_OnAuthenticationGetEntityTokenRequestEvent, (PlayFabEvents * __this, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_AuthenticationModels_GetEntityTokenRequest_ * value));
@@ -1426,7 +1426,7 @@ IL2CPP_REGISTER_METHOD(0x00356D50, void, remove_OnServerWriteTitleEventResultEve
 IL2CPP_REGISTER_METHOD(0x00356E40, void, add_OnGlobalErrorEvent, (PlayFabEvents * __this, PlayFabEvents_PlayFabErrorEvent * value));
 IL2CPP_REGISTER_METHOD(0x00356F30, void, remove_OnGlobalErrorEvent, (PlayFabEvents * __this, PlayFabEvents_PlayFabErrorEvent * value));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabEvents * __this));
-IL2CPP_REGISTER_METHOD(0x00357020, PlayFabEvents *, Init, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00357020, PlayFabEvents *, Init, ());
 IL2CPP_REGISTER_METHOD(0x00357590, void, UnregisterInstance, (PlayFabEvents * __this, Object * instance));
 IL2CPP_REGISTER_METHOD(0x003AD170, void, OnProcessingErrorEvent, (PlayFabEvents * __this, PlayFabRequestCommon * request, PlayFabError * error));
 IL2CPP_REGISTER_METHODINFO(0x04779158, PlayFabEvents_OnProcessingErrorEvent__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ServerPhysicalMaterial {
 IL2CPP_REGISTER_METHOD(0x00AC3150, ServerPhysicalMaterial_PhysicalMaterialData, CreateData, (PhysicMaterial * physicMaterial));

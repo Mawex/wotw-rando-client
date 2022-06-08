@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_SystemIntegration::Races::RaceEntry_ {
 IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_System_String_SystemIntegration_Races_RaceEntry_, GetEnumerator, (Dictionary_2_System_String_SystemIntegration_Races_RaceEntry_ * __this));

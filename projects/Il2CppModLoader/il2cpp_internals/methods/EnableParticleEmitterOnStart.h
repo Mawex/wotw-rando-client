@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnableParticleEmitterOnStart {
 IL2CPP_REGISTER_METHOD(0x00BFCBE0, void, Awake, (EnableParticleEmitterOnStart * __this));

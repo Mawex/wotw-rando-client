@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Timers::TimersDescriptionAttribute {
 IL2CPP_REGISTER_METHOD(0x02A7C090, void, __ctor, (TimersDescriptionAttribute * __this, String * description));

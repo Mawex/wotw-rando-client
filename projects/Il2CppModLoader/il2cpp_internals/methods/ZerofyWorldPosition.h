@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZerofyWorldPosition {
 IL2CPP_REGISTER_METHOD(0x00F58EA0, void, Start, (ZerofyWorldPosition * __this));

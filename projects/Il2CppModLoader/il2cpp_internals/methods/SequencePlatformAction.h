@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SequencePlatformAction {
 IL2CPP_REGISTER_METHOD(0x00AB7000, void, Perform, (SequencePlatformAction * __this, IContext * context));

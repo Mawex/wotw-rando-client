@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::AutoWebProxyScriptEngine {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AutoWebProxyScriptEngine * __this, WebProxy * proxy, bool useRegistry));

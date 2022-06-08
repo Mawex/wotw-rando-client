@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::DefaultContractResolver {
-IL2CPP_REGISTER_METHOD(0x0185DEC0, IContractResolver *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0185DEC0, IContractResolver *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x0185DF60, bool, get_DynamicCodeGeneration, (DefaultContractResolver * __this));
 IL2CPP_REGISTER_METHOD(0x002FD1D0, BindingFlags__Enum, get_DefaultMembersSearchFlags, (DefaultContractResolver * __this));
 IL2CPP_REGISTER_METHOD(0x002FD1E0, void, set_DefaultMembersSearchFlags, (DefaultContractResolver * __this, BindingFlags__Enum value));
@@ -68,5 +68,5 @@ IL2CPP_REGISTER_METHOD(0x01868730, String *, ResolvePropertyName, (DefaultContra
 IL2CPP_REGISTER_METHOD(0x01868760, String *, ResolveExtensionDataName, (DefaultContractResolver * __this, String * extensionDataName));
 IL2CPP_REGISTER_METHOD(0x01868780, String *, ResolveDictionaryKey, (DefaultContractResolver * __this, String * dictionaryKey));
 IL2CPP_REGISTER_METHOD(0x018687B0, String *, GetResolvedPropertyName, (DefaultContractResolver * __this, String * propertyName));
-IL2CPP_REGISTER_METHOD(0x018687D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018687D0, void, __cctor, ());
 }

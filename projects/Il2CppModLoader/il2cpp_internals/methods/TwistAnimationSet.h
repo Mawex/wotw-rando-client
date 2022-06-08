@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TwistAnimationSet {
 IL2CPP_REGISTER_METHOD(0x013DCCE0, TextureAnimationWithTransitions *, GetAnimation, (TwistAnimationSet * __this, float a));

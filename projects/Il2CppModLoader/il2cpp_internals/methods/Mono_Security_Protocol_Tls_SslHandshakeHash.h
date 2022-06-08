@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslHandshakeHash {
 IL2CPP_REGISTER_METHOD(0x01F81810, void, __ctor, (SslHandshakeHash * __this, Byte__Array * secret));

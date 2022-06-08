@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSpiritLeashAbility_LeashableInfo {
 IL2CPP_REGISTER_METHOD(0x0011C130, Vector3, GetAttackablePosition, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this));

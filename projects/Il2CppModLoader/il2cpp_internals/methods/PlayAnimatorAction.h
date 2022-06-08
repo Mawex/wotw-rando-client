@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayAnimatorAction {
 IL2CPP_REGISTER_METHOD(0x01175E40, LegacyAnimator__Array *, get_Animators, (PlayAnimatorAction * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UberShaderPrewarmer_PrewarmedShader_ {
 IL2CPP_REGISTER_METHOD(0x02F63410, void, Sort, (UberShaderPrewarmer_PrewarmedShader__Array * keys, int32_t index, int32_t length, IComparer_1_UberShaderPrewarmer_PrewarmedShader_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BatchedSpherecast {
 IL2CPP_REGISTER_METHOD(0x00F97C30, void, __ctor, (BatchedSpherecast * __this, int32_t batchSize));

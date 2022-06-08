@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Oculus_ThermaVision {
 IL2CPP_REGISTER_METHOD(0x02486E40, Material *, get_material, (CameraFilterPack_Oculus_ThermaVision * __this));

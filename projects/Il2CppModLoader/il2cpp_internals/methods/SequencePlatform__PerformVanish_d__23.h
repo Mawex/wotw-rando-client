@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SequencePlatform__PerformVanish_d__23 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (SequencePlatform_PerformVanish_d_23 * __this, int32_t __1__state));

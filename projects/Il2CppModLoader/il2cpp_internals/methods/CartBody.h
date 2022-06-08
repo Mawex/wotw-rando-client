@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartBody {
 IL2CPP_REGISTER_METHOD(0x00990EC0, void, set_AddtiveRotation, (CartBody * __this, float value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Atmosphere_Snow_8bits {
 IL2CPP_REGISTER_METHOD(0x02740D90, Material *, get_material, (CameraFilterPack_Atmosphere_Snow_8bits * __this));

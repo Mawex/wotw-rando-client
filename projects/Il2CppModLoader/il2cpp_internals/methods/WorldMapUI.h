@@ -1,18 +1,18 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WorldMapUI {
 IL2CPP_REGISTER_METHOD(0x00585310, bool, get_Activated, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x00585320, void, set_Activated, (WorldMapUI * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00585330, bool, get_InCinematicMode, (WorldMapUI * __this));
-IL2CPP_REGISTER_METHOD(0x00585470, bool, get_IsReady, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00585540, bool, get_UseCameraSettings, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00585470, bool, get_IsReady, ());
+IL2CPP_REGISTER_METHOD(0x00585540, bool, get_UseCameraSettings, ());
 IL2CPP_REGISTER_METHOD(0x00585660, SceneSettingsComponent *, get_SceneSettings, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x00585750, GameObject *, get_SceneRootObject, (WorldMapUI * __this));
-IL2CPP_REGISTER_METHOD(0x005857D0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005857D0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00585890, void, OnEnable, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x005858A0, void, OnDisable, (WorldMapUI * __this));
-IL2CPP_REGISTER_METHOD(0x005858B0, CameraSettings *, get_CameraSettings, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00585BA0, SliceRenderSettings *, get_SliceRenderSettings, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005858B0, CameraSettings *, get_CameraSettings, ());
+IL2CPP_REGISTER_METHOD(0x00585BA0, SliceRenderSettings *, get_SliceRenderSettings, ());
 IL2CPP_REGISTER_METHOD(0x002FBC60, Transform *, get_UiGroup, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x00585D70, void, Awake, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x00585E10, void, Init, (WorldMapUI * __this));
@@ -45,9 +45,9 @@ IL2CPP_REGISTER_METHOD(0x0058A4B0, Vector3, ApplyIconLerp, (WorldMapUI * __this,
 IL2CPP_REGISTER_METHOD(0x0058A630, Vector3, WorldToScreenToUI, (WorldMapUI * __this, Vector3 position));
 IL2CPP_REGISTER_METHOD(0x0058A870, void, ShowAreaSelection, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x0058A930, void, HideAreaSelection, (WorldMapUI * __this));
-IL2CPP_REGISTER_METHOD(0x0058A9F0, void, Initialize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0058A9F0, void, Initialize, ());
 IL2CPP_REGISTER_METHOD(0x0058ABD0, void, OnFinishedLoading, (SceneRoot * sceneRoot));
-IL2CPP_REGISTER_METHOD(0x0058ADF0, void, CancelLoading, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0058ADF0, void, CancelLoading, ());
 IL2CPP_REGISTER_METHOD(0x0058AEC0, bool, get_IsSuspended, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x0058AED0, void, set_IsSuspended, (WorldMapUI * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x0058AEE0, SuspendableMask__Enum, get_Mask, (WorldMapUI * __this));
@@ -68,5 +68,5 @@ IL2CPP_REGISTER_METHOD(0x0058C710, void, CreateTeleporterIcon, (WorldMapUI * __t
 IL2CPP_REGISTER_METHOD(0x0058C930, void, UpdateSavePedestalIcons, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x0058CC90, void, OnDrawGizmosSelected, (WorldMapUI * __this));
 IL2CPP_REGISTER_METHOD(0x0058CD40, void, __ctor, (WorldMapUI * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

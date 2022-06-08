@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::UInt16_List_1_UnityEngine::Vector3__ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_System_UInt16_List_1_UnityEngine_Vector3_ * __this, uint16_t key));

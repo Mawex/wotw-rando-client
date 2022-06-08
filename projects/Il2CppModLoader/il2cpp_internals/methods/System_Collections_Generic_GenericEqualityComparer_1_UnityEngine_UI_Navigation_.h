@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_UnityEngine::UI::Navigation_ {
 IL2CPP_REGISTER_METHOD(0x02AB2CD0, bool, Equals, (GenericEqualityComparer_1_UnityEngine_UI_Navigation_ * __this, Navigation x, Navigation y));

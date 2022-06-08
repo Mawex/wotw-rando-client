@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkVertex {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkVertex * __this, void * cPtr, bool cMemoryOwn));
@@ -15,6 +15,6 @@ IL2CPP_REGISTER_METHOD(0x027022F0, float, get_Y, (AkVertex * __this));
 IL2CPP_REGISTER_METHOD(0x02702410, void, set_Z, (AkVertex * __this, float value));
 IL2CPP_REGISTER_METHOD(0x02702540, float, get_Z, (AkVertex * __this));
 IL2CPP_REGISTER_METHOD(0x02702660, void, Clear, (AkVertex * __this));
-IL2CPP_REGISTER_METHOD(0x02702700, int32_t, GetSizeOf, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02702700, int32_t, GetSizeOf, ());
 IL2CPP_REGISTER_METHOD(0x02702790, void, Clone, (AkVertex * __this, AkVertex * other));
 }

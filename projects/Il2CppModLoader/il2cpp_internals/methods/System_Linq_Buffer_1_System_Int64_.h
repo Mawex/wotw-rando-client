@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Buffer_1_System::Int64_ {
 IL2CPP_REGISTER_METHOD(0x00218C20, void, __ctor, (Buffer_1_System_Int64___Boxed * __this, IEnumerable_1_System_Int64_ * source));

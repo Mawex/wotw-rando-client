@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Tilemaps::TileData {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, set_sprite, (TileData__Boxed * __this, Sprite * value));

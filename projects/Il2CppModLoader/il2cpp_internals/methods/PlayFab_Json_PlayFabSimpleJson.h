@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::PlayFabSimpleJson {
-IL2CPP_REGISTER_METHOD(0x01848270, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01848270, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x018487B0, Object *, DeserializeObject, (String * json));
 IL2CPP_REGISTER_METHODINFO(0x04726788, PlayFabSimpleJson_DeserializeObject__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01848930, bool, TryDeserializeObject, (String * json, Object * * obj));
@@ -25,9 +25,9 @@ IL2CPP_REGISTER_METHOD(0x0184BB40, bool, SerializeArray, (IJsonSerializerStrateg
 IL2CPP_REGISTER_METHOD(0x0184BDB0, bool, SerializeString, (String * aString, StringBuilder * builder));
 IL2CPP_REGISTER_METHOD(0x0184C0E0, bool, SerializeNumber, (Object * number, StringBuilder * builder));
 IL2CPP_REGISTER_METHOD(0x0184C3F0, bool, IsNumeric, (Object * value));
-IL2CPP_REGISTER_METHOD(0x0184C570, IJsonSerializerStrategy *, get_CurrentJsonSerializerStrategy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0184C570, IJsonSerializerStrategy *, get_CurrentJsonSerializerStrategy, ());
 IL2CPP_REGISTER_METHOD(0x0184C640, void, set_CurrentJsonSerializerStrategy, (IJsonSerializerStrategy * value));
-IL2CPP_REGISTER_METHOD(0x0184C6F0, PocoJsonSerializerStrategy *, get_PocoJsonSerializerStrategy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0184C6F0, PocoJsonSerializerStrategy *, get_PocoJsonSerializerStrategy, ());
 IL2CPP_REGISTER_METHOD(0x016A9D10, Object *, DeserializeObject, (String * json, IJsonSerializerStrategy * jsonSerializerStrategy));
 IL2CPP_REGISTER_METHOD(0x016A9D10, JsonObject *, DeserializeObject, (String * json, IJsonSerializerStrategy * jsonSerializerStrategy));
 IL2CPP_REGISTER_METHODINFO(0x047283A0, PlayFabSimpleJson_DeserializeObject_3__MethodInfo);

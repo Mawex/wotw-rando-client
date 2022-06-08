@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Telemetry::PlayFabJsonSerializer {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (PlayFabJsonSerializer * __this, ISerializerPlugin * underlying));
-IL2CPP_REGISTER_METHOD(0x0053B730, void, Initialize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0053B730, void, Initialize, ());
 IL2CPP_REGISTER_METHOD(0x0053B8F0, Object *, DeserializeObject, (PlayFabJsonSerializer * __this, String * serialized));
 IL2CPP_REGISTER_METHOD(0x0053B9A0, String *, SerializeObject, (PlayFabJsonSerializer * __this, Object * value));
 IL2CPP_REGISTER_METHOD(0x0053BBF0, String *, SerializeObject, (PlayFabJsonSerializer * __this, Object * obj, Object * serializerStrategy));
@@ -82,7 +82,7 @@ IL2CPP_REGISTER_METHOD(0x00545710, Nullable_1_Single_, DeserializeOptF32, (JsonP
 IL2CPP_REGISTER_METHODINFO(0x047722E0, PlayFabJsonSerializer_DeserializeOptF32__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x005457E0, Nullable_1_Double_, DeserializeOptF64, (JsonParser_Slot value));
 IL2CPP_REGISTER_METHODINFO(0x04733FA0, PlayFabJsonSerializer_DeserializeOptF64__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00545810, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00545810, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0054C130, void, SerializeBase_PlayFab_SharedModels_PlayFabRequestCommon, (JsonBuilder_Object obj, PlayFabRequestCommon * value));
 IL2CPP_REGISTER_METHOD(0x0054C220, void, Serialize_PlayFab_ClientModels_AddFriendRequest, (JsonBuilder_Slot slot, AddFriendRequest * value));
 IL2CPP_REGISTER_METHOD(0x0054C450, void, Serialize_PlayFab_ClientModels_DeviceInfoRequest, (JsonBuilder_Slot slot, DeviceInfoRequest * value));

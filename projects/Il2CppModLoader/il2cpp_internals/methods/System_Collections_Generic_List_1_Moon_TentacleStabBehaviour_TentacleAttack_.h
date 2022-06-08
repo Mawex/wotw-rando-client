@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::TentacleStabBehaviour_TentacleAttack_ {
 IL2CPP_REGISTER_METHOD(0x025ECB30, void, Add, (List_1_Moon_TentacleStabBehaviour_TentacleAttack_ * __this, TentacleStabBehaviour_TentacleAttack item));
@@ -60,5 +60,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_Moon_TentacleStabBehaviou
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_Moon_TentacleStabBehaviour_TentacleAttack_ * __this, Comparison_1_Moon_TentacleStabBehaviour_TentacleAttack_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, TentacleStabBehaviour_TentacleAttack__Array *, ToArray, (List_1_Moon_TentacleStabBehaviour_TentacleAttack_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_Moon_TentacleStabBehaviour_TentacleAttack_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

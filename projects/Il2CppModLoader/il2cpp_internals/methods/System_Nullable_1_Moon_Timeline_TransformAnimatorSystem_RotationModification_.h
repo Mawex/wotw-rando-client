@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Moon::Timeline::TransformAnimatorSystem_RotationModification_ {
 IL2CPP_REGISTER_METHOD(0x001F68D0, bool, get_HasValue, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_RotationModification___Boxed * __this));

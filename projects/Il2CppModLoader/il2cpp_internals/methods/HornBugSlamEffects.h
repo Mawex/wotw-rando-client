@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugSlamEffects {
 IL2CPP_REGISTER_METHOD(0x00B6D530, GameObject__Array *, GetAllPrefabs, (HornBugSlamEffects * __this));

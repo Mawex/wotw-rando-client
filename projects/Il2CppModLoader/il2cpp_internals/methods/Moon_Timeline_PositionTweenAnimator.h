@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PositionTweenAnimator {
 IL2CPP_REGISTER_METHOD(0x01E7AF70, Transform *, get_TransformTarget, (PositionTweenAnimator * __this));

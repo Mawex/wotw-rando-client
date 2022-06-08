@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterAnimationController {
 IL2CPP_REGISTER_METHOD(0x01046C20, void, Start, (CharacterAnimationController * __this));

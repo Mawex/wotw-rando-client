@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_SurfaceMaterialType_Moon::Timeline::MoonTimeline_ {
 IL2CPP_REGISTER_METHOD(0x01A78360, Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_SurfaceMaterialType_Moon_Timeline_MoonTimeline_, GetEnumerator, (Dictionary_2_TKey_TValue_KeyCollection_SurfaceMaterialType_Moon_Timeline_MoonTimeline_ * __this));

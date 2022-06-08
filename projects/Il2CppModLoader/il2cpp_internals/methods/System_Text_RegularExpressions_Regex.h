@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::Regex {
 IL2CPP_REGISTER_METHOD(0x025842D0, void, __ctor, (Regex * __this));
@@ -10,7 +10,7 @@ IL2CPP_REGISTER_METHOD(0x02584B00, void, __ctor, (Regex * __this, SerializationI
 IL2CPP_REGISTER_METHOD(0x02584C30, void, ISerializable_GetObjectData, (Regex * __this, SerializationInfo * si, StreamingContext context));
 IL2CPP_REGISTER_METHOD(0x02584D30, void, ValidateMatchTimeout, (TimeSpan matchTimeout));
 IL2CPP_REGISTER_METHODINFO(0x04732958, Regex_ValidateMatchTimeout__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02584EC0, TimeSpan, InitDefaultMatchTimeout, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02584EC0, TimeSpan, InitDefaultMatchTimeout, ());
 IL2CPP_REGISTER_METHODINFO(0x0470B5A8, Regex_InitDefaultMatchTimeout__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025852F0, String *, Escape, (String * str));
 IL2CPP_REGISTER_METHODINFO(0x04762FE0, Regex_Escape__MethodInfo);
@@ -47,5 +47,5 @@ IL2CPP_REGISTER_METHOD(0x02586D20, CachedCodeEntry *, LookupCachedAndUpdate, (St
 IL2CPP_REGISTER_METHOD(0x02587060, CachedCodeEntry *, CacheCode, (Regex * __this, String * key));
 IL2CPP_REGISTER_METHOD(0x025853C0, bool, UseOptionR, (Regex * __this));
 IL2CPP_REGISTER_METHOD(0x02587680, bool, UseOptionInvariant, (Regex * __this));
-IL2CPP_REGISTER_METHOD(0x02587690, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02587690, void, __cctor, ());
 }

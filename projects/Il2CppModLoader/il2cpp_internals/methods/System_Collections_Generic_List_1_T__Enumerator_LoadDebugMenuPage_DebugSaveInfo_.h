@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_LoadDebugMenuPage_DebugSaveInfo_ {
 IL2CPP_REGISTER_METHOD(0x00133F90, LoadDebugMenuPage_DebugSaveInfo, get_Current, (List_1_T_Enumerator_LoadDebugMenuPage_DebugSaveInfo___Boxed * __this));

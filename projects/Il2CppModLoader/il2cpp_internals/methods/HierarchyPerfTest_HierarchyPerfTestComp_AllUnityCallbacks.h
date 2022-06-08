@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::HierarchyPerfTestComp_AllUnityCallbacks {
 IL2CPP_REGISTER_METHOD(0x019738E0, void, Awake, (HierarchyPerfTestComp_AllUnityCallbacks * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::HueSaturationValue {
 IL2CPP_REGISTER_METHOD(0x030474F0, void, OnRenderImage, (HueSaturationValue * __this, RenderTexture * source, RenderTexture * destination));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetRotationFromDamage {
 IL2CPP_REGISTER_METHOD(0x005A3CA0, void, OnEnable, (SetRotationFromDamage * __this));

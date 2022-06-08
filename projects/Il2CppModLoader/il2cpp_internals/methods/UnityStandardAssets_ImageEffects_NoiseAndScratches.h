@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::NoiseAndScratches {
 IL2CPP_REGISTER_METHOD(0x02D5C780, void, Start, (NoiseAndScratches * __this));

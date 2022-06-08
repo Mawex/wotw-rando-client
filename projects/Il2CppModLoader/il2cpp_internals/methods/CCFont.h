@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CCFont {
 IL2CPP_REGISTER_METHOD(0x0315ACC0, CCFont_Char *, get_Item, (CCFont * __this, uint16_t c));

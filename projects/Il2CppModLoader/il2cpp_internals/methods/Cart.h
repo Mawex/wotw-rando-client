@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Cart {
 IL2CPP_REGISTER_METHOD(0x00B29A80, Rect, get_WorldRectBounds, (Cart * __this));
@@ -19,7 +19,7 @@ IL2CPP_REGISTER_METHOD(0x00B2A010, Action_1_Single_ *, get_OnJump, (Cart * __thi
 IL2CPP_REGISTER_METHOD(0x00B2A040, void, set_OnJump, (Cart * __this, Action_1_Single_ * value));
 IL2CPP_REGISTER_METHOD(0x00B2A070, float, get_TotalExtraSpeed, (Cart * __this));
 IL2CPP_REGISTER_METHOD(0x00B2A150, bool, get_FacingLeft, (Cart * __this));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_RailMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_RailMask, ());
 IL2CPP_REGISTER_METHOD(0x00B2A180, CartBody *, get_Body, (Cart * __this));
 IL2CPP_REGISTER_METHOD(0x00B2A190, CartAnimation *, get_Animation, (Cart * __this));
 IL2CPP_REGISTER_METHOD(0x00B2A1A0, bool, get_IsOnRail, (Cart * __this));
@@ -67,7 +67,7 @@ IL2CPP_REGISTER_METHODINFO(0x04744648, Cart_DestroyCart__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00B2F9C0, void, DestroyAndKillPassenger, (Cart * __this, DamageType__Enum damageType));
 IL2CPP_REGISTER_METHOD(0x00B2FD10, void, GetValidRails, (Cart * __this));
 IL2CPP_REGISTER_METHOD(0x00B305E0, bool, ShouldIgnoreRail, (Cart * __this, Rail * rail, RaycastHit hit));
-IL2CPP_REGISTER_METHOD(0x00B30870, bool, ShouldRailDoDamage, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B30870, bool, ShouldRailDoDamage, ());
 IL2CPP_REGISTER_METHOD(0x00B30880, bool, IsPointInsideCollectableDetector, (Cart * __this, Vector2 point));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, CanBeChargeFlamed, (Cart * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, CanBeChargeDashed, (Cart * __this));

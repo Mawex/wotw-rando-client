@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_3_Single_Int32Enum_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x004C87B0, float, get_Item1, (Tuple_3_Single_Int32Enum_Boolean_ * __this));

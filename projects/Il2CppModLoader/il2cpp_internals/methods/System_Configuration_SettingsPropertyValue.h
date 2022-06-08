@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsPropertyValue {
 IL2CPP_REGISTER_METHOD(0x01FFDB70, void, __ctor, (SettingsPropertyValue * __this, SettingsProperty * property));

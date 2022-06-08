@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaxEnergyContainerPickup {
 IL2CPP_REGISTER_METHOD(0x01385410, void, OnCollectorCandidateTouch, (MaxEnergyContainerPickup * __this, GameObject * collector));

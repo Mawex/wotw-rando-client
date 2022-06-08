@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::InteractionGraph::IState_Dictionary_2_System::Int32_System::Action__ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_Moon_InteractionGraph_IState_Dictionary_2_System_Int32_System_Action_ * __this, IState_1 * key));

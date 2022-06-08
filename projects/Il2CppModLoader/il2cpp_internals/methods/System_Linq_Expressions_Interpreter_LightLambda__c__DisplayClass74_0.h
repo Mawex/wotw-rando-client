@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LightLambda___c__DisplayClass74_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LightLambda_c_DisplayClass74_0 * __this));

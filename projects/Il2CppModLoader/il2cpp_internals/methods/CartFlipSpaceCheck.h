@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartFlipSpaceCheck {
 IL2CPP_REGISTER_METHOD(0x00B38BC0, void, OnDisable, (CartFlipSpaceCheck * __this));

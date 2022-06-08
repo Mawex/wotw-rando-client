@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_1_UnityEngine::Vector2_ {
 IL2CPP_REGISTER_METHOD(0x02881D70, Vector2, Invoke, (Func_1_UnityEngine_Vector2_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CryptographicException {
 IL2CPP_REGISTER_METHOD(0x020CFEC0, void, __ctor, (CryptographicException * __this));

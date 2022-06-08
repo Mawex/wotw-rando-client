@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ModularZoneActiveCondition {
 IL2CPP_REGISTER_METHOD(0x013313B0, bool, Validate, (ModularZoneActiveCondition * __this, IContext * context));

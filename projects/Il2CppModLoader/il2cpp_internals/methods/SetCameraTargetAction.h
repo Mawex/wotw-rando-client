@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetCameraTargetAction {
 IL2CPP_REGISTER_METHOD(0x005A1EE0, void, Perform, (SetCameraTargetAction * __this, IContext * context));

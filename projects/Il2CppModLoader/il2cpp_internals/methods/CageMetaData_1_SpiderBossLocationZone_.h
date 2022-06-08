@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageMetaData_1_SpiderBossLocationZone_ {
 IL2CPP_REGISTER_METHOD(0x019DCE90, SpiderBossLocationZone__Enum, FindByID, (CageMetaData_1_SpiderBossLocationZone_ * __this, int32_t id));

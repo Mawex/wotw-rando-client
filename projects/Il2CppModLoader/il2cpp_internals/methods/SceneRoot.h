@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneRoot {
 IL2CPP_REGISTER_METHOD(0x008519A0, bool, get_HighPriorityEnabling, (SceneRoot * __this));
@@ -71,5 +71,5 @@ IL2CPP_REGISTER_METHOD(0x00BB7D00, void, EnableWithManualUnSuspend, (SceneRoot *
 IL2CPP_REGISTER_METHOD(0x00BB7DD0, void, ManuallyUnsuspend, (SceneRoot * __this));
 IL2CPP_REGISTER_METHOD(0x00BB7DE0, bool, CanRemoveObject, (SceneRoot * __this, GameObject * target));
 IL2CPP_REGISTER_METHOD(0x00BB80A0, void, __ctor, (SceneRoot * __this));
-IL2CPP_REGISTER_METHOD(0x00BB8870, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BB8870, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpWebResponse {
 IL2CPP_REGISTER_METHOD(0x01E64990, void, __ctor, (HttpWebResponse * __this, Uri * uri, String * method_1, WebConnectionData * data, CookieContainer * container));
@@ -10,7 +10,7 @@ IL2CPP_REGISTER_METHOD(0x01E65280, String *, get_ContentType, (HttpWebResponse *
 IL2CPP_REGISTER_METHOD(0x01E65330, CookieCollection *, get_Cookies, (HttpWebResponse * __this));
 IL2CPP_REGISTER_METHOD(0x01E65490, void, set_Cookies, (HttpWebResponse * __this, CookieCollection * value));
 IL2CPP_REGISTER_METHOD(0x002FBB00, WebHeaderCollection *, get_Headers, (HttpWebResponse * __this));
-IL2CPP_REGISTER_METHOD(0x01E654C0, Exception *, GetMustImplement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E654C0, Exception *, GetMustImplement, ());
 IL2CPP_REGISTER_METHOD(0x01E65600, bool, get_IsMutuallyAuthenticated, (HttpWebResponse * __this));
 IL2CPP_REGISTER_METHODINFO(0x047466D0, HttpWebResponse_get_IsMutuallyAuthenticated__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E65640, DateTime, get_LastModified, (HttpWebResponse * __this));

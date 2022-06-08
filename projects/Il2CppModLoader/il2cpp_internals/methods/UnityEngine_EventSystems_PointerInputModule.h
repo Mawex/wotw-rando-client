@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::PointerInputModule {
 IL2CPP_REGISTER_METHOD(0x01F23A50, void, __ctor, (PointerInputModule * __this));

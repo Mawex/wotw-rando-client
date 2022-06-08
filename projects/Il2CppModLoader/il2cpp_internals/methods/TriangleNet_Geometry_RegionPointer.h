@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::RegionPointer {
 IL2CPP_REGISTER_METHOD(0x0261CB50, double, get_Area, (RegionPointer * __this));

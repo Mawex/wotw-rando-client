@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::Collection_1_Newtonsoft::Json::Serialization::JsonProperty_ {
 IL2CPP_REGISTER_METHOD(0x02B833F0, IEnumerator_1_Newtonsoft_Json_Serialization_JsonProperty_ *, GetEnumerator, (Collection_1_Newtonsoft_Json_Serialization_JsonProperty_ * __this));

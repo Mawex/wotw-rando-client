@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Policy::Evidence_EvidenceEnumerator {
 IL2CPP_REGISTER_METHOD(0x01E1BFA0, void, __ctor, (Evidence_EvidenceEnumerator * __this, IEnumerator * hostenum, IEnumerator * assemblyenum));

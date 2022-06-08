@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HelperGhostController {
 IL2CPP_REGISTER_METHOD(0x010A32F0, void, Start, (HelperGhostController * __this));

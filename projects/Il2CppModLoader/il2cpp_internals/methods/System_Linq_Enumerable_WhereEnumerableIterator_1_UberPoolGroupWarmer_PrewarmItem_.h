@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereEnumerableIterator_1_UberPoolGroupWarmer_PrewarmItem_ {
 IL2CPP_REGISTER_METHOD(0x02893370, void, __ctor, (Enumerable_WhereEnumerableIterator_1_UberPoolGroupWarmer_PrewarmItem_ * __this, IEnumerable_1_UberPoolGroupWarmer_PrewarmItem_ * source, Func_2_UberPoolGroupWarmer_PrewarmItem_Boolean_ * predicate));

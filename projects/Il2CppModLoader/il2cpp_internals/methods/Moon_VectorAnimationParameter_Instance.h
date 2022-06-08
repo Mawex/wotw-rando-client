@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VectorAnimationParameter_Instance {
 IL2CPP_REGISTER_METHOD(0x0064EB90, Vector3, get_TargetValue, (VectorAnimationParameter_Instance * __this));

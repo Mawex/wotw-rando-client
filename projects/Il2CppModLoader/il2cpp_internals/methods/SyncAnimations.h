@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SyncAnimations {
 IL2CPP_REGISTER_METHOD(0x005136D0, KuController *, get_KuController, (SyncAnimations * __this));

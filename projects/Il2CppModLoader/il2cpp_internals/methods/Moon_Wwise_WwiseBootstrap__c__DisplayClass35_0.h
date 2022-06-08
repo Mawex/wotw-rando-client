@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseBootstrap___c__DisplayClass35_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (WwiseBootstrap_c_DisplayClass35_0 * __this));

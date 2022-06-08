@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CC_RadialBlur {
 IL2CPP_REGISTER_METHOD(0x03194F40, void, Start, (CC_RadialBlur * __this));

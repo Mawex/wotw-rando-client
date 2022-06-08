@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::CompilationRelaxationsAttribute {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (CompilationRelaxationsAttribute * __this, int32_t relaxations));

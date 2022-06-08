@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute {
 IL2CPP_REGISTER_METHOD(0x01FE5970, void, __ctor, (RootDesignerSerializerAttribute * __this, String * serializerTypeName, String * baseSerializerTypeName, bool reloadable));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter {
 IL2CPP_REGISTER_METHOD(0x021BC830, bool, CanConvertTo, (ExtendedProtectionPolicyTypeConverter * __this, ITypeDescriptorContext * context, Type * destinationType));

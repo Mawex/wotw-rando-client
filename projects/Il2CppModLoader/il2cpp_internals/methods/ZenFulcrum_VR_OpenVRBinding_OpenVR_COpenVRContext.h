@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::OpenVR_COpenVRContext {
 IL2CPP_REGISTER_METHOD(0x00F56B30, void, __ctor, (OpenVR_COpenVRContext * __this));

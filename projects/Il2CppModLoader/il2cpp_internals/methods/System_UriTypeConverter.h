@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UriTypeConverter {
 IL2CPP_REGISTER_METHOD(0x031A0790, void, __ctor, (UriTypeConverter * __this));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinWallJump {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinWallJump * __this));
-IL2CPP_REGISTER_METHOD(0x00AAB460, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00AAB460, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x005D06C0, CharacterPlatformMovement *, get_PlatformMovement, (SeinWallJump * __this));
 IL2CPP_REGISTER_METHOD(0x00A7EB40, SeinDoubleJump *, get_DoubleJump, (SeinWallJump * __this));
 IL2CPP_REGISTER_METHOD(0x005D06F0, CharacterLeftRightMovement *, get_LeftRightMovement, (SeinWallJump * __this));
@@ -68,5 +68,5 @@ IL2CPP_REGISTER_METHOD(0x00AB0210, void, remove_OnWallJumpEvent, (SeinWallJump *
 IL2CPP_REGISTER_METHOD(0x00AB0300, void, OnRestoreCheckpoint, (SeinWallJump * __this));
 IL2CPP_REGISTER_METHODINFO(0x04784F68, SeinWallJump_OnRestoreCheckpoint__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00AB0310, void, __ctor, (SeinWallJump * __this));
-IL2CPP_REGISTER_METHOD(0x00AB0550, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00AB0550, void, __cctor, ());
 }

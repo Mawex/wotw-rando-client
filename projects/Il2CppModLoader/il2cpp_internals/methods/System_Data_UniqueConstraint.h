@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::UniqueConstraint {
 IL2CPP_REGISTER_METHOD(0x022BFAB0, void, __ctor, (UniqueConstraint * __this, String * name, DataColumn * column));

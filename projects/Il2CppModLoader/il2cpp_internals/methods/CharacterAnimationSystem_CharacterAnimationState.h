@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterAnimationSystem_CharacterAnimationState {
 IL2CPP_REGISTER_METHOD(0x01049E40, void, __ctor, (CharacterAnimationSystem_CharacterAnimationState * __this, TextureAnimationWithTransitions * animation, Func_1_Boolean_ * condition, int32_t layer, bool playOnce, bool keepFrame));

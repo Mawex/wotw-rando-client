@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::AmbientOcclusion {
 IL2CPP_REGISTER_METHOD(0x024FC710, bool, get_isAmbientOnlySupported, (AmbientOcclusion * __this));

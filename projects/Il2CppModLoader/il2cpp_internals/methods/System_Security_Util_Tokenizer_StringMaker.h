@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Util::Tokenizer_StringMaker {
 IL2CPP_REGISTER_METHOD(0x01E24600, uint32_t, HashString, (String * str));

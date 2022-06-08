@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DynamicInstantiationDescriptor_CountGetter {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (DynamicInstantiationDescriptor_CountGetter * __this, Object * object, void * method_1));

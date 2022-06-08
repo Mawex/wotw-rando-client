@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::FXAA {
 IL2CPP_REGISTER_METHOD(0x02504DF0, void, __ctor, (FXAA * __this, bool useSeparateAlpha));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x02505530, void, UpdateMaterial, (FXAA * __this));
 IL2CPP_REGISTER_METHOD(0x02505780, void, UpdateMaterial, (FXAA * __this, FXAA_QualitySettings qualitySettings));
 IL2CPP_REGISTER_METHOD(0x02505920, void, OnRenderImage, (FXAA * __this, Camera * camera, RenderTexture * source, RenderTexture * destination));
 IL2CPP_REGISTER_METHOD(0x02505BD0, void, OnRenderImage, (FXAA * __this, PostProcessRenderContext * ctx));
-IL2CPP_REGISTER_METHOD(0x02506000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02506000, void, __cctor, ());
 }

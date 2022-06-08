@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::OutputWindow {
 IL2CPP_REGISTER_METHOD(0x02B7D5A0, void, Write, (OutputWindow * __this, uint8_t b));

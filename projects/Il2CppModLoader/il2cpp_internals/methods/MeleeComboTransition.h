@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeComboTransition {
 IL2CPP_REGISTER_METHOD(0x009C4B20, bool, IsConditionMet, (MeleeComboTransition * __this, SeinCharacter * sein));

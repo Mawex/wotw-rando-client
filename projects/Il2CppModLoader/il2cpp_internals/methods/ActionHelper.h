@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActionHelper {
 IL2CPP_REGISTER_METHOD(0x004C4E30, String *, GetName, (ActionMethod * action));

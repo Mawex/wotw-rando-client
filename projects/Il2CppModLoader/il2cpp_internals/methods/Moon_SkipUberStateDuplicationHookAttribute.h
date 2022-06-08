@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SkipUberStateDuplicationHookAttribute {
 IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_ShouldSkip, (SkipUberStateDuplicationHookAttribute * __this));

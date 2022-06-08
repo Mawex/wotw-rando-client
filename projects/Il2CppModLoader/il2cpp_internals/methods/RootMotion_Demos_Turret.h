@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::Turret {
 IL2CPP_REGISTER_METHOD(0x02049F90, void, Update, (Turret * __this));

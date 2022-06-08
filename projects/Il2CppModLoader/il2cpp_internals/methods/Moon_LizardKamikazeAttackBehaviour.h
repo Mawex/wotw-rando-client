@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LizardKamikazeAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x01106E50, bool, IsBlockingInterruption, (LizardKamikazeAttackBehaviour * __this, EntityDamageEvent * damageEvent, EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason));

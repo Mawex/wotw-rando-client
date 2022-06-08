@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebClient___c {
-IL2CPP_REGISTER_METHOD(0x01D5DF80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D5DF80, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (WebClient_c * __this));
 IL2CPP_REGISTER_METHOD(0x01D5E0C0, String *, _DownloadStringTaskAsync_b__219_1, (WebClient_c * __this, DownloadStringCompletedEventArgs * args));
 IL2CPP_REGISTER_METHODINFO(0x0470B280, WebClient_c__DownloadStringTaskAsync_b__219_1__MethodInfo);

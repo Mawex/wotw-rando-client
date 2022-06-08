@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormLocomotion {
 IL2CPP_REGISTER_METHOD(0x00C1ECF0, float, get_LastAvoidancePower, (SandWormLocomotion * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MemberInfoSerializationHolder {
 IL2CPP_REGISTER_METHOD(0x0268B610, void, GetSerializationInfo, (SerializationInfo * info, String * name, RuntimeType * reflectedClass, String * signature, MemberTypes__Enum type));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::FeedingGroundsDangerEffect {
 IL2CPP_REGISTER_METHOD(0x017852B0, void, FadeIn, (FeedingGroundsDangerEffect * __this, float timescale));

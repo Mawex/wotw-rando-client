@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Atmosphere_Rain {
 IL2CPP_REGISTER_METHOD(0x0273FAD0, Material *, get_material, (CameraFilterPack_Atmosphere_Rain * __this));

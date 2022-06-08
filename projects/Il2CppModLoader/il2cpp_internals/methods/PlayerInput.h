@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerInput {
 IL2CPP_REGISTER_METHOD(0x014111C0, void, ClearControls, (PlayerInput * __this));
@@ -22,5 +22,5 @@ IL2CPP_REGISTER_METHOD(0x01418A90, bool, KeyboardUsedLast, (PlayerInput * __this
 IL2CPP_REGISTER_METHOD(0x01418C90, bool, KeyboardUsedLast, (PlayerInput * __this, IAxisInput * iAxisInput));
 IL2CPP_REGISTER_METHOD(0x01418EC0, bool, IsAnyStartPressed, (PlayerInput * __this));
 IL2CPP_REGISTER_METHOD(0x01419290, void, __ctor, (PlayerInput * __this));
-IL2CPP_REGISTER_METHOD(0x0141CBF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0141CBF0, void, __cctor, ());
 }

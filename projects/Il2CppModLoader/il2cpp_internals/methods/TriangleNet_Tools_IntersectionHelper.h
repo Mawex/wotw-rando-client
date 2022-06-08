@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::IntersectionHelper {
 IL2CPP_REGISTER_METHOD(0x02A96E40, void, IntersectSegments, (Point * p0, Point * p1, Point * q0, Point * q1, Point * * c0));

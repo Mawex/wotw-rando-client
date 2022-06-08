@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::DefaultContractResolver___c {
-IL2CPP_REGISTER_METHOD(0x018694C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018694C0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (DefaultContractResolver_c * __this));
 IL2CPP_REGISTER_METHOD(0x01869600, bool, _GetSerializableMembers_b__40_0, (DefaultContractResolver_c * __this, MemberInfo_1 * m));
 IL2CPP_REGISTER_METHODINFO(0x04733218, DefaultContractResolver_c__GetSerializableMembers_b__40_0__MethodInfo);

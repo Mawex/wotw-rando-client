@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Dropdown {
 IL2CPP_REGISTER_METHOD(0x01F36670, void, __ctor, (Dropdown * __this));
@@ -45,7 +45,7 @@ IL2CPP_REGISTER_METHOD(0x01F3A430, void, Hide, (Dropdown * __this));
 IL2CPP_REGISTER_METHODINFO(0x047336B0, Dropdown_Hide__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01F3A790, IEnumerator *, DelayedDestroyDropdownList, (Dropdown * __this, float delay));
 IL2CPP_REGISTER_METHOD(0x01F3A900, void, OnSelectItem, (Dropdown * __this, Toggle * toggle));
-IL2CPP_REGISTER_METHOD(0x01F3AB70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F3AB70, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0157DAE0, Object *, GetOrAddComponent, (GameObject * go));
 IL2CPP_REGISTER_METHOD(0x0157DAE0, Canvas *, GetOrAddComponent, (GameObject * go));
 IL2CPP_REGISTER_METHODINFO(0x04702908, Dropdown_GetOrAddComponent_1__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransparentWallLogic {
 IL2CPP_REGISTER_METHOD(0x005D6880, bool, get_IsRevealed, (TransparentWallLogic * __this));

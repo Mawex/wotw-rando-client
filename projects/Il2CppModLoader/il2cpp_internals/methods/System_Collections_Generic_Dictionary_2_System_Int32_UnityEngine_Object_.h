@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_UnityEngine::Object_ {
 IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_Int32_UnityEngine_Object_ * __this, int32_t key, Object_1 * value));

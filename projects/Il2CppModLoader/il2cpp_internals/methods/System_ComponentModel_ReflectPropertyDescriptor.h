@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ReflectPropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x0299BA60, void, __ctor, (ReflectPropertyDescriptor * __this, Type * componentClass, String * name, Type * type, Attribute__Array * attributes));
@@ -47,5 +47,5 @@ IL2CPP_REGISTER_METHOD(0x029A0B80, void, SetValue, (ReflectPropertyDescriptor * 
 IL2CPP_REGISTER_METHODINFO(0x0472F938, ReflectPropertyDescriptor_SetValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x029A0FD0, bool, ShouldSerializeValue, (ReflectPropertyDescriptor * __this, Object * component));
 IL2CPP_REGISTER_METHOD(0x029A1300, bool, get_SupportsChangeEvents, (ReflectPropertyDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x029A1340, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029A1340, void, __cctor, ());
 }

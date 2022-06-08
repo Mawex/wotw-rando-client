@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::TextWriter {
-IL2CPP_REGISTER_METHOD(0x02385F00, String *, get_InitialNewLine, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02385F00, String *, get_InitialNewLine, ());
 IL2CPP_REGISTER_METHOD(0x02385F10, void, __ctor, (TextWriter * __this));
 IL2CPP_REGISTER_METHOD(0x02385FD0, void, __ctor, (TextWriter * __this, IFormatProvider * formatProvider));
 IL2CPP_REGISTER_METHOD(0x023860A0, IFormatProvider *, get_FormatProvider, (TextWriter * __this));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHOD(0x02386ED0, void, WriteLine, (TextWriter * __this, String
 IL2CPP_REGISTER_METHOD(0x02386F80, void, WriteLine, (TextWriter * __this, String * format, Object * arg0, Object * arg1));
 IL2CPP_REGISTER_METHOD(0x02387040, void, WriteLine, (TextWriter * __this, String * format, Object * arg0, Object * arg1, Object * arg2));
 IL2CPP_REGISTER_METHOD(0x023870D0, void, WriteLine, (TextWriter * __this, String * format, Object__Array * arg));
-IL2CPP_REGISTER_METHOD(0x02387130, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02387130, void, __cctor, ());
 }

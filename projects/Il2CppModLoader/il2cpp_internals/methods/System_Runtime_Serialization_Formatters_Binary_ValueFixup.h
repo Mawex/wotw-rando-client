@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::ValueFixup {
 IL2CPP_REGISTER_METHOD(0x01DA20E0, void, __ctor, (ValueFixup * __this, Array * arrayObj, Int32__Array * indexMap));

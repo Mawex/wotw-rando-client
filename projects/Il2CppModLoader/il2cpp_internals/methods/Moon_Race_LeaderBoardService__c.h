@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::LeaderBoardService___c {
-IL2CPP_REGISTER_METHOD(0x00C440C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C440C0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LeaderBoardService_c * __this));
 IL2CPP_REGISTER_METHOD(0x00C44200, bool, _GetPlayerTime_b__1_0, (LeaderBoardService_c * __this, LeaderBoardEntry * o));
 IL2CPP_REGISTER_METHODINFO(0x04722E18, LeaderBoardService_c__GetPlayerTime_b__1_0__MethodInfo);

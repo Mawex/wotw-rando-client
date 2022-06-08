@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::CustomAttributeNamedArgument {
 IL2CPP_REGISTER_METHOD(0x001FC850, void, __ctor, (CustomAttributeNamedArgument__Boxed * __this, MemberInfo_1 * memberInfo, Object * value));

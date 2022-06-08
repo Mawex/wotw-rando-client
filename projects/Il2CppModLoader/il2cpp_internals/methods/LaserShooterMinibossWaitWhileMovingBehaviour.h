@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterMinibossWaitWhileMovingBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F1E150, void, OnEnter, (LaserShooterMinibossWaitWhileMovingBehaviour * __this, IContext * context));

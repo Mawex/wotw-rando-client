@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SurfaceTypeVFXHandler_2_MaterialBasedHornBugEffectsMap_HornBugMovementEffects_ {
 IL2CPP_REGISTER_METHOD(0x01D1D130, void, __ctor, (SurfaceTypeVFXHandler_2_MaterialBasedHornBugEffectsMap_HornBugMovementEffects_ * __this, MaterialBasedHornBugEffectsMap * effectsMap, Transform * vfxHodler, Func_2_HornBugMovementEffects_UnityEngine_GameObject_ * getEffectsPrefabFunction, SurfaceMaterialType__Enum__Array * surfacesHandled, String * stateName));

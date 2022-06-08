@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ColorAnimator {
 IL2CPP_REGISTER_METHOD(0x0075FB80, GameObject *, get_EffectiveTarget, (ColorAnimator * __this));

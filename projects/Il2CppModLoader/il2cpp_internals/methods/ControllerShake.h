@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControllerShake {
 IL2CPP_REGISTER_METHOD(0x00B1C480, void, OnPoolSpawned, (ControllerShake * __this));

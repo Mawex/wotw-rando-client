@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::TextAsset {
 IL2CPP_REGISTER_METHOD(0x02C65C80, String *, get_text, (TextAsset * __this));

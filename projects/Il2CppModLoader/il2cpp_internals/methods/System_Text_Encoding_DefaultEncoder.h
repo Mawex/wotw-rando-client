@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::Encoding_DefaultEncoder {
 IL2CPP_REGISTER_METHOD(0x02453EF0, void, __ctor, (Encoding_DefaultEncoder * __this, Encoding * encoding));

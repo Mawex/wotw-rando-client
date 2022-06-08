@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable___c__DisplayClass7_0_3_System::Object_System::Boolean_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Enumerable_c_DisplayClass7_0_3_System_Object_System_Boolean_System_Boolean_ * __this));

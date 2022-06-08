@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinPickupProcessor {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_AreFirstTimeHintsEnabled, (SeinPickupProcessor * __this));
@@ -22,7 +22,7 @@ IL2CPP_REGISTER_METHOD(0x008B2320, void, OnCollectSkillPointPickup, (SeinPickupP
 IL2CPP_REGISTER_METHOD(0x008B2600, void, OnCollectQuestItemPickup, (SeinPickupProcessor * __this, QuestItemPickup * questItemPickup));
 IL2CPP_REGISTER_METHOD(0x008B2A00, void, OnCollectedShardSlotUpgrade, (SeinPickupProcessor * __this, ShardSlotUpgradePickup * shardSlotPickup));
 IL2CPP_REGISTER_METHOD(0x008B2C80, void, OnCollectEnergyOrbPickup, (SeinPickupProcessor * __this, EnergyOrbPickup * energyOrbPickup));
-IL2CPP_REGISTER_METHOD(0x008B2F90, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008B2F90, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x008B3030, void, OnCollectMaxEnergyContainerPickup, (SeinPickupProcessor * __this, MaxEnergyContainerPickup * energyContainerPickup));
 IL2CPP_REGISTER_METHOD(0x008B3410, void, OnCollectMaxEnergyHalfContainerPickup, (SeinPickupProcessor * __this, MaxEnergyHalfContainerPickup * energyContainerPickup));
 IL2CPP_REGISTER_METHOD(0x008B3AB0, void, OnCollectOrePickup, (SeinPickupProcessor * __this, OrePickup * orePickup));
@@ -37,7 +37,7 @@ IL2CPP_REGISTER_METHOD(0x008B5AE0, void, OnCollectSpiritShardPickup, (SeinPickup
 IL2CPP_REGISTER_METHOD(0x008B5DA0, void, SetReferenceToSein, (SeinPickupProcessor * __this, SeinCharacter * sein));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Serialize, (SeinPickupProcessor * __this, Archive * ar));
 IL2CPP_REGISTER_METHOD(0x008B5DD0, void, __ctor, (SeinPickupProcessor * __this));
-IL2CPP_REGISTER_METHOD(0x008B6E60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008B6E60, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x008B6FF0, void, _OnCollectMaxEnergyHalfContainerPickup_b__56_0, (SeinPickupProcessor * __this));
 IL2CPP_REGISTER_METHODINFO(0x04719440, SeinPickupProcessor__OnCollectMaxEnergyHalfContainerPickup_b__56_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x008B72E0, void, _OnCollectMaxEnergyHalfContainerPickup_b__56_1, (SeinPickupProcessor * __this));

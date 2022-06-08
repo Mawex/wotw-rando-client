@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimesliceLigthCanvasSetPosTask {
 IL2CPP_REGISTER_METHOD(0x00AF5190, void, __ctor, (TimesliceLigthCanvasSetPosTask * __this, Object_1 * source));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x00AF57F0, void, Reset, (TimesliceLigthCanvasSetPosTask 
 IL2CPP_REGISTER_METHOD(0x00AF5820, String *, get_JobName, (TimesliceLigthCanvasSetPosTask * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9D0, String *, get_TimesliceJobOwnerName, (TimesliceLigthCanvasSetPosTask * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_ContextualDebugData, (TimesliceLigthCanvasSetPosTask * __this));
-IL2CPP_REGISTER_METHOD(0x00AF58F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00AF58F0, void, __cctor, ());
 }

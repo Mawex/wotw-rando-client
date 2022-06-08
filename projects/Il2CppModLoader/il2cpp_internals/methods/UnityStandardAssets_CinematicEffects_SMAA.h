@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::SMAA {
 IL2CPP_REGISTER_METHOD(0x02508F20, Shader *, get_shader, (SMAA * __this));

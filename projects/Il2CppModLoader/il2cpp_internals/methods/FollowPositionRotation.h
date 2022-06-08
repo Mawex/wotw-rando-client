@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FollowPositionRotation {
 IL2CPP_REGISTER_METHOD(0x00C944C0, void, OnPoolSpawned, (FollowPositionRotation * __this));

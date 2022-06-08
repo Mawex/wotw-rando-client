@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameMapTransitionManager {
 IL2CPP_REGISTER_METHOD(0x006A40E0, bool, get_IsTransitioning, (GameMapTransitionManager * __this));
@@ -31,5 +31,5 @@ IL2CPP_REGISTER_METHOD(0x006A5EC0, void, SetAreaMapZoom, (GameMapTransitionManag
 IL2CPP_REGISTER_METHOD(0x006A5ED0, void, HandleLocationAndZoomRetention, (GameMapTransitionManager * __this, bool retainZoomAndLocation));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, GoToWorldMapInstantly, (GameMapTransitionManager * __this));
 IL2CPP_REGISTER_METHOD(0x006A6000, void, __ctor, (GameMapTransitionManager * __this));
-IL2CPP_REGISTER_METHOD(0x006A6310, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006A6310, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleSpawnBehaviour {
 IL2CPP_REGISTER_METHOD(0x010B4F20, MoonTimeline *, get_EffectiveSpawnTimeline, (TentacleSpawnBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::DataPointIcon_Icons_AssetDatabaseTexture {
 IL2CPP_REGISTER_METHOD(0x002FB930, Texture2D *, get_Texture, (DataPointIcon_Icons_AssetDatabaseTexture * __this));

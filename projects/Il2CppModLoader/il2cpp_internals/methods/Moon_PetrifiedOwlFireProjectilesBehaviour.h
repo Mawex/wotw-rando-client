@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PetrifiedOwlFireProjectilesBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C34050, void, OnStartBehaviour, (PetrifiedOwlFireProjectilesBehaviour * __this));

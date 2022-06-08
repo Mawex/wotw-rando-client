@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Pixelate {
 IL2CPP_REGISTER_METHOD(0x0304C960, void, OnRenderImage, (Pixelate * __this, RenderTexture * source, RenderTexture * destination));

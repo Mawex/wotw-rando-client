@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::FileInfo {
 IL2CPP_REGISTER_METHOD(0x01E085A0, void, __ctor, (FileInfo * __this, String * fileName));

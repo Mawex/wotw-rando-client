@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerformanceDataCollector {
 IL2CPP_REGISTER_METHOD(0x0044CE80, void, Start, (PerformanceDataCollector * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RotationStateModifierData {
 IL2CPP_REGISTER_METHOD(0x01B799C0, Vector3, get_RotationEuler, (RotationStateModifierData * __this));

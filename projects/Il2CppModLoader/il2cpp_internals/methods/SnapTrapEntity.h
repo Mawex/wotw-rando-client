@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SnapTrapEntity {
 IL2CPP_REGISTER_METHOD(0x006D6470, bool, get_IsSuspended, (SnapTrapEntity * __this));

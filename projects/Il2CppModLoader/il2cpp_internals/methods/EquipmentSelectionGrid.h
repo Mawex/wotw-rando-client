@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EquipmentSelectionGrid {
 IL2CPP_REGISTER_METHOD(0x00976AA0, void, UpdateItemProperties, (EquipmentSelectionGrid * __this, Object * gridContext));

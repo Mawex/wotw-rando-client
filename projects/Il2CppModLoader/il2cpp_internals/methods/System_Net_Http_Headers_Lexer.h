@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::Lexer {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (Lexer * __this, String * stream));
@@ -21,5 +21,5 @@ IL2CPP_REGISTER_METHOD(0x00CC6360, void, EatChar, (Lexer * __this));
 IL2CPP_REGISTER_METHOD(0x02D0E430, int32_t, PeekChar, (Lexer * __this));
 IL2CPP_REGISTER_METHOD(0x02D0E480, bool, ScanCommentOptional, (Lexer * __this, String * * value, Token * readToken));
 IL2CPP_REGISTER_METHOD(0x02D0E620, Token, Scan, (Lexer * __this, bool recognizeDash));
-IL2CPP_REGISTER_METHOD(0x02D0EA20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02D0EA20, void, __cctor, ());
 }

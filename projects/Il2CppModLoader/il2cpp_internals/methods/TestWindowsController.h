@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TestWindowsController {
 IL2CPP_REGISTER_METHOD(0x010E2930, void, Start, (TestWindowsController * __this));

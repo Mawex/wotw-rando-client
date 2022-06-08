@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodyVelocityCondition {
 IL2CPP_REGISTER_METHOD(0x01354F40, bool, Validate, (RigidbodyVelocityCondition * __this, IContext * context));

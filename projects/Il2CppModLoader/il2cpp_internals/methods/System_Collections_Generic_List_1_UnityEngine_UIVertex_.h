@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine::UIVertex_ {
 IL2CPP_REGISTER_METHOD(0x025E81E0, void, __ctor, (List_1_UnityEngine_UIVertex_ * __this, int32_t capacity));
@@ -66,5 +66,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_UnityEngine_UIVertex_ * _
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_UnityEngine_UIVertex_ * __this, Comparison_1_UnityEngine_UIVertex_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, UIVertex__Array *, ToArray, (List_1_UnityEngine_UIVertex_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_UnityEngine_UIVertex_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

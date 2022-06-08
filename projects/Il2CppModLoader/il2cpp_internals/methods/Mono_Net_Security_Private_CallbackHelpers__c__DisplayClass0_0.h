@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CallbackHelpers_c_DisplayClass0_0 * __this));

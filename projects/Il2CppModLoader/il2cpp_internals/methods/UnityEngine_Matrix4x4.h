@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Matrix4x4 {
 IL2CPP_REGISTER_METHOD(0x001F28F0, void, __ctor, (Matrix4x4__Boxed * __this, Vector4 column0, Vector4 column1, Vector4 column2, Vector4 column3));
@@ -33,10 +33,10 @@ IL2CPP_REGISTER_METHOD(0x001F2D20, Vector3, MultiplyPoint3x4, (Matrix4x4__Boxed 
 IL2CPP_REGISTER_METHOD(0x001F2DE0, Vector3, MultiplyVector, (Matrix4x4__Boxed * __this, Vector3 vector));
 IL2CPP_REGISTER_METHOD(0x02538790, Matrix4x4, Scale, (Vector3 vector));
 IL2CPP_REGISTER_METHOD(0x02538840, Matrix4x4, Translate, (Vector3 vector));
-IL2CPP_REGISTER_METHOD(0x025388E0, Matrix4x4, get_zero, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025389B0, Matrix4x4, get_identity, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025388E0, Matrix4x4, get_zero, ());
+IL2CPP_REGISTER_METHOD(0x025389B0, Matrix4x4, get_identity, ());
 IL2CPP_REGISTER_METHOD(0x001F2E90, String *, ToString, (Matrix4x4__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x025391F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025391F0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02539350, void, GetRotation_Injected, (Matrix4x4 * _unity_self, Quaternion * ret));
 IL2CPP_REGISTER_METHOD(0x025393B0, float, GetDeterminant_Injected, (Matrix4x4 * _unity_self));
 IL2CPP_REGISTER_METHOD(0x02539400, void, TRS_Injected, (Vector3 * pos, Quaternion * q, Vector3 * s, Matrix4x4 * ret));

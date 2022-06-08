@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::UnloadIntroLogosAndCleanUpPrewarmOperation {
 IL2CPP_REGISTER_METHOD(0x00F62740, void, __ctor, (UnloadIntroLogosAndCleanUpPrewarmOperation * __this));

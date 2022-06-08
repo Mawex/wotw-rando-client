@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::CipherSuite {
 IL2CPP_REGISTER_METHOD(0x002FBB60, ICryptoTransform *, get_EncryptionCipher, (CipherSuite * __this));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHOD(0x01F636E0, Byte__Array *, PRF, (CipherSuite * __this, By
 IL2CPP_REGISTER_METHOD(0x01F63AD0, Byte__Array *, Expand, (CipherSuite * __this, HashAlgorithm * hash, Byte__Array * secret, Byte__Array * seed, int32_t length));
 IL2CPP_REGISTER_METHOD(0x01F64220, void, createEncryptionCipher, (CipherSuite * __this));
 IL2CPP_REGISTER_METHOD(0x01F648E0, void, createDecryptionCipher, (CipherSuite * __this));
-IL2CPP_REGISTER_METHOD(0x01F64FA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F64FA0, void, __cctor, ());
 }

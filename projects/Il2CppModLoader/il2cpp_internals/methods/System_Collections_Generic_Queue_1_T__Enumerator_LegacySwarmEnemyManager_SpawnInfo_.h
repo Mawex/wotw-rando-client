@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_LegacySwarmEnemyManager_SpawnInfo_ {
 IL2CPP_REGISTER_METHOD(0x001ED400, void, __ctor, (Queue_1_T_Enumerator_LegacySwarmEnemyManager_SpawnInfo___Boxed * __this, Queue_1_LegacySwarmEnemyManager_SpawnInfo_ * q));

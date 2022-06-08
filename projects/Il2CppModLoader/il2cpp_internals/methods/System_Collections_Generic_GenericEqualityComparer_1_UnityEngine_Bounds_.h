@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_UnityEngine::Bounds_ {
 IL2CPP_REGISTER_METHOD(0x02AB2730, bool, Equals, (GenericEqualityComparer_1_UnityEngine_Bounds_ * __this, Bounds x, Bounds y));

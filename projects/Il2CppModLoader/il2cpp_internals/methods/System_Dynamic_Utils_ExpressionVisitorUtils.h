@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ExpressionVisitorUtils {
 IL2CPP_REGISTER_METHOD(0x01F95420, Expression__Array *, VisitBlockExpressions, (ExpressionVisitor * visitor, BlockExpression * block));

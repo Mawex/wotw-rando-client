@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BehaviourNode {
 IL2CPP_REGISTER_METHOD(0x004E57A0, BehaviourStatus__Enum, get_Status, (BehaviourNode * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::PublicKey {
 IL2CPP_REGISTER_METHOD(0x021C10B0, void, __ctor, (PublicKey * __this, X509Certificate_2 * certificate));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x021C1B90, DSA *, DecodeDSA, (Byte__Array * rawPublicKey
 IL2CPP_REGISTER_METHODINFO(0x0477CFC8, PublicKey_DecodeDSA__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021C21E0, RSA *, DecodeRSA, (Byte__Array * rawPublicKey));
 IL2CPP_REGISTER_METHODINFO(0x04713D58, PublicKey_DecodeRSA__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x021C2650, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021C2650, void, __cctor, ());
 }

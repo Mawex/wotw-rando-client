@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_ConditionValidator_ {
 IL2CPP_REGISTER_METHOD(0x025E9D20, List_1_T_Enumerator_ConditionValidator_, GetEnumerator, (List_1_ConditionValidator_ * __this));
@@ -61,5 +61,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_ConditionValidator_ * __t
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_ConditionValidator_ * __this, Comparison_1_ConditionValidator_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, ConditionValidator__Array *, ToArray, (List_1_ConditionValidator_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_ConditionValidator_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

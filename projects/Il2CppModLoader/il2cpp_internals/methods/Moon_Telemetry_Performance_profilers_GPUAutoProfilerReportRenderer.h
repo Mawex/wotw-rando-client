@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::profilers::GPUAutoProfilerReportRenderer {
 IL2CPP_REGISTER_METHOD(0x00E46F40, void, CreateLineMaterial, (GPUAutoProfilerReportRenderer * __this));
-IL2CPP_REGISTER_METHOD(0x00E470E0, bool, get_IsVisible, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E470E0, bool, get_IsVisible, ());
 IL2CPP_REGISTER_METHOD(0x00E471B0, void, Show, (GPUAutoProfilerReport * report));
-IL2CPP_REGISTER_METHOD(0x00E47440, void, Hide, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E47440, void, Hide, ());
 IL2CPP_REGISTER_METHOD(0x00E47570, float, GetAverage, (GPUAutoProfilerReportRenderer * __this, Single__Array * samples));
 IL2CPP_REGISTER_METHOD(0x00E475D0, void, Initialize, (GPUAutoProfilerReportRenderer * __this));
 IL2CPP_REGISTER_METHOD(0x00E47820, void, OnEnable, (GPUAutoProfilerReportRenderer * __this));
@@ -18,8 +18,8 @@ IL2CPP_REGISTER_METHOD(0x00E490F0, void, DrawBaselineReport, (GPUAutoProfilerRep
 IL2CPP_REGISTER_METHOD(0x00E49390, int32_t, DrawString, (GPUAutoProfilerReportRenderer * __this, Color color, Color backgroundColor, String * stringValue, int32_t x, int32_t y));
 IL2CPP_REGISTER_METHOD(0x00E3EE80, int32_t, FloatWidth, (GPUAutoProfilerReportRenderer * __this, float value));
 IL2CPP_REGISTER_METHOD(0x00E494D0, int32_t, DrawFloat, (GPUAutoProfilerReportRenderer * __this, Color color, Color backgroundColor, float floatValue, int32_t x, int32_t y));
-IL2CPP_REGISTER_METHOD(0x00E495F0, void, SuspendGameplay, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00E49680, void, ResumeGameplay, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E495F0, void, SuspendGameplay, ());
+IL2CPP_REGISTER_METHOD(0x00E49680, void, ResumeGameplay, ());
 IL2CPP_REGISTER_METHOD(0x00E49710, void, __ctor, (GPUAutoProfilerReportRenderer * __this));
-IL2CPP_REGISTER_METHOD(0x00E49800, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E49800, void, __cctor, ());
 }

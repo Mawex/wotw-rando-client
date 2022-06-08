@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DifficultyController {
 IL2CPP_REGISTER_METHOD(0x00B91B70, void, Awake, (DifficultyController * __this));

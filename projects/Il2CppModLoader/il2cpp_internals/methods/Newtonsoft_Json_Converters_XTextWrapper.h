@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::XTextWrapper {
 IL2CPP_REGISTER_METHOD(0x01A59E70, XText *, get_Text, (XTextWrapper * __this));

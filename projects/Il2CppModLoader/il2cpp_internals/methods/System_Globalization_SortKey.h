@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::SortKey {
 IL2CPP_REGISTER_METHOD(0x01DEBF40, int32_t, Compare, (SortKey * sortkey1, SortKey * sortkey2));

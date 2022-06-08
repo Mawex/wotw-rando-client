@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaitForActionToFinishAction {
 IL2CPP_REGISTER_METHOD(0x008C5A90, bool, get_IsPerforming, (WaitForActionToFinishAction * __this));

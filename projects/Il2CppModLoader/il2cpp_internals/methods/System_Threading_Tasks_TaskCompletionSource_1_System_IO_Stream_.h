@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskCompletionSource_1_System::IO::Stream_ {
 IL2CPP_REGISTER_METHOD(0x02776D20, void, __ctor, (TaskCompletionSource_1_System_IO_Stream_ * __this, Object * state));

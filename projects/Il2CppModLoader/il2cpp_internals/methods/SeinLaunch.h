@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinLaunch {
 IL2CPP_REGISTER_METHOD(0x01020FB0, void, OnSetReferenceToSein, (SeinLaunch * __this));

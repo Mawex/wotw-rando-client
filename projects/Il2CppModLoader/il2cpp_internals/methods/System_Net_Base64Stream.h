@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Base64Stream {
 IL2CPP_REGISTER_METHOD(0x02010F00, void, __ctor, (Base64Stream * __this, Stream * stream, Base64WriteStateInfo * writeStateInfo));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x020134D0, int32_t, Read, (Base64Stream * __this, Byte__
 IL2CPP_REGISTER_METHODINFO(0x047304A8, Base64Stream_Read__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02013740, void, Write, (Base64Stream * __this, Byte__Array * buffer, int32_t offset, int32_t count));
 IL2CPP_REGISTER_METHODINFO(0x0477F918, Base64Stream_Write__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02013900, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02013900, void, __cctor, ());
 }

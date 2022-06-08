@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IcyFeralMinerPlaceholder {
 IL2CPP_REGISTER_METHOD(0x006253C0, MinerSpawnType__Enum, get_SpawnType, (IcyFeralMinerPlaceholder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabUnityHttp__Post_d__20 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (PlayFabUnityHttp_Post_d_20 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyAttackableSwitch {
 IL2CPP_REGISTER_METHOD(0x015CD510, void, ToggleSwitch, (LegacyAttackableSwitch * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Vector3Int {
 IL2CPP_REGISTER_METHOD(0x0013D2C0, void, __ctor, (Vector3Int__Boxed * __this, int32_t x, int32_t y, int32_t z));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x002296F0, bool, Equals, (Vector3Int__Boxed * __this, Ob
 IL2CPP_REGISTER_METHOD(0x002297E0, bool, Equals, (Vector3Int__Boxed * __this, Vector3Int other));
 IL2CPP_REGISTER_METHOD(0x00229810, int32_t, GetHashCode, (Vector3Int__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00229840, String *, ToString, (Vector3Int__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x02C782B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C782B0, void, __cctor, ());
 }

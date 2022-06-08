@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::RotationLimitPolygonal_ReachCone {
 IL2CPP_REGISTER_METHOD(0x02A25710, Vector3, get_o, (RotationLimitPolygonal_ReachCone * __this));

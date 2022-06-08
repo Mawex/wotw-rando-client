@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsLoadedEventArgs {
 IL2CPP_REGISTER_METHOD(0x02962C20, void, __ctor, (SettingsLoadedEventArgs * __this, SettingsProvider * provider));

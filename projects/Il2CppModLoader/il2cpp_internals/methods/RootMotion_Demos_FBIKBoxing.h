@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FBIKBoxing {
 IL2CPP_REGISTER_METHOD(0x02219D10, void, Start, (FBIKBoxing * __this));

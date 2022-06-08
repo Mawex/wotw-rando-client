@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::SerializableUberSaderModifierWrapperComparer {
 IL2CPP_REGISTER_METHOD(0x004C87C0, void, __ctor, (SerializableUberSaderModifierWrapperComparer * __this, float lerpValue));

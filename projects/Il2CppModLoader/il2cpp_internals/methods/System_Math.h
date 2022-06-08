@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Math {
 IL2CPP_REGISTER_METHOD(0x02268030, double, Acos, (double d));
@@ -64,5 +64,5 @@ IL2CPP_REGISTER_METHOD(0x02269C70, int32_t, Sign, (float value));
 IL2CPP_REGISTER_METHODINFO(0x04783928, Math_Sign__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02269D80, int32_t, Sign, (double value));
 IL2CPP_REGISTER_METHODINFO(0x04718F00, Math_Sign_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02269E90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02269E90, void, __cctor, ());
 }

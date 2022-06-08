@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FirewhirlBeam {
 IL2CPP_REGISTER_METHOD(0x012620E0, bool, get_DamageAreaEnabled, (FirewhirlBeam * __this));

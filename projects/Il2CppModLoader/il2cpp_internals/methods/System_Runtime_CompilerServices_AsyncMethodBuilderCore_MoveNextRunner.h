@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncMethodBuilderCore_MoveNextRunner {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (AsyncMethodBuilderCore_MoveNextRunner * __this, ExecutionContext * context, IAsyncStateMachine * stateMachine));

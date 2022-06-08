@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_FX_8bits_gb {
 IL2CPP_REGISTER_METHOD(0x02468640, Material *, get_material, (CameraFilterPack_FX_8bits_gb * __this));

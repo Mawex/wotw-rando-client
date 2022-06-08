@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameSystemsEnabler {
 IL2CPP_REGISTER_METHOD(0x004046C0, void, Awake, (GameSystemsEnabler * __this));

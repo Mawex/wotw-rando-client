@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::SwitchCase {
 IL2CPP_REGISTER_METHOD(0x0231B8E0, void, __ctor, (SwitchCase * __this, Expression * body, ReadOnlyCollection_1_System_Linq_Expressions_Expression_ * testValues));

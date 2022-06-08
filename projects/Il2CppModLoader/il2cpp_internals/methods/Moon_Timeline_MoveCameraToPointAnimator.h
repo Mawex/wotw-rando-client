@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MoveCameraToPointAnimator {
 IL2CPP_REGISTER_METHOD(0x00776550, GameObject *, get_ExternalTarget, (MoveCameraToPointAnimator * __this));

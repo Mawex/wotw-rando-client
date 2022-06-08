@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::StaticEntityLocomotion {
 IL2CPP_REGISTER_METHOD(0x005B0220, Transform *, get_FeetTransform, (StaticEntityLocomotion * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RotationTrackingChain_ChainEntry {
 IL2CPP_REGISTER_METHOD(0x01371930, void, Update, (RotationTrackingChain_ChainEntry * __this, float deltaTime, Vector3 target));

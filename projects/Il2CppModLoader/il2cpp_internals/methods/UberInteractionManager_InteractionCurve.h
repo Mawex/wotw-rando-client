@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionManager_InteractionCurve {
 IL2CPP_REGISTER_METHOD(0x00C3DD50, float, get_Scale, (UberInteractionManager_InteractionCurve * __this));

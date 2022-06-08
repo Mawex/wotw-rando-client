@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_ByteStateMap_Mapping_ {
 IL2CPP_REGISTER_METHOD(0x0014CC40, void, __ctor, (List_1_T_Enumerator_ByteStateMap_Mapping___Boxed * __this, List_1_ByteStateMap_Mapping_ * list));

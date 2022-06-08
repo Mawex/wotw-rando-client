@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Identity {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (Identity * __this, String * objectUri));

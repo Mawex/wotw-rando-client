@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostReplaysOverview {
 IL2CPP_REGISTER_METHOD(0x007E5060, void, AddGhostReplay, (GhostReplaysOverview * __this, GhostReplayMetaData * ghostReplayMetaData));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_RuntimeQuest_QuestIconUI_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_RuntimeQuest_QuestIconUI_ * __this, RuntimeQuest * key, QuestIconUI * * value));

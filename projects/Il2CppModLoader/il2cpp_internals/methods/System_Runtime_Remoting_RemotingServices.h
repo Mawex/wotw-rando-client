@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::RemotingServices {
-IL2CPP_REGISTER_METHOD(0x02323E80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02323E80, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02324510, Object *, InternalExecute, (MethodBase * method_1, Object * obj, Object__Array * parameters, Object__Array * * out_args));
 IL2CPP_REGISTER_METHOD(0x02324520, MethodBase *, GetVirtualMethod, (Type * type, MethodBase * method_1));
 IL2CPP_REGISTER_METHOD(0x02324530, bool, IsTransparentProxy, (Object * proxy));
@@ -16,7 +16,7 @@ IL2CPP_REGISTER_METHOD(0x02324F00, Object *, Unmarshal, (ObjRef * objectRef, boo
 IL2CPP_REGISTER_METHOD(0x023252A0, ObjRef *, Marshal, (MarshalByRefObject * Obj));
 IL2CPP_REGISTER_METHOD(0x02325340, ObjRef *, Marshal, (MarshalByRefObject * Obj, String * ObjURI, Type * RequestedType));
 IL2CPP_REGISTER_METHODINFO(0x0478E698, RemotingServices_Marshal_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x023253E0, String *, NewUri, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023253E0, String *, NewUri, ());
 IL2CPP_REGISTER_METHOD(0x02325940, RealProxy *, GetRealProxy, (Object * proxy));
 IL2CPP_REGISTER_METHODINFO(0x04760110, RemotingServices_GetRealProxy__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023259E0, MethodBase *, GetMethodBaseFromMethodMessage, (IMethodMessage * msg));
@@ -45,7 +45,7 @@ IL2CPP_REGISTER_METHOD(0x02328100, Object *, GetRemoteObject, (ObjRef * objRef, 
 IL2CPP_REGISTER_METHOD(0x023281C0, Byte__Array *, SerializeCallData, (Object * obj));
 IL2CPP_REGISTER_METHOD(0x023284C0, Object *, DeserializeCallData, (Byte__Array * array));
 IL2CPP_REGISTER_METHOD(0x023287A0, Byte__Array *, SerializeExceptionData, (Exception * ex));
-IL2CPP_REGISTER_METHOD(0x02328980, void, RegisterInternalChannels, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02328980, void, RegisterInternalChannels, ());
 IL2CPP_REGISTER_METHOD(0x02328A10, void, DisposeIdentity, (Identity * ident));
 IL2CPP_REGISTER_METHOD(0x02328CB0, Identity *, GetMessageTargetIdentity, (IMessage * msg));
 IL2CPP_REGISTER_METHOD(0x02329030, void, SetMessageTargetIdentity, (IMessage * msg, Identity * ident));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::CookieContainer {
 IL2CPP_REGISTER_METHOD(0x01EA24B0, void, __ctor, (CookieContainer * __this));
@@ -42,5 +42,5 @@ IL2CPP_REGISTER_METHODINFO(0x0474A278, CookieContainer_GetCookieHeader__MethodIn
 IL2CPP_REGISTER_METHOD(0x01EA72E0, String *, GetCookieHeader, (CookieContainer * __this, Uri * uri, String * * optCookie2));
 IL2CPP_REGISTER_METHOD(0x01EA75F0, void, SetCookies, (CookieContainer * __this, Uri * uri, String * cookieHeader));
 IL2CPP_REGISTER_METHODINFO(0x047932A0, CookieContainer_SetCookies__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01EA7730, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EA7730, void, __cctor, ());
 }

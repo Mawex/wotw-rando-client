@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::FrameDelayTask {
 IL2CPP_REGISTER_METHOD(0x002FD1E0, void, __ctor, (FrameDelayTask * __this, int32_t framesDelay));

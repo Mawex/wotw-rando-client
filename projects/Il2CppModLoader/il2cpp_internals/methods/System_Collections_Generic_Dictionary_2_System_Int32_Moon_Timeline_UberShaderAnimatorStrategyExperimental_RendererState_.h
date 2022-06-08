@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Moon::Timeline::UberShaderAnimatorStrategyExperimental_RendererState_ {
 IL2CPP_REGISTER_METHOD(0x02BBA360, bool, Remove, (Dictionary_2_System_Int32_Moon_Timeline_UberShaderAnimatorStrategyExperimental_RendererState_ * __this, int32_t key));

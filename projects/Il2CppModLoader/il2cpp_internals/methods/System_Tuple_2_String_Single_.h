@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_String_Single_ {
 IL2CPP_REGISTER_METHOD(0x02A68070, void, __ctor, (Tuple_2_String_Single_ * __this, String * item1, float item2));

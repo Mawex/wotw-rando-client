@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Grayscale {
 IL2CPP_REGISTER_METHOD(0x030467B0, void, OnRenderImage, (Grayscale * __this, RenderTexture * source, RenderTexture * destination));

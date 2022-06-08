@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::InterleavedRenderingSettings {
 IL2CPP_REGISTER_METHOD(0x0078D270, void, __ctor, (InterleavedRenderingSettings * __this));

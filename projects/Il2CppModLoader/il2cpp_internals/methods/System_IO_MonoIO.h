@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::MonoIO {
 IL2CPP_REGISTER_METHOD(0x023721F0, Exception *, GetException, (MonoIOError__Enum error));
@@ -43,16 +43,16 @@ IL2CPP_REGISTER_METHOD(0x023754B0, int64_t, GetLength, (void * handle, MonoIOErr
 IL2CPP_REGISTER_METHOD(0x023754F0, int64_t, GetLength, (SafeHandle * safeHandle, MonoIOError__Enum * error));
 IL2CPP_REGISTER_METHOD(0x02375680, bool, SetLength, (void * handle, int64_t length, MonoIOError__Enum * error));
 IL2CPP_REGISTER_METHOD(0x02375690, bool, SetLength, (SafeHandle * safeHandle, int64_t length, MonoIOError__Enum * error));
-IL2CPP_REGISTER_METHOD(0x02375810, void *, get_ConsoleOutput, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02375820, void *, get_ConsoleInput, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02375830, void *, get_ConsoleError, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02375810, void *, get_ConsoleOutput, ());
+IL2CPP_REGISTER_METHOD(0x02375820, void *, get_ConsoleInput, ());
+IL2CPP_REGISTER_METHOD(0x02375830, void *, get_ConsoleError, ());
 IL2CPP_REGISTER_METHOD(0x02375840, bool, CreatePipe, (void * * read_handle, void * * write_handle, MonoIOError__Enum * error));
 IL2CPP_REGISTER_METHOD(0x02375890, bool, DuplicateHandle, (void * source_process_handle, void * source_handle, void * target_process_handle, void * * target_handle, int32_t access, int32_t inherit, int32_t options, MonoIOError__Enum * error));
-IL2CPP_REGISTER_METHOD(0x00E3F290, uint16_t, get_VolumeSeparatorChar, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x023758E0, uint16_t, get_DirectorySeparatorChar, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00E3AD20, uint16_t, get_AltDirectorySeparatorChar, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00E40920, uint16_t, get_PathSeparator, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0173D7D0, void, DumpHandles, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E3F290, uint16_t, get_VolumeSeparatorChar, ());
+IL2CPP_REGISTER_METHOD(0x023758E0, uint16_t, get_DirectorySeparatorChar, ());
+IL2CPP_REGISTER_METHOD(0x00E3AD20, uint16_t, get_AltDirectorySeparatorChar, ());
+IL2CPP_REGISTER_METHOD(0x00E40920, uint16_t, get_PathSeparator, ());
+IL2CPP_REGISTER_METHOD(0x0173D7D0, void, DumpHandles, ());
 IL2CPP_REGISTER_METHOD(0x023758F0, bool, RemapPath, (String * path, String * * newPath));
-IL2CPP_REGISTER_METHOD(0x02375900, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02375900, void, __cctor, ());
 }

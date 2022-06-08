@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterStateWrapper_1_SeinBlazeSpell_ {
 IL2CPP_REGISTER_METHOD(0x019DF410, bool, get_IsPerforming, (CharacterStateWrapper_1_SeinBlazeSpell_ * __this));

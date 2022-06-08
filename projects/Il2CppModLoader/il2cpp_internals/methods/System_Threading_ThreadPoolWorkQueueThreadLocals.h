@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadPoolWorkQueueThreadLocals {
 IL2CPP_REGISTER_METHOD(0x02349010, void, __ctor, (ThreadPoolWorkQueueThreadLocals * __this, ThreadPoolWorkQueue * tpq));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetGameModeToPrologueAction {
 IL2CPP_REGISTER_METHOD(0x005A2CA0, void, Perform, (SetGameModeToPrologueAction * __this, IContext * context));

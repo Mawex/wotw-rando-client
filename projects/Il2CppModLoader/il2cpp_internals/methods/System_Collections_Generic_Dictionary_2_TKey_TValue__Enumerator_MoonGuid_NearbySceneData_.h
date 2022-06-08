@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_MoonGuid_NearbySceneData_ {
 IL2CPP_REGISTER_METHOD(0x00133F90, KeyValuePair_2_MoonGuid_NearbySceneData_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_MoonGuid_NearbySceneData___Boxed * __this));

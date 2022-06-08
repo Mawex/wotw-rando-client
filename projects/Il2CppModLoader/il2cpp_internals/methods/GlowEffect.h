@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlowEffect {
 IL2CPP_REGISTER_METHOD(0x024FA640, Material *, get_compositeMaterial, (GlowEffect * __this));

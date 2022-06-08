@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolParticlesClear {
 IL2CPP_REGISTER_METHOD(0x00FDFB30, void, OnPoolSpawned, (UberPoolParticlesClear * __this));

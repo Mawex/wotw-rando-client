@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PiranhaEntity {
 IL2CPP_REGISTER_METHOD(0x0115E6D0, bool, get_ShouldFollowOri, (PiranhaEntity * __this));

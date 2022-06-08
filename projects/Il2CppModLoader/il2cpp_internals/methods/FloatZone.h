@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatZone {
 IL2CPP_REGISTER_METHOD(0x01271F20, void, Awake, (FloatZone * __this));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHOD(0x01272700, void, set_Mask, (FloatZone * __this, Suspenda
 IL2CPP_REGISTER_METHOD(0x012727B0, void, UpdateBoundingRectangle, (FloatZone * __this));
 IL2CPP_REGISTER_METHOD(0x0043D9A0, SelectableCategory__Enum, get_Category, (FloatZone * __this));
 IL2CPP_REGISTER_METHOD(0x01272AD0, void, __ctor, (FloatZone * __this));
-IL2CPP_REGISTER_METHOD(0x01272B00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01272B00, void, __cctor, ());
 }

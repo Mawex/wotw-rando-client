@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::QNameFacetsChecker {
 IL2CPP_REGISTER_METHOD(0x016E53A0, Exception *, CheckValueFacets, (QNameFacetsChecker * __this, Object * value, XmlSchemaDatatype * datatype));

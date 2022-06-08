@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_UberShaderProperty_Float_Moon::Timeline::UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_ {
 IL2CPP_REGISTER_METHOD(0x0010E170, UberShaderProperty_Float__Enum, get_Key, (KeyValuePair_2_UberShaderProperty_Float_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1___Boxed * __this));

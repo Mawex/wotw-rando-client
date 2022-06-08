@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineMarkerRecord {
 IL2CPP_REGISTER_METHOD(0x01E8CB90, void, __ctor, (TimelineMarkerRecord * __this, EntityId id));

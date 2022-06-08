@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartBouncer {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, Collider *, get_Collider, (CartBouncer * __this));

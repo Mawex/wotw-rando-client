@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_AmbienceZone_WiseAuxSend_ {
 IL2CPP_REGISTER_METHOD(0x02F294A0, void, Sort, (AmbienceZone_WiseAuxSend__Array * keys, int32_t index, int32_t length, IComparer_1_AmbienceZone_WiseAuxSend_ * comparer));

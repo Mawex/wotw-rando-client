@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::Int32Enum_SpellIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x00133F40, void, __ctor, (Dictionary_2_TKey_TValue_Enumerator_System_Int32Enum_SpellIconsCollection_Icons___Boxed * __this, Dictionary_2_System_Int32Enum_SpellIconsCollection_Icons_ * dictionary, int32_t getEnumeratorRetType));

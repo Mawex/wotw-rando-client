@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraAnimator {
 IL2CPP_REGISTER_METHOD(0x00933870, bool, get_IsLooping, (CameraAnimator * __this));

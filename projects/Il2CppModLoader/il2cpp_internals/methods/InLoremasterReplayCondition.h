@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InLoremasterReplayCondition {
 IL2CPP_REGISTER_METHOD(0x00628350, bool, Validate, (InLoremasterReplayCondition * __this, IContext * context));

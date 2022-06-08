@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ToggleGroup {
 IL2CPP_REGISTER_METHOD(0x0267C900, void, __ctor, (ToggleGroup * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlDateTimeConverter {
 IL2CPP_REGISTER_METHOD(0x02246B80, void, __ctor, (XmlDateTimeConverter * __this, XmlSchemaType * schemaType));

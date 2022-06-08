@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SimpleSwayBossAnimPostprocess {
 IL2CPP_REGISTER_METHOD(0x003FF7B0, int32_t, get_Order, (SimpleSwayBossAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_RequiresOnUpdate, (SimpleSwayBossAnimPostprocess * __this));
-IL2CPP_REGISTER_METHOD(0x02122DC0, bool, get_UseSway, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02122DC0, bool, get_UseSway, ());
 IL2CPP_REGISTER_METHOD(0x02122E60, void, set_UseSway, (bool value));
-IL2CPP_REGISTER_METHOD(0x02122F40, void, RefreshUseSwayAll, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02122F40, void, RefreshUseSwayAll, ());
 IL2CPP_REGISTER_METHOD(0x021230A0, void, RefreshUseSway, (SimpleSwayBossAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x02123200, void, Awake, (SimpleSwayBossAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x021232F0, void, OnDestroy, (SimpleSwayBossAnimPostprocess * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x02123A80, void, InitSway, (SimpleSwayBossAnimPostproces
 IL2CPP_REGISTER_METHOD(0x02123D70, void, DisposeSway, (SimpleSwayBossAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x02123DA0, void, UpdateSway, (SimpleSwayBossAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x021241C0, void, __ctor, (SimpleSwayBossAnimPostprocess * __this));
-IL2CPP_REGISTER_METHOD(0x021241E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021241E0, void, __cctor, ());
 }

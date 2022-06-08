@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Shared_1_System::Threading::CancellationTokenRegistration_ {
 IL2CPP_REGISTER_METHOD(0x027763E0, void, __ctor, (Shared_1_System_Threading_CancellationTokenRegistration_ * __this, CancellationTokenRegistration value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkPositionArray {
 IL2CPP_REGISTER_METHOD(0x0188F550, void, __ctor, (AkPositionArray * __this, uint32_t in_Count));

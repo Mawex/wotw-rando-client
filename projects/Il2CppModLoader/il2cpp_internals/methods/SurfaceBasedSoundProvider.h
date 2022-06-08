@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SurfaceBasedSoundProvider {
 IL2CPP_REGISTER_METHOD(0x00672890, SoundDescriptor *, GetSound, (SurfaceBasedSoundProvider * __this, IContext * context));

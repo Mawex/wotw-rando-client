@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ConstraintEnumerator {
 IL2CPP_REGISTER_METHOD(0x01E327F0, void, __ctor, (ConstraintEnumerator * __this, DataSet * dataSet));

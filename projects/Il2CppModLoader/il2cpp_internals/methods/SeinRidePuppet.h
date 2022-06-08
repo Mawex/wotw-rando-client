@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinRidePuppet {
 IL2CPP_REGISTER_METHOD(0x005D6E50, int32_t, get_Id, (SeinRidePuppet * __this));

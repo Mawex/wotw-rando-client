@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::CapsulecastCommand {
 IL2CPP_REGISTER_METHOD(0x00244140, void, __ctor, (CapsulecastCommand__Boxed * __this, Vector3 p1, Vector3 p2, float radius, Vector3 direction, float distance, int32_t layerMask));

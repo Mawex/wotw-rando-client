@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimationParameterSet {
 IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_PreviewMode, (AnimationParameterSet * __this));
@@ -11,7 +11,7 @@ IL2CPP_REGISTER_METHOD(0x01B03AF0, Vector3, GetValue, (AnimationParameterSet * _
 IL2CPP_REGISTER_METHOD(0x01B03C20, void, SetValue, (AnimationParameterSet * __this, VectorAnimationParameter * parameter, Vector3 value));
 IL2CPP_REGISTER_METHOD(0x01B03E80, bool, HasValueForParameter, (AnimationParameterSet * __this, AnimationParameter * parameter));
 IL2CPP_REGISTER_METHOD(0x01B03F40, void, __ctor, (AnimationParameterSet * __this));
-IL2CPP_REGISTER_METHOD(0x01B04180, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01B04180, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01EB8980, List_1_System_Object_ *, GetParametersOfType, (AnimationParameterSet * __this));
 IL2CPP_REGISTER_METHOD(0x015EBAB0, Object *, GetParameterInstance, (AnimationParameterSet * __this, AnimationParameter * parameter));
 IL2CPP_REGISTER_METHOD(0x015EBAB0, FloatAnimationParameter_Instance *, GetParameterInstance, (AnimationParameterSet * __this, AnimationParameter * parameter));

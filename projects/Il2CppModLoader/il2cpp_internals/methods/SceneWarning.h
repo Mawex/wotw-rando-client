@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneWarning {
 IL2CPP_REGISTER_METHOD(0x00BC17D0, void, Start, (SceneWarning * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::XR::XRReferencePointSubsystem {
 IL2CPP_REGISTER_METHOD(0x031771B0, void, __ctor, (XRReferencePointSubsystem * __this));

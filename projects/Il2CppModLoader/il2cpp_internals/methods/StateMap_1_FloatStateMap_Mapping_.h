@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateMap_1_FloatStateMap_Mapping_ {
 IL2CPP_REGISTER_METHOD(0x019FAA80, void, __ctor, (StateMap_1_FloatStateMap_Mapping_ * __this));

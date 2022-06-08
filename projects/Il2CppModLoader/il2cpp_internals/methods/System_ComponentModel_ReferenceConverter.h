@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ReferenceConverter {
 IL2CPP_REGISTER_METHOD(0x02999290, void, __ctor, (ReferenceConverter * __this, Type * type));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x02999870, TypeConverter_StandardValuesCollection *, Get
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetStandardValuesExclusive, (ReferenceConverter * __this, ITypeDescriptorContext * context));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetStandardValuesSupported, (ReferenceConverter * __this, ITypeDescriptorContext * context));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, IsValueAllowed, (ReferenceConverter * __this, ITypeDescriptorContext * context, Object * value));
-IL2CPP_REGISTER_METHOD(0x02999F70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02999F70, void, __cctor, ());
 }

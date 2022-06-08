@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameSettings {
-IL2CPP_REGISTER_METHOD(0x003FBC40, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x003FBC40, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x003FBCE0, void, Awake, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FBE50, bool, get_DamageTextEnabled, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FBE60, void, set_DamageTextEnabled, (GameSettings * __this, bool value));
@@ -29,7 +29,7 @@ IL2CPP_REGISTER_METHOD(0x003FC520, void, set_MasterVolume, (GameSettings * __thi
 IL2CPP_REGISTER_METHOD(0x003FC5B0, RTPC *, get_MasterVolumeRTPC, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FC5D0, float, get_MusicVolume, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FC5E0, void, set_MusicVolume, (GameSettings * __this, float value));
-IL2CPP_REGISTER_METHOD(0x003FC670, uint32_t, get_CurrentAudioSharesetID, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x003FC670, uint32_t, get_CurrentAudioSharesetID, ());
 IL2CPP_REGISTER_METHOD(0x003FC7F0, AkAudioAPI__Enum, get_SelectedAudioAPI, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FC800, void, set_SelectedAudioAPI, (GameSettings * __this, AkAudioAPI__Enum value));
 IL2CPP_REGISTER_METHOD(0x003FC830, uint32_t, get_SelectedAudioOutputDeviceId, (GameSettings * __this));
@@ -37,7 +37,7 @@ IL2CPP_REGISTER_METHOD(0x003FC840, void, set_SelectedAudioOutputDeviceId, (GameS
 IL2CPP_REGISTER_METHOD(0x003FC8F0, bool, get_IsCurrentAudioDeviceDefault, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FCB00, bool, get_SpatialAudioEnabled, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FCB10, void, set_SpatialAudioEnabled, (GameSettings * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x003FCBC0, void, AudioOutputSettingChanged, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x003FCBC0, void, AudioOutputSettingChanged, ());
 IL2CPP_REGISTER_METHOD(0x003FD3F0, AkPanningRule__Enum, get_AudioPanningRule, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FD400, void, set_AudioPanningRule, (GameSettings * __this, AkPanningRule__Enum value));
 IL2CPP_REGISTER_METHOD(0x003FD4B0, RTPC *, get_MusicVolumeRTPC, (GameSettings * __this));
@@ -109,7 +109,7 @@ IL2CPP_REGISTER_METHOD(0x003FF7D0, int32_t, get_DynamicGraphicsMaxDRSDownscaleX,
 IL2CPP_REGISTER_METHOD(0x003FF7E0, void, set_DynamicGraphicsMaxDRSDownscaleX, (GameSettings * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x003FF8B0, int32_t, get_DynamicGraphicsMaxDRSDownscaleY, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FF8C0, void, set_DynamicGraphicsMaxDRSDownscaleY, (GameSettings * __this, int32_t value));
-IL2CPP_REGISTER_METHOD(0x003FF990, float, get_DeadZone, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x003FF990, float, get_DeadZone, ());
 IL2CPP_REGISTER_METHOD(0x003FFA40, float, get_DeadZoneLeftStick, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x003FFA50, void, set_DeadZoneLeftStick, (GameSettings * __this, float value));
 IL2CPP_REGISTER_METHOD(0x003FFA60, ControlScheme__Enum, get_CurrentControlScheme, (GameSettings * __this));
@@ -145,7 +145,7 @@ IL2CPP_REGISTER_METHOD(0x00401C00, void, ApplyAudioQualityDefault, (GameSettings
 IL2CPP_REGISTER_METHOD(0x00401DE0, void, CacheValues, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x00401EC0, IEnumerator *, SwapOutputs, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x00402010, void, UpdateSettingsFromRenderpipelineAsset, (GameSettings * __this, MoonRenderPipelineAsset * asset));
-IL2CPP_REGISTER_METHOD(0x00402130, Language__Enum, GetSystemLanguage, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00402130, Language__Enum, GetSystemLanguage, ());
 IL2CPP_REGISTER_METHOD(0x004022F0, void, ApplySystemLanguage, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x004023C0, void, LoadSettings, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x004026E0, void, SaveSettings, (GameSettings * __this));
@@ -155,5 +155,5 @@ IL2CPP_REGISTER_METHOD(0x00402A40, void, SetControlScheme, (GameSettings * __thi
 IL2CPP_REGISTER_METHOD(0x00402AF0, void, RefreshWwiseVolumes, (GameSettings * __this));
 IL2CPP_REGISTER_METHOD(0x00402B50, void, PopulateTelemetryObj, (GameSettings * __this, JsonBuilder_Object * obj));
 IL2CPP_REGISTER_METHOD(0x00403C50, void, __ctor, (GameSettings * __this));
-IL2CPP_REGISTER_METHOD(0x00403DA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00403DA0, void, __cctor, ());
 }

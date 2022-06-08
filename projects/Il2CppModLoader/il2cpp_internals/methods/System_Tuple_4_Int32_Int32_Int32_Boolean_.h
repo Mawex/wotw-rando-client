@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_4_Int32_Int32_Int32_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02A6BBD0, void, __ctor, (Tuple_4_Int32_Int32_Int32_Boolean_ * __this, int32_t item1, int32_t item2, int32_t item3, bool item4));

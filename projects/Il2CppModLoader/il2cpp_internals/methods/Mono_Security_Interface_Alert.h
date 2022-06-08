@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Interface::Alert {
 IL2CPP_REGISTER_METHOD(0x0052B590, AlertLevel__Enum_1, get_Level, (Alert_1 * __this));

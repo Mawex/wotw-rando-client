@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_System::Data::DataColumn_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, DataColumn *, get_Current, (List_1_T_Enumerator_System_Data_DataColumn___Boxed * __this));

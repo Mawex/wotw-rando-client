@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SandWormSquetchPlayer {
 IL2CPP_REGISTER_METHOD(0x00782210, void, OnStartPlayback, (SandWormSquetchPlayer * __this, IContext * context));

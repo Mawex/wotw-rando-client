@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayAnimation {
 IL2CPP_REGISTER_METHOD(0x02130880, void, OnEnable, (PlayAnimation * __this));

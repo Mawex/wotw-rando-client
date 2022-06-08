@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::AllElementsContentValidator {
 IL2CPP_REGISTER_METHOD(0x019A0650, void, __ctor, (AllElementsContentValidator * __this, XmlSchemaContentType__Enum contentType, int32_t size, bool isEmptiable));

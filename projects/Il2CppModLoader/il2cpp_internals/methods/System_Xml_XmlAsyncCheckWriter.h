@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlAsyncCheckWriter {
 IL2CPP_REGISTER_METHOD(0x0195A260, void, __ctor, (XmlAsyncCheckWriter * __this, XmlWriter * writer));

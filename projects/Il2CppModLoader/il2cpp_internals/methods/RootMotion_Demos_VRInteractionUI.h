@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::VRInteractionUI {
 IL2CPP_REGISTER_METHOD(0x0204C1E0, void, Start, (VRInteractionUI * __this));

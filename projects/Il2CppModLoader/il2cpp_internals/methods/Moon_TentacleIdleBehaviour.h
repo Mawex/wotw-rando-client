@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleIdleBehaviour {
 IL2CPP_REGISTER_METHOD(0x010AD3F0, Vector2, get_EffectiveRandomTargetCenter, (TentacleIdleBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Panel {
 IL2CPP_REGISTER_METHOD(0x00443C10, void, Hide, (Panel * __this));

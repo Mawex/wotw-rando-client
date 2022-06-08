@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SByteStorage {
 IL2CPP_REGISTER_METHOD(0x0216F1C0, void, __ctor, (SByteStorage * __this, DataColumn * column));

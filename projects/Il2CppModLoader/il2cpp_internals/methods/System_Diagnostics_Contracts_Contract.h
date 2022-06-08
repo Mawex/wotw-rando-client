@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Contracts::Contract {
 IL2CPP_REGISTER_METHOD(0x01565330, bool, ForAll, (IEnumerable_1_System_Object_ * collection, Predicate_1_Object_ * predicate));

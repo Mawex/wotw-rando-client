@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Yoga::YogaNode {
 IL2CPP_REGISTER_METHOD(0x031BE740, void, Finalize, (YogaNode * __this));

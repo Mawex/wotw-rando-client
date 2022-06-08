@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowAreaMessageAction {
 IL2CPP_REGISTER_METHOD(0x005C40D0, void, Perform, (ShowAreaMessageAction * __this, IContext * context));

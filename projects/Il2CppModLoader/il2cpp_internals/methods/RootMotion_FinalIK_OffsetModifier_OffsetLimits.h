@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::OffsetModifier_OffsetLimits {
 IL2CPP_REGISTER_METHOD(0x02A18C50, void, Apply, (OffsetModifier_OffsetLimits * __this, IKEffector * e, Quaternion rootRotation));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ExprException {
 IL2CPP_REGISTER_METHOD(0x01F57D10, OverflowException *, _Overflow, (String * error));
@@ -6,30 +6,30 @@ IL2CPP_REGISTER_METHOD(0x01F57E70, InvalidExpressionException *, _Expr, (String 
 IL2CPP_REGISTER_METHOD(0x01F57FD0, SyntaxErrorException *, _Syntax, (String * error));
 IL2CPP_REGISTER_METHOD(0x01F58130, EvaluateException *, _Eval, (String * error));
 IL2CPP_REGISTER_METHOD(0x01F58290, EvaluateException *, _Eval, (String * error, Exception * innerException));
-IL2CPP_REGISTER_METHOD(0x01F583F0, Exception *, InvokeArgument, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F583F0, Exception *, InvokeArgument, ());
 IL2CPP_REGISTER_METHOD(0x01F58470, Exception *, NYI, (String * moreinfo));
 IL2CPP_REGISTER_METHOD(0x01F58640, Exception *, MissingOperand, (OperatorInfo * before));
 IL2CPP_REGISTER_METHOD(0x01F58710, Exception *, MissingOperator, (String * token));
 IL2CPP_REGISTER_METHOD(0x01F587A0, Exception *, TypeMismatch, (String * expr));
 IL2CPP_REGISTER_METHOD(0x01F58830, Exception *, FunctionArgumentOutOfRange, (String * arg, String * func));
-IL2CPP_REGISTER_METHOD(0x01F588D0, Exception *, ExpressionTooComplex, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F588D0, Exception *, ExpressionTooComplex, ());
 IL2CPP_REGISTER_METHOD(0x01F58950, Exception *, UnboundName, (String * name));
 IL2CPP_REGISTER_METHOD(0x01F589E0, Exception *, InvalidString, (String * str));
 IL2CPP_REGISTER_METHOD(0x01F58A70, Exception *, UndefinedFunction, (String * name));
-IL2CPP_REGISTER_METHOD(0x01F58B00, Exception *, SyntaxError, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F58B00, Exception *, SyntaxError, ());
 IL2CPP_REGISTER_METHOD(0x01F58B80, Exception *, FunctionArgumentCount, (String * name));
-IL2CPP_REGISTER_METHOD(0x01F58C10, Exception *, MissingRightParen, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F58C10, Exception *, MissingRightParen, ());
 IL2CPP_REGISTER_METHOD(0x01F58C90, Exception *, UnknownToken, (String * token, int32_t position));
 IL2CPP_REGISTER_METHOD(0x01F58D70, Exception *, UnknownToken, (Tokens__Enum tokExpected, Tokens__Enum tokCurr, int32_t position));
 IL2CPP_REGISTER_METHOD(0x01F58ED0, Exception *, DatatypeConvertion, (Type * type1, Type * type2));
 IL2CPP_REGISTER_METHOD(0x01F58FB0, Exception *, DatavalueConvertion, (Object * value, Type * type, Exception * innerException));
 IL2CPP_REGISTER_METHOD(0x01F591E0, Exception *, InvalidName, (String * name));
 IL2CPP_REGISTER_METHOD(0x01F59270, Exception *, InvalidDate, (String * date));
-IL2CPP_REGISTER_METHOD(0x01F59300, Exception *, NonConstantArgument, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F59300, Exception *, NonConstantArgument, ());
 IL2CPP_REGISTER_METHOD(0x01F59380, Exception *, InvalidPattern, (String * pat));
-IL2CPP_REGISTER_METHOD(0x01F59410, Exception *, InWithoutParentheses, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F59490, Exception *, InWithoutList, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F59510, Exception *, InvalidIsSyntax, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F59410, Exception *, InWithoutParentheses, ());
+IL2CPP_REGISTER_METHOD(0x01F59490, Exception *, InWithoutList, ());
+IL2CPP_REGISTER_METHOD(0x01F59510, Exception *, InvalidIsSyntax, ());
 IL2CPP_REGISTER_METHOD(0x01F59590, Exception *, Overflow, (Type * type));
 IL2CPP_REGISTER_METHOD(0x01F59780, Exception *, ArgumentType, (String * function, int32_t arg, Type * type));
 IL2CPP_REGISTER_METHOD(0x01F598A0, Exception *, ArgumentTypeInteger, (String * function, int32_t arg));
@@ -38,20 +38,20 @@ IL2CPP_REGISTER_METHOD(0x01F59AA0, Exception *, AmbiguousBinop, (int32_t op, Typ
 IL2CPP_REGISTER_METHOD(0x01F59BC0, Exception *, UnsupportedOperator, (int32_t op));
 IL2CPP_REGISTER_METHOD(0x01F59C80, Exception *, InvalidNameBracketing, (String * name));
 IL2CPP_REGISTER_METHOD(0x01F59D10, Exception *, MissingOperandBefore, (String * op));
-IL2CPP_REGISTER_METHOD(0x01F59DA0, Exception *, TooManyRightParentheses, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F59DA0, Exception *, TooManyRightParentheses, ());
 IL2CPP_REGISTER_METHOD(0x01F59E20, Exception *, UnresolvedRelation, (String * name, String * expr));
 IL2CPP_REGISTER_METHOD(0x01F59EC0, EvaluateException *, BindFailure, (String * relationName));
-IL2CPP_REGISTER_METHOD(0x01F59F50, Exception *, AggregateArgument, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F59F50, Exception *, AggregateArgument, ());
 IL2CPP_REGISTER_METHOD(0x01F59FD0, Exception *, AggregateUnbound, (String * expr));
-IL2CPP_REGISTER_METHOD(0x01F5A060, Exception *, EvalNoContext, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F5A060, Exception *, EvalNoContext, ());
 IL2CPP_REGISTER_METHOD(0x01F5A0E0, Exception *, ExpressionUnbound, (String * expr));
 IL2CPP_REGISTER_METHOD(0x01F5A170, Exception *, ComputeNotAggregate, (String * expr));
 IL2CPP_REGISTER_METHOD(0x01F5A200, Exception *, FilterConvertion, (String * expr));
-IL2CPP_REGISTER_METHOD(0x01F5A290, Exception *, LookupArgument, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F5A290, Exception *, LookupArgument, ());
 IL2CPP_REGISTER_METHOD(0x01F5A310, Exception *, InvalidType, (String * typeName));
-IL2CPP_REGISTER_METHOD(0x01F5A3A0, Exception *, InvalidHoursArgument, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F5A420, Exception *, InvalidMinutesArgument, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F5A4A0, Exception *, InvalidTimeZoneRange, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F5A520, Exception *, MismatchKindandTimeSpan, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F5A3A0, Exception *, InvalidHoursArgument, ());
+IL2CPP_REGISTER_METHOD(0x01F5A420, Exception *, InvalidMinutesArgument, ());
+IL2CPP_REGISTER_METHOD(0x01F5A4A0, Exception *, InvalidTimeZoneRange, ());
+IL2CPP_REGISTER_METHOD(0x01F5A520, Exception *, MismatchKindandTimeSpan, ());
 IL2CPP_REGISTER_METHOD(0x01F5A5A0, Exception *, UnsupportedDataType, (Type * type));
 }

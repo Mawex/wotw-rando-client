@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlDateTime {
 IL2CPP_REGISTER_METHOD(0x001D6C50, void, __ctor, (SqlDateTime__Boxed * __this, bool fNull));
@@ -34,5 +34,5 @@ IL2CPP_REGISTER_METHOD(0x001D6F60, void, IXmlSerializable_ReadXml, (SqlDateTime_
 IL2CPP_REGISTER_METHODINFO(0x04797038, SqlDateTime_System_Xml_Serialization_IXmlSerializable_ReadXml__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001D6F70, void, IXmlSerializable_WriteXml, (SqlDateTime__Boxed * __this, XmlWriter * writer));
 IL2CPP_REGISTER_METHOD(0x01E54BF0, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
-IL2CPP_REGISTER_METHOD(0x01E54D40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E54D40, void, __cctor, ());
 }

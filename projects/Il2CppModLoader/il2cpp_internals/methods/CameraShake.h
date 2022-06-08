@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraShake {
-IL2CPP_REGISTER_METHOD(0x00B1C3B0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B1C3B0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00B1C480, void, OnPoolSpawned, (CameraShake * __this));
 IL2CPP_REGISTER_METHOD(0x00B1C4D0, Vector3, get_CurrentOffset, (CameraShake * __this));
 IL2CPP_REGISTER_METHOD(0x00B1C6A0, Vector3, get_CurrentRotation, (CameraShake * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x00B1CFA0, void, OnEnable, (CameraShake * __this));
 IL2CPP_REGISTER_METHOD(0x00B1D080, void, OnDisable, (CameraShake * __this));
 IL2CPP_REGISTER_METHOD(0x00B1D170, TimelineEntity *, Convert, (CameraShake * __this, Transform * target));
 IL2CPP_REGISTER_METHOD(0x00B1D310, void, __ctor, (CameraShake * __this));
-IL2CPP_REGISTER_METHOD(0x00B1D340, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B1D340, void, __cctor, ());
 }

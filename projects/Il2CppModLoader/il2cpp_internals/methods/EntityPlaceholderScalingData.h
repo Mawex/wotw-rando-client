@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityPlaceholderScalingData {
 IL2CPP_REGISTER_METHOD(0x00C9DDB0, void, OnValidate, (EntityPlaceholderScalingData * __this));

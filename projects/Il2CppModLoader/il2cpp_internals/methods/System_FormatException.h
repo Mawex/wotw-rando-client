@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::FormatException {
 IL2CPP_REGISTER_METHOD(0x01A1C990, void, __ctor, (FormatException * __this));

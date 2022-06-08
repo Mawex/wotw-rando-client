@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::TrackingValidationObjectDictionary {
 IL2CPP_REGISTER_METHOD(0x020AA220, void, __ctor, (TrackingValidationObjectDictionary * __this, IDictionary_2_System_String_System_Net_TrackingValidationObjectDictionary_ValidateAndParseValue_ * validators));

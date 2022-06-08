@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_UnityEngine::SphereCollider_ {
 IL2CPP_REGISTER_METHOD(0x02720EB0, SphereCollider *, SafeResolve, (MoonReference_1_UnityEngine_SphereCollider_ * __this, IMoonResolverContext * context));

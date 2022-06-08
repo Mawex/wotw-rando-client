@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SandWormDashBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x00EC1200, Vector3, get_DashTargetPosition, (SandWormDashBehaviourNew * __this));

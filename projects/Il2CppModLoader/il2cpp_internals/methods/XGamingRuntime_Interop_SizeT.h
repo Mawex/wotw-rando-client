@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::SizeT {
 IL2CPP_REGISTER_METHOD(0x00244810, void, __ctor, (SizeT__Boxed * __this, int32_t length));

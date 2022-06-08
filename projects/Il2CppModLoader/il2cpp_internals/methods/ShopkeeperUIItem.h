@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShopkeeperUIItem {
 IL2CPP_REGISTER_METHOD(0x002FBB60, ShopkeeperItem *, get_Item, (ShopkeeperUIItem * __this));

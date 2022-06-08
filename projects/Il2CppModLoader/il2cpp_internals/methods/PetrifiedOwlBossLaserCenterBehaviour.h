@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLaserCenterBehaviour {
 IL2CPP_REGISTER_METHOD(0x01776660, void, CopyData, (PetrifiedOwlBossLaserCenterBehaviour * __this, PetrifiedOwlBossBaseBehaviour * other));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DiscoveredAreaPercentageCondition {
 IL2CPP_REGISTER_METHOD(0x00B98EF0, bool, Validate, (DiscoveredAreaPercentageCondition * __this, IContext * context));

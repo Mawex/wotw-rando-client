@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AreaMapNavigation {
 IL2CPP_REGISTER_METHOD(0x0050F110, float, get_ZoomTime, (AreaMapNavigation * __this));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SnakeSolver {
 IL2CPP_REGISTER_METHOD(0x006D4160, int32_t, get_TotalJoints, (SnakeSolver * __this));
 IL2CPP_REGISTER_METHOD(0x002FBBC0, Vector2__Array *, get_Segments, (SnakeSolver * __this));
-IL2CPP_REGISTER_METHOD(0x006D41F0, float, get_Time, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006D41F0, float, get_Time, ());
 IL2CPP_REGISTER_METHOD(0x006D4240, void, OnEnable, (SnakeSolver * __this));
 IL2CPP_REGISTER_METHOD(0x006D4570, void, Update, (SnakeSolver * __this));
 IL2CPP_REGISTER_METHOD(0x006D5BB0, void, OnValidate, (SnakeSolver * __this));

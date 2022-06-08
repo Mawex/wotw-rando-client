@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::RuntimeClassHandle {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (RuntimeClassHandle__Boxed * __this, RuntimeStructs_MonoClass * value));

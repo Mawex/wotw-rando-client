@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DefaultCameraTargetsProvider {
 IL2CPP_REGISTER_METHOD(0x0040F3B0, void, UpdateTargets, (DefaultCameraTargetsProvider * __this));

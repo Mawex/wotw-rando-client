@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DBNull {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (DBNull * __this));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHODINFO(0x04701CC0, DBNull_System_IConvertible_ToDecimal__Met
 IL2CPP_REGISTER_METHOD(0x028A14E0, DateTime, IConvertible_ToDateTime, (DBNull * __this, IFormatProvider * provider));
 IL2CPP_REGISTER_METHODINFO(0x04779338, DBNull_System_IConvertible_ToDateTime__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x028A1550, Object *, IConvertible_ToType, (DBNull * __this, Type * type, IFormatProvider * provider));
-IL2CPP_REGISTER_METHOD(0x028A1610, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028A1610, void, __cctor, ());
 }

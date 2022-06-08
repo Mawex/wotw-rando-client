@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_KeyValuePair_2_System::Type_System::Xml::Serialization::XmlRootAttribute__System::Xml::Serialization::XmlSerializer_ {
 IL2CPP_REGISTER_METHOD(0x0283D820, bool, TryGetValue, (Dictionary_2_KeyValuePair_2_System_Type_System_Xml_Serialization_XmlRootAttribute_System_Xml_Serialization_XmlSerializer_ * __this, KeyValuePair_2_System_Type_System_Xml_Serialization_XmlRootAttribute_ key, XmlSerializer * * value));

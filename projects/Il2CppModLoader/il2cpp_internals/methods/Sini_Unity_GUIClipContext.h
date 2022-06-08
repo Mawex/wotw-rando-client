@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Sini::Unity::GUIClipContext {
 IL2CPP_REGISTER_METHOD(0x00246C90, void, __ctor, (GUIClipContext__Boxed * __this, Rect rect, Vector2 scroll));

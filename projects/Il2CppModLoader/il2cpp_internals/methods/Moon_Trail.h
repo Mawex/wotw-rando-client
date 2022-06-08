@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Trail {
 IL2CPP_REGISTER_METHOD(0x02567670, float, GetLenght, (Trail * __this, List_1_Moon_Trail_Point_ * input));
@@ -22,5 +22,5 @@ IL2CPP_REGISTER_METHOD(0x0256B650, Trail_CurveFrame, InitializeCurveFrame, (Trai
 IL2CPP_REGISTER_METHOD(0x0256BAF0, void, UpdateSegmentMesh, (Trail * __this, int32_t start, int32_t end));
 IL2CPP_REGISTER_METHOD(0x0256CD00, void, OnDrawGizmos, (Trail * __this));
 IL2CPP_REGISTER_METHOD(0x0256D3E0, void, __ctor, (Trail * __this));
-IL2CPP_REGISTER_METHOD(0x0256E450, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0256E450, void, __cctor, ());
 }

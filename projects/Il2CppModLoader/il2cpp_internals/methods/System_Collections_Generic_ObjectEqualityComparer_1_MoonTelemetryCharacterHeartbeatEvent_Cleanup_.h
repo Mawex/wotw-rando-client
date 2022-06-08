@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ * __this, MoonTelemetryCharacterHeartbeatEvent_Cleanup x, MoonTelemetryCharacterHeartbeatEvent_Cleanup y));

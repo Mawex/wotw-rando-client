@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_Moon::AnimationParameter_Moon::AnimationParameter_Instance_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, AnimationParameter *, get_Current, (Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_Moon_AnimationParameter_Moon_AnimationParameter_Instance___Boxed * __this));

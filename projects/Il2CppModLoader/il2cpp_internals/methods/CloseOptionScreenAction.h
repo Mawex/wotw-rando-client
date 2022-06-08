@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CloseOptionScreenAction {
 IL2CPP_REGISTER_METHOD(0x012C5D00, void, Perform, (CloseOptionScreenAction * __this, IContext * context));

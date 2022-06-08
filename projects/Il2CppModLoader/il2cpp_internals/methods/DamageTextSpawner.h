@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageTextSpawner {
 IL2CPP_REGISTER_METHOD(0x00DCA5F0, void, SpawnDamageText, (DamageTextSpawner * __this, IContext * context));

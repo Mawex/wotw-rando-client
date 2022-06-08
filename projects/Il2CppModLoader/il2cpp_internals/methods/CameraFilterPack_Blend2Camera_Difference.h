@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blend2Camera_Difference {
 IL2CPP_REGISTER_METHOD(0x027490F0, Material *, get_material, (CameraFilterPack_Blend2Camera_Difference * __this));

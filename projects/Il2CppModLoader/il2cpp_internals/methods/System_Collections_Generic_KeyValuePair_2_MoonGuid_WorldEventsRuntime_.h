@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_MoonGuid_WorldEventsRuntime_ {
 IL2CPP_REGISTER_METHOD(0x00107C00, MoonGuid *, get_Key, (KeyValuePair_2_MoonGuid_WorldEventsRuntime___Boxed * __this));

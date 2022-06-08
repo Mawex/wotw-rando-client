@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SerializationInfo {
 IL2CPP_REGISTER_METHOD(0x01EDE780, void, __ctor, (SerializationInfo * __this, Type * type, IFormatterConverter * converter));

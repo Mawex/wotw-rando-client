@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkCommonPlatformSettings {
 IL2CPP_REGISTER_METHOD(0x026DA370, AkInitializationSettings *, get_AkInitializationSettings, (AkCommonPlatformSettings * __this));

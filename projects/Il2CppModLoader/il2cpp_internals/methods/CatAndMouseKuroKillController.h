@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatAndMouseKuroKillController {
 IL2CPP_REGISTER_METHOD(0x00B48300, void, Awake, (CatAndMouseKuroKillController * __this));

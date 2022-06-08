@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_InstantiateUtility_InstantiationInfo_ {
 IL2CPP_REGISTER_METHOD(0x0014D4F0, void, __ctor, (List_1_T_Enumerator_InstantiateUtility_InstantiationInfo___Boxed * __this, List_1_InstantiateUtility_InstantiationInfo_ * list));

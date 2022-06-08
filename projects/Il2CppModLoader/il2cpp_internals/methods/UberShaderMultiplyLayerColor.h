@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderMultiplyLayerColor {
 IL2CPP_REGISTER_METHOD(0x01914590, float, CalculateColorComponentValue, (UberShaderMultiplyLayerColor * __this, float v));

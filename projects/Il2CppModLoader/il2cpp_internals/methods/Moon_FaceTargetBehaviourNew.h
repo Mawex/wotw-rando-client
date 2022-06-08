@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FaceTargetBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x00E2D530, Vector3, get_TargetPosition, (FaceTargetBehaviourNew * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ConditionBasedGameObjectActivator {
 IL2CPP_REGISTER_METHOD(0x011E3EC0, void, Start, (ConditionBasedGameObjectActivator * __this));

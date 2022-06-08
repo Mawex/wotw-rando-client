@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RandomPrefabProvider {
 IL2CPP_REGISTER_METHOD(0x0072F9F0, GameObject *, Prefab, (RandomPrefabProvider * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EulerRotationAnimator {
 IL2CPP_REGISTER_METHOD(0x00982550, Transform *, get_m_target, (EulerRotationAnimator * __this));

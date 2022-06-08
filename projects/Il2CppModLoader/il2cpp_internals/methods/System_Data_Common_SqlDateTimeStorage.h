@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlDateTimeStorage {
 IL2CPP_REGISTER_METHOD(0x028507E0, void, __ctor, (SqlDateTimeStorage * __this, DataColumn * column));

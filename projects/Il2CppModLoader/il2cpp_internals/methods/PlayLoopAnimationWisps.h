@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayLoopAnimationWisps {
 IL2CPP_REGISTER_METHOD(0x01179690, MoonAnimator *, get_Animator, (PlayLoopAnimationWisps * __this));

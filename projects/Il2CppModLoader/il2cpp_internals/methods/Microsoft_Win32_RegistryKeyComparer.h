@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::RegistryKeyComparer {
 IL2CPP_REGISTER_METHOD(0x023B61A0, bool, Equals, (RegistryKeyComparer * __this, Object * x, Object * y));

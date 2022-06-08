@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodySerialize {
 IL2CPP_REGISTER_METHOD(0x01351520, void, OnPoolSpawned, (RigidbodySerialize * __this));

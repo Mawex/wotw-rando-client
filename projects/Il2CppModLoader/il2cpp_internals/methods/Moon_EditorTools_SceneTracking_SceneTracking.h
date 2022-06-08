@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EditorTools::SceneTracking::SceneTracking {
 IL2CPP_REGISTER_METHOD(0x01208410, float, GetArtProgressValue, (SceneTracking * __this, int32_t id));

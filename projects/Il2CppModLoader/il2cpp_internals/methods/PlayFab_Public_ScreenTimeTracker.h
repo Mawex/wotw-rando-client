@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Public::ScreenTimeTracker {
 IL2CPP_REGISTER_METHOD(0x01AD30C0, void, ClientSessionStart, (ScreenTimeTracker * __this, String * entityId, String * entityType, String * playFabUserId));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyParticleEmissionRateAnimator {
 IL2CPP_REGISTER_METHOD(0x00A2F380, void, FetchInitialEmitterValues, (LegacyParticleEmissionRateAnimator * __this));

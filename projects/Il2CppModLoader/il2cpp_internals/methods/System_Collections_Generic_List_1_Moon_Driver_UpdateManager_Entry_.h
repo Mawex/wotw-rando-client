@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::Driver::UpdateManager_Entry_ {
 IL2CPP_REGISTER_METHOD(0x025E81E0, void, __ctor, (List_1_Moon_Driver_UpdateManager_Entry_ * __this, int32_t capacity));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::TaskAwaiter_1_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x001FF6C0, bool, GetResult, (TaskAwaiter_1_System_Boolean___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BeautifyEffect::Beautify {
 IL2CPP_REGISTER_METHOD(0x00654950, BEAUTIFY_PRESET__Enum, get_preset, (Beautify * __this));
@@ -87,7 +87,7 @@ IL2CPP_REGISTER_METHOD(0x006F45C0, float, get_bloomWeight4, (Beautify * __this))
 IL2CPP_REGISTER_METHOD(0x03178120, void, set_bloomWeight4, (Beautify * __this, float value));
 IL2CPP_REGISTER_METHOD(0x01256740, float, get_bloomWeight5, (Beautify * __this));
 IL2CPP_REGISTER_METHOD(0x03178140, void, set_bloomWeight5, (Beautify * __this, float value));
-IL2CPP_REGISTER_METHOD(0x03178160, Beautify *, get_instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03178160, Beautify *, get_instance, ());
 IL2CPP_REGISTER_METHOD(0x011354B0, Camera *, get_cameraEffect, (Beautify * __this));
 IL2CPP_REGISTER_METHOD(0x031783D0, void, OnEnable, (Beautify * __this));
 IL2CPP_REGISTER_METHOD(0x03178520, void, OnDisable, (Beautify * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleSpitBehaviour {
 IL2CPP_REGISTER_METHOD(0x010B5B10, GameObject *, get_CreepPrefab, (TentacleSpitBehaviour * __this));

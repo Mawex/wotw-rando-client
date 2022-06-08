@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_TimelinesConfiguration {
 IL2CPP_REGISTER_METHOD(0x0071BAF0, MoonTimeline *, For, (RaceStateMachineContext_TimelinesConfiguration * __this, ScoreResult__Enum result));

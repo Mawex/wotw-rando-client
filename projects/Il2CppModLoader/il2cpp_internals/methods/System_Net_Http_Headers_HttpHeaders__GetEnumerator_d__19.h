@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (HttpHeaders_GetEnumerator_d_19 * __this, int32_t __1__state));

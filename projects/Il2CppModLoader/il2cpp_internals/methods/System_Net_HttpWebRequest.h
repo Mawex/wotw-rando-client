@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpWebRequest {
-IL2CPP_REGISTER_METHOD(0x01E59BB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E59BB0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01E59C30, void, __ctor, (HttpWebRequest * __this, Uri * uri));
 IL2CPP_REGISTER_METHOD(0x01E59F70, void, __ctor, (HttpWebRequest * __this, Uri * uri, MonoTlsProvider * tlsProvider, MonoTlsSettings * settings));
 IL2CPP_REGISTER_METHOD(0x01E59FB0, void, __ctor, (HttpWebRequest * __this, SerializationInfo * serializationInfo, StreamingContext streamingContext));
@@ -18,7 +18,7 @@ IL2CPP_REGISTER_METHOD(0x00EEDBC0, void, set_AllowWriteStreamBuffering, (HttpWeb
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_AllowReadStreamBuffering, (HttpWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x01E5A8F0, void, set_AllowReadStreamBuffering, (HttpWebRequest * __this, bool value));
 IL2CPP_REGISTER_METHODINFO(0x04748A90, HttpWebRequest_set_AllowReadStreamBuffering__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E5A990, Exception *, GetMustImplement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E5A990, Exception *, GetMustImplement, ());
 IL2CPP_REGISTER_METHOD(0x0040EF70, DecompressionMethods__Enum, get_AutomaticDecompression, (HttpWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x01E5AAD0, void, set_AutomaticDecompression, (HttpWebRequest * __this, DecompressionMethods__Enum value));
 IL2CPP_REGISTER_METHOD(0x01E5AB00, bool, get_InternalAllowBuffering, (HttpWebRequest * __this));
@@ -50,7 +50,7 @@ IL2CPP_REGISTER_METHOD(0x002FBC10, void, set_Credentials, (HttpWebRequest * __th
 IL2CPP_REGISTER_METHOD(0x01E5B340, DateTime, get_Date, (HttpWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x01E5B4A0, void, set_Date, (HttpWebRequest * __this, DateTime value));
 IL2CPP_REGISTER_METHOD(0x01E5B5F0, void, SetDateHeaderHelper, (HttpWebRequest * __this, String * headerName, DateTime dateTime));
-IL2CPP_REGISTER_METHOD(0x01E5B6E0, int32_t, get_DefaultMaximumErrorResponseLength, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E5B6E0, int32_t, get_DefaultMaximumErrorResponseLength, ());
 IL2CPP_REGISTER_METHODINFO(0x04704DD0, HttpWebRequest_get_DefaultMaximumErrorResponseLength__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E5B780, void, set_DefaultMaximumErrorResponseLength, (int32_t value));
 IL2CPP_REGISTER_METHODINFO(0x0473CC68, HttpWebRequest_set_DefaultMaximumErrorResponseLength__MethodInfo);
@@ -73,7 +73,7 @@ IL2CPP_REGISTER_METHOD(0x01E5C280, void, set_MaximumAutomaticRedirections, (Http
 IL2CPP_REGISTER_METHODINFO(0x0472DEC8, HttpWebRequest_set_MaximumAutomaticRedirections__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x011A8110, int32_t, get_MaximumResponseHeadersLength, (HttpWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x01E5C340, void, set_MaximumResponseHeadersLength, (HttpWebRequest * __this, int32_t value));
-IL2CPP_REGISTER_METHOD(0x01E5C350, int32_t, get_DefaultMaximumResponseHeadersLength, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E5C350, int32_t, get_DefaultMaximumResponseHeadersLength, ());
 IL2CPP_REGISTER_METHOD(0x01E5C3F0, void, set_DefaultMaximumResponseHeadersLength, (int32_t value));
 IL2CPP_REGISTER_METHOD(0x01E5C4A0, int32_t, get_ReadWriteTimeout, (HttpWebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x01E5C4B0, void, set_ReadWriteTimeout, (HttpWebRequest * __this, int32_t value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::BoostModeProfilingSetting_CallMoonCleanupWhenAwokenProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00A5B690, ProfilingSettings_SettingType__Enum, get_SettingType, (BoostModeProfilingSetting_CallMoonCleanupWhenAwokenProfilingSetting * __this));

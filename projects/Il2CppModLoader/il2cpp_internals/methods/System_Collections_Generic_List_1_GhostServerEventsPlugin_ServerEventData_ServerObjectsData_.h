@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_GhostServerEventsPlugin_ServerEventData_ServerObjectsData_ {
 IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_GhostServerEventsPlugin_ServerEventData_ServerObjectsData_ * __this, GhostServerEventsPlugin_ServerEventData_ServerObjectsData * item));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap_TileCoord_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x001363F0, void, __ctor, (Dictionary_2_TKey_TValue_Enumerator_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_System_Object___Boxed * __this, Dictionary_2_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_System_Object_ * dictionary, int32_t getEnumeratorRetType));

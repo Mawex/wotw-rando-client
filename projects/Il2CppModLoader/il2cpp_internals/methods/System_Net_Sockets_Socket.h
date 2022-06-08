@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::Socket {
 IL2CPP_REGISTER_METHOD(0x01BE48E0, void, __ctor, (Socket * __this, AddressFamily__Enum addressFamily, SocketType__Enum socketType, ProtocolType__Enum protocolType));
 IL2CPP_REGISTER_METHODINFO(0x0478A9D8, Socket__ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01BE4E80, bool, get_SupportsIPv4, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01BE4F30, bool, get_OSSupportsIPv4, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01BE4FE0, bool, get_SupportsIPv6, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01BE5090, bool, get_OSSupportsIPv6, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BE4E80, bool, get_SupportsIPv4, ());
+IL2CPP_REGISTER_METHOD(0x01BE4F30, bool, get_OSSupportsIPv4, ());
+IL2CPP_REGISTER_METHOD(0x01BE4FE0, bool, get_SupportsIPv6, ());
+IL2CPP_REGISTER_METHOD(0x01BE5090, bool, get_OSSupportsIPv6, ());
 IL2CPP_REGISTER_METHOD(0x01BE5140, void *, get_Handle, (Socket * __this));
 IL2CPP_REGISTER_METHOD(0x00529FF0, AddressFamily__Enum, get_AddressFamily, (Socket * __this));
 IL2CPP_REGISTER_METHOD(0x0052A010, SocketType__Enum, get_SocketType, (Socket * __this));
@@ -41,9 +41,9 @@ IL2CPP_REGISTER_METHOD(0x01BE60E0, IAsyncResult *, BeginReceive, (Socket * __thi
 IL2CPP_REGISTER_METHODINFO(0x0474A6D8, Socket_BeginReceive__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01BE6210, int32_t, EndReceive, (Socket * __this, IAsyncResult * asyncResult));
 IL2CPP_REGISTER_METHODINFO(0x04737948, Socket_EndReceive__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01BE63B0, Object *, get_InternalSyncObject, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BE63B0, Object *, get_InternalSyncObject, ());
 IL2CPP_REGISTER_METHOD(0x01BE6590, bool, get_CleanedUp, (Socket * __this));
-IL2CPP_REGISTER_METHOD(0x01BE65A0, void, InitializeSockets, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BE65A0, void, InitializeSockets, ());
 IL2CPP_REGISTER_METHOD(0x01BE6880, void, Dispose, (Socket * __this));
 IL2CPP_REGISTER_METHOD(0x01BE6930, void, Finalize, (Socket * __this));
 IL2CPP_REGISTER_METHOD(0x01BE69B0, void, InternalShutdown, (Socket * __this, SocketShutdown__Enum how));
@@ -182,8 +182,8 @@ IL2CPP_REGISTER_METHOD(0x01BF08D0, SocketAsyncOperation__Enum, SocketOperationTo
 IL2CPP_REGISTER_METHODINFO(0x04785800, Socket_SocketOperationToSocketAsyncOperation__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01BF0A60, IPEndPoint *, RemapIPEndPoint, (Socket * __this, IPEndPoint * input));
 IL2CPP_REGISTER_METHOD(0x01BF0D10, void, cancel_blocking_socket_operation, (Thread * thread));
-IL2CPP_REGISTER_METHOD(0x01BF0D30, int32_t, get_FamilyHint, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BF0D30, int32_t, get_FamilyHint, ());
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, IsProtocolSupported_internal, (NetworkInterfaceComponent__Enum networkInterface));
 IL2CPP_REGISTER_METHOD(0x01BF0E10, bool, IsProtocolSupported, (NetworkInterfaceComponent__Enum networkInterface));
-IL2CPP_REGISTER_METHOD(0x01BF0EA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BF0EA0, void, __cctor, ());
 }

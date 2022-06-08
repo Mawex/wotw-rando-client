@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwarmNestPlaceholder {
 IL2CPP_REGISTER_METHOD(0x01824830, void, OnStart, (SwarmNestPlaceholder * __this));

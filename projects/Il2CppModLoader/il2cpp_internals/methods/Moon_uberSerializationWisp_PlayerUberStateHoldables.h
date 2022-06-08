@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateHoldables {
 IL2CPP_REGISTER_METHOD(0x00F3A360, bool, get_IsHoldingTorch, (PlayerUberStateHoldables * __this));

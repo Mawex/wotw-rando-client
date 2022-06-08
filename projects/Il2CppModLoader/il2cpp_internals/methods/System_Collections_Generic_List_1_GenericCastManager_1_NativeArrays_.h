@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_GenericCastManager_1_NativeArrays_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_GenericCastManager_1_NativeArrays__2 * __this));
@@ -59,7 +59,7 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_GenericCastManager_1_Nati
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_GenericCastManager_1_NativeArrays__2 * __this, Comparison_1_GenericCastManager_1_NativeArrays_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand___Array *, ToArray, (List_1_GenericCastManager_1_NativeArrays__2 * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_GenericCastManager_1_NativeArrays__2 * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_GenericCastManager_1_NativeArrays__1 * __this));
 IL2CPP_REGISTER_METHOD(0x025E81E0, void, __ctor, (List_1_GenericCastManager_1_NativeArrays__1 * __this, int32_t capacity));
 IL2CPP_REGISTER_METHOD(0x02E013B0, void, __ctor, (List_1_GenericCastManager_1_NativeArrays__1 * __this, IEnumerable_1_GenericCastManager_1_NativeArrays__1 * collection));
@@ -118,7 +118,7 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_GenericCastManager_1_Nati
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_GenericCastManager_1_NativeArrays__1 * __this, Comparison_1_GenericCastManager_1_NativeArrays__1 * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, GenericCastManager_1_Command_NativeArrays_UnityEngine_RaycastCommand___Array *, ToArray, (List_1_GenericCastManager_1_NativeArrays__1 * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_GenericCastManager_1_NativeArrays__1 * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_GenericCastManager_1_NativeArrays_ * __this));
 IL2CPP_REGISTER_METHOD(0x025E81E0, void, __ctor, (List_1_GenericCastManager_1_NativeArrays_ * __this, int32_t capacity));
 IL2CPP_REGISTER_METHOD(0x02E024D0, void, __ctor, (List_1_GenericCastManager_1_NativeArrays_ * __this, IEnumerable_1_GenericCastManager_1_NativeArrays__2 * collection));
@@ -177,5 +177,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_GenericCastManager_1_Nati
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_GenericCastManager_1_NativeArrays_ * __this, Comparison_1_GenericCastManager_1_NativeArrays__2 * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, GenericCastManager_1_Command_NativeArrays_UnityEngine_SpherecastCommand___Array *, ToArray, (List_1_GenericCastManager_1_NativeArrays_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_GenericCastManager_1_NativeArrays_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

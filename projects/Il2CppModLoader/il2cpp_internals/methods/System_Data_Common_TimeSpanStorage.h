@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::TimeSpanStorage {
 IL2CPP_REGISTER_METHOD(0x02864130, void, __ctor, (TimeSpanStorage * __this, DataColumn * column));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x02865C90, String *, ConvertObjectToXml, (TimeSpanStorag
 IL2CPP_REGISTER_METHOD(0x02865DA0, Object *, GetEmptyStorage, (TimeSpanStorage * __this, int32_t recordCount));
 IL2CPP_REGISTER_METHOD(0x02865E20, void, CopyValue, (TimeSpanStorage * __this, int32_t record, Object * store, BitArray * nullbits, int32_t storeIndex));
 IL2CPP_REGISTER_METHOD(0x02865FA0, void, SetStorage, (TimeSpanStorage * __this, Object * store, BitArray * nullbits));
-IL2CPP_REGISTER_METHOD(0x02866070, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02866070, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System::Text::RegularExpressions::RegexOptions_ {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (Nullable_1_System_Text_RegularExpressions_RegexOptions___Boxed * __this, RegexOptions__Enum value));

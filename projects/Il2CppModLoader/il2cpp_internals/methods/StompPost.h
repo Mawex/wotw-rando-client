@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StompPost {
 IL2CPP_REGISTER_METHOD(0x00653A60, Vector3, get_Position, (StompPost * __this));

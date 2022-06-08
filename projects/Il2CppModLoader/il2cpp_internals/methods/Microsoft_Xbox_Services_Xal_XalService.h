@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Xbox::Services::Xal::XalService {
-IL2CPP_REGISTER_METHOD(0x014359F0, XalService *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014359F0, XalService *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x01435BE0, void, set_Instance, (XalService * value));
 IL2CPP_REGISTER_METHOD(0x01435C90, void, __ctor, (XalService * __this));
 IL2CPP_REGISTER_METHOD(0x01435FE0, void, Initialize, (XalService * __this, InitArgs * args));
@@ -37,7 +37,7 @@ IL2CPP_REGISTER_METHOD(0x01439C50, void, AsyncBlockCallback, (void * block));
 IL2CPP_REGISTER_METHODINFO(0x0473FC60, XalService_AsyncBlockCallback__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01439DC0, void, DebugLog, (String * areaName, XalTraceLevel__Enum level, uint64_t threadId, uint64_t timestamp, String * message));
 IL2CPP_REGISTER_METHODINFO(0x047033D0, XalService_DebugLog__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01439EC0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01439EC0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0143A140, int32_t, XalWrapper_XalUserDuplicateHandle, (void * user, void * * duplicateUser));
 IL2CPP_REGISTER_METHOD(0x0143A1F0, void, XalWrapper_XalUserCloseHandle, (void * user));
 IL2CPP_REGISTER_METHOD(0x0143A290, int32_t, XalWrapper_XalInitialize, (XalService_CommonArgs * common, uint32_t thirdPartyConsentCount, String__Array * thirdPartyConsents, XalService_DeviceInfoArgs * deviceInfo, XalService_TelemetryInfoArgs * telemetryInfo, void * internalWorkQueue));
@@ -64,5 +64,5 @@ IL2CPP_REGISTER_METHOD(0x0143B8C0, int32_t, XalWrapper_XalPlatformRemoteConnectS
 IL2CPP_REGISTER_METHOD(0x0143BA50, int32_t, XalWrapper_XalPlatformRemoteConnectCancelPrompt, (void * operation));
 IL2CPP_REGISTER_METHOD(0x0143BAF0, void, XalWrapper_HCTraceSetClientCallback, (XalService_XalLogCallback * callback));
 IL2CPP_REGISTER_METHOD(0x0143BB90, bool, XalWrapper_HCTraceSetTraceToDebugger, (bool traceToDebugger));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SimpleSwayBossAnimPostprocess_Job {
 IL2CPP_REGISTER_METHOD(0x001DC710, void, Allocate, (SimpleSwayBossAnimPostprocess_Job__Boxed * __this, int32_t chainCount));

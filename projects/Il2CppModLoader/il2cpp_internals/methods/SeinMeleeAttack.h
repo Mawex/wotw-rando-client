@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinMeleeAttack {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinMeleeAttack * __this));
@@ -51,7 +51,7 @@ IL2CPP_REGISTER_METHODINFO(0x04704E48, SeinMeleeAttack_OnLand__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x008ABEC0, void, OnProcessRootMotion, (SeinMeleeAttack * __this, Vector3 motion));
 IL2CPP_REGISTER_METHODINFO(0x04772348, SeinMeleeAttack_OnProcessRootMotion__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x008AC760, void, __ctor, (SeinMeleeAttack * __this));
-IL2CPP_REGISTER_METHOD(0x008ACA90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008ACA90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x008ACB20, bool, _OnDamageResultReceived_b__68_0, (SeinMeleeAttack * __this));
 IL2CPP_REGISTER_METHODINFO(0x04737150, SeinMeleeAttack__OnDamageResultReceived_b__68_0__MethodInfo);
 }

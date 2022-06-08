@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonString {
 IL2CPP_REGISTER_METHOD(0x00654950, int32_t, get_ByteCount, (BsonString * __this));

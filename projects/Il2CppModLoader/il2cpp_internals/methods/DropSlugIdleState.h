@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropSlugIdleState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (DropSlugIdleState * __this, DropSlugEnemy * slug));

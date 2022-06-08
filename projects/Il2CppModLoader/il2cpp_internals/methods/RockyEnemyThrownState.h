@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RockyEnemyThrownState {
 IL2CPP_REGISTER_METHOD(0x004C1E90, void, __ctor, (RockyEnemyThrownState * __this, RockyEnemy * enemy));

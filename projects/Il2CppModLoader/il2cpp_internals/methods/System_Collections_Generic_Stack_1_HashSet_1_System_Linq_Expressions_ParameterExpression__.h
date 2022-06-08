@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_HashSet_1_System::Linq::Expressions::ParameterExpression__ {
 IL2CPP_REGISTER_METHOD(0x0243CB70, void, __ctor, (Stack_1_HashSet_1_System_Linq_Expressions_ParameterExpression_ * __this));

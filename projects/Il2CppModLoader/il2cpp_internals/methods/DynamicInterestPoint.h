@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DynamicInterestPoint {
 IL2CPP_REGISTER_METHOD(0x00BEAB40, Vector3, get_EffectiveInterestDirection, (DynamicInterestPoint * __this));

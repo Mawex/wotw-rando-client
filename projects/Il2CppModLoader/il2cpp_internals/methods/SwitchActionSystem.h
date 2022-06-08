@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwitchActionSystem {
 IL2CPP_REGISTER_METHOD(0x018339F0, void, Awake, (SwitchActionSystem * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils_ThreadSafeDictionary_2_System::Type_System::Collections::Generic::IDictionary_2_ {
 IL2CPP_REGISTER_METHOD(0x01D15670, void, __ctor, (ReflectionUtils_ThreadSafeDictionary_2_System_Type_System_Collections_Generic_IDictionary_2_ * __this, ReflectionUtils_ThreadSafeDictionaryValueFactory_2_System_Type_System_Collections_Generic_IDictionary_2_ * valueFactory));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharactersDynamicProvider {
 IL2CPP_REGISTER_METHOD(0x01316FD0, GameObject *, get_GameplayOri, (CharactersDynamicProvider * __this));

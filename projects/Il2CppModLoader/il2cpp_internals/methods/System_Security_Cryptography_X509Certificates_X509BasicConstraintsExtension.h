@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension {
 IL2CPP_REGISTER_METHOD(0x021C3470, void, __ctor, (X509BasicConstraintsExtension * __this));

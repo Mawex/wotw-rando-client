@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EulerXYZRotationTweenAnimator {
 IL2CPP_REGISTER_METHOD(0x01BBA1A0, Transform *, get_TransformTarget, (EulerXYZRotationTweenAnimator * __this));

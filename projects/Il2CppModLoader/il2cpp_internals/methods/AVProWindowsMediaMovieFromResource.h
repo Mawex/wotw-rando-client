@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AVProWindowsMediaMovieFromResource {
 IL2CPP_REGISTER_METHOD(0x0312F8D0, void, Start, (AVProWindowsMediaMovieFromResource * __this));

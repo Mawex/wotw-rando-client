@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionSystem {
 IL2CPP_REGISTER_METHOD(0x02A0E140, void, OpenTutorial1, (InteractionSystem * __this));

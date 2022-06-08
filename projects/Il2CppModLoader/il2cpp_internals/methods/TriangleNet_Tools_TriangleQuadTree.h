@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::TriangleQuadTree {
 IL2CPP_REGISTER_METHOD(0x02A9BFD0, void, __ctor, (TriangleQuadTree * __this, Mesh_1 * mesh, int32_t maxDepth, int32_t sizeBound));

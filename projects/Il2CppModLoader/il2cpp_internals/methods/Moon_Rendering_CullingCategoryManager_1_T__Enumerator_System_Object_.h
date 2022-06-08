@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::CullingCategoryManager_1_T__Enumerator_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00107C60, Object *, get_Current, (CullingCategoryManager_1_T_Enumerator_System_Object___Boxed * __this));

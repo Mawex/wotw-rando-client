@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Mime::WriteStateInfoBase {
 IL2CPP_REGISTER_METHOD(0x01E6ECF0, void, __ctor, (WriteStateInfoBase * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Audio::AudioClipPlayable {
 IL2CPP_REGISTER_METHOD(0x001D9980, PlayableHandle, GetHandle, (AudioClipPlayable__Boxed * __this));

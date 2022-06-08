@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::UtilityDecorator {
 IL2CPP_REGISTER_METHOD(0x030121D0, BehaviourStatus__Enum, OnExecute, (UtilityDecorator * __this, IContext * context));

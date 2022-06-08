@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeConverter_StandardValuesCollection {
 IL2CPP_REGISTER_METHOD(0x02945F10, void, __ctor, (TypeConverter_StandardValuesCollection * __this, ICollection * values));

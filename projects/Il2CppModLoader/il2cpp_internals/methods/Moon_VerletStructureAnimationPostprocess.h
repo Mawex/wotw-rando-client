@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VerletStructureAnimationPostprocess {
 IL2CPP_REGISTER_METHOD(0x003FF7B0, int32_t, get_Order, (VerletStructureAnimationPostprocess * __this));

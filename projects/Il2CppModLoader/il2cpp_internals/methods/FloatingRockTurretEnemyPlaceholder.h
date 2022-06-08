@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatingRockTurretEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x01279E50, LegacyEntity *, Instantiate, (FloatingRockTurretEnemyPlaceholder * __this));

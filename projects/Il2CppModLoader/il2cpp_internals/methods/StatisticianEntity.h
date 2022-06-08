@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StatisticianEntity {
 IL2CPP_REGISTER_METHOD(0x009B7220, String *, get_DialogActorName, (StatisticianEntity * __this));

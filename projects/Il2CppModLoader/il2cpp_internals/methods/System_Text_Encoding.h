@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::Encoding {
 IL2CPP_REGISTER_METHOD(0x01952A10, void, __ctor, (Encoding * __this));
@@ -14,7 +14,7 @@ IL2CPP_REGISTER_METHOD(0x0244F760, void, DeserializeEncoding, (Encoding * __this
 IL2CPP_REGISTER_METHODINFO(0x0474AA90, Encoding_DeserializeEncoding__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0244FA40, void, SerializeEncoding, (Encoding * __this, SerializationInfo * info, StreamingContext context));
 IL2CPP_REGISTER_METHODINFO(0x04762B10, Encoding_SerializeEncoding__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0244FBA0, Object *, get_InternalSyncObject, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0244FBA0, Object *, get_InternalSyncObject, ());
 IL2CPP_REGISTER_METHOD(0x0244FD10, Encoding *, GetEncoding, (int32_t codepage));
 IL2CPP_REGISTER_METHODINFO(0x0474D168, Encoding_GetEncoding__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x024509C0, Encoding *, GetEncoding, (int32_t codepage, EncoderFallback * encoderFallback, DecoderFallback * decoderFallback));
@@ -33,8 +33,8 @@ IL2CPP_REGISTER_METHOD(0x02451670, void, set_DecoderFallback, (Encoding * __this
 IL2CPP_REGISTER_METHODINFO(0x04788FE8, Encoding_set_DecoderFallback__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02451770, Object *, Clone, (Encoding * __this));
 IL2CPP_REGISTER_METHOD(0x00DF3DF0, bool, get_IsReadOnly, (Encoding * __this));
-IL2CPP_REGISTER_METHOD(0x024518D0, Encoding *, get_ASCII, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02451AD0, Encoding *, get_Latin1, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024518D0, Encoding *, get_ASCII, ());
+IL2CPP_REGISTER_METHOD(0x02451AD0, Encoding *, get_Latin1, ());
 IL2CPP_REGISTER_METHOD(0x02451C60, int32_t, GetByteCount, (Encoding * __this, String * s));
 IL2CPP_REGISTER_METHODINFO(0x04716D00, Encoding_GetByteCount__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02451D50, int32_t, GetByteCount, (Encoding * __this, uint16_t * chars, int32_t count));
@@ -59,18 +59,18 @@ IL2CPP_REGISTER_METHODINFO(0x047367E0, Encoding_GetChars_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02452AC0, int32_t, GetChars, (Encoding * __this, uint8_t * bytes, int32_t byteCount, uint16_t * chars, int32_t charCount, DecoderNLS * decoder));
 IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_CodePage, (Encoding * __this));
 IL2CPP_REGISTER_METHOD(0x02452AE0, Decoder *, GetDecoder, (Encoding * __this));
-IL2CPP_REGISTER_METHOD(0x02452C30, Encoding *, CreateDefaultEncoding, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02452C30, Encoding *, CreateDefaultEncoding, ());
 IL2CPP_REGISTER_METHOD(0x00DF3E00, void, setReadOnly, (Encoding * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x02452CD0, Encoding *, get_Default, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02452CD0, Encoding *, get_Default, ());
 IL2CPP_REGISTER_METHOD(0x02452E10, Encoder *, GetEncoder, (Encoding * __this));
 IL2CPP_REGISTER_METHOD(0x02452F60, String *, GetString, (Encoding * __this, Byte__Array * bytes));
 IL2CPP_REGISTER_METHODINFO(0x04714200, Encoding_GetString__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02453050, String *, GetString, (Encoding * __this, Byte__Array * bytes, int32_t index, int32_t count));
-IL2CPP_REGISTER_METHOD(0x02453080, Encoding *, get_Unicode, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02453220, Encoding *, get_BigEndianUnicode, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x024533C0, Encoding *, get_UTF7, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x024535D0, Encoding *, get_UTF8, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02453760, Encoding *, get_UTF32, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02453080, Encoding *, get_Unicode, ());
+IL2CPP_REGISTER_METHOD(0x02453220, Encoding *, get_BigEndianUnicode, ());
+IL2CPP_REGISTER_METHOD(0x024533C0, Encoding *, get_UTF7, ());
+IL2CPP_REGISTER_METHOD(0x024535D0, Encoding *, get_UTF8, ());
+IL2CPP_REGISTER_METHOD(0x02453760, Encoding *, get_UTF32, ());
 IL2CPP_REGISTER_METHOD(0x02453910, bool, Equals, (Encoding * __this, Object * value));
 IL2CPP_REGISTER_METHOD(0x02453A40, int32_t, GetHashCode, (Encoding * __this));
 IL2CPP_REGISTER_METHOD(0x02453AB0, Char__Array *, GetBestFitUnicodeToBytesData, (Encoding * __this));

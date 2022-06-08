@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityLocomotionTask {
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawGizmos, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DrawGizmos, ());
 IL2CPP_REGISTER_METHOD(0x00CB6490, void, InitFSMState, (EntityLocomotionTask * __this, int32_t id, StateMachine_2 * stateMachine, Locomotion * locomotion));
 IL2CPP_REGISTER_METHOD(0x00CB64A0, void, UpdateState, (EntityLocomotionTask * __this));
 IL2CPP_REGISTER_METHOD(0x00CB6510, void, OnEnter, (EntityLocomotionTask * __this));

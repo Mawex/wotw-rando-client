@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SnapTrapHookLogic {
 IL2CPP_REGISTER_METHOD(0x007008C0, IMoonSetupAnimator *, get_MoonSetupAnimator, (SnapTrapHookLogic * __this));

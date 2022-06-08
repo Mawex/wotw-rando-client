@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::Triangle {
 IL2CPP_REGISTER_METHOD(0x02AA4E20, void, __ctor, (Triangle * __this));

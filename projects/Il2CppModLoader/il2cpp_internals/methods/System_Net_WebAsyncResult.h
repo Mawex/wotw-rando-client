@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebAsyncResult {
 IL2CPP_REGISTER_METHOD(0x020AD7F0, void, __ctor, (WebAsyncResult * __this, AsyncCallback * cb, Object * state));

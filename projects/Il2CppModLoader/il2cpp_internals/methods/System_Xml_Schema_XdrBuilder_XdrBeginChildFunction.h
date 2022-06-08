@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XdrBuilder_XdrBeginChildFunction {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XdrBuilder_XdrBeginChildFunction * __this, Object * object, void * method_1));

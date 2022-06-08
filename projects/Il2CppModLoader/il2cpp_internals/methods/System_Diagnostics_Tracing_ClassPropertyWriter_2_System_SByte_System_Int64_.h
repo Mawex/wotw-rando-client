@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ClassPropertyWriter_2_System::SByte_System::Int64_ {
 IL2CPP_REGISTER_METHOD(0x02B3C270, void, __ctor, (ClassPropertyWriter_2_System_SByte_System_Int64_ * __this, PropertyAnalysis * property));

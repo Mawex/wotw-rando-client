@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_Moon::TimeSlicer::SliceExecutionStats_ {
 IL2CPP_REGISTER_METHOD(0x029FFDB0, void, Invoke, (Action_1_Moon_TimeSlicer_SliceExecutionStats_ * __this, SliceExecutionStats obj));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AttachToVerletStructure {
 IL2CPP_REGISTER_METHOD(0x008519A0, bool, ISuspendable_get_IsSuspended, (AttachToVerletStructure * __this));

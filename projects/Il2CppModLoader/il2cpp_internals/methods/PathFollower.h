@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PathFollower {
 IL2CPP_REGISTER_METHOD(0x00446940, Vector3, get_WorldPosition, (PathFollower * __this));

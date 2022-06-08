@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System::Object_ZenFulcrum::EmbeddedBrowser::StandaloneWebResources_IndexEntry_ {
 IL2CPP_REGISTER_METHOD(0x02835340, void, __ctor, (Dictionary_2_TKey_TValue_ValueCollection_System_Object_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * __this, Dictionary_2_System_Object_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * dictionary));

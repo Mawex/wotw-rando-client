@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DisableTargetForSeconds {
 IL2CPP_REGISTER_METHOD(0x00B98C70, void, OnEnable, (DisableTargetForSeconds * __this));

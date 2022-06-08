@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonSerializerInternalWriter {
 IL2CPP_REGISTER_METHOD(0x01BF1EA0, void, __ctor, (JsonSerializerInternalWriter * __this, JsonSerializer * serializer));

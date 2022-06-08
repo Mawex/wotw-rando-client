@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Colors_Brightness {
 IL2CPP_REGISTER_METHOD(0x024E0100, Material *, get_material, (CameraFilterPack_Colors_Brightness * __this));

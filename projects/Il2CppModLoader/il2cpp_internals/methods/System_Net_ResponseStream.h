@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ResponseStream {
 IL2CPP_REGISTER_METHOD(0x01BCF150, void, __ctor, (ResponseStream * __this, Stream * stream, HttpListenerResponse * response, bool ignore_errors));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x01BD0400, int64_t, Seek, (ResponseStream * __this, int6
 IL2CPP_REGISTER_METHODINFO(0x0471A730, ResponseStream_Seek__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01BD0450, void, SetLength, (ResponseStream * __this, int64_t value));
 IL2CPP_REGISTER_METHODINFO(0x04711C58, ResponseStream_SetLength__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01BD04A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BD04A0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoProperty {
 IL2CPP_REGISTER_METHOD(0x02693030, void, CachePropertyInfo, (MonoProperty * __this, PInfo__Enum flags));

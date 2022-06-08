@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_SequencesConfiguration {
 IL2CPP_REGISTER_METHOD(0x0071BA10, ActionMethod *, For, (RaceStateMachineContext_SequencesConfiguration * __this, ScoreResult__Enum result));

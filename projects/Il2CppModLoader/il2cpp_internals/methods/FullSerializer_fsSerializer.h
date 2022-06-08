@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsSerializer {
-IL2CPP_REGISTER_METHOD(0x01515440, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01515440, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015158F0, bool, IsReservedKeyword, (String * key));
 IL2CPP_REGISTER_METHOD(0x015159B0, bool, IsObjectReference, (fsData * data));
 IL2CPP_REGISTER_METHOD(0x01515AC0, bool, IsObjectDefinition, (fsData * data));

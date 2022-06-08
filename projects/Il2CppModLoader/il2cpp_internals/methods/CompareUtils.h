@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CompareUtils {
 IL2CPP_REGISTER_METHOD(0x025528A0, bool, Compare, (float a, float b, CompareMethod__Enum cm, float floatingPoint));

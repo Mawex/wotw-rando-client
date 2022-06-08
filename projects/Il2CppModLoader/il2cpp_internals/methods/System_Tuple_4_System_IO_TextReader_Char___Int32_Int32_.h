@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_4_System::IO::TextReader_Char___Int32_Int32_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, TextReader *, get_Item1, (Tuple_4_System_IO_TextReader_Char_Int32_Int32_ * __this));

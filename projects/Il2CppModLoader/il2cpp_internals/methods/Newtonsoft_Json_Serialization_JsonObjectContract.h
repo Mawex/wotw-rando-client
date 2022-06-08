@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonObjectContract {
 IL2CPP_REGISTER_METHOD(0x008519C0, MemberSerialization__Enum, get_MemberSerialization, (JsonObjectContract * __this));

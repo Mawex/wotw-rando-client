@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_FloatStateMap_Mapping_ {
 IL2CPP_REGISTER_METHOD(0x01CD3170, bool, Equals, (ObjectEqualityComparer_1_FloatStateMap_Mapping_ * __this, FloatStateMap_Mapping x, FloatStateMap_Mapping y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineView_SrpProfilerFrame {
 IL2CPP_REGISTER_METHOD(0x00EB09D0, MoonRenderPipelineView_SrpProfilerFrame, operator__, (MoonRenderPipelineView_SrpProfilerFrame a, MoonRenderPipelineView_SrpProfilerFrame b));

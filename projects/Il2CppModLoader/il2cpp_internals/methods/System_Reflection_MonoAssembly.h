@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoAssembly {
 IL2CPP_REGISTER_METHOD(0x0268ED90, Type *, GetType, (MonoAssembly * __this, String * name, bool throwOnError, bool ignoreCase));

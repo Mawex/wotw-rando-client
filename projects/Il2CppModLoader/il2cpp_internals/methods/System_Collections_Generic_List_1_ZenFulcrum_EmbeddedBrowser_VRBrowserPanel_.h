@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_ZenFulcrum::EmbeddedBrowser::VRBrowserPanel_ {
 IL2CPP_REGISTER_METHOD(0x025E9A20, int32_t, FindIndex, (List_1_ZenFulcrum_EmbeddedBrowser_VRBrowserPanel_ * __this, Predicate_1_ZenFulcrum_EmbeddedBrowser_VRBrowserPanel_ * match));

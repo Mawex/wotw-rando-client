@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_LaserShieldDamageReceiver_FollowingEffect_ {
 IL2CPP_REGISTER_METHOD(0x02F5F090, void, Sort, (LaserShieldDamageReceiver_FollowingEffect__Array * keys, int32_t index, int32_t length, IComparer_1_LaserShieldDamageReceiver_FollowingEffect_ * comparer));

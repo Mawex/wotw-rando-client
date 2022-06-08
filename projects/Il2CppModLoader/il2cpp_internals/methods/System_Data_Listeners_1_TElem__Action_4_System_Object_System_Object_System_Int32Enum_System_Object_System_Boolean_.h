@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Listeners_1_TElem__Action_4_System::Object_System::Object_System::Int32Enum_System::Object_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Listeners_1_TElem_Action_4_System_Object_System_Object_System_Int32Enum_System_Object_System_Boolean_ * __this, Object * object, void * method_1));

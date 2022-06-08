@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::AsyncProtocolRequest__StartOperation_d__23 {
 IL2CPP_REGISTER_METHOD(0x001DCE20, void, MoveNext, (AsyncProtocolRequest_StartOperation_d_23__Boxed * __this));

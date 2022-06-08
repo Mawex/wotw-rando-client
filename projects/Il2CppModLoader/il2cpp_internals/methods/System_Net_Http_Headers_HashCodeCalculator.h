@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HashCodeCalculator {
 IL2CPP_REGISTER_METHOD(0x0209EAF0, int32_t, Calculate, (ICollection_1_System_Object_ * list));

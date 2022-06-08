@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerticalCameraSettingsZone {
 IL2CPP_REGISTER_METHOD(0x013D4130, Vector3, get_PostPosition, (VerticalCameraSettingsZone * __this));

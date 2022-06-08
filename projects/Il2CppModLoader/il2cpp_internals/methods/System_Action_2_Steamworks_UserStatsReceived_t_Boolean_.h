@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Steamworks::UserStatsReceived_t_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02C0EF60, void, Invoke, (Action_2_Steamworks_UserStatsReceived_t_Boolean_ * __this, UserStatsReceived_t arg1, bool arg2));

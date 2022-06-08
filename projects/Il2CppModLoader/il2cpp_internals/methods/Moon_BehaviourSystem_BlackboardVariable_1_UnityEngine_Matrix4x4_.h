@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BlackboardVariable_1_UnityEngine::Matrix4x4_ {
 IL2CPP_REGISTER_METHOD(0x00420EE0, IMoonType_1_UnityEngine_Matrix4x4_ *, GetMoonType, (BlackboardVariable_1_UnityEngine_Matrix4x4_ * __this));

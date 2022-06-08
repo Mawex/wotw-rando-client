@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameWorldArea_PlayerAbilityInfo {
 IL2CPP_REGISTER_METHOD(0x0040AF10, void, __ctor, (GameWorldArea_PlayerAbilityInfo * __this, SceneMetaData_PlayerAbilityInfo * abilityInfo));

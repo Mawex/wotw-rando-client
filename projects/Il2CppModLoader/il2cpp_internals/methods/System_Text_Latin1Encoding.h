@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::Latin1Encoding {
 IL2CPP_REGISTER_METHOD(0x024594F0, void, __ctor, (Latin1Encoding * __this));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHODINFO(0x04767B40, Latin1Encoding_GetMaxByteCount__MethodInf
 IL2CPP_REGISTER_METHOD(0x0245A040, int32_t, GetMaxCharCount, (Latin1Encoding * __this, int32_t byteCount));
 IL2CPP_REGISTER_METHODINFO(0x04700FA0, Latin1Encoding_GetMaxCharCount__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0245A1B0, Char__Array *, GetBestFitUnicodeToBytesData, (Latin1Encoding * __this));
-IL2CPP_REGISTER_METHOD(0x0245A250, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0245A250, void, __cctor, ());
 }

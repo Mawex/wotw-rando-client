@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ComputeBuffer {
 IL2CPP_REGISTER_METHOD(0x024296E0, void, __ctor, (ComputeBuffer * __this, int32_t count, int32_t stride));

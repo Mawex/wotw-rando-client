@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::SafeBag {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (SafeBag * __this, String * bagOID, ASN1 * asn1));

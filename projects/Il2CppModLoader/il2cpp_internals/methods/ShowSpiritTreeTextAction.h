@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowSpiritTreeTextAction {
 IL2CPP_REGISTER_METHOD(0x007375E0, void, Perform, (ShowSpiritTreeTextAction * __this, IContext * context));

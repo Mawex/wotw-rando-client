@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUILayout {
 IL2CPP_REGISTER_METHOD(0x029E3370, void, Label, (String * text, GUILayoutOption__Array * options));
@@ -18,22 +18,22 @@ IL2CPP_REGISTER_METHOD(0x029E40F0, bool, DoToggle, (bool value, GUIContent * con
 IL2CPP_REGISTER_METHOD(0x029E4210, float, HorizontalSlider, (float value, float leftValue, float rightValue, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E4330, float, DoHorizontalSlider, (float value, float leftValue, float rightValue, GUIStyle * slider, GUIStyle * thumb, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E4540, void, Space, (float pixels));
-IL2CPP_REGISTER_METHOD(0x029E48C0, void, FlexibleSpace, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E48C0, void, FlexibleSpace, ());
 IL2CPP_REGISTER_METHOD(0x029E4CE0, void, BeginHorizontal, (GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E4DD0, void, BeginHorizontal, (GUIStyle * style, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E4E90, void, BeginHorizontal, (GUIContent * content, GUIStyle * style, GUILayoutOption__Array * options));
-IL2CPP_REGISTER_METHOD(0x029E5040, void, EndHorizontal, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E5040, void, EndHorizontal, ());
 IL2CPP_REGISTER_METHOD(0x029E50D0, void, BeginVertical, (GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E51C0, void, BeginVertical, (GUIStyle * style, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E5280, void, BeginVertical, (GUIContent * content, GUIStyle * style, GUILayoutOption__Array * options));
-IL2CPP_REGISTER_METHOD(0x029E5430, void, EndVertical, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E5430, void, EndVertical, ());
 IL2CPP_REGISTER_METHOD(0x029E54C0, void, BeginArea, (Rect screenRect));
 IL2CPP_REGISTER_METHOD(0x029E55B0, void, BeginArea, (Rect screenRect, String * text));
 IL2CPP_REGISTER_METHOD(0x029E56A0, void, BeginArea, (Rect screenRect, GUIContent * content));
 IL2CPP_REGISTER_METHOD(0x029E5760, void, BeginArea, (Rect screenRect, GUIStyle * style));
 IL2CPP_REGISTER_METHOD(0x029E5830, void, BeginArea, (Rect screenRect, String * text, GUIStyle * style));
 IL2CPP_REGISTER_METHOD(0x029E5900, void, BeginArea, (Rect screenRect, GUIContent * content, GUIStyle * style));
-IL2CPP_REGISTER_METHOD(0x029E5B40, void, EndArea, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029E5B40, void, EndArea, ());
 IL2CPP_REGISTER_METHOD(0x029E5DA0, Vector2, BeginScrollView, (Vector2 scrollPosition, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E5ED0, Vector2, BeginScrollView, (Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E6010, Vector2, BeginScrollView, (Vector2 scrollPosition, GUIStyle * horizontalScrollbar, GUIStyle * verticalScrollbar, GUILayoutOption__Array * options));
@@ -41,7 +41,7 @@ IL2CPP_REGISTER_METHOD(0x029E6110, Vector2, BeginScrollView, (Vector2 scrollPosi
 IL2CPP_REGISTER_METHOD(0x029E6130, Vector2, BeginScrollView, (Vector2 scrollPosition, GUIStyle * style, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E6380, Vector2, BeginScrollView, (Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle * horizontalScrollbar, GUIStyle * verticalScrollbar, GUILayoutOption__Array * options));
 IL2CPP_REGISTER_METHOD(0x029E6490, Vector2, BeginScrollView, (Vector2 scrollPosition, bool alwaysShowHorizontal, bool alwaysShowVertical, GUIStyle * horizontalScrollbar, GUIStyle * verticalScrollbar, GUIStyle * background, GUILayoutOption__Array * options));
-IL2CPP_REGISTER_METHOD(0x01989400, void, EndScrollView, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01989400, void, EndScrollView, ());
 IL2CPP_REGISTER_METHOD(0x029E6760, void, EndScrollView, (bool handleScrollWheel));
 IL2CPP_REGISTER_METHOD(0x029E6820, GUILayoutOption *, Width, (float width));
 IL2CPP_REGISTER_METHOD(0x029E6990, GUILayoutOption *, Height, (float height));

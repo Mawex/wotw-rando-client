@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Grdk::Wrapper___c {
-IL2CPP_REGISTER_METHOD(0x01089C70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01089C70, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Wrapper_c * __this));
 IL2CPP_REGISTER_METHOD(0x00C53630, String *, _DownloadAllSaves_b__46_0, (Wrapper_c * __this, XGameSaveBlobInfo_1 * b));
 IL2CPP_REGISTER_METHODINFO(0x0477F5A0, Wrapper_c__DownloadAllSaves_b__46_0__MethodInfo);

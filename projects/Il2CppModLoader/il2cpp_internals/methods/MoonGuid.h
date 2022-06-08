@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonGuid {
 IL2CPP_REGISTER_METHOD(0x00F506D0, void, __ctor, (MoonGuid * __this, MoonGuid * moonGuid));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHOD(0x00F516E0, void, Serialize, (MoonGuid * __this, Archive 
 IL2CPP_REGISTER_METHOD(0x00F51750, void, Save, (MoonGuid * __this, UberStateArchive * ar));
 IL2CPP_REGISTER_METHOD(0x00F51830, void, Load, (MoonGuid * __this, UberStateArchive * ar));
 IL2CPP_REGISTER_METHOD(0x00F51920, void, Save, (MoonGuid * __this, BinaryWriter * binaryWriter));
-IL2CPP_REGISTER_METHOD(0x00F519A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F519A0, void, __cctor, ());
 }

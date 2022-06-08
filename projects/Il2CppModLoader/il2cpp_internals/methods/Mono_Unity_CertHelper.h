@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::CertHelper {
 IL2CPP_REGISTER_METHOD(0x02186110, void, AddCertificatesToNativeChain, (UnityTls_unitytls_x509list * nativeCertificateChain, X509CertificateCollection_1 * certificates, UnityTls_unitytls_errorstate * errorState));

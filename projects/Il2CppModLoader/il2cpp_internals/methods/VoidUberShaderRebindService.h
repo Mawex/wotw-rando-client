@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VoidUberShaderRebindService {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Rebind, (VoidUberShaderRebindService * __this, UberShaderComponent * target, RebindingReason__Enum reason));

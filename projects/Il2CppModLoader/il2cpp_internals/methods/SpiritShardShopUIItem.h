@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritShardShopUIItem {
 IL2CPP_REGISTER_METHOD(0x002FBC20, PlayerUberStateShards_Shard *, get_SpiritShard, (SpiritShardShopUIItem * __this));

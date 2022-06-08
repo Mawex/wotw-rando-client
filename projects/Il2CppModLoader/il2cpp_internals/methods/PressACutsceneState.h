@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PressACutsceneState {
 IL2CPP_REGISTER_METHOD(0x00C6F800, CharacterAnimationSystem *, get_Animation, (PressACutsceneState * __this));

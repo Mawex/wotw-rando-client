@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaurSelectedMemoryToReplayCondition {
 IL2CPP_REGISTER_METHOD(0x00F9B260, bool, Validate, (BaurSelectedMemoryToReplayCondition * __this, IContext * context));

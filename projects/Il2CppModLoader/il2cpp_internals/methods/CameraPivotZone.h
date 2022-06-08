@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraPivotZone {
-IL2CPP_REGISTER_METHOD(0x0169CEB0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0169CEB0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0169CF80, GameplayCamera *, get_Camera, (CameraPivotZone * __this));
 IL2CPP_REGISTER_METHOD(0x0169D020, float, get_maxWeight, (CameraPivotZone * __this));
 IL2CPP_REGISTER_METHOD(0x0169D280, bool, get_IsInside, (CameraPivotZone * __this));
-IL2CPP_REGISTER_METHOD(0x0169DA80, void, InstantUpdate, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0169DA80, void, InstantUpdate, ());
 IL2CPP_REGISTER_METHOD(0x0169DC00, void, ImmediatelyUpdate, (CameraPivotZone * __this));
 IL2CPP_REGISTER_METHOD(0x0169DEC0, void, OnDestroy, (CameraPivotZone * __this));
 IL2CPP_REGISTER_METHOD(0x0169DED0, void, OnEnable, (CameraPivotZone * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x0169EB00, String *, get_NameDisplayedOnClip, (CameraPiv
 IL2CPP_REGISTER_METHOD(0x0169EB80, void, Build, (CameraPivotZone * __this, VirtualClipsBuilder * builder));
 IL2CPP_REGISTER_METHOD(0x0169EDD0, bool, get_IsInfluencingCamera, (CameraPivotZone * __this));
 IL2CPP_REGISTER_METHOD(0x0169EF80, void, __ctor, (CameraPivotZone * __this));
-IL2CPP_REGISTER_METHOD(0x0169F200, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0169F200, void, __cctor, ());
 }

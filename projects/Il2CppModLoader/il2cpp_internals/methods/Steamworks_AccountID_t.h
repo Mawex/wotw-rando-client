@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::AccountID_t {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (AccountID_t__Boxed * __this, uint32_t value));

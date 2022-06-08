@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ {
-IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ *, get_Default, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02E6E9C0, EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ *, CreateComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ *, get_Default, ());
+IL2CPP_REGISTER_METHOD(0x02E6E9C0, EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ *, CreateComparer, ());
 IL2CPP_REGISTER_METHOD(0x02B53BB0, int32_t, IndexOf, (EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ * __this, TextureTilingAdjuster_AdjustedTexture__Array * array, TextureTilingAdjuster_AdjustedTexture value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B53C90, int32_t, LastIndexOf, (EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ * __this, TextureTilingAdjuster_AdjustedTexture__Array * array, TextureTilingAdjuster_AdjustedTexture value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B53D80, int32_t, IEqualityComparer_GetHashCode, (EqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ * __this, Object * obj));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::ProxyElement {
 IL2CPP_REGISTER_METHOD(0x02019FE0, void, __ctor, (ProxyElement * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsDebugTools::PhysicsDebugRecorder___c__DisplayClass18_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PhysicsDebugRecorder_c_DisplayClass18_0 * __this));

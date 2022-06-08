@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SandWormAnimationPlayer {
 IL2CPP_REGISTER_METHOD(0x00781AF0, void, OnStartPlayback, (SandWormAnimationPlayer * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FireStick {
 IL2CPP_REGISTER_METHOD(0x01256710, bool, get_IsLit, (FireStick * __this));
@@ -21,9 +21,9 @@ IL2CPP_REGISTER_METHOD(0x012578C0, void, UpdateLightPosition, (FireStick * __thi
 IL2CPP_REGISTER_METHOD(0x01257BB0, void, OnEnable, (FireStick * __this));
 IL2CPP_REGISTER_METHOD(0x01257DB0, void, OnDisable, (FireStick * __this));
 IL2CPP_REGISTER_METHOD(0x01257F30, void, OnCollisionEnter, (FireStick * __this, Collision * collision));
-IL2CPP_REGISTER_METHOD(0x012580C0, void, DebugToggleTorch, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01258400, void, DebugPickUpTorch, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01258710, void, DebugExtinguishTorch, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012580C0, void, DebugToggleTorch, ());
+IL2CPP_REGISTER_METHOD(0x01258400, void, DebugPickUpTorch, ());
+IL2CPP_REGISTER_METHOD(0x01258710, void, DebugExtinguishTorch, ());
 IL2CPP_REGISTER_METHOD(0x012587F0, void, OnPickedUp, (FireStick * __this, bool serialization));
 IL2CPP_REGISTER_METHOD(0x01258910, void, OnDropped, (FireStick * __this));
 IL2CPP_REGISTER_METHOD(0x01258A10, void, Light, (FireStick * __this));

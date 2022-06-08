@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageMetaData_1_PhysicsEdge_ {
 IL2CPP_REGISTER_METHOD(0x019DD450, void, Add, (CageMetaData_1_PhysicsEdge_ * __this, PhysicsEdge * dataEntry, int32_t id));

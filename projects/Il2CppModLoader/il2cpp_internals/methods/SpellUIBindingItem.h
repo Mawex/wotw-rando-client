@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellUIBindingItem {
 IL2CPP_REGISTER_METHOD(0x00944D80, void, Awake, (SpellUIBindingItem * __this));

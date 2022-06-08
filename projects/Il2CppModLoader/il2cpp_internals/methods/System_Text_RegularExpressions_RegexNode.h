@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexNode {
 IL2CPP_REGISTER_METHOD(0x02595F10, void, __ctor, (RegexNode * __this, int32_t type, RegexOptions__Enum options));

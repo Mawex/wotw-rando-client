@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlatformBehaviour {
 IL2CPP_REGISTER_METHOD(0x01164D30, SurfaceMaterialType__Enum, get_WallSurfaceMaterialType, (PlatformBehaviour * __this));

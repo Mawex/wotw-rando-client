@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Queue {
 IL2CPP_REGISTER_METHOD(0x0202B250, void, __ctor, (Queue * __this));

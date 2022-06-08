@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ForwardAxis {
 IL2CPP_REGISTER_METHOD(0x002FB930, DoubleLinkAxis *, get_RootNode, (ForwardAxis * __this));

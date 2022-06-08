@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PickupMessageIcon {
 IL2CPP_REGISTER_METHOD(0x01159630, void, SetIcon, (PickupMessageIcon * __this, Texture2D * icon));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Joint {
 IL2CPP_REGISTER_METHOD(0x030A2DB0, Rigidbody *, get_connectedBody, (Joint * __this));

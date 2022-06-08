@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::ShaderPassName {
 IL2CPP_REGISTER_METHOD(0x001F2140, void, __ctor, (ShaderPassName__Boxed * __this, String * name));

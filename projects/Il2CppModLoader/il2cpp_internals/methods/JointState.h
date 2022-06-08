@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JointState {
 IL2CPP_REGISTER_METHOD(0x0064C5D0, void, Break, (JointState * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::Button {
 IL2CPP_REGISTER_METHOD(0x00D23FF0, void, OnSelected, (Button_1 * __this));

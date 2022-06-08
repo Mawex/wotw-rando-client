@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShader::optimizations::gc::MemoryLabelDebugger___c__DisplayClass17_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MemoryLabelDebugger_c_DisplayClass17_0 * __this));

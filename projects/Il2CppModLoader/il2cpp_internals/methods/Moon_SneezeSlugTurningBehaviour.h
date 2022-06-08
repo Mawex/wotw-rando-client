@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SneezeSlugTurningBehaviour {
 IL2CPP_REGISTER_METHOD(0x00E2E380, void, OnInitializeTask, (SneezeSlugTurningBehaviour * __this, IContext * context));

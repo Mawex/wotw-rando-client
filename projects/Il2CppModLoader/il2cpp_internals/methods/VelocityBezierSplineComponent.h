@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VelocityBezierSplineComponent {
 IL2CPP_REGISTER_METHOD(0x013C0A10, void, add_spline_event, (VelocityBezierSplineComponent * __this, SplineEventHandler * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_ShrineCombat_WaveProgressMarker_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, ShrineCombat_WaveProgressMarker *, get_Current, (List_1_T_Enumerator_ShrineCombat_WaveProgressMarker___Boxed * __this));

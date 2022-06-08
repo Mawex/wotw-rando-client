@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::IntegratedSubsystem_1_UnityEngine::Experimental::XR::XRMeshSubsystemDescriptor_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (IntegratedSubsystem_1_UnityEngine_Experimental_XR_XRMeshSubsystemDescriptor_ * __this));

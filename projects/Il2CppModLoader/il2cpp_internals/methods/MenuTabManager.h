@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuTabManager {
 IL2CPP_REGISTER_METHOD(0x003FFE10, bool, get_WasPaused, (MenuTabManager * __this));

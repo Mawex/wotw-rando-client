@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::AudioListenerZone {
 IL2CPP_REGISTER_METHOD(0x02709950, String *, get_GizmoText, (AudioListenerZone * __this));

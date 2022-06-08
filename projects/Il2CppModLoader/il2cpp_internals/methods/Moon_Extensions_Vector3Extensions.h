@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Extensions::Vector3Extensions {
 IL2CPP_REGISTER_METHOD(0x02F8EBE0, MoonVector3 *, AsMoonVector3, (Vector3 vector));

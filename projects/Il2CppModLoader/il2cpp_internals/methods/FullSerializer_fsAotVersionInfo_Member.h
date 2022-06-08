@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsAotVersionInfo_Member {
 IL2CPP_REGISTER_METHOD(0x0012C4A0, void, __ctor, (fsAotVersionInfo_Member__Boxed * __this, fsMetaProperty * property));

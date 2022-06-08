@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyEntityDamageReciever {
 IL2CPP_REGISTER_METHOD(0x00A210B0, void, OnValidate, (LegacyEntityDamageReciever * __this));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x00A237E0, bool, CanDetonateProjectiles, (LegacyEntityDa
 IL2CPP_REGISTER_METHOD(0x00A23880, void, StressTestUpdate, (LegacyEntityDamageReciever * __this, float deltaTime));
 IL2CPP_REGISTER_METHOD(0x00A239C0, void, OnRespawn, (LegacyEntityDamageReciever * __this));
 IL2CPP_REGISTER_METHOD(0x00A239D0, void, __ctor, (LegacyEntityDamageReciever * __this));
-IL2CPP_REGISTER_METHOD(0x00A23DD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A23DD0, void, __cctor, ());
 }

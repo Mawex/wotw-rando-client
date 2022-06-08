@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Moon::NewSetupStateControllerResolver_IRuntimeUberStateControllerDataLink_ {
 IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_System_Int32_Moon_NewSetupStateControllerResolver_IRuntimeUberStateControllerDataLink_, GetEnumerator, (Dictionary_2_System_Int32_Moon_NewSetupStateControllerResolver_IRuntimeUberStateControllerDataLink_ * __this));

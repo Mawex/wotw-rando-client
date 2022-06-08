@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberWaterAnimator {
 IL2CPP_REGISTER_METHOD(0x01292FC0, float, get_Duration, (UberWaterAnimator * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuItemTooltipController {
 IL2CPP_REGISTER_METHOD(0x012BF310, bool, get_IsSelectionActive, (CleverMenuItemTooltipController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Container {
 IL2CPP_REGISTER_METHOD(0x024AB110, void, Finalize, (Container * __this));

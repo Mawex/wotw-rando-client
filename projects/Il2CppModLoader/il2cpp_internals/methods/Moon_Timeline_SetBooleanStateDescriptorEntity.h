@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SetBooleanStateDescriptorEntity {
 IL2CPP_REGISTER_METHOD(0x00785B90, void, OnStartPlayback, (SetBooleanStateDescriptorEntity * __this, IContext * context));

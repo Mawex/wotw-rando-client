@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LehmerRng {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (LehmerRng * __this, uint32_t seed));

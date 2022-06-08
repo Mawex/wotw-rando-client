@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrogEntity {
 IL2CPP_REGISTER_METHOD(0x01646F60, bool, CanAnySeeCharacter, (FrogEntity * __this));

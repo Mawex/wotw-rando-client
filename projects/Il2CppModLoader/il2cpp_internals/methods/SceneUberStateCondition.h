@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneUberStateCondition {
 IL2CPP_REGISTER_METHOD(0x00BC0750, MoonGuid *, get_MoonGuid, (SceneUberStateCondition * __this));

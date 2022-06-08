@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int64_GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData_ {
 IL2CPP_REGISTER_METHOD(0x02C3E9A0, GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData *, get_Item, (Dictionary_2_System_Int64_GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData_ * __this, int64_t key));

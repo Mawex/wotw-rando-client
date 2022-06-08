@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CrabPlaceholderGroup {
 IL2CPP_REGISTER_METHOD(0x00DB6880, void, Awake, (CrabPlaceholderGroup * __this));

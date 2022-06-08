@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::MotionBlur {
 IL2CPP_REGISTER_METHOD(0x02D5AA90, void, Start, (MotionBlur * __this));

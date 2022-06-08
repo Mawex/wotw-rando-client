@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::BehaviourTree {
 IL2CPP_REGISTER_METHOD(0x002FB970, uint32_t, get_TickId, (BehaviourTree_1 * __this));

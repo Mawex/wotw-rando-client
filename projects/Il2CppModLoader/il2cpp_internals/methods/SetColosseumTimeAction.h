@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetColosseumTimeAction {
 IL2CPP_REGISTER_METHOD(0x005A2320, void, Perform, (SetColosseumTimeAction * __this, IContext * context));

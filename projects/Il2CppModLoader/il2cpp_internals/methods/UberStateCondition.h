@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStateCondition {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, UberStateConditionType__Enum, get_ConditionClassID, (UberStateCondition * __this));

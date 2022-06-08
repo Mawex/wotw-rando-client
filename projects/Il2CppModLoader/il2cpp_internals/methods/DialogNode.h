@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DialogNode {
 IL2CPP_REGISTER_METHOD(0x00B900E0, IDialogActor *, get_Actor, (DialogNode * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Cache::RequestCacheProtocol {
 IL2CPP_REGISTER_METHOD(0x02016470, void, __ctor, (RequestCacheProtocol * __this, Object * arg1, Object * arg2));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightCanvasEditorTextureCache___c {
-IL2CPP_REGISTER_METHOD(0x011482F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011482F0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LightCanvasEditorTextureCache_c * __this));
 IL2CPP_REGISTER_METHOD(0x01148430, int32_t, _OnAfterDeserialize_b__21_0, (LightCanvasEditorTextureCache_c * __this, LightCanvasEditorTextureCache_LightCanvasEditorTextureData x));
 IL2CPP_REGISTER_METHODINFO(0x04753E58, LightCanvasEditorTextureCache_c__OnAfterDeserialize_b__21_0__MethodInfo);

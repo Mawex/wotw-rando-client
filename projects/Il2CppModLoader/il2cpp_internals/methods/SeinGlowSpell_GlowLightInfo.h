@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinGlowSpell_GlowLightInfo {
 IL2CPP_REGISTER_METHOD(0x003FC830, SeinGlowSpell_GlowType__Enum, get_GlowType, (SeinGlowSpell_GlowLightInfo * __this));

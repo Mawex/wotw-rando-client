@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineView_UpscalePost {
 IL2CPP_REGISTER_METHOD(0x00EB0CC0, void, IRenderPostprocessor_OnRenderImage, (MoonRenderPipelineView_UpscalePost * __this, PostProcessRenderContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpringSeinTrigger {
 IL2CPP_REGISTER_METHOD(0x009A8A00, void, OnCollisionEnter, (SpringSeinTrigger * __this, Collision * collision));

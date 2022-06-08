@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeWeaponSwordstaff {
 IL2CPP_REGISTER_METHOD(0x009D2BA0, bool, get_IsAllowed, (MeleeWeaponSwordstaff * __this));

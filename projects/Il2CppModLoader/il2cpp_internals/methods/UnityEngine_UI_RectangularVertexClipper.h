@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::RectangularVertexClipper {
 IL2CPP_REGISTER_METHOD(0x02665480, void, __ctor, (RectangularVertexClipper * __this));

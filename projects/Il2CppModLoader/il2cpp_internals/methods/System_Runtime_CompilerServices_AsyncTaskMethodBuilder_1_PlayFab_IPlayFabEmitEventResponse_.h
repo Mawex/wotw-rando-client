@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_PlayFab::IPlayFabEmitEventResponse_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_PlayFab_IPlayFabEmitEventResponse_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_PlayFab_IPlayFabEmitEventResponse_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x04784FD8, AsyncTaskMethodBuilder_1_PlayFab_IPlayFabEmitEventResponse__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3D50, void, Start, (AsyncTaskMethodBuilder_1_PlayFab_IPlayFabEmitEventResponse___Boxed * __this, OneDSEventPipeline_IntakeEventAsync_d_24 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x04748388, AsyncTaskMethodBuilder_1_PlayFab_IPlayFabEmitEventResponse__Start__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ConstraintCollection {
 IL2CPP_REGISTER_METHOD(0x0238DC10, void, __ctor, (ConstraintCollection * __this, DataTable * table));

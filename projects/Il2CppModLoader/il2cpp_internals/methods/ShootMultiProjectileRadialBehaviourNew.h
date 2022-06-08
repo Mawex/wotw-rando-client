@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShootMultiProjectileRadialBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x005B62B0, void, ForceShoot, (ShootMultiProjectileRadialBehaviourNew * __this));

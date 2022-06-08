@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JEnumerable_1_JToken_ {
 IL2CPP_REGISTER_METHOD(0x001C9300, IEnumerator_1_Newtonsoft_Json_Linq_JToken_ *, GetEnumerator, (JEnumerable_1_JToken___Boxed * __this));

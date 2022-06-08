@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SuspendWhenOutOfFrustrumWithCondition {
 IL2CPP_REGISTER_METHOD(0x006753C0, bool, get_IsBlockedFromSuspending, (SuspendWhenOutOfFrustrumWithCondition * __this));

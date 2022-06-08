@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1ClawSwipeBehaviour {
 IL2CPP_REGISTER_METHOD(0x017657D0, void, CopyData, (PetrifiedOwlBossFight1ClawSwipeBehaviour * __this, PetrifiedOwlBossBaseBehaviour * other));

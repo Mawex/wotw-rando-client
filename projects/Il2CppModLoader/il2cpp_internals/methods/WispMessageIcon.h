@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WispMessageIcon {
 IL2CPP_REGISTER_METHOD(0x0057CCD0, void, SetWisp, (WispMessageIcon * __this, WispMessageIcon_Wisp__Enum wisp));

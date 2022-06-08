@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexWriter {
 IL2CPP_REGISTER_METHOD(0x02A78D50, RegexCode *, Write, (RegexTree * t));

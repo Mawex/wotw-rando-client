@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_RunInParallel, (EntityReactionBehaviour * __this));

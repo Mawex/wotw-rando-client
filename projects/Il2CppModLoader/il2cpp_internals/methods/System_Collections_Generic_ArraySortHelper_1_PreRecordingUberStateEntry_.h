@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_PreRecordingUberStateEntry_ {
 IL2CPP_REGISTER_METHOD(0x02FEDDD0, void, Sort, (PreRecordingUberStateEntry__Array * keys, int32_t index, int32_t length, IComparer_1_PreRecordingUberStateEntry_ * comparer));

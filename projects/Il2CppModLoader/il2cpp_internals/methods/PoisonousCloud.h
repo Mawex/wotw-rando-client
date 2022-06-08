@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PoisonousCloud {
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsSuspended, (PoisonousCloud * __this));

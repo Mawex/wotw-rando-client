@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::profilers::GPUAutoProfiler_LightSpeedMeasurementHandler {
 IL2CPP_REGISTER_METHOD(0x00E449E0, void, __ctor, (GPUAutoProfiler_LightSpeedMeasurementHandler * __this, List_1_Moon_Telemetry_Performance_profilers_GPUAutoProfiler_Sample_ * samples));

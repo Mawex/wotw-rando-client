@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BreakableWallLogic {
 IL2CPP_REGISTER_METHOD(0x00D4F420, IUberState *, get_UberState, (BreakableWallLogic * __this));

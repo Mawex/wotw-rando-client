@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::StreamReader {
-IL2CPP_REGISTER_METHOD(0x012EE6D0, int32_t, get_DefaultBufferSize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012EE6D0, int32_t, get_DefaultBufferSize, ());
 IL2CPP_REGISTER_METHOD(0x0237F810, void, CheckAsyncTaskInProgress, (StreamReader * __this));
 IL2CPP_REGISTER_METHODINFO(0x047394C8, StreamReader_CheckAsyncTaskInProgress__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0237F8F0, void, __ctor, (StreamReader * __this));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x023813E0, bool, IsPreamble, (StreamReader * __this));
 IL2CPP_REGISTER_METHOD(0x02381530, int32_t, ReadBuffer, (StreamReader * __this));
 IL2CPP_REGISTER_METHOD(0x02381710, int32_t, ReadBuffer, (StreamReader * __this, Char__Array * userBuffer, int32_t userOffset, int32_t desiredChars, bool * readToUserBuffer));
 IL2CPP_REGISTER_METHOD(0x02381990, String *, ReadLine, (StreamReader * __this));
-IL2CPP_REGISTER_METHOD(0x02381C90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02381C90, void, __cctor, ());
 }

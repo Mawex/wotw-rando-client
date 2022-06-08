@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Certificate2 {
 IL2CPP_REGISTER_METHOD(0x021C47A0, X509Certificate2Impl *, get_Impl, (X509Certificate2 * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x021C5190, String *, ToString, (X509Certificate2 * __thi
 IL2CPP_REGISTER_METHOD(0x021C58F0, void, AppendBuffer, (StringBuilder * sb, Byte__Array * buffer));
 IL2CPP_REGISTER_METHOD(0x021C5A10, bool, Verify, (X509Certificate2 * __this));
 IL2CPP_REGISTER_METHOD(0x021C5A50, X509Certificate_2 *, get_MonoCertificate, (X509Certificate2 * __this));
-IL2CPP_REGISTER_METHOD(0x021C5B90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021C5B90, void, __cctor, ());
 }

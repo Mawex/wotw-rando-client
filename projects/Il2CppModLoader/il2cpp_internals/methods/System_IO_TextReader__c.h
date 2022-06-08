@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::TextReader___c {
-IL2CPP_REGISTER_METHOD(0x02385960, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02385960, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TextReader_c * __this));
 IL2CPP_REGISTER_METHOD(0x02385AA0, String *, __cctor_b__22_0, (TextReader_c * __this, Object * state));
 IL2CPP_REGISTER_METHODINFO(0x04777F80, TextReader_c___cctor_b__22_0__MethodInfo);

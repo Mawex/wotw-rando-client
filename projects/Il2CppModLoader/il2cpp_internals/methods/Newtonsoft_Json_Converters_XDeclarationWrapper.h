@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::XDeclarationWrapper {
 IL2CPP_REGISTER_METHOD(0x002FB930, XDeclaration *, get_Declaration, (XDeclarationWrapper * __this));

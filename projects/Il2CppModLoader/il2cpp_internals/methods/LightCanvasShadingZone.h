@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightCanvasShadingZone {
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_LightCanvasShadingZoneSelected, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_LightCanvasShadingZoneSelected, ());
 IL2CPP_REGISTER_METHOD(0x00B91440, int32_t, get_ShadingZoneId, (LightCanvasShadingZone * __this));
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_IsDirtyEditor, (LightCanvasShadingZone * __this));
 IL2CPP_REGISTER_METHOD(0x0052A060, void, set_IsDirtyEditor, (LightCanvasShadingZone * __this, bool value));

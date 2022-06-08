@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::HierarchyTestBulkOutput {
 IL2CPP_REGISTER_METHOD(0x0149F6A0, void, __ctor, (HierarchyTestBulkOutput * __this, HierarchyTestBulkToolData * data, String * fileName, String * fileExtension));

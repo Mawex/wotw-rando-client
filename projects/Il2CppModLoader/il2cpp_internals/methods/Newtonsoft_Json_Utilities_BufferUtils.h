@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::BufferUtils {
 IL2CPP_REGISTER_METHOD(0x01C009C0, Char__Array *, RentBuffer, (IArrayPool_1_System_Char_ * bufferPool, int32_t minSize));

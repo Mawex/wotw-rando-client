@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MirroredTurningBehaviour {
 IL2CPP_REGISTER_METHOD(0x01119590, void, OnEnterTask, (MirroredTurningBehaviour * __this, IContext * context));

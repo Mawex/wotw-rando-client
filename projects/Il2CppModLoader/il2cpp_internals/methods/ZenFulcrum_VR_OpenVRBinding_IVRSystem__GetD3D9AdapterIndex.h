@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRSystem__GetD3D9AdapterIndex {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRSystem_GetD3D9AdapterIndex * __this, Object * object, void * method_1));

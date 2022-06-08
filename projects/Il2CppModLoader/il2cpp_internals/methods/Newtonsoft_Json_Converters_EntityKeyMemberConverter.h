@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::EntityKeyMemberConverter {
 IL2CPP_REGISTER_METHOD(0x01A52B10, void, WriteJson, (EntityKeyMemberConverter * __this, JsonWriter * writer, Object * value, JsonSerializer * serializer));

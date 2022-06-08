@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Reflector {
 IL2CPP_REGISTER_METHOD(0x008FC8E0, void, OnTriggerEnter, (Reflector * __this, Collider * collider));

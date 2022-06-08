@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Distortion_Dream {
 IL2CPP_REGISTER_METHOD(0x024E6190, Material *, get_material, (CameraFilterPack_Distortion_Dream * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStatesExcludedFromRecording {
 IL2CPP_REGISTER_METHOD(0x0128BC70, bool, IsExcluded, (UberStatesExcludedFromRecording * __this, String * assetGuid));

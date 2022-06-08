@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberSwarm {
 IL2CPP_REGISTER_METHOD(0x00A1A3B0, bool, get_IsSuspended, (UberSwarm * __this));

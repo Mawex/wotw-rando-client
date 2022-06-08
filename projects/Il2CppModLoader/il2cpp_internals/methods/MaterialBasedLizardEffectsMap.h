@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaterialBasedLizardEffectsMap {
 IL2CPP_REGISTER_METHOD(0x013805D0, void, PopulateRuntimeCache, (MaterialBasedLizardEffectsMap * __this, MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache * cache));

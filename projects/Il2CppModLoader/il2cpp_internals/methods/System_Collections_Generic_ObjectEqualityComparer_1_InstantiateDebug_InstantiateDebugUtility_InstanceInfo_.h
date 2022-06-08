@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
 IL2CPP_REGISTER_METHOD(0x01CD2410, bool, Equals, (ObjectEqualityComparer_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, InstantiateDebugUtility_InstanceInfo x, InstantiateDebugUtility_InstanceInfo y));

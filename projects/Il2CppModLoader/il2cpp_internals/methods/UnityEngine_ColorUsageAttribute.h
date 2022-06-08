@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ColorUsageAttribute {
 IL2CPP_REGISTER_METHOD(0x02428BE0, void, __ctor, (ColorUsageAttribute * __this, bool showAlpha));

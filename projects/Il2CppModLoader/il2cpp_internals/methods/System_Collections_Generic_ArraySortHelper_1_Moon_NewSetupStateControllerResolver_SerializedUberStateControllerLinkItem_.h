@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ {
 IL2CPP_REGISTER_METHOD(0x02F38F70, void, Sort, (NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightCanvas_SubLayerSettingGroup {
 IL2CPP_REGISTER_METHOD(0x01145B20, bool, Equals, (LightCanvas_SubLayerSettingGroup * __this, LightCanvas_SubLayerSettingGroup * other));

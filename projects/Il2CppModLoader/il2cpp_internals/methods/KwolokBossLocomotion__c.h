@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossLocomotion___c {
-IL2CPP_REGISTER_METHOD(0x012E7340, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012E7340, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (KwolokBossLocomotion_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__143_0, (KwolokBossLocomotion_c * __this, float * _p0_));
 IL2CPP_REGISTER_METHODINFO(0x04763FE8, KwolokBossLocomotion_c___ctor_b__143_0__MethodInfo);

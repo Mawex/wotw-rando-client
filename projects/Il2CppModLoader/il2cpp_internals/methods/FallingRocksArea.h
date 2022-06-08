@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FallingRocksArea {
 IL2CPP_REGISTER_METHOD(0x00997A90, void, Start, (FallingRocksArea * __this));

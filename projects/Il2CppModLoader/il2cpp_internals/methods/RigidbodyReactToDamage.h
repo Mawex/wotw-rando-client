@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodyReactToDamage {
 IL2CPP_REGISTER_METHOD(0x00505C70, void, Awake, (RigidbodyReactToDamage * __this));

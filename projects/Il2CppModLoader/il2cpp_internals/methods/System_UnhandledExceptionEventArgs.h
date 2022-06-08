@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UnhandledExceptionEventArgs {
 IL2CPP_REGISTER_METHOD(0x027C5BD0, void, __ctor, (UnhandledExceptionEventArgs * __this, Object * exception, bool isTerminating));

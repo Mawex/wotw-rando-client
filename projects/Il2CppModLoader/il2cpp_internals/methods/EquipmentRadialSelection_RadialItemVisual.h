@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EquipmentRadialSelection_RadialItemVisual {
 IL2CPP_REGISTER_METHOD(0x00971A60, Vector3, get_Position, (EquipmentRadialSelection_RadialItemVisual * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x00972630, bool, get_IsDisabled, (EquipmentRadialSelecti
 IL2CPP_REGISTER_METHOD(0x00972650, void, __ctor, (EquipmentRadialSelection_RadialItemVisual * __this, CleverMenuItem * item, float angle, bool hideRenderers));
 IL2CPP_REGISTER_METHOD(0x009729D0, void, SetDistanceFromCenter, (EquipmentRadialSelection_RadialItemVisual * __this, Vector2 center, float distance, bool imediate));
 IL2CPP_REGISTER_METHOD(0x00972E10, void, RefreshRendererList, (EquipmentRadialSelection_RadialItemVisual * __this));
-IL2CPP_REGISTER_METHOD(0x00973130, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00973130, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaSet {
 IL2CPP_REGISTER_METHOD(0x01CBA8C0, Object *, get_InternalSyncObject, (XmlSchemaSet * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_date {
 IL2CPP_REGISTER_METHOD(0x007E3F30, XmlTypeCode__Enum, get_TypeCode, (Datatype_date * __this));

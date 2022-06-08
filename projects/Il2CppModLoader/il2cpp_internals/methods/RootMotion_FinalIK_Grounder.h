@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Grounder {
 IL2CPP_REGISTER_METHOD(0x020654E0, Vector3, GetSpineOffsetTarget, (Grounder * __this));

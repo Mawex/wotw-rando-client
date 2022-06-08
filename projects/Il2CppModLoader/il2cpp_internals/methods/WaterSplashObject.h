@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterSplashObject {
 IL2CPP_REGISTER_METHOD(0x008E2280, void, RenameToFollowObject, (WaterSplashObject * __this));

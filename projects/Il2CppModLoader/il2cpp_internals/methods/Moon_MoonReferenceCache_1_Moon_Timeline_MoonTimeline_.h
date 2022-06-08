@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReferenceCache_1_Moon::Timeline::MoonTimeline_ {
 IL2CPP_REGISTER_METHOD(0x027204F0, MoonTimeline *, GetValue, (MoonReferenceCache_1_Moon_Timeline_MoonTimeline_ * __this, MoonReference_1_Moon_Timeline_MoonTimeline_ * moonRef));

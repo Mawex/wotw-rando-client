@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::VignetteAndChromaticAberration {
 IL2CPP_REGISTER_METHOD(0x02D6B3C0, bool, CheckResources, (VignetteAndChromaticAberration * __this));

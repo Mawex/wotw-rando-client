@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SpriteTransparencyTweenAnimator {
 IL2CPP_REGISTER_METHOD(0x00D07AA0, GameObject *, get_ExternalTarget, (SpriteTransparencyTweenAnimator * __this));

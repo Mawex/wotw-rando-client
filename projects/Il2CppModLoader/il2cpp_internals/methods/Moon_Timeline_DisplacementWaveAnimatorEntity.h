@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::DisplacementWaveAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x00765EE0, void, OnStartPlayback, (DisplacementWaveAnimatorEntity * __this, IContext * context));

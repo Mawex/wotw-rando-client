@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::CallRequestContainer {
 IL2CPP_REGISTER_METHOD(0x01835C10, void, __ctor, (CallRequestContainer * __this));

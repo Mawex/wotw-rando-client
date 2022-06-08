@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DateTimeParse {
 IL2CPP_REGISTER_METHOD(0x028ACE80, DateTime, ParseExact, (String * s, String * format, DateTimeFormatInfo * dtfi, DateTimeStyles__Enum style));
@@ -86,5 +86,5 @@ IL2CPP_REGISTER_METHOD(0x028B6B90, bool, ParseByFormat, (_DTString * str, _DTStr
 IL2CPP_REGISTER_METHOD(0x028B7D10, bool, TryParseQuoteString, (String * format, int32_t pos, StringBuilder * result, int32_t * returnValue));
 IL2CPP_REGISTER_METHOD(0x028B7DF0, bool, DoStrictParse, (String * s, String * formatParam, DateTimeStyles__Enum styles, DateTimeFormatInfo * dtfi, DateTimeResult * result));
 IL2CPP_REGISTER_METHOD(0x028B8410, Exception *, GetDateTimeParseException, (DateTimeResult * result));
-IL2CPP_REGISTER_METHOD(0x028B8850, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028B8850, void, __cctor, ());
 }

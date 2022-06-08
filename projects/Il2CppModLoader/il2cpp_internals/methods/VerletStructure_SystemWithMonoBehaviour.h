@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletStructure_SystemWithMonoBehaviour {
 IL2CPP_REGISTER_METHOD(0x013CF520, void, __ctor, (VerletStructure_SystemWithMonoBehaviour * __this, VerletStructure__Array * entities));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::SocketElement {
 IL2CPP_REGISTER_METHOD(0x01E99320, void, __ctor, (SocketElement * __this));

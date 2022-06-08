@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_SceneLoadingQueue_QueueSceneToLoad_ {
 IL2CPP_REGISTER_METHOD(0x0014D030, void, __ctor, (List_1_T_Enumerator_SceneLoadingQueue_QueueSceneToLoad___Boxed * __this, List_1_SceneLoadingQueue_QueueSceneToLoad_ * list));

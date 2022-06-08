@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::GaussianBlur {
 IL2CPP_REGISTER_METHOD(0x03043B80, void, OnRenderImage, (GaussianBlur * __this, RenderTexture * source, RenderTexture * destination));

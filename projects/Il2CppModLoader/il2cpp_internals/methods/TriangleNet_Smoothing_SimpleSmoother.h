@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Smoothing::SimpleSmoother {
 IL2CPP_REGISTER_METHOD(0x02A91950, void, __ctor, (SimpleSmoother * __this));

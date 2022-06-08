@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction {
 IL2CPP_REGISTER_METHOD(0x022D9E60, Instruction__Array *, get_Cache, (CoalescingBranchInstruction * __this));

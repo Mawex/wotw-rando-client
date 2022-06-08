@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::StringBuffer {
 IL2CPP_REGISTER_METHOD(0x0010A860, int32_t, get_Position, (StringBuffer__Boxed * __this));

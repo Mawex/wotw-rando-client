@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_PlayFab::EventPipelineKey_PlayFab::Pipeline::IEventPipeline_ {
 IL2CPP_REGISTER_METHOD(0x0010E170, EventPipelineKey__Enum, get_Key, (KeyValuePair_2_PlayFab_EventPipelineKey_PlayFab_Pipeline_IEventPipeline___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransformFollower {
 IL2CPP_REGISTER_METHOD(0x00B06EE0, void, Start, (TransformFollower * __this));

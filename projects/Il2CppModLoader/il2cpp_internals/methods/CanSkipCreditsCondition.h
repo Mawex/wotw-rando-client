@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CanSkipCreditsCondition {
 IL2CPP_REGISTER_METHOD(0x00B220A0, bool, Validate, (CanSkipCreditsCondition * __this, IContext * context));

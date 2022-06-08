@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FBBIKSettings {
 IL2CPP_REGISTER_METHOD(0x02219740, void, UpdateSettings, (FBBIKSettings * __this));

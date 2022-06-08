@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::AmbiguousMatchException {
 IL2CPP_REGISTER_METHOD(0x02280F00, void, __ctor, (AmbiguousMatchException * __this));

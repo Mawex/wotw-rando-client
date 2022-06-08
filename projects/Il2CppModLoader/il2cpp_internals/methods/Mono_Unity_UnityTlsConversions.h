@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTlsConversions {
 IL2CPP_REGISTER_METHOD(0x02490980, UnityTls_unitytls_protocol__Enum, GetMinProtocol, (SslProtocols__Enum protocols));

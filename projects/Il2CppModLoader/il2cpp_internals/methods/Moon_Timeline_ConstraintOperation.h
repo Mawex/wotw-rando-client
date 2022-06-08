@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ConstraintOperation {
 IL2CPP_REGISTER_METHOD(0x01BB0A00, bool, IsEntityPadding, (ITimelineEntityParent * timeline, EntityId entityId));

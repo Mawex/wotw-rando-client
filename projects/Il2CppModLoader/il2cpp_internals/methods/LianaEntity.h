@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LianaEntity {
-IL2CPP_REGISTER_METHOD(0x011380B0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011380B0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x01138180, void, Awake, (LianaEntity * __this));
 IL2CPP_REGISTER_METHOD(0x01138260, void, OnDestroy, (LianaEntity * __this));
 IL2CPP_REGISTER_METHOD(0x01138320, void, OnRestoreCheckpoint, (LianaEntity * __this));
@@ -46,5 +46,5 @@ IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_ShouldEnable, (LianaEntity * __this
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_ShouldChildrenEnable, (LianaEntity * __this));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_ShouldSetMoonReady, (LianaEntity * __this));
 IL2CPP_REGISTER_METHOD(0x0113D6A0, void, __ctor, (LianaEntity * __this));
-IL2CPP_REGISTER_METHOD(0x0113D780, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0113D780, void, __cctor, ());
 }

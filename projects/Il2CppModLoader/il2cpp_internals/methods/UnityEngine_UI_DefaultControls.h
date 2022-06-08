@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::DefaultControls {
 IL2CPP_REGISTER_METHOD(0x01F31160, GameObject *, CreateUIElementRoot, (String * name, Vector2 size));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x01F33270, GameObject *, CreateToggle, (DefaultControls_
 IL2CPP_REGISTER_METHOD(0x01F33980, GameObject *, CreateInputField, (DefaultControls_Resources resources));
 IL2CPP_REGISTER_METHOD(0x01F34060, GameObject *, CreateDropdown, (DefaultControls_Resources resources));
 IL2CPP_REGISTER_METHOD(0x01F35B10, GameObject *, CreateScrollView, (DefaultControls_Resources resources));
-IL2CPP_REGISTER_METHOD(0x01F36560, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F36560, void, __cctor, ());
 }

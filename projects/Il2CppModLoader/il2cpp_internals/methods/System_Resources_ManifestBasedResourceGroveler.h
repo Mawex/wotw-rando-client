@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::ManifestBasedResourceGroveler {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (ManifestBasedResourceGroveler * __this, ResourceManager_ResourceManagerMediator * mediator));

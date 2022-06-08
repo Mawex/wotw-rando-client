@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02435520, bool, Equals, (ObjectEqualityComparer_1_System_Int32_ * __this, int32_t x, int32_t y));

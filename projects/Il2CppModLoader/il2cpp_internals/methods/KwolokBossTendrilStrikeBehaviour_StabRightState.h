@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossTendrilStrikeBehaviour_StabRightState {
 IL2CPP_REGISTER_METHOD(0x012F0720, void, __ctor, (KwolokBossTendrilStrikeBehaviour_StabRightState * __this, KwolokBossTendrilStrikeBehaviour * behaviour));

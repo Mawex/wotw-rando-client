@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::SimpleAimingSystem {
 IL2CPP_REGISTER_METHOD(0x02230240, void, Start, (SimpleAimingSystem * __this));

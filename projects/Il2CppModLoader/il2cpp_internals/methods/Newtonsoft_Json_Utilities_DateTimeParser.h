@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DateTimeParser {
-IL2CPP_REGISTER_METHOD(0x01C07B20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C07B20, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x001C2460, bool, Parse, (DateTimeParser__Boxed * __this, Char__Array * text, int32_t startIndex, int32_t length));
 IL2CPP_REGISTER_METHOD(0x001C2470, bool, ParseDate, (DateTimeParser__Boxed * __this, int32_t start));
 IL2CPP_REGISTER_METHOD(0x001C2480, bool, ParseTimeAndZoneAndWhitespace, (DateTimeParser__Boxed * __this, int32_t start));

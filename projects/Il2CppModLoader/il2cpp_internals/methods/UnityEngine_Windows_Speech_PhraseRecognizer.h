@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Windows::Speech::PhraseRecognizer {
 IL2CPP_REGISTER_METHOD(0x02C7A330, void, Destroy, (void * recognizer));

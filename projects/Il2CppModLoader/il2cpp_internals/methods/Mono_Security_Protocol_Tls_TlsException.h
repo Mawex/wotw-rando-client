@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::TlsException {
 IL2CPP_REGISTER_METHOD(0x002FBC20, Alert *, get_Alert, (TlsException * __this));

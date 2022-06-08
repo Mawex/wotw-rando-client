@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ConditionUberStateMatcher {
 IL2CPP_REGISTER_METHOD(0x01B575A0, void, __ctor, (ConditionUberStateMatcher * __this));

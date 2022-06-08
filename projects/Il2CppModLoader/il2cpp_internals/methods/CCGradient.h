@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CCGradient {
 IL2CPP_REGISTER_METHOD(0x0315B1B0, Color, get_Item, (CCGradient * __this, float p));

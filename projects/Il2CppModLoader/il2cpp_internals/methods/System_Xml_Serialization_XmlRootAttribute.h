@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlRootAttribute {
 IL2CPP_REGISTER_METHOD(0x00447ED0, void, __ctor, (XmlRootAttribute * __this));

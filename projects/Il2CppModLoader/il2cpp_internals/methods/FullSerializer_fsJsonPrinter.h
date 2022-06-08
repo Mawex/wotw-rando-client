@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsJsonPrinter {
 IL2CPP_REGISTER_METHOD(0x0150FB10, void, InsertSpacing, (TextWriter * stream, int32_t count));

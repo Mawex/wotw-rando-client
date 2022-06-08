@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightCanvas {
 IL2CPP_REGISTER_METHOD(0x00989BF0, int32_t, get_CurrentStateGuid, (LightCanvas * __this));
@@ -46,5 +46,5 @@ IL2CPP_REGISTER_METHOD(0x01142D40, void, UpdateBakeLightingValues, (Renderer * r
 IL2CPP_REGISTER_METHOD(0x01143030, void, UpdateDynamicBakeLightingValues, (Renderer * renderer, Texture * lightTexture, Rect canvasRect, Vector3 lightCanvasPosition, Vector4 uvs, Vector4 atlasMinMax, bool atlasFlip, UberShaderProperty_Texture__Enum textureProperty, UberShaderProperty_Vector__Enum boundsProperty, UberShaderProperty_Vector__Enum positionProperty, UberShaderProperty_Vector__Enum uvsProperty, UberShaderProperty_Vector__Enum atlasMinMaxProperty, UberShaderProperty_Float__Enum atlasFlipProperty));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DrawSceneWarning, (LightCanvas * __this));
 IL2CPP_REGISTER_METHOD(0x01143260, void, __ctor, (LightCanvas * __this));
-IL2CPP_REGISTER_METHOD(0x01143A50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01143A50, void, __cctor, ());
 }

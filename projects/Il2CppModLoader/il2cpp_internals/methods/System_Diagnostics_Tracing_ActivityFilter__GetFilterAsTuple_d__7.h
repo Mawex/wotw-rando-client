@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ActivityFilter__GetFilterAsTuple_d__7 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (ActivityFilter_GetFilterAsTuple_d_7 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SequencePlatform__PerformNextPlatform_d__21 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (SequencePlatform_PerformNextPlatform_d_21 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::TimeLimitDecorator {
 IL2CPP_REGISTER_METHOD(0x03011D90, float, get_TimeRemaining, (TimeLimitDecorator * __this));

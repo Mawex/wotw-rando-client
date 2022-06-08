@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::LikeNode {
 IL2CPP_REGISTER_METHOD(0x01E3FFB0, void, __ctor, (LikeNode * __this, DataTable * table, int32_t op, ExpressionNode * left, ExpressionNode * right));

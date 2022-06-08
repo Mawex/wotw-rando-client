@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::LedgeDropBlockerAnimator {
 IL2CPP_REGISTER_METHOD(0x00773340, void, OnStartPlayback, (LedgeDropBlockerAnimator * __this, IContext * context));

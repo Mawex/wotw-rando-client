@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlMoney {
 IL2CPP_REGISTER_METHOD(0x001E3B70, void, __ctor, (SqlMoney__Boxed * __this, bool fNull));
@@ -46,5 +46,5 @@ IL2CPP_REGISTER_METHOD(0x0013BB70, XmlSchema *, IXmlSerializable_GetSchema, (Sql
 IL2CPP_REGISTER_METHOD(0x001E5820, void, IXmlSerializable_ReadXml, (SqlMoney__Boxed * __this, XmlReader * reader));
 IL2CPP_REGISTER_METHOD(0x001E59B0, void, IXmlSerializable_WriteXml, (SqlMoney__Boxed * __this, XmlWriter * writer));
 IL2CPP_REGISTER_METHOD(0x022B8100, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
-IL2CPP_REGISTER_METHOD(0x022B8250, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022B8250, void, __cctor, ());
 }

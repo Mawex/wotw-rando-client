@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::ContrastVignette {
 IL2CPP_REGISTER_METHOD(0x00F68520, void, Update, (ContrastVignette * __this));

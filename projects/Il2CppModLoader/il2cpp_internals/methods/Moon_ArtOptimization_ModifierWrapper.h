@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ModifierWrapper {
 IL2CPP_REGISTER_METHOD(0x0134CF00, void, __ctor, (ModifierWrapper * __this, int32_t id, UberShaderModifier * modifier, SerializableUberSaderModifierWrapper * serializableModifierWrapper));

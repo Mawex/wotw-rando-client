@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MusicSourceTrigger {
 IL2CPP_REGISTER_METHOD(0x0087EA30, void, OnTriggerEnter, (MusicSourceTrigger * __this, Collider * collider));

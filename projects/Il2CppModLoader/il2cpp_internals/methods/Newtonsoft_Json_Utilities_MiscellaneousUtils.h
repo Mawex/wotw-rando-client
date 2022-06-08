@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::MiscellaneousUtils {
 IL2CPP_REGISTER_METHOD(0x0301E210, bool, ValueEquals, (Object * objA, Object * objB));

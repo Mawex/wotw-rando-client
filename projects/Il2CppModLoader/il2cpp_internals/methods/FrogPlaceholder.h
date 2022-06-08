@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrogPlaceholder {
 IL2CPP_REGISTER_METHOD(0x0164A2C0, FrogEntity *, get_CurrentFrogEntity, (FrogPlaceholder * __this));

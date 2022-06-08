@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RuntimeDynamicDataLink_1_UnityEngine::Color32_ {
 IL2CPP_REGISTER_METHOD(0x02912780, bool, Init, (RuntimeDynamicDataLink_1_UnityEngine_Color32_ * __this, DynamicDataLinkSerializedData data, MemberInfo_1 * memberInfo));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ParseNumbers {
 IL2CPP_REGISTER_METHOD(0x0227EBF0, int32_t, StringToInt, (String * value, int32_t fromBase, int32_t flags));

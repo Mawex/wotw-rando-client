@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_String_String_ {
 IL2CPP_REGISTER_METHOD(0x00110270, void, __ctor, (ValueTuple_2_String_String___Boxed * __this, String * item1, String * item2));

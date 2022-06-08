@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::StreamingContext {
 IL2CPP_REGISTER_METHOD(0x001D7E30, void, __ctor, (StreamingContext__Boxed * __this, StreamingContextStates__Enum state));

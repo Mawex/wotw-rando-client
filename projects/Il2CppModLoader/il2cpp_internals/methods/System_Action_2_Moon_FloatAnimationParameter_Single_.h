@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon::FloatAnimationParameter_Single_ {
 IL2CPP_REGISTER_METHOD(0x02C12050, void, Invoke, (Action_2_Moon_FloatAnimationParameter_Single_ * __this, FloatAnimationParameter * arg1, float arg2));

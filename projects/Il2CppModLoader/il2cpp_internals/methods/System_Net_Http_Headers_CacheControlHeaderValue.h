@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::CacheControlHeaderValue {
 IL2CPP_REGISTER_METHOD(0x02D02C30, ICollection_1_System_Net_Http_Headers_NameValueHeaderValue_ *, get_Extensions, (CacheControlHeaderValue * __this));

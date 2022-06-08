@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CutsceneUnlockedCondition {
 IL2CPP_REGISTER_METHOD(0x00DBF740, bool, Validate, (CutsceneUnlockedCondition * __this, IContext * context));

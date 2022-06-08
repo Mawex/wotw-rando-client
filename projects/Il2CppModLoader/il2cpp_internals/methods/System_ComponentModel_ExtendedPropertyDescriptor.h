@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ExtendedPropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x01FECBA0, void, __ctor, (ExtendedPropertyDescriptor * __this, ReflectPropertyDescriptor * extenderInfo, Type * receiverType, IExtenderProvider * provider, Attribute__Array * attributes));

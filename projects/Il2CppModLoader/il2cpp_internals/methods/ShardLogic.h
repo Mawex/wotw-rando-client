@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShardLogic {
 IL2CPP_REGISTER_METHOD(0x005AAD40, float, CalculateCooldown, (float cooldown, AbilityType__Enum abilityType));

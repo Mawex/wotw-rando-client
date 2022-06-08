@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HDREnabledCondition {
 IL2CPP_REGISTER_METHOD(0x0109B270, bool, Validate, (HDREnabledCondition * __this, IContext * context));

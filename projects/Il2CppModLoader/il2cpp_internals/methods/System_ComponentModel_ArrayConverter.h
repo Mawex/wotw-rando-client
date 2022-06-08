@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ArrayConverter {
 IL2CPP_REGISTER_METHOD(0x0249F430, Object *, ConvertTo, (ArrayConverter * __this, ITypeDescriptorContext * context, CultureInfo * culture, Object * value, Type * destinationType));

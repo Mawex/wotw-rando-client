@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericPuppet {
-IL2CPP_REGISTER_METHOD(0x00E07DD0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E07DD0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsLive, (GenericPuppet * __this));
 IL2CPP_REGISTER_METHOD(0x00E07E90, void, OnInitializeLive, (GenericPuppet * __this, IPuppetBase * puppetMaster));
 IL2CPP_REGISTER_METHOD(0x00E08200, void, OnInitializeGhost, (GenericPuppet * __this, IPuppetBase * puppetMaster));
@@ -79,7 +79,7 @@ IL2CPP_REGISTER_METHOD(0x00E0F420, FieldInfo_1 *, FieldFromResourceID, (GenericP
 IL2CPP_REGISTER_METHOD(0x00E0F710, FieldInfo_1 *, FieldByValue, (GenericPuppet * __this, Object * obj));
 IL2CPP_REGISTER_METHOD(0x00E0F810, FieldInfo_1 *, FieldFromPlayerID, (GenericPuppet * __this, int32_t playerId));
 IL2CPP_REGISTER_METHOD(0x00E0FA00, void, __ctor, (GenericPuppet * __this));
-IL2CPP_REGISTER_METHOD(0x00E10280, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E10280, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01548570, void, Perform, (GenericPuppet * __this, SeinBashAttackPuppet_Event__Enum e, Object__Array * parameters));
 IL2CPP_REGISTER_METHODINFO(0x0470D850, GenericPuppet_Perform__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01548570, void, Perform, (GenericPuppet * __this, Int32Enum__Enum e, Object__Array * parameters));

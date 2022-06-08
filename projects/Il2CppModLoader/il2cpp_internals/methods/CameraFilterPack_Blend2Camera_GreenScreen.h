@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blend2Camera_GreenScreen {
 IL2CPP_REGISTER_METHOD(0x0274C840, Material *, get_material, (CameraFilterPack_Blend2Camera_GreenScreen * __this));

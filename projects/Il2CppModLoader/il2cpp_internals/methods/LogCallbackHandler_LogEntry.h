@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LogCallbackHandler_LogEntry {
 IL2CPP_REGISTER_METHOD(0x00E332C0, void, __ctor, (LogCallbackHandler_LogEntry * __this, String * condition, String * stackTrace, LogType__Enum logType));

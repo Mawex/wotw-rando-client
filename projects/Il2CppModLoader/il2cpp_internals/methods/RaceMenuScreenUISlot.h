@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceMenuScreenUISlot {
 IL2CPP_REGISTER_METHOD(0x002FBB40, RaceSettings *, get_RaceSetting, (RaceMenuScreenUISlot * __this));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x00711770, void, ShowNotification, (RaceMenuScreenUISlot
 IL2CPP_REGISTER_METHODINFO(0x0475DDF8, RaceMenuScreenUISlot_ShowNotification__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x007117E0, void, FixedUpdate, (RaceMenuScreenUISlot * __this));
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (RaceMenuScreenUISlot * __this));
-IL2CPP_REGISTER_METHOD(0x00711850, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00711850, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Gizmos {
 IL2CPP_REGISTER_METHOD(0x025295F0, void, DrawLine, (Vector3 from, Vector3 to));
@@ -8,7 +8,7 @@ IL2CPP_REGISTER_METHOD(0x02529710, void, DrawWireCube, (Vector3 center, Vector3 
 IL2CPP_REGISTER_METHOD(0x02529770, void, DrawCube, (Vector3 center, Vector3 size));
 IL2CPP_REGISTER_METHOD(0x025297D0, void, DrawWireMesh, (Mesh * mesh, int32_t submeshIndex, Vector3 position, Quaternion rotation, Vector3 scale));
 IL2CPP_REGISTER_METHOD(0x02529860, void, DrawIcon, (Vector3 center, String * name, bool allowScaling));
-IL2CPP_REGISTER_METHOD(0x025298E0, Color, get_color, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025298E0, Color, get_color, ());
 IL2CPP_REGISTER_METHOD(0x02529950, void, set_color, (Color value));
 IL2CPP_REGISTER_METHOD(0x025299A0, void, set_matrix, (Matrix4x4 value));
 IL2CPP_REGISTER_METHOD(0x025299F0, void, DrawRay, (Vector3 from, Vector3 direction));

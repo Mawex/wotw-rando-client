@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Experimental::XR::PlaneAddedEventArgs_ {
 IL2CPP_REGISTER_METHOD(0x02C0AFB0, void, Invoke, (Action_1_UnityEngine_Experimental_XR_PlaneAddedEventArgs_ * __this, PlaneAddedEventArgs obj));

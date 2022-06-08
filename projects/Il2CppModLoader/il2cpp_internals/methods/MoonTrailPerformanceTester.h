@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTrailPerformanceTester {
 IL2CPP_REGISTER_METHOD(0x0060D940, void, Awake, (MoonTrailPerformanceTester * __this));

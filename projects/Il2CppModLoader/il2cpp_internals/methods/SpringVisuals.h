@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpringVisuals {
 IL2CPP_REGISTER_METHOD(0x009A9D50, void, OnCollisionEnter, (SpringVisuals * __this, Collision * collision));

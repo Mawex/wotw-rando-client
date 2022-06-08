@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostCameraPlugin_CameraData {
 IL2CPP_REGISTER_METHOD(0x00E159F0, void, Save, (GhostCameraPlugin_CameraData * __this, BinaryWriter * binaryWriter));

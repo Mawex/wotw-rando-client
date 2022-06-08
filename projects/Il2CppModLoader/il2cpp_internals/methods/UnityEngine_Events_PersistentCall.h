@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::PersistentCall {
 IL2CPP_REGISTER_METHOD(0x0242F8B0, void, __ctor, (PersistentCall * __this));

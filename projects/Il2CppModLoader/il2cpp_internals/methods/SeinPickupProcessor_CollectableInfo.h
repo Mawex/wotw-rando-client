@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinPickupProcessor_CollectableInfo {
 IL2CPP_REGISTER_METHOD(0x008B80C0, PickupContext *, GetPickupContext, (SeinPickupProcessor_CollectableInfo * __this));

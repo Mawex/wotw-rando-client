@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScaleStateModifier {
 IL2CPP_REGISTER_METHOD(0x01B7A5D0, Vector3, get_Scale, (ScaleStateModifier * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::BaseEffect {
 IL2CPP_REGISTER_METHOD(0x0303DB90, Shader *, get_ShaderSafe, (BaseEffect * __this));

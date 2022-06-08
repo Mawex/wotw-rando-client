@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Set_1_System::Char_ {
 IL2CPP_REGISTER_METHOD(0x0254AA10, void, __ctor, (Set_1_System_Char_ * __this, IEqualityComparer_1_System_Char_ * comparer));

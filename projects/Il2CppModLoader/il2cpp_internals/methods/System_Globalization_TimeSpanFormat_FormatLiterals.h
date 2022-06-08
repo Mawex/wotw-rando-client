@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::TimeSpanFormat_FormatLiterals {
 IL2CPP_REGISTER_METHOD(0x001D3A80, String *, get_Start, (TimeSpanFormat_FormatLiterals__Boxed * __this));

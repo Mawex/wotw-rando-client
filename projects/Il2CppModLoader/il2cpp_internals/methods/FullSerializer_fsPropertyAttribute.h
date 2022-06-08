@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsPropertyAttribute {
 IL2CPP_REGISTER_METHOD(0x01514630, void, __ctor, (fsPropertyAttribute * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinBashAttack {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinBashAttack * __this));
@@ -86,5 +86,5 @@ IL2CPP_REGISTER_METHODINFO(0x047564F0, SeinBashAttack_ShouldSwimBashJumpAnimatio
 IL2CPP_REGISTER_METHOD(0x00D8E840, void, Serialize, (SeinBashAttack * __this, Archive * ar));
 IL2CPP_REGISTER_METHOD(0x00D8E9C0, SeinBashAttackPuppet *, get_Puppet, (SeinBashAttack * __this));
 IL2CPP_REGISTER_METHOD(0x00D8EA80, void, __ctor, (SeinBashAttack * __this));
-IL2CPP_REGISTER_METHOD(0x00D8EF00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D8EF00, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::SpriteState {
 IL2CPP_REGISTER_METHOD(0x001D9820, Sprite *, get_highlightedSprite, (SpriteState__Boxed * __this));

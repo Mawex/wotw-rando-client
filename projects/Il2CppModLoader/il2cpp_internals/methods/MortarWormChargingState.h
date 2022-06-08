@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarWormChargingState {
 IL2CPP_REGISTER_METHOD(0x0147FE90, void, __ctor, (MortarWormChargingState * __this, MortarWormEnemy * mortarWormEnemy, TextureAnimationWithTransitions * charging, PrefabSpawner * chargingEffect, SoundSource * chargingSound));

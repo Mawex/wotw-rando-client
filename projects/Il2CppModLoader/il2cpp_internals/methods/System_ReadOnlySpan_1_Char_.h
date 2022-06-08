@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ReadOnlySpan_1_Char_ {
 IL2CPP_REGISTER_METHOD(0x0021A2D0, uint16_t, get_Item, (ReadOnlySpan_1_Char___Boxed * __this, int32_t index));

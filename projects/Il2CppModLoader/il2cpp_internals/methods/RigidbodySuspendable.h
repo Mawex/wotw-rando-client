@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodySuspendable {
 IL2CPP_REGISTER_METHOD(0x013548F0, void, OnPoolSpawned, (RigidbodySuspendable * __this));

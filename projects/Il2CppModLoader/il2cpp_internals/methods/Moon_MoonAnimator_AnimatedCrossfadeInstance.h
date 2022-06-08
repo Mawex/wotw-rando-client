@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_AnimatedCrossfadeInstance {
 IL2CPP_REGISTER_METHOD(0x0210E940, bool, get_IsCrossFading, (MoonAnimator_AnimatedCrossfadeInstance * __this));

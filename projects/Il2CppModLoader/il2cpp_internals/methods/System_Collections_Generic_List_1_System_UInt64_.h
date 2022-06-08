@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::UInt64_ {
 IL2CPP_REGISTER_METHOD(0x02F1D9F0, void, __ctor, (List_1_System_UInt64_ * __this, IEnumerable_1_System_UInt64_ * collection));
@@ -63,5 +63,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_System_UInt64_ * __this, 
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_System_UInt64_ * __this, Comparison_1_UInt64_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, UInt64__Array *, ToArray, (List_1_System_UInt64_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_System_UInt64_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::GregorianCalendarHelper {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_MaxYear, (GregorianCalendarHelper * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x026131B0, int32_t, GetYear, (GregorianCalendarHelper * 
 IL2CPP_REGISTER_METHODINFO(0x04791E78, GregorianCalendarHelper_GetYear__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02613320, bool, IsLeapYear, (GregorianCalendarHelper * __this, int32_t year, int32_t era));
 IL2CPP_REGISTER_METHOD(0x026133A0, DateTime, ToDateTime, (GregorianCalendarHelper * __this, int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era));
-IL2CPP_REGISTER_METHOD(0x02613570, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02613570, void, __cctor, ());
 }

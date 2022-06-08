@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PointLightMaskModifier {
 IL2CPP_REGISTER_METHOD(0x0142FB20, Color, get_LightColor, (PointLightMaskModifier * __this));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x0052A050, bool, ICullingCategoryItem_get_IsValid, (Poin
 IL2CPP_REGISTER_METHOD(0x01430CC0, void, OnBuild, (PointLightMaskModifier * __this));
 IL2CPP_REGISTER_METHOD(0x01430CE0, void, CacheComponents, (PointLightMaskModifier * __this));
 IL2CPP_REGISTER_METHOD(0x01430D90, void, __ctor, (PointLightMaskModifier * __this));
-IL2CPP_REGISTER_METHOD(0x014317E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014317E0, void, __cctor, ());
 }

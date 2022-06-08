@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberState {
 IL2CPP_REGISTER_METHOD(0x00F322B0, void, __ctor, (PlayerUberState * __this, PlayerUberStateDescriptor * desc, Action * setDirtyCallback));

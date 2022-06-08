@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsShowingQuestMessageCondition {
 IL2CPP_REGISTER_METHOD(0x00647C60, bool, Validate, (IsShowingQuestMessageCondition * __this, IContext * context));

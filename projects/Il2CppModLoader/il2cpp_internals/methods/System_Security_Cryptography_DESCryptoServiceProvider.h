@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::DESCryptoServiceProvider {
 IL2CPP_REGISTER_METHOD(0x020D1750, void, __ctor, (DESCryptoServiceProvider * __this));

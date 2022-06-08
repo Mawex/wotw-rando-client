@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JumperEnemyPuppet {
 IL2CPP_REGISTER_METHOD(0x00651560, int32_t, get_Id, (JumperEnemyPuppet * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::IVitalsDeathListener_ {
 IL2CPP_REGISTER_METHOD(0x025E9020, void, AddRange, (List_1_Moon_IVitalsDeathListener_ * __this, IEnumerable_1_Moon_IVitalsDeathListener_ * collection));

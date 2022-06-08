@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_System::Guid_System::Tuple_2_ {
 IL2CPP_REGISTER_METHOD(0x02ADEA70, bool, TryGetValue, (ConcurrentDictionary_2_System_Guid_System_Tuple_2_ * __this, Guid key, Tuple_2_Guid_Int32_ * * value));

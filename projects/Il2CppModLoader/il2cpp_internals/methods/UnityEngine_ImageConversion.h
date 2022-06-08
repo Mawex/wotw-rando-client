@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ImageConversion {
 IL2CPP_REGISTER_METHOD(0x031C4C40, Byte__Array *, EncodeToPNG, (Texture2D * tex));

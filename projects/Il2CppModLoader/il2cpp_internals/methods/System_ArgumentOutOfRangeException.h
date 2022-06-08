@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ArgumentOutOfRangeException {
-IL2CPP_REGISTER_METHOD(0x022907B0, String *, get_RangeMessage, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022907B0, String *, get_RangeMessage, ());
 IL2CPP_REGISTER_METHOD(0x02290870, void, __ctor, (ArgumentOutOfRangeException * __this));
 IL2CPP_REGISTER_METHOD(0x022908A0, void, __ctor, (ArgumentOutOfRangeException * __this, String * paramName));
 IL2CPP_REGISTER_METHOD(0x022908E0, void, __ctor, (ArgumentOutOfRangeException * __this, String * paramName, String * message));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonCharacterController {
 IL2CPP_REGISTER_METHOD(0x00F452B0, Vector3, get_Position, (MoonCharacterController * __this));

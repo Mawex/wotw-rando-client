@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_Moon::Race::RaceLeaderBoard_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_String_Moon_Race_RaceLeaderBoard_ * __this, String * key, RaceLeaderBoard * * value));

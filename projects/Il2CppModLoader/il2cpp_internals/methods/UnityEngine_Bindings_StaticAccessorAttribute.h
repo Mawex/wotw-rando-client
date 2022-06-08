@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Bindings::StaticAccessorAttribute {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (StaticAccessorAttribute * __this, String * name));

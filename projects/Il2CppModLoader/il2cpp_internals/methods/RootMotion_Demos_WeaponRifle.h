@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::WeaponRifle {
 IL2CPP_REGISTER_METHOD(0x0204CFA0, void, Fire, (WeaponRifle * __this));

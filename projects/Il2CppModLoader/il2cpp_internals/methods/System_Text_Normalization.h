@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::Normalization {
 IL2CPP_REGISTER_METHOD(0x0245A300, uint32_t, PropValue, (int32_t cp));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHOD(0x0245C2F0, int32_t, GetCanonical, (int32_t c, Int32__Arr
 IL2CPP_REGISTER_METHOD(0x0245C810, String *, Normalize, (String * source, NormalizationForm__Enum normalizationForm));
 IL2CPP_REGISTER_METHOD(0x0245C950, String *, Normalize, (String * source, int32_t type));
 IL2CPP_REGISTER_METHOD(0x0245CC10, void, load_normalization_resource, (void * * props, void * * mappedChars, void * * charMapIndex, void * * helperIndex, void * * mapIdxToComposite, void * * combiningClass));
-IL2CPP_REGISTER_METHOD(0x0245CC60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0245CC60, void, __cctor, ());
 }

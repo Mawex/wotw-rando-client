@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::MechSpiderParticles {
 IL2CPP_REGISTER_METHOD(0x02226ED0, void, Start, (MechSpiderParticles * __this));

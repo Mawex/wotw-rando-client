@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::DoStressTestsProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x0043D9A0, ProfilingSettings_SettingType__Enum, get_SettingType, (DoStressTestsProfilingSetting * __this));

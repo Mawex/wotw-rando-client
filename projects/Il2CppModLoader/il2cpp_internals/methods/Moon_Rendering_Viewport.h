@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::Viewport {
 IL2CPP_REGISTER_METHOD(0x00120520, void, __ctor, (Viewport__Boxed * __this, Rect rect));

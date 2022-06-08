@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::AudioEmitterZone {
 IL2CPP_REGISTER_METHOD(0x002FB990, int64_t, get_Version, (AudioEmitterZone * __this));

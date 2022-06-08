@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::Blackboard {
 IL2CPP_REGISTER_METHOD(0x030071B0, void, AddVariable, (Blackboard * __this, String * varName, Type * type));
 IL2CPP_REGISTER_METHOD(0x03007340, void, RemoveVariable, (Blackboard * __this, String * varName));
 IL2CPP_REGISTER_METHOD(0x03007540, void, Merge, (Blackboard * __this, IBlackboard * blackboard));
 IL2CPP_REGISTER_METHOD(0x03007660, Type *, ConvertStringToType, (Blackboard * __this, String * typeString));
-IL2CPP_REGISTER_METHOD(0x03007840, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03007840, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x03007900, void, RefreshDictionary, (Blackboard * __this));
 IL2CPP_REGISTER_METHOD(0x03007AB0, BlackboardVariable__Array *, GetAllVariablesOfType, (Blackboard * __this, Type * type));
 IL2CPP_REGISTER_METHOD(0x03007CF0, BlackboardVariable *, GetVariableById, (Blackboard * __this, int32_t id));
@@ -14,7 +14,7 @@ IL2CPP_REGISTER_METHOD(0x03007EF0, BlackboardVariable__Array *, GetAllVariables,
 IL2CPP_REGISTER_METHOD(0x03008010, void, OnBeforeSerialize, (Blackboard * __this));
 IL2CPP_REGISTER_METHOD(0x030081A0, void, OnAfterDeserialize, (Blackboard * __this));
 IL2CPP_REGISTER_METHOD(0x030081B0, void, __ctor, (Blackboard * __this));
-IL2CPP_REGISTER_METHOD(0x030085B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030085B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004C50A0, IMoonTypeResolver *, GetResolverForType, (Blackboard * __this));
 IL2CPP_REGISTER_METHOD(0x015EF770, Object *, ResolveSource, (Blackboard * __this, IMoonResolverContext * context, MoonTypeExtraData resolverExtraData));
 IL2CPP_REGISTER_METHOD(0x018F3350, bool, CanResolveSource, (Blackboard * __this, IMoonResolverContext * context, MoonTypeExtraData resolverExtraData));

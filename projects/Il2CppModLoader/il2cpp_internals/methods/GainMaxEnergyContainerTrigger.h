@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GainMaxEnergyContainerTrigger {
 IL2CPP_REGISTER_METHOD(0x0151E570, void, OnTriggerEnable, (GainMaxEnergyContainerTrigger * __this));

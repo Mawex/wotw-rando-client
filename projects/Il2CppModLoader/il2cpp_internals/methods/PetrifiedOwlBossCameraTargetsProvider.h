@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossCameraTargetsProvider {
 IL2CPP_REGISTER_METHOD(0x0049CF20, float, get_PowlCutOffDistance, (PetrifiedOwlBossCameraTargetsProvider * __this));

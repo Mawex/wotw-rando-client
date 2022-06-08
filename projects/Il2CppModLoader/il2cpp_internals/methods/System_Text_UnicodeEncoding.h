@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::UnicodeEncoding {
 IL2CPP_REGISTER_METHOD(0x027D2EB0, void, __ctor, (UnicodeEncoding * __this));
@@ -43,5 +43,5 @@ IL2CPP_REGISTER_METHOD(0x027D74D0, int32_t, GetMaxCharCount, (UnicodeEncoding * 
 IL2CPP_REGISTER_METHODINFO(0x047560C0, UnicodeEncoding_GetMaxCharCount__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x027D7650, bool, Equals, (UnicodeEncoding * __this, Object * value));
 IL2CPP_REGISTER_METHOD(0x027D77C0, int32_t, GetHashCode, (UnicodeEncoding * __this));
-IL2CPP_REGISTER_METHOD(0x027D7860, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027D7860, void, __cctor, ());
 }

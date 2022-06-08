@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Resolution {
 IL2CPP_REGISTER_METHOD(0x001EBC90, int32_t, get_width, (Resolution__Boxed * __this));

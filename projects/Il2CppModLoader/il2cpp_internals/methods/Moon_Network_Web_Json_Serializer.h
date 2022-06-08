@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Json_Serializer {
 IL2CPP_REGISTER_METHOD(0x02E94940, void, __ctor, (Json_Serializer * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::PlayFabAchievements___c {
-IL2CPP_REGISTER_METHOD(0x0052DD90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0052DD90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabAchievements_c * __this));
 IL2CPP_REGISTER_METHOD(0x0052DED0, void, _AwardOnServer_b__16_1, (PlayFabAchievements_c * __this, PlayFabError * error));
 IL2CPP_REGISTER_METHODINFO(0x0470B848, PlayFabAchievements_c__AwardOnServer_b__16_1__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UriHelper {
 IL2CPP_REGISTER_METHOD(0x02A8F680, Char__Array *, EscapeString, (String * input, int32_t start, int32_t end, Char__Array * dest, int32_t * destPos, bool isUriString, uint16_t force1, uint16_t force2, uint16_t rsvd));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x02A91500, bool, IsNotSafeForUnescape, (uint16_t ch));
 IL2CPP_REGISTER_METHOD(0x02A91550, bool, IsReservedUnreservedOrHash, (uint16_t c));
 IL2CPP_REGISTER_METHOD(0x02A916A0, bool, IsUnreserved, (uint16_t c));
 IL2CPP_REGISTER_METHOD(0x02A917C0, bool, Is3986Unreserved, (uint16_t c));
-IL2CPP_REGISTER_METHOD(0x02A918A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A918A0, void, __cctor, ());
 }

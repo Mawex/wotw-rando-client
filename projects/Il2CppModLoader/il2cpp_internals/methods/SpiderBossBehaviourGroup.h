@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossBehaviourGroup {
 IL2CPP_REGISTER_METHOD(0x009690E0, CageStructureMetaDataGroup *, GetItem, (SpiderBossBehaviourGroup * __this, float lookDirection));

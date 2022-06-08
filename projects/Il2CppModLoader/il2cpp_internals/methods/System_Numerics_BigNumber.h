@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Numerics::BigNumber {
 IL2CPP_REGISTER_METHOD(0x030FFC60, bool, TryValidateParseStyleInteger, (NumberStyles__Enum style, ArgumentException * * e));

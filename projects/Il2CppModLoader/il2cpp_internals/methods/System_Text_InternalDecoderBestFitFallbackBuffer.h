@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::InternalDecoderBestFitFallbackBuffer {
-IL2CPP_REGISTER_METHOD(0x02458200, Object *, get_InternalSyncObject, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02458200, Object *, get_InternalSyncObject, ());
 IL2CPP_REGISTER_METHOD(0x02458370, void, __ctor, (InternalDecoderBestFitFallbackBuffer * __this, InternalDecoderBestFitFallback * fallback));
 IL2CPP_REGISTER_METHOD(0x02458610, bool, Fallback, (InternalDecoderBestFitFallbackBuffer * __this, Byte__Array * bytesUnknown, int32_t index));
 IL2CPP_REGISTER_METHOD(0x02458660, uint16_t, GetNextChar, (InternalDecoderBestFitFallbackBuffer * __this));

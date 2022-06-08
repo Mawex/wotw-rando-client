@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::RectExt {
 IL2CPP_REGISTER_METHOD(0x0182E030, RectExt, operator_, (Rect _rect));

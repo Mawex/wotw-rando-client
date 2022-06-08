@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AsymGroundEntityLocomotion {
 IL2CPP_REGISTER_METHOD(0x00CB47C0, Vector2, get_LookDirection, (AsymGroundEntityLocomotion * __this));

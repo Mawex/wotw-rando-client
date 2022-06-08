@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UpdateUberShaderOnFixedUpdate {
 IL2CPP_REGISTER_METHOD(0x013ADA10, UberShaderComponent *, get_AttachedUberShader, (UpdateUberShaderOnFixedUpdate * __this));

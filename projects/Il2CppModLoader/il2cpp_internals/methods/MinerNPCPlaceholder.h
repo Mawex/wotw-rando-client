@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerNPCPlaceholder {
 IL2CPP_REGISTER_METHOD(0x0144E390, void, InstantiateFromPooledObj, (MinerNPCPlaceholder * __this));

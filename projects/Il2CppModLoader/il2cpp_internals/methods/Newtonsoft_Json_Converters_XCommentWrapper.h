@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::XCommentWrapper {
 IL2CPP_REGISTER_METHOD(0x01A560E0, XComment *, get_Text, (XCommentWrapper * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRApplications__LaunchDashboardOverlay {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRApplications_LaunchDashboardOverlay * __this, Object * object, void * method_1));

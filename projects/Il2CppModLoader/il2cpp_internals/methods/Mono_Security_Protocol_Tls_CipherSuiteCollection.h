@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::CipherSuiteCollection {
 IL2CPP_REGISTER_METHOD(0x01F65030, CipherSuite *, get_Item, (CipherSuiteCollection * __this, String * name));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::DataModels::CustomerContent {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, CustomerContentKind__Enum, get_Kind, (CustomerContent * __this));

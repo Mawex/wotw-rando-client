@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FpsGraph {
 IL2CPP_REGISTER_METHOD(0x00653FB0, int32_t, get_FrameIndex, (FpsGraph * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x01636080, void, DrawFPSMarkers, (FpsGraph * __this));
 IL2CPP_REGISTER_METHOD(0x007458F0, void, DrawRect, (FpsGraph * __this, float x1, float y1, float x2, float y2));
 IL2CPP_REGISTER_METHOD(0x01636790, void, DrawNumber, (FpsGraph * __this, int32_t x, int32_t y, int32_t num, bool isLeading));
 IL2CPP_REGISTER_METHOD(0x01636A20, void, __ctor, (FpsGraph * __this));
-IL2CPP_REGISTER_METHOD(0x01636B80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01636B80, void, __cctor, ());
 }

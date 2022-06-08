@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::NetworkStream {
 IL2CPP_REGISTER_METHOD(0x01BE0280, void, __ctor, (NetworkStream * __this));

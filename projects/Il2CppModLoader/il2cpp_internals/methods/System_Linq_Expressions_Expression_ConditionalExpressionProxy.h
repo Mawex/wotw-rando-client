@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_ConditionalExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x029D4A30, void, __ctor, (Expression_ConditionalExpressionProxy * __this, ConditionalExpression * node));

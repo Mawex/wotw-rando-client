@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TimeType {
 IL2CPP_REGISTER_METHOD(0x027AE320, void, __ctor, (TimeType * __this, int32_t offset, bool is_dst, String * abbrev));

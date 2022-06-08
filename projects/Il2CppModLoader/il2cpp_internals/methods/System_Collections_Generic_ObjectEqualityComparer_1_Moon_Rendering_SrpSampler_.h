@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::Rendering::SrpSampler_ {
 IL2CPP_REGISTER_METHOD(0x01CD2D60, bool, Equals, (ObjectEqualityComparer_1_Moon_Rendering_SrpSampler_ * __this, SrpSampler x, SrpSampler y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::Alert {
 IL2CPP_REGISTER_METHOD(0x0052B590, AlertLevel__Enum, get_Level, (Alert * __this));

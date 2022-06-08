@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::DirectoryNotFoundException {
 IL2CPP_REGISTER_METHOD(0x01E05080, void, __ctor, (DirectoryNotFoundException * __this));

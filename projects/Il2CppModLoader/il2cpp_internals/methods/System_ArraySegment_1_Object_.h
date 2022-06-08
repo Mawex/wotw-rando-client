@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ArraySegment_1_Object_ {
 IL2CPP_REGISTER_METHOD(0x00107C00, Object__Array *, get_Array, (ArraySegment_1_Object___Boxed * __this));

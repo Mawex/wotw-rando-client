@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::RagdollUtility_Rigidbone {
 IL2CPP_REGISTER_METHOD(0x02A1C440, void, __ctor, (RagdollUtility_Rigidbone * __this, Rigidbody * r));

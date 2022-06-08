@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_SystemIntegration::Races::RaceEntry_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_SystemIntegration_Races_RaceEntry_Boolean_ * __this, Object * object, void * method_1));

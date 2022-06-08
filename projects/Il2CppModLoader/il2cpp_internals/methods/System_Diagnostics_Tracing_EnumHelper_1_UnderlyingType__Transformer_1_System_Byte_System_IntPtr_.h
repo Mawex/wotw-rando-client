@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumHelper_1_UnderlyingType__Transformer_1_System::Byte_System::IntPtr_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (EnumHelper_1_UnderlyingType_Transformer_1_System_Byte_System_IntPtr_ * __this, Object * object, void * method_1));

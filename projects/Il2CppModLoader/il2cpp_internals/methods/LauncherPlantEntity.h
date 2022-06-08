@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LauncherPlantEntity {
 IL2CPP_REGISTER_METHOD(0x00F22A00, void, OnEnable, (LauncherPlantEntity * __this));

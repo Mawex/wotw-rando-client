@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x0144C570, void, OnEntityInitialized, (MinerInteractionBehaviour * __this));

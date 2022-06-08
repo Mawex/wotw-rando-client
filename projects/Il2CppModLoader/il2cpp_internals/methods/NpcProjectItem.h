@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NpcProjectItem {
 IL2CPP_REGISTER_METHOD(0x0060D030, bool, PurchasedNotFinished, (NpcProjectItem * __this));

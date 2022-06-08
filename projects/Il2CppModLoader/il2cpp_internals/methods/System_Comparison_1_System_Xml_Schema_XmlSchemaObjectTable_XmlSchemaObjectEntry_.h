@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Comparison_1_System::Xml::Schema::XmlSchemaObjectTable_XmlSchemaObjectEntry_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Comparison_1_System_Xml_Schema_XmlSchemaObjectTable_XmlSchemaObjectEntry_ * __this, Object * object, void * method_1));

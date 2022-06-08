@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnemyDoorAnimator {
 IL2CPP_REGISTER_METHOD(0x002FB9F0, IMoonSetupVisuals *, get_MoonSetupVisuals, (EnemyDoorAnimator * __this));

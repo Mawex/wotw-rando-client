@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Ease {
 IL2CPP_REGISTER_METHOD(0x00BED370, float, EaseByType, (Ease_Easing__Enum e, float start, float end, float t));

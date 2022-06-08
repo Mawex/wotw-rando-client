@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Proxies::TransparentProxy {
 IL2CPP_REGISTER_METHOD(0x023200F0, RuntimeType *, GetProxyType, (TransparentProxy * __this));

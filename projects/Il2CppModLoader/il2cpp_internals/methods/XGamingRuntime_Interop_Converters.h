@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::Converters {
 IL2CPP_REGISTER_METHOD(0x030B0320, void *, Offset, (void * ptr, int64_t that));

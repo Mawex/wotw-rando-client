@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverLookAt_LookAtBone {
 IL2CPP_REGISTER_METHOD(0x02A066F0, void, __ctor, (IKSolverLookAt_LookAtBone * __this));

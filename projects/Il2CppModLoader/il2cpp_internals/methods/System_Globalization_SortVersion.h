@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::SortVersion {
 IL2CPP_REGISTER_METHOD(0x01DEC630, bool, Equals, (SortVersion * __this, Object * obj));

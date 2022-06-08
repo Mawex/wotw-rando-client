@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletBreakTrigger {
 IL2CPP_REGISTER_METHOD(0x013C29C0, void, OnEnable, (VerletBreakTrigger * __this));

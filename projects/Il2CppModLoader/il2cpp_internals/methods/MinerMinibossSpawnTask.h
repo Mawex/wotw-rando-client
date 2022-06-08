@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerMinibossSpawnTask {
 IL2CPP_REGISTER_METHOD(0x00417920, BehaviourStatus__Enum, OnExecuteTask, (MinerMinibossSpawnTask * __this, IContext * context));

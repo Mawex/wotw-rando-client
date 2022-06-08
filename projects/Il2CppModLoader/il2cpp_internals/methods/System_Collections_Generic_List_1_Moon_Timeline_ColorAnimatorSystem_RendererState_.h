@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::Timeline::ColorAnimatorSystem_RendererState_ {
 IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_Moon_Timeline_ColorAnimatorSystem_RendererState_ * __this, ColorAnimatorSystem_RendererState * item));

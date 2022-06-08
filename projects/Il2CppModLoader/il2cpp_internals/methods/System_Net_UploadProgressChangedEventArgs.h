@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::UploadProgressChangedEventArgs {
 IL2CPP_REGISTER_METHOD(0x020ACF70, void, __ctor, (UploadProgressChangedEventArgs * __this, int32_t progressPercentage, Object * userToken, int64_t bytesSent, int64_t totalBytesToSend, int64_t bytesReceived, int64_t totalBytesToReceive));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Gui::GuiChangeContentColor {
 IL2CPP_REGISTER_METHOD(0x01349560, Color, get_PreviousColor, (GuiChangeContentColor * __this));

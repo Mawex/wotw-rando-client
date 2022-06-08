@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwarmAgent {
 IL2CPP_REGISTER_METHOD(0x002FBC00, Transform *, get_Target, (SwarmAgent * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugOutput {
 IL2CPP_REGISTER_METHOD(0x00DF9B10, void, Awake, (DebugOutput * __this));

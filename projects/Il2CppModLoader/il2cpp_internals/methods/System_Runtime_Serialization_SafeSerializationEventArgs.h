@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SafeSerializationEventArgs {
 IL2CPP_REGISTER_METHOD(0x01EDBB50, void, __ctor, (SafeSerializationEventArgs * __this, StreamingContext streamingContext));

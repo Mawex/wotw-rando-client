@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MessageBoxLanguageStyles {
 IL2CPP_REGISTER_METHOD(0x01592690, TextStyleCollection *, get_Current, (MessageBoxLanguageStyles * __this));

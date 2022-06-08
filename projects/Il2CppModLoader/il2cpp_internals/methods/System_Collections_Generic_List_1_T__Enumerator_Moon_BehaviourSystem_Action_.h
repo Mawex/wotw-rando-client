@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::BehaviourSystem::Action_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, Action_1 *, get_Current, (List_1_T_Enumerator_Moon_BehaviourSystem_Action___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsSavingEventHandler {
 IL2CPP_REGISTER_METHOD(0x01FFE1A0, void, __ctor, (SettingsSavingEventHandler * __this, Object * object, void * method_1));

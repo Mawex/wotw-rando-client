@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_TV_Chromatical {
 IL2CPP_REGISTER_METHOD(0x020E7110, Material *, get_material, (CameraFilterPack_TV_Chromatical * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandwormHitReaction {
 IL2CPP_REGISTER_METHOD(0x00C2A890, bool, CanInterrupt, (SandwormHitReaction * __this, EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason));

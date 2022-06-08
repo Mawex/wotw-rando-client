@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathDocument {
 IL2CPP_REGISTER_METHOD(0x002FB950, XmlNameTable *, get_NameTable, (XPathDocument * __this));

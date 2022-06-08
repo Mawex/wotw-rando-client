@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverFABRIK {
 IL2CPP_REGISTER_METHOD(0x02BEB790, void, SolveForward, (IKSolverFABRIK * __this, Vector3 position));

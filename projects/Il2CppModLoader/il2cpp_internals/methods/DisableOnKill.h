@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DisableOnKill {
 IL2CPP_REGISTER_METHOD(0x00443C10, void, OnKill, (DisableOnKill * __this, Vector2 direction));

@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolPerfTest {
-IL2CPP_REGISTER_METHOD(0x00FDFC80, UberPoolPerfTest *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00FDFD20, bool, get_IsRunning, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FDFC80, UberPoolPerfTest *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x00FDFD20, bool, get_IsRunning, ());
 IL2CPP_REGISTER_METHOD(0x00FDFDF0, void, StartTest, (UberPoolPerfTest_TestMode__Enum mode, bool isAutomatedTest));
 IL2CPP_REGISTER_METHOD(0x00FE0160, void, StartTest, (UberPoolPerfTest_TestMode__Enum mode, bool isAutomatedTest, UberPoolPerfTest_Settings * settings));
 IL2CPP_REGISTER_METHODINFO(0x04720C10, UberPoolPerfTest_StartTest_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00FE03F0, void, StopTest, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FE03F0, void, StopTest, ());
 IL2CPP_REGISTER_METHOD(0x00FE0540, void, OnEnable, (UberPoolPerfTest * __this));
 IL2CPP_REGISTER_METHOD(0x00FE07B0, void, OnDisable, (UberPoolPerfTest * __this));
 IL2CPP_REGISTER_METHOD(0x00FE0860, void, CheckInstantiation, (UberPoolPerfTest * __this, GameObject * newObject));
@@ -21,8 +21,8 @@ IL2CPP_REGISTER_METHOD(0x00FE1310, Task *, BenchmarkSinglePrefabProfiler, (UberP
 IL2CPP_REGISTER_METHOD(0x00FE1450, Task *, BenchmarkSinglePrefabPrewarm, (UberPoolPerfTest * __this, CsvWriter * outputWriter, UberPoolPerfTest_PrefabInfo * info, Stopwatch * stopwatch, List_1_UnityEngine_GameObject_ * instances, List_1_System_Int64__1 * instantiationTimings, List_1_System_Int64__1 * prewarmTimings));
 IL2CPP_REGISTER_METHOD(0x00FE15A0, Task *, BenchmarkPrefabInfos, (UberPoolPerfTest * __this, UberPoolPerfTest_LogCatcher * logCatcher, CsvWriter * outputWriter, Vector3 position, List_1_UberPoolPerfTest_PrefabInfo_ * prefabInfos));
 IL2CPP_REGISTER_METHOD(0x00FE1700, Task_1_System_Collections_Generic_List_1_ *, LoadPrefabInfos, (UberPoolPerfTest * __this));
-IL2CPP_REGISTER_METHOD(0x00FE1820, Task *, LoadPoolPrewarmScene, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00FE1910, Task *, FinishPendingTasks, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FE1820, Task *, LoadPoolPrewarmScene, ());
+IL2CPP_REGISTER_METHOD(0x00FE1910, Task *, FinishPendingTasks, ());
 IL2CPP_REGISTER_METHOD(0x00FE19F0, GameObject *, InstantiateNoThrow, (UberPoolPerfTest * __this, GameObject * prefab, Vector3 position, Quaternion rotation));
 IL2CPP_REGISTER_METHOD(0x00FE1B70, GameObject *, InstantiateDirectNoThrow, (UberPoolPerfTest * __this, GameObject * prefab));
 IL2CPP_REGISTER_METHOD(0x00FE1CB0, UberPoolPerfTest_Timings, ComputeTimings, (List_1_System_Int64__1 * data));
@@ -31,7 +31,7 @@ IL2CPP_REGISTER_METHOD(0x00FE21A0, UberPoolPerfTest_ProfileTimings, ComputeProfi
 IL2CPP_REGISTER_METHOD(0x00FE25B0, double, ComputeProfileMedian, (Double__Array * data, int32_t dataLength));
 IL2CPP_REGISTER_METHOD(0x00FE2660, CsvWriter *, OpenOutputWriter, (UberPoolPerfTest_TestMode__Enum mode, bool useStaticOutputFileName, int32_t iteration));
 IL2CPP_REGISTER_METHOD(0x00FE29A0, String *, GetOutputPath, (UberPoolPerfTest_TestMode__Enum mode, bool useStaticOutputFileName));
-IL2CPP_REGISTER_METHOD(0x00FE2C20, void, CreateDoneFile, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FE2C20, void, CreateDoneFile, ());
 IL2CPP_REGISTER_METHOD(0x00FE2D30, void, WriteCsvHeaderTimings, (CsvWriter * writer, String * timingName));
 IL2CPP_REGISTER_METHOD(0x00FE2F10, void, WriteCsvHeader, (UberPoolPerfTest_TestMode__Enum mode, CsvWriter * writer, UberPoolPerfTest_Settings * settings));
 IL2CPP_REGISTER_METHOD(0x00FE32D0, void, WriteCsvPrefabInfoProfiling, (CsvWriter * writer, UberPoolPerfTest_PrefabInfo * info, Double__Array__Array * data, int32_t dataLength));
@@ -46,5 +46,5 @@ IL2CPP_REGISTER_METHOD(0x00FE49D0, void, WriteCsvTimings, (CsvWriter * writer, U
 IL2CPP_REGISTER_METHOD(0x00FE4B00, void, WriteCsvProfileTimings, (CsvWriter * writer, UberPoolPerfTest_ProfileTimings timings));
 IL2CPP_REGISTER_METHOD(0x00FE4D60, void, WriteCsvTicks, (CsvWriter * writer, int64_t value));
 IL2CPP_REGISTER_METHOD(0x00FE4F90, void, __ctor, (UberPoolPerfTest * __this));
-IL2CPP_REGISTER_METHOD(0x00FE5110, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FE5110, void, __cctor, ());
 }

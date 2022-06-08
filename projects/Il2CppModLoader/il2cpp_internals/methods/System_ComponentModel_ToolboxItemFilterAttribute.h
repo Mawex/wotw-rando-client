@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ToolboxItemFilterAttribute {
 IL2CPP_REGISTER_METHOD(0x02943E10, void, __ctor, (ToolboxItemFilterAttribute * __this, String * filterString));

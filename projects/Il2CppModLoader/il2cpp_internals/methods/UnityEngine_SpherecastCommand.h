@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SpherecastCommand {
 IL2CPP_REGISTER_METHOD(0x00244720, void, __ctor, (SpherecastCommand__Boxed * __this, Vector3 origin, float radius, Vector3 direction, float distance, int32_t layerMask));

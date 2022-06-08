@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumTools {
-IL2CPP_REGISTER_METHOD(0x02552CE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02552CE0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x018F2740, bool, HasFlagUnsafe, (ConstraintFlag__Enum lhs, ConstraintFlag__Enum rhs));
 IL2CPP_REGISTER_METHODINFO(0x04758910, EnumTools_HasFlagUnsafe__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02654A70, int32_t, AsInt, (DesertEscapeWorm_States__Enum lhs));

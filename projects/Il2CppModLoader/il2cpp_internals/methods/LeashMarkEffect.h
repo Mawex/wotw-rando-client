@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeashMarkEffect {
 IL2CPP_REGISTER_METHOD(0x0049C020, bool, get_IsSuspended, (LeashMarkEffect * __this));

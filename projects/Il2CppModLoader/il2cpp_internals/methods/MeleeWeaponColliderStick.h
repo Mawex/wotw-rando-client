@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeWeaponColliderStick {
 IL2CPP_REGISTER_METHOD(0x009C8F20, void, add_OnCollision, (MeleeWeaponColliderStick * __this, Action_2_UnityEngine_Collider_UnityEngine_Vector3_ * value));

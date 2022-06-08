@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::TwoDataProviderSynchronizer {
 IL2CPP_REGISTER_METHOD(0x00CDA2A0, bool, get_HasSynchronised, (TwoDataProviderSynchronizer * __this));

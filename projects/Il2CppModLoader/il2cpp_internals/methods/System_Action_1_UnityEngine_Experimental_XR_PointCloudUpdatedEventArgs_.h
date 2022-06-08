@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Experimental::XR::PointCloudUpdatedEventArgs_ {
 IL2CPP_REGISTER_METHOD(0x01D253C0, void, Invoke, (Action_1_UnityEngine_Experimental_XR_PointCloudUpdatedEventArgs_ * __this, PointCloudUpdatedEventArgs obj));

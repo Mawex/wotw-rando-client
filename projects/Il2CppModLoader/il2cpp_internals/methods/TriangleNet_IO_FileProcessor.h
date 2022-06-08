@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::IO::FileProcessor {
-IL2CPP_REGISTER_METHOD(0x02620610, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02620610, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02620850, void, Add, (IFileFormat * format));
 IL2CPP_REGISTER_METHOD(0x02620910, bool, IsSupported, (String * file));
 IL2CPP_REGISTER_METHOD(0x02620AE0, IPolygon *, Read, (String * filename));

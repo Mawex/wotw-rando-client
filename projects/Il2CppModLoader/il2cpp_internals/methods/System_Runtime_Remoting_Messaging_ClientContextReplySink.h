@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ClientContextReplySink {
 IL2CPP_REGISTER_METHOD(0x01A9AC30, void, __ctor, (ClientContextReplySink * __this, Context * ctx, IMessageSink * replySink));

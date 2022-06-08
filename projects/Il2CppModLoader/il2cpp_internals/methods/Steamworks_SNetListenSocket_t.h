@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SNetListenSocket_t {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (SNetListenSocket_t__Boxed * __this, uint32_t value));

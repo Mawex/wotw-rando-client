@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Endian {
 IL2CPP_REGISTER_METHOD(0x01B5A600, void, PutBytes2, (Byte__Array * bytes, int32_t offset, int16_t value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CacheBaseAnimatorAction {
 IL2CPP_REGISTER_METHOD(0x008230C0, void, Perform, (CacheBaseAnimatorAction * __this, IContext * context));

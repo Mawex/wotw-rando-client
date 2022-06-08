@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ChangeTargetToCurrentCharacterAction {
 IL2CPP_REGISTER_METHOD(0x01046270, void, Perform, (ChangeTargetToCurrentCharacterAction * __this, IContext * context));

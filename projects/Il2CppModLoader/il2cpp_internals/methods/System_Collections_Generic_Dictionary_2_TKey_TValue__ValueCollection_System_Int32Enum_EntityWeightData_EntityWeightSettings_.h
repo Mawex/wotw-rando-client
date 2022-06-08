@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System::Int32Enum_EntityWeightData_EntityWeightSettings_ {
 IL2CPP_REGISTER_METHOD(0x026B1C40, void, __ctor, (Dictionary_2_TKey_TValue_ValueCollection_System_Int32Enum_EntityWeightData_EntityWeightSettings_ * __this, Dictionary_2_System_Int32Enum_EntityWeightData_EntityWeightSettings_ * dictionary));

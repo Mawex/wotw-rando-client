@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveSlotsItemsUI {
 IL2CPP_REGISTER_METHOD(0x00926E20, void, Awake, (SaveSlotsItemsUI * __this));

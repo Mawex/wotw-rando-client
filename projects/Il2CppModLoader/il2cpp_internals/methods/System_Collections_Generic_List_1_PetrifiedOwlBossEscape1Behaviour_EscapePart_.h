@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_PetrifiedOwlBossEscape1Behaviour_EscapePart_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, PetrifiedOwlBossEscape1Behaviour_EscapePart *, get_Item, (List_1_PetrifiedOwlBossEscape1Behaviour_EscapePart_ * __this, int32_t index));

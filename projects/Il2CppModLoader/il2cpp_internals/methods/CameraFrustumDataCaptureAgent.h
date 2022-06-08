@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFrustumDataCaptureAgent {
 IL2CPP_REGISTER_METHOD(0x01689D10, bool, get_IsCaptureAgentValid, (CameraFrustumDataCaptureAgent * __this));

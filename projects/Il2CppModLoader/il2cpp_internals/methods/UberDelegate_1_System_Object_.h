@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberDelegate_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0225C3E0, void, Clear, (UberDelegate_1_System_Object_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_KeyValuePair_2_System::String_SystemIntegration::Races::RaceEntry__ {
 IL2CPP_REGISTER_METHOD(0x025E8A60, KeyValuePair_2_System_String_SystemIntegration_Races_RaceEntry_, get_Item, (List_1_KeyValuePair_2_System_String_SystemIntegration_Races_RaceEntry_ * __this, int32_t index));

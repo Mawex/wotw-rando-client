@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimatedRigidBodyController {
 IL2CPP_REGISTER_METHOD(0x004FBC40, void, FixedUpdate, (AnimatedRigidBodyController * __this));

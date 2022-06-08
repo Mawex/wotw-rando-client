@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_DiveLaserState {
 IL2CPP_REGISTER_METHOD(0x0176F500, void, __ctor, (PetrifiedOwlBossFinalComboBehaviour_DiveLaserState * __this, PetrifiedOwlBossFinalComboBehaviour * behaviour));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0153DB70, Lookup_2_System_Object_System_Object_ *, Create, (IEnumerable_1_System_Object_ * source, Func_2_Object_Object_ * keySelector, Func_2_Object_Object_ * elementSelector, IEqualityComparer_1_System_Object_ * comparer));

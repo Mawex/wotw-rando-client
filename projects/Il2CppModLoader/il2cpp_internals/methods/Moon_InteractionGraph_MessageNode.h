@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::MessageNode {
 IL2CPP_REGISTER_METHOD(0x019908C0, IMessageProvider *, get_MessageProvider, (MessageNode * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillTreeManager {
-IL2CPP_REGISTER_METHOD(0x006B5FF0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006B5FF0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x006B6070, bool, get_AllLanesFull, (SkillTreeManager * __this));
 IL2CPP_REGISTER_METHOD(0x006B60E0, void, Awake, (SkillTreeManager * __this));
 IL2CPP_REGISTER_METHOD(0x006B66D0, void, OnBackPressed, (SkillTreeManager * __this));

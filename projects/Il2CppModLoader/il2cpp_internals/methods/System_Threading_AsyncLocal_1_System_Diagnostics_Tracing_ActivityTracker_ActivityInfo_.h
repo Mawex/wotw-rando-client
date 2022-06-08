@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::AsyncLocal_1_System::Diagnostics::Tracing::ActivityTracker_ActivityInfo_ {
 IL2CPP_REGISTER_METHOD(0x02775090, ActivityTracker_ActivityInfo *, get_Value, (AsyncLocal_1_System_Diagnostics_Tracing_ActivityTracker_ActivityInfo_ * __this));

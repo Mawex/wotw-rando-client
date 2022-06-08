@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::BitArray_BitArrayEnumeratorSimple {
 IL2CPP_REGISTER_METHOD(0x0201E7A0, void, __ctor, (BitArray_BitArrayEnumeratorSimple * __this, BitArray * bitarray));

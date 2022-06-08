@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderlingDeathReaction {
 IL2CPP_REGISTER_METHOD(0x011BF7D0, void, OnInitializeTask, (SpiderlingDeathReaction * __this, IContext * context));

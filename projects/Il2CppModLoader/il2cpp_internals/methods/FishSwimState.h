@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FishSwimState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (FishSwimState * __this, FishEnemy * fish));

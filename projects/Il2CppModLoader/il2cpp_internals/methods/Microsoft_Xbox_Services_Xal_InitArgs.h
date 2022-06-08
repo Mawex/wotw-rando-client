@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Xbox::Services::Xal::InitArgs {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, uint32_t, get_TitleId, (InitArgs * __this));

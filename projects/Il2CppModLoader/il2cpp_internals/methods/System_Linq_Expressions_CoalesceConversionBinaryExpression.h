@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::CoalesceConversionBinaryExpression {
 IL2CPP_REGISTER_METHOD(0x01FA1100, void, __ctor, (CoalesceConversionBinaryExpression * __this, Expression * left, Expression * right, LambdaExpression * conversion));

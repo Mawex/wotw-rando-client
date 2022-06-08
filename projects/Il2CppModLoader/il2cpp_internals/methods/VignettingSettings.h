@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VignettingSettings {
 IL2CPP_REGISTER_METHOD(0x008C1B30, VignettingSettings *, Clone, (VignettingSettings * __this));

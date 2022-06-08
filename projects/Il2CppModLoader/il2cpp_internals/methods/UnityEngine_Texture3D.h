@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Texture3D {
 IL2CPP_REGISTER_METHOD(0x02C69E50, void, __ctor, (Texture3D * __this, int32_t width, int32_t height, int32_t depth, GraphicsFormat__Enum format, TextureCreationFlags__Enum flags));

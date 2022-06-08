@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_LightCanvasEditorTextureCache_LightCanvasEditorTextureData_ {
 IL2CPP_REGISTER_METHOD(0x02F60F30, void, Sort, (LightCanvasEditorTextureCache_LightCanvasEditorTextureData__Array * keys, int32_t index, int32_t length, IComparer_1_LightCanvasEditorTextureCache_LightCanvasEditorTextureData_ * comparer));

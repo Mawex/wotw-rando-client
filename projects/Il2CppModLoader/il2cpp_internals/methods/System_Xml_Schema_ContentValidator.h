@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ContentValidator {
 IL2CPP_REGISTER_METHOD(0x0234D420, void, __ctor, (ContentValidator * __this, XmlSchemaContentType__Enum contentType));
@@ -15,5 +15,5 @@ IL2CPP_REGISTER_METHOD(0x00420EE0, ArrayList *, ExpectedElements, (ContentValida
 IL2CPP_REGISTER_METHOD(0x00420EE0, ArrayList *, ExpectedParticles, (ContentValidator * __this, ValidationState * context, bool isRequiredOnly, XmlSchemaSet * schemaSet));
 IL2CPP_REGISTER_METHOD(0x0234D4A0, void, AddParticleToExpected, (XmlSchemaParticle * p, XmlSchemaSet * schemaSet, ArrayList * particles));
 IL2CPP_REGISTER_METHOD(0x0234D570, void, AddParticleToExpected, (XmlSchemaParticle * p, XmlSchemaSet * schemaSet, ArrayList * particles, bool global));
-IL2CPP_REGISTER_METHOD(0x0234D870, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0234D870, void, __cctor, ());
 }

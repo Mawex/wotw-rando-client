@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::LoopExpression {
 IL2CPP_REGISTER_METHOD(0x02417930, void, __ctor, (LoopExpression * __this, Expression * body, LabelTarget * break_1, LabelTarget * continue_1));

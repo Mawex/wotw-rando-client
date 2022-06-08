@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AllowedEntityArea {
 IL2CPP_REGISTER_METHOD(0x004F4CE0, bool, get_Forgotten, (AllowedEntityArea * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkinningEdge_SkinningCapsule {
 IL2CPP_REGISTER_METHOD(0x006BE9E0, void, Set, (SkinningEdge_SkinningCapsule * __this, SkinningEdge_SkinningCapsule * cap));

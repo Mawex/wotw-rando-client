@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsData {
 IL2CPP_REGISTER_METHOD(0x0063D180, void, __ctor, (fsData * __this));
@@ -8,8 +8,8 @@ IL2CPP_REGISTER_METHOD(0x0150A2E0, void, __ctor, (fsData * __this, int64_t i));
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (fsData * __this, String * str));
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (fsData * __this, Dictionary_2_System_String_FullSerializer_fsData_ * dict));
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (fsData * __this, List_1_FullSerializer_fsData_ * list));
-IL2CPP_REGISTER_METHOD(0x0150A380, fsData *, CreateDictionary, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0150A630, fsData *, CreateList, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0150A380, fsData *, CreateDictionary, ());
+IL2CPP_REGISTER_METHOD(0x0150A630, fsData *, CreateList, ());
 IL2CPP_REGISTER_METHOD(0x0150A840, fsData *, CreateList, (int32_t capacity));
 IL2CPP_REGISTER_METHOD(0x0150AA50, void, BecomeDictionary, (fsData * __this));
 IL2CPP_REGISTER_METHOD(0x0150ABC0, fsData *, Clone, (fsData * __this));
@@ -35,7 +35,7 @@ IL2CPP_REGISTER_METHODINFO(0x04798988, fsData_Equals_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0150BBF0, bool, operator___, (fsData * a, fsData * b));
 IL2CPP_REGISTER_METHOD(0x0150BD30, bool, operator___, (fsData * a, fsData * b));
 IL2CPP_REGISTER_METHOD(0x0150BDE0, int32_t, GetHashCode, (fsData * __this));
-IL2CPP_REGISTER_METHOD(0x0150BE10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0150BE10, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015E9100, Object *, Cast, (fsData * __this));
 IL2CPP_REGISTER_METHODINFO(0x04755F90, fsData_Cast__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x015E8A00, double, Cast, (fsData * __this));

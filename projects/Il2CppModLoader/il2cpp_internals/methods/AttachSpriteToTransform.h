@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AttachSpriteToTransform {
 IL2CPP_REGISTER_METHOD(0x0084D3C0, bool, get_IsSuspended, (AttachSpriteToTransform * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ArrayList_ReadOnlyArrayList {
 IL2CPP_REGISTER_METHOD(0x0201C4D0, void, __ctor, (ArrayList_ReadOnlyArrayList * __this, ArrayList * l));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_GhostTimelineEventsPlugin_PendingEvent_ {
 IL2CPP_REGISTER_METHOD(0x02CA2440, GhostTimelineEventsPlugin_PendingEvent, Dequeue, (Queue_1_GhostTimelineEventsPlugin_PendingEvent_ * __this));

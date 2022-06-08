@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasballStayInPlace {
 IL2CPP_REGISTER_METHOD(0x00421000, void, OnEntityInitialized, (GasballStayInPlace * __this));

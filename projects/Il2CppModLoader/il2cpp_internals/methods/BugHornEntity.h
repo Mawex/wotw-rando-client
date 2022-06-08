@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BugHornEntity {
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x00805AB0, void, EffectsPrefabInstantiation, (BugHornEntity * __this, List_1_DynamicInstantiationDescriptor_ * instantiations));
 IL2CPP_REGISTER_METHOD(0x00805CF0, bool, get_IsFluttering, (BugHornEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00805D00, bool, get_WasFLutteringInterrupted, (BugHornEntity * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderTexture {
 IL2CPP_REGISTER_METHOD(0x012881C0, void, Set, (UberShaderTexture * __this, String * bindName, UberShaderBlock * attachedBlock));

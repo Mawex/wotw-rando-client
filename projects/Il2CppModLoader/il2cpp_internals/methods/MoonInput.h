@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonInput {
-IL2CPP_REGISTER_METHOD(0x0145B130, bool, get_anyKeyDown, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0145B180, bool, get_anyKey, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0145B1D0, Vector3, get_mousePosition, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0145B130, bool, get_anyKeyDown, ());
+IL2CPP_REGISTER_METHOD(0x0145B180, bool, get_anyKey, ());
+IL2CPP_REGISTER_METHOD(0x0145B1D0, Vector3, get_mousePosition, ());
 IL2CPP_REGISTER_METHOD(0x0145B250, float, GetAxis, (String * axisName));
 IL2CPP_REGISTER_METHOD(0x0145B2A0, bool, GetMouseButton, (int32_t button));
 IL2CPP_REGISTER_METHOD(0x0145B2F0, bool, GetButton, (String * buttonName));

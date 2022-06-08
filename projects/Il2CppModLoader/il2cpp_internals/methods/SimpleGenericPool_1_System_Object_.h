@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SimpleGenericPool_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01D17E40, void, __ctor, (SimpleGenericPool_1_System_Object_ * __this, int32_t capacity));

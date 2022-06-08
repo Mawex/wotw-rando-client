@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon::Wwise::WwiseEventSystem_SoundHandleProtected_CallbackData_ {
 IL2CPP_REGISTER_METHOD(0x01CC78F0, int32_t, Compare, (ObjectComparer_1_Moon_Wwise_WwiseEventSystem_SoundHandleProtected_CallbackData_ * __this, WwiseEventSystem_SoundHandleProtected_CallbackData x, WwiseEventSystem_SoundHandleProtected_CallbackData y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnySaveSlotsFilledCondition {
 IL2CPP_REGISTER_METHOD(0x005058E0, bool, Validate, (AnySaveSlotsFilledCondition * __this, IContext * context));

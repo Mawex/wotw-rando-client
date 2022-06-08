@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterStatePuppet___c__DisplayClass14_0_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (CharacterStatePuppet_c_DisplayClass14_0_1_System_Object_ * __this));

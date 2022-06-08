@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkipCreditsAction {
 IL2CPP_REGISTER_METHOD(0x00447380, void, Awake, (SkipCreditsAction * __this));

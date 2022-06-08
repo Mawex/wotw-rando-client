@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::StrongBox_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, Object *, IStrongBox_get_Value, (StrongBox_1_System_Object_ * __this));

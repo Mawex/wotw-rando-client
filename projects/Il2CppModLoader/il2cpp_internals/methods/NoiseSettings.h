@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NoiseSettings {
 IL2CPP_REGISTER_METHOD(0x0060BC50, NoiseSettings *, Clone, (NoiseSettings * __this));

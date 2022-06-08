@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Sini::Unity::RectExtensions {
 IL2CPP_REGISTER_METHOD(0x03115660, Rect, Below, (Rect source, Rect belowSource));

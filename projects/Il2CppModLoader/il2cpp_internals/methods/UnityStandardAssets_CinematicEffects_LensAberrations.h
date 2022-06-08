@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::LensAberrations {
 IL2CPP_REGISTER_METHOD(0x025070F0, Shader *, get_shader, (LensAberrations * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineInterruptionAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x01E8C8F0, MoonTimeline *, get_ResolvedTimeline, (TimelineInterruptionAnimatorEntity * __this));

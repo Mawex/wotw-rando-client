@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_System::Object_UnityEngine::Vector3_ {
 IL2CPP_REGISTER_METHOD(0x02261CE0, void, OnBeforeSerialize, (UberShaderDictionary_2_System_Object_UnityEngine_Vector3_ * __this));

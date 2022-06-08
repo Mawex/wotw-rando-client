@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightCanvas_LightCanvasStateData {
 IL2CPP_REGISTER_METHOD(0x011459B0, int32_t, get_Guid, (LightCanvas_LightCanvasStateData * __this));

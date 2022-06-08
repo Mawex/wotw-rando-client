@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ScaleAxisTweenAnimator {
 IL2CPP_REGISTER_METHOD(0x01E7F860, Transform *, get_TransformTarget, (ScaleAxisTweenAnimator * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::KeyCode_SmartInput::KeyCodeButtonInput_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_UnityEngine_KeyCode_SmartInput_KeyCodeButtonInput_ * __this, KeyCode__Enum key, KeyCodeButtonInput * * value));

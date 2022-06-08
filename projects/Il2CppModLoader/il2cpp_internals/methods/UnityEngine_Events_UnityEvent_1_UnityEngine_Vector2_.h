@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityEvent_1_UnityEngine::Vector2_ {
 IL2CPP_REGISTER_METHOD(0x02ACA250, void, Invoke, (UnityEvent_1_UnityEngine_Vector2_ * __this, Vector2 arg0));

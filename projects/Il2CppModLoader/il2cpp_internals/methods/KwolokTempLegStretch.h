@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokTempLegStretch {
 IL2CPP_REGISTER_METHOD(0x012FD210, void, Update, (KwolokTempLegStretch * __this));

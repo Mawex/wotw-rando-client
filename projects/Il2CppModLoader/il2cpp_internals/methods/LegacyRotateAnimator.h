@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyRotateAnimator {
 IL2CPP_REGISTER_METHOD(0x00A348C0, void, Awake, (LegacyRotateAnimator * __this));

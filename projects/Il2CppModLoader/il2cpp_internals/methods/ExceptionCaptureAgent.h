@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ExceptionCaptureAgent {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsCaptureAgentValid, (ExceptionCaptureAgent * __this));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x00983470, String__Array *, GetFrameData, (ExceptionCapt
 IL2CPP_REGISTER_METHODINFO(0x0477B1D8, ExceptionCaptureAgent_GetFrameData__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x009834C0, void, GetFrameData, (ExceptionCaptureAgent * __this, FrameCaptureTester_AgentOutput * output));
 IL2CPP_REGISTER_METHOD(0x00983630, void, __ctor, (ExceptionCaptureAgent * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

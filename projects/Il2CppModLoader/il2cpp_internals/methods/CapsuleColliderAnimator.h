@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CapsuleColliderAnimator {
 IL2CPP_REGISTER_METHOD(0x003FD650, bool, get_IsLooping, (CapsuleColliderAnimator * __this));

@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinAbilityRestrictZone {
 IL2CPP_REGISTER_METHOD(0x00D7FEE0, SeinAbilityRestrictZoneMask__Enum, get_Mask, (SeinAbilityRestrictZone * __this));
 IL2CPP_REGISTER_METHOD(0x008F7CD0, void, set_Mask, (SeinAbilityRestrictZone * __this, SeinAbilityRestrictZoneMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x00D7FFC0, bool, IsInside, (AbilityType__Enum ability, SeinAbilityRestrictZoneMask__Enum restrictMask));
 IL2CPP_REGISTER_METHOD(0x00D800C0, bool, IsInside, (Input_Command__Enum button, SeinAbilityRestrictZoneMask__Enum restrictMask));
-IL2CPP_REGISTER_METHOD(0x00D80190, SeinAbilityRestrictZoneMask__Enum, GetCurrentRestrictMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D80190, SeinAbilityRestrictZoneMask__Enum, GetCurrentRestrictMask, ());
 IL2CPP_REGISTER_METHOD(0x00D80520, bool, IsInside, (SeinAbilityRestrictZoneMask__Enum restrictMask));
 IL2CPP_REGISTER_METHOD(0x00D80A60, CharacterGravity *, get_Gravity, (SeinAbilityRestrictZone * __this));
 IL2CPP_REGISTER_METHOD(0x00D80B90, CharacterLeftRightMovement *, get_LeftRightMovement, (SeinAbilityRestrictZone * __this));
@@ -40,5 +40,5 @@ IL2CPP_REGISTER_METHOD(0x00D83820, void, OnAfterDeserialize, (SeinAbilityRestric
 IL2CPP_REGISTER_METHOD(0x00D83870, void, PreventFromEntering, (SeinAbilityRestrictZone * __this));
 IL2CPP_REGISTER_METHOD(0x00D83B70, void, OnFixedUpdate, (SeinAbilityRestrictZone * __this, float delta));
 IL2CPP_REGISTER_METHOD(0x00D83F30, void, __ctor, (SeinAbilityRestrictZone * __this));
-IL2CPP_REGISTER_METHOD(0x00D83F60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D83F60, void, __cctor, ());
 }

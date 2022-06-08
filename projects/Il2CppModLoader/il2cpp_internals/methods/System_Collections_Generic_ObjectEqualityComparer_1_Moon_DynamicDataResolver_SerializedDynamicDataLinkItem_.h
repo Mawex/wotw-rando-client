@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::DynamicDataResolver_SerializedDynamicDataLinkItem_ {
 IL2CPP_REGISTER_METHOD(0x01CD1410, bool, Equals, (ObjectEqualityComparer_1_Moon_DynamicDataResolver_SerializedDynamicDataLinkItem_ * __this, DynamicDataResolver_SerializedDynamicDataLinkItem x, DynamicDataResolver_SerializedDynamicDataLinkItem y));

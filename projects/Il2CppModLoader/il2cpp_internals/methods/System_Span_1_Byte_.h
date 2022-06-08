@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Span_1_Byte_ {
 IL2CPP_REGISTER_METHOD(0x00114150, int32_t, get_Length, (Span_1_Byte___Boxed * __this));

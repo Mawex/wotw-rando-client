@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::KeyHelper {
 IL2CPP_REGISTER_METHOD(0x01C8E310, void, AddField, (StringBuilder * sb, int32_t n, String * val));

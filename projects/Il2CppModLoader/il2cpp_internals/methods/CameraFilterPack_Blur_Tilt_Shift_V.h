@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blur_Tilt_Shift_V {
 IL2CPP_REGISTER_METHOD(0x024D74D0, Material *, get_material, (CameraFilterPack_Blur_Tilt_Shift_V * __this));

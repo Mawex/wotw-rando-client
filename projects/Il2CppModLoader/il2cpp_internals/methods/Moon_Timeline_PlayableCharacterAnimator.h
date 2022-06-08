@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PlayableCharacterAnimator {
 IL2CPP_REGISTER_METHOD(0x00779600, bool, get_CharacterInstantiatedOnPlay, (PlayableCharacterAnimator * __this));

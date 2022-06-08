@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::Int32Enum_UnityEngine::Color_ {
 IL2CPP_REGISTER_METHOD(0x0011CE50, void, __ctor, (KeyValuePair_2_System_Int32Enum_UnityEngine_Color___Boxed * __this, Int32Enum__Enum key, Color value));

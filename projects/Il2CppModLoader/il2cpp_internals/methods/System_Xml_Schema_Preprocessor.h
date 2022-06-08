@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Preprocessor {
 IL2CPP_REGISTER_METHOD(0x016D9770, void, __ctor, (Preprocessor * __this, XmlNameTable * nameTable, SchemaNames * schemaNames, ValidationEventHandler * eventHandler, XmlSchemaCompilationSettings * compilationSettings));
@@ -12,7 +12,7 @@ IL2CPP_REGISTER_METHOD(0x002FBC10, void, set_ChameleonSchemas, (Preprocessor * _
 IL2CPP_REGISTER_METHOD(0x002FBB60, XmlSchema *, get_RootSchema, (Preprocessor * __this));
 IL2CPP_REGISTER_METHOD(0x016DA3B0, void, BuildSchemaList, (Preprocessor * __this, XmlSchema * schema));
 IL2CPP_REGISTER_METHOD(0x016DA5E0, void, LoadExternals, (Preprocessor * __this, XmlSchema * schema));
-IL2CPP_REGISTER_METHOD(0x016DB3D0, XmlSchema *, GetBuildInSchema, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016DB3D0, XmlSchema *, GetBuildInSchema, ());
 IL2CPP_REGISTER_METHOD(0x016DC600, void, BuildRefNamespaces, (Preprocessor * __this, XmlSchema * schema));
 IL2CPP_REGISTER_METHOD(0x016DC930, void, ParseUri, (Preprocessor * __this, String * uri, String * code, XmlSchemaObject * sourceSchemaObject));
 IL2CPP_REGISTER_METHOD(0x016DCA60, void, Preprocess, (Preprocessor * __this, XmlSchema * schema, String * targetNamespace, ArrayList * imports));

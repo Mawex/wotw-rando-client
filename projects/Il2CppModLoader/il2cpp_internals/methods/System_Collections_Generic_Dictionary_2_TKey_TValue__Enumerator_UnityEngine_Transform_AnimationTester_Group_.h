@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_UnityEngine::Transform_AnimationTester_Group_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_UnityEngine_Transform_AnimationTester_Group_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_UnityEngine_Transform_AnimationTester_Group___Boxed * __this));

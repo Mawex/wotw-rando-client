@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::UI::TextBoxLine_ {
 IL2CPP_REGISTER_METHOD(0x01CD1C30, bool, Equals, (ObjectEqualityComparer_1_Moon_UI_TextBoxLine_ * __this, TextBoxLine_1 x, TextBoxLine_1 y));

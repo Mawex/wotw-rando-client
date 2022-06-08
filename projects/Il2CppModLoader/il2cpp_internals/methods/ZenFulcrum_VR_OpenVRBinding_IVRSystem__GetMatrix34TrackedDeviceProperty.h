@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRSystem__GetMatrix34TrackedDeviceProperty {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRSystem_GetMatrix34TrackedDeviceProperty * __this, Object * object, void * method_1));

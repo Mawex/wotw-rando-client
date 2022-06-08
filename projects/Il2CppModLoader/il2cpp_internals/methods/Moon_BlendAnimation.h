@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BlendAnimation {
 IL2CPP_REGISTER_METHOD(0x00417920, AnimationType__Enum, get_Type, (BlendAnimation * __this));

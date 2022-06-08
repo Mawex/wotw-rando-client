@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::Database {
-IL2CPP_REGISTER_METHOD(0x00C3F180, String *, get_RacesFolder, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C3F270, String *, get_PresetsFolder, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C3F180, String *, get_RacesFolder, ());
+IL2CPP_REGISTER_METHOD(0x00C3F270, String *, get_PresetsFolder, ());
 IL2CPP_REGISTER_METHOD(0x00C3F380, List_1_Moon_Race_LeaderBoardEntry_ *, GetLeaderBoard, (Database * __this, String * raceName));
 IL2CPP_REGISTER_METHOD(0x00C3F560, List_1_Moon_Race_LeaderBoardEntry_ *, GetLeaderBoardWithLocalPlayerTime, (Database * __this, String * raceName));
 IL2CPP_REGISTER_METHOD(0x00C3FA40, bool, IsSyncing, (Database * __this, String * raceId));

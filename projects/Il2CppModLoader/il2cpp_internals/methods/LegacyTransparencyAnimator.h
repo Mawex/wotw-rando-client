@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTransparencyAnimator {
 IL2CPP_REGISTER_METHOD(0x011291F0, GameObject *, get_EffectiveRoot, (LegacyTransparencyAnimator * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x0112AD80, void, RestoreToOriginalState, (LegacyTranspar
 IL2CPP_REGISTER_METHOD(0x0112B0C0, void, UpdateActiveStates, (LegacyTransparencyAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x004167A0, bool, get_IsLooping, (LegacyTransparencyAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x0112B260, void, __ctor, (LegacyTransparencyAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x0112B730, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0112B730, void, __cctor, ());
 }

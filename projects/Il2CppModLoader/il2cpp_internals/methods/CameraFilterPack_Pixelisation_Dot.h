@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Pixelisation_Dot {
 IL2CPP_REGISTER_METHOD(0x02488E80, Material *, get_material, (CameraFilterPack_Pixelisation_Dot * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CacheDict_2_System::Type_System::Func_2_ {
 IL2CPP_REGISTER_METHOD(0x028793D0, bool, TryGetValue, (CacheDict_2_System_Type_System_Func_2_ * __this, Type * key, Func_2_System_Linq_Expressions_Interpreter_LightLambda_Delegate_ * * value));

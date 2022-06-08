@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDamageReciever__OnKillRoutine_d__97 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (SeinDamageReciever_OnKillRoutine_d_97 * __this, int32_t __1__state));

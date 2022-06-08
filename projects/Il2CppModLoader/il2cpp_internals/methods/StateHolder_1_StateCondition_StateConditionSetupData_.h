@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateHolder_1_StateCondition_StateConditionSetupData_ {
 IL2CPP_REGISTER_METHOD(0x01D19450, StateCondition_StateConditionSetupData *, ResolveCurrent, (StateHolder_1_StateCondition_StateConditionSetupData_ * __this));

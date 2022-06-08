@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ClearTrailOverCertainDistance {
 IL2CPP_REGISTER_METHOD(0x012AD3E0, void, Awake, (ClearTrailOverCertainDistance * __this));

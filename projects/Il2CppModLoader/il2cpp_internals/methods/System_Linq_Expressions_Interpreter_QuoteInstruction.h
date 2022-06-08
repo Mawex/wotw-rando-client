@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::QuoteInstruction {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (QuoteInstruction * __this, Expression * operand, Dictionary_2_System_Linq_Expressions_ParameterExpression_System_Linq_Expressions_Interpreter_LocalVariable_ * hoistedVariables));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveSlotsUI_StorageOperation {
 IL2CPP_REGISTER_METHOD(0x009317D0, void, __ctor, (SaveSlotsUI_StorageOperation * __this, Action * request, Action * onFinished));

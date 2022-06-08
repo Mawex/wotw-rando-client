@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Audio::AudioSampleProvider {
 IL2CPP_REGISTER_METHOD(0x03144810, void, Finalize, (AudioSampleProvider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsReflectionUtility {
 IL2CPP_REGISTER_METHOD(0x0165D140, Type *, GetInterface, (Type * type, Type * interfaceType));

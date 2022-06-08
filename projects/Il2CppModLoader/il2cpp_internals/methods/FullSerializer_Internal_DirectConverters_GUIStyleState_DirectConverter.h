@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::GUIStyleState_DirectConverter {
 IL2CPP_REGISTER_METHOD(0x0164BB60, fsResult, DoSerialize, (GUIStyleState_DirectConverter * __this, GUIStyleState * model, Dictionary_2_System_String_FullSerializer_fsData_ * serialized));

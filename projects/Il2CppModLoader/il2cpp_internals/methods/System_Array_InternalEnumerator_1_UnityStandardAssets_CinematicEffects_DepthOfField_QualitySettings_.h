@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_UnityStandardAssets::CinematicEffects::DepthOfField_QualitySettings_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_UnityStandardAssets_CinematicEffects_DepthOfField_QualitySettings___Boxed * __this, Array * array));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue {
 IL2CPP_REGISTER_METHOD(0x02347FE0, void, LocalPush, (ThreadPoolWorkQueue_WorkStealingQueue * __this, IThreadPoolWorkItem * obj));

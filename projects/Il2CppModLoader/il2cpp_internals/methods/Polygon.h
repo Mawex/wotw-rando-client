@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Polygon {
 IL2CPP_REGISTER_METHOD(0x00C58D80, bool, ContainsPoint, (Polygon_1 * __this, Vector2 p, Matrix4x4 m));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OptionsScreenLegendController {
 IL2CPP_REGISTER_METHOD(0x00619220, void, Update, (OptionsScreenLegendController * __this));

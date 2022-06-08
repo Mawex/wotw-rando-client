@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Iterators::VertexCirculator {
 IL2CPP_REGISTER_METHOD(0x02B11EF0, void, __ctor, (VertexCirculator * __this, Mesh_1 * mesh));

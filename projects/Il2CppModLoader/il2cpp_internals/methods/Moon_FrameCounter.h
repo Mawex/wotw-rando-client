@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FrameCounter {
 IL2CPP_REGISTER_METHOD(0x01489790, void, Awake, (FrameCounter_1 * __this));

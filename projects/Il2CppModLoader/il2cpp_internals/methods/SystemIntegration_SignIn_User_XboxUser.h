@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::SignIn::User::XboxUser {
 IL2CPP_REGISTER_METHOD(0x002FA280, Texture2D *, get_Image, (XboxUser * __this));

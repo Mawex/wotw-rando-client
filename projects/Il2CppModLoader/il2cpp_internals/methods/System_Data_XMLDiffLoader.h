@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XMLDiffLoader {
 IL2CPP_REGISTER_METHOD(0x023D0AD0, void, LoadDiffGram, (XMLDiffLoader * __this, DataSet * ds, XmlReader * dataTextReader));

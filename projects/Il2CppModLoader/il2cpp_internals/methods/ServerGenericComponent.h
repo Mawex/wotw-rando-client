@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ServerGenericComponent {
 IL2CPP_REGISTER_METHOD(0x0059D6C0, void, __ctor, (ServerGenericComponent * __this, Object * originalComponent));

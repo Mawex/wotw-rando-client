@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::FeedingGroundsBreakablePlatform {
 IL2CPP_REGISTER_METHOD(0x01784060, void, OnDisable, (FeedingGroundsBreakablePlatform * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::X509Builder {
 IL2CPP_REGISTER_METHOD(0x029392D0, void, __ctor, (X509Builder * __this));

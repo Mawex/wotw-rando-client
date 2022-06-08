@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_SpiritShardIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_SpiritShardIconsCollection_Icons_ * __this));
@@ -59,5 +59,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_SpiritShardIconsCollectio
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_SpiritShardIconsCollection_Icons_ * __this, Comparison_1_SpiritShardIconsCollection_Icons_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, SpiritShardIconsCollection_Icons__Array *, ToArray, (List_1_SpiritShardIconsCollection_Icons_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_SpiritShardIconsCollection_Icons_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

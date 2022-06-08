@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AudioStateZone {
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_Activated, (AudioStateZone * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x0085A3E0, void, ActivateZone, (AudioStateZone * __this)
 IL2CPP_REGISTER_METHOD(0x0085A590, void, DeactivateZone, (AudioStateZone * __this));
 IL2CPP_REGISTER_METHOD(0x0043D9E0, SelectableCategory__Enum, get_Category, (AudioStateZone * __this));
 IL2CPP_REGISTER_METHOD(0x0085A740, void, __ctor, (AudioStateZone * __this));
-IL2CPP_REGISTER_METHOD(0x0085A950, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0085A950, void, __cctor, ());
 }

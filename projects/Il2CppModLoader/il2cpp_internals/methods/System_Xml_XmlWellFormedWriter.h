@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlWellFormedWriter {
 IL2CPP_REGISTER_METHOD(0x01FCB480, void, __ctor, (XmlWellFormedWriter * __this, XmlWriter * writer, XmlWriterSettings * settings));
@@ -85,5 +85,5 @@ IL2CPP_REGISTER_METHOD(0x01FD2230, bool, get_IsClosedOrErrorState, (XmlWellForme
 IL2CPP_REGISTER_METHOD(0x01FD2240, void, AddAttribute, (XmlWellFormedWriter * __this, String * prefix, String * localName, String * namespaceName));
 IL2CPP_REGISTER_METHODINFO(0x0473D9F0, XmlWellFormedWriter_AddAttribute__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01FD2660, void, AddToAttrHashTable, (XmlWellFormedWriter * __this, int32_t attributeIndex));
-IL2CPP_REGISTER_METHOD(0x01FD2830, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01FD2830, void, __cctor, ());
 }

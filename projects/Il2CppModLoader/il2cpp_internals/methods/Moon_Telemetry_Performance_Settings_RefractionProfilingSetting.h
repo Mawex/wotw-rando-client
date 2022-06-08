@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::RefractionProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00E3F100, ProfilingSettings_SettingType__Enum, get_SettingType, (RefractionProfilingSetting * __this));

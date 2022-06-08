@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData {
 IL2CPP_REGISTER_METHOD(0x007F1530, GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData *, GetObjectData, (GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData * __this, RecordableIdData idData));

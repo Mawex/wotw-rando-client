@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTlsContext {
 IL2CPP_REGISTER_METHOD(0x0248D710, void, __ctor, (UnityTlsContext * __this, MobileAuthenticatedStream * parent, bool serverMode, String * targetHost, SslProtocols__Enum enabledProtocols, X509Certificate_1 * serverCertificate, X509CertificateCollection_1 * clientCertificates, bool askForClientCert));

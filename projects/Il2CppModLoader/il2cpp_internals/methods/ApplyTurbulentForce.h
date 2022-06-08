@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ApplyTurbulentForce {
 IL2CPP_REGISTER_METHOD(0x00507BF0, void, Awake, (ApplyTurbulentForce * __this));

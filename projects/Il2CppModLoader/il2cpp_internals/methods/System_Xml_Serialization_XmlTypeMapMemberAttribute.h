@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlTypeMapMemberAttribute {
 IL2CPP_REGISTER_METHOD(0x0194F2F0, void, __ctor, (XmlTypeMapMemberAttribute * __this));

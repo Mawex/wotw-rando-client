@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPostContrastAndBrightnessAnimator {
 IL2CPP_REGISTER_METHOD(0x00FF08B0, void, CacheOriginals, (UberPostContrastAndBrightnessAnimator * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x00FF0FB0, void, RestoreToOriginalState, (UberPostContra
 IL2CPP_REGISTER_METHOD(0x00FF1140, float, get_Duration, (UberPostContrastAndBrightnessAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x00FF1220, bool, get_IsLooping, (UberPostContrastAndBrightnessAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x00FF13D0, void, __ctor, (UberPostContrastAndBrightnessAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00FF17B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FF17B0, void, __cctor, ());
 }

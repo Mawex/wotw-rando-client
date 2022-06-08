@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonSwarmer {
 IL2CPP_REGISTER_METHOD(0x01463F60, void, __ctor, (MoonSwarmer * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_UnityEngine::Bounds_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x001520E0, void, __ctor, (KeyValuePair_2_UnityEngine_Bounds_System_Boolean___Boxed * __this, Bounds key, bool value));

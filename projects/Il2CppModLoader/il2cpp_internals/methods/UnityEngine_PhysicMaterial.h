@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::PhysicMaterial {
 IL2CPP_REGISTER_METHOD(0x030A3870, void, __ctor, (PhysicMaterial * __this));

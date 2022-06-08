@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RunLastSkillEarntAction {
 IL2CPP_REGISTER_METHOD(0x01373100, void, Perform, (RunLastSkillEarntAction * __this, IContext * context));

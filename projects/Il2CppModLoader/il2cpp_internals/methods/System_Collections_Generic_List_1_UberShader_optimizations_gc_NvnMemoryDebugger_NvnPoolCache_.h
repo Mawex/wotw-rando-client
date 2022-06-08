@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UberShader::optimizations::gc::NvnMemoryDebugger_NvnPoolCache_ {
 IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_UberShader_optimizations_gc_NvnMemoryDebugger_NvnPoolCache_, GetEnumerator, (List_1_UberShader_optimizations_gc_NvnMemoryDebugger_NvnPoolCache_ * __this));

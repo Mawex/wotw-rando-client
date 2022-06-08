@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StickToMovingPlatforms {
 IL2CPP_REGISTER_METHOD(0x00650850, void, Awake, (StickToMovingPlatforms * __this));

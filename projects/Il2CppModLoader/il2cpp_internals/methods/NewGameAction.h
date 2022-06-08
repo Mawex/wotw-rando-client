@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NewGameAction {
 IL2CPP_REGISTER_METHOD(0x005FBFE0, void, Perform, (NewGameAction * __this, IContext * context));

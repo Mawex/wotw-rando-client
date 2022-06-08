@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityBehaviourNode_1_DropSlugEntity_ {
 IL2CPP_REGISTER_METHOD(0x0271C5B0, void, __ctor, (EntityBehaviourNode_1_DropSlugEntity_ * __this));

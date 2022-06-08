@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Map_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Object_ *, get_Cells, (Map_1_System_Object_ * __this));

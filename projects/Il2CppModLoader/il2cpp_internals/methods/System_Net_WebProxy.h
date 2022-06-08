@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebProxy {
 IL2CPP_REGISTER_METHOD(0x01D805A0, void, __ctor, (WebProxy * __this));
@@ -36,13 +36,13 @@ IL2CPP_REGISTER_METHOD(0x01D822A0, bool, IsLocalInProxyHash, (WebProxy * __this,
 IL2CPP_REGISTER_METHOD(0x01D823F0, bool, IsBypassed, (WebProxy * __this, Uri * host));
 IL2CPP_REGISTER_METHODINFO(0x0477EB60, WebProxy_IsBypassed__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D82530, bool, IsBypassedManual, (WebProxy * __this, Uri * host));
-IL2CPP_REGISTER_METHOD(0x01D82740, WebProxy *, GetDefaultProxy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D82740, WebProxy *, GetDefaultProxy, ());
 IL2CPP_REGISTER_METHOD(0x01D82880, void, __ctor, (WebProxy * __this, SerializationInfo * serializationInfo, StreamingContext streamingContext));
 IL2CPP_REGISTER_METHOD(0x00C53AA0, void, ISerializable_GetObjectData, (WebProxy * __this, SerializationInfo * serializationInfo, StreamingContext streamingContext));
 IL2CPP_REGISTER_METHOD(0x01D82AE0, void, GetObjectData, (WebProxy * __this, SerializationInfo * serializationInfo, StreamingContext streamingContext));
 IL2CPP_REGISTER_METHOD(0x002FB9D0, AutoWebProxyScriptEngine *, get_ScriptEngine, (WebProxy * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9E0, void, set_ScriptEngine, (WebProxy * __this, AutoWebProxyScriptEngine * value));
-IL2CPP_REGISTER_METHOD(0x01D82C80, IWebProxy *, CreateDefaultProxy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D82C80, IWebProxy *, CreateDefaultProxy, ());
 IL2CPP_REGISTER_METHOD(0x01D82DC0, void, __ctor, (WebProxy * __this, bool enableAutoproxy));
 IL2CPP_REGISTER_METHOD(0x01D82DD0, void, DeleteScriptEngine, (WebProxy * __this));
 IL2CPP_REGISTER_METHOD(0x00B80D80, void, UnsafeUpdateFromRegistry, (WebProxy * __this));

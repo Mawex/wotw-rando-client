@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_System::Resources::ResourceLocator_ {
 IL2CPP_REGISTER_METHOD(0x02BC76A0, bool, TryGetValue, (Dictionary_2_System_String_System_Resources_ResourceLocator_ * __this, String * key, ResourceLocator * value));

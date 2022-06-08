@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NPCMessageBox {
 IL2CPP_REGISTER_METHOD(0x00880590, void, Awake, (NPCMessageBox * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostGenericEventsPlugin {
 IL2CPP_REGISTER_METHOD(0x00E1B3E0, void, PlayCycle, (GhostGenericEventsPlugin * __this, float frameTime));

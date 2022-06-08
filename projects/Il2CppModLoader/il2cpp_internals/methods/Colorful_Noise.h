@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Noise {
 IL2CPP_REGISTER_METHOD(0x0304C090, void, Update, (Noise * __this));

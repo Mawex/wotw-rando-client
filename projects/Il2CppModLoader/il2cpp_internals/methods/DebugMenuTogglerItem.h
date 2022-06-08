@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugMenuTogglerItem {
 IL2CPP_REGISTER_METHOD(0x00DF7B50, void, __ctor, (DebugMenuTogglerItem * __this, String * path, IDebugMenuToggleable * toggleable));

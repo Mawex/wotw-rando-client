@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02732170, bool, get_IsValid, (NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_System_Object_ * __this));

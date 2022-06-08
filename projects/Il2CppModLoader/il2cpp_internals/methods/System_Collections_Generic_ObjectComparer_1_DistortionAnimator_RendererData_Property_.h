@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_DistortionAnimator_RendererData_Property_ {
 IL2CPP_REGISTER_METHOD(0x02C2A170, int32_t, Compare, (ObjectComparer_1_DistortionAnimator_RendererData_Property_ * __this, DistortionAnimator_RendererData_Property x, DistortionAnimator_RendererData_Property y));

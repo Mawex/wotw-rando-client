@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsDateConverter {
 IL2CPP_REGISTER_METHOD(0x01652370, String *, get_DateTimeFormatString, (fsDateConverter * __this));

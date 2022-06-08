@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSoulFlame {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinSoulFlame * __this));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHOD(0x005DF0A0, void, Serialize, (SeinSoulFlame * __this, Arc
 IL2CPP_REGISTER_METHOD(0x005DF590, void, SpawnSoulFlame, (SeinSoulFlame * __this, Vector3 position));
 IL2CPP_REGISTER_METHOD(0x005DF6E0, void, DestroySoulFlame, (SeinSoulFlame * __this));
 IL2CPP_REGISTER_METHOD(0x005DF7F0, void, __ctor, (SeinSoulFlame * __this));
-IL2CPP_REGISTER_METHOD(0x005DF970, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005DF970, void, __cctor, ());
 }

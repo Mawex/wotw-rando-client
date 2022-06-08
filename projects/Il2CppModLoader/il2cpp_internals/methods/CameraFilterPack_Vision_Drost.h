@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Vision_Drost {
 IL2CPP_REGISTER_METHOD(0x020F7070, Material *, get_material, (CameraFilterPack_Vision_Drost * __this));

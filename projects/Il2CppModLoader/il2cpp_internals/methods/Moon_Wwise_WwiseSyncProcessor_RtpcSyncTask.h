@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseSyncProcessor_RtpcSyncTask {
 IL2CPP_REGISTER_METHOD(0x002FB930, Func_1_Single_ *, get_Getter, (WwiseSyncProcessor_RtpcSyncTask * __this));

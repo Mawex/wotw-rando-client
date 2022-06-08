@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::FieldAccessException {
 IL2CPP_REGISTER_METHOD(0x01A1C8E0, void, __ctor, (FieldAccessException * __this));

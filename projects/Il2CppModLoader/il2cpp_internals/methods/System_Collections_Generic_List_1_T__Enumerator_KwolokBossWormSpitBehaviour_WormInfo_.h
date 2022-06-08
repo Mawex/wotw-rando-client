@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_KwolokBossWormSpitBehaviour_WormInfo_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, KwolokBossWormSpitBehaviour_WormInfo *, get_Current, (List_1_T_Enumerator_KwolokBossWormSpitBehaviour_WormInfo___Boxed * __this));

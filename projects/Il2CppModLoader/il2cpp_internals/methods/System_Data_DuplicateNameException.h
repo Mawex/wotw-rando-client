@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DuplicateNameException {
 IL2CPP_REGISTER_METHOD(0x01F4D160, void, __ctor, (DuplicateNameException * __this, SerializationInfo * info, StreamingContext context));

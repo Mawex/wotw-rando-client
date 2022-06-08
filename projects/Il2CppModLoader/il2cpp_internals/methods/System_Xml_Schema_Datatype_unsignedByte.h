@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_unsignedByte {
 IL2CPP_REGISTER_METHOD(0x02361B00, FacetsChecker *, get_FacetsChecker, (Datatype_unsignedByte * __this));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHOD(0x02361C60, Type *, get_ValueType, (Datatype_unsignedByte
 IL2CPP_REGISTER_METHOD(0x02361D00, Type *, get_ListValueType, (Datatype_unsignedByte * __this));
 IL2CPP_REGISTER_METHOD(0x02361DA0, Exception *, TryParseValue, (Datatype_unsignedByte * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x02361F50, void, __ctor, (Datatype_unsignedByte * __this));
-IL2CPP_REGISTER_METHOD(0x02361FF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02361FF0, void, __cctor, ());
 }

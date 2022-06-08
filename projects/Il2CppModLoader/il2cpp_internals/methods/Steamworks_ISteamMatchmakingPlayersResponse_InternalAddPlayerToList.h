@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::ISteamMatchmakingPlayersResponse_InternalAddPlayerToList {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (ISteamMatchmakingPlayersResponse_InternalAddPlayerToList * __this, Object * object, void * method_1));

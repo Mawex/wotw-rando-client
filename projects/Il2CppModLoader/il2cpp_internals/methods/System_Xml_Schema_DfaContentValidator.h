@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::DfaContentValidator {
 IL2CPP_REGISTER_METHOD(0x02364CC0, void, __ctor, (DfaContentValidator * __this, Int32__Array__Array * transitionTable, SymbolsDictionary * symbols, XmlSchemaContentType__Enum contentType, bool isOpen, bool isEmptiable));

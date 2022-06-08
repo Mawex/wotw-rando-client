@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::SmtpSpecifiedPickupDirectoryElement {
 IL2CPP_REGISTER_METHOD(0x01E99260, void, __ctor, (SmtpSpecifiedPickupDirectoryElement * __this));

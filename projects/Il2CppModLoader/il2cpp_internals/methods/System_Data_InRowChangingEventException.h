@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::InRowChangingEventException {
 IL2CPP_REGISTER_METHOD(0x01E39B40, void, __ctor, (InRowChangingEventException * __this, SerializationInfo * info, StreamingContext context));

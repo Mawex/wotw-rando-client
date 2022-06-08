@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolPerfTest__SetupAutomatedTest_d__32 {
 IL2CPP_REGISTER_METHOD(0x00123980, void, MoveNext, (UberPoolPerfTest_SetupAutomatedTest_d_32__Boxed * __this));

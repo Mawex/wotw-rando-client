@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::HttpRequestException {
 IL2CPP_REGISTER_METHOD(0x02D1C400, void, __ctor, (HttpRequestException * __this));

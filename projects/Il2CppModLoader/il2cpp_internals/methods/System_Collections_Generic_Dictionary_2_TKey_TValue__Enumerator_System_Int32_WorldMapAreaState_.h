@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::Int32_WorldMapAreaState_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, KeyValuePair_2_System_Int32_WorldMapAreaState_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_System_Int32_WorldMapAreaState___Boxed * __this));

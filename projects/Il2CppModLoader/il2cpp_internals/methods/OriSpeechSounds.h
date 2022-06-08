@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OriSpeechSounds {
 IL2CPP_REGISTER_METHOD(0x00440050, void, Awake, (OriSpeechSounds * __this));

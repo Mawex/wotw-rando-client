@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoPropertyInfo {
 IL2CPP_REGISTER_METHOD(0x02694530, void, get_property_info, (MonoProperty * prop, MonoPropertyInfo * info, PInfo__Enum req_info));

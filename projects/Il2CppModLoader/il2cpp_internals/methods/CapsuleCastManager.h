@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CapsuleCastManager {
 IL2CPP_REGISTER_METHOD(0x00B22E80, CapsulecastCommand, get_InvalidCmd, (CapsuleCastManager * __this));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHOD(0x00B23140, bool, PerformImmediateCast, (CapsuleCastManag
 IL2CPP_REGISTER_METHOD(0x002FA000, void, CheckDuplicate, (CapsuleCastManager * __this, CapsulecastCommand cmd, int32_t idx));
 IL2CPP_REGISTER_METHOD(0x00B232B0, bool, PerformCast, (CapsulecastCommand cmd, RaycastHit * hit, int32_t * requestID, bool guaranteeImmediateResult, bool forceImmediate));
 IL2CPP_REGISTER_METHOD(0x00B23480, void, __ctor, (CapsuleCastManager * __this));
-IL2CPP_REGISTER_METHOD(0x00B23520, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B23520, void, __cctor, ());
 }

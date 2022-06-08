@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShuoldShowHDRToggleCondition {
 IL2CPP_REGISTER_METHOD(0x0073E0F0, bool, Validate, (ShuoldShowHDRToggleCondition * __this, IContext * context));

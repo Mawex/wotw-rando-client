@@ -1,13 +1,13 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GrabbableSurface {
-IL2CPP_REGISTER_METHOD(0x0107B800, int32_t, get_InstanceCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0107B800, int32_t, get_InstanceCount, ());
 IL2CPP_REGISTER_METHOD(0x0107B8A0, void, set_InstanceCount, (int32_t value));
 IL2CPP_REGISTER_METHOD(0x0107B950, void, Awake, (GrabbableSurface * __this));
 IL2CPP_REGISTER_METHOD(0x0107B9F0, void, OnDestroy, (GrabbableSurface * __this));
-IL2CPP_REGISTER_METHOD(0x0107BA90, GrabbableSurfaceSettings *, get_GrabSurfaceSettings, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0107BA90, GrabbableSurfaceSettings *, get_GrabSurfaceSettings, ());
 IL2CPP_REGISTER_METHOD(0x0107BD30, void, set_GrabSurfaceSettings, (GrabbableSurfaceSettings * value));
-IL2CPP_REGISTER_METHOD(0x0107BDE0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0107BDE0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00A35C30, float, get_OriCloseEnoughDistance, (GrabbableSurface * __this));
 IL2CPP_REGISTER_METHOD(0x003FF7B0, int32_t, get_SpiritLeashCost, (GrabbableSurface * __this));
 IL2CPP_REGISTER_METHOD(0x002FBBE0, Transform *, get_HookTargetTransform, (GrabbableSurface * __this));
@@ -51,13 +51,13 @@ IL2CPP_REGISTER_METHOD(0x0107FC60, Vector3, AdvancePosition, (GrabbableSurface *
 IL2CPP_REGISTER_METHOD(0x0107FE60, Vector3, AdvancePosition, (GrabbableSurface * __this, float moveDistance, GrabbableSurface_PositionInfo * positionInfo));
 IL2CPP_REGISTER_METHOD(0x010805F0, bool, CanMoveThroughSegments, (GrabbableSurface * __this, Vector3 seg0, Vector3 seg1, float minAngle, Vector3 segmentEndPos));
 IL2CPP_REGISTER_METHOD(0x010808C0, void, CopyPositionInfo, (GrabbableSurface * __this, GrabbableSurface_PositionInfo * source, GrabbableSurface_PositionInfo * destination));
-IL2CPP_REGISTER_METHOD(0x01080930, float, get_AngleOfNormalWithDownToConsiderGround, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010809D0, float, get_AngleOfNormalWithDownToConsiderCeiling, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01080930, float, get_AngleOfNormalWithDownToConsiderGround, ());
+IL2CPP_REGISTER_METHOD(0x010809D0, float, get_AngleOfNormalWithDownToConsiderCeiling, ());
 IL2CPP_REGISTER_METHOD(0x01080A70, bool, IsWallNormal, (Vector2 n));
 IL2CPP_REGISTER_METHOD(0x01080BA0, bool, IsLeftWallNormal, (Vector2 n));
 IL2CPP_REGISTER_METHOD(0x01080D50, bool, IsRightWallNormal, (Vector2 n));
 IL2CPP_REGISTER_METHOD(0x01080F00, bool, IsCeilingNormal, (Vector2 n));
 IL2CPP_REGISTER_METHOD(0x01080FF0, bool, IsGroundNormal, (Vector2 n));
 IL2CPP_REGISTER_METHOD(0x010810E0, void, __ctor, (GrabbableSurface * __this));
-IL2CPP_REGISTER_METHOD(0x01081A00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01081A00, void, __cctor, ());
 }

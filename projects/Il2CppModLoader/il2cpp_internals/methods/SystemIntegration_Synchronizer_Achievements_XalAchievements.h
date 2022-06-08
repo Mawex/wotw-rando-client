@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::XalAchievements {
 IL2CPP_REGISTER_METHOD(0x0052F860, String *, get_Name, (XalAchievements * __this));
@@ -6,7 +6,7 @@ IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_IsSynchronising, (XalAchievements *
 IL2CPP_REGISTER_METHOD(0x0052C650, void, set_IsSynchronising, (XalAchievements * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00504D80, bool, get_HasSynchronised, (XalAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052C660, void, set_HasSynchronised, (XalAchievements * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x0052F8E0, bool, get_Disable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0052F8E0, bool, get_Disable, ());
 IL2CPP_REGISTER_METHOD(0x0052F960, void, set_Disable, (bool value));
 IL2CPP_REGISTER_METHOD(0x002FB930, CacheData__Array *, AwardedOnServer, (XalAchievements * __this));
 IL2CPP_REGISTER_METHOD(0x0052F9F0, void, AwardOnServer, (XalAchievements * __this, CacheData * data));

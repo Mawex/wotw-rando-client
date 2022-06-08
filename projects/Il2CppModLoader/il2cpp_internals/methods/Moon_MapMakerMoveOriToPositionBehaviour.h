@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MapMakerMoveOriToPositionBehaviour {
 IL2CPP_REGISTER_METHOD(0x0110EC90, void, OnEnter, (MapMakerMoveOriToPositionBehaviour * __this, IContext * context));

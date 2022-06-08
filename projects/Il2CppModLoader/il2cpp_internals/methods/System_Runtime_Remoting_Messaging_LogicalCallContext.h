@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::LogicalCallContext {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LogicalCallContext * __this));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x02311C10, void, Merge, (LogicalCallContext * __this, Lo
 IL2CPP_REGISTER_METHOD(0x02311F00, bool, get_HasInfo, (LogicalCallContext * __this));
 IL2CPP_REGISTER_METHOD(0x023107C0, bool, get_HasUserData, (LogicalCallContext * __this));
 IL2CPP_REGISTER_METHOD(0x02311F60, Hashtable *, get_Datastore, (LogicalCallContext * __this));
-IL2CPP_REGISTER_METHOD(0x023120D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023120D0, void, __cctor, ());
 }

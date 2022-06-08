@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Behavior {
 IL2CPP_REGISTER_METHOD(0x026198E0, void, __ctor, (Behavior * __this, bool quality, double minAngle));
 IL2CPP_REGISTER_METHOD(0x02619910, void, Update, (Behavior * __this));
-IL2CPP_REGISTER_METHOD(0x02619BA0, bool, get_NoExact, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02619BA0, bool, get_NoExact, ());
 IL2CPP_REGISTER_METHOD(0x02619C20, void, set_NoExact, (bool value));
 IL2CPP_REGISTER_METHOD(0x00504D80, bool, get_Quality, (Behavior * __this));
 IL2CPP_REGISTER_METHOD(0x02619CB0, void, set_Quality, (Behavior * __this, bool value));

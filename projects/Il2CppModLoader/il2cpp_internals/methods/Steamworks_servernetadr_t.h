@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::servernetadr_t {
 IL2CPP_REGISTER_METHOD(0x00113C90, void, Init, (servernetadr_t__Boxed * __this, uint32_t ip, uint16_t usQueryPort, uint16_t usConnectionPort));

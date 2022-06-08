@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::PetrifiedOwlFeedingGroundsPOwlController {
 IL2CPP_REGISTER_METHOD(0x014E2CA0, void, OnEnable, (PetrifiedOwlFeedingGroundsPOwlController * __this));

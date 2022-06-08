@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::BleachBypass {
 IL2CPP_REGISTER_METHOD(0x0303F4C0, void, OnRenderImage, (BleachBypass * __this, RenderTexture * source, RenderTexture * destination));

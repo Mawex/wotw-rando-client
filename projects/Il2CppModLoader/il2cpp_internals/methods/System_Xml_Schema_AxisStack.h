@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::AxisStack {
 IL2CPP_REGISTER_METHOD(0x002FB930, ForwardAxis *, get_Subtree, (AxisStack * __this));

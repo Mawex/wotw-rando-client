@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ScrollRect {
 IL2CPP_REGISTER_METHOD(0x02668580, void, __ctor, (ScrollRect * __this));

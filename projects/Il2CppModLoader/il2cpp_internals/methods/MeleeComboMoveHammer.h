@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeComboMoveHammer {
 IL2CPP_REGISTER_METHOD(0x00BC6E90, HammerComboMoveBase_BalancingData *, get_BalancingBase, (MeleeComboMoveHammer * __this));

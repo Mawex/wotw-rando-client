@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FPSAiming {
 IL2CPP_REGISTER_METHOD(0x0221B3C0, void, Start, (FPSAiming * __this));

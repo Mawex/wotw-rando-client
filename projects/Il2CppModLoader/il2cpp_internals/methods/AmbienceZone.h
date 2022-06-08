@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AmbienceZone {
 IL2CPP_REGISTER_METHOD(0x004F7280, Rect, get_EditorBounds, (AmbienceZone * __this));

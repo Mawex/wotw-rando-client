@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JTokenWriter {
 IL2CPP_REGISTER_METHOD(0x01858240, JToken *, get_Token, (JTokenWriter * __this));

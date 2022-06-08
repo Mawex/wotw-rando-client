@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ShowGetWispTextEntity {
 IL2CPP_REGISTER_METHOD(0x00D026D0, void, OnStartPlayback, (ShowGetWispTextEntity * __this, IContext * context));

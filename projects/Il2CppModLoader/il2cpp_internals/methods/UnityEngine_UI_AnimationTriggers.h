@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::AnimationTriggers {
 IL2CPP_REGISTER_METHOD(0x01F2AAA0, void, __ctor, (AnimationTriggers * __this));

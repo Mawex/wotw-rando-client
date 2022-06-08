@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MusicSource {
 IL2CPP_REGISTER_METHOD(0x0087E710, void, Start, (MusicSource * __this));

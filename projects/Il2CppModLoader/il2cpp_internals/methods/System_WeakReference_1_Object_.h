@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::WeakReference_1_Object_ {
 IL2CPP_REGISTER_METHOD(0x02259DF0, void, __ctor, (WeakReference_1_Object_ * __this, Object * target));

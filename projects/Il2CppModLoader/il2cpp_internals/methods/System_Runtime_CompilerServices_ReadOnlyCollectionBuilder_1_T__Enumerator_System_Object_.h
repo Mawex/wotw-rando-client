@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1_T__Enumerator_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB950, Object *, get_Current, (ReadOnlyCollectionBuilder_1_T_Enumerator_System_Object_ * __this));

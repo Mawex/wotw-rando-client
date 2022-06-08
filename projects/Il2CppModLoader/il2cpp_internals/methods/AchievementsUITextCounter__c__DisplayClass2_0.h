@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AchievementsUITextCounter___c__DisplayClass2_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AchievementsUITextCounter_c_DisplayClass2_0 * __this));

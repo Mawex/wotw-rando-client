@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoleEntity {
 IL2CPP_REGISTER_METHOD(0x01331CE0, String *, get_DialogActorName, (MoleEntity * __this));

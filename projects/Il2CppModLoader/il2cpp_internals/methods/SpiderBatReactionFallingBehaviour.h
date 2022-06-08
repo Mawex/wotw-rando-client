@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatReactionFallingBehaviour {
 IL2CPP_REGISTER_METHOD(0x0095E670, void, OnEnterFalling, (SpiderBatReactionFallingBehaviour * __this));

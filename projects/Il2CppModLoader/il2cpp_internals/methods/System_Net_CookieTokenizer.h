@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::CookieTokenizer {
 IL2CPP_REGISTER_METHOD(0x01EA8A40, void, __ctor, (CookieTokenizer * __this, String * tokenStream));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x01EA8B40, CookieToken__Enum, FindNext, (CookieTokenizer
 IL2CPP_REGISTER_METHOD(0x01EA8E20, CookieToken__Enum, Next, (CookieTokenizer * __this, bool first, bool parseResponseCookies));
 IL2CPP_REGISTER_METHOD(0x01EA8FD0, void, Reset, (CookieTokenizer * __this));
 IL2CPP_REGISTER_METHOD(0x01EA9090, CookieToken__Enum, TokenFromName, (CookieTokenizer * __this, bool parseResponseCookies));
-IL2CPP_REGISTER_METHOD(0x01EA9380, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EA9380, void, __cctor, ());
 }

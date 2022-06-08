@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::PocoJsonSerializerStrategy {
 IL2CPP_REGISTER_METHOD(0x0184C8A0, void, __ctor, (PocoJsonSerializerStrategy * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x0184F6A0, Object *, SerializeEnum, (PocoJsonSerializerS
 IL2CPP_REGISTER_METHOD(0x0184F790, bool, TrySerializeKnownTypes, (PocoJsonSerializerStrategy * __this, Object * input, Object * * output));
 IL2CPP_REGISTER_METHOD(0x0184FAE0, bool, TrySerializeUnknownTypes, (PocoJsonSerializerStrategy * __this, Object * input, Object * * output));
 IL2CPP_REGISTER_METHODINFO(0x047225B8, PocoJsonSerializerStrategy_TrySerializeUnknownTypes__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0184FF90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0184FF90, void, __cctor, ());
 }

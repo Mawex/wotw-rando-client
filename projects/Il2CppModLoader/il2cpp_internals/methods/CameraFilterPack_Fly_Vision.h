@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Fly_Vision {
 IL2CPP_REGISTER_METHOD(0x024772A0, Material *, get_material, (CameraFilterPack_Fly_Vision * __this));

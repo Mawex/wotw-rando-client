@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::ConnectionManagementSection {
 IL2CPP_REGISTER_METHOD(0x02018C50, void, __ctor, (ConnectionManagementSection * __this));

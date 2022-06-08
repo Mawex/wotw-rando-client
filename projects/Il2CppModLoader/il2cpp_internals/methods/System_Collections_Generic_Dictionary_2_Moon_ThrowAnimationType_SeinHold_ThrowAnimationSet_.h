@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::ThrowAnimationType_SeinHold_ThrowAnimationSet_ {
 IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet_ * __this, ThrowAnimationType__Enum key, SeinHold_ThrowAnimationSet * value));

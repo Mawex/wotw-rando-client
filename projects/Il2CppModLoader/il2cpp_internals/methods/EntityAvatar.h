@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityAvatar {
 IL2CPP_REGISTER_METHOD(0x00C8C150, Vector2, get_LookDirection, (EntityAvatar * __this));

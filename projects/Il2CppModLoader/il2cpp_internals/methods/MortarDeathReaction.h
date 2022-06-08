@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarDeathReaction {
 IL2CPP_REGISTER_METHOD(0x00F134D0, void, OnInitializeTask, (MortarDeathReaction * __this, IContext * context));

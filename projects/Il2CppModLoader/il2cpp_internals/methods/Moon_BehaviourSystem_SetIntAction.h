@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::SetIntAction {
 IL2CPP_REGISTER_METHOD(0x03010BF0, String *, get_Info, (SetIntAction * __this));

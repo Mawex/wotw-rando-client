@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::WeaponJoint_System::String_ {
 IL2CPP_REGISTER_METHOD(0x02C35530, String *, get_Item, (Dictionary_2_Moon_WeaponJoint_System_String_ * __this, WeaponJoint__Enum key));

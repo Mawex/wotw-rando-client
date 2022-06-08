@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonSwarm {
 IL2CPP_REGISTER_METHOD(0x00CA25B0, bool, get_IsSuspended, (MoonSwarm * __this));

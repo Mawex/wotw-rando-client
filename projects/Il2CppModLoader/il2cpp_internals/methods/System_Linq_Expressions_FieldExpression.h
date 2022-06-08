@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::FieldExpression {
 IL2CPP_REGISTER_METHOD(0x022CFD90, void, __ctor, (FieldExpression * __this, Expression * expression, FieldInfo_1 * member));

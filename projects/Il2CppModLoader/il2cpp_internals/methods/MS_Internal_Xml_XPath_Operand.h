@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::Operand {
 IL2CPP_REGISTER_METHOD(0x01DE2830, void, __ctor, (Operand * __this, String * val));

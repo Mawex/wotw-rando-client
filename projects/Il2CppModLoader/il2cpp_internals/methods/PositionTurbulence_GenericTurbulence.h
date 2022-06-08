@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PositionTurbulence_GenericTurbulence {
 IL2CPP_REGISTER_METHOD(0x00C693E0, void, Update, (PositionTurbulence_GenericTurbulence * __this, float deltaTime));

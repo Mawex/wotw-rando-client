@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostUberStatePlugin_UberStateData {
 IL2CPP_REGISTER_METHOD(0x007EC4E0, void, Save, (GhostUberStatePlugin_UberStateData * __this, BinaryWriter * binaryWriter));

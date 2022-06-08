@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver_SetupStateControllerLinkSerializedData {
 IL2CPP_REGISTER_METHOD(0x01B64A30, void, __ctor, (NewSetupStateControllerResolver_SetupStateControllerLinkSerializedData * __this, int32_t stateGuid, int32_t modifierGuid, NewSetupStateController * controller, MemberInfo_1 * targetMemberInfo));

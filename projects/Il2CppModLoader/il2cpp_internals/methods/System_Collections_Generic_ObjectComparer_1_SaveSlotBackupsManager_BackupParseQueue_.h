@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_SaveSlotBackupsManager_BackupParseQueue_ {
 IL2CPP_REGISTER_METHOD(0x01CC86B0, int32_t, Compare, (ObjectComparer_1_SaveSlotBackupsManager_BackupParseQueue_ * __this, SaveSlotBackupsManager_BackupParseQueue x, SaveSlotBackupsManager_BackupParseQueue y));

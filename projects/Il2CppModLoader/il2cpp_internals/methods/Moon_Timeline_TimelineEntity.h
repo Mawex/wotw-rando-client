@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineEntity {
 IL2CPP_REGISTER_METHOD(0x01E85270, bool, get_IsReadOnly, (TimelineEntity * __this));
@@ -52,7 +52,7 @@ IL2CPP_REGISTER_METHOD(0x01E85D80, void, PostEvent, (TimelineEntity * __this, in
 IL2CPP_REGISTER_METHOD(0x01E85E20, void, PostRequest, (TimelineEntity * __this, int32_t eventId, TimelineEntity * entity));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnRootScopeStopped, (TimelineEntity * __this));
 IL2CPP_REGISTER_METHOD(0x01E85EC0, void, __ctor, (TimelineEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01552AE0, void, PostEvent, (TimelineEntity * __this, GennadiysDice_DiceEvents__Enum evt));
 IL2CPP_REGISTER_METHODINFO(0x047143C8, TimelineEntity_PostEvent_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01552AE0, void, PostEvent, (TimelineEntity * __this, FixedDurationSceneEntity_Markers__Enum evt));

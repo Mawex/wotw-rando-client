@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::BidirectionalDictionary_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01D09C20, void, __ctor, (BidirectionalDictionary_2_System_Object_System_Object__1 * __this, IEqualityComparer_1_System_Object_ * firstEqualityComparer, IEqualityComparer_1_System_Object_ * secondEqualityComparer, String * duplicateFirstErrorMessage, String * duplicateSecondErrorMessage));

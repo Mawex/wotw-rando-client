@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Algorithm::Incremental {
 IL2CPP_REGISTER_METHOD(0x02635A00, IMesh *, Triangulate, (Incremental * __this, IList_1_TriangleNet_Geometry_Vertex_ * points, Configuration_1 * config));

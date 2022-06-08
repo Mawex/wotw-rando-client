@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderTextureBase {
 IL2CPP_REGISTER_METHOD(0x012885A0, bool, get_IsTransformed, (UberShaderTextureBase * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x01288D50, void, BindTexSettings, (UberShaderTextureBase
 IL2CPP_REGISTER_METHOD(0x01288F90, void, BindOptions, (UberShaderTextureBase * __this));
 IL2CPP_REGISTER_METHOD(0x012891B0, void, BindBase, (UberShaderTextureBase * __this));
 IL2CPP_REGISTER_METHOD(0x012894D0, void, __ctor, (UberShaderTextureBase * __this));
-IL2CPP_REGISTER_METHOD(0x012895C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x012895C0, void, __cctor, ());
 }

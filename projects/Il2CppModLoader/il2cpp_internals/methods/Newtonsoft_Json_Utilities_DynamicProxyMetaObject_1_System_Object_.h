@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x01D0FA30, Expression__Array *, get_NoArgs, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D0FA30, Expression__Array *, get_NoArgs, ());
 IL2CPP_REGISTER_METHOD(0x01D0F010, void, __ctor, (DynamicProxyMetaObject_1_System_Object_ * __this, Expression * expression, Object * value, DynamicProxy_1_System_Object_ * proxy));
 IL2CPP_REGISTER_METHOD(0x01D0F130, bool, IsOverridden, (DynamicProxyMetaObject_1_System_Object_ * __this, String * method_1));
 IL2CPP_REGISTER_METHOD(0x01D0F250, DynamicMetaObject *, BindGetMember, (DynamicProxyMetaObject_1_System_Object_ * __this, GetMemberBinder * binder));

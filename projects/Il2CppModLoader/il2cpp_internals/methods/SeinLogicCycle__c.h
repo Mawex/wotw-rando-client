@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinLogicCycle___c {
-IL2CPP_REGISTER_METHOD(0x008A17B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008A17B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SeinLogicCycle_c * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, _RegisterIsAllowedDelegates_b__237_9, (SeinLogicCycle_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x0478F720, SeinLogicCycle_c__RegisterIsAllowedDelegates_b__237_9__MethodInfo);

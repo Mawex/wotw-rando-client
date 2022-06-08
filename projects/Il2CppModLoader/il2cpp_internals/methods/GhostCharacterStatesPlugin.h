@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostCharacterStatesPlugin {
 IL2CPP_REGISTER_METHOD(0x00E19560, void, PlayCycle, (GhostCharacterStatesPlugin * __this, float time));

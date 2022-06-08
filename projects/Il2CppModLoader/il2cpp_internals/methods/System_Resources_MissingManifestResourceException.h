@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::MissingManifestResourceException {
 IL2CPP_REGISTER_METHOD(0x01A83FA0, void, __ctor, (MissingManifestResourceException * __this));

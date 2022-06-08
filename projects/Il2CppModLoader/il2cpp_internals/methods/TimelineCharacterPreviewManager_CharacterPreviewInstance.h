@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimelineCharacterPreviewManager_CharacterPreviewInstance {
 IL2CPP_REGISTER_METHOD(0x010F6290, Transform *, get_Transform, (TimelineCharacterPreviewManager_CharacterPreviewInstance * __this));

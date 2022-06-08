@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFovOffsetMixer_OffsetResult {
 IL2CPP_REGISTER_METHOD(0x0010FDD0, float, get_AdditiveFieldOfView, (CameraFovOffsetMixer_OffsetResult__Boxed * __this));

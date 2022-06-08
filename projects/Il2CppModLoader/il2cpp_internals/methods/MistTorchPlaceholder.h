@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MistTorchPlaceholder {
 IL2CPP_REGISTER_METHOD(0x013276C0, void, FixedUpdate, (MistTorchPlaceholder * __this));

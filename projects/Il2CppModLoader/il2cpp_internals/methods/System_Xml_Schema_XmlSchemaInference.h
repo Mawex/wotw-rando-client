@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaInference {
 IL2CPP_REGISTER_METHOD(0x008F7CD0, void, set_Occurrence, (XmlSchemaInference * __this, XmlSchemaInference_InferenceOption__Enum value));
@@ -39,5 +39,5 @@ IL2CPP_REGISTER_METHOD(0x01CB32F0, XmlSchemaElement *, CreateNewElementforChoice
 IL2CPP_REGISTER_METHOD(0x01CB3630, int32_t, GetSchemaType, (XmlQualifiedName * qname));
 IL2CPP_REGISTER_METHODINFO(0x04726AD0, XmlSchemaInference_GetSchemaType__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01CB4410, void, SetMinMaxOccurs, (XmlSchemaInference * __this, XmlSchemaElement * el, bool setMaxOccurs));
-IL2CPP_REGISTER_METHOD(0x01CB46A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CB46A0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WeightedGroup_1_Moon::BehaviourSystem::BehaviourNode_ {
 IL2CPP_REGISTER_METHOD(0x02AD0150, BehaviourNode *, GetRandomElement, (WeightedGroup_1_Moon_BehaviourSystem_BehaviourNode_ * __this));

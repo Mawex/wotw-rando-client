@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::NullReferenceException {
 IL2CPP_REGISTER_METHOD(0x0226F5A0, void, __ctor, (NullReferenceException * __this));

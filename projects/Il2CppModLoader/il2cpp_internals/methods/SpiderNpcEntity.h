@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderNpcEntity {
 IL2CPP_REGISTER_METHOD(0x011BE8A0, String *, get_DialogActorName, (SpiderNpcEntity * __this));

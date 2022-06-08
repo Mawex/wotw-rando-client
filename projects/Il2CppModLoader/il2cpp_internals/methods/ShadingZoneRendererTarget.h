@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShadingZoneRendererTarget {
 IL2CPP_REGISTER_METHOD(0x005A8FE0, void, __ctor, (ShadingZoneRendererTarget * __this, Renderer * renderer));

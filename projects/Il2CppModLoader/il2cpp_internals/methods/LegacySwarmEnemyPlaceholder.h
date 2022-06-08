@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacySwarmEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x00A3B640, LegacyEntity *, Instantiate, (LegacySwarmEnemyPlaceholder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::experiments::npcs::weaponMaster::scripts::SkillUpgradeShopPurchaseResultCondition {
 IL2CPP_REGISTER_METHOD(0x00F59B90, bool, Validate, (SkillUpgradeShopPurchaseResultCondition * __this, IContext * context));

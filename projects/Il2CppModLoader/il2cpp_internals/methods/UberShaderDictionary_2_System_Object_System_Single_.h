@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_System::Object_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x0225F2F0, void, OnBeforeSerialize, (UberShaderDictionary_2_System_Object_System_Single_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Interp {
 IL2CPP_REGISTER_METHOD(0x02A2A500, float, Float, (float t, InterpolationMode__Enum mode));

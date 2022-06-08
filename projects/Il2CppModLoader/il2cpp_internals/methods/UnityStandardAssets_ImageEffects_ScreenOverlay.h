@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ScreenOverlay {
 IL2CPP_REGISTER_METHOD(0x02516910, bool, CheckResources, (ScreenOverlay * __this));

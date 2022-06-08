@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HitReactionBehaviourOld {
 IL2CPP_REGISTER_METHOD(0x014AB990, void, Awake, (HitReactionBehaviourOld * __this));

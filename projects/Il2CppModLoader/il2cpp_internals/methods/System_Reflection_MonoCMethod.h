@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoCMethod {
 IL2CPP_REGISTER_METHOD(0x0268F2D0, MethodImplAttributes__Enum, GetMethodImplementationFlags, (MonoCMethod * __this));
@@ -26,7 +26,7 @@ IL2CPP_REGISTER_METHOD(0x0268FAF0, Object__Array *, GetCustomAttributes, (MonoCM
 IL2CPP_REGISTER_METHOD(0x0268FBB0, MethodBody *, GetMethodBody, (MonoCMethod * __this));
 IL2CPP_REGISTER_METHOD(0x0268FBD0, String *, ToString, (MonoCMethod * __this));
 IL2CPP_REGISTER_METHOD(0x0268FE80, IList_1_System_Reflection_CustomAttributeData_ *, GetCustomAttributesData, (MonoCMethod * __this));
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_core_clr_security_level, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_core_clr_security_level, ());
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsSecurityCritical, (MonoCMethod * __this));
 IL2CPP_REGISTER_METHOD(0x0268FE90, void, __ctor, (MonoCMethod * __this));
 }

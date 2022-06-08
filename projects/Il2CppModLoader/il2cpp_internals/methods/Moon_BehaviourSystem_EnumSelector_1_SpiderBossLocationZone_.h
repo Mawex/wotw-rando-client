@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EnumSelector_1_SpiderBossLocationZone_ {
 IL2CPP_REGISTER_METHOD(0x0271C890, void, __ctor, (EnumSelector_1_SpiderBossLocationZone_ * __this));

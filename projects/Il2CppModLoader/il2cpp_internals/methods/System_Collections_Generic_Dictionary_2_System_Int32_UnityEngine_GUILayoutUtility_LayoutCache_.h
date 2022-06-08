@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_UnityEngine::GUILayoutUtility_LayoutCache_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Int32_UnityEngine_GUILayoutUtility_LayoutCache_ * __this, int32_t key, GUILayoutUtility_LayoutCache * * value));

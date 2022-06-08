@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BaurEntity___c {
-IL2CPP_REGISTER_METHOD(0x00F9A1B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F9A1B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (BaurEntity_c * __this));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, _PlayLookAnimation_b__36_0, (BaurEntity_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04759138, BaurEntity_c__PlayLookAnimation_b__36_0__MethodInfo);

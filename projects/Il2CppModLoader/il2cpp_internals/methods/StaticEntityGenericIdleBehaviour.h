@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StaticEntityGenericIdleBehaviour {
 IL2CPP_REGISTER_METHOD(0x009B6360, void, OnEnterTask, (StaticEntityGenericIdleBehaviour * __this, IContext * context));

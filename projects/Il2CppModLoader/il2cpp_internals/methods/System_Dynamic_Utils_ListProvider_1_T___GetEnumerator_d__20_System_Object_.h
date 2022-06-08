@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ListProvider_1_T___GetEnumerator_d__20_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, Object *, System_Collections_Generic_IEnumerator_T__get_Current, (ListProvider_1_T_GetEnumerator_d_20_System_Object_ * __this));

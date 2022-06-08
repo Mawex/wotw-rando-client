@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundAction {
 IL2CPP_REGISTER_METHOD(0x00EE4B60, void, Perform, (SoundAction * __this, IContext * context));

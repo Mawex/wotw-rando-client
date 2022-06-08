@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UberShaderCategory_UnityEngine::Color_ {
 IL2CPP_REGISTER_METHOD(0x02C3B360, Color, get_Item, (Dictionary_2_UberShaderCategory_UnityEngine_Color_ * __this, UberShaderCategory__Enum key));

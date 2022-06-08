@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColorVariationSettings {
 IL2CPP_REGISTER_METHOD(0x011DA260, void, Copy, (ColorVariationSettings * __this, ColorVariationSettings * source));

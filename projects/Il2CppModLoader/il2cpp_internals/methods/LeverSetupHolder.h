@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeverSetupHolder {
 IL2CPP_REGISTER_METHOD(0x01137C50, LeverSetupData *, get_LeftState, (LeverSetupHolder * __this));

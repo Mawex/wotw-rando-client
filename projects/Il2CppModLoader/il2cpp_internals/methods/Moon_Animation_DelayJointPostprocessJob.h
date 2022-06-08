@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Animation::DelayJointPostprocessJob {
 IL2CPP_REGISTER_METHOD(0x001B4CD0, void, ProcessAnimation, (DelayJointPostprocessJob__Boxed * __this, AnimationStream stream));

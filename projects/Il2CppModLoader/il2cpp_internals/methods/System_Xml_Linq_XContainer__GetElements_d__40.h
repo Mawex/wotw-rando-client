@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XContainer__GetElements_d__40 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (XContainer_GetElements_d_40 * __this, int32_t __1__state));

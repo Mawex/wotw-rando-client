@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::GZipStream {
 IL2CPP_REGISTER_METHOD(0x002FBB60, String *, get_Comment, (GZipStream_1 * __this));
@@ -35,5 +35,5 @@ IL2CPP_REGISTER_METHODINFO(0x04701940, GZipStream_1_Write__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0306DB50, int32_t, EmitHeader, (GZipStream_1 * __this));
 IL2CPP_REGISTER_METHOD(0x0306E080, Byte__Array *, CompressBuffer, (Byte__Array * b));
 IL2CPP_REGISTER_METHOD(0x0306E380, Byte__Array *, UncompressBuffer, (Byte__Array * compressed));
-IL2CPP_REGISTER_METHOD(0x0306E650, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0306E650, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlUntypedConverter {
 IL2CPP_REGISTER_METHOD(0x01930730, void, __ctor, (XmlUntypedConverter * __this));
@@ -66,5 +66,5 @@ IL2CPP_REGISTER_METHOD(0x01937190, Object *, ChangeTypeWildcardSource, (XmlUntyp
 IL2CPP_REGISTER_METHOD(0x01937470, Object *, ChangeListType, (XmlUntypedConverter * __this, Object * value, Type * destinationType, IXmlNamespaceResolver * nsResolver));
 IL2CPP_REGISTER_METHODINFO(0x04702430, XmlUntypedConverter_ChangeListType__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x019377E0, bool, SupportsType, (XmlUntypedConverter * __this, Type * clrType));
-IL2CPP_REGISTER_METHOD(0x01937F50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01937F50, void, __cctor, ());
 }

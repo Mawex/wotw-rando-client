@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::FloatLUT {
 IL2CPP_REGISTER_METHOD(0x0014AFB0, void, __ctor, (FloatLUT__Boxed * __this, int32_t sampleCount));

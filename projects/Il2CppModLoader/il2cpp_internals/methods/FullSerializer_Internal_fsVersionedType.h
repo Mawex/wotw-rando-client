@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsVersionedType {
 IL2CPP_REGISTER_METHOD(0x0012BF80, Object *, Migrate, (fsVersionedType__Boxed * __this, Object * ancestorInstance));

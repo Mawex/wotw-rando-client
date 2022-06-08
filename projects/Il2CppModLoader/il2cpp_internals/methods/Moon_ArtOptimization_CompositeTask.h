@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::CompositeTask {
 IL2CPP_REGISTER_METHOD(0x0134B680, void, EnqueueSubTask, (CompositeTask * __this, IOptimizationTask * subTask));

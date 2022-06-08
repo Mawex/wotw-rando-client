@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityPlugin {
 IL2CPP_REGISTER_METHOD(0x00C9F850, void, Awake, (EntityPlugin * __this));

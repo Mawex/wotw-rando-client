@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_SeinSpiritSpearSpell_FlyingSpear_ {
 IL2CPP_REGISTER_METHOD(0x01CC8C50, int32_t, Compare, (ObjectComparer_1_SeinSpiritSpearSpell_FlyingSpear_ * __this, SeinSpiritSpearSpell_FlyingSpear x, SeinSpiritSpearSpell_FlyingSpear y));

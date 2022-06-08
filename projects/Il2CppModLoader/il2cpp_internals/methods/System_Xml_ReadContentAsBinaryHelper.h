@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::ReadContentAsBinaryHelper {
 IL2CPP_REGISTER_METHOD(0x0199F510, void, Finish, (ReadContentAsBinaryHelper * __this));

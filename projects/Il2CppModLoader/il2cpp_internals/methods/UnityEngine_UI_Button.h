@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Button {
 IL2CPP_REGISTER_METHOD(0x01F2BB30, void, __ctor, (Button * __this));

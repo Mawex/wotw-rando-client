@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_DebugInfoExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x029D4B70, void, __ctor, (Expression_DebugInfoExpressionProxy * __this, DebugInfoExpression * node));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::FullExpression_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB950, String *, get_NameCore, (FullExpression_1_System_Object_ * __this));

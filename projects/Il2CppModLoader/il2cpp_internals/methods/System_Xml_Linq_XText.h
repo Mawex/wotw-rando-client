@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XText {
 IL2CPP_REGISTER_METHOD(0x0303D1D0, void, __ctor, (XText * __this, String * value));

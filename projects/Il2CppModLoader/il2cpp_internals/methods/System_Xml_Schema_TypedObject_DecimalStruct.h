@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::TypedObject_DecimalStruct {
 IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_IsDecimal, (TypedObject_DecimalStruct * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotionProcessor {
 IL2CPP_REGISTER_METHOD(0x013673F0, void, Start, (RootMotionProcessor * __this, RootMotionProcessorData * rootMotionConfigData, MoonAnimator * animator, CharacterPlatformMovement * platformMovement, float gravity, Func_2_UnityEngine_Vector3_UnityEngine_Vector3_ * motionModifier));

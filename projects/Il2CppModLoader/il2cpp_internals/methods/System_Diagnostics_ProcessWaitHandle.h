@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::ProcessWaitHandle {
 IL2CPP_REGISTER_METHOD(0x020040B0, void, __ctor, (ProcessWaitHandle * __this, SafeProcessHandle * processHandle));

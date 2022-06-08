@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SyntaxErrorException {
 IL2CPP_REGISTER_METHOD(0x022BE900, void, __ctor, (SyntaxErrorException * __this, SerializationInfo * info, StreamingContext context));

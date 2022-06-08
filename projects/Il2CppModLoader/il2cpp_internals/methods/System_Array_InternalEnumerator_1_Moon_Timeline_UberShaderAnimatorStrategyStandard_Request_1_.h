@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_Moon::Timeline::UberShaderAnimatorStrategyStandard_Request_1_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1___Boxed * __this, Array * array));

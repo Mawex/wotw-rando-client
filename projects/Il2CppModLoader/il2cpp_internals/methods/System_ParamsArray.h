@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ParamsArray {
 IL2CPP_REGISTER_METHOD(0x001E11D0, void, __ctor, (ParamsArray__Boxed * __this, Object * arg0));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHOD(0x001E1200, void, __ctor, (ParamsArray__Boxed * __this, O
 IL2CPP_REGISTER_METHOD(0x001E1210, int32_t, get_Length, (ParamsArray__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x001E1230, Object *, get_Item, (ParamsArray__Boxed * __this, int32_t index));
 IL2CPP_REGISTER_METHOD(0x001E1240, Object *, GetAtSlow, (ParamsArray__Boxed * __this, int32_t index));
-IL2CPP_REGISTER_METHOD(0x0227EB10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0227EB10, void, __cctor, ());
 }

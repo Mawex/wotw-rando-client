@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ActivateAnimator {
 IL2CPP_REGISTER_METHOD(0x01BAF670, GameObject *, get_ExternalTarget, (ActivateAnimator * __this));

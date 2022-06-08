@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveFileExistsCondition {
 IL2CPP_REGISTER_METHOD(0x00C2AF70, bool, Validate, (SaveFileExistsCondition * __this, IContext * context));

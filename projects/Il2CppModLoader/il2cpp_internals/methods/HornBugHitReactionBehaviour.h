@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x0065FBE0, EntityDamageEvent *, get_DamageEvent, (HornBugHitReactionBehaviour * __this));

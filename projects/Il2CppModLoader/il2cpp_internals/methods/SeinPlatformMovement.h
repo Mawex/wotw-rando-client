@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinPlatformMovement {
 IL2CPP_REGISTER_METHOD(0x005C7080, bool, get_IsSphere, (SeinPlatformMovement * __this));

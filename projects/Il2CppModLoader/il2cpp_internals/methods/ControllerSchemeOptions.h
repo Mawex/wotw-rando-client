@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControllerSchemeOptions {
-IL2CPP_REGISTER_METHOD(0x011F1170, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011F1170, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x011F11F0, void, Awake, (ControllerSchemeOptions * __this));
 IL2CPP_REGISTER_METHOD(0x011F1290, void, OnDestroy, (ControllerSchemeOptions * __this));
 IL2CPP_REGISTER_METHOD(0x011F1370, void, SetControlScheme, (ControllerSchemeOptions * __this, ControlScheme__Enum scheme));

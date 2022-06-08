@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::CredentialCache_CredentialEnumerator {
 IL2CPP_REGISTER_METHOD(0x01EAAF30, void, __ctor, (CredentialCache_CredentialEnumerator * __this, CredentialCache * cache, Hashtable * table, Hashtable * hostTable, int32_t version));

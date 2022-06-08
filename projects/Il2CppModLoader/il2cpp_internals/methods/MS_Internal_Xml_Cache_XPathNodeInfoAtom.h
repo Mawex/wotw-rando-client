@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Cache::XPathNodeInfoAtom {
 IL2CPP_REGISTER_METHOD(0x002FBB80, XPathNodePageInfo *, get_PageInfo, (XPathNodeInfoAtom * __this));

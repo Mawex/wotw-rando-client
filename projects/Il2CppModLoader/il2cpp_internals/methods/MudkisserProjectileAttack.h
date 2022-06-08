@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MudkisserProjectileAttack {
 IL2CPP_REGISTER_METHOD(0x00877830, void, Shoot, (MudkisserProjectileAttack * __this));

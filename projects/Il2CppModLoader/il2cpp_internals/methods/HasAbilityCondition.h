@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasAbilityCondition {
 IL2CPP_REGISTER_METHOD(0x0109D1F0, bool, Validate, (HasAbilityCondition * __this, IContext * context));

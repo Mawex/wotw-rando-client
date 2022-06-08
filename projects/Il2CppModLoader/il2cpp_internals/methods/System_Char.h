@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Char {
 IL2CPP_REGISTER_METHOD(0x022A0120, bool, IsLatin1, (uint16_t ch));
@@ -90,5 +90,5 @@ IL2CPP_REGISTER_METHOD(0x022A2E40, String *, ConvertFromUtf32, (int32_t utf32));
 IL2CPP_REGISTER_METHODINFO(0x04787FB8, Char_ConvertFromUtf32__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x022A3000, int32_t, ConvertToUtf32, (uint16_t highSurrogate, uint16_t lowSurrogate));
 IL2CPP_REGISTER_METHODINFO(0x0477FE08, Char_ConvertToUtf32__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x022A3190, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022A3190, void, __cctor, ());
 }

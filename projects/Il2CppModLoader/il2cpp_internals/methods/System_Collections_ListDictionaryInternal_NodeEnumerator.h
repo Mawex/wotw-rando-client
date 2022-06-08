@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ListDictionaryInternal_NodeEnumerator {
 IL2CPP_REGISTER_METHOD(0x0202A190, void, __ctor, (ListDictionaryInternal_NodeEnumerator * __this, ListDictionaryInternal * list));

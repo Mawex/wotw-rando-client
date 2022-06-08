@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_System::Collections::Generic::KeyValuePair_2_ {
 IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, __ctor, (ReadOnlyCollection_1_System_Collections_Generic_KeyValuePair_2_ * __this, IList_1_KeyValuePair_2_System_DateTime_System_Object_ * list));

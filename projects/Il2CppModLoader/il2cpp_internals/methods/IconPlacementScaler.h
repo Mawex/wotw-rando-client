@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IconPlacementScaler {
 IL2CPP_REGISTER_METHOD(0x00624540, void, PlaceIcon, (IconPlacementScaler * __this, GameObject * icon, Vector3 location, bool isTeleportable));

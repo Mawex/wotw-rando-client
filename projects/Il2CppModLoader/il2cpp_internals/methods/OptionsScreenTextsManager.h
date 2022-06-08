@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OptionsScreenTextsManager {
 IL2CPP_REGISTER_METHOD(0x006193E0, void, UpdateItems, (OptionsScreenTextsManager * __this));

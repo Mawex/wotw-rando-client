@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormPatrolBehaviour {
 IL2CPP_REGISTER_METHOD(0x00413160, bool, get_IsWaterWorm, (SandWormPatrolBehaviour * __this));

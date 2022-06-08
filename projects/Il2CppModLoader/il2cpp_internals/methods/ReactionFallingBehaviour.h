@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ReactionFallingBehaviour {
 IL2CPP_REGISTER_METHOD(0x00730A90, void, OnResetEntity, (ReactionFallingBehaviour * __this));

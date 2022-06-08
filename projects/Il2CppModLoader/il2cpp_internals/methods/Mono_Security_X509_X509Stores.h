@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::X509Stores {
 IL2CPP_REGISTER_METHOD(0x01669060, void, __ctor, (X509Stores * __this, String * path, bool newFormat));

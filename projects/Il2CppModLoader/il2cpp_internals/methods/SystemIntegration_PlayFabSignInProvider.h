@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::PlayFabSignInProvider {
 IL2CPP_REGISTER_METHOD(0x0051DAB0, bool, get_IsSignedIn, (PlayFabSignInProvider * __this));
@@ -15,7 +15,7 @@ IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_EntityId, (PlayFabSignInProvider * 
 IL2CPP_REGISTER_METHOD(0x002FBBE0, String *, get_EntityType, (PlayFabSignInProvider * __this));
 IL2CPP_REGISTER_METHOD(0x002FBBF0, void, set_EntityType, (PlayFabSignInProvider * __this, String * value));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_SignInOnPressAnyButton, (PlayFabSignInProvider * __this));
-IL2CPP_REGISTER_METHOD(0x0051DC70, String *, get_CustomID, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0051DC70, String *, get_CustomID, ());
 IL2CPP_REGISTER_METHOD(0x0051DD10, void, __ctor, (PlayFabSignInProvider * __this, INetworkConnectivityChecker * netConnectivityChecker, ISignInProvider * liveSignInProvider, ISignInProvider * nonLiveSignInProvider));
 IL2CPP_REGISTER_METHOD(0x0051E390, void, SignInSilently, (PlayFabSignInProvider * __this));
 IL2CPP_REGISTER_METHOD(0x0051E3A0, void, SignIn, (PlayFabSignInProvider * __this));
@@ -31,8 +31,8 @@ IL2CPP_REGISTER_METHOD(0x00520090, void, DisplayNameUpdate, (PlayFabSignInProvid
 IL2CPP_REGISTER_METHOD(0x00520170, void, PlayFabPlatformLinkUpdate, (PlayFabSignInProvider * __this, ISignInProvider * provider, String * service));
 IL2CPP_REGISTER_METHOD(0x00520E20, void, OnLinkSuccess, (PlayFabSignInProvider * __this, String * result, String * service));
 IL2CPP_REGISTER_METHOD(0x00520EE0, void, OnLinkFailed, (PlayFabSignInProvider * __this, PlayFabError * error, String * service));
-IL2CPP_REGISTER_METHOD(0x00521030, void, SignOut, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x005210C0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00521030, void, SignOut, ());
+IL2CPP_REGISTER_METHOD(0x005210C0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x005210D0, void, _EnsureProperDisplayName_b__51_0, (PlayFabSignInProvider * __this, UpdateUserTitleDisplayNameResult * success));
 IL2CPP_REGISTER_METHODINFO(0x04763EC8, PlayFabSignInProvider__EnsureProperDisplayName_b__51_0__MethodInfo);
 }

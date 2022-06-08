@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LinearDialogTransition {
 IL2CPP_REGISTER_METHOD(0x00FA74F0, IDialogNode *, get_TransitionDestination, (LinearDialogTransition * __this));

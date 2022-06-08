@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_SystemIntegration::Races::RaceRequestResult_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_SystemIntegration_Races_RaceRequestResult_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_SystemIntegration_Races_RaceRequestResult_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x047637D8, AsyncTaskMethodBuilder_1_SystemIntegration_Races_RaceRequestResult__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3D90, void, Start, (AsyncTaskMethodBuilder_1_SystemIntegration_Races_RaceRequestResult___Boxed * __this, PlayFabRaceServiceProvider_GetRaceData_d_10 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x0478B550, AsyncTaskMethodBuilder_1_SystemIntegration_Races_RaceRequestResult__Start__MethodInfo);

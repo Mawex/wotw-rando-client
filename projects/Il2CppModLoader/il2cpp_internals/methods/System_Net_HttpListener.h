@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListener {
 IL2CPP_REGISTER_METHOD(0x01D411E0, void, __ctor, (HttpListener * __this, X509Certificate_1 * certificate, MonoTlsProvider * tlsProvider, MonoTlsSettings * tlsSettings));
@@ -15,7 +15,7 @@ IL2CPP_REGISTER_METHODINFO(0x04725BE0, HttpListener_set_ExtendedProtectionSelect
 IL2CPP_REGISTER_METHOD(0x003FCB00, bool, get_IgnoreWriteExceptions, (HttpListener * __this));
 IL2CPP_REGISTER_METHOD(0x01D42530, void, set_IgnoreWriteExceptions, (HttpListener * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00EEDBB0, bool, get_IsListening, (HttpListener * __this));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsSupported, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsSupported, ());
 IL2CPP_REGISTER_METHOD(0x01D42560, HttpListenerPrefixCollection *, get_Prefixes, (HttpListener * __this));
 IL2CPP_REGISTER_METHOD(0x01D42580, HttpListenerTimeoutManager *, get_TimeoutManager, (HttpListener * __this));
 IL2CPP_REGISTER_METHODINFO(0x04745970, HttpListener_get_TimeoutManager__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsManageabilityAttribute {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SettingsManageabilityAttribute * __this, SettingsManageability__Enum manageability));

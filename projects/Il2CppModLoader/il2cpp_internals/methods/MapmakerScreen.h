@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MapmakerScreen {
-IL2CPP_REGISTER_METHOD(0x00A0B3F0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A0B3F0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x006B8940, CleverMenuItemSelectionManager *, get_NavigationManager, (MapmakerScreen * __this));
 IL2CPP_REGISTER_METHOD(0x006B8960, bool, get_PurchasedSkillUpgrade, (MapmakerScreen * __this));
 IL2CPP_REGISTER_METHOD(0x006B8970, void, set_PurchasedSkillUpgrade, (MapmakerScreen * __this, bool value));

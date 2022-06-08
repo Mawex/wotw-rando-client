@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::XR::XRNodeState_ {
 IL2CPP_REGISTER_METHOD(0x02C0D2F0, void, Invoke, (Action_1_UnityEngine_XR_XRNodeState_ * __this, XRNodeState obj));

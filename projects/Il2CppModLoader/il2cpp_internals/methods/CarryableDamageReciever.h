@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CarryableDamageReciever {
 IL2CPP_REGISTER_METHOD(0x00B25A10, void, Awake, (CarryableDamageReciever * __this));

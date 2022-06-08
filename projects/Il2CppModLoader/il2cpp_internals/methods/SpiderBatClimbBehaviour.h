@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatClimbBehaviour {
 IL2CPP_REGISTER_METHOD(0x009552D0, bool, ShouldClimb, (SpiderBatClimbBehaviour * __this));

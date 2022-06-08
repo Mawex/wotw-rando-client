@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::RangeContentValidator {
 IL2CPP_REGISTER_METHOD(0x016E5D30, void, __ctor, (RangeContentValidator * __this, BitSet * firstpos, BitSet__Array * followpos, SymbolsDictionary * symbols, Positions * positions, int32_t endMarkerPos, XmlSchemaContentType__Enum contentType, bool isEmptiable, BitSet * positionsWithRangeTerminals, int32_t minmaxNodesCount));

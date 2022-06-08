@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::WaitBeforeIntroLogosOperation {
 IL2CPP_REGISTER_METHOD(0x00F62B80, void, __ctor, (WaitBeforeIntroLogosOperation * __this));

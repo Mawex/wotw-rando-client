@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JumpShootSharkAction {
 IL2CPP_REGISTER_METHOD(0x00E4F2A0, void, Perform, (JumpShootSharkAction * __this, IContext * context));

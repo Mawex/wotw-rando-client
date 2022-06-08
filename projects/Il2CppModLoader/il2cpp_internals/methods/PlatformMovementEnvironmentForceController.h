@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlatformMovementEnvironmentForceController {
 IL2CPP_REGISTER_METHOD(0x0116EEF0, void, Awake, (PlatformMovementEnvironmentForceController * __this));

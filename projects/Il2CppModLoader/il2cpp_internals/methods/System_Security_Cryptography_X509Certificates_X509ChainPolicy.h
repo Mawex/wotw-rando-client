@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ChainPolicy {
 IL2CPP_REGISTER_METHOD(0x021D3F90, void, __ctor, (X509ChainPolicy * __this));

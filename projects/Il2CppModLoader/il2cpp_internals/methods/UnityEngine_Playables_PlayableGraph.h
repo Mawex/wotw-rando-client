@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Playables::PlayableGraph {
-IL2CPP_REGISTER_METHOD(0x02964A30, PlayableGraph, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02964A30, PlayableGraph, Create, ());
 IL2CPP_REGISTER_METHOD(0x02964AA0, PlayableGraph, Create, (String * name));
 IL2CPP_REGISTER_METHOD(0x00216700, void, Destroy, (PlayableGraph__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00216760, bool, IsValid, (PlayableGraph__Boxed * __this));

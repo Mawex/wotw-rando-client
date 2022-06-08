@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PushPullBlockJuggleAchievement {
 IL2CPP_REGISTER_METHOD(0x00E84170, void, Awake, (PushPullBlockJuggleAchievement * __this));

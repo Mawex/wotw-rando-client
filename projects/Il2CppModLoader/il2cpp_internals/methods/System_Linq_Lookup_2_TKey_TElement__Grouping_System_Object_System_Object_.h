@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_TKey_TElement__Grouping_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, Object *, get_Key, (Lookup_2_TKey_TElement_Grouping_System_Object_System_Object_ * __this));

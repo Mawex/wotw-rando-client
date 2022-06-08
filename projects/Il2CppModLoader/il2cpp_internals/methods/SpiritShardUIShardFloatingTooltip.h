@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritShardUIShardFloatingTooltip {
 IL2CPP_REGISTER_METHOD(0x00D6F470, void, SetAnchor, (SpiritShardUIShardFloatingTooltip * __this, GameObject * newAnchor));

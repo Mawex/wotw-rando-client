@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Guid_List_1_IAttackable__ {
 IL2CPP_REGISTER_METHOD(0x0283B9A0, bool, ContainsKey, (Dictionary_2_System_Guid_List_1_IAttackable_ * __this, Guid key));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::DialogHandler {
 IL2CPP_REGISTER_METHOD(0x01DD4430, DialogHandler *, Create, (Browser * parent, DialogHandler_DialogCallback * dialogCallback, DialogHandler_MenuCallback * contextCallback));

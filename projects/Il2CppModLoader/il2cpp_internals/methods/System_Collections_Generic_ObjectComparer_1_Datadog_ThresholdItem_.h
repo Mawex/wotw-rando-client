@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Datadog_ThresholdItem_ {
 IL2CPP_REGISTER_METHOD(0x02C29EB0, int32_t, Compare, (ObjectComparer_1_Datadog_ThresholdItem_ * __this, Datadog_ThresholdItem x, Datadog_ThresholdItem y));

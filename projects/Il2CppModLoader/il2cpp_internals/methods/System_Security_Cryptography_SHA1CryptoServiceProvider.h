@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::SHA1CryptoServiceProvider {
 IL2CPP_REGISTER_METHOD(0x028F4690, void, __ctor, (SHA1CryptoServiceProvider * __this));

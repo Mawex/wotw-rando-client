@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseIntegration {
 IL2CPP_REGISTER_METHOD(0x02716110, void, Initialize, (WwiseIntegration * __this, AkWwiseInitializationSettings * config, WwiseBootstrapConfiguration * bootstrapConfig));

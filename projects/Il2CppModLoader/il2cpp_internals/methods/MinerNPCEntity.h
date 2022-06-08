@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerNPCEntity {
 IL2CPP_REGISTER_METHOD(0x0144E290, String *, get_DialogActorName, (MinerNPCEntity * __this));

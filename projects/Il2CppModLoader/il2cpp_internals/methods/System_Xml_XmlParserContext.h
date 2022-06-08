@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlParserContext {
 IL2CPP_REGISTER_METHOD(0x016FF100, void, __ctor, (XmlParserContext * __this, XmlNameTable * nt, XmlNamespaceManager * nsMgr, String * xmlLang, XmlSpace__Enum xmlSpace));

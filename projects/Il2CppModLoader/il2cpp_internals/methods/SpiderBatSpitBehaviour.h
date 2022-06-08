@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatSpitBehaviour {
 IL2CPP_REGISTER_METHOD(0x009608C0, void, OnBehaviourTreeInitialize, (SpiderBatSpitBehaviour * __this, IContext * context));

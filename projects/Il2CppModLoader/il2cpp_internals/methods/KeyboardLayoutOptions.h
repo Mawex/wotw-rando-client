@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KeyboardLayoutOptions {
-IL2CPP_REGISTER_METHOD(0x00E6BF30, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E6BF30, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00E6BFB0, void, Awake, (KeyboardLayoutOptions * __this));
 IL2CPP_REGISTER_METHOD(0x00E6C040, void, OnDestroy, (KeyboardLayoutOptions * __this));
 IL2CPP_REGISTER_METHOD(0x00E6C120, void, SetKeyboardLayout, (KeyboardLayoutOptions * __this, KeyboardLayout__Enum scheme));

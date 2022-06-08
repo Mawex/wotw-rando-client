@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::DeflateManager_CompressFunc {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (DeflateManager_CompressFunc * __this, Object * object, void * method_1));

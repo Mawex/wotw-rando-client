@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpawnEntityAction {
 IL2CPP_REGISTER_METHOD(0x00EF4FB0, void, Awake, (SpawnEntityAction * __this));

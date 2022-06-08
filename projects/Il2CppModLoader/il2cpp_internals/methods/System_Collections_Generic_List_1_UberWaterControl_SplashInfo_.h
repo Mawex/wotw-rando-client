@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UberWaterControl_SplashInfo_ {
 IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_UberWaterControl_SplashInfo_ * __this));
@@ -65,5 +65,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_UberWaterControl_SplashIn
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_UberWaterControl_SplashInfo_ * __this, Comparison_1_UberWaterControl_SplashInfo_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, UberWaterControl_SplashInfo__Array *, ToArray, (List_1_UberWaterControl_SplashInfo_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_UberWaterControl_SplashInfo_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

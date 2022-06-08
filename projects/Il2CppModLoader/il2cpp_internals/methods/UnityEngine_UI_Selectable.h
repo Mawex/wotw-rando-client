@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Selectable {
 IL2CPP_REGISTER_METHOD(0x026714F0, void, __ctor, (Selectable * __this));
-IL2CPP_REGISTER_METHOD(0x02671830, List_1_UnityEngine_UI_Selectable_ *, get_allSelectables, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02671830, List_1_UnityEngine_UI_Selectable_ *, get_allSelectables, ());
 IL2CPP_REGISTER_METHOD(0x026718D0, Navigation, get_navigation, (Selectable * __this));
 IL2CPP_REGISTER_METHOD(0x026718F0, void, set_navigation, (Selectable * __this, Navigation value));
 IL2CPP_REGISTER_METHOD(0x02671A20, Selectable_Transition__Enum, get_transition, (Selectable * __this));
@@ -61,5 +61,5 @@ IL2CPP_REGISTER_METHOD(0x02674B40, void, OnPointerExit, (Selectable * __this, Po
 IL2CPP_REGISTER_METHOD(0x02674BB0, void, OnSelect, (Selectable * __this, BaseEventData * eventData));
 IL2CPP_REGISTER_METHOD(0x02674C20, void, OnDeselect, (Selectable * __this, BaseEventData * eventData));
 IL2CPP_REGISTER_METHOD(0x02674C90, void, Select, (Selectable * __this));
-IL2CPP_REGISTER_METHOD(0x02674DF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02674DF0, void, __cctor, ());
 }

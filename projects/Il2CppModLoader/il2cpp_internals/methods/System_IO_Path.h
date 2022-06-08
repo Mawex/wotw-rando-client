@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Path {
 IL2CPP_REGISTER_METHOD(0x023759B0, String *, ChangeExtension, (String * path, String * extension));
@@ -24,16 +24,16 @@ IL2CPP_REGISTER_METHODINFO(0x0472CE68, Path_InsecureGetFullPath__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02377D50, bool, IsDirectorySeparator, (uint16_t c));
 IL2CPP_REGISTER_METHOD(0x02377E30, String *, GetPathRoot, (String * path));
 IL2CPP_REGISTER_METHODINFO(0x047998D8, Path_GetPathRoot__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02378350, String *, GetTempFileName, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02378350, String *, GetTempFileName, ());
 IL2CPP_REGISTER_METHODINFO(0x04707E28, Path_GetTempFileName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02378810, String *, GetTempPath, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02378970, String *, get_temp_path, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02378810, String *, GetTempPath, ());
+IL2CPP_REGISTER_METHOD(0x02378970, String *, get_temp_path, ());
 IL2CPP_REGISTER_METHOD(0x02378980, bool, IsPathRooted, (String * path));
 IL2CPP_REGISTER_METHODINFO(0x04757998, Path_IsPathRooted__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02378BA0, Char__Array *, GetInvalidFileNameChars, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02378C40, Char__Array *, GetInvalidPathChars, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02378BA0, Char__Array *, GetInvalidFileNameChars, ());
+IL2CPP_REGISTER_METHOD(0x02378C40, Char__Array *, GetInvalidPathChars, ());
 IL2CPP_REGISTER_METHOD(0x02378CE0, int32_t, findExtension, (String * path));
-IL2CPP_REGISTER_METHOD(0x02378DD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02378DD0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02379040, String *, GetServerAndShare, (String * path));
 IL2CPP_REGISTER_METHOD(0x023791D0, bool, SameRoot, (String * root, String * path));
 IL2CPP_REGISTER_METHOD(0x02379520, String *, CanonicalizePath, (String * path));
@@ -44,8 +44,8 @@ IL2CPP_REGISTER_METHODINFO(0x04754520, Path_Combine_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0237A530, void, Validate, (String * path));
 IL2CPP_REGISTER_METHOD(0x0237A5D0, void, Validate, (String * path, String * parameterName));
 IL2CPP_REGISTER_METHODINFO(0x04703BF0, Path_Validate_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0237A7C0, String *, get_DirectorySeparatorCharAsString, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0237A860, Char__Array *, get_TrimEndChars, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0237A7C0, String *, get_DirectorySeparatorCharAsString, ());
+IL2CPP_REGISTER_METHOD(0x0237A860, Char__Array *, get_TrimEndChars, ());
 IL2CPP_REGISTER_METHOD(0x0237A900, void, CheckSearchPattern, (String * searchPattern));
 IL2CPP_REGISTER_METHODINFO(0x0476E570, Path_CheckSearchPattern__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0237AB00, void, CheckInvalidPathChars, (String * path, bool checkAdditional));

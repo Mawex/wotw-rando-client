@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::RenderTargetDescriptor {
 IL2CPP_REGISTER_METHOD(0x001200A0, void, __ctor, (RenderTargetDescriptor__Boxed * __this, RenderTargetType__Enum _type, String * _name, RenderTextureDescriptor _desc, FilterMode__Enum _filterMode, RenderTexture * _external, bool drs));

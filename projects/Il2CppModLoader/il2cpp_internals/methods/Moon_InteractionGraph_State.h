@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::State {
 IL2CPP_REGISTER_METHOD(0x00B8BEC0, void, UpdateState, (State_1 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GL {
 IL2CPP_REGISTER_METHOD(0x02526170, void, Vertex3, (float x, float y, float z));
@@ -14,17 +14,17 @@ IL2CPP_REGISTER_METHOD(0x02526550, void, set_modelview, (Matrix4x4 value));
 IL2CPP_REGISTER_METHOD(0x025265C0, void, MultMatrix, (Matrix4x4 m));
 IL2CPP_REGISTER_METHOD(0x02526610, void, IssuePluginEvent, (int32_t eventID));
 IL2CPP_REGISTER_METHOD(0x02526660, void, SetRevertBackfacing, (bool revertBackFaces));
-IL2CPP_REGISTER_METHOD(0x025266B0, void, PushMatrix, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02526700, void, PopMatrix, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02526750, void, LoadIdentity, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025267A0, void, LoadOrtho, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025267F0, void, LoadPixelMatrix, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025266B0, void, PushMatrix, ());
+IL2CPP_REGISTER_METHOD(0x02526700, void, PopMatrix, ());
+IL2CPP_REGISTER_METHOD(0x02526750, void, LoadIdentity, ());
+IL2CPP_REGISTER_METHOD(0x025267A0, void, LoadOrtho, ());
+IL2CPP_REGISTER_METHOD(0x025267F0, void, LoadPixelMatrix, ());
 IL2CPP_REGISTER_METHOD(0x02526840, void, LoadProjectionMatrix, (Matrix4x4 mat));
 IL2CPP_REGISTER_METHOD(0x02526890, Matrix4x4, GetGPUProjectionMatrix, (Matrix4x4 proj, bool renderIntoTexture));
 IL2CPP_REGISTER_METHOD(0x02526950, void, GLLoadPixelMatrixScript, (float left, float right, float bottom, float top));
 IL2CPP_REGISTER_METHOD(0x02526950, void, LoadPixelMatrix, (float left, float right, float bottom, float top));
 IL2CPP_REGISTER_METHOD(0x025269E0, void, Begin, (int32_t mode));
-IL2CPP_REGISTER_METHOD(0x02526A30, void, End, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02526A30, void, End, ());
 IL2CPP_REGISTER_METHOD(0x02526A80, void, GLClear, (bool clearDepth, bool clearColor, Color backgroundColor, float depth));
 IL2CPP_REGISTER_METHOD(0x02526B10, void, Clear, (bool clearDepth, bool clearColor, Color backgroundColor));
 IL2CPP_REGISTER_METHOD(0x02526B90, void, ClearWithSkybox, (bool clearDepth, Camera * camera));

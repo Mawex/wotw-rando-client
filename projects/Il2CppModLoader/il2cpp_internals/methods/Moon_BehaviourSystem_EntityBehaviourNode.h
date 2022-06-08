@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityBehaviourNode {
 IL2CPP_REGISTER_METHOD(0x002FBC40, Entity *, get_Entity, (EntityBehaviourNode * __this));

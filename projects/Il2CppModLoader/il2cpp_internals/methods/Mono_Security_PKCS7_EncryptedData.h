@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::PKCS7_EncryptedData {
 IL2CPP_REGISTER_METHOD(0x00531660, void, __ctor, (PKCS7_EncryptedData * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationTester_Group {
 IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_ToogleName, (AnimationTester_Group * __this));

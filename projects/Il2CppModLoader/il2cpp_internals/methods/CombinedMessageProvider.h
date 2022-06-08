@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CombinedMessageProvider {
 IL2CPP_REGISTER_METHOD(0x011DDF50, IEnumerable_1_MessageDescriptor_ *, GetMessages, (CombinedMessageProvider * __this));

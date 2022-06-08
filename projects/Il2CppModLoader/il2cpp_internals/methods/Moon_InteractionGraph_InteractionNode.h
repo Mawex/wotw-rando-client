@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::InteractionNode {
 IL2CPP_REGISTER_METHOD(0x0198ECE0, IInteractionActor *, get_Actor, (InteractionNode * __this));

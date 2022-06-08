@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornbugBossBaseBehaviour {
 IL2CPP_REGISTER_METHOD(0x00B6E7F0, GroundEntityLocomotion *, get_Locomotion, (HornbugBossBaseBehaviour * __this));

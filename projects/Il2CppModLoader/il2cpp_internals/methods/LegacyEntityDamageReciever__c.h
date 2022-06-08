@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyEntityDamageReciever___c {
-IL2CPP_REGISTER_METHOD(0x00A23F60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A23F60, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LegacyEntityDamageReciever_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _OnPoolSpawned_b__14_0, (LegacyEntityDamageReciever_c * __this, Damage * _p0_));
 IL2CPP_REGISTER_METHODINFO(0x04721DD0, LegacyEntityDamageReciever_c__OnPoolSpawned_b__14_0__MethodInfo);

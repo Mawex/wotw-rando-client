@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine::Color32_ {
 IL2CPP_REGISTER_METHOD(0x025E9020, void, AddRange, (List_1_UnityEngine_Color32_ * __this, IEnumerable_1_UnityEngine_Color32_ * collection));
@@ -64,5 +64,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_UnityEngine_Color32_ * __
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_UnityEngine_Color32_ * __this, Comparison_1_UnityEngine_Color32_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, Color32__Array *, ToArray, (List_1_UnityEngine_Color32_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_UnityEngine_Color32_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

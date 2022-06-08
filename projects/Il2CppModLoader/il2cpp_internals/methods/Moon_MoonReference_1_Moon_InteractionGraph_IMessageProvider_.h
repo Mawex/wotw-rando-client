@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_Moon::InteractionGraph::IMessageProvider_ {
 IL2CPP_REGISTER_METHOD(0x027205B0, void, __ctor, (MoonReference_1_Moon_InteractionGraph_IMessageProvider_ * __this, IMessageProvider * reference));

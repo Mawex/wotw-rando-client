@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Boolean {
 IL2CPP_REGISTER_METHOD(0x001E1560, int32_t, GetHashCode, (Boolean__Boxed * __this));
@@ -31,5 +31,5 @@ IL2CPP_REGISTER_METHOD(0x001E1CC0, Decimal, IConvertible_ToDecimal, (Boolean__Bo
 IL2CPP_REGISTER_METHOD(0x001E1E10, DateTime, IConvertible_ToDateTime, (Boolean__Boxed * __this, IFormatProvider * provider));
 IL2CPP_REGISTER_METHODINFO(0x047644C0, Boolean_System_IConvertible_ToDateTime__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001E1E20, Object *, IConvertible_ToType, (Boolean__Boxed * __this, Type * type, IFormatProvider * provider));
-IL2CPP_REGISTER_METHOD(0x0229E6E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0229E6E0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UberShaderComponent_Moon::ArtOptimization::SerializableUberShaderWrapper_ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_UberShaderComponent_Moon_ArtOptimization_SerializableUberShaderWrapper_ * __this));

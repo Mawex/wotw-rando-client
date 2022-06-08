@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TypeLoadException {
 IL2CPP_REGISTER_METHOD(0x027C0FD0, void, __ctor, (TypeLoadException * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::SecurityElement_SecurityAttribute {
 IL2CPP_REGISTER_METHOD(0x01E216B0, void, __ctor, (SecurityElement_SecurityAttribute * __this, String * name, String * value));

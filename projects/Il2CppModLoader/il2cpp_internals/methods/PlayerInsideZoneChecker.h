@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerInsideZoneChecker {
 IL2CPP_REGISTER_METHOD(0x014270D0, bool, get_IsInside, (PlayerInsideZoneChecker * __this));

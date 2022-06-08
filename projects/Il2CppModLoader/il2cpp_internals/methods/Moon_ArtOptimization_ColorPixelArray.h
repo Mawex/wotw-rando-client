@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ColorPixelArray {
 IL2CPP_REGISTER_METHOD(0x0134A020, void, __ctor, (ColorPixelArray * __this, int32_t width, int32_t height));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::CompoundState {
 IL2CPP_REGISTER_METHOD(0x0198C3C0, void, __ctor, (CompoundState * __this, IState_1__Array * states));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MovieTextureController {
 IL2CPP_REGISTER_METHOD(0x00869A60, void, StartMovieSequence, (MovieTextureController * __this));

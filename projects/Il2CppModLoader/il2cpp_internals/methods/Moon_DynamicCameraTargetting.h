@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DynamicCameraTargetting {
 IL2CPP_REGISTER_METHOD(0x01202300, bool, get_Bypass, (DynamicCameraTargetting * __this));
 IL2CPP_REGISTER_METHOD(0x01202310, void, set_Bypass, (DynamicCameraTargetting * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x01202320, bool, get_IsActive, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01202320, bool, get_IsActive, ());
 IL2CPP_REGISTER_METHOD(0x01202540, bool, get_OnlyUseDynamicWithEnemies, (DynamicCameraTargetting * __this));
 IL2CPP_REGISTER_METHOD(0x01202550, void, set_OnlyUseDynamicWithEnemies, (DynamicCameraTargetting * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x01202560, bool, get_IsSuspended, (DynamicCameraTargetting * __this));

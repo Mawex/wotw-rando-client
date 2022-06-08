@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::PointerUIBase {
 IL2CPP_REGISTER_METHOD(0x0165F470, void, add_onHandlePointers, (PointerUIBase * __this, Action * value));

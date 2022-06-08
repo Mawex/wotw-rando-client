@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ColumnTypeConverter {
 IL2CPP_REGISTER_METHOD(0x02151820, bool, CanConvertTo, (ColumnTypeConverter * __this, ITypeDescriptorContext * context, Type * destinationType));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x02151F90, Object *, ConvertFrom, (ColumnTypeConverter *
 IL2CPP_REGISTER_METHOD(0x02152230, TypeConverter_StandardValuesCollection *, GetStandardValues, (ColumnTypeConverter * __this, ITypeDescriptorContext * context));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetStandardValuesExclusive, (ColumnTypeConverter * __this, ITypeDescriptorContext * context));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetStandardValuesSupported, (ColumnTypeConverter * __this, ITypeDescriptorContext * context));
-IL2CPP_REGISTER_METHOD(0x02152450, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02152450, void, __cctor, ());
 }

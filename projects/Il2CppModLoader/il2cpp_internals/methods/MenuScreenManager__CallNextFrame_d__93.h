@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuScreenManager__CallNextFrame_d__93 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (MenuScreenManager_CallNextFrame_d_93 * __this, int32_t __1__state));

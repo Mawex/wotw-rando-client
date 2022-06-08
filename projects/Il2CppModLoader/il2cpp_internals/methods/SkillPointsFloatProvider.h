@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillPointsFloatProvider {
 IL2CPP_REGISTER_METHOD(0x006B53D0, float, GetFloatValue, (SkillPointsFloatProvider * __this));

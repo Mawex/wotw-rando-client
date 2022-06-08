@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityReactionBehaviour_1_LizardEntity_ {
 IL2CPP_REGISTER_METHOD(0x019E1C80, LizardEntity *, get_Entity, (EntityReactionBehaviour_1_LizardEntity_ * __this));

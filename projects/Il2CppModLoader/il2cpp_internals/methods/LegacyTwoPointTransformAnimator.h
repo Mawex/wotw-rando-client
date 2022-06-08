@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTwoPointTransformAnimator {
 IL2CPP_REGISTER_METHOD(0x0112CE20, void, Start, (LegacyTwoPointTransformAnimator * __this));

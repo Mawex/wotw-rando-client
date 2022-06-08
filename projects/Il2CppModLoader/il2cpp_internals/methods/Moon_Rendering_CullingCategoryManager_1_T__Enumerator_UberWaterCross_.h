@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::CullingCategoryManager_1_T__Enumerator_UberWaterCross_ {
 IL2CPP_REGISTER_METHOD(0x00216120, CullingCategoryManager_1_T_Enumerator_UberWaterCross_, GetEnumerator, (CullingCategoryManager_1_T_Enumerator_UberWaterCross___Boxed * __this));

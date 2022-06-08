@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Linq::Expressions::Interpreter::BranchLabel_ {
 IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_System_Linq_Expressions_Interpreter_BranchLabel_, GetEnumerator, (List_1_System_Linq_Expressions_Interpreter_BranchLabel_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::InvalidExpressionException {
 IL2CPP_REGISTER_METHOD(0x01E3FEB0, void, __ctor, (InvalidExpressionException * __this, SerializationInfo * info, StreamingContext context));

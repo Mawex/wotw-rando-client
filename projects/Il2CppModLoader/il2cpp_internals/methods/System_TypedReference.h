@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TypedReference {
 IL2CPP_REGISTER_METHOD(0x027C42F0, TypedReference, MakeTypedReference, (Object * target, FieldInfo_1__Array * flds));

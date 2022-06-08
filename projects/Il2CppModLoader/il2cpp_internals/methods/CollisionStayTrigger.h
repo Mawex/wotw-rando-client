@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CollisionStayTrigger {
 IL2CPP_REGISTER_METHOD(0x012D1AA0, void, Awake, (CollisionStayTrigger * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XHashtable_1_TValue__ExtractKeyDelegate_XName_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XHashtable_1_TValue_ExtractKeyDelegate_XName_ * __this, Object * object, void * method_1));

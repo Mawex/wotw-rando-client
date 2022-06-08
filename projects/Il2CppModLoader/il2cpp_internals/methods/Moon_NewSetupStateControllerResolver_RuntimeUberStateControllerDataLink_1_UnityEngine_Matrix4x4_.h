@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_UnityEngine::Matrix4x4_ {
 IL2CPP_REGISTER_METHOD(0x028FC270, bool, Init, (NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_UnityEngine_Matrix4x4_ * __this, NewSetupStateControllerResolver_SetupStateControllerLinkSerializedData * serializedData, MemberInfo_1 * memberInfo));

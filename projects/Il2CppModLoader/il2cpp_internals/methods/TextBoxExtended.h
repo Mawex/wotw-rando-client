@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextBoxExtended {
 IL2CPP_REGISTER_METHOD(0x010E3CF0, Rect, GetRect, (TextBox * textBox));

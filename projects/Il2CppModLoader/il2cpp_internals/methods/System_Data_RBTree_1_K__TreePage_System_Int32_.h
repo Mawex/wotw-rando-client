@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::RBTree_1_K__TreePage_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02FAF2F0, void, __ctor, (RBTree_1_K_TreePage_System_Int32_ * __this, int32_t size));

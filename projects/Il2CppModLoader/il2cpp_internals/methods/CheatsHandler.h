@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CheatsHandler {
 IL2CPP_REGISTER_METHOD(0x0131C6E0, bool, CanUseCheats, (CheatsHandler * __this));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x0131EB40, void, ActivateDebugMenu, (CheatsHandler * __t
 IL2CPP_REGISTER_METHODINFO(0x04794618, CheatsHandler_ActivateDebugMenu__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x012CBAC0, void, Serialize, (CheatsHandler * __this, Archive * ar));
 IL2CPP_REGISTER_METHOD(0x0131EC00, void, __ctor, (CheatsHandler * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

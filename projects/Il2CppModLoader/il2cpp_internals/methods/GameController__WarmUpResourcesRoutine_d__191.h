@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameController__WarmUpResourcesRoutine_d__191 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GameController_WarmUpResourcesRoutine_d_191 * __this, int32_t __1__state));

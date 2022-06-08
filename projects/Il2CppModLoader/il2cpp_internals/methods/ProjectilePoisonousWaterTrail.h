@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ProjectilePoisonousWaterTrail {
 IL2CPP_REGISTER_METHOD(0x00C7BB60, void, OnEnable, (ProjectilePoisonousWaterTrail * __this));

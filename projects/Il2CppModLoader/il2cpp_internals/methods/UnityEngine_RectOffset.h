@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RectOffset {
 IL2CPP_REGISTER_METHOD(0x0296DE00, void, __ctor, (RectOffset * __this));
 IL2CPP_REGISTER_METHOD(0x0231B8E0, void, __ctor, (RectOffset * __this, Object * sourceStyle, void * source));
-IL2CPP_REGISTER_METHOD(0x0296DE60, void *, InternalCreate, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0296DE60, void *, InternalCreate, ());
 IL2CPP_REGISTER_METHOD(0x0296DEB0, void, InternalDestroy, (void * ptr));
 IL2CPP_REGISTER_METHOD(0x0296DF00, int32_t, get_left, (RectOffset * __this));
 IL2CPP_REGISTER_METHOD(0x0296DF50, void, set_left, (RectOffset * __this, int32_t value));

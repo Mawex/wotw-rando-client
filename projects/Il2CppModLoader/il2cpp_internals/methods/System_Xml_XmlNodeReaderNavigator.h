@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlNodeReaderNavigator {
 IL2CPP_REGISTER_METHOD(0x016FB1D0, void, __ctor, (XmlNodeReaderNavigator * __this, XmlNode * node));

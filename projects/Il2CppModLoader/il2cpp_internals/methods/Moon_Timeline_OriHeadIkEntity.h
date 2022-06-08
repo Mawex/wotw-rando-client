@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::OriHeadIkEntity {
 IL2CPP_REGISTER_METHOD(0x00777870, Transform *, get_ResolvedLookTarget, (OriHeadIkEntity * __this));

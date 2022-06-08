@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Statistics::PlayFabStatistics___c__DisplayClass14_1 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabStatistics_c_DisplayClass14_1 * __this));

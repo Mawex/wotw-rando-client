@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_IDialogCallbackNotifier_ {
 IL2CPP_REGISTER_METHOD(0x02720AC0, IDialogCallbackNotifier *, Resolve, (MoonReference_1_IDialogCallbackNotifier_ * __this, IMoonResolverContext * context));

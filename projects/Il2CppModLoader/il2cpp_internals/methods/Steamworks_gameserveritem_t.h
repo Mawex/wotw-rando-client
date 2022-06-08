@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::gameserveritem_t {
 IL2CPP_REGISTER_METHOD(0x027AACA0, String *, GetGameDir, (gameserveritem_t * __this));

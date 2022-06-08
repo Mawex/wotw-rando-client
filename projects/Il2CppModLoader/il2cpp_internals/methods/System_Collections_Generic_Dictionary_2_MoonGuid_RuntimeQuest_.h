@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_MoonGuid_RuntimeQuest_ {
 IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_MoonGuid_RuntimeQuest_ *, get_Values, (Dictionary_2_MoonGuid_RuntimeQuest_ * __this));

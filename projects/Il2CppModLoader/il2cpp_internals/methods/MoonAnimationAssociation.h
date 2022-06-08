@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonAnimationAssociation {
 IL2CPP_REGISTER_METHOD(0x0212F010, void, Finalize, (MoonAnimationAssociation * __this));

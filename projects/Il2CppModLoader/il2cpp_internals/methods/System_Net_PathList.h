@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::PathList {
 IL2CPP_REGISTER_METHOD(0x01BCB300, void, __ctor, (PathList * __this));

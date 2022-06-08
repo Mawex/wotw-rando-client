@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerIsNotDiggingCondition {
 IL2CPP_REGISTER_METHOD(0x01427390, bool, Validate, (PlayerIsNotDiggingCondition * __this, IContext * context));

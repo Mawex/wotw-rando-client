@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateMap {
 IL2CPP_REGISTER_METHOD(0x00597B10, int32_t, Resolve, (StateMap * __this, IUberState * uberState));

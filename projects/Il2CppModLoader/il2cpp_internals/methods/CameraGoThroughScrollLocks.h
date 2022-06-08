@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraGoThroughScrollLocks {
 IL2CPP_REGISTER_METHOD(0x01691720, void, __ctor, (CameraGoThroughScrollLocks * __this, GameplayCamera * cameraController));

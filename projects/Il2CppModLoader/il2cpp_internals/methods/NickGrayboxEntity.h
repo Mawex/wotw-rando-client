@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NickGrayboxEntity {
 IL2CPP_REGISTER_METHOD(0x005FDB90, void, Start, (NickGrayboxEntity * __this));

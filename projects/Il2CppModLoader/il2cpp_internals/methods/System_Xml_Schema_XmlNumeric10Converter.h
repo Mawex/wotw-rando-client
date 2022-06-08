@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlNumeric10Converter {
 IL2CPP_REGISTER_METHOD(0x0224EB90, void, __ctor, (XmlNumeric10Converter * __this, XmlSchemaType * schemaType));

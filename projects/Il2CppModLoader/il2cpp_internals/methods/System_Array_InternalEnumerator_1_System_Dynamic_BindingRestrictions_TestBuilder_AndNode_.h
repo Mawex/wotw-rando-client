@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System::Dynamic::BindingRestrictions_TestBuilder_AndNode_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_System_Dynamic_BindingRestrictions_TestBuilder_AndNode___Boxed * __this, Array * array));

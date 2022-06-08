@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1_System::Linq::Expressions::Expression_ {
 IL2CPP_REGISTER_METHOD(0x02771C10, void, __ctor, (ReadOnlyCollectionBuilder_1_System_Linq_Expressions_Expression_ * __this, int32_t capacity));

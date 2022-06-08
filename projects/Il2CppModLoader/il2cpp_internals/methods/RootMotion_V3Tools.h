@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::V3Tools {
 IL2CPP_REGISTER_METHOD(0x02A2E3A0, Vector3, ExtractVertical, (Vector3 v, Vector3 verticalAxis, float weight));

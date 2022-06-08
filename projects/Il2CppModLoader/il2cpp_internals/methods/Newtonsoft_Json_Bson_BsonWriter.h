@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonWriter {
 IL2CPP_REGISTER_METHOD(0x01A4ABC0, void, WriteEnd, (BsonWriter * __this, JsonToken__Enum_1 token));

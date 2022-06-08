@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDrill {
 IL2CPP_REGISTER_METHOD(0x00417920, ComboMoveType__Enum, get_ComboMoveType, (SeinDrill * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinDrill * __this));
 IL2CPP_REGISTER_METHOD(0x006E4240, CharacterGravity *, get_Gravity, (SeinDrill * __this));
 IL2CPP_REGISTER_METHOD(0x005D06C0, CharacterPlatformMovement *, get_PlatformMovement, (SeinDrill * __this));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x00AC9A70, SeinDrillPuppet *, get_Puppet, (SeinDrill * __this));
 IL2CPP_REGISTER_METHOD(0x003F8E90, void, Update, (SeinDrill * __this));
 IL2CPP_REGISTER_METHOD(0x00AC9B30, void, Start, (SeinDrill * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Quaternion {
 IL2CPP_REGISTER_METHOD(0x00121740, void, __ctor, (Quaternion__Boxed * __this, float x, float y, float z, float w));
@@ -13,7 +13,7 @@ IL2CPP_REGISTER_METHOD(0x0296AFA0, void, Internal_ToAxisAngleRad, (Quaternion q,
 IL2CPP_REGISTER_METHOD(0x0296B090, Quaternion, AngleAxis, (float angle, Vector3 axis));
 IL2CPP_REGISTER_METHOD(0x0296B1A0, Quaternion, LookRotation, (Vector3 forward, Vector3 upwards));
 IL2CPP_REGISTER_METHOD(0x0296B2B0, Quaternion, LookRotation, (Vector3 forward));
-IL2CPP_REGISTER_METHOD(0x0296B4B0, Quaternion, get_identity, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0296B4B0, Quaternion, get_identity, ());
 IL2CPP_REGISTER_METHOD(0x0296B560, Quaternion, operator__, (Quaternion lhs, Quaternion rhs));
 IL2CPP_REGISTER_METHOD(0x0296B6C0, Vector3, operator__, (Quaternion rotation, Vector3 point));
 IL2CPP_REGISTER_METHOD(0x0296B870, bool, IsEqualUsingDot, (float dot));
@@ -37,7 +37,7 @@ IL2CPP_REGISTER_METHOD(0x001EBCF0, bool, Equals, (Quaternion__Boxed * __this, Qu
 IL2CPP_REGISTER_METHOD(0x00217730, String *, ToString, (Quaternion__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00217740, Vector3, ToEuler, (Quaternion__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00217820, Vector3, ToEulerAngles, (Quaternion__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0296CC10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0296CC10, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0296CCA0, void, FromToRotation_Injected, (Vector3 * fromDirection, Vector3 * toDirection, Quaternion * ret));
 IL2CPP_REGISTER_METHOD(0x0296CD10, void, Inverse_Injected, (Quaternion * rotation, Quaternion * ret));
 IL2CPP_REGISTER_METHOD(0x0296CD70, void, Slerp_Injected, (Quaternion * a, Quaternion * b, float t, Quaternion * ret));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ValidationHelper {
 IL2CPP_REGISTER_METHOD(0x020AD050, String__Array *, MakeEmptyArrayNull, (String__Array * stringArray));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x020AD5C0, bool, ValidateTcpPort, (int32_t port));
 IL2CPP_REGISTER_METHOD(0x020AD5E0, bool, ValidateRange, (int32_t actual, int32_t fromAllowed, int32_t toAllowed));
 IL2CPP_REGISTER_METHOD(0x020AD5F0, void, ValidateSegment, (ArraySegment_1_Byte_ segment));
 IL2CPP_REGISTER_METHODINFO(0x04732C40, ValidationHelper_ValidateSegment__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x020AD6F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020AD6F0, void, __cctor, ());
 }

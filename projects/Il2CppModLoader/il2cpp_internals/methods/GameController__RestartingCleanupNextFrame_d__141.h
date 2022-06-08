@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameController__RestartingCleanupNextFrame_d__141 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GameController_RestartingCleanupNextFrame_d_141 * __this, int32_t __1__state));

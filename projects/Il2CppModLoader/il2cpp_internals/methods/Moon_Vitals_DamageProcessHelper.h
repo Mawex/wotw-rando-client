@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Vitals_DamageProcessHelper {
 IL2CPP_REGISTER_METHOD(0x01198760, void, CountDamagesPerID, (Vitals_DamageProcessHelper * __this, DamageReceiver__Array * receivers));

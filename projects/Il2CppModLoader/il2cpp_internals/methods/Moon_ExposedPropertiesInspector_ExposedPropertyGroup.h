@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ExposedPropertiesInspector::ExposedPropertyGroup {
 IL2CPP_REGISTER_METHOD(0x031C2460, bool, HasProperty, (ExposedPropertyGroup * __this, ExposedProperty * property));

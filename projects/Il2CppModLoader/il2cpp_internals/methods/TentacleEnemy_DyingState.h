@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleEnemy_DyingState {
 IL2CPP_REGISTER_METHOD(0x00CF6C40, String *, get_Name, (TentacleEnemy_DyingState * __this));

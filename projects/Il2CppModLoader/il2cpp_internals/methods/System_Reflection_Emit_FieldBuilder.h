@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::FieldBuilder {
 IL2CPP_REGISTER_METHOD(0x02680210, FieldAttributes__Enum, get_Attributes, (FieldBuilder * __this));

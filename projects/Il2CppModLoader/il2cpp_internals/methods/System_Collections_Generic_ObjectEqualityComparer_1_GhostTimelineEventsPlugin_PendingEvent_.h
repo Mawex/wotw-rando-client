@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_GhostTimelineEventsPlugin_PendingEvent_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_GhostTimelineEventsPlugin_PendingEvent_ * __this, GhostTimelineEventsPlugin_PendingEvent x, GhostTimelineEventsPlugin_PendingEvent y));

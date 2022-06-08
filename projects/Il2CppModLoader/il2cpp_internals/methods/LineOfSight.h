@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LineOfSight {
 IL2CPP_REGISTER_METHOD(0x00FA7080, bool, IsRayOccluded, (Vector3 origin, Vector3 dir, RaycastHit * hit, float dist, LayerMask mask, QueryTriggerInteraction__Enum trigger));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterDebrisModifier {
 IL2CPP_REGISTER_METHOD(0x008D61D0, void, SetProperties, (WaterDebrisModifier * __this));

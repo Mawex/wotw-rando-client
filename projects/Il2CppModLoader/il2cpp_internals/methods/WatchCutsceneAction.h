@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WatchCutsceneAction {
 IL2CPP_REGISTER_METHOD(0x008D3960, void, Perform, (WatchCutsceneAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_WaterPoisonCloud_Blob_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_WaterPoisonCloud_Blob_ * __this, WaterPoisonCloud_Blob x, WaterPoisonCloud_Blob y));

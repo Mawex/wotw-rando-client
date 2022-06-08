@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CreateObjectsOnGridTool {
 IL2CPP_REGISTER_METHOD(0x00DB7310, Shelf *, get_CurrentShelf, (CreateObjectsOnGridTool * __this));

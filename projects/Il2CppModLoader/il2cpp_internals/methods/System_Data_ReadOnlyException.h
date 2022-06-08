@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ReadOnlyException {
 IL2CPP_REGISTER_METHOD(0x01E49810, void, __ctor, (ReadOnlyException * __this, SerializationInfo * info, StreamingContext context));

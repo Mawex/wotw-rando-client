@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord {
 IL2CPP_REGISTER_METHOD(0x00D34AF0, void, __ctor, (SerializationHeaderRecord * __this));

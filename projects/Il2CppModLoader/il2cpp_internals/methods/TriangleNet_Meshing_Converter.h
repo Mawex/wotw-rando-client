@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Converter {
 IL2CPP_REGISTER_METHOD(0x0263D7F0, Mesh_1 *, ToMesh, (Polygon * polygon, IList_1_TriangleNet_Geometry_ITriangle_ * triangles));

@@ -1,5 +1,5 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ShaderID_ScreenSpaceAmbientObscurance {
-IL2CPP_REGISTER_METHOD(0x02D66AA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02D66AA0, void, __cctor, ());
 }

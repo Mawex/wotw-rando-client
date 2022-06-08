@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::TraceLoggingTypeInfo {
 IL2CPP_REGISTER_METHOD(0x01A0DB40, void, __ctor, (TraceLoggingTypeInfo * __this, Type * dataType));

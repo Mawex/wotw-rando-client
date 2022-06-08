@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_System::Linq::Expressions::LambdaExpression_ {
 IL2CPP_REGISTER_METHOD(0x02CA77B0, LambdaExpression *, Dequeue, (Queue_1_System_Linq_Expressions_LambdaExpression_ * __this));

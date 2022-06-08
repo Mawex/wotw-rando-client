@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Authentication::ExtendedProtection::ServiceNameCollection {
 IL2CPP_REGISTER_METHOD(0x021BC8D0, void, __ctor, (ServiceNameCollection * __this, ICollection * items));

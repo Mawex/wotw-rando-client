@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityPlatformingMovement {
 IL2CPP_REGISTER_METHOD(0x00C9E760, void, OnAwake, (EntityPlatformingMovement * __this));

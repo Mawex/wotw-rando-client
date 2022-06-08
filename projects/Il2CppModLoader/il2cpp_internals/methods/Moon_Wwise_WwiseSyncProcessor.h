@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseSyncProcessor {
 IL2CPP_REGISTER_METHOD(0x00654950, int32_t, get_ActivePositionSyncs, (WwiseSyncProcessor * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x02719370, int32_t, ValidTasksCount, (WwiseSyncProcessor
 IL2CPP_REGISTER_METHOD(0x02719410, void, CommitPosition, (WwiseSyncProcessor * __this, ISoundHost * artificialSoundHost));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (WwiseSyncProcessor * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (WwiseSyncProcessor * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

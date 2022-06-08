@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::DecoderNLS {
 IL2CPP_REGISTER_METHOD(0x0244A220, void, __ctor, (DecoderNLS * __this, SerializationInfo * info, StreamingContext context));

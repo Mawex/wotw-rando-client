@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::FileSystemEnumerableIterator_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0297E2F0, void, __ctor, (FileSystemEnumerableIterator_1_System_Object_ * __this, String * path, String * originalUserPath, String * searchPattern, SearchOption__Enum searchOption, SearchResultHandler_1_System_Object_ * resultHandler, bool checkHost));

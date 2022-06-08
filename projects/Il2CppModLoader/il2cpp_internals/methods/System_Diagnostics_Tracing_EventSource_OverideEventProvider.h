@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSource_OverideEventProvider {
 IL2CPP_REGISTER_METHOD(0x019FC480, void, __ctor, (EventSource_OverideEventProvider * __this, EventSource * eventSource));

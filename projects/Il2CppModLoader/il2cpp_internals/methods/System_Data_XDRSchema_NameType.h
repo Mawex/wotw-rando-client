@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XDRSchema_NameType {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (XDRSchema_NameType * __this, String * n, Type * t));

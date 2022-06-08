@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::profilers::GPUAutoProfiler_BaselineMeasurementHandler {
 IL2CPP_REGISTER_METHOD(0x00E43A40, void, EnterState, (GPUAutoProfiler_BaselineMeasurementHandler * __this, GPUAutoProfilerReport * report));

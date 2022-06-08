@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowAreaMessageAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x005C4190, void, OnStartPlayback, (ShowAreaMessageAnimatorEntity * __this, IContext * context));

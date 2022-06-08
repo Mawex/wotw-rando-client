@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ThreadSafeStore_2_StructMultiKey_2_System::Type_Newtonsoft::Json::Serialization::NamingStrategy__EnumInfo_ {
 IL2CPP_REGISTER_METHOD(0x01D12110, EnumInfo *, Get, (ThreadSafeStore_2_StructMultiKey_2_System_Type_Newtonsoft_Json_Serialization_NamingStrategy_EnumInfo_ * __this, StructMultiKey_2_System_Type_Newtonsoft_Json_Serialization_NamingStrategy_ key));

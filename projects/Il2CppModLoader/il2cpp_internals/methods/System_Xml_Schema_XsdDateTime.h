@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XsdDateTime {
 IL2CPP_REGISTER_METHOD(0x001C5CD0, void, __ctor, (XsdDateTime__Boxed * __this, String * text, XsdDateTimeFlags__Enum kinds));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x001C5F40, void, PrintTime, (XsdDateTime__Boxed * __this
 IL2CPP_REGISTER_METHOD(0x001C5F50, void, PrintZone, (XsdDateTime__Boxed * __this, StringBuilder * sb));
 IL2CPP_REGISTER_METHOD(0x001C5F60, void, IntToCharArray, (XsdDateTime__Boxed * __this, Char__Array * text, int32_t start, int32_t value, int32_t digits));
 IL2CPP_REGISTER_METHOD(0x001C5F70, void, ShortToCharArray, (XsdDateTime__Boxed * __this, Char__Array * text, int32_t start, int32_t value));
-IL2CPP_REGISTER_METHOD(0x01C7EF10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C7EF10, void, __cctor, ());
 }

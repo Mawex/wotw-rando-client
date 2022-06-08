@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GainPassiveSpiritShardSocket {
 IL2CPP_REGISTER_METHOD(0x0151E910, void, Perform, (GainPassiveSpiritShardSocket * __this, IContext * context));

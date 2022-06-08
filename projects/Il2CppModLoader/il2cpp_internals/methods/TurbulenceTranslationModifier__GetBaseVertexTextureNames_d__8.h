@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceTranslationModifier__GetBaseVertexTextureNames_d__8 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (TurbulenceTranslationModifier_GetBaseVertexTextureNames_d_8 * __this, int32_t __1__state));

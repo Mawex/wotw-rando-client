@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Statistics::PlayFabStatistics___c {
-IL2CPP_REGISTER_METHOD(0x00538C90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00538C90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabStatistics_c * __this));
 IL2CPP_REGISTER_METHOD(0x00538DD0, void, _AwardOnServer_b__11_1, (PlayFabStatistics_c * __this, PlayFabError * error));
 IL2CPP_REGISTER_METHODINFO(0x04724050, PlayFabStatistics_c__AwardOnServer_b__11_1__MethodInfo);

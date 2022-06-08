@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AdvancedDebugMenuPage___c {
-IL2CPP_REGISTER_METHOD(0x004E5A40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E5A40, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AdvancedDebugMenuPage_c * __this));
 IL2CPP_REGISTER_METHOD(0x004E5B80, bool, _GetItems_b__15_0, (AdvancedDebugMenuPage_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x0472A5D0, AdvancedDebugMenuPage_c__GetItems_b__15_0__MethodInfo);

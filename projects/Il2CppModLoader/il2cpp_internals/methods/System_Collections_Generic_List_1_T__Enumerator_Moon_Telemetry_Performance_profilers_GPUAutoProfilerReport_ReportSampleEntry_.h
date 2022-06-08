@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::Telemetry::Performance::profilers::GPUAutoProfilerReport_ReportSampleEntry_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, GPUAutoProfilerReport_ReportSampleEntry *, get_Current, (List_1_T_Enumerator_Moon_Telemetry_Performance_profilers_GPUAutoProfilerReport_ReportSampleEntry___Boxed * __this));

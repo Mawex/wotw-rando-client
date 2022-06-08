@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CancelRaceAction {
 IL2CPP_REGISTER_METHOD(0x00B22810, void, Perform, (CancelRaceAction * __this, IContext * context));

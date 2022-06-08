@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StartLoopEndEffect {
 IL2CPP_REGISTER_METHOD(0x009B19A0, void, OnEnable, (StartLoopEndEffect * __this));

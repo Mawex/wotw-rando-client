@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Setups::MoonLever::LeverController {
 IL2CPP_REGISTER_METHOD(0x00E257A0, IDesiredUberState *, get_LeftState, (LeverController * __this));

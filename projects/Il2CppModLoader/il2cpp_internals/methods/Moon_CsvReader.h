@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CsvReader {
 IL2CPP_REGISTER_METHOD(0x030E8D60, void, __ctor, (CsvReader * __this, TextReader * reader, bool shouldDisposeReader));

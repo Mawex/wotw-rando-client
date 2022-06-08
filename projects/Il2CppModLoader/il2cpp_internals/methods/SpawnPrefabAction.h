@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpawnPrefabAction {
 IL2CPP_REGISTER_METHOD(0x00EF5F90, void, Perform, (SpawnPrefabAction * __this, IContext * context));

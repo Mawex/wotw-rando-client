@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MessageZoneB {
 IL2CPP_REGISTER_METHOD(0x0159DAA0, void, Awake, (MessageZoneB * __this));

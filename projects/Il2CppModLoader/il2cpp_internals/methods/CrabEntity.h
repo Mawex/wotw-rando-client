@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CrabEntity {
 IL2CPP_REGISTER_METHOD(0x00DB3EC0, void, set_ShouldReflectArrows, (CrabEntity * __this, bool value));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x00DB4410, void, WwiseOnClawAttackInterrupted, (CrabEnti
 IL2CPP_REGISTER_METHOD(0x00DB4500, void, OnFixedUpdate, (CrabEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00DB4520, void, UpdateRetaliationLogic, (CrabEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00DB4820, void, __ctor, (CrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00DB49A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DB49A0, void, __cctor, ());
 }

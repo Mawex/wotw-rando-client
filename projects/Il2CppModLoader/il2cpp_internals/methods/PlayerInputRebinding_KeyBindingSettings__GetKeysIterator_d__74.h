@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerInputRebinding_KeyBindingSettings__GetKeysIterator_d__74 {
 IL2CPP_REGISTER_METHOD(0x01426B00, void, __ctor, (PlayerInputRebinding_KeyBindingSettings_GetKeysIterator_d_74 * __this, int32_t __1__state));

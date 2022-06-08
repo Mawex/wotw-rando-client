@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TargetBreadcrumbsTracker {
 IL2CPP_REGISTER_METHOD(0x002FBBC0, Transform *, get_FollowedTarget, (TargetBreadcrumbsTracker * __this));

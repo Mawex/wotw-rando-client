@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AirChaseBehaviour {
 IL2CPP_REGISTER_METHOD(0x013334C0, float, get_EffectiveTraversalSpeed, (AirChaseBehaviour * __this));

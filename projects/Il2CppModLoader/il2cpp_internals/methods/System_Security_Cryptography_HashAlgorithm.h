@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::HashAlgorithm {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (HashAlgorithm * __this));
 IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_HashSize, (HashAlgorithm * __this));
 IL2CPP_REGISTER_METHOD(0x020DAAD0, Byte__Array *, get_Hash, (HashAlgorithm * __this));
 IL2CPP_REGISTER_METHODINFO(0x04786D30, HashAlgorithm_get_Hash__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x020DAC90, HashAlgorithm *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020DAC90, HashAlgorithm *, Create, ());
 IL2CPP_REGISTER_METHOD(0x020DADD0, HashAlgorithm *, Create, (String * hashName));
 IL2CPP_REGISTER_METHOD(0x020DAEB0, Byte__Array *, ComputeHash, (HashAlgorithm * __this, Stream * inputStream));
 IL2CPP_REGISTER_METHODINFO(0x047045C0, HashAlgorithm_ComputeHash__MethodInfo);

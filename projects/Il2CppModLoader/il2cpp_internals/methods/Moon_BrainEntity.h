@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BrainEntity {
 IL2CPP_REGISTER_METHOD(0x01BA63B0, String *, get_FullAddress, (BrainEntity * __this));

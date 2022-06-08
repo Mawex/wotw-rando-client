@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxOneController_AxisInput {
 IL2CPP_REGISTER_METHOD(0x00597BC0, void, __ctor, (XboxOneController_AxisInput * __this, XboxOneController_Axis__Enum axis, bool anyPad));

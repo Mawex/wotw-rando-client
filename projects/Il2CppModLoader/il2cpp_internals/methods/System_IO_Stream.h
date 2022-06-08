@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Stream {
 IL2CPP_REGISTER_METHOD(0x0237B350, SemaphoreSlim *, EnsureAsyncActiveSemaphoreInitialized, (Stream * __this));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x0237D910, int32_t, BlockingEndRead, (IAsyncResult * asy
 IL2CPP_REGISTER_METHOD(0x0237D9F0, IAsyncResult *, BlockingBeginWrite, (Stream * __this, Byte__Array * buffer, int32_t offset, int32_t count, AsyncCallback * callback, Object * state));
 IL2CPP_REGISTER_METHOD(0x0237DC70, void, BlockingEndWrite, (IAsyncResult * asyncResult));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Stream * __this));
-IL2CPP_REGISTER_METHOD(0x0237DD50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0237DD50, void, __cctor, ());
 }

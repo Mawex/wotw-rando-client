@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossEscape1Behaviour {
 IL2CPP_REGISTER_METHOD(0x005FDE00, PetrifiedOwlBossEscape1Behaviour_EscapePart *, get_CurrentEscapePart, (PetrifiedOwlBossEscape1Behaviour * __this));

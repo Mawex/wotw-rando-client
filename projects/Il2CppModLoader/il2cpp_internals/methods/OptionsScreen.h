@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OptionsScreen {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_CanInterruptTab, (OptionsScreen * __this));
@@ -7,7 +7,7 @@ IL2CPP_REGISTER_METHOD(0x003FC7F0, MenuTabBackground__Enum, get_BackgroundMode, 
 IL2CPP_REGISTER_METHOD(0x00617D40, void, set_BackgroundMode, (OptionsScreen * __this, MenuTabBackground__Enum value));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (OptionsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedOreUI, (OptionsScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00617D50, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00617D50, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00617DD0, void, Awake, (OptionsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00617EA0, void, OnDestroy, (OptionsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00617EB0, void, SetDirty, (OptionsScreen * __this));

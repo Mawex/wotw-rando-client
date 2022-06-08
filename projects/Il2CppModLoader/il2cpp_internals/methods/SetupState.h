@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetupState {
 IL2CPP_REGISTER_METHOD(0x03144EB0, void, __ctor, (SetupState * __this, int32_t guid));

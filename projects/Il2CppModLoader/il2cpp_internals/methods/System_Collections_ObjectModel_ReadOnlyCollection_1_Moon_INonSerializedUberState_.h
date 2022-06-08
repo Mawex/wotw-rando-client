@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_Moon::INonSerializedUberState_ {
 IL2CPP_REGISTER_METHOD(0x02EC2580, INonSerializedUberState *, get_Item, (ReadOnlyCollection_1_Moon_INonSerializedUberState_ * __this, int32_t index));

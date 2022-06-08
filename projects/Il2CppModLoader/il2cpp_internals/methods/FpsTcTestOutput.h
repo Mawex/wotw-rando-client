@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FpsTcTestOutput {
 IL2CPP_REGISTER_METHOD(0x01636C40, void, __ctor, (FpsTcTestOutput * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SoftJointLimitSpring {
 IL2CPP_REGISTER_METHOD(0x001EB400, float, get_spring, (SoftJointLimitSpring__Boxed * __this));

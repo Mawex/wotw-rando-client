@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UnityEngine::Color_ {
 IL2CPP_REGISTER_METHOD(0x024382C0, bool, Equals, (ObjectEqualityComparer_1_UnityEngine_Color_ * __this, Color x, Color y));

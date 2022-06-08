@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IPv6AddressHelper {
 IL2CPP_REGISTER_METHOD(0x0200BB50, String *, ParseCanonicalName, (String * str, int32_t start, bool * isLoopback, String * * scopeId));

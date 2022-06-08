@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::RotationLimitHinge {
 IL2CPP_REGISTER_METHOD(0x02A21810, void, OpenUserManual, (RotationLimitHinge * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FallBehaviour {
 IL2CPP_REGISTER_METHOD(0x00994900, void, OnInitialize, (FallBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DigZoneHandler {
 IL2CPP_REGISTER_METHOD(0x00446590, bool, get_PassThroughDigZones, (DigZoneHandler * __this));

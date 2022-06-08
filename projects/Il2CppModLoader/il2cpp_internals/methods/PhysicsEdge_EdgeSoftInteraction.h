@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsEdge_EdgeSoftInteraction {
 IL2CPP_REGISTER_METHOD(0x014FED70, void, Set, (PhysicsEdge_EdgeSoftInteraction * __this, PhysicsEdge_EdgeSoftInteraction * inter));

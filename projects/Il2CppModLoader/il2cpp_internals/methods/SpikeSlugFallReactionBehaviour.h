@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpikeSlugFallReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x011CCD70, SpikeSlugLocomotion *, get_Locomotion, (SpikeSlugFallReactionBehaviour * __this));

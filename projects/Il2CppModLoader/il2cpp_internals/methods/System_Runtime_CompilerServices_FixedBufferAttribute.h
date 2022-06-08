@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::FixedBufferAttribute {
 IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (FixedBufferAttribute * __this, Type * elementType, int32_t length));

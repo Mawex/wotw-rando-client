@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Technicolor {
 IL2CPP_REGISTER_METHOD(0x03054490, void, OnRenderImage, (Technicolor * __this, RenderTexture * source, RenderTexture * destination));

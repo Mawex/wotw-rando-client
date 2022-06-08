@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonArrayContract {
 IL2CPP_REGISTER_METHOD(0x002FBD00, Type *, get_CollectionItemType, (JsonArrayContract * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::CachedInvokableCall_1_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02AC4F20, void, __ctor, (CachedInvokableCall_1_System_Boolean_ * __this, Object_1 * target, MethodInfo_1 * theFunction, bool argument));

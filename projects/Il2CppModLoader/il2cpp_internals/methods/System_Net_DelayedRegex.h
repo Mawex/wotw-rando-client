@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::DelayedRegex {
 IL2CPP_REGISTER_METHOD(0x01EAC710, void, __ctor, (DelayedRegex * __this, String * regexString));

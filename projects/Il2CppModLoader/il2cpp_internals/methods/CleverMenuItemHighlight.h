@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuItemHighlight {
 IL2CPP_REGISTER_METHOD(0x012B3AF0, void, Start, (CleverMenuItemHighlight * __this));

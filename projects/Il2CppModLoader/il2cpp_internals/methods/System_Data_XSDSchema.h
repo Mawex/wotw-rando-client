@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XSDSchema {
 IL2CPP_REGISTER_METHOD(0x003FD650, bool, get_FromInference, (XSDSchema * __this));
@@ -76,5 +76,5 @@ IL2CPP_REGISTER_METHOD(0x023E5070, bool, IsTable, (XSDSchema * __this, XmlSchema
 IL2CPP_REGISTER_METHODINFO(0x0478EE08, XSDSchema_IsTable__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023E5390, DataTable *, HandleTable, (XSDSchema * __this, XmlSchemaElement * node));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XSDSchema * __this));
-IL2CPP_REGISTER_METHOD(0x023E5550, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023E5550, void, __cctor, ());
 }

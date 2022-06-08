@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DoorLogic {
 IL2CPP_REGISTER_METHOD(0x00BDA9A0, IUberState *, get_UberState, (DoorLogic * __this));

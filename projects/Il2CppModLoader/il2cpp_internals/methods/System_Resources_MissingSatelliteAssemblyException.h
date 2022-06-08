@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::MissingSatelliteAssemblyException {
 IL2CPP_REGISTER_METHOD(0x01A84050, void, __ctor, (MissingSatelliteAssemblyException * __this));

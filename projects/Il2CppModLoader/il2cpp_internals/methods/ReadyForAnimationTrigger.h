@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ReadyForAnimationTrigger {
 IL2CPP_REGISTER_METHOD(0x007340E0, void, Awake, (ReadyForAnimationTrigger * __this));

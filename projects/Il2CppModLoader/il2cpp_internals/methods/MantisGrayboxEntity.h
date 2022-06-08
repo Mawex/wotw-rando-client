@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisGrayboxEntity {
 IL2CPP_REGISTER_METHOD(0x009FC180, bool, get_IgnoreGoThroughs, (MantisGrayboxEntity * __this));

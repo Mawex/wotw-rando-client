@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::MotionAbsorb_Absorber {
 IL2CPP_REGISTER_METHOD(0x02228000, void, SetToBone, (MotionAbsorb_Absorber * __this, IKSolverFullBodyBiped * solver));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ArraySegment_1_Byte_ {
 IL2CPP_REGISTER_METHOD(0x00221940, void, __ctor, (ArraySegment_1_Byte___Boxed * __this, Byte__Array * array, int32_t offset, int32_t count));

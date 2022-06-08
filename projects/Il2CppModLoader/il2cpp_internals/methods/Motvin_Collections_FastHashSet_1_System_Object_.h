@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Motvin::Collections::FastHashSet_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, System_Collections_Generic_ICollection_T__get_IsReadOnly, (FastHashSet_1_System_Object_ * __this));
@@ -87,8 +87,8 @@ IL2CPP_REGISTER_METHODINFO(0x0473E9B0, FastHashSet_1_System_Object__SymmetricExc
 IL2CPP_REGISTER_METHOD(0x02B036A0, void, RemoveIfNotMarked, (FastHashSet_1_System_Object_ * __this, Object * * item));
 IL2CPP_REGISTER_METHOD(0x02B03930, int32_t, RemoveWhere, (FastHashSet_1_System_Object_ * __this, Predicate_1_Object_ * match));
 IL2CPP_REGISTER_METHODINFO(0x04785BF8, FastHashSet_1_System_Object__RemoveWhere__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02B03D00, IEqualityComparer_1_Motvin_Collections_FastHashSet_1_ *, CreateSetComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02B03D00, IEqualityComparer_1_Motvin_Collections_FastHashSet_1_ *, CreateSetComparer, ());
 IL2CPP_REGISTER_METHOD(0x02B03E60, IEnumerator_1_System_Object_ *, GetEnumerator, (FastHashSet_1_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02B03E60, IEnumerator *, IEnumerable_GetEnumerator, (FastHashSet_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x02B03F80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02B03F80, void, __cctor, ());
 }

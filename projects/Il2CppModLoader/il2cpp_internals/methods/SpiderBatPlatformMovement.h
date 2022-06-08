@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatPlatformMovement {
 IL2CPP_REGISTER_METHOD(0x0095DF10, void, set_IsDeathFalling, (SpiderBatPlatformMovement * __this, bool value));

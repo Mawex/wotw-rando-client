@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::MiniBond {
 IL2CPP_REGISTER_METHOD(0x002FD800, void, Serialize, (CompactBinaryProtocolWriter * writer, Ingest * value, bool isBase));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::DeriveBytes {
 IL2CPP_REGISTER_METHOD(0x020D7DC0, void, Dispose, (DeriveBytes * __this));

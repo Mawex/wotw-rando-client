@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CanvasCameraHooker {
 IL2CPP_REGISTER_METHOD(0x00B22D50, void, Start, (CanvasCameraHooker * __this));

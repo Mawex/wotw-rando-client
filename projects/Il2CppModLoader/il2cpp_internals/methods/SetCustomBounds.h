@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetCustomBounds {
 IL2CPP_REGISTER_METHOD(0x005A2580, void, Awake, (SetCustomBounds * __this));

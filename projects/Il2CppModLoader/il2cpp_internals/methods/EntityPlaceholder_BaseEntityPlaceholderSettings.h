@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityPlaceholder_BaseEntityPlaceholderSettings {
 IL2CPP_REGISTER_METHOD(0x00C9DB10, void, CopyTo, (EntityPlaceholder_BaseEntityPlaceholderSettings * __this, EntityPlaceholder_BaseEntityPlaceholderSettings * copyTarget));

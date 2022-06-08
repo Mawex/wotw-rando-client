@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ComparisonComparer_1_Moon::Substr_ {
 IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_Moon_Substr_ * __this, Comparison_1_Moon_Substr_ * comparison));

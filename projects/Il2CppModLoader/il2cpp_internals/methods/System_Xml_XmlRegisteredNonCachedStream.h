@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlRegisteredNonCachedStream {
 IL2CPP_REGISTER_METHOD(0x01706880, void, __ctor, (XmlRegisteredNonCachedStream * __this, Stream * stream, XmlDownloadManager * downloadManager, String * host));

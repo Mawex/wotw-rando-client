@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Cache::XPathNodeRef {
 IL2CPP_REGISTER_METHOD(0x0011D2D0, void, __ctor, (XPathNodeRef__Boxed * __this, XPathNode__Array * page, int32_t idx));

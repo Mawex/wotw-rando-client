@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Type_Dictionary_2_System::String_System::Reflection::FieldInfo__ {
 IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Type_Dictionary_2_System_String_System_Reflection_FieldInfo_ * __this));

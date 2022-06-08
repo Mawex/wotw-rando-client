@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransformProvider {
 IL2CPP_REGISTER_METHOD(0x031189D0, Transform *, GetTransform, (TransformProvider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletStructureStateModifier {
 IL2CPP_REGISTER_METHOD(0x013D3240, void, Apply, (VerletStructureStateModifier * __this, MoonReference_1_UnityEngine_GameObject_ * target, UberStateApplyContext__Enum context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_UnityEngine::Vector2_ {
 IL2CPP_REGISTER_METHOD(0x002126E0, Vector2, GetValueOrDefault, (Nullable_1_UnityEngine_Vector2___Boxed * __this, Vector2 defaultValue));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControlListOptions {
-IL2CPP_REGISTER_METHOD(0x011EEE00, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x011EEE00, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x011EEE80, void, Awake, (ControlListOptions * __this));
 IL2CPP_REGISTER_METHOD(0x011EF050, void, OnDestroy, (ControlListOptions * __this));
 IL2CPP_REGISTER_METHOD(0x011EF130, void, SetAndClose, (ControlListOptions * __this, ControlsScreen_ControlListEnum__Enum set));

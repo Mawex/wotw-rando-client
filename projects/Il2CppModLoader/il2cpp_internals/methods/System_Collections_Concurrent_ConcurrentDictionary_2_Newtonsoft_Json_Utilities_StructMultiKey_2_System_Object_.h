@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_Newtonsoft::Json::Utilities::StructMultiKey_2_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x02ADDAD0, bool, IsValueWriteAtomic, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02ADDAD0, bool, IsValueWriteAtomic, ());
 IL2CPP_REGISTER_METHOD(0x02ADDC30, void, __ctor, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02ADDD20, void, __ctor, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this, int32_t concurrencyLevel, int32_t capacity, bool growLockArray, IEqualityComparer_1_Newtonsoft_Json_Utilities_StructMultiKey_2__3 * comparer));
 IL2CPP_REGISTER_METHODINFO(0x0478E4D8, ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object___ctor_1__MethodInfo);
@@ -24,9 +24,9 @@ IL2CPP_REGISTER_METHOD(0x02ADFC00, bool, TryAddInternal, (ConcurrentDictionary_2
 IL2CPP_REGISTER_METHODINFO(0x0473B8B8, ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object__TryAddInternal__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02AE05F0, Object *, get_Item, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this, StructMultiKey_2_System_Object_System_Object_ key));
 IL2CPP_REGISTER_METHOD(0x02AE06F0, void, set_Item, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this, StructMultiKey_2_System_Object_System_Object_ key, Object * value));
-IL2CPP_REGISTER_METHOD(0x02AE0830, void, ThrowKeyNotFoundException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AE0830, void, ThrowKeyNotFoundException, ());
 IL2CPP_REGISTER_METHODINFO(0x0477E758, ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object__ThrowKeyNotFoundException__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02AE0880, void, ThrowKeyNullException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AE0880, void, ThrowKeyNullException, ());
 IL2CPP_REGISTER_METHODINFO(0x047157E0, ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object__ThrowKeyNullException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02AE08E0, int32_t, get_Count, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02AE0A10, int32_t, GetCountInternal, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this));
@@ -67,7 +67,7 @@ IL2CPP_REGISTER_METHOD(0x02AE2230, void, GrowTable, (ConcurrentDictionary_2_Newt
 IL2CPP_REGISTER_METHODINFO(0x04752A00, ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object__GrowTable__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02AE2D10, int32_t, GetBucket, (int32_t hashcode, int32_t bucketCount));
 IL2CPP_REGISTER_METHOD(0x02AE2D20, void, GetBucketAndLockNo, (int32_t hashcode, int32_t * bucketNo, int32_t * lockNo, int32_t bucketCount, int32_t lockCount));
-IL2CPP_REGISTER_METHOD(0x02AE2D40, int32_t, get_DefaultConcurrencyLevel, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AE2D40, int32_t, get_DefaultConcurrencyLevel, ());
 IL2CPP_REGISTER_METHOD(0x02AE2D50, void, AcquireAllLocks, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this, int32_t * locksAcquired));
 IL2CPP_REGISTER_METHOD(0x02AE2F20, void, AcquireLocks, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this, int32_t fromInclusive, int32_t toExclusive, int32_t * locksAcquired));
 IL2CPP_REGISTER_METHOD(0x02AE3070, void, ReleaseLocks, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this, int32_t fromInclusive, int32_t toExclusive));
@@ -75,5 +75,5 @@ IL2CPP_REGISTER_METHOD(0x02AE3110, ReadOnlyCollection_1_Newtonsoft_Json_Utilitie
 IL2CPP_REGISTER_METHODINFO(0x047656E8, ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object__GetKeys__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02AE35A0, ReadOnlyCollection_1_System_Object_ *, GetValues, (ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * __this));
 IL2CPP_REGISTER_METHODINFO(0x04730F78, ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object__GetValues__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02AE3A20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AE3A20, void, __cctor, ());
 }

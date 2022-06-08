@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VaryingPrefabProvider {
 IL2CPP_REGISTER_METHOD(0x013BA8D0, GameObject *, Prefab, (VaryingPrefabProvider * __this, IContext * context));

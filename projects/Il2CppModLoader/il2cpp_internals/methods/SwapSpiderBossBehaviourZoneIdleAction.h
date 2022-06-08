@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwapSpiderBossBehaviourZoneIdleAction {
 IL2CPP_REGISTER_METHOD(0x00676F10, String *, get_Info, (SwapSpiderBossBehaviourZoneIdleAction * __this));

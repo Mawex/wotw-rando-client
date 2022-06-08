@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlEntityReference {
 IL2CPP_REGISTER_METHOD(0x01DB5690, void, __ctor, (XmlEntityReference * __this, String * name, XmlDocument * doc));

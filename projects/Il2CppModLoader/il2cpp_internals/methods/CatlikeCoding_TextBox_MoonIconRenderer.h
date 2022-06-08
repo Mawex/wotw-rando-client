@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::MoonIconRenderer {
 IL2CPP_REGISTER_METHOD(0x0102ED10, void, Prepare, (MoonIconRenderer * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::IndexMethodByRefUpdater {
 IL2CPP_REGISTER_METHOD(0x01CD5D00, void, __ctor, (IndexMethodByRefUpdater * __this, Nullable_1_System_Linq_Expressions_Interpreter_LocalDefinition_ obj, LocalDefinition__Array * args, MethodInfo_1 * indexer, int32_t argumentIndex));

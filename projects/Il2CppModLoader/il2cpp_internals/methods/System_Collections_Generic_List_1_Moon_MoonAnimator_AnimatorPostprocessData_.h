@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon::MoonAnimator_AnimatorPostprocessData_ {
 IL2CPP_REGISTER_METHOD(0x02D24DA0, MoonAnimator_AnimatorPostprocessData, get_Item, (List_1_Moon_MoonAnimator_AnimatorPostprocessData_ * __this, int32_t index));
@@ -65,5 +65,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_Moon_MoonAnimator_Animato
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_Moon_MoonAnimator_AnimatorPostprocessData_ * __this, Comparison_1_Moon_MoonAnimator_AnimatorPostprocessData_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, MoonAnimator_AnimatorPostprocessData__Array *, ToArray, (List_1_Moon_MoonAnimator_AnimatorPostprocessData_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_Moon_MoonAnimator_AnimatorPostprocessData_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

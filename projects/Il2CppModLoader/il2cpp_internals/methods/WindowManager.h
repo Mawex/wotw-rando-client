@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindowManager {
 IL2CPP_REGISTER_METHOD(0x0057AB90, int32_t, SetWindowLong, (void * hWnd, int32_t nIndex, int32_t dwNewLong));
@@ -7,10 +7,10 @@ IL2CPP_REGISTER_METHOD(0x0057ACF0, void *, FindWindowByCaption, (void * ZeroOnly
 IL2CPP_REGISTER_METHOD(0x0057AED0, bool, DrawMenuBar, (void * hWnd));
 IL2CPP_REGISTER_METHOD(0x0057AF70, void *, SetWindowPos, (void * hWnd, int32_t hWndInsertAfter, int32_t x, int32_t Y, int32_t cx, int32_t cy, int32_t wFlags));
 IL2CPP_REGISTER_METHOD(0x0057B030, bool, GetWindowRect, (void * hWnd, RECT * lpRect));
-IL2CPP_REGISTER_METHOD(0x0057B0E0, void *, GetForegroundWindow, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0057B170, void *, GetActiveWindow, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0057B0E0, void *, GetForegroundWindow, ());
+IL2CPP_REGISTER_METHOD(0x0057B170, void *, GetActiveWindow, ());
 IL2CPP_REGISTER_METHOD(0x0057B200, bool, ShowWindow, (void * hwnd, int32_t nCmdShow));
-IL2CPP_REGISTER_METHOD(0x0057B2B0, void *, GetFocus, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0057B2B0, void *, GetFocus, ());
 IL2CPP_REGISTER_METHOD(0x0057B340, void, Awake, (WindowManager * __this));
 IL2CPP_REGISTER_METHOD(0x0057B470, int32_t, MakeBorderless, (WindowManager * __this));
 IL2CPP_REGISTER_METHOD(0x0057B4F0, void, MakeBordered, (WindowManager * __this));

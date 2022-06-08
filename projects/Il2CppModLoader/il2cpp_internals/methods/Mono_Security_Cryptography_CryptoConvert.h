@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::CryptoConvert {
 IL2CPP_REGISTER_METHOD(0x025C5550, int32_t, ToInt32LE, (Byte__Array * bytes, int32_t offset));

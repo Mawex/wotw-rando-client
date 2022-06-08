@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MeleeAttackTimelineBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x011135D0, Vector3, get_TargetPosition, (MeleeAttackTimelineBehaviourNew * __this));

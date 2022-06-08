@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XNamespace {
 IL2CPP_REGISTER_METHOD(0x030390C0, void, __ctor, (XNamespace * __this, String * namespaceName));
@@ -6,9 +6,9 @@ IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_NamespaceName, (XNamespace * __
 IL2CPP_REGISTER_METHOD(0x03039310, XName *, GetName, (XNamespace * __this, String * localName));
 IL2CPP_REGISTER_METHODINFO(0x04797888, XNamespace_GetName__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, ToString, (XNamespace * __this));
-IL2CPP_REGISTER_METHOD(0x030393F0, XNamespace *, get_None, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03039490, XNamespace *, get_Xml, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03039520, XNamespace *, get_Xmlns, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030393F0, XNamespace *, get_None, ());
+IL2CPP_REGISTER_METHOD(0x03039490, XNamespace *, get_Xml, ());
+IL2CPP_REGISTER_METHOD(0x03039520, XNamespace *, get_Xmlns, ());
 IL2CPP_REGISTER_METHOD(0x030395B0, XNamespace *, Get, (String * namespaceName));
 IL2CPP_REGISTER_METHODINFO(0x0470C448, XNamespace_Get__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x03039670, XNamespace *, operator_, (String * namespaceName));

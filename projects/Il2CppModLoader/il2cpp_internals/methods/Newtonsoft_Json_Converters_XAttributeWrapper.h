@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::XAttributeWrapper {
 IL2CPP_REGISTER_METHOD(0x01A55F20, XAttribute *, get_Attribute, (XAttributeWrapper * __this));

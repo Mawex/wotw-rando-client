@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK {
 IL2CPP_REGISTER_METHOD(0x030B44F0, NativeBool, EnumerateBlobInfoCallback, (XGameSaveBlobInfo interopBlobInfo, void * context));
@@ -25,7 +25,7 @@ IL2CPP_REGISTER_METHOD(0x030B6BA0, void, XUserGetTokenAndSignatureUtf16Async, (X
 IL2CPP_REGISTER_METHOD(0x030B70E0, void, XUserResolveIssueWithUiUtf16Async, (XUserHandle * user, String * url, XUserResolveIssueWithUiUtf16Result * completionRoutine));
 IL2CPP_REGISTER_METHOD(0x030B7470, int32_t, XUserRegisterForChangeEvent, (XUserChangeEventCallback * callback, XRegistrationToken * * registrationToken));
 IL2CPP_REGISTER_METHOD(0x030B7890, void, XUserUnregisterForChangeEvent, (XRegistrationToken * registrationToken));
-IL2CPP_REGISTER_METHOD(0x030B7960, int32_t, XGameRuntimeInitialize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030B7960, int32_t, XGameRuntimeInitialize, ());
 IL2CPP_REGISTER_METHOD(0x030B7C20, void, XTaskQueueDispatch, (uint32_t timeoutMs));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

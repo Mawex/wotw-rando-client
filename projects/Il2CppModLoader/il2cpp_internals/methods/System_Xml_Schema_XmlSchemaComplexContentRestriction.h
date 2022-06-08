@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaComplexContentRestriction {
 IL2CPP_REGISTER_METHOD(0x002FBBA0, XmlQualifiedName *, get_BaseTypeName, (XmlSchemaComplexContentRestriction * __this));

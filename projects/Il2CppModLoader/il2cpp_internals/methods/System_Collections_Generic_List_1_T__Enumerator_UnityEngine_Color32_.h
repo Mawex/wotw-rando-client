@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_UnityEngine::Color32_ {
 IL2CPP_REGISTER_METHOD(0x0014E7D0, void, __ctor, (List_1_T_Enumerator_UnityEngine_Color32___Boxed * __this, List_1_UnityEngine_Color32_ * list));

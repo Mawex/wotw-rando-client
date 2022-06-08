@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap__CreateFromPlacement_c__AnonStorey0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TerrainUtility_TerrainMap_CreateFromPlacement_c_AnonStorey0 * __this));

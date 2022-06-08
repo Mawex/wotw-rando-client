@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkMIDIPostArray {
 IL2CPP_REGISTER_METHOD(0x026F81B0, void, __ctor, (AkMIDIPostArray * __this, int32_t size));

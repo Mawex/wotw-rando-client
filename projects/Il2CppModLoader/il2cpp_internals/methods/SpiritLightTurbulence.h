@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLightTurbulence {
 IL2CPP_REGISTER_METHOD(0x00D63080, float, get_TurbulenceValueInThisFrame, (SpiritLightTurbulence * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransparencyAnimator {
 IL2CPP_REGISTER_METHOD(0x00D0BB50, GameObject *, get_ExternalTarget, (TransparencyAnimator * __this));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x00D0CBD0, bool, get_ShouldUpdateWhileDisabled, (Transpa
 IL2CPP_REGISTER_METHOD(0x00D0CCE0, void, SynchronizePad, (TransparencyAnimator * __this, MoonTimeline * timeline, TimelineEntityRecord * record, TimelineEntity * entity, Constraint__Enum type));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (TransparencyAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x00D0CF00, void, __ctor, (TransparencyAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00D0D180, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D0D180, void, __cctor, ());
 }

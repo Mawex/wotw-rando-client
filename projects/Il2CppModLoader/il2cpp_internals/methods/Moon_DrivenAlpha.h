@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DrivenAlpha {
 IL2CPP_REGISTER_METHOD(0x01201D70, ITweenLerpInputProvider *, get_ResolvedInputProvider, (DrivenAlpha * __this));

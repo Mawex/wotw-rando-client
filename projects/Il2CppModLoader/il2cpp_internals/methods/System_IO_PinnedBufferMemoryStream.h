@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::PinnedBufferMemoryStream {
 IL2CPP_REGISTER_METHOD(0x0237B110, void, __ctor, (PinnedBufferMemoryStream * __this, Byte__Array * array));

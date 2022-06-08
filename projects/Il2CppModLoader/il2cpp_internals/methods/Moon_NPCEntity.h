@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::NPCEntity {
 IL2CPP_REGISTER_METHOD(0x01121E00, InteractionGraph *, get_CurrentInteractionGraph, (NPCEntity * __this));

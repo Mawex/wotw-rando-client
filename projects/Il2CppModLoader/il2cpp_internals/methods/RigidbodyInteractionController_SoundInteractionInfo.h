@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidbodyInteractionController_SoundInteractionInfo {
 IL2CPP_REGISTER_METHOD(0x0011AED0, float, CalculateRtpcValue, (RigidbodyInteractionController_SoundInteractionInfo__Boxed * __this));

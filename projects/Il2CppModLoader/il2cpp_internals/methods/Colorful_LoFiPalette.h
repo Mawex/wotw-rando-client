@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::LoFiPalette {
 IL2CPP_REGISTER_METHOD(0x03049300, void, OnRenderImage, (LoFiPalette * __this, RenderTexture * source, RenderTexture * destination));

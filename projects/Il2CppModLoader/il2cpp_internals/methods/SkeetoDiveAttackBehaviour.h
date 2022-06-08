@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoDiveAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x0074F800, SkeetoDiveAttackBehaviour_DiveAttackState__Enum, get_State, (SkeetoDiveAttackBehaviour * __this));

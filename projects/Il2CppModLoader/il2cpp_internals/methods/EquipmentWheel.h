@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EquipmentWheel {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_CanInterruptTab, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x00417920, MenuTabBackground__Enum, get_BackgroundMode, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedOreUI, (EquipmentWheel * __this));
-IL2CPP_REGISTER_METHOD(0x0097AAF0, List_1_EquipmentType_ *, get_EquipmentTypeValues, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0097AC90, List_1_EquipmentType_ *, get_ValidEquipmentTypes, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0097AAF0, List_1_EquipmentType_ *, get_EquipmentTypeValues, ());
+IL2CPP_REGISTER_METHOD(0x0097AC90, List_1_EquipmentType_ *, get_ValidEquipmentTypes, ());
 IL2CPP_REGISTER_METHOD(0x0097B040, PlayerUberStateInventory_InventoryItem *, get_SelectedSpell, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x0097B110, SpellUIItem *, get_SelectedSpellUIItem, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x0097B200, void, OnEnable, (EquipmentWheel * __this));
@@ -36,11 +36,11 @@ IL2CPP_REGISTER_METHOD(0x0097EB80, void, OnPressY, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHODINFO(0x0478D460, EquipmentWheel_OnPressY__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0097EB90, void, OnPressB, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHODINFO(0x047684F8, EquipmentWheel_OnPressB__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0097EBA0, List_1_Moon_uberSerializationWisp_PlayerUberStateInventory_InventoryItem_ *, GetWheelItems, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0097EBA0, List_1_Moon_uberSerializationWisp_PlayerUberStateInventory_InventoryItem_ *, GetWheelItems, ());
 IL2CPP_REGISTER_METHOD(0x0097EE20, void, GetValidTypesWithRestrictions, (HashSet_1_EquipmentType_ * destinationList));
-IL2CPP_REGISTER_METHOD(0x0097F040, int32_t, GetValidTypesWithRestrictionsCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0097F040, int32_t, GetValidTypesWithRestrictionsCount, ());
 IL2CPP_REGISTER_METHOD(0x0097F180, bool, HasElement, (EquipmentType__Enum type));
-IL2CPP_REGISTER_METHOD(0x0097F290, bool, IsTandemGameplay, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0097F290, bool, IsTandemGameplay, ());
 IL2CPP_REGISTER_METHOD(0x0097F420, bool, IsAllowedOnWheel, (EquipmentType__Enum type));
 IL2CPP_REGISTER_METHOD(0x0097F650, void, PopulateInventoryCanvasWithEquipment, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x0097F8D0, PlayerUberStateInventory_InventoryItem *, GetActualInventoryItem, (EquipmentType__Enum typ));
@@ -59,5 +59,5 @@ IL2CPP_REGISTER_METHOD(0x00980290, void, CacheSuspendables, (EquipmentWheel * __
 IL2CPP_REGISTER_METHOD(0x00980400, void, OnPostTimeSlicedEnable, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x00980510, void, OnInstantiate, (EquipmentWheel * __this));
 IL2CPP_REGISTER_METHOD(0x00980950, void, __ctor, (EquipmentWheel * __this));
-IL2CPP_REGISTER_METHOD(0x00980EC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00980EC0, void, __cctor, ());
 }

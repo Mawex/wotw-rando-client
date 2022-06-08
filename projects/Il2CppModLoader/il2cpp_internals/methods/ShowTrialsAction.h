@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowTrialsAction {
 IL2CPP_REGISTER_METHOD(0x00739170, void, Perform, (ShowTrialsAction * __this, IContext * context));

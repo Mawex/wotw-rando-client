@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Posterize {
 IL2CPP_REGISTER_METHOD(0x0304CC60, void, OnRenderImage, (Posterize * __this, RenderTexture * source, RenderTexture * destination));

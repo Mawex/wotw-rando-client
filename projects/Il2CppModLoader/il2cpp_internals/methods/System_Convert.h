@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Convert {
 IL2CPP_REGISTER_METHOD(0x02035400, TypeCode__Enum, GetTypeCode, (Object * value));
@@ -282,5 +282,5 @@ IL2CPP_REGISTER_METHOD(0x0203FE40, int32_t, FromBase64_Decode, (uint16_t * start
 IL2CPP_REGISTER_METHODINFO(0x0474D828, Convert_FromBase64_Decode__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02040180, int32_t, FromBase64_ComputeResultLength, (uint16_t * inputPtr, int32_t inputLength));
 IL2CPP_REGISTER_METHODINFO(0x04792700, Convert_FromBase64_ComputeResultLength__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x020402A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x020402A0, void, __cctor, ());
 }

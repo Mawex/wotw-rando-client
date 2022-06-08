@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK_XBL_XblCleanupResult {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (SDK_XBL_XblCleanupResult * __this, Object * object, void * method_1));

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_SpellIconsCollection_Icons_ {
-IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_SpellIconsCollection_Icons_ *, get_Default, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02D978F0, EqualityComparer_1_SpellIconsCollection_Icons_ *, CreateComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_SpellIconsCollection_Icons_ *, get_Default, ());
+IL2CPP_REGISTER_METHOD(0x02D978F0, EqualityComparer_1_SpellIconsCollection_Icons_ *, CreateComparer, ());
 IL2CPP_REGISTER_METHOD(0x02B49B00, int32_t, IndexOf, (EqualityComparer_1_SpellIconsCollection_Icons_ * __this, SpellIconsCollection_Icons__Array * array, SpellIconsCollection_Icons value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B49BF0, int32_t, LastIndexOf, (EqualityComparer_1_SpellIconsCollection_Icons_ * __this, SpellIconsCollection_Icons__Array * array, SpellIconsCollection_Icons value, int32_t startIndex, int32_t count));
 IL2CPP_REGISTER_METHOD(0x02B49CE0, int32_t, IEqualityComparer_GetHashCode, (EqualityComparer_1_SpellIconsCollection_Icons_ * __this, Object * obj));

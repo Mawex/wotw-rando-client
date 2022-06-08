@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::GameObject_List_1_Moon::BehaviourSystem::GuardDecorator__ {
 IL2CPP_REGISTER_METHOD(0x02BD24D0, List_1_Moon_BehaviourSystem_GuardDecorator_ *, get_Item, (Dictionary_2_UnityEngine_GameObject_List_1_Moon_BehaviourSystem_GuardDecorator_ * __this, GameObject * key));

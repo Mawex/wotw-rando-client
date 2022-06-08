@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::Inflater {
 IL2CPP_REGISTER_METHOD(0x02B7AD40, void, __ctor, (Inflater * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x02B7BC40, bool, DecodeBlock, (Inflater * __this, bool *
 IL2CPP_REGISTER_METHODINFO(0x04700A00, Inflater_DecodeBlock__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02B7C1C0, bool, DecodeDynamicBlockHeader, (Inflater * __this));
 IL2CPP_REGISTER_METHODINFO(0x0472A770, Inflater_DecodeDynamicBlockHeader__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02B7CBF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02B7CBF0, void, __cctor, ());
 }

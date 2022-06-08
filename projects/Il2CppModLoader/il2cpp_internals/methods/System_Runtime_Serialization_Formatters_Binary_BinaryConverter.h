@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::BinaryConverter {
 IL2CPP_REGISTER_METHOD(0x01D8C320, BinaryTypeEnum__Enum, GetBinaryTypeInfo, (Type * type, WriteObjectInfo * objectInfo, String * typeName, ObjectWriter * objectWriter, Object * * typeInformation, int32_t * assemId));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FfmpegCommandLineBuilder {
 IL2CPP_REGISTER_METHOD(0x0099AE60, FfmpegCommandLineBuilder *, WithPixelFormatBGRA, (FfmpegCommandLineBuilder * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x0099B0E0, FfmpegCommandLineBuilder *, WithOutputFile, (
 IL2CPP_REGISTER_METHOD(0x0099B0F0, String *, BuildCommandLine, (FfmpegCommandLineBuilder * __this, bool doProres, bool bakeFrameCount, int32_t startFrame));
 IL2CPP_REGISTER_METHODINFO(0x047722B0, FfmpegCommandLineBuilder_BuildCommandLine__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0099B590, void, __ctor, (FfmpegCommandLineBuilder * __this));
-IL2CPP_REGISTER_METHOD(0x0099B670, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0099B670, void, __cctor, ());
 }

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::JsonWriter {
-IL2CPP_REGISTER_METHOD(0x01EFDC70, JsonWriter_State__Enum__Array__Array *, BuildStateArray, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01EFDFF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EFDC70, JsonWriter_State__Enum__Array__Array *, BuildStateArray, ());
+IL2CPP_REGISTER_METHOD(0x01EFDFF0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_CloseOutput, (JsonWriter * __this));
 IL2CPP_REGISTER_METHOD(0x00447370, void, set_CloseOutput, (JsonWriter * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x004379C0, bool, get_AutoCompleteOnClose, (JsonWriter * __this));

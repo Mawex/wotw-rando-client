@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::ChainValidationHelper {
 IL2CPP_REGISTER_METHOD(0x0217CCD0, ICertificateValidator *, GetInternalValidator, (MonoTlsProvider * provider, MonoTlsSettings * settings));

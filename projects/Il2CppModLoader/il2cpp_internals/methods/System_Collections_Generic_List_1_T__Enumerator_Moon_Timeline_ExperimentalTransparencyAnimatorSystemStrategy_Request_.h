@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::Timeline::ExperimentalTransparencyAnimatorSystemStrategy_Request_ {
 IL2CPP_REGISTER_METHOD(0x00140C90, ExperimentalTransparencyAnimatorSystemStrategy_Request, get_Current, (List_1_T_Enumerator_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request___Boxed * __this));

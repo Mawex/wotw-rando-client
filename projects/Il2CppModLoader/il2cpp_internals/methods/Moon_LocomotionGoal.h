@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LocomotionGoal {
 IL2CPP_REGISTER_METHOD(0x0110DC40, void, __ctor, (LocomotionGoal * __this));

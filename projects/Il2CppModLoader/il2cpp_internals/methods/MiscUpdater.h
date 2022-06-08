@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MiscUpdater {
-IL2CPP_REGISTER_METHOD(0x01459880, MiscUpdater *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01459880, MiscUpdater *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x01459920, void, set_Instance, (MiscUpdater * value));
-IL2CPP_REGISTER_METHOD(0x014599D0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x014599D0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x01459BA0, void, Awake, (MiscUpdater * __this));
 IL2CPP_REGISTER_METHOD(0x01459C40, void, OnDestroy, (MiscUpdater * __this));
 IL2CPP_REGISTER_METHOD(0x01459CD0, void, Register, (CollisionSoundSource * collisionSoundSource));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x0145A390, void, Unregister, (UnparentTrailRenderer * un
 IL2CPP_REGISTER_METHOD(0x0145A450, void, Update, (MiscUpdater * __this));
 IL2CPP_REGISTER_METHOD(0x0145A930, void, FixedUpdate, (MiscUpdater * __this));
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (MiscUpdater * __this));
-IL2CPP_REGISTER_METHOD(0x0145AC70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0145AC70, void, __cctor, ());
 }

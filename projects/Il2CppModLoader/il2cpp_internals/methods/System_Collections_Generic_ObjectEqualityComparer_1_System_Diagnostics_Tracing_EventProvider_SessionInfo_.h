@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System::Diagnostics::Tracing::EventProvider_SessionInfo_ {
 IL2CPP_REGISTER_METHOD(0x01CD1020, bool, Equals, (ObjectEqualityComparer_1_System_Diagnostics_Tracing_EventProvider_SessionInfo_ * __this, EventProvider_SessionInfo x, EventProvider_SessionInfo y));

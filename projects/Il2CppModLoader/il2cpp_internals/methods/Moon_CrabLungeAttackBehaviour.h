@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrabLungeAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x00CCCED0, void, OnEnter, (CrabLungeAttackBehaviour * __this, IContext * context));

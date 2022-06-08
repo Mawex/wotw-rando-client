@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlReaderSettings {
 IL2CPP_REGISTER_METHOD(0x01704870, void, __ctor, (XmlReaderSettings * __this));
@@ -56,9 +56,9 @@ IL2CPP_REGISTER_METHOD(0x01705B30, void, CheckReadOnly, (XmlReaderSettings * __t
 IL2CPP_REGISTER_METHODINFO(0x0472F598, XmlReaderSettings_CheckReadOnly__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01704870, void, Initialize, (XmlReaderSettings * __this));
 IL2CPP_REGISTER_METHOD(0x01705C30, void, Initialize, (XmlReaderSettings * __this, XmlResolver * resolver));
-IL2CPP_REGISTER_METHOD(0x01705E30, XmlResolver *, CreateDefaultResolver, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01705E30, XmlResolver *, CreateDefaultResolver, ());
 IL2CPP_REGISTER_METHOD(0x01705F70, XmlReader *, AddValidation, (XmlReaderSettings * __this, XmlReader * reader));
 IL2CPP_REGISTER_METHOD(0x01706340, XmlValidatingReaderImpl *, CreateDtdValidatingReader, (XmlReaderSettings * __this, XmlReader * baseReader));
-IL2CPP_REGISTER_METHOD(0x017064B0, bool, EnableLegacyXmlSettings, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017064B0, bool, EnableLegacyXmlSettings, ());
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::DataStorage {
 IL2CPP_REGISTER_METHOD(0x02159C70, void, __ctor, (DataStorage * __this, DataColumn * column, Type * type, Object * defaultValue, StorageType__Enum storageType));
@@ -40,5 +40,5 @@ IL2CPP_REGISTER_METHOD(0x0215F000, void, SetStorageInternal, (DataStorage * __th
 IL2CPP_REGISTER_METHOD(0x002FB9A0, void, SetNullStorage, (DataStorage * __this, BitArray * nullbits));
 IL2CPP_REGISTER_METHOD(0x0215F020, Type *, GetType, (String * value));
 IL2CPP_REGISTER_METHOD(0x0215F180, String *, GetQualifiedName, (Type * type));
-IL2CPP_REGISTER_METHOD(0x0215F240, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0215F240, void, __cctor, ());
 }

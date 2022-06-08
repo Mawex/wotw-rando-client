@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleanupDebugger {
 IL2CPP_REGISTER_METHOD(0x01324D40, GUIStyle *, get_LabelStyle, (CleanupDebugger * __this));
-IL2CPP_REGISTER_METHOD(0x013250B0, CleanupDebugger *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01325130, bool, get_Enabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013250B0, CleanupDebugger *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x01325130, bool, get_Enabled, ());
 IL2CPP_REGISTER_METHOD(0x013251E0, void, set_Enabled, (bool value));
 IL2CPP_REGISTER_METHOD(0x01325380, void, EnsureImgui, (CleanupDebugger * __this, bool registered));
 IL2CPP_REGISTER_METHOD(0x01325470, void, Awake, (CleanupDebugger * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Portal {
 IL2CPP_REGISTER_METHOD(0x00C60E20, SceneRoot *, get_SceneRoot, (Portal * __this));

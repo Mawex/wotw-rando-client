@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::TypeData {
 IL2CPP_REGISTER_METHOD(0x01C903A0, void, __ctor, (TypeData * __this, Type * type, String * elementName, bool isPrimitive));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_HasPublicConstructor, (TypeData * _
 IL2CPP_REGISTER_METHOD(0x01C91640, PropertyInfo_1 *, GetIndexerProperty, (Type * collectionType));
 IL2CPP_REGISTER_METHOD(0x01C917E0, InvalidOperationException *, CreateMissingAddMethodException, (Type * type, String * inheritFrom, Type * argumentType));
 IL2CPP_REGISTER_METHOD(0x01C919E0, Type *, GetGenericListItemType, (Type * type));
-IL2CPP_REGISTER_METHOD(0x01C91C30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C91C30, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardSpawnTask {
 IL2CPP_REGISTER_METHOD(0x00FB24F0, void, OnEnterTask, (LizardSpawnTask * __this, IContext * context));

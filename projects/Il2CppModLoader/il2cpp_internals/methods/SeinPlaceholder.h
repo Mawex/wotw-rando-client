@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinPlaceholder {
-IL2CPP_REGISTER_METHOD(0x008B8FA0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008B8FA0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x008B9020, void, Awake, (SeinPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x008B91B0, void, Spawn, (SeinPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x008B9970, void, AfterLoadingFromMasterFinishedAfterInstantiation, (SeinPlaceholder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OffsetSpriteWhenGrabbingBlock {
 IL2CPP_REGISTER_METHOD(0x00610C30, void, FixedUpdate, (OffsetSpriteWhenGrabbingBlock * __this));

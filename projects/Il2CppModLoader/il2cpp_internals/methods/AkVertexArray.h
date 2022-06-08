@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkVertexArray {
 IL2CPP_REGISTER_METHOD(0x027028B0, void, __ctor, (AkVertexArray * __this, int32_t count));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Sini::Unity::RectExtensions___c__DisplayClass75_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RectExtensions_c_DisplayClass75_0 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::TypeDependencyAttribute {
 IL2CPP_REGISTER_METHOD(0x01A930A0, void, __ctor, (TypeDependencyAttribute * __this, String * typeName));

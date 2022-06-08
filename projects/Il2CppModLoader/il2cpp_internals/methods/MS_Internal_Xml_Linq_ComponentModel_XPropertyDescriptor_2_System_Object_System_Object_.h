@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XPropertyDescriptor_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x019F8980, Type *, get_ComponentType, (XPropertyDescriptor_2_System_Object_System_Object_ * __this));

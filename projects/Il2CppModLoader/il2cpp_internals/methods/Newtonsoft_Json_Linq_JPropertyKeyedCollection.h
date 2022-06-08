@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JPropertyKeyedCollection {
 IL2CPP_REGISTER_METHOD(0x01F0EA40, void, __ctor, (JPropertyKeyedCollection * __this));
@@ -15,5 +15,5 @@ IL2CPP_REGISTER_METHOD(0x01F0F3C0, void, SetItem, (JPropertyKeyedCollection * __
 IL2CPP_REGISTER_METHOD(0x01F0F5A0, bool, TryGetValue, (JPropertyKeyedCollection * __this, String * key, JToken * * value));
 IL2CPP_REGISTER_METHOD(0x01F0F660, ICollection_1_System_String_ *, get_Keys, (JPropertyKeyedCollection * __this));
 IL2CPP_REGISTER_METHOD(0x01F0F700, int32_t, IndexOfReference, (JPropertyKeyedCollection * __this, JToken * t));
-IL2CPP_REGISTER_METHOD(0x01F0F850, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F0F850, void, __cctor, ());
 }

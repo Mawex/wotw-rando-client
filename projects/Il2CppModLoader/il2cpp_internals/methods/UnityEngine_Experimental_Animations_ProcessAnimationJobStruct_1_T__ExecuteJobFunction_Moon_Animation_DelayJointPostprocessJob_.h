@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Animations::ProcessAnimationJobStruct_1_T__ExecuteJobFunction_Moon::Animation::DelayJointPostprocessJob_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (ProcessAnimationJobStruct_1_T_ExecuteJobFunction_Moon_Animation_DelayJointPostprocessJob_ * __this, Object * object, void * method_1));

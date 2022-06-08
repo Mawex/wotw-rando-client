@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::OrderedEnumerable_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x025496B0, IEnumerator_1_System_Int32_ *, GetEnumerator, (OrderedEnumerable_1_System_Int32_ * __this));

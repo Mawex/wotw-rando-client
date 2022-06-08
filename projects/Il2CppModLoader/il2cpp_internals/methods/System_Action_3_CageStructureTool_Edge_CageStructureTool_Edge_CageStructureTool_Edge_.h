@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_3_CageStructureTool_Edge_CageStructureTool_Edge_CageStructureTool_Edge_ {
 IL2CPP_REGISTER_METHOD(0x0186BDE0, void, Invoke, (Action_3_CageStructureTool_Edge_CageStructureTool_Edge_CageStructureTool_Edge_ * __this, CageStructureTool_Edge * arg1, CageStructureTool_Edge * arg2, CageStructureTool_Edge * arg3));

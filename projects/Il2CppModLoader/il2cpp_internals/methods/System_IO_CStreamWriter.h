@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::CStreamWriter {
 IL2CPP_REGISTER_METHOD(0x01E014A0, void, __ctor, (CStreamWriter * __this, Stream * stream, Encoding * encoding, bool leaveOpen));

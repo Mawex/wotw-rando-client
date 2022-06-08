@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextureBasedOnHealth {
 IL2CPP_REGISTER_METHOD(0x010EAD70, void, Awake, (TextureBasedOnHealth * __this));

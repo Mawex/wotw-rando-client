@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::StringUtils {
 IL2CPP_REGISTER_METHOD(0x030272D0, String *, FormatWith, (String * format, IFormatProvider * provider, Object * arg0));

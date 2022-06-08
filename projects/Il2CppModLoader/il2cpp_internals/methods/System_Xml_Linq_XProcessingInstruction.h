@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XProcessingInstruction {
 IL2CPP_REGISTER_METHOD(0x0303C470, void, __ctor, (XProcessingInstruction * __this, String * target, String * data));

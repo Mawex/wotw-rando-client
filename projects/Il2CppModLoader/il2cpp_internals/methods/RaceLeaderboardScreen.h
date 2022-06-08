@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceLeaderboardScreen {
 IL2CPP_REGISTER_METHOD(0x00E9FCC0, RaceLeaderboardEntry *, get_SelectedEntry, (RaceLeaderboardScreen * __this));

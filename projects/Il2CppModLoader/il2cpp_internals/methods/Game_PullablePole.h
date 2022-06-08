@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Game::PullablePole {
 IL2CPP_REGISTER_METHOD(0x015273C0, void, OnGrabbed, (PullablePole * __this));

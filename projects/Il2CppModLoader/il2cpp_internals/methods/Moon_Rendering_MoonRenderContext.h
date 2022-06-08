@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderContext {
 IL2CPP_REGISTER_METHOD(0x0078DB50, void, SetRenderTargetArray, (MoonRenderContext * __this, RenderTargetIdentifier color, int32_t slice, Nullable_1_Moon_Rendering_Viewport_ viewport, ClearSettings clear));

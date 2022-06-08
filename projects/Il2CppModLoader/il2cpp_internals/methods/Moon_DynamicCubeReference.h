@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DynamicCubeReference {
 IL2CPP_REGISTER_METHOD(0x031B03F0, void, Awake, (DynamicCubeReference * __this));

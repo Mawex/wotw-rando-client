@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineEntityReference {
 IL2CPP_REGISTER_METHOD(0x01E87760, ITimelineEntity *, ResolveReference, (TimelineEntityReference * __this));

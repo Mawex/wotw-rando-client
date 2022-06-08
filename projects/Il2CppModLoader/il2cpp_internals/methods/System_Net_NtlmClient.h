@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::NtlmClient {
 IL2CPP_REGISTER_METHOD(0x01BCAFC0, void, __ctor, (NtlmClient_1 * __this));

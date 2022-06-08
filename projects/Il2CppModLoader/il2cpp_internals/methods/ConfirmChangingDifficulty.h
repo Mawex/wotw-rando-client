@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ConfirmChangingDifficulty {
 IL2CPP_REGISTER_METHOD(0x011E4810, void, Perform, (ConfirmChangingDifficulty * __this, IContext * context));

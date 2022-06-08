@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::XboxSignInProvider {
 IL2CPP_REGISTER_METHOD(0x00CDFE20, void, __ctor, (XboxSignInProvider * __this, INetworkConnectivityChecker * networkConnectivityChecker));

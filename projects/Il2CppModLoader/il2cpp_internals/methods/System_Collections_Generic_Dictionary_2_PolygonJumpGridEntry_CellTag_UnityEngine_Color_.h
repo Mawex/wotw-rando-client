@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_PolygonJumpGridEntry_CellTag_UnityEngine::Color_ {
 IL2CPP_REGISTER_METHOD(0x02C3B360, Color, get_Item, (Dictionary_2_PolygonJumpGridEntry_CellTag_UnityEngine_Color_ * __this, PolygonJumpGridEntry_CellTag__Enum key));

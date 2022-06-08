@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::PetrifiedOwlFeedingGroundHideZone {
 IL2CPP_REGISTER_METHOD(0x0132AA40, void, Start, (PetrifiedOwlFeedingGroundHideZone * __this));

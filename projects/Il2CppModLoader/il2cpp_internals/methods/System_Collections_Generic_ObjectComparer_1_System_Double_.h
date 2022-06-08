@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_System::Double_ {
 IL2CPP_REGISTER_METHOD(0x01CCB2E0, int32_t, Compare, (ObjectComparer_1_System_Double_ * __this, double x, double y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateOverrideSystem_UberStateOverride {
 IL2CPP_REGISTER_METHOD(0x00249990, void, ApplyDynamic, (StateOverrideSystem_UberStateOverride__Boxed * __this));

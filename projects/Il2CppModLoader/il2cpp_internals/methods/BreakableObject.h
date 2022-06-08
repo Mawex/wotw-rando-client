@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BreakableObject {
 IL2CPP_REGISTER_METHOD(0x00D4B5A0, void, Start, (BreakableObject * __this));

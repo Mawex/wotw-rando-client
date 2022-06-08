@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RegisterStringTriggerAction {
 IL2CPP_REGISTER_METHOD(0x008FD2C0, void, Perform, (RegisterStringTriggerAction * __this, IContext * context));

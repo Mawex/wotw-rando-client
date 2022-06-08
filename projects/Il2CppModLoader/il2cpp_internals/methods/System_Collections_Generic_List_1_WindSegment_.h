@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_WindSegment_ {
 IL2CPP_REGISTER_METHOD(0x025F0BE0, int32_t, IndexOf, (List_1_WindSegment_ * __this, WindSegment * item));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JumpShotShield {
 IL2CPP_REGISTER_METHOD(0x00E508D0, void, add_OnCollision, (JumpShotShield * __this, Action_1_UnityEngine_Collider_ * value));

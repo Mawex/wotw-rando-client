@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CC_DoubleVision {
 IL2CPP_REGISTER_METHOD(0x03193140, void, OnRenderImage, (CC_DoubleVision * __this, RenderTexture * source, RenderTexture * destination));

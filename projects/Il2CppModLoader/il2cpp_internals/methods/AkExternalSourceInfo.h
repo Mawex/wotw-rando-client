@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkExternalSourceInfo {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkExternalSourceInfo * __this, void * cPtr, bool cMemoryOwn));
@@ -12,7 +12,7 @@ IL2CPP_REGISTER_METHOD(0x026E4C90, void, __ctor, (AkExternalSourceInfo * __this,
 IL2CPP_REGISTER_METHOD(0x026E4DF0, void, __ctor, (AkExternalSourceInfo * __this, uint32_t in_idFile, uint32_t in_iExternalSrcCookie, uint32_t in_idCodec));
 IL2CPP_REGISTER_METHOD(0x026E4F40, void, Clear, (AkExternalSourceInfo * __this));
 IL2CPP_REGISTER_METHOD(0x026E4FE0, void, Clone, (AkExternalSourceInfo * __this, AkExternalSourceInfo * other));
-IL2CPP_REGISTER_METHOD(0x026E5100, int32_t, GetSizeOf, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x026E5100, int32_t, GetSizeOf, ());
 IL2CPP_REGISTER_METHOD(0x026E5190, void, set_iExternalSrcCookie, (AkExternalSourceInfo * __this, uint32_t value));
 IL2CPP_REGISTER_METHOD(0x026E52C0, uint32_t, get_iExternalSrcCookie, (AkExternalSourceInfo * __this));
 IL2CPP_REGISTER_METHOD(0x026E53E0, void, set_idCodec, (AkExternalSourceInfo * __this, uint32_t value));

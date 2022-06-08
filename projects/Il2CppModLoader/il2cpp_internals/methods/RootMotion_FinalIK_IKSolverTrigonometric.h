@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverTrigonometric {
 IL2CPP_REGISTER_METHOD(0x02C02BB0, void, SetBendGoalPosition, (IKSolverTrigonometric * __this, Vector3 goalPosition, float weight));

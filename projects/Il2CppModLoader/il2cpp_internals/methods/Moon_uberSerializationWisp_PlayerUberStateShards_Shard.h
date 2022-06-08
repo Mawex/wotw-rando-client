@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateShards_Shard {
 IL2CPP_REGISTER_METHOD(0x00F41E60, void, __ctor, (PlayerUberStateShards_Shard * __this, SpiritShardType__Enum type, Action * setDirtyCallback));

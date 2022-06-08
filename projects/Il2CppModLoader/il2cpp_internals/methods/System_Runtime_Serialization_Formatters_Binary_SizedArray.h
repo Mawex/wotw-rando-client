@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::SizedArray {
 IL2CPP_REGISTER_METHOD(0x01DA1860, void, __ctor, (SizedArray * __this));

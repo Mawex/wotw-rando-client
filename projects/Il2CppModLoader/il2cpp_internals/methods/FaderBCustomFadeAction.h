@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FaderBCustomFadeAction {
 IL2CPP_REGISTER_METHOD(0x00993A70, float, get_Duration, (FaderBCustomFadeAction * __this));

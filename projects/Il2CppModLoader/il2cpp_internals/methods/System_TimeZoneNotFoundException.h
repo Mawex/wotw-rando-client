@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TimeZoneNotFoundException {
 IL2CPP_REGISTER_METHOD(0x027BB160, void, __ctor, (TimeZoneNotFoundException * __this, String * message, Exception * innerException));

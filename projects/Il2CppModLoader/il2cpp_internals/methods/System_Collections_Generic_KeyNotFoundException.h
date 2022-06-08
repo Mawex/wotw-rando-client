@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyNotFoundException {
 IL2CPP_REGISTER_METHOD(0x02022640, void, __ctor, (KeyNotFoundException * __this));

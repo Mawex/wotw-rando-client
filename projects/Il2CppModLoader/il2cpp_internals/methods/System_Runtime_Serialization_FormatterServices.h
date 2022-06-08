@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::FormatterServices {
-IL2CPP_REGISTER_METHOD(0x01D88670, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D88670, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01D888B0, MemberInfo_1__Array *, GetSerializableMembers, (RuntimeType * type));
 IL2CPP_REGISTER_METHOD(0x01D88AB0, bool, CheckSerializable, (RuntimeType * type));
 IL2CPP_REGISTER_METHOD(0x01D88AE0, MemberInfo_1__Array *, InternalGetSerializableMembers, (RuntimeType * type));
@@ -15,8 +15,8 @@ IL2CPP_REGISTER_METHOD(0x01D89CB0, Object *, GetSafeUninitializedObject, (Type *
 IL2CPP_REGISTER_METHODINFO(0x047790F0, FormatterServices_GetSafeUninitializedObject__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01A98CD0, Object *, nativeGetUninitializedObject, (RuntimeType * type));
 IL2CPP_REGISTER_METHOD(0x01A98CD0, Object *, nativeGetSafeUninitializedObject, (RuntimeType * type));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, GetEnableUnsafeTypeForwarders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01D89F70, bool, UnsafeTypeForwardersIsEnabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, GetEnableUnsafeTypeForwarders, ());
+IL2CPP_REGISTER_METHOD(0x01D89F70, bool, UnsafeTypeForwardersIsEnabled, ());
 IL2CPP_REGISTER_METHOD(0x01D8A0A0, void, SerializationSetValue, (MemberInfo_1 * fi, Object * target, Object * value));
 IL2CPP_REGISTER_METHODINFO(0x0475EA90, FormatterServices_SerializationSetValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D8A360, Object *, PopulateObjectMembers, (Object * obj, MemberInfo_1__Array * members, Object__Array * data));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnemyKilledCondition {
 IL2CPP_REGISTER_METHOD(0x00C821C0, bool, Validate, (EnemyKilledCondition * __this, IContext * context));

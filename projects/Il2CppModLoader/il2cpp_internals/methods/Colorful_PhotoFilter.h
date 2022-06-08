@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::PhotoFilter {
 IL2CPP_REGISTER_METHOD(0x0304C3F0, void, OnRenderImage, (PhotoFilter * __this, RenderTexture * source, RenderTexture * destination));

@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaComplexType {
-IL2CPP_REGISTER_METHOD(0x01CA36E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CA36E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01CA3AE0, XmlSchemaComplexType *, CreateAnyType, (XmlSchemaContentProcessing__Enum processContents));
 IL2CPP_REGISTER_METHOD(0x01CA41D0, void, __ctor, (XmlSchemaComplexType * __this));
-IL2CPP_REGISTER_METHOD(0x01CA4290, XmlSchemaComplexType *, get_AnyType, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01CA4330, XmlSchemaComplexType *, get_UntypedAnyType, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01CA43D0, ContentValidator *, get_AnyTypeContentValidator, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CA4290, XmlSchemaComplexType *, get_AnyType, ());
+IL2CPP_REGISTER_METHOD(0x01CA4330, XmlSchemaComplexType *, get_UntypedAnyType, ());
+IL2CPP_REGISTER_METHOD(0x01CA43D0, ContentValidator *, get_AnyTypeContentValidator, ());
 IL2CPP_REGISTER_METHOD(0x01CA44A0, bool, get_IsAbstract, (XmlSchemaComplexType * __this));
 IL2CPP_REGISTER_METHOD(0x01CA44B0, void, set_IsAbstract, (XmlSchemaComplexType * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00736620, XmlSchemaDerivationMethod__Enum, get_Block, (XmlSchemaComplexType * __this));

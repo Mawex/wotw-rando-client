@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowRaceFinishMessageAction {
 IL2CPP_REGISTER_METHOD(0x00736CF0, void, Perform, (ShowRaceFinishMessageAction * __this, IContext * context));

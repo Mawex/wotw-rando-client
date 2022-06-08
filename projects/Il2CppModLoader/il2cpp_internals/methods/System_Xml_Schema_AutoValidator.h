@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::AutoValidator {
 IL2CPP_REGISTER_METHOD(0x019A2480, void, __ctor, (AutoValidator * __this, XmlValidatingReaderImpl * reader, XmlSchemaCollection * schemaCollection, IValidationEventHandling * eventHandling));

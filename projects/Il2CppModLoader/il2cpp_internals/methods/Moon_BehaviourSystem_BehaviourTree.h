@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BehaviourTree {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0051DB40, bool, get_IsInitialized, (BehaviourTree * __this));
 IL2CPP_REGISTER_METHOD(0x0051DB50, void, set_IsInitialized, (BehaviourTree * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x002FB9B0, BehaviourNode *, get_Root, (BehaviourTree * __this));

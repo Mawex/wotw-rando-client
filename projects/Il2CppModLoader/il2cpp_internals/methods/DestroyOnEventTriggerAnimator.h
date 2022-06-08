@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DestroyOnEventTriggerAnimator {
 IL2CPP_REGISTER_METHOD(0x00B8C270, void, OnEnable, (DestroyOnEventTriggerAnimator * __this));

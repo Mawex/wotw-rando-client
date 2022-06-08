@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System::Runtime::Serialization::StreamingContext_ {
 IL2CPP_REGISTER_METHOD(0x001F4750, bool, get_HasValue, (Nullable_1_System_Runtime_Serialization_StreamingContext___Boxed * __this));

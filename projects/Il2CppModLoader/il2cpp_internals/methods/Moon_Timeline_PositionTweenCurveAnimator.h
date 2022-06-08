@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PositionTweenCurveAnimator {
 IL2CPP_REGISTER_METHOD(0x01E7C9B0, void, OnStartPlayback, (PositionTweenCurveAnimator * __this, IContext * context));

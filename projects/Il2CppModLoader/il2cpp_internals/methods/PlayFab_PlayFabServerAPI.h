@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabServerAPI {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01A34EB0, void, ForgetAllCredentials, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x01A34EB0, void, ForgetAllCredentials, ());
 IL2CPP_REGISTER_METHOD(0x01A34F40, void, AddCharacterVirtualCurrency, (AddCharacterVirtualCurrencyRequest * request, Action_1_PlayFab_ServerModels_ModifyCharacterVirtualCurrencyResult_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));
 IL2CPP_REGISTER_METHOD(0x01A35050, void, AddFriend, (AddFriendRequest_1 * request, Action_1_PlayFab_ServerModels_EmptyResponse_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));
 IL2CPP_REGISTER_METHOD(0x01A35160, void, AddPlayerTag, (AddPlayerTagRequest * request, Action_1_PlayFab_ServerModels_AddPlayerTagResult_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));

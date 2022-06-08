@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Sharpen {
 IL2CPP_REGISTER_METHOD(0x03052960, bool, IRenderPostprocessor_get_enabled, (Sharpen * __this));

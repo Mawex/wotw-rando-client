@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RigidBodyPortalVistor {
 IL2CPP_REGISTER_METHOD(0x00911BE0, void, Awake, (RigidBodyPortalVistor * __this));

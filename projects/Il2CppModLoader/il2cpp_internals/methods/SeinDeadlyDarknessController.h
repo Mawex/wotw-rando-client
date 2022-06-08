@@ -1,13 +1,13 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDeadlyDarknessController {
 IL2CPP_REGISTER_METHOD(0x006FD880, bool, get_ControllerShakeActive, (SeinDeadlyDarknessController * __this));
 IL2CPP_REGISTER_METHOD(0x006FD890, float, get_CurrentShake, (SeinDeadlyDarknessController * __this));
 IL2CPP_REGISTER_METHOD(0x00446960, float, get_ModifiedStrength, (SeinDeadlyDarknessController * __this));
 IL2CPP_REGISTER_METHOD(0x006FD900, ZoneDamageSettings *, get_DamageSettings, (SeinDeadlyDarknessController * __this));
-IL2CPP_REGISTER_METHOD(0x006FD9C0, bool, get_OriIsInsideDarkness, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006FD9C0, bool, get_OriIsInsideDarkness, ());
 IL2CPP_REGISTER_METHOD(0x006FDA40, void, set_OriIsInsideDarkness, (bool value));
-IL2CPP_REGISTER_METHOD(0x006FDAD0, float, get_RemainingDuration, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006FDAD0, float, get_RemainingDuration, ());
 IL2CPP_REGISTER_METHOD(0x006FDB50, void, OnEnable, (SeinDeadlyDarknessController * __this));
 IL2CPP_REGISTER_METHOD(0x006FDD60, void, OnDisable, (SeinDeadlyDarknessController * __this));
 IL2CPP_REGISTER_METHOD(0x006FDFB0, void, OnRestoreCheckpoint, (SeinDeadlyDarknessController * __this));

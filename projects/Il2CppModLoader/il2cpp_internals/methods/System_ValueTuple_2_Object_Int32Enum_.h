@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_Object_Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x0011D2D0, void, __ctor, (ValueTuple_2_Object_Int32Enum___Boxed * __this, Object * item1, Int32Enum__Enum item2));

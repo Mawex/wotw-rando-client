@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DataProviderTest2 {
 IL2CPP_REGISTER_METHOD(0x00B8E4A0, Vector3, get_TestVector3, (DataProviderTest2 * __this));

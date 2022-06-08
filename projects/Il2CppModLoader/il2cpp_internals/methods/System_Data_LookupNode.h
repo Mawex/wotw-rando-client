@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::LookupNode {
 IL2CPP_REGISTER_METHOD(0x01E40A50, void, __ctor, (LookupNode * __this, DataTable * table, String * columnName, String * relationName));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promise_1_PromisedT__Enumerated_1_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00420EE0, Object *, get_Current, (Promise_1_PromisedT_Enumerated_1_System_Object_System_Object_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::fsm::TransitionManager {
 IL2CPP_REGISTER_METHOD(0x00F70AD0, TransitionManager_1 *, AddTransition, (TransitionManager_1 * __this, IState_2 * from, IState_2 * to, ICondition * condition, IAction * action, IContext * context));

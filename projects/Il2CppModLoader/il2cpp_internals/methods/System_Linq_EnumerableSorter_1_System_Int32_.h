@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::EnumerableSorter_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x0289C730, Int32__Array *, Sort, (EnumerableSorter_1_System_Int32_ * __this, Int32__Array * elements, int32_t count));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::MoonTrail_SimulationFrameData_ {
 IL2CPP_REGISTER_METHOD(0x02F38940, void, Sort, (MoonTrail_SimulationFrameData__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_MoonTrail_SimulationFrameData_ * comparer));

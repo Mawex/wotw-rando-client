@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UberShaderTextureBase_SubBindIdCache_ {
 IL2CPP_REGISTER_METHOD(0x01CD3170, bool, Equals, (ObjectEqualityComparer_1_UberShaderTextureBase_SubBindIdCache_ * __this, UberShaderTextureBase_SubBindIdCache x, UberShaderTextureBase_SubBindIdCache y));

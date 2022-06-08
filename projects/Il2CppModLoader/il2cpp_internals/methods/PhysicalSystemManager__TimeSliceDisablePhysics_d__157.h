@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicalSystemManager__TimeSliceDisablePhysics_d__157 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (PhysicalSystemManager_TimeSliceDisablePhysics_d_157 * __this, int32_t __1__state));

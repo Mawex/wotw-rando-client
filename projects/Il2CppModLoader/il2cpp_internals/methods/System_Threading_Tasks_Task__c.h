@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task___c {
-IL2CPP_REGISTER_METHOD(0x0233A930, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0233A930, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Task_c * __this));
 IL2CPP_REGISTER_METHOD(0x0233AA70, void, _Delay_b__276_0, (Task_c * __this, Object * state));
 IL2CPP_REGISTER_METHODINFO(0x0473D9B8, Task_c__Delay_b__276_0__MethodInfo);

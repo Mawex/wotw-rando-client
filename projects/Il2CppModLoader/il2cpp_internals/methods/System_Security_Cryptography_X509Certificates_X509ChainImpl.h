@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ChainImpl {
 IL2CPP_REGISTER_METHOD(0x021CE880, void, Dispose, (X509ChainImpl * __this));

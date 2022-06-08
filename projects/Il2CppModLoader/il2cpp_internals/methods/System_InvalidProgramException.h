@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::InvalidProgramException {
 IL2CPP_REGISTER_METHOD(0x02265EC0, void, __ctor, (InvalidProgramException * __this));

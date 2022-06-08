@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Ntlm::ChallengeResponse2 {
 IL2CPP_REGISTER_METHOD(0x02A497B0, Byte__Array *, Compute_LM, (String * password, Byte__Array * challenge));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHODINFO(0x04787428, ChallengeResponse2_Compute__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A4A840, Byte__Array *, GetResponse, (Byte__Array * challenge, Byte__Array * pwd));
 IL2CPP_REGISTER_METHOD(0x02A4AAA0, Byte__Array *, PrepareDESKey, (Byte__Array * key56bits, int32_t position));
 IL2CPP_REGISTER_METHOD(0x02A4AE80, Byte__Array *, PasswordToKey, (String * password, int32_t position));
-IL2CPP_REGISTER_METHOD(0x02A4B050, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A4B050, void, __cctor, ());
 }

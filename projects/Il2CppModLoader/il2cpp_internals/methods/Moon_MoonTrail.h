@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonTrail {
-IL2CPP_REGISTER_METHOD(0x0255A8C0, MoonTrail_MoonTrailParticle__Array *, AcquireParticleBuffer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0255A8C0, MoonTrail_MoonTrailParticle__Array *, AcquireParticleBuffer, ());
 IL2CPP_REGISTER_METHOD(0x0255A9C0, void, ReturnParticleBuffer, (MoonTrail_MoonTrailParticle__Array * * buffer));
-IL2CPP_REGISTER_METHOD(0x0255AA90, void, ClearAllParticleBuffers, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0255AA90, void, ClearAllParticleBuffers, ());
 IL2CPP_REGISTER_METHOD(0x0255AB60, Bounds, get_Bounds, (MoonTrail * __this));
 IL2CPP_REGISTER_METHOD(0x0255AB80, void, set_Bounds, (MoonTrail * __this, Bounds value));
 IL2CPP_REGISTER_METHOD(0x0255ABA0, bool, get_IsSimulatingBasedOnFrameData, (MoonTrail * __this));
@@ -65,5 +65,5 @@ IL2CPP_REGISTER_METHOD(0x025615D0, void, UpdateRenderingData, (MoonTrail * __thi
 IL2CPP_REGISTER_METHOD(0x02561FF0, void, OnDrawGizmos, (MoonTrail * __this));
 IL2CPP_REGISTER_METHOD(0x02562540, void, DrawDebugParticle, (MoonTrail * __this, MoonTrail_MoonTrailParticle particle, bool sphere));
 IL2CPP_REGISTER_METHOD(0x02562B90, void, __ctor, (MoonTrail * __this));
-IL2CPP_REGISTER_METHOD(0x025630B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025630B0, void, __cctor, ());
 }

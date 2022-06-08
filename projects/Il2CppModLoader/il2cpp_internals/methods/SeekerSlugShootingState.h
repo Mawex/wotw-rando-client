@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeekerSlugShootingState {
 IL2CPP_REGISTER_METHOD(0x0106C6F0, void, __ctor, (SeekerSlugShootingState * __this, SlugEnemy * slug, SlugDirectionalAnimation * animation, GameObject * spikePrefab, SoundSource * shootingSound));

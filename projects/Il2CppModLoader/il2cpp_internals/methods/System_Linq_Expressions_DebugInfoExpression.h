@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::DebugInfoExpression {
 IL2CPP_REGISTER_METHOD(0x01FA3900, Type *, get_Type, (DebugInfoExpression * __this));

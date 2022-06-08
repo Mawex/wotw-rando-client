@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Convolution3x3 {
 IL2CPP_REGISTER_METHOD(0x03041A40, void, OnRenderImage, (Convolution3x3 * __this, RenderTexture * source, RenderTexture * destination));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabRaceServiceProvider {
 IL2CPP_REGISTER_METHOD(0x005245D0, void, __ctor, (PlayFabRaceServiceProvider * __this, IDataProvider * statisticsProviderProvider, PlayFabSignInProvider * playFabSignInProvider));

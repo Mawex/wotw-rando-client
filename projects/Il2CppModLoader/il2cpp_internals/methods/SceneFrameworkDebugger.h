@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneFrameworkDebugger {
 IL2CPP_REGISTER_METHOD(0x00B9D820, GUIStyle *, get_LabelStyle, (SceneFrameworkDebugger * __this));
-IL2CPP_REGISTER_METHOD(0x00B9DB90, SceneFrameworkDebugger *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00B9DC10, bool, get_Enabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B9DB90, SceneFrameworkDebugger *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x00B9DC10, bool, get_Enabled, ());
 IL2CPP_REGISTER_METHOD(0x00B9DCC0, void, set_Enabled, (bool value));
 IL2CPP_REGISTER_METHOD(0x00B9DE60, void, EnsureImgui, (SceneFrameworkDebugger * __this, bool registered));
 IL2CPP_REGISTER_METHOD(0x00B9DF50, void, Awake, (SceneFrameworkDebugger * __this));

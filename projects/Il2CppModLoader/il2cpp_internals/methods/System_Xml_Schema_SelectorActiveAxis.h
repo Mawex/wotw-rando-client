@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::SelectorActiveAxis {
 IL2CPP_REGISTER_METHOD(0x01AB90E0, int32_t, get_lastDepth, (SelectorActiveAxis * __this));

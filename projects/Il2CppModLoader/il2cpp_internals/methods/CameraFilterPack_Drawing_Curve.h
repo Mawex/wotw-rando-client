@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Drawing_Curve {
 IL2CPP_REGISTER_METHOD(0x024F0C60, Material *, get_material, (CameraFilterPack_Drawing_Curve * __this));

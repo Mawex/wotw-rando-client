@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MurmurHash2 {
 IL2CPP_REGISTER_METHOD(0x027198C0, uint32_t, Hash, (BinaryReader * reader, int32_t size));

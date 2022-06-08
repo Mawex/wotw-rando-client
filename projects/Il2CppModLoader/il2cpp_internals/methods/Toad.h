@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Toad {
 IL2CPP_REGISTER_METHOD(0x00585310, bool, get_IsSuspended, (Toad * __this));

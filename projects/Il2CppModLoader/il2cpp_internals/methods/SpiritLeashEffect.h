@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLeashEffect {
 IL2CPP_REGISTER_METHOD(0x00D5BCE0, void, Awake, (SpiritLeashEffect * __this));

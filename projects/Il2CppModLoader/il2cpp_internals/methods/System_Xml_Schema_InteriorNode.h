@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::InteriorNode {
 IL2CPP_REGISTER_METHOD(0x002FA280, SyntaxTreeNode *, get_LeftChild, (InteriorNode * __this));

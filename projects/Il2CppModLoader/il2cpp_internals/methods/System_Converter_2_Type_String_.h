@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Converter_2_Type_String_ {
 IL2CPP_REGISTER_METHOD(0x01852930, String *, Invoke, (Converter_2_Type_String_ * __this, Type * input));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_TypeDescriptionNode_DefaultTypeDescriptor {
 IL2CPP_REGISTER_METHOD(0x0013C860, void, __ctor, (TypeDescriptor_TypeDescriptionNode_DefaultTypeDescriptor__Boxed * __this, TypeDescriptor_TypeDescriptionNode * node, Type * objectType, Object * instance));

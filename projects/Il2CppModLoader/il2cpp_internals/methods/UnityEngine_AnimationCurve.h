@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::AnimationCurve {
 IL2CPP_REGISTER_METHOD(0x02419990, void, __ctor, (AnimationCurve * __this, Keyframe__Array * keys));

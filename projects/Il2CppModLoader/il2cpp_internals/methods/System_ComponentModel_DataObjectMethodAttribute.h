@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DataObjectMethodAttribute {
 IL2CPP_REGISTER_METHOD(0x01FDE850, void, __ctor, (DataObjectMethodAttribute * __this, DataObjectMethodType__Enum methodType));

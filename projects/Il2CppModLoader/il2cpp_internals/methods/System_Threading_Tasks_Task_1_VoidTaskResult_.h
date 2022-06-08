@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_VoidTaskResult_ {
 IL2CPP_REGISTER_METHOD(0x02A5C300, void, __ctor, (Task_1_VoidTaskResult_ * __this));
@@ -31,12 +31,12 @@ IL2CPP_REGISTER_METHOD(0x0277F770, void, DangerousSetResult, (Task_1_VoidTaskRes
 IL2CPP_REGISTER_METHOD(0x0277F7C0, VoidTaskResult, get_Result, (Task_1_VoidTaskResult_ * __this));
 IL2CPP_REGISTER_METHOD(0x004430B0, VoidTaskResult, get_ResultOnSuccess, (Task_1_VoidTaskResult_ * __this));
 IL2CPP_REGISTER_METHOD(0x0277F810, VoidTaskResult, GetResultCore, (Task_1_VoidTaskResult_ * __this, bool waitCompletionNotification));
-IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_VoidTaskResult_ *, get_Factory, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_VoidTaskResult_ *, get_Factory, ());
 IL2CPP_REGISTER_METHOD(0x0277FB00, void, InnerInvoke, (Task_1_VoidTaskResult_ * __this));
 IL2CPP_REGISTER_METHOD(0x004C50A0, TaskAwaiter_1_System_Threading_Tasks_VoidTaskResult_, GetAwaiter, (Task_1_VoidTaskResult_ * __this));
 IL2CPP_REGISTER_METHOD(0x0277FBD0, ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_, ConfigureAwait, (Task_1_VoidTaskResult_ * __this, bool continueOnCapturedContext));
 IL2CPP_REGISTER_METHOD(0x02A5D590, Task *, ContinueWith, (Task_1_VoidTaskResult_ * __this, Action_1_System_Threading_Tasks_Task_1__9 * continuationAction));
 IL2CPP_REGISTER_METHOD(0x02A5D690, Task *, ContinueWith, (Task_1_VoidTaskResult_ * __this, Action_1_System_Threading_Tasks_Task_1__9 * continuationAction, TaskScheduler * scheduler, CancellationToken cancellationToken, TaskContinuationOptions__Enum continuationOptions, StackCrawlMark__Enum * stackMark));
 IL2CPP_REGISTER_METHODINFO(0x04767A48, Task_1_VoidTaskResult__ContinueWith_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, ());
 }

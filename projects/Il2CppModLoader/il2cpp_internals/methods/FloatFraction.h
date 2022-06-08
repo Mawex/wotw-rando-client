@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatFraction {
 IL2CPP_REGISTER_METHOD(0x00125480, void, __ctor, (FloatFraction__Boxed * __this, float value, float max));

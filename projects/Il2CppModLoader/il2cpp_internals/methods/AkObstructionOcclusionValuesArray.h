@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkObstructionOcclusionValuesArray {
 IL2CPP_REGISTER_METHOD(0x01886020, void, __ctor, (AkObstructionOcclusionValuesArray * __this, int32_t count));

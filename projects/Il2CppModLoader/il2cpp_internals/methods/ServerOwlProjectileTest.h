@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ServerOwlProjectileTest {
 IL2CPP_REGISTER_METHOD(0x0059D6C0, void, __ctor, (ServerOwlProjectileTest * __this, Object * originalComponent));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Channels::CADSerializer {
 IL2CPP_REGISTER_METHOD(0x01A9AC40, IMessage *, DeserializeMessage, (MemoryStream * mem, IMethodCallMessage * msg));

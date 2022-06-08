@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon::InteractionGraph::StateMachine_Int32_ {
 IL2CPP_REGISTER_METHOD(0x02C11970, void, Invoke, (Action_2_Moon_InteractionGraph_StateMachine_Int32_ * __this, StateMachine_1 * arg1, int32_t arg2));

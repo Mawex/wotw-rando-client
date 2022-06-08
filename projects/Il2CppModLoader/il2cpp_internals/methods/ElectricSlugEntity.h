@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ElectricSlugEntity {
 IL2CPP_REGISTER_METHOD(0x00BF8A10, void, ResolveDamage, (ElectricSlugEntity * __this, DamageResult * damageResult));

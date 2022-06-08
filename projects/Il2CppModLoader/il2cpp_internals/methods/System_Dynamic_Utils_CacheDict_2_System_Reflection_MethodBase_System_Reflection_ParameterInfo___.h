@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CacheDict_2_System::Reflection::MethodBase_System::Reflection::ParameterInfo___ {
 IL2CPP_REGISTER_METHOD(0x028793D0, bool, TryGetValue, (CacheDict_2_System_Reflection_MethodBase_System_Reflection_ParameterInfo_ * __this, MethodBase * key, ParameterInfo_1__Array * * value));

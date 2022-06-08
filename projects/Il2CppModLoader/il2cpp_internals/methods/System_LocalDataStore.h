@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::LocalDataStore {
 IL2CPP_REGISTER_METHOD(0x02266420, void, __ctor, (LocalDataStore * __this, LocalDataStoreMgr * mgr, int32_t InitialCapacity));

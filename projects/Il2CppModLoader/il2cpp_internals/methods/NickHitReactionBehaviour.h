@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NickHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x005FDE00, EntityDamageEvent *, get_DamageEvent, (NickHitReactionBehaviour * __this));

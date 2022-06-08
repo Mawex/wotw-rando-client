@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeWeaponChainsword {
 IL2CPP_REGISTER_METHOD(0x00720150, MoonAnimator *, get_LeftWeaponAnimator, (MeleeWeaponChainsword * __this));

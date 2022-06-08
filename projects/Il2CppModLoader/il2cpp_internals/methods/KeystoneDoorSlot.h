@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KeystoneDoorSlot {
 IL2CPP_REGISTER_METHOD(0x00E70200, Color, get_ColorValue, (KeystoneDoorSlot * __this));

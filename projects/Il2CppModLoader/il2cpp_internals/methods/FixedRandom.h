@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FixedRandom {
 IL2CPP_REGISTER_METHOD(0x02552D90, int32_t, GetSafeIndex, (int32_t index));
@@ -14,11 +14,11 @@ IL2CPP_REGISTER_METHOD(0x02552FF0, int32_t, Range, (int32_t min, int32_t max, Ve
 IL2CPP_REGISTER_METHOD(0x02553050, float, Range, (float min, float max, int32_t valuesIndex, int32_t offset));
 IL2CPP_REGISTER_METHOD(0x02553050, float, Range, (float min, float max, Vector3 position, int32_t offset));
 IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, IndexFromPosition, (Vector3 position, int32_t offset));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateValues, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateValues, ());
 IL2CPP_REGISTER_METHOD(0x02553060, void, SetFixedUpdateIndex, (int32_t index));
-IL2CPP_REGISTER_METHOD(0x02552E60, float, get_NondeterministicValue, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02552E60, float, get_NondeterministicValue, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (FixedRandom * __this));
-IL2CPP_REGISTER_METHOD(0x02553110, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02553110, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015E83F0, Object *, GetRandomListItem, (List_1_System_Object_ * list, int32_t valuesIndex));
 IL2CPP_REGISTER_METHOD(0x015E83F0, Object *, GetRandomListItem, (List_1_System_Object_ * list, Vector3 position));
 IL2CPP_REGISTER_METHOD(0x015E8360, Object *, GetRandomArrayItem, (Object__Array * list, int32_t valuesIndex));

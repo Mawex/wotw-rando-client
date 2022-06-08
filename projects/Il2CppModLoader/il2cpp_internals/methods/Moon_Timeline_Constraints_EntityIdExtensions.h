@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Constraints::EntityIdExtensions {
 IL2CPP_REGISTER_METHOD(0x01BB62A0, bool, IsParentOrNothing, (EntityId id));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::Vector4Extensions {
 IL2CPP_REGISTER_METHOD(0x01832A70, Vector4, mult, (Vector4 _this, Vector4 _v));

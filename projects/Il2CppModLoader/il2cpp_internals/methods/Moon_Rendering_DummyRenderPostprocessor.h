@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::DummyRenderPostprocessor {
 IL2CPP_REGISTER_METHOD(0x007890D0, void, IRenderPostprocessor_OnRenderImage, (DummyRenderPostprocessor * __this, PostProcessRenderContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::AssemblyLoadEventArgs {
 IL2CPP_REGISTER_METHOD(0x02299010, void, __ctor, (AssemblyLoadEventArgs * __this, Assembly * loadedAssembly));

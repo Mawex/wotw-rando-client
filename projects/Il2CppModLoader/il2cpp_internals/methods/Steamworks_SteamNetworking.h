@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamNetworking {
 IL2CPP_REGISTER_METHOD(0x0278E260, bool, SendP2PPacket, (CSteamID steamIDRemote, Byte__Array * pubData, uint32_t cubData, EP2PSend__Enum eP2PSendType, int32_t nChannel));

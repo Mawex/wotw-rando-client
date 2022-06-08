@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::UTF7Encoding_DecoderUTF7FallbackBuffer {
 IL2CPP_REGISTER_METHOD(0x027CDE00, void, __ctor, (UTF7Encoding_DecoderUTF7FallbackBuffer * __this, UTF7Encoding_DecoderUTF7Fallback * fallback));

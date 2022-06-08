@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_IntStateMap_Mapping_ {
 IL2CPP_REGISTER_METHOD(0x02C2B870, int32_t, Compare, (ObjectComparer_1_IntStateMap_Mapping_ * __this, IntStateMap_Mapping x, IntStateMap_Mapping y));

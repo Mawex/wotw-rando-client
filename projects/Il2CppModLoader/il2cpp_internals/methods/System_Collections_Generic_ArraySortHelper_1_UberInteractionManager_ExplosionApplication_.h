@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UberInteractionManager_ExplosionApplication_ {
 IL2CPP_REGISTER_METHOD(0x02F86A40, void, Sort, (UberInteractionManager_ExplosionApplication__Array * keys, int32_t index, int32_t length, IComparer_1_UberInteractionManager_ExplosionApplication_ * comparer));

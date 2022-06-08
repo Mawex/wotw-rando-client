@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_PlayFab::PluginContractKey_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01ADA860, void, __ctor, (Dictionary_2_TKey_TValue_ValueCollection_PlayFab_PluginContractKey_System_Object_ * __this, Dictionary_2_PlayFab_PluginContractKey_System_Object_ * dictionary));

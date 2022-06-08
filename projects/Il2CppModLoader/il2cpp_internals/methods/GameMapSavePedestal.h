@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameMapSavePedestal {
 IL2CPP_REGISTER_METHOD(0x0069FDA0, bool, get_IsTeleporterActive, (GameMapSavePedestal * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinGrabSurface {
 IL2CPP_REGISTER_METHOD(0x014BE840, SeinGrabSurfacePuppet *, get_Puppet, (SeinGrabSurface * __this));

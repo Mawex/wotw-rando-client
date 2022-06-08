@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Flammable {
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsSuspended, (Flammable * __this));

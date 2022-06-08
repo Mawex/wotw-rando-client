@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::PropertyBuilder {
 IL2CPP_REGISTER_METHOD(0x02689220, PropertyAttributes__Enum, get_Attributes, (PropertyBuilder * __this));

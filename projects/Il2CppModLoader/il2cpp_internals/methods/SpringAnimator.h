@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpringAnimator {
 IL2CPP_REGISTER_METHOD(0x009A6540, MoonTimeline *, get_OnLandCharacter, (SpringAnimator * __this));

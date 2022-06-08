@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverFullBody {
 IL2CPP_REGISTER_METHOD(0x02BF2590, IKEffector *, GetEffector, (IKSolverFullBody * __this, Transform * t));

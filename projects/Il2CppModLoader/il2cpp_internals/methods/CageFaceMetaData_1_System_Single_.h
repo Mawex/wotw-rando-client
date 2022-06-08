@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageFaceMetaData_1_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x019DA540, void, __ctor, (CageFaceMetaData_1_System_Single_ * __this));

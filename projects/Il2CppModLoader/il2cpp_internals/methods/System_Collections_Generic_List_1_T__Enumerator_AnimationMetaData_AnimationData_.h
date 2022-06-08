@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_AnimationMetaData_AnimationData_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, AnimationMetaData_AnimationData *, get_Current, (List_1_T_Enumerator_AnimationMetaData_AnimationData___Boxed * __this));

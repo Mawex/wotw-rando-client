@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneSettingsComponent {
 IL2CPP_REGISTER_METHOD(0x00BBDFF0, SceneSettings *, get_GetSettings, (SceneSettingsComponent * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x00BBEF60, float, GetDofRatioForRenderer, (Renderer * re
 IL2CPP_REGISTER_METHOD(0x00BBF0A0, int32_t, GetLayerIndexForRenderer, (SceneSettingsComponent * __this, Renderer * renderer));
 IL2CPP_REGISTER_METHOD(0x00BBF1E0, int32_t, GetLayerIndexForRenderer, (SceneSettingsComponent * __this, Renderer * renderer, SliceRenderSettings_Slice__Array * slices, LayeredRenderSettings * layeredRenderSettings));
 IL2CPP_REGISTER_METHOD(0x00BBF300, void, __ctor, (SceneSettingsComponent * __this));
-IL2CPP_REGISTER_METHOD(0x00BBF590, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BBF590, void, __cctor, ());
 }

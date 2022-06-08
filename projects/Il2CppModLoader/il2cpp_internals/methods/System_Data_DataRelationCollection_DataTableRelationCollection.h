@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataRelationCollection_DataTableRelationCollection {
 IL2CPP_REGISTER_METHOD(0x023A8560, void, __ctor, (DataRelationCollection_DataTableRelationCollection * __this, DataTable * table, bool fParentCollection));

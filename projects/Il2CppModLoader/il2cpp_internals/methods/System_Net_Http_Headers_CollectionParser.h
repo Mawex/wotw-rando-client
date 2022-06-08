@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::CollectionParser {
 IL2CPP_REGISTER_METHOD(0x02D05710, bool, TryParse, (String * input, int32_t minimalCount, List_1_System_String_ * * result));

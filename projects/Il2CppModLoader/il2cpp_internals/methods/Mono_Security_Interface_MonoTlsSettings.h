@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Interface::MonoTlsSettings {
 IL2CPP_REGISTER_METHOD(0x002FA280, MonoRemoteCertificateValidationCallback *, get_RemoteCertificateValidationCallback, (MonoTlsSettings * __this));
@@ -23,8 +23,8 @@ IL2CPP_REGISTER_METHOD(0x01B5FF70, void, set_EnabledProtocols, (MonoTlsSettings 
 IL2CPP_REGISTER_METHOD(0x002FBB60, CipherSuiteCode__Enum__Array *, get_EnabledCiphers, (MonoTlsSettings * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB70, void, set_EnabledCiphers, (MonoTlsSettings * __this, CipherSuiteCode__Enum__Array * value));
 IL2CPP_REGISTER_METHOD(0x02A467C0, void, __ctor, (MonoTlsSettings * __this));
-IL2CPP_REGISTER_METHOD(0x02A467D0, MonoTlsSettings *, get_DefaultSettings, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02A46940, MonoTlsSettings *, CopyDefaultSettings, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A467D0, MonoTlsSettings *, get_DefaultSettings, ());
+IL2CPP_REGISTER_METHOD(0x02A46940, MonoTlsSettings *, CopyDefaultSettings, ());
 IL2CPP_REGISTER_METHOD(0x002FBBA0, ICertificateValidator *, get_CertificateValidator, (MonoTlsSettings * __this));
 IL2CPP_REGISTER_METHOD(0x02A46970, MonoTlsSettings *, CloneWithValidator, (MonoTlsSettings * __this, ICertificateValidator * validator));
 IL2CPP_REGISTER_METHOD(0x02A46AF0, MonoTlsSettings *, Clone, (MonoTlsSettings * __this));

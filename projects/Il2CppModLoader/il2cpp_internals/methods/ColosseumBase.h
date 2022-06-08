@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColosseumBase {
 IL2CPP_REGISTER_METHOD(0x011DA7F0, void, Start, (ColosseumBase * __this));

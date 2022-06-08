@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ToggleSettingsAction {
 IL2CPP_REGISTER_METHOD(0x00AFD570, void, Perform, (ToggleSettingsAction * __this, IContext * context));

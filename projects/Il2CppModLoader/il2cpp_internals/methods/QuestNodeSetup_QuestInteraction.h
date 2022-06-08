@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::QuestNodeSetup_QuestInteraction {
 IL2CPP_REGISTER_METHOD(0x00E8B900, bool, get_Eligible, (QuestNodeSetup_QuestInteraction * __this));

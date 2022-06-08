@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Util::Parser {
 IL2CPP_REGISTER_METHOD(0x01E21CD0, SecurityElement *, GetTopElement, (Parser * __this));

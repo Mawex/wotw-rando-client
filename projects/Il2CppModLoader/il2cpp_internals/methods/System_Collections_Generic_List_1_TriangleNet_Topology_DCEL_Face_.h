@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_TriangleNet::Topology::DCEL::Face_ {
 IL2CPP_REGISTER_METHOD(0x025E9020, void, AddRange, (List_1_TriangleNet_Topology_DCEL_Face_ * __this, IEnumerable_1_TriangleNet_Topology_DCEL_Face_ * collection));

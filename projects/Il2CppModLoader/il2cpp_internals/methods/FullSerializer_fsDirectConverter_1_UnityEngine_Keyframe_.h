@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsDirectConverter_1_UnityEngine::Keyframe_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (fsDirectConverter_1_UnityEngine_Keyframe_ * __this));

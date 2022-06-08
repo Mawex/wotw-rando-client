@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::AsyncCompletedEventArgs {
 IL2CPP_REGISTER_METHOD(0x024A0290, void, __ctor, (AsyncCompletedEventArgs * __this));

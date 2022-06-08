@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellUISeeds {
 IL2CPP_REGISTER_METHOD(0x0094F260, void, FixedUpdate, (SpellUISeeds * __this));

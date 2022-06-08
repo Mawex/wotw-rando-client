@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransformUtility {
 IL2CPP_REGISTER_METHOD(0x00B09D70, void, SetParentMaintainingLocalTransform, (Transform * transform, Transform * parent));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::SerializedBoolUberStateWrapper {
 IL2CPP_REGISTER_METHOD(0x01999FC0, void, __ctor, (SerializedBoolUberStateWrapper * __this, ISerializedUberState * state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::SpiritLeashComboMove {
 IL2CPP_REGISTER_METHOD(0x003FC7F0, ComboMoveState__Enum, get_m_comboMoveState, (SpiritLeashComboMove * __this));

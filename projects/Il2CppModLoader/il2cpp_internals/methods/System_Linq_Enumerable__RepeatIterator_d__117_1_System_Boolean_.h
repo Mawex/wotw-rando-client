@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__RepeatIterator_d__117_1_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02984B50, void, __ctor, (Enumerable_RepeatIterator_d_117_1_System_Boolean_ * __this, int32_t __1__state));

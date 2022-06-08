@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::PickUp2Handed {
 IL2CPP_REGISTER_METHOD(0x0222B500, void, OnGUI, (PickUp2Handed * __this));

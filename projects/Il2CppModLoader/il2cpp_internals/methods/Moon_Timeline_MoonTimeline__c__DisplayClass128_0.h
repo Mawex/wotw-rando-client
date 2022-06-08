@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MoonTimeline___c__DisplayClass128_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MoonTimeline_c_DisplayClass128_0 * __this));

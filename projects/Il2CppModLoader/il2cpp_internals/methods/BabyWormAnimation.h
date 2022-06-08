@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BabyWormAnimation {
 IL2CPP_REGISTER_METHOD(0x00F7FA90, void, SetTurnParameter, (BabyWormAnimation * __this, float turnParameter));

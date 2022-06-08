@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Component {
 IL2CPP_REGISTER_METHOD(0x02428DC0, void, __ctor, (Component_1 * __this));

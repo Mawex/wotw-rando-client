@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindSegment {
 IL2CPP_REGISTER_METHOD(0x005782E0, void, Awake, (WindSegment * __this));

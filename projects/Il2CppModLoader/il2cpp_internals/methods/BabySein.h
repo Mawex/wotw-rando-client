@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BabySein {
 IL2CPP_REGISTER_METHOD(0x00860D50, void, Awake, (BabySein * __this));

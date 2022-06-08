@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveGameController {
 IL2CPP_REGISTER_METHOD(0x00C2B3D0, int32_t, get_CurrentSlotIndex, (SaveGameController * __this));
 IL2CPP_REGISTER_METHOD(0x00C2B3E0, int32_t, get_CurrentBackupIndex, (SaveGameController * __this));
 IL2CPP_REGISTER_METHOD(0x00C2B3F0, bool, get_SaveGameQueried, (SaveGameController * __this));
-IL2CPP_REGISTER_METHOD(0x00C2B4E0, bool, get_IsStorageBusy, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C2B5A0, bool, get_IsDownloadingSaves, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C2B660, int32_t, get_SaveDataStateVersion, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C2B4E0, bool, get_IsStorageBusy, ());
+IL2CPP_REGISTER_METHOD(0x00C2B5A0, bool, get_IsDownloadingSaves, ());
+IL2CPP_REGISTER_METHOD(0x00C2B660, int32_t, get_SaveDataStateVersion, ());
 IL2CPP_REGISTER_METHOD(0x00C2B720, void, SaveToCurrentSlotFile, (SaveGameController * __this, UberStateValueStore * valueStore, bool clearSnapshot, bool shouldNotifyObservers));
 IL2CPP_REGISTER_METHOD(0x00C2B790, void, SaveToFile, (SaveGameController * __this, int32_t slotIndex, int32_t backupIndex, UberStateValueStore * valueStore, bool clearSnapshot, bool shouldNotifyObservers));
 IL2CPP_REGISTER_METHOD(0x00C2B8E0, void, SaveToFile, (SaveGameController * __this, int32_t slotIndex, int32_t backupIndex, Byte__Array * bytes));
@@ -47,5 +47,5 @@ IL2CPP_REGISTER_METHOD(0x00C2F1C0, void, OnFinishedLoading, (SaveGameController 
 IL2CPP_REGISTER_METHODINFO(0x047033F8, SaveGameController_OnFinishedLoading__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00C2F470, void, CorruptSaveForTesting, (SaveGameController * __this, String * filename, Byte__Array * data, int32_t slotIndex, int32_t backupSlotIndex));
 IL2CPP_REGISTER_METHOD(0x00C2F5A0, void, __ctor, (SaveGameController * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

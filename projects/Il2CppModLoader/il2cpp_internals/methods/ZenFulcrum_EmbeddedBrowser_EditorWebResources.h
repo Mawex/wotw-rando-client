@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::EditorWebResources {
 IL2CPP_REGISTER_METHOD(0x01DD9580, void, __ctor, (EditorWebResources * __this));

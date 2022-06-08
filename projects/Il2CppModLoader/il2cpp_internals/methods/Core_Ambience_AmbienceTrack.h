@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Core::Ambience_AmbienceTrack {
 IL2CPP_REGISTER_METHOD(0x00CB5CD0, ArtificialSoundHostReference, get_SoundHost, (Ambience_AmbienceTrack * __this));

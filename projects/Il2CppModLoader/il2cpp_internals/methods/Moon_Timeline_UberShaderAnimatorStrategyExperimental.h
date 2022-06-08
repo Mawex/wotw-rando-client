@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::UberShaderAnimatorStrategyExperimental {
-IL2CPP_REGISTER_METHOD(0x00D124C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D124C0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00D12AD0, void, SubmitColorInternal, (UberShaderAnimatorStrategyExperimental * __this, Renderer * targetRenderer, UberShaderProperty_Color__Enum property, Color value, float weight, bool persist));
 IL2CPP_REGISTER_METHOD(0x00D12CF0, void, SubmitVector4Internal, (UberShaderAnimatorStrategyExperimental * __this, Renderer * targetRenderer, UberShaderProperty_Vector__Enum property, Vector4 value, float weight, bool persist));
 IL2CPP_REGISTER_METHOD(0x00D12EA0, void, SubmitFloatInternal, (UberShaderAnimatorStrategyExperimental * __this, Renderer * targetRenderer, UberShaderProperty_Float__Enum property, float value, float weight, bool persist));

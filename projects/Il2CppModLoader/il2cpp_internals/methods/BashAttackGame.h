@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BashAttackGame {
 IL2CPP_REGISTER_METHOD(0x00F8D5E0, void, add_BashGameComplete, (BashAttackGame * __this, Action_1_Single_ * value));

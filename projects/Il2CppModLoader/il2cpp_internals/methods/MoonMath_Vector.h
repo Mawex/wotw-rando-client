@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_Vector {
 IL2CPP_REGISTER_METHOD(0x02579E50, Vector2, ApplyCircleDeadzone, (Vector2 axis, float deadzoneRadius));

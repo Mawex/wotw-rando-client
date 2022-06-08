@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSource {
 IL2CPP_REGISTER_METHOD(0x01751690, void, WriteMultiMerge, (EventSource * __this, String * eventName, EventSourceOptions * options, TraceLoggingEventTypes * eventTypes, Guid * activityID, Guid * childActivityID, Object__Array * values));
@@ -23,9 +23,9 @@ IL2CPP_REGISTER_METHOD(0x01753130, Guid, GetGuid, (Type * eventSourceType));
 IL2CPP_REGISTER_METHODINFO(0x0471A8A8, EventSource_GetGuid__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01753480, String *, GetName, (Type * eventSourceType));
 IL2CPP_REGISTER_METHOD(0x01753520, void, SetCurrentThreadActivityId, (Guid activityId));
-IL2CPP_REGISTER_METHOD(0x017538F0, Guid, get_CurrentThreadActivityId, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x017539A0, Guid, get_InternalCurrentThreadActivityId, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01753AE0, Guid, get_FallbackActivityId, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017538F0, Guid, get_CurrentThreadActivityId, ());
+IL2CPP_REGISTER_METHOD(0x017539A0, Guid, get_InternalCurrentThreadActivityId, ());
+IL2CPP_REGISTER_METHOD(0x01753AE0, Guid, get_FallbackActivityId, ());
 IL2CPP_REGISTER_METHOD(0x01753BD0, String *, ToString, (EventSource * __this));
 IL2CPP_REGISTER_METHOD(0x01753D40, void, __ctor, (EventSource * __this));
 IL2CPP_REGISTER_METHOD(0x01753D50, void, __ctor, (EventSource * __this, EventSourceSettings__Enum settings));
@@ -109,5 +109,5 @@ IL2CPP_REGISTER_METHODINFO(0x04779360, EventSource_ValidateSettings__MethodInfo)
 IL2CPP_REGISTER_METHOD(0x01760C10, bool, get_ThrowOnEventWriteErrors, (EventSource * __this));
 IL2CPP_REGISTER_METHOD(0x01760C20, bool, get_SelfDescribingEvents, (EventSource * __this));
 IL2CPP_REGISTER_METHOD(0x01760C30, void, ReportActivitySamplingInfo, (EventSource * __this, EventListener * listener, SessionMask sessions));
-IL2CPP_REGISTER_METHOD(0x017610A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017610A0, void, __cctor, ());
 }

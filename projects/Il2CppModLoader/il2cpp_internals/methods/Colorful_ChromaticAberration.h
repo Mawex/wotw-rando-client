@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::ChromaticAberration {
 IL2CPP_REGISTER_METHOD(0x03040DA0, void, OnRenderImage, (ChromaticAberration * __this, RenderTexture * source, RenderTexture * destination));

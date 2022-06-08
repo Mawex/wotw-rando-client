@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XmlDataLoader {
 IL2CPP_REGISTER_METHOD(0x023E8760, void, __ctor, (XmlDataLoader * __this, DataSet * dataset, bool IsXdr, bool ignoreSchema));

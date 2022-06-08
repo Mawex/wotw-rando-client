@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Int32 {
 IL2CPP_REGISTER_METHOD(0x001E7F80, int32_t, CompareTo, (Int32__Boxed * __this, Object * value));

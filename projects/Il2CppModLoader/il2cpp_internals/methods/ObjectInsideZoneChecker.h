@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ObjectInsideZoneChecker {
 IL2CPP_REGISTER_METHOD(0x005C3FE0, Rect, get_Bounds, (ObjectInsideZoneChecker * __this));

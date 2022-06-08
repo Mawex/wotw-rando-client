@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraOffsetController_OffsetLayer {
 IL2CPP_REGISTER_METHOD(0x0169AE20, void, __ctor, (CameraOffsetController_OffsetLayer * __this));

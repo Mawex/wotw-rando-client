@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Volatile {
 IL2CPP_REGISTER_METHOD(0x0234B710, bool, Read, (bool * location));

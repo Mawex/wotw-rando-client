@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::FSharpFunction {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (FSharpFunction * __this, Object * instance, MethodCall_2_System_Object_System_Object_ * invoker));

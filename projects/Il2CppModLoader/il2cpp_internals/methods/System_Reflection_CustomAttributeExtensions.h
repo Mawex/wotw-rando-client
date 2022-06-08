@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::CustomAttributeExtensions {
 IL2CPP_REGISTER_METHOD(0x0229B200, Attribute *, GetCustomAttribute, (Assembly * element, Type * attributeType));

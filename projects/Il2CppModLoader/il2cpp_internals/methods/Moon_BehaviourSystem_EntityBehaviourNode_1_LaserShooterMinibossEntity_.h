@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityBehaviourNode_1_LaserShooterMinibossEntity_ {
 IL2CPP_REGISTER_METHOD(0x0271C510, LaserShooterMinibossEntity *, get_Entity, (EntityBehaviourNode_1_LaserShooterMinibossEntity_ * __this));

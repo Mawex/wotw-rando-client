@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::VFX::VFXEventAttribute {
 IL2CPP_REGISTER_METHOD(0x031C0B10, void, Release, (VFXEventAttribute * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StormZone {
 IL2CPP_REGISTER_METHOD(0x0065CEC0, void, OnTriggerEnter, (StormZone * __this, Collider * collider));

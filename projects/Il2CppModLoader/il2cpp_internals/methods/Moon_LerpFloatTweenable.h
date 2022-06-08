@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LerpFloatTweenable {
 IL2CPP_REGISTER_METHOD(0x01BAA5A0, float, Update, (LerpFloatTweenable * __this, float startValue, float endValue, float normalizedInput));

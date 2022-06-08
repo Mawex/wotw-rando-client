@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsKeyValuePairConverter {
 IL2CPP_REGISTER_METHOD(0x01657F40, bool, CanProcess, (fsKeyValuePairConverter * __this, Type * type));

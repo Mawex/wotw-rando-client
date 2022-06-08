@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::ClientSessionInfo {
-IL2CPP_REGISTER_METHOD(0x01F68830, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F68830, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01F68910, void, __ctor, (ClientSessionInfo * __this, String * hostname, Byte__Array * id));
 IL2CPP_REGISTER_METHOD(0x01F68920, void, Finalize, (ClientSessionInfo * __this));
 IL2CPP_REGISTER_METHOD(0x002FB950, String *, get_HostName, (ClientSessionInfo * __this));

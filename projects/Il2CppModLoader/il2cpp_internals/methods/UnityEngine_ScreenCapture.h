@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ScreenCapture {
 IL2CPP_REGISTER_METHOD(0x031C4D80, void, CaptureScreenshot, (String * filename));

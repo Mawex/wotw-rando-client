@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Film_Grain {
 IL2CPP_REGISTER_METHOD(0x02476A10, Material *, get_material, (CameraFilterPack_Film_Grain * __this));

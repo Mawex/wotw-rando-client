@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinPetrifiedFogController {
 IL2CPP_REGISTER_METHOD(0x008B0120, ZoneDamageSettings *, get_DamageSettings, (SeinPetrifiedFogController * __this));

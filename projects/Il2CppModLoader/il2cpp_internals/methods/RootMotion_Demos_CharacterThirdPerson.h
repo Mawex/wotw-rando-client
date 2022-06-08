@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::CharacterThirdPerson {
 IL2CPP_REGISTER_METHOD(0x02212520, bool, get_onGround, (CharacterThirdPerson * __this));

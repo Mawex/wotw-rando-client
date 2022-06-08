@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WandererPostDesertQuestCompletedInteractionBehaviour {
 IL2CPP_REGISTER_METHOD(0x008D18A0, void, OnEntityInitialized, (WandererPostDesertQuestCompletedInteractionBehaviour * __this));

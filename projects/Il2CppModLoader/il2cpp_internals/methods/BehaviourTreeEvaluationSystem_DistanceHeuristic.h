@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BehaviourTreeEvaluationSystem_DistanceHeuristic {
 IL2CPP_REGISTER_METHOD(0x00F9D6D0, BehaviourTreeEvaluationSystem_AllowedEvaluationSkips__Enum, EvaluateHeuristic, (BehaviourTreeEvaluationSystem_DistanceHeuristic * __this, Vector2 playerPosition, Vector2 entityPosition));

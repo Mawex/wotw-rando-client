@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Mesh {
 IL2CPP_REGISTER_METHOD(0x002FBBA0, Rectangle *, get_Bounds, (Mesh_1 * __this));

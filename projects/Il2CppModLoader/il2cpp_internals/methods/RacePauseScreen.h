@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RacePauseScreen {
-IL2CPP_REGISTER_METHOD(0x007118D0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007118D0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_CanInterruptTab, (RacePauseScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, MenuTabBackground__Enum, get_BackgroundMode, (RacePauseScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (RacePauseScreen * __this));

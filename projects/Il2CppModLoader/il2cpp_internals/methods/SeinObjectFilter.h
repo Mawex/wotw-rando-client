@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinObjectFilter {
 IL2CPP_REGISTER_METHOD(0x008AF110, bool, Valid, (SeinObjectFilter * __this, GameObject * gameObject));

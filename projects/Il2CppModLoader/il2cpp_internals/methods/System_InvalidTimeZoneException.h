@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::InvalidTimeZoneException {
 IL2CPP_REGISTER_METHOD(0x02265F70, void, __ctor, (InvalidTimeZoneException * __this, String * message));

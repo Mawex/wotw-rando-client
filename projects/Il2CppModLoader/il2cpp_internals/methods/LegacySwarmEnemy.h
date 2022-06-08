@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacySwarmEnemy {
 IL2CPP_REGISTER_METHOD(0x00A37EA0, bool, CanBeOptimized, (LegacySwarmEnemy * __this));

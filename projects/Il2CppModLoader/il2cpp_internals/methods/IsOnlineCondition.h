@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsOnlineCondition {
 IL2CPP_REGISTER_METHOD(0x006473B0, bool, Validate, (IsOnlineCondition * __this, IContext * context));

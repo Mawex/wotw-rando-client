@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextifyModifier {
 IL2CPP_REGISTER_METHOD(0x010E8E80, float, GetQuadExpandSize, (TextifyModifier * __this));

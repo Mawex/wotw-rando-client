@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MoonTimeline {
 IL2CPP_REGISTER_METHOD(0x01BC1B00, void, PostEvent, (MoonTimeline * __this, ITimelineEntityParent * scope, EntityId id, int32_t eventId));
@@ -12,7 +12,7 @@ IL2CPP_REGISTER_METHOD(0x01BC3050, bool, IsStoppingThisFrame, (MoonTimeline * __
 IL2CPP_REGISTER_METHOD(0x01BC3460, void, OnStartPlaybackInternal, (MoonTimeline * __this, IContext * context));
 IL2CPP_REGISTER_METHOD(0x01BC37B0, void, UpdateReactions, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC3A90, void, AddReaction, (MoonTimeline * __this, uint32_t hash, Reaction reaction));
-IL2CPP_REGISTER_METHOD(0x01BC3DA0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BC3DA0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x01BC3E90, void, OnDestroy, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC3EF0, void, Finalize, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC3F60, void, MoonCleanup, (MoonTimeline * __this));
@@ -30,8 +30,8 @@ IL2CPP_REGISTER_METHOD(0x01BC42C0, void, OnDisable, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC4470, void, OnGameReset, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC4480, void, OnStartPlayback, (MoonTimeline * __this, IContext * context));
 IL2CPP_REGISTER_METHOD(0x01BC4700, void, RecursivelySetupExecutionOrder, (MoonTimeline * __this, int32_t order));
-IL2CPP_REGISTER_METHOD(0x01BC49A0, void, PrintAllRootTimelinesPlaying, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01BC4BC0, void, PrintAllTimelinesPlaying, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BC49A0, void, PrintAllRootTimelinesPlaying, ());
+IL2CPP_REGISTER_METHOD(0x01BC4BC0, void, PrintAllTimelinesPlaying, ());
 IL2CPP_REGISTER_METHOD(0x01BC4DD0, float, get_Duration, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC5170, String *, get_ProfilingMarkerName, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC5210, float, get_NormalizedTime, (MoonTimeline * __this));
@@ -86,7 +86,7 @@ IL2CPP_REGISTER_METHOD(0x00420EE0, RecordableParsingGroup__Enum, get_ParsingGrou
 IL2CPP_REGISTER_METHOD(0x00A640A0, bool, get_SelfManaged, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01BC89A0, void, set_SelfManaged, (MoonTimeline * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x01BC89B0, void, __ctor, (MoonTimeline * __this));
-IL2CPP_REGISTER_METHOD(0x01BC9480, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BC9480, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01EB9450, List_1_System_Object_ *, GetAnimators, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHOD(0x01EB9450, List_1_Moon_Timeline_EventTriggerGameplayAnimator_ *, GetAnimators, (MoonTimeline * __this));
 IL2CPP_REGISTER_METHODINFO(0x04760158, MoonTimeline_GetAnimators_1__MethodInfo);

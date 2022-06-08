@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LagoonBubble {
 IL2CPP_REGISTER_METHOD(0x00654950, SuspendableMask__Enum, get_Mask, (LagoonBubble * __this));

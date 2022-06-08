@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::TextInfo {
-IL2CPP_REGISTER_METHOD(0x01DED530, TextInfo *, get_Invariant, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DED530, TextInfo *, get_Invariant, ());
 IL2CPP_REGISTER_METHOD(0x01DED6E0, void, __ctor, (TextInfo * __this, CultureData * cultureData));
 IL2CPP_REGISTER_METHOD(0x01DED710, void, OnDeserializing, (TextInfo * __this, StreamingContext ctx));
 IL2CPP_REGISTER_METHOD(0x01DED720, void, OnDeserialized, (TextInfo * __this));

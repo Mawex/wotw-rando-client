@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlArrayItemAttribute {
 IL2CPP_REGISTER_METHOD(0x01C9A8B0, String *, get_DataType, (XmlArrayItemAttribute * __this));

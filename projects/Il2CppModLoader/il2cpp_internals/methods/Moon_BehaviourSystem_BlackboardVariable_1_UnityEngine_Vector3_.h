@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BlackboardVariable_1_UnityEngine::Vector3_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (BlackboardVariable_1_UnityEngine_Vector3_ * __this));

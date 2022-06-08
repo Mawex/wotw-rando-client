@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ConsoleCancelEventArgs {
 IL2CPP_REGISTER_METHOD(0x02034910, void, __ctor, (ConsoleCancelEventArgs * __this, ConsoleSpecialKey__Enum type));

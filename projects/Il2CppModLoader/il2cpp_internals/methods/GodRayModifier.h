@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GodRayModifier {
 IL2CPP_REGISTER_METHOD(0x003FD650, bool, get_Renderered, (GodRayModifier * __this));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x00417870, bool, DoStrip, (GodRayModifier * __this));
 IL2CPP_REGISTER_METHOD(0x008009C0, void, OnEnable, (GodRayModifier * __this));
 IL2CPP_REGISTER_METHOD(0x00800AA0, void, OnDisable, (GodRayModifier * __this));
 IL2CPP_REGISTER_METHOD(0x00800B80, void, __ctor, (GodRayModifier * __this));
-IL2CPP_REGISTER_METHOD(0x00800BE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00800BE0, void, __cctor, ());
 }

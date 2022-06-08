@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::RelatedView {
 IL2CPP_REGISTER_METHOD(0x01E4AB30, void, __ctor, (RelatedView * __this, DataColumn__Array * columns, Object__Array * values));

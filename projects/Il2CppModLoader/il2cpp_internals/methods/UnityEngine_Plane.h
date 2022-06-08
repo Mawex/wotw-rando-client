@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Plane {
 IL2CPP_REGISTER_METHOD(0x00216460, void, __ctor, (Plane__Boxed * __this, Vector3 inNormal, Vector3 inPoint));

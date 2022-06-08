@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SR {
 IL2CPP_REGISTER_METHOD(0x0228ABB0, String *, Format, (String * resourceFormat, Object * p1));

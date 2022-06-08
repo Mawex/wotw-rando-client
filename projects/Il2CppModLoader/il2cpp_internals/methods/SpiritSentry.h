@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritSentry {
 IL2CPP_REGISTER_METHOD(0x003FC020, float, get_Duration, (SpiritSentry * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x00D67530, void, StartTwinkle, (SpiritSentry * __this));
 IL2CPP_REGISTER_METHOD(0x00D67760, void, StopTwinkle, (SpiritSentry * __this));
 IL2CPP_REGISTER_METHOD(0x00D678C0, float, CalculateCooldown, (SpiritSentry * __this, float cooldown));
 IL2CPP_REGISTER_METHOD(0x00D678D0, void, __ctor, (SpiritSentry * __this));
-IL2CPP_REGISTER_METHOD(0x00D67900, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D67900, void, __cctor, ());
 }

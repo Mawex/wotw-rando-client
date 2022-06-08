@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CompoundCondition {
 IL2CPP_REGISTER_METHOD(0x011E18A0, bool, Validate, (CompoundCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationCurveKeyframeExtensions {
 IL2CPP_REGISTER_METHOD(0x004FC160, bool, SameAs, (Keyframe ok, Keyframe nk));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::DllImportAttribute {
 IL2CPP_REGISTER_METHOD(0x01A93F90, Attribute *, GetCustomAttribute, (RuntimeMethodInfo * method_1));

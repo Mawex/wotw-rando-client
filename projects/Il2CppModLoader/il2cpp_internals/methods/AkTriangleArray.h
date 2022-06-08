@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkTriangleArray {
 IL2CPP_REGISTER_METHOD(0x027000B0, void, __ctor, (AkTriangleArray * __this, int32_t count));

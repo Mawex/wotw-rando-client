@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_ValueCollection {
 IL2CPP_REGISTER_METHOD(0x01F92B00, void, __ctor, (ExpandoObject_ValueCollection * __this, ExpandoObject * expando));

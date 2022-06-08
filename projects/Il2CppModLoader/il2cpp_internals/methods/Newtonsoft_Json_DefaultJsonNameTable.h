@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::DefaultJsonNameTable {
-IL2CPP_REGISTER_METHOD(0x01A63F40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A63F40, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01A63FF0, void, __ctor, (DefaultJsonNameTable * __this));
 IL2CPP_REGISTER_METHOD(0x01A64080, String *, Get, (DefaultJsonNameTable * __this, Char__Array * key, int32_t start, int32_t length));
 IL2CPP_REGISTER_METHOD(0x01A642A0, String *, Add, (DefaultJsonNameTable * __this, String * key));

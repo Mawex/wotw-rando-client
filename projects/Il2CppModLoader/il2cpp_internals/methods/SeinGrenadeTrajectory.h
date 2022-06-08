@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinGrenadeTrajectory {
 IL2CPP_REGISTER_METHOD(0x014D9200, void, Awake, (SeinGrenadeTrajectory * __this));

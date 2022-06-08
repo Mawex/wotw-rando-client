@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKMapping_BoneMap {
 IL2CPP_REGISTER_METHOD(0x02BDB2F0, void, Initiate, (IKMapping_BoneMap * __this, Transform * transform, IKSolverFullBody * solver));

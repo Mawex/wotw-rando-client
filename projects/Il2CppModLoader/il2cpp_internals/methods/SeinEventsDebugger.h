@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinEventsDebugger {
 IL2CPP_REGISTER_METHOD(0x00AD3930, void, Awake, (SeinEventsDebugger * __this));

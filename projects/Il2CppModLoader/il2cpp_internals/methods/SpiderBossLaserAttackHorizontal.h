@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossLaserAttackHorizontal {
 IL2CPP_REGISTER_METHOD(0x011B2120, void, OnEnter, (SpiderBossLaserAttackHorizontal * __this, IContext * context));

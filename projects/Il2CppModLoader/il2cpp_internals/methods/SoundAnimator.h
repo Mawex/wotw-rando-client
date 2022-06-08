@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundAnimator {
 IL2CPP_REGISTER_METHOD(0x00EE4F90, SoundDescriptor *, GetSoundDescriptor, (SoundAnimator * __this));

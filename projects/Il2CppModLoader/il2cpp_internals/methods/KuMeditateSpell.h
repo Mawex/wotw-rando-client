@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuMeditateSpell {
 IL2CPP_REGISTER_METHOD(0x01241A30, SeinCharacter *, get_Sein, (KuMeditateSpell * __this));

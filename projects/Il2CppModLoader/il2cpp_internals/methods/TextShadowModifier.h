@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextShadowModifier {
 IL2CPP_REGISTER_METHOD(0x010E8820, void, SetProperties, (TextShadowModifier * __this));

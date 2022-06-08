@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KeybindingCommandMapAsset__GetAllBindingsIterator_d__62 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (KeybindingCommandMapAsset_GetAllBindingsIterator_d_62 * __this, int32_t __1__state));

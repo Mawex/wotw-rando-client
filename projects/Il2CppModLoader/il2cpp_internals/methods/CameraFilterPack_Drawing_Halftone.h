@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Drawing_Halftone {
 IL2CPP_REGISTER_METHOD(0x024F1E90, Material *, get_material, (CameraFilterPack_Drawing_Halftone * __this));

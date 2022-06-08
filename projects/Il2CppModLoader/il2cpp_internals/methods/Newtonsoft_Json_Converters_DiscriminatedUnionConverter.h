@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::DiscriminatedUnionConverter {
 IL2CPP_REGISTER_METHOD(0x01A50700, Type *, CreateUnionTypeLookup, (Type * t));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x01A518B0, Object *, ReadJson, (DiscriminatedUnionConver
 IL2CPP_REGISTER_METHODINFO(0x04749868, DiscriminatedUnionConverter_ReadJson__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01A52340, bool, CanConvert, (DiscriminatedUnionConverter * __this, Type * objectType));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (DiscriminatedUnionConverter * __this));
-IL2CPP_REGISTER_METHOD(0x01A526C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A526C0, void, __cctor, ());
 }

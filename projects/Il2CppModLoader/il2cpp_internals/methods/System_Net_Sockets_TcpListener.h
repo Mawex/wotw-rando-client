@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::TcpListener {
 IL2CPP_REGISTER_METHOD(0x020A4480, void, __ctor, (TcpListener * __this, IPEndPoint * localEP));

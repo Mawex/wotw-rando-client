@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::LayerMask {
 IL2CPP_REGISTER_METHOD(0x0252E560, int32_t, operator_, (LayerMask mask));

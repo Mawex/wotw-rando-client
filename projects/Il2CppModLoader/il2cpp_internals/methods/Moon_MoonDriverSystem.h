@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonDriverSystem {
-IL2CPP_REGISTER_METHOD(0x0313CAF0, MoonDriverSystem *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0313CAF0, MoonDriverSystem *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x002FB9B0, List_1_Moon_IDrivableGroup_ *, get_Groups, (MoonDriverSystem * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9F0, List_1_Moon_IDrivable_ *, get_Drivables, (MoonDriverSystem * __this));
 IL2CPP_REGISTER_METHOD(0x0313CD60, void, Awake, (MoonDriverSystem * __this));

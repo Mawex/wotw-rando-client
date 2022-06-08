@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeaderboardTableUI {
 IL2CPP_REGISTER_METHOD(0x015B8B20, LeaderboardTableUI_LeaderboardMetaData *, get_CurrentMetaData, (LeaderboardTableUI * __this));

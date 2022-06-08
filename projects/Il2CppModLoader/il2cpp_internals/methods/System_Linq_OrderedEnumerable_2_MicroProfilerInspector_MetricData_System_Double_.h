@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::OrderedEnumerable_2_MicroProfilerInspector_MetricData_System::Double_ {
 IL2CPP_REGISTER_METHOD(0x025498F0, void, __ctor, (OrderedEnumerable_2_MicroProfilerInspector_MetricData_System_Double_ * __this, IEnumerable_1_MicroProfilerInspector_MetricData_ * source, Func_2_MicroProfilerInspector_MetricData_Double_ * keySelector, IComparer_1_System_Double_ * comparer, bool descending));

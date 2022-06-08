@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HomingMissile {
 IL2CPP_REGISTER_METHOD(0x00B5C4F0, Vector3, get_TargetPosition, (HomingMissile * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EditorTools::SceneTracking::SceneDeletionExtension {
 IL2CPP_REGISTER_METHOD(0x012083D0, SceneDeletionFlags__Enum, Add, (SceneDeletionFlags__Enum me, SceneDeletionFlags__Enum toAdd));

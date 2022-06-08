@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinOnClimbableWallCondition {
 IL2CPP_REGISTER_METHOD(0x008AF1E0, bool, Validate, (SeinOnClimbableWallCondition * __this, IContext * context));

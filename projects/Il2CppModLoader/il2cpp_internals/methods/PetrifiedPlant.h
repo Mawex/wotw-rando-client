@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedPlant {
 IL2CPP_REGISTER_METHOD(0x014E92D0, void, Awake, (PetrifiedPlant * __this));

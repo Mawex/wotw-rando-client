@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InstantLoadScenesController {
-IL2CPP_REGISTER_METHOD(0x0062A7A0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0062A7A0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0062A820, void, Awake, (InstantLoadScenesController * __this));
 IL2CPP_REGISTER_METHOD(0x0062A8B0, void, OnDestroy, (InstantLoadScenesController * __this));
 IL2CPP_REGISTER_METHOD(0x0062A990, ScenesManager *, get_ScenesManager, (InstantLoadScenesController * __this));

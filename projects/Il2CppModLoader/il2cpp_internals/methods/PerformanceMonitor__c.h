@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerformanceMonitor___c {
-IL2CPP_REGISTER_METHOD(0x00497F70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00497F70, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PerformanceMonitor_c * __this));
 IL2CPP_REGISTER_METHOD(0x004980B0, bool, _GetFPSTestResult_b__14_0, (PerformanceMonitor_c * __this, SceneManagerScene * sceneManagerScene));
 IL2CPP_REGISTER_METHODINFO(0x0475EFB8, PerformanceMonitor_c__GetFPSTestResult_b__14_0__MethodInfo);

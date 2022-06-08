@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::StringBuilder {
 IL2CPP_REGISTER_METHOD(0x0245CF10, void, __ctor, (StringBuilder * __this));
@@ -60,7 +60,7 @@ IL2CPP_REGISTER_METHOD(0x0245F760, StringBuilder *, AppendFormat, (StringBuilder
 IL2CPP_REGISTER_METHODINFO(0x04723A78, StringBuilder_AppendFormat_3__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0245F8F0, StringBuilder *, AppendFormat, (StringBuilder * __this, IFormatProvider * provider, String * format, Object * arg0));
 IL2CPP_REGISTER_METHOD(0x0245F970, StringBuilder *, AppendFormat, (StringBuilder * __this, IFormatProvider * provider, String * format, Object * arg0, Object * arg1));
-IL2CPP_REGISTER_METHOD(0x0245FA00, void, FormatError, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0245FA00, void, FormatError, ());
 IL2CPP_REGISTER_METHODINFO(0x04749AC8, StringBuilder_FormatError__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0245FA70, StringBuilder *, AppendFormatHelper, (StringBuilder * __this, IFormatProvider * provider, String * format, ParamsArray args));
 IL2CPP_REGISTER_METHODINFO(0x04731160, StringBuilder_AppendFormatHelper__MethodInfo);

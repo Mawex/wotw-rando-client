@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Vector3 {
 IL2CPP_REGISTER_METHOD(0x00229570, void, __ctor, (Vector3__Boxed * __this, float x, float y, float z));
@@ -41,15 +41,15 @@ IL2CPP_REGISTER_METHOD(0x02C76BB0, float, SqrMagnitude, (Vector3 vector));
 IL2CPP_REGISTER_METHOD(0x002296A0, float, get_sqrMagnitude, (Vector3__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x02C76BE0, Vector3, Min, (Vector3 lhs, Vector3 rhs));
 IL2CPP_REGISTER_METHOD(0x02C76CD0, Vector3, Max, (Vector3 lhs, Vector3 rhs));
-IL2CPP_REGISTER_METHOD(0x02C76DC0, Vector3, get_zero, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C76E80, Vector3, get_one, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C76F40, Vector3, get_forward, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C77000, Vector3, get_back, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C770C0, Vector3, get_up, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C77180, Vector3, get_down, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C77240, Vector3, get_left, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C77300, Vector3, get_right, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C773C0, Vector3, get_positiveInfinity, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C76DC0, Vector3, get_zero, ());
+IL2CPP_REGISTER_METHOD(0x02C76E80, Vector3, get_one, ());
+IL2CPP_REGISTER_METHOD(0x02C76F40, Vector3, get_forward, ());
+IL2CPP_REGISTER_METHOD(0x02C77000, Vector3, get_back, ());
+IL2CPP_REGISTER_METHOD(0x02C770C0, Vector3, get_up, ());
+IL2CPP_REGISTER_METHOD(0x02C77180, Vector3, get_down, ());
+IL2CPP_REGISTER_METHOD(0x02C77240, Vector3, get_left, ());
+IL2CPP_REGISTER_METHOD(0x02C77300, Vector3, get_right, ());
+IL2CPP_REGISTER_METHOD(0x02C773C0, Vector3, get_positiveInfinity, ());
 IL2CPP_REGISTER_METHOD(0x02C77480, Vector3, operator__, (Vector3 a, Vector3 b));
 IL2CPP_REGISTER_METHOD(0x02C774D0, Vector3, operator__, (Vector3 a, Vector3 b));
 IL2CPP_REGISTER_METHOD(0x02C77520, Vector3, operator__, (Vector3 a));
@@ -60,7 +60,7 @@ IL2CPP_REGISTER_METHOD(0x02C77630, bool, operator___, (Vector3 lhs, Vector3 rhs)
 IL2CPP_REGISTER_METHOD(0x02C77740, bool, operator___, (Vector3 lhs, Vector3 rhs));
 IL2CPP_REGISTER_METHOD(0x002296D0, String *, ToString, (Vector3__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x002296E0, String *, ToString, (Vector3__Boxed * __this, String * format));
-IL2CPP_REGISTER_METHOD(0x02C77C30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C77C30, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02C77E40, void, Slerp_Injected, (Vector3 * a, Vector3 * b, float t, Vector3 * ret));
 IL2CPP_REGISTER_METHOD(0x02C77EC0, void, RotateTowards_Injected, (Vector3 * current, Vector3 * target, float maxRadiansDelta, float maxMagnitudeDelta, Vector3 * ret));
 }

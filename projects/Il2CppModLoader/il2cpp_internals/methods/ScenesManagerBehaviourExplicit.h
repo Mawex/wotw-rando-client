@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScenesManagerBehaviourExplicit {
 IL2CPP_REGISTER_METHOD(0x01052D80, Vector2, get_PredictedTargetPosition, (ScenesManagerBehaviourExplicit * __this));

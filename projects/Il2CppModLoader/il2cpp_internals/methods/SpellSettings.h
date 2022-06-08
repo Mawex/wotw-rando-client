@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellSettings {
 IL2CPP_REGISTER_METHOD(0x00943DB0, void, Awake, (SpellSettings * __this));

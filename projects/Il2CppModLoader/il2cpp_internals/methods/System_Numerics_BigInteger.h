@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Numerics::BigInteger {
 IL2CPP_REGISTER_METHOD(0x00246440, void, __ctor, (BigInteger_2__Boxed * __this, int32_t value));
@@ -15,7 +15,7 @@ IL2CPP_REGISTER_METHOD(0x002464D0, void, __ctor, (BigInteger_2__Boxed * __this, 
 IL2CPP_REGISTER_METHOD(0x0013C010, void, __ctor, (BigInteger_2__Boxed * __this, int32_t n, UInt32__Array * rgu));
 IL2CPP_REGISTER_METHOD(0x00246500, void, __ctor, (BigInteger_2__Boxed * __this, UInt32__Array * value, bool negative));
 IL2CPP_REGISTER_METHODINFO(0x0473E180, BigInteger_2__ctor_10__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x030FB600, BigInteger_2, get_Zero, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030FB600, BigInteger_2, get_Zero, ());
 IL2CPP_REGISTER_METHOD(0x00246510, bool, get_IsPowerOfTwo, (BigInteger_2__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0011D620, bool, get_IsZero, (BigInteger_2__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x002465A0, bool, get_IsOne, (BigInteger_2__Boxed * __this));
@@ -83,5 +83,5 @@ IL2CPP_REGISTER_METHOD(0x030FE0B0, bool, operator__, (int64_t left, BigInteger_2
 IL2CPP_REGISTER_METHOD(0x030FE0D0, bool, operator___, (int64_t left, BigInteger_2 right));
 IL2CPP_REGISTER_METHOD(0x030FE0F0, int32_t, GetDiffLength, (UInt32__Array * rgu1, UInt32__Array * rgu2, int32_t cu));
 IL2CPP_REGISTER_METHOD(0x00002890, void, AssertValid, (BigInteger_2__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x030FE160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030FE160, void, __cctor, ());
 }

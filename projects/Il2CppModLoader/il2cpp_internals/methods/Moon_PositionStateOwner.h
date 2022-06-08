@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PositionStateOwner {
 IL2CPP_REGISTER_METHOD(0x00C3DD90, void, Awake, (PositionStateOwner * __this));

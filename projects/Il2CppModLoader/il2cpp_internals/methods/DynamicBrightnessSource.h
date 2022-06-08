@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DynamicBrightnessSource {
 IL2CPP_REGISTER_METHOD(0x00BE8F10, Vector2, get_CameraPosition, (DynamicBrightnessSource * __this));

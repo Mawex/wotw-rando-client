@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasPurchasedBuilderProjectCondition {
 IL2CPP_REGISTER_METHOD(0x0109EC10, bool, Validate, (HasPurchasedBuilderProjectCondition * __this, IContext * context));

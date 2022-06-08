@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsJsonParser {
 IL2CPP_REGISTER_METHOD(0x0150C4C0, fsResult, MakeFailure, (fsJsonParser * __this, String * message));

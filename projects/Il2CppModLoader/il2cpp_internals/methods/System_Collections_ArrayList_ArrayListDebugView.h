@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ArrayList_ArrayListDebugView {
 IL2CPP_REGISTER_METHOD(0x0201A220, void, __ctor, (ArrayList_ArrayListDebugView * __this, ArrayList * arrayList));

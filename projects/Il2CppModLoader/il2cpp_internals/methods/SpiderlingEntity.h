@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderlingEntity {
 IL2CPP_REGISTER_METHOD(0x011C1220, GroundPatrolDirectionMode__Enum, get_MovementPattern, (SpiderlingEntity * __this));

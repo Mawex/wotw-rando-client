@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineAsset {
 IL2CPP_REGISTER_METHOD(0x007929C0, IRenderPipeline *, InternalCreatePipeline, (MoonRenderPipelineAsset * __this));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x00793310, void, ApplyFxaaQualityLevel, (MoonRenderPipel
 IL2CPP_REGISTER_METHOD(0x00793400, void, setBlurType, (MoonRenderPipelineAsset * __this, MoonRenderPipelineAsset_DofBlurType__Enum type));
 IL2CPP_REGISTER_METHOD(0x00793410, void, CopySerializedPropertiesTo, (MoonRenderPipelineAsset * __this, MoonRenderPipelineAsset * target));
 IL2CPP_REGISTER_METHOD(0x007935D0, void, __ctor, (MoonRenderPipelineAsset * __this));
-IL2CPP_REGISTER_METHOD(0x00793F20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00793F20, void, __cctor, ());
 }

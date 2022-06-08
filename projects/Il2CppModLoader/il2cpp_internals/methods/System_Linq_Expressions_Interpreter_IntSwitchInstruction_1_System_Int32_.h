@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::IntSwitchInstruction_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x019D6B90, void, __ctor, (IntSwitchInstruction_1_System_Int32_ * __this, Dictionary_2_System_Int32_System_Int32_ * cases));

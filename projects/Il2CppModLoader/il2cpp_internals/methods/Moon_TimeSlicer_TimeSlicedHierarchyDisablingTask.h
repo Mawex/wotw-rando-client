@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedHierarchyDisablingTask {
 IL2CPP_REGISTER_METHOD(0x010C4020, void, __ctor, (TimeSlicedHierarchyDisablingTask * __this, List_1_UnityEngine_GameObject_ * objectsToTimeSliceDisable, GameObject * owner, Action_1_Boolean_ * onJobCompleted, String * sceneName));

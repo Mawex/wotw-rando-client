@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_Moon::Timeline::Reaction_ {
 IL2CPP_REGISTER_METHOD(0x001ED740, Reaction, get_Current, (Queue_1_T_Enumerator_Moon_Timeline_Reaction___Boxed * __this));

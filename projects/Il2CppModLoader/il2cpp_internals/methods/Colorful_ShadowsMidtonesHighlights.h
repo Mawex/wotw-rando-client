@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::ShadowsMidtonesHighlights {
 IL2CPP_REGISTER_METHOD(0x030523E0, void, OnRenderImage, (ShadowsMidtonesHighlights * __this, RenderTexture * source, RenderTexture * destination));

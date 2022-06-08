@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_boolean {
 IL2CPP_REGISTER_METHOD(0x023594E0, XmlValueConverter *, CreateValueConverter, (Datatype_boolean * __this, XmlSchemaType * schemaType));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x00C754B0, RestrictionFlags__Enum, get_ValidRestrictionF
 IL2CPP_REGISTER_METHOD(0x023596D0, int32_t, Compare, (Datatype_boolean * __this, Object * value1, Object * value2));
 IL2CPP_REGISTER_METHOD(0x02359790, Exception *, TryParseValue, (Datatype_boolean * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x023598E0, void, __ctor, (Datatype_boolean * __this));
-IL2CPP_REGISTER_METHOD(0x02359980, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02359980, void, __cctor, ());
 }

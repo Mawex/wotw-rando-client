@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskSchedulerException {
 IL2CPP_REGISTER_METHOD(0x0233FF80, void, __ctor, (TaskSchedulerException * __this));

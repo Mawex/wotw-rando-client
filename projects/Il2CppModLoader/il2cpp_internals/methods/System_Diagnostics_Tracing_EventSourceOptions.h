@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSourceOptions {
 IL2CPP_REGISTER_METHOD(0x00154C80, void, set_Level, (EventSourceOptions__Boxed * __this, EventLevel__Enum value));

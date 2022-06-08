@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable {
 IL2CPP_REGISTER_METHOD(0x01F9A6C0, IEnumerable_1_System_Int32_ *, Range, (int32_t start, int32_t count));
@@ -92,7 +92,7 @@ IL2CPP_REGISTER_METHODINFO(0x0473CE08, Enumerable_SingleOrDefault_1__MethodInfo)
 IL2CPP_REGISTER_METHOD(0x00E78860, IEnumerable_1_System_Object_ *, Repeat, (Object * element, int32_t count));
 IL2CPP_REGISTER_METHODINFO(0x047104C0, Enumerable_Repeat__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00E78B70, IEnumerable_1_System_Object_ *, RepeatIterator, (Object * element, int32_t count));
-IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_System_Object_ *, Empty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_System_Object_ *, Empty, ());
 IL2CPP_REGISTER_METHOD(0x01566870, bool, Any, (IEnumerable_1_System_Object_ * source));
 IL2CPP_REGISTER_METHODINFO(0x04769878, Enumerable_Any__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01566A30, bool, Any, (IEnumerable_1_System_Object_ * source, Func_2_Object_Boolean_ * predicate));
@@ -149,7 +149,7 @@ IL2CPP_REGISTER_METHOD(0x0153E9A0, float, Min, (IEnumerable_1_UnityEngine_Rect_ 
 IL2CPP_REGISTER_METHODINFO(0x0473D7B8, Enumerable_Min_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0153E980, float, Max, (IEnumerable_1_UnityEngine_Rect_ * source, Func_2_UnityEngine_Rect_Single_ * selector));
 IL2CPP_REGISTER_METHODINFO(0x0470D2D8, Enumerable_Max_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_UnityEngine_Yoga_YogaNode_ *, Empty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_UnityEngine_Yoga_YogaNode_ *, Empty, ());
 IL2CPP_REGISTER_METHODINFO(0x04711708, Enumerable_Empty_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00E7F9D0, IEnumerable_1_UnityEngine_UI_Toggle_ *, Where, (IEnumerable_1_UnityEngine_UI_Toggle_ * source, Func_2_UnityEngine_UI_Toggle_Boolean_ * predicate));
 IL2CPP_REGISTER_METHODINFO(0x04779048, Enumerable_Where_3__MethodInfo);
@@ -765,8 +765,8 @@ IL2CPP_REGISTER_METHOD(0x00E78310, IEnumerable_1_System_ByteEnum_ *, CastIterato
 IL2CPP_REGISTER_METHOD(0x00E78420, IEnumerable_1_System_Collections_DictionaryEntry_ *, CastIterator, (IEnumerable * source));
 IL2CPP_REGISTER_METHOD(0x00E78310, IEnumerable_1_System_Int32_ *, CastIterator, (IEnumerable * source));
 IL2CPP_REGISTER_METHOD(0x00E78310, IEnumerable_1_System_Int32Enum_ *, CastIterator, (IEnumerable * source));
-IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_System_Byte_ *, Empty, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_System_Int32_ *, Empty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_System_Byte_ *, Empty, ());
+IL2CPP_REGISTER_METHOD(0x00E78640, IEnumerable_1_System_Int32_ *, Empty, ());
 IL2CPP_REGISTER_METHOD(0x00E78920, IEnumerable_1_System_Boolean_ *, RepeatIterator, (bool element, int32_t count));
 IL2CPP_REGISTER_METHOD(0x00E78A50, IEnumerable_1_System_Int32_ *, RepeatIterator, (int32_t element, int32_t count));
 IL2CPP_REGISTER_METHOD(0x00E78CA0, IEnumerable_1_KeyValuePair_2_System_Object_System_Object_ *, Select, (IEnumerable_1_System_Collections_DictionaryEntry_ * source, Func_2_System_Collections_DictionaryEntry_System_Collections_Generic_KeyValuePair_2_ * selector));

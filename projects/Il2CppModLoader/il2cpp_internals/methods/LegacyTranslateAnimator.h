@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTranslateAnimator {
 IL2CPP_REGISTER_METHOD(0x01127E70, void, Awake, (LegacyTranslateAnimator * __this));

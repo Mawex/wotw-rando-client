@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AK::Wwise::Switch {
 IL2CPP_REGISTER_METHOD(0x008556D0, WwiseObjectType__Enum, get_WwiseObjectType, (Switch_1 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::RemotingSurrogate {
 IL2CPP_REGISTER_METHOD(0x023191D0, void, GetObjectData, (RemotingSurrogate * __this, Object * obj, SerializationInfo * si, StreamingContext sc));

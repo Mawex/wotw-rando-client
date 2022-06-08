@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_SinMovement_Affect_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, SinMovement_Affect *, get_Current, (List_1_T_Enumerator_SinMovement_Affect___Boxed * __this));

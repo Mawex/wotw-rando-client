@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::LockRecursionException {
 IL2CPP_REGISTER_METHOD(0x027DE730, void, __ctor, (LockRecursionException * __this));

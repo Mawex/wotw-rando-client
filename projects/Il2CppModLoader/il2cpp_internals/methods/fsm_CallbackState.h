@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::fsm::CallbackState {
 IL2CPP_REGISTER_METHOD(0x00F6CC00, CallbackState_1 *, AddUpdateStateAction, (CallbackState_1 * __this, Action * updateStateAction));

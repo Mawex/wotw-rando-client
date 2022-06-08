@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName {
 IL2CPP_REGISTER_METHOD(0x02028E40, void, __ctor, (XmlAtomicValue_NamespacePrefixForQName * __this, String * prefix, String * ns));

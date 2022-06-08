@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Rect {
 IL2CPP_REGISTER_METHOD(0x00121740, void, __ctor, (Rect__Boxed * __this, float x, float y, float width, float height));
 IL2CPP_REGISTER_METHOD(0x0014B910, void, __ctor, (Rect__Boxed * __this, Vector2 position, Vector2 size));
 IL2CPP_REGISTER_METHOD(0x0014C4D0, void, __ctor, (Rect__Boxed * __this, Rect source));
-IL2CPP_REGISTER_METHOD(0x00F87B90, Rect, get_zero, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F87B90, Rect, get_zero, ());
 IL2CPP_REGISTER_METHOD(0x0296D490, Rect, MinMaxRect, (float xmin, float ymin, float xmax, float ymax));
 IL2CPP_REGISTER_METHOD(0x00121740, void, Set, (Rect__Boxed * __this, float x, float y, float width, float height));
 IL2CPP_REGISTER_METHOD(0x001EB400, float, get_x, (Rect__Boxed * __this));

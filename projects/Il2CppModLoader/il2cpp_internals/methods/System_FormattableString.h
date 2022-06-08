@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::FormattableString {
 IL2CPP_REGISTER_METHOD(0x01A1CA60, String *, IFormattable_ToString, (FormattableString * __this, String * ignored, IFormatProvider * formatProvider));

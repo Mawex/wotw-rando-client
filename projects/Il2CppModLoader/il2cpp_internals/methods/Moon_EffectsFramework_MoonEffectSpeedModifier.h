@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::MoonEffectSpeedModifier {
 IL2CPP_REGISTER_METHOD(0x01984540, void, Apply, (MoonEffectSpeedModifier * __this, IMoonEffectComponentCache * input, MoonEffectRevertHandle * revertHandle));

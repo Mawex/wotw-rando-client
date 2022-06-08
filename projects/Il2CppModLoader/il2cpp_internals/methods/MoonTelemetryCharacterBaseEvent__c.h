@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryCharacterBaseEvent___c {
-IL2CPP_REGISTER_METHOD(0x01469DC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01469DC0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MoonTelemetryCharacterBaseEvent_c * __this));
 IL2CPP_REGISTER_METHOD(0x01469F00, bool, _UpdateAbilitiesCache_b__33_0, (MoonTelemetryCharacterBaseEvent_c * __this, AbilityType__Enum s));
 IL2CPP_REGISTER_METHODINFO(0x04780A08, MoonTelemetryCharacterBaseEvent_c__UpdateAbilitiesCache_b__33_0__MethodInfo);

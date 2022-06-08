@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::DistanceToClosestMortarPosition {
 IL2CPP_REGISTER_METHOD(0x00CB5D30, String *, get_Info, (DistanceToClosestMortarPosition * __this));

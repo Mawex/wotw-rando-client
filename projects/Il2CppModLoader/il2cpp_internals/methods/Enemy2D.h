@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Enemy2D {
 IL2CPP_REGISTER_METHOD(0x00B39300, CharacterSpriteMirror *, get_SpriteMirror, (Enemy2D * __this));

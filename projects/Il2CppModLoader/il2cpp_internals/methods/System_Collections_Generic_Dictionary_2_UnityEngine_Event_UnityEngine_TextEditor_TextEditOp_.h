@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::Event_UnityEngine::TextEditor_TextEditOp_ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_UnityEngine_Event_UnityEngine_TextEditor_TextEditOp_ * __this, Event * key));

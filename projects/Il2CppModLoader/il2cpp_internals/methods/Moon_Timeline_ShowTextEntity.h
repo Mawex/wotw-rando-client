@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ShowTextEntity {
 IL2CPP_REGISTER_METHOD(0x00D04F20, bool, HasFinished, (ShowTextEntity * __this, int32_t eventId));

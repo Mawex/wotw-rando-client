@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_System::Object_UnityEngine::Vector2_ {
 IL2CPP_REGISTER_METHOD(0x01A755C0, void, __ctor, (Dictionary_2_TKey_TValue_KeyCollection_System_Object_UnityEngine_Vector2_ * __this, Dictionary_2_System_Object_UnityEngine_Vector2_ * dictionary));

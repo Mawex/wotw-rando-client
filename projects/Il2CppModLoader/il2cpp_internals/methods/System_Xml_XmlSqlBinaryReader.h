@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlSqlBinaryReader {
 IL2CPP_REGISTER_METHOD(0x01707790, void, __ctor, (XmlSqlBinaryReader * __this, Stream * stream, Byte__Array * data, int32_t len, String * baseUri, bool closeInput, XmlReaderSettings * settings));
@@ -163,5 +163,5 @@ IL2CPP_REGISTER_METHOD(0x01713B70, Exception *, ThrowUnexpectedToken, (XmlSqlBin
 IL2CPP_REGISTER_METHOD(0x01713C00, Exception *, ThrowXmlException, (XmlSqlBinaryReader * __this, String * res));
 IL2CPP_REGISTER_METHOD(0x01713D60, Exception *, ThrowXmlException, (XmlSqlBinaryReader * __this, String * res, String * arg1, String * arg2));
 IL2CPP_REGISTER_METHOD(0x01713F80, Exception *, ThrowNotSupported, (XmlSqlBinaryReader * __this, String * res));
-IL2CPP_REGISTER_METHOD(0x017140E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017140E0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_3_Moon::TimeSlicer::ITimeSlicedJob_Single_Single_ {
 IL2CPP_REGISTER_METHOD(0x02C15CB0, void, Invoke, (Action_3_Moon_TimeSlicer_ITimeSlicedJob_Single_Single_ * __this, ITimeSlicedJob * arg1, float arg2, float arg3));

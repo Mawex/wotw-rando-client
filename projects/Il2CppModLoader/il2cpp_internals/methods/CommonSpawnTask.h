@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CommonSpawnTask {
 IL2CPP_REGISTER_METHOD(0x011DEAB0, void, OnEnterTask, (CommonSpawnTask * __this, IContext * context));

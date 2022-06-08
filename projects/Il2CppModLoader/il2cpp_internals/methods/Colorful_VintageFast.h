@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::VintageFast {
 IL2CPP_REGISTER_METHOD(0x03055010, void, OnRenderImage, (VintageFast * __this, RenderTexture * source, RenderTexture * destination));

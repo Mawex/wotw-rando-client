@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimationPlayer {
 IL2CPP_REGISTER_METHOD(0x01BA4D70, GameObject *, get_ExternalTarget, (AnimationPlayer * __this));

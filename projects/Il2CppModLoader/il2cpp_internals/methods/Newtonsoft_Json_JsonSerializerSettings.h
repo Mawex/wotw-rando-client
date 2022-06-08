@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::JsonSerializerSettings {
 IL2CPP_REGISTER_METHOD(0x01EF0E50, ReferenceLoopHandling__Enum, get_ReferenceLoopHandling, (JsonSerializerSettings * __this));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x0049F2B0, ITraceWriter *, get_TraceWriter, (JsonSeriali
 IL2CPP_REGISTER_METHOD(0x006A63A0, ISerializationBinder *, get_SerializationBinder, (JsonSerializerSettings * __this));
 IL2CPP_REGISTER_METHOD(0x0065FBA0, EventHandler_1_Newtonsoft_Json_Serialization_ErrorEventArgs_ *, get_Error, (JsonSerializerSettings * __this));
 IL2CPP_REGISTER_METHOD(0x01EF13F0, StreamingContext, get_Context, (JsonSerializerSettings * __this));
-IL2CPP_REGISTER_METHOD(0x01EF14E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EF14E0, void, __cctor, ());
 }

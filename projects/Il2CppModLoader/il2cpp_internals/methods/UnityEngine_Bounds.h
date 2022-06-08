@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Bounds {
 IL2CPP_REGISTER_METHOD(0x001EB560, void, __ctor, (Bounds__Boxed * __this, Vector3 center, Vector3 size));

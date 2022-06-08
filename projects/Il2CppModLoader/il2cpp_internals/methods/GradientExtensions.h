@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GradientExtensions {
 IL2CPP_REGISTER_METHOD(0x02556EB0, Gradient *, MultiplyColor, (Gradient * target, Color color));

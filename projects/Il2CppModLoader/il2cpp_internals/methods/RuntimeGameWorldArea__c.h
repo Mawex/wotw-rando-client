@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RuntimeGameWorldArea___c {
-IL2CPP_REGISTER_METHOD(0x0137A610, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0137A610, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RuntimeGameWorldArea_c * __this));
 IL2CPP_REGISTER_METHOD(0x0137A750, bool, _get_AreaDiscovered_b__21_0, (RuntimeGameWorldArea_c * __this, KeyValuePair_2_System_Int32_WorldMapAreaState_ s));
 IL2CPP_REGISTER_METHODINFO(0x04721010, RuntimeGameWorldArea_c__get_AreaDiscovered_b__21_0__MethodInfo);

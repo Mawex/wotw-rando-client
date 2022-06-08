@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::Match {
 IL2CPP_REGISTER_METHOD(0x002FC6D0, MatchState__Enum, get_State, (Match_1 * __this));

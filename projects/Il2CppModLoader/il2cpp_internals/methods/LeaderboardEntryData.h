@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeaderboardEntryData {
 IL2CPP_REGISTER_METHOD(0x015B77D0, int32_t, get_Time, (LeaderboardEntryData * __this));

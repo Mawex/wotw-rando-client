@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ExpressionUtils {
 IL2CPP_REGISTER_METHOD(0x01F940F0, ReadOnlyCollection_1_System_Linq_Expressions_ParameterExpression_ *, ReturnReadOnly, (IParameterProvider * provider, Object * * collection));

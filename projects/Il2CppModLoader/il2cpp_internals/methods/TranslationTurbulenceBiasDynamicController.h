@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TranslationTurbulenceBiasDynamicController {
 IL2CPP_REGISTER_METHOD(0x00B0B7C0, void, AddSpringVelocityX, (TranslationTurbulenceBiasDynamicController * __this, float velocity));

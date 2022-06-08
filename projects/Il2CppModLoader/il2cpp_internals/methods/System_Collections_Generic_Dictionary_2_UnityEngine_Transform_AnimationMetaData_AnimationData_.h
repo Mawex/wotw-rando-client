@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::Transform_AnimationMetaData_AnimationData_ {
 IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_UnityEngine_Transform_AnimationMetaData_AnimationData_ *, get_Values, (Dictionary_2_UnityEngine_Transform_AnimationMetaData_AnimationData_ * __this));

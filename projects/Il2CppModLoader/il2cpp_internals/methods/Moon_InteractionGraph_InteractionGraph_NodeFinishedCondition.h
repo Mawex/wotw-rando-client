@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::InteractionGraph_NodeFinishedCondition {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (InteractionGraph_NodeFinishedCondition * __this, InteractionGraph * graph));

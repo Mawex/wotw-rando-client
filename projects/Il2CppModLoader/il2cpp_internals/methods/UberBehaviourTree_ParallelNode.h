@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::ParallelNode {
 IL2CPP_REGISTER_METHOD(0x013E2A90, void, __ctor, (ParallelNode_1 * __this, String * name, int32_t numRequiredToFail, int32_t numRequiredToSucceed));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Algorithm::SweepLine {
 IL2CPP_REGISTER_METHOD(0x02636B70, int32_t, randomnation, (int32_t choices));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x026395F0, double, CircleTop, (SweepLine * __this, Verte
 IL2CPP_REGISTER_METHOD(0x026397F0, void, Check4DeadEvent, (SweepLine * __this, Otri * checktri, SweepLine_SweepEvent__Array * eventheap, int32_t * heapsize));
 IL2CPP_REGISTER_METHOD(0x02639910, int32_t, RemoveGhosts, (SweepLine * __this, Otri * startghost));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SweepLine * __this));
-IL2CPP_REGISTER_METHOD(0x02639D50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02639D50, void, __cctor, ());
 }

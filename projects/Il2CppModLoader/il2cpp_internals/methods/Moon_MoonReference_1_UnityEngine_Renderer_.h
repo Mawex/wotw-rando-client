@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_UnityEngine::Renderer_ {
 IL2CPP_REGISTER_METHOD(0x027216E0, bool, CanResolve, (MoonReference_1_UnityEngine_Renderer_ * __this, IMoonResolverContext * context));

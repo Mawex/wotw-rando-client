@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Stream_ReadWriteTask {
 IL2CPP_REGISTER_METHOD(0x0237EDF0, void, ClearBeginState, (Stream_ReadWriteTask * __this));

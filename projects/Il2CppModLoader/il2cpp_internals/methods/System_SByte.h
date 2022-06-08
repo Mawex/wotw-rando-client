@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::SByte {
 IL2CPP_REGISTER_METHOD(0x001D8570, int32_t, CompareTo, (SByte__Boxed * __this, Object * obj));

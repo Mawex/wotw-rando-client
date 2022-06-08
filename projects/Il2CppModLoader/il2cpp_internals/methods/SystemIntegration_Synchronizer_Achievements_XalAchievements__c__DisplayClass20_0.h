@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::XalAchievements___c__DisplayClass20_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XalAchievements_c_DisplayClass20_0 * __this));

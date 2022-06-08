@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ComparisonComparer_1_Moon::Timeline::UberShaderAnimatorStrategyExperimental_FloatRequest_ {
 IL2CPP_REGISTER_METHOD(0x0162A010, void, __ctor, (ComparisonComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_FloatRequest_ * __this, Comparison_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_FloatRequest_ * comparison));

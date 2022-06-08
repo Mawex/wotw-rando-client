@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Grounding_Pelvis {
 IL2CPP_REGISTER_METHOD(0x007EC230, Vector3, get_IKOffset, (Grounding_Pelvis * __this));

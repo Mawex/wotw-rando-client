@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::DataModels::Attributes {
 IL2CPP_REGISTER_METHOD(0x002FA280, List_1_Microsoft_Applications_Events_DataModels_PII_ *, get_pii, (Attributes * __this));

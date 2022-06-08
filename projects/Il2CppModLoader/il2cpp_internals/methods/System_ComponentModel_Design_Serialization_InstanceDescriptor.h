@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Design::Serialization::InstanceDescriptor {
 IL2CPP_REGISTER_METHOD(0x01FE4D60, void, __ctor, (InstanceDescriptor * __this, MemberInfo_1 * member, ICollection * arguments));

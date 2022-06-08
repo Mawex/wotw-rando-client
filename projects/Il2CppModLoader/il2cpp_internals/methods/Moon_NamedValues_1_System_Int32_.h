@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::NamedValues_1_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02722210, String *, GetName, (NamedValues_1_System_Int32_ * __this, int32_t value));

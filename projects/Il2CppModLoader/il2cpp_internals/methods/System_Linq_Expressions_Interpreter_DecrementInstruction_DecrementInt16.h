@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::DecrementInstruction_DecrementInt16 {
 IL2CPP_REGISTER_METHOD(0x022DB640, int32_t, Run, (DecrementInstruction_DecrementInt16 * __this, InterpretedFrame * frame));

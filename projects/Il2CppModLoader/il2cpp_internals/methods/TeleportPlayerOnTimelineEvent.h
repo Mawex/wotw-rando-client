@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TeleportPlayerOnTimelineEvent {
 IL2CPP_REGISTER_METHOD(0x00CE8F90, void, OnEnable, (TeleportPlayerOnTimelineEvent * __this));

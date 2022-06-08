@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyEntity {
 IL2CPP_REGISTER_METHOD(0x00A1DC40, StateMachine_2 *, get_StateMachine, (LegacyEntity * __this));

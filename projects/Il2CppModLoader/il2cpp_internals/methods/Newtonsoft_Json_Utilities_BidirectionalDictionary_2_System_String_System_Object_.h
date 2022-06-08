@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::BidirectionalDictionary_2_System::String_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01D0A250, bool, TryGetByFirst, (BidirectionalDictionary_2_System_String_System_Object_ * __this, String * first, Object * * second));

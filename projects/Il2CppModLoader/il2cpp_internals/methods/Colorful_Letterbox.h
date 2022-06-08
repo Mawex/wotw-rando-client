@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Letterbox {
 IL2CPP_REGISTER_METHOD(0x03048570, void, OnRenderImage, (Letterbox * __this, RenderTexture * source, RenderTexture * destination));

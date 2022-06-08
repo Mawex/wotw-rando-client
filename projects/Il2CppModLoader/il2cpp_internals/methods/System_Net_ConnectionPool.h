@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ConnectionPool {
 IL2CPP_REGISTER_METHOD(0x01E99BC0, Mutex *, get_CreationMutex, (ConnectionPool * __this));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHODINFO(0x0470E788, ConnectionPool_PutConnection_1__MethodInf
 IL2CPP_REGISTER_METHOD(0x01E9C840, void, PutNew, (ConnectionPool * __this, PooledStream * pooledStream));
 IL2CPP_REGISTER_METHOD(0x01E9C8C0, bool, ReclaimEmancipatedObjects, (ConnectionPool * __this));
 IL2CPP_REGISTER_METHOD(0x01E9CBC0, PooledStream *, UserCreateRequest, (ConnectionPool * __this));
-IL2CPP_REGISTER_METHOD(0x01E9CC20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E9CC20, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SinMovingPlatform {
 IL2CPP_REGISTER_METHOD(0x0074AB10, bool, get_IsSuspended, (SinMovingPlatform * __this));

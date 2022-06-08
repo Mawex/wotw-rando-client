@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_TKey_TValue__Enumerator_StatisticsManager_StatType_StatisticsManager_RuntimeStatEntry_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, StatisticsManager_RuntimeStatEntry *, get_Current, (Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enumerator_StatisticsManager_StatType_StatisticsManager_RuntimeStatEntry___Boxed * __this));

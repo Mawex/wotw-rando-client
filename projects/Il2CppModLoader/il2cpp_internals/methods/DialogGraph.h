@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DialogGraph {
 IL2CPP_REGISTER_METHOD(0x00B8E940, IDialogNode *, get_ResolvedRootNode, (DialogGraph * __this));

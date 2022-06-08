@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimationMontage {
 IL2CPP_REGISTER_METHOD(0x01338060, bool, get_IsMontagePlaying, (AnimationMontage * __this));

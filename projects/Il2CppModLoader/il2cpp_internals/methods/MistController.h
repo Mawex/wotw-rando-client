@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MistController {
 IL2CPP_REGISTER_METHOD(0x01327100, void, Awake, (MistController * __this));

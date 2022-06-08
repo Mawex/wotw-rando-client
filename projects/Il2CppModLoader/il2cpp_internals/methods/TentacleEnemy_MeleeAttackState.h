@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleEnemy_MeleeAttackState {
 IL2CPP_REGISTER_METHOD(0x00CF8280, bool, get_CanInitiateAttack, (TentacleEnemy_MeleeAttackState * __this));

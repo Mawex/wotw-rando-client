@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_PlayFab::ClientModels::PushNotificationPlatform_ {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (Nullable_1_PlayFab_ClientModels_PushNotificationPlatform___Boxed * __this, PushNotificationPlatform__Enum value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WotwUberStateToWwiseData_WotwUberStateToWWiseEntry {
 IL2CPP_REGISTER_METHOD(0x0058F9F0, bool, IsFulfilled, (WotwUberStateToWwiseData_WotwUberStateToWWiseEntry * __this));

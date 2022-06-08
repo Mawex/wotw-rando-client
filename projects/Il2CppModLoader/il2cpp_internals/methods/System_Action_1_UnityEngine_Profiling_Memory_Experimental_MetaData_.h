@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Profiling::Memory::Experimental::MetaData_ {
 IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (Action_1_UnityEngine_Profiling_Memory_Experimental_MetaData_ * __this, MetaData * obj));

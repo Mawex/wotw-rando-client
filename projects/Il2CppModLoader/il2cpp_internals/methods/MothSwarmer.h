@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MothSwarmer {
 IL2CPP_REGISTER_METHOD(0x00866A40, Vector2, get_Position, (MothSwarmer * __this));

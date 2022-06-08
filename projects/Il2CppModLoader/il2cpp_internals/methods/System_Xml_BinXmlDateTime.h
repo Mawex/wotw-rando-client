@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::BinXmlDateTime {
 IL2CPP_REGISTER_METHOD(0x021E2430, void, Write2Dig, (StringBuilder * sb, int32_t val));
@@ -40,5 +40,5 @@ IL2CPP_REGISTER_METHODINFO(0x0473DE78, BinXmlDateTime_GetKatmaiTimeTicks__Method
 IL2CPP_REGISTER_METHOD(0x021E60B0, int64_t, GetKatmaiTimeZoneTicks, (Byte__Array * data, int32_t pos));
 IL2CPP_REGISTER_METHOD(0x021E6120, int32_t, GetFractions, (DateTime dt));
 IL2CPP_REGISTER_METHOD(0x021E6260, int32_t, GetFractions, (DateTimeOffset dt));
-IL2CPP_REGISTER_METHOD(0x021E6420, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021E6420, void, __cctor, ());
 }

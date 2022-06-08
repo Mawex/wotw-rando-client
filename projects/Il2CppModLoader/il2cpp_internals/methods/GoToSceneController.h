@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GoToSceneController {
 IL2CPP_REGISTER_METHOD(0x007FE740, ScenesManager *, get_ScenesManager, (GoToSceneController * __this));
-IL2CPP_REGISTER_METHOD(0x007FE7C0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007FE7C0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x007FE840, bool, CheckStartInScene, (MoonGuid * guid));
 IL2CPP_REGISTER_METHOD(0x007FEA10, void, Awake, (GoToSceneController * __this));
 IL2CPP_REGISTER_METHOD(0x007FEAA0, void, OnDestroy, (GoToSceneController * __this));

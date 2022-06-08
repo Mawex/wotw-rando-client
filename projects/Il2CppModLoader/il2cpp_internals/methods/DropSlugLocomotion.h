@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropSlugLocomotion {
 IL2CPP_REGISTER_METHOD(0x00BE57B0, bool, get_IsSpinning, (DropSlugLocomotion * __this));

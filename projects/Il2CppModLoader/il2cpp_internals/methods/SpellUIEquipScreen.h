@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellUIEquipScreen {
 IL2CPP_REGISTER_METHOD(0x009468B0, void, HideExistingHint, (SpellUIEquipScreen * __this));

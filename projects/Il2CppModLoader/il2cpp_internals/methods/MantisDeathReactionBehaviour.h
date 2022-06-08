@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisDeathReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x009F7B20, void, OnInitializeTask, (MantisDeathReactionBehaviour * __this, IContext * context));

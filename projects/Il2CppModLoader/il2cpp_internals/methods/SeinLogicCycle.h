@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinLogicCycle {
 IL2CPP_REGISTER_METHOD(0x00894F40, SeinLogicCycle_StateFlags__Enum, GetFlags, (SeinLogicCycle * __this, SeinLogicCycle_StateFlags__Enum testFlags));
 IL2CPP_REGISTER_METHOD(0x00896560, bool, IsCharacterStateBlockedBy, (SeinLogicCycle * __this, SeinLogicCycle_StateFlags__Enum flags));
-IL2CPP_REGISTER_METHOD(0x00896640, bool, get_IsTouchingDamageColliders, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00896640, bool, get_IsTouchingDamageColliders, ());
 IL2CPP_REGISTER_METHOD(0x00896B60, bool, get_IsAllowedNonZeroZPosition, (SeinLogicCycle * __this));
 IL2CPP_REGISTER_METHOD(0x00896C50, SeinCharacter *, get_Sein, (SeinLogicCycle * __this));
 IL2CPP_REGISTER_METHOD(0x00896CE0, bool, get_AllowInvincibility, (SeinLogicCycle * __this));
@@ -140,7 +140,7 @@ IL2CPP_REGISTER_METHOD(0x008A0800, void, OnGUI, (SeinLogicCycle * __this));
 IL2CPP_REGISTER_METHOD(0x0043D9E0, UpdateType__Enum, get_UpdateType, (SeinLogicCycle * __this));
 IL2CPP_REGISTER_METHOD(0x008A0CA0, int32_t, get_ExecutionOrder, (SeinLogicCycle * __this));
 IL2CPP_REGISTER_METHOD(0x008A0CB0, void, __ctor, (SeinLogicCycle * __this));
-IL2CPP_REGISTER_METHOD(0x008A1370, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008A1370, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00896D20, bool, _RegisterIsAllowedDelegates_b__237_0, (SeinLogicCycle * __this));
 IL2CPP_REGISTER_METHODINFO(0x047472C0, SeinLogicCycle__RegisterIsAllowedDelegates_b__237_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00896D40, bool, _RegisterIsAllowedDelegates_b__237_1, (SeinLogicCycle * __this));

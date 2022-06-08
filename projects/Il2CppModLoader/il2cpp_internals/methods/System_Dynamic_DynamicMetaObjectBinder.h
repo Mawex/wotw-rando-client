@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::DynamicMetaObjectBinder {
 IL2CPP_REGISTER_METHOD(0x01F8AF70, void, __ctor, (DynamicMetaObjectBinder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blur_Regular {
 IL2CPP_REGISTER_METHOD(0x024D48D0, Material *, get_material, (CameraFilterPack_Blur_Regular * __this));

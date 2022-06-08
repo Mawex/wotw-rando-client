@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FlutteringProjectileDropBehaviour {
 IL2CPP_REGISTER_METHOD(0x01225C20, void, OnEntityInitialized, (FlutteringProjectileDropBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::GroundSurroundingsSensor {
 IL2CPP_REGISTER_METHOD(0x0012B830, bool, get_MoreSpaceInTheFront, (GroundSurroundingsSensor__Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_PreRecordingDynamicSceneObjectEntry_ {
 IL2CPP_REGISTER_METHOD(0x025EFF90, void, Add, (List_1_PreRecordingDynamicSceneObjectEntry_ * __this, PreRecordingDynamicSceneObjectEntry item));
@@ -65,5 +65,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_PreRecordingDynamicSceneO
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_PreRecordingDynamicSceneObjectEntry_ * __this, Comparison_1_PreRecordingDynamicSceneObjectEntry_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, PreRecordingDynamicSceneObjectEntry__Array *, ToArray, (List_1_PreRecordingDynamicSceneObjectEntry_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_PreRecordingDynamicSceneObjectEntry_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

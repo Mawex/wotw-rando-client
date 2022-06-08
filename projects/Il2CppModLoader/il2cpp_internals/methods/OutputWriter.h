@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OutputWriter {
 IL2CPP_REGISTER_METHOD(0x00442420, void, __ctor, (OutputWriter * __this, String * folder, String * outputFileName));

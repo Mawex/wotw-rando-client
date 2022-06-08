@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugHub___c {
-IL2CPP_REGISTER_METHOD(0x00DEBDA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DEBDA0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (DebugHub_c * __this));
 IL2CPP_REGISTER_METHOD(0x00DEBEE0, void, __initializeItems_b__31_0, (DebugHub_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04711058, DebugHub_c___initializeItems_b__31_0__MethodInfo);

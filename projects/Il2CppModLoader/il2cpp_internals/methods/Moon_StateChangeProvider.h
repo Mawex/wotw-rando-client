@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::StateChangeProvider {
 IL2CPP_REGISTER_METHOD(0x01BAF240, IGenericUberState *, get_State, (StateChangeProvider * __this));

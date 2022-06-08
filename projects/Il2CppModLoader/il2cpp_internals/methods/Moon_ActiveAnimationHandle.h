@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ActiveAnimationHandle {
 IL2CPP_REGISTER_METHOD(0x001B48E0, void, __ctor, (ActiveAnimationHandle__Boxed * __this, IActiveAnimation * activeAnimation));

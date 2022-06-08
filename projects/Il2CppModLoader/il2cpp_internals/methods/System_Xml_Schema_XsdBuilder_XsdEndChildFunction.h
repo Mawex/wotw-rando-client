@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XsdBuilder_XsdEndChildFunction {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XsdBuilder_XsdEndChildFunction * __this, Object * object, void * method_1));

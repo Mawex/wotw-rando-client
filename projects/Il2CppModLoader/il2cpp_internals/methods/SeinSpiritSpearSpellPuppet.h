@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSpiritSpearSpellPuppet {
 IL2CPP_REGISTER_METHOD(0x00A79BB0, int32_t, get_Id, (SeinSpiritSpearSpellPuppet * __this));

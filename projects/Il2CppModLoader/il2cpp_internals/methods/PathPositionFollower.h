@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PathPositionFollower {
 IL2CPP_REGISTER_METHOD(0x004486A0, void, Awake, (PathPositionFollower * __this));

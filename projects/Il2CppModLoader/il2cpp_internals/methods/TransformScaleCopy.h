@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransformScaleCopy {
 IL2CPP_REGISTER_METHOD(0x00B09A10, void, FixedUpdate, (TransformScaleCopy * __this));

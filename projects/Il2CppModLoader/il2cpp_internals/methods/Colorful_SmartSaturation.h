@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::SmartSaturation {
 IL2CPP_REGISTER_METHOD(0x03053130, Texture2D *, get_m_CurveTexture, (SmartSaturation * __this));

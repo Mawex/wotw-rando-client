@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinMapstonesFloatProvider {
 IL2CPP_REGISTER_METHOD(0x008A2960, float, GetFloatValue, (SeinMapstonesFloatProvider * __this));

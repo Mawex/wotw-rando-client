@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::CGameID {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (CGameID__Boxed * __this, uint64_t GameID));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextBoxMessage {
 IL2CPP_REGISTER_METHOD(0x010E4770, bool, get_OnButtonPressed, (TextBoxMessage * __this));

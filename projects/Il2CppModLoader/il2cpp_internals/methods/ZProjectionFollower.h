@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZProjectionFollower {
 IL2CPP_REGISTER_METHOD(0x01C5FD80, void, LateUpdate, (ZProjectionFollower * __this));

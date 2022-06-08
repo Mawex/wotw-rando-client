@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_NOTATION {
 IL2CPP_REGISTER_METHOD(0x02356E60, XmlValueConverter *, CreateValueConverter, (Datatype_NOTATION * __this, XmlSchemaType * schemaType));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHOD(0x02357050, Exception *, TryParseValue, (Datatype_NOTATIO
 IL2CPP_REGISTER_METHOD(0x02357320, void, VerifySchemaValid, (Datatype_NOTATION * __this, XmlSchemaObjectTable * notations, XmlSchemaObject * caller));
 IL2CPP_REGISTER_METHODINFO(0x0473C240, Datatype_NOTATION_VerifySchemaValid__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02357570, void, __ctor, (Datatype_NOTATION * __this));
-IL2CPP_REGISTER_METHOD(0x02357610, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02357610, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPostDesaturationAnimator {
 IL2CPP_REGISTER_METHOD(0x00FF1900, void, Awake, (UberPostDesaturationAnimator * __this));

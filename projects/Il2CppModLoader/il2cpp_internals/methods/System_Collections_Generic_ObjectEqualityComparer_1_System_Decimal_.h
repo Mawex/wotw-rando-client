@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System::Decimal_ {
 IL2CPP_REGISTER_METHOD(0x0265B5E0, bool, Equals, (ObjectEqualityComparer_1_System_Decimal_ * __this, Decimal x, Decimal y));

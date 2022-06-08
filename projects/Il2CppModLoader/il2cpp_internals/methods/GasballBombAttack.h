@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasballBombAttack {
 IL2CPP_REGISTER_METHOD(0x0041B3F0, AirEntityLocomotion *, get_Locomotion, (GasballBombAttack * __this));

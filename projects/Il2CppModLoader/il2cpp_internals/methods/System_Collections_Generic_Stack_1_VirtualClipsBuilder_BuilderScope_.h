@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_VirtualClipsBuilder_BuilderScope_ {
 IL2CPP_REGISTER_METHOD(0x02CF7F30, VirtualClipsBuilder_BuilderScope *, Peek, (Stack_1_VirtualClipsBuilder_BuilderScope_ * __this));

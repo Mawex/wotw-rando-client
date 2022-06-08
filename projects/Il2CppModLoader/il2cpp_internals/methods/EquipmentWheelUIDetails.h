@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EquipmentWheelUIDetails {
 IL2CPP_REGISTER_METHOD(0x00981340, void, Awake, (EquipmentWheelUIDetails * __this));

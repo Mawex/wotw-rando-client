@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UriBuilder {
 IL2CPP_REGISTER_METHOD(0x02A8E0F0, void, __ctor, (UriBuilder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::MoonEffectRevertHandlePool {
 IL2CPP_REGISTER_METHOD(0x002FA280, Stack_1_Moon_EffectsFramework_MoonEffectRevertHandle_ *, get_Instances, (MoonEffectRevertHandlePool * __this));

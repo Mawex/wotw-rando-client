@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FPSPlugin {
 IL2CPP_REGISTER_METHOD(0x0098AD90, void, Awake, (FPSPlugin * __this));

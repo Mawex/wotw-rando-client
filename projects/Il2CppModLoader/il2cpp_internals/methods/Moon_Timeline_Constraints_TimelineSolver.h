@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Constraints::TimelineSolver {
-IL2CPP_REGISTER_METHOD(0x01BB66B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BB66B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01BB6AE0, IDisposable *, OpenScope, (bool allowEvaluate, bool detectInfiniteLoops, bool allowCache));
-IL2CPP_REGISTER_METHOD(0x01BB6C90, void, ClearScope, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BB6C90, void, ClearScope, ());
 IL2CPP_REGISTER_METHODINFO(0x0471DBD0, TimelineSolver_ClearScope__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01BB6D50, float, ApproximateParentContentEnd, (ITimelineEntityParent * scope, float minTime));
 IL2CPP_REGISTER_METHOD(0x01BB7080, bool, EvaluateEvent, (ITimelineEntityParent * scope, EntityId id, int32_t eventId, float * time));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::DecoderReplacementFallback {
 IL2CPP_REGISTER_METHOD(0x0244B250, void, __ctor, (DecoderReplacementFallback * __this));

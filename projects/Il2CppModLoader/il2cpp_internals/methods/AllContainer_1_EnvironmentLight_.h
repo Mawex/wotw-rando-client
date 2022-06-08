@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AllContainer_1_EnvironmentLight_ {
 IL2CPP_REGISTER_METHOD(0x019D7800, EnvironmentLight *, get_Item, (AllContainer_1_EnvironmentLight_ * __this, int32_t index));

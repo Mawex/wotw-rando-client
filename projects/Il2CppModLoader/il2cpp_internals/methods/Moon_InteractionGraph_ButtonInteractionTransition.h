@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::ButtonInteractionTransition {
 IL2CPP_REGISTER_METHOD(0x003FC7F0, InteractionBidingButton__Enum, get_Button, (ButtonInteractionTransition * __this));

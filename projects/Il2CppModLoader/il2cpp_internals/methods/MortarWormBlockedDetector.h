@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarWormBlockedDetector {
 IL2CPP_REGISTER_METHOD(0x0147FAE0, void, OnValidate, (MortarWormBlockedDetector * __this));

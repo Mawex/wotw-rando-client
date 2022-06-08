@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::UnwrapPromise_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02A5DA30, void, __ctor, (UnwrapPromise_1_System_Object_ * __this, Task * outerTask, bool lookForOce));

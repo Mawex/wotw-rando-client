@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossTendrilVariationBrain {
 IL2CPP_REGISTER_METHOD(0x012F0C30, void, Start, (KwolokBossTendrilVariationBrain * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::StringCollection {
 IL2CPP_REGISTER_METHOD(0x0249DE30, String *, get_Item, (StringCollection * __this, int32_t index));

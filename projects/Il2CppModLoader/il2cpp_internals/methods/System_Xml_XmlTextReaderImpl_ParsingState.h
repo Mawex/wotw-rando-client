@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlTextReaderImpl_ParsingState {
 IL2CPP_REGISTER_METHOD(0x001DA3C0, void, Clear, (XmlTextReaderImpl_ParsingState__Boxed * __this));

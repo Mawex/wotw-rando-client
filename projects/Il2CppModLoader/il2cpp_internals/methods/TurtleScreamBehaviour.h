@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurtleScreamBehaviour {
 IL2CPP_REGISTER_METHOD(0x013D8950, void, OnExecute, (TurtleScreamBehaviour * __this, IBlackboard * blackboard));

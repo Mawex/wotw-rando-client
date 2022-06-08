@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::ISteamMatchmakingServerListResponse {
 IL2CPP_REGISTER_METHOD(0x015FE930, void, __ctor, (ISteamMatchmakingServerListResponse * __this, ISteamMatchmakingServerListResponse_ServerResponded * onServerResponded, ISteamMatchmakingServerListResponse_ServerFailedToRespond * onServerFailedToRespond, ISteamMatchmakingServerListResponse_RefreshComplete * onRefreshComplete));

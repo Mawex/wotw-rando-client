@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::RightShiftInstruction_RightShiftUInt16 {
 IL2CPP_REGISTER_METHOD(0x0240FDD0, int32_t, Run, (RightShiftInstruction_RightShiftUInt16 * __this, InterpretedFrame * frame));

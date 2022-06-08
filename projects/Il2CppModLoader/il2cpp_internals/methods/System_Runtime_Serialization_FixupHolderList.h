@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::FixupHolderList {
 IL2CPP_REGISTER_METHOD(0x01D87CC0, void, __ctor, (FixupHolderList * __this));

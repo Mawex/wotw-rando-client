@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BoolCondition {
 IL2CPP_REGISTER_METHOD(0x00D39E30, bool, Validate, (BoolCondition * __this, IContext * context));

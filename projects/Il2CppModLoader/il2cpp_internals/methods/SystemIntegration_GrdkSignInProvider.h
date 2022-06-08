@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::GrdkSignInProvider {
-IL2CPP_REGISTER_METHOD(0x00514C90, GrdkSignInProvider *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00514C90, GrdkSignInProvider *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00514D30, void, set_Instance, (GrdkSignInProvider * value));
 IL2CPP_REGISTER_METHOD(0x00514DE0, void, __ctor, (GrdkSignInProvider * __this, INetworkConnectivityChecker * netConnectivityChecker));
 IL2CPP_REGISTER_METHOD(0x005150A0, bool, get_IsSignedIn, (GrdkSignInProvider * __this));
@@ -30,7 +30,7 @@ IL2CPP_REGISTER_METHOD(0x00515E80, void, SignedInAgainWithNewOrInvalidUser, (Grd
 IL2CPP_REGISTER_METHOD(0x00515EA0, void, PauseTheGame, (GrdkSignInProvider * __this));
 IL2CPP_REGISTER_METHOD(0x00515F60, void, SendUserToMainMenu, (GrdkSignInProvider * __this));
 IL2CPP_REGISTER_METHOD(0x00516170, void, ClearCachedData, (GrdkSignInProvider * __this));
-IL2CPP_REGISTER_METHOD(0x00516240, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00516240, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x005162D0, void, _PopulateUser_b__37_0, (GrdkSignInProvider * __this, Byte__Array * bytes));
 IL2CPP_REGISTER_METHODINFO(0x04759A90, GrdkSignInProvider__PopulateUser_b__37_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00516900, void, _UpdateToken_b__40_0, (GrdkSignInProvider * __this, String * token, int32_t size));

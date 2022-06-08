@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::GroupCollection {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (GroupCollection * __this, Match * match, Hashtable * caps));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ArrayList_ArrayListEnumeratorSimple {
 IL2CPP_REGISTER_METHOD(0x0201A310, void, __ctor, (ArrayList_ArrayListEnumeratorSimple * __this, ArrayList * list));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x0201A6C0, Object *, get_Current, (ArrayList_ArrayListEn
 IL2CPP_REGISTER_METHODINFO(0x04707C40, ArrayList_ArrayListEnumeratorSimple_get_Current__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0201A800, void, Reset, (ArrayList_ArrayListEnumeratorSimple * __this));
 IL2CPP_REGISTER_METHODINFO(0x047754E0, ArrayList_ArrayListEnumeratorSimple_Reset__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0201A920, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0201A920, void, __cctor, ());
 }

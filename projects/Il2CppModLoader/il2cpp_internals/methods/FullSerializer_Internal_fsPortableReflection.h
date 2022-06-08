@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsPortableReflection {
 IL2CPP_REGISTER_METHOD(0x01659200, bool, HasAttribute, (MemberInfo_1 * element, Type * attributeType));
@@ -21,7 +21,7 @@ IL2CPP_REGISTER_METHOD(0x004C50A0, MemberInfo_1 *, AsMemberInfo, (Type * type));
 IL2CPP_REGISTER_METHOD(0x0165A830, bool, IsType, (MemberInfo_1 * member));
 IL2CPP_REGISTER_METHOD(0x0165A8F0, Type *, AsType, (MemberInfo_1 * member));
 IL2CPP_REGISTER_METHOD(0x004C50A0, Type *, Resolve, (Type * type));
-IL2CPP_REGISTER_METHOD(0x0165A9C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0165A9C0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x018F2A40, bool, HasAttribute, (MemberInfo_1 * element));
 IL2CPP_REGISTER_METHOD(0x018F2B20, bool, HasAttribute, (MemberInfo_1 * element, bool shouldCache));
 IL2CPP_REGISTER_METHOD(0x0157F020, Object *, GetAttribute, (MemberInfo_1 * element, bool shouldCache));

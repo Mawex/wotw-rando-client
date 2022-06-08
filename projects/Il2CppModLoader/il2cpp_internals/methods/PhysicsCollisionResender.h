@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsCollisionResender {
 IL2CPP_REGISTER_METHOD(0x014FC8B0, void, OnEnable, (PhysicsCollisionResender * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerBuilderDialogBehaviour {
 IL2CPP_REGISTER_METHOD(0x008519C0, BuilderNPC_State__Enum, get_DialogState, (MinerBuilderDialogBehaviour * __this));

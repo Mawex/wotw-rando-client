@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ListSortDescription {
 IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (ListSortDescription * __this, PropertyDescriptor * property, ListSortDirection__Enum direction));

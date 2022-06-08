@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_Moon::BehaviourSystem::ITask_ {
 IL2CPP_REGISTER_METHOD(0x02720EB0, ITask *, SafeResolve, (MoonReference_1_Moon_BehaviourSystem_ITask_ * __this, IMoonResolverContext * context));

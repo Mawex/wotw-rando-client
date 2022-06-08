@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::JSONNode {
 IL2CPP_REGISTER_METHOD(0x01DE23D0, JSONNode *, Parse, (String * json));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x01DE3690, JSONNode *, operator_, (bool v));
 IL2CPP_REGISTER_METHOD(0x01DE37E0, Object *, get_Value, (JSONNode * __this));
 IL2CPP_REGISTER_METHODINFO(0x047365B8, JSONNode_get_Value__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01DE3930, String *, get_AsJSON, (JSONNode * __this));
-IL2CPP_REGISTER_METHOD(0x01DE39D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DE39D0, void, __cctor, ());
 }

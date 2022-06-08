@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ClusterModifierBone2 {
 IL2CPP_REGISTER_METHOD(0x012C7140, String *, get_BoneName, (ClusterModifierBone2 * __this));

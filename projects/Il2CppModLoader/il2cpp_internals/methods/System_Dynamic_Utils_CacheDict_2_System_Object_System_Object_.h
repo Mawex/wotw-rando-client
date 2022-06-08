@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CacheDict_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x028796E0, void, set_Item, (CacheDict_2_System_Object_System_Object_ * __this, Object * key, Object * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataColumnPropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x0239E050, void, __ctor, (DataColumnPropertyDescriptor * __this, DataColumn * dataColumn));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Logger {
 IL2CPP_REGISTER_METHOD(0x02530570, void, __ctor, (Logger * __this, ILogHandler * logHandler));

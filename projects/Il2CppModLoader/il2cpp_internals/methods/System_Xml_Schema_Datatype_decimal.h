@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_decimal {
 IL2CPP_REGISTER_METHOD(0x0235B710, XmlValueConverter *, CreateValueConverter, (Datatype_decimal * __this, XmlSchemaType * schemaType));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x0235B900, RestrictionFlags__Enum, get_ValidRestrictionF
 IL2CPP_REGISTER_METHOD(0x0235B910, int32_t, Compare, (Datatype_decimal * __this, Object * value1, Object * value2));
 IL2CPP_REGISTER_METHOD(0x0235B9D0, Exception *, TryParseValue, (Datatype_decimal * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x0235BBA0, void, __ctor, (Datatype_decimal * __this));
-IL2CPP_REGISTER_METHOD(0x0235BC40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0235BC40, void, __cctor, ());
 }

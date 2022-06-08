@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericUberStateCondition {
 IL2CPP_REGISTER_METHOD(0x01B5DAE0, void, __ctor, (GenericUberStateCondition * __this));

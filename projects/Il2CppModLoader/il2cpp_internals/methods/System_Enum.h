@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Enum {
 IL2CPP_REGISTER_METHOD(0x01A10D70, Enum_ValuesAndNames *, GetCachedValuesAndNames, (RuntimeType * enumType, bool getNames));
@@ -87,7 +87,7 @@ IL2CPP_REGISTER_METHODINFO(0x0475AA28, Enum_ToObject_9__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01A17EC0, Object *, ToObject, (Type * enumType, bool value));
 IL2CPP_REGISTER_METHODINFO(0x04737950, Enum_ToObject_10__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Enum__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x01A180E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A180E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01565B00, bool, TryParse, (String * value, UberGCLogic_ResourceCollectPriorityMode__Enum * result));
 IL2CPP_REGISTER_METHODINFO(0x04738DD8, Enum_TryParse__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01565B00, bool, TryParse, (String * value, KeyCode__Enum * result));

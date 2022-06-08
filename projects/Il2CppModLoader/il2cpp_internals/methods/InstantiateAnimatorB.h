@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InstantiateAnimatorB {
 IL2CPP_REGISTER_METHOD(0x0062C500, int32_t, get_ServerID, (InstantiateAnimatorB * __this));

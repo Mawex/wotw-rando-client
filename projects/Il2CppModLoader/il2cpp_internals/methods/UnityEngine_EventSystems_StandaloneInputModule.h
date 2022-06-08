@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::StandaloneInputModule {
 IL2CPP_REGISTER_METHOD(0x01F26E70, void, __ctor, (StandaloneInputModule * __this));

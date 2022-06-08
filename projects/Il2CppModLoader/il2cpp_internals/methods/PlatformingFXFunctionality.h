@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlatformingFXFunctionality {
 IL2CPP_REGISTER_METHOD(0x011720B0, void, __ctor, (PlatformingFXFunctionality * __this));

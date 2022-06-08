@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Json_Parser {
 IL2CPP_REGISTER_METHOD(0x02E92E80, bool, IsWordBreak, (uint16_t c));

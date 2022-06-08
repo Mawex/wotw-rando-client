@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TestSet {
 IL2CPP_REGISTER_METHOD(0x010DB9C0, void, Init, (TestSet * __this, String * testSetFolderPath, String * testOutputFolderPath, List_1_System_String_ * requestedTests));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyTimelineSequence___c {
-IL2CPP_REGISTER_METHOD(0x01126AD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01126AD0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LegacyTimelineSequence_c * __this));
 IL2CPP_REGISTER_METHOD(0x01126C10, bool, _SortByTime_b__20_0, (LegacyTimelineSequence_c * __this, LegacyTimelineSequence_SequenceEntry * a));
 IL2CPP_REGISTER_METHODINFO(0x04767228, LegacyTimelineSequence_c__SortByTime_b__20_0__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::IOException {
 IL2CPP_REGISTER_METHOD(0x0236FF50, void, __ctor, (IOException * __this));

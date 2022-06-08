@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NaruController {
 IL2CPP_REGISTER_METHOD(0x00883A60, bool, get_LockedInput, (NaruController * __this));

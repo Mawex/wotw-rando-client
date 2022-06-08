@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerClient {
-IL2CPP_REGISTER_METHOD(0x027F53E0, HSteamPipe, CreateSteamPipe, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027F53E0, HSteamPipe, CreateSteamPipe, ());
 IL2CPP_REGISTER_METHOD(0x027F5400, bool, BReleaseSteamPipe, (HSteamPipe hSteamPipe));
 IL2CPP_REGISTER_METHOD(0x027F5430, HSteamUser, ConnectToGlobalUser, (HSteamPipe hSteamPipe));
 IL2CPP_REGISTER_METHOD(0x027F5460, HSteamUser, CreateLocalUser, (HSteamPipe * phSteamPipe, EAccountType__Enum eAccountType));
@@ -21,9 +21,9 @@ IL2CPP_REGISTER_METHOD(0x027F6AF0, void *, GetISteamNetworking, (HSteamUser hSte
 IL2CPP_REGISTER_METHOD(0x027F6D20, void *, GetISteamRemoteStorage, (HSteamUser hSteamuser, HSteamPipe hSteamPipe, String * pchVersion));
 IL2CPP_REGISTER_METHOD(0x027F6F50, void *, GetISteamScreenshots, (HSteamUser hSteamuser, HSteamPipe hSteamPipe, String * pchVersion));
 IL2CPP_REGISTER_METHOD(0x027F7180, void *, GetISteamGameSearch, (HSteamUser hSteamuser, HSteamPipe hSteamPipe, String * pchVersion));
-IL2CPP_REGISTER_METHOD(0x027F73B0, uint32_t, GetIPCCallCount, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027F73B0, uint32_t, GetIPCCallCount, ());
 IL2CPP_REGISTER_METHOD(0x027F73D0, void, SetWarningMessageHook, (SteamAPIWarningMessageHook_t * pFunction));
-IL2CPP_REGISTER_METHOD(0x027F7400, bool, BShutdownIfAllPipesClosed, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027F7400, bool, BShutdownIfAllPipesClosed, ());
 IL2CPP_REGISTER_METHOD(0x027F7420, void *, GetISteamHTTP, (HSteamUser hSteamuser, HSteamPipe hSteamPipe, String * pchVersion));
 IL2CPP_REGISTER_METHOD(0x027F7650, void *, GetISteamController, (HSteamUser hSteamUser, HSteamPipe hSteamPipe, String * pchVersion));
 IL2CPP_REGISTER_METHOD(0x027F7880, void *, GetISteamUGC, (HSteamUser hSteamUser, HSteamPipe hSteamPipe, String * pchVersion));

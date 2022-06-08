@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::RankException {
 IL2CPP_REGISTER_METHOD(0x02280E50, void, __ctor, (RankException * __this));

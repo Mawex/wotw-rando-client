@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecorderAsset {
 IL2CPP_REGISTER_METHOD(0x002FB940, void, SetData, (RecorderAsset * __this, RecorderData * data));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_SpellInventory_Binding_EquipmentType_ {
 IL2CPP_REGISTER_METHOD(0x02BAC6E0, Dictionary_2_TKey_TValue_Enumerator_SpellInventory_Binding_EquipmentType_, GetEnumerator, (Dictionary_2_SpellInventory_Binding_EquipmentType_ * __this));

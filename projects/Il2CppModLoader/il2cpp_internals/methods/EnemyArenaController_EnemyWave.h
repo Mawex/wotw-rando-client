@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnemyArenaController_EnemyWave {
 IL2CPP_REGISTER_METHOD(0x00C02130, MoonTimeline *, get_OnStartTimelineResolved, (EnemyArenaController_EnemyWave * __this));

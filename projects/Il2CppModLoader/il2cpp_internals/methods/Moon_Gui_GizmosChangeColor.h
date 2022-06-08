@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Gui::GizmosChangeColor {
 IL2CPP_REGISTER_METHOD(0x01349560, Color, get_PreviousColor, (GizmosChangeColor * __this));

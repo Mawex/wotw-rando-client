@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::FontData {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (FontData * __this));
-IL2CPP_REGISTER_METHOD(0x024AD000, FontData *, get_defaultFontData, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024AD000, FontData *, get_defaultFontData, ());
 IL2CPP_REGISTER_METHOD(0x01F2AB40, Font *, get_font, (FontData * __this));
 IL2CPP_REGISTER_METHOD(0x002FA490, void, set_font, (FontData * __this, Font * value));
 IL2CPP_REGISTER_METHOD(0x024AD170, int32_t, get_fontSize, (FontData * __this));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ReflectTypeDescriptionProvider {
-IL2CPP_REGISTER_METHOD(0x029A1850, Guid, get_ExtenderProviderKey, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029A1850, Guid, get_ExtenderProviderKey, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ReflectTypeDescriptionProvider * __this));
-IL2CPP_REGISTER_METHOD(0x029A1900, Hashtable *, get_IntrinsicTypeConverters, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029A1900, Hashtable *, get_IntrinsicTypeConverters, ());
 IL2CPP_REGISTER_METHOD(0x029A2100, void, AddEditorTable, (Type * editorBaseType, Hashtable * table));
 IL2CPP_REGISTER_METHODINFO(0x04723CB0, ReflectTypeDescriptionProvider_AddEditorTable__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x029A24E0, Object *, CreateInstance, (ReflectTypeDescriptionProvider * __this, IServiceProvider * provider, Type * objectType, Type__Array * argTypes, Object__Array * args));
@@ -48,5 +48,5 @@ IL2CPP_REGISTER_METHOD(0x029A6DB0, PropertyDescriptor__Array *, ReflectGetExtend
 IL2CPP_REGISTER_METHOD(0x029A7D90, PropertyDescriptor__Array *, ReflectGetProperties, (Type * type));
 IL2CPP_REGISTER_METHOD(0x029A8640, void, Refresh, (ReflectTypeDescriptionProvider * __this, Type * type));
 IL2CPP_REGISTER_METHOD(0x029A8680, Object *, SearchIntrinsicTable, (Hashtable * table, Type * callingType));
-IL2CPP_REGISTER_METHOD(0x029A8EA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029A8EA0, void, __cctor, ());
 }

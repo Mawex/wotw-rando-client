@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SerializationEntry {
 IL2CPP_REGISTER_METHOD(0x00107C10, Object *, get_Value, (SerializationEntry__Boxed * __this));

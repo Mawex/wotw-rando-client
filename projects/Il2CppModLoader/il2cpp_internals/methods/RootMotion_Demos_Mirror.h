@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::Mirror {
 IL2CPP_REGISTER_METHOD(0x02227160, void, Start, (Mirror * __this));

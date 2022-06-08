@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Driver::UpdateManager___c {
-IL2CPP_REGISTER_METHOD(0x0313A430, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0313A430, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (UpdateManager_c * __this));
 IL2CPP_REGISTER_METHOD(0x00D4A040, bool, _DumpEntries_b__40_0, (UpdateManager_c * __this, UpdateManager_Entry * x));
 IL2CPP_REGISTER_METHODINFO(0x04717470, UpdateManager_c__DumpEntries_b__40_0__MethodInfo);

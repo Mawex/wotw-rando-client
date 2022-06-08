@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationMetaDataBasedSoundPlayer {
 IL2CPP_REGISTER_METHOD(0x004FF0C0, void, FixedUpdate, (AnimationMetaDataBasedSoundPlayer * __this));

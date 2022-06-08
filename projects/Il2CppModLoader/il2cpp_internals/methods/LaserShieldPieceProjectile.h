@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShieldPieceProjectile {
-IL2CPP_REGISTER_METHOD(0x00F0ABC0, int32_t, get_Count, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00F0AC70, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F0ABC0, int32_t, get_Count, ());
+IL2CPP_REGISTER_METHOD(0x00F0AC70, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00F0AD50, float, get_CurrentZRotation, (LaserShieldPieceProjectile * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_CanGoThroughPortals, (LaserShieldPieceProjectile * __this));
 IL2CPP_REGISTER_METHOD(0x00F0AE40, void, Awake, (LaserShieldPieceProjectile * __this));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x00F0DCC0, void, ClearOscilation, (LaserShieldPieceProje
 IL2CPP_REGISTER_METHOD(0x00F0DDD0, void, ApplyStuckOscilation, (LaserShieldPieceProjectile * __this, float strength));
 IL2CPP_REGISTER_METHOD(0x00F09DC0, void, SpawnEffect, (LaserShieldPieceProjectile * __this, GameObject * prefab));
 IL2CPP_REGISTER_METHOD(0x00F0E0C0, void, __ctor, (LaserShieldPieceProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x00F0E510, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F0E510, void, __cctor, ());
 }

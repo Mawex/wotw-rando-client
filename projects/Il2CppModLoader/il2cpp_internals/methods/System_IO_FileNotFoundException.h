@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::FileNotFoundException {
 IL2CPP_REGISTER_METHOD(0x01E09550, void, __ctor, (FileNotFoundException * __this));

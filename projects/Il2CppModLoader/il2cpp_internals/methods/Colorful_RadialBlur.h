@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::RadialBlur {
 IL2CPP_REGISTER_METHOD(0x0304D1E0, void, OnRenderImage, (RadialBlur * __this, RenderTexture * source, RenderTexture * destination));

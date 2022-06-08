@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NPCMessageBoxWrapper {
 IL2CPP_REGISTER_METHOD(0x00881EE0, void, ShowMessage, (NPCMessageBoxWrapper * __this, IMessageProvider * messageProvider));

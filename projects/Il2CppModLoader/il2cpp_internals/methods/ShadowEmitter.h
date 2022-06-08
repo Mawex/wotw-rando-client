@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShadowEmitter {
 IL2CPP_REGISTER_METHOD(0x005A93B0, Transform *, get_GroundAnchorSafe, (ShadowEmitter * __this));

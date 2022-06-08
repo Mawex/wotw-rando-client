@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamMatchmakingServers {
 IL2CPP_REGISTER_METHOD(0x0278A110, HServerListRequest, RequestInternetServerList, (AppId_t iApp, MatchMakingKeyValuePair_t__Array * ppchFilters, uint32_t nFilters, ISteamMatchmakingServerListResponse * pRequestServersResponse));

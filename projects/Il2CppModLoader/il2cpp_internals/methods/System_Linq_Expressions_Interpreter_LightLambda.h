@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LightLambda {
 IL2CPP_REGISTER_METHOD(0x023F7180, void, RunVoid0, (LightLambda * __this));
@@ -12,6 +12,6 @@ IL2CPP_REGISTER_METHOD(0x023F8C30, InterpretedFrame *, MakeFrame, (LightLambda *
 IL2CPP_REGISTER_METHOD(0x023F8E70, Object *, Run, (LightLambda * __this, Object__Array * arguments));
 IL2CPP_REGISTER_METHODINFO(0x047976A0, LightLambda_Run__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023F9130, Object *, RunVoid, (LightLambda * __this, Object__Array * arguments));
-IL2CPP_REGISTER_METHOD(0x023F93B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023F93B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01AF0EC0, void, RunVoidRef2, (LightLambda * __this, Object * * arg0, Object * * arg1));
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityTextMeshDropShadow {
 IL2CPP_REGISTER_METHOD(0x013AA130, void, Awake, (UnityTextMeshDropShadow * __this));

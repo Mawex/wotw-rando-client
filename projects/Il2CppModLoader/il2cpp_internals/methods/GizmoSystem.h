@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GizmoSystem {
 IL2CPP_REGISTER_METHOD(0x01549B60, void, Render, (Object * subject, GameObject * context));

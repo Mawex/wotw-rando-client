@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetRigidBodyPropertiesAction {
 IL2CPP_REGISTER_METHOD(0x005A3710, void, Perform, (SetRigidBodyPropertiesAction * __this, IContext * context));

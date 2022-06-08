@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyBabySandWormNew {
 IL2CPP_REGISTER_METHOD(0x00C754B0, int32_t, get_BashPriority, (LegacyBabySandWormNew * __this));

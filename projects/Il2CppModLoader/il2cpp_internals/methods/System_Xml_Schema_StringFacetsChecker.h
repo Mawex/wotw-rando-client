@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::StringFacetsChecker {
-IL2CPP_REGISTER_METHOD(0x01ABA6E0, Regex *, get_LanguagePattern, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01ABA6E0, Regex *, get_LanguagePattern, ());
 IL2CPP_REGISTER_METHOD(0x01ABA870, Exception *, CheckValueFacets, (StringFacetsChecker * __this, Object * value, XmlSchemaDatatype * datatype));
 IL2CPP_REGISTER_METHOD(0x01ABA900, Exception *, CheckValueFacets, (StringFacetsChecker * __this, String * value, XmlSchemaDatatype * datatype));
 IL2CPP_REGISTER_METHOD(0x01ABA920, Exception *, CheckValueFacets, (StringFacetsChecker * __this, String * value, XmlSchemaDatatype * datatype, bool verifyUri));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserBeam {
 IL2CPP_REGISTER_METHOD(0x00F06300, void, SurfaceEffectsPrefabInstantiation, (LaserBeam * __this, List_1_DynamicInstantiationDescriptor_ * instantiations));

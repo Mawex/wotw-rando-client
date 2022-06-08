@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeConverter_SimplePropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x02945A00, void, __ctor, (TypeConverter_SimplePropertyDescriptor * __this, Type * componentType, String * name, Type * propertyType));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::SafeHandle {
 IL2CPP_REGISTER_METHOD(0x01A96E40, void, __ctor, (SafeHandle * __this, void * invalidHandleValue, bool ownsHandle));

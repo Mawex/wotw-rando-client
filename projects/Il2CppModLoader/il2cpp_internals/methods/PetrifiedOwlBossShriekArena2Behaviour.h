@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossShriekArena2Behaviour {
 IL2CPP_REGISTER_METHOD(0x0177D490, void, CopyData, (PetrifiedOwlBossShriekArena2Behaviour * __this, PetrifiedOwlBossBaseBehaviour * other));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ClickMeshBrowserUI {
 IL2CPP_REGISTER_METHOD(0x01DCE780, ClickMeshBrowserUI *, Create, (MeshCollider * meshCollider));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_BrowserCursor, (ClickMeshBrowserUI 
 IL2CPP_REGISTER_METHOD(0x002FBBE0, BrowserInputSettings *, get_InputSettings, (ClickMeshBrowserUI * __this));
 IL2CPP_REGISTER_METHOD(0x002FBBF0, void, set_InputSettings, (ClickMeshBrowserUI * __this, BrowserInputSettings * value));
 IL2CPP_REGISTER_METHOD(0x01DCFA20, void, __ctor, (ClickMeshBrowserUI * __this));
-IL2CPP_REGISTER_METHOD(0x01DCFC50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DCFC50, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::PointerUIMesh {
 IL2CPP_REGISTER_METHOD(0x01662960, void, Awake, (PointerUIMesh * __this));

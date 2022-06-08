@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleEnemy_HoldingOriState {
 IL2CPP_REGISTER_METHOD(0x00CF6EC0, String *, get_Name, (TentacleEnemy_HoldingOriState * __this));

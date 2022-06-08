@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::MemberAccessException {
 IL2CPP_REGISTER_METHOD(0x02269F60, void, __ctor, (MemberAccessException * __this));

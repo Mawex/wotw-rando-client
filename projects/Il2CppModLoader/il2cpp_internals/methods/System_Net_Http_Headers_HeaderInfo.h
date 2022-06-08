@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HeaderInfo {
 IL2CPP_REGISTER_METHOD(0x02D082C0, void, __ctor, (HeaderInfo_1 * __this, String * name, HttpHeaderKind__Enum headerKind));

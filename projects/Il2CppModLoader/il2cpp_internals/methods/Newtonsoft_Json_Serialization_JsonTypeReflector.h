@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonTypeReflector {
 IL2CPP_REGISTER_METHOD(0x01BF8DD0, bool, CanTypeDescriptorConvertString, (Type * type, TypeConverter * * typeConverter));
@@ -16,10 +16,10 @@ IL2CPP_REGISTER_METHOD(0x01BF9F30, Type *, GetAssociateMetadataTypeFromAttribute
 IL2CPP_REGISTER_METHODINFO(0x04725390, JsonTypeReflector_GetAssociateMetadataTypeFromAttribute__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01BFA250, bool, IsNonSerializable, (Object * provider));
 IL2CPP_REGISTER_METHOD(0x01BFA300, bool, IsSerializable, (Object * provider));
-IL2CPP_REGISTER_METHOD(0x01BFA3B0, bool, get_DynamicCodeGeneration, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01BFA990, bool, get_FullyTrusted, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01BFABB0, ReflectionDelegateFactory *, get_ReflectionDelegateFactory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01BFAD30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BFA3B0, bool, get_DynamicCodeGeneration, ());
+IL2CPP_REGISTER_METHOD(0x01BFA990, bool, get_FullyTrusted, ());
+IL2CPP_REGISTER_METHOD(0x01BFABB0, ReflectionDelegateFactory *, get_ReflectionDelegateFactory, ());
+IL2CPP_REGISTER_METHOD(0x01BFAD30, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015F4A70, Object *, GetCachedAttribute, (Object * attributeProvider));
 IL2CPP_REGISTER_METHOD(0x015F4880, Object *, GetAttribute, (Type * type));
 IL2CPP_REGISTER_METHOD(0x015F4580, Object *, GetAttribute, (MemberInfo_1 * memberInfo));

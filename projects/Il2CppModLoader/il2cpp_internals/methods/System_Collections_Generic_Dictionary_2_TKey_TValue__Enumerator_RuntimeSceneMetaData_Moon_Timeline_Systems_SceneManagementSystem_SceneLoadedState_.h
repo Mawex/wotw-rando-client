@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_RuntimeSceneMetaData_Moon::Timeline::Systems::SceneManagementSystem_SceneLoadedState_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_RuntimeSceneMetaData_Moon_Timeline_Systems_SceneManagementSystem_SceneLoadedState_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_RuntimeSceneMetaData_Moon_Timeline_Systems_SceneManagementSystem_SceneLoadedState___Boxed * __this));

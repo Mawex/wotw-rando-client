@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFrustumArtOptimizer {
 IL2CPP_REGISTER_METHOD(0x016897F0, void, UpdateList, (CameraFrustumArtOptimizer * __this));

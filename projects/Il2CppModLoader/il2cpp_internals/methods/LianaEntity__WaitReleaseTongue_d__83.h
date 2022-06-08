@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LianaEntity__WaitReleaseTongue_d__83 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (LianaEntity_WaitReleaseTongue_d_83 * __this, int32_t __1__state));

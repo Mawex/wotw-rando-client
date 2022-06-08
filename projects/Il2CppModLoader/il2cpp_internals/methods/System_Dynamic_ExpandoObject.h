@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject {
 IL2CPP_REGISTER_METHOD(0x01F8CA20, void, __ctor, (ExpandoObject * __this));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x01F8EE10, IEnumerator *, IEnumerable_GetEnumerator, (Ex
 IL2CPP_REGISTER_METHOD(0x01F8EE40, IEnumerator_1_KeyValuePair_2_System_String_System_Object_ *, GetExpandoEnumerator, (ExpandoObject * __this, ExpandoObject_ExpandoData * data, int32_t version));
 IL2CPP_REGISTER_METHOD(0x01F8EFB0, void, INotifyPropertyChanged_add_PropertyChanged, (ExpandoObject * __this, PropertyChangedEventHandler * value));
 IL2CPP_REGISTER_METHOD(0x01F8F070, void, INotifyPropertyChanged_remove_PropertyChanged, (ExpandoObject * __this, PropertyChangedEventHandler * value));
-IL2CPP_REGISTER_METHOD(0x01F8F130, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F8F130, void, __cctor, ());
 }

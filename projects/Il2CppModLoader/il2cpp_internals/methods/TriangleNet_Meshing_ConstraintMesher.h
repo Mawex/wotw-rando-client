@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::ConstraintMesher {
 IL2CPP_REGISTER_METHOD(0x02639E10, void, __ctor, (ConstraintMesher * __this, Mesh_1 * mesh, Configuration_1 * config));

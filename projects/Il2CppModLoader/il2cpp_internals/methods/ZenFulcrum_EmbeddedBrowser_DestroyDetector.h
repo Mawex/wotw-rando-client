@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::DestroyDetector {
 IL2CPP_REGISTER_METHOD(0x01DD3F30, void, add_onDestroy, (DestroyDetector * __this, Action * value));

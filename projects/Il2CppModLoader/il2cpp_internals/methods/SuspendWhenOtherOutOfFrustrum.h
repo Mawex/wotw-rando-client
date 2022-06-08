@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SuspendWhenOtherOutOfFrustrum {
 IL2CPP_REGISTER_METHOD(0x00674220, Transform *, get_CachedTransform, (SuspendWhenOtherOutOfFrustrum * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TranslateModifier {
 IL2CPP_REGISTER_METHOD(0x00B0A3F0, void, ApplyMultipliers, (TranslateModifier * __this, float strength, float speed));

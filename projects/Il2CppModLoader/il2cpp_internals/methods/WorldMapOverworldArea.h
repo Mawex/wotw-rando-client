@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WorldMapOverworldArea {
 IL2CPP_REGISTER_METHOD(0x002FBBC0, CleverMenuItem *, get_CleverMenu, (WorldMapOverworldArea * __this));

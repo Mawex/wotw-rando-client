@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnableComponentAction {
 IL2CPP_REGISTER_METHOD(0x00BFC2A0, void, Perform, (EnableComponentAction * __this, IContext * context));

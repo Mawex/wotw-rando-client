@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::ComicBook {
 IL2CPP_REGISTER_METHOD(0x03041040, void, OnRenderImage, (ComicBook * __this, RenderTexture * source, RenderTexture * destination));

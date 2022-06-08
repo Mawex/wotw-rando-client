@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebRequestPrefixElement {
 IL2CPP_REGISTER_METHOD(0x021B8380, IWebRequestCreate *, get_Creator, (WebRequestPrefixElement * __this));

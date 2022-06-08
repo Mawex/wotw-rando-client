@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerformanceTestManager {
 IL2CPP_REGISTER_METHOD(0x00498250, void, ChangeState, (PerformanceTestManager * __this, PerformanceTestManager_State__Enum state));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x00499380, void, OnNotMonitoringPerformance, (Performanc
 IL2CPP_REGISTER_METHODINFO(0x0471AE60, PerformanceTestManager_OnNotMonitoringPerformance__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00499390, void, DebugLog, (PerformanceTestManager * __this, String * message));
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (PerformanceTestManager * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

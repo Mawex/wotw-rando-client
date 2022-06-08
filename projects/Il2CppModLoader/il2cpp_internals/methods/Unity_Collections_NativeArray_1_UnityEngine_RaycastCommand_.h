@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_UnityEngine::RaycastCommand_ {
 IL2CPP_REGISTER_METHOD(0x001DF8B0, void, Dispose, (NativeArray_1_UnityEngine_RaycastCommand___Boxed * __this));

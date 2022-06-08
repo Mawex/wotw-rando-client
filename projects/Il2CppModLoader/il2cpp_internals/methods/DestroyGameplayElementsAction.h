@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DestroyGameplayElementsAction {
 IL2CPP_REGISTER_METHOD(0x00B8A510, void, Perform, (DestroyGameplayElementsAction * __this, IContext * context));

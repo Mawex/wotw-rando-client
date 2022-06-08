@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::EndPointManager {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EndPointManager * __this));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x01EB7AF0, void, RemoveEndPoint, (EndPointListener * epl
 IL2CPP_REGISTER_METHOD(0x01EB7DE0, void, RemoveListener, (HttpListener * listener));
 IL2CPP_REGISTER_METHOD(0x01EB8050, void, RemovePrefix, (String * prefix, HttpListener * listener));
 IL2CPP_REGISTER_METHOD(0x01EB81F0, void, RemovePrefixInternal, (String * prefix, HttpListener * listener));
-IL2CPP_REGISTER_METHOD(0x01EB8420, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EB8420, void, __cctor, ());
 }

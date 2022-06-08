@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_3_System::Threading::Tasks::Task_System::Threading::Tasks::Task_System::Threading::Tasks::TaskContinuation_ {
 IL2CPP_REGISTER_METHOD(0x02A69560, void, __ctor, (Tuple_3_System_Threading_Tasks_Task_System_Threading_Tasks_Task_System_Threading_Tasks_TaskContinuation_ * __this, Task * item1, Task * item2, TaskContinuation * item3));

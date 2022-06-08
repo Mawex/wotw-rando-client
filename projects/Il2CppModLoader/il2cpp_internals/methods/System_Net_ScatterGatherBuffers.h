@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ScatterGatherBuffers {
 IL2CPP_REGISTER_METHOD(0x01BD0570, void, __ctor, (ScatterGatherBuffers * __this));

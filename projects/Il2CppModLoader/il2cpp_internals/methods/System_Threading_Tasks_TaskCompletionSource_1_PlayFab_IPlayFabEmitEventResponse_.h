@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskCompletionSource_1_PlayFab::IPlayFabEmitEventResponse_ {
 IL2CPP_REGISTER_METHOD(0x02777830, void, SetCanceled, (TaskCompletionSource_1_PlayFab_IPlayFabEmitEventResponse_ * __this));

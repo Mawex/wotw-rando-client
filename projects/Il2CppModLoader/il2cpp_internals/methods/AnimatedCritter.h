@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimatedCritter {
 IL2CPP_REGISTER_METHOD(0x004FA640, Vector3, get_Position, (AnimatedCritter * __this));

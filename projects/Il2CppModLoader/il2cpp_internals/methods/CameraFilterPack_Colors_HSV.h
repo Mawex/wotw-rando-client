@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Colors_HSV {
 IL2CPP_REGISTER_METHOD(0x024E1170, Material *, get_material, (CameraFilterPack_Colors_HSV * __this));

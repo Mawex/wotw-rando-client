@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_NewArrayExpressionProxy {
 IL2CPP_REGISTER_METHOD(0x022C72A0, void, __ctor, (Expression_NewArrayExpressionProxy * __this, NewArrayExpression * node));

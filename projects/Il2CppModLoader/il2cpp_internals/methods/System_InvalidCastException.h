@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::InvalidCastException {
 IL2CPP_REGISTER_METHOD(0x02265D40, void, __ctor, (InvalidCastException * __this));

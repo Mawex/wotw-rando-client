@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System::DateTime_System::TimeType_ {
 IL2CPP_REGISTER_METHOD(0x00107C00, DateTime, get_Key, (KeyValuePair_2_System_DateTime_System_TimeType___Boxed * __this));

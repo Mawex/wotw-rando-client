@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryEvent {
 IL2CPP_REGISTER_METHOD(0x02EA01A0, void, Serialize, (MoonTelemetryEvent * __this, JsonBuilder_Slot slot));

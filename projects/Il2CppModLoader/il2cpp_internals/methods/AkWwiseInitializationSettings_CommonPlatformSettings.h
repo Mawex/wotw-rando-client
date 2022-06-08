@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkWwiseInitializationSettings_CommonPlatformSettings {
 IL2CPP_REGISTER_METHOD(0x002FB990, AkCommonUserSettings *, GetUserSettings, (AkWwiseInitializationSettings_CommonPlatformSettings * __this));

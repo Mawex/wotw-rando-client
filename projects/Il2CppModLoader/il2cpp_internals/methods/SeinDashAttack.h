@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDashAttack {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinDashAttack * __this));
@@ -55,5 +55,5 @@ IL2CPP_REGISTER_METHOD(0x006F34D0, void, StopDashing, (SeinDashAttack * __this))
 IL2CPP_REGISTER_METHOD(0x006F35E0, bool, RaycastTest, (SeinDashAttack * __this));
 IL2CPP_REGISTER_METHOD(0x006EF300, void, ResetDashLimit, (SeinDashAttack * __this));
 IL2CPP_REGISTER_METHOD(0x006F3AE0, void, __ctor, (SeinDashAttack * __this));
-IL2CPP_REGISTER_METHOD(0x006F3CC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006F3CC0, void, __cctor, ());
 }

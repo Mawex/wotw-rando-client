@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberEnvirionmentParticle {
 IL2CPP_REGISTER_METHOD(0x013E8070, void, OnDrawGizmosSelected, (UberEnvirionmentParticle * __this));

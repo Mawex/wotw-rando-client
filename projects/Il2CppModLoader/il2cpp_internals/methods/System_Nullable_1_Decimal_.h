@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Decimal_ {
 IL2CPP_REGISTER_METHOD(0x00120520, void, __ctor, (Nullable_1_Decimal___Boxed * __this, Decimal value));

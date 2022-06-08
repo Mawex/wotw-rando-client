@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (LogicalCallContext_Reader__Boxed * __this, LogicalCallContext * ctx));

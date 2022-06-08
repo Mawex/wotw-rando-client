@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaterialVFXSet {
 IL2CPP_REGISTER_METHOD(0x01384820, void, __ctor, (MaterialVFXSet * __this, SurfaceMaterialType__Enum material));

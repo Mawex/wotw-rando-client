@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceManagerBinder {
 IL2CPP_REGISTER_METHOD(0x00B17270, Texture2D *, CombineTexture, (TurbulenceManagerBinder * __this, Texture2D * tex1, Texture2D * tex2, float tweenTime));

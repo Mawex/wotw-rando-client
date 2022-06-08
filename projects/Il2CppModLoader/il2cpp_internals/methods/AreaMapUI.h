@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AreaMapUI {
 IL2CPP_REGISTER_METHOD(0x002FBCE0, GameObject *, get_PlayerPositionMarker, (AreaMapUI * __this));

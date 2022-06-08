@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneLoadingQueue {
 IL2CPP_REGISTER_METHOD(0x00BA7400, SceneLoadingQueue_QueueSceneToLoad, get_Item, (SceneLoadingQueue * __this, int32_t i));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x00BA7BF0, void, AddScene, (SceneLoadingQueue * __this, 
 IL2CPP_REGISTER_METHOD(0x00BA7DF0, void, RemoveScene, (SceneLoadingQueue * __this, MoonGuid * sceneMoonGuid));
 IL2CPP_REGISTER_METHOD(0x00BA8010, void, RemoveTopSceneAndPurge, (SceneLoadingQueue * __this));
 IL2CPP_REGISTER_METHOD(0x00BA83F0, void, __ctor, (SceneLoadingQueue * __this));
-IL2CPP_REGISTER_METHOD(0x00BA86D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BA86D0, void, __cctor, ());
 }

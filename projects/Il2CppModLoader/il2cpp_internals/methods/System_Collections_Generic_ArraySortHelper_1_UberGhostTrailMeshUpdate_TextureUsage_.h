@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UberGhostTrailMeshUpdate_TextureUsage_ {
 IL2CPP_REGISTER_METHOD(0x02F85E00, void, Sort, (UberGhostTrailMeshUpdate_TextureUsage__Array * keys, int32_t index, int32_t length, IComparer_1_UberGhostTrailMeshUpdate_TextureUsage_ * comparer));

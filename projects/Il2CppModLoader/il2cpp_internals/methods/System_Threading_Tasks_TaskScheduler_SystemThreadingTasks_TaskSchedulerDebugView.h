@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView * __this, TaskScheduler * scheduler));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UberPoolManager_ObjectTracking_ {
 IL2CPP_REGISTER_METHOD(0x02F876A0, void, Sort, (UberPoolManager_ObjectTracking__Array * keys, int32_t index, int32_t length, IComparer_1_UberPoolManager_ObjectTracking_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blend2Camera_Subtract {
 IL2CPP_REGISTER_METHOD(0x02760F60, Material *, get_material, (CameraFilterPack_Blend2Camera_Subtract * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JObject {
 IL2CPP_REGISTER_METHOD(0x002FBB60, IList_1_Newtonsoft_Json_Linq_JToken_ *, get_ChildrenTokens, (JObject * __this));

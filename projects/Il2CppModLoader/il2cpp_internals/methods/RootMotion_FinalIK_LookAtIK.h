@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::LookAtIK {
 IL2CPP_REGISTER_METHOD(0x02A17CD0, void, OpenUserManual, (LookAtIK * __this));

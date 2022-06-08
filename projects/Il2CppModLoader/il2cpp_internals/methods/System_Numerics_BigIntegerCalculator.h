@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Numerics::BigIntegerCalculator {
 IL2CPP_REGISTER_METHOD(0x030FE440, UInt32__Array *, Add, (UInt32__Array * left, uint32_t right));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x030FF390, UInt32__Array *, Multiply, (UInt32__Array * l
 IL2CPP_REGISTER_METHOD(0x030FF4F0, void, Multiply, (uint32_t * left, int32_t leftLength, uint32_t * right, int32_t rightLength, uint32_t * bits, int32_t bitsLength));
 IL2CPP_REGISTER_METHODINFO(0x047174D8, BigIntegerCalculator_Multiply_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x030FFAA0, void, SubtractCore, (uint32_t * left, int32_t leftLength, uint32_t * right, int32_t rightLength, uint32_t * core, int32_t coreLength));
-IL2CPP_REGISTER_METHOD(0x030FFBA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030FFBA0, void, __cctor, ());
 }

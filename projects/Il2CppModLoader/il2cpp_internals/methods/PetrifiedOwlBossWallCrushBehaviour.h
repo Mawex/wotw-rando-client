@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossWallCrushBehaviour {
 IL2CPP_REGISTER_METHOD(0x01781AD0, void, OnEnter, (PetrifiedOwlBossWallCrushBehaviour * __this, IContext * context));

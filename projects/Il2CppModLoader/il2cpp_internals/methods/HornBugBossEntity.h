@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugBossEntity {
 IL2CPP_REGISTER_METHOD(0x00B62280, void, BlockedHitEffectPrefabInstantiation, (HornBugBossEntity * __this, List_1_DynamicInstantiationDescriptor_ * instantiations));

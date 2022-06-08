@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecorderPlaybackUIInspector {
 IL2CPP_REGISTER_METHOD(0x008F7CD0, void, PlayCycle, (RecorderPlaybackUIInspector * __this, int32_t frame));

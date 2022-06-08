@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Int32_ZenFulcrum::EmbeddedBrowser::JSONNode_ {
 IL2CPP_REGISTER_METHOD(0x02C108D0, void, Invoke, (Action_2_Int32_ZenFulcrum_EmbeddedBrowser_JSONNode_ * __this, int32_t arg1, JSONNode * arg2));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkinnedMeshLod {
 IL2CPP_REGISTER_METHOD(0x004E57A0, int32_t, get_CurrentLevel, (SkinnedMeshLod * __this));

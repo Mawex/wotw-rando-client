@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormSetSpeedSettingsBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C269D0, void, OnEntityInitialized, (SandWormSetSpeedSettingsBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GroundEnemy3DState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (GroundEnemy3DState * __this, GroundEnemy3D * enemy3D));

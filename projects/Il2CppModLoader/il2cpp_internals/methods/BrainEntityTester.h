@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BrainEntityTester {
 IL2CPP_REGISTER_METHOD(0x01BA4230, Enum__Array *, GetEntries, (BrainEntityTester * __this));

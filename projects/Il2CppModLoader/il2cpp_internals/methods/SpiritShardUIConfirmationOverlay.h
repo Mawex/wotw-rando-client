@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritShardUIConfirmationOverlay {
 IL2CPP_REGISTER_METHOD(0x003FF610, SpiritShardUIConfirmationOverlay_Context__Enum, get_CurrentContext, (SpiritShardUIConfirmationOverlay * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System::Threading::Tasks::VoidTaskResult_ {
 IL2CPP_REGISTER_METHOD(0x0018ED60, void, SetStateMachine, (AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult___Boxed * __this, IAsyncStateMachine * stateMachine));
@@ -40,9 +40,9 @@ IL2CPP_REGISTER_METHOD(0x0012E590, void, AwaitUnsafeOnCompleted, (AsyncTaskMetho
 IL2CPP_REGISTER_METHOD(0x0012E5A0, void, AwaitUnsafeOnCompleted, (AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult___Boxed * __this, YieldAwaitable_YieldAwaiter * awaiter, UberPoolPerfTest_LoadPoolPrewarmScene_d_42 * stateMachine));
 IL2CPP_REGISTER_METHOD(0x0012E5B0, void, AwaitUnsafeOnCompleted, (AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult___Boxed * __this, YieldAwaitable_YieldAwaiter * awaiter, UberPoolPerfTest_RunTest_d_31 * stateMachine));
 IL2CPP_REGISTER_METHOD(0x0012E5C0, void, AwaitUnsafeOnCompleted, (AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult___Boxed * __this, YieldAwaitable_YieldAwaiter * awaiter, UberPoolPerfTest_SetupAutomatedTest_d_32 * stateMachine));
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_, Create, ());
 IL2CPP_REGISTER_METHOD(0x001FF630, void, SetResult, (AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult___Boxed * __this, VoidTaskResult result));
 IL2CPP_REGISTER_METHODINFO(0x047788C8, AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult__SetResult_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001FF6B0, Task_1_VoidTaskResult_ *, GetTaskForResult, (AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult___Boxed * __this, VoidTaskResult result));
-IL2CPP_REGISTER_METHOD(0x0276C8E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0276C8E0, void, __cctor, ());
 }

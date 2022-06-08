@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_RuntimeSceneMetaData_ {
 IL2CPP_REGISTER_METHOD(0x025F0B10, List_1_T_Enumerator_RuntimeSceneMetaData_, GetEnumerator, (List_1_RuntimeSceneMetaData_ * __this));

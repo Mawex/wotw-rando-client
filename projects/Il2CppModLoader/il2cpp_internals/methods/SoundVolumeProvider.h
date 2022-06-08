@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundVolumeProvider {
 IL2CPP_REGISTER_METHOD(0x00EEE120, float, GetFloatValue, (SoundVolumeProvider * __this));

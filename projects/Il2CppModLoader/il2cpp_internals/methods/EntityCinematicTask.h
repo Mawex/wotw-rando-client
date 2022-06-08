@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityCinematicTask {
 IL2CPP_REGISTER_METHOD(0x002FB9B0, EntityCinematicData *, get_Data, (EntityCinematicTask * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IntDebugMenuItem {
 IL2CPP_REGISTER_METHOD(0x006371F0, void, __ctor, (IntDebugMenuItem * __this));

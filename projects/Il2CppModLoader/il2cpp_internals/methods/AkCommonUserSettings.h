@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkCommonUserSettings {
 IL2CPP_REGISTER_METHOD(0x026DAD80, void, CopyTo, (AkCommonUserSettings * __this, AkMemSettings * settings));
-IL2CPP_REGISTER_METHOD(0x026DAEC0, String *, GetPluginPath, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x026DAEC0, String *, GetPluginPath, ());
 IL2CPP_REGISTER_METHOD(0x026DB060, void, CopyTo, (AkCommonUserSettings * __this, AkInitSettings * settings));
 IL2CPP_REGISTER_METHOD(0x026DB5E0, void, CopyTo, (AkCommonUserSettings * __this, AkMusicSettings * settings));
 IL2CPP_REGISTER_METHOD(0x026DB720, void, CopyTo, (AkCommonUserSettings * __this, AkStreamMgrSettings * settings));

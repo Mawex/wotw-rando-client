@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::InputActionSetHandle_t {
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (InputActionSetHandle_t__Boxed * __this, uint64_t value));

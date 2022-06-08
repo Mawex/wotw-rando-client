@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StreamingSoundsDisplay {
 IL2CPP_REGISTER_METHOD(0x0065D540, void, Awake, (StreamingSoundsDisplay * __this));

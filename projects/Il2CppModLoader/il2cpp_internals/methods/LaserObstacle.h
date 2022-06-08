@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserObstacle {
 IL2CPP_REGISTER_METHOD(0x00F06D80, void, Start, (LaserObstacle * __this));

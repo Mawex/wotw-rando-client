@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::AccessViolationException {
 IL2CPP_REGISTER_METHOD(0x0228ADC0, void, __ctor, (AccessViolationException * __this));

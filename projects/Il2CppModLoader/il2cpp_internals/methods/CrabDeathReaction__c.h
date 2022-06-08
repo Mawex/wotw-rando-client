@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CrabDeathReaction___c {
-IL2CPP_REGISTER_METHOD(0x00DB3D80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DB3D80, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CrabDeathReaction_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _ResetTimeline_b__29_0, (CrabDeathReaction_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x047483F8, CrabDeathReaction_c__ResetTimeline_b__29_0__MethodInfo);

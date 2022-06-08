@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoveTowardsColorTweenable {
 IL2CPP_REGISTER_METHOD(0x01BAAF40, Color, Update, (MoveTowardsColorTweenable * __this, Color currentValue, Color startValue, Color endValue, float speed));

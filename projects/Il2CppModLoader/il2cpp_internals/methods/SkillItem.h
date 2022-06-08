@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillItem {
 IL2CPP_REGISTER_METHOD(0x006B4670, int32_t, get_ActualRequiredSkillPoints, (SkillItem * __this));

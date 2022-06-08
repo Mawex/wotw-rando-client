@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::UIInteractable {
 IL2CPP_REGISTER_METHOD(0x0118B670, void, Awake, (UIInteractable * __this));

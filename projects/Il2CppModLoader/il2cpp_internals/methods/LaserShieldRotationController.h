@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShieldRotationController {
 IL2CPP_REGISTER_METHOD(0x00F0E660, int32_t, get_PieceCount, (LaserShieldRotationController * __this));

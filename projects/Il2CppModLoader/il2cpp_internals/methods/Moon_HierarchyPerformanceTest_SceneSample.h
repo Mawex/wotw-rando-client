@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::SceneSample {
 IL2CPP_REGISTER_METHOD(0x014AA890, void, __ctor, (SceneSample * __this, Vector3 pos));

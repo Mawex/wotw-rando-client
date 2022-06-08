@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InstanciationToggler {
 IL2CPP_REGISTER_METHOD(0x0062A360, void, OnApplicationQuit, (InstanciationToggler * __this));

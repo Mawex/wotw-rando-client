@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_EXTRA_SHOWFPS {
 IL2CPP_REGISTER_METHOD(0x02462D60, Material *, get_material, (CameraFilterPack_EXTRA_SHOWFPS * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo_ {
 IL2CPP_REGISTER_METHOD(0x001F42C0, bool, get_HasValue, (Nullable_1_DynamicInstantiationDescriptor_ReflectionInfo___Boxed * __this));

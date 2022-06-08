@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_Burst {
 IL2CPP_REGISTER_METHOD(0x002470A0, ParticleSystem_MinMaxCurve, get_count, (ParticleSystem_Burst__Boxed * __this));

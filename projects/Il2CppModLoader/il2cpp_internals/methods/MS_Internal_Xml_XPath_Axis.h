@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::Axis {
 IL2CPP_REGISTER_METHOD(0x021D8C00, void, __ctor, (Axis * __this, Axis_AxisType__Enum axisType, AstNode * input, String * prefix, String * name, XPathNodeType__Enum nodetype));

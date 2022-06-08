@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PushBlockSetCollideWithPlayerAction {
 IL2CPP_REGISTER_METHOD(0x00C81BC0, void, Perform, (PushBlockSetCollideWithPlayerAction * __this, IContext * context));

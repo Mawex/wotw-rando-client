@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_1 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ReflectionObject_c_DisplayClass11_1 * __this));

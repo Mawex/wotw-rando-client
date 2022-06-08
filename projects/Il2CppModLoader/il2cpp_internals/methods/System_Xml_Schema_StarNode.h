@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::StarNode {
 IL2CPP_REGISTER_METHOD(0x016D9320, void, ConstructPos, (StarNode * __this, BitSet * firstpos, BitSet * lastpos, BitSet__Array * followpos));

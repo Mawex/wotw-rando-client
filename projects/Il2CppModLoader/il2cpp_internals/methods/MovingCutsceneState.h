@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MovingCutsceneState {
 IL2CPP_REGISTER_METHOD(0x0086C6F0, SeinCharacter *, get_Sein, (MovingCutsceneState * __this));

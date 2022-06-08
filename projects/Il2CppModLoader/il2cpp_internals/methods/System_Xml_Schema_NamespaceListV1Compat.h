@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::NamespaceListV1Compat {
 IL2CPP_REGISTER_METHOD(0x016D0020, void, __ctor, (NamespaceListV1Compat * __this, String * namespaces, String * targetNamespace));

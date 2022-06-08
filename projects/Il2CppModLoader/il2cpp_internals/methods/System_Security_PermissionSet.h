@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::PermissionSet {
 IL2CPP_REGISTER_METHOD(0x01E19450, void, __ctor, (PermissionSet * __this));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x004C50A0, Object *, get_SyncRoot, (PermissionSet * __th
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IDeserializationCallback_OnDeserialization, (PermissionSet * __this, Object * sender));
 IL2CPP_REGISTER_METHOD(0x01E1A1E0, bool, Equals, (PermissionSet * __this, Object * obj));
 IL2CPP_REGISTER_METHOD(0x01E1A410, int32_t, GetHashCode, (PermissionSet * __this));
-IL2CPP_REGISTER_METHOD(0x01E1A460, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E1A460, void, __cctor, ());
 }

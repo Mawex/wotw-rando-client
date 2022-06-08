@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinClamberPuppet {
 IL2CPP_REGISTER_METHOD(0x00A5B690, int32_t, get_Id, (SeinClamberPuppet * __this));

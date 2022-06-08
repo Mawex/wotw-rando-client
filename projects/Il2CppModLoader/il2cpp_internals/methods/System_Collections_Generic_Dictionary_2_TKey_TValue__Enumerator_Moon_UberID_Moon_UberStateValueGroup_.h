@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_Moon::UberID_Moon::UberStateValueGroup_ {
 IL2CPP_REGISTER_METHOD(0x00136440, KeyValuePair_2_Moon_UberID_Moon_UberStateValueGroup_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_Moon_UberID_Moon_UberStateValueGroup___Boxed * __this));

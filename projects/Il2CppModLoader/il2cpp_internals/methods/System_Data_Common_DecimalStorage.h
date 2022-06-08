@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::DecimalStorage {
 IL2CPP_REGISTER_METHOD(0x02163820, void, __ctor, (DecimalStorage * __this, DataColumn * column));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x02165070, String *, ConvertObjectToXml, (DecimalStorage
 IL2CPP_REGISTER_METHOD(0x02165160, Object *, GetEmptyStorage, (DecimalStorage * __this, int32_t recordCount));
 IL2CPP_REGISTER_METHOD(0x021651E0, void, CopyValue, (DecimalStorage * __this, int32_t record, Object * store, BitArray * nullbits, int32_t storeIndex));
 IL2CPP_REGISTER_METHOD(0x02165380, void, SetStorage, (DecimalStorage * __this, Object * store, BitArray * nullbits));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EditorTools::ArtKit::ArtKit {
 IL2CPP_REGISTER_METHOD(0x01207740, void, AddVersionInfo, (ArtKit * __this, int32_t versionNumber, int64_t timestamp));

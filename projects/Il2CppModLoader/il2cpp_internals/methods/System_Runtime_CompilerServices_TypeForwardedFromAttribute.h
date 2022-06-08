@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::TypeForwardedFromAttribute {
 IL2CPP_REGISTER_METHOD(0x01A93160, void, __ctor, (TypeForwardedFromAttribute * __this, String * assemblyFullName));

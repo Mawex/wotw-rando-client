@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoKeepPositionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00758140, void, OnEntityInitialized, (SkeetoKeepPositionBehaviour * __this));

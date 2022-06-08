@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabMultiplayerAPI {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01A2E6C0, void, ForgetAllCredentials, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x01A2E6C0, void, ForgetAllCredentials, ());
 IL2CPP_REGISTER_METHOD(0x01A2E750, void, CancelAllMatchmakingTicketsForPlayer, (CancelAllMatchmakingTicketsForPlayerRequest * request, Action_1_PlayFab_MultiplayerModels_CancelAllMatchmakingTicketsForPlayerResult_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));
 IL2CPP_REGISTER_METHOD(0x01A2E860, void, CancelMatchmakingTicket, (CancelMatchmakingTicketRequest * request, Action_1_PlayFab_MultiplayerModels_CancelMatchmakingTicketResult_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));
 IL2CPP_REGISTER_METHOD(0x01A2E970, void, CreateBuildWithCustomContainer, (CreateBuildWithCustomContainerRequest * request, Action_1_PlayFab_MultiplayerModels_CreateBuildWithCustomContainerResponse_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));

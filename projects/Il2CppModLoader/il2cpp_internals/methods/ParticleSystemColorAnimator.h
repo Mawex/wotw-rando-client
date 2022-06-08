@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ParticleSystemColorAnimator {
 IL2CPP_REGISTER_METHOD(0x00444DE0, void, CacheOriginals, (ParticleSystemColorAnimator * __this, ParticleSystem * particleSystemToAnimate));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::QuestsController___c__DisplayClass53_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (QuestsController_c_DisplayClass53_0 * __this));

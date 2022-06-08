@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StressTestPlaylist {
 IL2CPP_REGISTER_METHOD(0x0065DFB0, void, Start, (StressTestPlaylist * __this));

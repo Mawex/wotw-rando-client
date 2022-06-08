@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::WeakHashtable_WeakKeyComparer {
 IL2CPP_REGISTER_METHOD(0x0295E8D0, bool, IEqualityComparer_Equals, (WeakHashtable_WeakKeyComparer * __this, Object * x, Object * y));

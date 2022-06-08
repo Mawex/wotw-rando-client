@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BlendVector4 {
 IL2CPP_REGISTER_METHOD(0x00D2B550, void, __ctor, (BlendVector4 * __this, Func_2_Single_Single_ * ease));

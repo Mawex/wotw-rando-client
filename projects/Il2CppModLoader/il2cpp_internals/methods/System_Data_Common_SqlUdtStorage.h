@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlUdtStorage {
 IL2CPP_REGISTER_METHOD(0x02861550, void, __ctor, (SqlUdtStorage * __this, DataColumn * column, Type * type));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHOD(0x02862EA0, void, ConvertObjectToXml, (SqlUdtStorage * __
 IL2CPP_REGISTER_METHOD(0x02863000, Object *, GetEmptyStorage, (SqlUdtStorage * __this, int32_t recordCount));
 IL2CPP_REGISTER_METHOD(0x02863080, void, CopyValue, (SqlUdtStorage * __this, int32_t record, Object * store, BitArray * nullbits, int32_t storeIndex));
 IL2CPP_REGISTER_METHOD(0x02863250, void, SetStorage, (SqlUdtStorage * __this, Object * store, BitArray * nullbits));
-IL2CPP_REGISTER_METHOD(0x02863310, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02863310, void, __cctor, ());
 }

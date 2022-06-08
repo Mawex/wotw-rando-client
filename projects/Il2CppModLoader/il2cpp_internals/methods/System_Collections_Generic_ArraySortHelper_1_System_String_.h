@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_System::String_ {
 IL2CPP_REGISTER_METHOD(0x02C86EC0, void, IntrospectiveSort, (String__Array * keys, int32_t left, int32_t length, Comparison_1_String_ * comparer));

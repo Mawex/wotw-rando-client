@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::QualityMesher {
 IL2CPP_REGISTER_METHOD(0x02B13200, void, __ctor, (QualityMesher * __this, Mesh_1 * mesh, Configuration_1 * config));

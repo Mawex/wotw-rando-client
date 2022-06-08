@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Comparer_1_Moon::JsonParser_ {
 IL2CPP_REGISTER_METHOD(0x028C3060, Comparer_1_Moon_JsonParser_ *, Create, (Comparison_1_Moon_JsonParser_ * comparison));

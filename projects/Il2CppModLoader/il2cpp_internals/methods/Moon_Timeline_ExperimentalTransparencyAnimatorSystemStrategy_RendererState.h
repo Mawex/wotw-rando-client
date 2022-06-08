@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ExperimentalTransparencyAnimatorSystemStrategy_RendererState {
 IL2CPP_REGISTER_METHOD(0x00769CA0, void, __ctor, (ExperimentalTransparencyAnimatorSystemStrategy_RendererState * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderRuntimeZShift {
 IL2CPP_REGISTER_METHOD(0x004F2320, bool, get_IsInScene, (UberShaderRuntimeZShift * __this));

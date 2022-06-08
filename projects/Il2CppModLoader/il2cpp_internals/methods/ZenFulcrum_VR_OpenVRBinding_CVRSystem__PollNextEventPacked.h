@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRSystem__PollNextEventPacked {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (CVRSystem_PollNextEventPacked * __this, Object * object, void * method_1));

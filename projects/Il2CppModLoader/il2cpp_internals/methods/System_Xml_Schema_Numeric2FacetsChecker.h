@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Numeric2FacetsChecker {
 IL2CPP_REGISTER_METHOD(0x016D2610, Exception *, CheckValueFacets, (Numeric2FacetsChecker * __this, Object * value, XmlSchemaDatatype * datatype));

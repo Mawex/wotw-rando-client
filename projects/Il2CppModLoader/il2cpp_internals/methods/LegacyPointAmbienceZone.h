@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyPointAmbienceZone {
 IL2CPP_REGISTER_METHOD(0x00A30830, void, Awake, (LegacyPointAmbienceZone * __this));

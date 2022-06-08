@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::BipedIKSolvers {
 IL2CPP_REGISTER_METHOD(0x020503B0, IKSolverLimb__Array *, get_limbs, (BipedIKSolvers * __this));

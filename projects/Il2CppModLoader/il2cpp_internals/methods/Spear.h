@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Spear {
 IL2CPP_REGISTER_METHOD(0x00EF6FA0, void, Start, (Spear * __this));

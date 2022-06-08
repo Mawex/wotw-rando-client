@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKConstraintBend {
 IL2CPP_REGISTER_METHOD(0x02077D90, bool, IsValid, (IKConstraintBend * __this, IKSolverFullBody * solver, Warning_Logger * logger));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DestroyManager {
 IL2CPP_REGISTER_METHOD(0x00B8A5C0, void, __ctor, (DestroyManager * __this));

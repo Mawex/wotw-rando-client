@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::P3D_Painter {
-IL2CPP_REGISTER_METHOD(0x030961C0, P3D_Painter *, get_TempInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030961C0, P3D_Painter *, get_TempInstance, ());
 IL2CPP_REGISTER_METHOD(0x030963C0, bool, get_IsReady, (P3D_Painter * __this));
 IL2CPP_REGISTER_METHOD(0x030964A0, void, SetCanvas, (P3D_Painter * __this, RenderTexture * newTexture, Vector2 newTiling, Vector2 newOffset));
 IL2CPP_REGISTER_METHOD(0x030964E0, bool, Paint, (P3D_Painter * __this, P3D_Brush * brush, List_1_P3D_Result_ * results, P3D_CoordType__Enum coord));

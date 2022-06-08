@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Physics {
-IL2CPP_REGISTER_METHOD(0x030A3D30, Vector3, get_gravity, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x030A3DB0, float, get_sleepThreshold, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x030A3E00, PhysicsScene, get_defaultPhysicsScene, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030A3D30, Vector3, get_gravity, ());
+IL2CPP_REGISTER_METHOD(0x030A3DB0, float, get_sleepThreshold, ());
+IL2CPP_REGISTER_METHOD(0x030A3E00, PhysicsScene, get_defaultPhysicsScene, ());
 IL2CPP_REGISTER_METHOD(0x030A3E60, void, IgnoreCollision, (Collider * collider1, Collider * collider2, bool ignore));
 IL2CPP_REGISTER_METHOD(0x030A3EE0, void, IgnoreCollision, (Collider * collider1, Collider * collider2));
 IL2CPP_REGISTER_METHOD(0x030A3F50, void, IgnoreLayerCollision, (int32_t layer1, int32_t layer2, bool ignore));
@@ -77,10 +77,10 @@ IL2CPP_REGISTER_METHOD(0x030A7AD0, Collider__Array *, OverlapSphere_Internal, (P
 IL2CPP_REGISTER_METHOD(0x030A7B60, Collider__Array *, OverlapSphere, (Vector3 position, float radius, int32_t layerMask, QueryTriggerInteraction__Enum queryTriggerInteraction));
 IL2CPP_REGISTER_METHOD(0x030A7C50, Collider__Array *, OverlapSphere, (Vector3 position, float radius, int32_t layerMask));
 IL2CPP_REGISTER_METHOD(0x030A7C80, Collider__Array *, OverlapSphere, (Vector3 position, float radius));
-IL2CPP_REGISTER_METHOD(0x00495B20, bool, get_autoSimulation, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00495B20, bool, get_autoSimulation, ());
 IL2CPP_REGISTER_METHOD(0x030A7CC0, void, set_autoSimulation, (bool value));
-IL2CPP_REGISTER_METHOD(0x030A7D10, void, SyncTransforms, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00495A80, bool, get_autoSyncTransforms, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x030A7D10, void, SyncTransforms, ());
+IL2CPP_REGISTER_METHOD(0x00495A80, bool, get_autoSyncTransforms, ());
 IL2CPP_REGISTER_METHOD(0x030A7D60, void, set_autoSyncTransforms, (bool value));
 IL2CPP_REGISTER_METHOD(0x030A7DB0, bool, Query_ComputePenetration, (Collider * colliderA, Vector3 positionA, Quaternion rotationA, Collider * colliderB, Vector3 positionB, Quaternion rotationB, Vector3 * direction, float * distance));
 IL2CPP_REGISTER_METHOD(0x030A7E70, bool, ComputePenetration, (Collider * colliderA, Vector3 positionA, Quaternion rotationA, Collider * colliderB, Vector3 positionB, Quaternion rotationB, Vector3 * direction, float * distance));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ReadOnlySpan_1_Byte_ {
 IL2CPP_REGISTER_METHOD(0x00219D80, void, __ctor, (ReadOnlySpan_1_Byte___Boxed * __this, Byte__Array * array));

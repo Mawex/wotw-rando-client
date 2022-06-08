@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::Wwise::UberStateWwiseStateManager_ResetStateData_ {
 IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals, (ObjectEqualityComparer_1_Moon_Wwise_UberStateWwiseStateManager_ResetStateData_ * __this, UberStateWwiseStateManager_ResetStateData x, UberStateWwiseStateManager_ResetStateData y));

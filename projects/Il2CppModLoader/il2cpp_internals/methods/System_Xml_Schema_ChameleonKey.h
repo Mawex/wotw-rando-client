@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ChameleonKey {
 IL2CPP_REGISTER_METHOD(0x019A9360, void, __ctor, (ChameleonKey * __this, String * ns, XmlSchema * originalSchema));

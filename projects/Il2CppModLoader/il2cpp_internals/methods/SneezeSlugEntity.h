@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SneezeSlugEntity {
 IL2CPP_REGISTER_METHOD(0x00E59A60, bool, get_IsFacingTarget, (SneezeSlugEntity * __this));

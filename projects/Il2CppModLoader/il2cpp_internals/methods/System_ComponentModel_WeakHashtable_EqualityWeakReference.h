@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::WeakHashtable_EqualityWeakReference {
 IL2CPP_REGISTER_METHOD(0x0295E800, void, __ctor, (WeakHashtable_EqualityWeakReference * __this, Object * o));

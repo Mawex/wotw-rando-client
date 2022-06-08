@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ServiceNameStore {
 IL2CPP_REGISTER_METHOD(0x01BD3990, ServiceNameCollection *, get_ServiceNames, (ServiceNameStore * __this));

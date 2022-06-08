@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::TryParseListDelegate_1_StringWithQualityHeaderValue_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (TryParseListDelegate_1_StringWithQualityHeaderValue_ * __this, Object * object, void * method_1));

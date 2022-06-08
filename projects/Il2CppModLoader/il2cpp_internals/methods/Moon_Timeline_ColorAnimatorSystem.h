@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ColorAnimatorSystem {
-IL2CPP_REGISTER_METHOD(0x00760690, ColorAnimatorSystem *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00760690, ColorAnimatorSystem *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_IsRunning, (ColorAnimatorSystem * __this));
 IL2CPP_REGISTER_METHOD(0x0052A060, void, set_IsRunning, (ColorAnimatorSystem * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_ExecutionOrder, (ColorAnimatorSystem * __this));

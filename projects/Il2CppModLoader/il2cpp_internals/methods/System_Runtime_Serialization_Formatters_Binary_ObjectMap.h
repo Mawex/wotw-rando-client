@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::ObjectMap {
 IL2CPP_REGISTER_METHOD(0x01D93850, void, __ctor, (ObjectMap * __this, String * objectName, Type * objectType, String__Array * memberNames, ObjectReader * objectReader, int32_t objectId, BinaryAssemblyInfo * assemblyInfo));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpStatusDescription {
 IL2CPP_REGISTER_METHOD(0x01E58EB0, String *, Get, (HttpStatusCode__Enum code));

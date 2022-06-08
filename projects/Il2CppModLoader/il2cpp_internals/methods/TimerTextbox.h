@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimerTextbox {
 IL2CPP_REGISTER_METHOD(0x010F8C60, void, OnDestroy, (TimerTextbox * __this));

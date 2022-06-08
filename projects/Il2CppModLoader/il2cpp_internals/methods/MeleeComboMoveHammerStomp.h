@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeComboMoveHammerStomp {
 IL2CPP_REGISTER_METHOD(0x00813FA0, HammerComboMoveBase_BalancingData *, get_BalancingBase, (MeleeComboMoveHammerStomp * __this));
 IL2CPP_REGISTER_METHOD(0x0139C560, bool, get_ShockwaveEnabled, (MeleeComboMoveHammerStomp * __this));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsUninterruptable, (MeleeComboMoveHammerStomp * __this));
-IL2CPP_REGISTER_METHOD(0x0139C640, int32_t, get_GroundMask, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0139C650, int32_t, get_DamageableMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0139C640, int32_t, get_GroundMask, ());
+IL2CPP_REGISTER_METHOD(0x0139C650, int32_t, get_DamageableMask, ());
 IL2CPP_REGISTER_METHOD(0x0139C660, void, Initialize, (MeleeComboMoveHammerStomp * __this, SeinComboHandler * handler, MeleeWeapon * weapon));
 IL2CPP_REGISTER_METHOD(0x0139CA20, float, get_EffectiveDamage, (MeleeComboMoveHammerStomp * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DealtDamage, (MeleeComboMoveHammerStomp * __this));

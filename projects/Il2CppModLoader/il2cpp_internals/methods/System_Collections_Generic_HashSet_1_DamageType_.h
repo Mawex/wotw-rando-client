@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_DamageType_ {
 IL2CPP_REGISTER_METHOD(0x02AB90A0, bool, Contains, (HashSet_1_DamageType_ * __this, DamageType__Enum item));

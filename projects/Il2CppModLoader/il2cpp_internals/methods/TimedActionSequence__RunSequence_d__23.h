@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimedActionSequence__RunSequence_d__23 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (TimedActionSequence_RunSequence_d_23 * __this, int32_t __1__state));

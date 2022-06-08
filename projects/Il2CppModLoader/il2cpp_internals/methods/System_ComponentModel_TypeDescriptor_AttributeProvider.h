@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_AttributeProvider {
 IL2CPP_REGISTER_METHOD(0x0239A1A0, void, __ctor, (TypeDescriptor_AttributeProvider * __this, TypeDescriptionProvider * existingProvider, Attribute__Array * attrs));

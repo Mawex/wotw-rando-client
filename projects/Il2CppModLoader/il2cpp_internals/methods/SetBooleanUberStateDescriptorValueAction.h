@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetBooleanUberStateDescriptorValueAction {
 IL2CPP_REGISTER_METHOD(0x005A1BA0, void, Perform, (SetBooleanUberStateDescriptorValueAction * __this, IContext * context));

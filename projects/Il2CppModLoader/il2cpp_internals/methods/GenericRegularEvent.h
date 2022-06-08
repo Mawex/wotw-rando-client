@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericRegularEvent {
 IL2CPP_REGISTER_METHOD(0x02E91620, void, __ctor, (GenericRegularEvent * __this, String * message, String * stacktrace, String * group, LogType__Enum logType));

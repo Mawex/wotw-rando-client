@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataRelation {
 IL2CPP_REGISTER_METHOD(0x023A1700, void, __ctor, (DataRelation * __this, String * relationName, DataColumn * parentColumn, DataColumn * childColumn));

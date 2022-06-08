@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OperationUtils {
 IL2CPP_REGISTER_METHOD(0x031137A0, float, Operate, (float a, float b, OperationMethod__Enum om, float delta));

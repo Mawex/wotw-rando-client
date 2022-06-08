@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CinematicEntityAnimator {
 IL2CPP_REGISTER_METHOD(0x010C76D0, bool, get_IsTargetPlaceholder, (CinematicEntityAnimator * __this));

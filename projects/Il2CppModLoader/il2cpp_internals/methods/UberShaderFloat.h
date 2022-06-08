@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderFloat {
 IL2CPP_REGISTER_METHOD(0x019124D0, void, BindProperties, (UberShaderFloat * __this));

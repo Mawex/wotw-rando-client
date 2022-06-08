@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OriFlyToPositionAction {
 IL2CPP_REGISTER_METHOD(0x0043BBA0, void, Perform, (OriFlyToPositionAction * __this, IContext * context));

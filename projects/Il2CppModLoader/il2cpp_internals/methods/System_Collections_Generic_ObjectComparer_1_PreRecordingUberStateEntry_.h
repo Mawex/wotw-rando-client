@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_PreRecordingUberStateEntry_ {
 IL2CPP_REGISTER_METHOD(0x01CC8550, int32_t, Compare, (ObjectComparer_1_PreRecordingUberStateEntry_ * __this, PreRecordingUberStateEntry x, PreRecordingUberStateEntry y));

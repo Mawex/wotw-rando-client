@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityAction_1_UnityEngine::Networking::PlayerConnection::MessageEventArgs_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UnityAction_1_UnityEngine_Networking_PlayerConnection_MessageEventArgs_ * __this, Object * object, void * method_1));

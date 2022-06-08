@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DoorUberStateMatcher {
 IL2CPP_REGISTER_METHOD(0x01B5A360, void, __ctor, (DoorUberStateMatcher * __this));

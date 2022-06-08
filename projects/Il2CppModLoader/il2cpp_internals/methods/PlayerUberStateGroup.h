@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerUberStateGroup {
 IL2CPP_REGISTER_METHOD(0x0142FA90, void, Awake, (PlayerUberStateGroup * __this));

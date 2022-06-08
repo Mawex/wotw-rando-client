@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MistAction {
 IL2CPP_REGISTER_METHOD(0x013270E0, void, Perform, (MistAction * __this, IContext * context));

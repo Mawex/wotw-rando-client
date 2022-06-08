@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_Object_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x002FA280, Object *, get_Item1, (Tuple_2_Object_Boolean_ * __this));

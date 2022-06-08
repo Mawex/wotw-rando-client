@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::File {
 IL2CPP_REGISTER_METHOD(0x01E05270, void, Copy, (String * sourceFileName, String * destFileName));
@@ -33,7 +33,7 @@ IL2CPP_REGISTER_METHOD(0x01E07D50, void, WriteAllLines, (String * path, String__
 IL2CPP_REGISTER_METHOD(0x01E07F70, void, WriteAllLines, (StreamWriter * writer, String__Array * contents));
 IL2CPP_REGISTER_METHOD(0x01E07FF0, void, WriteAllText, (String * path, String * contents));
 IL2CPP_REGISTER_METHOD(0x01E080B0, void, WriteAllText, (String * path, String * contents, Encoding * encoding));
-IL2CPP_REGISTER_METHOD(0x01E082E0, DateTime, get_DefaultLocalFileTime, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E082E0, DateTime, get_DefaultLocalFileTime, ());
 IL2CPP_REGISTER_METHOD(0x01E08470, int32_t, FillAttributeInfo, (String * path, MonoIOStat * data, bool tryagain, bool returnErrorOnNotFound));
 IL2CPP_REGISTER_METHODINFO(0x04727D40, File_FillAttributeInfo__MethodInfo);
 }

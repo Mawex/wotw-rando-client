@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShaderAnimationTimeDriver {
-IL2CPP_REGISTER_METHOD(0x005A60E0, ShaderAnimationTimeDriver *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005A60E0, ShaderAnimationTimeDriver *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00447340, float, get_GameTime, (ShaderAnimationTimeDriver * __this));
 IL2CPP_REGISTER_METHOD(0x005A6160, void, Awake, (ShaderAnimationTimeDriver * __this));
 IL2CPP_REGISTER_METHOD(0x005A6210, void, OnDestroy, (ShaderAnimationTimeDriver * __this));

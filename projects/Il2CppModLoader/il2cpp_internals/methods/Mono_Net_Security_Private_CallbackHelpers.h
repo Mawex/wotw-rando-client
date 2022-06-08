@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::Private::CallbackHelpers {
 IL2CPP_REGISTER_METHOD(0x02185570, MonoRemoteCertificateValidationCallback *, PublicToMono, (RemoteCertificateValidationCallback * callback));

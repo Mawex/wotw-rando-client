@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::GuidArrayTypeInfo {
 IL2CPP_REGISTER_METHOD(0x019FDEC0, void, WriteMetadata, (GuidArrayTypeInfo * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::TVVignette {
 IL2CPP_REGISTER_METHOD(0x030541D0, void, OnRenderImage, (TVVignette * __this, RenderTexture * source, RenderTexture * destination));

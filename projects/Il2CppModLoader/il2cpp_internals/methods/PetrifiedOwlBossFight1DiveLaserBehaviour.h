@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1DiveLaserBehaviour {
 IL2CPP_REGISTER_METHOD(0x00660430, StateMachine_2 *, get_StateMachine, (PetrifiedOwlBossFight1DiveLaserBehaviour * __this));

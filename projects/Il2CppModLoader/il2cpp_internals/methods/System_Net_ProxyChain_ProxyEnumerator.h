@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::ProxyChain_ProxyEnumerator {
 IL2CPP_REGISTER_METHOD(0x01BCDD10, void, __ctor, (ProxyChain_ProxyEnumerator * __this, ProxyChain * chain));

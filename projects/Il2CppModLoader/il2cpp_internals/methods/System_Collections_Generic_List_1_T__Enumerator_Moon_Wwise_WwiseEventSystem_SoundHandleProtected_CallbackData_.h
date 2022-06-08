@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::Wwise::WwiseEventSystem_SoundHandleProtected_CallbackData_ {
 IL2CPP_REGISTER_METHOD(0x00133F90, WwiseEventSystem_SoundHandleProtected_CallbackData, get_Current, (List_1_T_Enumerator_Moon_Wwise_WwiseEventSystem_SoundHandleProtected_CallbackData___Boxed * __this));

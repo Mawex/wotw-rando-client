@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::OneDSEventPipelineSettings {
 IL2CPP_REGISTER_METHOD(0x002FD1D0, int32_t, get_EventBufferSize, (OneDSEventPipelineSettings * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHODINFO(0x04729C30, OneDSEventPipelineSettings_set_BatchFillT
 IL2CPP_REGISTER_METHOD(0x002FB970, int32_t, get_MaxHttpAttempts, (OneDSEventPipelineSettings * __this));
 IL2CPP_REGISTER_METHOD(0x002FB980, void, set_MaxHttpAttempts, (OneDSEventPipelineSettings * __this, int32_t value));
 IL2CPP_REGISTER_METHOD(0x017B3C40, void, __ctor, (OneDSEventPipelineSettings * __this));
-IL2CPP_REGISTER_METHOD(0x017B3D10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x017B3D10, void, __cctor, ());
 }

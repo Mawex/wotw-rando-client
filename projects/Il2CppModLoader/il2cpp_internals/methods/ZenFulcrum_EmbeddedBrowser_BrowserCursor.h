@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::BrowserCursor {
 IL2CPP_REGISTER_METHOD(0x01C718C0, void, add_cursorChange, (BrowserCursor * __this, Action * value));
 IL2CPP_REGISTER_METHOD(0x01C719B0, void, remove_cursorChange, (BrowserCursor * __this, Action * value));
-IL2CPP_REGISTER_METHOD(0x01C71AA0, void, Load, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C71AA0, void, Load, ());
 IL2CPP_REGISTER_METHODINFO(0x04774F58, BrowserCursor_Load__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FB930, Texture2D *, get_Texture, (BrowserCursor * __this));
 IL2CPP_REGISTER_METHOD(0x002FB940, void, set_Texture, (BrowserCursor * __this, Texture2D * value));
@@ -15,5 +15,5 @@ IL2CPP_REGISTER_METHOD(0x01C72150, void, __ctor, (BrowserCursor * __this));
 IL2CPP_REGISTER_METHOD(0x01C72460, void, SetActiveCursor, (BrowserCursor * __this, BrowserNative_CursorType__Enum type));
 IL2CPP_REGISTER_METHODINFO(0x0475F8E8, BrowserCursor_SetActiveCursor__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01C726E0, void, SetCustomCursor, (BrowserCursor * __this, Texture2D * cursor, Vector2 hotspot));
-IL2CPP_REGISTER_METHOD(0x01C72AB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C72AB0, void, __cctor, ());
 }

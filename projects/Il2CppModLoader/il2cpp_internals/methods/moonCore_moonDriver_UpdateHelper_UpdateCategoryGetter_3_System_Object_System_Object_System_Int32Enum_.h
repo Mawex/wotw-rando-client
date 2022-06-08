@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::moonCore::moonDriver::UpdateHelper_UpdateCategoryGetter_3_System::Object_System::Object_System::Int32Enum_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UpdateHelper_UpdateCategoryGetter_3_System_Object_System_Object_System_Int32Enum_ * __this, Object * object, void * method_1));

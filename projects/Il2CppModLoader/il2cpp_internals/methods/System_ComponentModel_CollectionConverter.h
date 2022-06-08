@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::CollectionConverter {
 IL2CPP_REGISTER_METHOD(0x024A8560, Object *, ConvertTo, (CollectionConverter * __this, ITypeDescriptorContext * context, CultureInfo * culture, Object * value, Type * destinationType));

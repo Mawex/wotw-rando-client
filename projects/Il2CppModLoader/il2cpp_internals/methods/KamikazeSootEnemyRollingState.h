@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KamikazeSootEnemyRollingState {
 IL2CPP_REGISTER_METHOD(0x004C1E90, void, __ctor, (KamikazeSootEnemyRollingState * __this, KamikazeSootEnemy * enemy));

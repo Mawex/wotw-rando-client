@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::Group {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (Group_1 * __this, AstNode * groupNode));

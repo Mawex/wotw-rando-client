@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_OldFilm_Cutting2 {
 IL2CPP_REGISTER_METHOD(0x02487F60, Material *, get_material, (CameraFilterPack_OldFilm_Cutting2 * __this));

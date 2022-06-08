@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GroundMovingEntity {
 IL2CPP_REGISTER_METHOD(0x00864A60, GroundEntityLocomotion *, get_GroundLocomotion, (GroundMovingEntity * __this));

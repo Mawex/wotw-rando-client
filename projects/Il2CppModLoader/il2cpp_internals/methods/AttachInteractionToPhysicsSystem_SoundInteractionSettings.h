@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AttachInteractionToPhysicsSystem_SoundInteractionSettings {
 IL2CPP_REGISTER_METHOD(0x0043C0F0, float, CalculateRtpcValue, (AttachInteractionToPhysicsSystem_SoundInteractionSettings * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_UnityEngine::UnitySynchronizationContext_WorkRequest_ {
 IL2CPP_REGISTER_METHOD(0x00133A80, UnitySynchronizationContext_WorkRequest, get_Current, (List_1_T_Enumerator_UnityEngine_UnitySynchronizationContext_WorkRequest___Boxed * __this));

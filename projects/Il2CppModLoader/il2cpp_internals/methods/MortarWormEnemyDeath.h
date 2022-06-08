@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarWormEnemyDeath {
 IL2CPP_REGISTER_METHOD(0x00863360, IEnumerator *, Start, (MortarWormEnemyDeath * __this));

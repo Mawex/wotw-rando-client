@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::InstructionList {
 IL2CPP_REGISTER_METHOD(0x01CD7DE0, void, Emit, (InstructionList * __this, Instruction * instruction));
@@ -113,7 +113,7 @@ IL2CPP_REGISTER_METHOD(0x01CE0390, void, EmitEnterExceptionHandlerVoid, (Instruc
 IL2CPP_REGISTER_METHOD(0x01CE0440, void, EmitLeaveExceptionHandler, (InstructionList * __this, bool hasValue, BranchLabel * tryExpressionEndLabel));
 IL2CPP_REGISTER_METHOD(0x01CE0530, void, EmitStringSwitch, (InstructionList * __this, Dictionary_2_System_String_System_Int32_ * cases, StrongBox_1_System_Int32_ * nullCase));
 IL2CPP_REGISTER_METHOD(0x01CE0690, void, __ctor, (InstructionList * __this));
-IL2CPP_REGISTER_METHOD(0x01CE07E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CE07E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01AEFF70, void, EmitIntSwitch, (InstructionList * __this, Dictionary_2_System_Object_System_Int32_ * cases));
 IL2CPP_REGISTER_METHOD(0x01AEFF70, void, EmitIntSwitch, (InstructionList * __this, Dictionary_2_System_Int32_System_Int32_ * cases));
 }

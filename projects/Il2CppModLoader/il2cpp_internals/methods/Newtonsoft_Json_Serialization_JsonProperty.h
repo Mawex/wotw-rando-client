@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonProperty {
 IL2CPP_REGISTER_METHOD(0x002FB9F0, JsonContract *, get_PropertyContract, (JsonProperty * __this));

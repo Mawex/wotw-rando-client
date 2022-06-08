@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Design::DesigntimeLicenseContext {
 IL2CPP_REGISTER_METHOD(0x00417920, LicenseUsageMode__Enum, get_UsageMode, (DesigntimeLicenseContext * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberTypeTracker_DerivedTypeTracker_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02263A00, Type__Array *, get_AllDerivedTypes, (UberTypeTracker_DerivedTypeTracker_1_System_Object_ * __this));

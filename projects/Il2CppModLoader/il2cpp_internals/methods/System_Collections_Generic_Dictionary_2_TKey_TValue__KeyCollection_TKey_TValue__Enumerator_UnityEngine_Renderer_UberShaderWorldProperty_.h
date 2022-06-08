@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_UnityEngine::Renderer_UberShaderWorldProperty_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, Renderer *, get_Current, (Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_UnityEngine_Renderer_UberShaderWorldProperty___Boxed * __this));

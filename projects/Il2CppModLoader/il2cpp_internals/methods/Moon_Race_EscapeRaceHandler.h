@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::EscapeRaceHandler {
 IL2CPP_REGISTER_METHOD(0x00C419B0, RaceStateMachineContext *, get_Context, (EscapeRaceHandler * __this));

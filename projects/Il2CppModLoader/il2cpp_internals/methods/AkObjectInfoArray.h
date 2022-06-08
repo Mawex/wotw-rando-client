@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkObjectInfoArray {
 IL2CPP_REGISTER_METHOD(0x01885120, void, __ctor, (AkObjectInfoArray * __this, int32_t count));

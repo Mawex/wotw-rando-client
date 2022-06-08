@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamVideo {
 IL2CPP_REGISTER_METHOD(0x027A6430, void, GetVideoURL, (AppId_t unVideoAppID));

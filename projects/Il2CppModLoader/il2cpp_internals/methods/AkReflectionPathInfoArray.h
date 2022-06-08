@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkReflectionPathInfoArray {
 IL2CPP_REGISTER_METHOD(0x01894BF0, void, __ctor, (AkReflectionPathInfoArray * __this, int32_t count));

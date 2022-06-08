@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::DataModels::Receipts {
 IL2CPP_REGISTER_METHOD(0x002FA280, int64_t, get_originalTime, (Receipts * __this));

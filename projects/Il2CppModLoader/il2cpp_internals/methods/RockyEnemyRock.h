@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RockyEnemyRock {
 IL2CPP_REGISTER_METHOD(0x01362520, void, Awake, (RockyEnemyRock * __this));

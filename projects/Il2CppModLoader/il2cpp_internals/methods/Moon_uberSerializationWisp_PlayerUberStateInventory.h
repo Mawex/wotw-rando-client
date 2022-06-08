@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateInventory {
 IL2CPP_REGISTER_METHOD(0x002FA280, List_1_Moon_uberSerializationWisp_PlayerUberStateInventory_InventoryItem_ *, get_Inventory, (PlayerUberStateInventory * __this));
@@ -45,5 +45,5 @@ IL2CPP_REGISTER_METHOD(0x00F3CD90, void, Load, (PlayerUberStateInventory * __thi
 IL2CPP_REGISTER_METHOD(0x00F3D910, void, OnGui, (PlayerUberStateInventory * __this, NavigableOnGUI * gui));
 IL2CPP_REGISTER_METHOD(0x00F3DDC0, int64_t, get_Size, (PlayerUberStateInventory * __this));
 IL2CPP_REGISTER_METHOD(0x00F3DEB0, int32_t, IndexOf, (PlayerUberStateInventory * __this, PlayerUberStateInventory_InventoryItem * item));
-IL2CPP_REGISTER_METHOD(0x00F3DFB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F3DFB0, void, __cctor, ());
 }

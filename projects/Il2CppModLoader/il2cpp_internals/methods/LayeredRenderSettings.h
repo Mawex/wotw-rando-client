@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LayeredRenderSettings {
-IL2CPP_REGISTER_METHOD(0x00F267A0, LayeredRenderSettings_LayeredRenderSettingsPlatformOverride__Enum, get_CurrentPlatformOverride, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F267A0, LayeredRenderSettings_LayeredRenderSettingsPlatformOverride__Enum, get_CurrentPlatformOverride, ());
 IL2CPP_REGISTER_METHOD(0x00F26840, LayeredRenderSettings_LayerParams__Array *, get_Layers, (LayeredRenderSettings * __this));
 IL2CPP_REGISTER_METHOD(0x00F26BB0, float, get_FarPlane, (LayeredRenderSettings * __this));
 IL2CPP_REGISTER_METHOD(0x00F26BE0, LayeredRenderSettings_LayerParams__Array *, GetLayersForOverride, (LayeredRenderSettings * __this, LayeredRenderSettings_LayeredRenderSettingsPlatformOverride__Enum overridePlatform));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, ISerializationCallbackReceiver_OnBefore
 IL2CPP_REGISTER_METHOD(0x00F27DC0, void, ISerializationCallbackReceiver_OnAfterDeserialize, (LayeredRenderSettings * __this));
 IL2CPP_REGISTER_METHOD(0x00F27EB0, void, RefreshOverride, (LayeredRenderSettings * __this));
 IL2CPP_REGISTER_METHOD(0x00F28100, LayeredRenderSettings_LayeredRenderSettingsOverride, EvaluateOverride, (LayeredRenderSettings * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

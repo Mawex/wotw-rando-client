@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageStructureToolStressTester {
 IL2CPP_REGISTER_METHOD(0x0167FEC0, void, OnValidate, (CageStructureToolStressTester * __this));

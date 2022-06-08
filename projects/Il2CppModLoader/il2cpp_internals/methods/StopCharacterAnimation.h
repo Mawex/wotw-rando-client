@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StopCharacterAnimation {
 IL2CPP_REGISTER_METHOD(0x0065C9B0, void, Perform, (StopCharacterAnimation * __this, IContext * context));

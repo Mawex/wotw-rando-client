@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::SymmetricTransform {
 IL2CPP_REGISTER_METHOD(0x025D7EF0, void, __ctor, (SymmetricTransform * __this, SymmetricAlgorithm * symmAlgo, bool encryption, Byte__Array * rgbIV));

@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::SchemaElementDecl {
 IL2CPP_REGISTER_METHOD(0x01AAE900, void, __ctor, (SchemaElementDecl * __this));
 IL2CPP_REGISTER_METHOD(0x01AAEB70, void, __ctor, (SchemaElementDecl * __this, XmlSchemaDatatype * dtype));
 IL2CPP_REGISTER_METHOD(0x01AAEE30, void, __ctor, (SchemaElementDecl * __this, XmlQualifiedName * name, String * prefix));
-IL2CPP_REGISTER_METHOD(0x01AAF0C0, SchemaElementDecl *, CreateAnyTypeElementDecl, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01AAF0C0, SchemaElementDecl *, CreateAnyTypeElementDecl, ());
 IL2CPP_REGISTER_METHOD(0x015CCAD0, bool, IDtdAttributeListInfo_get_HasNonCDataAttributes, (SchemaElementDecl * __this));
 IL2CPP_REGISTER_METHOD(0x01AAF240, IDtdAttributeInfo *, IDtdAttributeListInfo_LookupAttribute, (SchemaElementDecl * __this, String * prefix, String * localName));
 IL2CPP_REGISTER_METHOD(0x002FBBA0, IEnumerable_1_System_Xml_IDtdDefaultAttributeInfo_ *, IDtdAttributeListInfo_LookupDefaultAttributes, (SchemaElementDecl * __this));
@@ -38,5 +38,5 @@ IL2CPP_REGISTER_METHOD(0x002FBB80, Dictionary_2_System_Xml_XmlQualifiedName_Syst
 IL2CPP_REGISTER_METHOD(0x002FBBE0, Dictionary_2_System_Xml_XmlQualifiedName_System_Xml_XmlQualifiedName_ *, get_ProhibitedAttributes, (SchemaElementDecl * __this));
 IL2CPP_REGISTER_METHOD(0x01AAF860, void, CheckAttributes, (SchemaElementDecl * __this, Hashtable * presence, bool standalone));
 IL2CPP_REGISTER_METHODINFO(0x047859D8, SchemaElementDecl_CheckAttributes__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01AAFAF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01AAFAF0, void, __cctor, ());
 }

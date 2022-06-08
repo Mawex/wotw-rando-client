@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::Font_HashSet_1_UnityEngine::UI::Text__ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_UnityEngine_Font_HashSet_1_UnityEngine_UI_Text_ * __this, Font * key, HashSet_1_UnityEngine_UI_Text_ * * value));

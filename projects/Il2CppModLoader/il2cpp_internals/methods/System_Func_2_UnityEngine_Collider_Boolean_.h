@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_UnityEngine::Collider_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x0167EC80, bool, Invoke, (Func_2_UnityEngine_Collider_Boolean_ * __this, Collider * arg));

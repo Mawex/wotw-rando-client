@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Authorization {
 IL2CPP_REGISTER_METHOD(0x02010AA0, void, __ctor, (Authorization * __this, String * token));

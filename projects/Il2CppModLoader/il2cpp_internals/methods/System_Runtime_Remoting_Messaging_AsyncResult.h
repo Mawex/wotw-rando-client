@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::AsyncResult {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AsyncResult * __this));
@@ -25,7 +25,7 @@ IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_CallMessage, (AsyncResult * __this,
 IL2CPP_REGISTER_METHOD(0x0230A370, void, IThreadPoolWorkItem_ExecuteWorkItem, (AsyncResult * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IThreadPoolWorkItem_MarkAborted, (AsyncResult * __this, ThreadAbortException * tae));
 IL2CPP_REGISTER_METHOD(0x0230A370, Object *, Invoke, (AsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x0230A380, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0230A380, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0230A4E0, void, __ctor_b__17_0, (AsyncResult * __this, Object * _p0_));
 IL2CPP_REGISTER_METHODINFO(0x04772590, AsyncResult___ctor_b__17_0__MethodInfo);
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActionSequenceSerializer {
 IL2CPP_REGISTER_METHOD(0x004C6BE0, void, OnValidate, (ActionSequenceSerializer * __this));

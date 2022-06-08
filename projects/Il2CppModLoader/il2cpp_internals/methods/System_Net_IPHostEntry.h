@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::IPHostEntry {
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_HostName, (IPHostEntry * __this));

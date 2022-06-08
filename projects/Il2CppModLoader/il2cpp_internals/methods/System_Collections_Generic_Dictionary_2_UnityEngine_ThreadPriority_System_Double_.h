@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::ThreadPriority_System::Double_ {
 IL2CPP_REGISTER_METHOD(0x02BBBD40, void, set_Item, (Dictionary_2_UnityEngine_ThreadPriority_System_Double_ * __this, ThreadPriority__Enum_1 key, double value));

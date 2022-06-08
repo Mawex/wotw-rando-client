@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_RainOfFeathersStartState {
 IL2CPP_REGISTER_METHOD(0x01771600, void, __ctor, (PetrifiedOwlBossFinalComboBehaviour_RainOfFeathersStartState * __this, PetrifiedOwlBossFinalComboBehaviour * behaviour));

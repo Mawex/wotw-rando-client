@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Extensions::MathExtensions {
 IL2CPP_REGISTER_METHOD(0x031B5BA0, float, GetMax, (Single__Array * values));

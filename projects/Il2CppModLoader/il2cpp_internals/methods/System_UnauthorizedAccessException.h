@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UnauthorizedAccessException {
 IL2CPP_REGISTER_METHOD(0x027C5B20, void, __ctor, (UnauthorizedAccessException * __this));

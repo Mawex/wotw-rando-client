@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::Handshake::Server::TlsClientCertificateVerify {
 IL2CPP_REGISTER_METHOD(0x01F72310, void, __ctor, (TlsClientCertificateVerify * __this, Context_1 * context, Byte__Array * buffer));

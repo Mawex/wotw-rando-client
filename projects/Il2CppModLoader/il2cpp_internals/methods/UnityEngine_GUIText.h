@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUIText {
 IL2CPP_REGISTER_METHOD(0x0319B000, String *, get_text, (GUIText * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::Capture {
 IL2CPP_REGISTER_METHOD(0x01DF8C80, void, __ctor, (Capture * __this, String * text, int32_t i, int32_t l));

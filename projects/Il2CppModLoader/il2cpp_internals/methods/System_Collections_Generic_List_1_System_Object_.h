@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02027AB0, int32_t, get_Capacity, (List_1_System_Object_ * __this));
@@ -77,5 +77,5 @@ IL2CPP_REGISTER_METHODINFO(0x04712050, List_1_System_Object__Sort_3__MethodInfo)
 IL2CPP_REGISTER_METHOD(0x025EAEF0, Object__Array *, ToArray, (List_1_System_Object_ * __this));
 IL2CPP_REGISTER_METHODINFO(0x0473F9B8, List_1_System_Object__ToArray__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

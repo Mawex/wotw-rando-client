@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoAirMoveBehaviour {
 IL2CPP_REGISTER_METHOD(0x0074C3A0, Vector3, get_TargetPosition, (SkeetoAirMoveBehaviour * __this));

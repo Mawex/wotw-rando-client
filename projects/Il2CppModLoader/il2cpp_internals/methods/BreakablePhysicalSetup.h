@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BreakablePhysicalSetup {
 IL2CPP_REGISTER_METHOD(0x00D4C460, bool, get_IsBridgeBroken, (BreakablePhysicalSetup * __this));

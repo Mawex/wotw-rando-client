@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraPuppetController {
-IL2CPP_REGISTER_METHOD(0x016A1240, float, get_DebugOverrideFOV, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016A1240, float, get_DebugOverrideFOV, ());
 IL2CPP_REGISTER_METHOD(0x016A12E0, void, set_DebugOverrideFOV, (float value));
 IL2CPP_REGISTER_METHOD(0x016A1390, void, Awake, (CameraPuppetController * __this));
 IL2CPP_REGISTER_METHOD(0x016A1590, void, OnDestroy, (CameraPuppetController * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x002FB9E0, void, SetCinematicPuppet, (CameraPuppetContro
 IL2CPP_REGISTER_METHOD(0x016A1760, void, UpdatePuppet, (CameraPuppetController * __this));
 IL2CPP_REGISTER_METHOD(0x016A2230, float, GetCurrentSceneFov, (CameraPuppetController * __this));
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (CameraPuppetController * __this));
-IL2CPP_REGISTER_METHOD(0x016A2400, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016A2400, void, __cctor, ());
 }

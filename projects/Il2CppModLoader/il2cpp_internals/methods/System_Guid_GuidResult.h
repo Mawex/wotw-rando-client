@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Guid_GuidResult {
 IL2CPP_REGISTER_METHOD(0x001D4820, void, Init, (Guid_GuidResult__Boxed * __this, Guid_GuidParseThrowStyle__Enum canThrow));

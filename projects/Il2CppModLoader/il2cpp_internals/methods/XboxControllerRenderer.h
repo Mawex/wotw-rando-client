@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxControllerRenderer {
 IL2CPP_REGISTER_METHOD(0x00593980, void, Start, (XboxControllerRenderer * __this));

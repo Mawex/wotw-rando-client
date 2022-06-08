@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AmplifyColor::VolumeEffectFlags {
 IL2CPP_REGISTER_METHOD(0x030D3480, void, __ctor, (VolumeEffectFlags * __this));

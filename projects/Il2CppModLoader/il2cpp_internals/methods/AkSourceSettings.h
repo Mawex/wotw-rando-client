@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkSourceSettings {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkSourceSettings * __this, void * cPtr, bool cMemoryOwn));
@@ -13,7 +13,7 @@ IL2CPP_REGISTER_METHOD(0x026FA370, void *, get_pMediaMemory, (AkSourceSettings *
 IL2CPP_REGISTER_METHOD(0x026FA490, void, set_uMediaSize, (AkSourceSettings * __this, uint32_t value));
 IL2CPP_REGISTER_METHOD(0x026FA5C0, uint32_t, get_uMediaSize, (AkSourceSettings * __this));
 IL2CPP_REGISTER_METHOD(0x026FA6E0, void, Clear, (AkSourceSettings * __this));
-IL2CPP_REGISTER_METHOD(0x026FA780, int32_t, GetSizeOf, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x026FA780, int32_t, GetSizeOf, ());
 IL2CPP_REGISTER_METHOD(0x026FA810, void, Clone, (AkSourceSettings * __this, AkSourceSettings * other));
 IL2CPP_REGISTER_METHOD(0x026FA930, void, __ctor, (AkSourceSettings * __this));
 }

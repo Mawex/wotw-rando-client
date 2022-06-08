@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLanternPlaceholder {
 IL2CPP_REGISTER_METHOD(0x00D5B890, void, Start, (SpiritLanternPlaceholder * __this));

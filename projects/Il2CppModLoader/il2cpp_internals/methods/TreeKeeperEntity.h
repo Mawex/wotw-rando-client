@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TreeKeeperEntity {
 IL2CPP_REGISTER_METHOD(0x00B104C0, String *, get_DialogActorName, (TreeKeeperEntity * __this));

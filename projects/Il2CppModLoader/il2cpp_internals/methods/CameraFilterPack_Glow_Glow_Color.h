@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Glow_Glow_Color {
 IL2CPP_REGISTER_METHOD(0x024791C0, Material *, get_material, (CameraFilterPack_Glow_Glow_Color * __this));

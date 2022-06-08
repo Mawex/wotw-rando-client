@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterReflectionRenderer {
 IL2CPP_REGISTER_METHOD(0x008DFF60, void, Start, (WaterReflectionRenderer * __this));

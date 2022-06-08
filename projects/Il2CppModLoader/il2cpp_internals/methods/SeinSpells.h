@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSpells {
 IL2CPP_REGISTER_METHOD(0x004173F0, SeinGlowSpell *, get_Glow, (SeinSpells * __this));

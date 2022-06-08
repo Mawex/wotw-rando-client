@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CryptoStream_HopToThreadPoolAwaitable {
 IL2CPP_REGISTER_METHOD(0x0010E100, CryptoStream_HopToThreadPoolAwaitable, GetAwaiter, (CryptoStream_HopToThreadPoolAwaitable__Boxed * __this));

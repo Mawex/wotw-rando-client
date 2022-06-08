@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::Enable3DLighting {
 IL2CPP_REGISTER_METHOD(0x00E3C140, ProfilingSettings_SettingType__Enum, get_SettingType, (Enable3DLighting * __this));

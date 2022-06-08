@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrossSceneReferenceImportData {
 IL2CPP_REGISTER_METHOD(0x031BA840, CrossSceneReferenceId, get_CrossSceneReferenceId, (CrossSceneReferenceImportData * __this));

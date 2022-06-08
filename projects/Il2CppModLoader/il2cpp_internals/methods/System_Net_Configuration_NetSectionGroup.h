@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::NetSectionGroup {
 IL2CPP_REGISTER_METHOD(0x02019D70, void, __ctor, (NetSectionGroup * __this));

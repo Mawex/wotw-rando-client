@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Store {
 IL2CPP_REGISTER_METHOD(0x0257DBC0, void, __ctor, (X509Store * __this, StoreName__Enum storeName, StoreLocation__Enum storeLocation));

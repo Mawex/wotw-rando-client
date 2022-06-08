@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::DelegateHelpers {
 IL2CPP_REGISTER_METHOD(0x022DC0A0, Type *, MakeDelegate, (Type__Array * types));

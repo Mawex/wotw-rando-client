@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Kino::Motion {
 IL2CPP_REGISTER_METHOD(0x00446960, float, get_shutterAngle, (Motion_1 * __this));

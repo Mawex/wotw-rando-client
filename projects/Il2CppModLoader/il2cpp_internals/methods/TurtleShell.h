@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurtleShell {
 IL2CPP_REGISTER_METHOD(0x00720150, IEquipableOwner *, get_Owner, (TurtleShell * __this));

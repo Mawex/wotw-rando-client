@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundZoneProcessor {
 IL2CPP_REGISTER_METHOD(0x00EEE370, void, ProcessZoneTasks, (SoundZoneProcessor * __this, ZoneProcessor_2_TListenerTaskData_TEmitterTaskData_ListenerZoneTask_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData___Array * listenerZoneTasks, ZoneProcessor_2_TListenerTaskData_TEmitterTaskData_EmitterZoneTask_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData___Array * emitterZoneTasks, PositionSyncTask__Array * positionTasks, int32_t validPositionTasksSize));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x00EEF4D0, void, TearDownEmitterZoneTask, (SoundZoneProc
 IL2CPP_REGISTER_METHOD(0x00EEF6D0, void, TearDownListenerZoneTask, (SoundZoneProcessor * __this, ListenerSoundZoneTaskData data, AudioListenerZoneReference zone, PositionSyncTask__Array * positionTasks, int32_t validPositionTasksSize));
 IL2CPP_REGISTER_METHOD(0x00EEF900, void, ResetListenerTracking, (SoundZoneProcessor * __this, SoundListener * listenerToReset, ZoneProcessor_2_TListenerTaskData_TEmitterTaskData_ListenerZoneTask_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData___Array * listenerZoneTasks, PositionSyncTask__Array * positionTasks));
 IL2CPP_REGISTER_METHOD(0x00EEFB40, void, __ctor, (SoundZoneProcessor * __this));
-IL2CPP_REGISTER_METHOD(0x00EEFBC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00EEFBC0, void, __cctor, ());
 }

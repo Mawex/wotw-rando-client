@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceLeaderboardsTitlescreenController {
 IL2CPP_REGISTER_METHOD(0x00EA5A70, LeaderBoardService *, get_m_leaderBoardService, (RaceLeaderboardsTitlescreenController * __this));

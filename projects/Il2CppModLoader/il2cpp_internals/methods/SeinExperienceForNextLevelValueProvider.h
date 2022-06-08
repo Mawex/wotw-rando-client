@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinExperienceForNextLevelValueProvider {
 IL2CPP_REGISTER_METHOD(0x00AD4940, float, GetFloatValue, (SeinExperienceForNextLevelValueProvider * __this));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamInput {
-IL2CPP_REGISTER_METHOD(0x02781EA0, bool, Init, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02781F50, bool, Shutdown, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02782000, void, RunFrame, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02781EA0, bool, Init, ());
+IL2CPP_REGISTER_METHOD(0x02781F50, bool, Shutdown, ());
+IL2CPP_REGISTER_METHOD(0x02782000, void, RunFrame, ());
 IL2CPP_REGISTER_METHOD(0x027820B0, int32_t, GetConnectedControllers, (InputHandle_t__Array * handlesOut));
 IL2CPP_REGISTER_METHODINFO(0x04717EE8, SteamInput_GetConnectedControllers__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02782210, InputActionSetHandle_t, GetActionSetHandle, (String * pszActionSetName));

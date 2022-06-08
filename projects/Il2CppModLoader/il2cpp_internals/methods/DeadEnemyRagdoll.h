@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DeadEnemyRagdoll {
 IL2CPP_REGISTER_METHOD(0x00DD7B80, void, OnReceiveContext, (DeadEnemyRagdoll * __this, IContext * context));

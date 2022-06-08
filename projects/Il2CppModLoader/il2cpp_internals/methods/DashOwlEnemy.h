@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DashOwlEnemy {
 IL2CPP_REGISTER_METHOD(0x00DCD570, bool, CanBeOptimized, (DashOwlEnemy * __this));

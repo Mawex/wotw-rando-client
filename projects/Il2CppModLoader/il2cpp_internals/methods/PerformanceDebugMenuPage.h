@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerformanceDebugMenuPage {
 IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_ColumnOffset, (PerformanceDebugMenuPage * __this));
@@ -50,7 +50,7 @@ IL2CPP_REGISTER_METHOD(0x00479D70, void, _initializeMiscTweaks, (PerformanceDebu
 IL2CPP_REGISTER_METHOD(0x0047B6A0, void, _initializePhysicsTweaks, (PerformanceDebugMenuPage * __this, List_1_IDebugMenuItem_ * items, String * pathPrefix));
 IL2CPP_REGISTER_METHOD(0x0047D140, void, _initializePhysicalSystemTweaksList, (PerformanceDebugMenuPage * __this, List_1_IDebugMenuItem_ * items, String * pathPrefix));
 IL2CPP_REGISTER_METHOD(0x0047E7D0, void, __ctor, (PerformanceDebugMenuPage * __this));
-IL2CPP_REGISTER_METHOD(0x0047E960, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0047E960, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0047EA10, bool, __initializeRenderingList_b__16_0, (PerformanceDebugMenuPage * __this));
 IL2CPP_REGISTER_METHODINFO(0x0477AF20, PerformanceDebugMenuPage___initializeRenderingList_b__16_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0047EA40, void, __initializeRenderingList_b__16_1, (PerformanceDebugMenuPage * __this, bool v));

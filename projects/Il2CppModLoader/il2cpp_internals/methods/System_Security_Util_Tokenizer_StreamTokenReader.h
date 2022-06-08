@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Util::Tokenizer_StreamTokenReader {
 IL2CPP_REGISTER_METHOD(0x00E464D0, void, __ctor, (Tokenizer_StreamTokenReader * __this, StreamReader * input));

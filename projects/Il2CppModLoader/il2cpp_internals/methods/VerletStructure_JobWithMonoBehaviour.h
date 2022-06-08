@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletStructure_JobWithMonoBehaviour {
 IL2CPP_REGISTER_METHOD(0x00126820, void, __ctor, (VerletStructure_JobWithMonoBehaviour__Boxed * __this, VerletStructure__Array * entities, Boolean__Array * shouldUpdates, float dt));

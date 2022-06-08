@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnterExitActionsExecutor {
 IL2CPP_REGISTER_METHOD(0x00C8B8A0, void, add_OnExitActionFinished, (EnterExitActionsExecutor * __this, Action * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::X509Certificate {
 IL2CPP_REGISTER_METHOD(0x025E6220, void, Parse, (X509Certificate * __this, Byte__Array * data));
@@ -21,7 +21,7 @@ IL2CPP_REGISTER_METHOD(0x002FB990, ASN1 *, GetIssuerName, (X509Certificate * __t
 IL2CPP_REGISTER_METHOD(0x002FBB40, ASN1 *, GetSubjectName, (X509Certificate * __this));
 IL2CPP_REGISTER_METHOD(0x025E7DD0, void, GetObjectData, (X509Certificate * __this, SerializationInfo * info, StreamingContext context));
 IL2CPP_REGISTER_METHOD(0x025E7E70, Byte__Array *, PEM, (String * type, Byte__Array * data));
-IL2CPP_REGISTER_METHOD(0x025E8070, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025E8070, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0293A480, void, Parse, (X509Certificate_2 * __this, Byte__Array * data));
 IL2CPP_REGISTER_METHODINFO(0x047434A0, X509Certificate_2_Parse__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0293AF60, void, __ctor, (X509Certificate_2 * __this, Byte__Array * data));
@@ -64,5 +64,5 @@ IL2CPP_REGISTER_METHOD(0x002FBB40, ASN1_1 *, GetSubjectName, (X509Certificate_2 
 IL2CPP_REGISTER_METHOD(0x0293D880, void, __ctor, (X509Certificate_2 * __this, SerializationInfo * info, StreamingContext context));
 IL2CPP_REGISTER_METHOD(0x0293D9A0, void, GetObjectData, (X509Certificate_2 * __this, SerializationInfo * info, StreamingContext context));
 IL2CPP_REGISTER_METHOD(0x0293DA40, Byte__Array *, PEM, (String * type, Byte__Array * data));
-IL2CPP_REGISTER_METHOD(0x0293DC40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0293DC40, void, __cctor, ());
 }

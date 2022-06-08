@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::EncodingNLS {
 IL2CPP_REGISTER_METHOD(0x02455F00, void, __ctor, (EncodingNLS * __this, int32_t codePage));

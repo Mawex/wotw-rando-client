@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WeaponPreviewAnimator {
 IL2CPP_REGISTER_METHOD(0x002FBC10, void, SetFrame, (WeaponPreviewAnimator * __this, Transform * attachedJoint));

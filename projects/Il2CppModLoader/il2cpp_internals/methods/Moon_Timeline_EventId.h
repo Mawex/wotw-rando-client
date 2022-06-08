@@ -1,6 +1,6 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EventId {
 IL2CPP_REGISTER_METHOD(0x01BBD010, String *, GetName, (int32_t evtKey));
-IL2CPP_REGISTER_METHOD(0x01BBD0F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01BBD0F0, void, __cctor, ());
 }

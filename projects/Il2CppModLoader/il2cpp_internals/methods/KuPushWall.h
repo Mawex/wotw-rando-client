@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuPushWall {
 IL2CPP_REGISTER_METHOD(0x01245850, void, OnSetReferenceToKu, (KuPushWall * __this));

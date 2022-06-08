@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::PlatformServiceProvider {
 IL2CPP_REGISTER_METHOD(0x00518D60, CacheData__Array *, get_AchievementData, (PlatformServiceProvider * __this));
@@ -38,17 +38,17 @@ IL2CPP_REGISTER_METHOD(0x0051BF80, bool, IsSteam, (PlatformServiceProvider * __t
 IL2CPP_REGISTER_METHOD(0x0051C040, bool, IsPirate, (PlatformServiceProvider * __this));
 IL2CPP_REGISTER_METHOD(0x0051C050, void, RegisterUserChanged, (PlatformServiceProvider * __this, Action * onUserChanged));
 IL2CPP_REGISTER_METHOD(0x0051C0F0, void, UnRegisterUserChanged, (PlatformServiceProvider * __this, Action * onUserChanged));
-IL2CPP_REGISTER_METHOD(0x0051C190, PlatformServiceProvider *, BuildForPlatform, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0051C190, PlatformServiceProvider *, BuildForPlatform, ());
 IL2CPP_REGISTER_METHODINFO(0x0476B668, PlatformServiceProvider_BuildForPlatform__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0051C6A0, IDataProvider *, get_PrimaryAchievementDataProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051C9F0, IDataProvider *, get_SecondaryWinAchievementDataProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051CC90, IDataProvider *, get_XboxOneAchievementDataProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051CF00, IDataProvider *, get_SwitchAchievementDataProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051D110, ISignInProvider *, get_PrimaryWinSignInProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051D370, ISignInProvider *, get_SecondaryWinSignInProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051D4F0, ISignInProvider *, get_XboxSignInProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051D640, ISignInProvider *, get_XalSignInProviders, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051D790, bool, IsGrdkCompatible, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051D920, bool, IsXalCompatible, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0051DA10, bool, IsSteamCompatible, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0051C6A0, IDataProvider *, get_PrimaryAchievementDataProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051C9F0, IDataProvider *, get_SecondaryWinAchievementDataProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051CC90, IDataProvider *, get_XboxOneAchievementDataProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051CF00, IDataProvider *, get_SwitchAchievementDataProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051D110, ISignInProvider *, get_PrimaryWinSignInProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051D370, ISignInProvider *, get_SecondaryWinSignInProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051D4F0, ISignInProvider *, get_XboxSignInProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051D640, ISignInProvider *, get_XalSignInProviders, ());
+IL2CPP_REGISTER_METHOD(0x0051D790, bool, IsGrdkCompatible, ());
+IL2CPP_REGISTER_METHOD(0x0051D920, bool, IsXalCompatible, ());
+IL2CPP_REGISTER_METHOD(0x0051DA10, bool, IsSteamCompatible, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_FilterCacheItem {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (TypeDescriptor_FilterCacheItem * __this, ITypeDescriptorFilterService * filterService, ICollection * filteredMembers));

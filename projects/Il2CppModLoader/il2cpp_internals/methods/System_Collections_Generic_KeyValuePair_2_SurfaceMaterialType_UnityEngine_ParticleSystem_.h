@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_SurfaceMaterialType_UnityEngine::ParticleSystem_ {
 IL2CPP_REGISTER_METHOD(0x00107C10, ParticleSystem *, get_Value, (KeyValuePair_2_SurfaceMaterialType_UnityEngine_ParticleSystem___Boxed * __this));

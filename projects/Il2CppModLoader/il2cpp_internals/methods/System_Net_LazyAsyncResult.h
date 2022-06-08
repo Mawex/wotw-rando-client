@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::LazyAsyncResult {
-IL2CPP_REGISTER_METHOD(0x01E6B520, LazyAsyncResult_ThreadContext *, get_CurrentThreadContext, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E6B520, LazyAsyncResult_ThreadContext *, get_CurrentThreadContext, ());
 IL2CPP_REGISTER_METHOD(0x01E6B6E0, void, __ctor, (LazyAsyncResult * __this, Object * myObject, Object * myState, AsyncCallback * myCallBack));
 IL2CPP_REGISTER_METHOD(0x01E6B7C0, void, __ctor, (LazyAsyncResult * __this, Object * myObject, Object * myState, AsyncCallback * myCallBack, Object * result));
 IL2CPP_REGISTER_METHOD(0x002FA280, Object *, get_AsyncObject, (LazyAsyncResult * __this));

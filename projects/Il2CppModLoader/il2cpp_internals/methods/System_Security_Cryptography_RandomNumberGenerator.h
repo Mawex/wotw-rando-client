@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RandomNumberGenerator {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RandomNumberGenerator * __this));
-IL2CPP_REGISTER_METHOD(0x028EE2B0, RandomNumberGenerator *, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028EE2B0, RandomNumberGenerator *, Create, ());
 IL2CPP_REGISTER_METHOD(0x028EE3F0, RandomNumberGenerator *, Create, (String * rngName));
 IL2CPP_REGISTER_METHOD(0x028EE4D0, void, Dispose, (RandomNumberGenerator * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (RandomNumberGenerator * __this, bool disposing));

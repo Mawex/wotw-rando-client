@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Browser___c {
-IL2CPP_REGISTER_METHOD(0x01C6FC80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C6FC80, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Browser_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__179_0, (Browser_c * __this, String * s, String * s1));
 IL2CPP_REGISTER_METHODINFO(0x0475D078, Browser_c___ctor_b__179_0__MethodInfo);

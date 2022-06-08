@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::NetworkCredential {
 IL2CPP_REGISTER_METHOD(0x01E75AC0, void, __ctor, (NetworkCredential * __this));

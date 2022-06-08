@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::GodRaysProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x007E3F10, ProfilingSettings_SettingType__Enum, get_SettingType, (GodRaysProfilingSetting * __this));

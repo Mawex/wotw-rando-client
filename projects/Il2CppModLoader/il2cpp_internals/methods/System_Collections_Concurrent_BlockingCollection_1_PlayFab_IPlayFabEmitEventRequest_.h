@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::BlockingCollection_1_PlayFab::IPlayFabEmitEventRequest_ {
 IL2CPP_REGISTER_METHOD(0x02AD9130, bool, TryTake, (BlockingCollection_1_PlayFab_IPlayFabEmitEventRequest_ * __this, IPlayFabEmitEventRequest * * item, int32_t millisecondsTimeout, CancellationToken cancellationToken));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::ActionDecorator {
 IL2CPP_REGISTER_METHOD(0x03002050, String *, get_Info, (ActionDecorator * __this));

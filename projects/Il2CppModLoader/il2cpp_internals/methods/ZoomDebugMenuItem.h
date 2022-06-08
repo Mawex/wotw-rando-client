@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZoomDebugMenuItem {
 IL2CPP_REGISTER_METHOD(0x00F59470, void, __ctor, (ZoomDebugMenuItem * __this, String * path, String * str));

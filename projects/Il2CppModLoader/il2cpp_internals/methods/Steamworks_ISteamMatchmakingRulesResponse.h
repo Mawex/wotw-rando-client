@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::ISteamMatchmakingRulesResponse {
 IL2CPP_REGISTER_METHOD(0x015FDA70, void, __ctor, (ISteamMatchmakingRulesResponse * __this, ISteamMatchmakingRulesResponse_RulesResponded * onRulesResponded, ISteamMatchmakingRulesResponse_RulesFailedToRespond * onRulesFailedToRespond, ISteamMatchmakingRulesResponse_RulesRefreshComplete * onRulesRefreshComplete));

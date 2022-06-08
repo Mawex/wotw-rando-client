@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_System::Linq::Expressions::Interpreter::LabelScopeInfo_ {
 IL2CPP_REGISTER_METHOD(0x02ABEAC0, bool, Contains, (HashSet_1_System_Linq_Expressions_Interpreter_LabelScopeInfo_ * __this, LabelScopeInfo * item));

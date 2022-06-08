@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WormHole {
 IL2CPP_REGISTER_METHOD(0x0058DF50, void, Start, (WormHole * __this));

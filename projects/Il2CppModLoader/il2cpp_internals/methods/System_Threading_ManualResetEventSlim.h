@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ManualResetEventSlim {
 IL2CPP_REGISTER_METHOD(0x027DE960, WaitHandle *, get_WaitHandle, (ManualResetEventSlim * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHODINFO(0x0478B030, ManualResetEventSlim_CancellationTokenCal
 IL2CPP_REGISTER_METHOD(0x027E0080, void, UpdateStateAtomically, (ManualResetEventSlim * __this, int32_t newBits, int32_t updateBitsMask));
 IL2CPP_REGISTER_METHOD(0x027E0180, int32_t, ExtractStatePortionAndShiftRight, (int32_t state, int32_t mask, int32_t rightBitShiftCount));
 IL2CPP_REGISTER_METHOD(0x027E0190, int32_t, ExtractStatePortion, (int32_t state, int32_t mask));
-IL2CPP_REGISTER_METHOD(0x027E01A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027E01A0, void, __cctor, ());
 }

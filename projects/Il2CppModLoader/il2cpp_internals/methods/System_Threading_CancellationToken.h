@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::CancellationToken {
-IL2CPP_REGISTER_METHOD(0x00420EE0, CancellationToken, get_None, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00420EE0, CancellationToken, get_None, ());
 IL2CPP_REGISTER_METHOD(0x00206AE0, bool, get_IsCancellationRequested, (CancellationToken__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00206B00, bool, get_CanBeCanceled, (CancellationToken__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (CancellationToken__Boxed * __this, CancellationTokenSource * source));
@@ -21,7 +21,7 @@ IL2CPP_REGISTER_METHOD(0x00206CE0, void, ThrowIfCancellationRequested, (Cancella
 IL2CPP_REGISTER_METHOD(0x00206D10, void, ThrowIfSourceDisposed, (CancellationToken__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00206D20, void, ThrowOperationCanceledException, (CancellationToken__Boxed * __this));
 IL2CPP_REGISTER_METHODINFO(0x04716A40, CancellationToken_ThrowOperationCanceledException__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x027D8EE0, void, ThrowObjectDisposedException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027D8EE0, void, ThrowObjectDisposedException, ());
 IL2CPP_REGISTER_METHODINFO(0x04739F68, CancellationToken_ThrowObjectDisposedException__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x027D8F50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027D8F50, void, __cctor, ());
 }

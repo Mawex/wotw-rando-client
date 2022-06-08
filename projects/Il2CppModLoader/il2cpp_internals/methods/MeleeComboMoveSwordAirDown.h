@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeComboMoveSwordAirDown {
 IL2CPP_REGISTER_METHOD(0x013A5BD0, float, get_EffectiveKnockbackAddY, (MeleeComboMoveSwordAirDown * __this));

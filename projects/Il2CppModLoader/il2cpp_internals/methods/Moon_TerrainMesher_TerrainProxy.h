@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TerrainMesher_TerrainProxy {
 IL2CPP_REGISTER_METHOD(0x0064EB90, Vector3, get_Bounds, (TerrainMesher_TerrainProxy * __this));

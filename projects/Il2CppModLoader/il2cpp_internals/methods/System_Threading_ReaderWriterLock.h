@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::ReaderWriterLock {
 IL2CPP_REGISTER_METHOD(0x02329970, void, __ctor, (ReaderWriterLock * __this));

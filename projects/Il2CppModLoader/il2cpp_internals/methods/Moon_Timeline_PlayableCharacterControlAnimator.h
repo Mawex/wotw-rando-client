@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PlayableCharacterControlAnimator {
 IL2CPP_REGISTER_METHOD(0x00779F10, Vector3, get_Position, (PlayableCharacterControlAnimator * __this));

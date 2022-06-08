@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Kuwahara {
 IL2CPP_REGISTER_METHOD(0x03047D10, void, OnRenderImage, (Kuwahara * __this, RenderTexture * source, RenderTexture * destination));

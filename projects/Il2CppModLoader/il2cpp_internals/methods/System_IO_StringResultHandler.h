@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::StringResultHandler {
 IL2CPP_REGISTER_METHOD(0x02384010, void, __ctor, (StringResultHandler * __this, bool includeFiles, bool includeDirs));

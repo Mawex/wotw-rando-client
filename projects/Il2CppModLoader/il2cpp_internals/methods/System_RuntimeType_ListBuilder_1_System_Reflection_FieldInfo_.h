@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::RuntimeType_ListBuilder_1_System::Reflection::FieldInfo_ {
 IL2CPP_REGISTER_METHOD(0x001FF7C0, void, __ctor, (RuntimeType_ListBuilder_1_System_Reflection_FieldInfo___Boxed * __this, int32_t capacity));

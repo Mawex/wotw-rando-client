@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Gradients_NeonGradient {
 IL2CPP_REGISTER_METHOD(0x0247C240, Material *, get_material, (CameraFilterPack_Gradients_NeonGradient * __this));

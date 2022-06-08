@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderDetector {
 IL2CPP_REGISTER_METHOD(0x01910A70, GUIStyle *, get_LabelStyle, (UberShaderDetector * __this));
-IL2CPP_REGISTER_METHOD(0x01910E60, UberShaderDetector *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01910EE0, bool, get_Enabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01910E60, UberShaderDetector *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x01910EE0, bool, get_Enabled, ());
 IL2CPP_REGISTER_METHOD(0x01910F90, void, set_Enabled, (bool value));
 IL2CPP_REGISTER_METHOD(0x019110C0, void, EnsureImgui, (UberShaderDetector * __this, bool registered));
 IL2CPP_REGISTER_METHOD(0x019111B0, void, Awake, (UberShaderDetector * __this));

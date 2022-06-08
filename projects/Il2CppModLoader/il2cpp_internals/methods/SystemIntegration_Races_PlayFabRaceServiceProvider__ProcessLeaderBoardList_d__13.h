@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabRaceServiceProvider__ProcessLeaderBoardList_d__13 {
 IL2CPP_REGISTER_METHOD(0x00111590, void, MoveNext, (PlayFabRaceServiceProvider_ProcessLeaderBoardList_d_13__Boxed * __this));

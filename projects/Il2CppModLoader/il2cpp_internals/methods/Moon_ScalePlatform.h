@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ScalePlatform {
 IL2CPP_REGISTER_METHOD(0x00EC6840, void, Awake, (ScalePlatform * __this));

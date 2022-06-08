@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShieldCollision {
 IL2CPP_REGISTER_METHOD(0x005B4E80, void, OnTriggerEnter, (ShieldCollision * __this, Collider * col));

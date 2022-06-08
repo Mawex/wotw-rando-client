@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_EXTRA_SHOWFPS__FPSX_d__19 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (CameraFilterPack_EXTRA_SHOWFPS_FPSX_d_19 * __this, int32_t __1__state));

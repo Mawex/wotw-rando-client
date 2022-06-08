@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDrillPuppet {
 IL2CPP_REGISTER_METHOD(0x00ACB190, int32_t, get_Id, (SeinDrillPuppet * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::MediaTypeHeaderValue {
 IL2CPP_REGISTER_METHOD(0x02D0ECF0, void, __ctor, (MediaTypeHeaderValue * __this, MediaTypeHeaderValue * source));

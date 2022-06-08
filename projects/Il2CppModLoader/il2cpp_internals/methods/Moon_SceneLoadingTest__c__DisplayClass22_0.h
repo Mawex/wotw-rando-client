@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SceneLoadingTest___c__DisplayClass22_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SceneLoadingTest_c_DisplayClass22_0 * __this));

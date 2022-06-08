@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShopkeeperUISubItem {
 IL2CPP_REGISTER_METHOD(0x005C3260, void, Update, (ShopkeeperUISubItem * __this));

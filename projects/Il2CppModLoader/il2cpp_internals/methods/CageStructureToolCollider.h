@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageStructureToolCollider {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, DoStrip, (CageStructureToolCollider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossEntity {
 IL2CPP_REGISTER_METHOD(0x012D70E0, Collider__Array *, get_AllColliders, (KwolokBossEntity * __this));

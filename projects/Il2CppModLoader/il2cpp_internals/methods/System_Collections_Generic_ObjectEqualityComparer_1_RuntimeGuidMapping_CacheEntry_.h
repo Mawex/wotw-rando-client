@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_RuntimeGuidMapping_CacheEntry_ {
 IL2CPP_REGISTER_METHOD(0x01CD1020, bool, Equals, (ObjectEqualityComparer_1_RuntimeGuidMapping_CacheEntry_ * __this, RuntimeGuidMapping_CacheEntry x, RuntimeGuidMapping_CacheEntry y));

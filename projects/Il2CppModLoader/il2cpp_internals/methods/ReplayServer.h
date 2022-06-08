@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ReplayServer {
 IL2CPP_REGISTER_METHOD(0x008FF6A0, void, Awake, (ReplayServer * __this));
@@ -22,5 +22,5 @@ IL2CPP_REGISTER_METHOD(0x00901430, void, RestartServer, (ReplayServer * __this))
 IL2CPP_REGISTER_METHOD(0x00901460, void, InsertServerLog, (String * logMessage));
 IL2CPP_REGISTER_METHOD(0x009015B0, void, OnGUI, (ReplayServer * __this));
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (ReplayServer * __this));
-IL2CPP_REGISTER_METHOD(0x00901770, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00901770, void, __cctor, ());
 }

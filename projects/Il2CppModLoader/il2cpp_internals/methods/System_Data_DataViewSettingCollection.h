@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataViewSettingCollection {
 IL2CPP_REGISTER_METHOD(0x01F4BE20, void, __ctor, (DataViewSettingCollection * __this, DataViewManager * dataViewManager));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_NMTOKEN {
 IL2CPP_REGISTER_METHOD(0x00A79BB0, XmlTypeCode__Enum, get_TypeCode, (Datatype_NMTOKEN * __this));

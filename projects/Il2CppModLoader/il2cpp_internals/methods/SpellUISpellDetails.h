@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellUISpellDetails {
 IL2CPP_REGISTER_METHOD(0x009512C0, void, Awake, (SpellUISpellDetails * __this));

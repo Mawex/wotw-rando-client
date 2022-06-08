@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::Context {
 IL2CPP_REGISTER_METHOD(0x0051DB40, bool, get_AbbreviatedHandshake, (Context_1 * __this));

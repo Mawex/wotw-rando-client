@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetDifficultyAction {
 IL2CPP_REGISTER_METHOD(0x005A2A20, void, Perform, (SetDifficultyAction * __this, IContext * context));

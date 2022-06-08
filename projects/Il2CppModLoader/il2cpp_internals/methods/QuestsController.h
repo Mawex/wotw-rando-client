@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::QuestsController {
-IL2CPP_REGISTER_METHOD(0x00E8D950, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00E8D950, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x002FBC20, RuntimeQuest *, get_ActiveRuntimeQuest, (QuestsController * __this));
 IL2CPP_REGISTER_METHOD(0x002FBC30, void, set_ActiveRuntimeQuest, (QuestsController * __this, RuntimeQuest * value));
 IL2CPP_REGISTER_METHOD(0x00E8D9E0, Quest *, get_ActiveQuest, (QuestsController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LookupBindingPropertiesAttribute {
 IL2CPP_REGISTER_METHOD(0x01FF5800, void, __ctor, (LookupBindingPropertiesAttribute * __this));
@@ -9,5 +9,5 @@ IL2CPP_REGISTER_METHOD(0x002FB950, String *, get_ValueMember, (LookupBindingProp
 IL2CPP_REGISTER_METHOD(0x002FBB00, String *, get_LookupMember, (LookupBindingPropertiesAttribute * __this));
 IL2CPP_REGISTER_METHOD(0x01FF5820, bool, Equals, (LookupBindingPropertiesAttribute * __this, Object * obj));
 IL2CPP_REGISTER_METHOD(0x01FDE840, int32_t, GetHashCode, (LookupBindingPropertiesAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x01FF59B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01FF59B0, void, __cctor, ());
 }

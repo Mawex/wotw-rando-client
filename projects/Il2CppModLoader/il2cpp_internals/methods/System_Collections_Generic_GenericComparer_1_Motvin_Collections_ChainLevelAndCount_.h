@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericComparer_1_Motvin::Collections::ChainLevelAndCount_ {
 IL2CPP_REGISTER_METHOD(0x02B60220, int32_t, Compare, (GenericComparer_1_Motvin_Collections_ChainLevelAndCount_ * __this, ChainLevelAndCount x, ChainLevelAndCount y));

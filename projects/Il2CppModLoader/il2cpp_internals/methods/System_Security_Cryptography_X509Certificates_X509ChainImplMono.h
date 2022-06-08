@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ChainImplMono {
 IL2CPP_REGISTER_METHOD(0x021CE9B0, void, __ctor, (X509ChainImplMono * __this, bool useMachineContext));
@@ -39,5 +39,5 @@ IL2CPP_REGISTER_METHOD(0x021D34C0, X509Crl *, CheckCrls, (String * subject, Stri
 IL2CPP_REGISTER_METHOD(0x021D3770, X509Crl *, FindCrl, (X509ChainImplMono * __this, X509Certificate2 * caCertificate));
 IL2CPP_REGISTER_METHOD(0x021D39C0, bool, ProcessCrlExtensions, (X509ChainImplMono * __this, X509Crl * crl));
 IL2CPP_REGISTER_METHOD(0x021D3C80, bool, ProcessCrlEntryExtensions, (X509ChainImplMono * __this, X509Crl_X509CrlEntry * entry));
-IL2CPP_REGISTER_METHOD(0x021D3F00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021D3F00, void, __cctor, ());
 }

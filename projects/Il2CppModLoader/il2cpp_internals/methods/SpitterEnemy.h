@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpitterEnemy {
 IL2CPP_REGISTER_METHOD(0x0099B6F0, Vector2, get_ThrownDirection, (SpitterEnemy * __this));

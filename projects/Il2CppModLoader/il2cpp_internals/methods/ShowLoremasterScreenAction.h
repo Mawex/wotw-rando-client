@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowLoremasterScreenAction {
 IL2CPP_REGISTER_METHOD(0x005C4D90, void, Perform, (ShowLoremasterScreenAction * __this, IContext * context));

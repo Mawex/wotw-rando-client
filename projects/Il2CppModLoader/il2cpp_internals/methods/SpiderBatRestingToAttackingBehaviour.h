@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatRestingToAttackingBehaviour {
 IL2CPP_REGISTER_METHOD(0x0095F0C0, void, OnEnter, (SpiderBatRestingToAttackingBehaviour * __this, IContext * context));

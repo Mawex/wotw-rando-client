@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::StringWriter {
 IL2CPP_REGISTER_METHOD(0x02384120, void, __ctor, (StringWriter * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x02384850, void, Write, (StringWriter * __this, Char__Ar
 IL2CPP_REGISTER_METHODINFO(0x047543F0, StringWriter_Write_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02384A60, void, Write, (StringWriter * __this, String * value));
 IL2CPP_REGISTER_METHOD(0x02384AA0, String *, ToString, (StringWriter * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

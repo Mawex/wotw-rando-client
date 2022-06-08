@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Playables::PlayableOutputExtensions {
 IL2CPP_REGISTER_METHOD(0x015E6720, void, SetSourcePlayable, (AnimationPlayableOutput output, AnimationLayerMixerPlayable value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTlsProvider {
 IL2CPP_REGISTER_METHOD(0x024912D0, String *, get_Name, (UnityTlsProvider * __this));

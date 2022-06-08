@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinStatusAnimatorDriver {
 IL2CPP_REGISTER_METHOD(0x00A7E010, void, Start, (SeinStatusAnimatorDriver * __this));

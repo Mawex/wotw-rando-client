@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MasterTimelineSequence_SceneEntry {
 IL2CPP_REGISTER_METHOD(0x00A13C70, float, get_StartTime, (MasterTimelineSequence_SceneEntry * __this));

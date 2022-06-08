@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSpiritCrescentSpell {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinSpiritCrescentSpell * __this));

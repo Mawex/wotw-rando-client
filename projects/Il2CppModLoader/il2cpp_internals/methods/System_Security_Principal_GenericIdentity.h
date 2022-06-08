@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Principal::GenericIdentity {
 IL2CPP_REGISTER_METHOD(0x01E1C1C0, void, __ctor, (GenericIdentity * __this, String * name, String * type));

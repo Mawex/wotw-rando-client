@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SelectedSaveValidCondition {
 IL2CPP_REGISTER_METHOD(0x00AB5750, bool, Validate, (SelectedSaveValidCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CAPI {
 IL2CPP_REGISTER_METHOD(0x021BF060, String *, CryptFindOIDInfoNameFromKey, (String * key, OidGroup__Enum oidGroup));

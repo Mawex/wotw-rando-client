@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AchievementsLogic_Func_3_System::Int32_System::Int32_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x019D6DD0, bool, Invoke, (AchievementsLogic_Func_3_System_Int32_System_Int32_System_Boolean_ * __this, int32_t * obj1, int32_t * obj2));

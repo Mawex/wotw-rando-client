@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::TaskRunner {
 IL2CPP_REGISTER_METHOD(0x03011AC0, BehaviourStatus__Enum, ExecuteTask, (ITask * task, IContext * context));

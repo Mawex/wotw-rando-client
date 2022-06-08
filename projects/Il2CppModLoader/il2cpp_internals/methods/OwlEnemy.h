@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OwlEnemy {
 IL2CPP_REGISTER_METHOD(0x004435B0, void, StopSpeed, (OwlEnemy * __this));

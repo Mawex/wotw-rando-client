@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::ObjectPassProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00E3E530, ProfilingSettings_SettingType__Enum, get_SettingType, (ObjectPassProfilingSetting * __this));

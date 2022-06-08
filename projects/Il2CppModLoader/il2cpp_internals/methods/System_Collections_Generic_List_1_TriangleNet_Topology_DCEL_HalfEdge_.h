@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_TriangleNet::Topology::DCEL::HalfEdge_ {
 IL2CPP_REGISTER_METHOD(0x025E8790, void, set_Capacity, (List_1_TriangleNet_Topology_DCEL_HalfEdge_ * __this, int32_t value));

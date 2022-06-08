@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolPerfTest_LogCatcher {
 IL2CPP_REGISTER_METHOD(0x00FEC180, void, __ctor, (UberPoolPerfTest_LogCatcher * __this));

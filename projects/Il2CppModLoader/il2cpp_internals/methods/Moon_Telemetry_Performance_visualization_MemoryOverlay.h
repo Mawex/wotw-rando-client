@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::visualization::MemoryOverlay {
 IL2CPP_REGISTER_METHOD(0x010A5BE0, void, CreateLineMaterial, (MemoryOverlay * __this));

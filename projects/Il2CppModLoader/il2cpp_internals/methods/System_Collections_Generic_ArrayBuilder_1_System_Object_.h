@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArrayBuilder_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00239DF0, int32_t, get_Capacity, (ArrayBuilder_1_System_Object___Boxed * __this));

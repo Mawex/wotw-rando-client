@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberAtlasExclusions {
 IL2CPP_REGISTER_METHOD(0x013DE100, UberAtlasExclusions_SceneExclusion, GetExclusion, (UberAtlasExclusions * __this, SceneMetaData * sceneMeta, bool * found));

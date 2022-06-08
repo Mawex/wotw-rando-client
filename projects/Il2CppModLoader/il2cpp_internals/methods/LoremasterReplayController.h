@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoremasterReplayController {
-IL2CPP_REGISTER_METHOD(0x009ED850, bool, get_LoreMasterReplayActive, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009ED940, bool, get_PlayingMasterTimeline, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009EDA40, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009EDAD0, void, ResetState, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009ED850, bool, get_LoreMasterReplayActive, ());
+IL2CPP_REGISTER_METHOD(0x009ED940, bool, get_PlayingMasterTimeline, ());
+IL2CPP_REGISTER_METHOD(0x009EDA40, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x009EDAD0, void, ResetState, ());
 IL2CPP_REGISTER_METHOD(0x0043D9E0, UpdateType__Enum, get_UpdateType, (LoremasterReplayController * __this));
 IL2CPP_REGISTER_METHOD(0x009EDC60, bool, ReplayActive, (LoremasterReplayController * __this));
 IL2CPP_REGISTER_METHOD(0x009EDCB0, bool, AllowFallOutOfWorld, (LoremasterReplayController * __this));
@@ -16,14 +16,14 @@ IL2CPP_REGISTER_METHOD(0x009EDD00, void, OnEnable, (LoremasterReplayController *
 IL2CPP_REGISTER_METHOD(0x009EDDB0, void, OnDisable, (LoremasterReplayController * __this));
 IL2CPP_REGISTER_METHOD(0x009EDE50, void, ApplySetting, (ReplaySetting * setting));
 IL2CPP_REGISTER_METHOD(0x009EE000, void, OnAppliedSettings, (ReplaySetting * setting));
-IL2CPP_REGISTER_METHOD(0x009EE8C0, void, MasterTimelineFinished, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009EE8C0, void, MasterTimelineFinished, ());
 IL2CPP_REGISTER_METHODINFO(0x0471F4B0, LoremasterReplayController_MasterTimelineFinished__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x009EEA00, void, OnRevertedSettings, (ReplaySetting * setting));
-IL2CPP_REGISTER_METHOD(0x009EECA0, void, ExitToMenu, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009EECA0, void, ExitToMenu, ());
 IL2CPP_REGISTER_METHODINFO(0x04794120, LoremasterReplayController_ExitToMenu__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x009EEF50, void, LoadOnGameReset, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009EEF50, void, LoadOnGameReset, ());
 IL2CPP_REGISTER_METHODINFO(0x047988B0, LoremasterReplayController_LoadOnGameReset__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x009EF480, void, LoadGame, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009EF480, void, LoadGame, ());
 IL2CPP_REGISTER_METHODINFO(0x0476F6D8, LoremasterReplayController_LoadGame__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x009EF760, void, ExitReplay, (LoremasterReplayController * __this));
 IL2CPP_REGISTER_METHOD(0x009EF960, void, RestartReplay, (LoremasterReplayController * __this));

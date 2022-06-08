@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SmartInput::CompoundButtonInput {
 IL2CPP_REGISTER_METHOD(0x006CA840, void, __ctor, (CompoundButtonInput * __this, IButtonInput__Array * inputs));

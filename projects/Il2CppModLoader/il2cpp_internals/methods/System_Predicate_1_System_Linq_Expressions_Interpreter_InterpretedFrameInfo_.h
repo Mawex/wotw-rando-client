@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Predicate_1_System::Linq::Expressions::Interpreter::InterpretedFrameInfo_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Predicate_1_System_Linq_Expressions_Interpreter_InterpretedFrameInfo_ * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumUInt16TypeInfo_1_System::Decimal_ {
 IL2CPP_REGISTER_METHOD(0x02B91FD0, void, WriteMetadata, (EnumUInt16TypeInfo_1_System_Decimal_ * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));

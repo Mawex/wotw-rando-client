@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RuntimeGuidMapping {
-IL2CPP_REGISTER_METHOD(0x02719EB0, void, ForceRefresh, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02719EB0, void, ForceRefresh, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintResults, (RuntimeGuidMapping * __this));
-IL2CPP_REGISTER_METHOD(0x02719EF0, RuntimeGuidMapping *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02719EF0, RuntimeGuidMapping *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Initialize, (RuntimeGuidMapping * __this));
 IL2CPP_REGISTER_METHOD(0x0271A190, void, Refresh, (RuntimeGuidMapping * __this));
 IL2CPP_REGISTER_METHOD(0x0271A1A0, void, Parse, (RuntimeGuidMapping * __this));

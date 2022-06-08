@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_VerticalSpacer_Item_ {
 IL2CPP_REGISTER_METHOD(0x01CD2410, bool, Equals, (ObjectEqualityComparer_1_VerticalSpacer_Item_ * __this, VerticalSpacer_Item x, VerticalSpacer_Item y));

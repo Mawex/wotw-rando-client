@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinAbilities {
 IL2CPP_REGISTER_METHOD(0x004173F0, SeinDoubleJump *, get_DoubleJump, (SeinAbilities * __this));

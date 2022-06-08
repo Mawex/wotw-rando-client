@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::DecoratorNode {
 IL2CPP_REGISTER_METHOD(0x0300CEF0, BehaviourStatus__Enum, get_DecoratorStatus, (DecoratorNode * __this));

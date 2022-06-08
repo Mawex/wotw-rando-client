@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SteamTelemetry_StringData {
 IL2CPP_REGISTER_METHOD(0x015F7540, void, __ctor, (SteamTelemetry_StringData * __this, String * stringValue));

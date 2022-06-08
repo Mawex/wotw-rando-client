@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundCompositionPlayer {
 IL2CPP_REGISTER_METHOD(0x00EE6150, void, Awake, (SoundCompositionPlayer * __this));

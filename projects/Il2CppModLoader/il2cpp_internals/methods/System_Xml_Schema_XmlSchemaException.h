@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaException {
 IL2CPP_REGISTER_METHOD(0x01CA7F70, void, __ctor, (XmlSchemaException * __this, SerializationInfo * info, StreamingContext context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Buffer {
 IL2CPP_REGISTER_METHOD(0x0229E780, bool, InternalBlockCopy, (Array * src, int32_t srcOffsetBytes, Array * dst, int32_t dstOffsetBytes, int32_t byteCount));

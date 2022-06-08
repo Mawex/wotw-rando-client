@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormEntity__EnableVerletTentacles_d__185 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (SandWormEntity_EnableVerletTentacles_d_185 * __this, int32_t __1__state));

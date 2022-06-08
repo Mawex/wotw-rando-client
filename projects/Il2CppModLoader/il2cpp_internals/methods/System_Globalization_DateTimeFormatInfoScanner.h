@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::DateTimeFormatInfoScanner {
-IL2CPP_REGISTER_METHOD(0x02605430, Dictionary_2_System_String_System_String_ *, get_KnownWords, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02605430, Dictionary_2_System_String_System_String_ *, get_KnownWords, ());
 IL2CPP_REGISTER_METHOD(0x026059D0, int32_t, SkipWhiteSpacesAndNonLetter, (String * pattern, int32_t currentIndex));
 IL2CPP_REGISTER_METHOD(0x02605AE0, void, AddDateWordOrPostfix, (DateTimeFormatInfoScanner * __this, String * formatPostfix, String * str));
 IL2CPP_REGISTER_METHOD(0x02605E50, int32_t, AddDateWords, (DateTimeFormatInfoScanner * __this, String * pattern, int32_t index, String * formatPostfix));

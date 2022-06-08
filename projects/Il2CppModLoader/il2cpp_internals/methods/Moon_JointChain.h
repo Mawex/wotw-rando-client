@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::JointChain {
 IL2CPP_REGISTER_METHOD(0x01B16070, bool, get_IsValid, (JointChain * __this));

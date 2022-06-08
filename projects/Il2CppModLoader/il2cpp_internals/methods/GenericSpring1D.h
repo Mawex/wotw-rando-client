@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericSpring1D {
 IL2CPP_REGISTER_METHOD(0x00E109B0, void, Step, (GenericSpring1D * __this, GenericSpring1D_Particle * * particle));

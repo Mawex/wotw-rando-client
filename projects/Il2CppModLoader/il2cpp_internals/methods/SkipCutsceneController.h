@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkipCutsceneController {
-IL2CPP_REGISTER_METHOD(0x006C3090, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x006C3090, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x006C3110, void, RegisterCutsceneSkip, (SkipCutsceneController * __this, ISkipCutscene * skip));
 IL2CPP_REGISTER_METHOD(0x006C32E0, void, UnregisterCutsceneSkip, (SkipCutsceneController * __this, ISkipCutscene * skip));
 IL2CPP_REGISTER_METHOD(0x006C33A0, SceneManagerScene *, get_PrologueMaster, (SkipCutsceneController * __this));

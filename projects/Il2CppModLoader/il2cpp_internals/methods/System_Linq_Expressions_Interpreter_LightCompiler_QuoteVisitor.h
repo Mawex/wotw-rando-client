@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LightCompiler_QuoteVisitor {
 IL2CPP_REGISTER_METHOD(0x023F63B0, Expression *, VisitParameter, (LightCompiler_QuoteVisitor * __this, ParameterExpression * node));

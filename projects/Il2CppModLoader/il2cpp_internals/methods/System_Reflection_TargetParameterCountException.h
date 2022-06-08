@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::TargetParameterCountException {
 IL2CPP_REGISTER_METHOD(0x02698E10, void, __ctor, (TargetParameterCountException * __this));

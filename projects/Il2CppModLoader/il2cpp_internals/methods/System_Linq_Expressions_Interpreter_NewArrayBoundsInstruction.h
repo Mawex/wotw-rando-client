@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NewArrayBoundsInstruction {
 IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (NewArrayBoundsInstruction * __this, Type * elementType, int32_t rank));

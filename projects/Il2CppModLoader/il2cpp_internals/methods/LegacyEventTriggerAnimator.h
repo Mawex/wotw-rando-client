@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyEventTriggerAnimator {
 IL2CPP_REGISTER_METHOD(0x00A242F0, void, add_Started, (LegacyEventTriggerAnimator * __this, Action * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecordableIdData {
 IL2CPP_REGISTER_METHOD(0x00114C30, void, __ctor, (RecordableIdData__Boxed * __this, RecordableType__Enum recordableType, int64_t id, String * assetGuid));

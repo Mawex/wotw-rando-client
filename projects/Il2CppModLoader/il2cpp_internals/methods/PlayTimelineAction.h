@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayTimelineAction {
 IL2CPP_REGISTER_METHOD(0x0117BB40, void, Perform, (PlayTimelineAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartSparkEffect {
 IL2CPP_REGISTER_METHOD(0x00B3EA00, void, Start, (CartSparkEffect * __this));

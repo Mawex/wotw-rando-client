@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::CFProxy {
-IL2CPP_REGISTER_METHOD(0x02178A10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02178A10, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (CFProxy * __this, CFDictionary * settings));
 IL2CPP_REGISTER_METHOD(0x02178C70, CFProxyType__Enum, CFProxyTypeToEnum, (void * type));
 IL2CPP_REGISTER_METHOD(0x02178E60, void *, get_AutoConfigurationJavaScript, (CFProxy * __this));

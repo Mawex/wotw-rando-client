@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SimpleSwayAnimPostprocess {
-IL2CPP_REGISTER_METHOD(0x0211F5E0, bool, get_UseSimpleSway, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0211F5E0, bool, get_UseSimpleSway, ());
 IL2CPP_REGISTER_METHOD(0x0211F680, void, set_UseSimpleSway, (bool value));
-IL2CPP_REGISTER_METHOD(0x0211F730, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0211F730, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x0211F7C0, void, SetSimpleSway, (bool setSimple));
 IL2CPP_REGISTER_METHOD(0x003FF8B0, int32_t, get_Order, (SimpleSwayAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_RequiresOnUpdate, (SimpleSwayAnimPostprocess * __this));
@@ -25,5 +25,5 @@ IL2CPP_REGISTER_METHOD(0x02120550, void, ScheduleJobs, (SimpleSwayAnimPostproces
 IL2CPP_REGISTER_METHOD(0x02120650, void, CompleteJobs, (SimpleSwayAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x02120710, void, UpdateSway, (SimpleSwayAnimPostprocess * __this));
 IL2CPP_REGISTER_METHOD(0x008A2C20, void, __ctor, (SimpleSwayAnimPostprocess * __this));
-IL2CPP_REGISTER_METHOD(0x02120940, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02120940, void, __cctor, ());
 }

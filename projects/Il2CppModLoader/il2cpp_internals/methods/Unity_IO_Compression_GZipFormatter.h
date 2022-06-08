@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::GZipFormatter {
 IL2CPP_REGISTER_METHOD(0x02B78A40, void, __ctor, (GZipFormatter * __this));

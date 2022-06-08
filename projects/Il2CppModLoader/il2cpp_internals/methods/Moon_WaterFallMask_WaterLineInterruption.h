@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::WaterFallMask_WaterLineInterruption {
 IL2CPP_REGISTER_METHOD(0x00F28500, void, __ctor, (WaterFallMask_WaterLineInterruption * __this, Vector2 start, Vector2 end));

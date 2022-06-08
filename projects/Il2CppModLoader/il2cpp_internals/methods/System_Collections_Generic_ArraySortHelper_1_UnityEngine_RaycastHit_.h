@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UnityEngine::RaycastHit_ {
 IL2CPP_REGISTER_METHOD(0x02F6CC60, void, Sort, (RaycastHit__Array * keys, int32_t index, int32_t length, IComparer_1_UnityEngine_RaycastHit_ * comparer));

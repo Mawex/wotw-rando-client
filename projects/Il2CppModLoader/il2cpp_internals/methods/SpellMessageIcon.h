@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellMessageIcon {
 IL2CPP_REGISTER_METHOD(0x00943010, void, SetIcon, (SpellMessageIcon * __this, Texture2D * icon));

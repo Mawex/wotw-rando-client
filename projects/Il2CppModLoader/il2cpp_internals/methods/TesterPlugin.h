@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TesterPlugin {
 IL2CPP_REGISTER_METHOD(0x010E2B80, void, Awake, (TesterPlugin * __this));

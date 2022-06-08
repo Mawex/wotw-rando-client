@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightberryPlaceholder__HackForFixingNightberry_d__2 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (NightberryPlaceholder_HackForFixingNightberry_d_2 * __this, int32_t __1__state));

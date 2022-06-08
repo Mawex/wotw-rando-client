@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::FlutteringSlamBehaviour_FlutterSlamState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (FlutteringSlamBehaviour_FlutterSlamState * __this, FlutteringSlamBehaviour * behaviour));

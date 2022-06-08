@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MultiTimelineFloatValueMax {
 IL2CPP_REGISTER_METHOD(0x00878F00, float, get_Value, (MultiTimelineFloatValueMax * __this));

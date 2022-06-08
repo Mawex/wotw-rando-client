@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BidirectionalValuePair_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00107C00, Object *, get_FirstValue, (BidirectionalValuePair_2_System_Object_System_Object___Boxed * __this));

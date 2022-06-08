@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoulFlame {
 IL2CPP_REGISTER_METHOD(0x00EE3A50, bool, get_IsInside, (SoulFlame * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00FAE9A0, EntityDamageEvent *, get_DamageEvent, (LizardHitReactionBehaviour * __this));

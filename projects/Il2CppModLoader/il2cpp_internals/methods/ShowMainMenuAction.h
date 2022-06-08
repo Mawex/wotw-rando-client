@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowMainMenuAction {
 IL2CPP_REGISTER_METHOD(0x005C4E50, void, Perform, (ShowMainMenuAction * __this, IContext * context));

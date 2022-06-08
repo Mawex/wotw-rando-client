@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::MatchCollection {
 IL2CPP_REGISTER_METHOD(0x02583680, void, __ctor, (MatchCollection * __this, Regex * regex, String * input, int32_t beginning, int32_t length, int32_t startat));
@@ -12,7 +12,7 @@ IL2CPP_REGISTER_METHODINFO(0x0475EAF8, MatchCollection_get_Item__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02583BF0, void, CopyTo, (MatchCollection * __this, Array * array, int32_t arrayIndex));
 IL2CPP_REGISTER_METHODINFO(0x04710BE0, MatchCollection_CopyTo__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02583D50, IEnumerator *, GetEnumerator, (MatchCollection * __this));
-IL2CPP_REGISTER_METHOD(0x02583E90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02583E90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02583F10, void, __ctor, (MatchCollection * __this));
 IL2CPP_REGISTER_METHODINFO(0x04752018, MatchCollection__ctor_1__MethodInfo);
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_TimeSpan_ {
 IL2CPP_REGISTER_METHOD(0x001F8960, bool, get_HasValue, (Nullable_1_TimeSpan___Boxed * __this));

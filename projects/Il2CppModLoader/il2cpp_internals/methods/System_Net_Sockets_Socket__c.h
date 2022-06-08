@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::Socket___c {
-IL2CPP_REGISTER_METHOD(0x0209ED40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0209ED40, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Socket_c * __this));
 IL2CPP_REGISTER_METHOD(0x0209EE80, void, _BeginSend_b__241_0, (Socket_c * __this, IOAsyncResult * s));
 IL2CPP_REGISTER_METHODINFO(0x0472BCB0, Socket_c__BeginSend_b__241_0__MethodInfo);

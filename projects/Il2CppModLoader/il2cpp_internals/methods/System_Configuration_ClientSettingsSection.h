@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::ClientSettingsSection {
 IL2CPP_REGISTER_METHOD(0x029615A0, void, __ctor, (ClientSettingsSection * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine::Experimental::Rendering::IRenderPipeline_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_UnityEngine_Experimental_Rendering_IRenderPipeline_ * __this));

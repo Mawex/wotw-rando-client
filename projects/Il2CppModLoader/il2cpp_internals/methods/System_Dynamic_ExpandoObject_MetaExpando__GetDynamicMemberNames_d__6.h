@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_MetaExpando__GetDynamicMemberNames_d__6 {
 IL2CPP_REGISTER_METHOD(0x006389F0, void, __ctor, (ExpandoObject_MetaExpando_GetDynamicMemberNames_d_6 * __this, int32_t __1__state));

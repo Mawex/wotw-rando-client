@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_Polygon {
 IL2CPP_REGISTER_METHOD(0x02579280, bool, PointInside2dConvexPoly, (Vector2 point, Vector2__Array * poly));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HammerComboMoveChargable_BalancingData {
 IL2CPP_REGISTER_METHOD(0x0109C3A0, void, __ctor, (HammerComboMoveChargable_BalancingData * __this));

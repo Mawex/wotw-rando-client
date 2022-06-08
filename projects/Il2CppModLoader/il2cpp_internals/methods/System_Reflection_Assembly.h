@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Assembly {
 IL2CPP_REGISTER_METHOD(0x02280FB0, void, __ctor, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x022810F0, String *, get_code_base, (Assembly * __this, bool escaped));
 IL2CPP_REGISTER_METHOD(0x02281100, String *, get_fullname, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x02281190, String *, get_location, (Assembly * __this));
-IL2CPP_REGISTER_METHOD(0x00420EE0, String *, GetAotId, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00420EE0, String *, GetAotId, ());
 IL2CPP_REGISTER_METHOD(0x022810F0, String *, GetCodeBase, (Assembly * __this, bool escaped));
 IL2CPP_REGISTER_METHOD(0x022811A0, String *, get_CodeBase, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x022811B0, String *, get_EscapedCodeBase, (Assembly * __this));
@@ -37,7 +37,7 @@ IL2CPP_REGISTER_METHOD(0x02282160, AssemblyName *, GetName, (Assembly * __this))
 IL2CPP_REGISTER_METHOD(0x02282180, String *, ToString, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x02282230, Assembly *, GetAssembly, (Type * type));
 IL2CPP_REGISTER_METHODINFO(0x04703978, Assembly_GetAssembly__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00420EE0, Assembly *, GetEntryAssembly, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00420EE0, Assembly *, GetEntryAssembly, ());
 IL2CPP_REGISTER_METHOD(0x02282310, RuntimeAssembly *, InternalGetSatelliteAssembly, (Assembly * __this, String * name, CultureInfo * culture, Version * version, bool throwOnFileNotFound, StackCrawlMark__Enum * stackMark));
 IL2CPP_REGISTER_METHODINFO(0x0472CA18, Assembly_InternalGetSatelliteAssembly__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x022829A0, Assembly *, LoadFrom, (String * assemblyFile, bool refonly));
@@ -51,16 +51,16 @@ IL2CPP_REGISTER_METHODINFO(0x0470AB18, Assembly_LoadWithPartialName_2__MethodInf
 IL2CPP_REGISTER_METHOD(0x02282FE0, Module__Array *, GetModules, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x02283000, Module__Array *, GetModulesInternal, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x02283050, String__Array *, GetManifestResourceNames, (Assembly * __this));
-IL2CPP_REGISTER_METHOD(0x022831B0, Assembly *, GetExecutingAssembly, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022831B0, Assembly *, GetExecutingAssembly, ());
 IL2CPP_REGISTER_METHODINFO(0x04716B88, Assembly_GetExecutingAssembly__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02283230, Assembly *, GetCallingAssembly, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02283230, Assembly *, GetCallingAssembly, ());
 IL2CPP_REGISTER_METHOD(0x02283330, bool, GetManifestResourceInfoInternal, (Assembly * __this, String * name, ManifestResourceInfo * info));
 IL2CPP_REGISTER_METHOD(0x02283340, ManifestResourceInfo *, GetManifestResourceInfo, (Assembly * __this, String * resourceName));
 IL2CPP_REGISTER_METHODINFO(0x047204D0, Assembly_GetManifestResourceInfo__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_ReflectionOnly, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x0194D440, int32_t, GetHashCode, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x02283530, bool, Equals, (Assembly * __this, Object * o));
-IL2CPP_REGISTER_METHOD(0x02283610, Exception *, CreateNIE, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02283610, Exception *, CreateNIE, ());
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsFullyTrusted, (Assembly * __this));
 IL2CPP_REGISTER_METHOD(0x02283760, Type *, GetType, (Assembly * __this, String * name, bool throwOnError, bool ignoreCase));
 IL2CPP_REGISTER_METHODINFO(0x0476EA38, Assembly_GetType_2__MethodInfo);

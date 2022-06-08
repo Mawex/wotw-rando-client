@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ChoiceNode {
 IL2CPP_REGISTER_METHOD(0x019A9600, void, ConstructChildPos, (SyntaxTreeNode * child, BitSet * firstpos, BitSet * lastpos, BitSet__Array * followpos));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SceneManagement::SceneManager {
-IL2CPP_REGISTER_METHOD(0x02979560, int32_t, get_sceneCount, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x029795B0, int32_t, get_sceneCountInBuildSettings, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02979600, Scene, GetActiveScene, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02979560, int32_t, get_sceneCount, ());
+IL2CPP_REGISTER_METHOD(0x029795B0, int32_t, get_sceneCountInBuildSettings, ());
+IL2CPP_REGISTER_METHOD(0x02979600, Scene, GetActiveScene, ());
 IL2CPP_REGISTER_METHOD(0x02979660, bool, SetActiveScene, (Scene scene));
 IL2CPP_REGISTER_METHOD(0x029796B0, Scene, GetSceneByPath, (String * scenePath));
 IL2CPP_REGISTER_METHOD(0x02979720, Scene, GetSceneByName, (String * name));

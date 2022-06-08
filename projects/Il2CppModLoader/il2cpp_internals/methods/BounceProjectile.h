@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BounceProjectile {
 IL2CPP_REGISTER_METHOD(0x00D3F910, void, FixedUpdate, (BounceProjectile * __this));

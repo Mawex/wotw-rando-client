@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::NestedContainer {
 IL2CPP_REGISTER_METHOD(0x029900E0, void, __ctor, (NestedContainer * __this, IComponent * owner));

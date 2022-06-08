@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ColorCorrectionRamp {
 IL2CPP_REGISTER_METHOD(0x0251D950, void, OnRenderImage, (ColorCorrectionRamp * __this, RenderTexture * source, RenderTexture * destination));

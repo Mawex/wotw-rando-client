@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShurikenParticleAnimator {
 IL2CPP_REGISTER_METHOD(0x0073E1F0, ParticleSystem *, get_ParticleSystem, (ShurikenParticleAnimator * __this));

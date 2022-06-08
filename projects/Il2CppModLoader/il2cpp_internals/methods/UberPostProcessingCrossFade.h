@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPostProcessingCrossFade {
 IL2CPP_REGISTER_METHOD(0x018F6430, Material *, get_Material, (UberPostProcessingCrossFade * __this));

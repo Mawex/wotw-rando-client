@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_VerletDynamicsValue {
 IL2CPP_REGISTER_METHOD(0x0257AAB0, void, __ctor, (MoonMath_VerletDynamicsValue * __this, float X, float K, float Friction, float maxSpeed, float minX, float maxX));

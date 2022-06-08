@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BugReporter {
 IL2CPP_REGISTER_METHOD(0x00807ED0, uint32_t, Execute, (String * path, String * parameters, String * workingDir));
@@ -60,5 +60,5 @@ IL2CPP_REGISTER_METHOD(0x00720040, String *, GetRecordingDirectory, (BugReporter
 IL2CPP_REGISTER_METHOD(0x00813F90, String *, GetFFmpegDirectory, (BugReporter * __this));
 IL2CPP_REGISTER_METHOD(0x00813FA0, String *, GetOBSCommandDirectory, (BugReporter * __this));
 IL2CPP_REGISTER_METHOD(0x00813FB0, void, __ctor, (BugReporter * __this));
-IL2CPP_REGISTER_METHOD(0x008144B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008144B0, void, __cctor, ());
 }

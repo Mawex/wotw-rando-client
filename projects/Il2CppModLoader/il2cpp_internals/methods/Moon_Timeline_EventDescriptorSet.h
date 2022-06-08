@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EventDescriptorSet {
 IL2CPP_REGISTER_METHOD(0x002FA280, HashSet_1_System_Int32_ *, get_m_ids, (EventDescriptorSet * __this));

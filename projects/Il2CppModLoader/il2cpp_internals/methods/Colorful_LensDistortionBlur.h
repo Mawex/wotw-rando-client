@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::LensDistortionBlur {
 IL2CPP_REGISTER_METHOD(0x03048300, void, OnRenderImage, (LensDistortionBlur * __this, RenderTexture * source, RenderTexture * destination));

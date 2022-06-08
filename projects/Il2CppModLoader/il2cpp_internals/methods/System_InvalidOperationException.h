@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::InvalidOperationException {
 IL2CPP_REGISTER_METHOD(0x02265E10, void, __ctor, (InvalidOperationException * __this));

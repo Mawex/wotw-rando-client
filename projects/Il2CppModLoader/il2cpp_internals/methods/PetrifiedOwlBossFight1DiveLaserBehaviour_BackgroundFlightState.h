@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1DiveLaserBehaviour_BackgroundFlightState {
 IL2CPP_REGISTER_METHOD(0x01766A10, void, __ctor, (PetrifiedOwlBossFight1DiveLaserBehaviour_BackgroundFlightState * __this, PetrifiedOwlBossFight1DiveLaserBehaviour * behaviour));

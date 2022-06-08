@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine::ParticleSystem_ScenariosParticleSystemPlugin_TrackingID_ {
 IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_UnityEngine_ParticleSystem_ScenariosParticleSystemPlugin_TrackingID_ * __this, ParticleSystem * key, ScenariosParticleSystemPlugin_TrackingID * value));

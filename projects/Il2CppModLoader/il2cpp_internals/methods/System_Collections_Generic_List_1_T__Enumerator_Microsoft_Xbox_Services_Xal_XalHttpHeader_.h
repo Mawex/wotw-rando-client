@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Microsoft::Xbox::Services::Xal::XalHttpHeader_ {
 IL2CPP_REGISTER_METHOD(0x0014CA00, void, __ctor, (List_1_T_Enumerator_Microsoft_Xbox_Services_Xal_XalHttpHeader___Boxed * __this, List_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * list));

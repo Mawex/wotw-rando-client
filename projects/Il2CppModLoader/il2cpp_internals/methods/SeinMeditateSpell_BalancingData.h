@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinMeditateSpell_BalancingData {
 IL2CPP_REGISTER_METHOD(0x008A6C30, bool, get_Upgraded, (SeinMeditateSpell_BalancingData * __this));

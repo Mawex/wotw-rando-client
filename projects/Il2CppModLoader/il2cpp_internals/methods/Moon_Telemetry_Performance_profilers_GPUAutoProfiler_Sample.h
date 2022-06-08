@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::profilers::GPUAutoProfiler_Sample {
 IL2CPP_REGISTER_METHOD(0x002FD1D0, GPUAutoProfiler_Sample_SamplingState__Enum, get_State, (GPUAutoProfiler_Sample * __this));

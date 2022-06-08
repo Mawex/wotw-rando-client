@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X500DistinguishedName {
 IL2CPP_REGISTER_METHOD(0x021C26E0, void, __ctor, (X500DistinguishedName * __this, Byte__Array * encodedDistinguishedName));

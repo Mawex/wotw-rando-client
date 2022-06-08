@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::DecoderExceptionFallbackBuffer {
 IL2CPP_REGISTER_METHOD(0x02448F70, bool, Fallback, (DecoderExceptionFallbackBuffer * __this, Byte__Array * bytesUnknown, int32_t index));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::HttpRequestMessage {
 IL2CPP_REGISTER_METHOD(0x002FB9D0, HttpContent *, get_Content, (HttpRequestMessage * __this));

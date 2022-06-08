@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShootableCreepVisuals {
 IL2CPP_REGISTER_METHOD(0x004430B0, bool, get_InvalidateParentTimelineCache, (ShootableCreepVisuals * __this));

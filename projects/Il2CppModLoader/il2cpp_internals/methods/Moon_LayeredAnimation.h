@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LayeredAnimation {
 IL2CPP_REGISTER_METHOD(0x008E77B0, AnimationType__Enum, get_Type, (LayeredAnimation * __this));

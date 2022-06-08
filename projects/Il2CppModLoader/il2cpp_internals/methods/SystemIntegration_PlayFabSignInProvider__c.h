@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::PlayFabSignInProvider___c {
-IL2CPP_REGISTER_METHOD(0x00521190, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00521190, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabSignInProvider_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _EnsureProfilePolicy_b__49_0, (PlayFabSignInProvider_c * __this, SetEntityProfilePolicyResponse * response));
 IL2CPP_REGISTER_METHODINFO(0x0475F2C0, PlayFabSignInProvider_c__EnsureProfilePolicy_b__49_0__MethodInfo);

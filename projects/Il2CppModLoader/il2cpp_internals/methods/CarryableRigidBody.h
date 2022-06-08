@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CarryableRigidBody {
 IL2CPP_REGISTER_METHOD(0x00B26440, void, add_OnAnyCarryablePickedUpAction, (Action * value));
@@ -26,7 +26,7 @@ IL2CPP_REGISTER_METHOD(0x00B28C60, void, OnCollisionEnter, (CarryableRigidBody *
 IL2CPP_REGISTER_METHOD(0x00B29060, void, OnCollisionStay, (CarryableRigidBody * __this, Collision * collision));
 IL2CPP_REGISTER_METHOD(0x00B29250, void, OnRecieveDamage, (CarryableRigidBody * __this, Damage * damage));
 IL2CPP_REGISTER_METHOD(0x00B295C0, void, __ctor, (CarryableRigidBody * __this));
-IL2CPP_REGISTER_METHOD(0x00B297B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00B297B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IDamageReciever_get_gameObject, (CarryableRigidBody * __this));
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, IDamageReciever_get_transform, (CarryableRigidBody * __this));
 }

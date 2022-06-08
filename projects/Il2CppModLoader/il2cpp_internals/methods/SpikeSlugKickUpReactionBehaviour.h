@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpikeSlugKickUpReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x011D0C90, bool, get_ShouldLetGoOfSurface, (SpikeSlugKickUpReactionBehaviour * __this));

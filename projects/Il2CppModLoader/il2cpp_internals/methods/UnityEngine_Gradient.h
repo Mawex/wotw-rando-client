@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Gradient {
 IL2CPP_REGISTER_METHOD(0x02529FC0, void, __ctor, (Gradient * __this));
-IL2CPP_REGISTER_METHOD(0x0252A020, void *, Init, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0252A020, void *, Init, ());
 IL2CPP_REGISTER_METHOD(0x0252A070, void, Cleanup, (Gradient * __this));
 IL2CPP_REGISTER_METHOD(0x0252A0C0, bool, Internal_Equals, (Gradient * __this, void * other));
 IL2CPP_REGISTER_METHOD(0x0252A120, void, Finalize, (Gradient * __this));

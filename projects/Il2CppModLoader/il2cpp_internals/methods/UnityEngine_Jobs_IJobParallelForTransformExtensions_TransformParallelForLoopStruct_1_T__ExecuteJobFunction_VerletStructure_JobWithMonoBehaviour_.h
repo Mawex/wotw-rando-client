@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_T__ExecuteJobFunction_VerletStructure_JobWithMonoBehaviour_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_T_ExecuteJobFunction_VerletStructure_JobWithMonoBehaviour_ * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathException {
 IL2CPP_REGISTER_METHOD(0x01954E60, void, __ctor, (XPathException * __this, SerializationInfo * info, StreamingContext context));

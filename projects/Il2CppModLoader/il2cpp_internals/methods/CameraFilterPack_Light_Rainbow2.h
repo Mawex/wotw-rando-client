@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Light_Rainbow2 {
 IL2CPP_REGISTER_METHOD(0x0247EC90, Material *, get_material, (CameraFilterPack_Light_Rainbow2 * __this));

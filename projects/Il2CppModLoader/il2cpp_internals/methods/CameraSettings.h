@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraSettings {
 IL2CPP_REGISTER_METHOD(0x016A4E00, void, __ctor, (CameraSettings * __this, CameraSettings * settings));

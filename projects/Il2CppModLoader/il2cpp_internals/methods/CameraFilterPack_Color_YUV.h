@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Color_YUV {
 IL2CPP_REGISTER_METHOD(0x024DC990, Material *, get_material, (CameraFilterPack_Color_YUV * __this));

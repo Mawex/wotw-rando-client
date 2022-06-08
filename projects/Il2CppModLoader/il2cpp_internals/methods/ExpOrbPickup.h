@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ExpOrbPickup {
 IL2CPP_REGISTER_METHOD(0x00986F10, void, OnCollectorCandidateTouch, (ExpOrbPickup * __this, GameObject * collector));

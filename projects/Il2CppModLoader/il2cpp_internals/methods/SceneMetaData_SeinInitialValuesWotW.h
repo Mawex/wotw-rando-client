@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneMetaData_SeinInitialValuesWotW {
 IL2CPP_REGISTER_METHOD(0x00BAF570, void, ApplyInitialValues, (SceneMetaData_SeinInitialValuesWotW * __this));

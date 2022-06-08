@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BuilderNPC {
 IL2CPP_REGISTER_METHOD(0x0061E5E0, BuilderNPC_State__Enum, get_CurrentState, (BuilderNPC * __this));

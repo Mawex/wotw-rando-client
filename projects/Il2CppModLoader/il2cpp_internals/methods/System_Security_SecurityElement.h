@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::SecurityElement {
 IL2CPP_REGISTER_METHOD(0x01E1ED30, void, __ctor, (SecurityElement * __this, String * tag));
@@ -34,5 +34,5 @@ IL2CPP_REGISTER_METHOD(0x01E21010, SecurityElement_SecurityAttribute *, GetAttri
 IL2CPP_REGISTER_METHOD(0x002FA490, void, set_m_strText, (SecurityElement * __this, String * value));
 IL2CPP_REGISTER_METHOD(0x01E21210, String *, SearchForTextOfLocalName, (SecurityElement * __this, String * strLocalName));
 IL2CPP_REGISTER_METHODINFO(0x04728370, SecurityElement_SearchForTextOfLocalName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E214E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E214E0, void, __cctor, ());
 }

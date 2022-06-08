@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::Int2 {
 IL2CPP_REGISTER_METHOD(0x00115520, void, __ctor, (Int2__Boxed * __this, int32_t x, int32_t y));
@@ -32,12 +32,12 @@ IL2CPP_REGISTER_METHOD(0x0014B500, float, get_magnitude, (Int2__Boxed * __this))
 IL2CPP_REGISTER_METHOD(0x0014B5C0, int32_t, get_sqrMagnitude, (Int2__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0014B5D0, String *, ToString, (Int2__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0014B6E0, String *, ToString, (Int2__Boxed * __this, String * format));
-IL2CPP_REGISTER_METHOD(0x0182B430, Int2, get_zero, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0182B440, Int2, get_one, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0182B460, Int2, get_up, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0182B480, Int2, get_down, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0182B4A0, Int2, get_left, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0182B4C0, Int2, get_right, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0182B4D0, Int2, get_maxValue, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0182B4F0, Int2, get_minValue, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0182B430, Int2, get_zero, ());
+IL2CPP_REGISTER_METHOD(0x0182B440, Int2, get_one, ());
+IL2CPP_REGISTER_METHOD(0x0182B460, Int2, get_up, ());
+IL2CPP_REGISTER_METHOD(0x0182B480, Int2, get_down, ());
+IL2CPP_REGISTER_METHOD(0x0182B4A0, Int2, get_left, ());
+IL2CPP_REGISTER_METHOD(0x0182B4C0, Int2, get_right, ());
+IL2CPP_REGISTER_METHOD(0x0182B4D0, Int2, get_maxValue, ());
+IL2CPP_REGISTER_METHOD(0x0182B4F0, Int2, get_minValue, ());
 }

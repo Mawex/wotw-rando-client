@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Color_Noise {
 IL2CPP_REGISTER_METHOD(0x024DA880, Material *, get_material, (CameraFilterPack_Color_Noise * __this));

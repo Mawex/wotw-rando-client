@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossBehaviourZones {
 IL2CPP_REGISTER_METHOD(0x01247530, void, OnEnable, (KwolokBossBehaviourZones * __this));

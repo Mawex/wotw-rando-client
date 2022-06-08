@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::TypeUtils {
 IL2CPP_REGISTER_METHOD(0x01F965B0, Type *, GetNonNullableType, (Type * type));
@@ -41,7 +41,7 @@ IL2CPP_REGISTER_METHOD(0x01F99070, void, ValidateType, (Type * type, String * pa
 IL2CPP_REGISTER_METHODINFO(0x04794228, TypeUtils_ValidateType_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01F991A0, bool, ValidateType, (Type * type, String * paramName, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x0474E2D0, TypeUtils_ValidateType_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01F992D0, Assembly *, get_MsCorLib, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F992D0, Assembly *, get_MsCorLib, ());
 IL2CPP_REGISTER_METHOD(0x01F993B0, bool, CanCache, (Type * t));
 IL2CPP_REGISTER_METHOD(0x01F995A0, MethodInfo_1 *, GetInvokeMethod, (Type * delegateType));
 }

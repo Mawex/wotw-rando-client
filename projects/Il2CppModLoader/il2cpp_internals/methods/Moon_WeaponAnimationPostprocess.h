@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::WeaponAnimationPostprocess {
 IL2CPP_REGISTER_METHOD(0x00F2A6C0, void, OnAddedToAnimator, (WeaponAnimationPostprocess * __this, MoonAnimator * animator));

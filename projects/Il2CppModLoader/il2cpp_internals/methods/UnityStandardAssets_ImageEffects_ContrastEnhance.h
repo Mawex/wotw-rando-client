@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ContrastEnhance {
 IL2CPP_REGISTER_METHOD(0x0251DAC0, bool, CheckResources, (ContrastEnhance * __this));

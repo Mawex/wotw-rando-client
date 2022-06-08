@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Type_System::Int32_ {
 IL2CPP_REGISTER_METHOD(0x02BCDF80, bool, TryGetValue, (Dictionary_2_System_Type_System_Int32_ * __this, Type * key, int32_t * value));

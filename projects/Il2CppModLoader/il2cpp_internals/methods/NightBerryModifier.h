@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightBerryModifier {
 IL2CPP_REGISTER_METHOD(0x00601190, void, SetProperties, (NightBerryModifier * __this));

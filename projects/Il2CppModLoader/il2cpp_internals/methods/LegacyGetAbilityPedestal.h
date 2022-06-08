@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyGetAbilityPedestal {
 IL2CPP_REGISTER_METHOD(0x00A253A0, bool, get_SeinInRange, (LegacyGetAbilityPedestal * __this));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x00A26DE0, void, FinishGetAbilityStressTest, (LegacyGetA
 IL2CPP_REGISTER_METHODINFO(0x04751480, LegacyGetAbilityPedestal_FinishGetAbilityStressTest__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00A26DF0, String *, get_StressTestName, (LegacyGetAbilityPedestal * __this));
 IL2CPP_REGISTER_METHOD(0x00A26E70, void, __ctor, (LegacyGetAbilityPedestal * __this));
-IL2CPP_REGISTER_METHOD(0x00A26E90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A26E90, void, __cctor, ());
 }

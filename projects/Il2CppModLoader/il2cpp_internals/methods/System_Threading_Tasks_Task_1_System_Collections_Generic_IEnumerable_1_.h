@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_System::Collections::Generic::IEnumerable_1_ {
 IL2CPP_REGISTER_METHOD(0x02A5BF40, Task *, ContinueWith, (Task_1_System_Collections_Generic_IEnumerable_1_ * __this, Action_1_System_Threading_Tasks_Task_1_ * continuationAction));

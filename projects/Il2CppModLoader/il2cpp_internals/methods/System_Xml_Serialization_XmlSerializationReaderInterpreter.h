@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSerializationReaderInterpreter {
 IL2CPP_REGISTER_METHOD(0x025B30A0, void, __ctor, (XmlSerializationReaderInterpreter * __this, XmlMapping * typeMap));
@@ -51,5 +51,5 @@ IL2CPP_REGISTER_METHOD(0x025B98B0, Object *, GetEnumValue, (XmlSerializationRead
 IL2CPP_REGISTER_METHODINFO(0x0474C618, XmlSerializationReaderInterpreter_GetEnumValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025B9AC0, Object *, ReadXmlSerializableElement, (XmlSerializationReaderInterpreter * __this, XmlTypeMapping * typeMap, bool isNullable));
 IL2CPP_REGISTER_METHODINFO(0x04799820, XmlSerializationReaderInterpreter_ReadXmlSerializableElement__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025B9D60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025B9D60, void, __cctor, ());
 }

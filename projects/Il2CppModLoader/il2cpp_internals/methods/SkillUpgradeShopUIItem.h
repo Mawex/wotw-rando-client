@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillUpgradeShopUIItem {
 IL2CPP_REGISTER_METHOD(0x002FBB40, UpgradeAbilityItem *, get_UpgradeItem, (SkillUpgradeShopUIItem * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnemyArenaController {
 IL2CPP_REGISTER_METHOD(0x00BFF2B0, bool, get_IsCompleted, (EnemyArenaController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::OptimizationCache {
 IL2CPP_REGISTER_METHOD(0x0134DBD0, void, __ctor, (OptimizationCache * __this));

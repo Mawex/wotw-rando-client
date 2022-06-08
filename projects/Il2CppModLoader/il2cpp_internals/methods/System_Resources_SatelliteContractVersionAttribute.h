@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::SatelliteContractVersionAttribute {
 IL2CPP_REGISTER_METHOD(0x01A8FCA0, void, __ctor, (SatelliteContractVersionAttribute * __this, String * version));

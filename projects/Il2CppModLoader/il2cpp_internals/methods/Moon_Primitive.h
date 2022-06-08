@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Primitive {
 IL2CPP_REGISTER_METHOD(0x00C3EAA0, Vector3, TransformPosition, (Vector3 position, PrimitiveSpace__Enum sourceSpace, PrimitiveSpace__Enum targetSpace, Transform * localToworld, Transform * root));

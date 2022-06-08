@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkSourceSettingsArray {
 IL2CPP_REGISTER_METHOD(0x026FAA50, void, __ctor, (AkSourceSettingsArray * __this, int32_t count));

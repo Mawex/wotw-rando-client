@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::MMKVPMarshaller {
 IL2CPP_REGISTER_METHOD(0x01600790, void, __ctor, (MMKVPMarshaller * __this, MatchMakingKeyValuePair_t__Array * filters));

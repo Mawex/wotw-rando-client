@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamParties {
-IL2CPP_REGISTER_METHOD(0x0278ED90, uint32_t, GetNumActiveBeacons, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0278ED90, uint32_t, GetNumActiveBeacons, ());
 IL2CPP_REGISTER_METHOD(0x0278EE40, PartyBeaconID_t, GetBeaconByIndex, (uint32_t unIndex));
 IL2CPP_REGISTER_METHOD(0x0278EF80, bool, GetBeaconDetails, (PartyBeaconID_t ulBeaconID, CSteamID * pSteamIDBeaconOwner, SteamPartyBeaconLocation_t * pLocation, String * * pchMetadata, int32_t cchMetadata));
 IL2CPP_REGISTER_METHOD(0x0278F140, SteamAPICall_t, JoinParty, (PartyBeaconID_t ulBeaconID));

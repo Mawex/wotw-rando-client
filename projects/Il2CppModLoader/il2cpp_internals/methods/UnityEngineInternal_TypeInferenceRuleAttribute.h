@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngineInternal::TypeInferenceRuleAttribute {
 IL2CPP_REGISTER_METHOD(0x02C7AB90, void, __ctor, (TypeInferenceRuleAttribute * __this, TypeInferenceRules__Enum rule));

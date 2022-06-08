@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Graphic {
 IL2CPP_REGISTER_METHOD(0x024AE070, void, __ctor, (Graphic * __this));
-IL2CPP_REGISTER_METHOD(0x024AE200, Material *, get_defaultGraphicMaterial, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024AE200, Material *, get_defaultGraphicMaterial, ());
 IL2CPP_REGISTER_METHOD(0x024AE370, Color, get_color, (Graphic * __this));
 IL2CPP_REGISTER_METHOD(0x024AE380, void, set_color, (Graphic * __this, Color value));
 IL2CPP_REGISTER_METHOD(0x01F1C1B0, bool, get_raycastTarget, (Graphic * __this));
@@ -37,7 +37,7 @@ IL2CPP_REGISTER_METHOD(0x024AFA80, void, UpdateMaterial, (Graphic * __this));
 IL2CPP_REGISTER_METHOD(0x024AFB90, void, UpdateGeometry, (Graphic * __this));
 IL2CPP_REGISTER_METHOD(0x024AFBC0, void, DoMeshGeneration, (Graphic * __this));
 IL2CPP_REGISTER_METHOD(0x024B0010, void, DoLegacyMeshGeneration, (Graphic * __this));
-IL2CPP_REGISTER_METHOD(0x024B0440, Mesh *, get_workerMesh, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024B0440, Mesh *, get_workerMesh, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnFillVBO, (Graphic * __this, List_1_UnityEngine_UIVertex_ * vbo));
 IL2CPP_REGISTER_METHOD(0x024B06E0, void, OnPopulateMesh, (Graphic * __this, Mesh * m));
 IL2CPP_REGISTER_METHOD(0x024B07D0, void, OnPopulateMesh, (Graphic * __this, VertexHelper * vh));
@@ -56,6 +56,6 @@ IL2CPP_REGISTER_METHOD(0x024B1AF0, void, RegisterDirtyVerticesCallback, (Graphic
 IL2CPP_REGISTER_METHOD(0x024B1BB0, void, UnregisterDirtyVerticesCallback, (Graphic * __this, UnityAction * action));
 IL2CPP_REGISTER_METHOD(0x024B1C70, void, RegisterDirtyMaterialCallback, (Graphic * __this, UnityAction * action));
 IL2CPP_REGISTER_METHOD(0x024B1D30, void, UnregisterDirtyMaterialCallback, (Graphic * __this, UnityAction * action));
-IL2CPP_REGISTER_METHOD(0x024B1DF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024B1DF0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, ICanvasElement_get_transform, (Graphic * __this));
 }

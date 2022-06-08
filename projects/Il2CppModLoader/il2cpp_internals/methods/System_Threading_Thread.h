@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Thread {
 IL2CPP_REGISTER_METHOD(0x023417A0, void, AsyncLocalSetCurrentCulture, (AsyncLocalValueChangedArgs_1_System_Globalization_CultureInfo_ args));
@@ -30,8 +30,8 @@ IL2CPP_REGISTER_METHODINFO(0x047259C8, Thread_Join_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02342320, void, SleepInternal, (int32_t millisecondsTimeout));
 IL2CPP_REGISTER_METHOD(0x023423E0, void, Sleep, (int32_t millisecondsTimeout));
 IL2CPP_REGISTER_METHODINFO(0x04796CD0, Thread_Sleep__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02342540, bool, YieldInternal, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02342540, bool, Yield, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02342540, bool, YieldInternal, ());
+IL2CPP_REGISTER_METHOD(0x02342540, bool, Yield, ());
 IL2CPP_REGISTER_METHOD(0x02342560, void, SetStartHelper, (Thread * __this, Delegate * start, int32_t maxStackSize));
 IL2CPP_REGISTER_METHOD(0x02342990, CultureInfo *, get_CurrentUICulture, (Thread * __this));
 IL2CPP_REGISTER_METHOD(0x023429A0, void, set_CurrentUICulture, (Thread * __this, CultureInfo * value));
@@ -41,15 +41,15 @@ IL2CPP_REGISTER_METHOD(0x02343090, CultureInfo *, get_CurrentCulture, (Thread * 
 IL2CPP_REGISTER_METHOD(0x023430A0, void, set_CurrentCulture, (Thread * __this, CultureInfo * value));
 IL2CPP_REGISTER_METHODINFO(0x04726570, Thread_set_CurrentCulture__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02343450, CultureInfo *, GetCurrentCultureNoAppX, (Thread * __this));
-IL2CPP_REGISTER_METHOD(0x023436C0, void, nativeInitCultureAccessors, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x023437F0, void, MemoryBarrier, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023436C0, void, nativeInitCultureAccessors, ());
+IL2CPP_REGISTER_METHOD(0x023437F0, void, MemoryBarrier, ());
 IL2CPP_REGISTER_METHOD(0x02343800, void, ConstructInternalThread, (Thread * __this));
 IL2CPP_REGISTER_METHOD(0x02343810, InternalThread *, get_Internal, (Thread * __this));
-IL2CPP_REGISTER_METHOD(0x0228D860, Context *, get_CurrentContext, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02343840, Thread *, GetCurrentThread, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02343870, Thread *, get_CurrentThread, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0228DA50, int32_t, get_CurrentThreadId, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0228DA20, int32_t, GetDomainID, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0228D860, Context *, get_CurrentContext, ());
+IL2CPP_REGISTER_METHOD(0x02343840, Thread *, GetCurrentThread, ());
+IL2CPP_REGISTER_METHOD(0x02343870, Thread *, get_CurrentThread, ());
+IL2CPP_REGISTER_METHOD(0x0228DA50, int32_t, get_CurrentThreadId, ());
+IL2CPP_REGISTER_METHOD(0x0228DA20, int32_t, GetDomainID, ());
 IL2CPP_REGISTER_METHOD(0x02343950, void *, Thread_internal, (Thread * __this, MulticastDelegate * start));
 IL2CPP_REGISTER_METHOD(0x02329BB0, void, Finalize, (Thread * __this));
 IL2CPP_REGISTER_METHOD(0x02343960, bool, get_IsThreadPoolThread, (Thread * __this));
@@ -61,19 +61,19 @@ IL2CPP_REGISTER_METHOD(0x02343C80, void, set_Name, (Thread * __this, String * va
 IL2CPP_REGISTER_METHOD(0x02343DB0, ThreadState__Enum, get_ThreadState, (Thread * __this));
 IL2CPP_REGISTER_METHOD(0x02343E10, void, Abort_internal, (InternalThread * thread, Object * stateInfo));
 IL2CPP_REGISTER_METHOD(0x02343E20, void, Abort, (Thread * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, SpinWait_nop, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, SpinWait_nop, ());
 IL2CPP_REGISTER_METHOD(0x02343E50, void, SpinWait, (int32_t iterations));
 IL2CPP_REGISTER_METHOD(0x02343E60, void, StartInternal, (Thread * __this, IPrincipal * principal, StackCrawlMark__Enum * stackMark));
 IL2CPP_REGISTER_METHODINFO(0x0476D268, Thread_StartInternal__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02343F20, void, SetState, (InternalThread * thread, ThreadState__Enum set));
 IL2CPP_REGISTER_METHOD(0x02343F70, void, ClrState, (InternalThread * thread, ThreadState__Enum clr));
 IL2CPP_REGISTER_METHOD(0x02343FC0, ThreadState__Enum, GetState, (InternalThread * thread));
-IL2CPP_REGISTER_METHOD(0x0215A2D0, int32_t, SystemMaxStackStize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0215A2D0, int32_t, SystemMaxStackStize, ());
 IL2CPP_REGISTER_METHOD(0x02344010, int32_t, GetProcessDefaultStackSize, (int32_t maxStackSize));
 IL2CPP_REGISTER_METHOD(0x023440F0, void, SetStart, (Thread * __this, MulticastDelegate * start, int32_t maxStackSize));
 IL2CPP_REGISTER_METHOD(0x02344140, int32_t, get_ManagedThreadId, (Thread * __this));
-IL2CPP_REGISTER_METHOD(0x02344180, void, BeginCriticalRegion, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x023441E0, void, EndCriticalRegion, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02344180, void, BeginCriticalRegion, ());
+IL2CPP_REGISTER_METHOD(0x023441E0, void, EndCriticalRegion, ());
 IL2CPP_REGISTER_METHOD(0x02344140, int32_t, GetHashCode, (Thread * __this));
 IL2CPP_REGISTER_METHOD(0x02344240, ThreadState__Enum, ValidateThreadState, (Thread * __this));
 IL2CPP_REGISTER_METHODINFO(0x0476D450, Thread_ValidateThreadState__MethodInfo);

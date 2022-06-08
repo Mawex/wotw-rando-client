@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RSACryptoServiceProvider {
 IL2CPP_REGISTER_METHOD(0x028E6670, String *, get_SignatureAlgorithm, (RSACryptoServiceProvider * __this));
-IL2CPP_REGISTER_METHOD(0x028E66F0, bool, get_UseMachineKeyStore, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028E66F0, bool, get_UseMachineKeyStore, ());
 IL2CPP_REGISTER_METHOD(0x028E67A0, void, set_UseMachineKeyStore, (bool value));
 IL2CPP_REGISTER_METHOD(0x028E6850, Byte__Array *, HashData, (RSACryptoServiceProvider * __this, Byte__Array * data, int32_t offset, int32_t count, HashAlgorithmName hashAlgorithm));
 IL2CPP_REGISTER_METHOD(0x028E68B0, Byte__Array *, HashData, (RSACryptoServiceProvider * __this, Stream * data, HashAlgorithmName hashAlgorithm));
@@ -16,7 +16,7 @@ IL2CPP_REGISTER_METHOD(0x028E6F10, Byte__Array *, SignHash, (RSACryptoServicePro
 IL2CPP_REGISTER_METHODINFO(0x0474E4B8, RSACryptoServiceProvider_SignHash__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x028E71D0, bool, VerifyHash, (RSACryptoServiceProvider * __this, Byte__Array * hash, Byte__Array * signature, HashAlgorithmName hashAlgorithm, RSASignaturePadding * padding));
 IL2CPP_REGISTER_METHODINFO(0x047615D8, RSACryptoServiceProvider_VerifyHash__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x028E74E0, Exception *, PaddingModeNotSupported, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028E74E0, Exception *, PaddingModeNotSupported, ());
 IL2CPP_REGISTER_METHOD(0x028E7640, void, __ctor, (RSACryptoServiceProvider * __this));
 IL2CPP_REGISTER_METHOD(0x028E7660, void, __ctor, (RSACryptoServiceProvider * __this, CspParameters * parameters));
 IL2CPP_REGISTER_METHOD(0x028E76B0, void, __ctor, (RSACryptoServiceProvider * __this, int32_t dwKeySize));
@@ -66,5 +66,5 @@ IL2CPP_REGISTER_METHOD(0x028E9D20, CspKeyContainerInfo *, get_CspKeyContainerInf
 IL2CPP_REGISTER_METHOD(0x028E9E90, Byte__Array *, ExportCspBlob, (RSACryptoServiceProvider * __this, bool includePrivateParameters));
 IL2CPP_REGISTER_METHOD(0x028E9F20, void, ImportCspBlob, (RSACryptoServiceProvider * __this, Byte__Array * keyBlob));
 IL2CPP_REGISTER_METHODINFO(0x0470FEC8, RSACryptoServiceProvider_ImportCspBlob__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

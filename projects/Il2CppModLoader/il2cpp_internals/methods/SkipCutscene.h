@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkipCutscene {
 IL2CPP_REGISTER_METHOD(0x006C0B30, List_1_ICondition_ *, get_ResolvedConditions, (SkipCutscene * __this));

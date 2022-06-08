@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::Blackboard_BlackboardMoonTypes {
 IL2CPP_REGISTER_METHOD(0x03008720, void, AddVariable, (Blackboard_BlackboardMoonTypes * __this, String * varName, Type * type));

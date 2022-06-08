@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::PKCS12_DeriveBytes {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PKCS12_DeriveBytes * __this));
@@ -11,7 +11,7 @@ IL2CPP_REGISTER_METHOD(0x025E46B0, Byte__Array *, Derive, (PKCS12_DeriveBytes * 
 IL2CPP_REGISTER_METHOD(0x025E4BE0, Byte__Array *, DeriveKey, (PKCS12_DeriveBytes * __this, int32_t size));
 IL2CPP_REGISTER_METHOD(0x025E4CA0, Byte__Array *, DeriveIV, (PKCS12_DeriveBytes * __this, int32_t size));
 IL2CPP_REGISTER_METHOD(0x025E4D60, Byte__Array *, DeriveMAC, (PKCS12_DeriveBytes * __this, int32_t size));
-IL2CPP_REGISTER_METHOD(0x025E4E20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025E4E20, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PKCS12_DeriveBytes_1 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_HashName, (PKCS12_DeriveBytes_1 * __this));
 IL2CPP_REGISTER_METHOD(0x002FA490, void, set_HashName, (PKCS12_DeriveBytes_1 * __this, String * value));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x02934E80, Byte__Array *, Derive, (PKCS12_DeriveBytes_1 
 IL2CPP_REGISTER_METHOD(0x029353B0, Byte__Array *, DeriveKey, (PKCS12_DeriveBytes_1 * __this, int32_t size));
 IL2CPP_REGISTER_METHOD(0x02935470, Byte__Array *, DeriveIV, (PKCS12_DeriveBytes_1 * __this, int32_t size));
 IL2CPP_REGISTER_METHOD(0x02935530, Byte__Array *, DeriveMAC, (PKCS12_DeriveBytes_1 * __this, int32_t size));
-IL2CPP_REGISTER_METHOD(0x029355F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029355F0, void, __cctor, ());
 }

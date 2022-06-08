@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::DynamicMethod {
 IL2CPP_REGISTER_METHOD(0x0267F7B0, void, __ctor, (DynamicMethod * __this, String * name, Type * returnType, Type__Array * parameterTypes, Module * m, bool skipVisibility));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::xboxLive::PlayerPrefStorageEventHandler {
 IL2CPP_REGISTER_METHOD(0x00F6B820, Task *, Write, (PlayerPrefStorageEventHandler * __this, String * key, Byte__Array * data));

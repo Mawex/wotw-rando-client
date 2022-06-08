@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimatorCondition {
 IL2CPP_REGISTER_METHOD(0x00504AA0, bool, Validate, (AnimatorCondition * __this, IContext * context));

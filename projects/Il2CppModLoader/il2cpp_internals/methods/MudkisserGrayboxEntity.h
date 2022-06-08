@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MudkisserGrayboxEntity {
 IL2CPP_REGISTER_METHOD(0x00875900, bool, get_IsFlopping, (MudkisserGrayboxEntity * __this));

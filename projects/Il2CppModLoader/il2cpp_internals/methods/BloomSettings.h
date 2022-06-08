@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BloomSettings {
 IL2CPP_REGISTER_METHOD(0x00D34B00, BloomSettings *, Clone, (BloomSettings * __this));

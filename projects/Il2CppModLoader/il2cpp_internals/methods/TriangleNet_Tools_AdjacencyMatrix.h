@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::AdjacencyMatrix {
 IL2CPP_REGISTER_METHOD(0x002FB930, Int32__Array *, get_ColumnPointers, (AdjacencyMatrix * __this));

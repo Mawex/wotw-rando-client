@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ConsoleConnection {
 IL2CPP_REGISTER_METHOD(0x011E4E90, void, __ctor, (ConsoleConnection * __this, bool receiveFiles));

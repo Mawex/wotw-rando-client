@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CurrentCameraTransformProvider {
 IL2CPP_REGISTER_METHOD(0x00DB9D20, Transform *, get_CurrentCameraTransform, (CurrentCameraTransformProvider * __this));

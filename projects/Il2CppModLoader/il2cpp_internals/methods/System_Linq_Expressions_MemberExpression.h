@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::MemberExpression {
 IL2CPP_REGISTER_METHOD(0x005D2E60, MemberInfo_1 *, get_Member, (MemberExpression * __this));

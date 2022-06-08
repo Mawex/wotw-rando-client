@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::IProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x00E3D5E0, void, CacheDefault, (IProfilingSetting * __this));

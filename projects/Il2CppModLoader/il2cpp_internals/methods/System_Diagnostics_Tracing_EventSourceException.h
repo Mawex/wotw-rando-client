@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSourceException {
 IL2CPP_REGISTER_METHOD(0x019FD3F0, void, __ctor, (EventSourceException * __this));

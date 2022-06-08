@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XsdBuilder {
 IL2CPP_REGISTER_METHOD(0x01938610, void, __ctor, (XsdBuilder * __this, XmlReader * reader, XmlNamespaceManager * curmgr, XmlSchema * schema, XmlNameTable * nameTable, SchemaNames * schemaNames, ValidationEventHandler * eventhandler));
@@ -244,5 +244,5 @@ IL2CPP_REGISTER_METHOD(0x01943D70, void, SendValidationEvent, (XsdBuilder * __th
 IL2CPP_REGISTER_METHODINFO(0x04777058, XsdBuilder_SendValidationEvent_3__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01943F40, void, SendValidationEvent, (XsdBuilder * __this, XmlSchemaException * e));
 IL2CPP_REGISTER_METHOD(0x01943F50, void, RecordPosition, (XsdBuilder * __this));
-IL2CPP_REGISTER_METHOD(0x01944030, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01944030, void, __cctor, ());
 }

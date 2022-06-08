@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossLocationBrainController {
 IL2CPP_REGISTER_METHOD(0x011B24C0, Enum__Array *, GetEntries, (SpiderBossLocationBrainController * __this));

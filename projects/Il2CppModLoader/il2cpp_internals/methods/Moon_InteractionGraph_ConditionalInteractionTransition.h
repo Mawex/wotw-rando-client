@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::ConditionalInteractionTransition {
 IL2CPP_REGISTER_METHOD(0x0198CE50, IInteractionNode *, get_TransitionDestination, (ConditionalInteractionTransition * __this));

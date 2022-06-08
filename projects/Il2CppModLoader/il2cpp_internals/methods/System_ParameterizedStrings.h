@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ParameterizedStrings {
 IL2CPP_REGISTER_METHOD(0x0227C930, String *, Evaluate, (String * format, ParameterizedStrings_FormatParam__Array * args));

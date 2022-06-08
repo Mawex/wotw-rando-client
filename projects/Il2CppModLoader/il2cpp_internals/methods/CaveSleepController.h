@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CaveSleepController {
 IL2CPP_REGISTER_METHOD(0x0103B230, void, Start, (CaveSleepController * __this));

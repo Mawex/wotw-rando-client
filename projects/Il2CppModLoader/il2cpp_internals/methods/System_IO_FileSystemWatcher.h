@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::FileSystemWatcher {
 IL2CPP_REGISTER_METHOD(0x0200A8A0, ISite *, get_Site, (FileSystemWatcher * __this));

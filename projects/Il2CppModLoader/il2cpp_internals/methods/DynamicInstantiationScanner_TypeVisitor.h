@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DynamicInstantiationScanner_TypeVisitor {
 IL2CPP_REGISTER_METHOD(0x030E7390, void, __ctor, (DynamicInstantiationScanner_TypeVisitor * __this, Type * type));

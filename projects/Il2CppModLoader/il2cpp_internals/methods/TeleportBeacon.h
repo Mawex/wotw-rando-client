@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TeleportBeacon {
 IL2CPP_REGISTER_METHOD(0x00CE5210, bool, get_IsLockOnTargetValid, (TeleportBeacon * __this));

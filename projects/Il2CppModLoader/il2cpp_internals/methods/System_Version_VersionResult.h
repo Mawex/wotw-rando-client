@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Version_VersionResult {
 IL2CPP_REGISTER_METHOD(0x00249F60, void, Init, (Version_VersionResult__Boxed * __this, String * argumentName, bool canThrow));

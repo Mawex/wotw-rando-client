@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransformAnimatorSystem_ObjectState {
 IL2CPP_REGISTER_METHOD(0x0311F8F0, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_ *, get_HandoverPosition, (TransformAnimatorSystem_ObjectState * __this));

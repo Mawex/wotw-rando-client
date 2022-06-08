@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceLeaderboardEntry {
 IL2CPP_REGISTER_METHOD(0x002FBBA0, String *, get_PlayerName, (RaceLeaderboardEntry * __this));

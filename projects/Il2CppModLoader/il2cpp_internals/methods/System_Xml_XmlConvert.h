@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlConvert {
 IL2CPP_REGISTER_METHOD(0x01960BB0, String *, EncodeName, (String * name));
@@ -78,8 +78,8 @@ IL2CPP_REGISTER_METHOD(0x019670C0, double, ToXPathDouble, (Object * o));
 IL2CPP_REGISTER_METHOD(0x01967320, TimeSpan, ToTimeSpan, (String * s));
 IL2CPP_REGISTER_METHODINFO(0x0470B3D8, XmlConvert_ToTimeSpan__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x019674A0, Exception *, TryToTimeSpan, (String * s, TimeSpan * result));
-IL2CPP_REGISTER_METHOD(0x019675B0, String__Array *, get_AllDateTimeFormats, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x019676C0, void, CreateAllDateTimeFormats, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x019675B0, String__Array *, get_AllDateTimeFormats, ());
+IL2CPP_REGISTER_METHOD(0x019676C0, void, CreateAllDateTimeFormats, ());
 IL2CPP_REGISTER_METHOD(0x01968070, DateTime, ToDateTime, (String * s));
 IL2CPP_REGISTER_METHOD(0x019682D0, DateTime, ToDateTime, (String * s, String__Array * formats));
 IL2CPP_REGISTER_METHOD(0x019683C0, DateTime, ToDateTime, (String * s, XmlDateTimeSerializationMode__Enum dateTimeOption));
@@ -118,5 +118,5 @@ IL2CPP_REGISTER_METHOD(0x0196AF70, Exception *, CreateInvalidCharException, (uin
 IL2CPP_REGISTER_METHOD(0x0196B020, Exception *, CreateInvalidCharException, (uint16_t invChar, uint16_t nextChar, ExceptionType__Enum exceptionType));
 IL2CPP_REGISTER_METHOD(0x0196B180, Exception *, CreateInvalidNameCharException, (String * name, int32_t index, ExceptionType__Enum exceptionType));
 IL2CPP_REGISTER_METHOD(0x0196B2B0, ArgumentException *, CreateInvalidNameArgumentException, (String * name, String * argumentName));
-IL2CPP_REGISTER_METHOD(0x0196B500, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0196B500, void, __cctor, ());
 }

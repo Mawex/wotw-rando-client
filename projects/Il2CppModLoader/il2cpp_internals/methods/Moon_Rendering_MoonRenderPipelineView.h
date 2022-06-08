@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineView {
 IL2CPP_REGISTER_METHOD(0x007A3190, bool, get_isGameView, (MoonRenderPipelineView * __this));
@@ -65,11 +65,11 @@ IL2CPP_REGISTER_METHOD(0x007B38F0, void, EmissivityRender, (MoonRenderPipelineVi
 IL2CPP_REGISTER_METHOD(0x007B4510, int32_t, AllocateOldGodRayBlurRT, (MoonRenderPipelineView * __this, int32_t id));
 IL2CPP_REGISTER_METHOD(0x007B4650, int32_t, AllocateUnusedGodRayBlurRT, (MoonRenderPipelineView * __this, int32_t id));
 IL2CPP_REGISTER_METHOD(0x007B47E0, void, GodRaysRender, (MoonRenderPipelineView * __this, RenderTarget * alphaMaskTex, List_1_GodRayModifier_ * godRays, Vector2 sliceScale, float zWorldNear, float zWorldFar));
-IL2CPP_REGISTER_METHOD(0x007B52B0, RenderingSettingsPerScene *, get_CurrentPerSceneSettings, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x007B53B0, bool, get_AllowDofOnAllSlices, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x007B5490, void, ForceAllowDofOnAllSlices, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x007B5590, void, ForceFXAADepthPrecull, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x007B5690, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007B52B0, RenderingSettingsPerScene *, get_CurrentPerSceneSettings, ());
+IL2CPP_REGISTER_METHOD(0x007B53B0, bool, get_AllowDofOnAllSlices, ());
+IL2CPP_REGISTER_METHOD(0x007B5490, void, ForceAllowDofOnAllSlices, ());
+IL2CPP_REGISTER_METHOD(0x007B5590, void, ForceFXAADepthPrecull, ());
+IL2CPP_REGISTER_METHOD(0x007B5690, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x007B58F0, void, UpdateSceneRenderingSettings, (RenderingSettingsPerScene * settings));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, DeferredLightingEnabled, (MoonRenderPipelineView * __this));
 IL2CPP_REGISTER_METHOD(0x007B59B0, void, OnCullingCategoryResultsReady, (MoonRenderPipelineView * __this, RendererCullingCategoryResults__Array * visibleRendererCategories));
@@ -97,7 +97,7 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, motionBlur_init, (MoonRenderPipelineVie
 IL2CPP_REGISTER_METHOD(0x007D7F60, void, motionBlur_update, (MoonRenderPipelineView * __this, float dt));
 IL2CPP_REGISTER_METHOD(0x007D83A0, void, motionBlur_setInterestZones, (MoonRenderPipelineView * __this, float zNear, float zFar));
 IL2CPP_REGISTER_METHOD(0x007D86F0, void, GatherTimings, (MoonRenderPipelineView * __this, MoonRenderPipelineView_SrpProfilerFrame * frame));
-IL2CPP_REGISTER_METHOD(0x007D90D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007D90D0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01550D20, void, alloc, (Object__Array * * array, int32_t size));
 IL2CPP_REGISTER_METHOD(0x01550D20, void, alloc, (MoonRenderPipelineSettings_Slice__Array * * array, int32_t size));
 IL2CPP_REGISTER_METHODINFO(0x04724CE8, MoonRenderPipelineView_alloc_1__MethodInfo);

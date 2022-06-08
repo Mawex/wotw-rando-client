@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MasterTimelineCompleted {
 IL2CPP_REGISTER_METHOD(0x00A11820, void, FixedUpdate, (MasterTimelineCompleted * __this));

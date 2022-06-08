@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::KissingRig {
 IL2CPP_REGISTER_METHOD(0x02221BD0, void, Start, (KissingRig * __this));

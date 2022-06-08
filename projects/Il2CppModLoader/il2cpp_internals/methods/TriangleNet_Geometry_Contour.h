@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::Contour {
 IL2CPP_REGISTER_METHOD(0x002FB930, List_1_TriangleNet_Geometry_Vertex_ *, get_Points, (Contour * __this));

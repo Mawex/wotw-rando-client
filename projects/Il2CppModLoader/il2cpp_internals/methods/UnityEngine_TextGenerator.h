@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::TextGenerator {
 IL2CPP_REGISTER_METHOD(0x0319B620, void, __ctor, (TextGenerator * __this));
@@ -23,7 +23,7 @@ IL2CPP_REGISTER_METHOD(0x0319CD90, IList_1_UnityEngine_UILineInfo_ *, get_lines,
 IL2CPP_REGISTER_METHOD(0x0319CE10, Rect, get_rectExtents, (TextGenerator * __this));
 IL2CPP_REGISTER_METHOD(0x0319CE90, int32_t, get_characterCount, (TextGenerator * __this));
 IL2CPP_REGISTER_METHOD(0x0319CEE0, int32_t, get_lineCount, (TextGenerator * __this));
-IL2CPP_REGISTER_METHOD(0x0319CF30, void *, Internal_Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0319CF30, void *, Internal_Create, ());
 IL2CPP_REGISTER_METHOD(0x0319CF80, void, Internal_Destroy, (void * ptr));
 IL2CPP_REGISTER_METHOD(0x0319CFD0, bool, Populate_Internal, (TextGenerator * __this, String * str, Font * font, Color color, int32_t fontSize, float scaleFactor, float lineSpacing, FontStyle__Enum style, bool richText, bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, int32_t verticalOverFlow, int32_t horizontalOverflow, bool updateBounds, TextAnchor__Enum anchor, float extentsX, float extentsY, float pivotX, float pivotY, bool generateOutOfBounds, bool alignByGeometry, uint32_t * error));
 IL2CPP_REGISTER_METHOD(0x0319D170, bool, Populate_Internal, (TextGenerator * __this, String * str, Font * font, Color color, int32_t fontSize, float scaleFactor, float lineSpacing, FontStyle__Enum style, bool richText, bool resizeTextForBestFit, int32_t resizeTextMinSize, int32_t resizeTextMaxSize, VerticalWrapMode__Enum verticalOverFlow, HorizontalWrapMode__Enum horizontalOverflow, bool updateBounds, TextAnchor__Enum anchor, Vector2 extents, Vector2 pivot, bool generateOutOfBounds, bool alignByGeometry, TextGenerationError__Enum * error));

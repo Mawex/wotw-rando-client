@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PurchaseThingScreen {
 IL2CPP_REGISTER_METHOD(0x00420EE0, CleverMenuItemSelectionManager *, get_NavigationManager, (PurchaseThingScreen * __this));

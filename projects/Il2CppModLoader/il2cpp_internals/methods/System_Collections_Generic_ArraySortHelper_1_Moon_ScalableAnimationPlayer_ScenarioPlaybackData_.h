@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::ScalableAnimationPlayer_ScenarioPlaybackData_ {
 IL2CPP_REGISTER_METHOD(0x02F39590, void, Sort, (ScalableAnimationPlayer_ScenarioPlaybackData__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_ScalableAnimationPlayer_ScenarioPlaybackData_ * comparer));

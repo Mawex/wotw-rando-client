@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleAggroBehaviour {
 IL2CPP_REGISTER_METHOD(0x010AB560, void, OnEnter, (TentacleAggroBehaviour * __this, IContext * context));

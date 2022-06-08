@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Voronoi::DefaultVoronoiFactory {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Initialize, (DefaultVoronoiFactory * __this, int32_t vertexCount, int32_t edgeCount, int32_t faceCount));

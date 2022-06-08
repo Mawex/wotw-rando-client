@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::NetEventSource {
 IL2CPP_REGISTER_METHOD(0x01E71D10, void, Enter, (Object * thisOrContextObject, FormattableString * formattableString, String * memberName));
@@ -28,7 +28,7 @@ IL2CPP_REGISTER_METHOD(0x01E73DB0, void, Associate, (Object * thisOrContextObjec
 IL2CPP_REGISTER_METHOD(0x01E73F00, void, Associate, (NetEventSource * __this, String * thisOrContextObject, String * memberName, String * first, String * second));
 IL2CPP_REGISTER_METHOD(0x01E73FE0, void, DebugValidateArg, (Object * arg));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DebugValidateArg, (FormattableString * arg));
-IL2CPP_REGISTER_METHOD(0x01E74070, bool, get_IsEnabled, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E74070, bool, get_IsEnabled, ());
 IL2CPP_REGISTER_METHOD(0x01E74120, String *, IdOf, (Object * value));
 IL2CPP_REGISTER_METHOD(0x01E74250, int32_t, GetHashCode, (Object * value));
 IL2CPP_REGISTER_METHOD(0x01E74270, Object *, Format, (Object * value));
@@ -46,5 +46,5 @@ IL2CPP_REGISTER_METHODINFO(0x0474F4F8, NetEventSource_WriteEvent_4__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E751D0, void, WriteEvent, (NetEventSource * __this, int32_t eventId, String * arg1, String * arg2, String * arg3, int32_t arg4));
 IL2CPP_REGISTER_METHODINFO(0x047408A8, NetEventSource_WriteEvent_5__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E75370, void, __ctor, (NetEventSource * __this));
-IL2CPP_REGISTER_METHOD(0x01E75410, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E75410, void, __cctor, ());
 }

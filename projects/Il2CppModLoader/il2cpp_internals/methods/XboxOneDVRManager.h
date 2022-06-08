@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxOneDVRManager {
 IL2CPP_REGISTER_METHOD(0x00597E70, void, Awake, (XboxOneDVRManager * __this));

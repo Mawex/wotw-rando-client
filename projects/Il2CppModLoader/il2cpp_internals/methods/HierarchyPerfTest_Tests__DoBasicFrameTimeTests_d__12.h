@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::Tests__DoBasicFrameTimeTests_d__12 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (Tests_DoBasicFrameTimeTests_d_12 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurbulenceSettings {
 IL2CPP_REGISTER_METHOD(0x00B1A610, Texture2D *, get_TurbulenceTexture, (TurbulenceSettings * __this));

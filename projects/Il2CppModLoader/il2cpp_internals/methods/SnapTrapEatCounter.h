@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SnapTrapEatCounter {
 IL2CPP_REGISTER_METHOD(0x006D6050, void, Awake, (SnapTrapEatCounter * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PauseAnimator {
 IL2CPP_REGISTER_METHOD(0x00779290, void, OnStartPlayback, (PauseAnimator * __this, IContext * context));

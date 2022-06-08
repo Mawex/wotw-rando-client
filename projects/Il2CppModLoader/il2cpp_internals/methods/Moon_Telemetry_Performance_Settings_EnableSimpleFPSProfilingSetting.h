@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::EnableSimpleFPSProfilingSetting {
 IL2CPP_REGISTER_METHOD(0x004AB2B0, ProfilingSettings_SettingType__Enum, get_SettingType, (EnableSimpleFPSProfilingSetting * __this));

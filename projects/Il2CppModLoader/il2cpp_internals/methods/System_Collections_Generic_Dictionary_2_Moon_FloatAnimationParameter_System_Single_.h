@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::FloatAnimationParameter_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x02BCDF80, bool, TryGetValue, (Dictionary_2_Moon_FloatAnimationParameter_System_Single_ * __this, FloatAnimationParameter * key, float * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::ConstraintPositionOffset {
 IL2CPP_REGISTER_METHOD(0x02051EC0, void, UpdateConstraint, (ConstraintPositionOffset * __this));

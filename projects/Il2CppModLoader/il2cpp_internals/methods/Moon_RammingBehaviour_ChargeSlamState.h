@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour_ChargeSlamState {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (RammingBehaviour_ChargeSlamState * __this, RammingBehaviour * behaviour));

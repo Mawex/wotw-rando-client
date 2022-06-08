@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::CFString {
 IL2CPP_REGISTER_METHOD(0x02173690, void, __ctor, (CFString * __this, void * handle, bool own));

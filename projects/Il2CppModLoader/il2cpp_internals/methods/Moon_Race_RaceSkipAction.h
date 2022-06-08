@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::RaceSkipAction {
 IL2CPP_REGISTER_METHOD(0x00C49810, void, Perform, (RaceSkipAction * __this, IContext * context));

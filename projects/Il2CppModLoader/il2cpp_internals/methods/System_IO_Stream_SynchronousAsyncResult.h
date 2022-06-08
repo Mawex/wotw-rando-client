@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Stream_SynchronousAsyncResult {
 IL2CPP_REGISTER_METHOD(0x0237F2D0, void, __ctor, (Stream_SynchronousAsyncResult * __this, int32_t bytesRead, Object * asyncStateObject));

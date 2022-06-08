@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerformSkipAction {
 IL2CPP_REGISTER_METHOD(0x0044CDF0, void, Perform, (PerformSkipAction * __this, IContext * context));

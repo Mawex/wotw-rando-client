@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryAssignQuestEvent {
 IL2CPP_REGISTER_METHOD(0x01466940, void, __ctor, (MoonTelemetryAssignQuestEvent * __this, Quest * quest));

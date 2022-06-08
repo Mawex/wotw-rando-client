@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverCCD {
 IL2CPP_REGISTER_METHOD(0x02BEA260, void, FadeOutBoneWeights, (IKSolverCCD * __this));

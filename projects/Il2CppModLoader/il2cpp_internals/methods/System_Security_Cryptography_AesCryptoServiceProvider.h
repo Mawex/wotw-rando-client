@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::AesCryptoServiceProvider {
 IL2CPP_REGISTER_METHOD(0x02FC8400, void, __ctor, (AesCryptoServiceProvider * __this));

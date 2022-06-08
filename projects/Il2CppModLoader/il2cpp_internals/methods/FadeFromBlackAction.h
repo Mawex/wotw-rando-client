@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FadeFromBlackAction {
 IL2CPP_REGISTER_METHOD(0x008A34C0, float, get_Duration, (FadeFromBlackAction * __this));

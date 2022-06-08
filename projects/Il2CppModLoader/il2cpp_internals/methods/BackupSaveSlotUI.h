@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BackupSaveSlotUI {
 IL2CPP_REGISTER_METHOD(0x00F83480, Rect, get_Bounds, (BackupSaveSlotUI * __this));

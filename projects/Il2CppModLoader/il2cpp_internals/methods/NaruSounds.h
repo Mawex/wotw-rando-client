@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NaruSounds {
 IL2CPP_REGISTER_METHOD(0x00886490, PlatformMovement *, get_PlatformMovement, (NaruSounds * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RotationAnimationModifier {
 IL2CPP_REGISTER_METHOD(0x009328B0, void, ApplyMultipliers, (RotationAnimationModifier * __this, float strength, float speed));

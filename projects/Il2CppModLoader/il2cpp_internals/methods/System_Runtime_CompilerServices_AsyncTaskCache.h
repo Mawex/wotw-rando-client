@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskCache {
-IL2CPP_REGISTER_METHOD(0x01A91550, Task_1_System_Int32___Array *, CreateInt32Tasks, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01A91760, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A91550, Task_1_System_Int32___Array *, CreateInt32Tasks, ());
+IL2CPP_REGISTER_METHOD(0x01A91760, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01542F20, Task_1_System_Object_ *, CreateCacheableTask, (Object * result));
 IL2CPP_REGISTER_METHOD(0x01542CE0, Task_1_System_Int32_ *, CreateCacheableTask, (int32_t result));
 IL2CPP_REGISTER_METHODINFO(0x0476A128, AsyncTaskCache_CreateCacheableTask_1__MethodInfo);

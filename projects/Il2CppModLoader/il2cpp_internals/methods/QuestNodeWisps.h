@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::QuestNodeWisps {
 IL2CPP_REGISTER_METHOD(0x002FBC40, MoonTimeline *, get_IntroTimeline, (QuestNodeWisps * __this));

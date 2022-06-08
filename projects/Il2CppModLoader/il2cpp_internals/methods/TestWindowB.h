@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TestWindowB {
 IL2CPP_REGISTER_METHOD(0x010E17B0, void, OnEnable, (TestWindowB * __this));

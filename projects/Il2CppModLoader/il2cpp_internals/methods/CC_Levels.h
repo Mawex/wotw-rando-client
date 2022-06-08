@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CC_Levels {
 IL2CPP_REGISTER_METHOD(0x03194160, void, OnRenderImage, (CC_Levels * __this, RenderTexture * source, RenderTexture * destination));

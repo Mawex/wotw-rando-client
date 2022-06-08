@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon::VectorAnimationParameter_UnityEngine::Vector3_ {
 IL2CPP_REGISTER_METHOD(0x02C13740, void, Invoke, (Action_2_Moon_VectorAnimationParameter_UnityEngine_Vector3_ * __this, VectorAnimationParameter * arg1, Vector3 arg2));

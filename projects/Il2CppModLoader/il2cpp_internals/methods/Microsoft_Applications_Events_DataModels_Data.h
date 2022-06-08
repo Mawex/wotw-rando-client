@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::DataModels::Data {
 IL2CPP_REGISTER_METHOD(0x002FA280, Dictionary_2_System_String_Microsoft_Applications_Events_DataModels_Value_ *, get_properties, (Data * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormTailPost {
 IL2CPP_REGISTER_METHOD(0x00C26B90, void, InitializeSnakeSolver, (SandWormTailPost * __this));

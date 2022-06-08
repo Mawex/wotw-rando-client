@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBatEntity {
 IL2CPP_REGISTER_METHOD(0x00956A60, ConfigurableJoint *, GetGeneratedConfigurableJoint, (SpiderBatEntity * __this));

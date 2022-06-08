@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XCData {
 IL2CPP_REGISTER_METHOD(0x0302F340, void, __ctor, (XCData * __this, String * value));

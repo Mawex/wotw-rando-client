@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerFallReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x014497D0, void, StartTimeline, (MinerFallReactionBehaviour * __this, MoonTimeline * timeline, Action * OnStop));

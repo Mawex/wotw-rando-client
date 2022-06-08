@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WindCollision {
 IL2CPP_REGISTER_METHOD(0x00575560, void, Awake, (WindCollision * __this));

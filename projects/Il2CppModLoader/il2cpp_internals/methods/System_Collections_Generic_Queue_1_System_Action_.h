@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_System::Action_ {
 IL2CPP_REGISTER_METHOD(0x02CA77B0, Action *, Dequeue, (Queue_1_System_Action_ * __this));

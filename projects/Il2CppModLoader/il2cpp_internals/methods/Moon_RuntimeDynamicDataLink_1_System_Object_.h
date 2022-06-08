@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RuntimeDynamicDataLink_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0290F550, bool, get_IsValid, (RuntimeDynamicDataLink_1_System_Object_ * __this));

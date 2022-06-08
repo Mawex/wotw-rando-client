@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StomperTrigger {
 IL2CPP_REGISTER_METHOD(0x0065C110, void, OnTriggerEnter, (StomperTrigger * __this, Collider * collider));

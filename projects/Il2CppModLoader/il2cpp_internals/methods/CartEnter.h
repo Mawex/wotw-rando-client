@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CartEnter {
 IL2CPP_REGISTER_METHOD(0x00B37300, void, OnTriggerEnter, (CartEnter * __this, Collider * col));

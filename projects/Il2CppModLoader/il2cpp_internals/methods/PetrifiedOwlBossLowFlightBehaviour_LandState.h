@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLowFlightBehaviour_LandState {
 IL2CPP_REGISTER_METHOD(0x0177A160, void, __ctor, (PetrifiedOwlBossLowFlightBehaviour_LandState * __this, PetrifiedOwlBossLowFlightBehaviour * behaviour));

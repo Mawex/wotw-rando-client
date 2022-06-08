@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::SimpleScripting___c {
-IL2CPP_REGISTER_METHOD(0x0166C800, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0166C800, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SimpleScripting_c * __this));
 IL2CPP_REGISTER_METHOD(0x0166C940, void, _Start_b__1_0, (SimpleScripting_c * __this, JSONNode * args));
 IL2CPP_REGISTER_METHODINFO(0x04731F98, SimpleScripting_c__Start_b__1_0__MethodInfo);

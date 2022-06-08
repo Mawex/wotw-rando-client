@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RSAPKCS1SignatureDescription {
 IL2CPP_REGISTER_METHOD(0x028ED5C0, void, __ctor, (RSAPKCS1SignatureDescription * __this, String * hashAlgorithm, String * digestAlgorithm));

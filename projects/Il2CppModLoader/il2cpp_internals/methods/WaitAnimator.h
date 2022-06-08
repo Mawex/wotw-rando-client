@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaitAnimator {
 IL2CPP_REGISTER_METHOD(0x00420EE0, Func_2_IContext_Boolean_ *, get_CodeCondition, (WaitAnimator * __this));

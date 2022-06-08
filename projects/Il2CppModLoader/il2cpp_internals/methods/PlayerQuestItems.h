@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerQuestItems {
 IL2CPP_REGISTER_METHOD(0x014287B0, void, AddItem, (PlayerQuestItems * __this, QuestItemType__Enum item));

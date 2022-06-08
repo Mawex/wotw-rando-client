@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterPoisonCloudTrail {
 IL2CPP_REGISTER_METHOD(0x008DD710, void, SetDestroyOnCleared, (WaterPoisonCloudTrail * __this));

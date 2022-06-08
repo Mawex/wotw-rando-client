@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Interface::MonoRemoteCertificateValidationCallback {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (MonoRemoteCertificateValidationCallback * __this, Object * object, void * method_1));

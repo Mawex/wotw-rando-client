@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::MessageBox {
 IL2CPP_REGISTER_METHOD(0x00D26F90, HashSet_1_Moon_ISuspendable_ *, GetSuspendables, (MessageBox_1 * __this));

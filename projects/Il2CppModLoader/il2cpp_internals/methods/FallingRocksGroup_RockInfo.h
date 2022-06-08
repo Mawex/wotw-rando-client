@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FallingRocksGroup_RockInfo {
 IL2CPP_REGISTER_METHOD(0x0099AAE0, int32_t, CompareTo, (FallingRocksGroup_RockInfo * __this, Object * obj));

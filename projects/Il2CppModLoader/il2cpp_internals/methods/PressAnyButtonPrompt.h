@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PressAnyButtonPrompt {
 IL2CPP_REGISTER_METHOD(0x00C70600, void, FixedUpdate, (PressAnyButtonPrompt * __this));

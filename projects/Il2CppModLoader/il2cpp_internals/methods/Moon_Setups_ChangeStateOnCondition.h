@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Setups::ChangeStateOnCondition {
 IL2CPP_REGISTER_METHOD(0x003FCB00, bool, ShouldCreateCheckpoint, (ChangeStateOnCondition * __this));

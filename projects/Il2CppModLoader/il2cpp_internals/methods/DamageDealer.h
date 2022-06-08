@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageDealer {
 IL2CPP_REGISTER_METHOD(0x004358D0, bool, ShouldUseDamageByAreaResolver, (DamageDealer * __this));
@@ -50,5 +50,5 @@ IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, get_VirtualTimelineTarget, (Dam
 IL2CPP_REGISTER_METHOD(0x00420230, VirtualTimelineRepresentationGroup__Enum, get_VirtualTimelineGroup, (DamageDealer * __this));
 IL2CPP_REGISTER_METHOD(0x00DC7010, String *, get_NameDisplayedOnClip, (DamageDealer * __this));
 IL2CPP_REGISTER_METHOD(0x00DC70E0, void, __ctor, (DamageDealer * __this));
-IL2CPP_REGISTER_METHOD(0x00DC7670, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DC7670, void, __cctor, ());
 }

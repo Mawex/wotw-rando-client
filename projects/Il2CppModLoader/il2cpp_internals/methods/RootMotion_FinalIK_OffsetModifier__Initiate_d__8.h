@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::OffsetModifier__Initiate_d__8 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (OffsetModifier_Initiate_d_8 * __this, int32_t __1__state));

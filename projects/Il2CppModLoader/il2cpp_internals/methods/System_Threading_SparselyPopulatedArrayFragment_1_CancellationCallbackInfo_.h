@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ {
 IL2CPP_REGISTER_METHOD(0x027754B0, CancellationCallbackInfo *, SafeAtomicRemove, (SparselyPopulatedArrayFragment_1_CancellationCallbackInfo_ * __this, int32_t index, CancellationCallbackInfo * expectedElement));

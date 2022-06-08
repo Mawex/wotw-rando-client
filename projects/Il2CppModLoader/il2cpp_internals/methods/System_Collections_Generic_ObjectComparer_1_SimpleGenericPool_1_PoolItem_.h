@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_SimpleGenericPool_1_PoolItem_ {
 IL2CPP_REGISTER_METHOD(0x01CC90D0, int32_t, Compare, (ObjectComparer_1_SimpleGenericPool_1_PoolItem_ * __this, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_ x, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo_ y));

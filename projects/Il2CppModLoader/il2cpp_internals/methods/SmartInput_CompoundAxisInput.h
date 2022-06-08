@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SmartInput::CompoundAxisInput {
 IL2CPP_REGISTER_METHOD(0x006CA3B0, void, __ctor, (CompoundAxisInput * __this, IAxisInput__Array * inputs));

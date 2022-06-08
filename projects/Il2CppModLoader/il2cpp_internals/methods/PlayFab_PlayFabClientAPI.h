@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabClientAPI {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x017B4780, bool, IsClientLoggedIn, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x017B48E0, void, ForgetAllCredentials, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x017B4780, bool, IsClientLoggedIn, ());
+IL2CPP_REGISTER_METHOD(0x017B48E0, void, ForgetAllCredentials, ());
 IL2CPP_REGISTER_METHOD(0x017B4970, void, AcceptTrade, (AcceptTradeRequest * request, Action_1_PlayFab_ClientModels_AcceptTradeResponse_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));
 IL2CPP_REGISTER_METHODINFO(0x047325E8, PlayFabClientAPI_AcceptTrade__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x017B4AE0, void, AddFriend, (AddFriendRequest * request, Action_1_PlayFab_ClientModels_AddFriendResult_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageEdgeMetaData_1_PhysicsEdge_ {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnMergeEdge, (CageEdgeMetaData_1_PhysicsEdge_ * __this, CageStructureTool_Edge * edgeA, CageStructureTool_Edge * edgeB, CageStructureTool_Edge * newEdge));

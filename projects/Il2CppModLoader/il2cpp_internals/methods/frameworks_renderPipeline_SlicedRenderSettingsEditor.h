@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::renderPipeline::SlicedRenderSettingsEditor {
-IL2CPP_REGISTER_METHOD(0x00F62DD0, bool, get_IsEnabled, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00F62F30, bool, get_IsShowingOverride, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F62DD0, bool, get_IsEnabled, ());
+IL2CPP_REGISTER_METHOD(0x00F62F30, bool, get_IsShowingOverride, ());
 IL2CPP_REGISTER_METHOD(0x00F63050, DepthOfFieldController *, get_DofController, (SlicedRenderSettingsEditor * __this));
 IL2CPP_REGISTER_METHOD(0x00F63740, LayeredRenderSettings_LayerParams__Array *, GetLayersFromSettings, (SlicedRenderSettingsEditor * __this, LayeredRenderSettings * settings));
 IL2CPP_REGISTER_METHOD(0x00F63890, LayeredRenderSettings *, get_SceneSettings, (SlicedRenderSettingsEditor * __this));
@@ -40,8 +40,8 @@ IL2CPP_REGISTER_METHOD(0x00F68680, void, DrawIntWithBackground, (SlicedRenderSet
 IL2CPP_REGISTER_METHOD(0x00F69030, void, DrawMinus, (SlicedRenderSettingsEditor * __this, int32_t x, int32_t y));
 IL2CPP_REGISTER_METHOD(0x00F690B0, void, DrawNumber, (SlicedRenderSettingsEditor * __this, int32_t x, int32_t y, int32_t num, bool isLeading));
 IL2CPP_REGISTER_METHOD(0x00F692F0, void, DrawDot, (SlicedRenderSettingsEditor * __this, int32_t x, int32_t y));
-IL2CPP_REGISTER_METHOD(0x00F69370, void, SuspendGameplay, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00F694B0, void, ResumeGameplay, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F69370, void, SuspendGameplay, ());
+IL2CPP_REGISTER_METHOD(0x00F694B0, void, ResumeGameplay, ());
 IL2CPP_REGISTER_METHOD(0x00F695F0, void, __ctor, (SlicedRenderSettingsEditor * __this));
-IL2CPP_REGISTER_METHOD(0x00F69AA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F69AA0, void, __cctor, ());
 }

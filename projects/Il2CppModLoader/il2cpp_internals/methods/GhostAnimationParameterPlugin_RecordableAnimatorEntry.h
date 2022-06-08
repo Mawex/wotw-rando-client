@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostAnimationParameterPlugin_RecordableAnimatorEntry {
 IL2CPP_REGISTER_METHOD(0x00E14150, IRecordable *, get_Recordable, (GhostAnimationParameterPlugin_RecordableAnimatorEntry * __this));

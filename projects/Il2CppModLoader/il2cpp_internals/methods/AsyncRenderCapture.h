@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AsyncRenderCapture {
-IL2CPP_REGISTER_METHOD(0x00843D70, Type *, get_GameViewType, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00843D70, Type *, get_GameViewType, ());
 IL2CPP_REGISTER_METHOD(0x00843DF0, void, set_GameViewType, (Type * value));
 IL2CPP_REGISTER_METHOD(0x003FD3F0, int32_t, get_CaptureCount, (AsyncRenderCapture * __this));
 IL2CPP_REGISTER_METHOD(0x00843E80, void, set_CaptureCount, (AsyncRenderCapture * __this, int32_t value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::AnimationWarping {
 IL2CPP_REGISTER_METHOD(0x022085F0, void, Start, (AnimationWarping * __this));

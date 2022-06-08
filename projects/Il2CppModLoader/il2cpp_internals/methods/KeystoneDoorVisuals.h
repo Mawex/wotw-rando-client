@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KeystoneDoorVisuals {
 IL2CPP_REGISTER_METHOD(0x00E706B0, void, SetSetupStateControllerState, (KeystoneDoorVisuals * __this, DesiredUberStateDoor * uberState));

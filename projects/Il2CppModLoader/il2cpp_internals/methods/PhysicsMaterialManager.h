@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicsMaterialManager {
 IL2CPP_REGISTER_METHOD(0x01153E30, Switch_1 *, SurfaceMaterialTypeToSwitch, (PhysicsMaterialManager * __this, SurfaceMaterialType__Enum type));

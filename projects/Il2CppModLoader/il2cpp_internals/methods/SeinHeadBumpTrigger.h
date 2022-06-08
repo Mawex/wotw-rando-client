@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinHeadBumpTrigger {
 IL2CPP_REGISTER_METHOD(0x00FFB710, void, OnTriggerEnter, (SeinHeadBumpTrigger * __this, Collider * collider));

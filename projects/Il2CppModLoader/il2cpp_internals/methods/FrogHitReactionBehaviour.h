@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrogHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x016493B0, void, HandleReasonToNotInterrupt, (FrogHitReactionBehaviour * __this, EntityReactionBehaviour_ReasonWhyReactionWontInterrupt reason, EntityEvent * reactionEvent));

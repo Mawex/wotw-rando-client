@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::P3D_Tree {
-IL2CPP_REGISTER_METHOD(0x03099100, P3D_Tree *, get_TempInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03099100, P3D_Tree *, get_TempInstance, ());
 IL2CPP_REGISTER_METHOD(0x030992F0, bool, get_IsReady, (P3D_Tree * __this));
 IL2CPP_REGISTER_METHOD(0x03099380, void, Clear, (P3D_Tree * __this));
 IL2CPP_REGISTER_METHOD(0x03099590, void, ClearResults, (P3D_Tree * __this));
@@ -26,5 +26,5 @@ IL2CPP_REGISTER_METHOD(0x0309B910, void, Pack, (P3D_Tree * __this, P3D_Node * no
 IL2CPP_REGISTER_METHOD(0x0309BAD0, void, SortTriangles, (P3D_Tree * __this, int32_t minIndex, int32_t maxIndex));
 IL2CPP_REGISTER_METHOD(0x0309C410, void, SortTriangle, (P3D_Tree * __this, P3D_Triangle * triangle, int32_t * minIndex, int32_t * maxIndex, bool abovePivot));
 IL2CPP_REGISTER_METHOD(0x0309C560, void, __ctor, (P3D_Tree * __this));
-IL2CPP_REGISTER_METHOD(0x0309C780, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0309C780, void, __cctor, ());
 }

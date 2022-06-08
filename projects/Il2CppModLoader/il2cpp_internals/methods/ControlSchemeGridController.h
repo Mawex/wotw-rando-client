@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ControlSchemeGridController {
 IL2CPP_REGISTER_METHOD(0x011EF7C0, void, Awake, (ControlSchemeGridController * __this));

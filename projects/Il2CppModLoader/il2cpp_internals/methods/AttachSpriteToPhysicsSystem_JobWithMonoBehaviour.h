@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AttachSpriteToPhysicsSystem_JobWithMonoBehaviour {
 IL2CPP_REGISTER_METHOD(0x0011A640, void, __ctor, (AttachSpriteToPhysicsSystem_JobWithMonoBehaviour__Boxed * __this, AttachSpriteToPhysicsSystem__Array * items));

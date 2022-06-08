@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SanityResult {
 IL2CPP_REGISTER_METHOD(0x00C2ACA0, void, __ctor, (SanityResult * __this, String * summary, String * details, bool passed, GameObject * gameObject, Func_2_UnityEngine_GameObject_Boolean__1 * fixFunction));

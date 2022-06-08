@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::AsyncStreamReader {
 IL2CPP_REGISTER_METHOD(0x01A8DC40, void, Close, (AsyncStreamReader * __this));

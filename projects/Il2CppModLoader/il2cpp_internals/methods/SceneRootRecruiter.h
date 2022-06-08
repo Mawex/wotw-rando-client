@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneRootRecruiter {
 IL2CPP_REGISTER_METHOD(0x00BB9E50, void, Awake, (SceneRootRecruiter * __this));

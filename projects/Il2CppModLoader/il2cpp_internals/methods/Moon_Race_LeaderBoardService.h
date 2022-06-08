@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::LeaderBoardService {
 IL2CPP_REGISTER_METHOD(0x00C430B0, float, GetPlayerTime, (LeaderBoardService * __this, String * raceName, RaceSettings * raceSettings, ReplayValidatorData * validatorData));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Color_Switching {
 IL2CPP_REGISTER_METHOD(0x024DC0F0, Material *, get_material, (CameraFilterPack_Color_Switching * __this));

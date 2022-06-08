@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System::ValueTuple_2_ {
 IL2CPP_REGISTER_METHOD(0x02AB19C0, bool, Equals, (GenericEqualityComparer_1_System_ValueTuple_2_ * __this, ValueTuple_2_Int32_Int32_ x, ValueTuple_2_Int32_Int32_ y));

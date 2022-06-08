@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Core::Input_Command_AbilityType_ {
 IL2CPP_REGISTER_METHOD(0x02BADFC0, bool, TryGetValue, (Dictionary_2_Core_Input_Command_AbilityType_ * __this, Input_Command__Enum key, AbilityType__Enum * value));

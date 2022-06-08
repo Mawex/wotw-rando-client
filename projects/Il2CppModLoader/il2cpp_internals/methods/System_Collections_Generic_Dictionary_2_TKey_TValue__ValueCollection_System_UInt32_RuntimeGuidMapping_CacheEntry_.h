@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System::UInt32_RuntimeGuidMapping_CacheEntry_ {
 IL2CPP_REGISTER_METHOD(0x02836510, void, __ctor, (Dictionary_2_TKey_TValue_ValueCollection_System_UInt32_RuntimeGuidMapping_CacheEntry_ * __this, Dictionary_2_System_UInt32_RuntimeGuidMapping_CacheEntry_ * dictionary));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_MS::Internal::Xml::Cache::XPathNodeRef_MS::Internal::Xml::Cache::XPathNodeRef_ {
 IL2CPP_REGISTER_METHOD(0x0014F8E0, void, __ctor, (KeyValuePair_2_MS_Internal_Xml_Cache_XPathNodeRef_MS_Internal_Xml_Cache_XPathNodeRef___Boxed * __this, XPathNodeRef key, XPathNodeRef value));

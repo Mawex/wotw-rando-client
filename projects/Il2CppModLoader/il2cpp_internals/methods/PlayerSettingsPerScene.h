@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerSettingsPerScene {
 IL2CPP_REGISTER_METHOD(0x01428A60, void, Lerp, (PlayerSettingsPerScene * from, PlayerSettingsPerScene * to, PlayerSettingsPerScene * * destination, float curveValue));

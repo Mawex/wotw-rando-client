@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinNestedPrefab {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (SeinNestedPrefab * __this, SeinCharacter * sein, GameObject * prefab));

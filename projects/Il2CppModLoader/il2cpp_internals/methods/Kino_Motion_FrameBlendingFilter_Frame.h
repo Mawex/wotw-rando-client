@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Kino::Motion_FrameBlendingFilter_Frame {
 IL2CPP_REGISTER_METHOD(0x0011FAA0, float, CalculateWeight, (Motion_FrameBlendingFilter_Frame__Boxed * __this, float strength, float currentTime));

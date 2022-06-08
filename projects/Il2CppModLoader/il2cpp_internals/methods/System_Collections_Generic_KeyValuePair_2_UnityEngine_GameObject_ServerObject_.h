@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_UnityEngine::GameObject_ServerObject_ {
 IL2CPP_REGISTER_METHOD(0x00107C10, ServerObject *, get_Value, (KeyValuePair_2_UnityEngine_GameObject_ServerObject___Boxed * __this));

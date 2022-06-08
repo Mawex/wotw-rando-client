@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Xml::SecurityParser {
 IL2CPP_REGISTER_METHOD(0x02286B70, void, __ctor, (SecurityParser * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_SeinNaruComboAnimator_AtlasAndSpriteTexture_ {
 IL2CPP_REGISTER_METHOD(0x02BC5800, void, Add, (Dictionary_2_System_String_SeinNaruComboAnimator_AtlasAndSpriteTexture_ * __this, String * key, SeinNaruComboAnimator_AtlasAndSpriteTexture value));

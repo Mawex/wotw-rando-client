@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasBallSpawnTask {
 IL2CPP_REGISTER_METHOD(0x00419300, void, OnEnterTask, (GasBallSpawnTask * __this, IContext * context));

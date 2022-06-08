@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Newtonsoft::Json::StringEscapeHandling_ {
 IL2CPP_REGISTER_METHOD(0x001F6090, bool, get_HasValue, (Nullable_1_Newtonsoft_Json_StringEscapeHandling___Boxed * __this));

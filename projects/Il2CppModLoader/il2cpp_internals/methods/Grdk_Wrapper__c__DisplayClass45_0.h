@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Grdk::Wrapper___c__DisplayClass45_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Wrapper_c_DisplayClass45_0 * __this));

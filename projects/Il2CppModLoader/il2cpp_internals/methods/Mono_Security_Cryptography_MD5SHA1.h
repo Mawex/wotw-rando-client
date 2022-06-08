@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::MD5SHA1 {
 IL2CPP_REGISTER_METHOD(0x02A3DFA0, void, __ctor, (MD5SHA1 * __this));

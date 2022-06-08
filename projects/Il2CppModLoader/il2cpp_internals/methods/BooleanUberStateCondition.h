@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BooleanUberStateCondition {
 IL2CPP_REGISTER_METHOD(0x01B55AA0, void, __ctor, (BooleanUberStateCondition * __this));

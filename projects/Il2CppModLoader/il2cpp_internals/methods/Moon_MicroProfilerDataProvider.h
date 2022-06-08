@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MicroProfilerDataProvider {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_SupportsGraph, (MicroProfilerDataProvider * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x03158F60, void, RemovePostBeginFrameHandler, (MicroProf
 IL2CPP_REGISTER_METHOD(0x03159000, double, GetAverageMetricTimeInMSInFrameRange, (MicroProfilerDataProvider * __this, Metric__Enum metric, int32_t startFrame, int32_t endFrame));
 IL2CPP_REGISTER_METHOD(0x031590C0, double, GetPeakMetricTimeInMSInFrameRange, (MicroProfilerDataProvider * __this, Metric__Enum metric, int32_t startFrame, int32_t endFrame));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MicroProfilerDataProvider * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

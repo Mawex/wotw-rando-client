@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Data::BadTriQueue {
 IL2CPP_REGISTER_METHOD(0x005C3FF0, int32_t, get_Count, (BadTriQueue * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerAbilityStateMatcher {
 IL2CPP_REGISTER_METHOD(0x0140A570, void, __ctor, (PlayerAbilityStateMatcher * __this));

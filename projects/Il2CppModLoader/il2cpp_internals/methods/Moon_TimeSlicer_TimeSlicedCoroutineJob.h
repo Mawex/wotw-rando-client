@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedCoroutineJob {
 IL2CPP_REGISTER_METHOD(0x00863E90, float, get_EnqueuedTime, (TimeSlicedCoroutineJob * __this));

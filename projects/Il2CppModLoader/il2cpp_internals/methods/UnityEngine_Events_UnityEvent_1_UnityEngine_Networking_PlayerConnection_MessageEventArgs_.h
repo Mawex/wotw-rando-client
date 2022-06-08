@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityEvent_1_UnityEngine::Networking::PlayerConnection::MessageEventArgs_ {
 IL2CPP_REGISTER_METHOD(0x02AC8AE0, void, AddListener, (UnityEvent_1_UnityEngine_Networking_PlayerConnection_MessageEventArgs_ * __this, UnityAction_1_UnityEngine_Networking_PlayerConnection_MessageEventArgs_ * call));

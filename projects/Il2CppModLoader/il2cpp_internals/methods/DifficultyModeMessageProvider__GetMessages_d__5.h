@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DifficultyModeMessageProvider__GetMessages_d__5 {
 IL2CPP_REGISTER_METHOD(0x004BD8A0, void, __ctor, (DifficultyModeMessageProvider_GetMessages_d_5 * __this, int32_t __1__state));

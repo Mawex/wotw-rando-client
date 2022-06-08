@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FoxPlatformingMovement {
 IL2CPP_REGISTER_METHOD(0x01633B20, void, ApplyKickback, (FoxPlatformingMovement * __this, float kickbackMultiplier));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericComparer_1_System::Byte_ {
 IL2CPP_REGISTER_METHOD(0x02B60260, int32_t, Compare, (GenericComparer_1_System_Byte_ * __this, uint8_t x, uint8_t y));

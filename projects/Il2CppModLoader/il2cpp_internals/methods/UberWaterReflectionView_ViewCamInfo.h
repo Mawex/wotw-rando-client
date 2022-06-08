@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberWaterReflectionView_ViewCamInfo {
 IL2CPP_REGISTER_METHOD(0x00125DD0, void, __ctor, (UberWaterReflectionView_ViewCamInfo__Boxed * __this, MoonRenderPipelineView * view));

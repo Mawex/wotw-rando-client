@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AirMovementTimelineBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x004F19A0, void, OnEntityInitialized, (AirMovementTimelineBehaviourNew * __this));

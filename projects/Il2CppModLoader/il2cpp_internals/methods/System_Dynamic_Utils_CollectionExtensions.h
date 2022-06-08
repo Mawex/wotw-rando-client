@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CollectionExtensions {
 IL2CPP_REGISTER_METHOD(0x0153E7E0, TrueReadOnlyCollection_1_System_Object_ *, AddFirst, (ReadOnlyCollection_1_System_Object_ * list, Object * item));

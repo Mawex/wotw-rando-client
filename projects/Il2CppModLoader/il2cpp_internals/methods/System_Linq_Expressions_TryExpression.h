@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::TryExpression {
 IL2CPP_REGISTER_METHOD(0x02FC52D0, void, __ctor, (TryExpression * __this, Type * type, Expression * body, Expression * finally, Expression * fault, ReadOnlyCollection_1_System_Linq_Expressions_CatchBlock_ * handlers));

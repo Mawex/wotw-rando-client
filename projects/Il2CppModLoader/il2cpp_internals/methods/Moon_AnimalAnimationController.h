@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimalAnimationController {
 IL2CPP_REGISTER_METHOD(0x0168C6F0, Vector3, get_StartLocalPosition, (AnimalAnimationController * __this));

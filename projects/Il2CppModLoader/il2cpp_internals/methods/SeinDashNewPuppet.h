@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDashNewPuppet {
 IL2CPP_REGISTER_METHOD(0x006FD440, void, Awake, (SeinDashNewPuppet * __this));

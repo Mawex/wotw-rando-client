@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslClientStream {
 IL2CPP_REGISTER_METHOD(0x01F7E4B0, void, add_ServerCertValidation, (SslClientStream * __this, CertificateValidationCallback * value));

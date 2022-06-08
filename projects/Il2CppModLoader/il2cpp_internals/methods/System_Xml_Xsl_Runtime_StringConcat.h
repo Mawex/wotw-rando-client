@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Xsl::Runtime::StringConcat {
 IL2CPP_REGISTER_METHOD(0x00246B70, void, Clear, (StringConcat__Boxed * __this));

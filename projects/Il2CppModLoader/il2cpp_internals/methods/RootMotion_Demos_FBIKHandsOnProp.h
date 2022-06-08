@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FBIKHandsOnProp {
 IL2CPP_REGISTER_METHOD(0x0221A1C0, void, Awake, (FBIKHandsOnProp * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::FacesPointXCondition {
 IL2CPP_REGISTER_METHOD(0x00CB71A0, String *, get_Info, (FacesPointXCondition * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02A5BCF0, String *, get_DebuggerDisplayResultDescription, (Task_1_System_Object_ * __this));
@@ -6,7 +6,7 @@ IL2CPP_REGISTER_METHOD(0x02A5BDA0, String *, get_DebuggerDisplayMethodDescriptio
 IL2CPP_REGISTER_METHOD(0x02A5A760, Object *, get_Result, (Task_1_System_Object_ * __this));
 IL2CPP_REGISTER_METHODINFO(0x04749FA8, Task_1_System_Object__get_Result__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FBB40, Object *, get_ResultOnSuccess, (Task_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_System_Object_ *, get_Factory, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0277FA00, TaskFactory_1_System_Object_ *, get_Factory, ());
 IL2CPP_REGISTER_METHOD(0x02A5ACF0, void, __ctor, (Task_1_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02A5ADA0, void, __ctor, (Task_1_System_Object_ * __this, Object * state, TaskCreationOptions__Enum options));
 IL2CPP_REGISTER_METHOD(0x02A5AE70, void, __ctor, (Task_1_System_Object_ * __this, Object * result));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHODINFO(0x04788B30, Task_1_System_Object__ContinueWith_1__Met
 IL2CPP_REGISTER_METHOD(0x01542810, Task_1_System_Object_ *, ContinueWith, (Task_1_System_Object_ * __this, Func_2_System_Threading_Tasks_Task_1_Object_ * continuationFunction));
 IL2CPP_REGISTER_METHOD(0x01542910, Task_1_System_Object_ *, ContinueWith, (Task_1_System_Object_ * __this, Func_2_System_Threading_Tasks_Task_1_Object_ * continuationFunction, TaskScheduler * scheduler, CancellationToken cancellationToken, TaskContinuationOptions__Enum continuationOptions, StackCrawlMark__Enum * stackMark));
 IL2CPP_REGISTER_METHODINFO(0x0474A1D8, Task_1_System_Object__ContinueWith_3__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02780010, void, __cctor, ());
 }

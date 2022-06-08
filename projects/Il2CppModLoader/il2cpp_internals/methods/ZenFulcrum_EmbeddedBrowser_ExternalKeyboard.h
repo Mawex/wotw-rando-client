@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ExternalKeyboard {
 IL2CPP_REGISTER_METHOD(0x002FBB80, Browser *, get_ActiveBrowser, (ExternalKeyboard * __this));

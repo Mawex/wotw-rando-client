@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::EntityHitReaction {
 IL2CPP_REGISTER_METHOD(0x0121E390, bool, Play, (EntityHitReaction * __this, EntityDamageEvent * damageEvent));

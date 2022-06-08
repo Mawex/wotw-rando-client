@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::UserControlInteractions {
 IL2CPP_REGISTER_METHOD(0x0204A740, void, Update, (UserControlInteractions * __this));

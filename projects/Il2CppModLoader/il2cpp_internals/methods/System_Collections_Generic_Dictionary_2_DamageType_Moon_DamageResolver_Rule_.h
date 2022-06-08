@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_DamageType_Moon::DamageResolver_Rule_ {
 IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_DamageType_Moon_DamageResolver_Rule_ * __this, DamageType__Enum key, DamageResolver_Rule * value));

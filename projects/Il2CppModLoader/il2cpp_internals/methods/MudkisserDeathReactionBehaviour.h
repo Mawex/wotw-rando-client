@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MudkisserDeathReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00872D40, void, OnInitializeTask, (MudkisserDeathReactionBehaviour * __this, IContext * context));

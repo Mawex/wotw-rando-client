@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promise___c__DisplayClass51_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Promise_c_DisplayClass51_0 * __this));

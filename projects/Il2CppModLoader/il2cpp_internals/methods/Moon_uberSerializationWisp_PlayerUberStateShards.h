@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateShards {
 IL2CPP_REGISTER_METHOD(0x00F406E0, void, __ctor, (PlayerUberStateShards * __this, Action * setDirtyCallback));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x00F41500, void, Load, (PlayerUberStateShards * __this, 
 IL2CPP_REGISTER_METHOD(0x00F417C0, void, OnGui, (PlayerUberStateShards * __this, NavigableOnGUI * gui));
 IL2CPP_REGISTER_METHOD(0x00F41A00, int64_t, get_Size, (PlayerUberStateShards * __this));
 IL2CPP_REGISTER_METHOD(0x00F41AB0, void, RunSetDirtyCallback, (PlayerUberStateShards * __this));
-IL2CPP_REGISTER_METHOD(0x00F41C70, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F41C70, void, __cctor, ());
 }

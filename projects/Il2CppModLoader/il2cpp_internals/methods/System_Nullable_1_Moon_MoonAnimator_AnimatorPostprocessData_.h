@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Moon::MoonAnimator_AnimatorPostprocessData_ {
 IL2CPP_REGISTER_METHOD(0x0011E7F0, void, __ctor, (Nullable_1_Moon_MoonAnimator_AnimatorPostprocessData___Boxed * __this, MoonAnimator_AnimatorPostprocessData value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MicroProfilerGraph_MetricCache {
 IL2CPP_REGISTER_METHOD(0x0010E170, Metric__Enum, get_Metric, (MicroProfilerGraph_MetricCache__Boxed * __this));

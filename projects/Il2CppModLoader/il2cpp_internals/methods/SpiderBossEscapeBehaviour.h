@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossEscapeBehaviour {
 IL2CPP_REGISTER_METHOD(0x011ABC60, bool, get_IsAttacking, (SpiderBossEscapeBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_FullSerializer::Internal::fsPortableReflection_AttributeQuery_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0011BFB0, void, __ctor, (KeyValuePair_2_FullSerializer_Internal_fsPortableReflection_AttributeQuery_System_Object___Boxed * __this, fsPortableReflection_AttributeQuery key, Object * value));

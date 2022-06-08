@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Terrain {
 IL2CPP_REGISTER_METHOD(0x025668D0, TerrainData *, get_terrainData, (Terrain * __this));

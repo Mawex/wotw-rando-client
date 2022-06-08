@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EndState {
 IL2CPP_REGISTER_METHOD(0x00BFDB90, void, OnEnterState, (EndState * __this));

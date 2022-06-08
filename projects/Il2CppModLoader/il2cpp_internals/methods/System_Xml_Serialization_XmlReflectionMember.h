@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlReflectionMember {
 IL2CPP_REGISTER_METHOD(0x025AB710, void, __ctor, (XmlReflectionMember * __this, String * name, Type * type, XmlAttributes * attributes));

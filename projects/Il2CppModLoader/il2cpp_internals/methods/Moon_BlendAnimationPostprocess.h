@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BlendAnimationPostprocess {
 IL2CPP_REGISTER_METHOD(0x01B0B210, Transform *, DuplicateHierarchy, (Transform * transform, Transform * maskTransform, Transform * parent));

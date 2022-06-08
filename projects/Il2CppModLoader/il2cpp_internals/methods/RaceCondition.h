@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RaceCondition {
 IL2CPP_REGISTER_METHOD(0x00E975D0, bool, Validate, (RaceCondition * __this, IContext * context));

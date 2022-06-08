@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimelineBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x010F4B70, BehaviourStatus__Enum, get_StatusWhenPlaying, (TimelineBehaviourNew * __this));

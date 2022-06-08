@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PetrifiedOwlStompBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C3ACB0, void, OnStartBehaviour, (PetrifiedOwlStompBehaviour * __this));

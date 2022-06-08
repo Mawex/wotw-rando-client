@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ComponentResourceManager {
 IL2CPP_REGISTER_METHOD(0x024A9E60, void, __ctor, (ComponentResourceManager * __this));

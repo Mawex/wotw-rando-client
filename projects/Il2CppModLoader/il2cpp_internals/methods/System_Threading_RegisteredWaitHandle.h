@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::RegisteredWaitHandle {
 IL2CPP_REGISTER_METHOD(0x0232A0F0, void, __ctor, (RegisteredWaitHandle * __this, WaitHandle * waitObject, WaitOrTimerCallback * callback, Object * state, TimeSpan timeout, bool executeOnlyOnce));

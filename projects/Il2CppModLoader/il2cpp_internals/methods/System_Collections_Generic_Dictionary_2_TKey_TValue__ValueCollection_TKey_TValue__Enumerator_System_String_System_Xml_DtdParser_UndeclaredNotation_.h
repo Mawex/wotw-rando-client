@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_TKey_TValue__Enumerator_System::String_System::Xml::DtdParser_UndeclaredNotation_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, DtdParser_UndeclaredNotation *, get_Current, (Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enumerator_System_String_System_Xml_DtdParser_UndeclaredNotation___Boxed * __this));

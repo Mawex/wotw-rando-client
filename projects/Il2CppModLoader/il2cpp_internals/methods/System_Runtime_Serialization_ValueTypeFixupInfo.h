@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::ValueTypeFixupInfo {
 IL2CPP_REGISTER_METHOD(0x01EE1F40, void, __ctor, (ValueTypeFixupInfo * __this, int64_t containerID, FieldInfo_1 * member, Int32__Array * parentIndex));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataViewListener {
 IL2CPP_REGISTER_METHOD(0x01F47680, void, __ctor, (DataViewListener * __this, DataView * dv));

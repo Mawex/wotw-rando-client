@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_GhostServerEventsPlugin_ServerEventData_ServerObjectsData_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, GhostServerEventsPlugin_ServerEventData_ServerObjectsData *, get_Current, (List_1_T_Enumerator_GhostServerEventsPlugin_ServerEventData_ServerObjectsData___Boxed * __this));

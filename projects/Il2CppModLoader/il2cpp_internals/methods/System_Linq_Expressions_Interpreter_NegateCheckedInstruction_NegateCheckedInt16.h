@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NegateCheckedInstruction_NegateCheckedInt16 {
 IL2CPP_REGISTER_METHOD(0x024006E0, int32_t, Run, (NegateCheckedInstruction_NegateCheckedInt16 * __this, InterpretedFrame * frame));

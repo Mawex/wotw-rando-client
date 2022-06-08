@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSwimmingPuppet {
 IL2CPP_REGISTER_METHOD(0x004FA040, int32_t, get_Id, (SeinSwimmingPuppet * __this));

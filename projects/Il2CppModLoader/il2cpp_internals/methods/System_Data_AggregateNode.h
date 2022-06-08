@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::AggregateNode {
 IL2CPP_REGISTER_METHOD(0x02148550, void, __ctor, (AggregateNode * __this, DataTable * table, FunctionId__Enum aggregateType, String * columnName));

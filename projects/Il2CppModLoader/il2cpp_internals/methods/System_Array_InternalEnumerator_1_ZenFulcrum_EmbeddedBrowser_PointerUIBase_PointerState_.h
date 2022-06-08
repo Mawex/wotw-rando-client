@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_ZenFulcrum::EmbeddedBrowser::PointerUIBase_PointerState_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState___Boxed * __this, Array * array));

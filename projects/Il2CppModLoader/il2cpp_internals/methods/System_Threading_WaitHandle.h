@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::WaitHandle {
 IL2CPP_REGISTER_METHOD(0x0234B740, void, __ctor, (WaitHandle * __this));
@@ -22,7 +22,7 @@ IL2CPP_REGISTER_METHOD(0x0234C340, int32_t, WaitAny, (WaitHandle__Array * waitHa
 IL2CPP_REGISTER_METHODINFO(0x0478DBC0, WaitHandle_WaitAny__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0234C6E0, int32_t, WaitAny, (WaitHandle__Array * waitHandles, TimeSpan timeout, bool exitContext));
 IL2CPP_REGISTER_METHODINFO(0x0474F230, WaitHandle_WaitAny_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0234C820, void, ThrowAbandonedMutexException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0234C820, void, ThrowAbandonedMutexException, ());
 IL2CPP_REGISTER_METHODINFO(0x047150D0, WaitHandle_ThrowAbandonedMutexException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0234C870, void, ThrowAbandonedMutexException, (int32_t location, WaitHandle * handle));
 IL2CPP_REGISTER_METHODINFO(0x0472B4D0, WaitHandle_ThrowAbandonedMutexException_1__MethodInfo);
@@ -33,5 +33,5 @@ IL2CPP_REGISTER_METHOD(0x0234CA80, int32_t, WaitMultiple, (WaitHandle__Array * w
 IL2CPP_REGISTER_METHODINFO(0x047297E8, WaitHandle_WaitMultiple__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0234CDA0, int32_t, WaitOneNative, (SafeHandle * waitableSafeHandle, uint32_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext));
 IL2CPP_REGISTER_METHOD(0x0234CF30, int32_t, Wait_internal, (void * * handles, int32_t numHandles, bool waitAll, int32_t ms));
-IL2CPP_REGISTER_METHOD(0x0234CF40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0234CF40, void, __cctor, ());
 }

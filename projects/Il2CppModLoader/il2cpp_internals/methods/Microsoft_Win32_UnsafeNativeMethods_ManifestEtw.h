@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw {
 IL2CPP_REGISTER_METHOD(0x023B70F0, uint32_t, EventRegister, (Guid * providerId, UnsafeNativeMethods_ManifestEtw_EtwEnableCallback * enableCallback, Void * callbackContext, int64_t * registrationHandle));

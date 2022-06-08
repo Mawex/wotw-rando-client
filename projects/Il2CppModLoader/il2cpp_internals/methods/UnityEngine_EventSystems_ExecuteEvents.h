@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::ExecuteEvents {
 IL2CPP_REGISTER_METHOD(0x01F1E570, void, Execute, (IPointerEnterHandler * handler, BaseEventData * eventData));
@@ -35,25 +35,25 @@ IL2CPP_REGISTER_METHOD(0x01F1F170, void, Execute, (ISubmitHandler * handler, Bas
 IL2CPP_REGISTER_METHODINFO(0x0471C618, ExecuteEvents_Execute_15__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01F1F210, void, Execute, (ICancelHandler * handler, BaseEventData * eventData));
 IL2CPP_REGISTER_METHODINFO(0x0471EA40, ExecuteEvents_Execute_16__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01F1F2B0, ExecuteEvents_EventFunction_1_IPointerEnterHandler_ *, get_pointerEnterHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F350, ExecuteEvents_EventFunction_1_IPointerExitHandler_ *, get_pointerExitHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F3F0, ExecuteEvents_EventFunction_1_IPointerDownHandler_ *, get_pointerDownHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F490, ExecuteEvents_EventFunction_1_IPointerUpHandler_ *, get_pointerUpHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F530, ExecuteEvents_EventFunction_1_IPointerClickHandler_ *, get_pointerClickHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F5D0, ExecuteEvents_EventFunction_1_IInitializePotentialDragHandler_ *, get_initializePotentialDrag, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F670, ExecuteEvents_EventFunction_1_IBeginDragHandler_ *, get_beginDragHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F710, ExecuteEvents_EventFunction_1_IDragHandler_ *, get_dragHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F7B0, ExecuteEvents_EventFunction_1_IEndDragHandler_ *, get_endDragHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F850, ExecuteEvents_EventFunction_1_IDropHandler_ *, get_dropHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F8F0, ExecuteEvents_EventFunction_1_IScrollHandler_ *, get_scrollHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1F990, ExecuteEvents_EventFunction_1_IUpdateSelectedHandler_ *, get_updateSelectedHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1FA30, ExecuteEvents_EventFunction_1_ISelectHandler_ *, get_selectHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1FAD0, ExecuteEvents_EventFunction_1_IDeselectHandler_ *, get_deselectHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1FB70, ExecuteEvents_EventFunction_1_IMoveHandler_ *, get_moveHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1FC10, ExecuteEvents_EventFunction_1_ISubmitHandler_ *, get_submitHandler, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01F1FCB0, ExecuteEvents_EventFunction_1_ICancelHandler_ *, get_cancelHandler, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F1F2B0, ExecuteEvents_EventFunction_1_IPointerEnterHandler_ *, get_pointerEnterHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F350, ExecuteEvents_EventFunction_1_IPointerExitHandler_ *, get_pointerExitHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F3F0, ExecuteEvents_EventFunction_1_IPointerDownHandler_ *, get_pointerDownHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F490, ExecuteEvents_EventFunction_1_IPointerUpHandler_ *, get_pointerUpHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F530, ExecuteEvents_EventFunction_1_IPointerClickHandler_ *, get_pointerClickHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F5D0, ExecuteEvents_EventFunction_1_IInitializePotentialDragHandler_ *, get_initializePotentialDrag, ());
+IL2CPP_REGISTER_METHOD(0x01F1F670, ExecuteEvents_EventFunction_1_IBeginDragHandler_ *, get_beginDragHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F710, ExecuteEvents_EventFunction_1_IDragHandler_ *, get_dragHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F7B0, ExecuteEvents_EventFunction_1_IEndDragHandler_ *, get_endDragHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F850, ExecuteEvents_EventFunction_1_IDropHandler_ *, get_dropHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F8F0, ExecuteEvents_EventFunction_1_IScrollHandler_ *, get_scrollHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1F990, ExecuteEvents_EventFunction_1_IUpdateSelectedHandler_ *, get_updateSelectedHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1FA30, ExecuteEvents_EventFunction_1_ISelectHandler_ *, get_selectHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1FAD0, ExecuteEvents_EventFunction_1_IDeselectHandler_ *, get_deselectHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1FB70, ExecuteEvents_EventFunction_1_IMoveHandler_ *, get_moveHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1FC10, ExecuteEvents_EventFunction_1_ISubmitHandler_ *, get_submitHandler, ());
+IL2CPP_REGISTER_METHOD(0x01F1FCB0, ExecuteEvents_EventFunction_1_ICancelHandler_ *, get_cancelHandler, ());
 IL2CPP_REGISTER_METHOD(0x01F1FD50, void, GetEventChain, (GameObject * root, IList_1_UnityEngine_Transform_ * eventChain));
-IL2CPP_REGISTER_METHOD(0x01F1FF90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F1FF90, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01F21510, void, _s_HandlerListPool_m__0, (List_1_UnityEngine_EventSystems_IEventSystemHandler_ * l));
 IL2CPP_REGISTER_METHODINFO(0x047948A8, ExecuteEvents__s_HandlerListPool_m__0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0157C770, Object *, ValidateEventData, (BaseEventData * data));

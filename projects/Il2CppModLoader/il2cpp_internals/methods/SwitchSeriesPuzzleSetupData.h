@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwitchSeriesPuzzleSetupData {
 IL2CPP_REGISTER_METHOD(0x002FA280, MoonTimeline *, get_Transition, (SwitchSeriesPuzzleSetupData * __this));

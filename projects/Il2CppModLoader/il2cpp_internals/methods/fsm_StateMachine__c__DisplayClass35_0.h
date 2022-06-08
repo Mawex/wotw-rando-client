@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::fsm::StateMachine___c__DisplayClass35_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (StateMachine_c_DisplayClass35_0 * __this));

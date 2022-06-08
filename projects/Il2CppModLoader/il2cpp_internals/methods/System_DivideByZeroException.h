@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DivideByZeroException {
 IL2CPP_REGISTER_METHOD(0x01A0F9F0, void, __ctor, (DivideByZeroException * __this));

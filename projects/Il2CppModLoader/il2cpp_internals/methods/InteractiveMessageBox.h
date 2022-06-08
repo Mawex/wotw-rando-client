@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InteractiveMessageBox {
 IL2CPP_REGISTER_METHOD(0x0063BC90, void, Awake, (InteractiveMessageBox * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x0063D080, void, set_IsSuspended, (InteractiveMessageBox
 IL2CPP_REGISTER_METHOD(0x0063D090, SuspendableMask__Enum, get_Mask, (InteractiveMessageBox * __this));
 IL2CPP_REGISTER_METHOD(0x0063D0A0, void, set_Mask, (InteractiveMessageBox * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x0063D160, void, __ctor, (InteractiveMessageBox * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

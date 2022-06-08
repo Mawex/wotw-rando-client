@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_MenuScreenManager_Screens_System::Func_1_ {
 IL2CPP_REGISTER_METHOD(0x0010E170, MenuScreenManager_Screens__Enum, get_Key, (KeyValuePair_2_MenuScreenManager_Screens_System_Func_1___Boxed * __this));

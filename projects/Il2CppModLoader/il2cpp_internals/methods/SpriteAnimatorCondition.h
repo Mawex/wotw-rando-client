@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpriteAnimatorCondition {
 IL2CPP_REGISTER_METHOD(0x009AC3D0, bool, Validate, (SpriteAnimatorCondition * __this, IContext * context));

@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StatsScreen {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_CanInterruptTab, (StatsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, MenuTabBackground__Enum, get_BackgroundMode, (StatsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (StatsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedOreUI, (StatsScreen * __this));
-IL2CPP_REGISTER_METHOD(0x009BD150, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009BD150, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x009BD1D0, CleverMenuItemSelectionManager *, get_Navigation, (StatsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x009BD1F0, StatUISlot *, get_SelectedItem, (StatsScreen * __this));
 IL2CPP_REGISTER_METHOD(0x009BD2E0, void, Awake, (StatsScreen * __this));

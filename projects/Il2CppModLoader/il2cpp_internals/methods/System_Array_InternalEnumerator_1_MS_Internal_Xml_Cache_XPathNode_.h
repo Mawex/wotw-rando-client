@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_MS::Internal::Xml::Cache::XPathNode_ {
 IL2CPP_REGISTER_METHOD(0x00160580, void, __ctor, (Array_InternalEnumerator_1_MS_Internal_Xml_Cache_XPathNode___Boxed * __this, Array * array));

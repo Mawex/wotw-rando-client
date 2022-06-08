@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon::MoonAnimator_TransformData_ {
 IL2CPP_REGISTER_METHOD(0x01CC51D0, int32_t, Compare, (ObjectComparer_1_Moon_MoonAnimator_TransformData_ * __this, MoonAnimator_TransformData x, MoonAnimator_TransformData y));

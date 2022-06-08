@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::BadImageFormatException {
 IL2CPP_REGISTER_METHOD(0x0229BCD0, void, __ctor, (BadImageFormatException * __this));

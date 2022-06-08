@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon::TentacleStabBehaviour_TentacleAttack_ {
 IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals, (ObjectEqualityComparer_1_Moon_TentacleStabBehaviour_TentacleAttack_ * __this, TentacleStabBehaviour_TentacleAttack x, TentacleStabBehaviour_TentacleAttack y));

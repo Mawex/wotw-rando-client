@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::NintendoPlayFabSynchronizer___c {
-IL2CPP_REGISTER_METHOD(0x00518A80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00518A80, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (NintendoPlayFabSynchronizer_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _AddFriend_b__18_0, (NintendoPlayFabSynchronizer_c * __this, AddFriendResult * result));
 IL2CPP_REGISTER_METHODINFO(0x04750138, NintendoPlayFabSynchronizer_c__AddFriend_b__18_0__MethodInfo);

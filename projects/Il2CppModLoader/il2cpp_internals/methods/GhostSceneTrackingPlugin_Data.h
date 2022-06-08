@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostSceneTrackingPlugin_Data {
 IL2CPP_REGISTER_METHOD(0x007E59C0, void, Save, (GhostSceneTrackingPlugin_Data * __this, BinaryWriter * binaryWriter));

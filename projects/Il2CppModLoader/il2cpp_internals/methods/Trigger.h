@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Trigger {
 IL2CPP_REGISTER_METHOD(0x00B11420, bool, get_IsSuspended, (Trigger_1 * __this));

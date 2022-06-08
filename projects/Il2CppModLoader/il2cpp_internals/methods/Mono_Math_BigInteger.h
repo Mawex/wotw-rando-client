@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Math::BigInteger {
 IL2CPP_REGISTER_METHOD(0x023C5490, void, __ctor, (BigInteger * __this, BigInteger_Sign__Enum sign, uint32_t len));
@@ -21,7 +21,7 @@ IL2CPP_REGISTER_METHOD(0x023C6880, BigInteger *, operator__, (BigInteger * bi, i
 IL2CPP_REGISTER_METHODINFO(0x04715198, BigInteger_op_Multiply_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x023C6A70, BigInteger *, operator___, (BigInteger * bi1, int32_t shiftVal));
 IL2CPP_REGISTER_METHOD(0x023C6A80, BigInteger *, operator___, (BigInteger * bi1, int32_t shiftVal));
-IL2CPP_REGISTER_METHOD(0x023C6A90, RandomNumberGenerator *, get_Rng, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023C6A90, RandomNumberGenerator *, get_Rng, ());
 IL2CPP_REGISTER_METHOD(0x023C6BB0, BigInteger *, GenerateRandom, (int32_t bits, RandomNumberGenerator * rng));
 IL2CPP_REGISTER_METHOD(0x023C6EB0, BigInteger *, GenerateRandom, (int32_t bits));
 IL2CPP_REGISTER_METHOD(0x023C6F60, void, Randomize, (BigInteger * __this, RandomNumberGenerator * rng));
@@ -55,7 +55,7 @@ IL2CPP_REGISTER_METHOD(0x023C84E0, BigInteger *, ModPow, (BigInteger * __this, B
 IL2CPP_REGISTER_METHOD(0x023C8660, bool, IsProbablePrime, (BigInteger * __this));
 IL2CPP_REGISTER_METHOD(0x023C8930, BigInteger *, GeneratePseudoPrime, (int32_t bits));
 IL2CPP_REGISTER_METHOD(0x023C8A90, void, Incr2, (BigInteger * __this));
-IL2CPP_REGISTER_METHOD(0x023C8BD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023C8BD0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02A2F0F0, void, __ctor, (BigInteger_1 * __this, BigInteger_Sign__Enum_1 sign, uint32_t len));
 IL2CPP_REGISTER_METHOD(0x02A2F190, void, __ctor, (BigInteger_1 * __this, BigInteger_1 * bi));
 IL2CPP_REGISTER_METHOD(0x02A2F300, void, __ctor, (BigInteger_1 * __this, BigInteger_1 * bi, uint32_t len));
@@ -74,7 +74,7 @@ IL2CPP_REGISTER_METHOD(0x02A30160, BigInteger_1 *, operator__, (BigInteger_1 * b
 IL2CPP_REGISTER_METHODINFO(0x04782AA8, BigInteger_1_op_Multiply__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02A30470, BigInteger_1 *, operator___, (BigInteger_1 * bi1, int32_t shiftVal));
 IL2CPP_REGISTER_METHOD(0x02A30480, BigInteger_1 *, operator___, (BigInteger_1 * bi1, int32_t shiftVal));
-IL2CPP_REGISTER_METHOD(0x02A30490, RandomNumberGenerator *, get_Rng, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A30490, RandomNumberGenerator *, get_Rng, ());
 IL2CPP_REGISTER_METHOD(0x02A305B0, BigInteger_1 *, GenerateRandom, (int32_t bits, RandomNumberGenerator * rng));
 IL2CPP_REGISTER_METHOD(0x02A308B0, BigInteger_1 *, GenerateRandom, (int32_t bits));
 IL2CPP_REGISTER_METHOD(0x023C7280, int32_t, BitCount, (BigInteger_1 * __this));
@@ -104,5 +104,5 @@ IL2CPP_REGISTER_METHOD(0x02A317A0, BigInteger_1 *, ModInverse, (BigInteger_1 * _
 IL2CPP_REGISTER_METHOD(0x02A317B0, BigInteger_1 *, ModPow, (BigInteger_1 * __this, BigInteger_1 * exp, BigInteger_1 * n));
 IL2CPP_REGISTER_METHOD(0x02A31930, BigInteger_1 *, GeneratePseudoPrime, (int32_t bits));
 IL2CPP_REGISTER_METHOD(0x023C8A90, void, Incr2, (BigInteger_1 * __this));
-IL2CPP_REGISTER_METHOD(0x02A31A90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02A31A90, void, __cctor, ());
 }

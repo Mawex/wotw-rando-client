@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_SpellIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x01CC9690, int32_t, Compare, (ObjectComparer_1_SpellIconsCollection_Icons_ * __this, SpellIconsCollection_Icons x, SpellIconsCollection_Icons y));

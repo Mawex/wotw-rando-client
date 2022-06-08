@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterFovController {
 IL2CPP_REGISTER_METHOD(0x01050A40, void, GetTargets, (CharacterFovController * __this, SeinCharacter * character, float * offset, float * factor));

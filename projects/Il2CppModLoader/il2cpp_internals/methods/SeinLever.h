@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinLever {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinLever * __this));
@@ -44,7 +44,7 @@ IL2CPP_REGISTER_METHOD(0x01027E30, void, ModifyHorizontalPlatformMovementSetting
 IL2CPP_REGISTER_METHODINFO(0x04793E10, SeinLever_ModifyHorizontalPlatformMovementSettings__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01027E90, void, ModifyGravityPlatformMovementSettings, (SeinLever * __this, GravityPlatformMovementSettings * settings));
 IL2CPP_REGISTER_METHODINFO(0x0470EDB0, SeinLever_ModifyGravityPlatformMovementSettings__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x01027EC0, void, StartStressTest, (SeinLever * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, StressTestUpdate, (SeinLever * __this, float deltaTime));
 IL2CPP_REGISTER_METHOD(0x00A1DC30, void, EndStressTest, (SeinLever * __this));

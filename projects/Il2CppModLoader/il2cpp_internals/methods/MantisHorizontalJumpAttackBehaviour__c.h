@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisHorizontalJumpAttackBehaviour___c {
-IL2CPP_REGISTER_METHOD(0x00A04D20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A04D20, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MantisHorizontalJumpAttackBehaviour_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, _StartTimeline_b__68_0, (MantisHorizontalJumpAttackBehaviour_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470A100, MantisHorizontalJumpAttackBehaviour_c__StartTimeline_b__68_0__MethodInfo);

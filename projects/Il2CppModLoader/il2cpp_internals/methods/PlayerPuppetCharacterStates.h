@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerPuppetCharacterStates {
 IL2CPP_REGISTER_METHOD(0x01428220, bool, IsPerforming, (PlayerPuppetCharacterStates * __this, int32_t stateId));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderPrefabWarmer {
 IL2CPP_REGISTER_METHOD(0x01914880, void, Awake, (UberShaderPrefabWarmer * __this));

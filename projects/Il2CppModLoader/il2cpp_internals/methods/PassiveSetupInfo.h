@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PassiveSetupInfo {
 IL2CPP_REGISTER_METHOD(0x004465A0, int32_t, get_CurrentStateGUID, (PassiveSetupInfo * __this));

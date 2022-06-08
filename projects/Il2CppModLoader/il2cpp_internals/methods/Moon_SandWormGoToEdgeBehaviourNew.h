@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SandWormGoToEdgeBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x00EC2CC0, void, OnEnter, (SandWormGoToEdgeBehaviourNew * __this, IContext * context));

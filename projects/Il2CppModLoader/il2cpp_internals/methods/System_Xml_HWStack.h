@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::HWStack {
 IL2CPP_REGISTER_METHOD(0x021F81C0, void, __ctor, (HWStack * __this, int32_t GrowthRate));

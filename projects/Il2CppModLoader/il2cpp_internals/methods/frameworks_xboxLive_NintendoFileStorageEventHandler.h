@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::xboxLive::NintendoFileStorageEventHandler {
 IL2CPP_REGISTER_METHOD(0x00F6A710, Object *, ByteArrayToData, (NintendoFileStorageEventHandler * __this, Byte__Array * bytes));

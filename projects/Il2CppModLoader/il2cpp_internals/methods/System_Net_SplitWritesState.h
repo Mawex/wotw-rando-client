@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::SplitWritesState {
 IL2CPP_REGISTER_METHOD(0x020A53C0, void, __ctor, (SplitWritesState * __this, BufferOffsetSize_1__Array * buffers));

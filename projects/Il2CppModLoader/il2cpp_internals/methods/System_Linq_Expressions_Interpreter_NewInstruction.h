@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NewInstruction {
 IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (NewInstruction * __this, ConstructorInfo * constructor, int32_t argumentCount));

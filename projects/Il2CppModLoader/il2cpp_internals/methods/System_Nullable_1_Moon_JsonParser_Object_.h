@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Moon::JsonParser_Object_ {
 IL2CPP_REGISTER_METHOD(0x00120520, void, __ctor, (Nullable_1_Moon_JsonParser_Object___Boxed * __this, JsonParser_Object value));

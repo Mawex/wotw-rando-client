@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TranslatedMessageProvider_MessageItem {
 IL2CPP_REGISTER_METHOD(0x00B0B310, String *, Message, (TranslatedMessageProvider_MessageItem * __this, Language__Enum language));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetupStateVirtualAnimator {
 IL2CPP_REGISTER_METHOD(0x00F9DBA0, int32_t, get_Hash, (SetupStateVirtualAnimator * __this));

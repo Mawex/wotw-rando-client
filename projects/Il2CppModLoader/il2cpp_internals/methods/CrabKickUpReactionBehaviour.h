@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CrabKickUpReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00DB6450, bool, get_ShouldSkipUpdate, (CrabKickUpReactionBehaviour * __this));

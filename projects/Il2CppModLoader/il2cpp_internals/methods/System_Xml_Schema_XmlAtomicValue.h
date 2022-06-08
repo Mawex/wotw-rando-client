@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlAtomicValue {
 IL2CPP_REGISTER_METHOD(0x0223BA20, void, __ctor, (XmlAtomicValue * __this, XmlSchemaType * xmlType, bool value));

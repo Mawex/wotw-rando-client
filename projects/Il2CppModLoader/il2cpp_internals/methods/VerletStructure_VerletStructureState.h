@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VerletStructure_VerletStructureState {
 IL2CPP_REGISTER_METHOD(0x013D2E40, void, Init, (VerletStructure_VerletStructureState * __this, VerletStructure * structure));

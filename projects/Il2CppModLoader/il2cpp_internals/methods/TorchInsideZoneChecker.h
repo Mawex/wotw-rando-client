@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TorchInsideZoneChecker {
 IL2CPP_REGISTER_METHOD(0x005D8A80, bool, get_IsInside, (TorchInsideZoneChecker * __this));

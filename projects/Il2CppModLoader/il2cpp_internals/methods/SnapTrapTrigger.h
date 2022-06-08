@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SnapTrapTrigger {
 IL2CPP_REGISTER_METHOD(0x00ED3B60, void, Awake, (SnapTrapTrigger * __this));

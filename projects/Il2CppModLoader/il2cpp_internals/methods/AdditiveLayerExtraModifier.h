@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AdditiveLayerExtraModifier {
 IL2CPP_REGISTER_METHOD(0x004CA7C0, void, ApplyMultipliers, (AdditiveLayerExtraModifier * __this, float strength, float speed));

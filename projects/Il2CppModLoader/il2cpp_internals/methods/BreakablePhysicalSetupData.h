@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BreakablePhysicalSetupData {
 IL2CPP_REGISTER_METHOD(0x002FA280, MoonReference_1_Moon_Timeline_MoonTimeline_ *, get_TransitionMoonReference, (BreakablePhysicalSetupData * __this));

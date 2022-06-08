@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonMath_Physics {
 IL2CPP_REGISTER_METHOD(0x025771C0, float, SpeedFromHeightAndGravity, (float gravity, float height));

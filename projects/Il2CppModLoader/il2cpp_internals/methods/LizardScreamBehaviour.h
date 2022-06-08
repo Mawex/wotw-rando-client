@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardScreamBehaviour {
 IL2CPP_REGISTER_METHOD(0x00FB2330, void, OnEnter, (LizardScreamBehaviour * __this, IContext * context));

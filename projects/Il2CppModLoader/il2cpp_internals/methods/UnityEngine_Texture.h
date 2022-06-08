@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Texture {
 IL2CPP_REGISTER_METHOD(0x02C65D20, void, __ctor, (Texture * __this));
@@ -22,11 +22,11 @@ IL2CPP_REGISTER_METHOD(0x02C66140, void, set_anisoLevel, (Texture * __this, int3
 IL2CPP_REGISTER_METHOD(0x02C661A0, void, set_mipMapBias, (Texture * __this, float value));
 IL2CPP_REGISTER_METHOD(0x02C66200, Vector2, get_texelSize, (Texture * __this));
 IL2CPP_REGISTER_METHOD(0x02C66270, void *, GetNativeTexturePtr, (Texture * __this));
-IL2CPP_REGISTER_METHOD(0x02C662C0, uint64_t, get_totalTextureMemory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C66310, uint64_t, get_desiredTextureMemory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C66360, uint64_t, get_targetTextureMemory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x010A8370, uint64_t, get_currentTextureMemory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02C663B0, uint64_t, get_nonStreamingTextureMemory, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02C662C0, uint64_t, get_totalTextureMemory, ());
+IL2CPP_REGISTER_METHOD(0x02C66310, uint64_t, get_desiredTextureMemory, ());
+IL2CPP_REGISTER_METHOD(0x02C66360, uint64_t, get_targetTextureMemory, ());
+IL2CPP_REGISTER_METHOD(0x010A8370, uint64_t, get_currentTextureMemory, ());
+IL2CPP_REGISTER_METHOD(0x02C663B0, uint64_t, get_nonStreamingTextureMemory, ());
 IL2CPP_REGISTER_METHOD(0x02C66400, bool, ValidateFormat, (Texture * __this, RenderTextureFormat__Enum format));
 IL2CPP_REGISTER_METHOD(0x02C66560, bool, ValidateFormat, (Texture * __this, TextureFormat__Enum format));
 IL2CPP_REGISTER_METHOD(0x02C66730, bool, ValidateFormat, (Texture * __this, GraphicsFormat__Enum format, FormatUsage__Enum usage));

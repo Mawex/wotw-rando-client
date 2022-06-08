@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurtleDamageCondition {
 IL2CPP_REGISTER_METHOD(0x013D8350, bool, Validate, (TurtleDamageCondition * __this, IContext * context));

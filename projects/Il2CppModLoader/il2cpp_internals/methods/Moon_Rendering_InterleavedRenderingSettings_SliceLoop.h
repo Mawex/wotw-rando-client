@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::InterleavedRenderingSettings_SliceLoop {
 IL2CPP_REGISTER_METHOD(0x0078DA70, int32_t, GetSliceIndexToStore, (InterleavedRenderingSettings_SliceLoop * __this));

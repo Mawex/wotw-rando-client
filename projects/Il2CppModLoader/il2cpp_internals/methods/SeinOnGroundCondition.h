@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinOnGroundCondition {
 IL2CPP_REGISTER_METHOD(0x008AF4D0, bool, Validate, (SeinOnGroundCondition * __this, IContext * context));

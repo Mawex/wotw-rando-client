@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerUGC {
 IL2CPP_REGISTER_METHOD(0x027FEBA0, UGCQueryHandle_t, CreateQueryUserUGCRequest, (AccountID_t unAccountID, EUserUGCList__Enum eListType, EUGCMatchingUGCType__Enum eMatchingUGCType, EUserUGCListSortOrder__Enum eSortOrder, AppId_t nCreatorAppID, AppId_t nConsumerAppID, uint32_t unPage));
@@ -62,7 +62,7 @@ IL2CPP_REGISTER_METHOD(0x02803000, SteamAPICall_t, AddItemToFavorites, (AppId_t 
 IL2CPP_REGISTER_METHOD(0x028030C0, SteamAPICall_t, RemoveItemFromFavorites, (AppId_t nAppId, PublishedFileId_t nPublishedFileID));
 IL2CPP_REGISTER_METHOD(0x02803180, SteamAPICall_t, SubscribeItem, (PublishedFileId_t nPublishedFileID));
 IL2CPP_REGISTER_METHOD(0x02803230, SteamAPICall_t, UnsubscribeItem, (PublishedFileId_t nPublishedFileID));
-IL2CPP_REGISTER_METHOD(0x028032E0, uint32_t, GetNumSubscribedItems, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028032E0, uint32_t, GetNumSubscribedItems, ());
 IL2CPP_REGISTER_METHOD(0x02803300, uint32_t, GetSubscribedItems, (PublishedFileId_t__Array * pvecPublishedFileID, uint32_t cMaxEntries));
 IL2CPP_REGISTER_METHOD(0x02803340, uint32_t, GetItemState, (PublishedFileId_t nPublishedFileID));
 IL2CPP_REGISTER_METHOD(0x02803370, bool, GetItemInstallInfo, (PublishedFileId_t nPublishedFileID, uint64_t * punSizeOnDisk, String * * pchFolder, uint32_t cchFolderSize, uint32_t * punTimeStamp));
@@ -72,7 +72,7 @@ IL2CPP_REGISTER_METHOD(0x02803540, bool, BInitWorkshopForGameServer, (DepotId_t 
 IL2CPP_REGISTER_METHOD(0x02803760, void, SuspendDownloads, (bool bSuspend));
 IL2CPP_REGISTER_METHOD(0x02803790, SteamAPICall_t, StartPlaytimeTracking, (PublishedFileId_t__Array * pvecPublishedFileID, uint32_t unNumPublishedFileIDs));
 IL2CPP_REGISTER_METHOD(0x02803860, SteamAPICall_t, StopPlaytimeTracking, (PublishedFileId_t__Array * pvecPublishedFileID, uint32_t unNumPublishedFileIDs));
-IL2CPP_REGISTER_METHOD(0x02803930, SteamAPICall_t, StopPlaytimeTrackingForAllItems, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02803930, SteamAPICall_t, StopPlaytimeTrackingForAllItems, ());
 IL2CPP_REGISTER_METHOD(0x028039E0, SteamAPICall_t, AddDependency, (PublishedFileId_t nParentPublishedFileID, PublishedFileId_t nChildPublishedFileID));
 IL2CPP_REGISTER_METHOD(0x02803AA0, SteamAPICall_t, RemoveDependency, (PublishedFileId_t nParentPublishedFileID, PublishedFileId_t nChildPublishedFileID));
 IL2CPP_REGISTER_METHOD(0x02803B60, SteamAPICall_t, AddAppDependency, (PublishedFileId_t nPublishedFileID, AppId_t nAppID));

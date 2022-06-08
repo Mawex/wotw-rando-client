@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverFABRIKRoot {
 IL2CPP_REGISTER_METHOD(0x02BF0350, bool, IsValid, (IKSolverFABRIKRoot * __this, String * * message));

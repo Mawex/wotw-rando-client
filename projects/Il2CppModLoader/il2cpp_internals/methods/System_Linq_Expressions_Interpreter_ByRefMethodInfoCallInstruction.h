@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::ByRefMethodInfoCallInstruction {
 IL2CPP_REGISTER_METHOD(0x0199E410, void, __ctor, (ByRefMethodInfoCallInstruction * __this, MethodInfo_1 * target, int32_t argumentCount, ByRefUpdater__Array * byrefArgs));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::RecordingContext {
 IL2CPP_REGISTER_METHOD(0x0010E100, RecordableType__Enum, get_RecordableType, (RecordingContext__Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::RequestStream {
 IL2CPP_REGISTER_METHOD(0x01BCE410, void, __ctor, (RequestStream * __this, Stream * stream, Byte__Array * buffer, int32_t offset, int32_t length));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameController___c {
-IL2CPP_REGISTER_METHOD(0x00699730, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00699730, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GameController_c * __this));
 IL2CPP_REGISTER_METHOD(0x00699870, bool, _StartBuildInScene_b__178_0, (GameController_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04705E28, GameController_c__StartBuildInScene_b__178_0__MethodInfo);

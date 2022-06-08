@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XElementXmlPropertyDescriptor {
 IL2CPP_REGISTER_METHOD(0x0302B6D0, void, __ctor, (XElementXmlPropertyDescriptor * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonProfilerSample {
 IL2CPP_REGISTER_METHOD(0x0111BF20, MoonProfilerSample, operator_, (Recorder * recorder));

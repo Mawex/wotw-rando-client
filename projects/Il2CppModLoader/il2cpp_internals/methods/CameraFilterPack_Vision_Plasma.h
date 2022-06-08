@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Vision_Plasma {
 IL2CPP_REGISTER_METHOD(0x020F8380, Material *, get_material, (CameraFilterPack_Vision_Plasma * __this));

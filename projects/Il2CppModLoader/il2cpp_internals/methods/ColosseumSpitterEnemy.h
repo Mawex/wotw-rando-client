@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColosseumSpitterEnemy {
 IL2CPP_REGISTER_METHOD(0x011DB170, void, Start, (ColosseumSpitterEnemy * __this));

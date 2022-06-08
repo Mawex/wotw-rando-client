@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyDiscoverWorldMapAreasAction {
 IL2CPP_REGISTER_METHOD(0x00A18BA0, void, Perform, (LegacyDiscoverWorldMapAreasAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::RendererCullingParameters_SliceList {
 IL2CPP_REGISTER_METHOD(0x001F1330, void, set_Item, (RendererCullingParameters_SliceList__Boxed * __this, int32_t i, float value));

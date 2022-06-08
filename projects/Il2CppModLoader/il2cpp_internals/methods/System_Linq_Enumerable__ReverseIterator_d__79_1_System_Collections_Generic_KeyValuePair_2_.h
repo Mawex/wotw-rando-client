@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__ReverseIterator_d__79_1_System::Collections::Generic::KeyValuePair_2_ {
 IL2CPP_REGISTER_METHOD(0x02985070, void, __ctor, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this, int32_t __1__state));

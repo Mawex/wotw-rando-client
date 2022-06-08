@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::JsonUtility {
 IL2CPP_REGISTER_METHOD(0x031C2D00, String *, ToJsonInternal, (Object * obj, bool prettyPrint));

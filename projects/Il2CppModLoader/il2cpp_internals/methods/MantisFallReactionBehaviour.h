@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisFallReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x002FBC60, LegacyTimelineSequence *, get_EffectiveLandSequence, (MantisFallReactionBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageStructureMetaDataGroup {
 IL2CPP_REGISTER_METHOD(0x00824120, CageStructureTool *, get_CageStructure, (CageStructureMetaDataGroup * __this));

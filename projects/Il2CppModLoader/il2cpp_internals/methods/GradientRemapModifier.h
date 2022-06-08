@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GradientRemapModifier {
 IL2CPP_REGISTER_METHOD(0x01082920, void, SetProperties, (GradientRemapModifier * __this));

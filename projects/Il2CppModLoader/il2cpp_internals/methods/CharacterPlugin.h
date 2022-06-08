@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterPlugin {
 IL2CPP_REGISTER_METHOD(0x013139C0, void, Awake, (CharacterPlugin * __this));

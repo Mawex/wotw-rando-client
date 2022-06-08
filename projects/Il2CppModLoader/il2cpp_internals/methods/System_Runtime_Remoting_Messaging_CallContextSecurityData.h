@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::CallContextSecurityData {
 IL2CPP_REGISTER_METHOD(0x00627D70, bool, get_HasInfo, (CallContextSecurityData * __this));

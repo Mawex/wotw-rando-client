@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_MS::Internal::Xml::Cache::XPathNodeRef_ {
 IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals, (ObjectEqualityComparer_1_MS_Internal_Xml_Cache_XPathNodeRef_ * __this, XPathNodeRef x, XPathNodeRef y));

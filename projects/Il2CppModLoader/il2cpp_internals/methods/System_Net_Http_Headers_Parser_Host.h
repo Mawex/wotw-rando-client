@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::Parser_Host {
 IL2CPP_REGISTER_METHOD(0x02D12710, bool, TryParse, (String * input, String * * result));

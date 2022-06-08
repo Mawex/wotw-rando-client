@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GasballSetIsChasingOri {
 IL2CPP_REGISTER_METHOD(0x00420B20, BehaviourStatus__Enum, OnExecute, (GasballSetIsChasingOri * __this, IContext * context));

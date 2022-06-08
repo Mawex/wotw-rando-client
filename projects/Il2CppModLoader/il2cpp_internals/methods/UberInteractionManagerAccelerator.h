@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberInteractionManagerAccelerator {
 IL2CPP_REGISTER_METHOD(0x004C87B0, float, get_CellSize, (UberInteractionManagerAccelerator * __this));

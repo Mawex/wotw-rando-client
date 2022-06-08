@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LightShadingZoneEditorSetup {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoStrip, (LightShadingZoneEditorSetup * __this));

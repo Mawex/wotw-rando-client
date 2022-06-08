@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsXboxSeriesSorXCondition {
 IL2CPP_REGISTER_METHOD(0x006490C0, bool, Validate, (IsXboxSeriesSorXCondition * __this, IContext * context));

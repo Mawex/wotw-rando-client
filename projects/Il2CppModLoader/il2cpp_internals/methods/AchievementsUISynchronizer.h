@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AchievementsUISynchronizer {
 IL2CPP_REGISTER_METHOD(0x004C0670, bool, get_IsSynchronized, (AchievementsUISynchronizer * __this));

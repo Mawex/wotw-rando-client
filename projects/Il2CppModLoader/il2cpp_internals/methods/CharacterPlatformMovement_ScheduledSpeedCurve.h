@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterPlatformMovement_ScheduledSpeedCurve {
 IL2CPP_REGISTER_METHOD(0x01312050, bool, get_ApplyDirection, (CharacterPlatformMovement_ScheduledSpeedCurve * __this));

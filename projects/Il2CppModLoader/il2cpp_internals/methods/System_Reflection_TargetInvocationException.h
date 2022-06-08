@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::TargetInvocationException {
 IL2CPP_REGISTER_METHOD(0x02698CC0, void, __ctor, (TargetInvocationException * __this));

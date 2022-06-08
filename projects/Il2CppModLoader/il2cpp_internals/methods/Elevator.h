@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Elevator {
 IL2CPP_REGISTER_METHOD(0x00BF99D0, bool, get_GoingUp, (Elevator * __this));

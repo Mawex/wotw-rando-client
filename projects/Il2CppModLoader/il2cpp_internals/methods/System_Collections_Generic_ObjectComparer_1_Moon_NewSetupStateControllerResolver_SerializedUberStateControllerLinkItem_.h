@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon::NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ {
 IL2CPP_REGISTER_METHOD(0x01CC5650, int32_t, Compare, (ObjectComparer_1_Moon_NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem_ * __this, NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem x, NewSetupStateControllerResolver_SerializedUberStateControllerLinkItem y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::BooleanTypeInfo {
 IL2CPP_REGISTER_METHOD(0x017473D0, void, WriteMetadata, (BooleanTypeInfo * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));

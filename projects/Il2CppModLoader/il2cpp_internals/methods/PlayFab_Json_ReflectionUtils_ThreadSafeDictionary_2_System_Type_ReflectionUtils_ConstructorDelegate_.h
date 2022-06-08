@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils_ThreadSafeDictionary_2_System::Type_ReflectionUtils_ConstructorDelegate_ {
 IL2CPP_REGISTER_METHOD(0x01D15670, void, __ctor, (ReflectionUtils_ThreadSafeDictionary_2_System_Type_ReflectionUtils_ConstructorDelegate_ * __this, ReflectionUtils_ThreadSafeDictionaryValueFactory_2_System_Type_ReflectionUtils_ConstructorDelegate_ * valueFactory));

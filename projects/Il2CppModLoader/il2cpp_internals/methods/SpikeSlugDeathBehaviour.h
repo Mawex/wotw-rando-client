@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpikeSlugDeathBehaviour {
 IL2CPP_REGISTER_METHOD(0x011C70A0, void, OnEnterTask, (SpikeSlugDeathBehaviour * __this, IContext * context));

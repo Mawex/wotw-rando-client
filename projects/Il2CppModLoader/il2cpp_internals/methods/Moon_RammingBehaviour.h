@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour {
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x00C4CC00, bool, IsBlockingInterruption, (RammingBehaviour * __this, EntityDamageEvent * damageEvent, EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason));
 IL2CPP_REGISTER_METHOD(0x00C4CD30, void, OnEntityInitialized, (RammingBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x00C4D7F0, void, OnEnter, (RammingBehaviour * __this, IContext * context));

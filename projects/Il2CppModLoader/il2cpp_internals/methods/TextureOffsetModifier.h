@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextureOffsetModifier {
 IL2CPP_REGISTER_METHOD(0x010EBBC0, void, Awake, (TextureOffsetModifier * __this));

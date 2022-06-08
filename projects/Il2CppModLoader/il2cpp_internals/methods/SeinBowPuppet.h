@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinBowPuppet {
 IL2CPP_REGISTER_METHOD(0x00DA2340, int32_t, get_Id, (SeinBowPuppet * __this));

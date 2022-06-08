@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_TKey_TValue__KeyList_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x004F0AC0, int32_t, get_Count, (SortedList_2_TKey_TValue_KeyList_System_Object_System_Object_ * __this));

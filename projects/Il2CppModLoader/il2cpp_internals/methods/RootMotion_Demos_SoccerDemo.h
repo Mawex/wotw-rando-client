@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::SoccerDemo {
 IL2CPP_REGISTER_METHOD(0x02046410, void, Start, (SoccerDemo * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::IsTargetInAreaOfTypeCondition {
 IL2CPP_REGISTER_METHOD(0x00CBA700, String *, get_Info, (IsTargetInAreaOfTypeCondition * __this));

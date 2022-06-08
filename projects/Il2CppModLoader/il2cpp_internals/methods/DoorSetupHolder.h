@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DoorSetupHolder {
 IL2CPP_REGISTER_METHOD(0x00BDB0E0, DoorSetupData *, get_ClosedState, (DoorSetupHolder * __this));

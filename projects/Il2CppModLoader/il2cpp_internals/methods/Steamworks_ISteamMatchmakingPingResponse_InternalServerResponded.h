@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::ISteamMatchmakingPingResponse_InternalServerResponded {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (ISteamMatchmakingPingResponse_InternalServerResponded * __this, Object * object, void * method_1));

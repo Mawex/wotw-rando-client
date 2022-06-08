@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabFileUploader {
 IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (PlayFabFileUploader * __this, String * fileName, Byte__Array * data, String * ownerId));

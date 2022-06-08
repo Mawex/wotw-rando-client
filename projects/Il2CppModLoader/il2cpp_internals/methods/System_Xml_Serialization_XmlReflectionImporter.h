@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlReflectionImporter {
 IL2CPP_REGISTER_METHOD(0x025A25A0, void, __ctor, (XmlReflectionImporter * __this, XmlAttributeOverrides * attributeOverrides, String * defaultNamespace));
@@ -37,5 +37,5 @@ IL2CPP_REGISTER_METHOD(0x025AAE80, void, IncludeType, (XmlReflectionImporter * _
 IL2CPP_REGISTER_METHODINFO(0x0472AFA8, XmlReflectionImporter_IncludeType__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x025AB2C0, Object *, GetDefaultValue, (XmlReflectionImporter * __this, TypeData * typeData, Object * defaultValue));
 IL2CPP_REGISTER_METHODINFO(0x0476C438, XmlReflectionImporter_GetDefaultValue__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025AB4B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025AB4B0, void, __cctor, ());
 }

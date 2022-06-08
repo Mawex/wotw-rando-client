@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::ErrorContext {
 IL2CPP_REGISTER_METHOD(0x0186BD10, void, __ctor, (ErrorContext * __this, Object * originalObject, Object * member, String * path, Exception * error));

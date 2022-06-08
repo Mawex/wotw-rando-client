@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::SafeHandles::SafeWaitHandle {
 IL2CPP_REGISTER_METHOD(0x021722B0, void, __ctor, (SafeWaitHandle * __this, void * existingHandle, bool ownsHandle));

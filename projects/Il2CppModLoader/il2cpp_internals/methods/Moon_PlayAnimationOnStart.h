@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PlayAnimationOnStart {
 IL2CPP_REGISTER_METHOD(0x0211F4F0, void, Start, (PlayAnimationOnStart * __this));

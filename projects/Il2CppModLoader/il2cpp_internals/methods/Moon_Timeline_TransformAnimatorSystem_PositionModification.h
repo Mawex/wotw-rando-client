@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransformAnimatorSystem_PositionModification {
 IL2CPP_REGISTER_METHOD(0x00246FD0, void, Apply, (TransformAnimatorSystem_PositionModification__Boxed * __this, TransformAnimatorSystem_ObjectState * objectState, bool immediatelyApply));

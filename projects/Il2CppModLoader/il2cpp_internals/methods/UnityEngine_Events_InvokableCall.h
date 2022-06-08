@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::InvokableCall {
 IL2CPP_REGISTER_METHOD(0x0242EB20, void, __ctor, (InvokableCall * __this, Object * target, MethodInfo_1 * theFunction));

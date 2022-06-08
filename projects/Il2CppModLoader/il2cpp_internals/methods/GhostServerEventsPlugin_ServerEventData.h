@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostServerEventsPlugin_ServerEventData {
 IL2CPP_REGISTER_METHOD(0x007E7250, GhostFrame_FrameDataTypes__Enum, get_FrameType, (GhostServerEventsPlugin_ServerEventData * __this));

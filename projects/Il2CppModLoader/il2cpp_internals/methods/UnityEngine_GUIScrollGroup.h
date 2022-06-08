@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUIScrollGroup {
 IL2CPP_REGISTER_METHOD(0x029EF9B0, void, __ctor, (GUIScrollGroup * __this));

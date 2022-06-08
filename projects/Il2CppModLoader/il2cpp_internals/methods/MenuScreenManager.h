@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MenuScreenManager {
-IL2CPP_REGISTER_METHOD(0x009DA500, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009DA500, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x003FC040, bool, get_AllowEquipmentWheelWhileMovementIsDisabled, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DA5F0, void, set_AllowEquipmentWheelWhileMovementIsDisabled, (MenuScreenManager * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x009DA600, bool, get_IsSuspended, (MenuScreenManager * __this));
@@ -13,19 +13,19 @@ IL2CPP_REGISTER_METHOD(0x009DA760, bool, get_IsInventoryVisible, (MenuScreenMana
 IL2CPP_REGISTER_METHOD(0x009DA780, bool, get_ResumeScreenVisible, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DA830, float, get_CurrentMenuOpenTime, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DA890, float, get_CurrentScreenOpenTime, (MenuScreenManager * __this));
-IL2CPP_REGISTER_METHOD(0x009DA8F0, bool, get_MainMenuOpenKeyPressed, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009DA9C0, bool, get_OpenLastMenuKeyPressed, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009DAA90, bool, get_OpenMapScreenPressed, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009DAB60, bool, get_OpenInventoryPressed, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009DAC30, bool, get_OpenShardsPressed, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009DAD00, bool, get_EquipmentWheelKeyDown, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009DADC0, bool, get_EquipmentWheelKeyReleasead, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x009DAE80, bool, get_ShouldStopRenderingSlices, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009DA8F0, bool, get_MainMenuOpenKeyPressed, ());
+IL2CPP_REGISTER_METHOD(0x009DA9C0, bool, get_OpenLastMenuKeyPressed, ());
+IL2CPP_REGISTER_METHOD(0x009DAA90, bool, get_OpenMapScreenPressed, ());
+IL2CPP_REGISTER_METHOD(0x009DAB60, bool, get_OpenInventoryPressed, ());
+IL2CPP_REGISTER_METHOD(0x009DAC30, bool, get_OpenShardsPressed, ());
+IL2CPP_REGISTER_METHOD(0x009DAD00, bool, get_EquipmentWheelKeyDown, ());
+IL2CPP_REGISTER_METHOD(0x009DADC0, bool, get_EquipmentWheelKeyReleasead, ());
+IL2CPP_REGISTER_METHOD(0x009DAE80, bool, get_ShouldStopRenderingSlices, ());
 IL2CPP_REGISTER_METHOD(0x009DB2E0, bool, get_IsExperienceUIDesired, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DB3F0, bool, get_IsSeedUIDesired, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DB500, bool, get_IsContainerUIDesired, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DB610, MenuScreen *, get_InventoryManager, (MenuScreenManager * __this));
-IL2CPP_REGISTER_METHOD(0x009DB690, bool, get_ShouldDoUiBackgroundBlur, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009DB690, bool, get_ShouldDoUiBackgroundBlur, ());
 IL2CPP_REGISTER_METHOD(0x009DBB30, void, OnDestroy, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DBCD0, void, Awake, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHOD(0x009DC040, void, FixedUpdate, (MenuScreenManager * __this));
@@ -80,7 +80,7 @@ IL2CPP_REGISTER_METHOD(0x009E3460, IMenuTab *, GetScreenTab, (MenuScreenManager 
 IL2CPP_REGISTER_METHOD(0x009E35B0, bool, CanInterruptScreen, (MenuScreenManager * __this, MenuScreenManager_Screens__Enum screen));
 IL2CPP_REGISTER_METHOD(0x009E3660, MenuTabBackground__Enum, BackgroundMode, (MenuScreenManager * __this, MenuScreenManager_Screens__Enum screen));
 IL2CPP_REGISTER_METHOD(0x009E3710, void, __ctor, (MenuScreenManager * __this));
-IL2CPP_REGISTER_METHOD(0x009E54F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009E54F0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x009E5660, void, _OnStartKeyPressed_b__91_0, (MenuScreenManager * __this));
 IL2CPP_REGISTER_METHODINFO(0x04795B80, MenuScreenManager__OnStartKeyPressed_b__91_0__MethodInfo);
 }

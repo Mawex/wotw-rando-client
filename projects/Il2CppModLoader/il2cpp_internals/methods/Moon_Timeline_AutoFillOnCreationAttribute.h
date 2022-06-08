@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::AutoFillOnCreationAttribute {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (AutoFillOnCreationAttribute * __this, AutoFillOnCreationAttribute_ResolveConflict__Enum resolveConflict));

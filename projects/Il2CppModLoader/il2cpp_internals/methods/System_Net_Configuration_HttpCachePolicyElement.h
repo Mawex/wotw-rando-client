@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::HttpCachePolicyElement {
 IL2CPP_REGISTER_METHOD(0x02019500, void, __ctor, (HttpCachePolicyElement * __this));

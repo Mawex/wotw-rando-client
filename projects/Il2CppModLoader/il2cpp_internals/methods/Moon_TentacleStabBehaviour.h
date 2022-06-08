@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleStabBehaviour {
 IL2CPP_REGISTER_METHOD(0x010B7740, Enum__Array *, GetEntries, (TentacleStabBehaviour * __this));
@@ -27,5 +27,5 @@ IL2CPP_REGISTER_METHOD(0x010BA1E0, void, OnExit, (TentacleStabBehaviour * __this
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, ShouldPauseLocomotion, (TentacleStabBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x010BACA0, void, OnDrawGizmos, (TentacleStabBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x010BAD70, void, __ctor, (TentacleStabBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x010BAE30, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010BAE30, void, __cctor, ());
 }

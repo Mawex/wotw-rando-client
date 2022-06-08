@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Door {
 IL2CPP_REGISTER_METHOD(0x01DD5AC0, void, add_stateChange, (Door_1 * __this, Action_1_ZenFulcrum_EmbeddedBrowser_Door_OpenState_ * value));

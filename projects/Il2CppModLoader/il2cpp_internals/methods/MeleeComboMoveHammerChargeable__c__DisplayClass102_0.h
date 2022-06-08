@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeComboMoveHammerChargeable___c__DisplayClass102_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MeleeComboMoveHammerChargeable_c_DisplayClass102_0 * __this));

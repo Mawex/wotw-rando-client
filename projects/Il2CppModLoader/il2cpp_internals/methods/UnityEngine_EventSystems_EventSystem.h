@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::EventSystem {
 IL2CPP_REGISTER_METHOD(0x01F1BDD0, void, __ctor, (EventSystem * __this));
-IL2CPP_REGISTER_METHOD(0x01F1BF40, EventSystem *, get_current, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F1BF40, EventSystem *, get_current, ());
 IL2CPP_REGISTER_METHOD(0x01F1C040, void, set_current, (EventSystem * value));
 IL2CPP_REGISTER_METHOD(0x01F1C1B0, bool, get_sendNavigationEvents, (EventSystem * __this));
 IL2CPP_REGISTER_METHOD(0x004C6650, void, set_sendNavigationEvents, (EventSystem * __this, bool value));
@@ -31,5 +31,5 @@ IL2CPP_REGISTER_METHOD(0x00585320, void, OnApplicationFocus, (EventSystem * __th
 IL2CPP_REGISTER_METHOD(0x01F1D500, void, Update, (EventSystem * __this));
 IL2CPP_REGISTER_METHOD(0x01F1D960, void, ChangeEventModule, (EventSystem * __this, BaseInputModule * module));
 IL2CPP_REGISTER_METHOD(0x01F1DAC0, String *, ToString, (EventSystem * __this));
-IL2CPP_REGISTER_METHOD(0x01F1DD10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F1DD10, void, __cctor, ());
 }

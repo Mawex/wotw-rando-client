@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::BlockingCollection_1_T___GetConsumingEnumerable_d__68_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, Object *, System_Collections_Generic_IEnumerator_T__get_Current, (BlockingCollection_1_T_GetConsumingEnumerable_d_68_System_Object_ * __this));

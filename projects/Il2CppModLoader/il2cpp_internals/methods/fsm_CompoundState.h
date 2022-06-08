@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::fsm::CompoundState {
 IL2CPP_REGISTER_METHOD(0x00F6D490, void, __ctor, (CompoundState_1 * __this, IState_2__Array * states));

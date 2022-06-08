@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_VirtualTimelineRepresentationGroup_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02DB99B0, bool, get_Item, (Dictionary_2_VirtualTimelineRepresentationGroup_System_Boolean_ * __this, VirtualTimelineRepresentationGroup__Enum key));

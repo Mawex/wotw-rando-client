@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::EditorBrowsableAttribute {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (EditorBrowsableAttribute * __this, EditorBrowsableState__Enum state));

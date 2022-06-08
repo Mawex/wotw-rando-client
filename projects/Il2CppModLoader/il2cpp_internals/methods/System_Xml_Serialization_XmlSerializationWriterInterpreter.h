@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSerializationWriterInterpreter {
 IL2CPP_REGISTER_METHOD(0x025BE360, void, __ctor, (XmlSerializationWriterInterpreter * __this, XmlMapping * typeMap));

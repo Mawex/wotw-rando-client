@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::IO::TriangleFormat {
 IL2CPP_REGISTER_METHOD(0x02621520, bool, IsSupported, (TriangleFormat * __this, String * file));

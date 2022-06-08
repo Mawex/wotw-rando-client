@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System::Linq::Expressions::Interpreter::InstructionList_DebugView_InstructionView_ {
 IL2CPP_REGISTER_METHOD(0x01CD2410, bool, Equals, (ObjectEqualityComparer_1_System_Linq_Expressions_Interpreter_InstructionList_DebugView_InstructionView_ * __this, InstructionList_DebugView_InstructionView x, InstructionList_DebugView_InstructionView y));

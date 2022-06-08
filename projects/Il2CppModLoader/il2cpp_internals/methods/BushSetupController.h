@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BushSetupController {
 IL2CPP_REGISTER_METHOD(0x0081CD00, void, FixedUpdate, (BushSetupController * __this));

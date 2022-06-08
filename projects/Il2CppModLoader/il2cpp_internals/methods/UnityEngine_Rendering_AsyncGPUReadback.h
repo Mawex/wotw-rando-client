@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Rendering::AsyncGPUReadback {
 IL2CPP_REGISTER_METHOD(0x02973830, void, SetUpScriptingRequest, (AsyncGPUReadbackRequest request, Action_1_UnityEngine_Rendering_AsyncGPUReadbackRequest_ * callback));

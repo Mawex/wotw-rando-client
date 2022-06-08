@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::OutlineModifier {
 IL2CPP_REGISTER_METHOD(0x004413D0, void, SetProperties, (OutlineModifier * __this));

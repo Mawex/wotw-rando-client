@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicalSystemStateModifier {
 IL2CPP_REGISTER_METHOD(0x014FBB70, void, Apply, (PhysicalSystemStateModifier * __this, MoonReference_1_UnityEngine_GameObject_ * target, UberStateApplyContext__Enum context));

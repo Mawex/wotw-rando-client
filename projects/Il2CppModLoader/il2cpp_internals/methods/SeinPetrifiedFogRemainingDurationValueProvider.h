@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinPetrifiedFogRemainingDurationValueProvider {
 IL2CPP_REGISTER_METHOD(0x008B0590, float, GetFloatValue, (SeinPetrifiedFogRemainingDurationValueProvider * __this));

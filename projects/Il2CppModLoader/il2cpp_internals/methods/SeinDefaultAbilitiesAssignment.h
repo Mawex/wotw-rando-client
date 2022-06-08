@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinDefaultAbilitiesAssignment {
 IL2CPP_REGISTER_METHOD(0x007005D0, void, Start, (SeinDefaultAbilitiesAssignment * __this));

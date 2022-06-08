@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseEventSystem {
 IL2CPP_REGISTER_METHOD(0x027123C0, void, Initialize, (WwiseEventSystem * __this, AkWwiseInitializationSettings * config));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwarmEntity___c__DisplayClass87_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SwarmEntity_c_DisplayClass87_0 * __this));

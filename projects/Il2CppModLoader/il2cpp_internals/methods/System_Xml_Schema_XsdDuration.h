@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XsdDuration {
 IL2CPP_REGISTER_METHOD(0x001C6280, void, __ctor, (XsdDuration__Boxed * __this, bool isNegative, int32_t years, int32_t months, int32_t days, int32_t hours, int32_t minutes, int32_t seconds, int32_t nanoseconds));

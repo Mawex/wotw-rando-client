@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::MechSpider {
 IL2CPP_REGISTER_METHOD(0x02222FA0, void, Update, (MechSpider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsSerializer_fsLazyCycleDefinitionWriter {
 IL2CPP_REGISTER_METHOD(0x0151C550, void, WriteDefinition, (fsSerializer_fsLazyCycleDefinitionWriter * __this, int32_t id, fsData * data));

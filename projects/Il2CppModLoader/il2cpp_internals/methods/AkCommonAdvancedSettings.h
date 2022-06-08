@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkCommonAdvancedSettings {
 IL2CPP_REGISTER_METHOD(0x026D8830, void, CopyTo, (AkCommonAdvancedSettings * __this, AkDeviceSettings * settings));

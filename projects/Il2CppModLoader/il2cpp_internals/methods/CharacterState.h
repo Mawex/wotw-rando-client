@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterState {
 IL2CPP_REGISTER_METHOD(0x01314750, MoonAnimator *, get_SeinAnimator, (CharacterState * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornbugBossHitReactionsBehaviour {
 IL2CPP_REGISTER_METHOD(0x00B6F390, void, Awake, (HornbugBossHitReactionsBehaviour * __this));

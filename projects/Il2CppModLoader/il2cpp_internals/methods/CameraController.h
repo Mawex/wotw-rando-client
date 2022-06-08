@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraController {
 IL2CPP_REGISTER_METHOD(0x003FBE50, bool, get_FrustumLocked, (CameraController_1 * __this));

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BlockableLaser {
 IL2CPP_REGISTER_METHOD(0x00D2CC30, Vector3, get_TransformedLaserDirection, (BlockableLaser * __this));
-IL2CPP_REGISTER_METHOD(0x00D2CD40, void, UpdateActivationTimeslicer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D2CD40, void, UpdateActivationTimeslicer, ());
 IL2CPP_REGISTER_METHOD(0x00D2CDF0, bool, get_Activated, (BlockableLaser * __this));
 IL2CPP_REGISTER_METHOD(0x00D2CE00, void, set_Activated, (BlockableLaser * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00D2CE30, float, get_CurrentScale, (BlockableLaser * __this));
@@ -46,7 +46,7 @@ IL2CPP_REGISTER_METHOD(0x00D33900, void, set_Mask, (BlockableLaser * __this, Sus
 IL2CPP_REGISTER_METHOD(0x00D33910, void, Serialize, (BlockableLaser * __this, Archive * ar));
 IL2CPP_REGISTER_METHOD(0x00D339D0, Vector3, NearestPointOnFiniteLine, (Vector2 start, Vector2 end, Vector2 pnt));
 IL2CPP_REGISTER_METHOD(0x00D33BE0, void, __ctor, (BlockableLaser * __this));
-IL2CPP_REGISTER_METHOD(0x00D340B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D340B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00D34200, void, _OnActivatedImmediate_b__39_0, (BlockableLaser * __this));
 IL2CPP_REGISTER_METHODINFO(0x047233C8, BlockableLaser__OnActivatedImmediate_b__39_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00D343E0, void, _OnDeactivateImmediate_b__41_0, (BlockableLaser * __this));

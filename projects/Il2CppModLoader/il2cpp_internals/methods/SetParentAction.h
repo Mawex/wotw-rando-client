@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetParentAction {
 IL2CPP_REGISTER_METHOD(0x005A3290, void, Perform, (SetParentAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IgnoreGoThroughPlatforms {
 IL2CPP_REGISTER_METHOD(0x00627270, void, OnEnable, (IgnoreGoThroughPlatforms * __this));

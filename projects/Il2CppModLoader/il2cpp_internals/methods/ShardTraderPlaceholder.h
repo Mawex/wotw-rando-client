@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShardTraderPlaceholder {
 IL2CPP_REGISTER_METHOD(0x005AF9D0, void, InstantiateFromPooledObj, (ShardTraderPlaceholder * __this));

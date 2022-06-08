@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityTextPercentageDisplayValue {
 IL2CPP_REGISTER_METHOD(0x013AB210, void, Awake, (UnityTextPercentageDisplayValue * __this));

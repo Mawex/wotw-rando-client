@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::NoAllocHelpers {
 IL2CPP_REGISTER_METHOD(0x02540D90, int32_t, SafeLength, (Array * values));

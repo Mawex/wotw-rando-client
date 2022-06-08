@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::OffsetModifier {
 IL2CPP_REGISTER_METHOD(0x02A18130, float, get_deltaTime, (OffsetModifier * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLandBehaviour {
 IL2CPP_REGISTER_METHOD(0x002FBD60, StateMachine_2 *, get_StateMachine, (PetrifiedOwlBossLandBehaviour * __this));

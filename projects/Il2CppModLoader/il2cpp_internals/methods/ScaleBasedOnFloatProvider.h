@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScaleBasedOnFloatProvider {
 IL2CPP_REGISTER_METHOD(0x00933AA0, void, Awake, (ScaleBasedOnFloatProvider * __this));

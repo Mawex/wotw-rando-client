@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UberShader::optimizations::gc::MemoryLabelDebugger_MemoryLabelAllocationCache_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, MemoryLabelDebugger_MemoryLabelAllocationCache *, get_Item, (List_1_UberShader_optimizations_gc_MemoryLabelDebugger_MemoryLabelAllocationCache_ * __this, int32_t index));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ContactFilter2D {
 IL2CPP_REGISTER_METHOD(0x0024A790, ContactFilter2D, NoFilter, (ContactFilter2D__Boxed * __this));

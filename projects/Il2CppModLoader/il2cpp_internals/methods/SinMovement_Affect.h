@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SinMovement_Affect {
 IL2CPP_REGISTER_METHOD(0x0074A430, void, Start, (SinMovement_Affect * __this, SinMovement * sinMovement));

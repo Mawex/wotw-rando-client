@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_FramePerformanceMonitor_PerformanceFrameData_ {
 IL2CPP_REGISTER_METHOD(0x025ECB30, void, Add, (List_1_FramePerformanceMonitor_PerformanceFrameData_ * __this, FramePerformanceMonitor_PerformanceFrameData item));
@@ -64,5 +64,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_FramePerformanceMonitor_P
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_FramePerformanceMonitor_PerformanceFrameData_ * __this, Comparison_1_FramePerformanceMonitor_PerformanceFrameData_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, FramePerformanceMonitor_PerformanceFrameData__Array *, ToArray, (List_1_FramePerformanceMonitor_PerformanceFrameData_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_FramePerformanceMonitor_PerformanceFrameData_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

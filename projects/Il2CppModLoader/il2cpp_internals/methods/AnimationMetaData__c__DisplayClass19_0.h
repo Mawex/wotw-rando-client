@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationMetaData___c__DisplayClass19_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (AnimationMetaData_c_DisplayClass19_0 * __this));

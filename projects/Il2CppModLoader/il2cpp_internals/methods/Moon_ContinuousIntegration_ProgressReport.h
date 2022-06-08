@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ContinuousIntegration::ProgressReport {
 IL2CPP_REGISTER_METHOD(0x0318B700, void, __ctor, (ProgressReport * __this, String * taskName));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::CursorRendererBase {
 IL2CPP_REGISTER_METHOD(0x01DD1CA0, void, OnEnable, (CursorRendererBase * __this));

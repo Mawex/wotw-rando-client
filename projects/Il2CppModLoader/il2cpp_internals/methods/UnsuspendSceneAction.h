@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnsuspendSceneAction {
 IL2CPP_REGISTER_METHOD(0x013AD8B0, void, Perform, (UnsuspendSceneAction * __this, IContext * context));

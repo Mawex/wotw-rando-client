@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaskDissolveModifier {
 IL2CPP_REGISTER_METHOD(0x00A0FE00, IEnumerable_1_System_String_ *, GetKeywordsForShader, (MaskDissolveModifier * __this));

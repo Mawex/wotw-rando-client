@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerResponse {
 IL2CPP_REGISTER_METHOD(0x01E55510, void, __ctor, (HttpListenerResponse * __this, HttpListenerContext * context));
@@ -56,7 +56,7 @@ IL2CPP_REGISTER_METHOD(0x01E58170, String *, QuotedString, (Cookie * cookie, Str
 IL2CPP_REGISTER_METHOD(0x01E58360, bool, IsToken, (String * value));
 IL2CPP_REGISTER_METHOD(0x01E58490, void, SetCookie, (HttpListenerResponse * __this, Cookie * cookie));
 IL2CPP_REGISTER_METHODINFO(0x0471FA88, HttpListenerResponse_SetCookie__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E58680, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E58680, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01E58710, void, __ctor, (HttpListenerResponse * __this));
 IL2CPP_REGISTER_METHODINFO(0x04756E00, HttpListenerResponse__ctor_1__MethodInfo);
 }

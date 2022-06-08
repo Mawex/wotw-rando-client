@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_List_1_UberBehaviourTree::IBehaviourEvent__ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_Int32_List_1_UberBehaviourTree_IBehaviourEvent_ * __this, int32_t key, List_1_UberBehaviourTree_IBehaviourEvent_ * * value));

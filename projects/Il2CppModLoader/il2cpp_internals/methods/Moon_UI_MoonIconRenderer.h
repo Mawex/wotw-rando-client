@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::MoonIconRenderer {
 IL2CPP_REGISTER_METHOD(0x01182020, void, Prepare, (MoonIconRenderer_1 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryClientHeartbeatEvent {
 IL2CPP_REGISTER_METHOD(0x002FBC40, String *, get_Name, (MoonTelemetryClientHeartbeatEvent * __this));

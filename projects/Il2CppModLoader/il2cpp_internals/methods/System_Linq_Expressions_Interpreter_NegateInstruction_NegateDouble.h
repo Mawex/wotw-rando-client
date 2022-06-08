@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NegateInstruction_NegateDouble {
 IL2CPP_REGISTER_METHOD(0x024011C0, int32_t, Run, (NegateInstruction_NegateDouble * __this, InterpretedFrame * frame));

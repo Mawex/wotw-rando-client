@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShaderRuntimeAnchoredTexture {
 IL2CPP_REGISTER_METHOD(0x00575450, bool, get_HasAnchor, (UberShaderRuntimeAnchoredTexture * __this));

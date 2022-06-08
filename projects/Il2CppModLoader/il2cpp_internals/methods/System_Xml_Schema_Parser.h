@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Parser {
 IL2CPP_REGISTER_METHOD(0x016D2ED0, void, __ctor, (Parser_1 * __this, SchemaType__Enum schemaType, XmlNameTable * nameTable, SchemaNames * schemaNames, ValidationEventHandler * eventHandler));

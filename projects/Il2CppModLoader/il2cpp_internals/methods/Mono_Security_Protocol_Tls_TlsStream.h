@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::TlsStream {
 IL2CPP_REGISTER_METHOD(0x0291C7C0, bool, get_EOF, (TlsStream * __this));

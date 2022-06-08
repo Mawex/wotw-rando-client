@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::Collection_1_Newtonsoft::Json::Linq::JToken_ {
 IL2CPP_REGISTER_METHOD(0x02CFA3A0, JToken *, get_Item, (Collection_1_Newtonsoft_Json_Linq_JToken_ * __this, int32_t index));

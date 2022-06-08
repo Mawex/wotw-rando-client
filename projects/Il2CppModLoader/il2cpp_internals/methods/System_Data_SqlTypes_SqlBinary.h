@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlBinary {
 IL2CPP_REGISTER_METHOD(0x00120B90, void, __ctor, (SqlBinary__Boxed * __this, bool fNull));
@@ -25,5 +25,5 @@ IL2CPP_REGISTER_METHOD(0x0013BB70, XmlSchema *, IXmlSerializable_GetSchema, (Sql
 IL2CPP_REGISTER_METHOD(0x001D6000, void, IXmlSerializable_ReadXml, (SqlBinary__Boxed * __this, XmlReader * reader));
 IL2CPP_REGISTER_METHOD(0x001D6010, void, IXmlSerializable_WriteXml, (SqlBinary__Boxed * __this, XmlWriter * writer));
 IL2CPP_REGISTER_METHOD(0x01E4F870, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
-IL2CPP_REGISTER_METHOD(0x01E4F9C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E4F9C0, void, __cctor, ());
 }

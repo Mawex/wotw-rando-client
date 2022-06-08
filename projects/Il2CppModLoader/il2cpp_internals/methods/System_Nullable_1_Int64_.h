@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Int64_ {
 IL2CPP_REGISTER_METHOD(0x00107C00, int64_t, GetValueOrDefault, (Nullable_1_Int64___Boxed * __this));

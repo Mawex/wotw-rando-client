@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::InteropHelp_SteamParamStringArray {
 IL2CPP_REGISTER_METHOD(0x015FFDD0, void, __ctor, (InteropHelp_SteamParamStringArray * __this, IList_1_System_String_ * strings));

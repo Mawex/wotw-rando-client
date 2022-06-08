@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PlayMoonTimeline {
 IL2CPP_REGISTER_METHOD(0x01E79420, void, Awake, (PlayMoonTimeline * __this));

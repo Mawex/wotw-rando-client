@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationMetaData_AnimationData {
 IL2CPP_REGISTER_METHOD(0x004FDAA0, Vector3, GetPositionAtTime, (AnimationMetaData_AnimationData * __this, float time));

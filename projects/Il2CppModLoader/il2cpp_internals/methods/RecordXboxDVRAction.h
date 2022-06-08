@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecordXboxDVRAction {
 IL2CPP_REGISTER_METHOD(0x00735FA0, void, Perform, (RecordXboxDVRAction * __this, IContext * context));

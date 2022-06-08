@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Blend_1_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x019D84A0, void, __ctor, (Blend_1_System_Single_ * __this, Func_2_Single_Single_ * ease, Func_4_Single_Single_Single_Single_ * lerp));

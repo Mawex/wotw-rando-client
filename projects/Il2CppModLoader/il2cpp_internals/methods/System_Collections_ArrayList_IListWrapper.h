@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ArrayList_IListWrapper {
 IL2CPP_REGISTER_METHOD(0x0201AA60, void, __ctor, (ArrayList_IListWrapper * __this, IList * list));

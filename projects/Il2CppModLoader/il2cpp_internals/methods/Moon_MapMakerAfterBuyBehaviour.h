@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MapMakerAfterBuyBehaviour {
 IL2CPP_REGISTER_METHOD(0x0110E280, void, OnEnter, (MapMakerAfterBuyBehaviour * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlDoubleStorage {
 IL2CPP_REGISTER_METHOD(0x02853D30, void, __ctor, (SqlDoubleStorage * __this, DataColumn * column));

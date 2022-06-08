@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MapmakerScreen___c {
-IL2CPP_REGISTER_METHOD(0x00A0E150, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A0E150, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MapmakerScreen_c * __this));
 IL2CPP_REGISTER_METHOD(0x00A0E290, bool, _FocusOnPreviousSelection_b__55_0, (MapmakerScreen_c * __this, CleverMenuItem * a));
 IL2CPP_REGISTER_METHODINFO(0x04749CE8, MapmakerScreen_c__FocusOnPreviousSelection_b__55_0__MethodInfo);

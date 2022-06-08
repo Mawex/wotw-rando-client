@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BatEnemy {
 IL2CPP_REGISTER_METHOD(0x00F8F610, BatSwarm *, get_Swarm, (BatEnemy * __this));

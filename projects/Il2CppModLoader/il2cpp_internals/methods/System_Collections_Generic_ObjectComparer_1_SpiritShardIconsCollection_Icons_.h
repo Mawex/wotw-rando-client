@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_SpiritShardIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x01CC9800, int32_t, Compare, (ObjectComparer_1_SpiritShardIconsCollection_Icons_ * __this, SpiritShardIconsCollection_Icons x, SpiritShardIconsCollection_Icons y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_RootMotion::FinalIK::IKSolverLimb_AxisDirection_ {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (Array_EmptyInternalEnumerator_1_RootMotion_FinalIK_IKSolverLimb_AxisDirection_ * __this));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHODINFO(0x0474B638, Array_EmptyInternalEnumerator_1_RootMotio
 IL2CPP_REGISTER_METHOD(0x01D02750, Object *, IEnumerator_get_Current, (Array_EmptyInternalEnumerator_1_RootMotion_FinalIK_IKSolverLimb_AxisDirection_ * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, IEnumerator_Reset, (Array_EmptyInternalEnumerator_1_RootMotion_FinalIK_IKSolverLimb_AxisDirection_ * __this));
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Array_EmptyInternalEnumerator_1_RootMotion_FinalIK_IKSolverLimb_AxisDirection_ * __this));
-IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFEB90, void, __cctor, ());
 }

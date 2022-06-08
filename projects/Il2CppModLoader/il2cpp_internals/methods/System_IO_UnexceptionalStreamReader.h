@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::UnexceptionalStreamReader {
-IL2CPP_REGISTER_METHOD(0x02388770, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02388770, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02388850, void, __ctor, (UnexceptionalStreamReader * __this, Stream * stream, Encoding * encoding));
 IL2CPP_REGISTER_METHOD(0x02388910, int32_t, Peek, (UnexceptionalStreamReader * __this));
 IL2CPP_REGISTER_METHOD(0x023889B0, int32_t, Read, (UnexceptionalStreamReader * __this));

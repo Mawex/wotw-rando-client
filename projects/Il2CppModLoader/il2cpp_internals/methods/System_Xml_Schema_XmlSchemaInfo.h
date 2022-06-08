@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaInfo {
 IL2CPP_REGISTER_METHOD(0x01CB6210, void, __ctor, (XmlSchemaInfo * __this));

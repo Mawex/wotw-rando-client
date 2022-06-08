@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::PlatformNotSupportedException {
 IL2CPP_REGISTER_METHOD(0x02280400, void, __ctor, (PlatformNotSupportedException * __this));

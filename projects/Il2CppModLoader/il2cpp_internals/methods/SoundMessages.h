@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundMessages {
 IL2CPP_REGISTER_METHOD(0x00EEB110, void, ShowMessage, (String * name));

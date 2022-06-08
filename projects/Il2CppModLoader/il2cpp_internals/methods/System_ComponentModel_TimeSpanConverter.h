@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TimeSpanConverter {
 IL2CPP_REGISTER_METHOD(0x029AD780, bool, CanConvertFrom, (TimeSpanConverter * __this, ITypeDescriptorContext * context, Type * sourceType));

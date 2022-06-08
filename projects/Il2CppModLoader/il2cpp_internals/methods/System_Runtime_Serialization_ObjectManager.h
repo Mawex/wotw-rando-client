@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::ObjectManager {
 IL2CPP_REGISTER_METHOD(0x01ED7C10, void, __ctor, (ObjectManager * __this, ISurrogateSelector * selector, StreamingContext context, bool checkSecurity, bool isCrossAppDomain));
@@ -6,7 +6,7 @@ IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, CanCallGetType, (ObjectManager * __this
 IL2CPP_REGISTER_METHOD(0x002FBB10, void, set_TopObject, (ObjectManager * __this, Object * value));
 IL2CPP_REGISTER_METHOD(0x002FBB00, Object *, get_TopObject, (ObjectManager * __this));
 IL2CPP_REGISTER_METHOD(0x01ED7CC0, ObjectHolderList *, get_SpecialFixupObjects, (ObjectManager * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01ED7E80, ObjectHolder *, FindObjectHolder, (ObjectManager * __this, int64_t objectID));
 IL2CPP_REGISTER_METHOD(0x01ED7EF0, ObjectHolder *, FindOrCreateObjectHolder, (ObjectManager * __this, int64_t objectID));
 IL2CPP_REGISTER_METHOD(0x01ED80F0, void, AddObjectHolder, (ObjectManager * __this, ObjectHolder * holder));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::EndPointListener {
 IL2CPP_REGISTER_METHOD(0x01EB42F0, void, __ctor, (EndPointListener * __this, HttpListener * listener, IPAddress * addr, int32_t port, bool secure));

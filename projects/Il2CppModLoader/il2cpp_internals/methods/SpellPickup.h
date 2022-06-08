@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellPickup {
 IL2CPP_REGISTER_METHOD(0x00943310, void, Awake, (SpellPickup * __this));

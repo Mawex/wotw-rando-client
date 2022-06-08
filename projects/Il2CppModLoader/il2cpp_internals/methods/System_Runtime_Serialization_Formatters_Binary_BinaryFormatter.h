@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter {
 IL2CPP_REGISTER_METHOD(0x00E06D70, void, set_AssemblyFormat, (BinaryFormatter * __this, FormatterAssemblyStyle__Enum value));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x01D8D9E0, void, Serialize, (BinaryFormatter * __this, S
 IL2CPP_REGISTER_METHOD(0x01D8DA00, void, Serialize, (BinaryFormatter * __this, Stream * serializationStream, Object * graph, Header__Array * headers, bool fCheck));
 IL2CPP_REGISTER_METHODINFO(0x04747CE0, BinaryFormatter_Serialize_2__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D8DF50, TypeInformation *, GetTypeInformation, (Type * type));
-IL2CPP_REGISTER_METHOD(0x01D8E300, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D8E300, void, __cctor, ());
 }

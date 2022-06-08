@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::CollectionBase {
 IL2CPP_REGISTER_METHOD(0x0201F3C0, void, __ctor, (CollectionBase * __this));

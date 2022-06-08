@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritTurret {
 IL2CPP_REGISTER_METHOD(0x0064D960, float, get_Lifetime, (SpiritTurret * __this));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x00D7F4F0, void, StartTwinkle, (SpiritTurret * __this));
 IL2CPP_REGISTER_METHOD(0x00D7F670, void, StopTwinkle, (SpiritTurret * __this));
 IL2CPP_REGISTER_METHOD(0x00D7F710, float, CalculateCooldown, (SpiritTurret * __this));
 IL2CPP_REGISTER_METHOD(0x00D7F860, void, __ctor, (SpiritTurret * __this));
-IL2CPP_REGISTER_METHOD(0x00D7FA20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D7FA20, void, __cctor, ());
 }

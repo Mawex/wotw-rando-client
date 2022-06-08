@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwaggerCallback {
 IL2CPP_REGISTER_METHOD(0x02EA25C0, void, __ctor, (SwaggerCallback * __this));

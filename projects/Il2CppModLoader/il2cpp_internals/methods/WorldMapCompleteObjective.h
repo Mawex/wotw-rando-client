@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WorldMapCompleteObjective {
 IL2CPP_REGISTER_METHOD(0x00582C00, void, Perform, (WorldMapCompleteObjective * __this, IContext * context));

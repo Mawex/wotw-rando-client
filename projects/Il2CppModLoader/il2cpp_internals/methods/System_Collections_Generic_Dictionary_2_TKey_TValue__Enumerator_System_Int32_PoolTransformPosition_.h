@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System::Int32_PoolTransformPosition_ {
 IL2CPP_REGISTER_METHOD(0x001380F0, void, __ctor, (Dictionary_2_TKey_TValue_Enumerator_System_Int32_PoolTransformPosition___Boxed * __this, Dictionary_2_System_Int32_PoolTransformPosition_ * dictionary, int32_t getEnumeratorRetType));

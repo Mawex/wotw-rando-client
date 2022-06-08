@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IgnitableSpiritTorch {
 IL2CPP_REGISTER_METHOD(0x00625800, void, add_OnLightTorchWithGrenadeEvent, (Action * value));
@@ -12,5 +12,5 @@ IL2CPP_REGISTER_METHOD(0x006260E0, Vector3, get_Position, (IgnitableSpiritTorch 
 IL2CPP_REGISTER_METHOD(0x00626170, void, Serialize, (IgnitableSpiritTorch * __this, Archive * ar));
 IL2CPP_REGISTER_METHOD(0x006261C0, void, FixedUpdate, (IgnitableSpiritTorch * __this));
 IL2CPP_REGISTER_METHOD(0x006263E0, void, __ctor, (IgnitableSpiritTorch * __this));
-IL2CPP_REGISTER_METHOD(0x00626400, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00626400, void, __cctor, ());
 }

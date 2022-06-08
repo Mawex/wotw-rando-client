@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraSettingOverrides {
 IL2CPP_REGISTER_METHOD(0x016A4C60, CameraSettings *, GetCameraSettings, (CameraSettingOverrides * __this));

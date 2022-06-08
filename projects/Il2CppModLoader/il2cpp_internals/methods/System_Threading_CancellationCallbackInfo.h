@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::CancellationCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x00F70AB0, void, __ctor, (CancellationCallbackInfo * __this, Action_1_Object_ * callback, Object * stateForCallback, SynchronizationContext * targetSyncContext, ExecutionContext * targetExecutionContext, CancellationTokenSource * cancellationTokenSource));

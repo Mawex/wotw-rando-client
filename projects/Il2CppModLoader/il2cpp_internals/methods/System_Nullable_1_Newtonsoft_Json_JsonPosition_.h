@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Newtonsoft::Json::JsonPosition_ {
 IL2CPP_REGISTER_METHOD(0x001F7BF0, bool, get_HasValue, (Nullable_1_Newtonsoft_Json_JsonPosition___Boxed * __this));

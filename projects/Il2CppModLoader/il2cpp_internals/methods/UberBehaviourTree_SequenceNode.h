@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::SequenceNode {
 IL2CPP_REGISTER_METHOD(0x013E3310, void, __ctor, (SequenceNode_2 * __this, String * name));

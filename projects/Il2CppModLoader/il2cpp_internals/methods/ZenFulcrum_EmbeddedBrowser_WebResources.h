@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::WebResources {
 IL2CPP_REGISTER_METHOD(0x01674140, void, SendResponse, (WebResources * __this, int32_t id, Byte__Array * data, String * mimeType));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHOD(0x01674F90, void, SendData, (WebResources * __this, int32
 IL2CPP_REGISTER_METHODINFO(0x04712D18, WebResources_SendData__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x016751E0, void, SendEnd, (WebResources * __this, int32_t id));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (WebResources * __this));
-IL2CPP_REGISTER_METHOD(0x016753A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016753A0, void, __cctor, ());
 }

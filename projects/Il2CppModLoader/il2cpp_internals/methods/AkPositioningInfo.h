@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkPositioningInfo {
 IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkPositioningInfo * __this, void * cPtr, bool cMemoryOwn));

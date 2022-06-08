@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DesiredUberStateDoor {
 IL2CPP_REGISTER_METHOD(0x006CA2A0, bool, get_BoolDesiredValue, (DesiredUberStateDoor * __this));

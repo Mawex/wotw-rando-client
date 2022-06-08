@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlNamedNodeMap_SmallXmlNodeList {
 IL2CPP_REGISTER_METHOD(0x001CFBF0, int32_t, get_Count, (XmlNamedNodeMap_SmallXmlNodeList__Boxed * __this));

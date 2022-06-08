@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CrabDeathReaction {
 IL2CPP_REGISTER_METHOD(0x00DB1CF0, void, OnInitializeTask, (CrabDeathReaction * __this, IContext * context));

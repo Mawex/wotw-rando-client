@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LicenseManager_LicenseInteropHelper {
 IL2CPP_REGISTER_METHOD(0x01FF34B0, Object *, AllocateAndValidateLicense, (RuntimeTypeHandle rth, void * bstrKey, int32_t fDesignTime));

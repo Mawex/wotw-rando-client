@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_PlayFab::ClientModels::ContinentCode_ {
 IL2CPP_REGISTER_METHOD(0x0010DB80, void, __ctor, (Nullable_1_PlayFab_ClientModels_ContinentCode___Boxed * __this, ContinentCode__Enum value));

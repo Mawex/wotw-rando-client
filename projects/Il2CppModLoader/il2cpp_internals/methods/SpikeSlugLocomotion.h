@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpikeSlugLocomotion {
 IL2CPP_REGISTER_METHOD(0x011D1110, float, get_ContinousRotationSpeed, (SpikeSlugLocomotion * __this));

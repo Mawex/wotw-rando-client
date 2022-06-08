@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::ToBase64Transform {
 IL2CPP_REGISTER_METHOD(0x00420230, int32_t, get_InputBlockSize, (ToBase64Transform * __this));

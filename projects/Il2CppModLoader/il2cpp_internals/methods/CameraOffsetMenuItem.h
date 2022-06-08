@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraOffsetMenuItem {
 IL2CPP_REGISTER_METHOD(0x0169B4A0, void, __ctor, (CameraOffsetMenuItem * __this, String * path, String * str));

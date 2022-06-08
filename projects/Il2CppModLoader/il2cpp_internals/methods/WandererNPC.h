@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WandererNPC {
 IL2CPP_REGISTER_METHOD(0x008C8AB0, bool, get_IsInInteractionRange, (WandererNPC * __this));

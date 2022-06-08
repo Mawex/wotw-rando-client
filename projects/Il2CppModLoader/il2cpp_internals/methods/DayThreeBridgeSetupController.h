@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DayThreeBridgeSetupController {
 IL2CPP_REGISTER_METHOD(0x00DD42F0, void, NaruTrigger, (DayThreeBridgeSetupController * __this));

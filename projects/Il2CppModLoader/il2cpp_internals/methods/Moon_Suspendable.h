@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Suspendable {
 IL2CPP_REGISTER_METHOD(0x031AC030, void, Awake, (Suspendable * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour_KnockbackState {
 IL2CPP_REGISTER_METHOD(0x00C525C0, void, __ctor, (RammingBehaviour_KnockbackState * __this, RammingBehaviour * behaviour));

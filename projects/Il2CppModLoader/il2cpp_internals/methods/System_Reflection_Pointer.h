@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Pointer {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Pointer_1 * __this));

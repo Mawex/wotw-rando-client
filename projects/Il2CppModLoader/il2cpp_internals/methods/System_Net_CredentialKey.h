@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::CredentialKey {
 IL2CPP_REGISTER_METHOD(0x01EABCD0, void, __ctor, (CredentialKey * __this, Uri * uriPrefix, String * authenticationType));

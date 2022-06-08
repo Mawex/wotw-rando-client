@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MaterialBasedHornBugEffectsMap {
 IL2CPP_REGISTER_METHOD(0x0137F9F0, void, PopulateRuntimeCache, (MaterialBasedHornBugEffectsMap * __this, MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache * cache));

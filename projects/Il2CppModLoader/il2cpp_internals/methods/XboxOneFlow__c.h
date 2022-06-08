@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxOneFlow___c {
-IL2CPP_REGISTER_METHOD(0x01C584F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C584F0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XboxOneFlow_c * __this));
 IL2CPP_REGISTER_METHOD(0x01C58630, void, _UpdateNextSaveSlot_b__39_0, (XboxOneFlow_c * __this, Task_1_System_Collections_Generic_IEnumerable_1_ * t));
 IL2CPP_REGISTER_METHODINFO(0x04789FB8, XboxOneFlow_c__UpdateNextSaveSlot_b__39_0__MethodInfo);

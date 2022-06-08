@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Ntlm::Type1Message {
 IL2CPP_REGISTER_METHOD(0x02A4B920, void, __ctor, (Type1Message * __this));

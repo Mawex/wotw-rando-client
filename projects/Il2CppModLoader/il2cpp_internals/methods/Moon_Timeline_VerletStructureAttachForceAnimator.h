@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::VerletStructureAttachForceAnimator {
 IL2CPP_REGISTER_METHOD(0x00D1C240, void, OnStartPlayback, (VerletStructureAttachForceAnimator * __this, IContext * context));

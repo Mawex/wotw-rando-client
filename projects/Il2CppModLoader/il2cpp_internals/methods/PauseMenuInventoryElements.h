@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PauseMenuInventoryElements {
 IL2CPP_REGISTER_METHOD(0x0044A0F0, void, Setup, (PauseMenuInventoryElements * __this));

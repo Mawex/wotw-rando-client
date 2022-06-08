@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::DataCommonEventSource {
 IL2CPP_REGISTER_METHOD(0x0239ECF0, void, Trace, (DataCommonEventSource * __this, String * message));
 IL2CPP_REGISTER_METHOD(0x0239ED00, int64_t, EnterScope, (DataCommonEventSource * __this, String * message));
 IL2CPP_REGISTER_METHOD(0x0239EE20, void, ExitScope, (DataCommonEventSource * __this, int64_t scopeId));
 IL2CPP_REGISTER_METHOD(0x0239EE30, void, __ctor, (DataCommonEventSource * __this));
-IL2CPP_REGISTER_METHOD(0x0239EED0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0239EED0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01AEE8F0, void, Trace, (DataCommonEventSource * __this, String * format, Object * arg0));
 IL2CPP_REGISTER_METHOD(0x01AEE7A0, void, Trace, (DataCommonEventSource * __this, String * format, Object * arg0, Object * arg1));
 IL2CPP_REGISTER_METHOD(0x01AEE640, void, Trace, (DataCommonEventSource * __this, String * format, Object * arg0, Object * arg1, Object * arg2));

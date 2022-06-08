@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::DeflateStreamAsyncResult {
 IL2CPP_REGISTER_METHOD(0x02B75330, void, __ctor, (DeflateStreamAsyncResult * __this, Object * asyncObject, Object * asyncState, AsyncCallback * asyncCallback, Byte__Array * buffer, int32_t offset, int32_t count));

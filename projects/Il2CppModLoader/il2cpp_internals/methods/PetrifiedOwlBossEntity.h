@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossEntity {
 IL2CPP_REGISTER_METHOD(0x004A21A0, Vector2, get_ArenaBoundsX, (PetrifiedOwlBossEntity * __this));

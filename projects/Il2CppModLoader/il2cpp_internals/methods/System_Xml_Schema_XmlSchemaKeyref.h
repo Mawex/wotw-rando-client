@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaKeyref {
 IL2CPP_REGISTER_METHOD(0x002FBBE0, XmlQualifiedName *, get_Refer, (XmlSchemaKeyref * __this));

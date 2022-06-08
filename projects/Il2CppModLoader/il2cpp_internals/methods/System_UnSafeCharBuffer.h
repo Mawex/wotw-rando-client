@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UnSafeCharBuffer {
 IL2CPP_REGISTER_METHOD(0x00206930, void, __ctor, (UnSafeCharBuffer__Boxed * __this, uint16_t * buffer, int32_t bufferSize));

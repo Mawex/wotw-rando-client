@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardAttackEffects {
 IL2CPP_REGISTER_METHOD(0x00FA94C0, GameObject *, Get, (LizardAttackEffects * __this, LizardAttackEffects_Type__Enum type));

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WeaponmasterScreen {
 IL2CPP_REGISTER_METHOD(0x00418200, ShopkeeperItem__Array *, get_Items, (WeaponmasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x005729D0, WeaponmasterScreen *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005729D0, WeaponmasterScreen *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00572A50, void, set_Instance, (WeaponmasterScreen * value));
 IL2CPP_REGISTER_METHOD(0x00572AE0, ShopkeeperScreen *, get_ShopInstance, (WeaponmasterScreen * __this));
 IL2CPP_REGISTER_METHOD(0x00572AF0, void, set_ShopInstance, (WeaponmasterScreen * __this, ShopkeeperScreen * value));

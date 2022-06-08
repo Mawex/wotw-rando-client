@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::InverseKinematicsSolver {
 IL2CPP_REGISTER_METHOD(0x01B15310, void, Solve, (InverseKinematicsSolver * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Number {
 IL2CPP_REGISTER_METHOD(0x0226F7F0, bool, NumberBufferToDecimal, (uint8_t * number, Decimal * value));

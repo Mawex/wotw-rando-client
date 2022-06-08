@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::IkChainSolver {
 IL2CPP_REGISTER_METHOD(0x01B0E560, Vector3, get_LocalDirection, (IkChainSolver * __this));

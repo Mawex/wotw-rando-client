@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateException {
 IL2CPP_REGISTER_METHOD(0x01B6CEE0, void, __ctor, (UberStateException * __this));

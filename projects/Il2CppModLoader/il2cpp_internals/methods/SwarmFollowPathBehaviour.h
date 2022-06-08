@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwarmFollowPathBehaviour {
 IL2CPP_REGISTER_METHOD(0x01820FB0, void, SetPatrolNodes, (SwarmFollowPathBehaviour * __this, List_1_UnityEngine_Vector3_ * patrolNodes));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Asttree {
 IL2CPP_REGISTER_METHOD(0x002FA280, ArrayList *, get_SubtreeArray, (Asttree * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::SwordComboMoveAdapter {
 IL2CPP_REGISTER_METHOD(0x00CC8D40, AbilityType__Enum, get_ComboAbilityType, (SwordComboMoveAdapter * __this));

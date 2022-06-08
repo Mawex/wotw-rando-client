@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaImport {
 IL2CPP_REGISTER_METHOD(0x01CA9660, void, __ctor, (XmlSchemaImport * __this));

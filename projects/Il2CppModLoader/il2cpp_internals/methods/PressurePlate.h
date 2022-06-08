@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PressurePlate {
 IL2CPP_REGISTER_METHOD(0x00C707B0, GameObject *, get_TargetGameObject, (PressurePlate * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Random {
 IL2CPP_REGISTER_METHOD(0x022806C0, void, __ctor, (Random * __this));

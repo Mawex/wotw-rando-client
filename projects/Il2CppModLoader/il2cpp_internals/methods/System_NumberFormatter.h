@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::NumberFormatter {
 IL2CPP_REGISTER_METHOD(0x02273730, void, GetFormatterTables, (uint64_t * * MantissaBitsTable, int32_t * * TensExponentTable, uint16_t * * DigitLowerTable, uint16_t * * DigitUpperTable, int64_t * * TenPowersList, int32_t * * DecHexDigits));
-IL2CPP_REGISTER_METHOD(0x02273780, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02273780, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02273840, int64_t, GetTenPowerOf, (int32_t i));
 IL2CPP_REGISTER_METHOD(0x022738F0, void, InitDecHexDigits, (NumberFormatter * __this, uint32_t value));
 IL2CPP_REGISTER_METHOD(0x022739F0, void, InitDecHexDigits, (NumberFormatter * __this, uint64_t value));

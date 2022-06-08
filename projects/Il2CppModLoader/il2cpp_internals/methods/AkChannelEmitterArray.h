@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkChannelEmitterArray {
 IL2CPP_REGISTER_METHOD(0x026D8190, void, __ctor, (AkChannelEmitterArray * __this, uint32_t in_Count));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyEnvironmentFogColorAnimator {
 IL2CPP_REGISTER_METHOD(0x00A240A0, void, Start, (LegacyEnvironmentFogColorAnimator * __this));

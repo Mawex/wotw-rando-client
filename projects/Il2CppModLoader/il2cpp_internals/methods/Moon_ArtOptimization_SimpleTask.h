@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::SimpleTask {
 IL2CPP_REGISTER_METHOD(0x002FB940, void, SetNext, (SimpleTask * __this, IOptimizationTask * nextTask));

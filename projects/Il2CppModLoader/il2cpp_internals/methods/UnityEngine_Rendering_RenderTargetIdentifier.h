@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Rendering::RenderTargetIdentifier {
 IL2CPP_REGISTER_METHOD(0x00218440, void, __ctor, (RenderTargetIdentifier__Boxed * __this, BuiltinRenderTextureType__Enum type));

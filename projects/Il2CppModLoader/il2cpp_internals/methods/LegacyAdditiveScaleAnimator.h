@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyAdditiveScaleAnimator {
 IL2CPP_REGISTER_METHOD(0x015CAF30, void, Start, (LegacyAdditiveScaleAnimator * __this));

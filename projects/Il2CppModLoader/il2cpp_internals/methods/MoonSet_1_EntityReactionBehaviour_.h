@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonSet_1_EntityReactionBehaviour_ {
 IL2CPP_REGISTER_METHOD(0x02AF7A10, void, PopulateFromList, (MoonSet_1_EntityReactionBehaviour_ * __this, List_1_EntityReactionBehaviour_ * values));

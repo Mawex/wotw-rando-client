@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KeystonePickup {
 IL2CPP_REGISTER_METHOD(0x00E70A70, void, OnCollectorCandidateTouch, (KeystonePickup * __this, GameObject * collector));

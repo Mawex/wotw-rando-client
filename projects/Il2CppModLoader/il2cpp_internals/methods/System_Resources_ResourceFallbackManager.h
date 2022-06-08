@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceFallbackManager {
 IL2CPP_REGISTER_METHOD(0x01A841F0, void, __ctor, (ResourceFallbackManager * __this, CultureInfo * startingCulture, CultureInfo * neutralResourcesCulture, bool useParents));

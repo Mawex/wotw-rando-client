@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberSwarmPOI {
 IL2CPP_REGISTER_METHOD(0x0128C2C0, Vector2, get_Position, (UberSwarmPOI * __this));

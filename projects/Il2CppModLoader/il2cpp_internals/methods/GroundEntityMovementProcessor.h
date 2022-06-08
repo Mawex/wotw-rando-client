@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GroundEntityMovementProcessor {
 IL2CPP_REGISTER_METHOD(0x0108DD00, bool, get_StickToSurfaces, (GroundEntityMovementProcessor * __this));
@@ -47,5 +47,5 @@ IL2CPP_REGISTER_METHOD(0x01093880, void, RotateToFallingVelocity, (GroundEntityM
 IL2CPP_REGISTER_METHOD(0x01093E80, void, UpdateRotation, (GroundEntityMovementProcessor * __this));
 IL2CPP_REGISTER_METHOD(0x01093ED0, void, SnapGroundRotation, (GroundEntityMovementProcessor * __this));
 IL2CPP_REGISTER_METHOD(0x01094060, void, __ctor, (GroundEntityMovementProcessor * __this));
-IL2CPP_REGISTER_METHOD(0x01094150, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01094150, void, __cctor, ());
 }

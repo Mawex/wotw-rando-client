@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShardTraderEntity {
 IL2CPP_REGISTER_METHOD(0x005AC370, String *, get_DialogActorName, (ShardTraderEntity * __this));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MicroProfiler {
-IL2CPP_REGISTER_METHOD(0x03154B90, bool, get_IsPaused, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03154C30, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Reset, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03154B90, bool, get_IsPaused, ());
+IL2CPP_REGISTER_METHOD(0x03154C30, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Reset, ());
 IL2CPP_REGISTER_METHOD(0x03154F50, void, BeginMarker, (Marker__Enum id));
 IL2CPP_REGISTER_METHOD(0x03155030, void, EndMarker, (Marker__Enum id));
 IL2CPP_REGISTER_METHOD(0x03155110, void, SetStat, (Stat__Enum id, float value));
@@ -14,19 +14,19 @@ IL2CPP_REGISTER_METHOD(0x03155560, void, SetMetric, (Metric__Enum id, int64_t ns
 IL2CPP_REGISTER_METHOD(0x03155670, void, SetMetricValue, (Metric__Enum id, int64_t nsInvoked, uint32_t invokeCount));
 IL2CPP_REGISTER_METHOD(0x03155780, void, EndMetric, (Metric__Enum id));
 IL2CPP_REGISTER_METHOD(0x031558E0, void, EndMetric, (Metric__Enum id, int64_t * spentNs));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, BeginFrame, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, BeginFrame, ());
 IL2CPP_REGISTER_METHOD(0x03155A50, float, PresentationFormOfNativeStat, (Stat__Enum stat, uint64_t value));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, EndFrame, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, EndFrame, ());
 IL2CPP_REGISTER_METHOD(0x03155A80, void, ContinueMarkers, (MicroProfiler_SampleStats * lastFrame, MicroProfiler_SampleStats * currentFrame));
-IL2CPP_REGISTER_METHOD(0x03155B50, void, BeginSample, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03155D60, void, EndSample, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03155E20, MicroProfiler_SampleStats *, GetCurrentFrameStats, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03155EC0, MicroProfiler_SampleStats *, GetLastCompletedFrameStats, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03155F60, int32_t, GetCurrentFrameIndex, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03156000, int32_t, GetCurrentUniqueFrameIndex, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03155B50, void, BeginSample, ());
+IL2CPP_REGISTER_METHOD(0x03155D60, void, EndSample, ());
+IL2CPP_REGISTER_METHOD(0x03155E20, MicroProfiler_SampleStats *, GetCurrentFrameStats, ());
+IL2CPP_REGISTER_METHOD(0x03155EC0, MicroProfiler_SampleStats *, GetLastCompletedFrameStats, ());
+IL2CPP_REGISTER_METHOD(0x03155F60, int32_t, GetCurrentFrameIndex, ());
+IL2CPP_REGISTER_METHOD(0x03156000, int32_t, GetCurrentUniqueFrameIndex, ());
 IL2CPP_REGISTER_METHOD(0x031560A0, MicroProfiler_SampleStats *, GetFrameStats, (int32_t frameNumber));
-IL2CPP_REGISTER_METHOD(0x031561F0, MicroProfiler_SampleStats *, GetSampleStats, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x03156290, MicroProfiler_SampleStats__Array * *, GetFrames, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x031561F0, MicroProfiler_SampleStats *, GetSampleStats, ());
+IL2CPP_REGISTER_METHOD(0x03156290, MicroProfiler_SampleStats__Array * *, GetFrames, ());
 IL2CPP_REGISTER_METHOD(0x03156330, void, ToggleMarker, (Marker__Enum id));
 IL2CPP_REGISTER_METHOD(0x03156490, MicroProfiler_MarkerInfo, GetMarkerAtFrame, (Marker__Enum id, int32_t frame));
 IL2CPP_REGISTER_METHOD(0x03156570, MicroProfiler_MarkerInfo, GetLastCompletedMarker, (Marker__Enum id));

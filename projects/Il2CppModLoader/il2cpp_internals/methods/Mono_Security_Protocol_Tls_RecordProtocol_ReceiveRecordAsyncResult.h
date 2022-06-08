@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::RecordProtocol_ReceiveRecordAsyncResult {
 IL2CPP_REGISTER_METHOD(0x01F7A930, void, __ctor, (RecordProtocol_ReceiveRecordAsyncResult * __this, AsyncCallback * userCallback, Object * userState, Byte__Array * initialBuffer, Stream * record));

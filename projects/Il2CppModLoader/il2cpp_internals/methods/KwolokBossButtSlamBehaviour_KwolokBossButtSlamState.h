@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossButtSlamBehaviour_KwolokBossButtSlamState {
 IL2CPP_REGISTER_METHOD(0x0124A6F0, void, __ctor, (KwolokBossButtSlamBehaviour_KwolokBossButtSlamState * __this, KwolokBossButtSlamBehaviour * behaviour));

@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Driver::UpdateManager {
 IL2CPP_REGISTER_METHOD(0x031371A0, void, __ctor, (UpdateManager * __this, UpdateType__Enum updateType, UpdateManager__Array * managers));
 IL2CPP_REGISTER_METHOD(0x031376B0, int32_t, get_EntryCount, (UpdateManager * __this));
-IL2CPP_REGISTER_METHOD(0x03137740, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03137740, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x004FBAC0, bool, get_EnableProfiling, (UpdateManager * __this));
 IL2CPP_REGISTER_METHOD(0x004FBAD0, void, set_EnableProfiling, (UpdateManager * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x03137810, void, AddHandler, (UpdateManager * __this, IUpdateHandlerBase * updateHandler, int32_t executionOrder));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x03138B00, void, MoveEntryToCorrectManager, (UpdateManag
 IL2CPP_REGISTER_METHOD(0x03138C60, UpdateManager_Entry *, GetEntryFromPool, (IUpdateHandlerBase * handler, UpdateType__Enum updateType));
 IL2CPP_REGISTER_METHOD(0x03139020, void, ReturnEntryToPool, (UpdateManager_Entry * entry));
 IL2CPP_REGISTER_METHOD(0x031391F0, void, DumpEntries, (UpdateManager * __this, StreamWriter * sw));
-IL2CPP_REGISTER_METHOD(0x0313A040, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0313A040, void, __cctor, ());
 }

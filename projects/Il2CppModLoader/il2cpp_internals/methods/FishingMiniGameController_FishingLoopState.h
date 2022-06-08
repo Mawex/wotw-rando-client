@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FishingMiniGameController_FishingLoopState {
 IL2CPP_REGISTER_METHOD(0x0126E300, void, __ctor, (FishingMiniGameController_FishingLoopState * __this, FishingMiniGameController * fishingGame));

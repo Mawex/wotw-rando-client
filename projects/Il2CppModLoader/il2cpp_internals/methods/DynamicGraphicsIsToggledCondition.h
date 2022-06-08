@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DynamicGraphicsIsToggledCondition {
 IL2CPP_REGISTER_METHOD(0x00BEAA90, bool, Validate, (DynamicGraphicsIsToggledCondition * __this, IContext * context));

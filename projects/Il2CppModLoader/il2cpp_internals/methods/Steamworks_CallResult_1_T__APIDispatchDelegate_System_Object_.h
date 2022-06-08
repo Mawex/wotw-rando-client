@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::CallResult_1_T__APIDispatchDelegate_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (CallResult_1_T_APIDispatchDelegate_System_Object_ * __this, Object * object, void * method_1));

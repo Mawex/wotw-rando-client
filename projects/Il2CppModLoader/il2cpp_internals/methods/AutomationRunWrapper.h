@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AutomationRunWrapper {
 IL2CPP_REGISTER_METHOD(0x0085E380, void, __ctor, (AutomationRunWrapper * __this, AutomationRunType__Enum type));

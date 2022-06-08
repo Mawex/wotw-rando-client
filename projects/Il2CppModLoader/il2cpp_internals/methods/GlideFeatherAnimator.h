@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GlideFeatherAnimator {
 IL2CPP_REGISTER_METHOD(0x007F4060, Atlas__Array *, get_Atlases, (GlideFeatherAnimator * __this));

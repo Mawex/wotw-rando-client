@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::SHA256Managed {
 IL2CPP_REGISTER_METHOD(0x028F7DA0, void, __ctor, (SHA256Managed * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x028F8E40, uint32_t, sigma_1, (uint32_t x));
 IL2CPP_REGISTER_METHOD(0x028F8EF0, uint32_t, Sigma_0, (uint32_t x));
 IL2CPP_REGISTER_METHOD(0x028F8FB0, uint32_t, Sigma_1, (uint32_t x));
 IL2CPP_REGISTER_METHOD(0x028F9070, void, SHA256Expand, (uint32_t * x));
-IL2CPP_REGISTER_METHOD(0x028F9160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028F9160, void, __cctor, ());
 }

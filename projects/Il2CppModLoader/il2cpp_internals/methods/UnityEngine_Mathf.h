@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Mathf {
 IL2CPP_REGISTER_METHOD(0x02534340, int32_t, ClosestPowerOfTwo, (int32_t value));
@@ -54,5 +54,5 @@ IL2CPP_REGISTER_METHOD(0x025363F0, float, SmoothDampAngle, (float current, float
 IL2CPP_REGISTER_METHOD(0x025364E0, float, Repeat, (float t, float length));
 IL2CPP_REGISTER_METHOD(0x025365C0, float, InverseLerp, (float a, float b, float value));
 IL2CPP_REGISTER_METHOD(0x025366B0, float, DeltaAngle, (float current, float target));
-IL2CPP_REGISTER_METHOD(0x02536780, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02536780, void, __cctor, ());
 }

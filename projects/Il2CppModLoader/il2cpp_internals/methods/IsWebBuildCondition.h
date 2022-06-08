@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsWebBuildCondition {
 IL2CPP_REGISTER_METHOD(0x00648FD0, bool, Validate, (IsWebBuildCondition * __this, IContext * context));

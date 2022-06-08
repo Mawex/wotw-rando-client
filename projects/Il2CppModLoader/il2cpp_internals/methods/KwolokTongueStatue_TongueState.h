@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokTongueStatue_TongueState {
 IL2CPP_REGISTER_METHOD(0x00EFB0C0, void, __ctor, (KwolokTongueStatue_TongueState * __this, KwolokTongueStatue * owner, KwolokTongueStatue_KwolowTongueStatueState__Enum desiredState, MoonTimeline * timeline));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossHeadbuttBehaviour {
 IL2CPP_REGISTER_METHOD(0x012E09B0, void, Start, (KwolokBossHeadbuttBehaviour * __this));

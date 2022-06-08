@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_SneezeSlugBurrowBehaviour_UnburrowPointRate_ {
 IL2CPP_REGISTER_METHOD(0x01CC93D0, int32_t, Compare, (ObjectComparer_1_SneezeSlugBurrowBehaviour_UnburrowPointRate_ * __this, SneezeSlugBurrowBehaviour_UnburrowPointRate x, SneezeSlugBurrowBehaviour_UnburrowPointRate y));

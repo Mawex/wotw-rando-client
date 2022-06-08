@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DashOwlEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x00DD02C0, LegacyEntity *, Instantiate, (DashOwlEnemyPlaceholder * __this));

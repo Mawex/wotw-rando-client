@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LightCompiler {
 IL2CPP_REGISTER_METHOD(0x01CEBBD0, void, __ctor, (LightCompiler * __this));
@@ -104,7 +104,7 @@ IL2CPP_REGISTER_METHOD(0x01CFDBC0, void, Compile, (LightCompiler * __this, Expre
 IL2CPP_REGISTER_METHOD(0x01CFDBE0, void, CompileAsVoid, (LightCompiler * __this, Expression * expr));
 IL2CPP_REGISTER_METHOD(0x01CFDDB0, void, CompileNoLabelPush, (LightCompiler * __this, Expression * expr));
 IL2CPP_REGISTER_METHOD(0x01CFE950, void, Compile, (LightCompiler * __this, Expression * expr));
-IL2CPP_REGISTER_METHOD(0x01CFE9B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01CFE9B0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01AF07C0, void, CompileIntSwitchExpression, (LightCompiler * __this, SwitchExpression * node));
 IL2CPP_REGISTER_METHODINFO(0x04711168, LightCompiler_CompileIntSwitchExpression__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01AF00A0, void, CompileIntSwitchExpression, (LightCompiler * __this, SwitchExpression * node));

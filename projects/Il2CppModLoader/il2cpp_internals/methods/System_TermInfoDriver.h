@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::TermInfoDriver {
 IL2CPP_REGISTER_METHOD(0x0243E7C0, String *, TryTermInfoDir, (String * dir, String * term));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHODINFO(0x04777CB0, TermInfoDriver_SetCursorPosition__MethodI
 IL2CPP_REGISTER_METHOD(0x02441FF0, void, CreateKeyMap, (TermInfoDriver * __this));
 IL2CPP_REGISTER_METHOD(0x024446C0, void, InitKeys, (TermInfoDriver * __this));
 IL2CPP_REGISTER_METHOD(0x02444970, void, AddStringMapping, (TermInfoDriver * __this, TermInfoStrings__Enum s));
-IL2CPP_REGISTER_METHOD(0x024449D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024449D0, void, __cctor, ());
 }

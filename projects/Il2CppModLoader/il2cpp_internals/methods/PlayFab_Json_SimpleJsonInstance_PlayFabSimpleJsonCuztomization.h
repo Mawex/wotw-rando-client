@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::SimpleJsonInstance_PlayFabSimpleJsonCuztomization {
 IL2CPP_REGISTER_METHOD(0x01853300, Object *, DeserializeObject, (SimpleJsonInstance_PlayFabSimpleJsonCuztomization * __this, Object * value, Type * type));

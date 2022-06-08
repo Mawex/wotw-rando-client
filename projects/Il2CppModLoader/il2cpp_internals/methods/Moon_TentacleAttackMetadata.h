@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleAttackMetadata {
 IL2CPP_REGISTER_METHOD(0x010ACCF0, void, OnEnable, (TentacleAttackMetadata * __this));

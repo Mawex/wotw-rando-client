@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BabyWorm {
 IL2CPP_REGISTER_METHOD(0x00F78F20, void, SerializeComponents, (BabyWorm * __this));

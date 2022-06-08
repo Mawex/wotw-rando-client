@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AsyncRaycast {
 IL2CPP_REGISTER_METHOD(0x00842A00, void, __ctor, (AsyncRaycast * __this));

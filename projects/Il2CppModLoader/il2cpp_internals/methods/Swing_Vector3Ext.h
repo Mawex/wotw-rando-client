@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::Vector3Ext {
 IL2CPP_REGISTER_METHOD(0x018315B0, Vector3, uniform, (float _xyz));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_StatisticsManager_StatType_StatisticsManager_RuntimeStatEntry_ {
 IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_StatisticsManager_StatType_StatisticsManager_RuntimeStatEntry_ * __this));

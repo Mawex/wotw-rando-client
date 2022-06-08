@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKExecutionOrder {
 IL2CPP_REGISTER_METHOD(0x02BDAD90, void, Start, (IKExecutionOrder * __this));

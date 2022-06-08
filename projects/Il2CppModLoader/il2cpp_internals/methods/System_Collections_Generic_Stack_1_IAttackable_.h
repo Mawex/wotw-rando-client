@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_IAttackable_ {
 IL2CPP_REGISTER_METHOD(0x02CF7B70, bool, Contains, (Stack_1_IAttackable_ * __this, IAttackable * item));

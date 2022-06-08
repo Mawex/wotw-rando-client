@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::GUITexture {
 IL2CPP_REGISTER_METHOD(0x02526F10, Color, get_color, (GUITexture * __this));

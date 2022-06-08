@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SaveSlotBackup {
 IL2CPP_REGISTER_METHOD(0x0091D890, void, __ctor, (SaveSlotBackup * __this, int32_t index));

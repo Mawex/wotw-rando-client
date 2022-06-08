@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IndexOutOfRangeException {
 IL2CPP_REGISTER_METHOD(0x0238C2C0, void, __ctor, (IndexOutOfRangeException * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ListenerSyncProcessor_ListenerSyncTask {
 IL2CPP_REGISTER_METHOD(0x00CC59E0, int32_t, get_FrameQuantinization, (ListenerSyncProcessor_ListenerSyncTask * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TextMeshSetter {
 IL2CPP_REGISTER_METHOD(0x010E8390, void, Awake, (TextMeshSetter * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HammerTrail {
 IL2CPP_REGISTER_METHOD(0x0109C420, void, Initialize, (HammerTrail * __this, Transform * tracedPoint, Transform * rotationCenter));

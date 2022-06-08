@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlAttribute {
 IL2CPP_REGISTER_METHOD(0x0195ADF0, void, __ctor, (XmlAttribute * __this, XmlName * name, XmlDocument * doc));

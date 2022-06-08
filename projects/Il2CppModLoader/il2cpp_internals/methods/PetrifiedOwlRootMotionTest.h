@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlRootMotionTest {
 IL2CPP_REGISTER_METHOD(0x014E6710, void, Start, (PetrifiedOwlRootMotionTest * __this));

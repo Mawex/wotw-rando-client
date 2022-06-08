@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineDebugUI {
 IL2CPP_REGISTER_METHOD(0x007940D0, QualityProfile *, getProfile, (MoonRenderPipelineDebugUI * __this, MoonRenderPipelineDebugUI_Quality__Enum quality));
@@ -27,11 +27,11 @@ IL2CPP_REGISTER_METHOD(0x007A1BE0, void, updateFpsCounter, (MoonRenderPipelineDe
 IL2CPP_REGISTER_METHOD(0x007A1D40, RenderScope__Enum, ui_ToggleField, (MoonRenderPipelineDebugUI * __this, String * label, RenderScope__Enum value));
 IL2CPP_REGISTER_METHOD(0x007A1E40, FloatRange, floatRange, (String * label, FloatRange value, float min, float max));
 IL2CPP_REGISTER_METHOD(0x007A1FC0, bool, beginSection, (bool * foldout, String * label));
-IL2CPP_REGISTER_METHOD(0x007A2160, void, beginSection, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x007A2290, void, endSection, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007A2160, void, beginSection, ());
+IL2CPP_REGISTER_METHOD(0x007A2290, void, endSection, ());
 IL2CPP_REGISTER_METHOD(0x007A2330, void, beginIndent, (float space));
-IL2CPP_REGISTER_METHOD(0x007A23E0, void, endIndent, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007A23E0, void, endIndent, ());
 IL2CPP_REGISTER_METHOD(0x007A2400, void, __ctor, (MoonRenderPipelineDebugUI * __this));
-IL2CPP_REGISTER_METHOD(0x007A26F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x007A26F0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x007A2980, void, _drawRenderInfo_g__resolutionButton_87_0, (MoonRenderPipelineAsset_XboxResolution__Enum resolution));
 }

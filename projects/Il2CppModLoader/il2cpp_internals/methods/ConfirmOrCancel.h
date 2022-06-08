@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ConfirmOrCancel {
 IL2CPP_REGISTER_METHOD(0x011E49B0, void, add_OnConfirm, (ConfirmOrCancel * __this, Action * value));

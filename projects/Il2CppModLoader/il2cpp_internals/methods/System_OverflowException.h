@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::OverflowException {
 IL2CPP_REGISTER_METHOD(0x0227C860, void, __ctor, (OverflowException * __this));

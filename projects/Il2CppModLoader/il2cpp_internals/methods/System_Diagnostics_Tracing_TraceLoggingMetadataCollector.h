@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::TraceLoggingMetadataCollector {
 IL2CPP_REGISTER_METHOD(0x01A0C500, void, __ctor, (TraceLoggingMetadataCollector * __this));

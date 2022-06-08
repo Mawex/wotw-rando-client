@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::UtilitySelectorNode {
 IL2CPP_REGISTER_METHOD(0x002FBCA0, Single__Array *, get_Utilities, (UtilitySelectorNode * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CageFaceMetaData_1_Moon::BehaviourSystem::EntityTask_ {
 IL2CPP_REGISTER_METHOD(0x019DAE50, void, OnEnable, (CageFaceMetaData_1_Moon_BehaviourSystem_EntityTask_ * __this));

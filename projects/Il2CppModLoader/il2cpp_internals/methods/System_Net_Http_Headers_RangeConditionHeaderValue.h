@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::RangeConditionHeaderValue {
 IL2CPP_REGISTER_METHOD(0x02D14520, void, __ctor, (RangeConditionHeaderValue * __this, DateTimeOffset date));

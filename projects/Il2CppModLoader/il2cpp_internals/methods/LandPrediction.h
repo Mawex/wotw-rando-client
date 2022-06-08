@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LandPrediction {
 IL2CPP_REGISTER_METHOD(0x006142D0, bool, get_GroundDetected, (LandPrediction * __this));

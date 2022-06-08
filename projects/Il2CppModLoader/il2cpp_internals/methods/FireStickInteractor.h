@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FireStickInteractor {
 IL2CPP_REGISTER_METHOD(0x0125C150, void, OnEnable, (FireStickInteractor * __this));

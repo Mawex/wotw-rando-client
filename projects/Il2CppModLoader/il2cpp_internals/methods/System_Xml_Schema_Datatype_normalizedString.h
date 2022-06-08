@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_normalizedString {
 IL2CPP_REGISTER_METHOD(0x00E3EE40, XmlTypeCode__Enum, get_TypeCode, (Datatype_normalizedString * __this));

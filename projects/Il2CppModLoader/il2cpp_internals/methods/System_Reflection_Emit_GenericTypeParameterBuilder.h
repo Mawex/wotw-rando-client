@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::GenericTypeParameterBuilder {
 IL2CPP_REGISTER_METHOD(0x026804C0, Assembly *, get_Assembly, (GenericTypeParameterBuilder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverFullBodyBiped {
 IL2CPP_REGISTER_METHOD(0x02BF4E10, IKEffector *, get_bodyEffector, (IKSolverFullBodyBiped * __this));

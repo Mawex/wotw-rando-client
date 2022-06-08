@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DisableGameObjectWithHealthWhenOutOfFrustum {
 IL2CPP_REGISTER_METHOD(0x00B97FC0, void, OnFrustumEnter, (DisableGameObjectWithHealthWhenOutOfFrustum * __this));

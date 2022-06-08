@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetSeinColliderHeight {
 IL2CPP_REGISTER_METHOD(0x005A4240, void, Perform, (SetSeinColliderHeight * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::MonoMethodMessage {
 IL2CPP_REGISTER_METHOD(0x023180B0, void, InitMessage, (MonoMethodMessage * __this, MonoMethod * method_1, Object__Array * out_args));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x002FBBD0, void, IInternalMessage_set_TargetIdentity, (M
 IL2CPP_REGISTER_METHOD(0x002FB9F0, AsyncResult *, get_AsyncResult, (MonoMethodMessage * __this));
 IL2CPP_REGISTER_METHOD(0x02318DC0, CallType__Enum, get_CallType, (MonoMethodMessage * __this));
 IL2CPP_REGISTER_METHOD(0x02318F30, bool, NeedsOutProcessing, (MonoMethodMessage * __this, int32_t * outCount));
-IL2CPP_REGISTER_METHOD(0x02318FB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02318FB0, void, __cctor, ());
 }

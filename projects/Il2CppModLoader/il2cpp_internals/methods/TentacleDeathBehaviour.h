@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleDeathBehaviour {
 IL2CPP_REGISTER_METHOD(0x00CEE830, void, OnCacheSerializedComponents, (TentacleDeathBehaviour * __this, Entity * owner));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::OpenReadCompletedEventArgs {
 IL2CPP_REGISTER_METHOD(0x01BCB240, void, __ctor, (OpenReadCompletedEventArgs * __this, Stream * result, Exception * exception, bool cancelled, Object * userToken));

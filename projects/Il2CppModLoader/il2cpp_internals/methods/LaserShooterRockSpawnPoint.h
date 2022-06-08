@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterRockSpawnPoint {
 IL2CPP_REGISTER_METHOD(0x00F207A0, void, PlaySpawn, (LaserShooterRockSpawnPoint * __this, LaserShieldDamageReceiver * piece, float projectileSpeed, LaserShieldPieceProjectile * projectilePrefab, LaserShieldRotationController * shieldController));

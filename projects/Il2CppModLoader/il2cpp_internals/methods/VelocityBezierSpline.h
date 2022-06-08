@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VelocityBezierSpline {
 IL2CPP_REGISTER_METHOD(0x013BCE90, void, ReversePoints, (VelocityBezierSpline * __this));

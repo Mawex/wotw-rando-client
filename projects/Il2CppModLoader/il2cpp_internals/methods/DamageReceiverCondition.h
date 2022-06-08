@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DamageReceiverCondition {
 IL2CPP_REGISTER_METHOD(0x00DC85E0, IDamageNotifier *, get_ResolvedDamageNotifier, (DamageReceiverCondition * __this));

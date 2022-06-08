@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeComboMoveHammerSimple__HitStop_d__76 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (MeleeComboMoveHammerSimple_HitStop_d_76 * __this, int32_t __1__state));

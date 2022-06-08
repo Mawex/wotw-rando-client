@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XdrBuilder {
 IL2CPP_REGISTER_METHOD(0x01ABDE40, void, __ctor, (XdrBuilder * __this, XmlReader * reader, XmlNamespaceManager * curmgr, SchemaInfo * sinfo, String * targetNamspace, XmlNameTable * nameTable, SchemaNames * schemaNames, ValidationEventHandler * eventhandler));
@@ -136,5 +136,5 @@ IL2CPP_REGISTER_METHOD(0x01AC6880, void, SendValidationEvent, (XdrBuilder * __th
 IL2CPP_REGISTER_METHOD(0x01AC6920, void, SendValidationEvent, (XdrBuilder * __this, String * code, String * msg));
 IL2CPP_REGISTER_METHOD(0x01AC6B20, void, SendValidationEvent, (XdrBuilder * __this, XmlSchemaException * e, XmlSeverityType__Enum severity));
 IL2CPP_REGISTER_METHODINFO(0x0478FE68, XdrBuilder_SendValidationEvent_3__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01AC6CF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01AC6CF0, void, __cctor, ());
 }

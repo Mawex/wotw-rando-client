@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StateHolder {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, GetSetupStates, (StateHolder * __this, List_1_IIndexedItem_ * toPopulate));

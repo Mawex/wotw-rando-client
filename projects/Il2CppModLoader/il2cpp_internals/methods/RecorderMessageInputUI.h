@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RecorderMessageInputUI {
 IL2CPP_REGISTER_METHOD(0x008F2740, void, Start, (RecorderMessageInputUI * __this));

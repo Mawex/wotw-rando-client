@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK___c__DisplayClass27_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SDK_c_DisplayClass27_0 * __this));

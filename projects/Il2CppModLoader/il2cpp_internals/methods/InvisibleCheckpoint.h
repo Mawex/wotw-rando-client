@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InvisibleCheckpoint {
 IL2CPP_REGISTER_METHOD(0x00643F40, Rect, get_Bounds, (InvisibleCheckpoint * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x00645140, bool, GetSeinGroundPosition, (Vector3 * pos, 
 IL2CPP_REGISTER_METHOD(0x0043D9A0, SelectableCategory__Enum, get_Category, (InvisibleCheckpoint * __this));
 IL2CPP_REGISTER_METHOD(0x00645590, Rect, CalculateBounds, (InvisibleCheckpoint * __this));
 IL2CPP_REGISTER_METHOD(0x006458E0, void, __ctor, (InvisibleCheckpoint * __this));
-IL2CPP_REGISTER_METHOD(0x00645A80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00645A80, void, __cctor, ());
 }

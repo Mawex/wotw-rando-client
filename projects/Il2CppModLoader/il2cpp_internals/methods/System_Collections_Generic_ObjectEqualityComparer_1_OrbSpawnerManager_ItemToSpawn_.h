@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_OrbSpawnerManager_ItemToSpawn_ {
 IL2CPP_REGISTER_METHOD(0x0265A070, bool, Equals, (ObjectEqualityComparer_1_OrbSpawnerManager_ItemToSpawn_ * __this, OrbSpawnerManager_ItemToSpawn x, OrbSpawnerManager_ItemToSpawn y));

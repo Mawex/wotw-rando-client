@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::HandleCollector {
 IL2CPP_REGISTER_METHOD(0x021BBD50, void, __ctor, (HandleCollector * __this, String * name, int32_t initialThreshold));

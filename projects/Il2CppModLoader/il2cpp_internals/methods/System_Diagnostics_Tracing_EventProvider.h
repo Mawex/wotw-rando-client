@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventProvider {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EventProvider * __this));
@@ -23,7 +23,7 @@ IL2CPP_REGISTER_METHOD(0x0174F330, int32_t, IndexOfSessionInList, (List_1_System
 IL2CPP_REGISTER_METHOD(0x0174F410, bool, GetDataFromController, (EventProvider * __this, int32_t etwSessionId, UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR * filterData, ControllerCommand__Enum * command, Byte__Array * * data, int32_t * dataStart));
 IL2CPP_REGISTER_METHOD(0x003FCB00, bool, IsEnabled, (EventProvider * __this));
 IL2CPP_REGISTER_METHOD(0x0174F540, bool, IsEnabled, (EventProvider * __this, uint8_t level, int64_t keywords));
-IL2CPP_REGISTER_METHOD(0x0174F580, EventProvider_WriteEventErrorCode__Enum, GetLastWriteEventError, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0174F580, EventProvider_WriteEventErrorCode__Enum, GetLastWriteEventError, ());
 IL2CPP_REGISTER_METHOD(0x0174F660, void, SetLastError, (int32_t error));
 IL2CPP_REGISTER_METHOD(0x0174F7C0, Object *, EncodeObject, (Object * * data, EventProvider_EventData * * dataDescriptor, uint8_t * * dataBuffer, uint32_t * totalEventSize));
 IL2CPP_REGISTER_METHOD(0x01750370, bool, WriteEvent, (EventProvider * __this, EventDescriptor * eventDescriptor, Guid * activityID, Guid * childActivityID, Object__Array * eventPayload));
@@ -33,5 +33,5 @@ IL2CPP_REGISTER_METHOD(0x01751240, bool, WriteEventRaw, (EventProvider * __this,
 IL2CPP_REGISTER_METHOD(0x01751350, uint32_t, EventUnregister, (EventProvider * __this));
 IL2CPP_REGISTER_METHOD(0x01751400, int32_t, bitcount, (uint32_t n));
 IL2CPP_REGISTER_METHOD(0x01751500, int32_t, bitindex, (uint32_t n));
-IL2CPP_REGISTER_METHOD(0x01751520, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01751520, void, __cctor, ());
 }

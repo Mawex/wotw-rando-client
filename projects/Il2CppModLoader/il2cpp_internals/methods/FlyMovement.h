@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FlyMovement {
 IL2CPP_REGISTER_METHOD(0x0127A650, float, get_Speed, (FlyMovement * __this));

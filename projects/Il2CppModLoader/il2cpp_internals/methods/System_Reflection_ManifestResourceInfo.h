@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Reflection::ManifestResourceInfo {
 IL2CPP_REGISTER_METHOD(0x00E332C0, void, __ctor, (ManifestResourceInfo * __this, Assembly * containingAssembly, String * containingFileName, ResourceLocation__Enum resourceLocation));

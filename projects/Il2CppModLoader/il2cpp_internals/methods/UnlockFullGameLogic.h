@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnlockFullGameLogic {
 IL2CPP_REGISTER_METHOD(0x013AC460, void, FixedUpdate, (UnlockFullGameLogic * __this));

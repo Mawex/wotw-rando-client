@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatingRockTurretEnemy {
 IL2CPP_REGISTER_METHOD(0x01277550, void, PlayAnimationOnce, (FloatingRockTurretEnemy * __this, CharacterAnimationSystem * animationSystem, TextureAnimationWithTransitions * anim, int32_t layer));

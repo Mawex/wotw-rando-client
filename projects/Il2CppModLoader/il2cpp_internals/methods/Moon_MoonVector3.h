@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonVector3 {
 IL2CPP_REGISTER_METHOD(0x02F9A7C0, bool, get_IsCrossSceneReference, (MoonVector3 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ByteEqualityComparer {
 IL2CPP_REGISTER_METHOD(0x02021DC0, bool, Equals, (ByteEqualityComparer * __this, uint8_t x, uint8_t y));

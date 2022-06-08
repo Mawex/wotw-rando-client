@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::AnimatorControllerParameter {
 IL2CPP_REGISTER_METHOD(0x030861A0, void, __ctor, (AnimatorControllerParameter * __this));

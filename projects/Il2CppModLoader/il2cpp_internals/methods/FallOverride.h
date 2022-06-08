@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FallOverride {
 IL2CPP_REGISTER_METHOD(0x00996820, void, Override, (FallOverride * __this));

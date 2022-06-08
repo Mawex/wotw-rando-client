@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MortarSpitAttackSettings {
 IL2CPP_REGISTER_METHOD(0x0147E800, float, get_AggroDistance, (MortarSpitAttackSettings * __this));

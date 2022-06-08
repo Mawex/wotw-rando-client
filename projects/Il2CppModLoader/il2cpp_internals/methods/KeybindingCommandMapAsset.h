@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KeybindingCommandMapAsset {
 IL2CPP_REGISTER_METHOD(0x00E65250, List_1_KeybindingCommandMapAsset_ExclusiveCommandList_ *, GetExclusiveKeyLists, (KeybindingCommandMapAsset * __this, KeybindingCommandMapAsset_CommandBindingEnum__Enum bind));

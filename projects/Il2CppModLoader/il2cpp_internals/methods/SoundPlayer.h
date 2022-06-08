@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundPlayer {
 IL2CPP_REGISTER_METHOD(0x00EEB3A0, SoundHost *, get_SoundHost, (SoundPlayer * __this));
@@ -29,7 +29,7 @@ IL2CPP_REGISTER_METHOD(0x00EEC280, void, set_IsSuspended, (SoundPlayer * __this,
 IL2CPP_REGISTER_METHOD(0x003FDCE0, SuspendableMask__Enum, get_Mask, (SoundPlayer * __this));
 IL2CPP_REGISTER_METHOD(0x008C5DD0, void, set_Mask, (SoundPlayer * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x00EEC2D0, void, DestroySound, (SoundPlayer * __this));
-IL2CPP_REGISTER_METHOD(0x00EEC3C0, void, DestroyAll, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00EEC3C0, void, DestroyAll, ());
 IL2CPP_REGISTER_METHOD(0x0058EE40, void, __ctor, (SoundPlayer * __this));
-IL2CPP_REGISTER_METHOD(0x00EEC590, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00EEC590, void, __cctor, ());
 }

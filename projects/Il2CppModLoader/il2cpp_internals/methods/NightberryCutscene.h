@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightberryCutscene {
 IL2CPP_REGISTER_METHOD(0x00609340, void, Start, (NightberryCutscene * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VideoEditor {
 IL2CPP_REGISTER_METHOD(0x008BBD50, uint32_t, Execute, (String * path, String * parameters, String * workingDir));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskFactory {
 IL2CPP_REGISTER_METHOD(0x0233DEB0, void, __ctor, (TaskFactory * __this));

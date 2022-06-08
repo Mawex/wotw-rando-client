@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::DownloadDataCompletedEventHandler {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (DownloadDataCompletedEventHandler * __this, Object * object, void * method_1));

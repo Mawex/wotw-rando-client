@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::RuntimeType {
 IL2CPP_REGISTER_METHOD(0x01EE29F0, void, ThrowIfTypeNeverValidGenericArgument, (RuntimeType * type));
@@ -175,5 +175,5 @@ IL2CPP_REGISTER_METHOD(0x01EEFAA0, String *, get_Namespace, (RuntimeType * __thi
 IL2CPP_REGISTER_METHOD(0x01EEFB00, int32_t, GetHashCode, (RuntimeType * __this));
 IL2CPP_REGISTER_METHOD(0x01EEFC00, String *, get_FullName, (RuntimeType * __this));
 IL2CPP_REGISTER_METHOD(0x01EEFDD0, bool, get_IsSZArray, (RuntimeType * __this));
-IL2CPP_REGISTER_METHOD(0x01EEFE40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EEFE40, void, __cctor, ());
 }

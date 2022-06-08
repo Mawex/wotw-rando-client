@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SerializationEvents {
 IL2CPP_REGISTER_METHOD(0x01EDCB70, List_1_System_Reflection_MethodInfo_ *, GetMethodsWithAttribute, (SerializationEvents * __this, Type * attribute, Type * t));

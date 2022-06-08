@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::LockInputEntity {
 IL2CPP_REGISTER_METHOD(0x00775D40, void, OnStartPlayback, (LockInputEntity * __this, IContext * context));

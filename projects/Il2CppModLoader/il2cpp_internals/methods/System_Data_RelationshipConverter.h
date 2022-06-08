@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::RelationshipConverter {
 IL2CPP_REGISTER_METHOD(0x01E4B2A0, bool, CanConvertTo, (RelationshipConverter * __this, ITypeDescriptorContext * context, Type * destinationType));

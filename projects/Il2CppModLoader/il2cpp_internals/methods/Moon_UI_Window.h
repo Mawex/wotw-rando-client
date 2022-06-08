@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UI::Window {
 IL2CPP_REGISTER_METHOD(0x0118BC20, void, OnUserInput, (Window * __this));

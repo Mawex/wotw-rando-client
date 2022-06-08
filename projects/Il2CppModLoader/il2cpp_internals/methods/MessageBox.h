@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MessageBox {
 IL2CPP_REGISTER_METHOD(0x0158DA80, HashSet_1_Moon_ISuspendable_ *, GetSuspendables, (MessageBox * __this));
@@ -43,7 +43,7 @@ IL2CPP_REGISTER_METHOD(0x01591690, void, FinishWriting, (MessageBox * __this));
 IL2CPP_REGISTER_METHOD(0x01591890, bool, get_IsLastMessage, (MessageBox * __this));
 IL2CPP_REGISTER_METHOD(0x015918C0, bool, get_FinishedWriting, (MessageBox * __this));
 IL2CPP_REGISTER_METHOD(0x015919D0, void, NextMessage, (MessageBox * __this));
-IL2CPP_REGISTER_METHOD(0x01591B50, String *, GetPercentage, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x01591CE0, bool, ShouldAddSpaceBeforePercentage, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01591B50, String *, GetPercentage, ());
+IL2CPP_REGISTER_METHOD(0x01591CE0, bool, ShouldAddSpaceBeforePercentage, ());
 IL2CPP_REGISTER_METHOD(0x01591E00, void, __ctor, (MessageBox * __this));
 }

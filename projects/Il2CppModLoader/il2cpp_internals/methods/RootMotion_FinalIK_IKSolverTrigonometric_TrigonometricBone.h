@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverTrigonometric_TrigonometricBone {
 IL2CPP_REGISTER_METHOD(0x02A05EA0, void, Initiate, (IKSolverTrigonometric_TrigonometricBone * __this, Vector3 childPosition, Vector3 bendNormal));

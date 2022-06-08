@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::CharTypeInfo {
 IL2CPP_REGISTER_METHOD(0x01747E90, void, WriteMetadata, (CharTypeInfo * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));

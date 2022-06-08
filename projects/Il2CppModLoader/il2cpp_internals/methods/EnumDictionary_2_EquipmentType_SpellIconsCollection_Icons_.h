@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_EquipmentType_SpellIconsCollection_Icons_ {
 IL2CPP_REGISTER_METHOD(0x019E4980, SpellIconsCollection_Icons, GetValue, (EnumDictionary_2_EquipmentType_SpellIconsCollection_Icons_ * __this, EquipmentType__Enum key));

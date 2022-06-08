@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::ISuspendable_Moon::HitStop_Entry_ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_Moon_ISuspendable_Moon_HitStop_Entry_ * __this, ISuspendable * key, HitStop_Entry * * value));

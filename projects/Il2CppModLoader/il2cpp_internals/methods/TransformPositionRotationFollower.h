@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TransformPositionRotationFollower {
 IL2CPP_REGISTER_METHOD(0x00B07E00, void, Awake, (TransformPositionRotationFollower * __this));

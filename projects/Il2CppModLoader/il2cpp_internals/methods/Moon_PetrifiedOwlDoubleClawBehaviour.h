@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::PetrifiedOwlDoubleClawBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C33D90, void, OnStartBehaviour, (PetrifiedOwlDoubleClawBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DeadZoneLeftStickSlider {
 IL2CPP_REGISTER_METHOD(0x00DDC490, float, get_Value, (DeadZoneLeftStickSlider * __this));

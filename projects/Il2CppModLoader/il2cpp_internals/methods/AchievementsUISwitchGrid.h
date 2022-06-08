@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AchievementsUISwitchGrid {
 IL2CPP_REGISTER_METHOD(0x004BF570, void, Start, (AchievementsUISwitchGrid * __this));

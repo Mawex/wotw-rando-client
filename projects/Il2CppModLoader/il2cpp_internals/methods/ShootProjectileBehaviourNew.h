@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShootProjectileBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x005B8000, bool, IsBlockingInterruption, (ShootProjectileBehaviourNew * __this, EntityDamageEvent * damageEvent, EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason));

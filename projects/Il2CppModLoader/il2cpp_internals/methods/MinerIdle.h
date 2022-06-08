@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerIdle {
 IL2CPP_REGISTER_METHOD(0x0144BA50, void, OnInitializeTask, (MinerIdle * __this, IContext * context));

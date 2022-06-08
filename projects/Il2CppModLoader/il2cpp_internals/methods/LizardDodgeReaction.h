@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardDodgeReaction {
 IL2CPP_REGISTER_METHOD(0x00FAC100, void, OnInitializeTask, (LizardDodgeReaction * __this, IContext * context));

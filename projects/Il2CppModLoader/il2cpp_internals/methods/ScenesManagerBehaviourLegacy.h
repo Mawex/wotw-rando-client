@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScenesManagerBehaviourLegacy {
 IL2CPP_REGISTER_METHOD(0x01056D40, Vector2, get_CurrentCameraTargetPositionExtrapolated, (ScenesManagerBehaviourLegacy * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::Stream_NullStream {
 IL2CPP_REGISTER_METHOD(0x0237E700, void, __ctor, (Stream_NullStream * __this));

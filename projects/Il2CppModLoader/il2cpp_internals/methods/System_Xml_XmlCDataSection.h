@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlCDataSection {
 IL2CPP_REGISTER_METHOD(0x01714A90, void, __ctor, (XmlCDataSection * __this, String * data, XmlDocument * doc));

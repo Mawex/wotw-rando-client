@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::Encoding_EncodingCharBuffer {
 IL2CPP_REGISTER_METHOD(0x02454ED0, void, __ctor, (Encoding_EncodingCharBuffer * __this, Encoding * enc, DecoderNLS * decoder, uint16_t * charStart, int32_t charCount, uint8_t * byteStart, int32_t byteCount));

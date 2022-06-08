@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NumericConvertInstruction_Checked {
 IL2CPP_REGISTER_METHOD(0x02408D70, String *, get_InstructionName, (NumericConvertInstruction_Checked * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::TrackingStringDictionary {
 IL2CPP_REGISTER_METHOD(0x020A9E30, void, __ctor, (TrackingStringDictionary * __this));

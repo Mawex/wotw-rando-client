@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpellUIPassiveShards {
 IL2CPP_REGISTER_METHOD(0x0094E040, void, SetSocketsDirty, (SpellUIPassiveShards * __this));

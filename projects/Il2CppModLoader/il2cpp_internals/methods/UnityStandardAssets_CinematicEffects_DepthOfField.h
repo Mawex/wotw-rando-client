@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::DepthOfField {
 IL2CPP_REGISTER_METHOD(0x02500C20, Shader *, get_filmicDepthOfFieldShader, (DepthOfField_1 * __this));

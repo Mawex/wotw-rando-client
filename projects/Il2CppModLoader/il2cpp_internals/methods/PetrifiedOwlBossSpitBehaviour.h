@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossSpitBehaviour {
 IL2CPP_REGISTER_METHOD(0x0177E780, int32_t, get_ShotsLeft, (PetrifiedOwlBossSpitBehaviour * __this));

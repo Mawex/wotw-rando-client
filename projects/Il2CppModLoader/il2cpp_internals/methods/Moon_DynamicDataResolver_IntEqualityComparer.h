@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DynamicDataResolver_IntEqualityComparer {
 IL2CPP_REGISTER_METHOD(0x01B64A20, bool, Equals, (DynamicDataResolver_IntEqualityComparer * __this, int32_t x, int32_t y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_PhysicalPhysicaSystemManagerPlugin_Data_PhysicalSystemManagerData_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, PhysicalPhysicaSystemManagerPlugin_Data_PhysicalSystemManagerData *, get_Current, (List_1_T_Enumerator_PhysicalPhysicaSystemManagerPlugin_Data_PhysicalSystemManagerData___Boxed * __this));

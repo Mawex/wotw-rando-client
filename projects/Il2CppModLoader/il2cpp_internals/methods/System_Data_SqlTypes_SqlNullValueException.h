@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlNullValueException {
 IL2CPP_REGISTER_METHOD(0x022B8400, void, __ctor, (SqlNullValueException * __this));

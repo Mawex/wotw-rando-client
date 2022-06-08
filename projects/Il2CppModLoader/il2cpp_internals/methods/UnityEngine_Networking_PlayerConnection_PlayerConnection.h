@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::PlayerConnection::PlayerConnection {
 IL2CPP_REGISTER_METHOD(0x0253D780, void, __ctor, (PlayerConnection * __this));
-IL2CPP_REGISTER_METHOD(0x0253DA50, PlayerConnection *, get_instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0253DA50, PlayerConnection *, get_instance, ());
 IL2CPP_REGISTER_METHOD(0x0253DC00, bool, get_isConnected, (PlayerConnection * __this));
-IL2CPP_REGISTER_METHOD(0x0253DCA0, PlayerConnection *, CreateInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0253DCA0, PlayerConnection *, CreateInstance, ());
 IL2CPP_REGISTER_METHOD(0x0253DDA0, void, OnEnable, (PlayerConnection * __this));
 IL2CPP_REGISTER_METHOD(0x0253DE50, IPlayerEditorConnectionNative *, GetConnectionNativeApi, (PlayerConnection * __this));
 IL2CPP_REGISTER_METHOD(0x0253DFA0, void, Register, (PlayerConnection * __this, Guid messageId, UnityAction_1_UnityEngine_Networking_PlayerConnection_MessageEventArgs_ * callback));

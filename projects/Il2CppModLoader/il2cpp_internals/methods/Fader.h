@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Fader {
 IL2CPP_REGISTER_METHOD(0x0098FFA0, void, ChangeState, (Fader * __this, Fader_State__Enum state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SlugKickupHitBehaviour {
 IL2CPP_REGISTER_METHOD(0x006C6090, void, OnCacheSerializedComponents, (SlugKickupHitBehaviour * __this, Entity * owner));

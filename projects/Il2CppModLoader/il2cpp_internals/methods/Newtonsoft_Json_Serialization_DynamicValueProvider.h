@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::DynamicValueProvider {
 IL2CPP_REGISTER_METHOD(0x0186B8F0, void, __ctor, (DynamicValueProvider * __this, MemberInfo_1 * memberInfo));

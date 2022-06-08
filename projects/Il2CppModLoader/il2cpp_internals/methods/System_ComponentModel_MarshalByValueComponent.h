@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::MarshalByValueComponent {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MarshalByValueComponent * __this));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x01FF61E0, IContainer *, get_Container, (MarshalByValueC
 IL2CPP_REGISTER_METHOD(0x01FF6280, Object *, GetService, (MarshalByValueComponent * __this, Type * service));
 IL2CPP_REGISTER_METHOD(0x01FF6330, bool, get_DesignMode, (MarshalByValueComponent * __this));
 IL2CPP_REGISTER_METHOD(0x01FF63D0, String *, ToString, (MarshalByValueComponent * __this));
-IL2CPP_REGISTER_METHOD(0x01FF6500, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01FF6500, void, __cctor, ());
 }

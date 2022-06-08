@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FBIKChain_ChildConstraint {
 IL2CPP_REGISTER_METHOD(0x00C3DD50, float, get_nominalDistance, (FBIKChain_ChildConstraint * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::SpinLock {
 IL2CPP_REGISTER_METHOD(0x001E6AC0, void, __ctor, (SpinLock__Boxed * __this, bool enableThreadOwnerTracking));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x001E6B60, bool, get_IsHeld, (SpinLock__Boxed * __this))
 IL2CPP_REGISTER_METHOD(0x001E6B90, bool, get_IsHeldByCurrentThread, (SpinLock__Boxed * __this));
 IL2CPP_REGISTER_METHODINFO(0x0476D898, SpinLock_get_IsHeldByCurrentThread__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001E6BA0, bool, get_IsThreadOwnerTrackingEnabled, (SpinLock__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0232DF20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0232DF20, void, __cctor, ());
 }

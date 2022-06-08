@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::CuthillMcKee {
 IL2CPP_REGISTER_METHOD(0x02A95410, Int32__Array *, Renumber, (CuthillMcKee * __this, Mesh_1 * mesh));

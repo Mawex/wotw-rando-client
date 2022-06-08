@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::ISteamMatchmakingPingResponse {
 IL2CPP_REGISTER_METHOD(0x015FBE40, void, __ctor, (ISteamMatchmakingPingResponse * __this, ISteamMatchmakingPingResponse_ServerResponded * onServerResponded, ISteamMatchmakingPingResponse_ServerFailedToRespond * onServerFailedToRespond));

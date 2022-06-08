@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StarSlugEnemyPlaceholder {
 IL2CPP_REGISTER_METHOD(0x009B1190, LegacyEntity *, Instantiate, (StarSlugEnemyPlaceholder * __this));

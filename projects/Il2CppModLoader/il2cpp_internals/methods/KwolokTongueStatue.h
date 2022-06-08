@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokTongueStatue {
 IL2CPP_REGISTER_METHOD(0x012FD6B0, IByteUberState *, get_ResolvedUberState, (KwolokTongueStatue * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkinningEdge {
 IL2CPP_REGISTER_METHOD(0x006BE0D0, SkinningEdge_SkinningCapsule *, GetSkinningCapsule, (SkinningEdge * __this, UberShaderModifier * sprite));

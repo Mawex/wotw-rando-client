@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Extensions::LinqExtensions__DistinctBy_d__0_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB930, Object *, System_Collections_Generic_IEnumerator_TSource__get_Current, (LinqExtensions_DistinctBy_d_0_2_System_Object_System_Object_ * __this));

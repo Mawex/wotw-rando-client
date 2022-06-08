@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlSilentWoodsController_StalkBExitState {
 IL2CPP_REGISTER_METHOD(0x014E7B90, void, __ctor, (PetrifiedOwlSilentWoodsController_StalkBExitState * __this, PetrifiedOwlSilentWoodsController * controller));

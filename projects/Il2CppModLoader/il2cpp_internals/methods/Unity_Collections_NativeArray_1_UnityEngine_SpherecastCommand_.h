@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_UnityEngine::SpherecastCommand_ {
 IL2CPP_REGISTER_METHOD(0x001DF770, void, __ctor, (NativeArray_1_UnityEngine_SpherecastCommand___Boxed * __this, int32_t length, Allocator__Enum allocator, NativeArrayOptions__Enum options));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobExtensions {
 IL2CPP_REGISTER_METHOD(0x02FF7290, JobHandle, Schedule, (SimpleSwayAnimPostprocess_Job jobData, JobHandle dependsOn));

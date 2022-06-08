@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_SmartInput::ICachableInput_SmartInput::InputCacheManager_SetupTempData_Node_ {
 IL2CPP_REGISTER_METHOD(0x01A72C10, int32_t, get_Count, (Dictionary_2_TKey_TValue_ValueCollection_SmartInput_ICachableInput_SmartInput_InputCacheManager_SetupTempData_Node_ * __this));

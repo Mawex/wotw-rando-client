@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RestoreCheckpointAction {
 IL2CPP_REGISTER_METHOD(0x0090B690, void, Perform, (RestoreCheckpointAction * __this, IContext * context));

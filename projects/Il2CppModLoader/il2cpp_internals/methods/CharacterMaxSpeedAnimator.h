@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterMaxSpeedAnimator {
 IL2CPP_REGISTER_METHOD(0x01303090, void, OnStartPlay, (CharacterMaxSpeedAnimator * __this));

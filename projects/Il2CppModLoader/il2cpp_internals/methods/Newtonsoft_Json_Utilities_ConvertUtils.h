@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ConvertUtils {
 IL2CPP_REGISTER_METHOD(0x01C01D10, PrimitiveTypeCode__Enum, GetTypeCode, (Type * t));
@@ -25,5 +25,5 @@ IL2CPP_REGISTER_METHOD(0x01C04570, ParseResult__Enum, Int64TryParse, (Char__Arra
 IL2CPP_REGISTER_METHOD(0x01C04710, ParseResult__Enum, DecimalTryParse, (Char__Array * chars, int32_t start, int32_t length, Decimal * value));
 IL2CPP_REGISTER_METHOD(0x01C05580, bool, TryConvertGuid, (String * s, Guid * g));
 IL2CPP_REGISTER_METHOD(0x01C05640, bool, TryHexTextToInt, (Char__Array * text, int32_t start, int32_t end, int32_t * value));
-IL2CPP_REGISTER_METHOD(0x01C056F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01C056F0, void, __cctor, ());
 }

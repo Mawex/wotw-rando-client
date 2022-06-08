@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_DiveHorizontalState {
 IL2CPP_REGISTER_METHOD(0x0176EF00, void, __ctor, (PetrifiedOwlBossFinalComboBehaviour_DiveHorizontalState * __this, PetrifiedOwlBossFinalComboBehaviour * behaviour));

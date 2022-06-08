@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CompareSeinLevelCondition {
 IL2CPP_REGISTER_METHOD(0x011DED30, bool, Validate, (CompareSeinLevelCondition * __this, IContext * context));

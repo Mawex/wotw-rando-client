@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_CatlikeCoding::TextBox::MoonIconRenderer_IconObject_ {
 IL2CPP_REGISTER_METHOD(0x02C29A60, int32_t, Compare, (ObjectComparer_1_CatlikeCoding_TextBox_MoonIconRenderer_IconObject_ * __this, MoonIconRenderer_IconObject x, MoonIconRenderer_IconObject y));

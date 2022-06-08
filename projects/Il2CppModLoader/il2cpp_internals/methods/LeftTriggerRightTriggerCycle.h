@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeftTriggerRightTriggerCycle {
 IL2CPP_REGISTER_METHOD(0x015C8A30, void, FixedUpdate, (LeftTriggerRightTriggerCycle * __this));

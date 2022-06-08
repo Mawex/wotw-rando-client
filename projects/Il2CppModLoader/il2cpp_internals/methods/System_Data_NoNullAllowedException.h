@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::NoNullAllowedException {
 IL2CPP_REGISTER_METHOD(0x01E47C50, void, __ctor, (NoNullAllowedException * __this, SerializationInfo * info, StreamingContext context));

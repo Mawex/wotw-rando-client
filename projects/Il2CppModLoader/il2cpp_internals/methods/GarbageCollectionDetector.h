@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GarbageCollectionDetector {
 IL2CPP_REGISTER_METHOD(0x00416940, void, Finalize, (GarbageCollectionDetector * __this));

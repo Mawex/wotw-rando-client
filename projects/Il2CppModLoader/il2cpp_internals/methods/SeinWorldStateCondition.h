@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinWorldStateCondition {
 IL2CPP_REGISTER_METHOD(0x00AB55E0, bool, Validate, (SeinWorldStateCondition * __this, IContext * context));

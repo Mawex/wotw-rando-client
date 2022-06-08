@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Microsoft::Xbox::Services::Xal::XalUser {
 IL2CPP_REGISTER_METHOD(0x0143F300, uint64_t, get_Id, (XalUser_1 * __this));
@@ -19,7 +19,7 @@ IL2CPP_REGISTER_METHOD(0x01440AB0, Task *, ResolveIssueWithUiAsync, (XalUser_1 *
 IL2CPP_REGISTER_METHOD(0x01441210, Task_1_System_Byte_ *, GetGamerPictureAsync, (XalUser_1 * __this, XalGamerPictureSize__Enum pictureSize));
 IL2CPP_REGISTER_METHOD(0x014416E0, void, OnUserChanged, (void * context, XalUser_InternalXalUserLocalId userId, XalUserChangeType__Enum change));
 IL2CPP_REGISTER_METHODINFO(0x04783428, XalUser_1_OnUserChanged__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01440060, bool, XalWrapper_XalSignOutUserAsyncIsPresent, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01440060, bool, XalWrapper_XalSignOutUserAsyncIsPresent, ());
 IL2CPP_REGISTER_METHOD(0x01441950, int32_t, XalWrapper_XalSignOutUserAsync, (void * async, void * user));
 IL2CPP_REGISTER_METHOD(0x01441A00, int32_t, XalWrapper_XalSignOutUserResult, (void * async));
 IL2CPP_REGISTER_METHOD(0x01441AA0, int32_t, XalWrapper_XalUserGetId, (void * user, uint64_t * id));

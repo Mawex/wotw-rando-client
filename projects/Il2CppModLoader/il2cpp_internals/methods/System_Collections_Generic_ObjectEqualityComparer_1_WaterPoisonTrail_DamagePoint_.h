@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_WaterPoisonTrail_DamagePoint_ {
 IL2CPP_REGISTER_METHOD(0x01CD2040, bool, Equals, (ObjectEqualityComparer_1_WaterPoisonTrail_DamagePoint_ * __this, WaterPoisonTrail_DamagePoint x, WaterPoisonTrail_DamagePoint y));

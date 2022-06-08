@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Race::Networking::ReplayData {
 IL2CPP_REGISTER_METHOD(0x00C454E0, void, __ctor, (ReplayData * __this));

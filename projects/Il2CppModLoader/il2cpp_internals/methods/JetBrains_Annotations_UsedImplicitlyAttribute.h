@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JetBrains::Annotations::UsedImplicitlyAttribute {
 IL2CPP_REGISTER_METHOD(0x02418CA0, void, __ctor, (UsedImplicitlyAttribute * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimelineEntityTask {
 IL2CPP_REGISTER_METHOD(0x010F6E20, void, OnEnterTask, (TimelineEntityTask * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::FSharpUtils___c__DisplayClass52_0_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (FSharpUtils_c_DisplayClass52_0_2_System_Object_System_Object_ * __this));

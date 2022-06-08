@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::BloomAndFlares {
 IL2CPP_REGISTER_METHOD(0x02513620, bool, CheckResources, (BloomAndFlares * __this));

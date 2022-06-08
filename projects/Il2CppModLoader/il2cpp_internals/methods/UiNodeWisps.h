@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UiNodeWisps {
 IL2CPP_REGISTER_METHOD(0x012AB080, void, OnEnter, (UiNodeWisps * __this));

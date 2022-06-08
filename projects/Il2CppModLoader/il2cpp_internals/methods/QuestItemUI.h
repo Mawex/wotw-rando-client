@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::QuestItemUI {
 IL2CPP_REGISTER_METHOD(0x00E8AC70, void, SetQuest, (QuestItemUI * __this, RuntimeQuest * runtimeQuest));

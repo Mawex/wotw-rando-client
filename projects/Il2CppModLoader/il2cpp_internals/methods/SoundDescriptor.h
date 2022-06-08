@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoundDescriptor {
 IL2CPP_REGISTER_METHOD(0x00EE9200, void, __ctor, (SoundDescriptor * __this));

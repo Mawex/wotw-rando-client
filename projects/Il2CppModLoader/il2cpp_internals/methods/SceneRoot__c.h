@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneRoot___c {
-IL2CPP_REGISTER_METHOD(0x00BB8A60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00BB8A60, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SceneRoot_c * __this));
 IL2CPP_REGISTER_METHOD(0x00BB8BA0, bool, _OnValidate_b__31_0, (SceneRoot_c * __this, Component_1 * a));
 IL2CPP_REGISTER_METHODINFO(0x04738EC8, SceneRoot_c__OnValidate_b__31_0__MethodInfo);

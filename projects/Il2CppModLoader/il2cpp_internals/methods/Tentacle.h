@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Tentacle {
 IL2CPP_REGISTER_METHOD(0x00CEA5E0, void, Awake, (Tentacle * __this));

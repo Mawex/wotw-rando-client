@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Moon::CsvReader_Cell_ {
 IL2CPP_REGISTER_METHOD(0x001F4750, bool, get_HasValue, (Nullable_1_Moon_CsvReader_Cell___Boxed * __this));

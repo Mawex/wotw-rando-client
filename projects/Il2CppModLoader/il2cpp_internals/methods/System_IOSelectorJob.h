@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IOSelectorJob {
 IL2CPP_REGISTER_METHOD(0x0200ADC0, void, __ctor, (IOSelectorJob * __this, IOOperation__Enum operation, IOAsyncCallback * callback, IOAsyncResult * state));

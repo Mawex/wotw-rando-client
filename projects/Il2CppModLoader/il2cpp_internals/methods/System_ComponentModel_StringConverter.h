@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::StringConverter {
 IL2CPP_REGISTER_METHOD(0x029AD260, bool, CanConvertFrom, (StringConverter * __this, ITypeDescriptorContext * context, Type * sourceType));

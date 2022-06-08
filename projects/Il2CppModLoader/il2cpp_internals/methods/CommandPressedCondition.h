@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CommandPressedCondition {
 IL2CPP_REGISTER_METHOD(0x011DE880, bool, Validate, (CommandPressedCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NewObjectiveMessageProvider__GetMessages_d__3 {
 IL2CPP_REGISTER_METHOD(0x004BD8A0, void, __ctor, (NewObjectiveMessageProvider_GetMessages_d_3 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RemoveOnBuild {
 IL2CPP_REGISTER_METHOD(0x03190C90, void, Execute, (RemoveOnBuild * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SandWormShootingBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x00EC3C60, void, OnEnter, (SandWormShootingBehaviourNew * __this, IContext * context));

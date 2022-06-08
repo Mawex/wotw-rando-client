@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Common::ADP {
 IL2CPP_REGISTER_METHOD(0x02153240, void, TraceException, (String * trace, Exception * e));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x02154300, ArgumentOutOfRangeException *, InvalidAcceptR
 IL2CPP_REGISTER_METHOD(0x021543D0, ArgumentOutOfRangeException *, InvalidMissingSchemaAction, (MissingSchemaAction__Enum value));
 IL2CPP_REGISTER_METHOD(0x021544A0, ArgumentOutOfRangeException *, InvalidRule, (Rule__Enum value));
 IL2CPP_REGISTER_METHOD(0x02154570, Exception *, WrongType, (Type * got, Type * expected));
-IL2CPP_REGISTER_METHOD(0x02154670, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02154670, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::ResetInteractionObject__ResetObject_d__7 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (ResetInteractionObject_ResetObject_d_7 * __this, int32_t __1__state));

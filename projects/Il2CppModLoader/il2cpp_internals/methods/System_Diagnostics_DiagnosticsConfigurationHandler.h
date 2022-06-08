@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::DiagnosticsConfigurationHandler {
 IL2CPP_REGISTER_METHOD(0x01FFE730, void, __ctor, (DiagnosticsConfigurationHandler * __this));

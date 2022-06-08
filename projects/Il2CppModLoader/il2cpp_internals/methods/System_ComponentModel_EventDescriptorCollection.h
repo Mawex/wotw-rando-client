@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::EventDescriptorCollection {
 IL2CPP_REGISTER_METHOD(0x01FE9E20, void, __ctor, (EventDescriptorCollection * __this, EventDescriptor_1__Array * events));
@@ -47,5 +47,5 @@ IL2CPP_REGISTER_METHOD(0x01FEC0F0, void, IList_Remove, (EventDescriptorCollectio
 IL2CPP_REGISTER_METHOD(0x01FEC280, void, IList_RemoveAt, (EventDescriptorCollection * __this, int32_t index));
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, IList_get_IsReadOnly, (EventDescriptorCollection * __this));
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, IList_get_IsFixedSize, (EventDescriptorCollection * __this));
-IL2CPP_REGISTER_METHOD(0x01FEC290, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01FEC290, void, __cctor, ());
 }

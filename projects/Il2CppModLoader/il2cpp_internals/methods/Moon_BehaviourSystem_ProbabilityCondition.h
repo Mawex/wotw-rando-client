@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::ProbabilityCondition {
 IL2CPP_REGISTER_METHOD(0x0300F1F0, String *, get_Info, (ProbabilityCondition * __this));

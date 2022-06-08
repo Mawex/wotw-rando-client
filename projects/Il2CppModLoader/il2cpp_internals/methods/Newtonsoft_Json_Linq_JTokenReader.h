@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JTokenReader {
 IL2CPP_REGISTER_METHOD(0x002FBC40, JToken *, get_CurrentToken, (JTokenReader * __this));

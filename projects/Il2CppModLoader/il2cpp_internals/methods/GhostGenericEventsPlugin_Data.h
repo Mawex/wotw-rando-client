@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostGenericEventsPlugin_Data {
 IL2CPP_REGISTER_METHOD(0x0011F5D0, void, __ctor, (GhostGenericEventsPlugin_Data__Boxed * __this, int32_t recordingID, int32_t propertyId));

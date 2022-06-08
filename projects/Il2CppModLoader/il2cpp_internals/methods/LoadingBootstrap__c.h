@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoadingBootstrap___c {
-IL2CPP_REGISTER_METHOD(0x00FBDF10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00FBDF10, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LoadingBootstrap_c * __this));
 IL2CPP_REGISTER_METHOD(0x00FBE050, bool, _Start_b__25_0, (LoadingBootstrap_c * __this, String * o));
 IL2CPP_REGISTER_METHODINFO(0x0474D180, LoadingBootstrap_c__Start_b__25_0__MethodInfo);

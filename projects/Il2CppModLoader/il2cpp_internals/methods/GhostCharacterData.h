@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GhostCharacterData {
 IL2CPP_REGISTER_METHOD(0x00E16AD0, GhostFrame_FrameDataTypes__Enum, get_FrameType, (GhostCharacterData * __this));

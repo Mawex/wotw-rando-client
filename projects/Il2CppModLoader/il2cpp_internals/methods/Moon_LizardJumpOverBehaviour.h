@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::LizardJumpOverBehaviour {
 IL2CPP_REGISTER_METHOD(0x01105C70, void, Awake, (LizardJumpOverBehaviour * __this));

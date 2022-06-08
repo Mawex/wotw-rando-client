@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::PointerEventData {
 IL2CPP_REGISTER_METHOD(0x01F22D40, void, __ctor, (PointerEventData * __this, EventSystem * eventSystem));

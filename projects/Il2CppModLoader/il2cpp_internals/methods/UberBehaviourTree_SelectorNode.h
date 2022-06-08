@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::SelectorNode {
 IL2CPP_REGISTER_METHOD(0x013E2EF0, void, __ctor, (SelectorNode_1 * __this, String * name));

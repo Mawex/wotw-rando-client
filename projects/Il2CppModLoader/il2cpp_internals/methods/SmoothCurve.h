@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SmoothCurve {
 IL2CPP_REGISTER_METHOD(0x006D1790, void, Start, (SmoothCurve * __this));

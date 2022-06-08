@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GameplaySystemsCreator__CreateSetups_d__17 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (GameplaySystemsCreator_CreateSetups_d_17 * __this, int32_t __1__state));

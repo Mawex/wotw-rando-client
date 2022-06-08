@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Timer_Scheduler {
-IL2CPP_REGISTER_METHOD(0x02349F50, void, __cctor, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0234A0A0, Timer_Scheduler *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02349F50, void, __cctor, ());
+IL2CPP_REGISTER_METHOD(0x0234A0A0, Timer_Scheduler *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x0234A140, void, __ctor, (Timer_Scheduler * __this));
 IL2CPP_REGISTER_METHOD(0x0234A600, void, Remove, (Timer_Scheduler * __this, Timer * timer));
 IL2CPP_REGISTER_METHOD(0x0234A700, void, Change, (Timer_Scheduler * __this, Timer * timer, int64_t new_next_run));

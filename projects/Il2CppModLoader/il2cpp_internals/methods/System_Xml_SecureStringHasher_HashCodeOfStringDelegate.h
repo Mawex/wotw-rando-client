@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::SecureStringHasher_HashCodeOfStringDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (SecureStringHasher_HashCodeOfStringDelegate * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaitForConditionAction {
 IL2CPP_REGISTER_METHOD(0x008C5E30, void, Perform, (WaitForConditionAction * __this, IContext * context));

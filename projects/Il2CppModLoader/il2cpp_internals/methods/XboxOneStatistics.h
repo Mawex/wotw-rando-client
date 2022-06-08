@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxOneStatistics {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, RequestStatistics, (Action_1_System_Collections_Generic_List_1__1 * callback, Action * failure));

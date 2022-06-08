@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Image {
 IL2CPP_REGISTER_METHOD(0x024B7660, void, __ctor, (Image * __this));
@@ -27,7 +27,7 @@ IL2CPP_REGISTER_METHOD(0x024B8010, float, get_alphaHitTestMinimumThreshold, (Ima
 IL2CPP_REGISTER_METHOD(0x010947B0, void, set_alphaHitTestMinimumThreshold, (Image * __this, float value));
 IL2CPP_REGISTER_METHOD(0x024B8020, bool, get_useSpriteMesh, (Image * __this));
 IL2CPP_REGISTER_METHOD(0x024B8030, void, set_useSpriteMesh, (Image * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x024B8110, Material *, get_defaultETC1GraphicMaterial, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024B8110, Material *, get_defaultETC1GraphicMaterial, ());
 IL2CPP_REGISTER_METHOD(0x024B8280, Texture *, get_mainTexture, (Image * __this));
 IL2CPP_REGISTER_METHOD(0x024B84B0, bool, get_hasBorder, (Image * __this));
 IL2CPP_REGISTER_METHOD(0x024B8600, float, get_pixelsPerUnit, (Image * __this));
@@ -68,5 +68,5 @@ IL2CPP_REGISTER_METHOD(0x024C03A0, void, RebuildImage, (SpriteAtlas * spriteAtla
 IL2CPP_REGISTER_METHODINFO(0x04707558, Image_RebuildImage__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x024C0580, void, TrackImage, (Image * g));
 IL2CPP_REGISTER_METHOD(0x024C0930, void, UnTrackImage, (Image * g));
-IL2CPP_REGISTER_METHOD(0x024C09F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024C09F0, void, __cctor, ());
 }

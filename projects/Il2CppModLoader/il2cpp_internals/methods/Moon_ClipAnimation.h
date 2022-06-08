@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ClipAnimation {
 IL2CPP_REGISTER_METHOD(0x00420EE0, AnimationType__Enum, get_Type, (ClipAnimation * __this));

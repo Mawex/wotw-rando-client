@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Configuration::IgnoreSection {
 IL2CPP_REGISTER_METHOD(0x031BBEA0, void, __ctor, (IgnoreSection * __this));

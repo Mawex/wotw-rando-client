@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BreakFireStickAction {
 IL2CPP_REGISTER_METHOD(0x00D4AE40, void, Perform, (BreakFireStickAction * __this, IContext * context));

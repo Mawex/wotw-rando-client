@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinBow {
 IL2CPP_REGISTER_METHOD(0x00447340, float, get_Bend, (SeinBow * __this));

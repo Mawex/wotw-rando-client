@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VisualDebug::LineEntity {
 IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_Mode, (LineEntity * __this));

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::CultureData {
 IL2CPP_REGISTER_METHOD(0x002FBB70, void, __ctor, (CultureData * __this, String * name));
-IL2CPP_REGISTER_METHOD(0x025F3860, CultureData *, get_Invariant, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025F3860, CultureData *, get_Invariant, ());
 IL2CPP_REGISTER_METHOD(0x025F3D40, CultureData *, GetCultureData, (String * cultureName, bool useUserOverride));
 IL2CPP_REGISTER_METHOD(0x025F3ED0, CultureData *, GetCultureData, (String * cultureName, bool useUserOverride, int32_t datetimeIndex, int32_t calendarId, int32_t numberIndex, String * iso2lang, int32_t ansiCodePage, int32_t oemCodePage, int32_t macCodePage, int32_t ebcdicCodePage, bool rightToLeft, String * listSeparator));
 IL2CPP_REGISTER_METHOD(0x00420EE0, CultureData *, GetCultureData, (int32_t culture, bool bUseUserOverride));

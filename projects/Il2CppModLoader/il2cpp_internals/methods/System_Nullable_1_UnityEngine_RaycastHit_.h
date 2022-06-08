@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_UnityEngine::RaycastHit_ {
 IL2CPP_REGISTER_METHOD(0x00211790, void, __ctor, (Nullable_1_UnityEngine_RaycastHit___Boxed * __this, RaycastHit value));

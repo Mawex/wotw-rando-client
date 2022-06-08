@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::RecordManager {
 IL2CPP_REGISTER_METHOD(0x01E49910, void, __ctor, (RecordManager * __this, DataTable * table));

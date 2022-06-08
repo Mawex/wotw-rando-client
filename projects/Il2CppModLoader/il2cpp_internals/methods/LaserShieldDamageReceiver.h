@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShieldDamageReceiver {
 IL2CPP_REGISTER_METHOD(0x00F08450, void, OnEnable, (LaserShieldDamageReceiver * __this));

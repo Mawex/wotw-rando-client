@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_Particle {
 IL2CPP_REGISTER_METHOD(0x002487A0, void, set_lifetime, (ParticleSystem_Particle__Boxed * __this, float value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::SceneLoadingTest__Execute_d__19 {
 IL2CPP_REGISTER_METHOD(0x00120540, void, MoveNext, (SceneLoadingTest_Execute_d_19__Boxed * __this));

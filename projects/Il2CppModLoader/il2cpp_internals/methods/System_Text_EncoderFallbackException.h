@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Text::EncoderFallbackException {
 IL2CPP_REGISTER_METHOD(0x0244D5B0, void, __ctor, (EncoderFallbackException * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Decimal {
 IL2CPP_REGISTER_METHOD(0x0013D300, void, __ctor, (Decimal__Boxed * __this, int32_t value));
@@ -114,5 +114,5 @@ IL2CPP_REGISTER_METHOD(0x0010A980, Decimal, IConvertible_ToDecimal, (Decimal__Bo
 IL2CPP_REGISTER_METHOD(0x0013DA90, DateTime, IConvertible_ToDateTime, (Decimal__Boxed * __this, IFormatProvider * provider));
 IL2CPP_REGISTER_METHODINFO(0x04719958, Decimal_System_IConvertible_ToDateTime__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0013DAA0, Object *, IConvertible_ToType, (Decimal__Boxed * __this, Type * type, IFormatProvider * provider));
-IL2CPP_REGISTER_METHOD(0x01736E80, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01736E80, void, __cctor, ());
 }

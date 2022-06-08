@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MoveCameraToPlayerAnimator {
 IL2CPP_REGISTER_METHOD(0x00776270, void, OnStartPlayback, (MoveCameraToPlayerAnimator * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_SimpleGenericPool_1_PoolItem_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_SimpleGenericPool_1_PoolItem_ * __this));
@@ -59,7 +59,7 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_SimpleGenericPool_1_PoolI
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_SimpleGenericPool_1_PoolItem_ * __this, Comparison_1_SimpleGenericPool_1_PoolItem_ * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, SimpleGenericPool_1_T_PoolItem_InstantiateUtility_InstantiateInfo___Array *, ToArray, (List_1_SimpleGenericPool_1_PoolItem_ * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_SimpleGenericPool_1_PoolItem_ * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_SimpleGenericPool_1_PoolItem__1 * __this));
 IL2CPP_REGISTER_METHOD(0x025E81E0, void, __ctor, (List_1_SimpleGenericPool_1_PoolItem__1 * __this, int32_t capacity));
 IL2CPP_REGISTER_METHOD(0x02D897D0, void, __ctor, (List_1_SimpleGenericPool_1_PoolItem__1 * __this, IEnumerable_1_SimpleGenericPool_1_PoolItem__1 * collection));
@@ -118,5 +118,5 @@ IL2CPP_REGISTER_METHOD(0x025EAE20, void, Sort, (List_1_SimpleGenericPool_1_PoolI
 IL2CPP_REGISTER_METHOD(0x025EAEA0, void, Sort, (List_1_SimpleGenericPool_1_PoolItem__1 * __this, Comparison_1_SimpleGenericPool_1_PoolItem__1 * comparison));
 IL2CPP_REGISTER_METHOD(0x025EAEF0, SimpleGenericPool_1_T_PoolItem_System_Object___Array *, ToArray, (List_1_SimpleGenericPool_1_PoolItem__1 * __this));
 IL2CPP_REGISTER_METHOD(0x025EAF70, void, TrimExcess, (List_1_SimpleGenericPool_1_PoolItem__1 * __this));
-IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025EAFD0, void, __cctor, ());
 }

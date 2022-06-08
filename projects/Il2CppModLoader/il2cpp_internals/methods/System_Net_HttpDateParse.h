@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpDateParse {
 IL2CPP_REGISTER_METHOD(0x01D407A0, uint16_t, MAKE_UPPER, (uint16_t c));

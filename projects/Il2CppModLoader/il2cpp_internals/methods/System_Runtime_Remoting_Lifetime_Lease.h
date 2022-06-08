@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Lifetime::Lease {
 IL2CPP_REGISTER_METHOD(0x02306F60, void, __ctor, (Lease * __this));

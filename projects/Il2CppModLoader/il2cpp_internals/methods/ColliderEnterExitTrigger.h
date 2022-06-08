@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ColliderEnterExitTrigger {
 IL2CPP_REGISTER_METHOD(0x012CF010, void, Start, (ColliderEnterExitTrigger * __this));

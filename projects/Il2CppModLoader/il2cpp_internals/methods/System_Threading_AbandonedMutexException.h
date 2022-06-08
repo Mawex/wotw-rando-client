@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::AbandonedMutexException {
 IL2CPP_REGISTER_METHOD(0x027D7FD0, void, __ctor, (AbandonedMutexException * __this));

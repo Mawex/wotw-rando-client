@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiderBossIntroBehaviour {
 IL2CPP_REGISTER_METHOD(0x011AF490, void, OnEnterTask, (SpiderBossIntroBehaviour * __this, IContext * context));

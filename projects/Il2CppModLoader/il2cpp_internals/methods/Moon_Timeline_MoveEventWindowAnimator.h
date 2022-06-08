@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MoveEventWindowAnimator {
 IL2CPP_REGISTER_METHOD(0x002FBBE0, Action_1_Moon_Timeline_MoveEventType_ *, get_EventStart, (MoveEventWindowAnimator * __this));

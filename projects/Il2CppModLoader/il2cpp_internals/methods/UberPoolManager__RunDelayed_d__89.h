@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPoolManager__RunDelayed_d__89 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (UberPoolManager_RunDelayed_d_89 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils {
 IL2CPP_REGISTER_METHOD(0x004C50A0, Type *, GetTypeInfo, (Type * type));
@@ -32,5 +32,5 @@ IL2CPP_REGISTER_METHOD(0x01851F50, ReflectionUtils_SetDelegate *, GetSetMethod, 
 IL2CPP_REGISTER_METHOD(0x01851FF0, ReflectionUtils_SetDelegate *, GetSetMethodByReflection, (PropertyInfo_1 * propertyInfo));
 IL2CPP_REGISTER_METHOD(0x01852250, ReflectionUtils_SetDelegate *, GetSetMethodByReflection, (FieldInfo_1 * fieldInfo));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ReflectionUtils_1 * __this));
-IL2CPP_REGISTER_METHOD(0x01852470, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01852470, void, __cctor, ());
 }

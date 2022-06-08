@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityHitReactionBehaviour_1_SpiderlingEntity_ {
 IL2CPP_REGISTER_METHOD(0x019E0DF0, void, OnInitializeTask, (EntityHitReactionBehaviour_1_SpiderlingEntity_ * __this, IContext * context));

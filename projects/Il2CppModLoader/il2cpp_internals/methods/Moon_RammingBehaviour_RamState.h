@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour_RamState {
 IL2CPP_REGISTER_METHOD(0x00C52F40, SurfaceTypeVFXHandler_2_MaterialBasedHornBugEffectsMap_HornBugMovementEffects_ *, get_VfxHandler, (RammingBehaviour_RamState * __this));

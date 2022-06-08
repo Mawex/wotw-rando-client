@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentaclePlaceholder {
 IL2CPP_REGISTER_METHOD(0x010D6940, GameObject *, get_Prefab, (TentaclePlaceholder * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FloatCurveAnimator {
 IL2CPP_REGISTER_METHOD(0x01270690, void, CacheOriginals, (FloatCurveAnimator * __this));

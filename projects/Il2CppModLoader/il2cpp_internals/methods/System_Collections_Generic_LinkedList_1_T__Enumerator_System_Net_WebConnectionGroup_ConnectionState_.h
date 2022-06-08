@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::LinkedList_1_T__Enumerator_System::Net::WebConnectionGroup_ConnectionState_ {
 IL2CPP_REGISTER_METHOD(0x00107C30, WebConnectionGroup_ConnectionState *, get_Current, (LinkedList_1_T_Enumerator_System_Net_WebConnectionGroup_ConnectionState___Boxed * __this));

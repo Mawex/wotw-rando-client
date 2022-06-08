@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::RenderStateBlock {
 IL2CPP_REGISTER_METHOD(0x001F0DB0, void, __ctor, (RenderStateBlock__Boxed * __this, RenderStateMask__Enum mask));

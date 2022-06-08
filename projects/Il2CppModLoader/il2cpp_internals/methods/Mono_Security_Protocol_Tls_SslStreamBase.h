@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslStreamBase {
 IL2CPP_REGISTER_METHOD(0x01F83540, void, __ctor, (SslStreamBase * __this, Stream * stream, bool ownsStream));
@@ -70,5 +70,5 @@ IL2CPP_REGISTER_METHOD(0x01F87B50, void, Dispose, (SslStreamBase * __this, bool 
 IL2CPP_REGISTER_METHOD(0x01F87C90, void, resetBuffer, (SslStreamBase * __this));
 IL2CPP_REGISTER_METHOD(0x01F87CF0, void, checkDisposed, (SslStreamBase * __this));
 IL2CPP_REGISTER_METHODINFO(0x0477AB80, SslStreamBase_checkDisposed__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01F87DA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F87DA0, void, __cctor, ());
 }

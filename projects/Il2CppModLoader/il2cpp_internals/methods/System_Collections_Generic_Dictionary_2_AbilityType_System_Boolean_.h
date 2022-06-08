@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_AbilityType_System::Boolean_ {
 IL2CPP_REGISTER_METHOD(0x02E38260, bool, TryGetValue, (Dictionary_2_AbilityType_System_Boolean_ * __this, AbilityType__Enum key, bool * value));

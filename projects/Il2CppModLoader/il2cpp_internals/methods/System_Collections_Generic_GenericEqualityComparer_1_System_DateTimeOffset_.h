@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System::DateTimeOffset_ {
 IL2CPP_REGISTER_METHOD(0x02AB0D20, bool, Equals, (GenericEqualityComparer_1_System_DateTimeOffset_ * __this, DateTimeOffset x, DateTimeOffset y));

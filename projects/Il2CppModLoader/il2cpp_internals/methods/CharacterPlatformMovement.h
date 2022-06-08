@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CharacterPlatformMovement {
-IL2CPP_REGISTER_METHOD(0x01303670, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01303670, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x01303710, void, AggressiveForceStickOn, (CharacterPlatformMovement * __this));
 IL2CPP_REGISTER_METHOD(0x01303720, void, AggressiveForceStickOff, (CharacterPlatformMovement * __this));
 IL2CPP_REGISTER_METHOD(0x01303730, Collider *, get_GroundCollider, (CharacterPlatformMovement * __this));
@@ -69,7 +69,7 @@ IL2CPP_REGISTER_METHOD(0x01307A40, void, Move, (CharacterPlatformMovement * __th
 IL2CPP_REGISTER_METHOD(0x01307B80, bool, Test, (CharacterPlatformMovement * __this, Vector3 move, MoonControllerColliderHit * moonControllerColliderHit));
 IL2CPP_REGISTER_METHOD(0x01307D50, bool, Test, (CharacterPlatformMovement * __this, Vector3 move, MoonControllerColliderHit * moonControllerColliderHit, LayerMask mask, QueryTriggerInteraction__Enum triggerInteraction));
 IL2CPP_REGISTER_METHOD(0x01307F40, bool, Test, (CharacterPlatformMovement * __this, Vector3 move));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x013080F0, bool, TeleportAndPlaceOnGround, (CharacterPlatformMovement * __this, Vector3 target, float lift, float distance));
 IL2CPP_REGISTER_METHOD(0x01308150, bool, TeleportAndPlaceOnGround, (CharacterPlatformMovement * __this, Vector3 target, RaycastHit * hit, float lift, float distance));
 IL2CPP_REGISTER_METHOD(0x01308440, bool, TryPlaceOnGround, (CharacterPlatformMovement * __this, RaycastHit * hit, float distance));
@@ -108,5 +108,5 @@ IL2CPP_REGISTER_METHOD(0x01310710, void, AddSimpleKickback, (CharacterPlatformMo
 IL2CPP_REGISTER_METHOD(0x01310730, void, UpdateKickback, (CharacterPlatformMovement * __this));
 IL2CPP_REGISTER_METHOD(0x01310D50, IEnumerator *, MoveSeinToPositionSmoothly, (CharacterPlatformMovement * __this, float position, int32_t frames));
 IL2CPP_REGISTER_METHOD(0x01310EC0, void, __ctor, (CharacterPlatformMovement * __this));
-IL2CPP_REGISTER_METHOD(0x013119E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013119E0, void, __cctor, ());
 }

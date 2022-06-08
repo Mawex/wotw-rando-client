@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Windows::Speech::PhraseRecognizer_PhraseRecognizedDelegate {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (PhraseRecognizer_PhraseRecognizedDelegate * __this, Object * object, void * method_1));

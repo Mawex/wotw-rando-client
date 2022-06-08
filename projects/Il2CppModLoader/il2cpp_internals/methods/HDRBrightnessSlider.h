@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HDRBrightnessSlider {
 IL2CPP_REGISTER_METHOD(0x0109AEF0, void, Awake, (HDRBrightnessSlider * __this));

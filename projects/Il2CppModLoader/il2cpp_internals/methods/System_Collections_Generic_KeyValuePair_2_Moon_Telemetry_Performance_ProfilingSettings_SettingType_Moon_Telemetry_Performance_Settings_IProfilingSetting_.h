@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon::Telemetry::Performance::ProfilingSettings_SettingType_Moon::Telemetry::Performance::Settings::IProfilingSetting_ {
 IL2CPP_REGISTER_METHOD(0x00107C10, IProfilingSetting *, get_Value, (KeyValuePair_2_Moon_Telemetry_Performance_ProfilingSettings_SettingType_Moon_Telemetry_Performance_Settings_IProfilingSetting___Boxed * __this));

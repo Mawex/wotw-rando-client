@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocomotionIdleBehaviourWithShift {
 IL2CPP_REGISTER_METHOD(0x00FC7560, void, OnEnterTask, (LocomotionIdleBehaviourWithShift * __this, IContext * context));

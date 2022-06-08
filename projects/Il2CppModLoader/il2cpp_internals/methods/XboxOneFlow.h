@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XboxOneFlow {
-IL2CPP_REGISTER_METHOD(0x005981C0, XboxOneFlow *, get_Instance, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00598240, bool, get_Ready, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x005982F0, bool, get_Engage, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005981C0, XboxOneFlow *, get_Instance, ());
+IL2CPP_REGISTER_METHOD(0x00598240, bool, get_Ready, ());
+IL2CPP_REGISTER_METHOD(0x005982F0, bool, get_Engage, ());
 IL2CPP_REGISTER_METHOD(0x00598320, void, set_Engage, (bool value));
 IL2CPP_REGISTER_METHOD(0x00598370, void, Awake, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Start, (XboxOneFlow * __this));
@@ -12,15 +12,15 @@ IL2CPP_REGISTER_METHOD(0x00599760, void, OnDisable, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHOD(0x0059A710, void, OnInstallCompleted, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHOD(0x0059A820, void, OnOnlineStateChanged, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470F158, XboxOneFlow_OnOnlineStateChanged__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0059A930, void, NewUserCheck, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0059A930, void, NewUserCheck, ());
 IL2CPP_REGISTER_METHOD(0x0059AA50, void, OnUserPicked, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHODINFO(0x0476A188, XboxOneFlow_OnUserPicked__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0059AAB0, void, OnLoginCancel, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHODINFO(0x047269D0, XboxOneFlow_OnLoginCancel__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0059AAC0, void, OnUserSignedOut, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHODINFO(0x0476E088, XboxOneFlow_OnUserSignedOut__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0059AB90, void, ClearActiveUserForPause, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0059AC30, void, StoreActiveUserForPause, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0059AB90, void, ClearActiveUserForPause, ());
+IL2CPP_REGISTER_METHOD(0x0059AC30, void, StoreActiveUserForPause, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnUserWillChange, (XboxOneFlow * __this, int32_t newUserID));
 IL2CPP_REGISTER_METHODINFO(0x0476C2B0, XboxOneFlow_OnUserWillChange__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0059ACF0, void, FixedUpdate, (XboxOneFlow * __this));
@@ -55,8 +55,8 @@ IL2CPP_REGISTER_METHODINFO(0x04755C48, XboxOneFlow_OnLastControllerDisconnected_
 IL2CPP_REGISTER_METHOD(0x0059CA40, void, OnWillSwitchController, (XboxOneFlow * __this, int32_t newController));
 IL2CPP_REGISTER_METHODINFO(0x0470FCE0, XboxOneFlow_OnWillSwitchController__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0059CB10, void, OnStatusGUI, (XboxOneFlow * __this));
-IL2CPP_REGISTER_METHOD(0x0059D3A0, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0059D3B0, bool, get_ShowXboxFlowDebug, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0059D3A0, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x0059D3B0, bool, get_ShowXboxFlowDebug, ());
 IL2CPP_REGISTER_METHOD(0x0059D430, void, set_ShowXboxFlowDebug, (bool value));
 IL2CPP_REGISTER_METHOD(0x0059D520, void, OnGUI, (XboxOneFlow * __this));
 IL2CPP_REGISTER_METHOD(0x0059D6B0, void, __ctor, (XboxOneFlow * __this));

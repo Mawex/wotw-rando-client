@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::UberStateWwiseStateManager {
 IL2CPP_REGISTER_METHOD(0x0270DF40, void, Awake, (UberStateWwiseStateManager * __this));

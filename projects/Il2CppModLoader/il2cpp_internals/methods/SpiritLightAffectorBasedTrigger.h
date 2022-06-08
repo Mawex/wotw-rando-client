@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLightAffectorBasedTrigger {
 IL2CPP_REGISTER_METHOD(0x00D60210, void, FixedUpdate, (SpiritLightAffectorBasedTrigger * __this));

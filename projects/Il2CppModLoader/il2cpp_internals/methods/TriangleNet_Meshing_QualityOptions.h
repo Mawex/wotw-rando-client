@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::QualityOptions {
 IL2CPP_REGISTER_METHOD(0x01433F10, double, get_MaximumAngle, (QualityOptions * __this));

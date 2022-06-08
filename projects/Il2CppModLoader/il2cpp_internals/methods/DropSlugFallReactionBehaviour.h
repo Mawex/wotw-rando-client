@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DropSlugFallReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00BE3F80, void, OnInitializeTask, (DropSlugFallReactionBehaviour * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlMembersMapping {
 IL2CPP_REGISTER_METHOD(0x02119370, int32_t, get_Count, (XmlMembersMapping * __this));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ExceptionsTest___c {
-IL2CPP_REGISTER_METHOD(0x009860E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009860E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ExceptionsTest_c * __this));
 IL2CPP_REGISTER_METHOD(0x00986220, bool, _StartExceptionsTest_b__15_0, (ExceptionsTest_c * __this));
 IL2CPP_REGISTER_METHODINFO(0x04789B88, ExceptionsTest_c__StartExceptionsTest_b__15_0__MethodInfo);

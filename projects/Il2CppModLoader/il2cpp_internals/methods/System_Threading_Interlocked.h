@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Interlocked {
 IL2CPP_REGISTER_METHOD(0x027DE190, int32_t, CompareExchange, (int32_t * location1, int32_t value, int32_t comparand));
@@ -19,5 +19,5 @@ IL2CPP_REGISTER_METHOD(0x027DE230, void *, Exchange, (void * * location1, void *
 IL2CPP_REGISTER_METHOD(0x027DE290, double, Exchange, (double * location1, double value));
 IL2CPP_REGISTER_METHOD(0x027DE2B0, int64_t, Read, (int64_t * location));
 IL2CPP_REGISTER_METHOD(0x027DE2C0, int32_t, Add, (int32_t * location1, int32_t value));
-IL2CPP_REGISTER_METHOD(0x023437F0, void, MemoryBarrier, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023437F0, void, MemoryBarrier, ());
 }

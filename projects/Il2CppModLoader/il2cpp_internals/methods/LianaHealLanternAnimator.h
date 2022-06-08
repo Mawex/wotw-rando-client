@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LianaHealLanternAnimator {
 IL2CPP_REGISTER_METHOD(0x002FBB40, IMoonSetupVisuals *, get_MoonSetupVisuals, (LianaHealLanternAnimator * __this));

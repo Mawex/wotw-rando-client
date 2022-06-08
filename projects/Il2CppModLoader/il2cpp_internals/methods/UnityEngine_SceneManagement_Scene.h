@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SceneManagement::Scene {
 IL2CPP_REGISTER_METHOD(0x02978E80, bool, IsValidInternal, (int32_t sceneHandle));

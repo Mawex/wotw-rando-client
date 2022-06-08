@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SetScaleAfterAnimation {
 IL2CPP_REGISTER_METHOD(0x005A41C0, void, LateUpdate, (SetScaleAfterAnimation * __this));

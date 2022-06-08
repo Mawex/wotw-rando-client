@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PerformBackOutAction__AbandonChallange_d__8 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (PerformBackOutAction_AbandonChallange_d_8 * __this, int32_t __1__state));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WeightedGroup_1_FallingRocksGroup_RockInfo_ {
 IL2CPP_REGISTER_METHOD(0x02ACF4C0, void, Initialize, (WeightedGroup_1_FallingRocksGroup_RockInfo_ * __this, List_1_FallingRocksGroup_RockInfo_ * elements, List_1_System_Single_ * weights));

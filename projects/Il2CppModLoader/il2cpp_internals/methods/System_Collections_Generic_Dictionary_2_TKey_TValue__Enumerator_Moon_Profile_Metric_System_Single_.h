@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_Moon::Profile::Metric_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x00107C20, KeyValuePair_2_Moon_Profile_Metric_System_Single_, get_Current, (Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single__1__Boxed * __this));

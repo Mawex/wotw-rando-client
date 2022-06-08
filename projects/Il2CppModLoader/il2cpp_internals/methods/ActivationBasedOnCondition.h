@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivationBasedOnCondition {
 IL2CPP_REGISTER_METHOD(0x004C8F60, void, Awake, (ActivationBasedOnCondition * __this));

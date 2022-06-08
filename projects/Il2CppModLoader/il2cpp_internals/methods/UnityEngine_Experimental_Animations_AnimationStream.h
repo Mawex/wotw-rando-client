@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Animations::AnimationStream {
 IL2CPP_REGISTER_METHOD(0x001EBC90, uint32_t, get_animatorBindingsVersion, (AnimationStream__Boxed * __this));

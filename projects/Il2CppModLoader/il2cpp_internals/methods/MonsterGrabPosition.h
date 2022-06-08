@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MonsterGrabPosition {
 IL2CPP_REGISTER_METHOD(0x01331F00, void, LateUpdate, (MonsterGrabPosition * __this));

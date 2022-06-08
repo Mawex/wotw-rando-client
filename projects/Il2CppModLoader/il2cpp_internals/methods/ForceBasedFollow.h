@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ForceBasedFollow {
 IL2CPP_REGISTER_METHOD(0x0127FBB0, void, FixedUpdate, (ForceBasedFollow * __this));

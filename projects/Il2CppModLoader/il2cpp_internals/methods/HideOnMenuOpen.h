@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HideOnMenuOpen {
 IL2CPP_REGISTER_METHOD(0x00B4A180, void, Awake, (HideOnMenuOpen * __this));

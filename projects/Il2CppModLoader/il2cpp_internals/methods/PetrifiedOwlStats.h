@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlStats {
 IL2CPP_REGISTER_METHOD(0x014E8E80, void, Awake, (PetrifiedOwlStats * __this));

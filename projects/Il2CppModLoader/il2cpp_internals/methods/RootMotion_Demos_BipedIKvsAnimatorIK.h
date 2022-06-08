@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::BipedIKvsAnimatorIK {
 IL2CPP_REGISTER_METHOD(0x0220BAD0, void, OnAnimatorIK, (BipedIKvsAnimatorIK * __this, int32_t layer));

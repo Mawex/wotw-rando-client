@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhysicalPhysicaSystemManagerPlugin_Data {
 IL2CPP_REGISTER_METHOD(0x014ED2B0, GhostFrame_FrameDataTypes__Enum, get_FrameType, (PhysicalPhysicaSystemManagerPlugin_Data * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CCText {
 IL2CPP_REGISTER_METHOD(0x0315D530, uint16_t, get_Item, (CCText * __this, int32_t index));
@@ -52,5 +52,5 @@ IL2CPP_REGISTER_METHOD(0x0315FFE0, void, AddSpritesFromString, (CCText * __this,
 IL2CPP_REGISTER_METHOD(0x03160070, void, AddSprites, (CCText * __this, int32_t newSpriteCount));
 IL2CPP_REGISTER_METHOD(0x031608E0, bool, WordWrapFromString, (CCText * __this, int32_t textIndex, int32_t vertexIndex, Vector3 * caret));
 IL2CPP_REGISTER_METHOD(0x03160BE0, void, __ctor, (CCText * __this));
-IL2CPP_REGISTER_METHOD(0x03160CA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03160CA0, void, __cctor, ());
 }

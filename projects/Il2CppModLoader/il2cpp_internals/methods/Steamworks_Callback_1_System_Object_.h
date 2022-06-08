@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::Callback_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01D1A5D0, void, add_m_Func, (Callback_1_System_Object_ * __this, Callback_1_T_DispatchDelegate_System_Object_ * value));

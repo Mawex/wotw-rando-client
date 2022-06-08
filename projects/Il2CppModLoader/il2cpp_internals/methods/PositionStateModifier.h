@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PositionStateModifier {
 IL2CPP_REGISTER_METHOD(0x01B781A0, Vector3, get_Position, (PositionStateModifier * __this));

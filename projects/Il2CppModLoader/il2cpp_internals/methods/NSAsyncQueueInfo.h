@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NSAsyncQueueInfo {
 IL2CPP_REGISTER_METHOD(0x0257B4C0, void, __ctor, (NSAsyncQueueInfo * __this, String * typ, String * path, Byte__Array * data, int32_t fileSizeInBytes, bool overwrite, bool isFromCopyRequest));

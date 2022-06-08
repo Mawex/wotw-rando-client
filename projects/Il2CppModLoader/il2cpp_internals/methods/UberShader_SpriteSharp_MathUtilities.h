@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShader::SpriteSharp::MathUtilities {
 IL2CPP_REGISTER_METHOD(0x018FB210, float, LookUpSine, (float value));
-IL2CPP_REGISTER_METHOD(0x018FB390, void, CreateSineLookupTable, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018FB390, void, CreateSineLookupTable, ());
 IL2CPP_REGISTER_METHOD(0x018FB550, bool, AreLineSegmentsIntersecting, (Vector2 line1Start, Vector2 line1End, Vector2 line2Start, Vector2 line2End));
 IL2CPP_REGISTER_METHOD(0x018FB660, float, CalculateTriangleArea, (Vector2 point1, Vector2 point2, Vector2 point3));
 IL2CPP_REGISTER_METHOD(0x018FB750, float, CalculatePolygonArea, (Vector2__Array * polygon));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x018FCA20, Vector2, CenterOfMass, (Vector2__Array * poin
 IL2CPP_REGISTER_METHOD(0x018FCBA0, Vector2, PointCloudSize, (List_1_UnityEngine_Vector2_ * points));
 IL2CPP_REGISTER_METHOD(0x018FCDC0, bool, HaveEqualSigns, (float a, float b));
 IL2CPP_REGISTER_METHOD(0x018FCDE0, float, ManhattanDistance, (Vector3 a, Vector3 b));
-IL2CPP_REGISTER_METHOD(0x018FCED0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x018FCED0, void, __cctor, ());
 }

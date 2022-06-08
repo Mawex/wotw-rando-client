@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TestBoneUpdater {
 IL2CPP_REGISTER_METHOD(0x003F8E90, void, OnEnable, (TestBoneUpdater * __this));

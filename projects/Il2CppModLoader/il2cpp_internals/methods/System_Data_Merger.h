@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::Merger {
 IL2CPP_REGISTER_METHOD(0x01E40FC0, void, __ctor, (Merger * __this, DataSet * dataSet, bool preserveChanges, MissingSchemaAction__Enum missingSchemaAction));

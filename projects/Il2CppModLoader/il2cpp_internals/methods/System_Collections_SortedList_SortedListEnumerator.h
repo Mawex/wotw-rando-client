@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::SortedList_SortedListEnumerator {
 IL2CPP_REGISTER_METHOD(0x0202F720, void, __ctor, (SortedList_SortedListEnumerator * __this, SortedList * sortedList, int32_t index, int32_t count, int32_t getObjRetType));

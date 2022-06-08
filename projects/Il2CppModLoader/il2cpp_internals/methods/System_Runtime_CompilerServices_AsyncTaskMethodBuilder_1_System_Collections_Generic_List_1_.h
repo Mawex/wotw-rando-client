@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System::Collections::Generic::List_1_ {
-IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_, Create, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C537F0, AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_, Create, ());
 IL2CPP_REGISTER_METHODINFO(0x047849E0, AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x001A3DC0, void, Start, (AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1___Boxed * __this, UberPoolPerfTest_LoadPrefabInfos_d_41 * stateMachine));
 IL2CPP_REGISTER_METHODINFO(0x04779518, AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1__Start__MethodInfo);

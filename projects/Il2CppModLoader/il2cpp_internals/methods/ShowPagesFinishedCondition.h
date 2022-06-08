@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ShowPagesFinishedCondition {
 IL2CPP_REGISTER_METHOD(0x005C5E70, bool, Validate, (ShowPagesFinishedCondition * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpitterEnemyStunnedState {
 IL2CPP_REGISTER_METHOD(0x00418FC0, float, get_StunnedTimeLeft, (SpitterEnemyStunnedState * __this));

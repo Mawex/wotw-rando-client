@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebClient_WebClientWriteStream {
 IL2CPP_REGISTER_METHOD(0x01D611E0, void, __ctor, (WebClient_WebClientWriteStream * __this, Stream * stream, WebRequest * request, WebClient * webClient));

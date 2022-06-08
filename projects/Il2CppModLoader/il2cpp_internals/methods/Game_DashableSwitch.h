@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Game::DashableSwitch {
 IL2CPP_REGISTER_METHOD(0x00A09730, void, Reset, (DashableSwitch * __this));

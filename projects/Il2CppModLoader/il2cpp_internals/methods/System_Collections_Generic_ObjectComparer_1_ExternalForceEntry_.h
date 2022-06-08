@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_ExternalForceEntry_ {
 IL2CPP_REGISTER_METHOD(0x02C2A710, int32_t, Compare, (ObjectComparer_1_ExternalForceEntry_ * __this, ExternalForceEntry x, ExternalForceEntry y));

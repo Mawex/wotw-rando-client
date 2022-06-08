@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::frameworks::xboxLive::GRDKStorageHandler {
 IL2CPP_REGISTER_METHOD(0x00F6A350, Task *, Write, (GRDKStorageHandler * __this, String * key, Byte__Array * data));

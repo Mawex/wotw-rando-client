@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugProjectileTester {
 IL2CPP_REGISTER_METHOD(0x00DFDD30, void, Shoot, (DebugProjectileTester * __this));

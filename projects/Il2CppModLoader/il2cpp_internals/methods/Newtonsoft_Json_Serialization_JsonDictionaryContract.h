@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonDictionaryContract {
 IL2CPP_REGISTER_METHOD(0x002FBD00, Func_2_String_String_ *, get_DictionaryKeyResolver, (JsonDictionaryContract * __this));

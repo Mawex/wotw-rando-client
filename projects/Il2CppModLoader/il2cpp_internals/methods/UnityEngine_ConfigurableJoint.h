@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ConfigurableJoint {
 IL2CPP_REGISTER_METHOD(0x030A0540, Vector3, get_secondaryAxis, (ConfigurableJoint * __this));

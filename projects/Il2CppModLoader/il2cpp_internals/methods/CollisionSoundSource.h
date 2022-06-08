@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CollisionSoundSource {
 IL2CPP_REGISTER_METHOD(0x012D0AA0, ISoundHost *, get_SoundHost, (CollisionSoundSource * __this));

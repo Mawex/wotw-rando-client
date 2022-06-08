@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::PropertyName {
 IL2CPP_REGISTER_METHOD(0x00217340, void, __ctor, (PropertyName__Boxed * __this, String * name));

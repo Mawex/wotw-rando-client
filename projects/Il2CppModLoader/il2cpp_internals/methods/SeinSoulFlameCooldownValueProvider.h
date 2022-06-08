@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSoulFlameCooldownValueProvider {
 IL2CPP_REGISTER_METHOD(0x005DFC40, float, GetFloatValue, (SeinSoulFlameCooldownValueProvider * __this));

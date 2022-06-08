@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_Moon::Timeline::Constraints::IConstraint_ {
 IL2CPP_REGISTER_METHOD(0x02ABEAC0, bool, Contains, (HashSet_1_Moon_Timeline_Constraints_IConstraint_ * __this, IConstraint * item));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebConnectionStream {
 IL2CPP_REGISTER_METHOD(0x01D6A890, void, __ctor, (WebConnectionStream * __this, WebConnection * cnc, WebConnectionData * data));
@@ -73,5 +73,5 @@ IL2CPP_REGISTER_METHOD(0x01D6F100, int64_t, get_Position, (WebConnectionStream *
 IL2CPP_REGISTER_METHODINFO(0x0475F020, WebConnectionStream_get_Position__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01D6F150, void, set_Position, (WebConnectionStream * __this, int64_t value));
 IL2CPP_REGISTER_METHODINFO(0x04723890, WebConnectionStream_set_Position__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01D6F1A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D6F1A0, void, __cctor, ());
 }

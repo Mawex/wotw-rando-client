@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ContactSwitch {
 IL2CPP_REGISTER_METHOD(0x011E6910, bool, get_IsActivated, (ContactSwitch * __this));

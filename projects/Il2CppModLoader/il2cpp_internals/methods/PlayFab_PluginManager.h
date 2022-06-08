@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::PluginManager {
 IL2CPP_REGISTER_METHOD(0x01AD03E0, void, __ctor, (PluginManager * __this));
@@ -9,7 +9,7 @@ IL2CPP_REGISTER_METHOD(0x01AD0B30, void, SetPluginInternal, (PluginManager * __t
 IL2CPP_REGISTER_METHODINFO(0x04757520, PluginManager_SetPluginInternal__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01AD0C60, ITransportPlugin *, CreatePlayFabTransportPlugin, (PluginManager * __this));
 IL2CPP_REGISTER_METHOD(0x01AD0E90, IOneDSTransportPlugin *, CreateOneDSTransportPlugin, (PluginManager * __this));
-IL2CPP_REGISTER_METHOD(0x01AD10C0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01AD10C0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x016AA130, Object *, GetPlugin, (PluginContract__Enum contract, String * instanceName));
 IL2CPP_REGISTER_METHOD(0x018F0E40, IPlayFabPlugin *, CreatePlugin, (PluginManager * __this));
 IL2CPP_REGISTER_METHOD(0x016AA130, ISerializerPlugin *, GetPlugin, (PluginContract__Enum contract, String * instanceName));

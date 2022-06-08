@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceLocator {
 IL2CPP_REGISTER_METHOD(0x0018ED30, void, __ctor, (ResourceLocator__Boxed * __this, int32_t dataPos, Object * value));

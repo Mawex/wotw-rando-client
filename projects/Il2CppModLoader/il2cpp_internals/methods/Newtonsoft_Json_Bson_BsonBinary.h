@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonBinary {
 IL2CPP_REGISTER_METHOD(0x0052A050, BsonBinaryType__Enum, get_BinaryType, (BsonBinary * __this));

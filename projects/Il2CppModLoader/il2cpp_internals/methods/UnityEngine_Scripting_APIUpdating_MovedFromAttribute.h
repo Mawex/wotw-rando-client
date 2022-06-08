@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Scripting::APIUpdating::MovedFromAttribute {
 IL2CPP_REGISTER_METHOD(0x01248670, void, __ctor, (MovedFromAttribute * __this, String * sourceNamespace));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::ExceptionHandler {
 IL2CPP_REGISTER_METHOD(0x022E4220, void, __ctor, (ExceptionHandler * __this, int32_t labelIndex, int32_t handlerStartIndex, int32_t handlerEndIndex, Type * exceptionType, ExceptionFilter * filter));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerAbilities {
 IL2CPP_REGISTER_METHOD(0x0117BB70, PlayerUberStateAbilities *, get_Abilities, (PlayerAbilities * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimatedCritterController {
 IL2CPP_REGISTER_METHOD(0x004FAA70, AnimatedCritter *, get_CurrentCritter, (AnimatedCritterController * __this));

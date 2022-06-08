@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DestroyOnTimelineStopEvent {
 IL2CPP_REGISTER_METHOD(0x00B8D420, void, OnEnable, (DestroyOnTimelineStopEvent * __this));

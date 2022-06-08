@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinSwimming {
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsBlindForest, (SeinSwimming * __this));
@@ -203,7 +203,7 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, OnExitBashing, (SeinSwimming * __this))
 IL2CPP_REGISTER_METHOD(0x00A9BCF0, void, UpdateBashingState, (SeinSwimming * __this));
 IL2CPP_REGISTER_METHOD(0x00A9BDD0, void, OnDrawGizmosSelected, (SeinSwimming * __this));
 IL2CPP_REGISTER_METHOD(0x00A9BE70, void, __ctor, (SeinSwimming * __this));
-IL2CPP_REGISTER_METHOD(0x00A9C400, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00A9C400, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00A84C50, bool, _StartDashing_b__300_0, (SeinSwimming * __this));
 IL2CPP_REGISTER_METHODINFO(0x0476B7B0, SeinSwimming__StartDashing_b__300_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00A9C480, EffectSpawn, _UpdateDashDamage_b__317_0, (SeinSwimming * __this, DamageResult result));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::Vibrance {
 IL2CPP_REGISTER_METHOD(0x03054B60, void, OnRenderImage, (Vibrance * __this, RenderTexture * source, RenderTexture * destination));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::MoonJSONDataReader {
 IL2CPP_REGISTER_METHOD(0x00447ED0, void, __ctor, (MoonJSONDataReader * __this));

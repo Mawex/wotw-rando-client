@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KuController {
 IL2CPP_REGISTER_METHOD(0x0122D4D0, float, get_HorizontalInput, (KuController * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPresetMetaManager_OnAssetListChangedCB {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UberPresetMetaManager_OnAssetListChangedCB * __this, Object * object, void * method_1));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ListSortDescriptionCollection {
 IL2CPP_REGISTER_METHOD(0x01FF4BC0, void, __ctor, (ListSortDescriptionCollection * __this));

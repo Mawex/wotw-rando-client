@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AdditiveLayerDistortedModifier {
 IL2CPP_REGISTER_METHOD(0x004CA140, void, ApplyMultipliers, (AdditiveLayerDistortedModifier * __this, float strength, float speed));

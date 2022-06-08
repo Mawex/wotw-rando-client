@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ExpressionParser {
 IL2CPP_REGISTER_METHOD(0x01F5A8B0, void, __ctor, (ExpressionParser * __this, DataTable * table));
@@ -34,5 +34,5 @@ IL2CPP_REGISTER_METHOD(0x01F5E680, bool, IsWhiteSpace, (ExpressionParser * __thi
 IL2CPP_REGISTER_METHOD(0x01F5E690, bool, IsAlphaNumeric, (ExpressionParser * __this, uint16_t ch));
 IL2CPP_REGISTER_METHOD(0x01F5E730, bool, IsDigit, (ExpressionParser * __this, uint16_t ch));
 IL2CPP_REGISTER_METHOD(0x01F5E780, bool, IsAlpha, (ExpressionParser * __this, uint16_t ch));
-IL2CPP_REGISTER_METHOD(0x01F5E800, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01F5E800, void, __cctor, ());
 }

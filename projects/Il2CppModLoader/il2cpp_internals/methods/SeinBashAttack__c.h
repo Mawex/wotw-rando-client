@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinBashAttack___c {
-IL2CPP_REGISTER_METHOD(0x00D8F270, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00D8F270, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SeinBashAttack_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor_b__155_0, (SeinBashAttack_c * __this, Vector2 _p0_));
 IL2CPP_REGISTER_METHODINFO(0x0474C338, SeinBashAttack_c___cctor_b__155_0__MethodInfo);

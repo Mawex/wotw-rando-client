@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_FullSerializer::Internal::fsPortableReflection_AttributeQuery_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01AD84F0, void, __ctor, (Dictionary_2_TKey_TValue_ValueCollection_FullSerializer_Internal_fsPortableReflection_AttributeQuery_System_Object_ * __this, Dictionary_2_FullSerializer_Internal_fsPortableReflection_AttributeQuery_System_Object_ * dictionary));

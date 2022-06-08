@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CollisionBasedSoundProvider {
 IL2CPP_REGISTER_METHOD(0x012D01E0, SoundDescriptor *, GetSoundForCollision, (CollisionBasedSoundProvider * __this, Collision * collision, IContext * context));

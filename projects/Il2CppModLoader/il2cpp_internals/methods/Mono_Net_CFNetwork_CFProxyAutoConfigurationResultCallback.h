@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::CFNetwork_CFProxyAutoConfigurationResultCallback {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (CFNetwork_CFProxyAutoConfigurationResultCallback * __this, Object * object, void * method_1));

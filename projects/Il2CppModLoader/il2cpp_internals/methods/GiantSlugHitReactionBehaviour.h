@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GiantSlugHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x006A63A0, EntityDamageEvent *, get_DamageEvent, (GiantSlugHitReactionBehaviour * __this));

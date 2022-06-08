@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::CharUnicodeInfo {
 IL2CPP_REGISTER_METHOD(0x01A21B10, int32_t, InternalConvertToUtf32, (String * s, int32_t index));
@@ -10,5 +10,5 @@ IL2CPP_REGISTER_METHODINFO(0x0471FA10, CharUnicodeInfo_GetUnicodeCategory_1__Met
 IL2CPP_REGISTER_METHOD(0x01A21F70, UnicodeCategory__Enum, InternalGetUnicodeCategory, (int32_t ch));
 IL2CPP_REGISTER_METHOD(0x01A22010, uint8_t, InternalGetCategoryValue, (int32_t ch, int32_t offset));
 IL2CPP_REGISTER_METHOD(0x01A22190, UnicodeCategory__Enum, InternalGetUnicodeCategory, (String * value, int32_t index));
-IL2CPP_REGISTER_METHOD(0x01A22300, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A22300, void, __cctor, ());
 }

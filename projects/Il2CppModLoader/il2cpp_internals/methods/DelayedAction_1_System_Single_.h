@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DelayedAction_1_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x019E00E0, void, __ctor, (DelayedAction_1_System_Single_ * __this, Action_1_Single_ * action, float timeSeconds, float param));

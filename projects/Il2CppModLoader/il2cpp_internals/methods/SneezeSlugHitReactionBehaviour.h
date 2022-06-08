@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SneezeSlugHitReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00756A30, EntityDamageEvent *, get_DamageEvent, (SneezeSlugHitReactionBehaviour * __this));

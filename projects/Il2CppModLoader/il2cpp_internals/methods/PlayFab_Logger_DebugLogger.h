@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Logger::DebugLogger {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (DebugLogger * __this, LogLevel__Enum_1 minLogLevel));

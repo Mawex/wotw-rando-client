@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Swing::TextureExtensions {
 IL2CPP_REGISTER_METHOD(0x0182FB70, float, ratio, (Texture * _this));

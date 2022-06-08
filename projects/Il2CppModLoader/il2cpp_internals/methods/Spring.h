@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Spring {
 IL2CPP_REGISTER_METHOD(0x009A4D70, void, OnEnable, (Spring * __this));

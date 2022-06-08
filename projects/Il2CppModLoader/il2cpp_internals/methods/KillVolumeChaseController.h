@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KillVolumeChaseController {
 IL2CPP_REGISTER_METHOD(0x00E749A0, Vector3, get_SeinPos, (KillVolumeChaseController * __this));

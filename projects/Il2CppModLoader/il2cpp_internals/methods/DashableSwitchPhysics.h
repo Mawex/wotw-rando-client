@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DashableSwitchPhysics {
 IL2CPP_REGISTER_METHOD(0x00DD2EE0, bool, get_IsOn, (DashableSwitchPhysics * __this));

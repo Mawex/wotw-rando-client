@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::NightCrawlerChaseController {
 IL2CPP_REGISTER_METHOD(0x00601A30, Vector3, get_KnockbackForceDirection, (NightCrawlerChaseController * __this));

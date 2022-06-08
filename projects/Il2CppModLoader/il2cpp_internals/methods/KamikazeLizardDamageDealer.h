@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KamikazeLizardDamageDealer {
 IL2CPP_REGISTER_METHOD(0x00E5B6C0, void, OnEnable, (KamikazeLizardDamageDealer * __this));

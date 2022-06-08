@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::DisposableBuffer {
 IL2CPP_REGISTER_METHOD(0x030B10C0, void, __ctor, (DisposableBuffer * __this));

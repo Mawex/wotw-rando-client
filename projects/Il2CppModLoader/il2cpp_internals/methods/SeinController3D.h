@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinController3D {
 IL2CPP_REGISTER_METHOD(0x006DF9E0, void, add_OnAnimationEventCallback, (SeinController3D * __this, Action_1_SeinController3D_EventId_ * value));
@@ -34,5 +34,5 @@ IL2CPP_REGISTER_METHOD(0x006E1880, void, OnAnimationEvent, (SeinController3D * _
 IL2CPP_REGISTER_METHOD(0x006E1920, void, ApplyEmissivitySettings, (SeinController3D * __this, EmissiveIndividualSettings settings));
 IL2CPP_REGISTER_METHOD(0x006E1DA0, void, ApplySettings, (SeinController3D * __this, PlayerSettingsPerScene * settings));
 IL2CPP_REGISTER_METHOD(0x006E1F50, void, __ctor, (SeinController3D * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

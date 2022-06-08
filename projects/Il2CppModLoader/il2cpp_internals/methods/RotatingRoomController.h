@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RotatingRoomController {
 IL2CPP_REGISTER_METHOD(0x01370840, void, FixedUpdate, (RotatingRoomController * __this));

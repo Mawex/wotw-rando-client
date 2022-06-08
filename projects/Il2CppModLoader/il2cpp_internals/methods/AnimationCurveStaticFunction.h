@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AnimationCurveStaticFunction {
 IL2CPP_REGISTER_METHOD(0x004FC620, float, CurveDuration, (AnimationCurve * curve));

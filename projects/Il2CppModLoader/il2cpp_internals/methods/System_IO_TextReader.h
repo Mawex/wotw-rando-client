@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::TextReader {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TextReader * __this));
@@ -13,5 +13,5 @@ IL2CPP_REGISTER_METHOD(0x02384E50, String *, ReadToEnd, (TextReader * __this));
 IL2CPP_REGISTER_METHOD(0x02385040, String *, ReadLine, (TextReader * __this));
 IL2CPP_REGISTER_METHOD(0x02385370, TextReader *, Synchronized, (TextReader * reader));
 IL2CPP_REGISTER_METHODINFO(0x0475A4F0, TextReader_Synchronized__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02385590, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02385590, void, __cctor, ());
 }

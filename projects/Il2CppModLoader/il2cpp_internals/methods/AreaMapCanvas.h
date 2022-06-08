@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AreaMapCanvas {
 IL2CPP_REGISTER_METHOD(0x00508FE0, bool, get_WantsToUpdateMask, (AreaMapCanvas * __this));

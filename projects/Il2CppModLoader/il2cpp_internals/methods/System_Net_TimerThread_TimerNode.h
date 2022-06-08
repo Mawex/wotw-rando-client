@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::TimerThread_TimerNode {
 IL2CPP_REGISTER_METHOD(0x020A9190, void, __ctor, (TimerThread_TimerNode * __this, TimerThread_Callback * callback, Object * context, int32_t durationMilliseconds, Object * queueLock));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TurtleShellRollAttackBehaviourNew_RollLoopState {
 IL2CPP_REGISTER_METHOD(0x00D21D80, void, __ctor, (TurtleShellRollAttackBehaviourNew_RollLoopState * __this, TurtleShellRollAttackBehaviourNew * behaviour));

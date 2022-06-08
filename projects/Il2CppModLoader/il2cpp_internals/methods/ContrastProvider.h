@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ContrastProvider {
 IL2CPP_REGISTER_METHOD(0x011E7C10, float, GetFloatValue, (ContrastProvider * __this));

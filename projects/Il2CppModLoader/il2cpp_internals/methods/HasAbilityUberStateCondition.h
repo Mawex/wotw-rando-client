@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HasAbilityUberStateCondition {
 IL2CPP_REGISTER_METHOD(0x0109D340, AbilityType__Enum, get_AbilityType, (HasAbilityUberStateCondition * __this));

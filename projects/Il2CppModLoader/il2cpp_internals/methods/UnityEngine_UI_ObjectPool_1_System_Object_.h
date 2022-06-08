@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ObjectPool_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x01F19BD0, int32_t, get_countAll, (ObjectPool_1_System_Object_ * __this));

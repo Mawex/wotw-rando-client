@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StartExitingAction {
 IL2CPP_REGISTER_METHOD(0x009B18F0, void, Perform, (StartExitingAction * __this, IContext * context));

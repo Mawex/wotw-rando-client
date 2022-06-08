@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::WandererHandRewardBehaviour {
 IL2CPP_REGISTER_METHOD(0x011A2F00, void, OnEntityInitialized, (WandererHandRewardBehaviour * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerBasicIdentity {
 IL2CPP_REGISTER_METHOD(0x01D44B30, void, __ctor, (HttpListenerBasicIdentity * __this, String * username, String * password));

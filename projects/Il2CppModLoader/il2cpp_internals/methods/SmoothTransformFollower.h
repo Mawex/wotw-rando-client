@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SmoothTransformFollower {
 IL2CPP_REGISTER_METHOD(0x006D39F0, Vector3, get_CurrentFollowedPosition, (SmoothTransformFollower * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ProtectedByShellCondition {
 IL2CPP_REGISTER_METHOD(0x00C7DC80, bool, Validate, (ProtectedByShellCondition * __this, IContext * context));

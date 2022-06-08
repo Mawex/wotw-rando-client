@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::StaticEventDescriptor {
 IL2CPP_REGISTER_METHOD(0x01E83110, void, __ctor, (StaticEventDescriptor * __this, int32_t eventId, float staticTime, String * name, bool isConstrainable, bool isDeletable));

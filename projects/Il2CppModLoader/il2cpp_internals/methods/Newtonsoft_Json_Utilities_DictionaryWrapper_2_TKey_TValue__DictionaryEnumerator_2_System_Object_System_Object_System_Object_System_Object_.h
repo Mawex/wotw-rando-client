@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DictionaryWrapper_2_TKey_TValue__DictionaryEnumerator_2_System::Object_System::Object_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x001C9550, DictionaryEntry, get_Entry, (DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Ucs4Decoder1234 {
 IL2CPP_REGISTER_METHOD(0x01951870, int32_t, GetFullChars, (Ucs4Decoder1234 * __this, Byte__Array * bytes, int32_t byteIndex, int32_t byteCount, Char__Array * chars, int32_t charIndex));

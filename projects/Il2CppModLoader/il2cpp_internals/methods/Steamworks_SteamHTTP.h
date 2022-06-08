@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamHTTP {
 IL2CPP_REGISTER_METHOD(0x02780440, HTTPRequestHandle, CreateHTTPRequest, (EHTTPMethod__Enum eHTTPRequestMethod, String * pchAbsoluteURL));

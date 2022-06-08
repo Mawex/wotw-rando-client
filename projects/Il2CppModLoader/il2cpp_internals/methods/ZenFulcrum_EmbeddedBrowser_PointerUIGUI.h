@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::PointerUIGUI {
 IL2CPP_REGISTER_METHOD(0x01661A30, void, Awake, (PointerUIGUI * __this));

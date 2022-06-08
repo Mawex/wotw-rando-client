@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Smoothing::VoronoiFactory_ObjectPool_1_TriangleNet::Topology::DCEL::Face_ {
 IL2CPP_REGISTER_METHOD(0x0225C010, void, __ctor, (VoronoiFactory_ObjectPool_1_TriangleNet_Topology_DCEL_Face_ * __this, int32_t capacity));

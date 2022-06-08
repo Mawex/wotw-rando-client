@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Claims::ClaimsIdentity {
 IL2CPP_REGISTER_METHOD(0x01E1C300, void, __ctor, (ClaimsIdentity * __this));

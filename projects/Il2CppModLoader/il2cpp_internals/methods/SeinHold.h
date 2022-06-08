@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinHold {
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsBlindForest, (SeinHold * __this));
@@ -93,7 +93,7 @@ IL2CPP_REGISTER_METHOD(0x01008A60, Vector2, GetVelocityFromDirection, (SeinHold 
 IL2CPP_REGISTER_METHOD(0x01001C50, bool, ShouldContinuePlayingThrowAim, (SeinHold * __this));
 IL2CPP_REGISTER_METHODINFO(0x047293A0, SeinHold_ShouldContinuePlayingThrowAim__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01008C50, void, __ctor, (SeinHold * __this));
-IL2CPP_REGISTER_METHOD(0x01008FF0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01008FF0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01009080, void, _ThrowTorchInner_b__130_0, (SeinHold * __this));
 IL2CPP_REGISTER_METHODINFO(0x04748780, SeinHold__ThrowTorchInner_b__130_0__MethodInfo);
 }

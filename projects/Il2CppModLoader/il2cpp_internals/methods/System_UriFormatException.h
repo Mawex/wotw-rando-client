@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::UriFormatException {
 IL2CPP_REGISTER_METHOD(0x01EA7840, void, __ctor, (UriFormatException * __this));

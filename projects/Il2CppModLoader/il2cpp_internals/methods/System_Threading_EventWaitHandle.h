@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::EventWaitHandle {
 IL2CPP_REGISTER_METHOD(0x027DB590, void, __ctor, (EventWaitHandle * __this, bool initialState, EventResetMode__Enum mode));

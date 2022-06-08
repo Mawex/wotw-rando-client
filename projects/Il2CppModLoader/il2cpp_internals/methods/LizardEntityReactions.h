@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LizardEntityReactions {
 IL2CPP_REGISTER_METHOD(0x00FAE7C0, void, ProcessEntityEvent, (LizardEntityReactions * __this, EntityEvent * eventInfo));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::AsyncReadRequest {
 IL2CPP_REGISTER_METHOD(0x0217C520, void, __ctor, (AsyncReadRequest * __this, MobileAuthenticatedStream * parent, bool sync, Byte__Array * buffer, int32_t offset, int32_t size));

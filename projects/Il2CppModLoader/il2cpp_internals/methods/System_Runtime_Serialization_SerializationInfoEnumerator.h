@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SerializationInfoEnumerator {
 IL2CPP_REGISTER_METHOD(0x01EE10F0, void, __ctor, (SerializationInfoEnumerator * __this, String__Array * members, Object__Array * info, Type__Array * types, int32_t numItems));

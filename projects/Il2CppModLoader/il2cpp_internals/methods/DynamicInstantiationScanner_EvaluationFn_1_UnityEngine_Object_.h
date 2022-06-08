@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DynamicInstantiationScanner_EvaluationFn_1_UnityEngine::Object_ {
 IL2CPP_REGISTER_METHOD(0x01686F50, void, Invoke, (DynamicInstantiationScanner_EvaluationFn_1_UnityEngine_Object_ * __this, Object_1 * component, DynamicInstantiationScanner_EvaluationCtx * * evaluationCtx));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Experimental::XR::ReferencePointUpdatedEventArgs_ {
 IL2CPP_REGISTER_METHOD(0x02A02340, void, Invoke, (Action_1_UnityEngine_Experimental_XR_ReferencePointUpdatedEventArgs_ * __this, ReferencePointUpdatedEventArgs obj));

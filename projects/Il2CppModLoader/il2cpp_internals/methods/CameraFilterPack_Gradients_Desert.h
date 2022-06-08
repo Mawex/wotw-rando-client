@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Gradients_Desert {
 IL2CPP_REGISTER_METHOD(0x0247A740, Material *, get_material, (CameraFilterPack_Gradients_Desert * __this));

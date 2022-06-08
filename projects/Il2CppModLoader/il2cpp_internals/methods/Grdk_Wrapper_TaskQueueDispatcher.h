@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Grdk::Wrapper_TaskQueueDispatcher {
 IL2CPP_REGISTER_METHOD(0x0108AF10, void, Update, (Wrapper_TaskQueueDispatcher * __this));

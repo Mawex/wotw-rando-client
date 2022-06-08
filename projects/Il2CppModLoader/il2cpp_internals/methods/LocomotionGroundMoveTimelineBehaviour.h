@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LocomotionGroundMoveTimelineBehaviour {
 IL2CPP_REGISTER_METHOD(0x00FC6960, bool, get_IsAnimationPlaying, (LocomotionGroundMoveTimelineBehaviour * __this));

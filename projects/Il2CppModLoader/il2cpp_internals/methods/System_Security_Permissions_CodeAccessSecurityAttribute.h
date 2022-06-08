@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Permissions::CodeAccessSecurityAttribute {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (CodeAccessSecurityAttribute * __this, SecurityAction__Enum action));

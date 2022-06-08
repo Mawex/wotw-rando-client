@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SoulFlameCastTrigger {
 IL2CPP_REGISTER_METHOD(0x00EE4640, void, Awake, (SoulFlameCastTrigger * __this));

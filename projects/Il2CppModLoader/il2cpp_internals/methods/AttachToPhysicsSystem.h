@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AttachToPhysicsSystem {
 IL2CPP_REGISTER_METHOD(0x002FBB80, ConfigurableJoint *, get_GeneratedConfigurableJoint, (AttachToPhysicsSystem * __this));

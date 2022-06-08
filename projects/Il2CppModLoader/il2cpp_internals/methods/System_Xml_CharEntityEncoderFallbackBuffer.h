@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::CharEntityEncoderFallbackBuffer {
 IL2CPP_REGISTER_METHOD(0x021E8320, void, __ctor, (CharEntityEncoderFallbackBuffer * __this, CharEntityEncoderFallback * parent));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::IMoonTweenableBySpeed_1_System::Object_ {
 }

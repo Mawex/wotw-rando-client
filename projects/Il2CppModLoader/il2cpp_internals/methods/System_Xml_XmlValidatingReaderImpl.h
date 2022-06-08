@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlValidatingReaderImpl {
 IL2CPP_REGISTER_METHOD(0x01FC9360, void, __ctor, (XmlValidatingReaderImpl * __this, XmlReader * reader, ValidationEventHandler * settingsEventHandler, bool processIdentityConstraints));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Globalization::TaiwanCalendar {
-IL2CPP_REGISTER_METHOD(0x01DEC880, Calendar *, GetDefaultInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DEC880, Calendar *, GetDefaultInstance, ());
 IL2CPP_REGISTER_METHOD(0x01DECA70, DateTime, get_MinSupportedDateTime, (TaiwanCalendar * __this));
 IL2CPP_REGISTER_METHOD(0x01DECB10, DateTime, get_MaxSupportedDateTime, (TaiwanCalendar * __this));
 IL2CPP_REGISTER_METHOD(0x01DECBB0, void, __ctor, (TaiwanCalendar * __this));
@@ -20,5 +20,5 @@ IL2CPP_REGISTER_METHOD(0x01DED060, Int32__Array *, get_Eras, (TaiwanCalendar * _
 IL2CPP_REGISTER_METHOD(0x01DED080, int32_t, get_TwoDigitYearMax, (TaiwanCalendar * __this));
 IL2CPP_REGISTER_METHOD(0x01DED0C0, int32_t, ToFourDigitYear, (TaiwanCalendar * __this, int32_t year));
 IL2CPP_REGISTER_METHODINFO(0x04786B78, TaiwanCalendar_ToFourDigitYear__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01DED290, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01DED290, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::BlurOptimized {
 IL2CPP_REGISTER_METHOD(0x02516910, bool, CheckResources, (BlurOptimized * __this));

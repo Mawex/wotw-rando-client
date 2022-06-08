@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::BreakPhysicsSystemAnimator {
 IL2CPP_REGISTER_METHOD(0x010C84A0, GameObject *, get_ExternalTarget, (BreakPhysicsSystemAnimator * __this));

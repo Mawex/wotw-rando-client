@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Moon::UberStateCollectionGroup_ {
 IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_System_Int32_Moon_UberStateCollectionGroup_ * __this));

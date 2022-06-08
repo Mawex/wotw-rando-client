@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MantisHorizontalJumpAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x009FE820, void, Awake, (MantisHorizontalJumpAttackBehaviour * __this));

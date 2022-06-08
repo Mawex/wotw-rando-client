@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::BodyTilt {
 IL2CPP_REGISTER_METHOD(0x02051260, void, Start, (BodyTilt * __this));

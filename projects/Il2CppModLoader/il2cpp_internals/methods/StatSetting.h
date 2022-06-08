@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StatSetting {
 IL2CPP_REGISTER_METHOD(0x009B36A0, String *, GetNumberLabel, (StatSetting * __this));

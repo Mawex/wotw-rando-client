@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::PlayerPrefs {
 IL2CPP_REGISTER_METHOD(0x02967A40, bool, TrySetInt, (String * key, int32_t value));
@@ -14,5 +14,5 @@ IL2CPP_REGISTER_METHOD(0x02967E20, void, SetString, (String * key, String * valu
 IL2CPP_REGISTER_METHODINFO(0x047215B8, PlayerPrefs_SetString__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02967F20, String *, GetString, (String * key, String * defaultValue));
 IL2CPP_REGISTER_METHOD(0x02967F80, void, DeleteKey, (String * key));
-IL2CPP_REGISTER_METHOD(0x02967FD0, void, Save, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02967FD0, void, Save, ());
 }

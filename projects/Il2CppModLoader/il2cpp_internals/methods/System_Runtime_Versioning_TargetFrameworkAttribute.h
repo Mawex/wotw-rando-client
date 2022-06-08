@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Versioning::TargetFrameworkAttribute {
 IL2CPP_REGISTER_METHOD(0x01EE21A0, void, __ctor, (TargetFrameworkAttribute * __this, String * frameworkName));

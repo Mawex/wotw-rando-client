@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ActivityTracker_ActivityInfo {
 IL2CPP_REGISTER_METHOD(0x01746930, void, __ctor, (ActivityTracker_ActivityInfo * __this, String * name, int64_t uniqueId, ActivityTracker_ActivityInfo * creator, Guid activityIDToRestore, EventActivityOptions__Enum options));

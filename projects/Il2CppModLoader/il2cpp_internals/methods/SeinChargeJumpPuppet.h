@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinChargeJumpPuppet {
 IL2CPP_REGISTER_METHOD(0x004AB2B0, int32_t, get_Id, (SeinChargeJumpPuppet * __this));

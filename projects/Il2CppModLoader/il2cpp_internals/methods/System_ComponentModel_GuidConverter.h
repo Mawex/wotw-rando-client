@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::GuidConverter {
 IL2CPP_REGISTER_METHOD(0x01FEDA40, bool, CanConvertFrom, (GuidConverter * __this, ITypeDescriptorContext * context, Type * sourceType));

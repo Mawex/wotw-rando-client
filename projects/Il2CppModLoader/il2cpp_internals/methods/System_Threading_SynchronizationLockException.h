@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::SynchronizationLockException {
 IL2CPP_REGISTER_METHOD(0x0232E540, void, __ctor, (SynchronizationLockException * __this));

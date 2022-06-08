@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberShader::LightDirectionMapCompressor {
 IL2CPP_REGISTER_METHOD(0x018F95D0, Texture2D *, GenerateErrorTexture, (LightDirectionMapCompressor * __this, Texture2D * leftTex, Texture2D * rightTex, Texture2D * topTex, Texture2D * bottomTex));

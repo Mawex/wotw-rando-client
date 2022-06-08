@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnableOnRestoreCheckpoint {
 IL2CPP_REGISTER_METHOD(0x00BFC8A0, void, Awake, (EnableOnRestoreCheckpoint * __this));

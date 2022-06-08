@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Core::Sound {
-IL2CPP_REGISTER_METHOD(0x00DAEE90, GameObject *, GetAudioObjectsParent, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00DAEF40, void, LoadAudioParent, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00DAF2D0, bool, IsWWiseInitialised, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DAEE90, GameObject *, GetAudioObjectsParent, ());
+IL2CPP_REGISTER_METHOD(0x00DAEF40, void, LoadAudioParent, ());
+IL2CPP_REGISTER_METHOD(0x00DAF2D0, bool, IsWWiseInitialised, ());
 IL2CPP_REGISTER_METHOD(0x00DAF360, SoundPlayer *, PlayLooping, (SoundDescriptor * soundDescriptor, Vector3 position, Action * nullify));
 IL2CPP_REGISTER_METHOD(0x00DAF4B0, SoundPlayer *, PlayLooping, (SoundDescriptor * soundDescriptor, Vector3 position, float fadeInDuration, Action * nullify));
 IL2CPP_REGISTER_METHOD(0x00DAF610, SoundPlayer *, PlayLooping, (AudioClip * audioClip, Vector3 position, float volume, SoundSize * soundSize, bool shouldBePanned, float pitch, LowPassFilterSettings * lowPassFilterSettings, SoundDescriptor * soundDescriptor, Action * nullify, float fadeIn));
@@ -14,6 +14,6 @@ IL2CPP_REGISTER_METHOD(0x00DB0200, SoundPlayer *, Play, (AudioClip * audioClip, 
 IL2CPP_REGISTER_METHOD(0x00DB0470, SoundPlayer *, PlayGeneric, (IGenericResourceEnumerator * provider, Object * context, SoundHost * soundHost, Vector3 position, bool attach, float volume));
 IL2CPP_REGISTER_METHOD(0x00DB0630, SoundPlayer *, GetPooledPlayer, (AudioClip * clip, Vector3 pos, Quaternion rotation, Action * nullify));
 IL2CPP_REGISTER_METHOD(0x00DB0AD0, SoundPlayer *, Play, (AudioClip * audioClip, Vector3 position, float volume, SoundSize * soundSize, bool shouldBePanned, float pitch, LowPassFilterSettings * lowPassFilterSettings, SoundDescriptor * soundDescriptor, Action * nullify));
-IL2CPP_REGISTER_METHOD(0x00DB0DC0, Vector3, get_SoundListenerPosition, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DB0DC0, Vector3, get_SoundListenerPosition, ());
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

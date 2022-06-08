@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::HitReactionTrigger {
 IL2CPP_REGISTER_METHOD(0x0221F770, void, Update, (HitReactionTrigger * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::UnixIPGlobalProperties {
 IL2CPP_REGISTER_METHOD(0x01BC97D0, IPEndPoint__Array *, GetActiveTcpListeners, (UnixIPGlobalProperties * __this));

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StatisticsManager {
 IL2CPP_REGISTER_METHOD(0x002FB9D0, List_1_StatSetting_ *, get_StatSettings, (StatisticsManager * __this));
-IL2CPP_REGISTER_METHOD(0x009BA920, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x009BA920, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x009BA9A0, void, Awake, (StatisticsManager * __this));
 IL2CPP_REGISTER_METHOD(0x009BB020, void, OnDestroy, (StatisticsManager * __this));
 IL2CPP_REGISTER_METHOD(0x009BB410, void, OnGameLoad, (StatisticsManager * __this));

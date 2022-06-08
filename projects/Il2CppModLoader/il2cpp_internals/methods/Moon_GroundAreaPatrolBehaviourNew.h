@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::GroundAreaPatrolBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x0148AD80, void, OnEntityInitialized, (GroundAreaPatrolBehaviourNew * __this));

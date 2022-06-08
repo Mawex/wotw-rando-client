@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MotionBlurSlider {
 IL2CPP_REGISTER_METHOD(0x00867500, void, Awake, (MotionBlurSlider * __this));

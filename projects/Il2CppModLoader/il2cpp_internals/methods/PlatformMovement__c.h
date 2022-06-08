@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlatformMovement___c {
-IL2CPP_REGISTER_METHOD(0x0116EDB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0116EDB0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlatformMovement_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__257_0, (PlatformMovement_c * __this, Vector3 _p0_, Collider * _p1_));
 IL2CPP_REGISTER_METHODINFO(0x0472C8F0, PlatformMovement_c___ctor_b__257_0__MethodInfo);

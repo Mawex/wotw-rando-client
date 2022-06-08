@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon::Profile::Metric_List_1_System::Single__ {
 IL2CPP_REGISTER_METHOD(0x0010E170, Metric__Enum, get_Key, (KeyValuePair_2_Moon_Profile_Metric_List_1_System_Single___Boxed * __this));

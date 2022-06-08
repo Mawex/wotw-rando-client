@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SoundAnimatorEntity {
 IL2CPP_REGISTER_METHOD(0x00D05230, GameObject *, get_ExternalTarget, (SoundAnimatorEntity * __this));

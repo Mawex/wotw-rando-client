@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TentacleTurnBehaviour {
 IL2CPP_REGISTER_METHOD(0x010BAEF0, void, OnInitializeTask, (TentacleTurnBehaviour * __this, IContext * context));

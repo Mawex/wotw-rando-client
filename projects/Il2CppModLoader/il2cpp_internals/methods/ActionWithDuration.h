@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActionWithDuration {
 IL2CPP_REGISTER_METHOD(0x004C6DA0, void, Awake, (ActionWithDuration * __this));

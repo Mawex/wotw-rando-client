@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CancellableController {
 IL2CPP_REGISTER_METHOD(0x00B228C0, void, InitializeForTimeline, (CancellableController * __this, MoonTimeline * timeline));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::JointDrive {
 IL2CPP_REGISTER_METHOD(0x00002890, void, set_mode, (JointDrive__Boxed * __this, JointDriveMode__Enum value));

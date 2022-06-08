@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::NonRandomizedStringEqualityComparer {
 IL2CPP_REGISTER_METHOD(0x02022840, bool, Equals, (NonRandomizedStringEqualityComparer * __this, String * x, String * y));

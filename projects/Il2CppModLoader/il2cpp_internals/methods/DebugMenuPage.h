@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugMenuPage {
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_Text, (DebugMenuPage * __this));
@@ -34,5 +34,5 @@ IL2CPP_REGISTER_METHOD(0x00DF6D50, bool, IsCursorIndexValid, (DebugMenuPage * __
 IL2CPP_REGISTER_METHOD(0x00DF6E20, void, ConfineCursor, (DebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x002FBC20, Func_1_String_ *, get_DynamicText, (DebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x002FBC30, void, set_DynamicText, (DebugMenuPage * __this, Func_1_String_ * value));
-IL2CPP_REGISTER_METHOD(0x00DF71D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00DF71D0, void, __cctor, ());
 }

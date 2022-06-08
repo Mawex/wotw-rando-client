@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::Guid_Mono::Security::Interface::MonoTlsProvider_ {
 IL2CPP_REGISTER_METHOD(0x0283B9A0, bool, ContainsKey, (Dictionary_2_System_Guid_Mono_Security_Interface_MonoTlsProvider_ * __this, Guid key));

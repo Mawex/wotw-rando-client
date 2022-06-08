@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BoolStateMap {
 IL2CPP_REGISTER_METHOD(0x01B55180, List_1_GenericMappingEntry_ *, GetGenericMapping, (BoolStateMap * __this));

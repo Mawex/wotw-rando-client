@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::X501 {
 IL2CPP_REGISTER_METHOD(0x025E4F40, String *, ToString, (ASN1 * seq));
 IL2CPP_REGISTER_METHOD(0x025E5170, String *, ToString, (ASN1 * seq, bool reversed, String * separator, bool quotes));
 IL2CPP_REGISTER_METHOD(0x025E5470, void, AppendEntry, (StringBuilder * sb, ASN1 * entry, bool quotes));
-IL2CPP_REGISTER_METHOD(0x025E5E60, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025E5E60, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (X501_1 * __this));
 IL2CPP_REGISTER_METHOD(0x02935710, String *, ToString, (ASN1_1 * seq));
 IL2CPP_REGISTER_METHOD(0x02935940, String *, ToString, (ASN1_1 * seq, bool reversed, String * separator, bool quotes));
@@ -23,5 +23,5 @@ IL2CPP_REGISTER_METHOD(0x02938870, String *, ReadValue, (String * value, int32_t
 IL2CPP_REGISTER_METHODINFO(0x04715A68, X501_1_ReadValue__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02938C00, ASN1_1 *, FromString, (String * rdn));
 IL2CPP_REGISTER_METHODINFO(0x04733C18, X501_1_FromString__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02938F10, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02938F10, void, __cctor, ());
 }

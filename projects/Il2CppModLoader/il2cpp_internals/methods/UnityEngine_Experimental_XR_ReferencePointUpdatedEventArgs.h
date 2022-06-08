@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::XR::ReferencePointUpdatedEventArgs {
 IL2CPP_REGISTER_METHOD(0x0024AEF0, void, set_ReferencePoint, (ReferencePointUpdatedEventArgs__Boxed * __this, ReferencePoint value));

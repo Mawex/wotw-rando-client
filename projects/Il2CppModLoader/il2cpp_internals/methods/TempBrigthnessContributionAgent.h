@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TempBrigthnessContributionAgent {
 IL2CPP_REGISTER_METHOD(0x0011DCE0, void, __ctor, (TempBrigthnessContributionAgent__Boxed * __this, IBrigthnessContributionAgent * agent, Ease_Easing__Enum easing, float speed, float timer));

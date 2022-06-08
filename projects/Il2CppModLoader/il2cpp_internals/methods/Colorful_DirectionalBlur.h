@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::DirectionalBlur {
 IL2CPP_REGISTER_METHOD(0x030424C0, void, OnRenderImage, (DirectionalBlur * __this, RenderTexture * source, RenderTexture * destination));

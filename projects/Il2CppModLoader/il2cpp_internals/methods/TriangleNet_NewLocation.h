@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::NewLocation {
 IL2CPP_REGISTER_METHOD(0x02B16840, void, __ctor, (NewLocation * __this, Mesh_1 * mesh, IPredicates * predicates));

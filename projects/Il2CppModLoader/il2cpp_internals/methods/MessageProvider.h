@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MessageProvider {
 IL2CPP_REGISTER_METHOD(0x0159D840, String *, ToString, (MessageProvider * __this));

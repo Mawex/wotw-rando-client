@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::BaselineMeasureTask {
 IL2CPP_REGISTER_METHOD(0x0149A2C0, void, add_OnFailed, (BaselineMeasureTask * __this, Action_1_String_ * value));

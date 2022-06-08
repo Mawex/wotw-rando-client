@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsWeakReferenceConverter {
 IL2CPP_REGISTER_METHOD(0x01504A10, bool, CanProcess, (fsWeakReferenceConverter * __this, Type * type));

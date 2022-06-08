@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::DataPoint {
 IL2CPP_REGISTER_METHOD(0x002FBB00, String *, get_Level, (DataPoint * __this));

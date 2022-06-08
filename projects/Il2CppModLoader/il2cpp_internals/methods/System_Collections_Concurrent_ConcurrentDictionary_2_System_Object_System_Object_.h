@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02AF0340, Object *, get_Item, (ConcurrentDictionary_2_System_Object_System_Object_ * __this, Object * key));
@@ -20,8 +20,8 @@ IL2CPP_REGISTER_METHODINFO(0x04709998, ConcurrentDictionary_2_System_Object_Syst
 IL2CPP_REGISTER_METHOD(0x00417870, bool, ICollection_get_IsSynchronized, (ConcurrentDictionary_2_System_Object_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02AF1D20, Object *, ICollection_get_SyncRoot, (ConcurrentDictionary_2_System_Object_System_Object_ * __this));
 IL2CPP_REGISTER_METHODINFO(0x047046F0, ConcurrentDictionary_2_System_Object_System_Object__System_Collections_ICollection_get_SyncRoot__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02AE2D40, int32_t, get_DefaultConcurrencyLevel, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02AEDC00, bool, IsValueWriteAtomic, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AE2D40, int32_t, get_DefaultConcurrencyLevel, ());
+IL2CPP_REGISTER_METHOD(0x02AEDC00, bool, IsValueWriteAtomic, ());
 IL2CPP_REGISTER_METHOD(0x02ADDC30, void, __ctor, (ConcurrentDictionary_2_System_Object_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02AEDD60, void, __ctor, (ConcurrentDictionary_2_System_Object_System_Object_ * __this, int32_t concurrencyLevel, int32_t capacity, bool growLockArray, IEqualityComparer_1_System_Object_ * comparer));
 IL2CPP_REGISTER_METHODINFO(0x04723A90, ConcurrentDictionary_2_System_Object_System_Object___ctor_1__MethodInfo);
@@ -42,9 +42,9 @@ IL2CPP_REGISTER_METHOD(0x02AEF890, void, CopyToObjects, (ConcurrentDictionary_2_
 IL2CPP_REGISTER_METHOD(0x02AE57F0, IEnumerator_1_KeyValuePair_2_System_Object_System_Object_ *, GetEnumerator, (ConcurrentDictionary_2_System_Object_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02AEF9E0, bool, TryAddInternal, (ConcurrentDictionary_2_System_Object_System_Object_ * __this, Object * key, int32_t hashcode, Object * value, bool updateIfExists, bool acquireLock, Object * * resultingValue));
 IL2CPP_REGISTER_METHODINFO(0x047503C8, ConcurrentDictionary_2_System_Object_System_Object__TryAddInternal__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02AF0590, void, ThrowKeyNotFoundException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AF0590, void, ThrowKeyNotFoundException, ());
 IL2CPP_REGISTER_METHODINFO(0x04765280, ConcurrentDictionary_2_System_Object_System_Object__ThrowKeyNotFoundException__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02AF05E0, void, ThrowKeyNullException, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AF05E0, void, ThrowKeyNullException, ());
 IL2CPP_REGISTER_METHODINFO(0x0471A640, ConcurrentDictionary_2_System_Object_System_Object__ThrowKeyNullException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02AE0A10, int32_t, GetCountInternal, (ConcurrentDictionary_2_System_Object_System_Object_ * __this));
 IL2CPP_REGISTER_METHOD(0x02AF0770, Object *, GetOrAdd, (ConcurrentDictionary_2_System_Object_System_Object_ * __this, Object * key, Func_2_Object_Object_ * valueFactory));
@@ -75,5 +75,5 @@ IL2CPP_REGISTER_METHOD(0x02AF2B60, ReadOnlyCollection_1_System_Object_ *, GetKey
 IL2CPP_REGISTER_METHODINFO(0x0474DD90, ConcurrentDictionary_2_System_Object_System_Object__GetKeys__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02AF2FE0, ReadOnlyCollection_1_System_Object_ *, GetValues, (ConcurrentDictionary_2_System_Object_System_Object_ * __this));
 IL2CPP_REGISTER_METHODINFO(0x0474F700, ConcurrentDictionary_2_System_Object_System_Object__GetValues__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02AE3A20, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AE3A20, void, __cctor, ());
 }

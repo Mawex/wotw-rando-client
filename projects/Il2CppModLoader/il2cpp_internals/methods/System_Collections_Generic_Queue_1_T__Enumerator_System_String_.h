@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_System::String_ {
 IL2CPP_REGISTER_METHOD(0x001EE300, String *, get_Current, (Queue_1_T_Enumerator_System_String___Boxed * __this));

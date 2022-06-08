@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinGrabWallPuppet {
 IL2CPP_REGISTER_METHOD(0x00E3B530, int32_t, get_Id, (SeinGrabWallPuppet * __this));

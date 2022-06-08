@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CanUseBackupsCondition {
 IL2CPP_REGISTER_METHOD(0x00B222E0, bool, Validate, (CanUseBackupsCondition * __this, IContext * context));

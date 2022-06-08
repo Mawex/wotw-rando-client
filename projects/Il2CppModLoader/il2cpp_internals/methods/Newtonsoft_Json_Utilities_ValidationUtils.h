@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ValidationUtils {
 IL2CPP_REGISTER_METHOD(0x03028BC0, void, ArgumentNotNull, (Object * value, String * parameterName));

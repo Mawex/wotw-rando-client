@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Texture2D_ {
 IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (Action_1_UnityEngine_Texture2D_ * __this, Texture2D * obj));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnvironmentLightTexture {
 IL2CPP_REGISTER_METHOD(0x00CA7DB0, Vector2, Rotate, (Vector2 v, float degrees));

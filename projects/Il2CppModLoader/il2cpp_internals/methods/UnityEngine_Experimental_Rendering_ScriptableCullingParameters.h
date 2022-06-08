@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::ScriptableCullingParameters {
 IL2CPP_REGISTER_METHOD(0x001F1C90, CullFlag__Enum, get_cullingFlags, (ScriptableCullingParameters__Boxed * __this));

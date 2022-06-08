@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_DeathInformation_DeathWisp_ {
 IL2CPP_REGISTER_METHOD(0x0283B3E0, Dictionary_2_TKey_TValue_ValueCollection_DeathInformation_DeathWisp_ *, get_Values, (Dictionary_2_DeathInformation_DeathWisp_ * __this));

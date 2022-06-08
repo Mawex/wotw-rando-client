@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Interface::ValidationResult {
 IL2CPP_REGISTER_METHOD(0x02A47290, void, __ctor, (ValidationResult * __this, bool trusted, bool user_denied, int32_t error_code, Nullable_1_Mono_Security_Interface_MonoSslPolicyErrors_ policy_errors));

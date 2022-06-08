@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormSandDigLocomotionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00C24D60, float, get_LastAvoidancePower, (SandWormSandDigLocomotionBehaviour * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x00C25FD0, bool, AvoidanceIgnoreCollider, (SandWormSandD
 IL2CPP_REGISTER_METHODINFO(0x04755A38, SandWormSandDigLocomotionBehaviour_AvoidanceIgnoreCollider__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00C26070, void, OnDrawGizmos, (SandWormSandDigLocomotionBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x00C26170, void, __ctor, (SandWormSandDigLocomotionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x00C26210, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C26210, void, __cctor, ());
 }

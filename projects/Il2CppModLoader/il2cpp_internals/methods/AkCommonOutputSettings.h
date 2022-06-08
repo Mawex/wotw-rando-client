@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkCommonOutputSettings {
 IL2CPP_REGISTER_METHOD(0x026D9E60, void, CopyTo, (AkCommonOutputSettings * __this, AkOutputSettings * settings));

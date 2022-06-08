@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_DigZone_CollapsingPlatform_ {
 IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_DigZone_CollapsingPlatform_ * __this, DigZone * key, CollapsingPlatform * value));

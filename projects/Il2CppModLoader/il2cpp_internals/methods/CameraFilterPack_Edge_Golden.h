@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Edge_Golden {
 IL2CPP_REGISTER_METHOD(0x02464D70, Material *, get_material, (CameraFilterPack_Edge_Golden * __this));

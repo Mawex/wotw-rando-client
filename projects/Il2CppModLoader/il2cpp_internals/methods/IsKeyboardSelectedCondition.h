@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsKeyboardSelectedCondition {
 IL2CPP_REGISTER_METHOD(0x00646840, bool, Validate, (IsKeyboardSelectedCondition * __this, IContext * context));

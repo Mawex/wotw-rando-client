@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::UberStateController_ApplierContext_ {
 IL2CPP_REGISTER_METHOD(0x00136440, UberStateController_ApplierContext, get_Current, (List_1_T_Enumerator_Moon_UberStateController_ApplierContext___Boxed * __this));

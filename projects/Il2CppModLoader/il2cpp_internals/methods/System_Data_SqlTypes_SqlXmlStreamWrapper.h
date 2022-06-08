@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlXmlStreamWrapper {
 IL2CPP_REGISTER_METHOD(0x022BD630, void, __ctor, (SqlXmlStreamWrapper * __this, Stream * stream));

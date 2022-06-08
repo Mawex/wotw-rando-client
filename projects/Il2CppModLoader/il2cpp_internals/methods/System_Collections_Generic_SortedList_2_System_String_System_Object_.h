@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_System::String_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FBB00, IComparer_1_System_String_ *, get_Comparer, (SortedList_2_System_String_System_Object_ * __this));

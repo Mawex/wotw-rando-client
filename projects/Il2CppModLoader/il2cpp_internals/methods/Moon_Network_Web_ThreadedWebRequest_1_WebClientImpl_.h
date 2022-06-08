@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::ThreadedWebRequest_1_WebClientImpl_ {
 IL2CPP_REGISTER_METHOD(0x02723010, void, __ctor, (ThreadedWebRequest_1_WebClientImpl_ * __this, String * url, IRequest * request));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncMethodBuilderCore {
 IL2CPP_REGISTER_METHOD(0x0018ED60, void, SetStateMachine, (AsyncMethodBuilderCore__Boxed * __this, IAsyncStateMachine * stateMachine));

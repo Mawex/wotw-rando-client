@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_UnityEngine::Rendering::RenderTargetIdentifier_ {
 IL2CPP_REGISTER_METHOD(0x001F52B0, bool, get_HasValue, (Nullable_1_UnityEngine_Rendering_RenderTargetIdentifier___Boxed * __this));

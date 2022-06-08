@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::EventSendingStage {
 IL2CPP_REGISTER_METHOD(0x017AFCF0, void, __ctor, (EventSendingStage * __this, ILogger_1 * logger));

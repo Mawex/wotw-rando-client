@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KickupBehaviour {
 IL2CPP_REGISTER_METHOD(0x00E72A70, void, OnInitializeTask, (KickupBehaviour * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScreenshotLegacySetup {
 IL2CPP_REGISTER_METHOD(0x01068F60, Type *, get_Type, (ScreenshotLegacySetup * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpiritLantern {
 IL2CPP_REGISTER_METHOD(0x0057A580, bool, get_Activated, (SpiritLantern * __this));

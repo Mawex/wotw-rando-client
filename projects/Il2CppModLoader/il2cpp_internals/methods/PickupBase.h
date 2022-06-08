@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PickupBase {
 IL2CPP_REGISTER_METHOD(0x01157510, bool, get_ShouldUseLegacySerialization, (PickupBase * __this));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x00BB4E90, void, OnFrustumExit, (PickupBase * __this));
 IL2CPP_REGISTER_METHOD(0x008519A0, bool, get_InsideFrustum, (PickupBase * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, PickupStateChanged, (PickupBase * __this));
 IL2CPP_REGISTER_METHOD(0x01158780, void, __ctor, (PickupBase * __this));
-IL2CPP_REGISTER_METHOD(0x01158970, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01158970, void, __cctor, ());
 }

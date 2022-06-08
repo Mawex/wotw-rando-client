@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::SwitchLevelAttribute {
 IL2CPP_REGISTER_METHOD(0x02005510, void, __ctor, (SwitchLevelAttribute * __this, Type * switchLevelType));

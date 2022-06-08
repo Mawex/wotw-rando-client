@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Cookie {
 IL2CPP_REGISTER_METHOD(0x01E9CEC0, void, __ctor, (Cookie * __this));
@@ -52,10 +52,10 @@ IL2CPP_REGISTER_METHOD(0x00989BF0, int32_t, get_Version, (Cookie * __this));
 IL2CPP_REGISTER_METHOD(0x01E9F750, void, set_Version, (Cookie * __this, int32_t value));
 IL2CPP_REGISTER_METHODINFO(0x047771D8, Cookie_set_Version__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01E9F820, String *, get__Version, (Cookie * __this));
-IL2CPP_REGISTER_METHOD(0x01E9F960, IComparer *, GetComparer, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E9F960, IComparer *, GetComparer, ());
 IL2CPP_REGISTER_METHOD(0x01E9FA00, bool, Equals, (Cookie * __this, Object * comparand));
 IL2CPP_REGISTER_METHOD(0x01E9FE10, int32_t, GetHashCode, (Cookie * __this));
 IL2CPP_REGISTER_METHOD(0x01EA0200, String *, ToString, (Cookie * __this));
 IL2CPP_REGISTER_METHOD(0x01EA0970, String *, ToServerString, (Cookie * __this));
-IL2CPP_REGISTER_METHOD(0x01EA0CB0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01EA0CB0, void, __cctor, ());
 }

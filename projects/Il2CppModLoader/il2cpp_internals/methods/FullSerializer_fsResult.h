@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsResult {
 IL2CPP_REGISTER_METHOD(0x0012C5C0, void, AddMessage, (fsResult__Boxed * __this, String * message));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x0012C730, Exception *, get_AsException, (fsResult__Boxe
 IL2CPP_REGISTER_METHODINFO(0x0478FC90, fsResult_get_AsException__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0012C740, IEnumerable_1_System_String_ *, get_RawMessages, (fsResult__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x0012C750, String *, get_FormattedMessages, (fsResult__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x01515380, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01515380, void, __cctor, ());
 }

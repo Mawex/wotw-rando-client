@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IsPressTourBuildCondition {
 IL2CPP_REGISTER_METHOD(0x00647440, bool, Validate, (IsPressTourBuildCondition * __this, IContext * context));

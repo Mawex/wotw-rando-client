@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SceneMetaData {
 IL2CPP_REGISTER_METHOD(0x00BAB250, String *, get_SceneName, (SceneMetaData * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DrillZone {
 IL2CPP_REGISTER_METHOD(0x00BDBE30, Collider *, get_GetCollider, (DrillZone * __this));

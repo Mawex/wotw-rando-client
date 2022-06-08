@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_System::Int32_CharacterState_ {
 IL2CPP_REGISTER_METHOD(0x02CAE6C0, void, Add, (SortedList_2_System_Int32_CharacterState_ * __this, int32_t key, CharacterState * value));

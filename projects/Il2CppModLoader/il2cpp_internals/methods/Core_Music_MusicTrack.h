@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Core::Music_MusicTrack {
 IL2CPP_REGISTER_METHOD(0x00DAE690, void, Play, (Music_MusicTrack * __this, float fadeInDuration, float fadeOutDuration));

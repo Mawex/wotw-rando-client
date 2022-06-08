@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaterCurrentController {
-IL2CPP_REGISTER_METHOD(0x008D3BB0, WaterCurrentController *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x008D3BB0, WaterCurrentController *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x008D3C30, Vector2, get_CurrentDirection, (WaterCurrentController * __this));
 IL2CPP_REGISTER_METHOD(0x008D3D20, void, Awake, (WaterCurrentController * __this));
 IL2CPP_REGISTER_METHOD(0x008D3E20, void, FixedUpdate, (WaterCurrentController * __this));

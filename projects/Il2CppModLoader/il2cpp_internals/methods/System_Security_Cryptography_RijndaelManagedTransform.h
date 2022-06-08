@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RijndaelManagedTransform {
 IL2CPP_REGISTER_METHOD(0x028F0620, void, __ctor, (RijndaelManagedTransform * __this, Byte__Array * rgbKey, CipherMode__Enum mode, Byte__Array * rgbIV, int32_t blockSize, int32_t feedbackSize, PaddingMode__Enum PaddingValue, RijndaelManagedTransformMode__Enum transformMode));
@@ -29,7 +29,7 @@ IL2CPP_REGISTER_METHOD(0x028F40A0, int32_t, rot2, (int32_t val));
 IL2CPP_REGISTER_METHOD(0x028F40B0, int32_t, rot3, (int32_t val));
 IL2CPP_REGISTER_METHOD(0x028F40C0, int32_t, SubWord, (int32_t a));
 IL2CPP_REGISTER_METHOD(0x028F4250, int32_t, MulX, (int32_t x));
-IL2CPP_REGISTER_METHOD(0x028F4280, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028F4280, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x028F4440, void, __ctor, (RijndaelManagedTransform * __this));
 IL2CPP_REGISTER_METHODINFO(0x04731838, RijndaelManagedTransform__ctor_1__MethodInfo);
 }

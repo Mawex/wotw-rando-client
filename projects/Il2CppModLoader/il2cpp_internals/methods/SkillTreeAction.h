@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillTreeAction {
 IL2CPP_REGISTER_METHOD(0x006B5490, void, Perform, (SkillTreeAction * __this, IContext * context));

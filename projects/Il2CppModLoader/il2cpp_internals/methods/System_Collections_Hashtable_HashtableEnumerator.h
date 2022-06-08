@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Hashtable_HashtableEnumerator {
 IL2CPP_REGISTER_METHOD(0x020270A0, void, __ctor, (Hashtable_HashtableEnumerator * __this, Hashtable * hashtable, int32_t getObjRetType));

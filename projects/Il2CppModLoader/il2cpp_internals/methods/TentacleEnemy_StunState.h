@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleEnemy_StunState {
 IL2CPP_REGISTER_METHOD(0x00CFC770, bool, get_IsStun, (TentacleEnemy_StunState * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SuspendRenderingAnimator {
 IL2CPP_REGISTER_METHOD(0x01E83130, void, OnStartPlayback, (SuspendRenderingAnimator * __this, IContext * context));

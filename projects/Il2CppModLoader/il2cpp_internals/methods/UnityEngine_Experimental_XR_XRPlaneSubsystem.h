@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::XR::XRPlaneSubsystem {
 IL2CPP_REGISTER_METHOD(0x03176D20, void, __ctor, (XRPlaneSubsystem * __this));

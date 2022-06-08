@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchema {
 IL2CPP_REGISTER_METHOD(0x02256A30, void, __ctor, (XmlSchema * __this));
@@ -54,5 +54,5 @@ IL2CPP_REGISTER_METHOD(0x02258900, void, AddAnnotation, (XmlSchema * __this, Xml
 IL2CPP_REGISTER_METHOD(0x02258920, ArrayList *, get_ImportedSchemas, (XmlSchema * __this));
 IL2CPP_REGISTER_METHOD(0x02258A80, ArrayList *, get_ImportedNamespaces, (XmlSchema * __this));
 IL2CPP_REGISTER_METHOD(0x02258BE0, void, GetExternalSchemasList, (XmlSchema * __this, IList * extList, XmlSchema * schema));
-IL2CPP_REGISTER_METHOD(0x02258DC0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02258DC0, void, __cctor, ());
 }

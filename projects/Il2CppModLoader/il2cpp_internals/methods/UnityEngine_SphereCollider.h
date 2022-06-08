@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::SphereCollider {
 IL2CPP_REGISTER_METHOD(0x030AF4E0, Vector3, get_center, (SphereCollider * __this));

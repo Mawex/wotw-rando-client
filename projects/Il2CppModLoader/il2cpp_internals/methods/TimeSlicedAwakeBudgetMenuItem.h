@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TimeSlicedAwakeBudgetMenuItem {
 IL2CPP_REGISTER_METHOD(0x010F1080, void, __ctor, (TimeSlicedAwakeBudgetMenuItem * __this, String * path, String * str));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ExternalTimelineEntity {
 IL2CPP_REGISTER_METHOD(0x01BBDF00, String *, get_FullAddress, (ExternalTimelineEntity * __this));

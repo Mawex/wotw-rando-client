@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_TKey_TValue__DictionaryEnumerator_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02ADD500, DictionaryEntry, get_Entry, (ConcurrentDictionary_2_TKey_TValue_DictionaryEnumerator_System_Object_System_Object_ * __this));

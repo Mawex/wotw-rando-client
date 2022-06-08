@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::WaitForSecondsRealtime {
 IL2CPP_REGISTER_METHOD(0x02C798A0, void, __ctor, (WaitForSecondsRealtime * __this, float time));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_untypedAtomicType {
 IL2CPP_REGISTER_METHOD(0x02363710, XmlValueConverter *, CreateValueConverter, (Datatype_untypedAtomicType * __this, XmlSchemaType * schemaType));

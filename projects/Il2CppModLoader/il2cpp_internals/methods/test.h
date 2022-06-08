@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::test {
 IL2CPP_REGISTER_METHOD(0x00F729A0, void, Update, (test * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::QualityMeasure_AlphaMeasure {
 IL2CPP_REGISTER_METHOD(0x02A99970, void, Reset, (QualityMeasure_AlphaMeasure * __this));

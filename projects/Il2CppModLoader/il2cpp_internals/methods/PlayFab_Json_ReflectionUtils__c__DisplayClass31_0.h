@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils___c__DisplayClass31_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ReflectionUtils_c_DisplayClass31_0_1 * __this));

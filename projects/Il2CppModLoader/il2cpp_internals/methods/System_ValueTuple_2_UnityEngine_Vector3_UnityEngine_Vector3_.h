@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_UnityEngine::Vector3_UnityEngine::Vector3_ {
 IL2CPP_REGISTER_METHOD(0x0021DFA0, void, __ctor, (ValueTuple_2_UnityEngine_Vector3_UnityEngine_Vector3___Boxed * __this, Vector3 item1, Vector3 item2));

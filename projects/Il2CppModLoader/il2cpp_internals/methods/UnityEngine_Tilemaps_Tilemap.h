@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Tilemaps::Tilemap {
 IL2CPP_REGISTER_METHOD(0x031BF230, void, RefreshTile, (Tilemap * __this, Vector3Int position));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Math::BigInteger_ModulusRing {
 IL2CPP_REGISTER_METHOD(0x023CC160, void, __ctor, (BigInteger_ModulusRing * __this, BigInteger * modulus));

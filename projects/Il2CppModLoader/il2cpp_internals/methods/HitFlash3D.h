@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HitFlash3D {
 IL2CPP_REGISTER_METHOD(0x002FB9F0, List_1_HitFlash3D_Flash_ *, get_Entries, (HitFlash3D * __this));

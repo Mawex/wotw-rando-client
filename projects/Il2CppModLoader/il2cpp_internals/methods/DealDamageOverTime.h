@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DealDamageOverTime {
 IL2CPP_REGISTER_METHOD(0x00DDD550, void, OnDisable, (DealDamageOverTime * __this));

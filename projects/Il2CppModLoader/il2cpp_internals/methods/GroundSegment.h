@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GroundSegment {
 IL2CPP_REGISTER_METHOD(0x010983C0, Vector3, ClampPosition, (GroundSegment * __this, Vector3 position));

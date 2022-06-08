@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mine {
 IL2CPP_REGISTER_METHOD(0x0058E140, Vector3, get_Position, (Mine * __this));
@@ -45,7 +45,7 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, OnBashDehighlight, (Mine * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnRecieveDamage, (Mine * __this, Damage * damage));
 IL2CPP_REGISTER_METHOD(0x002FBC80, IDamageReciever__Array *, get_AffectedReceivers, (Mine * __this));
 IL2CPP_REGISTER_METHOD(0x014453C0, void, __ctor, (Mine * __this));
-IL2CPP_REGISTER_METHOD(0x01445410, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01445410, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IDamageReciever_get_gameObject, (Mine * __this));
 IL2CPP_REGISTER_METHOD(0x00506170, Transform *, IDamageReciever_get_transform, (Mine * __this));
 }

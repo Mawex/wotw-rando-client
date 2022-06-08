@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::LayoutUtility {
 IL2CPP_REGISTER_METHOD(0x0265DE50, float, GetMinSize, (RectTransform * rect, int32_t axis));

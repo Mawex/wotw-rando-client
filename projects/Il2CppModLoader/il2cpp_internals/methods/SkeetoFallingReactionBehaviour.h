@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkeetoFallingReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x00756A30, SkeetoDeathReaction *, get_DeathReaction, (SkeetoFallingReactionBehaviour * __this));

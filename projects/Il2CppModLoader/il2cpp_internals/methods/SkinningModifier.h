@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkinningModifier {
 IL2CPP_REGISTER_METHOD(0x006BF180, void, OnEnable, (SkinningModifier * __this));

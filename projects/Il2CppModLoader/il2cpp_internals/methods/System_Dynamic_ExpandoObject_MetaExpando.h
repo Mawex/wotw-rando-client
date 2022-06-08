@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_MetaExpando {
 IL2CPP_REGISTER_METHOD(0x01F90A70, void, __ctor, (ExpandoObject_MetaExpando * __this, Expression * expression, ExpandoObject * value));

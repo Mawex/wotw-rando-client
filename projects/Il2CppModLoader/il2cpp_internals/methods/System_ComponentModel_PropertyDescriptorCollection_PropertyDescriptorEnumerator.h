@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator {
 IL2CPP_REGISTER_METHOD(0x01DC2A00, void, __ctor, (PropertyDescriptorCollection_PropertyDescriptorEnumerator * __this, PropertyDescriptorCollection * owner));

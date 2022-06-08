@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnemyArenaVirtualAnimator {
 IL2CPP_REGISTER_METHOD(0x002FBBE0, EnemyArenaController *, get_Controller, (EnemyArenaVirtualAnimator * __this));

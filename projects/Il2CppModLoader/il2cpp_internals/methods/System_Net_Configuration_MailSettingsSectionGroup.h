@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::MailSettingsSectionGroup {
 IL2CPP_REGISTER_METHOD(0x02019C50, void, __ctor, (MailSettingsSectionGroup * __this));

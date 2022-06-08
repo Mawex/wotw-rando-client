@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GizmoHelper {
 IL2CPP_REGISTER_METHOD(0x02553910, void, DrawTextFilled, (Vector3 position, Vector3 scale, String * title, Color fillColor, Color outlineColor));
@@ -22,7 +22,7 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, DrawFilledCircleWithCenteredText, (Stri
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DrawCircleWithSideText, (String * text, Vector3 position, float radius, Color circleOutline));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DrawFilledSphere, (Vector3 position, float radius, Color color));
 IL2CPP_REGISTER_METHOD(0x02554FD0, void, DrawOutline, (Vector3 position, Vector3 size, Color outline));
-IL2CPP_REGISTER_METHOD(0x00420EE0, GUIStyle *, get_CenteredWhiteBoldText, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00420EE0, GUIStyle *, get_CenteredWhiteBoldText, ());
 IL2CPP_REGISTER_METHOD(0x02555060, void, DrawCenteredText, (String * text, Vector3 position, GUIStyle * style, bool sideways));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DrawCenteredText, (GUIContent * content, Vector3 position, GUIStyle * style, bool sideways));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, DrawText, (GUIContent * content, Vector3 position, GUIStyle * style, bool sideways));
@@ -36,5 +36,5 @@ IL2CPP_REGISTER_METHOD(0x02556330, Vector3, ScreenToWorld, (Vector2 screen, Tran
 IL2CPP_REGISTER_METHOD(0x025563E0, Vector2, WorldToScreen, (Vector3 world));
 IL2CPP_REGISTER_METHOD(0x025564C0, Bounds, BoundsFromTransform, (Transform * transform));
 IL2CPP_REGISTER_METHOD(0x025569E0, Bounds, BoundsFromPoints, (Vector3 p1, Vector3 p2, Vector3 p3, Vector3 p4));
-IL2CPP_REGISTER_METHOD(0x02556BE0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02556BE0, void, __cctor, ());
 }

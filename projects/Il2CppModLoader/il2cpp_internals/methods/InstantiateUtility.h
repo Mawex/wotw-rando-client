@@ -1,12 +1,12 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InstantiateUtility {
 IL2CPP_REGISTER_METHOD(0x0062FA00, GameObject *, CreateNewGameObject, (String * name));
-IL2CPP_REGISTER_METHOD(0x0062FCD0, bool, get_ShouldUsePooling, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0062FEE0, bool, get_GhostManagerAllowPooling, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0062FCD0, bool, get_ShouldUsePooling, ());
+IL2CPP_REGISTER_METHOD(0x0062FEE0, bool, get_GhostManagerAllowPooling, ());
 IL2CPP_REGISTER_METHOD(0x00630000, void, HandleInstantiationHooks, (GameObject * original, GameObject * newObject, bool pooled, double msCost, bool newInPool));
 IL2CPP_REGISTER_METHOD(0x006303F0, GameObject *, InstantiateImmediate, (GameObject * original, Transform * parent, Object_1 * owner, bool record));
-IL2CPP_REGISTER_METHOD(0x00630550, double, StopGetTimeMilliseconds, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00630550, double, StopGetTimeMilliseconds, ());
 IL2CPP_REGISTER_METHOD(0x00630680, GameObject *, InstantiateImmediate, (GameObject * original, Object_1 * owner, bool record));
 IL2CPP_REGISTER_METHOD(0x00630AC0, GameObject *, InstantiateImmediate, (GameObject * original, Vector3 position, Quaternion rotation, Transform * parent, Object_1 * owner, bool record));
 IL2CPP_REGISTER_METHOD(0x00630C60, GameObject *, InstantiateImmediate, (GameObject * original, Vector3 position, Quaternion rotation, Object_1 * owner, bool record));
@@ -23,7 +23,7 @@ IL2CPP_REGISTER_METHOD(0x00632300, GameObject *, InstantiateImmediateOptional, (
 IL2CPP_REGISTER_METHOD(0x006324D0, bool, CheckAndRegisterInstantiateOptional, (GameObject * original, Vector3 position, Quaternion rotation, int32_t framesToTestAgainst, int32_t allowedInstanceCount, float distanceThreshold));
 IL2CPP_REGISTER_METHOD(0x006326F0, void, Instantiate, (Object_1 * original, Vector3 position, Quaternion rotation, bool optional, int32_t maxLife));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (InstantiateUtility * __this));
-IL2CPP_REGISTER_METHOD(0x00632920, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00632920, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015EB1B0, Object *, InstantiateImmediate, (Object * original, Transform * parent, Object_1 * owner, bool record));
 IL2CPP_REGISTER_METHOD(0x015EB010, Object *, InstantiateImmediate, (Object * original, Object_1 * owner, bool record));
 IL2CPP_REGISTER_METHOD(0x015EB540, Object *, InstantiateImmediate, (Object * original, Vector3 position, Quaternion rotation, Transform * parent, Object_1 * owner, bool record));

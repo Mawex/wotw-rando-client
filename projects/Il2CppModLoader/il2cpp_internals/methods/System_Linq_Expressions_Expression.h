@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression {
 IL2CPP_REGISTER_METHOD(0x029AE890, BinaryExpression *, Assign, (Expression * left, Expression * right));
@@ -133,7 +133,7 @@ IL2CPP_REGISTER_METHOD(0x029BE730, ConditionalExpression *, IfThenElse, (Express
 IL2CPP_REGISTER_METHOD(0x029BE840, ConstantExpression *, Constant, (Object * value));
 IL2CPP_REGISTER_METHOD(0x029BE990, ConstantExpression *, Constant, (Object * value, Type * type));
 IL2CPP_REGISTER_METHODINFO(0x04762A70, Expression_Constant_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x029BEE80, DefaultExpression *, Empty, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029BEE80, DefaultExpression *, Empty, ());
 IL2CPP_REGISTER_METHOD(0x029BF000, DefaultExpression *, Default, (Type * type));
 IL2CPP_REGISTER_METHOD(0x029BF180, ElementInit *, ElementInit, (MethodInfo_1 * addMethod, IEnumerable_1_System_Linq_Expressions_Expression_ * arguments));
 IL2CPP_REGISTER_METHOD(0x029BF360, void, ValidateElementInitAddMethodInfo, (MethodInfo_1 * addMethod, String * paramName));
@@ -190,7 +190,7 @@ IL2CPP_REGISTER_METHOD(0x029C3BF0, MethodInfo_1 *, GetInvokeMethod, (Expression 
 IL2CPP_REGISTER_METHODINFO(0x047179E0, Expression_GetInvokeMethod__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x029C3DF0, LabelExpression *, Label, (LabelTarget * target));
 IL2CPP_REGISTER_METHOD(0x029C3E90, LabelExpression *, Label, (LabelTarget * target, Expression * defaultValue));
-IL2CPP_REGISTER_METHOD(0x029C40A0, LabelTarget *, Label, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029C40A0, LabelTarget *, Label, ());
 IL2CPP_REGISTER_METHOD(0x029C4170, LabelTarget *, Label, (String * name));
 IL2CPP_REGISTER_METHOD(0x029C4250, LabelTarget *, Label, (Type * type));
 IL2CPP_REGISTER_METHOD(0x029C42F0, LabelTarget *, Label, (Type * type, String * name));
@@ -338,7 +338,7 @@ IL2CPP_REGISTER_METHOD(0x029D4140, UnaryExpression *, PostIncrementAssign, (Expr
 IL2CPP_REGISTER_METHOD(0x029D41F0, UnaryExpression *, PostDecrementAssign, (Expression * expression, MethodInfo_1 * method_1));
 IL2CPP_REGISTER_METHOD(0x029D42A0, UnaryExpression *, MakeOpAssignUnary, (ExpressionType__Enum kind, Expression * expression, MethodInfo_1 * method_1));
 IL2CPP_REGISTER_METHODINFO(0x0470EBA0, Expression_MakeOpAssignUnary__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x029D4630, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029D4630, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0153CE20, Expression_1_System_Object_ *, Lambda, (Expression * body, ParameterExpression__Array * parameters));
 IL2CPP_REGISTER_METHOD(0x0153CC90, Expression_1_System_Object_ *, Lambda, (Expression * body, bool tailCall, ParameterExpression__Array * parameters));
 IL2CPP_REGISTER_METHOD(0x0153CD60, Expression_1_System_Object_ *, Lambda, (Expression * body, IEnumerable_1_System_Linq_Expressions_ParameterExpression_ * parameters));

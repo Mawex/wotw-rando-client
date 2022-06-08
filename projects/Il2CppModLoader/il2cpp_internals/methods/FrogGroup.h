@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrogGroup {
 IL2CPP_REGISTER_METHOD(0x002FB990, List_1_FrogEntity_ *, get_AliveFrogsInGroup, (FrogGroup * __this));

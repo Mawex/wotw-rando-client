@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::UploadHandlerRaw {
 IL2CPP_REGISTER_METHOD(0x03181290, void, __ctor, (UploadHandlerRaw * __this, Byte__Array * data));

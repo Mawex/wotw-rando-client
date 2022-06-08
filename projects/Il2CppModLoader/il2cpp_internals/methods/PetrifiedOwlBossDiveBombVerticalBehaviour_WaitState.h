@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossDiveBombVerticalBehaviour_WaitState {
 IL2CPP_REGISTER_METHOD(0x004A1D20, void, __ctor, (PetrifiedOwlBossDiveBombVerticalBehaviour_WaitState * __this, PetrifiedOwlBossDiveBombVerticalBehaviour * behaviour));

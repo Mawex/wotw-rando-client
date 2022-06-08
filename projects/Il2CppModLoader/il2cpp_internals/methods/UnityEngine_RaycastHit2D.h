@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RaycastHit2D {
 IL2CPP_REGISTER_METHOD(0x0014BC10, Vector2, get_point, (RaycastHit2D__Boxed * __this));

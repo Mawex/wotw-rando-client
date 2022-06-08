@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::ConstraintConverter {
 IL2CPP_REGISTER_METHOD(0x023915D0, bool, CanConvertTo, (ConstraintConverter * __this, ITypeDescriptorContext * context, Type * destinationType));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Xml::SmallXmlParser_AttrListImpl {
 IL2CPP_REGISTER_METHOD(0x0228A230, int32_t, get_Length, (SmallXmlParser_AttrListImpl * __this));

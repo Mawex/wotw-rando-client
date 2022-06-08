@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonGetAbilityPedestal {
 IL2CPP_REGISTER_METHOD(0x00F4E2B0, bool, get_SeinInRange, (MoonGetAbilityPedestal * __this));
@@ -32,7 +32,7 @@ IL2CPP_REGISTER_METHOD(0x00F501E0, void, Apply, (MoonGetAbilityPedestal * __this
 IL2CPP_REGISTER_METHOD(0x00F50250, IUberState__Array *, get_AffectingUberStates, (MoonGetAbilityPedestal * __this));
 IL2CPP_REGISTER_METHOD(0x00F502F0, List_1_UnityEngine_GameObject_ *, get_AllTargets, (MoonGetAbilityPedestal * __this));
 IL2CPP_REGISTER_METHOD(0x00F504B0, void, __ctor, (MoonGetAbilityPedestal * __this));
-IL2CPP_REGISTER_METHOD(0x00F50560, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00F50560, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x00F506B0, void, _Awake_b__27_0, (MoonGetAbilityPedestal * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470E890, MoonGetAbilityPedestal__Awake_b__27_0__MethodInfo);
 }

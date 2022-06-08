@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_SurfaceMaterialType_Moon::Timeline::MoonTimeline_ {
 IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_SurfaceMaterialType_Moon_Timeline_MoonTimeline_ * __this, SurfaceMaterialType__Enum key));

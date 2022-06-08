@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ComponentConverter {
 IL2CPP_REGISTER_METHOD(0x024A9C70, void, __ctor, (ComponentConverter * __this, Type * type));

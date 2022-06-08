@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ConsoleKeyInfo {
 IL2CPP_REGISTER_METHOD(0x001DBE50, void, __ctor, (ConsoleKeyInfo__Boxed * __this, uint16_t keyChar, ConsoleKey__Enum key, bool shift, bool alt, bool control));

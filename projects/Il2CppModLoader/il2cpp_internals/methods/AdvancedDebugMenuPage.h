@@ -1,16 +1,16 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AdvancedDebugMenuPage {
-IL2CPP_REGISTER_METHOD(0x004CB040, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004CB040, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x002FB990, String *, get_Name, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_ColumnOffset, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x004CB0E0, void, Awake, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x004CB180, void, GetItems, (AdvancedDebugMenuPage * __this, List_1_List_1_IDebugMenuItem_ * items));
-IL2CPP_REGISTER_METHOD(0x004DC7F0, bool, DisablePlayFabPush, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004DC7F0, bool, DisablePlayFabPush, ());
 IL2CPP_REGISTER_METHODINFO(0x04789AE0, AdvancedDebugMenuPage_DisablePlayFabPush__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004DC890, bool, DisableSteamPush, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004DC890, bool, DisableSteamPush, ());
 IL2CPP_REGISTER_METHODINFO(0x0478C2F0, AdvancedDebugMenuPage_DisableSteamPush__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004DC930, bool, DisableLivePush, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004DC930, bool, DisableLivePush, ());
 IL2CPP_REGISTER_METHODINFO(0x047783F0, AdvancedDebugMenuPage_DisableLivePush__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FA000, void, Update, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x004DCB20, void, OnGUI, (AdvancedDebugMenuPage * __this));
@@ -64,7 +64,7 @@ IL2CPP_REGISTER_METHODINFO(0x0474EE78, AdvancedDebugMenuPage_StartHierarchyPerfo
 IL2CPP_REGISTER_METHOD(0x004DE550, bool, StartHierarchyPerformanceBulkTestFullDebug, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHODINFO(0x0470E958, AdvancedDebugMenuPage_StartHierarchyPerformanceBulkTestFullDebug__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x004DE630, bool, StartHierarchyPerformanceBulkTestFull, (AdvancedDebugMenuPage * __this, int32_t startSceneIndex));
-IL2CPP_REGISTER_METHOD(0x004DE720, bool, StopHierarchyPerformanceTest, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004DE720, bool, StopHierarchyPerformanceTest, ());
 IL2CPP_REGISTER_METHODINFO(0x0471F340, AdvancedDebugMenuPage_StopHierarchyPerformanceTest__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x004DE910, String *, get_StressTestStartSceneName, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x004DEA30, void, StartStressTest, (AdvancedDebugMenuPage * __this, int32_t isolatedTestSceneIdx));
@@ -84,21 +84,21 @@ IL2CPP_REGISTER_METHOD(0x004E1D90, bool, AchievementDebugGetter, (AdvancedDebugM
 IL2CPP_REGISTER_METHODINFO(0x04788F78, AdvancedDebugMenuPage_AchievementDebugGetter__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x004E1E30, void, AchievementDebugSetter, (AdvancedDebugMenuPage * __this, bool newValue));
 IL2CPP_REGISTER_METHODINFO(0x04753A30, AdvancedDebugMenuPage_AchievementDebugSetter__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E1EE0, bool, AwardTestAchievement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E1EE0, bool, AwardTestAchievement, ());
 IL2CPP_REGISTER_METHODINFO(0x0475E900, AdvancedDebugMenuPage_AwardTestAchievement__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E1FC0, bool, AwardFirstRealAchievement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E1FC0, bool, AwardFirstRealAchievement, ());
 IL2CPP_REGISTER_METHODINFO(0x047687A8, AdvancedDebugMenuPage_AwardFirstRealAchievement__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E20A0, bool, AwardRandomAchievement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E20A0, bool, AwardRandomAchievement, ());
 IL2CPP_REGISTER_METHODINFO(0x0474A2B0, AdvancedDebugMenuPage_AwardRandomAchievement__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E25B0, bool, AdvanceFirstAchievement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E25B0, bool, AdvanceFirstAchievement, ());
 IL2CPP_REGISTER_METHODINFO(0x0478FDF0, AdvancedDebugMenuPage_AdvanceFirstAchievement__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E3E90, bool, ClearLocalAchievement, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E3E90, bool, ClearLocalAchievement, ());
 IL2CPP_REGISTER_METHODINFO(0x047969A8, AdvancedDebugMenuPage_ClearLocalAchievement__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E3F60, bool, PostBadLeaderBoardStats, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E3F60, bool, PostBadLeaderBoardStats, ());
 IL2CPP_REGISTER_METHODINFO(0x047740B8, AdvancedDebugMenuPage_PostBadLeaderBoardStats__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E42F0, bool, PostGoodLeaderBoardStats, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E42F0, bool, PostGoodLeaderBoardStats, ());
 IL2CPP_REGISTER_METHODINFO(0x0478A170, AdvancedDebugMenuPage_PostGoodLeaderBoardStats__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x004E4680, bool, ClearLeaderBoardStats, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x004E4680, bool, ClearLeaderBoardStats, ());
 IL2CPP_REGISTER_METHODINFO(0x0471A1B8, AdvancedDebugMenuPage_ClearLeaderBoardStats__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x004E4900, DebugPlayerTeleporter *, get_DebugPlayerTeleporter, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHOD(0x004E49D0, bool, TestEnemyLocomotionGetter, (AdvancedDebugMenuPage * __this));
@@ -126,7 +126,7 @@ IL2CPP_REGISTER_METHODINFO(0x04779EC0, AdvancedDebugMenuPage_SendLeaderboard__Me
 IL2CPP_REGISTER_METHOD(0x004E5390, bool, OpenStatisticsScreen, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHODINFO(0x04705B48, AdvancedDebugMenuPage_OpenStatisticsScreen__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x004E5470, void, __ctor, (AdvancedDebugMenuPage * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004E5500, bool, _GetItems_b__15_30, (AdvancedDebugMenuPage * __this));
 IL2CPP_REGISTER_METHODINFO(0x0473A188, AdvancedDebugMenuPage__GetItems_b__15_30__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x004E5680, bool, _GetItems_b__15_32, (AdvancedDebugMenuPage * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XmlDataTreeWriter {
 IL2CPP_REGISTER_METHOD(0x023EEEB0, void, __ctor, (XmlDataTreeWriter * __this, DataSet * ds));

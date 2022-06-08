@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon::MoonAnimatorLayerDefinition_ {
 IL2CPP_REGISTER_METHOD(0x01CC5360, int32_t, Compare, (ObjectComparer_1_Moon_MoonAnimatorLayerDefinition_ * __this, MoonAnimatorLayerDefinition x, MoonAnimatorLayerDefinition y));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1StartBehaviour {
 IL2CPP_REGISTER_METHOD(0x0176C490, void, OnEnter, (PetrifiedOwlBossFight1StartBehaviour * __this, IContext * context));

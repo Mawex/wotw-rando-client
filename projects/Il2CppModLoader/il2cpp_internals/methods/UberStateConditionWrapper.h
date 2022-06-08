@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberStateConditionWrapper {
 IL2CPP_REGISTER_METHOD(0x0128B4D0, bool, Validate, (UberStateConditionWrapper * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MinerSpawnTask {
 IL2CPP_REGISTER_METHOD(0x01450410, void, OnInitializeTask, (MinerSpawnTask * __this, IContext * context));

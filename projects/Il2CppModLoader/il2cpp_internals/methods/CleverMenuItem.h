@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CleverMenuItem {
 IL2CPP_REGISTER_METHOD(0x012AD8C0, Transform *, get_Transform, (CleverMenuItem * __this));

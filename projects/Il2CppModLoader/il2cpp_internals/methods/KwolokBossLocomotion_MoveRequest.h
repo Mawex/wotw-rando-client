@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossLocomotion_MoveRequest {
 IL2CPP_REGISTER_METHOD(0x012E7B50, bool, get_Succeeded, (KwolokBossLocomotion_MoveRequest * __this));

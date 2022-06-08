@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CameraTargetsProvider {
 IL2CPP_REGISTER_METHOD(0x00CC28F0, List_1_Moon_CameraTargetSettings_ *, GetTargets, (CameraTargetsProvider * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::DictionaryKeyCollectionDebugView_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x0162AB30, Object__Array *, get_Items, (DictionaryKeyCollectionDebugView_2_System_Object_System_Object_ * __this));

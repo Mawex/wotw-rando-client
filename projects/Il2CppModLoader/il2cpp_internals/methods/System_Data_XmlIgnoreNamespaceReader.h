@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::XmlIgnoreNamespaceReader {
 IL2CPP_REGISTER_METHOD(0x023F2490, void, __ctor, (XmlIgnoreNamespaceReader * __this, XmlDocument * xdoc, String__Array * namespacesToIgnore));

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::BlockDamageInterruption___c {
-IL2CPP_REGISTER_METHOD(0x010C8360, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x010C8360, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (BlockDamageInterruption_c * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__18_0, (BlockDamageInterruption_c * __this, DamageWeightMask__Enum _p0_));
 IL2CPP_REGISTER_METHODINFO(0x04763BF8, BlockDamageInterruption_c___ctor_b__18_0__MethodInfo);

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System::Object_UnityEngine::Quaternion_ {
 IL2CPP_REGISTER_METHOD(0x02832610, void, __ctor, (Dictionary_2_TKey_TValue_ValueCollection_System_Object_UnityEngine_Quaternion_ * __this, Dictionary_2_System_Object_UnityEngine_Quaternion_ * dictionary));

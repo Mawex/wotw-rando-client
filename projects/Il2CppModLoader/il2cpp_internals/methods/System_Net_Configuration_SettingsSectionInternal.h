@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::SettingsSectionInternal {
-IL2CPP_REGISTER_METHOD(0x01E98AE0, SettingsSectionInternal *, get_Section, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E98AE0, SettingsSectionInternal *, get_Section, ());
 IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_UseNagleAlgorithm, (SettingsSectionInternal * __this));
 IL2CPP_REGISTER_METHOD(0x00533150, void, set_UseNagleAlgorithm, (SettingsSectionInternal * __this, bool value));
 IL2CPP_REGISTER_METHOD(0x00533160, bool, get_Expect100Continue, (SettingsSectionInternal * __this));
@@ -18,5 +18,5 @@ IL2CPP_REGISTER_METHOD(0x00529E80, EncryptionPolicy__Enum, get_EncryptionPolicy,
 IL2CPP_REGISTER_METHOD(0x00529E90, void, set_EncryptionPolicy, (SettingsSectionInternal * __this, EncryptionPolicy__Enum value));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_Ipv6Enabled, (SettingsSectionInternal * __this));
 IL2CPP_REGISTER_METHOD(0x01E98B90, void, __ctor, (SettingsSectionInternal * __this));
-IL2CPP_REGISTER_METHOD(0x01E98BA0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E98BA0, void, __cctor, ());
 }

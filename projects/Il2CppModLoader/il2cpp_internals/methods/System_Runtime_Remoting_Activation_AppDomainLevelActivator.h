@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Activation::AppDomainLevelActivator {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (AppDomainLevelActivator * __this, String * activationUrl, IActivator * next));

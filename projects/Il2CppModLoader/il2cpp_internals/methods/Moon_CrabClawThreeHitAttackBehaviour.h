@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::CrabClawThreeHitAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x00CCC620, void, OnEnter, (CrabClawThreeHitAttackBehaviour * __this, IContext * context));

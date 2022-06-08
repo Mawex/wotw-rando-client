@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FrogFallReactionBehaviour {
 IL2CPP_REGISTER_METHOD(0x01647CE0, void, OnInitializeTask, (FrogFallReactionBehaviour * __this, IContext * context));

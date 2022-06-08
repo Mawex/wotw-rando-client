@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeWeaponTorch {
 IL2CPP_REGISTER_METHOD(0x009D4720, FireStick *, get_Torch, (MeleeWeaponTorch * __this));

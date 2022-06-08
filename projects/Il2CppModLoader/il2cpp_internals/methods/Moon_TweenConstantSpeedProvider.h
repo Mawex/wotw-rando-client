@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::TweenConstantSpeedProvider {
 IL2CPP_REGISTER_METHOD(0x01E93630, float, GetTweenSpeed, (TweenConstantSpeedProvider * __this));

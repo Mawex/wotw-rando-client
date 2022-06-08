@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::JUnitReporter_TestSuite {
 IL2CPP_REGISTER_METHOD(0x006498D0, void, __ctor, (JUnitReporter_TestSuite * __this, String * id, String * name));

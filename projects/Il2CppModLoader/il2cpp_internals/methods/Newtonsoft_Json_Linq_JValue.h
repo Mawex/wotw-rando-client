@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JValue {
 IL2CPP_REGISTER_METHOD(0x0185A290, void, __ctor, (JValue * __this, Object * value, JTokenType__Enum type));
@@ -13,8 +13,8 @@ IL2CPP_REGISTER_METHODINFO(0x04792DD8, JValue_Compare__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0185B650, int32_t, CompareFloat, (Object * objA, Object * objB));
 IL2CPP_REGISTER_METHOD(0x0185B790, JToken *, CloneToken, (JValue * __this));
 IL2CPP_REGISTER_METHOD(0x0185B8E0, JValue *, CreateComment, (String * value));
-IL2CPP_REGISTER_METHOD(0x0185BA30, JValue *, CreateNull, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0185BB80, JValue *, CreateUndefined, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0185BA30, JValue *, CreateNull, ());
+IL2CPP_REGISTER_METHOD(0x0185BB80, JValue *, CreateUndefined, ());
 IL2CPP_REGISTER_METHOD(0x0185BCD0, JTokenType__Enum, GetValueType, (Nullable_1_Newtonsoft_Json_Linq_JTokenType_ current, Object * value));
 IL2CPP_REGISTER_METHODINFO(0x04756450, JValue_GetValueType__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x0185C130, JTokenType__Enum, GetStringValueType, (Nullable_1_Newtonsoft_Json_Linq_JTokenType_ current));

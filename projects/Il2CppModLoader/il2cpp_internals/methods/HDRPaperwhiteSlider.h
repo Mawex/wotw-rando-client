@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HDRPaperwhiteSlider {
 IL2CPP_REGISTER_METHOD(0x0109B3A0, void, Awake, (HDRPaperwhiteSlider * __this));

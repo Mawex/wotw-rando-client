@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::WaterFall {
 IL2CPP_REGISTER_METHOD(0x011A3DC0, void, Awake, (WaterFall * __this));

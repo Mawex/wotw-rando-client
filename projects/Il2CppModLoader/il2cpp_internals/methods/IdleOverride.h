@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::IdleOverride {
 IL2CPP_REGISTER_METHOD(0x00625640, void, Override, (IdleOverride * __this, SeinIdlePuppet * puppet));

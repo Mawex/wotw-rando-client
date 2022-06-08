@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebRequest {
 IL2CPP_REGISTER_METHOD(0x021B35D0, IWebRequestCreate *, get_CreatorInstance, (WebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, RegisterPortableWebRequestCreator, (IWebRequestCreate * creator));
-IL2CPP_REGISTER_METHOD(0x021B3670, Object *, get_InternalSyncObject, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x021B3850, TimerThread_Queue *, get_DefaultTimerQueue, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B3670, Object *, get_InternalSyncObject, ());
+IL2CPP_REGISTER_METHOD(0x021B3850, TimerThread_Queue *, get_DefaultTimerQueue, ());
 IL2CPP_REGISTER_METHOD(0x021B38F0, WebRequest *, Create, (Uri * requestUri, bool useUriBase));
 IL2CPP_REGISTER_METHODINFO(0x047703B0, WebRequest_Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021B3C40, WebRequest *, Create, (String * requestUriString));
@@ -19,14 +19,14 @@ IL2CPP_REGISTER_METHOD(0x021B4180, HttpWebRequest *, CreateHttp, (Uri * requestU
 IL2CPP_REGISTER_METHODINFO(0x04793C88, WebRequest_CreateHttp_1__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021B4470, bool, RegisterPrefix, (String * prefix, IWebRequestCreate * creator));
 IL2CPP_REGISTER_METHODINFO(0x04700E18, WebRequest_RegisterPrefix__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x021B4B80, ArrayList *, get_PrefixList, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B4B80, ArrayList *, get_PrefixList, ());
 IL2CPP_REGISTER_METHOD(0x021B4DC0, void, set_PrefixList, (ArrayList * value));
-IL2CPP_REGISTER_METHOD(0x021B4E70, ArrayList *, PopulatePrefixList, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B4E70, ArrayList *, PopulatePrefixList, ());
 IL2CPP_REGISTER_METHOD(0x021B5580, void, __ctor, (WebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (WebRequest * __this, SerializationInfo * serializationInfo, StreamingContext streamingContext));
 IL2CPP_REGISTER_METHOD(0x01D28380, void, ISerializable_GetObjectData, (WebRequest * __this, SerializationInfo * serializationInfo, StreamingContext streamingContext));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, GetObjectData, (WebRequest * __this, SerializationInfo * serializationInfo, StreamingContext streamingContext));
-IL2CPP_REGISTER_METHOD(0x021B5590, RequestCachePolicy *, get_DefaultCachePolicy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B5590, RequestCachePolicy *, get_DefaultCachePolicy, ());
 IL2CPP_REGISTER_METHOD(0x021B5650, void, set_DefaultCachePolicy, (RequestCachePolicy * value));
 IL2CPP_REGISTER_METHOD(0x002FB950, RequestCachePolicy *, get_CachePolicy, (WebRequest * __this));
 IL2CPP_REGISTER_METHOD(0x021B5810, void, set_CachePolicy, (WebRequest * __this, RequestCachePolicy * value));
@@ -98,14 +98,14 @@ IL2CPP_REGISTER_METHOD(0x0052A010, TokenImpersonationLevel__Enum, get_Impersonat
 IL2CPP_REGISTER_METHOD(0x0052A020, void, set_ImpersonationLevel, (WebRequest * __this, TokenImpersonationLevel__Enum value));
 IL2CPP_REGISTER_METHOD(0x021B6900, void, RequestCallback, (WebRequest * __this, Object * obj));
 IL2CPP_REGISTER_METHODINFO(0x04793EA8, WebRequest_RequestCallback__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x021B6940, IWebProxy *, get_InternalDefaultWebProxy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B6940, IWebProxy *, get_InternalDefaultWebProxy, ());
 IL2CPP_REGISTER_METHOD(0x021B6BC0, void, set_InternalDefaultWebProxy, (IWebProxy * value));
-IL2CPP_REGISTER_METHOD(0x021B6DF0, IWebProxy *, get_DefaultWebProxy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B6DF0, IWebProxy *, get_DefaultWebProxy, ());
 IL2CPP_REGISTER_METHOD(0x021B6E80, void, set_DefaultWebProxy, (IWebProxy * value));
-IL2CPP_REGISTER_METHOD(0x021B6F20, IWebProxy *, GetSystemWebProxy, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02018EF0, IWebProxy *, InternalGetSystemWebProxy, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B6F20, IWebProxy *, GetSystemWebProxy, ());
+IL2CPP_REGISTER_METHOD(0x02018EF0, IWebProxy *, InternalGetSystemWebProxy, ());
 IL2CPP_REGISTER_METHOD(0x021B6FB0, void, SetupCacheProtocol, (WebRequest * __this, Uri * uri));
-IL2CPP_REGISTER_METHOD(0x021B7170, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021B7170, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x021B72F0, Task_1_System_IO_Stream_ *, _GetRequestStreamAsync_b__78_0, (WebRequest * __this));
 IL2CPP_REGISTER_METHODINFO(0x04782518, WebRequest__GetRequestStreamAsync_b__78_0__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x021B75A0, Task_1_System_Net_WebResponse_ *, _GetResponseAsync_b__79_0, (WebRequest * __this));

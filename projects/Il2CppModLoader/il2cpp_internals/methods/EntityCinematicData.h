@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityCinematicData {
 IL2CPP_REGISTER_METHOD(0x002FB950, MoonAnimation *, get_Animation, (EntityCinematicData * __this));

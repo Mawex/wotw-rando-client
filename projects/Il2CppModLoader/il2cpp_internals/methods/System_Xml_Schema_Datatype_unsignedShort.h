@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_unsignedShort {
 IL2CPP_REGISTER_METHOD(0x02363020, FacetsChecker *, get_FacetsChecker, (Datatype_unsignedShort * __this));
@@ -8,5 +8,5 @@ IL2CPP_REGISTER_METHOD(0x02363180, Type *, get_ValueType, (Datatype_unsignedShor
 IL2CPP_REGISTER_METHOD(0x02363220, Type *, get_ListValueType, (Datatype_unsignedShort * __this));
 IL2CPP_REGISTER_METHOD(0x023632C0, Exception *, TryParseValue, (Datatype_unsignedShort * __this, String * s, XmlNameTable * nameTable, IXmlNamespaceResolver * nsmgr, Object * * typedValue));
 IL2CPP_REGISTER_METHOD(0x02363470, void, __ctor, (Datatype_unsignedShort * __this));
-IL2CPP_REGISTER_METHOD(0x02363510, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02363510, void, __cctor, ());
 }

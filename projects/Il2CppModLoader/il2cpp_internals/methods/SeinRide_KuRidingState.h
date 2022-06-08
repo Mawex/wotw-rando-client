@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinRide_KuRidingState {
 IL2CPP_REGISTER_METHOD(0x005D45D0, KuController *, get_KuController, (SeinRide_KuRidingState * __this));
 IL2CPP_REGISTER_METHOD(0x005D4670, Ku *, get_Ku, (SeinRide_KuRidingState * __this));
 IL2CPP_REGISTER_METHOD(0x005D4700, SeinCharacter *, get_Sein, (SeinRide_KuRidingState * __this));
-IL2CPP_REGISTER_METHOD(0x005D4790, List_1_EquipmentType_ *, get_AllowedEquipment, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x005D4790, List_1_EquipmentType_ *, get_AllowedEquipment, ());
 IL2CPP_REGISTER_METHOD(0x005D4990, void, OnBegin, (SeinRide_KuRidingState * __this, IRideable * rideable, bool skipMountAnimation));
 IL2CPP_REGISTER_METHOD(0x005D5010, void, OnMatchAnimationStopped, (SeinRide_KuRidingState * __this, MoonAnimation * oriAnimation, ActiveAnimationHandle sourceActiveAnimation));
 IL2CPP_REGISTER_METHODINFO(0x04727580, SeinRide_KuRidingState_OnMatchAnimationStopped__MethodInfo);

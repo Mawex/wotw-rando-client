@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LoremasterUISlot {
 IL2CPP_REGISTER_METHOD(0x002FBB60, ReplaySetting *, get_ReplaySetting, (LoremasterUISlot * __this));

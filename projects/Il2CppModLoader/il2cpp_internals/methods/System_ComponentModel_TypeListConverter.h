@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeListConverter {
 IL2CPP_REGISTER_METHOD(0x0295C510, void, __ctor, (TypeListConverter * __this, Type__Array * types));

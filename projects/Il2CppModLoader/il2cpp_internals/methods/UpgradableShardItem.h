@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UpgradableShardItem {
 IL2CPP_REGISTER_METHOD(0x013AE4A0, PlayerUberStateShards_Shard *, get_ShardState, (UpgradableShardItem * __this));

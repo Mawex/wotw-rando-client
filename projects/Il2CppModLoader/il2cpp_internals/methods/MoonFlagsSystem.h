@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonFlagsSystem {
-IL2CPP_REGISTER_METHOD(0x03121190, MoonFlagsSystem *, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03121190, MoonFlagsSystem *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00420EE0, UpdateType__Enum, get_UpdateType, (MoonFlagsSystem * __this));
-IL2CPP_REGISTER_METHOD(0x03121340, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x03121340, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x031213C0, void, SubmitHiddenToHierarchyUnmanaged, (MoonFlagsSystem * __this, GameObject * go, bool value));
 IL2CPP_REGISTER_METHOD(0x03121430, void, SubmitDynamicHiddenFlag, (MoonFlagsSystem * __this, Renderer__Array * renderers, bool value));
 IL2CPP_REGISTER_METHOD(0x031214B0, void, SubmitDynamicHiddenFlag, (MoonFlagsSystem * __this, Renderer * renderer, bool value));

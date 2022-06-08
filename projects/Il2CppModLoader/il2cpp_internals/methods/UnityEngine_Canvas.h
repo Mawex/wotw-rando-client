@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Canvas {
 IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (Canvas * __this));
@@ -22,8 +22,8 @@ IL2CPP_REGISTER_METHOD(0x031A5BB0, void, set_sortingLayerID, (Canvas * __this, i
 IL2CPP_REGISTER_METHOD(0x031A5C10, Canvas *, get_rootCanvas, (Canvas * __this));
 IL2CPP_REGISTER_METHOD(0x031A5C60, Camera *, get_worldCamera, (Canvas * __this));
 IL2CPP_REGISTER_METHOD(0x031A5CB0, void, set_worldCamera, (Canvas * __this, Camera * value));
-IL2CPP_REGISTER_METHOD(0x031A5D10, Material *, GetDefaultCanvasMaterial, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x031A5D60, Material *, GetETC1SupportedCanvasMaterial, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x031A5DB0, void, ForceUpdateCanvases, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x031A5DB0, void, SendWillRenderCanvases, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x031A5D10, Material *, GetDefaultCanvasMaterial, ());
+IL2CPP_REGISTER_METHOD(0x031A5D60, Material *, GetETC1SupportedCanvasMaterial, ());
+IL2CPP_REGISTER_METHOD(0x031A5DB0, void, ForceUpdateCanvases, ());
+IL2CPP_REGISTER_METHOD(0x031A5DB0, void, SendWillRenderCanvases, ());
 }

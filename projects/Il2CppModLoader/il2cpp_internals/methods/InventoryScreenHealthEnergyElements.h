@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InventoryScreenHealthEnergyElements {
 IL2CPP_REGISTER_METHOD(0x006435E0, int32_t, get_HealthCellCount, (InventoryScreenHealthEnergyElements * __this));

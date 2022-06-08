@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SwampNightDayTransition {
 IL2CPP_REGISTER_METHOD(0x00675960, bool, get_DayTime, (SwampNightDayTransition * __this));

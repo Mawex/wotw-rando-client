@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::IO::StringReader {
 IL2CPP_REGISTER_METHOD(0x02383B30, void, __ctor, (StringReader * __this, String * s));

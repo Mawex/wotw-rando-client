@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlBoolean {
 IL2CPP_REGISTER_METHOD(0x001D6160, void, __ctor, (SqlBoolean__Boxed * __this, bool value));
@@ -28,5 +28,5 @@ IL2CPP_REGISTER_METHOD(0x0013BB70, XmlSchema *, IXmlSerializable_GetSchema, (Sql
 IL2CPP_REGISTER_METHOD(0x001D6410, void, IXmlSerializable_ReadXml, (SqlBoolean__Boxed * __this, XmlReader * reader));
 IL2CPP_REGISTER_METHOD(0x001D6570, void, IXmlSerializable_WriteXml, (SqlBoolean__Boxed * __this, XmlWriter * writer));
 IL2CPP_REGISTER_METHOD(0x01E50490, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
-IL2CPP_REGISTER_METHOD(0x01E505E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E505E0, void, __cctor, ());
 }

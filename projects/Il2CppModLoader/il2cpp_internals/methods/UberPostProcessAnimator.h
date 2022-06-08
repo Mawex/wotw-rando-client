@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberPostProcessAnimator {
 IL2CPP_REGISTER_METHOD(0x00738690, float, get_Weight, (UberPostProcessAnimator * __this));

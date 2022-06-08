@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ParticleSuspender {
 IL2CPP_REGISTER_METHOD(0x00444910, void, OnPoolSpawned, (ParticleSuspender * __this));

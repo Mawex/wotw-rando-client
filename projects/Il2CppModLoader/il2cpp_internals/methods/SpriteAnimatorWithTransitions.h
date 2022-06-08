@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpriteAnimatorWithTransitions {
 IL2CPP_REGISTER_METHOD(0x00938890, bool, get_IsTransitionPlaying, (SpriteAnimatorWithTransitions * __this));

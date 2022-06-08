@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlTextReaderImpl_NodeData {
-IL2CPP_REGISTER_METHOD(0x01FBBCD0, XmlTextReaderImpl_NodeData *, get_None, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01FBBCD0, XmlTextReaderImpl_NodeData *, get_None, ());
 IL2CPP_REGISTER_METHOD(0x01FBBE60, void, __ctor, (XmlTextReaderImpl_NodeData * __this));
 IL2CPP_REGISTER_METHOD(0x002FD490, int32_t, get_LineNo, (XmlTextReaderImpl_NodeData * __this));
 IL2CPP_REGISTER_METHOD(0x003FDCE0, int32_t, get_LinePos, (XmlTextReaderImpl_NodeData * __this));

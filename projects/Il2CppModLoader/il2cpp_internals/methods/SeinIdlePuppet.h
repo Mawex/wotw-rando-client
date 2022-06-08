@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinIdlePuppet {
 IL2CPP_REGISTER_METHOD(0x0100D080, void, InstantiateLeaveTrails, (SeinIdlePuppet * __this));

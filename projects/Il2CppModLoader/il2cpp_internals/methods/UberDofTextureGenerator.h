@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberDofTextureGenerator {
-IL2CPP_REGISTER_METHOD(0x013E6B30, Material *, GetBlurMaterial, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x013E6B30, Material *, GetBlurMaterial, ());
 IL2CPP_REGISTER_METHOD(0x013E7060, Texture *, CreatePreviewDofTexture, (Texture2D * originalTexture, Vector2 blurSize));
 IL2CPP_REGISTER_METHOD(0x013E7220, Texture *, CreateDofTexture, (Texture2D * originalTexture, Vector2 blurSize));
 IL2CPP_REGISTER_METHOD(0x013E73A0, Texture *, CreateDofTextureNearestPot, (Texture * originalTexture, Vector2 blurSize, Vector2 maxScreenSize));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_DamageType_System::Single_ {
 IL2CPP_REGISTER_METHOD(0x02BB43A0, bool, TryGetValue, (Dictionary_2_DamageType_System_Single_ * __this, DamageType__Enum key, float * value));

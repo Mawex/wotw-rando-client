@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Objective {
 IL2CPP_REGISTER_METHOD(0x0060FCD0, void, AddObjective, (Objective * __this));

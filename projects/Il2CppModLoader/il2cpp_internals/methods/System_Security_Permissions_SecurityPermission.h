@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Permissions::SecurityPermission {
 IL2CPP_REGISTER_METHOD(0x01E1B0F0, void, __ctor, (SecurityPermission * __this, PermissionState__Enum state));

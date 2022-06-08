@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobParallelForExtensions {
 IL2CPP_REGISTER_METHOD(0x02FF7470, JobHandle, Schedule, (MoonTrailSystem_SimulateJob jobData, int32_t arrayLength, int32_t innerloopBatchCount, JobHandle dependsOn));

@@ -1,8 +1,8 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EntityPlaceholder {
-IL2CPP_REGISTER_METHOD(0x00C93750, void, ResetStatics, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C93A10, void, ClearEnemyLists, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C93750, void, ResetStatics, ());
+IL2CPP_REGISTER_METHOD(0x00C93A10, void, ClearEnemyLists, ());
 IL2CPP_REGISTER_METHODINFO(0x04798DD8, EntityPlaceholder_ClearEnemyLists__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00C93AD0, bool, get_EffectivePlaySpawnTask, (EntityPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x004FBAC0, bool, get_PreventEnemyFromBeingFrustrumSuspended, (EntityPlaceholder * __this));
@@ -52,7 +52,7 @@ IL2CPP_REGISTER_METHOD(0x00C98550, void, AddEntityToGlobalList, (Entity * entity
 IL2CPP_REGISTER_METHOD(0x00C98830, void, RemoveEntityFromGlobalList, (Entity * entity));
 IL2CPP_REGISTER_METHOD(0x00C989B0, void, RunNullCleanupFromGlobalList, (Type * entityType));
 IL2CPP_REGISTER_METHOD(0x00C98CB0, List_1_Moon_Entity_ *, GetAllEntities, (Type * entityType));
-IL2CPP_REGISTER_METHOD(0x00C98E10, List_1_Moon_Entity___Array *, GenerateArrayWithGetAllEntities, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C98E10, List_1_Moon_Entity___Array *, GenerateArrayWithGetAllEntities, ());
 IL2CPP_REGISTER_METHOD(0x00C98EE0, void, OnGameSerializeLoad, (EntityPlaceholder * __this));
 IL2CPP_REGISTER_METHODINFO(0x04746AD0, EntityPlaceholder_OnGameSerializeLoad__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x00C98F10, void, OnSceneRootPreDisable, (EntityPlaceholder * __this, SceneRoot * sceneRoot));
@@ -91,7 +91,7 @@ IL2CPP_REGISTER_METHOD(0x00417870, bool, IsUsingVariations, (EntityPlaceholder *
 IL2CPP_REGISTER_METHOD(0x00C9CE80, SpiritShardType__Enum, GetEquippedAggressorOrSuppresorShard, (EntityPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, CanUseAutosetupPositionInOnSand, (EntityPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x00C9CFA0, void, __ctor, (EntityPlaceholder * __this));
-IL2CPP_REGISTER_METHOD(0x00C9D5A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C9D5A0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IDisableOnRecordablePreview_get_gameObject, (EntityPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9F0, IMoonTypeResolver *, GetResolverForType, (EntityPlaceholder * __this));
 IL2CPP_REGISTER_METHOD(0x002FB9F0, IMoonTypeResolver *, GetResolverForType, (EntityPlaceholder * __this));

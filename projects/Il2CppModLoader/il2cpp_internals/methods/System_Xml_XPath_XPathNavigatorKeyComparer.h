@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathNavigatorKeyComparer {
 IL2CPP_REGISTER_METHOD(0x01957B90, bool, IEqualityComparer_Equals, (XPathNavigatorKeyComparer * __this, Object * obj1, Object * obj2));

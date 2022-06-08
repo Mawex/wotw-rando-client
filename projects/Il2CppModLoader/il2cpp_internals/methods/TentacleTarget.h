@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TentacleTarget {
 IL2CPP_REGISTER_METHOD(0x010D7100, void, Update, (TentacleTarget * __this));

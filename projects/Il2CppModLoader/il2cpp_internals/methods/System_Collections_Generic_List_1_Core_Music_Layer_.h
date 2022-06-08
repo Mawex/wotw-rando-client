@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Core::Music_Layer_ {
 IL2CPP_REGISTER_METHOD(0x025EFC50, Music_Layer *, get_Item, (List_1_Core_Music_Layer_ * __this, int32_t index));

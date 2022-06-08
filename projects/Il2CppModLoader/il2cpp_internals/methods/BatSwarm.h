@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::BatSwarm {
 IL2CPP_REGISTER_METHOD(0x00F943E0, Vector2, get_MainPOI, (BatSwarm * __this));

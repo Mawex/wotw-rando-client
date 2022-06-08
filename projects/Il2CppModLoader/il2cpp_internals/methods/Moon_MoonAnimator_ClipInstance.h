@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_ClipInstance {
 IL2CPP_REGISTER_METHOD(0x021142B0, Playable, get_Playable, (MoonAnimator_ClipInstance * __this));

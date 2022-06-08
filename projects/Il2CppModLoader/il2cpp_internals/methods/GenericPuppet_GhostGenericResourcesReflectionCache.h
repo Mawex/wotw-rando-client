@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GenericPuppet_GhostGenericResourcesReflectionCache {
 IL2CPP_REGISTER_METHOD(0x00E10300, bool, TryGetValue, (GenericPuppet_GhostGenericResourcesReflectionCache * __this, Object * obj, GhostGenericResourceAttribute * * res));

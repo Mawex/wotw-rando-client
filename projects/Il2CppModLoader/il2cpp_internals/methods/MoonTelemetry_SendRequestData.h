@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MoonTelemetry_SendRequestData {
 IL2CPP_REGISTER_METHOD(0x02E9FBD0, bool, get_IsProcessing, (MoonTelemetry_SendRequestData * __this));

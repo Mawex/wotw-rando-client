@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::BasicClient {
 IL2CPP_REGISTER_METHOD(0x020148A0, Authorization *, Authenticate, (BasicClient * __this, String * challenge, WebRequest * webRequest, ICredentials * credentials));

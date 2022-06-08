@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ScreenSpaceAmbientObscurance {
 IL2CPP_REGISTER_METHOD(0x02D60F40, bool, CheckResources, (ScreenSpaceAmbientObscurance * __this));

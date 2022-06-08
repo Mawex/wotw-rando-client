@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ActionTimer__DoThings_d__4 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (ActionTimer_DoThings_d_4 * __this, int32_t __1__state));

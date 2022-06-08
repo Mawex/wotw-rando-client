@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::Timeline::MoonTimeline_Moon::Timeline::FloatAnimator_ {
 IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_Moon_Timeline_MoonTimeline_Moon_Timeline_FloatAnimator_ * __this, MoonTimeline * key, FloatAnimator * value));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ScaleAnimator {
 IL2CPP_REGISTER_METHOD(0x00932DC0, void, CacheOriginals, (ScaleAnimator * __this));

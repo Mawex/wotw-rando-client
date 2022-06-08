@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GodRayMaskModifier {
 IL2CPP_REGISTER_METHOD(0x00800520, void, SetProperties, (GodRayMaskModifier * __this));

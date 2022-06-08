@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::StomperAnimator {
 IL2CPP_REGISTER_METHOD(0x002FB990, IMoonSetupVisuals *, get_MoonSetupVisuals, (StomperAnimator * __this));

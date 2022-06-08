@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ArtBuildController__LoadScreenshots_d__9 {
 IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (ArtBuildController_LoadScreenshots_d_9 * __this, int32_t __1__state));

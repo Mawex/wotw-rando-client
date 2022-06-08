@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::VRMainControlPanel {
 IL2CPP_REGISTER_METHOD(0x01671BB0, void, Awake, (VRMainControlPanel * __this));

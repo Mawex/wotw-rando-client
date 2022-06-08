@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerRequest {
 IL2CPP_REGISTER_METHOD(0x01D464E0, void, __ctor, (HttpListenerRequest * __this, HttpListenerContext * context));
@@ -48,7 +48,7 @@ IL2CPP_REGISTER_METHOD(0x00420EE0, String *, get_ServiceName, (HttpListenerReque
 IL2CPP_REGISTER_METHOD(0x01D49E00, TransportContext *, get_TransportContext, (HttpListenerRequest * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsWebSocketRequest, (HttpListenerRequest * __this));
 IL2CPP_REGISTER_METHOD(0x01D49F40, Task_1_System_Security_Cryptography_X509Certificates_X509Certificate2_ *, GetClientCertificateAsync, (HttpListenerRequest * __this));
-IL2CPP_REGISTER_METHOD(0x01D4A1E0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D4A1E0, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01D4A2E0, void, __ctor, (HttpListenerRequest * __this));
 IL2CPP_REGISTER_METHODINFO(0x04754A30, HttpListenerRequest__ctor_1__MethodInfo);
 }

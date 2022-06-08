@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseEventSystem_SoundHandleProtected {
 IL2CPP_REGISTER_METHOD(0x002FB990, int64_t, get_Version, (WwiseEventSystem_SoundHandleProtected * __this));
@@ -15,9 +15,9 @@ IL2CPP_REGISTER_METHOD(0x027142E0, void, DispatchAction, (WwiseEventSystem_Sound
 IL2CPP_REGISTER_METHOD(0x02714660, void, CallbackInvoked, (WwiseEventSystem_SoundHandleProtected * __this, Object * cookie, AkCallbackType__Enum type, AkCallbackInfo * info));
 IL2CPP_REGISTER_METHODINFO(0x0472CCB8, WwiseEventSystem_SoundHandleProtected_CallbackInvoked__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02714840, void, ProcessCallback, (WwiseEventSystem_SoundHandleProtected * __this, Object * cookie, AkCallbackType__Enum type, AkCallbackInfo * info));
-IL2CPP_REGISTER_METHOD(0x02714C00, void, ProcessedQueuedCallbacks, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02714C00, void, ProcessedQueuedCallbacks, ());
 IL2CPP_REGISTER_METHOD(0x02714EB0, int64_t, Bind, (WwiseEventSystem_SoundHandleProtected * __this, Event_1 * wiseEvent, ISoundHost * host));
 IL2CPP_REGISTER_METHOD(0x02714F20, void, Reset, (WwiseEventSystem_SoundHandleProtected * __this));
 IL2CPP_REGISTER_METHOD(0x02714F60, void, __ctor, (WwiseEventSystem_SoundHandleProtected * __this));
-IL2CPP_REGISTER_METHOD(0x027150A0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x027150A0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema {
 IL2CPP_REGISTER_METHOD(0x01959AD0, void, __ctor, (XmlAsyncCheckReaderWithLineInfoNSSchema * __this, XmlReader * reader));

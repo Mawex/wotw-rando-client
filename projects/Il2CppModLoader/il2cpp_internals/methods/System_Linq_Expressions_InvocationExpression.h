@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::InvocationExpression {
 IL2CPP_REGISTER_METHOD(0x02415D40, void, __ctor, (InvocationExpression * __this, Expression * expression, Type * returnType));

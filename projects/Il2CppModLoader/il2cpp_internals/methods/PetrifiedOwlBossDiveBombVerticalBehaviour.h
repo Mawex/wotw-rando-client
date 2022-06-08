@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossDiveBombVerticalBehaviour {
 IL2CPP_REGISTER_METHOD(0x00418200, StateMachine_2 *, get_StateMachine, (PetrifiedOwlBossDiveBombVerticalBehaviour * __this));

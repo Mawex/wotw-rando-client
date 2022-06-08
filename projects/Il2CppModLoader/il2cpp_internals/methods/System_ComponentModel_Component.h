@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Component {
 IL2CPP_REGISTER_METHOD(0x024A8C90, void, Finalize, (Component * __this));
@@ -16,5 +16,5 @@ IL2CPP_REGISTER_METHOD(0x024A9400, Object *, GetService, (Component * __this, Ty
 IL2CPP_REGISTER_METHOD(0x024A94B0, bool, get_DesignMode, (Component * __this));
 IL2CPP_REGISTER_METHOD(0x024A9550, String *, ToString, (Component * __this));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Component * __this));
-IL2CPP_REGISTER_METHOD(0x024A9680, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x024A9680, void, __cctor, ());
 }

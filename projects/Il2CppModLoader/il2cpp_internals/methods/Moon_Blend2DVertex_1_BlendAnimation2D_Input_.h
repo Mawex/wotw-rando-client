@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Blend2DVertex_1_BlendAnimation2D_Input_ {
 IL2CPP_REGISTER_METHOD(0x002FB9D0, BlendAnimation2D_Input *, get_Data, (Blend2DVertex_1_BlendAnimation2D_Input_ * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraInfluencePositionZone {
 IL2CPP_REGISTER_METHOD(0x016927A0, Vector3, get_Offset, (CameraInfluencePositionZone * __this));

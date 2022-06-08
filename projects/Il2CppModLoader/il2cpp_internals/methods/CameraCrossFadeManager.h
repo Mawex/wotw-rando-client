@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraCrossFadeManager {
 IL2CPP_REGISTER_METHOD(0x01687570, void, Awake, (CameraCrossFadeManager * __this));
@@ -17,5 +17,5 @@ IL2CPP_REGISTER_METHOD(0x002FCE40, void, set_IsSuspended, (CameraCrossFadeManage
 IL2CPP_REGISTER_METHOD(0x003FF3C0, SuspendableMask__Enum, get_Mask, (CameraCrossFadeManager * __this));
 IL2CPP_REGISTER_METHOD(0x016883F0, void, set_Mask, (CameraCrossFadeManager * __this, SuspendableMask__Enum value));
 IL2CPP_REGISTER_METHOD(0x016884A0, void, __ctor, (CameraCrossFadeManager * __this));
-IL2CPP_REGISTER_METHOD(0x016884B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x016884B0, void, __cctor, ());
 }

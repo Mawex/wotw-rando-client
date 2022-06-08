@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::DesiredUberStateGeneric {
 IL2CPP_REGISTER_METHOD(0x01B619E0, void, __ctor, (DesiredUberStateGeneric * __this, IGenericUberState * uberState, GameObject * owner, float desiredValue));

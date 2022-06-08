@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::VSyncToggler {
 IL2CPP_REGISTER_METHOD(0x013B78C0, String *, get_Path, (VSyncToggler * __this));

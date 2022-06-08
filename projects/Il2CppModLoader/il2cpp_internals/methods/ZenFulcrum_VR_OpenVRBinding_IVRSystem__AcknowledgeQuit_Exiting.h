@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRSystem__AcknowledgeQuit_Exiting {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRSystem_AcknowledgeQuit_Exiting * __this, Object * object, void * method_1));

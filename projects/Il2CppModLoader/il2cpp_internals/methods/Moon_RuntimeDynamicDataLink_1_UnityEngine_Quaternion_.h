@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::RuntimeDynamicDataLink_1_UnityEngine::Quaternion_ {
 IL2CPP_REGISTER_METHOD(0x02915CD0, bool, Init, (RuntimeDynamicDataLink_1_UnityEngine_Quaternion_ * __this, DynamicDataLinkSerializedData data, MemberInfo_1 * memberInfo));

@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlCharType {
-IL2CPP_REGISTER_METHOD(0x0195F1F0, Object *, get_StaticLock, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x0195F360, void, InitInstance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0195F1F0, Object *, get_StaticLock, ());
+IL2CPP_REGISTER_METHOD(0x0195F360, void, InitInstance, ());
 IL2CPP_REGISTER_METHOD(0x0195F6C0, void, SetProperties, (String * ranges, uint8_t value));
 IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (XmlCharType__Boxed * __this, Byte__Array * charProperties));
-IL2CPP_REGISTER_METHOD(0x0195F7E0, XmlCharType, get_Instance, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0195F7E0, XmlCharType, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x00153570, bool, IsWhiteSpace, (XmlCharType__Boxed * __this, uint16_t ch));
 IL2CPP_REGISTER_METHOD(0x001535B0, bool, IsNCNameSingleChar, (XmlCharType__Boxed * __this, uint16_t ch));
 IL2CPP_REGISTER_METHOD(0x001535F0, bool, IsStartNCNameSingleChar, (XmlCharType__Boxed * __this, uint16_t ch));

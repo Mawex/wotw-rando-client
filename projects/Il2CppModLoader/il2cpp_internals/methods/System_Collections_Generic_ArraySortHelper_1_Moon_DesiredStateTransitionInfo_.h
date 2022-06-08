@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon::DesiredStateTransitionInfo_ {
 IL2CPP_REGISTER_METHOD(0x02F34B00, void, Sort, (DesiredStateTransitionInfo__Array * keys, int32_t index, int32_t length, IComparer_1_Moon_DesiredStateTransitionInfo_ * comparer));

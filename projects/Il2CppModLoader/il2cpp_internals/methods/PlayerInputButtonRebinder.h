@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerInputButtonRebinder {
 IL2CPP_REGISTER_METHOD(0x0141CC70, bool, IsAbilityBlocked, (PlayerInputButtonRebinder * __this, AbilityType__Enum ability));

@@ -1,11 +1,11 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::KwolokBossTongueAttackBehaviour {
 IL2CPP_REGISTER_METHOD(0x012F0DF0, Transform *, get_TongueRoot, (KwolokBossTongueAttackBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x012F0EA0, Vector3, get_TongueRootPosition, (KwolokBossTongueAttackBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x012F0FD0, Transform *, get_TongueTip, (KwolokBossTongueAttackBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x012F1080, Vector3, get_TongueTipPosition, (KwolokBossTongueAttackBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x012E0B60, void, InitializeCancellableController, (KwolokBossTongueAttackBehaviour * __this));
 IL2CPP_REGISTER_METHOD(0x012F11B0, void, OnEnter, (KwolokBossTongueAttackBehaviour * __this, IContext * context));
 IL2CPP_REGISTER_METHOD(0x012F1720, BehaviourStatus__Enum, OnExecute, (KwolokBossTongueAttackBehaviour * __this, IContext * context));

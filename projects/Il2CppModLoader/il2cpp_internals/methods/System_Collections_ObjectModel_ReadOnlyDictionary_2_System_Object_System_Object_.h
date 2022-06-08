@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyDictionary_2_System::Object_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x02B83030, ReadOnlyDictionary_2_TKey_TValue_KeyCollection_System_Object_System_Object_ *, get_Keys, (ReadOnlyDictionary_2_System_Object_System_Object_ * __this));

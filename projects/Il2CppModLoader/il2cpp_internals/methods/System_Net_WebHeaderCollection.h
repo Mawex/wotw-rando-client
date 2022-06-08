@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::WebHeaderCollection {
 IL2CPP_REGISTER_METHOD(0x01D70310, String *, get_ContentLength, (WebHeaderCollection * __this));
@@ -92,5 +92,5 @@ IL2CPP_REGISTER_METHOD(0x01D76C80, String__Array *, GetValues, (WebHeaderCollect
 IL2CPP_REGISTER_METHOD(0x01D76CD0, String *, GetKey, (WebHeaderCollection * __this, int32_t index));
 IL2CPP_REGISTER_METHOD(0x01D76D20, String__Array *, get_AllKeys, (WebHeaderCollection * __this));
 IL2CPP_REGISTER_METHOD(0x01D76D60, void, Clear, (WebHeaderCollection * __this));
-IL2CPP_REGISTER_METHOD(0x01D76D90, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01D76D90, void, __cctor, ());
 }

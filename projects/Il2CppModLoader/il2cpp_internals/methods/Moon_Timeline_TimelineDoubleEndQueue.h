@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineDoubleEndQueue {
 IL2CPP_REGISTER_METHOD(0x01E84340, int32_t, get_Count, (TimelineDoubleEndQueue * __this));

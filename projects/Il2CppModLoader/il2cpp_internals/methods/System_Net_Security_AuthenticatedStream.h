@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Security::AuthenticatedStream {
 IL2CPP_REGISTER_METHOD(0x01BD0C70, void, __ctor, (AuthenticatedStream * __this, Stream * innerStream, bool leaveInnerStreamOpen));

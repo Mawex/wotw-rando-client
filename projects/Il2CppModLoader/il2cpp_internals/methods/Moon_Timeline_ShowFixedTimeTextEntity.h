@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ShowFixedTimeTextEntity {
-IL2CPP_REGISTER_METHOD(0x00785D10, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00785D10, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00785DB0, void, add_FinishedReading, (ShowFixedTimeTextEntity * __this, Action_1_MessageBox_HideAction_ * value));
 IL2CPP_REGISTER_METHOD(0x00785EA0, void, remove_FinishedReading, (ShowFixedTimeTextEntity * __this, Action_1_MessageBox_HideAction_ * value));
 IL2CPP_REGISTER_METHOD(0x00785F90, bool, IsTalkInteraction, (ShowFixedTimeTextEntity * __this));
@@ -25,5 +25,5 @@ IL2CPP_REGISTER_METHOD(0x007887F0, void, OnUpdateEntity, (ShowFixedTimeTextEntit
 IL2CPP_REGISTER_METHOD(0x00788D40, void, SynchronizeData, (ShowFixedTimeTextEntity * __this, MoonTimeline * timeline, TimelineEntityRecord * record));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (ShowFixedTimeTextEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00788D50, void, __ctor, (ShowFixedTimeTextEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task {
 IL2CPP_REGISTER_METHOD(0x02330800, bool, AddToActiveTasks, (Task * task));
@@ -34,11 +34,11 @@ IL2CPP_REGISTER_METHOD(0x02331EB0, void, AddNewChild, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x02331F40, void, DisregardChild, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x02331F80, Task *, InternalStartNew, (Task * creatingTask, Delegate * action, Object * state, CancellationToken cancellationToken, TaskScheduler * scheduler, TaskCreationOptions__Enum options, InternalTaskOptions__Enum internalOptions, StackCrawlMark__Enum * stackMark));
 IL2CPP_REGISTER_METHODINFO(0x047374B8, Task_InternalStartNew__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02332190, int32_t, NewId, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02332190, int32_t, NewId, ());
 IL2CPP_REGISTER_METHOD(0x02332250, int32_t, get_Id, (Task * __this));
-IL2CPP_REGISTER_METHOD(0x023323B0, Task *, get_InternalCurrent, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x023323B0, Task *, get_InternalCurrent, ());
 IL2CPP_REGISTER_METHOD(0x02332490, Task *, InternalCurrentIfAttached, (TaskCreationOptions__Enum creationOptions));
-IL2CPP_REGISTER_METHOD(0x02332540, StackGuard *, get_CurrentStackGuard, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02332540, StackGuard *, get_CurrentStackGuard, ());
 IL2CPP_REGISTER_METHOD(0x02332740, AggregateException *, get_Exception, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x02332770, TaskStatus__Enum, get_Status, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x023327D0, bool, get_IsCanceled, (Task * __this));
@@ -56,8 +56,8 @@ IL2CPP_REGISTER_METHODINFO(0x047329D8, Task_System_IAsyncResult_get_AsyncWaitHan
 IL2CPP_REGISTER_METHOD(0x002FB950, Object *, get_AsyncState, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, IAsyncResult_get_CompletedSynchronously, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB00, TaskScheduler *, get_ExecutingTaskScheduler, (Task * __this));
-IL2CPP_REGISTER_METHOD(0x02332C90, TaskFactory *, get_Factory, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02332D30, Task *, get_CompletedTask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02332C90, TaskFactory *, get_Factory, ());
+IL2CPP_REGISTER_METHOD(0x02332D30, Task *, get_CompletedTask, ());
 IL2CPP_REGISTER_METHOD(0x02332F40, ManualResetEventSlim *, get_CompletedEvent, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x02333160, bool, get_IsSelfReplicatingRoot, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x02333180, bool, get_IsChildReplica, (Task * __this));
@@ -107,7 +107,7 @@ IL2CPP_REGISTER_METHOD(0x02335BD0, void, HandleException, (Task * __this, Except
 IL2CPP_REGISTER_METHOD(0x004C50A0, TaskAwaiter, GetAwaiter, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x02335D60, ConfiguredTaskAwaitable, ConfigureAwait, (Task * __this, bool continueOnCapturedContext));
 IL2CPP_REGISTER_METHOD(0x02335D90, void, SetContinuationForAwait, (Task * __this, Action * continuationAction, bool continueOnCapturedContext, bool flowExecutionContext, StackCrawlMark__Enum * stackMark));
-IL2CPP_REGISTER_METHOD(0x00417870, YieldAwaitable, Yield, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00417870, YieldAwaitable, Yield, ());
 IL2CPP_REGISTER_METHOD(0x023361F0, void, Wait, (Task * __this));
 IL2CPP_REGISTER_METHOD(0x02336200, void, Wait, (Task * __this, CancellationToken cancellationToken));
 IL2CPP_REGISTER_METHOD(0x02336210, bool, Wait, (Task * __this, int32_t millisecondsTimeout, CancellationToken cancellationToken));
@@ -157,7 +157,7 @@ IL2CPP_REGISTER_METHODINFO(0x04705620, Task_WhenAll__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02339DD0, Task *, InternalWhenAll, (Task__Array * tasks));
 IL2CPP_REGISTER_METHOD(0x02339F70, Task_1_Task_ *, WhenAny, (Task__Array * tasks));
 IL2CPP_REGISTER_METHODINFO(0x0473E028, Task_WhenAny__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0233A160, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0233A160, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01544350, Task_1_System_Object_ *, FromResult, (Object * result));
 IL2CPP_REGISTER_METHOD(0x01543DD0, Task_1_System_Object_ *, FromException, (Exception * exception));
 IL2CPP_REGISTER_METHODINFO(0x0477FEE8, Task_FromException_1__MethodInfo);

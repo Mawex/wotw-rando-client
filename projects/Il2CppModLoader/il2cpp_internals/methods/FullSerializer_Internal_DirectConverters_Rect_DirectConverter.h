@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::Rect_DirectConverter {
 IL2CPP_REGISTER_METHOD(0x016508F0, fsResult, DoSerialize, (Rect_DirectConverter * __this, Rect model, Dictionary_2_System_String_FullSerializer_fsData_ * serialized));

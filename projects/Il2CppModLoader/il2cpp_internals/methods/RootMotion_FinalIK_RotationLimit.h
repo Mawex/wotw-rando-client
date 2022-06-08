@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::RotationLimit {
 IL2CPP_REGISTER_METHOD(0x02A1F900, void, SetDefaultLocalRotation, (RotationLimit * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::NintendoPlayFabSynchronizer___c__DisplayClass19_0 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (NintendoPlayFabSynchronizer_c_DisplayClass19_0 * __this));

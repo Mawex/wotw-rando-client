@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::CreaseShading {
 IL2CPP_REGISTER_METHOD(0x0251F850, bool, CheckResources, (CreaseShading * __this));

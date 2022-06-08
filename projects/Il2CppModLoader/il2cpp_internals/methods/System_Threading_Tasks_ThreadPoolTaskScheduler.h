@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::ThreadPoolTaskScheduler {
 IL2CPP_REGISTER_METHOD(0x02340880, void, __ctor, (ThreadPoolTaskScheduler * __this));
@@ -11,5 +11,5 @@ IL2CPP_REGISTER_METHOD(0x02340DB0, IEnumerable_1_System_Threading_Tasks_Task_ *,
 IL2CPP_REGISTER_METHOD(0x02340ED0, IEnumerable_1_System_Threading_Tasks_Task_ *, FilterTasksFromWorkItems, (ThreadPoolTaskScheduler * __this, IEnumerable_1_System_Threading_IThreadPoolWorkItem_ * tpwItems));
 IL2CPP_REGISTER_METHOD(0x02341060, void, NotifyWorkItemProgress, (ThreadPoolTaskScheduler * __this));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_RequiresAtomicStartTransition, (ThreadPoolTaskScheduler * __this));
-IL2CPP_REGISTER_METHOD(0x02341070, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02341070, void, __cctor, ());
 }

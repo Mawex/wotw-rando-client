@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_TV_PlanetMars {
 IL2CPP_REGISTER_METHOD(0x020EC4D0, Material *, get_material, (CameraFilterPack_TV_PlanetMars * __this));

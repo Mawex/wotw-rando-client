@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Enemy3D {
 IL2CPP_REGISTER_METHOD(0x006C14C0, bool, get_FaceLeft, (Enemy3D * __this));

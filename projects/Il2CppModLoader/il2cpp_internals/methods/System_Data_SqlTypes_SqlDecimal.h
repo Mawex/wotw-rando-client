@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlDecimal {
 IL2CPP_REGISTER_METHOD(0x001E3420, uint8_t, CalculatePrecision, (SqlDecimal__Boxed * __this));
@@ -88,5 +88,5 @@ IL2CPP_REGISTER_METHOD(0x0013BB70, XmlSchema *, IXmlSerializable_GetSchema, (Sql
 IL2CPP_REGISTER_METHOD(0x001E3A00, void, IXmlSerializable_ReadXml, (SqlDecimal__Boxed * __this, XmlReader * reader));
 IL2CPP_REGISTER_METHOD(0x001E3A10, void, IXmlSerializable_WriteXml, (SqlDecimal__Boxed * __this, XmlWriter * writer));
 IL2CPP_REGISTER_METHOD(0x022AD760, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
-IL2CPP_REGISTER_METHOD(0x022AD8B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022AD8B0, void, __cctor, ());
 }

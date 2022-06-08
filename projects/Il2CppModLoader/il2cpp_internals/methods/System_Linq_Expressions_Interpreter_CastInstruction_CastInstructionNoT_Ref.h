@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::CastInstruction_CastInstructionNoT_Ref {
 IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (CastInstruction_CastInstructionNoT_Ref * __this, Type * t));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterEntity {
 IL2CPP_REGISTER_METHOD(0x00F13770, bool, LaserEnabled, (LaserShooterEntity * __this));

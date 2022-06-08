@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::AnimatedValueListener_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x019FB800, void, NotifyValueUpdated, (AnimatedValueListener_1_System_Object_ * __this, bool useDefaultValue));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlInt64 {
 IL2CPP_REGISTER_METHOD(0x001E3B70, void, __ctor, (SqlInt64__Boxed * __this, bool fNull));
@@ -44,5 +44,5 @@ IL2CPP_REGISTER_METHOD(0x0013BB70, XmlSchema *, IXmlSerializable_GetSchema, (Sql
 IL2CPP_REGISTER_METHOD(0x001E51B0, void, IXmlSerializable_ReadXml, (SqlInt64__Boxed * __this, XmlReader * reader));
 IL2CPP_REGISTER_METHOD(0x001E5330, void, IXmlSerializable_WriteXml, (SqlInt64__Boxed * __this, XmlWriter * writer));
 IL2CPP_REGISTER_METHOD(0x022B5DF0, XmlQualifiedName *, GetXsdType, (XmlSchemaSet * schemaSet));
-IL2CPP_REGISTER_METHOD(0x022B5F40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x022B5F40, void, __cctor, ());
 }

@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::JavaScriptUtils {
-IL2CPP_REGISTER_METHOD(0x0301B750, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0301B750, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x0301C5B0, Boolean__Array *, GetCharEscapeFlags, (StringEscapeHandling__Enum stringEscapeHandling, uint16_t quoteChar));
 IL2CPP_REGISTER_METHOD(0x0301C6E0, bool, ShouldEscapeJavaScriptString, (String * s, Boolean__Array * charEscapeFlags));
 IL2CPP_REGISTER_METHOD(0x0301C770, void, WriteEscapedJavaScriptString, (TextWriter * writer, String * s, uint16_t delimiter, bool appendDelimiters, Boolean__Array * charEscapeFlags, StringEscapeHandling__Enum stringEscapeHandling, IArrayPool_1_System_Char_ * bufferPool, Char__Array * * writeBuffer));

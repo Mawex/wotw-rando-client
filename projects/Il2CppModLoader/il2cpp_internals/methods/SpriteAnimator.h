@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SpriteAnimator {
 IL2CPP_REGISTER_METHOD(0x002FBD60, TextureAnimator *, get_TextureAnimator, (SpriteAnimator * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkXBoxOneSettings_PlatformAdvancedSettings {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, CopyTo, (AkXBoxOneSettings_PlatformAdvancedSettings * __this, AkPlatformInitSettings * settings));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CspParameters {
 IL2CPP_REGISTER_METHOD(0x005C3FF0, CspProviderFlags__Enum, get_Flags, (CspParameters * __this));

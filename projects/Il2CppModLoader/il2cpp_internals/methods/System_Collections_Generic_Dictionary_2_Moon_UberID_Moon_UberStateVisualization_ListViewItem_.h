@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::UberID_Moon::UberStateVisualization::ListViewItem_ {
 IL2CPP_REGISTER_METHOD(0x02BD24D0, ListViewItem *, get_Item, (Dictionary_2_Moon_UberID_Moon_UberStateVisualization_ListViewItem_ * __this, UberID * key));

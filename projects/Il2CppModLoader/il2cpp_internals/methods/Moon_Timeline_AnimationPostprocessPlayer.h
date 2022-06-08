@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::AnimationPostprocessPlayer {
 IL2CPP_REGISTER_METHOD(0x01BAFD80, void, OnUpdateEntity, (AnimationPostprocessPlayer * __this, float delta));

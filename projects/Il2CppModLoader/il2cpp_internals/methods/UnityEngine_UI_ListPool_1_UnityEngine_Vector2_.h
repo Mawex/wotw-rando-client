@@ -1,10 +1,10 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ListPool_1_UnityEngine::Vector2_ {
-IL2CPP_REGISTER_METHOD(0x02ACE750, List_1_UnityEngine_Vector2_ *, Get, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02ACE750, List_1_UnityEngine_Vector2_ *, Get, ());
 IL2CPP_REGISTER_METHODINFO(0x04718CF8, ListPool_1_UnityEngine_Vector2__Get__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02ACE8C0, void, Release, (List_1_UnityEngine_Vector2_ * toRelease));
 IL2CPP_REGISTER_METHODINFO(0x04758738, ListPool_1_UnityEngine_Vector2__Release__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02ACE6D0, void, Clear, (List_1_UnityEngine_Vector2_ * l));
-IL2CPP_REGISTER_METHOD(0x02ACEA40, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02ACEA40, void, __cctor, ());
 }

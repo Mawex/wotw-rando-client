@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_UberShaderPrewarmer_PrewarmedShader_ {
 IL2CPP_REGISTER_METHOD(0x00136440, UberShaderPrewarmer_PrewarmedShader, get_Current, (List_1_T_Enumerator_UberShaderPrewarmer_PrewarmedShader___Boxed * __this));

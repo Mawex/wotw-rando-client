@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRApplications {
 IL2CPP_REGISTER_METHOD(0x01676A30, void, __ctor, (CVRApplications * __this, void * pInterface));

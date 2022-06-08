@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Func_2_System::Dynamic::DynamicMetaObject_System::Dynamic::DynamicMetaObject_ {
 IL2CPP_REGISTER_METHOD(0x01852930, DynamicMetaObject *, Invoke, (Func_2_System_Dynamic_DynamicMetaObject_System_Dynamic_DynamicMetaObject_ * __this, DynamicMetaObject * arg));

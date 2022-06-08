@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::AnimationSample {
 IL2CPP_REGISTER_METHOD(0x0133E4D0, void, __ctor, (AnimationSample * __this, float shaderTime));

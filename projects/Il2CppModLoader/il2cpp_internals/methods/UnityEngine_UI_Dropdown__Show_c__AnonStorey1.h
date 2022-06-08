@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Dropdown__Show_c__AnonStorey1 {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Dropdown_Show_c_AnonStorey1 * __this));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Mono::Globalization::Unicode::Level2Map_ {
 IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_Mono_Globalization_Unicode_Level2Map_ * __this));

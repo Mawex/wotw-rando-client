@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PhotoshopWorldMapGenerator {
 IL2CPP_REGISTER_METHOD(0x014E96A0, Rect, get_Bounds, (PhotoshopWorldMapGenerator * __this));

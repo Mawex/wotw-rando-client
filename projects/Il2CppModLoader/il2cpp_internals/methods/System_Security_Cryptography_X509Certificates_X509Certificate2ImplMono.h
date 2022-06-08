@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono {
 IL2CPP_REGISTER_METHOD(0x0194FC60, bool, get_IsValid, (X509Certificate2ImplMono * __this));
@@ -47,5 +47,5 @@ IL2CPP_REGISTER_METHODINFO(0x0476DD68, X509Certificate2ImplMono_Verify__MethodIn
 IL2CPP_REGISTER_METHOD(0x002FB9F0, X509CertificateImplCollection *, get_IntermediateCertificates, (X509Certificate2ImplMono * __this));
 IL2CPP_REGISTER_METHOD(0x002FBB40, X509Certificate_2 *, get_MonoCertificate, (X509Certificate2ImplMono * __this));
 IL2CPP_REGISTER_METHOD(0x004C50A0, X509Certificate2Impl *, get_FallbackImpl, (X509Certificate2ImplMono * __this));
-IL2CPP_REGISTER_METHOD(0x021CB130, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x021CB130, void, __cctor, ());
 }

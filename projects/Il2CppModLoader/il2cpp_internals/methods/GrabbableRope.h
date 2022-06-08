@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::GrabbableRope {
 IL2CPP_REGISTER_METHOD(0x010790F0, Vector3, get_LastForceApplied, (GrabbableRope * __this));
@@ -31,5 +31,5 @@ IL2CPP_REGISTER_METHOD(0x0107B600, float, RopeMaxPosition, (GrabbableRope * __th
 IL2CPP_REGISTER_METHOD(0x0052A050, bool, IsRopeSlippery, (GrabbableRope * __this));
 IL2CPP_REGISTER_METHOD(0x0085E270, bool, CanHandStand, (GrabbableRope * __this));
 IL2CPP_REGISTER_METHOD(0x0107B690, void, __ctor, (GrabbableRope * __this));
-IL2CPP_REGISTER_METHOD(0x0107B6B0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0107B6B0, void, __cctor, ());
 }

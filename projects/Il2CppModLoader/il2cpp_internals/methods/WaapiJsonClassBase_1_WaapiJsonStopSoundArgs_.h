@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WaapiJsonClassBase_1_WaapiJsonStopSoundArgs_ {
 IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (WaapiJsonClassBase_1_WaapiJsonStopSoundArgs_ * __this));

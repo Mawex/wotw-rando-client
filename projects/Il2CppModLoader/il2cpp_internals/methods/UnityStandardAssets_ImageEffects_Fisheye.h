@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Fisheye {
 IL2CPP_REGISTER_METHOD(0x02D58740, bool, CheckResources, (Fisheye * __this));

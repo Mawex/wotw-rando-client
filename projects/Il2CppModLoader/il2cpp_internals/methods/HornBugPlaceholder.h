@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::HornBugPlaceholder {
 IL2CPP_REGISTER_METHOD(0x00B6D360, void, Spawn, (HornBugPlaceholder * __this));

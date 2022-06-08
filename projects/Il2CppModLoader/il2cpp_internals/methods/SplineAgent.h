@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SplineAgent {
 IL2CPP_REGISTER_METHOD(0x009A21F0, void, Awake, (SplineAgent * __this));

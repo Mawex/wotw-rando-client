@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_List_1_Moon::IAnimatedValueListener__ {
 IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_String_List_1_Moon_IAnimatedValueListener_ * __this, String * key, List_1_Moon_IAnimatedValueListener_ * * value));

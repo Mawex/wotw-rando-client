@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::PKCS12 {
 IL2CPP_REGISTER_METHOD(0x025DAA00, void, __ctor, (PKCS12 * __this));
@@ -33,8 +33,8 @@ IL2CPP_REGISTER_METHOD(0x025E3330, void, AddCertificate, (PKCS12 * __this, X509C
 IL2CPP_REGISTER_METHOD(0x025E38A0, void, RemoveCertificate, (PKCS12 * __this, X509Certificate * cert));
 IL2CPP_REGISTER_METHOD(0x025E38B0, void, RemoveCertificate, (PKCS12 * __this, X509Certificate * cert, IDictionary * attrs));
 IL2CPP_REGISTER_METHOD(0x025E3F40, Object *, Clone, (PKCS12 * __this));
-IL2CPP_REGISTER_METHOD(0x025E41E0, int32_t, get_MaximumPasswordLength, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x025E4280, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x025E41E0, int32_t, get_MaximumPasswordLength, ());
+IL2CPP_REGISTER_METHOD(0x025E4280, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x02923130, void, __ctor, (PKCS12_1 * __this));
 IL2CPP_REGISTER_METHOD(0x029234E0, void, __ctor, (PKCS12_1 * __this, Byte__Array * data));
 IL2CPP_REGISTER_METHOD(0x029235A0, void, __ctor, (PKCS12_1 * __this, Byte__Array * data, String * password));
@@ -95,7 +95,7 @@ IL2CPP_REGISTER_METHOD(0x029335B0, IDictionary *, GetAttributes, (PKCS12_1 * __t
 IL2CPP_REGISTER_METHOD(0x02933D90, void, SaveToFile, (PKCS12_1 * __this, String * filename));
 IL2CPP_REGISTER_METHODINFO(0x04717F70, PKCS12_1_SaveToFile__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02933F20, Object *, Clone, (PKCS12_1 * __this));
-IL2CPP_REGISTER_METHOD(0x029341C0, int32_t, get_MaximumPasswordLength, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029341C0, int32_t, get_MaximumPasswordLength, ());
 IL2CPP_REGISTER_METHOD(0x02934260, void, set_MaximumPasswordLength, (int32_t value));
 IL2CPP_REGISTER_METHODINFO(0x0478E320, PKCS12_1_set_MaximumPasswordLength__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x029343B0, Byte__Array *, LoadFile, (String * filename));
@@ -104,5 +104,5 @@ IL2CPP_REGISTER_METHOD(0x02934550, PKCS12_1 *, LoadFromFile, (String * filename)
 IL2CPP_REGISTER_METHODINFO(0x0478D068, PKCS12_1_LoadFromFile__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x02934700, PKCS12_1 *, LoadFromFile, (String * filename, String * password));
 IL2CPP_REGISTER_METHODINFO(0x0476CD70, PKCS12_1_LoadFromFile_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x029348D0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029348D0, void, __cctor, ());
 }

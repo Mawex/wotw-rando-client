@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::ExplosionDemo {
 IL2CPP_REGISTER_METHOD(0x022188A0, void, Start, (ExplosionDemo * __this));

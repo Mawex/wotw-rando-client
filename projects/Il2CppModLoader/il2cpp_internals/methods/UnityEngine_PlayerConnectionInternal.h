@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::PlayerConnectionInternal {
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayerConnectionInternal * __this));
@@ -12,12 +12,12 @@ IL2CPP_REGISTER_METHOD(0x02967700, void, IPlayerEditorConnectionNative_Unregiste
 IL2CPP_REGISTER_METHOD(0x029677D0, void, IPlayerEditorConnectionNative_Initialize, (PlayerConnectionInternal * __this));
 IL2CPP_REGISTER_METHOD(0x02967820, bool, IPlayerEditorConnectionNative_IsConnected, (PlayerConnectionInternal * __this));
 IL2CPP_REGISTER_METHOD(0x02967870, void, IPlayerEditorConnectionNative_DisconnectAll, (PlayerConnectionInternal * __this));
-IL2CPP_REGISTER_METHOD(0x02967820, bool, IsConnected, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x029677D0, void, Initialize, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02967820, bool, IsConnected, ());
+IL2CPP_REGISTER_METHOD(0x029677D0, void, Initialize, ());
 IL2CPP_REGISTER_METHOD(0x029678C0, void, RegisterInternal, (String * messageId));
 IL2CPP_REGISTER_METHOD(0x02967910, void, UnregisterInternal, (String * messageId));
 IL2CPP_REGISTER_METHOD(0x02967960, void, SendMessage, (String * messageId, Byte__Array * data, int32_t playerId));
 IL2CPP_REGISTER_METHOD(0x029679D0, bool, TrySendMessage, (String * messageId, Byte__Array * data, int32_t playerId));
-IL2CPP_REGISTER_METHOD(0x029675E0, void, PollInternal, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x02967870, void, DisconnectAll, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x029675E0, void, PollInternal, ());
+IL2CPP_REGISTER_METHOD(0x02967870, void, DisconnectAll, ());
 }

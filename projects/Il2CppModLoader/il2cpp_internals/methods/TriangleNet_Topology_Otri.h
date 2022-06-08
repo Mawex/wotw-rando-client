@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::Otri {
 IL2CPP_REGISTER_METHOD(0x00107C00, Triangle *, get_Triangle, (Otri__Boxed * __this));
@@ -40,5 +40,5 @@ IL2CPP_REGISTER_METHOD(0x0021F9A0, void, SegBond, (Otri__Boxed * __this, Osub * 
 IL2CPP_REGISTER_METHOD(0x0021F640, void, SegDissolve, (Otri__Boxed * __this, SubSegment * dummy));
 IL2CPP_REGISTER_METHOD(0x02AA2860, bool, IsDead, (Triangle * tria));
 IL2CPP_REGISTER_METHOD(0x02AA4980, void, Kill, (Triangle * tri));
-IL2CPP_REGISTER_METHOD(0x02AA49F0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02AA49F0, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkWwiseInitializationSettings_PlatformSettings {
 IL2CPP_REGISTER_METHOD(0x02706F50, void, IgnorePropertyValue, (AkWwiseInitializationSettings_PlatformSettings * __this, String * propertyPath));

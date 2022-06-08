@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CanBackOutCondition {
 IL2CPP_REGISTER_METHOD(0x00B21E90, bool, Validate, (CanBackOutCondition * __this, IContext * context));

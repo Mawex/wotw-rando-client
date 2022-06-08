@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon::AnimationParameter_Moon::AnimationParameter_Instance_ {
 IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_Moon_AnimationParameter_Moon_AnimationParameter_Instance_ * __this, AnimationParameter * key, AnimationParameter_Instance * value));

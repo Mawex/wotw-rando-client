@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::ElementTryParser_1_EntityTagHeaderValue_ {
 IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (ElementTryParser_1_EntityTagHeaderValue_ * __this, Object * object, void * method_1));

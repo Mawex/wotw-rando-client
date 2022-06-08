@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LegacyUnityTextFadeWordsAnimator {
 IL2CPP_REGISTER_METHOD(0x01130B00, String *, ColorToHex, (LegacyUnityTextFadeWordsAnimator * __this, Color32 color));

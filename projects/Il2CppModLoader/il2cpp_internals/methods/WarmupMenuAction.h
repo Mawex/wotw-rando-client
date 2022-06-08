@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::WarmupMenuAction {
 IL2CPP_REGISTER_METHOD(0x008D3640, void, Perform, (WarmupMenuAction * __this, IContext * context));

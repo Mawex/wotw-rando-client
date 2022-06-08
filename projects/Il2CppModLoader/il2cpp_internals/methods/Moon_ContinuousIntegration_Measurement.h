@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::ContinuousIntegration::Measurement {
 IL2CPP_REGISTER_METHOD(0x0318B230, void, __ctor, (Measurement * __this, String * statistic));

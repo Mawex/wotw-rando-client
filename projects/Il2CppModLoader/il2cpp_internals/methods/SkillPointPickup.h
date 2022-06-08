@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SkillPointPickup {
 IL2CPP_REGISTER_METHOD(0x006B52C0, void, OnCollectorCandidateTouch, (SkillPointPickup * __this, GameObject * collector));

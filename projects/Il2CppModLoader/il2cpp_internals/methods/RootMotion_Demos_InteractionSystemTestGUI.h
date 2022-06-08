@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::InteractionSystemTestGUI {
 IL2CPP_REGISTER_METHOD(0x022218B0, void, Awake, (InteractionSystemTestGUI * __this));

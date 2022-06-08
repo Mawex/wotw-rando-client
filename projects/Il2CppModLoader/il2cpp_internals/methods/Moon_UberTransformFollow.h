@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberTransformFollow {
 IL2CPP_REGISTER_METHOD(0x0256FF30, int32_t, get_TargetCount, (UberTransformFollow * __this));
@@ -24,5 +24,5 @@ IL2CPP_REGISTER_METHOD(0x02572FE0, float, ComputeLookRotation2D, (UberTransformF
 IL2CPP_REGISTER_METHOD(0x02573100, Vector3, ComputeLookRotation3D, (UberTransformFollow * __this, Vector3 from, Vector3 to));
 IL2CPP_REGISTER_METHOD(0x02573260, float, LinearRegressionBasedRotation2D, (UberTransformFollow * __this, Vector2 average));
 IL2CPP_REGISTER_METHOD(0x02573700, void, __ctor, (UberTransformFollow * __this));
-IL2CPP_REGISTER_METHOD(0x02573870, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x02573870, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::CullingCategoryUtility {
 IL2CPP_REGISTER_METHOD(0x00C53B80, bool, Register, (Renderer * renderer, uint32_t mask, Component_1 * logContext));

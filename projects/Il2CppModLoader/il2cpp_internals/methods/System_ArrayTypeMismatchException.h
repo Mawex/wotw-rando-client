@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ArrayTypeMismatchException {
 IL2CPP_REGISTER_METHOD(0x02298F80, void, __ctor, (ArrayTypeMismatchException * __this));

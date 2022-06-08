@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MovementProcessor {
 IL2CPP_REGISTER_METHOD(0x0111CA50, void, SetTargetLocalSpeed, (MovementProcessor * __this, Vector2 velocity));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::XmlNodeConverter {
 IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_DeserializeRootElementName, (XmlNodeConverter * __this));
@@ -47,5 +47,5 @@ IL2CPP_REGISTER_METHOD(0x01A62A50, bool, CanConvert, (XmlNodeConverter * __this,
 IL2CPP_REGISTER_METHOD(0x01A62B60, bool, IsXObject, (XmlNodeConverter * __this, Type * valueType));
 IL2CPP_REGISTER_METHOD(0x01A62C30, bool, IsXmlNode, (XmlNodeConverter * __this, Type * valueType));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XmlNodeConverter * __this));
-IL2CPP_REGISTER_METHOD(0x01A62D00, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01A62D00, void, __cctor, ());
 }

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LeverCondition {
 IL2CPP_REGISTER_METHOD(0x01137C20, bool, Validate, (LeverCondition * __this, IContext * context));

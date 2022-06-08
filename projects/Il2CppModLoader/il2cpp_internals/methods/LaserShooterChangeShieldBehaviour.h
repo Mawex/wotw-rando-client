@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::LaserShooterChangeShieldBehaviour {
 IL2CPP_REGISTER_METHOD(0x00F12F00, void, SetSettings, (LaserShooterChangeShieldBehaviour * __this));

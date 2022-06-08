@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::MeleeComboMove {
 IL2CPP_REGISTER_METHOD(0x01386280, void, ResetHitTracking, (MeleeComboMove * __this));
@@ -15,7 +15,7 @@ IL2CPP_REGISTER_METHOD(0x009C5D90, bool, get_WasAttackButtonReleasedDuringThisMo
 IL2CPP_REGISTER_METHOD(0x012025B0, float, get_MoveTime, (MeleeComboMove * __this));
 IL2CPP_REGISTER_METHOD(0x01386BB0, void, OnGroundCollision, (MeleeComboMove * __this, Vector2 hitPoint, Vector2 hitNormal, Vector3 surfaceNormal, SurfaceMaterialType__Enum surfaceType, bool forceEffect, bool charged));
 IL2CPP_REGISTER_METHOD(0x01387120, GameObject *, GetHitEffectPrefab, (MeleeComboMove * __this, DamageResult damageResult));
-IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ());
 IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_MoveHasFinished, (MeleeComboMove * __this));
 IL2CPP_REGISTER_METHOD(0x008A34C0, float, get_MoveCooldown, (MeleeComboMove * __this));
 IL2CPP_REGISTER_METHOD(0x00437A70, float, get_MoveCooldownTimer, (MeleeComboMove * __this));

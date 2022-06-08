@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Threading::WaitHandleCannotBeOpenedException {
 IL2CPP_REGISTER_METHOD(0x027AB880, void, __ctor, (WaitHandleCannotBeOpenedException * __this));

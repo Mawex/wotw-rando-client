@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Blend2DVertex_1_System::Object_ {
 IL2CPP_REGISTER_METHOD(0x002FB9D0, Object *, get_Data, (Blend2DVertex_1_System_Object_ * __this));

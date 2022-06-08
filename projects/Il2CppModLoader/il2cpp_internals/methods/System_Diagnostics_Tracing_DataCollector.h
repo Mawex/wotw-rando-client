@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::DataCollector {
 IL2CPP_REGISTER_METHOD(0x0013DDE0, void, Enable, (DataCollector__Boxed * __this, uint8_t * scratch, int32_t scratchSize, EventSource_EventData * datas, int32_t dataCount, GCHandle * pins, int32_t pinCount));

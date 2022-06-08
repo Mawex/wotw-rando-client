@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DebugMeshBounds {
 IL2CPP_REGISTER_METHOD(0x00DF8860, void, OnEnable, (DebugMeshBounds * __this));

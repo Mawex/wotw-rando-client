@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::DatadogMetricsEvent {
 IL2CPP_REGISTER_METHOD(0x02E90170, String *, get_Url, (DatadogMetricsEvent * __this));

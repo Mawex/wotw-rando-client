@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::VirtualMoonTimelineCustomGroup {
 IL2CPP_REGISTER_METHOD(0x003FF8B0, VirtualTimelineRepresentationGroup__Enum, get_Group, (VirtualMoonTimelineCustomGroup * __this));

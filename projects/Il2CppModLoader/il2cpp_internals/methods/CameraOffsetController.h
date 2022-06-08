@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::CameraOffsetController {
-IL2CPP_REGISTER_METHOD(0x01696F20, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01696F20, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x01697000, Vector3, GetExtraZoomAmount, (CameraOffsetController * __this, float offset));
 IL2CPP_REGISTER_METHOD(0x0064D960, float, get_ExtraZoomApplied, (CameraOffsetController * __this));
 IL2CPP_REGISTER_METHOD(0x0064D970, void, set_ExtraZoomApplied, (CameraOffsetController * __this, float value));
@@ -29,5 +29,5 @@ IL2CPP_REGISTER_METHOD(0x016989B0, void, GetCurrentOffsetTarget, (CameraOffsetCo
 IL2CPP_REGISTER_METHOD(0x0169A0F0, void, UpdateOffset, (CameraOffsetController * __this, bool instant, float timeDelta));
 IL2CPP_REGISTER_METHOD(0x0169A470, void, UpdateMultiplier, (CameraOffsetController * __this, float deltaTime));
 IL2CPP_REGISTER_METHOD(0x0169A690, void, __ctor, (CameraOffsetController * __this));
-IL2CPP_REGISTER_METHOD(0x0169AB50, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x0169AB50, void, __cctor, ());
 }

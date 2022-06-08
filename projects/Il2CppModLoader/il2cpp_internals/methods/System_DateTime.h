@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::DateTime {
 IL2CPP_REGISTER_METHOD(0x00213D60, void, __ctor, (DateTime__Boxed * __this, int64_t ticks));
@@ -77,9 +77,9 @@ IL2CPP_REGISTER_METHOD(0x00214490, DateTimeKind__Enum, get_Kind, (DateTime__Boxe
 IL2CPP_REGISTER_METHOD(0x002144C0, int32_t, get_Millisecond, (DateTime__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x001C5E70, int32_t, get_Minute, (DateTime__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x001C5E00, int32_t, get_Month, (DateTime__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x028A4000, DateTime, get_Now, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x028A4150, DateTime, get_UtcNow, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x028A4210, int64_t, GetSystemTimeAsFileTime, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028A4000, DateTime, get_Now, ());
+IL2CPP_REGISTER_METHOD(0x028A4150, DateTime, get_UtcNow, ());
+IL2CPP_REGISTER_METHOD(0x028A4210, int64_t, GetSystemTimeAsFileTime, ());
 IL2CPP_REGISTER_METHOD(0x001C5EC0, int32_t, get_Second, (DateTime__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00213E60, int64_t, get_Ticks, (DateTime__Boxed * __this));
 IL2CPP_REGISTER_METHOD(0x00214510, TimeSpan, get_TimeOfDay, (DateTime__Boxed * __this));
@@ -157,5 +157,5 @@ IL2CPP_REGISTER_METHODINFO(0x04798868, DateTime_System_IConvertible_ToDecimal__M
 IL2CPP_REGISTER_METHOD(0x00107C00, DateTime, IConvertible_ToDateTime, (DateTime__Boxed * __this, IFormatProvider * provider));
 IL2CPP_REGISTER_METHOD(0x00214AB0, Object *, IConvertible_ToType, (DateTime__Boxed * __this, Type * type, IFormatProvider * provider));
 IL2CPP_REGISTER_METHOD(0x028A6930, bool, TryCreate, (int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, DateTime * result));
-IL2CPP_REGISTER_METHOD(0x028A6BD0, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x028A6BD0, void, __cctor, ());
 }

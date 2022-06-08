@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SurfaceMaterialTimelinePlayer {
 IL2CPP_REGISTER_METHOD(0x00672AD0, void, Update, (SurfaceMaterialTimelinePlayer * __this, bool isMoving));

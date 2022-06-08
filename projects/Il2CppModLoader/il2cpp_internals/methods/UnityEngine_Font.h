@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Font {
 IL2CPP_REGISTER_METHOD(0x0319AA50, void, __ctor, (Font * __this));

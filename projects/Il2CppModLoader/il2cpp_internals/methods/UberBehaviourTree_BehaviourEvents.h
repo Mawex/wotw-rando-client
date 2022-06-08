@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::BehaviourEvents {
 IL2CPP_REGISTER_METHOD(0x013DF8E0, void, Send, (BehaviourEvents * __this, IBehaviourEvent * e));

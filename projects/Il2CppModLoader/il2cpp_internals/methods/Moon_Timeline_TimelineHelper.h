@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineHelper {
 IL2CPP_REGISTER_METHOD(0x01E88350, EntityId, GetEntityId, (ITimelineEntityParent * timeline, ITimelineEntity * entity));
@@ -33,7 +33,7 @@ IL2CPP_REGISTER_METHOD(0x01E8B680, bool, GetToAndFromCommonParent, (MoonTimeline
 IL2CPP_REGISTER_METHOD(0x01E8BA80, float, GetGlobalTimeOffset, (ITimelineEntity * entity, IDictionary_2_Moon_Timeline_ITimelineEntity_Moon_Timeline_ITimelineEntityParent_ * map));
 IL2CPP_REGISTER_METHOD(0x01E8BC10, Dictionary_2_Moon_Timeline_ITimelineEntity_Moon_Timeline_ITimelineEntityParent_ *, BuildChildParentMap, (ITimelineEntityParent * timelineRoot));
 IL2CPP_REGISTER_METHOD(0x01E8BF00, void, BuildChildParentMapRecursive, (ITimelineEntity * entity, ITimelineEntityParent * parent, Dictionary_2_Moon_Timeline_ITimelineEntity_Moon_Timeline_ITimelineEntityParent_ * * map));
-IL2CPP_REGISTER_METHOD(0x01E8C110, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01E8C110, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x01552BC0, void, BreakEverythingConstrainedTo, (MoonTimeline * timeline, Object * timelineEntity, int32_t eventId));
 IL2CPP_REGISTER_METHODINFO(0x04785FB8, TimelineHelper_BreakEverythingConstrainedTo_2__MethodInfo);
 }

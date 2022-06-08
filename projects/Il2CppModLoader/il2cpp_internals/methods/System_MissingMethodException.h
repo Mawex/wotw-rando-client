@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::MissingMethodException {
 IL2CPP_REGISTER_METHOD(0x0226A870, void, __ctor, (MissingMethodException * __this));

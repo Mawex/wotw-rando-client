@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Dropdown_OptionDataList {
 IL2CPP_REGISTER_METHOD(0x024ACEB0, void, __ctor, (Dropdown_OptionDataList * __this));

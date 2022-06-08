@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::EnergyPlantVisuals {
 IL2CPP_REGISTER_METHOD(0x00C8B510, void, GetManagedEarlyZDynamicGraphicTargets, (EnergyPlantVisuals * __this, List_1_UnityEngine_GameObject_ * targets));

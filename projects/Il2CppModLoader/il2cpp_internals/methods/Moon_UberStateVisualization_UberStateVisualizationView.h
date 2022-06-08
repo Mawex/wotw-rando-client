@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::UberStateVisualizationView {
 IL2CPP_REGISTER_METHOD(0x030C4940, void, __ctor, (UberStateVisualizationView * __this));

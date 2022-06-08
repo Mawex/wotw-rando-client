@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::InventoryAbilityItem {
 IL2CPP_REGISTER_METHOD(0x0063EA70, bool, get_HasAbility, (InventoryAbilityItem * __this));

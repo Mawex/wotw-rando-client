@@ -1,7 +1,7 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SandWormEntity {
-IL2CPP_REGISTER_METHOD(0x00C0C9D0, void, ResetStatics, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C0C9D0, void, ResetStatics, ());
 IL2CPP_REGISTER_METHOD(0x00C0CB50, int32_t, get_CurrentFrame, (SandWormEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00C0CBA0, bool, get_IsSuspended, (SandWormEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00C0CBB0, void, set_IsSuspended, (SandWormEntity * __this, bool value));
@@ -11,10 +11,10 @@ IL2CPP_REGISTER_METHOD(0x00C0CD90, bool, get_IsTargetInWaterAir, (SandWormEntity
 IL2CPP_REGISTER_METHOD(0x00C0CE70, bool, get_IsTargetInSameHabitat, (SandWormEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00C0CFB0, bool, get_IsTargetAbove, (SandWormEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00C0D180, NavigationType__Enum, get_CurrentTailAreaType, (SandWormEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00C0D300, int32_t, get_SandWormActiveBodyWaveCountPropId, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C0D450, int32_t, get_SandWormActiveSquetchCountPropId, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C0D5A0, int32_t, get_SandWormBodyWaveParamsParamId, (MethodInfo * method));
-IL2CPP_REGISTER_METHOD(0x00C0D6F0, int32_t, get_SandWormSquetchParamsParamId, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C0D300, int32_t, get_SandWormActiveBodyWaveCountPropId, ());
+IL2CPP_REGISTER_METHOD(0x00C0D450, int32_t, get_SandWormActiveSquetchCountPropId, ());
+IL2CPP_REGISTER_METHOD(0x00C0D5A0, int32_t, get_SandWormBodyWaveParamsParamId, ());
+IL2CPP_REGISTER_METHOD(0x00C0D6F0, int32_t, get_SandWormSquetchParamsParamId, ());
 IL2CPP_REGISTER_METHOD(0x00C0D840, bool, get_BodyAnimationPlaying, (SandWormEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00C0D850, SandTrail *, get_Trail, (SandWormEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00C0D860, float, get_EffectiveHeadRotationSpeed, (SandWormEntity * __this));
@@ -94,5 +94,5 @@ IL2CPP_REGISTER_METHOD(0x00C19420, void, DeathTimelineEnded, (SandWormEntity * _
 IL2CPP_REGISTER_METHOD(0x00C19430, Vector3, ModifyKickbackForce, (SandWormEntity * __this, Vector3 force, Damage * damage, bool applyDeathModification));
 IL2CPP_REGISTER_METHOD(0x00C19590, void, OnDestroy, (SandWormEntity * __this));
 IL2CPP_REGISTER_METHOD(0x00C19BC0, void, __ctor, (SandWormEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00C1A410, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x00C1A410, void, __cctor, ());
 }

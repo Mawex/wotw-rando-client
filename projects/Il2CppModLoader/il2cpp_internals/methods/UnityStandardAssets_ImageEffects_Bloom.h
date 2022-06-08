@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Bloom {
 IL2CPP_REGISTER_METHOD(0x025111D0, bool, CheckResources, (Bloom * __this));

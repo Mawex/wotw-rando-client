@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinRide_CartRidingState {
 IL2CPP_REGISTER_METHOD(0x005D3AC0, void, OnBegin, (SeinRide_CartRidingState * __this, IRideable * rideable, bool skipMountAnimation));

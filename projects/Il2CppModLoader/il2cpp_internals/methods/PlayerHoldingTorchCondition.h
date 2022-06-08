@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::PlayerHoldingTorchCondition {
 IL2CPP_REGISTER_METHOD(0x0140F850, bool, Validate, (PlayerHoldingTorchCondition * __this, IContext * context));

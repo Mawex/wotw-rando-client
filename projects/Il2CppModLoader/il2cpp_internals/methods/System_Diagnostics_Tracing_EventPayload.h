@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventPayload {
 IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (EventPayload * __this, List_1_System_String_ * payloadNames, List_1_System_Object_ * payloadValues));

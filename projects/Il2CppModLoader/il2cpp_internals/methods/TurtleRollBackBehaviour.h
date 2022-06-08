@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::TurtleRollBackBehaviour {
 IL2CPP_REGISTER_METHOD(0x013D85F0, void, OnEnterTask, (TurtleRollBackBehaviour * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple {
 IL2CPP_REGISTER_METHOD(0x00249B10, bool, Equals, (ValueTuple__Boxed * __this, Object * obj));

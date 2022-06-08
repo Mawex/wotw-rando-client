@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::VolumePatrolBehaviourNew {
 IL2CPP_REGISTER_METHOD(0x002FBD30, void, SetPatrolPointPredicate, (VolumePatrolBehaviourNew * __this, Predicate_1_UnityEngine_Vector3_ * predicate));

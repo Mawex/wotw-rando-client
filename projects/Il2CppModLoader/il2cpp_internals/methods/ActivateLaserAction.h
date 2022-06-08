@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::ActivateLaserAction {
 IL2CPP_REGISTER_METHOD(0x004C88F0, void, Perform, (ActivateLaserAction * __this, IContext * context));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsCyclicReferenceManager {
 IL2CPP_REGISTER_METHOD(0x0131C5E0, void, Enter, (fsCyclicReferenceManager * __this));

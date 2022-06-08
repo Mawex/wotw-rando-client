@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_Int32_Boolean_ {
 IL2CPP_REGISTER_METHOD(0x001508B0, void, __ctor, (ValueTuple_2_Int32_Boolean___Boxed * __this, int32_t item1, bool item2));

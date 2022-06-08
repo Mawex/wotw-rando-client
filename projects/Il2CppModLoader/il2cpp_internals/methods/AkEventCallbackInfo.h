@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::AkEventCallbackInfo {
 IL2CPP_REGISTER_METHOD(0x026E3EB0, void, __ctor, (AkEventCallbackInfo * __this, void * cPtr, bool cMemoryOwn));

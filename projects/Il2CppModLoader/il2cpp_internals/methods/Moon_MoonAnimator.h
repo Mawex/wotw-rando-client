@@ -1,9 +1,9 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator {
 IL2CPP_REGISTER_METHOD(0x01B17B10, MoonAnimator_AnimationInstance *, CreateAnimationInstance, (MoonAnimator * __this, IAnimation * anim, bool previewMode));
 IL2CPP_REGISTER_METHOD(0x01B17F90, void, DestroyAnimationInstance, (MoonAnimator * __this, MoonAnimator_AnimationInstance * animationInstance));
-IL2CPP_REGISTER_METHOD(0x01B17FD0, void, EnsureNoAnimatorInPreviewMode, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01B17FD0, void, EnsureNoAnimatorInPreviewMode, ());
 IL2CPP_REGISTER_METHOD(0x01B18300, bool, get_IsInPreview, (MoonAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x00A479E0, float, get_PreviewTime, (MoonAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x01B18310, void, set_IsTemporaryForPreview, (MoonAnimator * __this, bool value));
@@ -109,7 +109,7 @@ IL2CPP_REGISTER_METHOD(0x01B217F0, bool, ContainsLayer, (MoonAnimator * __this, 
 IL2CPP_REGISTER_METHOD(0x01B218F0, Playable, GetRootPlayable, (MoonAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x01B21A70, void, UpdateSystemRegistration, (MoonAnimator * __this));
 IL2CPP_REGISTER_METHOD(0x01B21CF0, void, __ctor, (MoonAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x01B23150, void, __cctor, (MethodInfo * method));
+IL2CPP_REGISTER_METHOD(0x01B23150, void, __cctor, ());
 IL2CPP_REGISTER_METHOD(0x015F1D50, Object *, GetAnimationInstanceFromPool, (MoonAnimator * __this, List_1_System_Object_ * pool, bool isPreview));
 IL2CPP_REGISTER_METHOD(0x015F1D50, MoonAnimator_ClipInstance *, GetAnimationInstanceFromPool, (MoonAnimator * __this, List_1_Moon_MoonAnimator_ClipInstance_ * pool, bool isPreview));
 IL2CPP_REGISTER_METHODINFO(0x04732B50, MoonAnimator_GetAnimationInstanceFromPool_1__MethodInfo);

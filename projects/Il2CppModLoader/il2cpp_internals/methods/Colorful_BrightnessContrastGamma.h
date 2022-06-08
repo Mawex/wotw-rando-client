@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::Colorful::BrightnessContrastGamma {
 IL2CPP_REGISTER_METHOD(0x0303F920, void, OnRenderImage, (BrightnessContrastGamma * __this, RenderTexture * source, RenderTexture * destination));

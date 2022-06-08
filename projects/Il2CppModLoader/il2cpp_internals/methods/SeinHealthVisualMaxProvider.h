@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::SeinHealthVisualMaxProvider {
 IL2CPP_REGISTER_METHOD(0x00FFF880, float, GetFloatValue, (SeinHealthVisualMaxProvider * __this));

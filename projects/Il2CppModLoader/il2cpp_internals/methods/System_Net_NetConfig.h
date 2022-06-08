@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Net::NetConfig {
 IL2CPP_REGISTER_METHOD(0x01E71D00, void, __ctor, (NetConfig * __this));

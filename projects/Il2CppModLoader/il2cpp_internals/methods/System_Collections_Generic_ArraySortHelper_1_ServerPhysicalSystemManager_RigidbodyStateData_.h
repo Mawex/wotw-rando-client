@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_ServerPhysicalSystemManager_RigidbodyStateData_ {
 IL2CPP_REGISTER_METHOD(0x02FF02B0, void, Sort, (ServerPhysicalSystemManager_RigidbodyStateData__Array * keys, int32_t index, int32_t length, IComparer_1_ServerPhysicalSystemManager_RigidbodyStateData_ * comparer));

@@ -1,4 +1,4 @@
-using namespace app;
+#include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine::Experimental::XR::MeshGenerationResult_ {
 IL2CPP_REGISTER_METHOD(0x012DE680, void, Invoke, (Action_1_UnityEngine_Experimental_XR_MeshGenerationResult_ * __this, MeshGenerationResult obj));
