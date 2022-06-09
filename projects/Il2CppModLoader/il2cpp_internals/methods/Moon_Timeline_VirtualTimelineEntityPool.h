@@ -1,7 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::Moon_Timeline::VirtualTimelineEntityPool {
-    IL2CPP_REGISTER_METHOD(0x01E92C90, void, ReturnToPool, (app::VirtualTimelineEntityPool * this_ptr, app::IPoolableTimelineEntity * entity));
-    IL2CPP_REGISTER_METHOD(0x01E92EE0, void, __ctor, (app::VirtualTimelineEntityPool * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x01B34C30, bool, TryToGetEntity, (app::VirtualTimelineEntityPool * this_ptr, app::IContext * reset_context, app::Object * * entity));
-}

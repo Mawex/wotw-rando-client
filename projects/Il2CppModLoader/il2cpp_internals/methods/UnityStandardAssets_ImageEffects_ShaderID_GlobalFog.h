@@ -1,5 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::UnityStandardAssets_ImageEffects::ShaderID_GlobalFog {
-    IL2CPP_REGISTER_METHOD(0x02D659B0, void, __cctor, ());
-}

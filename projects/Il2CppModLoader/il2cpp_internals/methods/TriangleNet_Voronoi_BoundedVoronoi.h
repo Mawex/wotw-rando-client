@@ -1,9 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::TriangleNet_Voronoi::BoundedVoronoi {
-    IL2CPP_REGISTER_METHOD(0x02AA7800, void, __ctor_1, (app::BoundedVoronoi * this_ptr, app::Mesh_1 * mesh));
-    IL2CPP_REGISTER_METHOD(0x02AA7990, void, __ctor_2, (app::BoundedVoronoi * this_ptr, app::Mesh_1 * mesh, app::IVoronoiFactory * factory, app::IPredicates * predicates));
-    IL2CPP_REGISTER_METHOD(0x02AA7AA0, void, PostProcess, (app::BoundedVoronoi * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x02AA7DC0, void, HandleCase1, (app::BoundedVoronoi * this_ptr, app::HalfEdge * edge, app::Vertex * v1, app::Vertex * v2));
-    IL2CPP_REGISTER_METHOD(0x02AA8060, void, HandleCase2, (app::BoundedVoronoi * this_ptr, app::HalfEdge * edge, app::Vertex * v1, app::Vertex * v2));
-}

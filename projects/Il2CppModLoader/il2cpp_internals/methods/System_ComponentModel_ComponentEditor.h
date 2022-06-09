@@ -1,6 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::System_ComponentModel::ComponentEditor {
-    IL2CPP_REGISTER_METHOD(0x024A9E40, bool, EditComponent, (app::ComponentEditor * this_ptr, app::Object * component));
-    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ComponentEditor * this_ptr));
-}

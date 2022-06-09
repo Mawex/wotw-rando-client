@@ -38,6 +38,12 @@ namespace app::methods::RuntimeSceneMetaData {
     IL2CPP_REGISTER_METHOD(0x0137F5E0, int32_t, GetHashCode_1, (app::RuntimeSceneMetaData * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0137F6C0, bool, Equals_3, (app::RuntimeSceneMetaData * this_ptr, app::RuntimeSceneMetaData * x, app::RuntimeSceneMetaData * y));
     IL2CPP_REGISTER_METHOD(0x0137F7E0, int32_t, GetHashCode_2, (app::RuntimeSceneMetaData * this_ptr, app::RuntimeSceneMetaData * obj));
-    IL2CPP_REGISTER_METHOD(0x0137F8C0, bool, operator____1, (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b));
-    IL2CPP_REGISTER_METHOD(0x0137F9C0, bool, operator____2, (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b));
+    IL2CPP_REGISTER_METHOD(0x0137F8C0, bool, op_Equality, (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b));
+    IL2CPP_REGISTER_METHOD(0x0137F9C0, bool, op_Inequality, (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b));
+    operator == (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b) {
+        return op_Equality(a, b);
+    }
+    operator != (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b) {
+        return op_Inequality(a, b);
+    }
 }

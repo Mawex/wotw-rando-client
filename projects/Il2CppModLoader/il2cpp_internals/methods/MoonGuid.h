@@ -12,8 +12,8 @@ namespace app::methods::MoonGuid {
     IL2CPP_REGISTER_METHOD(0x00F50930, void, Parse_3, (app::MoonGuid * this_ptr, app::String * guid));
     IL2CPP_REGISTER_METHOD(0x00F50B80, app::Byte__Array *, ToByteArray, (app::MoonGuid * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F51090, app::String *, get_GUIDString, (app::MoonGuid * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00F510B0, bool, operator____1, (app::MoonGuid * a, app::MoonGuid * b));
-    IL2CPP_REGISTER_METHOD(0x00F510E0, bool, operator____2, (app::MoonGuid * a, app::MoonGuid * b));
+    IL2CPP_REGISTER_METHOD(0x00F510B0, bool, op_Equality, (app::MoonGuid * a, app::MoonGuid * b));
+    IL2CPP_REGISTER_METHOD(0x00F510E0, bool, op_Inequality, (app::MoonGuid * a, app::MoonGuid * b));
     IL2CPP_REGISTER_METHOD(0x00F51090, app::String *, ToString, (app::MoonGuid * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F511C0, void, UpdateString, (app::MoonGuid * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F51540, bool, Equals_1, (app::MoonGuid * this_ptr, app::Object * obj));
@@ -24,4 +24,10 @@ namespace app::methods::MoonGuid {
     IL2CPP_REGISTER_METHOD(0x00F51830, void, Load, (app::MoonGuid * this_ptr, app::UberStateArchive * ar));
     IL2CPP_REGISTER_METHOD(0x00F51920, void, Save_2, (app::MoonGuid * this_ptr, app::BinaryWriter * binary_writer));
     IL2CPP_REGISTER_METHOD(0x00F519A0, void, __cctor, ());
+    operator == (app::MoonGuid * a, app::MoonGuid * b) {
+        return op_Equality(a, b);
+    }
+    operator != (app::MoonGuid * a, app::MoonGuid * b) {
+        return op_Inequality(a, b);
+    }
 }

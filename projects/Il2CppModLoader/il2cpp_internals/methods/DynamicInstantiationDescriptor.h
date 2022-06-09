@@ -5,8 +5,8 @@ namespace app::methods::DynamicInstantiationDescriptor {
     IL2CPP_REGISTER_METHOD(0x030DC4C0, bool, Equals_1, (app::DynamicInstantiationDescriptor * this_ptr, app::DynamicInstantiationDescriptor * other));
     IL2CPP_REGISTER_METHOD(0x030DC670, bool, Equals_2, (app::DynamicInstantiationDescriptor * this_ptr, app::Object * obj));
     IL2CPP_REGISTER_METHOD(0x030DC760, int32_t, GetHashCode, (app::DynamicInstantiationDescriptor * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x030DC880, bool, operator____1, (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right));
-    IL2CPP_REGISTER_METHOD(0x030DC8A0, bool, operator____2, (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right));
+    IL2CPP_REGISTER_METHOD(0x030DC880, bool, op_Equality, (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right));
+    IL2CPP_REGISTER_METHOD(0x030DC8A0, bool, op_Inequality, (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right));
     IL2CPP_REGISTER_METHOD(0x030DC980, app::String *, ToString, (app::DynamicInstantiationDescriptor * this_ptr));
     IL2CPP_REGISTER_METHOD(0x030DCA90, app::Dictionary_2_System_Type_List_1_DynamicInstantiationDescriptor_ReflectionInfo_ *, get_ReflectionCache, ());
     IL2CPP_REGISTER_METHOD(0x030DCC60, void, ClearCache, ());
@@ -21,4 +21,10 @@ namespace app::methods::DynamicInstantiationDescriptor {
     IL2CPP_REGISTER_METHODINFO(0x047148F0, DynamicInstantiationDescriptor_FromMonoBehaviourOld__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x030DFFF0, app::List_1_DynamicInstantiationDescriptor_ *, FromMonoBehaviour, (app::MonoBehaviour * component));
     IL2CPP_REGISTER_METHOD(0x030E01D0, void, __cctor, ());
+    operator == (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right) {
+        return op_Equality(left, right);
+    }
+    operator != (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right) {
+        return op_Inequality(left, right);
+    }
 }

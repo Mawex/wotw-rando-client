@@ -1,6 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::System_Data::Listeners_1_TElem__Action_4_DataViewListener_DataViewListener_System_ComponentModel_ListChangedEventArgs_System_Boolean_System_Boolean_ {
-    IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Listeners_1_TElem_Action_4_DataViewListener_DataViewListener_System_ComponentModel_ListChangedEventArgs_System_Boolean_System_Boolean_ * this_ptr, app::Object * object, void * method_1));
-    IL2CPP_REGISTER_METHODINFO(0x04705198, Listeners_1_TElem_Action_4_DataViewListener_DataViewListener_System_ComponentModel_ListChangedEventArgs_System_Boolean_System_Boolean___ctor__MethodInfo);
-}

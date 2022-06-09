@@ -1,6 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::RootMotion_Demos::PickUpBox {
-    IL2CPP_REGISTER_METHOD(0x0222CA40, void, RotatePivot, (app::PickUpBox * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0222CA30, void, __ctor, (app::PickUpBox * this_ptr));
-}
