@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Reflection::Assembly_UnmanagedMemoryStreamForModule {
-IL2CPP_REGISTER_METHOD(0x022838D0, void, __ctor, (app::Assembly_UnmanagedMemoryStreamForModule * this_ptr, app::uint8_t * pointer, int64_t length, app::Module * module));
-IL2CPP_REGISTER_METHOD(0x022839C0, void, Dispose, (app::Assembly_UnmanagedMemoryStreamForModule * this_ptr, bool disposing));
+    IL2CPP_REGISTER_METHOD(0x022838D0, void, __ctor, (app::Assembly_UnmanagedMemoryStreamForModule * this_ptr, uint8_t * pointer, int64_t length, app::Module * module));
+    IL2CPP_REGISTER_METHOD(0x022839C0, void, Dispose, (app::Assembly_UnmanagedMemoryStreamForModule * this_ptr, bool disposing));
 }

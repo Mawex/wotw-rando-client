@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::SimpleFPS {
-    IL2CPP_REGISTER_METHOD(0x0073ECE0, Color, _getColorForLightCount, (app::SimpleFPS * this_ptr, int32_t lights));
-    IL2CPP_REGISTER_METHOD(0x0073ED40, Color, _getColorForReflectionCount, (app::SimpleFPS * this_ptr, int32_t lights));
-    IL2CPP_REGISTER_METHOD(0x0073ED40, Color, _getColorForGodrayCount, (app::SimpleFPS * this_ptr, int32_t lights));
+    IL2CPP_REGISTER_METHOD(0x0073ECE0, app::Color, _getColorForLightCount, (app::SimpleFPS * this_ptr, int32_t lights));
+    IL2CPP_REGISTER_METHOD(0x0073ED40, app::Color, _getColorForReflectionCount, (app::SimpleFPS * this_ptr, int32_t lights));
+    IL2CPP_REGISTER_METHOD(0x0073ED40, app::Color, _getColorForGodrayCount, (app::SimpleFPS * this_ptr, int32_t lights));
     IL2CPP_REGISTER_METHOD(0x0073EDA0, int32_t, get_WorstHistoryAverage, (app::SimpleFPS * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0073EDB0, void, Awake, (app::SimpleFPS * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0073F250, void, Reset, (app::SimpleFPS * this_ptr));
@@ -22,7 +22,7 @@ namespace app::methods::SimpleFPS {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, RestartSecond, (app::SimpleFPS * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00741600, void, Draw, (app::SimpleFPS * this_ptr));
     IL2CPP_REGISTER_METHOD(0x007444E0, void, DrawMemoryStuff, (app::SimpleFPS * this_ptr, bool really_really_simple, int32_t x, int32_t y));
-    IL2CPP_REGISTER_METHOD(0x007456E0, Color, GetDRSColor, (app::SimpleFPS * this_ptr, int32_t x, int32_t y));
+    IL2CPP_REGISTER_METHOD(0x007456E0, app::Color, GetDRSColor, (app::SimpleFPS * this_ptr, int32_t x, int32_t y));
     IL2CPP_REGISTER_METHOD(0x00745750, void, DrawDrsMagic, (app::SimpleFPS * this_ptr, int32_t x, int32_t y));
     IL2CPP_REGISTER_METHOD(0x007458F0, void, DrawRect, (app::SimpleFPS * this_ptr, float x1, float y1, float x2, float y2));
     IL2CPP_REGISTER_METHOD(0x00745980, void, DrawFloat, (app::SimpleFPS * this_ptr, float value, int32_t x, int32_t y));
@@ -31,11 +31,11 @@ namespace app::methods::SimpleFPS {
     IL2CPP_REGISTER_METHOD(0x00745EB0, void, DrawTimeWithBackgroundPadded, (app::SimpleFPS * this_ptr, int32_t value, app::Color background_color, app::Color text_color, int32_t x, int32_t y));
     IL2CPP_REGISTER_METHOD(0x00746240, void, DrawIntWithBackground, (app::SimpleFPS * this_ptr, int32_t value, app::Color background_color, app::Color text_color, int32_t x, int32_t y));
     IL2CPP_REGISTER_METHOD(0x007467C0, void, DrawIntWithBackgroundPadded, (app::SimpleFPS * this_ptr, int32_t value, app::Color background_color, app::Color text_color, int32_t x, int32_t y));
-    IL2CPP_REGISTER_METHOD(0x00746C80, void, DrawString, (app::SimpleFPS * this_ptr, app::String* str, int32_t x_offset, int32_t y_offset));
+    IL2CPP_REGISTER_METHOD(0x00746C80, void, DrawString, (app::SimpleFPS * this_ptr, app::String * str, int32_t x_offset, int32_t y_offset));
     IL2CPP_REGISTER_METHOD(0x00746DC0, void, DrawLetter_1, (app::SimpleFPS * this_ptr, uint16_t c, int32_t x_offset, int32_t y_offset));
     IL2CPP_REGISTER_METHOD(0x00746DF0, void, DrawLetter_2, (app::SimpleFPS * this_ptr, int32_t letter, int32_t x_offset, int32_t y_offset));
     IL2CPP_REGISTER_METHOD(0x00747130, int32_t, LetterOffset, (app::SimpleFPS * this_ptr, int32_t letter));
-    IL2CPP_REGISTER_METHOD(0x007471E0, void, DrawDebugVideoString, (app::SimpleFPS * this_ptr, app::String* text, float time));
+    IL2CPP_REGISTER_METHOD(0x007471E0, void, DrawDebugVideoString, (app::SimpleFPS * this_ptr, app::String * text, float time));
     IL2CPP_REGISTER_METHOD(0x00747370, void, __ctor, (app::SimpleFPS * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00747EC0, void, __cctor, ());
-} // namespace app::methods::SimpleFPS
+}

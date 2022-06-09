@@ -15,4 +15,4 @@ namespace app::methods::fsm::State___c {
     IL2CPP_REGISTER_METHODINFO(0x04745518, State_c_1___ctor_b__5_1__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__5_2, (app::State_c_1 * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x0478C818, State_c_1___ctor_b__5_2__MethodInfo);
-} // namespace app::methods::fsm::State___c
+}

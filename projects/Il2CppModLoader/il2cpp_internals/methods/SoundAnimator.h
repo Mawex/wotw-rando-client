@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::SoundAnimator {
-    IL2CPP_REGISTER_METHOD(0x00EE4F90, SoundDescriptor*, GetSoundDescriptor, (app::SoundAnimator * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00EE5080, SoundDescriptor*, GetCachedSoundDescriptor, (app::SoundAnimator * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00EE4F90, app::SoundDescriptor *, GetSoundDescriptor, (app::SoundAnimator * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00EE5080, app::SoundDescriptor *, GetCachedSoundDescriptor, (app::SoundAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00EE50B0, void, OnStartPlay, (app::SoundAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00EE5360, void, OnStopPlay, (app::SoundAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, CacheOriginals, (app::SoundAnimator * this_ptr));
@@ -18,4 +18,4 @@ namespace app::methods::SoundAnimator {
     IL2CPP_REGISTER_METHODINFO(0x0474B7F0, SoundAnimator__OnStartPlay_b__14_0__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x00EE5A20, void, _SampleValue_b__17_0, (app::SoundAnimator * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x047766E8, SoundAnimator__SampleValue_b__17_0__MethodInfo);
-} // namespace app::methods::SoundAnimator
+}

@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::Rock {
-    IL2CPP_REGISTER_METHOD(0x00E05C90, Vector3, get_Position, (app::Rock * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E05C90, app::Vector3, get_Position, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00E05D20, bool, IsDead, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00417870, bool, CanBeChargeFlamed, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00417870, bool, CanBeChargeDashed, (app::Rock * this_ptr));
@@ -28,15 +28,15 @@ namespace app::methods::Rock {
     IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_BashPriority, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00EEC270, bool, get_IsSuspended, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01358890, void, set_IsSuspended, (app::Rock * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x003FDCE0, SuspendableMask__Enum, get_Mask, (app::Rock * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x003FDCE0, app::SuspendableMask__Enum, get_Mask, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x013588A0, void, set_Mask, (app::Rock * this_ptr, app::SuspendableMask__Enum value));
     IL2CPP_REGISTER_METHOD(0x01358950, void, FixedUpdate, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01358A90, void, Awake, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01358CD0, void, OnDestroy, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01358D90, void, Start, (app::Rock * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x01358E80, void, OnCollisionEnter, (app::Rock * this_ptr, app::Collision* collision));
-    IL2CPP_REGISTER_METHOD(0x01358E80, void, OnCollisionStay, (app::Rock * this_ptr, app::Collision* collision));
+    IL2CPP_REGISTER_METHOD(0x01358E80, void, OnCollisionEnter, (app::Rock * this_ptr, app::Collision * collision));
+    IL2CPP_REGISTER_METHOD(0x01358E80, void, OnCollisionStay, (app::Rock * this_ptr, app::Collision * collision));
     IL2CPP_REGISTER_METHOD(0x01358E90, void, OnCollision, (app::Rock * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x002FBB60, IDamageReciever__Array*, get_AffectedReceivers, (app::Rock * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FBB60, app::IDamageReciever__Array *, get_AffectedReceivers, (app::Rock * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01359070, void, __ctor, (app::Rock * this_ptr));
-} // namespace app::methods::Rock
+}

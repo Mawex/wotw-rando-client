@@ -20,7 +20,7 @@ namespace app::methods::uWintab::Lib {
     IL2CPP_REGISTER_METHOD(0x00F736E0, float, GetAltitude, ());
     IL2CPP_REGISTER_METHOD(0x00F73770, float, GetTwist, ());
     IL2CPP_REGISTER_METHOD(0x00F73800, int32_t, GetPenId, ());
-    IL2CPP_REGISTER_METHOD(0x00F73890, CursorType__Enum, GetCursor, ());
+    IL2CPP_REGISTER_METHOD(0x00F73890, app::CursorType__Enum, GetCursor, ());
     IL2CPP_REGISTER_METHOD(0x00F73920, int32_t, GetTime, ());
     IL2CPP_REGISTER_METHOD(0x00F739B0, bool, GetProximity, ());
     IL2CPP_REGISTER_METHOD(0x00F73A40, bool, GetButton, (int32_t id));
@@ -29,6 +29,6 @@ namespace app::methods::uWintab::Lib {
     IL2CPP_REGISTER_METHOD(0x00F73C20, bool, GetExpKey, (int32_t tablet_id, int32_t control_id));
     IL2CPP_REGISTER_METHOD(0x00F73CD0, bool, GetExpKeyDown, (int32_t tablet_id, int32_t control_id));
     IL2CPP_REGISTER_METHOD(0x00F73D80, bool, GetExpKeyUp, (int32_t tablet_id, int32_t control_id));
-    IL2CPP_REGISTER_METHOD(0x00F73E30, String*, GetDeviceName_2, ());
-    IL2CPP_REGISTER_METHOD(0x00F73FB0, String*, GetVersion_2, ());
-} // namespace app::methods::uWintab::Lib
+    IL2CPP_REGISTER_METHOD(0x00F73E30, app::String *, GetDeviceName_2, ());
+    IL2CPP_REGISTER_METHOD(0x00F73FB0, app::String *, GetVersion_2, ());
+}

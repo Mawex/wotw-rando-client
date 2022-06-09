@@ -7,4 +7,4 @@ namespace app::methods::MocupAnimator {
     IL2CPP_REGISTER_METHOD(0x0132F470, float, get_Duration, (app::MocupAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsLooping, (app::MocupAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0132F5D0, void, __ctor, (app::MocupAnimator * this_ptr));
-} // namespace app::methods::MocupAnimator
+}

@@ -2,7 +2,7 @@
 
 namespace app::methods::SkillItem {
     IL2CPP_REGISTER_METHOD(0x006B4670, int32_t, get_ActualRequiredSkillPoints, (app::SkillItem * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x006B4710, Color, get_LargeIconColor, (app::SkillItem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x006B4710, app::Color, get_LargeIconColor, (app::SkillItem * this_ptr));
     IL2CPP_REGISTER_METHOD(0x006B4720, void, set_LargeIconColor, (app::SkillItem * this_ptr, app::Color value));
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_Visible, (app::SkillItem * this_ptr));
     IL2CPP_REGISTER_METHOD(0x006B4730, bool, get_RequiresAbilitiesOrItems, (app::SkillItem * this_ptr));
@@ -14,4 +14,4 @@ namespace app::methods::SkillItem {
     IL2CPP_REGISTER_METHOD(0x006B4C70, void, UpdateItem, (app::SkillItem * this_ptr));
     IL2CPP_REGISTER_METHOD(0x006B4EB0, void, OnEnable, (app::SkillItem * this_ptr));
     IL2CPP_REGISTER_METHOD(0x006B5090, void, __ctor, (app::SkillItem * this_ptr));
-} // namespace app::methods::SkillItem
+}

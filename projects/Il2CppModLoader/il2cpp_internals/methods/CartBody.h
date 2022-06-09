@@ -10,4 +10,4 @@ namespace app::methods::CartBody {
     IL2CPP_REGISTER_METHOD(0x00B32CF0, void, ApplyRotation, (app::CartBody * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDrawGizmos, (app::CartBody * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B33000, void, __ctor, (app::CartBody * this_ptr));
-} // namespace app::methods::CartBody
+}

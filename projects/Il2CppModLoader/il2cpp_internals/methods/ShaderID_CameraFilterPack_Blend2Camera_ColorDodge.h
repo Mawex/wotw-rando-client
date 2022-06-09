@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::ShaderID_CameraFilterPack_Blend2Camera_ColorDodge {
-IL2CPP_REGISTER_METHOD(0x020FF320, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x020FF320, void, __cctor, ());
 }

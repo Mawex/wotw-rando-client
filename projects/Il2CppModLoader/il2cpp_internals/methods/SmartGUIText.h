@@ -10,4 +10,4 @@ namespace app::methods::SmartGUIText {
     IL2CPP_REGISTER_METHOD(0x03118390, void, Label_2, (app::Rect rect, float f, int32_t digits));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SmartGUIText * this_ptr));
     IL2CPP_REGISTER_METHOD(0x03118650, void, __cctor, ());
-} // namespace app::methods::SmartGUIText
+}

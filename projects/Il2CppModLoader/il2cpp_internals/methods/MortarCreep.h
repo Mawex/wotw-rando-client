@@ -7,4 +7,4 @@ namespace app::methods::MortarCreep {
     IL2CPP_REGISTER_METHOD(0x01475700, void, OnDeath, (app::MortarCreep * this_ptr, app::DamageResult damage_result));
     IL2CPP_REGISTER_METHODINFO(0x0472C3F8, MortarCreep_OnDeath__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x014759D0, void, __ctor, (app::MortarCreep * this_ptr));
-} // namespace app::methods::MortarCreep
+}

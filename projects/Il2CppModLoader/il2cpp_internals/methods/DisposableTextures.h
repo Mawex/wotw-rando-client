@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::DisposableTextures {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::DisposableTextures * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::DisposableTextures * this_ptr));
 }

@@ -7,4 +7,4 @@ namespace app::methods::KuLand {
     IL2CPP_REGISTER_METHOD(0x0123C1F0, void, UpdateState, (app::KuLand * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0123C2A0, void, Land, (app::KuLand * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::KuLand * this_ptr));
-} // namespace app::methods::KuLand
+}

@@ -6,4 +6,4 @@ namespace app::methods::MurmurHash2 {
     IL2CPP_REGISTER_METHOD(0x027198E0, uint32_t, Hash_3, (app::BinaryReader * reader, int32_t size, uint32_t seed));
     IL2CPP_REGISTER_METHOD(0x02719B00, uint32_t, Hash_4, (app::Byte__Array * data, uint32_t seed));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MurmurHash2 * this_ptr));
-} // namespace app::methods::MurmurHash2
+}

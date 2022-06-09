@@ -21,4 +21,4 @@ namespace app::methods::DashOwlEnemy {
     IL2CPP_REGISTER_METHOD(0x00DD0030, void, __ctor, (app::DashOwlEnemy * this_ptr));
     IL2CPP_REGISTER_METHOD(0x004C40F0, bool, _Awake_b__8_1, (app::DashOwlEnemy * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04742CB8, DashOwlEnemy__Awake_b__8_1__MethodInfo);
-} // namespace app::methods::DashOwlEnemy
+}

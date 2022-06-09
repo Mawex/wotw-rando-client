@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Xml::Ucs4Encoding4321 {
-IL2CPP_REGISTER_METHOD(0x019533B0, void, __ctor, (app::Ucs4Encoding4321 * this_ptr));
-IL2CPP_REGISTER_METHOD(0x01953570, String *, get_EncodingName, (app::Ucs4Encoding4321 * this_ptr));
-IL2CPP_REGISTER_METHOD(0x019535F0, Byte__Array *, GetPreamble, (app::Ucs4Encoding4321 * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x019533B0, void, __ctor, (app::Ucs4Encoding4321 * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x01953570, app::String *, get_EncodingName, (app::Ucs4Encoding4321 * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x019535F0, app::Byte__Array *, GetPreamble, (app::Ucs4Encoding4321 * this_ptr));
 }

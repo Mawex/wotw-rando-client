@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab_ClientModels::ListUsersCharactersResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ListUsersCharactersResult * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ListUsersCharactersResult * this_ptr));
 }

@@ -9,4 +9,4 @@ namespace app::methods::ShotCombo {
     IL2CPP_REGISTER_METHOD(0x005C4050, void, UpdateState, (app::ShotCombo * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005C4090, void, Shoot, (app::ShotCombo * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005C40A0, void, __ctor, (app::ShotCombo * this_ptr));
-} // namespace app::methods::ShotCombo
+}

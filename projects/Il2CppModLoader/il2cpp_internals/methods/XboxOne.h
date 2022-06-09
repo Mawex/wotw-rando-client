@@ -9,4 +9,4 @@ namespace app::methods::XboxOne {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ErrorHelp, (app::String * context, uint32_t error_i_d));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::XboxOne * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
-} // namespace app::methods::XboxOne
+}

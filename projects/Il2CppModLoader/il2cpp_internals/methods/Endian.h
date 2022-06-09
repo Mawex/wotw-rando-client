@@ -19,4 +19,4 @@ namespace app::methods::Endian {
     IL2CPP_REGISTER_METHOD(0x01B5AAD0, uint32_t, ReadEndian4, (app::Byte__Array * bytes, int32_t offset));
     IL2CPP_REGISTER_METHOD(0x01B5A600, void, WriteEndian_3, (app::Byte__Array * bytes, int32_t offset, uint16_t value));
     IL2CPP_REGISTER_METHOD(0x01B5A680, uint16_t, ReadEndian2, (app::Byte__Array * bytes, int32_t offset));
-} // namespace app::methods::Endian
+}

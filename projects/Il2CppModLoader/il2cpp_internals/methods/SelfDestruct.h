@@ -8,4 +8,4 @@ namespace app::methods::SelfDestruct {
     IL2CPP_REGISTER_METHOD(0x004430B0, bool, get_IsSuspended, (app::SelfDestruct * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0058ED80, void, set_IsSuspended, (app::SelfDestruct * this_ptr, bool value));
     IL2CPP_REGISTER_METHOD(0x00444DD0, void, __ctor, (app::SelfDestruct * this_ptr));
-} // namespace app::methods::SelfDestruct
+}

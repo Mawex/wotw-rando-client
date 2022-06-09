@@ -6,4 +6,4 @@ namespace app::methods::MaskModifier {
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoesChangeShape, (app::MaskModifier * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00A11160, void, SetProperties, (app::MaskModifier * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00A11250, void, __ctor, (app::MaskModifier * this_ptr));
-} // namespace app::methods::MaskModifier
+}

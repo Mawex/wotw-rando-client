@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::RootMotion_Demos::ShaderID_SimpleLocomotion {
-IL2CPP_REGISTER_METHOD(0x0222FFF0, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x0222FFF0, void, __cctor, ());
 }

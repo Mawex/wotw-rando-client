@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Collections_Generic::Mscorlib_DictionaryDebugView_2_System_Object_System_Object_ {
-IL2CPP_REGISTER_METHOD(0x0162AB30, KeyValuePair_2_System_Object_System_Object___Array *, get_Items, (app::Mscorlib_DictionaryDebugView_2_System_Object_System_Object_ * this_ptr));
-IL2CPP_REGISTER_METHOD(0x02C28DB0, void, __ctor, (app::Mscorlib_DictionaryDebugView_2_System_Object_System_Object_ * this_ptr, app::IDictionary_2_System_Object_System_Object_ * dictionary));
+    IL2CPP_REGISTER_METHOD(0x0162AB30, app::KeyValuePair_2_System_Object_System_Object___Array *, get_Items, (app::Mscorlib_DictionaryDebugView_2_System_Object_System_Object_ * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x02C28DB0, void, __ctor, (app::Mscorlib_DictionaryDebugView_2_System_Object_System_Object_ * this_ptr, app::IDictionary_2_System_Object_System_Object_ * dictionary));
 }

@@ -14,4 +14,4 @@ namespace app::methods::SeinBowMark {
     IL2CPP_REGISTER_METHOD(0x00DA2030, void, UpdateAppearingState, (app::SeinBowMark * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00DA2300, void, HideMark, (app::SeinBowMark * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00DA2320, void, __ctor, (app::SeinBowMark * this_ptr));
-} // namespace app::methods::SeinBowMark
+}

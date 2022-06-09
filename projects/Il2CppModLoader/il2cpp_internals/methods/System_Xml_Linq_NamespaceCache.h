@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Xml_Linq::NamespaceCache {
-IL2CPP_REGISTER_METHOD(0x002412B0, XNamespace *, Get, (app::NamespaceCache__Boxed * this_ptr, app::String * namespace_name));
+    IL2CPP_REGISTER_METHOD(0x002412B0, app::XNamespace *, Get, (app::NamespaceCache__Boxed * this_ptr, app::String * namespace_name));
 }

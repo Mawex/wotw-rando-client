@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::Rope {
-    IL2CPP_REGISTER_METHOD(0x00A1FBC0, Vector3, get_OffsetBetweenLinks, (app::Rope * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00A1FBC0, app::Vector3, get_OffsetBetweenLinks, (app::Rope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00A1FBE0, void, set_OffsetBetweenLinks, (app::Rope * this_ptr, app::Vector3 value));
     IL2CPP_REGISTER_METHOD(0x003FC020, float, get_EffectiveLinkDensity, (app::Rope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003FC030, void, set_EffectiveLinkDensity, (app::Rope * this_ptr, float value));
@@ -21,14 +21,14 @@ namespace app::methods::Rope {
     IL2CPP_REGISTER_METHOD(0x01369FF0, void, Resume, (app::Rope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00CA2570, bool, get_IsSuspended, (app::Rope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0136A260, void, set_IsSuspended, (app::Rope * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x007007F0, SuspendableMask__Enum, get_Mask, (app::Rope * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x007007F0, app::SuspendableMask__Enum, get_Mask, (app::Rope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0136A2B0, void, set_Mask, (app::Rope * this_ptr, app::SuspendableMask__Enum value));
     IL2CPP_REGISTER_METHOD(0x00443CC0, void, AttachedBodyEnabled, (app::Rope * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0136A2C0, bool, Attach, (app::Rope * this_ptr, app::ConfigurableJoint* joint, app::Vector3 attachment_point, app::AttachJointSettings* joint_settings));
-    IL2CPP_REGISTER_METHOD(0x0136A4C0, Rigidbody*, GetRigidbody, (app::Rope * this_ptr, app::Vector3 attachment_point));
-    IL2CPP_REGISTER_METHOD(0x0136A730, void, WasAttached, (app::Rope * this_ptr, app::IPhysicsAttachable* attachable, app::ConfigurableJoint* joint));
+    IL2CPP_REGISTER_METHOD(0x0136A2C0, bool, Attach, (app::Rope * this_ptr, app::ConfigurableJoint * joint, app::Vector3 attachment_point, app::AttachJointSettings * joint_settings));
+    IL2CPP_REGISTER_METHOD(0x0136A4C0, app::Rigidbody *, GetRigidbody, (app::Rope * this_ptr, app::Vector3 attachment_point));
+    IL2CPP_REGISTER_METHOD(0x0136A730, void, WasAttached, (app::Rope * this_ptr, app::IPhysicsAttachable * attachable, app::ConfigurableJoint * joint));
     IL2CPP_REGISTER_METHOD(0x0136A9E0, void, Rebuild, (app::Rope * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0136C500, void, ConnectRopeLinks, (app::Rope * this_ptr, app::GameObject* previous_link, app::GameObject* next_link));
+    IL2CPP_REGISTER_METHOD(0x0136C500, void, ConnectRopeLinks, (app::Rope * this_ptr, app::GameObject * previous_link, app::GameObject * next_link));
     IL2CPP_REGISTER_METHOD(0x0136C910, void, __ctor, (app::Rope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0136CA90, void, __cctor, ());
-} // namespace app::methods::Rope
+}

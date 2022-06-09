@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::Mono_Unity::UnityTls {
-IL2CPP_REGISTER_METHOD(0x02186CA0, void *, GetUnityTlsInterface, ());
-IL2CPP_REGISTER_METHOD(0x02186CB0, bool, get_IsSupported, ());
-IL2CPP_REGISTER_METHOD(0x02186D50, UnityTls_unitytls_interface_struct *, get_NativeInterface, ());
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x02186CA0, void *, GetUnityTlsInterface, ());
+    IL2CPP_REGISTER_METHOD(0x02186CB0, bool, get_IsSupported, ());
+    IL2CPP_REGISTER_METHOD(0x02186D50, app::UnityTls_unitytls_interface_struct *, get_NativeInterface, ());
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

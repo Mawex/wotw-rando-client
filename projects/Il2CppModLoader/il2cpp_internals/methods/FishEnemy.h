@@ -23,7 +23,7 @@ namespace app::methods::FishEnemy {
     IL2CPP_REGISTER_METHOD(0x00875720, bool, InWater, (app::FishEnemy * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04725EC8, FishEnemy_InWater__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x0126A9C0, void, UpdateSpriteRotation, (app::FishEnemy * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0126ABF0, Vector2, get_AngleAsVector, (app::FishEnemy * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0126ABF0, app::Vector2, get_AngleAsVector, (app::FishEnemy * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0126AC00, void, ApplySoftSpeed, (app::FishEnemy * this_ptr, app::Vector2 speed));
     IL2CPP_REGISTER_METHOD(0x0126ADB0, void, OnExitWater, (app::FishEnemy * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0126AEA0, void, OnEnterWater, (app::FishEnemy * this_ptr));
@@ -44,4 +44,4 @@ namespace app::methods::FishEnemy {
     IL2CPP_REGISTER_METHODINFO(0x047148B8, FishEnemy__Start_b__19_6__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x0126B4D0, bool, _Start_b__19_7, (app::FishEnemy * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04739A88, FishEnemy__Start_b__19_7__MethodInfo);
-} // namespace app::methods::FishEnemy
+}

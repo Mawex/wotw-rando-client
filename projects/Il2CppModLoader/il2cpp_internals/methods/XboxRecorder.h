@@ -10,4 +10,4 @@ namespace app::methods::XboxRecorder {
     IL2CPP_REGISTER_METHOD(0x01C5C4A0, void, RequestReplay, (app::XboxRecorder * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01C5C7D0, void, CloseConnection, (app::XboxRecorder * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::XboxRecorder * this_ptr));
-} // namespace app::methods::XboxRecorder
+}

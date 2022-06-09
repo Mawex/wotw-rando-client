@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Reflection::TargetParameterCountException {
-IL2CPP_REGISTER_METHOD(0x02698E10, void, __ctor_1, (app::TargetParameterCountException * this_ptr));
-IL2CPP_REGISTER_METHOD(0x02698EA0, void, __ctor_2, (app::TargetParameterCountException * this_ptr, app::String * message));
-IL2CPP_REGISTER_METHOD(0x02698EC0, void, __ctor_3, (app::TargetParameterCountException * this_ptr, app::String * message, app::Exception * inner));
-IL2CPP_REGISTER_METHOD(0x0268AE20, void, __ctor_4, (app::TargetParameterCountException * this_ptr, app::SerializationInfo * info, app::StreamingContext context));
+    IL2CPP_REGISTER_METHOD(0x02698E10, void, __ctor_1, (app::TargetParameterCountException * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x02698EA0, void, __ctor_2, (app::TargetParameterCountException * this_ptr, app::String * message));
+    IL2CPP_REGISTER_METHOD(0x02698EC0, void, __ctor_3, (app::TargetParameterCountException * this_ptr, app::String * message, app::Exception * inner));
+    IL2CPP_REGISTER_METHOD(0x0268AE20, void, __ctor_4, (app::TargetParameterCountException * this_ptr, app::SerializationInfo * info, app::StreamingContext context));
 }

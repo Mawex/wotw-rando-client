@@ -19,4 +19,4 @@ namespace app::methods::TestWindow {
     IL2CPP_REGISTER_METHOD(0x010E16C0, void, SwitchWindowCallback, (app::TestWindow * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x047623B8, TestWindow_SwitchWindowCallback__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x010E17A0, void, __ctor, (app::TestWindow * this_ptr));
-} // namespace app::methods::TestWindow
+}

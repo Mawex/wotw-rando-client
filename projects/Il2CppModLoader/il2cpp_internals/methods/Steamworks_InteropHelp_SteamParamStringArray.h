@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::Steamworks::InteropHelp_SteamParamStringArray {
-IL2CPP_REGISTER_METHOD(0x015FFDD0, void, __ctor, (app::InteropHelp_SteamParamStringArray * this_ptr, app::IList_1_System_String_ * strings));
-IL2CPP_REGISTER_METHOD(0x016003A0, void, Finalize, (app::InteropHelp_SteamParamStringArray * this_ptr));
-IL2CPP_REGISTER_METHOD(0x00C3D9F0, void *, operator_, (app::InteropHelp_SteamParamStringArray * that));
+    IL2CPP_REGISTER_METHOD(0x015FFDD0, void, __ctor, (app::InteropHelp_SteamParamStringArray * this_ptr, app::IList_1_System_String_ * strings));
+    IL2CPP_REGISTER_METHOD(0x016003A0, void, Finalize, (app::InteropHelp_SteamParamStringArray * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00C3D9F0, void *, operator_, (app::InteropHelp_SteamParamStringArray * that));
 }

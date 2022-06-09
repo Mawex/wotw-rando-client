@@ -6,4 +6,4 @@ namespace app::methods::FixedRotation {
     IL2CPP_REGISTER_METHOD(0x0126F530, void, Start, (app::FixedRotation * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0126F610, void, FixedUpdate, (app::FixedRotation * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0126F890, void, __ctor, (app::FixedRotation * this_ptr));
-} // namespace app::methods::FixedRotation
+}

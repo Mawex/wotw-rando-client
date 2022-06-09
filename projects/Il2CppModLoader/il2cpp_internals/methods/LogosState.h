@@ -6,7 +6,7 @@ namespace app::methods::LogosState {
     IL2CPP_REGISTER_METHODINFO(0x04775FE8, LogosState_OnLogosFinished__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x009ECC60, void, OnExitState, (app::LogosState * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0052B590, bool, CanTransition, (app::LogosState * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x009ECDF0, IState*, GetNextState, (app::LogosState * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x009ECDF0, app::IState *, GetNextState, (app::LogosState * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LogosState * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
-} // namespace app::methods::LogosState
+}

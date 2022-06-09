@@ -5,4 +5,4 @@ namespace app::methods::DebugOutput {
     IL2CPP_REGISTER_METHOD(0x00DF9E40, void, Output, (app::String * text));
     IL2CPP_REGISTER_METHOD(0x00DF9F20, void, OnDestroy, (app::DebugOutput * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::DebugOutput * this_ptr));
-} // namespace app::methods::DebugOutput
+}

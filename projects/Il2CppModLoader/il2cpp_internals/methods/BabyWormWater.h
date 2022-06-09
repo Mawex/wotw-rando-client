@@ -12,4 +12,4 @@ namespace app::methods::BabyWormWater {
     IL2CPP_REGISTER_METHOD(0x00F812A0, void, ApplySpeedModifiers, (app::BabyWormWater * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F81440, float, get_TurnSpeedModifier, (app::BabyWormWater * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F81490, void, __ctor, (app::BabyWormWater * this_ptr));
-} // namespace app::methods::BabyWormWater
+}

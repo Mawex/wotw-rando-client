@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine_Experimental::IntegratedSubsystem {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::IntegratedSubsystem * this_ptr));
-IL2CPP_REGISTER_METHOD(0x031754A0, void, SetHandle, (app::IntegratedSubsystem * this_ptr, app::IntegratedSubsystem * inst));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::IntegratedSubsystem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x031754A0, void, SetHandle, (app::IntegratedSubsystem * this_ptr, app::IntegratedSubsystem * inst));
 }

@@ -5,7 +5,7 @@ namespace app::methods::SeinSoulFlame {
     IL2CPP_REGISTER_METHOD(0x005DB4F0, void, add_OnSoulFlameCast, (app::Action * value));
     IL2CPP_REGISTER_METHOD(0x005DB630, void, remove_OnSoulFlameCast, (app::Action * value));
     IL2CPP_REGISTER_METHOD(0x005DB770, bool, get_SoulFlameExists, (app::SeinSoulFlame * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x005DB810, Vector3, get_SoulFlamePosition, (app::SeinSoulFlame * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x005DB810, app::Vector3, get_SoulFlamePosition, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DB900, void, OnAwake, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DBBB0, void, OnGameReset, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x047372B8, SeinSoulFlame_OnGameReset__MethodInfo);
@@ -14,7 +14,7 @@ namespace app::methods::SeinSoulFlame {
     IL2CPP_REGISTER_METHOD(0x005DBC20, void, OnDestroy, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DBF60, void, FillSoulFlameBar, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DBF70, bool, get_InsideCheckpointMarker, (app::SeinSoulFlame * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x005DC0A0, SeinSoulFlame_SoulFlamePlacementSafety__Enum, get_IsSafeToCastSoulFlame, (app::SeinSoulFlame * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x005DC0A0, app::SeinSoulFlame_SoulFlamePlacementSafety__Enum, get_IsSafeToCastSoulFlame, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DC3F0, float, get_BarValue, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DC410, float, get_CooldownRemaining, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DC420, bool, get_ShowFlameOnUI, (app::SeinSoulFlame * this_ptr));
@@ -32,9 +32,9 @@ namespace app::methods::SeinSoulFlame {
     IL2CPP_REGISTER_METHOD(0x005DEC70, void, HandleSkillTreeHint, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DEF60, void, HideOtherMessages, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DF080, void, OnSetReferenceToSein, (app::SeinSoulFlame * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x005DF0A0, void, Serialize, (app::SeinSoulFlame * this_ptr, app::Archive* ar));
+    IL2CPP_REGISTER_METHOD(0x005DF0A0, void, Serialize, (app::SeinSoulFlame * this_ptr, app::Archive * ar));
     IL2CPP_REGISTER_METHOD(0x005DF590, void, SpawnSoulFlame, (app::SeinSoulFlame * this_ptr, app::Vector3 position));
     IL2CPP_REGISTER_METHOD(0x005DF6E0, void, DestroySoulFlame, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DF7F0, void, __ctor, (app::SeinSoulFlame * this_ptr));
     IL2CPP_REGISTER_METHOD(0x005DF970, void, __cctor, ());
-} // namespace app::methods::SeinSoulFlame
+}

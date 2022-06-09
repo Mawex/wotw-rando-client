@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::SplitFlameMenuItem {
-IL2CPP_REGISTER_METHOD(0x009A3220, void, __ctor, (app::SplitFlameMenuItem * this_ptr, app::String * str));
-IL2CPP_REGISTER_METHOD(0x009A3310, void, OnSelectedFixedUpdate, (app::SplitFlameMenuItem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x009A3220, void, __ctor, (app::SplitFlameMenuItem * this_ptr, app::String * str));
+    IL2CPP_REGISTER_METHOD(0x009A3310, void, OnSelectedFixedUpdate, (app::SplitFlameMenuItem * this_ptr));
 }

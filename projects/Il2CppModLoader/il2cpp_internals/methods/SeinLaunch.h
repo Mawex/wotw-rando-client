@@ -8,4 +8,4 @@ namespace app::methods::SeinLaunch {
     IL2CPP_REGISTER_METHOD(0x005E1300, bool, ContinuePlayingRelease, (app::SeinLaunch * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x0473C198, SeinLaunch_ContinuePlayingRelease__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x010219B0, void, __ctor, (app::SeinLaunch * this_ptr));
-} // namespace app::methods::SeinLaunch
+}

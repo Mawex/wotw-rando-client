@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::HDRUtils {
-    IL2CPP_REGISTER_METHOD(0x01497540, String*, GetPaperwhiteDisplayString, (float value));
+    IL2CPP_REGISTER_METHOD(0x01497540, app::String *, GetPaperwhiteDisplayString, (float value));
     IL2CPP_REGISTER_METHOD(0x01497630, float, GetPaperwhiteDisplayValue, (float value));
-    IL2CPP_REGISTER_METHOD(0x014977E0, String*, GetContrastDisplayString, (float value));
-    IL2CPP_REGISTER_METHOD(0x01497A00, String*, GetUIBrightnessDisplayString, (float value));
-    IL2CPP_REGISTER_METHOD(0x01497C20, String*, GetRichnessDisplayString, (float value));
-    IL2CPP_REGISTER_METHOD(0x01497E40, String*, GetShadowDetailDisplayString, (float value));
+    IL2CPP_REGISTER_METHOD(0x014977E0, app::String *, GetContrastDisplayString, (float value));
+    IL2CPP_REGISTER_METHOD(0x01497A00, app::String *, GetUIBrightnessDisplayString, (float value));
+    IL2CPP_REGISTER_METHOD(0x01497C20, app::String *, GetRichnessDisplayString, (float value));
+    IL2CPP_REGISTER_METHOD(0x01497E40, app::String *, GetShadowDetailDisplayString, (float value));
     IL2CPP_REGISTER_METHOD(0x01498060, void, InitializeDefaults, ());
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsHDRAllowedOnDevice, ());
     IL2CPP_REGISTER_METHOD(0x01498240, bool, get_IsHDRCompatible, ());
@@ -46,4 +46,4 @@ namespace app::methods::Moon::HDRUtils {
     IL2CPP_REGISTER_METHOD(0x01499BC0, void, set_EnableHDRVisualization, (bool value));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::HDRUtils * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01499C90, void, __cctor, ());
-} // namespace app::methods::Moon::HDRUtils
+}

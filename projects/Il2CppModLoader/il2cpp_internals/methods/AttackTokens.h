@@ -9,4 +9,4 @@ namespace app::methods::AttackTokens {
     IL2CPP_REGISTER_METHOD(0x00853DE0, void, ResetStatics, ());
     IL2CPP_REGISTER_METHOD(0x00854030, void, InitializeStatics, ());
     IL2CPP_REGISTER_METHOD(0x008540F0, void, __cctor, ());
-} // namespace app::methods::AttackTokens
+}

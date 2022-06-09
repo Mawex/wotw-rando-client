@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon_Timeline::MoonTimeline___c {
-IL2CPP_REGISTER_METHOD(0x01E77970, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MoonTimeline_c * this_ptr));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__139_0, (app::MoonTimeline_c * this_ptr));
-IL2CPP_REGISTER_METHODINFO(0x04768B90, MoonTimeline_c___ctor_b__139_0__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__139_1, (app::MoonTimeline_c * this_ptr));
-IL2CPP_REGISTER_METHODINFO(0x0471EA60, MoonTimeline_c___ctor_b__139_1__MethodInfo);
+    IL2CPP_REGISTER_METHOD(0x01E77970, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MoonTimeline_c * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__139_0, (app::MoonTimeline_c * this_ptr));
+    IL2CPP_REGISTER_METHODINFO(0x04768B90, MoonTimeline_c___ctor_b__139_0__MethodInfo);
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_b__139_1, (app::MoonTimeline_c * this_ptr));
+    IL2CPP_REGISTER_METHODINFO(0x0471EA60, MoonTimeline_c___ctor_b__139_1__MethodInfo);
 }

@@ -3,4 +3,4 @@
 namespace app::methods::DirtyUtility {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, MarkObjectAsDirty, (app::Object_1 * target));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::DirtyUtility * this_ptr));
-} // namespace app::methods::DirtyUtility
+}

@@ -2,21 +2,21 @@
 
 namespace app::methods::SkeetoEntity {
     IL2CPP_REGISTER_METHOD(0x00755320, void, ResetStatics, ());
-    IL2CPP_REGISTER_METHOD(0x007553F0, Vector3, get_CharacterPatrolTarget, (app::SkeetoEntity * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x007553F0, app::Vector3, get_CharacterPatrolTarget, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755530, bool, get_IsOnScreen, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755540, bool, get_IsTurning, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755570, float, get_CameraInfluenceMinDist, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755590, float, get_CameraInfluenceMaxDist, (app::SkeetoEntity * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x007555B0, SkeetoSpawnType__Enum, get_SpawnType, (app::SkeetoEntity * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x007555B0, app::SkeetoSpawnType__Enum, get_SpawnType, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x007555C0, void, set_SpawnType, (app::SkeetoEntity * this_ptr, app::SkeetoSpawnType__Enum value));
     IL2CPP_REGISTER_METHOD(0x007555D0, int32_t, get_AttacksInRow, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x007555E0, void, set_AttacksInRow, (app::SkeetoEntity * this_ptr, int32_t value));
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsFlyingEnemy, (app::SkeetoEntity * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x007555F0, SkeetoEntity_SkeetoType__Enum, get_Type, (app::SkeetoEntity * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x007555F0, app::SkeetoEntity_SkeetoType__Enum, get_Type, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755600, bool, get_IsAttacking, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755610, void, set_IsAttacking, (app::SkeetoEntity * this_ptr, bool value));
     IL2CPP_REGISTER_METHOD(0x00755620, bool, get_IsSpawning, (app::SkeetoEntity * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x007556F0, SkeetoEntity_SkeetoState__Enum, get_State, (app::SkeetoEntity * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x007556F0, app::SkeetoEntity_SkeetoState__Enum, get_State, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755700, bool, get_AutoResetSpotOriBool, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00755710, void, OnAwake, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x007558C0, void, OnRestoreCheckpoint, (app::SkeetoEntity * this_ptr));
@@ -38,4 +38,4 @@ namespace app::methods::SkeetoEntity {
     IL2CPP_REGISTER_METHOD(0x00756880, void, OnDrawGizmosSelected, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00756890, void, __ctor, (app::SkeetoEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00756980, void, __cctor, ());
-} // namespace app::methods::SkeetoEntity
+}

@@ -13,13 +13,13 @@ namespace app::methods::TestWindowB {
     IL2CPP_REGISTER_METHOD(0x010E2660, void, FixedUpdate, (app::TestWindowB * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04757198, TestWindowB_FixedUpdate__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateInitializedMenu, (app::TestWindowB * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x010E2710, void, OnButtonAPressed, (app::TestWindowB * this_ptr, app::UIContext* context));
+    IL2CPP_REGISTER_METHOD(0x010E2710, void, OnButtonAPressed, (app::TestWindowB * this_ptr, app::UIContext * context));
     IL2CPP_REGISTER_METHODINFO(0x04736A08, TestWindowB_OnButtonAPressed__MethodInfo);
-    IL2CPP_REGISTER_METHOD(0x010E27F0, void, OnButtonBPressed, (app::TestWindowB * this_ptr, app::UIContext* context));
+    IL2CPP_REGISTER_METHOD(0x010E27F0, void, OnButtonBPressed, (app::TestWindowB * this_ptr, app::UIContext * context));
     IL2CPP_REGISTER_METHODINFO(0x0473B8F0, TestWindowB_OnButtonBPressed__MethodInfo);
-    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnButtonCPressed, (app::TestWindowB * this_ptr, app::UIContext* context));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnButtonCPressed, (app::TestWindowB * this_ptr, app::UIContext * context));
     IL2CPP_REGISTER_METHODINFO(0x04765250, TestWindowB_OnButtonCPressed__MethodInfo);
-    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnButtonDPressed, (app::TestWindowB * this_ptr, app::UIContext* context));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnButtonDPressed, (app::TestWindowB * this_ptr, app::UIContext * context));
     IL2CPP_REGISTER_METHODINFO(0x047381F8, TestWindowB_OnButtonDPressed__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x010E17A0, void, __ctor, (app::TestWindowB * this_ptr));
-} // namespace app::methods::TestWindowB
+}

@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::AkVertex {
-    IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor_1, (app::AkVertex * this_ptr, app::void* c_ptr, bool c_memory_own));
-    IL2CPP_REGISTER_METHOD(0x027019D0, void*, getCPtr, (app::AkVertex * obj));
-    IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (app::AkVertex * this_ptr, app::void* c_ptr));
+    IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor_1, (app::AkVertex * this_ptr, void * c_ptr, bool c_memory_own));
+    IL2CPP_REGISTER_METHOD(0x027019D0, void *, getCPtr, (app::AkVertex * obj));
+    IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (app::AkVertex * this_ptr, void * c_ptr));
     IL2CPP_REGISTER_METHOD(0x02701A60, void, Finalize, (app::AkVertex * this_ptr));
     IL2CPP_REGISTER_METHOD(0x02701AE0, void, Dispose, (app::AkVertex * this_ptr));
     IL2CPP_REGISTER_METHOD(0x02701CF0, void, __ctor_2, (app::AkVertex * this_ptr));
@@ -16,5 +16,5 @@ namespace app::methods::AkVertex {
     IL2CPP_REGISTER_METHOD(0x02702540, float, get_Z, (app::AkVertex * this_ptr));
     IL2CPP_REGISTER_METHOD(0x02702660, void, Clear, (app::AkVertex * this_ptr));
     IL2CPP_REGISTER_METHOD(0x02702700, int32_t, GetSizeOf, ());
-    IL2CPP_REGISTER_METHOD(0x02702790, void, Clone, (app::AkVertex * this_ptr, app::AkVertex* other));
-} // namespace app::methods::AkVertex
+    IL2CPP_REGISTER_METHOD(0x02702790, void, Clone, (app::AkVertex * this_ptr, app::AkVertex * other));
+}

@@ -10,4 +10,4 @@ namespace app::methods::TimeUtility {
     IL2CPP_REGISTER_METHOD(0x010F2700, void, set_targetFrameRate, (int32_t value));
     IL2CPP_REGISTER_METHOD(0x010F28D0, bool, get_TargetFrameRateNonDefault, ());
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::TimeUtility * this_ptr));
-} // namespace app::methods::TimeUtility
+}

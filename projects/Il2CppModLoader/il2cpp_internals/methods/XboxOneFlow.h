@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::XboxOneFlow {
-    IL2CPP_REGISTER_METHOD(0x005981C0, XboxOneFlow*, get_Instance, ());
+    IL2CPP_REGISTER_METHOD(0x005981C0, app::XboxOneFlow *, get_Instance, ());
     IL2CPP_REGISTER_METHOD(0x00598240, bool, get_Ready, ());
     IL2CPP_REGISTER_METHOD(0x005982F0, bool, get_Engage, ());
     IL2CPP_REGISTER_METHOD(0x00598320, void, set_Engage, (bool value));
@@ -33,7 +33,7 @@ namespace app::methods::XboxOneFlow {
     IL2CPP_REGISTER_METHOD(0x0059B7B0, void, StartSessionWithStorage, (app::XboxOneFlow * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0059B9F0, void, OnRequireStorageFailed, (app::XboxOneFlow * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04761580, XboxOneFlow_OnRequireStorageFailed__MethodInfo);
-    IL2CPP_REGISTER_METHOD(0x0059BB40, IEnumerator*, RequireStorageNextFrameRoutine, (app::XboxOneFlow * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0059BB40, app::IEnumerator *, RequireStorageNextFrameRoutine, (app::XboxOneFlow * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0059BC90, void, UpdateNextSaveSlot, (app::XboxOneFlow * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x0473CEA0, XboxOneFlow_UpdateNextSaveSlot__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x0059C140, void, StorageTest, (app::XboxOneFlow * this_ptr));
@@ -60,4 +60,4 @@ namespace app::methods::XboxOneFlow {
     IL2CPP_REGISTER_METHOD(0x0059D430, void, set_ShowXboxFlowDebug, (bool value));
     IL2CPP_REGISTER_METHOD(0x0059D520, void, OnGUI, (app::XboxOneFlow * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0059D6B0, void, __ctor, (app::XboxOneFlow * this_ptr));
-} // namespace app::methods::XboxOneFlow
+}

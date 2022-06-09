@@ -7,4 +7,4 @@ namespace app::methods::OnlineHandler {
     IL2CPP_REGISTER_METHOD(0x00617560, void, SetState, (app::OnlineHandler * this_ptr, app::OnlineHandler_OnlineHandlerState__Enum state));
     IL2CPP_REGISTER_METHOD(0x00617640, void, Validate, (app::OnlineHandler * this_ptr));
     IL2CPP_REGISTER_METHOD(0x006178E0, void, __ctor, (app::OnlineHandler * this_ptr));
-} // namespace app::methods::OnlineHandler
+}

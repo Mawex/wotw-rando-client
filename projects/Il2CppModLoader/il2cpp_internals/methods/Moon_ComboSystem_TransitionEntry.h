@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon_ComboSystem::TransitionEntry {
-IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (app::TransitionEntry * this_ptr, app::String * type_name, int32_t type_indx));
+    IL2CPP_REGISTER_METHOD(0x00CC8D50, void, __ctor, (app::TransitionEntry * this_ptr, app::String * type_name, int32_t type_indx));
 }

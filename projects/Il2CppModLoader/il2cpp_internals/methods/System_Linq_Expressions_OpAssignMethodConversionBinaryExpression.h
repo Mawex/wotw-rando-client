@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Linq_Expressions::OpAssignMethodConversionBinaryExpression {
-IL2CPP_REGISTER_METHOD(0x02FBDA50, void, __ctor, (app::OpAssignMethodConversionBinaryExpression * this_ptr, app::ExpressionType__Enum node_type, app::Expression * left, app::Expression * right, app::Type * type, app::MethodInfo_1 * method_1, app::LambdaExpression * conversion));
-IL2CPP_REGISTER_METHOD(0x002FB9B0, LambdaExpression *, GetConversion, (app::OpAssignMethodConversionBinaryExpression * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x02FBDA50, void, __ctor, (app::OpAssignMethodConversionBinaryExpression * this_ptr, app::ExpressionType__Enum node_type, app::Expression * left, app::Expression * right, app::Type * type, app::MethodInfo_1 * method_1, app::LambdaExpression * conversion));
+    IL2CPP_REGISTER_METHOD(0x002FB9B0, app::LambdaExpression *, GetConversion, (app::OpAssignMethodConversionBinaryExpression * this_ptr));
 }

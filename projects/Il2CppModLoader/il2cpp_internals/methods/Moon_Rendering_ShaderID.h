@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon_Rendering::ShaderID {
-IL2CPP_REGISTER_METHOD(0x00EB5D30, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x00EB5D30, void, __cctor, ());
 }

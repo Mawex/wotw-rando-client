@@ -13,7 +13,7 @@ namespace app::methods::RECT {
     IL2CPP_REGISTER_METHOD(0x00E96EE0, bool, operator____1, (app::RECT r1, app::RECT r2));
     IL2CPP_REGISTER_METHOD(0x00E96F20, bool, operator____2, (app::RECT r1, app::RECT r2));
     IL2CPP_REGISTER_METHOD(0x0011FCD0, bool, Equals_1, (app::RECT__Boxed * this_ptr, app::RECT r));
-    IL2CPP_REGISTER_METHOD(0x0011FD10, bool, Equals_2, (app::RECT__Boxed * this_ptr, app::Object* obj));
-    IL2CPP_REGISTER_METHOD(0x0011FE20, String*, ToString, (app::RECT__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0011FD10, bool, Equals_2, (app::RECT__Boxed * this_ptr, app::Object * obj));
+    IL2CPP_REGISTER_METHOD(0x0011FE20, app::String *, ToString, (app::RECT__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0011FE30, int32_t, GetHashCode, (app::RECT__Boxed * this_ptr));
-} // namespace app::methods::RECT
+}

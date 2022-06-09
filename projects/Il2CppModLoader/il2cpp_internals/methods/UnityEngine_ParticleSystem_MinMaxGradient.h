@@ -1,19 +1,19 @@
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_MinMaxGradient {
-IL2CPP_REGISTER_METHOD(0x00248760, void, __ctor, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color color));
-IL2CPP_REGISTER_METHOD(0x001EBC90, ParticleSystemGradientMode__Enum, get_mode, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x001FBBA0, Gradient *, get_gradientMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x0010D3B0, void, set_gradientMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Gradient * value));
-IL2CPP_REGISTER_METHOD(0x001FBB90, Gradient *, get_gradientMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x0010D3A0, void, set_gradientMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Gradient * value));
-IL2CPP_REGISTER_METHOD(0x00248780, Color, get_colorMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x00248790, void, set_colorMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color value));
-IL2CPP_REGISTER_METHOD(0x001D9AE0, Color, get_colorMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x001D9AF0, void, set_colorMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color value));
-IL2CPP_REGISTER_METHOD(0x00248780, Color, get_color, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x00248790, void, set_color, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color value));
-IL2CPP_REGISTER_METHOD(0x001FBBA0, Gradient *, get_gradient, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x0010D3B0, void, set_gradient, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Gradient * value));
-IL2CPP_REGISTER_METHOD(0x03135430, ParticleSystem_MinMaxGradient, operator_, (app::Color color));
+    IL2CPP_REGISTER_METHOD(0x00248760, void, __ctor, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color color));
+    IL2CPP_REGISTER_METHOD(0x001EBC90, app::ParticleSystemGradientMode__Enum, get_mode, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x001FBBA0, app::Gradient *, get_gradientMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0010D3B0, void, set_gradientMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Gradient * value));
+    IL2CPP_REGISTER_METHOD(0x001FBB90, app::Gradient *, get_gradientMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0010D3A0, void, set_gradientMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Gradient * value));
+    IL2CPP_REGISTER_METHOD(0x00248780, app::Color, get_colorMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00248790, void, set_colorMax, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color value));
+    IL2CPP_REGISTER_METHOD(0x001D9AE0, app::Color, get_colorMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x001D9AF0, void, set_colorMin, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color value));
+    IL2CPP_REGISTER_METHOD(0x00248780, app::Color, get_color, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00248790, void, set_color, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color value));
+    IL2CPP_REGISTER_METHOD(0x001FBBA0, app::Gradient *, get_gradient, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0010D3B0, void, set_gradient, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Gradient * value));
+    IL2CPP_REGISTER_METHOD(0x03135430, app::ParticleSystem_MinMaxGradient, operator_, (app::Color color));
 }

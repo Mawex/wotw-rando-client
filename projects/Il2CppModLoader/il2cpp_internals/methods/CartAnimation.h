@@ -17,4 +17,4 @@ namespace app::methods::CartAnimation {
     IL2CPP_REGISTER_METHOD(0x00B32440, bool, AllSpringsAreResting, (app::CartAnimation * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B324C0, void, RotateWhell, (app::CartAnimation * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B325D0, void, __ctor, (app::CartAnimation * this_ptr));
-} // namespace app::methods::CartAnimation
+}

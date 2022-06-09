@@ -14,7 +14,7 @@ namespace app::methods::LizardEntity {
     IL2CPP_REGISTER_METHOD(0x00EDAFE0, bool, get_IsRolling, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0041F750, void, set_IsRolling, (app::LizardEntity * this_ptr, bool value));
     IL2CPP_REGISTER_METHOD(0x00FACAE0, bool, get_IsMinAttackCooldownSatisfied, (app::LizardEntity * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00FACAF0, LizardSpawnType__Enum, get_SpawnType, (app::LizardEntity * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00FACAF0, app::LizardSpawnType__Enum, get_SpawnType, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00FACB00, void, set_SpawnType, (app::LizardEntity * this_ptr, app::LizardSpawnType__Enum value));
     IL2CPP_REGISTER_METHOD(0x00FACB10, void, RandomizeCooldown, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00FACC30, void, OnPoolSpawned, (app::LizardEntity * this_ptr));
@@ -25,16 +25,16 @@ namespace app::methods::LizardEntity {
     IL2CPP_REGISTER_METHOD(0x00FAD5A0, void, OnAwake, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00FAD720, void, UnserializedInitialization, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00FADAE0, void, OnFixedUpdate, (app::LizardEntity * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00FADBC0, void, ResolveDamage, (app::LizardEntity * this_ptr, app::DamageResult* damage_result));
-    IL2CPP_REGISTER_METHOD(0x00FADCE0, void, OnAnyLizardHit, (app::LizardEntity * this_ptr, app::LizardEntity* lizard));
+    IL2CPP_REGISTER_METHOD(0x00FADBC0, void, ResolveDamage, (app::LizardEntity * this_ptr, app::DamageResult * damage_result));
+    IL2CPP_REGISTER_METHOD(0x00FADCE0, void, OnAnyLizardHit, (app::LizardEntity * this_ptr, app::LizardEntity * lizard));
     IL2CPP_REGISTER_METHODINFO(0x04721FB0, LizardEntity_OnAnyLizardHit__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x00FADDF0, void, TriggerDodgeEvent, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04744D90, LizardEntity_TriggerDodgeEvent__MethodInfo);
-    IL2CPP_REGISTER_METHOD(0x00FADF50, void, OnCeilingOrWallCollision, (app::LizardEntity * this_ptr, app::Vector3 normal, app::Collider* collider));
+    IL2CPP_REGISTER_METHOD(0x00FADF50, void, OnCeilingOrWallCollision, (app::LizardEntity * this_ptr, app::Vector3 normal, app::Collider * collider));
     IL2CPP_REGISTER_METHODINFO(0x04796260, LizardEntity_OnCeilingOrWallCollision__MethodInfo);
-    IL2CPP_REGISTER_METHOD(0x00FAE0C0, Vector3, ModifyKickbackForce, (app::LizardEntity * this_ptr, app::Vector3 force, app::Damage* damage, bool apply_death_modification));
+    IL2CPP_REGISTER_METHOD(0x00FAE0C0, app::Vector3, ModifyKickbackForce, (app::LizardEntity * this_ptr, app::Vector3 force, app::Damage * damage, bool apply_death_modification));
     IL2CPP_REGISTER_METHOD(0x00FAE250, void, OnAttackEnd, (app::LizardEntity * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0043D9A0, SelectableCategory__Enum, get_Category, (app::LizardEntity * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0043D9A0, app::SelectableCategory__Enum, get_Category, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00FAE260, void, __ctor, (app::LizardEntity * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00FAE4B0, void, __cctor, ());
-} // namespace app::methods::LizardEntity
+}

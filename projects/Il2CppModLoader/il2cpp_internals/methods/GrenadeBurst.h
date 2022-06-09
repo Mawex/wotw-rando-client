@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::GrenadeBurst {
-    IL2CPP_REGISTER_METHOD(0x002FD750, DamageLayerMask__Enum, get_DamageLayerMask, (app::GrenadeBurst * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FD750, app::DamageLayerMask__Enum, get_DamageLayerMask, (app::GrenadeBurst * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FD760, void, set_DamageLayerMask, (app::GrenadeBurst * this_ptr, app::DamageLayerMask__Enum value));
     IL2CPP_REGISTER_METHOD(0x0108B100, void, Finalize, (app::GrenadeBurst * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0108B190, void, OnPoolSpawned, (app::GrenadeBurst * this_ptr));
@@ -19,7 +19,7 @@ namespace app::methods::GrenadeBurst {
     IL2CPP_REGISTER_METHOD(0x0108CB10, void, FixedUpdate, (app::GrenadeBurst * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003FFE10, bool, get_IsSuspended, (app::GrenadeBurst * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0057BAC0, void, set_IsSuspended, (app::GrenadeBurst * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x0070DEC0, SuspendableMask__Enum, get_Mask, (app::GrenadeBurst * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0070DEC0, app::SuspendableMask__Enum, get_Mask, (app::GrenadeBurst * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0108CBF0, void, set_Mask, (app::GrenadeBurst * this_ptr, app::SuspendableMask__Enum value));
     IL2CPP_REGISTER_METHOD(0x0108CC00, void, __ctor, (app::GrenadeBurst * this_ptr));
-} // namespace app::methods::GrenadeBurst
+}

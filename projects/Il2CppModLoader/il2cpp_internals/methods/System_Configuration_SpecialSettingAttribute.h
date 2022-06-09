@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Configuration::SpecialSettingAttribute {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SpecialSettingAttribute * this_ptr, app::SpecialSetting__Enum special_setting));
-IL2CPP_REGISTER_METHOD(0x01FFE2F0, SpecialSetting__Enum, get_SpecialSetting, (app::SpecialSettingAttribute * this_ptr));
-IL2CPP_REGISTER_METHODINFO(0x0470A318, SpecialSettingAttribute_get_SpecialSetting__MethodInfo);
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SpecialSettingAttribute * this_ptr, app::SpecialSetting__Enum special_setting));
+    IL2CPP_REGISTER_METHOD(0x01FFE2F0, app::SpecialSetting__Enum, get_SpecialSetting, (app::SpecialSettingAttribute * this_ptr));
+    IL2CPP_REGISTER_METHODINFO(0x0470A318, SpecialSettingAttribute_get_SpecialSetting__MethodInfo);
 }

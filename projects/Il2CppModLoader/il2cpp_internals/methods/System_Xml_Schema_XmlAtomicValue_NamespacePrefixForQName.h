@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Xml_Schema::XmlAtomicValue_NamespacePrefixForQName {
-IL2CPP_REGISTER_METHOD(0x02028E40, void, __ctor, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::String * prefix, app::String * ns));
-IL2CPP_REGISTER_METHOD(0x0223D290, String *, LookupNamespace, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::String * prefix));
-IL2CPP_REGISTER_METHOD(0x0223D2E0, String *, LookupPrefix, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::String * namespace_name));
-IL2CPP_REGISTER_METHOD(0x0223D330, IDictionary_2_System_String_System_String_ *, GetNamespacesInScope, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::XmlNamespaceScope__Enum scope));
+    IL2CPP_REGISTER_METHOD(0x02028E40, void, __ctor, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::String * prefix, app::String * ns));
+    IL2CPP_REGISTER_METHOD(0x0223D290, app::String *, LookupNamespace, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::String * prefix));
+    IL2CPP_REGISTER_METHOD(0x0223D2E0, app::String *, LookupPrefix, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::String * namespace_name));
+    IL2CPP_REGISTER_METHOD(0x0223D330, app::IDictionary_2_System_String_System_String_ *, GetNamespacesInScope, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::XmlNamespaceScope__Enum scope));
 }

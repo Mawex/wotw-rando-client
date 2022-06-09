@@ -25,4 +25,4 @@ namespace app::methods::Lever___c {
     IL2CPP_REGISTER_METHODINFO(0x04709A98, Lever_c___ctor_b__153_9__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, __ctor_b__153_10, (app::Lever_c * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04733750, Lever_c___ctor_b__153_10__MethodInfo);
-} // namespace app::methods::Lever___c
+}

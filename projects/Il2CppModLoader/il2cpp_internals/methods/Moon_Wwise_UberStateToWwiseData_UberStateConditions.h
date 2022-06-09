@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon_Wwise::UberStateToWwiseData_UberStateConditions {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::UberStateToWwiseData_UberStateConditions * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::UberStateToWwiseData_UberStateConditions * this_ptr));
 }

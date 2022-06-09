@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::BaseAnimator {
-    IL2CPP_REGISTER_METHOD(0x00F83CB0, AnimatorDriver*, get_AnimatorDriver, (app::BaseAnimator * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00F83CB0, app::AnimatorDriver *, get_AnimatorDriver, (app::BaseAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F83F40, bool, get_IsInitialized, (app::BaseAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F83F50, void, set_IsInitialized, (app::BaseAnimator * this_ptr, bool value));
     IL2CPP_REGISTER_METHOD(0x00F83F60, bool, get_IsPlaying, (app::BaseAnimator * this_ptr));
@@ -11,8 +11,8 @@ namespace app::methods::BaseAnimator {
     IL2CPP_REGISTER_METHOD(0x00F83FA0, void, set_IsInScene, (app::BaseAnimator * this_ptr, bool value));
     IL2CPP_REGISTER_METHOD(0x00585310, bool, get_SampledByParent, (app::BaseAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00585320, void, set_SampledByParent, (app::BaseAnimator * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x002FBB80, BaseAnimator*, get_ParentAnimator, (app::BaseAnimator * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_ParentAnimator, (app::BaseAnimator * this_ptr, app::BaseAnimator* value));
+    IL2CPP_REGISTER_METHOD(0x002FBB80, app::BaseAnimator *, get_ParentAnimator, (app::BaseAnimator * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_ParentAnimator, (app::BaseAnimator * this_ptr, app::BaseAnimator * value));
     IL2CPP_REGISTER_METHOD(0x008663D0, float, get_CurrentTime, (app::BaseAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x008663E0, void, set_CurrentTime, (app::BaseAnimator * this_ptr, float value));
     IL2CPP_REGISTER_METHOD(0x00F83FB0, void, OnPoolSpawned, (app::BaseAnimator * this_ptr));
@@ -44,9 +44,9 @@ namespace app::methods::BaseAnimator {
     IL2CPP_REGISTER_METHOD(0x00F84C20, float, get_ExtendedDuration, (app::BaseAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F84C60, void, set_ExtendedDuration, (app::BaseAnimator * this_ptr, float value));
     IL2CPP_REGISTER_METHOD(0x00F84DF0, float, get_EffectiveDuration, (app::BaseAnimator * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00F84EE0, TimelineEntity*, Convert, (app::BaseAnimator * this_ptr, app::Transform* target));
+    IL2CPP_REGISTER_METHOD(0x00F84EE0, app::TimelineEntity *, Convert, (app::BaseAnimator * this_ptr, app::Transform * target));
     IL2CPP_REGISTER_METHOD(0x003FBE50, bool, get_IsSuspended, (app::BaseAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003FBE60, void, set_IsSuspended, (app::BaseAnimator * this_ptr, bool value));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, OnPostTimeSlicedEnable, (app::BaseAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F84FD0, void, __ctor, (app::BaseAnimator * this_ptr));
-} // namespace app::methods::BaseAnimator
+}

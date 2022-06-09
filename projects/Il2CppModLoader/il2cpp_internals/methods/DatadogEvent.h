@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::DatadogEvent {
-    IL2CPP_REGISTER_METHOD(0x00420EE0, String*, get_Url, (app::DatadogEvent * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00420EE0, app::String *, get_Url, (app::DatadogEvent * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F9DBA0, int32_t, get_UniqueHash, (app::DatadogEvent * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00C4CBF0, String*, ToJson, (app::DatadogEvent * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00C4CBF0, app::String *, ToJson, (app::DatadogEvent * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::DatadogEvent * this_ptr));
-} // namespace app::methods::DatadogEvent
+}

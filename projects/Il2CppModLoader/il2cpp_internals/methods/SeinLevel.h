@@ -24,8 +24,8 @@ namespace app::methods::SeinLevel {
     IL2CPP_REGISTER_METHOD(0x01023310, void, LevelUp, (app::SeinLevel * this_ptr));
     IL2CPP_REGISTER_METHOD(0x010235C0, void, LoseExperience, (app::SeinLevel * this_ptr, int32_t amount));
     IL2CPP_REGISTER_METHOD(0x010236C0, void, LoseOre, (app::SeinLevel * this_ptr, int32_t amount));
-    IL2CPP_REGISTER_METHOD(0x01023710, void, SetReferenceToSein, (app::SeinLevel * this_ptr, app::SeinCharacter* sein));
+    IL2CPP_REGISTER_METHOD(0x01023710, void, SetReferenceToSein, (app::SeinLevel * this_ptr, app::SeinCharacter * sein));
     IL2CPP_REGISTER_METHOD(0x00E84200, void, GainSkillPoint, (app::SeinLevel * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01023730, void, __ctor, (app::SeinLevel * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
-} // namespace app::methods::SeinLevel
+}

@@ -6,4 +6,4 @@ namespace app::methods::SeinBow {
     IL2CPP_REGISTER_METHOD(0x00D95050, void, Start, (app::SeinBow * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00D951E0, void, Update, (app::SeinBow * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00D95470, void, __ctor, (app::SeinBow * this_ptr));
-} // namespace app::methods::SeinBow
+}

@@ -9,11 +9,11 @@ namespace app::methods::PetrifiedFog {
     IL2CPP_REGISTER_METHOD(0x0049AF70, void, OnDisable, (app::PetrifiedFog * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0049AF80, void, Deactivate, (app::PetrifiedFog * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0049B070, void, FixedUpdate, (app::PetrifiedFog * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0043D9A0, SelectableCategory__Enum, get_Category, (app::PetrifiedFog * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0049BF30, void, Serialize, (app::PetrifiedFog * this_ptr, app::Archive* ar));
+    IL2CPP_REGISTER_METHOD(0x0043D9A0, app::SelectableCategory__Enum, get_Category, (app::PetrifiedFog * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0049BF30, void, Serialize, (app::PetrifiedFog * this_ptr, app::Archive * ar));
     IL2CPP_REGISTER_METHOD(0x0049C020, bool, get_IsSuspended, (app::PetrifiedFog * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0049C030, void, set_IsSuspended, (app::PetrifiedFog * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x003FF610, SuspendableMask__Enum, get_Mask, (app::PetrifiedFog * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x003FF610, app::SuspendableMask__Enum, get_Mask, (app::PetrifiedFog * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0049C040, void, set_Mask, (app::PetrifiedFog * this_ptr, app::SuspendableMask__Enum value));
     IL2CPP_REGISTER_METHOD(0x0049C0F0, void, __ctor, (app::PetrifiedFog * this_ptr));
-} // namespace app::methods::PetrifiedFog
+}

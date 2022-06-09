@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::SeinBowAttack_BalancingData {
-IL2CPP_REGISTER_METHOD(0x00DA1680, void, __ctor, (app::SeinBowAttack_BalancingData * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00DA1680, void, __ctor, (app::SeinBowAttack_BalancingData * this_ptr));
 }

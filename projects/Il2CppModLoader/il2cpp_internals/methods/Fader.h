@@ -12,4 +12,4 @@ namespace app::methods::Fader {
     IL2CPP_REGISTER_METHOD(0x0051DB40, bool, get_IsSuspended, (app::Fader * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0051DB50, void, set_IsSuspended, (app::Fader * this_ptr, bool value));
     IL2CPP_REGISTER_METHOD(0x00990720, void, __ctor, (app::Fader * this_ptr));
-} // namespace app::methods::Fader
+}

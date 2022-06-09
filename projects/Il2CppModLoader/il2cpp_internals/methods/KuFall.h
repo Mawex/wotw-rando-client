@@ -17,4 +17,4 @@ namespace app::methods::KuFall {
     IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::KuFall * this_ptr));
     IL2CPP_REGISTER_METHOD(0x012365B0, bool, _UpdateState_b__8_0, (app::KuFall * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04747B20, KuFall__UpdateState_b__8_0__MethodInfo);
-} // namespace app::methods::KuFall
+}

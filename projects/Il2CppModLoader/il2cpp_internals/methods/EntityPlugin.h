@@ -6,4 +6,4 @@ namespace app::methods::EntityPlugin {
     IL2CPP_REGISTER_METHOD(0x00C9FF30, void, RecordCycle, (app::EntityPlugin * this_ptr, int32_t frame));
     IL2CPP_REGISTER_METHOD(0x00C9FFF0, void, Exit, (app::EntityPlugin * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::EntityPlugin * this_ptr));
-} // namespace app::methods::EntityPlugin
+}

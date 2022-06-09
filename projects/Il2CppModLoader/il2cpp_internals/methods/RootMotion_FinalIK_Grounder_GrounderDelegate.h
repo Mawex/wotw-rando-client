@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::RootMotion_FinalIK::Grounder_GrounderDelegate {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Grounder_GrounderDelegate * this_ptr, app::Object * object, app::void * method_1));
-IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (app::Grounder_GrounderDelegate * this_ptr));
-IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (app::Grounder_GrounderDelegate * this_ptr, app::AsyncCallback * callback, app::Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::Grounder_GrounderDelegate * this_ptr, app::IAsyncResult * result));
+    IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Grounder_GrounderDelegate * this_ptr, app::Object * object, void * method_1));
+    IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (app::Grounder_GrounderDelegate * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00611B10, app::IAsyncResult *, BeginInvoke, (app::Grounder_GrounderDelegate * this_ptr, app::AsyncCallback * callback, app::Object * object));
+    IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::Grounder_GrounderDelegate * this_ptr, app::IAsyncResult * result));
 }

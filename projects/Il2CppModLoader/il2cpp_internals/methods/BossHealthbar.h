@@ -17,4 +17,4 @@ namespace app::methods::BossHealthbar {
     IL2CPP_REGISTER_METHOD(0x00D3B1D0, void, FixedUpdate, (app::BossHealthbar * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00D3B370, void, UpdateVisuals, (app::BossHealthbar * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00D3B580, void, __ctor, (app::BossHealthbar * this_ptr));
-} // namespace app::methods::BossHealthbar
+}

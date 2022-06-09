@@ -15,4 +15,4 @@ namespace app::methods::EnumTools {
     IL2CPP_REGISTER_METHOD(0x01547930, int32_t, AsIntInternal, (app::Int32Enum__Enum t));
     IL2CPP_REGISTER_METHOD(0x01547930, uint32_t, AsUInt, (app::Int32Enum__Enum t));
     IL2CPP_REGISTER_METHOD(0x01547960, uint64_t, AsULong, (app::Int32Enum__Enum t));
-} // namespace app::methods::EnumTools
+}

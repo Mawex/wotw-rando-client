@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon_Rendering::DiskBlurKernelGenerator {
-IL2CPP_REGISTER_METHOD(0x00C54030, Int32__Array *, Generate, (int32_t pass_index, float pixel_radius, int32_t thread_size, int32_t max_radius));
-IL2CPP_REGISTER_METHOD(0x00C54610, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x00C54030, app::Int32__Array *, Generate, (int32_t pass_index, float pixel_radius, int32_t thread_size, int32_t max_radius));
+    IL2CPP_REGISTER_METHOD(0x00C54610, void, __cctor, ());
 }

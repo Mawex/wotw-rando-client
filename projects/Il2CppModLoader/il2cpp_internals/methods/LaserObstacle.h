@@ -8,4 +8,4 @@ namespace app::methods::LaserObstacle {
     IL2CPP_REGISTER_METHODINFO(0x0475AFA0, LaserObstacle__FixedUpdate_b__22_0__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x006DF410, void, _FixedUpdate_b__22_1, (app::LaserObstacle * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04780DE0, LaserObstacle__FixedUpdate_b__22_1__MethodInfo);
-} // namespace app::methods::LaserObstacle
+}

@@ -12,11 +12,11 @@ namespace app::methods::WindVent {
     IL2CPP_REGISTER_METHOD(0x0057A2A0, void, Start, (app::WindVent * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0057A2D0, void, EnableBeamParticleEmission, (app::WindVent * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0057A3B0, void, DisableBeamParticleEmission, (app::WindVent * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0057A490, void, Serialize, (app::WindVent * this_ptr, app::Archive* ar));
+    IL2CPP_REGISTER_METHOD(0x0057A490, void, Serialize, (app::WindVent * this_ptr, app::Archive * ar));
     IL2CPP_REGISTER_METHOD(0x0057A580, bool, get_IsSuspended, (app::WindVent * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0057A590, void, set_IsSuspended, (app::WindVent * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x0057A5A0, SuspendableMask__Enum, get_Mask, (app::WindVent * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0057A5A0, app::SuspendableMask__Enum, get_Mask, (app::WindVent * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0057A5B0, void, set_Mask, (app::WindVent * this_ptr, app::SuspendableMask__Enum value));
-    IL2CPP_REGISTER_METHOD(0x002FBBC0, GameObject*, GetDynamicGraphicTarget, (app::WindVent * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FBBC0, app::GameObject *, GetDynamicGraphicTarget, (app::WindVent * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0057A670, void, __ctor, (app::WindVent * this_ptr));
-} // namespace app::methods::WindVent
+}

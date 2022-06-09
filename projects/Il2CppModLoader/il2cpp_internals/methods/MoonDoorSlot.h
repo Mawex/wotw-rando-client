@@ -7,4 +7,4 @@ namespace app::methods::MoonDoorSlot {
     IL2CPP_REGISTER_METHODINFO(0x04796468, MoonDoorSlot_OnGameSerializeLoad__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x00F4A5A0, void, FixedUpdate, (app::MoonDoorSlot * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::MoonDoorSlot * this_ptr));
-} // namespace app::methods::MoonDoorSlot
+}

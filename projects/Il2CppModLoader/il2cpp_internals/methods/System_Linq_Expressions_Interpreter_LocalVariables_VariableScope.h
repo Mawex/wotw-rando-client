@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Linq_Expressions_Interpreter::LocalVariables_VariableScope {
-IL2CPP_REGISTER_METHOD(0x023FBA20, void, __ctor, (app::LocalVariables_VariableScope * this_ptr, app::LocalVariable * variable, int32_t start, app::LocalVariables_VariableScope * parent));
+    IL2CPP_REGISTER_METHOD(0x023FBA20, void, __ctor, (app::LocalVariables_VariableScope * this_ptr, app::LocalVariable * variable, int32_t start, app::LocalVariables_VariableScope * parent));
 }

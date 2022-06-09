@@ -3,7 +3,7 @@
 namespace app::methods::PauseScreen {
     IL2CPP_REGISTER_METHOD(0x0044A9D0, void, ResetStatics, ());
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_CanInterruptTab, (app::PauseScreen * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00420EE0, MenuTabBackground__Enum, get_BackgroundMode, (app::PauseScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00420EE0, app::MenuTabBackground__Enum, get_BackgroundMode, (app::PauseScreen * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedsExperienceUI, (app::PauseScreen * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00417870, bool, get_NeedOreUI, (app::PauseScreen * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0044AA50, void, Awake, (app::PauseScreen * this_ptr));
@@ -24,4 +24,4 @@ namespace app::methods::PauseScreen {
     IL2CPP_REGISTER_METHOD(0x0044BB70, void, OnPostTimeSlicedEnable, (app::PauseScreen * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0044BC80, void, OnInstantiate, (app::PauseScreen * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::PauseScreen * this_ptr));
-} // namespace app::methods::PauseScreen
+}

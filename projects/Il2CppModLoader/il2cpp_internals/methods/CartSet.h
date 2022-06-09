@@ -7,4 +7,4 @@ namespace app::methods::CartSet {
     IL2CPP_REGISTER_METHOD(0x00B3E810, void, Update, (app::CartSet * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B3E820, void, CheckForSpawnLocking, (app::CartSet * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::CartSet * this_ptr));
-} // namespace app::methods::CartSet
+}

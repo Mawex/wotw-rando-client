@@ -23,4 +23,4 @@ namespace app::methods::Recorder___c {
     IL2CPP_REGISTER_METHODINFO(0x0478DFE8, Recorder_c___cctor_b__74_3__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor_b__74_4, (app::Recorder_c * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x047909D8, Recorder_c___cctor_b__74_4__MethodInfo);
-} // namespace app::methods::Recorder___c
+}

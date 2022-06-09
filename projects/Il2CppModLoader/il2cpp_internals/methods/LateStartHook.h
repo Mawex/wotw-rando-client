@@ -8,4 +8,4 @@ namespace app::methods::LateStartHook {
     IL2CPP_REGISTER_METHOD(0x00F224F0, void, Start, (app::LateStartHook * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::LateStartHook * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00F22730, void, __cctor, ());
-} // namespace app::methods::LateStartHook
+}

@@ -7,4 +7,4 @@ namespace app::methods::FaderAnimator {
     IL2CPP_REGISTER_METHOD(0x00933230, float, get_Duration, (app::FaderAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x004167A0, bool, get_IsLooping, (app::FaderAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00990E80, void, __ctor, (app::FaderAnimator * this_ptr));
-} // namespace app::methods::FaderAnimator
+}

@@ -9,8 +9,8 @@ namespace app::methods::MapStone {
     IL2CPP_REGISTER_METHOD(0x00A0A120, void, Unhighlight, (app::MapStone * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00A0A3B0, void, OnDisable, (app::MapStone * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00A0A3D0, bool, get_Activated, (app::MapStone * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00A0A3E0, void, Serialize, (app::MapStone * this_ptr, app::Archive* ar));
+    IL2CPP_REGISTER_METHOD(0x00A0A3E0, void, Serialize, (app::MapStone * this_ptr, app::Archive * ar));
     IL2CPP_REGISTER_METHOD(0x00A0A470, float, get_DistanceToSein, (app::MapStone * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00A0A620, void, FixedUpdate, (app::MapStone * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00A0AB40, void, __ctor, (app::MapStone * this_ptr));
-} // namespace app::methods::MapStone
+}

@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::Unity_Jobs_LowLevel_Unsafe::JobProducerTypeAttribute {
-IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (app::JobProducerTypeAttribute * this_ptr, app::Type * producer_type));
+    IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (app::JobProducerTypeAttribute * this_ptr, app::Type * producer_type));
 }

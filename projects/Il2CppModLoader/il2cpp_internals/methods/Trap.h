@@ -12,7 +12,7 @@ namespace app::methods::Trap {
     IL2CPP_REGISTER_METHOD(0x00B10320, void, ChangeColor, (app::Trap * this_ptr, app::Color color));
     IL2CPP_REGISTER_METHOD(0x005D8A80, bool, get_IsSuspended, (app::Trap * this_ptr));
     IL2CPP_REGISTER_METHOD(0x006DC040, void, set_IsSuspended, (app::Trap * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x006DC050, SuspendableMask__Enum, get_Mask, (app::Trap * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x006DC050, app::SuspendableMask__Enum, get_Mask, (app::Trap * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B103E0, void, set_Mask, (app::Trap * this_ptr, app::SuspendableMask__Enum value));
     IL2CPP_REGISTER_METHOD(0x00B10490, void, __ctor, (app::Trap * this_ptr));
-} // namespace app::methods::Trap
+}

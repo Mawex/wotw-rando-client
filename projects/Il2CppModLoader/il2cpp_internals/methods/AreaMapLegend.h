@@ -8,4 +8,4 @@ namespace app::methods::AreaMapLegend {
     IL2CPP_REGISTER_METHOD(0x0050F030, void, HideSilently, (app::AreaMapLegend * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00446590, bool, IsVisible, (app::AreaMapLegend * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::AreaMapLegend * this_ptr));
-} // namespace app::methods::AreaMapLegend
+}

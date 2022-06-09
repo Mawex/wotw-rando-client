@@ -6,4 +6,4 @@ namespace app::methods::MusicListener {
     IL2CPP_REGISTER_METHOD(0x0087E1C0, void, FixedUpdate, (app::MusicListener * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::MusicListener * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0087E680, void, __cctor, ());
-} // namespace app::methods::MusicListener
+}

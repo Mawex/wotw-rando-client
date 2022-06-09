@@ -12,4 +12,4 @@ namespace app::methods::DofAnimator {
     IL2CPP_REGISTER_METHOD(0x00B9C1A0, void, ComputeWeightScale, ());
     IL2CPP_REGISTER_METHOD(0x00B9C400, void, __ctor, (app::DofAnimator * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B9C470, void, __cctor, ());
-} // namespace app::methods::DofAnimator
+}

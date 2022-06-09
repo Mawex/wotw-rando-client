@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::AkTriangle {
-    IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor_1, (app::AkTriangle * this_ptr, app::void* c_ptr, bool c_memory_own));
-    IL2CPP_REGISTER_METHOD(0x026FEF80, void*, getCPtr, (app::AkTriangle * obj));
-    IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (app::AkTriangle * this_ptr, app::void* c_ptr));
+    IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor_1, (app::AkTriangle * this_ptr, void * c_ptr, bool c_memory_own));
+    IL2CPP_REGISTER_METHOD(0x026FEF80, void *, getCPtr, (app::AkTriangle * obj));
+    IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (app::AkTriangle * this_ptr, void * c_ptr));
     IL2CPP_REGISTER_METHOD(0x026FF010, void, Finalize, (app::AkTriangle * this_ptr));
     IL2CPP_REGISTER_METHOD(0x026FF090, void, Dispose, (app::AkTriangle * this_ptr));
     IL2CPP_REGISTER_METHOD(0x026FF2A0, void, __ctor_2, (app::AkTriangle * this_ptr));
@@ -18,5 +18,5 @@ namespace app::methods::AkTriangle {
     IL2CPP_REGISTER_METHOD(0x026FFD40, uint16_t, get_surface, (app::AkTriangle * this_ptr));
     IL2CPP_REGISTER_METHOD(0x026FFE60, void, Clear, (app::AkTriangle * this_ptr));
     IL2CPP_REGISTER_METHOD(0x026FFF00, int32_t, GetSizeOf, ());
-    IL2CPP_REGISTER_METHOD(0x026FFF90, void, Clone, (app::AkTriangle * this_ptr, app::AkTriangle* other));
-} // namespace app::methods::AkTriangle
+    IL2CPP_REGISTER_METHOD(0x026FFF90, void, Clone, (app::AkTriangle * this_ptr, app::AkTriangle * other));
+}

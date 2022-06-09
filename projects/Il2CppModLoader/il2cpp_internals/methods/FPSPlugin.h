@@ -9,4 +9,4 @@ namespace app::methods::FPSPlugin {
     IL2CPP_REGISTER_METHOD(0x0098B310, void, OnDestroy, (app::FPSPlugin * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0098B3B0, void, OnApplicationQuit, (app::FPSPlugin * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::FPSPlugin * this_ptr));
-} // namespace app::methods::FPSPlugin
+}

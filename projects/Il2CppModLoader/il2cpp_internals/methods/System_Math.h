@@ -18,9 +18,9 @@ namespace app::methods::System::Math {
     IL2CPP_REGISTER_METHOD(0x022684C0, double, Round_3, (double value, app::MidpointRounding__Enum mode));
     IL2CPP_REGISTER_METHOD(0x02268570, double, Round_4, (double value, int32_t digits, app::MidpointRounding__Enum mode));
     IL2CPP_REGISTER_METHODINFO(0x04701850, Math_Round_3__MethodInfo);
-    IL2CPP_REGISTER_METHOD(0x02268740, Decimal, Round_5, (app::Decimal d));
-    IL2CPP_REGISTER_METHOD(0x022688B0, double, SplitFractionDouble, (app::double* value));
-    IL2CPP_REGISTER_METHOD(0x022688C0, Decimal, Truncate_1, (app::Decimal d));
+    IL2CPP_REGISTER_METHOD(0x02268740, app::Decimal, Round_5, (app::Decimal d));
+    IL2CPP_REGISTER_METHOD(0x022688B0, double, SplitFractionDouble, (double * value));
+    IL2CPP_REGISTER_METHOD(0x022688C0, app::Decimal, Truncate_1, (app::Decimal d));
     IL2CPP_REGISTER_METHOD(0x02268A30, double, Truncate_2, (double d));
     IL2CPP_REGISTER_METHOD(0x02268B60, double, Sqrt, (double d));
     IL2CPP_REGISTER_METHOD(0x02268B70, double, Log_1, (double d));
@@ -36,7 +36,7 @@ namespace app::methods::System::Math {
     IL2CPP_REGISTER_METHODINFO(0x047908E0, Math_AbsHelper_1__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x02269300, float, Abs_3, (float value));
     IL2CPP_REGISTER_METHOD(0x02269320, double, Abs_4, (double value));
-    IL2CPP_REGISTER_METHOD(0x02269330, Decimal, Abs_5, (app::Decimal value));
+    IL2CPP_REGISTER_METHOD(0x02269330, app::Decimal, Abs_5, (app::Decimal value));
     IL2CPP_REGISTER_METHOD(0x02269420, int8_t, Max_1, (int8_t val1, int8_t val2));
     IL2CPP_REGISTER_METHOD(0x02269430, uint8_t, Max_2, (uint8_t val1, uint8_t val2));
     IL2CPP_REGISTER_METHOD(0x02269440, int16_t, Max_3, (int16_t val1, int16_t val2));
@@ -47,7 +47,7 @@ namespace app::methods::System::Math {
     IL2CPP_REGISTER_METHOD(0x02269490, uint64_t, Max_8, (uint64_t val1, uint64_t val2));
     IL2CPP_REGISTER_METHOD(0x022694A0, float, Max_9, (float val1, float val2));
     IL2CPP_REGISTER_METHOD(0x022694C0, double, Max_10, (double val1, double val2));
-    IL2CPP_REGISTER_METHOD(0x022695B0, Decimal, Max_11, (app::Decimal val1, app::Decimal val2));
+    IL2CPP_REGISTER_METHOD(0x022695B0, app::Decimal, Max_11, (app::Decimal val1, app::Decimal val2));
     IL2CPP_REGISTER_METHOD(0x02269770, int8_t, Min_1, (int8_t val1, int8_t val2));
     IL2CPP_REGISTER_METHOD(0x02269780, uint8_t, Min_2, (uint8_t val1, uint8_t val2));
     IL2CPP_REGISTER_METHOD(0x02269790, int16_t, Min_3, (int16_t val1, int16_t val2));
@@ -58,11 +58,11 @@ namespace app::methods::System::Math {
     IL2CPP_REGISTER_METHOD(0x022697E0, uint64_t, Min_8, (uint64_t val1, uint64_t val2));
     IL2CPP_REGISTER_METHOD(0x022697F0, float, Min_9, (float val1, float val2));
     IL2CPP_REGISTER_METHOD(0x02269810, double, Min_10, (double val1, double val2));
-    IL2CPP_REGISTER_METHOD(0x02269900, Decimal, Min_11, (app::Decimal val1, app::Decimal val2));
+    IL2CPP_REGISTER_METHOD(0x02269900, app::Decimal, Min_11, (app::Decimal val1, app::Decimal val2));
     IL2CPP_REGISTER_METHOD(0x02269AC0, double, Log_2, (double a, double new_base));
     IL2CPP_REGISTER_METHOD(0x02269C70, int32_t, Sign_1, (float value));
     IL2CPP_REGISTER_METHODINFO(0x04783928, Math_Sign__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x02269D80, int32_t, Sign_2, (double value));
     IL2CPP_REGISTER_METHODINFO(0x04718F00, Math_Sign_1__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x02269E90, void, __cctor, ());
-} // namespace app::methods::System::Math
+}

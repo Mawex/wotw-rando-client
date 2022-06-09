@@ -8,4 +8,4 @@ namespace app::methods::Spear {
     IL2CPP_REGISTER_METHOD(0x00EF72B0, void, OnDisable, (app::Spear * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00EF7330, void, Update, (app::Spear * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::Spear * this_ptr));
-} // namespace app::methods::Spear
+}

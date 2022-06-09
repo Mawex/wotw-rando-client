@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets_CinematicEffects::ShaderID_AmbientOcclusion {
-IL2CPP_REGISTER_METHOD(0x0250E4E0, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x0250E4E0, void, __cctor, ());
 }

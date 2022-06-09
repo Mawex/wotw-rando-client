@@ -7,4 +7,4 @@ namespace app::methods::RopeReeler {
     IL2CPP_REGISTER_METHOD(0x0136CFE0, void, ReelIn, (app::RopeReeler * this_ptr, float amount));
     IL2CPP_REGISTER_METHOD(0x0136D9F0, bool, ReelOut, (app::RopeReeler * this_ptr, float amount));
     IL2CPP_REGISTER_METHOD(0x0136E200, void, __ctor, (app::RopeReeler * this_ptr));
-} // namespace app::methods::RopeReeler
+}

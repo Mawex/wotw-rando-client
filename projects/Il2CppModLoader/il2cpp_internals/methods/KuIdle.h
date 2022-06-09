@@ -10,4 +10,4 @@ namespace app::methods::KuIdle {
     IL2CPP_REGISTER_METHOD(0x0123A140, void, Update, (app::KuIdle * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0123A180, void, ResetVerticalSpeedData, (app::KuIdle * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::KuIdle * this_ptr));
-} // namespace app::methods::KuIdle
+}

@@ -7,4 +7,4 @@ namespace app::methods::CameraSystem {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDisable, (app::CameraSystem * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B201D0, void, SampleCameras, (app::CameraSystem * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::CameraSystem * this_ptr));
-} // namespace app::methods::CameraSystem
+}

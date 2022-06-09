@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine_Playables::PlayableOutput {
-IL2CPP_REGISTER_METHOD(0x00120520, void, __ctor, (app::PlayableOutput__Boxed * this_ptr, app::PlayableOutputHandle handle));
-IL2CPP_REGISTER_METHOD(0x001D9980, PlayableOutputHandle, GetHandle, (app::PlayableOutput__Boxed * this_ptr));
-IL2CPP_REGISTER_METHOD(0x00216DF0, bool, Equals, (app::PlayableOutput__Boxed * this_ptr, app::PlayableOutput other));
-IL2CPP_REGISTER_METHOD(0x02966A80, void, __cctor, ());
+    IL2CPP_REGISTER_METHOD(0x00120520, void, __ctor, (app::PlayableOutput__Boxed * this_ptr, app::PlayableOutputHandle handle));
+    IL2CPP_REGISTER_METHOD(0x001D9980, app::PlayableOutputHandle, GetHandle, (app::PlayableOutput__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00216DF0, bool, Equals, (app::PlayableOutput__Boxed * this_ptr, app::PlayableOutput other));
+    IL2CPP_REGISTER_METHOD(0x02966A80, void, __cctor, ());
 }

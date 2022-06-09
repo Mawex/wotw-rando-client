@@ -6,4 +6,4 @@ namespace app::methods::KuOriMounting {
     IL2CPP_REGISTER_METHOD(0x012448B0, void, OnSetReferenceToKu, (app::KuOriMounting * this_ptr));
     IL2CPP_REGISTER_METHOD(0x012448E0, void, EnterMounting, (app::KuOriMounting * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::KuOriMounting * this_ptr));
-} // namespace app::methods::KuOriMounting
+}

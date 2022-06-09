@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::Unity_IO_Compression::DeflateStream_AsyncWriteDelegate {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::Object * object, app::void * method_1));
-IL2CPP_REGISTER_METHOD(0x02B74C40, void, Invoke, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::Byte__Array * array, int32_t offset, int32_t count, bool is_async));
-IL2CPP_REGISTER_METHOD(0x02B75230, IAsyncResult *, BeginInvoke, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::Byte__Array * array, int32_t offset, int32_t count, bool is_async, app::AsyncCallback * callback, app::Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::IAsyncResult * result));
+    IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::Object * object, void * method_1));
+    IL2CPP_REGISTER_METHOD(0x02B74C40, void, Invoke, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::Byte__Array * array, int32_t offset, int32_t count, bool is_async));
+    IL2CPP_REGISTER_METHOD(0x02B75230, app::IAsyncResult *, BeginInvoke, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::Byte__Array * array, int32_t offset, int32_t count, bool is_async, app::AsyncCallback * callback, app::Object * object));
+    IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::DeflateStream_AsyncWriteDelegate * this_ptr, app::IAsyncResult * result));
 }

@@ -6,8 +6,8 @@ namespace app::methods::PhysicsCage {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Suspend, (app::PhysicsCage * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Resume, (app::PhysicsCage * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00443CC0, void, AttachedBodyEnabled, (app::PhysicsCage * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x014FBF90, bool, Attach, (app::PhysicsCage * this_ptr, app::ConfigurableJoint* joint, app::Vector3 attachment_point, app::AttachJointSettings* joint_settings));
-    IL2CPP_REGISTER_METHOD(0x014FC1E0, Rigidbody*, GetRigidbody, (app::PhysicsCage * this_ptr, app::Vector3 attachment_point));
-    IL2CPP_REGISTER_METHOD(0x002FA000, void, WasAttached, (app::PhysicsCage * this_ptr, app::IPhysicsAttachable* attachable, app::ConfigurableJoint* joint));
+    IL2CPP_REGISTER_METHOD(0x014FBF90, bool, Attach, (app::PhysicsCage * this_ptr, app::ConfigurableJoint * joint, app::Vector3 attachment_point, app::AttachJointSettings * joint_settings));
+    IL2CPP_REGISTER_METHOD(0x014FC1E0, app::Rigidbody *, GetRigidbody, (app::PhysicsCage * this_ptr, app::Vector3 attachment_point));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, WasAttached, (app::PhysicsCage * this_ptr, app::IPhysicsAttachable * attachable, app::ConfigurableJoint * joint));
     IL2CPP_REGISTER_METHOD(0x014FC710, void, __ctor, (app::PhysicsCage * this_ptr));
-} // namespace app::methods::PhysicsCage
+}

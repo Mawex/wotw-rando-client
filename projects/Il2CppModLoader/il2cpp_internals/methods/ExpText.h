@@ -9,4 +9,4 @@ namespace app::methods::ExpText {
     IL2CPP_REGISTER_METHOD(0x00987400, void, OnPoolSpawned, (app::ExpText * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, OnPoolDespawned, (app::ExpText * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00444DD0, void, __ctor, (app::ExpText * this_ptr));
-} // namespace app::methods::ExpText
+}

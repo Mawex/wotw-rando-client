@@ -12,4 +12,4 @@ namespace app::methods::CartBoost {
     IL2CPP_REGISTER_METHOD(0x00B332E0, void, PerformBoost, (app::CartBoost * this_ptr, bool consume_boost_charge));
     IL2CPP_REGISTER_METHOD(0x00B335A0, void, RechargeBoost, (app::CartBoost * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00B33620, void, __ctor, (app::CartBoost * this_ptr));
-} // namespace app::methods::CartBoost
+}

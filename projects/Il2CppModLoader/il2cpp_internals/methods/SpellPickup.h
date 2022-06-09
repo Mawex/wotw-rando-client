@@ -6,4 +6,4 @@ namespace app::methods::SpellPickup {
     IL2CPP_REGISTER_METHOD(0x00943660, void, OnCollect, (app::SpellPickup * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04789EF0, SpellPickup_OnCollect__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x009437D0, void, __ctor, (app::SpellPickup * this_ptr));
-} // namespace app::methods::SpellPickup
+}

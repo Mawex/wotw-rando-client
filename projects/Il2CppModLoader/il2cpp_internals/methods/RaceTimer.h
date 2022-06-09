@@ -17,7 +17,7 @@ namespace app::methods::RaceTimer {
     IL2CPP_REGISTER_METHOD(0x00724130, void, set_AdjustedElapsedTime, (app::RaceTimer * this_ptr, float value));
     IL2CPP_REGISTER_METHOD(0x00405F50, bool, get_IsSuspended, (app::RaceTimer * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00724140, void, set_IsSuspended, (app::RaceTimer * this_ptr, bool value));
-    IL2CPP_REGISTER_METHOD(0x003FF7D0, SuspendableMask__Enum, get_Mask, (app::RaceTimer * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x003FF7D0, app::SuspendableMask__Enum, get_Mask, (app::RaceTimer * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00724150, void, set_Mask, (app::RaceTimer * this_ptr, app::SuspendableMask__Enum value));
     IL2CPP_REGISTER_METHOD(0x00724200, bool, get_IsOvertime, (app::RaceTimer * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00724320, void, Awake, (app::RaceTimer * this_ptr));
@@ -31,4 +31,4 @@ namespace app::methods::RaceTimer {
     IL2CPP_REGISTER_METHOD(0x00724740, void, Reset, (app::RaceTimer * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00724760, void, DebugDraw, (app::RaceTimer * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00724950, void, __ctor, (app::RaceTimer * this_ptr));
-} // namespace app::methods::RaceTimer
+}

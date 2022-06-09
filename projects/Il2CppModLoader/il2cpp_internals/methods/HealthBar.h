@@ -18,11 +18,11 @@ namespace app::methods::HealthBar {
     IL2CPP_REGISTER_METHOD(0x010A01C0, void, UpdateColorBar, (app::HealthBar * this_ptr));
     IL2CPP_REGISTER_METHOD(0x010A0470, void, UpdateGrayBar, (app::HealthBar * this_ptr));
     IL2CPP_REGISTER_METHOD(0x010A0790, void, UpdateBackground, (app::HealthBar * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x010A0850, Color, GetMinBarColorByValue, (app::HealthBar * this_ptr, float normalized_value));
-    IL2CPP_REGISTER_METHOD(0x010A0910, Color, GetMaxBarColor, (app::HealthBar * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x010A0980, Color, GetBackBarColor, (app::HealthBar * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x010A09B0, Vector4, GetTextureOffsetByValue, (app::HealthBar * this_ptr, float normalized_value));
+    IL2CPP_REGISTER_METHOD(0x010A0850, app::Color, GetMinBarColorByValue, (app::HealthBar * this_ptr, float normalized_value));
+    IL2CPP_REGISTER_METHOD(0x010A0910, app::Color, GetMaxBarColor, (app::HealthBar * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010A0980, app::Color, GetBackBarColor, (app::HealthBar * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010A09B0, app::Vector4, GetTextureOffsetByValue, (app::HealthBar * this_ptr, float normalized_value));
     IL2CPP_REGISTER_METHOD(0x010A09F0, void, __ctor, (app::HealthBar * this_ptr));
     IL2CPP_REGISTER_METHOD(0x010A0AD0, void, __cctor, ());
-    IL2CPP_REGISTER_METHOD(0x004F4750, GameObject*, IDisableOnRecordablePreview_get_gameObject, (app::HealthBar * this_ptr));
-} // namespace app::methods::HealthBar
+    IL2CPP_REGISTER_METHOD(0x004F4750, app::GameObject *, IDisableOnRecordablePreview_get_gameObject, (app::HealthBar * this_ptr));
+}

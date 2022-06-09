@@ -8,4 +8,4 @@ namespace app::methods::UberCageGrid {
     IL2CPP_REGISTER_METHODINFO(0x0473C428, UberCageGrid_UpdateMesh__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoStrip, (app::UberCageGrid * this_ptr));
     IL2CPP_REGISTER_METHOD(0x013E51A0, void, __ctor, (app::UberCageGrid * this_ptr));
-} // namespace app::methods::UberCageGrid
+}

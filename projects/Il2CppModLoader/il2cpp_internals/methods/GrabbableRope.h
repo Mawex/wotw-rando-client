@@ -1,21 +1,21 @@
 #include <interception_macros.h>
 
 namespace app::methods::GrabbableRope {
-    IL2CPP_REGISTER_METHOD(0x010790F0, Vector3, get_LastForceApplied, (app::GrabbableRope * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010790F0, app::Vector3, get_LastForceApplied, (app::GrabbableRope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01079110, bool, CanGrab, (app::GrabbableRope * this_ptr, app::Vector2 position, app::Vector2 character_movement_dir));
     IL2CPP_REGISTER_METHOD(0x010794B0, void, OnGrabbed, (app::GrabbableRope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x010795E0, void, OnReleased, (app::GrabbableRope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01079710, float, GetPosition_1, (app::GrabbableRope * this_ptr, app::Vector2 position));
     IL2CPP_REGISTER_METHOD(0x01079A70, void, Awake, (app::GrabbableRope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01079BF0, void, OnDestroy, (app::GrabbableRope * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x01079CB0, Vector2, Position, (app::GrabbableRope * this_ptr, int32_t index));
+    IL2CPP_REGISTER_METHOD(0x01079CB0, app::Vector2, Position, (app::GrabbableRope * this_ptr, int32_t index));
     IL2CPP_REGISTER_METHOD(0x01079DF0, void, ReversePointsIfNeeded, (app::GrabbableRope * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x0107A030, bool, TryGetPosition, (app::GrabbableRope * this_ptr, int32_t index, app::Vector2* pos));
-    IL2CPP_REGISTER_METHOD(0x0107A220, Vector2, GetClosestPointOnLineSegment, (app::Vector2 p1, app::Vector2 p2, app::Vector2 q));
+    IL2CPP_REGISTER_METHOD(0x0107A030, bool, TryGetPosition, (app::GrabbableRope * this_ptr, int32_t index, app::Vector2 * pos));
+    IL2CPP_REGISTER_METHOD(0x0107A220, app::Vector2, GetClosestPointOnLineSegment, (app::Vector2 p1, app::Vector2 p2, app::Vector2 q));
     IL2CPP_REGISTER_METHOD(0x0107A470, float, LineSegmentMinDistance, (app::Vector2 p1, app::Vector2 p2, app::Vector2 q));
-    IL2CPP_REGISTER_METHOD(0x0107A580, Vector2, GetPosition_2, (app::GrabbableRope * this_ptr, float position_on_rope));
-    IL2CPP_REGISTER_METHOD(0x0107A7E0, Vector2, GetDirection, (app::GrabbableRope * this_ptr, float position_on_rope));
-    IL2CPP_REGISTER_METHOD(0x0107A7F0, Vector2, GetRawDirection, (app::GrabbableRope * this_ptr, float position_on_rope));
+    IL2CPP_REGISTER_METHOD(0x0107A580, app::Vector2, GetPosition_2, (app::GrabbableRope * this_ptr, float position_on_rope));
+    IL2CPP_REGISTER_METHOD(0x0107A7E0, app::Vector2, GetDirection, (app::GrabbableRope * this_ptr, float position_on_rope));
+    IL2CPP_REGISTER_METHOD(0x0107A7F0, app::Vector2, GetRawDirection, (app::GrabbableRope * this_ptr, float position_on_rope));
     IL2CPP_REGISTER_METHOD(0x0107A990, float, GetHorizontalAngle, (app::GrabbableRope * this_ptr, float position_on_rope));
     IL2CPP_REGISTER_METHOD(0x0107AA60, float, GetVerticalAngle, (app::GrabbableRope * this_ptr, float position_on_rope));
     IL2CPP_REGISTER_METHOD(0x0107AB30, void, CheckRotation, (app::GrabbableRope * this_ptr));
@@ -32,4 +32,4 @@ namespace app::methods::GrabbableRope {
     IL2CPP_REGISTER_METHOD(0x0085E270, bool, CanHandStand, (app::GrabbableRope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0107B690, void, __ctor, (app::GrabbableRope * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0107B6B0, void, __cctor, ());
-} // namespace app::methods::GrabbableRope
+}

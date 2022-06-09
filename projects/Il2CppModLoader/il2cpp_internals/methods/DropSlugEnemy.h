@@ -22,4 +22,4 @@ namespace app::methods::DropSlugEnemy {
     IL2CPP_REGISTER_METHOD(0x00BE34E0, void, __ctor, (app::DropSlugEnemy * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00BE3630, void, _Start_b__13_0, (app::DropSlugEnemy * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x0478B3A0, DropSlugEnemy__Start_b__13_0__MethodInfo);
-} // namespace app::methods::DropSlugEnemy
+}

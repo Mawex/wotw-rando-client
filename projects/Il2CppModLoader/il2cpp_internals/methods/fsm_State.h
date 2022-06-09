@@ -8,4 +8,4 @@ namespace app::methods::fsm::State {
     IL2CPP_REGISTER_METHOD(0x00F6E460, void, __ctor_2, (app::State_2 * this_ptr, int32_t id));
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, SetID, (app::State_2 * this_ptr, int32_t id));
     IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, GetStateId, (app::State_2 * this_ptr));
-} // namespace app::methods::fsm::State
+}

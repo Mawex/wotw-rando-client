@@ -2,7 +2,7 @@
 
 namespace app::methods::FallBehaviour {
     IL2CPP_REGISTER_METHOD(0x00994900, void, OnInitialize, (app::FallBehaviour * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x009949A0, void, OnExecute, (app::FallBehaviour * this_ptr, app::IBlackboard* blackboard));
+    IL2CPP_REGISTER_METHOD(0x009949A0, void, OnExecute, (app::FallBehaviour * this_ptr, app::IBlackboard * blackboard));
     IL2CPP_REGISTER_METHOD(0x00994D20, void, FallingEnter, (app::FallBehaviour * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00994F30, void, FallingUpdate, (app::FallBehaviour * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00995100, void, LandingEnter, (app::FallBehaviour * this_ptr));
@@ -15,7 +15,7 @@ namespace app::methods::FallBehaviour {
     IL2CPP_REGISTER_METHODINFO(0x047439A8, FallBehaviour_BounceEnd__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x00996020, void, OnUpdateBehaviour, (app::FallBehaviour * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00996120, void, OnEndBehaviour, (app::FallBehaviour * this_ptr, app::EntityBehaviourStatus__Enum reason));
-    IL2CPP_REGISTER_METHOD(0x009963B0, void, OnHitWall, (app::FallBehaviour * this_ptr, app::Vector3 normal, app::Collider* collider));
+    IL2CPP_REGISTER_METHOD(0x009963B0, void, OnHitWall, (app::FallBehaviour * this_ptr, app::Vector3 normal, app::Collider * collider));
     IL2CPP_REGISTER_METHODINFO(0x04711B78, FallBehaviour_OnHitWall__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetShouldPauseTree, (app::FallBehaviour * this_ptr));
     IL2CPP_REGISTER_METHOD(0x009964B0, bool, WillClashWithNonInterruptableBehaviours, (app::FallBehaviour * this_ptr));
@@ -26,4 +26,4 @@ namespace app::methods::FallBehaviour {
     IL2CPP_REGISTER_METHODINFO(0x047198D0, FallBehaviour__LandingEnter_b__23_0__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x00996550, bool, _BounceEnter_b__26_0, (app::FallBehaviour * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x047882D8, FallBehaviour__BounceEnter_b__26_0__MethodInfo);
-} // namespace app::methods::FallBehaviour
+}

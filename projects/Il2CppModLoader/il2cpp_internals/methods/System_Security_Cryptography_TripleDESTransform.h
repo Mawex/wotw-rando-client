@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::System_Security_Cryptography::TripleDESTransform {
-IL2CPP_REGISTER_METHOD(0x01E13600, void, __ctor, (app::TripleDESTransform * this_ptr, app::TripleDES * algo, bool encryption, app::Byte__Array * key, app::Byte__Array * iv));
-IL2CPP_REGISTER_METHODINFO(0x0473AF18, TripleDESTransform__ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E13E60, void, ECB, (app::TripleDESTransform * this_ptr, app::Byte__Array * input, app::Byte__Array * output));
-IL2CPP_REGISTER_METHOD(0x01E14050, Byte__Array *, GetStrongKey, ());
+    IL2CPP_REGISTER_METHOD(0x01E13600, void, __ctor, (app::TripleDESTransform * this_ptr, app::TripleDES * algo, bool encryption, app::Byte__Array * key, app::Byte__Array * iv));
+    IL2CPP_REGISTER_METHODINFO(0x0473AF18, TripleDESTransform__ctor__MethodInfo);
+    IL2CPP_REGISTER_METHOD(0x01E13E60, void, ECB, (app::TripleDESTransform * this_ptr, app::Byte__Array * input, app::Byte__Array * output));
+    IL2CPP_REGISTER_METHOD(0x01E14050, app::Byte__Array *, GetStrongKey, ());
 }

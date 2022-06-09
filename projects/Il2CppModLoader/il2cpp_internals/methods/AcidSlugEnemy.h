@@ -12,4 +12,4 @@ namespace app::methods::AcidSlugEnemy {
     IL2CPP_REGISTER_METHODINFO(0x0473D630, AcidSlugEnemy__Start_b__10_0__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x004C40F0, bool, _Start_b__10_2, (app::AcidSlugEnemy * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04788D30, AcidSlugEnemy__Start_b__10_2__MethodInfo);
-} // namespace app::methods::AcidSlugEnemy
+}

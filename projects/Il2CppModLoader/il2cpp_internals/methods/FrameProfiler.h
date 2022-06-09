@@ -13,6 +13,6 @@ namespace app::methods::FrameProfiler {
     IL2CPP_REGISTER_METHOD(0x03151A70, void, EndMetric, (app::Metric__Enum metric));
     IL2CPP_REGISTER_METHOD(0x03151C40, void, BeginFrame, ());
     IL2CPP_REGISTER_METHOD(0x03151CF0, void, EndFrame, ());
-    IL2CPP_REGISTER_METHOD(0x03151D80, FrameProfiler_FrameData*, GetLastCompletedFrame, (app::FrameProfiler * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x03151D80, app::FrameProfiler_FrameData *, GetLastCompletedFrame, (app::FrameProfiler * this_ptr));
     IL2CPP_REGISTER_METHOD(0x03151DC0, void, __cctor, ());
-} // namespace app::methods::FrameProfiler
+}

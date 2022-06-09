@@ -10,4 +10,4 @@ namespace app::methods::Letterbox {
     IL2CPP_REGISTER_METHOD(0x01132540, void, Start, (app::Letterbox_1 * this_ptr));
     IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::Letterbox_1 * this_ptr));
     IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
-} // namespace app::methods::Letterbox
+}
