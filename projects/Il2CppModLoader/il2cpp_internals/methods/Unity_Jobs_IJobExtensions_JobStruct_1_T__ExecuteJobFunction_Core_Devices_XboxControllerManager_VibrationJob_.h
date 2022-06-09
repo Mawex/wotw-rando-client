@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Unity::Jobs::IJobExtensions_JobStruct_1_T__ExecuteJobFunction_Core::Devices::XboxControllerManager_VibrationJob_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02264EB0, void, Invoke, (IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * __this, XboxControllerManager_VibrationJob * data, void * additionalPtr, void * bufferRangePatchData, JobRanges * ranges, int32_t jobIndex));
-IL2CPP_REGISTER_METHOD(0x02265340, IAsyncResult *, BeginInvoke, (IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * __this, XboxControllerManager_VibrationJob * data, void * additionalPtr, void * bufferRangePatchData, JobRanges * ranges, int32_t jobIndex, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x012E78E0, void, EndInvoke, (IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * __this, XboxControllerManager_VibrationJob * data, JobRanges * ranges, IAsyncResult * result));
+namespace app::methods::Unity_Jobs::IJobExtensions_JobStruct_1_T__ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02264EB0, void, Invoke, (app::IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * this_ptr, app::XboxControllerManager_VibrationJob * data, app::void * additional_ptr, app::void * buffer_range_patch_data, app::JobRanges * ranges, int32_t job_index));
+IL2CPP_REGISTER_METHOD(0x02265340, IAsyncResult *, BeginInvoke, (app::IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * this_ptr, app::XboxControllerManager_VibrationJob * data, app::void * additional_ptr, app::void * buffer_range_patch_data, app::JobRanges * ranges, int32_t job_index, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x012E78E0, void, EndInvoke, (app::IJobExtensions_JobStruct_1_T_ExecuteJobFunction_Core_Devices_XboxControllerManager_VibrationJob_ * this_ptr, app::XboxControllerManager_VibrationJob * data, app::JobRanges * ranges, app::IAsyncResult * result));
 }

@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Serialization::XmlTypeMapMemberAttribute {
-IL2CPP_REGISTER_METHOD(0x0194F2F0, void, __ctor, (XmlTypeMapMemberAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB60, String *, get_AttributeName, (XmlTypeMapMemberAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB70, void, set_AttributeName, (XmlTypeMapMemberAttribute * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x002FBB80, String *, get_Namespace, (XmlTypeMapMemberAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_Namespace, (XmlTypeMapMemberAttribute * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x00F083C0, void, set_Form, (XmlTypeMapMemberAttribute * __this, XmlSchemaForm__Enum value));
-IL2CPP_REGISTER_METHOD(0x002FBBC0, XmlTypeMapping *, get_MappedType, (XmlTypeMapMemberAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_MappedType, (XmlTypeMapMemberAttribute * __this, XmlTypeMapping * value));
+namespace app::methods::System_Xml_Serialization::XmlTypeMapMemberAttribute {
+IL2CPP_REGISTER_METHOD(0x0194F2F0, void, __ctor, (app::XmlTypeMapMemberAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB60, String *, get_AttributeName, (app::XmlTypeMapMemberAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB70, void, set_AttributeName, (app::XmlTypeMapMemberAttribute * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x002FBB80, String *, get_Namespace, (app::XmlTypeMapMemberAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_Namespace, (app::XmlTypeMapMemberAttribute * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x00F083C0, void, set_Form, (app::XmlTypeMapMemberAttribute * this_ptr, app::XmlSchemaForm__Enum value));
+IL2CPP_REGISTER_METHOD(0x002FBBC0, XmlTypeMapping *, get_MappedType, (app::XmlTypeMapMemberAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_MappedType, (app::XmlTypeMapMemberAttribute * this_ptr, app::XmlTypeMapping * value));
 }

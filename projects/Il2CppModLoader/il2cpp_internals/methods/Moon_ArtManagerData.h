@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::ArtManagerData {
-IL2CPP_REGISTER_METHOD(0x0133CEF0, void, __ctor, (ArtManagerData * __this, int32_t currentModeIndex, int32_t dressingModeIndex, int32_t solidsModeIndex));
+IL2CPP_REGISTER_METHOD(0x0133CEF0, void, __ctor, (app::ArtManagerData * this_ptr, int32_t current_mode_index, int32_t dressing_mode_index, int32_t solids_mode_index));
 }

@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::LogStatement {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LogStatement * __this));
+namespace app::methods::PlayFab_ClientModels::LogStatement {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LogStatement * this_ptr));
 }

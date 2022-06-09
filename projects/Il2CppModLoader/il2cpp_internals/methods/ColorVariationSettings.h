@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::ColorVariationSettings {
-IL2CPP_REGISTER_METHOD(0x011DA260, void, Copy, (ColorVariationSettings * __this, ColorVariationSettings * source));
-IL2CPP_REGISTER_METHOD(0x011DA290, ColorVariationSettings *, Clone, (ColorVariationSettings * __this));
-IL2CPP_REGISTER_METHOD(0x011DA410, void, Lerp, (ColorVariationSettings * from, ColorVariationSettings * to, ColorVariationSettings * * destination, float t));
-IL2CPP_REGISTER_METHOD(0x011DA5B0, void, CopyFrom, (ColorVariationSettings * __this, ColorVariationSettings * settingsColorVariationSettings));
-IL2CPP_REGISTER_METHOD(0x011DA5E0, void, __ctor, (ColorVariationSettings * __this));
+IL2CPP_REGISTER_METHOD(0x011DA260, void, Copy, (app::ColorVariationSettings * this_ptr, app::ColorVariationSettings * source));
+IL2CPP_REGISTER_METHOD(0x011DA290, ColorVariationSettings *, Clone, (app::ColorVariationSettings * this_ptr));
+IL2CPP_REGISTER_METHOD(0x011DA410, void, Lerp, (app::ColorVariationSettings * from, app::ColorVariationSettings * to, app::ColorVariationSettings * * destination, float t));
+IL2CPP_REGISTER_METHOD(0x011DA5B0, void, CopyFrom, (app::ColorVariationSettings * this_ptr, app::ColorVariationSettings * settings_color_variation_settings));
+IL2CPP_REGISTER_METHOD(0x011DA5E0, void, __ctor, (app::ColorVariationSettings * this_ptr));
 }

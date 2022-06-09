@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Data::Operators {
+namespace app::methods::System_Data::Operators {
 IL2CPP_REGISTER_METHOD(0x01E47D50, bool, IsArithmetical, (int32_t op));
 IL2CPP_REGISTER_METHOD(0x01E47D70, bool, IsLogical, (int32_t op));
 IL2CPP_REGISTER_METHOD(0x01E47D90, bool, IsRelational, (int32_t op));

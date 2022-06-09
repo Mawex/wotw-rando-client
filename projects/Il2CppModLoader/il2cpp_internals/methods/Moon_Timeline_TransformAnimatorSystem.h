@@ -1,32 +1,32 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::TransformAnimatorSystem {
+namespace app::methods::Moon_Timeline::TransformAnimatorSystem {
 IL2CPP_REGISTER_METHOD(0x0311C670, TransformAnimatorSystem *, get_Instance, ());
 IL2CPP_REGISTER_METHOD(0x0311C820, void, ResetStatics, ());
-IL2CPP_REGISTER_METHOD(0x0311C8A0, TransformAnimatorSystem_PositionModification, CreatePositionModification, (TransformAnimatorSystem * __this, Transform * t, Vector3 position, Space__Enum space));
-IL2CPP_REGISTER_METHOD(0x0311CB50, void, SubmitDynamicPosition, (TransformAnimatorSystem * __this, Transform * t, Vector3 position, Space__Enum space, HandoverMode__Enum handoverMode, UpdateCategory__Enum category));
-IL2CPP_REGISTER_METHOD(0x0311CE70, void, SubmitStaticPosition, (TransformAnimatorSystem * __this, Transform * t, Vector3 position, Space__Enum space, UpdateCategory__Enum category, bool immediatelyApply));
-IL2CPP_REGISTER_METHOD(0x0311D030, void, SubmitDynamicScale, (TransformAnimatorSystem * __this, Transform * t, Vector3 scale, HandoverMode__Enum handoverMode, UpdateCategory__Enum category));
-IL2CPP_REGISTER_METHOD(0x0311D270, void, SubmitStaticScale, (TransformAnimatorSystem * __this, Transform * t, Vector3 scale, UpdateCategory__Enum category));
-IL2CPP_REGISTER_METHOD(0x0311D390, void, SubmitDynamicRotation, (TransformAnimatorSystem * __this, Transform * t, Quaternion rotation, HandoverMode__Enum handoverMode, UpdateCategory__Enum category, Space__Enum space));
-IL2CPP_REGISTER_METHOD(0x0311D5F0, void, SubmitStaticRotation, (TransformAnimatorSystem * __this, Transform * t, Quaternion rotation, UpdateCategory__Enum category, Space__Enum space, bool immediatelyApply));
-IL2CPP_REGISTER_METHOD(0x0311D760, TransformAnimatorSystem_ObjectState *, GetObjectState, (TransformAnimatorSystem * __this, Transform * t, UpdateCategory__Enum category, bool forceUpdate));
-IL2CPP_REGISTER_METHOD(0x0311DCA0, Vector3, GetStaticPosition, (TransformAnimatorSystem * __this, Transform * t, Space__Enum space));
-IL2CPP_REGISTER_METHOD(0x0311DE80, Vector3, GetStaticScale, (TransformAnimatorSystem * __this, Transform * t));
-IL2CPP_REGISTER_METHOD(0x0311DFC0, Quaternion, GetStaticRotation, (TransformAnimatorSystem * __this, Transform * t));
-IL2CPP_REGISTER_METHOD(0x0311E0F0, bool, GetHandoverPosition, (TransformAnimatorSystem * __this, Transform * t, Vector3 * value, Space__Enum space));
-IL2CPP_REGISTER_METHOD(0x0311E240, bool, GetHandoverScale, (TransformAnimatorSystem * __this, Transform * t, Vector3 * value));
-IL2CPP_REGISTER_METHOD(0x0311E350, bool, GetHandoverRotation, (TransformAnimatorSystem * __this, Transform * t, Quaternion * value));
-IL2CPP_REGISTER_METHOD(0x0311E460, void, ApplyObjectState, (TransformAnimatorSystem * __this, TransformAnimatorSystem_ObjectState * objectState, bool forceApply));
-IL2CPP_REGISTER_METHOD(0x0311E490, void, ApplyObjectState, (TransformAnimatorSystem * __this, TransformAnimatorSystem_ObjectState * objectState, bool * stateCanBeRemoved, bool forceApply));
-IL2CPP_REGISTER_METHOD(0x0311E7F0, void, ClearStatesFor, (TransformAnimatorSystem * __this, List_1_System_Int32_ * objects));
-IL2CPP_REGISTER_METHOD(0x0311E8E0, void, ClearAllStates, (TransformAnimatorSystem * __this));
-IL2CPP_REGISTER_METHOD(0x0311E9F0, void, RestoreStateFor, (TransformAnimatorSystem * __this, Transform * target));
-IL2CPP_REGISTER_METHOD(0x0311ECC0, void, ClearState, (TransformAnimatorSystem * __this, TransformAnimatorSystem_ObjectState * objectState));
-IL2CPP_REGISTER_METHOD(0x0311EE90, void, UpdateTrackedObjects, (TransformAnimatorSystem * __this, List_1_System_Int32_ * objects, bool clearStateHolders));
-IL2CPP_REGISTER_METHOD(0x0311F1C0, void, OnFixedUpdate, (TransformAnimatorSystem * __this, float deltaTime));
-IL2CPP_REGISTER_METHOD(0x0311F1D0, void, OnUpdate, (TransformAnimatorSystem * __this, float delta));
-IL2CPP_REGISTER_METHOD(0x0311F1E0, TransformAnimatorSystem_ObjectState *, AcquireObjectStateFromPool, (TransformAnimatorSystem * __this));
-IL2CPP_REGISTER_METHOD(0x0311F400, void, ReturnObjectStateToPool, (TransformAnimatorSystem * __this, TransformAnimatorSystem_ObjectState * os));
-IL2CPP_REGISTER_METHOD(0x0311F4A0, void, __ctor, (TransformAnimatorSystem * __this));
+IL2CPP_REGISTER_METHOD(0x0311C8A0, TransformAnimatorSystem_PositionModification, CreatePositionModification, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Vector3 position, app::Space__Enum space));
+IL2CPP_REGISTER_METHOD(0x0311CB50, void, SubmitDynamicPosition, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Vector3 position, app::Space__Enum space, app::HandoverMode__Enum handover_mode, app::UpdateCategory__Enum category));
+IL2CPP_REGISTER_METHOD(0x0311CE70, void, SubmitStaticPosition, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Vector3 position, app::Space__Enum space, app::UpdateCategory__Enum category, bool immediately_apply));
+IL2CPP_REGISTER_METHOD(0x0311D030, void, SubmitDynamicScale, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Vector3 scale, app::HandoverMode__Enum handover_mode, app::UpdateCategory__Enum category));
+IL2CPP_REGISTER_METHOD(0x0311D270, void, SubmitStaticScale, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Vector3 scale, app::UpdateCategory__Enum category));
+IL2CPP_REGISTER_METHOD(0x0311D390, void, SubmitDynamicRotation, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Quaternion rotation, app::HandoverMode__Enum handover_mode, app::UpdateCategory__Enum category, app::Space__Enum space));
+IL2CPP_REGISTER_METHOD(0x0311D5F0, void, SubmitStaticRotation, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Quaternion rotation, app::UpdateCategory__Enum category, app::Space__Enum space, bool immediately_apply));
+IL2CPP_REGISTER_METHOD(0x0311D760, TransformAnimatorSystem_ObjectState *, GetObjectState, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::UpdateCategory__Enum category, bool force_update));
+IL2CPP_REGISTER_METHOD(0x0311DCA0, Vector3, GetStaticPosition, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Space__Enum space));
+IL2CPP_REGISTER_METHOD(0x0311DE80, Vector3, GetStaticScale, (app::TransformAnimatorSystem * this_ptr, app::Transform * t));
+IL2CPP_REGISTER_METHOD(0x0311DFC0, Quaternion, GetStaticRotation, (app::TransformAnimatorSystem * this_ptr, app::Transform * t));
+IL2CPP_REGISTER_METHOD(0x0311E0F0, bool, GetHandoverPosition, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Vector3 * value, app::Space__Enum space));
+IL2CPP_REGISTER_METHOD(0x0311E240, bool, GetHandoverScale, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Vector3 * value));
+IL2CPP_REGISTER_METHOD(0x0311E350, bool, GetHandoverRotation, (app::TransformAnimatorSystem * this_ptr, app::Transform * t, app::Quaternion * value));
+IL2CPP_REGISTER_METHOD(0x0311E460, void, ApplyObjectState_1, (app::TransformAnimatorSystem * this_ptr, app::TransformAnimatorSystem_ObjectState * object_state, bool force_apply));
+IL2CPP_REGISTER_METHOD(0x0311E490, void, ApplyObjectState_2, (app::TransformAnimatorSystem * this_ptr, app::TransformAnimatorSystem_ObjectState * object_state, app::bool * state_can_be_removed, bool force_apply));
+IL2CPP_REGISTER_METHOD(0x0311E7F0, void, ClearStatesFor, (app::TransformAnimatorSystem * this_ptr, app::List_1_System_Int32_ * objects));
+IL2CPP_REGISTER_METHOD(0x0311E8E0, void, ClearAllStates, (app::TransformAnimatorSystem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0311E9F0, void, RestoreStateFor, (app::TransformAnimatorSystem * this_ptr, app::Transform * target));
+IL2CPP_REGISTER_METHOD(0x0311ECC0, void, ClearState, (app::TransformAnimatorSystem * this_ptr, app::TransformAnimatorSystem_ObjectState * object_state));
+IL2CPP_REGISTER_METHOD(0x0311EE90, void, UpdateTrackedObjects, (app::TransformAnimatorSystem * this_ptr, app::List_1_System_Int32_ * objects, bool clear_state_holders));
+IL2CPP_REGISTER_METHOD(0x0311F1C0, void, OnFixedUpdate, (app::TransformAnimatorSystem * this_ptr, float delta_time));
+IL2CPP_REGISTER_METHOD(0x0311F1D0, void, OnUpdate, (app::TransformAnimatorSystem * this_ptr, float delta));
+IL2CPP_REGISTER_METHOD(0x0311F1E0, TransformAnimatorSystem_ObjectState *, AcquireObjectStateFromPool, (app::TransformAnimatorSystem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0311F400, void, ReturnObjectStateToPool, (app::TransformAnimatorSystem * this_ptr, app::TransformAnimatorSystem_ObjectState * os));
+IL2CPP_REGISTER_METHOD(0x0311F4A0, void, __ctor, (app::TransformAnimatorSystem * this_ptr));
 }

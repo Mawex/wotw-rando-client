@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRScreenshots__HookScreenshot {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRScreenshots_HookScreenshot * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x00F54C90, EVRScreenshotError__Enum, Invoke, (IVRScreenshots_HookScreenshot * __this, EVRScreenshotType__Enum__Array * pSupportedTypes, int32_t numTypes));
-IL2CPP_REGISTER_METHOD(0x02CE5B00, IAsyncResult *, BeginInvoke, (IVRScreenshots_HookScreenshot * __this, EVRScreenshotType__Enum__Array * pSupportedTypes, int32_t numTypes, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F550D0, EVRScreenshotError__Enum, EndInvoke, (IVRScreenshots_HookScreenshot * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRScreenshots__HookScreenshot {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRScreenshots_HookScreenshot * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x00F54C90, EVRScreenshotError__Enum, Invoke, (app::IVRScreenshots_HookScreenshot * this_ptr, app::EVRScreenshotType__Enum__Array * p_supported_types, int32_t num_types));
+IL2CPP_REGISTER_METHOD(0x02CE5B00, IAsyncResult *, BeginInvoke, (app::IVRScreenshots_HookScreenshot * this_ptr, app::EVRScreenshotType__Enum__Array * p_supported_types, int32_t num_types, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F550D0, EVRScreenshotError__Enum, EndInvoke, (app::IVRScreenshots_HookScreenshot * this_ptr, app::IAsyncResult * result));
 }

@@ -1,17 +1,17 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::FinalIK::FullBodyBipedIK {
-IL2CPP_REGISTER_METHOD(0x02063330, void, OpenUserManual, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x020633F0, void, OpenScriptReference, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x020634B0, void, OpenSetupTutorial, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x02063570, void, OpenInspectorTutorial, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x02063630, void, SupportGroup, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x020636F0, void, ASThread, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x020637B0, void, SetReferences, (FullBodyBipedIK * __this, BipedReferences * references, Transform * rootNode));
-IL2CPP_REGISTER_METHOD(0x002FBB80, IKSolver *, GetIKSolver, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x020637E0, bool, ReferencesError, (FullBodyBipedIK * __this, String * * errorMessage));
-IL2CPP_REGISTER_METHOD(0x02063A80, bool, ReferencesWarning, (FullBodyBipedIK * __this, String * * warningMessage));
-IL2CPP_REGISTER_METHOD(0x020640E0, void, Reinitiate, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x02064110, void, AutoDetectReferences, (FullBodyBipedIK * __this));
-IL2CPP_REGISTER_METHOD(0x02064310, void, __ctor, (FullBodyBipedIK * __this));
+namespace app::methods::RootMotion_FinalIK::FullBodyBipedIK {
+IL2CPP_REGISTER_METHOD(0x02063330, void, OpenUserManual, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020633F0, void, OpenScriptReference, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020634B0, void, OpenSetupTutorial, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02063570, void, OpenInspectorTutorial, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02063630, void, SupportGroup, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020636F0, void, ASThread, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020637B0, void, SetReferences, (app::FullBodyBipedIK * this_ptr, app::BipedReferences * references, app::Transform * root_node));
+IL2CPP_REGISTER_METHOD(0x002FBB80, IKSolver *, GetIKSolver, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020637E0, bool, ReferencesError, (app::FullBodyBipedIK * this_ptr, app::String * * error_message));
+IL2CPP_REGISTER_METHOD(0x02063A80, bool, ReferencesWarning, (app::FullBodyBipedIK * this_ptr, app::String * * warning_message));
+IL2CPP_REGISTER_METHOD(0x020640E0, void, Reinitiate, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02064110, void, AutoDetectReferences, (app::FullBodyBipedIK * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02064310, void, __ctor, (app::FullBodyBipedIK * this_ptr));
 }

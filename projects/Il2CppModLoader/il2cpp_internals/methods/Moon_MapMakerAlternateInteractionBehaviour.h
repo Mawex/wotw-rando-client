@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::MapMakerAlternateInteractionBehaviour {
-IL2CPP_REGISTER_METHOD(0x0110E3D0, void, OnEnter, (MapMakerAlternateInteractionBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0110E4C0, BehaviourStatus__Enum, OnExecute, (MapMakerAlternateInteractionBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0110E4F0, void, OnExit, (MapMakerAlternateInteractionBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0060C1C0, void, __ctor, (MapMakerAlternateInteractionBehaviour * __this));
+IL2CPP_REGISTER_METHOD(0x0110E3D0, void, OnEnter, (app::MapMakerAlternateInteractionBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0110E4C0, BehaviourStatus__Enum, OnExecute, (app::MapMakerAlternateInteractionBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0110E4F0, void, OnExit, (app::MapMakerAlternateInteractionBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0060C1C0, void, __ctor, (app::MapMakerAlternateInteractionBehaviour * this_ptr));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::XUserChangeEventCallback {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XUserChangeEventCallback * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x015FF360, void, Invoke, (XUserChangeEventCallback * __this, XUserLocalId userLocalId, XUserChangeEvent__Enum eventType));
-IL2CPP_REGISTER_METHOD(0x030BB590, IAsyncResult *, BeginInvoke, (XUserChangeEventCallback * __this, XUserLocalId userLocalId, XUserChangeEvent__Enum eventType, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (XUserChangeEventCallback * __this, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::XUserChangeEventCallback * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x015FF360, void, Invoke, (app::XUserChangeEventCallback * this_ptr, app::XUserLocalId user_local_id, app::XUserChangeEvent__Enum event_type));
+IL2CPP_REGISTER_METHOD(0x030BB590, IAsyncResult *, BeginInvoke, (app::XUserChangeEventCallback * this_ptr, app::XUserLocalId user_local_id, app::XUserChangeEvent__Enum event_type, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::XUserChangeEventCallback * this_ptr, app::IAsyncResult * result));
 }

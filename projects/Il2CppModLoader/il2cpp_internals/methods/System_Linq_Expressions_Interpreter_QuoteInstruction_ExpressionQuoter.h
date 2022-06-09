@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter {
-IL2CPP_REGISTER_METHOD(0x0240D6C0, void, __ctor, (QuoteInstruction_ExpressionQuoter * __this, Dictionary_2_System_Linq_Expressions_ParameterExpression_System_Linq_Expressions_Interpreter_LocalVariable_ * hoistedVariables, InterpretedFrame * frame));
-IL2CPP_REGISTER_METHOD(0x0240D850, Expression *, VisitBlock, (QuoteInstruction_ExpressionQuoter * __this, BlockExpression * node));
-IL2CPP_REGISTER_METHOD(0x0240DB40, CatchBlock *, VisitCatchBlock, (QuoteInstruction_ExpressionQuoter * __this, CatchBlock * node));
-IL2CPP_REGISTER_METHOD(0x0240DDE0, Expression *, VisitRuntimeVariables, (QuoteInstruction_ExpressionQuoter * __this, RuntimeVariablesExpression * node));
-IL2CPP_REGISTER_METHOD(0x0240E7A0, IRuntimeVariables *, MergeRuntimeVariables, (IRuntimeVariables * first, IRuntimeVariables * second, Int32__Array * indexes));
+namespace app::methods::System_Linq_Expressions_Interpreter::QuoteInstruction_ExpressionQuoter {
+IL2CPP_REGISTER_METHOD(0x0240D6C0, void, __ctor, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::Dictionary_2_System_Linq_Expressions_ParameterExpression_System_Linq_Expressions_Interpreter_LocalVariable_ * hoisted_variables, app::InterpretedFrame * frame));
+IL2CPP_REGISTER_METHOD(0x0240D850, Expression *, VisitBlock, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::BlockExpression * node));
+IL2CPP_REGISTER_METHOD(0x0240DB40, CatchBlock *, VisitCatchBlock, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::CatchBlock * node));
+IL2CPP_REGISTER_METHOD(0x0240DDE0, Expression *, VisitRuntimeVariables, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::RuntimeVariablesExpression * node));
+IL2CPP_REGISTER_METHOD(0x0240E7A0, IRuntimeVariables *, MergeRuntimeVariables, (app::IRuntimeVariables * first, app::IRuntimeVariables * second, app::Int32__Array * indexes));
 IL2CPP_REGISTER_METHODINFO(0x04786DC0, QuoteInstruction_ExpressionQuoter_MergeRuntimeVariables__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0240E900, Expression *, VisitParameter, (QuoteInstruction_ExpressionQuoter * __this, ParameterExpression * node));
-IL2CPP_REGISTER_METHOD(0x0240EA10, IStrongBox *, GetBox, (QuoteInstruction_ExpressionQuoter * __this, ParameterExpression * variable));
-IL2CPP_REGISTER_METHOD(0x0153C290, Expression *, VisitLambda, (QuoteInstruction_ExpressionQuoter * __this, Expression_1_System_Object_ * node));
+IL2CPP_REGISTER_METHOD(0x0240E900, Expression *, VisitParameter, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::ParameterExpression * node));
+IL2CPP_REGISTER_METHOD(0x0240EA10, IStrongBox *, GetBox, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::ParameterExpression * variable));
+IL2CPP_REGISTER_METHOD(0x0153C290, Expression *, VisitLambda, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::Expression_1_System_Object_ * node));
 }

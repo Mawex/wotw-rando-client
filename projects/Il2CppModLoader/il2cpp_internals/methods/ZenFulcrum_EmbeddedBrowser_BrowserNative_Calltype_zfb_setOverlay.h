@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::EmbeddedBrowser::BrowserNative_Calltype_zfb_setOverlay {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (BrowserNative_Calltype_zfb_setOverlay * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01C774C0, void, Invoke, (BrowserNative_Calltype_zfb_setOverlay * __this, int32_t browserId, int32_t overlayBrowserId));
-IL2CPP_REGISTER_METHOD(0x01DCBEB0, IAsyncResult *, BeginInvoke, (BrowserNative_Calltype_zfb_setOverlay * __this, int32_t browserId, int32_t overlayBrowserId, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (BrowserNative_Calltype_zfb_setOverlay * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_EmbeddedBrowser::BrowserNative_Calltype_zfb_setOverlay {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::BrowserNative_Calltype_zfb_setOverlay * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01C774C0, void, Invoke, (app::BrowserNative_Calltype_zfb_setOverlay * this_ptr, int32_t browser_id, int32_t overlay_browser_id));
+IL2CPP_REGISTER_METHOD(0x01DCBEB0, IAsyncResult *, BeginInvoke, (app::BrowserNative_Calltype_zfb_setOverlay * this_ptr, int32_t browser_id, int32_t overlay_browser_id, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::BrowserNative_Calltype_zfb_setOverlay * this_ptr, app::IAsyncResult * result));
 }

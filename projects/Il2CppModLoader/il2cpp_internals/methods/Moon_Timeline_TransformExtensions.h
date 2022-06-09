@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::TransformExtensions {
-IL2CPP_REGISTER_METHOD(0x0157F160, Object *, GetCommonParent, (Object * left, Object * right));
-IL2CPP_REGISTER_METHOD(0x01B347B0, bool, GetCommonParentRecursive, (Object * left, Object * right, HashSet_1_System_Object_ * * foundParents, Object * * foundParent));
-IL2CPP_REGISTER_METHOD(0x0157F160, MoonTimeline *, GetCommonParent, (MoonTimeline * left, MoonTimeline * right));
+namespace app::methods::Moon_Timeline::TransformExtensions {
+IL2CPP_REGISTER_METHOD(0x0157F160, Object *, GetCommonParent_1, (app::Object * left, app::Object * right));
+IL2CPP_REGISTER_METHOD(0x01B347B0, bool, GetCommonParentRecursive, (app::Object * left, app::Object * right, app::HashSet_1_System_Object_ * * found_parents, app::Object * * found_parent));
+IL2CPP_REGISTER_METHOD(0x0157F160, MoonTimeline *, GetCommonParent_2, (app::MoonTimeline * left, app::MoonTimeline * right));
 IL2CPP_REGISTER_METHODINFO(0x0476BAC0, TransformExtensions_1_GetCommonParent_1__MethodInfo);
 }

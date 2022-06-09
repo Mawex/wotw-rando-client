@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::UberShader::DisabledProperty {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (DisabledProperty * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::DisabledProperty * this_ptr));
 }

@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::Http::Headers::HttpHeaders {
+namespace app::methods::System_Net_Http_Headers::HttpHeaders {
 IL2CPP_REGISTER_METHOD(0x02D083E0, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x02D0C270, void, __ctor, (HttpHeaders * __this));
-IL2CPP_REGISTER_METHOD(0x02D0C410, void, __ctor, (HttpHeaders * __this, HttpHeaderKind__Enum headerKind));
-IL2CPP_REGISTER_METHOD(0x02D0C440, IEnumerator_1_KeyValuePair_2_System_String_IEnumerable_1_System_String_ *, GetEnumerator, (HttpHeaders * __this));
-IL2CPP_REGISTER_METHOD(0x02D0C590, IEnumerator *, IEnumerable_GetEnumerator, (HttpHeaders * __this));
-IL2CPP_REGISTER_METHOD(0x02D0C5A0, String *, GetSingleHeaderString, (String * key, IEnumerable_1_System_String_ * values));
-IL2CPP_REGISTER_METHOD(0x02D0C9D0, String *, ToString, (HttpHeaders * __this));
-IL2CPP_REGISTER_METHOD(0x02D0CD20, List_1_System_String_ *, GetAllHeaderValues, (HttpHeaders * __this, HttpHeaders_HeaderBucket * bucket, HeaderInfo_1 * headerInfo));
+IL2CPP_REGISTER_METHOD(0x02D0C270, void, __ctor_1, (app::HttpHeaders * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02D0C410, void, __ctor_2, (app::HttpHeaders * this_ptr, app::HttpHeaderKind__Enum header_kind));
+IL2CPP_REGISTER_METHOD(0x02D0C440, IEnumerator_1_KeyValuePair_2_System_String_IEnumerable_1_System_String_ *, GetEnumerator, (app::HttpHeaders * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02D0C590, IEnumerator *, IEnumerable_GetEnumerator, (app::HttpHeaders * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02D0C5A0, String *, GetSingleHeaderString, (app::String * key, app::IEnumerable_1_System_String_ * values));
+IL2CPP_REGISTER_METHOD(0x02D0C9D0, String *, ToString, (app::HttpHeaders * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02D0CD20, List_1_System_String_ *, GetAllHeaderValues, (app::HttpHeaders * this_ptr, app::HttpHeaders_HeaderBucket * bucket, app::HeaderInfo_1 * header_info));
 }

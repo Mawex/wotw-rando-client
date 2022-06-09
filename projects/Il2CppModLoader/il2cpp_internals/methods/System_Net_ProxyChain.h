@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::ProxyChain {
-IL2CPP_REGISTER_METHOD(0x01BCD890, void, __ctor, (ProxyChain * __this, Uri * destination));
-IL2CPP_REGISTER_METHOD(0x01BCD9F0, IEnumerator_1_System_Uri_ *, GetEnumerator, (ProxyChain * __this));
-IL2CPP_REGISTER_METHOD(0x01BCDB50, IEnumerator *, IEnumerable_GetEnumerator, (ProxyChain * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (ProxyChain * __this));
-IL2CPP_REGISTER_METHOD(0x01BCDB60, IEnumerator_1_System_Uri_ *, get_Enumerator, (ProxyChain * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB00, Uri *, get_Destination, (ProxyChain * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Abort, (ProxyChain * __this));
-IL2CPP_REGISTER_METHOD(0x01BCDB80, bool, HttpAbort, (ProxyChain * __this, HttpWebRequest * request, WebException * webException));
+namespace app::methods::System_Net::ProxyChain {
+IL2CPP_REGISTER_METHOD(0x01BCD890, void, __ctor, (app::ProxyChain * this_ptr, app::Uri * destination));
+IL2CPP_REGISTER_METHOD(0x01BCD9F0, IEnumerator_1_System_Uri_ *, GetEnumerator, (app::ProxyChain * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BCDB50, IEnumerator *, IEnumerable_GetEnumerator, (app::ProxyChain * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (app::ProxyChain * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BCDB60, IEnumerator_1_System_Uri_ *, get_Enumerator, (app::ProxyChain * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB00, Uri *, get_Destination, (app::ProxyChain * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Abort, (app::ProxyChain * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BCDB80, bool, HttpAbort, (app::ProxyChain * this_ptr, app::HttpWebRequest * request, app::WebException * web_exception));
 IL2CPP_REGISTER_METHODINFO(0x04798238, ProxyChain_HttpAbort__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01BCDBA0, HttpAbortDelegate *, get_HttpAbortDelegate, (ProxyChain * __this));
+IL2CPP_REGISTER_METHOD(0x01BCDBA0, HttpAbortDelegate *, get_HttpAbortDelegate, (app::ProxyChain * this_ptr));
 }

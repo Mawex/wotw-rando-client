@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::LinkGameCenterAccountRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LinkGameCenterAccountRequest * __this));
+namespace app::methods::PlayFab_ClientModels::LinkGameCenterAccountRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LinkGameCenterAccountRequest * this_ptr));
 }

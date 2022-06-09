@@ -1,29 +1,29 @@
 #include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerHTTP {
-IL2CPP_REGISTER_METHOD(0x027F9090, HTTPRequestHandle, CreateHTTPRequest, (EHTTPMethod__Enum eHTTPRequestMethod, String * pchAbsoluteURL));
-IL2CPP_REGISTER_METHOD(0x027F92D0, bool, SetHTTPRequestContextValue, (HTTPRequestHandle hRequest, uint64_t ulContextValue));
-IL2CPP_REGISTER_METHOD(0x027F9310, bool, SetHTTPRequestNetworkActivityTimeout, (HTTPRequestHandle hRequest, uint32_t unTimeoutSeconds));
-IL2CPP_REGISTER_METHOD(0x027F9350, bool, SetHTTPRequestHeaderValue, (HTTPRequestHandle hRequest, String * pchHeaderName, String * pchHeaderValue));
-IL2CPP_REGISTER_METHOD(0x027F9690, bool, SetHTTPRequestGetOrPostParameter, (HTTPRequestHandle hRequest, String * pchParamName, String * pchParamValue));
-IL2CPP_REGISTER_METHOD(0x027F99D0, bool, SendHTTPRequest, (HTTPRequestHandle hRequest, SteamAPICall_t * pCallHandle));
-IL2CPP_REGISTER_METHOD(0x027F9A10, bool, SendHTTPRequestAndStreamResponse, (HTTPRequestHandle hRequest, SteamAPICall_t * pCallHandle));
-IL2CPP_REGISTER_METHOD(0x027F9A50, bool, DeferHTTPRequest, (HTTPRequestHandle hRequest));
-IL2CPP_REGISTER_METHOD(0x027F9A80, bool, PrioritizeHTTPRequest, (HTTPRequestHandle hRequest));
-IL2CPP_REGISTER_METHOD(0x027F9AB0, bool, GetHTTPResponseHeaderSize, (HTTPRequestHandle hRequest, String * pchHeaderName, uint32_t * unResponseHeaderSize));
-IL2CPP_REGISTER_METHOD(0x027F9CE0, bool, GetHTTPResponseHeaderValue, (HTTPRequestHandle hRequest, String * pchHeaderName, Byte__Array * pHeaderValueBuffer, uint32_t unBufferSize));
-IL2CPP_REGISTER_METHOD(0x027F9F00, bool, GetHTTPResponseBodySize, (HTTPRequestHandle hRequest, uint32_t * unBodySize));
-IL2CPP_REGISTER_METHOD(0x027F9F40, bool, GetHTTPResponseBodyData, (HTTPRequestHandle hRequest, Byte__Array * pBodyDataBuffer, uint32_t unBufferSize));
-IL2CPP_REGISTER_METHOD(0x027F9F90, bool, GetHTTPStreamingResponseBodyData, (HTTPRequestHandle hRequest, uint32_t cOffset, Byte__Array * pBodyDataBuffer, uint32_t unBufferSize));
-IL2CPP_REGISTER_METHOD(0x027F9FF0, bool, ReleaseHTTPRequest, (HTTPRequestHandle hRequest));
-IL2CPP_REGISTER_METHOD(0x027FA020, bool, GetHTTPDownloadProgressPct, (HTTPRequestHandle hRequest, float * pflPercentOut));
-IL2CPP_REGISTER_METHOD(0x027FA060, bool, SetHTTPRequestRawPostBody, (HTTPRequestHandle hRequest, String * pchContentType, Byte__Array * pubBody, uint32_t unBodyLen));
-IL2CPP_REGISTER_METHOD(0x027FA280, HTTPCookieContainerHandle, CreateCookieContainer, (bool bAllowResponsesToModify));
-IL2CPP_REGISTER_METHOD(0x027FA330, bool, ReleaseCookieContainer, (HTTPCookieContainerHandle hCookieContainer));
-IL2CPP_REGISTER_METHOD(0x027FA360, bool, SetCookie, (HTTPCookieContainerHandle hCookieContainer, String * pchHost, String * pchUrl, String * pchCookie));
-IL2CPP_REGISTER_METHOD(0x027FA7D0, bool, SetHTTPRequestCookieContainer, (HTTPRequestHandle hRequest, HTTPCookieContainerHandle hCookieContainer));
-IL2CPP_REGISTER_METHOD(0x027FA810, bool, SetHTTPRequestUserAgentInfo, (HTTPRequestHandle hRequest, String * pchUserAgentInfo));
-IL2CPP_REGISTER_METHOD(0x027FAA30, bool, SetHTTPRequestRequiresVerifiedCertificate, (HTTPRequestHandle hRequest, bool bRequireVerifiedCertificate));
-IL2CPP_REGISTER_METHOD(0x027FAA70, bool, SetHTTPRequestAbsoluteTimeoutMS, (HTTPRequestHandle hRequest, uint32_t unMilliseconds));
-IL2CPP_REGISTER_METHOD(0x027FAAB0, bool, GetHTTPRequestWasTimedOut, (HTTPRequestHandle hRequest, bool * pbWasTimedOut));
+IL2CPP_REGISTER_METHOD(0x027F9090, HTTPRequestHandle, CreateHTTPRequest, (app::EHTTPMethod__Enum e_h_t_t_p_request_method, app::String * pch_absolute_u_r_l));
+IL2CPP_REGISTER_METHOD(0x027F92D0, bool, SetHTTPRequestContextValue, (app::HTTPRequestHandle h_request, uint64_t ul_context_value));
+IL2CPP_REGISTER_METHOD(0x027F9310, bool, SetHTTPRequestNetworkActivityTimeout, (app::HTTPRequestHandle h_request, uint32_t un_timeout_seconds));
+IL2CPP_REGISTER_METHOD(0x027F9350, bool, SetHTTPRequestHeaderValue, (app::HTTPRequestHandle h_request, app::String * pch_header_name, app::String * pch_header_value));
+IL2CPP_REGISTER_METHOD(0x027F9690, bool, SetHTTPRequestGetOrPostParameter, (app::HTTPRequestHandle h_request, app::String * pch_param_name, app::String * pch_param_value));
+IL2CPP_REGISTER_METHOD(0x027F99D0, bool, SendHTTPRequest, (app::HTTPRequestHandle h_request, app::SteamAPICall_t * p_call_handle));
+IL2CPP_REGISTER_METHOD(0x027F9A10, bool, SendHTTPRequestAndStreamResponse, (app::HTTPRequestHandle h_request, app::SteamAPICall_t * p_call_handle));
+IL2CPP_REGISTER_METHOD(0x027F9A50, bool, DeferHTTPRequest, (app::HTTPRequestHandle h_request));
+IL2CPP_REGISTER_METHOD(0x027F9A80, bool, PrioritizeHTTPRequest, (app::HTTPRequestHandle h_request));
+IL2CPP_REGISTER_METHOD(0x027F9AB0, bool, GetHTTPResponseHeaderSize, (app::HTTPRequestHandle h_request, app::String * pch_header_name, app::uint32_t * un_response_header_size));
+IL2CPP_REGISTER_METHOD(0x027F9CE0, bool, GetHTTPResponseHeaderValue, (app::HTTPRequestHandle h_request, app::String * pch_header_name, app::Byte__Array * p_header_value_buffer, uint32_t un_buffer_size));
+IL2CPP_REGISTER_METHOD(0x027F9F00, bool, GetHTTPResponseBodySize, (app::HTTPRequestHandle h_request, app::uint32_t * un_body_size));
+IL2CPP_REGISTER_METHOD(0x027F9F40, bool, GetHTTPResponseBodyData, (app::HTTPRequestHandle h_request, app::Byte__Array * p_body_data_buffer, uint32_t un_buffer_size));
+IL2CPP_REGISTER_METHOD(0x027F9F90, bool, GetHTTPStreamingResponseBodyData, (app::HTTPRequestHandle h_request, uint32_t c_offset, app::Byte__Array * p_body_data_buffer, uint32_t un_buffer_size));
+IL2CPP_REGISTER_METHOD(0x027F9FF0, bool, ReleaseHTTPRequest, (app::HTTPRequestHandle h_request));
+IL2CPP_REGISTER_METHOD(0x027FA020, bool, GetHTTPDownloadProgressPct, (app::HTTPRequestHandle h_request, app::float * pfl_percent_out));
+IL2CPP_REGISTER_METHOD(0x027FA060, bool, SetHTTPRequestRawPostBody, (app::HTTPRequestHandle h_request, app::String * pch_content_type, app::Byte__Array * pub_body, uint32_t un_body_len));
+IL2CPP_REGISTER_METHOD(0x027FA280, HTTPCookieContainerHandle, CreateCookieContainer, (bool b_allow_responses_to_modify));
+IL2CPP_REGISTER_METHOD(0x027FA330, bool, ReleaseCookieContainer, (app::HTTPCookieContainerHandle h_cookie_container));
+IL2CPP_REGISTER_METHOD(0x027FA360, bool, SetCookie, (app::HTTPCookieContainerHandle h_cookie_container, app::String * pch_host, app::String * pch_url, app::String * pch_cookie));
+IL2CPP_REGISTER_METHOD(0x027FA7D0, bool, SetHTTPRequestCookieContainer, (app::HTTPRequestHandle h_request, app::HTTPCookieContainerHandle h_cookie_container));
+IL2CPP_REGISTER_METHOD(0x027FA810, bool, SetHTTPRequestUserAgentInfo, (app::HTTPRequestHandle h_request, app::String * pch_user_agent_info));
+IL2CPP_REGISTER_METHOD(0x027FAA30, bool, SetHTTPRequestRequiresVerifiedCertificate, (app::HTTPRequestHandle h_request, bool b_require_verified_certificate));
+IL2CPP_REGISTER_METHOD(0x027FAA70, bool, SetHTTPRequestAbsoluteTimeoutMS, (app::HTTPRequestHandle h_request, uint32_t un_milliseconds));
+IL2CPP_REGISTER_METHOD(0x027FAAB0, bool, GetHTTPRequestWasTimedOut, (app::HTTPRequestHandle h_request, app::bool * pb_was_timed_out));
 }

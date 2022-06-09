@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Enumerable_WhereSelectArrayIterator_2_System::Int32Enum_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_System_Int32_ *, Select, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this, Func_2_Object_Int32_ * selector));
-IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_System_Object_ *, Select, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this, Func_2_Object_Object_ * selector));
-IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_System_Single_ *, Select, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this, Func_2_Object_Single_ * selector));
-IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_UnityEngine_Rect_ *, Select, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this, Func_2_Object_UnityEngine_Rect_ * selector));
-IL2CPP_REGISTER_METHOD(0x02895170, void, __ctor, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this, Int32Enum__Enum__Array * source, Func_2_Int32Enum_Boolean_ * predicate, Func_2_Int32Enum_Object_ * selector));
-IL2CPP_REGISTER_METHOD(0x028951E0, Enumerable_Iterator_1_System_Object_ *, Clone, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x02895860, bool, MoveNext, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x02895050, IEnumerable_1_System_Object_ *, Where, (Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * __this, Func_2_Object_Boolean_ * predicate));
+namespace app::methods::System_Linq::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ {
+IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_System_Int32_ *, Select_1, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr, app::Func_2_Object_Int32_ * selector));
+IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_System_Object_ *, Select_2, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr, app::Func_2_Object_Object_ * selector));
+IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_System_Single_ *, Select_3, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr, app::Func_2_Object_Single_ * selector));
+IL2CPP_REGISTER_METHOD(0x00E775A0, IEnumerable_1_UnityEngine_Rect_ *, Select_4, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr, app::Func_2_Object_UnityEngine_Rect_ * selector));
+IL2CPP_REGISTER_METHOD(0x02895170, void, __ctor, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr, app::Int32Enum__Enum__Array * source, app::Func_2_Int32Enum_Boolean_ * predicate, app::Func_2_Int32Enum_Object_ * selector));
+IL2CPP_REGISTER_METHOD(0x028951E0, Enumerable_Iterator_1_System_Object_ *, Clone, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02895860, bool, MoveNext, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02895050, IEnumerable_1_System_Object_ *, Where, (app::Enumerable_WhereSelectArrayIterator_2_System_Int32Enum_System_Object_ * this_ptr, app::Func_2_Object_Boolean_ * predicate));
 }

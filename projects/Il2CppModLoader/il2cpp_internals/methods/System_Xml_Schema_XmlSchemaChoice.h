@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::XmlSchemaChoice {
-IL2CPP_REGISTER_METHOD(0x002FBBE0, XmlSchemaObjectCollection *, get_Items, (XmlSchemaChoice * __this));
-IL2CPP_REGISTER_METHOD(0x01CA1E10, bool, get_IsEmpty, (XmlSchemaChoice * __this));
-IL2CPP_REGISTER_METHOD(0x002FBBF0, void, SetItems, (XmlSchemaChoice * __this, XmlSchemaObjectCollection * newItems));
-IL2CPP_REGISTER_METHOD(0x01CA1E20, void, __ctor, (XmlSchemaChoice * __this));
+namespace app::methods::System_Xml_Schema::XmlSchemaChoice {
+IL2CPP_REGISTER_METHOD(0x002FBBE0, XmlSchemaObjectCollection *, get_Items, (app::XmlSchemaChoice * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01CA1E10, bool, get_IsEmpty, (app::XmlSchemaChoice * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBBF0, void, SetItems, (app::XmlSchemaChoice * this_ptr, app::XmlSchemaObjectCollection * new_items));
+IL2CPP_REGISTER_METHOD(0x01CA1E20, void, __ctor, (app::XmlSchemaChoice * this_ptr));
 }

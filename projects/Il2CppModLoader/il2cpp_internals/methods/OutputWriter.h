@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::OutputWriter {
-IL2CPP_REGISTER_METHOD(0x00442420, void, __ctor, (OutputWriter * __this, String * folder, String * outputFileName));
-IL2CPP_REGISTER_METHOD(0x004427E0, void, WriteLines, (OutputWriter * __this, String__Array * lines));
-IL2CPP_REGISTER_METHOD(0x00442880, void, FlushStreamWriter, (OutputWriter * __this));
-IL2CPP_REGISTER_METHOD(0x004428B0, void, Write, (OutputWriter * __this, String * text));
-IL2CPP_REGISTER_METHOD(0x00442900, void, WriteBuffer, (OutputWriter * __this, int32_t size));
-IL2CPP_REGISTER_METHOD(0x00442880, void, Flush, (OutputWriter * __this));
-IL2CPP_REGISTER_METHOD(0x00442A10, void, Close, (OutputWriter * __this));
-IL2CPP_REGISTER_METHOD(0x002FB930, String *, GetOutputPath, (OutputWriter * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x00442420, void, __ctor, (app::OutputWriter * this_ptr, app::String* folder, app::String* output_file_name));
+    IL2CPP_REGISTER_METHOD(0x004427E0, void, WriteLines, (app::OutputWriter * this_ptr, app::String__Array* lines));
+    IL2CPP_REGISTER_METHOD(0x00442880, void, FlushStreamWriter, (app::OutputWriter * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x004428B0, void, Write, (app::OutputWriter * this_ptr, app::String* text));
+    IL2CPP_REGISTER_METHOD(0x00442900, void, WriteBuffer, (app::OutputWriter * this_ptr, int32_t size));
+    IL2CPP_REGISTER_METHOD(0x00442880, void, Flush, (app::OutputWriter * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00442A10, void, Close, (app::OutputWriter * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FB930, String*, GetOutputPath, (app::OutputWriter * this_ptr));
+} // namespace app::methods::OutputWriter

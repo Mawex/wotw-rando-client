@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler {
-IL2CPP_REGISTER_METHOD(0x02415020, bool, get_IsFinallyBlockExist, (TryCatchFinallyHandler * __this));
-IL2CPP_REGISTER_METHOD(0x01D60150, bool, get_IsCatchBlockExist, (TryCatchFinallyHandler * __this));
-IL2CPP_REGISTER_METHOD(0x02415030, void, __ctor, (TryCatchFinallyHandler * __this, int32_t tryStart, int32_t tryEnd, int32_t gotoEndTargetIndex, ExceptionHandler__Array * handlers));
-IL2CPP_REGISTER_METHOD(0x02415060, void, __ctor, (TryCatchFinallyHandler * __this, int32_t tryStart, int32_t tryEnd, int32_t gotoEndLabelIndex, int32_t finallyStart, int32_t finallyEnd, ExceptionHandler__Array * handlers));
-IL2CPP_REGISTER_METHOD(0x02415090, bool, HasHandler, (TryCatchFinallyHandler * __this, InterpretedFrame * frame, Exception * exception, ExceptionHandler * * handler, Object * * unwrappedException));
-IL2CPP_REGISTER_METHOD(0x02415260, bool, FilterPasses, (InterpretedFrame * frame, Object * * exception, ExceptionFilter * filter));
+namespace app::methods::System_Linq_Expressions_Interpreter::TryCatchFinallyHandler {
+IL2CPP_REGISTER_METHOD(0x02415020, bool, get_IsFinallyBlockExist, (app::TryCatchFinallyHandler * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D60150, bool, get_IsCatchBlockExist, (app::TryCatchFinallyHandler * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02415030, void, __ctor_1, (app::TryCatchFinallyHandler * this_ptr, int32_t try_start, int32_t try_end, int32_t goto_end_target_index, app::ExceptionHandler__Array * handlers));
+IL2CPP_REGISTER_METHOD(0x02415060, void, __ctor_2, (app::TryCatchFinallyHandler * this_ptr, int32_t try_start, int32_t try_end, int32_t goto_end_label_index, int32_t finally_start, int32_t finally_end, app::ExceptionHandler__Array * handlers));
+IL2CPP_REGISTER_METHOD(0x02415090, bool, HasHandler, (app::TryCatchFinallyHandler * this_ptr, app::InterpretedFrame * frame, app::Exception * exception, app::ExceptionHandler * * handler, app::Object * * unwrapped_exception));
+IL2CPP_REGISTER_METHOD(0x02415260, bool, FilterPasses, (app::InterpretedFrame * frame, app::Object * * exception, app::ExceptionFilter * filter));
 }

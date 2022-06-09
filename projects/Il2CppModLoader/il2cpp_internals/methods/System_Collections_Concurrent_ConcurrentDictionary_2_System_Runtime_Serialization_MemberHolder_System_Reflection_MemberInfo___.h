@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_System::Runtime::Serialization::MemberHolder_System::Reflection::MemberInfo___ {
-IL2CPP_REGISTER_METHOD(0x02ADDC30, void, __ctor, (ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo_ * __this));
+namespace app::methods::System_Collections_Concurrent::ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo___ {
+IL2CPP_REGISTER_METHOD(0x02ADDC30, void, __ctor, (app::ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0478FC48, ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo___ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02AF0770, MemberInfo_1__Array *, GetOrAdd, (ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo_ * __this, MemberHolder * key, Func_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo_ * valueFactory));
+IL2CPP_REGISTER_METHOD(0x02AF0770, MemberInfo_1__Array *, GetOrAdd, (app::ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo_ * this_ptr, app::MemberHolder * key, app::Func_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo_ * value_factory));
 IL2CPP_REGISTER_METHODINFO(0x0470E1F8, ConcurrentDictionary_2_System_Runtime_Serialization_MemberHolder_System_Reflection_MemberInfo__GetOrAdd__MethodInfo);
 }

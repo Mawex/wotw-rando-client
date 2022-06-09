@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::KwolokBossWormSpitBehaviour_WormInfo {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (KwolokBossWormSpitBehaviour_WormInfo * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::KwolokBossWormSpitBehaviour_WormInfo * this_ptr));
 }

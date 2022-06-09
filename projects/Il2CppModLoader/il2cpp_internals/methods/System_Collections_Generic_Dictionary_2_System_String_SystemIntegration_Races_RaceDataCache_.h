@@ -1,18 +1,18 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::Dictionary_2_System::String_SystemIntegration::Races::RaceDataCache_ {
-IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * __this));
+namespace app::methods::System_Collections_Generic::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ {
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (app::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04716080, Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache___ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * __this, String * key));
+IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (app::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * this_ptr, app::String * key));
 IL2CPP_REGISTER_METHODINFO(0x0471A1C0, Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache__ContainsKey__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_System_String_SystemIntegration_Races_RaceDataCache_, GetEnumerator, (Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * __this));
+IL2CPP_REGISTER_METHOD(0x02BA5400, Dictionary_2_TKey_TValue_Enumerator_System_String_SystemIntegration_Races_RaceDataCache_, GetEnumerator, (app::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0474AD58, Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache__GetEnumerator__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * __this, String * key, RaceDataCache * * value));
+IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * this_ptr, app::String * key, app::RaceDataCache * * value));
 IL2CPP_REGISTER_METHODINFO(0x0474F7E8, Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache__TryGetValue__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * __this, String * key, RaceDataCache * value));
+IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (app::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * this_ptr, app::String * key, app::RaceDataCache * value));
 IL2CPP_REGISTER_METHODINFO(0x04774AA0, Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache__set_Item__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * __this));
+IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (app::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x047860C8, Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache__Clear__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02BD24D0, RaceDataCache *, get_Item, (Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * __this, String * key));
+IL2CPP_REGISTER_METHOD(0x02BD24D0, RaceDataCache *, get_Item, (app::Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache_ * this_ptr, app::String * key));
 IL2CPP_REGISTER_METHODINFO(0x04799280, Dictionary_2_System_String_SystemIntegration_Races_RaceDataCache__get_Item__MethodInfo);
 }

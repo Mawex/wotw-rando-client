@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase {
-IL2CPP_REGISTER_METHOD(0x023CD2B0, BigInteger *, GenerateSearchBase, (SequentialSearchPrimeGeneratorBase * __this, int32_t bits, Object * context));
-IL2CPP_REGISTER_METHOD(0x01F938C0, BigInteger *, GenerateNewPrime, (SequentialSearchPrimeGeneratorBase * __this, int32_t bits));
-IL2CPP_REGISTER_METHOD(0x023CD390, BigInteger *, GenerateNewPrime, (SequentialSearchPrimeGeneratorBase * __this, int32_t bits, Object * context));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, IsPrimeAcceptable, (SequentialSearchPrimeGeneratorBase * __this, BigInteger * bi, Object * context));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SequentialSearchPrimeGeneratorBase * __this));
-IL2CPP_REGISTER_METHOD(0x02A354F0, BigInteger_1 *, GenerateSearchBase, (SequentialSearchPrimeGeneratorBase_1 * __this, int32_t bits, Object * context));
-IL2CPP_REGISTER_METHOD(0x01F938C0, BigInteger_1 *, GenerateNewPrime, (SequentialSearchPrimeGeneratorBase_1 * __this, int32_t bits));
-IL2CPP_REGISTER_METHOD(0x02A355D0, BigInteger_1 *, GenerateNewPrime, (SequentialSearchPrimeGeneratorBase_1 * __this, int32_t bits, Object * context));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, IsPrimeAcceptable, (SequentialSearchPrimeGeneratorBase_1 * __this, BigInteger_1 * bi, Object * context));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SequentialSearchPrimeGeneratorBase_1 * __this));
+namespace app::methods::Mono_Math_Prime_Generator::SequentialSearchPrimeGeneratorBase {
+IL2CPP_REGISTER_METHOD(0x023CD2B0, BigInteger *, GenerateSearchBase_1, (app::SequentialSearchPrimeGeneratorBase * this_ptr, int32_t bits, app::Object * context));
+IL2CPP_REGISTER_METHOD(0x01F938C0, BigInteger *, GenerateNewPrime_1, (app::SequentialSearchPrimeGeneratorBase * this_ptr, int32_t bits));
+IL2CPP_REGISTER_METHOD(0x023CD390, BigInteger *, GenerateNewPrime_2, (app::SequentialSearchPrimeGeneratorBase * this_ptr, int32_t bits, app::Object * context));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, IsPrimeAcceptable_1, (app::SequentialSearchPrimeGeneratorBase * this_ptr, app::BigInteger * bi, app::Object * context));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_1, (app::SequentialSearchPrimeGeneratorBase * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02A354F0, BigInteger_1 *, GenerateSearchBase_2, (app::SequentialSearchPrimeGeneratorBase_1 * this_ptr, int32_t bits, app::Object * context));
+IL2CPP_REGISTER_METHOD(0x01F938C0, BigInteger_1 *, GenerateNewPrime_3, (app::SequentialSearchPrimeGeneratorBase_1 * this_ptr, int32_t bits));
+IL2CPP_REGISTER_METHOD(0x02A355D0, BigInteger_1 *, GenerateNewPrime_4, (app::SequentialSearchPrimeGeneratorBase_1 * this_ptr, int32_t bits, app::Object * context));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, IsPrimeAcceptable_2, (app::SequentialSearchPrimeGeneratorBase_1 * this_ptr, app::BigInteger_1 * bi, app::Object * context));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_2, (app::SequentialSearchPrimeGeneratorBase_1 * this_ptr));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Data::InvalidExpressionException {
-IL2CPP_REGISTER_METHOD(0x01E3FEB0, void, __ctor, (InvalidExpressionException * __this, SerializationInfo * info, StreamingContext context));
+namespace app::methods::System_Data::InvalidExpressionException {
+IL2CPP_REGISTER_METHOD(0x01E3FEB0, void, __ctor_1, (app::InvalidExpressionException * this_ptr, app::SerializationInfo * info, app::StreamingContext context));
 IL2CPP_REGISTER_METHODINFO(0x04724D38, InvalidExpressionException__ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E3FF00, void, __ctor, (InvalidExpressionException * __this));
-IL2CPP_REGISTER_METHOD(0x01E3FF90, void, __ctor, (InvalidExpressionException * __this, String * s));
+IL2CPP_REGISTER_METHOD(0x01E3FF00, void, __ctor_2, (app::InvalidExpressionException * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01E3FF90, void, __ctor_3, (app::InvalidExpressionException * this_ptr, app::String * s));
 }

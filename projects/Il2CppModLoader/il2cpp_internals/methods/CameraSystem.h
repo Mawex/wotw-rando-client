@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
 namespace app::methods::CameraSystem {
-IL2CPP_REGISTER_METHOD(0x00B1EA80, void, Awake, (CameraSystem * __this));
-IL2CPP_REGISTER_METHOD(0x00B1EB30, void, Start, (CameraSystem * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnable, (CameraSystem * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDisable, (CameraSystem * __this));
-IL2CPP_REGISTER_METHOD(0x00B201D0, void, SampleCameras, (CameraSystem * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (CameraSystem * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x00B1EA80, void, Awake, (app::CameraSystem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00B1EB30, void, Start, (app::CameraSystem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnable, (app::CameraSystem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDisable, (app::CameraSystem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00B201D0, void, SampleCameras, (app::CameraSystem * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::CameraSystem * this_ptr));
+} // namespace app::methods::CameraSystem

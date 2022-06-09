@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon::uberSerializationWisp::PlayerUberStateShards_Shard_ {
-IL2CPP_REGISTER_METHOD(0x00107C20, PlayerUberStateShards_Shard *, get_Current, (List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___Boxed * __this));
+namespace app::methods::System_Collections_Generic::List_1_T__Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ {
+IL2CPP_REGISTER_METHOD(0x00107C20, PlayerUberStateShards_Shard *, get_Current, (app::List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___Boxed * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04745AC0, List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard__get_Current__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0014EA20, bool, MoveNext, (app::List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___Boxed * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04788590, List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard__MoveNext__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00002890, void, Dispose, (app::List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___Boxed * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0472EF20, List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard__Dispose__MethodInfo);
 }

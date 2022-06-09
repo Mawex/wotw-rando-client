@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::frameworks::Switch::SwitchFlow {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Awake, (SwitchFlow * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Start, (SwitchFlow * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnable, (SwitchFlow * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDisable, (SwitchFlow * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnApplicationQuit, (SwitchFlow * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (SwitchFlow * __this));
+namespace app::methods::frameworks_Switch::SwitchFlow {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Awake, (app::SwitchFlow * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Start, (app::SwitchFlow * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnable, (app::SwitchFlow * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDisable, (app::SwitchFlow * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnApplicationQuit, (app::SwitchFlow * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::SwitchFlow * this_ptr));
 }

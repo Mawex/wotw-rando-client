@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Data::SqlTypes::SQLResource {
+namespace app::methods::System_Data_SqlTypes::SQLResource {
 IL2CPP_REGISTER_METHOD(0x01E4DF30, String *, get_NullString, ());
 IL2CPP_REGISTER_METHOD(0x01E4DFB0, String *, get_ArithOverflowMessage, ());
 IL2CPP_REGISTER_METHOD(0x01E4E030, String *, get_DivideByZeroMessage, ());
@@ -14,8 +14,8 @@ IL2CPP_REGISTER_METHOD(0x01E4E3B0, String *, get_TimeZoneSpecifiedMessage, ());
 IL2CPP_REGISTER_METHOD(0x01E4E430, String *, get_InvalidArraySizeMessage, ());
 IL2CPP_REGISTER_METHOD(0x01E4E4B0, String *, get_InvalidPrecScaleMessage, ());
 IL2CPP_REGISTER_METHOD(0x01E4E530, String *, get_FormatMessage, ());
-IL2CPP_REGISTER_METHOD(0x01E4E5B0, String *, InvalidOpStreamClosed, (String * method_1));
-IL2CPP_REGISTER_METHOD(0x01E4E640, String *, InvalidOpStreamNonWritable, (String * method_1));
-IL2CPP_REGISTER_METHOD(0x01E4E6D0, String *, InvalidOpStreamNonReadable, (String * method_1));
-IL2CPP_REGISTER_METHOD(0x01E4E760, String *, InvalidOpStreamNonSeekable, (String * method_1));
+IL2CPP_REGISTER_METHOD(0x01E4E5B0, String *, InvalidOpStreamClosed, (app::String * method_1));
+IL2CPP_REGISTER_METHOD(0x01E4E640, String *, InvalidOpStreamNonWritable, (app::String * method_1));
+IL2CPP_REGISTER_METHOD(0x01E4E6D0, String *, InvalidOpStreamNonReadable, (app::String * method_1));
+IL2CPP_REGISTER_METHOD(0x01E4E760, String *, InvalidOpStreamNonSeekable, (app::String * method_1));
 }

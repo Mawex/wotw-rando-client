@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::MoonTelemetryDeathEvent {
-IL2CPP_REGISTER_METHOD(0x00418200, String *, get_Name, (MoonTelemetryDeathEvent * __this));
-IL2CPP_REGISTER_METHOD(0x0146F1C0, void, __ctor, (MoonTelemetryDeathEvent * __this));
+IL2CPP_REGISTER_METHOD(0x00418200, String *, get_Name, (app::MoonTelemetryDeathEvent * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0146F1C0, void, __ctor, (app::MoonTelemetryDeathEvent * this_ptr));
 }

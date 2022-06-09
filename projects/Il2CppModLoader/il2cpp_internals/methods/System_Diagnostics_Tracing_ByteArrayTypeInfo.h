@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Diagnostics::Tracing::ByteArrayTypeInfo {
-IL2CPP_REGISTER_METHOD(0x017476B0, void, WriteMetadata, (ByteArrayTypeInfo * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));
-IL2CPP_REGISTER_METHOD(0x01747850, void, WriteData, (ByteArrayTypeInfo * __this, TraceLoggingDataCollector * collector, Byte__Array * * value));
-IL2CPP_REGISTER_METHOD(0x01747970, void, __ctor, (ByteArrayTypeInfo * __this));
+namespace app::methods::System_Diagnostics_Tracing::ByteArrayTypeInfo {
+IL2CPP_REGISTER_METHOD(0x017476B0, void, WriteMetadata, (app::ByteArrayTypeInfo * this_ptr, app::TraceLoggingMetadataCollector * collector, app::String * name, app::EventFieldFormat__Enum format));
+IL2CPP_REGISTER_METHOD(0x01747850, void, WriteData, (app::ByteArrayTypeInfo * this_ptr, app::TraceLoggingDataCollector * collector, app::Byte__Array * * value));
+IL2CPP_REGISTER_METHOD(0x01747970, void, __ctor, (app::ByteArrayTypeInfo * this_ptr));
 }

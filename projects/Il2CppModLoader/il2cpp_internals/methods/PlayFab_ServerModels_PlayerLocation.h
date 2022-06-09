@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::PlayerLocation {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayerLocation * __this));
+namespace app::methods::PlayFab_ServerModels::PlayerLocation {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::PlayerLocation * this_ptr));
 }

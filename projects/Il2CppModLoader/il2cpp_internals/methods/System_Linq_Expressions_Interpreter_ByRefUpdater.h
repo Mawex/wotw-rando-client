@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::ByRefUpdater {
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (ByRefUpdater * __this, int32_t argumentIndex));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, UndefineTemps, (ByRefUpdater * __this, InstructionList * instructions, LocalVariables * locals));
+namespace app::methods::System_Linq_Expressions_Interpreter::ByRefUpdater {
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (app::ByRefUpdater * this_ptr, int32_t argument_index));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, UndefineTemps, (app::ByRefUpdater * this_ptr, app::InstructionList * instructions, app::LocalVariables * locals));
 }

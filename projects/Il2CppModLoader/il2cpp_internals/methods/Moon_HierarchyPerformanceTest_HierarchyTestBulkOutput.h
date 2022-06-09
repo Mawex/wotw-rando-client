@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::HierarchyPerformanceTest::HierarchyTestBulkOutput {
-IL2CPP_REGISTER_METHOD(0x0149F6A0, void, __ctor, (HierarchyTestBulkOutput * __this, HierarchyTestBulkToolData * data, String * fileName, String * fileExtension));
-IL2CPP_REGISTER_METHOD(0x0149F810, String *, Save, (HierarchyTestBulkOutput * __this, String * fileName, String * fileExtension));
-IL2CPP_REGISTER_METHOD(0x0149FBC0, void, BuildContent, (HierarchyTestBulkOutput * __this, StringBuilder * sb));
-IL2CPP_REGISTER_METHOD(0x014A02A0, void, AppendResults, (HierarchyTestBulkOutput * __this, List_1_Moon_HierarchyPerformanceTest_HPerfTestResult_ * sortedResults, String * tag, String * rootName, StringBuilder * sb, bool checkError));
-IL2CPP_REGISTER_METHOD(0x014A0460, String *, FormatResult, (HierarchyTestBulkOutput * __this, String * tag, String * rootName, HPerfTestResult * result));
+namespace app::methods::Moon_HierarchyPerformanceTest::HierarchyTestBulkOutput {
+IL2CPP_REGISTER_METHOD(0x0149F6A0, void, __ctor, (app::HierarchyTestBulkOutput * this_ptr, app::HierarchyTestBulkToolData * data, app::String * file_name, app::String * file_extension));
+IL2CPP_REGISTER_METHOD(0x0149F810, String *, Save, (app::HierarchyTestBulkOutput * this_ptr, app::String * file_name, app::String * file_extension));
+IL2CPP_REGISTER_METHOD(0x0149FBC0, void, BuildContent, (app::HierarchyTestBulkOutput * this_ptr, app::StringBuilder * sb));
+IL2CPP_REGISTER_METHOD(0x014A02A0, void, AppendResults, (app::HierarchyTestBulkOutput * this_ptr, app::List_1_Moon_HierarchyPerformanceTest_HPerfTestResult_ * sorted_results, app::String * tag, app::String * root_name, app::StringBuilder * sb, bool check_error));
+IL2CPP_REGISTER_METHOD(0x014A0460, String *, FormatResult, (app::HierarchyTestBulkOutput * this_ptr, app::String * tag, app::String * root_name, app::HPerfTestResult * result));
 }

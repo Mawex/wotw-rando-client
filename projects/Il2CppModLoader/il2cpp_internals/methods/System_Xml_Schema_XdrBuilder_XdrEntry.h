@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::XdrBuilder_XdrEntry {
-IL2CPP_REGISTER_METHOD(0x02232580, void, __ctor, (XdrBuilder_XdrEntry * __this, SchemaNames_Token__Enum n, Int32__Array * states, XdrBuilder_XdrAttributeEntry__Array * attributes, XdrBuilder_XdrInitFunction * init, XdrBuilder_XdrBeginChildFunction * begin, XdrBuilder_XdrEndChildFunction * end, bool fText));
+namespace app::methods::System_Xml_Schema::XdrBuilder_XdrEntry {
+IL2CPP_REGISTER_METHOD(0x02232580, void, __ctor, (app::XdrBuilder_XdrEntry * this_ptr, app::SchemaNames_Token__Enum n, app::Int32__Array * states, app::XdrBuilder_XdrAttributeEntry__Array * attributes, app::XdrBuilder_XdrInitFunction * init, app::XdrBuilder_XdrBeginChildFunction * begin, app::XdrBuilder_XdrEndChildFunction * end, bool f_text));
 }

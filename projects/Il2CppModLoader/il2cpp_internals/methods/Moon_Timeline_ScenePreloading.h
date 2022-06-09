@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::ScenePreloading {
-IL2CPP_REGISTER_METHOD(0x00784150, FixedDurationSceneEntity *, GetNextSceneEntity, (MoonTimeline * timeline, TimelineEntity * preloadingEntity));
-IL2CPP_REGISTER_METHOD(0x00784210, FixedDurationSceneEntity *, GetNextSceneEntity, (MoonTimeline * timeline, List_1_Moon_Timeline_FixedDurationSceneEntity_ * entities, TimelineEntity * preloadingEntity));
-IL2CPP_REGISTER_METHOD(0x00784800, List_1_Moon_Timeline_TimelineEntityRecord_ *, GetFixedDurationSceneEntities, (MoonTimeline * timeline));
-IL2CPP_REGISTER_METHOD(0x00784A80, TimelineEntityRecord *, GetSceneEntityOfClip, (MoonTimeline * timeline, TimelineEntity * entity));
-IL2CPP_REGISTER_METHOD(0x00784D70, FixedDurationSceneEntity *, ReturnResult, (TimelineEntityRecord * entityRecord));
+namespace app::methods::Moon_Timeline::ScenePreloading {
+IL2CPP_REGISTER_METHOD(0x00784150, FixedDurationSceneEntity *, GetNextSceneEntity_1, (app::MoonTimeline * timeline, app::TimelineEntity * preloading_entity));
+IL2CPP_REGISTER_METHOD(0x00784210, FixedDurationSceneEntity *, GetNextSceneEntity_2, (app::MoonTimeline * timeline, app::List_1_Moon_Timeline_FixedDurationSceneEntity_ * entities, app::TimelineEntity * preloading_entity));
+IL2CPP_REGISTER_METHOD(0x00784800, List_1_Moon_Timeline_TimelineEntityRecord_ *, GetFixedDurationSceneEntities, (app::MoonTimeline * timeline));
+IL2CPP_REGISTER_METHOD(0x00784A80, TimelineEntityRecord *, GetSceneEntityOfClip, (app::MoonTimeline * timeline, app::TimelineEntity * entity));
+IL2CPP_REGISTER_METHOD(0x00784D70, FixedDurationSceneEntity *, ReturnResult, (app::TimelineEntityRecord * entity_record));
 IL2CPP_REGISTER_METHOD(0x00784EA0, void, __cctor, ());
 }

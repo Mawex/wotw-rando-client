@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::System::IOSelectorJob {
-IL2CPP_REGISTER_METHOD(0x0200ADC0, void, __ctor, (IOSelectorJob * __this, IOOperation__Enum operation, IOAsyncCallback * callback, IOAsyncResult * state));
-IL2CPP_REGISTER_METHOD(0x0200ADD0, void, IThreadPoolWorkItem_ExecuteWorkItem, (IOSelectorJob * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, IThreadPoolWorkItem_MarkAborted, (IOSelectorJob * __this, ThreadAbortException * tae));
-IL2CPP_REGISTER_METHOD(0x0200AE00, void, MarkDisposed, (IOSelectorJob * __this));
+IL2CPP_REGISTER_METHOD(0x0200ADC0, void, __ctor, (app::IOSelectorJob * this_ptr, app::IOOperation__Enum operation, app::IOAsyncCallback * callback, app::IOAsyncResult * state));
+IL2CPP_REGISTER_METHOD(0x0200ADD0, void, IThreadPoolWorkItem_ExecuteWorkItem, (app::IOSelectorJob * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, IThreadPoolWorkItem_MarkAborted, (app::IOSelectorJob * this_ptr, app::ThreadAbortException * tae));
+IL2CPP_REGISTER_METHOD(0x0200AE00, void, MarkDisposed, (app::IOSelectorJob * this_ptr));
 }

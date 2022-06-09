@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::MultiplayerModels::GetRemoteLoginEndpointResponse_ {
-IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_GetRemoteLoginEndpointResponse_ * __this, GetRemoteLoginEndpointResponse * result));
+namespace app::methods::PlayFab_Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_GetRemoteLoginEndpointResponse_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_GetRemoteLoginEndpointResponse_ * this_ptr, app::GetRemoteLoginEndpointResponse * result));
 IL2CPP_REGISTER_METHODINFO(0x04736C48, PlayFabEvents_PlayFabResultEvent_1_PlayFab_MultiplayerModels_GetRemoteLoginEndpointResponse__Invoke__MethodInfo);
 }

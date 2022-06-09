@@ -1,16 +1,16 @@
 #include <interception_macros.h>
 
 namespace app::methods::BabyCrabEntity {
-IL2CPP_REGISTER_METHOD(0x002FB9B0, CrabPlaceholderGroup *, get_Group, (BabyCrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9C0, void, set_Group, (BabyCrabEntity * __this, CrabPlaceholderGroup * value));
-IL2CPP_REGISTER_METHOD(0x0085F420, IBlackboard *, get_BlackBoard, (BabyCrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB60, CrabEntity *, get_Entity, (BabyCrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB70, void, set_Entity, (BabyCrabEntity * __this, CrabEntity * value));
-IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_IsRunningAway, (BabyCrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FCE40, void, set_IsRunningAway, (BabyCrabEntity * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x0085F450, Vector3, get_RunPosition, (BabyCrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x0085F470, void, set_RunPosition, (BabyCrabEntity * __this, Vector3 value));
-IL2CPP_REGISTER_METHOD(0x0085F480, void, Awake, (BabyCrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x0085F520, void, Update, (BabyCrabEntity * __this));
-IL2CPP_REGISTER_METHOD(0x0085FEA0, void, __ctor, (BabyCrabEntity * __this));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, CrabPlaceholderGroup *, get_Group, (app::BabyCrabEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB9C0, void, set_Group, (app::BabyCrabEntity * this_ptr, app::CrabPlaceholderGroup * value));
+IL2CPP_REGISTER_METHOD(0x0085F420, IBlackboard *, get_BlackBoard, (app::BabyCrabEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB60, CrabEntity *, get_Entity, (app::BabyCrabEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB70, void, set_Entity, (app::BabyCrabEntity * this_ptr, app::CrabEntity * value));
+IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_IsRunningAway, (app::BabyCrabEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FCE40, void, set_IsRunningAway, (app::BabyCrabEntity * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x0085F450, Vector3, get_RunPosition, (app::BabyCrabEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0085F470, void, set_RunPosition, (app::BabyCrabEntity * this_ptr, app::Vector3 value));
+IL2CPP_REGISTER_METHOD(0x0085F480, void, Awake, (app::BabyCrabEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0085F520, void, Update, (app::BabyCrabEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0085FEA0, void, __ctor, (app::BabyCrabEntity * this_ptr));
 }

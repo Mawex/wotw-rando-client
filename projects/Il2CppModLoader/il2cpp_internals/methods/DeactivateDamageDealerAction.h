@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::DeactivateDamageDealerAction {
-IL2CPP_REGISTER_METHOD(0x00DD63B0, void, Perform, (DeactivateDamageDealerAction * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00DD64A0, void, Serialize, (DeactivateDamageDealerAction * __this, Archive * ar));
-IL2CPP_REGISTER_METHOD(0x00DD6630, String *, GetNiceName, (DeactivateDamageDealerAction * __this));
-IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (DeactivateDamageDealerAction * __this));
+IL2CPP_REGISTER_METHOD(0x00DD63B0, void, Perform, (app::DeactivateDamageDealerAction * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00DD64A0, void, Serialize, (app::DeactivateDamageDealerAction * this_ptr, app::Archive * ar));
+IL2CPP_REGISTER_METHOD(0x00DD6630, String *, GetNiceName, (app::DeactivateDamageDealerAction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::DeactivateDamageDealerAction * this_ptr));
 }

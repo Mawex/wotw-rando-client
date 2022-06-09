@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityStandardAssets::ImageEffects::ColorCorrectionCurves {
-IL2CPP_REGISTER_METHOD(0x0251AC50, void, Start, (ColorCorrectionCurves * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Awake, (ColorCorrectionCurves * __this));
-IL2CPP_REGISTER_METHOD(0x0251AC80, bool, CheckResources, (ColorCorrectionCurves * __this));
-IL2CPP_REGISTER_METHOD(0x0251B330, void, UpdateParameters, (ColorCorrectionCurves * __this));
-IL2CPP_REGISTER_METHOD(0x0251B890, void, UpdateTextures, (ColorCorrectionCurves * __this));
-IL2CPP_REGISTER_METHOD(0x0251B8A0, void, OnRenderImage, (ColorCorrectionCurves * __this, RenderTexture * source, RenderTexture * destination));
-IL2CPP_REGISTER_METHOD(0x0251BDE0, void, __ctor, (ColorCorrectionCurves * __this));
+namespace app::methods::UnityStandardAssets_ImageEffects::ColorCorrectionCurves {
+IL2CPP_REGISTER_METHOD(0x0251AC50, void, Start, (app::ColorCorrectionCurves * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Awake, (app::ColorCorrectionCurves * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0251AC80, bool, CheckResources, (app::ColorCorrectionCurves * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0251B330, void, UpdateParameters, (app::ColorCorrectionCurves * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0251B890, void, UpdateTextures, (app::ColorCorrectionCurves * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0251B8A0, void, OnRenderImage, (app::ColorCorrectionCurves * this_ptr, app::RenderTexture * source, app::RenderTexture * destination));
+IL2CPP_REGISTER_METHOD(0x0251BDE0, void, __ctor, (app::ColorCorrectionCurves * this_ptr));
 }

@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::IO::TextWriter_NullTextWriter {
-IL2CPP_REGISTER_METHOD(0x023881E0, void, __ctor, (TextWriter_NullTextWriter * __this));
-IL2CPP_REGISTER_METHOD(0x023882B0, Encoding *, get_Encoding, (TextWriter_NullTextWriter * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Write, (TextWriter_NullTextWriter * __this, Char__Array * buffer, int32_t index, int32_t count));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Write, (TextWriter_NullTextWriter * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteLine, (TextWriter_NullTextWriter * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteLine, (TextWriter_NullTextWriter * __this, String * value));
+namespace app::methods::System_IO::TextWriter_NullTextWriter {
+IL2CPP_REGISTER_METHOD(0x023881E0, void, __ctor, (app::TextWriter_NullTextWriter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x023882B0, Encoding *, get_Encoding, (app::TextWriter_NullTextWriter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Write_1, (app::TextWriter_NullTextWriter * this_ptr, app::Char__Array * buffer, int32_t index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Write_2, (app::TextWriter_NullTextWriter * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteLine_1, (app::TextWriter_NullTextWriter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteLine_2, (app::TextWriter_NullTextWriter * this_ptr, app::String * value));
 }

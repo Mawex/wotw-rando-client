@@ -2,7 +2,7 @@
 
 namespace app::methods::WaitForSaveGameLogic {
 IL2CPP_REGISTER_METHOD(0x008C63B0, void, ResetStatics, ());
-IL2CPP_REGISTER_METHOD(0x008C6450, void, FixedUpdate, (WaitForSaveGameLogic * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (WaitForSaveGameLogic * __this));
+IL2CPP_REGISTER_METHOD(0x008C6450, void, FixedUpdate, (app::WaitForSaveGameLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::WaitForSaveGameLogic * this_ptr));
 IL2CPP_REGISTER_METHOD(0x008C6760, void, __cctor, ());
 }

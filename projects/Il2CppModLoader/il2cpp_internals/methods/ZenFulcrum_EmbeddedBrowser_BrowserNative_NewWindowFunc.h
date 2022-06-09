@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::EmbeddedBrowser::BrowserNative_NewWindowFunc {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (BrowserNative_NewWindowFunc * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01DCB240, void, Invoke, (BrowserNative_NewWindowFunc * __this, int32_t creatorBrowserId, int32_t newBrowserId, void * initialURL));
-IL2CPP_REGISTER_METHOD(0x01DCDC60, IAsyncResult *, BeginInvoke, (BrowserNative_NewWindowFunc * __this, int32_t creatorBrowserId, int32_t newBrowserId, void * initialURL, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (BrowserNative_NewWindowFunc * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_EmbeddedBrowser::BrowserNative_NewWindowFunc {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::BrowserNative_NewWindowFunc * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01DCB240, void, Invoke, (app::BrowserNative_NewWindowFunc * this_ptr, int32_t creator_browser_id, int32_t new_browser_id, app::void * initial_u_r_l));
+IL2CPP_REGISTER_METHOD(0x01DCDC60, IAsyncResult *, BeginInvoke, (app::BrowserNative_NewWindowFunc * this_ptr, int32_t creator_browser_id, int32_t new_browser_id, app::void * initial_u_r_l, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::BrowserNative_NewWindowFunc * this_ptr, app::IAsyncResult * result));
 }

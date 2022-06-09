@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRChaperoneSetup__ExportLiveToBuffer {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRChaperoneSetup_ExportLiveToBuffer * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01D3D560, bool, Invoke, (IVRChaperoneSetup_ExportLiveToBuffer * __this, StringBuilder * pBuffer, uint32_t * pnBufferLength));
-IL2CPP_REGISTER_METHOD(0x02F40010, IAsyncResult *, BeginInvoke, (IVRChaperoneSetup_ExportLiveToBuffer * __this, StringBuilder * pBuffer, uint32_t * pnBufferLength, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x0167A2D0, bool, EndInvoke, (IVRChaperoneSetup_ExportLiveToBuffer * __this, uint32_t * pnBufferLength, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRChaperoneSetup__ExportLiveToBuffer {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRChaperoneSetup_ExportLiveToBuffer * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01D3D560, bool, Invoke, (app::IVRChaperoneSetup_ExportLiveToBuffer * this_ptr, app::StringBuilder * p_buffer, app::uint32_t * pn_buffer_length));
+IL2CPP_REGISTER_METHOD(0x02F40010, IAsyncResult *, BeginInvoke, (app::IVRChaperoneSetup_ExportLiveToBuffer * this_ptr, app::StringBuilder * p_buffer, app::uint32_t * pn_buffer_length, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x0167A2D0, bool, EndInvoke, (app::IVRChaperoneSetup_ExportLiveToBuffer * this_ptr, app::uint32_t * pn_buffer_length, app::IAsyncResult * result));
 }

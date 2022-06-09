@@ -1,21 +1,21 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Data::Common::TimeSpanStorage {
-IL2CPP_REGISTER_METHOD(0x02864130, void, __ctor, (TimeSpanStorage * __this, DataColumn * column));
-IL2CPP_REGISTER_METHOD(0x02864280, Object *, Aggregate, (TimeSpanStorage * __this, Int32__Array * records, AggregateType__Enum kind));
+namespace app::methods::System_Data_Common::TimeSpanStorage {
+IL2CPP_REGISTER_METHOD(0x02864130, void, __ctor, (app::TimeSpanStorage * this_ptr, app::DataColumn * column));
+IL2CPP_REGISTER_METHOD(0x02864280, Object *, Aggregate, (app::TimeSpanStorage * this_ptr, app::Int32__Array * records, app::AggregateType__Enum kind));
 IL2CPP_REGISTER_METHODINFO(0x04701A40, TimeSpanStorage_Aggregate__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x028650D0, int32_t, Compare, (TimeSpanStorage * __this, int32_t recordNo1, int32_t recordNo2));
-IL2CPP_REGISTER_METHOD(0x028652E0, int32_t, CompareValueTo, (TimeSpanStorage * __this, int32_t recordNo, Object * value));
-IL2CPP_REGISTER_METHOD(0x02865490, TimeSpan, ConvertToTimeSpan, (Object * value));
-IL2CPP_REGISTER_METHOD(0x02865710, Object *, ConvertValue, (TimeSpanStorage * __this, Object * value));
-IL2CPP_REGISTER_METHOD(0x021627E0, void, Copy, (TimeSpanStorage * __this, int32_t recordNo1, int32_t recordNo2));
-IL2CPP_REGISTER_METHOD(0x028657F0, Object *, Get, (TimeSpanStorage * __this, int32_t record));
-IL2CPP_REGISTER_METHOD(0x02865950, void, Set, (TimeSpanStorage * __this, int32_t record, Object * value));
-IL2CPP_REGISTER_METHOD(0x02865AD0, void, SetCapacity, (TimeSpanStorage * __this, int32_t capacity));
-IL2CPP_REGISTER_METHOD(0x02865BE0, Object *, ConvertXmlToObject, (TimeSpanStorage * __this, String * s));
-IL2CPP_REGISTER_METHOD(0x02865C90, String *, ConvertObjectToXml, (TimeSpanStorage * __this, Object * value));
-IL2CPP_REGISTER_METHOD(0x02865DA0, Object *, GetEmptyStorage, (TimeSpanStorage * __this, int32_t recordCount));
-IL2CPP_REGISTER_METHOD(0x02865E20, void, CopyValue, (TimeSpanStorage * __this, int32_t record, Object * store, BitArray * nullbits, int32_t storeIndex));
-IL2CPP_REGISTER_METHOD(0x02865FA0, void, SetStorage, (TimeSpanStorage * __this, Object * store, BitArray * nullbits));
+IL2CPP_REGISTER_METHOD(0x028650D0, int32_t, Compare, (app::TimeSpanStorage * this_ptr, int32_t record_no1, int32_t record_no2));
+IL2CPP_REGISTER_METHOD(0x028652E0, int32_t, CompareValueTo, (app::TimeSpanStorage * this_ptr, int32_t record_no, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x02865490, TimeSpan, ConvertToTimeSpan, (app::Object * value));
+IL2CPP_REGISTER_METHOD(0x02865710, Object *, ConvertValue, (app::TimeSpanStorage * this_ptr, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x021627E0, void, Copy, (app::TimeSpanStorage * this_ptr, int32_t record_no1, int32_t record_no2));
+IL2CPP_REGISTER_METHOD(0x028657F0, Object *, Get, (app::TimeSpanStorage * this_ptr, int32_t record));
+IL2CPP_REGISTER_METHOD(0x02865950, void, Set, (app::TimeSpanStorage * this_ptr, int32_t record, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x02865AD0, void, SetCapacity, (app::TimeSpanStorage * this_ptr, int32_t capacity));
+IL2CPP_REGISTER_METHOD(0x02865BE0, Object *, ConvertXmlToObject, (app::TimeSpanStorage * this_ptr, app::String * s));
+IL2CPP_REGISTER_METHOD(0x02865C90, String *, ConvertObjectToXml, (app::TimeSpanStorage * this_ptr, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x02865DA0, Object *, GetEmptyStorage, (app::TimeSpanStorage * this_ptr, int32_t record_count));
+IL2CPP_REGISTER_METHOD(0x02865E20, void, CopyValue, (app::TimeSpanStorage * this_ptr, int32_t record, app::Object * store, app::BitArray * nullbits, int32_t store_index));
+IL2CPP_REGISTER_METHOD(0x02865FA0, void, SetStorage, (app::TimeSpanStorage * this_ptr, app::Object * store, app::BitArray * nullbits));
 IL2CPP_REGISTER_METHOD(0x02866070, void, __cctor, ());
 }

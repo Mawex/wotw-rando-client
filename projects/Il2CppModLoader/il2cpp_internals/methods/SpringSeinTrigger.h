@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::SpringSeinTrigger {
-IL2CPP_REGISTER_METHOD(0x009A8A00, void, OnCollisionEnter, (SpringSeinTrigger * __this, Collision * collision));
-IL2CPP_REGISTER_METHOD(0x009A8CA0, void, Spring, (SpringSeinTrigger * __this, GameObject * target));
-IL2CPP_REGISTER_METHOD(0x009A8FF0, void, SpringSein, (SpringSeinTrigger * __this, Vector2 direction));
-IL2CPP_REGISTER_METHOD(0x009A95E0, void, SpringKu, (SpringSeinTrigger * __this, Vector2 direction));
-IL2CPP_REGISTER_METHOD(0x009A8220, void, __ctor, (SpringSeinTrigger * __this));
+IL2CPP_REGISTER_METHOD(0x009A8A00, void, OnCollisionEnter, (app::SpringSeinTrigger * this_ptr, app::Collision * collision));
+IL2CPP_REGISTER_METHOD(0x009A8CA0, void, Spring, (app::SpringSeinTrigger * this_ptr, app::GameObject * target));
+IL2CPP_REGISTER_METHOD(0x009A8FF0, void, SpringSein, (app::SpringSeinTrigger * this_ptr, app::Vector2 direction));
+IL2CPP_REGISTER_METHOD(0x009A95E0, void, SpringKu, (app::SpringSeinTrigger * this_ptr, app::Vector2 direction));
+IL2CPP_REGISTER_METHOD(0x009A8220, void, __ctor, (app::SpringSeinTrigger * this_ptr));
 }

@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::MinerThrowAttack_ProjectileInstance {
-IL2CPP_REGISTER_METHOD(0x014524A0, void, Clear, (MinerThrowAttack_ProjectileInstance * __this));
-IL2CPP_REGISTER_METHOD(0x00971AF0, void, SetPosition, (MinerThrowAttack_ProjectileInstance * __this, Vector3 position));
-IL2CPP_REGISTER_METHOD(0x014524B0, void, Populate, (MinerThrowAttack_ProjectileInstance * __this, GameObject * obj, float projectileGravity, float projectileDamage));
-IL2CPP_REGISTER_METHOD(0x01452640, bool, CanThrow, (MinerThrowAttack_ProjectileInstance * __this));
-IL2CPP_REGISTER_METHOD(0x01452710, void, Throw, (MinerThrowAttack_ProjectileInstance * __this, Vector2 force, Vector2 startPoint, EnemyEntity * miner));
-IL2CPP_REGISTER_METHOD(0x01452960, void, ActivateProjectile, (MinerThrowAttack_ProjectileInstance * __this));
-IL2CPP_REGISTER_METHOD(0x01452A30, void, DeactiveProjectile, (MinerThrowAttack_ProjectileInstance * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MinerThrowAttack_ProjectileInstance * __this));
+IL2CPP_REGISTER_METHOD(0x014524A0, void, Clear, (app::MinerThrowAttack_ProjectileInstance * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00971AF0, void, SetPosition, (app::MinerThrowAttack_ProjectileInstance * this_ptr, app::Vector3 position));
+IL2CPP_REGISTER_METHOD(0x014524B0, void, Populate, (app::MinerThrowAttack_ProjectileInstance * this_ptr, app::GameObject * obj, float projectile_gravity, float projectile_damage));
+IL2CPP_REGISTER_METHOD(0x01452640, bool, CanThrow, (app::MinerThrowAttack_ProjectileInstance * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01452710, void, Throw, (app::MinerThrowAttack_ProjectileInstance * this_ptr, app::Vector2 force, app::Vector2 start_point, app::EnemyEntity * miner));
+IL2CPP_REGISTER_METHOD(0x01452960, void, ActivateProjectile, (app::MinerThrowAttack_ProjectileInstance * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01452A30, void, DeactiveProjectile, (app::MinerThrowAttack_ProjectileInstance * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MinerThrowAttack_ProjectileInstance * this_ptr));
 }

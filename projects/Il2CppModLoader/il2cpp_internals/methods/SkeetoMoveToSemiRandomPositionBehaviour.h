@@ -1,24 +1,24 @@
 #include <interception_macros.h>
 
 namespace app::methods::SkeetoMoveToSemiRandomPositionBehaviour {
-IL2CPP_REGISTER_METHOD(0x0075A130, int32_t, get_RandomIndex, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075A210, Vector3, get_TargetToAttackPosition, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075A3B0, int32_t, get_RandomIndexOffset, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075A3F0, void, set_RandomIndexOffset, (SkeetoMoveToSemiRandomPositionBehaviour * __this, int32_t value));
-IL2CPP_REGISTER_METHOD(0x0075A400, SkeetoLocomotion *, get_Locomotion, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075A4E0, void, OnEntityInitialized, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075A7B0, void, ScheduleRaycasts, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075AA90, BehaviourStatus__Enum, UpdateJobScheduled, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075B230, void, OnEnter, (SkeetoMoveToSemiRandomPositionBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0075B3D0, void, OnExit, (SkeetoMoveToSemiRandomPositionBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00754B80, void, OnWontReachTarget, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
+IL2CPP_REGISTER_METHOD(0x0075A130, int32_t, get_RandomIndex, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075A210, Vector3, get_TargetToAttackPosition, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075A3B0, int32_t, get_RandomIndexOffset, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075A3F0, void, set_RandomIndexOffset, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr, int32_t value));
+IL2CPP_REGISTER_METHOD(0x0075A400, SkeetoLocomotion *, get_Locomotion, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075A4E0, void, OnEntityInitialized, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075A7B0, void, ScheduleRaycasts, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075AA90, BehaviourStatus__Enum, UpdateJobScheduled, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075B230, void, OnEnter, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0075B3D0, void, OnExit, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00754B80, void, OnWontReachTarget, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04745110, SkeetoMoveToSemiRandomPositionBehaviour_OnWontReachTarget__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0075B6F0, void, CalculateTargetOffsets, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075C2D0, bool, TryCalculateTargetPosition, (SkeetoMoveToSemiRandomPositionBehaviour * __this, int32_t longtitudeIndex, int32_t latitudeIndex, Vector3 * moveTarget));
-IL2CPP_REGISTER_METHOD(0x0075C7C0, bool, NoGoZoneOnTheWay, (SkeetoMoveToSemiRandomPositionBehaviour * __this, Vector3 candidatePosition));
-IL2CPP_REGISTER_METHOD(0x0075CB20, BehaviourStatus__Enum, OnExecute, (SkeetoMoveToSemiRandomPositionBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0075CB50, BehaviourStatus__Enum, UpdateTraverse, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075CE80, void, OnDrawGizmos, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075D1E0, void, OnDestroy, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0075D390, void, __ctor, (SkeetoMoveToSemiRandomPositionBehaviour * __this));
+IL2CPP_REGISTER_METHOD(0x0075B6F0, void, CalculateTargetOffsets, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075C2D0, bool, TryCalculateTargetPosition, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr, int32_t longtitude_index, int32_t latitude_index, app::Vector3 * move_target));
+IL2CPP_REGISTER_METHOD(0x0075C7C0, bool, NoGoZoneOnTheWay, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr, app::Vector3 candidate_position));
+IL2CPP_REGISTER_METHOD(0x0075CB20, BehaviourStatus__Enum, OnExecute, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0075CB50, BehaviourStatus__Enum, UpdateTraverse, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075CE80, void, OnDrawGizmos, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075D1E0, void, OnDestroy, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0075D390, void, __ctor, (app::SkeetoMoveToSemiRandomPositionBehaviour * this_ptr));
 }

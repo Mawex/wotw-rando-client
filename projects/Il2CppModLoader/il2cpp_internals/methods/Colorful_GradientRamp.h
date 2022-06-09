@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::Colorful::GradientRamp {
-IL2CPP_REGISTER_METHOD(0x03045830, void, OnRenderImage, (GradientRamp * __this, RenderTexture * source, RenderTexture * destination));
-IL2CPP_REGISTER_METHOD(0x03045A10, String *, GetShaderName, (GradientRamp * __this));
-IL2CPP_REGISTER_METHOD(0x0136E930, void, __ctor, (GradientRamp * __this));
+IL2CPP_REGISTER_METHOD(0x03045830, void, OnRenderImage, (app::GradientRamp * this_ptr, app::RenderTexture * source, app::RenderTexture * destination));
+IL2CPP_REGISTER_METHOD(0x03045A10, String *, GetShaderName, (app::GradientRamp * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0136E930, void, __ctor, (app::GradientRamp * this_ptr));
 }

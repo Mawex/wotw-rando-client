@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRSystem__ApplyTransform {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRSystem_ApplyTransform * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x0143DA20, void, Invoke, (IVRSystem_ApplyTransform * __this, TrackedDevicePose_t * pOutputPose, TrackedDevicePose_t * pTrackedDevicePose, HmdMatrix34_t * pTransform));
-IL2CPP_REGISTER_METHOD(0x02CE9E60, IAsyncResult *, BeginInvoke, (IVRSystem_ApplyTransform * __this, TrackedDevicePose_t * pOutputPose, TrackedDevicePose_t * pTrackedDevicePose, HmdMatrix34_t * pTransform, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x02CE9F60, void, EndInvoke, (IVRSystem_ApplyTransform * __this, TrackedDevicePose_t * pOutputPose, TrackedDevicePose_t * pTrackedDevicePose, HmdMatrix34_t * pTransform, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRSystem__ApplyTransform {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRSystem_ApplyTransform * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x0143DA20, void, Invoke, (app::IVRSystem_ApplyTransform * this_ptr, app::TrackedDevicePose_t * p_output_pose, app::TrackedDevicePose_t * p_tracked_device_pose, app::HmdMatrix34_t * p_transform));
+IL2CPP_REGISTER_METHOD(0x02CE9E60, IAsyncResult *, BeginInvoke, (app::IVRSystem_ApplyTransform * this_ptr, app::TrackedDevicePose_t * p_output_pose, app::TrackedDevicePose_t * p_tracked_device_pose, app::HmdMatrix34_t * p_transform, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x02CE9F60, void, EndInvoke, (app::IVRSystem_ApplyTransform * this_ptr, app::TrackedDevicePose_t * p_output_pose, app::TrackedDevicePose_t * p_tracked_device_pose, app::HmdMatrix34_t * p_transform, app::IAsyncResult * result));
 }

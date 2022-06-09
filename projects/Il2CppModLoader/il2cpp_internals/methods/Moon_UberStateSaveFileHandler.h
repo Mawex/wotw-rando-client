@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::UberStateSaveFileHandler {
-IL2CPP_REGISTER_METHOD(0x01B6D260, void, Save, (UberStateSaveFileHandler * __this, UberStateValueStore * uberStateValueStore, String * path));
-IL2CPP_REGISTER_METHOD(0x01B6D390, void, Save, (UberStateSaveFileHandler * __this, Byte__Array * bytes, String * path));
-IL2CPP_REGISTER_METHOD(0x01B6D480, UberStateValueStore *, LoadWithStatus, (UberStateSaveFileHandler * __this, String * path, UberStateSaveFileHandler_LoadStatus__Enum * status));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (UberStateSaveFileHandler * __this));
+IL2CPP_REGISTER_METHOD(0x01B6D260, void, Save_1, (app::UberStateSaveFileHandler * this_ptr, app::UberStateValueStore * uber_state_value_store, app::String * path));
+IL2CPP_REGISTER_METHOD(0x01B6D390, void, Save_2, (app::UberStateSaveFileHandler * this_ptr, app::Byte__Array * bytes, app::String * path));
+IL2CPP_REGISTER_METHOD(0x01B6D480, UberStateValueStore *, LoadWithStatus, (app::UberStateSaveFileHandler * this_ptr, app::String * path, app::UberStateSaveFileHandler_LoadStatus__Enum * status));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::UberStateSaveFileHandler * this_ptr));
 }

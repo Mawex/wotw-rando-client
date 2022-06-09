@@ -1,31 +1,31 @@
 #include <interception_macros.h>
 
 namespace app::methods::EnergyPlantAnimator {
-IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonSetupVisuals *, get_MoonSetupVisuals, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00C89790, void, set_MoonSetupVisuals, (EnergyPlantAnimator * __this, IMoonSetupVisuals * value));
-IL2CPP_REGISTER_METHOD(0x005B96C0, ITimelineEntity *, get_DeathTimeline, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00C89860, ITimelineEntity *, get_HitTimeline, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00C89880, ITimelineEntity *, get_RespawnTimeline, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x005B96E0, void, PlayDeathSequence, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x005B9710, void, PlayHitSequence, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00C898A0, void, PlayRespawnSequence, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00C898F0, void, OnChangeState, (EnergyPlantAnimator * __this, bool destroyed));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnergyPlantAnimator * __this));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonSetupVisuals *, get_MoonSetupVisuals, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C89790, void, set_MoonSetupVisuals, (app::EnergyPlantAnimator * this_ptr, app::IMoonSetupVisuals * value));
+IL2CPP_REGISTER_METHOD(0x005B96C0, ITimelineEntity *, get_DeathTimeline, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C89860, ITimelineEntity *, get_HitTimeline, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C89880, ITimelineEntity *, get_RespawnTimeline, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x005B96E0, void, PlayDeathSequence, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x005B9710, void, PlayHitSequence, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C898A0, void, PlayRespawnSequence, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C898F0, void, OnChangeState, (app::EnergyPlantAnimator * this_ptr, bool destroyed));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_1, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_2, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_3, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_4, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_5, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_6, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_7, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_8, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_9, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_10, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_11, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_12, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_13, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_14, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_15, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_16, (app::EnergyPlantAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_17, (app::EnergyPlantAnimator * this_ptr));
 }

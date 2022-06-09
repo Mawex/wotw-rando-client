@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::GetPlayerStatisticVersionsResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetPlayerStatisticVersionsResult * __this));
+namespace app::methods::PlayFab_ClientModels::GetPlayerStatisticVersionsResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetPlayerStatisticVersionsResult * this_ptr));
 }

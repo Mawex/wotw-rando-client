@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Security::Protocol::Tls::RecordProtocol_SendRecordAsyncResult {
-IL2CPP_REGISTER_METHOD(0x01F7AF80, void, __ctor, (RecordProtocol_SendRecordAsyncResult * __this, AsyncCallback * userCallback, Object * userState, HandshakeMessage * message));
-IL2CPP_REGISTER_METHOD(0x002FB9B0, HandshakeMessage *, get_Message, (RecordProtocol_SendRecordAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x002FB950, Object *, get_AsyncState, (RecordProtocol_SendRecordAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB00, Exception *, get_AsyncException, (RecordProtocol_SendRecordAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01F7B0E0, bool, get_CompletedWithError, (RecordProtocol_SendRecordAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01F7B110, WaitHandle *, get_AsyncWaitHandle, (RecordProtocol_SendRecordAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_CompletedSynchronously, (RecordProtocol_SendRecordAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01F7B360, bool, get_IsCompleted, (RecordProtocol_SendRecordAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01F7B450, void, SetComplete, (RecordProtocol_SendRecordAsyncResult * __this, Exception * ex));
-IL2CPP_REGISTER_METHOD(0x01F7B570, void, SetComplete, (RecordProtocol_SendRecordAsyncResult * __this));
+namespace app::methods::Mono_Security_Protocol_Tls::RecordProtocol_SendRecordAsyncResult {
+IL2CPP_REGISTER_METHOD(0x01F7AF80, void, __ctor, (app::RecordProtocol_SendRecordAsyncResult * this_ptr, app::AsyncCallback * user_callback, app::Object * user_state, app::HandshakeMessage * message));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, HandshakeMessage *, get_Message, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB950, Object *, get_AsyncState, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB00, Exception *, get_AsyncException, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F7B0E0, bool, get_CompletedWithError, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F7B110, WaitHandle *, get_AsyncWaitHandle, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_CompletedSynchronously, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F7B360, bool, get_IsCompleted, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F7B450, void, SetComplete_1, (app::RecordProtocol_SendRecordAsyncResult * this_ptr, app::Exception * ex));
+IL2CPP_REGISTER_METHOD(0x01F7B570, void, SetComplete_2, (app::RecordProtocol_SendRecordAsyncResult * this_ptr));
 }

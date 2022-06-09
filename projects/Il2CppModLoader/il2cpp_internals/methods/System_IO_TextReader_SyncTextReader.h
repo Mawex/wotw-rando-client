@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::IO::TextReader_SyncTextReader {
-IL2CPP_REGISTER_METHOD(0x02385D50, void, __ctor, (TextReader_SyncTextReader * __this, TextReader * t));
-IL2CPP_REGISTER_METHOD(0x01F3EDB0, void, Close, (TextReader_SyncTextReader * __this));
-IL2CPP_REGISTER_METHOD(0x02385E00, void, Dispose, (TextReader_SyncTextReader * __this, bool disposing));
-IL2CPP_REGISTER_METHOD(0x02287F30, int32_t, Peek, (TextReader_SyncTextReader * __this));
-IL2CPP_REGISTER_METHOD(0x01F3EE40, int32_t, Read, (TextReader_SyncTextReader * __this));
-IL2CPP_REGISTER_METHOD(0x02385EA0, int32_t, Read, (TextReader_SyncTextReader * __this, Char__Array * buffer, int32_t index, int32_t count));
-IL2CPP_REGISTER_METHOD(0x01F3EED0, String *, ReadLine, (TextReader_SyncTextReader * __this));
-IL2CPP_REGISTER_METHOD(0x02385ED0, String *, ReadToEnd, (TextReader_SyncTextReader * __this));
+namespace app::methods::System_IO::TextReader_SyncTextReader {
+IL2CPP_REGISTER_METHOD(0x02385D50, void, __ctor, (app::TextReader_SyncTextReader * this_ptr, app::TextReader * t));
+IL2CPP_REGISTER_METHOD(0x01F3EDB0, void, Close, (app::TextReader_SyncTextReader * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02385E00, void, Dispose, (app::TextReader_SyncTextReader * this_ptr, bool disposing));
+IL2CPP_REGISTER_METHOD(0x02287F30, int32_t, Peek, (app::TextReader_SyncTextReader * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F3EE40, int32_t, Read_1, (app::TextReader_SyncTextReader * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02385EA0, int32_t, Read_2, (app::TextReader_SyncTextReader * this_ptr, app::Char__Array * buffer, int32_t index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x01F3EED0, String *, ReadLine, (app::TextReader_SyncTextReader * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02385ED0, String *, ReadToEnd, (app::TextReader_SyncTextReader * this_ptr));
 }

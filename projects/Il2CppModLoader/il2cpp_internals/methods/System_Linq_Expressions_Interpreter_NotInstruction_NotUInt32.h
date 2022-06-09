@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::NotInstruction_NotUInt32 {
-IL2CPP_REGISTER_METHOD(0x02407270, int32_t, Run, (NotInstruction_NotUInt32 * __this, InterpretedFrame * frame));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (NotInstruction_NotUInt32 * __this));
+namespace app::methods::System_Linq_Expressions_Interpreter::NotInstruction_NotUInt32 {
+IL2CPP_REGISTER_METHOD(0x02407270, int32_t, Run, (app::NotInstruction_NotUInt32 * this_ptr, app::InterpretedFrame * frame));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::NotInstruction_NotUInt32 * this_ptr));
 }

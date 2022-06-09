@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Newtonsoft::Json::Linq::JRaw {
-IL2CPP_REGISTER_METHOD(0x01F0F8F0, void, __ctor, (JRaw * __this, JRaw * other));
-IL2CPP_REGISTER_METHOD(0x01F0F900, void, __ctor, (JRaw * __this, Object * rawJson));
-IL2CPP_REGISTER_METHOD(0x01F0F910, JRaw *, Create, (JsonReader * reader));
-IL2CPP_REGISTER_METHOD(0x01F0FD60, JToken *, CloneToken, (JRaw * __this));
+namespace app::methods::Newtonsoft_Json_Linq::JRaw {
+IL2CPP_REGISTER_METHOD(0x01F0F8F0, void, __ctor_1, (app::JRaw * this_ptr, app::JRaw * other));
+IL2CPP_REGISTER_METHOD(0x01F0F900, void, __ctor_2, (app::JRaw * this_ptr, app::Object * raw_json));
+IL2CPP_REGISTER_METHOD(0x01F0F910, JRaw *, Create, (app::JsonReader * reader));
+IL2CPP_REGISTER_METHOD(0x01F0FD60, JToken *, CloneToken, (app::JRaw * this_ptr));
 }

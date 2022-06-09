@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Windows::Speech::DictationRecognizer {
-IL2CPP_REGISTER_METHOD(0x02C79AB0, void, Destroy, (void * self));
-IL2CPP_REGISTER_METHOD(0x02C79B00, void, DestroyThreaded, (void * self));
-IL2CPP_REGISTER_METHOD(0x02C79B50, void, Finalize, (DictationRecognizer * __this));
-IL2CPP_REGISTER_METHOD(0x02C79C90, void, Dispose, (DictationRecognizer * __this));
-IL2CPP_REGISTER_METHOD(0x02C79D90, void, DictationRecognizer_InvokeHypothesisGeneratedEvent, (DictationRecognizer * __this, String * keyword));
-IL2CPP_REGISTER_METHOD(0x02C79DB0, void, DictationRecognizer_InvokeResultGeneratedEvent, (DictationRecognizer * __this, String * keyword, ConfidenceLevel__Enum minimumConfidence));
-IL2CPP_REGISTER_METHOD(0x02C79DD0, void, DictationRecognizer_InvokeCompletedEvent, (DictationRecognizer * __this, DictationCompletionCause__Enum cause));
-IL2CPP_REGISTER_METHOD(0x02C79DF0, void, DictationRecognizer_InvokeErrorEvent, (DictationRecognizer * __this, String * error, int32_t hresult));
+namespace app::methods::UnityEngine_Windows_Speech::DictationRecognizer {
+IL2CPP_REGISTER_METHOD(0x02C79AB0, void, Destroy, (app::void * self));
+IL2CPP_REGISTER_METHOD(0x02C79B00, void, DestroyThreaded, (app::void * self));
+IL2CPP_REGISTER_METHOD(0x02C79B50, void, Finalize, (app::DictationRecognizer * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C79C90, void, Dispose, (app::DictationRecognizer * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C79D90, void, DictationRecognizer_InvokeHypothesisGeneratedEvent, (app::DictationRecognizer * this_ptr, app::String * keyword));
+IL2CPP_REGISTER_METHOD(0x02C79DB0, void, DictationRecognizer_InvokeResultGeneratedEvent, (app::DictationRecognizer * this_ptr, app::String * keyword, app::ConfidenceLevel__Enum minimum_confidence));
+IL2CPP_REGISTER_METHOD(0x02C79DD0, void, DictationRecognizer_InvokeCompletedEvent, (app::DictationRecognizer * this_ptr, app::DictationCompletionCause__Enum cause));
+IL2CPP_REGISTER_METHOD(0x02C79DF0, void, DictationRecognizer_InvokeErrorEvent, (app::DictationRecognizer * this_ptr, app::String * error, int32_t hresult));
 }

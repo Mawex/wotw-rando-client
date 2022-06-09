@@ -1,17 +1,17 @@
 #include <interception_macros.h>
 
 namespace app::methods::SeekingProjectile {
-IL2CPP_REGISTER_METHOD(0x0106CF40, Vector3, get_TargetPosition, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106D0E0, bool, get_IsNearTarget, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106D1B0, void, Awake, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106D250, void, OnEnable, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106D280, void, OnBashed, (SeekingProjectile * __this, Damage * damage));
-IL2CPP_REGISTER_METHOD(0x0106D440, void, FixedUpdate, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106DAB0, void, Launch, (SeekingProjectile * __this, float speed, Vector3 direction, float gravity, GameObject * owner, DamageOwner * damageOwner));
-IL2CPP_REGISTER_METHOD(0x0106DCE0, void, UpdateKinematics, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106DFD0, void, HandleGravity, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106E160, void, UpdateDesiredDirection, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106E670, void, ExplodeProjectile, (SeekingProjectile * __this));
-IL2CPP_REGISTER_METHOD(0x0106EAD0, void, SetTarget, (SeekingProjectile * __this, Transform * target, IDamageReciever * targetDamageReceiver));
-IL2CPP_REGISTER_METHOD(0x0106EAE0, void, __ctor, (SeekingProjectile * __this));
+IL2CPP_REGISTER_METHOD(0x0106CF40, Vector3, get_TargetPosition, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106D0E0, bool, get_IsNearTarget, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106D1B0, void, Awake, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106D250, void, OnEnable, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106D280, void, OnBashed, (app::SeekingProjectile * this_ptr, app::Damage * damage));
+IL2CPP_REGISTER_METHOD(0x0106D440, void, FixedUpdate, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106DAB0, void, Launch, (app::SeekingProjectile * this_ptr, float speed, app::Vector3 direction, float gravity, app::GameObject * owner, app::DamageOwner * damage_owner));
+IL2CPP_REGISTER_METHOD(0x0106DCE0, void, UpdateKinematics, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106DFD0, void, HandleGravity, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106E160, void, UpdateDesiredDirection, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106E670, void, ExplodeProjectile, (app::SeekingProjectile * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0106EAD0, void, SetTarget, (app::SeekingProjectile * this_ptr, app::Transform * target, app::IDamageReciever * target_damage_receiver));
+IL2CPP_REGISTER_METHOD(0x0106EAE0, void, __ctor, (app::SeekingProjectile * this_ptr));
 }

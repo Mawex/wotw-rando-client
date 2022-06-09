@@ -1,17 +1,17 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::TimeSlicer::TimesliceSceneUnloadTask {
-IL2CPP_REGISTER_METHOD(0x002FBBC0, String *, get_SceneName, (TimesliceSceneUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_SceneName, (TimesliceSceneUnloadTask * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x010C5C10, void, __ctor, (TimesliceSceneUnloadTask * __this, List_1_UnityEngine_GameObject_ * targetObjects, GameObject * sceneRoot, bool reversedOrder, GameObject * owner, Action_1_Boolean_ * onJobCompleted, String * sceneName));
-IL2CPP_REGISTER_METHOD(0x010C5CB0, void, Config, (TimesliceSceneUnloadTask * __this, List_1_UnityEngine_GameObject_ * targetObjects, GameObject * sceneRoot, bool reversedOrder, Action_1_Boolean_ * onJobCompleted));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Resume, (TimesliceSceneUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C5CD0, void, ProcessAllObjects, (TimesliceSceneUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C5DB0, IEnumerator *, TimeslicedUnload, (TimesliceSceneUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C5F00, void, ProcessObject, (TimesliceSceneUnloadTask * __this, int32_t i));
-IL2CPP_REGISTER_METHOD(0x010C6060, void, Reset, (TimesliceSceneUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C60A0, String *, get_JobName, (TimesliceSceneUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9D0, String *, get_TimesliceJobOwnerName, (TimesliceSceneUnloadTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_ContextualDebugData, (TimesliceSceneUnloadTask * __this));
+namespace app::methods::Moon_TimeSlicer::TimesliceSceneUnloadTask {
+IL2CPP_REGISTER_METHOD(0x002FBBC0, String *, get_SceneName, (app::TimesliceSceneUnloadTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_SceneName, (app::TimesliceSceneUnloadTask * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x010C5C10, void, __ctor, (app::TimesliceSceneUnloadTask * this_ptr, app::List_1_UnityEngine_GameObject_ * target_objects, app::GameObject * scene_root, bool reversed_order, app::GameObject * owner, app::Action_1_Boolean_ * on_job_completed, app::String * scene_name));
+IL2CPP_REGISTER_METHOD(0x010C5CB0, void, Config, (app::TimesliceSceneUnloadTask * this_ptr, app::List_1_UnityEngine_GameObject_ * target_objects, app::GameObject * scene_root, bool reversed_order, app::Action_1_Boolean_ * on_job_completed));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Resume, (app::TimesliceSceneUnloadTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C5CD0, void, ProcessAllObjects, (app::TimesliceSceneUnloadTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C5DB0, IEnumerator *, TimeslicedUnload, (app::TimesliceSceneUnloadTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C5F00, void, ProcessObject, (app::TimesliceSceneUnloadTask * this_ptr, int32_t i));
+IL2CPP_REGISTER_METHOD(0x010C6060, void, Reset, (app::TimesliceSceneUnloadTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C60A0, String *, get_JobName, (app::TimesliceSceneUnloadTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB9D0, String *, get_TimesliceJobOwnerName, (app::TimesliceSceneUnloadTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_ContextualDebugData, (app::TimesliceSceneUnloadTask * this_ptr));
 IL2CPP_REGISTER_METHOD(0x010C6170, void, __cctor, ());
 }

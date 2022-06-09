@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRApplications__PerformApplicationPrelaunchCheck {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRApplications_PerformApplicationPrelaunchCheck * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x020105B0, EVRApplicationError__Enum, Invoke, (IVRApplications_PerformApplicationPrelaunchCheck * __this, String * pchAppKey));
-IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (IVRApplications_PerformApplicationPrelaunchCheck * __this, String * pchAppKey, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F550D0, EVRApplicationError__Enum, EndInvoke, (IVRApplications_PerformApplicationPrelaunchCheck * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRApplications__PerformApplicationPrelaunchCheck {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRApplications_PerformApplicationPrelaunchCheck * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x020105B0, EVRApplicationError__Enum, Invoke, (app::IVRApplications_PerformApplicationPrelaunchCheck * this_ptr, app::String * pch_app_key));
+IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (app::IVRApplications_PerformApplicationPrelaunchCheck * this_ptr, app::String * pch_app_key, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F550D0, EVRApplicationError__Enum, EndInvoke, (app::IVRApplications_PerformApplicationPrelaunchCheck * this_ptr, app::IAsyncResult * result));
 }

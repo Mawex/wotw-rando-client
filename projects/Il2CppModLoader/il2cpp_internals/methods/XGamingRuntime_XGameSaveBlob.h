@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::XGameSaveBlob {
-IL2CPP_REGISTER_METHOD(0x030BAC30, void, __ctor, (XGameSaveBlob * __this, XGameSaveBlob_1 interopBlob));
+IL2CPP_REGISTER_METHOD(0x030BAC30, void, __ctor, (app::XGameSaveBlob * this_ptr, app::XGameSaveBlob_1 interop_blob));
 }

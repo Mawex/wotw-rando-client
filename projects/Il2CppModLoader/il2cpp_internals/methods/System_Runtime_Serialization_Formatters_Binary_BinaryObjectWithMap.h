@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (BinaryObjectWithMap * __this));
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (BinaryObjectWithMap * __this, BinaryHeaderEnum__Enum binaryHeaderEnum));
-IL2CPP_REGISTER_METHOD(0x01D8EA90, void, Set, (BinaryObjectWithMap * __this, int32_t objectId, String * name, int32_t numMembers, String__Array * memberNames, int32_t assemId));
-IL2CPP_REGISTER_METHOD(0x01D8EAC0, void, Write, (BinaryObjectWithMap * __this, _BinaryWriter * sout));
-IL2CPP_REGISTER_METHOD(0x01D8EC10, void, Read, (BinaryObjectWithMap * __this, _BinaryParser * input));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Dump, (BinaryObjectWithMap * __this));
+namespace app::methods::System_Runtime_Serialization_Formatters_Binary::BinaryObjectWithMap {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_1, (app::BinaryObjectWithMap * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor_2, (app::BinaryObjectWithMap * this_ptr, app::BinaryHeaderEnum__Enum binary_header_enum));
+IL2CPP_REGISTER_METHOD(0x01D8EA90, void, Set, (app::BinaryObjectWithMap * this_ptr, int32_t object_id, app::String * name, int32_t num_members, app::String__Array * member_names, int32_t assem_id));
+IL2CPP_REGISTER_METHOD(0x01D8EAC0, void, Write, (app::BinaryObjectWithMap * this_ptr, app::_BinaryWriter * sout));
+IL2CPP_REGISTER_METHOD(0x01D8EC10, void, Read, (app::BinaryObjectWithMap * this_ptr, app::_BinaryParser * input));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Dump, (app::BinaryObjectWithMap * this_ptr));
 }

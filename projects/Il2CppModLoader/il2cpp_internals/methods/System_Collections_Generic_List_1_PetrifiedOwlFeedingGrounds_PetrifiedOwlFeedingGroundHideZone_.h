@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::List_1_PetrifiedOwlFeedingGrounds::PetrifiedOwlFeedingGroundHideZone_ {
-IL2CPP_REGISTER_METHOD(0x025EFC50, PetrifiedOwlFeedingGroundHideZone *, get_Item, (List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * __this, int32_t index));
+namespace app::methods::System_Collections_Generic::List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ {
+IL2CPP_REGISTER_METHOD(0x025EFC50, PetrifiedOwlFeedingGroundHideZone *, get_Item, (app::List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * this_ptr, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x04776C40, List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone__get_Item__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * __this));
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (app::List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0478C480, List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone__get_Count__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * __this, PetrifiedOwlFeedingGroundHideZone * item));
+IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (app::List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * this_ptr, app::PetrifiedOwlFeedingGroundHideZone * item));
 IL2CPP_REGISTER_METHODINFO(0x04784420, List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone__Add__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025E9020, void, AddRange, (List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * __this, IEnumerable_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * collection));
+IL2CPP_REGISTER_METHOD(0x025E9020, void, AddRange, (app::List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * this_ptr, app::IEnumerable_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * collection));
 IL2CPP_REGISTER_METHODINFO(0x0475C5C0, List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone__AddRange__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * __this));
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (app::List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x047661D0, List_1_PetrifiedOwlFeedingGrounds_PetrifiedOwlFeedingGroundHideZone___ctor__MethodInfo);
 }

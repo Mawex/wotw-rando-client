@@ -1,21 +1,21 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::XmlSchemaGroup {
-IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_Name, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB50, void, set_Name, (XmlSchemaGroup * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x002FBB60, XmlSchemaGroupBase *, get_Particle, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB70, void, set_Particle, (XmlSchemaGroup * __this, XmlSchemaGroupBase * value));
-IL2CPP_REGISTER_METHOD(0x002FBBA0, XmlQualifiedName *, get_QualifiedName, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB80, XmlSchemaParticle *, get_CanonicalParticle, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_CanonicalParticle, (XmlSchemaGroup * __this, XmlSchemaParticle * value));
-IL2CPP_REGISTER_METHOD(0x002FBBC0, XmlSchemaGroup *, get_Redefined, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_Redefined, (XmlSchemaGroup * __this, XmlSchemaGroup * value));
-IL2CPP_REGISTER_METHOD(0x003FF8B0, int32_t, get_SelfReferenceCount, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x00B0E550, void, set_SelfReferenceCount, (XmlSchemaGroup * __this, int32_t value));
-IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_NameAttribute, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB50, void, set_NameAttribute, (XmlSchemaGroup * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x002FBBB0, void, SetQualifiedName, (XmlSchemaGroup * __this, XmlQualifiedName * value));
-IL2CPP_REGISTER_METHOD(0x01CA8F60, XmlSchemaObject *, Clone, (XmlSchemaGroup * __this));
-IL2CPP_REGISTER_METHOD(0x01CA8F70, XmlSchemaObject *, Clone, (XmlSchemaGroup * __this, XmlSchema * parentSchema));
-IL2CPP_REGISTER_METHOD(0x01CA91D0, void, __ctor, (XmlSchemaGroup * __this));
+namespace app::methods::System_Xml_Schema::XmlSchemaGroup {
+IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_Name, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB50, void, set_Name, (app::XmlSchemaGroup * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x002FBB60, XmlSchemaGroupBase *, get_Particle, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB70, void, set_Particle, (app::XmlSchemaGroup * this_ptr, app::XmlSchemaGroupBase * value));
+IL2CPP_REGISTER_METHOD(0x002FBBA0, XmlQualifiedName *, get_QualifiedName, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB80, XmlSchemaParticle *, get_CanonicalParticle, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_CanonicalParticle, (app::XmlSchemaGroup * this_ptr, app::XmlSchemaParticle * value));
+IL2CPP_REGISTER_METHOD(0x002FBBC0, XmlSchemaGroup *, get_Redefined, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_Redefined, (app::XmlSchemaGroup * this_ptr, app::XmlSchemaGroup * value));
+IL2CPP_REGISTER_METHOD(0x003FF8B0, int32_t, get_SelfReferenceCount, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00B0E550, void, set_SelfReferenceCount, (app::XmlSchemaGroup * this_ptr, int32_t value));
+IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_NameAttribute, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB50, void, set_NameAttribute, (app::XmlSchemaGroup * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x002FBBB0, void, SetQualifiedName, (app::XmlSchemaGroup * this_ptr, app::XmlQualifiedName * value));
+IL2CPP_REGISTER_METHOD(0x01CA8F60, XmlSchemaObject *, Clone_1, (app::XmlSchemaGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01CA8F70, XmlSchemaObject *, Clone_2, (app::XmlSchemaGroup * this_ptr, app::XmlSchema * parent_schema));
+IL2CPP_REGISTER_METHOD(0x01CA91D0, void, __ctor, (app::XmlSchemaGroup * this_ptr));
 }

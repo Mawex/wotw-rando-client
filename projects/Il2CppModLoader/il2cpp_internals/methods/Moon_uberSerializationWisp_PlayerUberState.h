@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::uberSerializationWisp::PlayerUberState {
-IL2CPP_REGISTER_METHOD(0x00F322B0, void, __ctor, (PlayerUberState * __this, PlayerUberStateDescriptor * desc, Action * setDirtyCallback));
-IL2CPP_REGISTER_METHOD(0x00F329A0, void, Save, (PlayerUberState * __this, UberStateArchive * archive, Object * state));
-IL2CPP_REGISTER_METHOD(0x00F32BB0, void, Load, (PlayerUberState * __this, UberStateArchive * archive, int32_t storeVersion));
-IL2CPP_REGISTER_METHOD(0x00F32CF0, void, OnGui, (PlayerUberState * __this, NavigableOnGUI * gui));
-IL2CPP_REGISTER_METHOD(0x00F33090, int64_t, get_Size, (PlayerUberState * __this));
-IL2CPP_REGISTER_METHOD(0x00F331B0, String *, AsString, (PlayerUberState * __this));
+namespace app::methods::Moon_uberSerializationWisp::PlayerUberState {
+IL2CPP_REGISTER_METHOD(0x00F322B0, void, __ctor, (app::PlayerUberState * this_ptr, app::PlayerUberStateDescriptor * desc, app::Action * set_dirty_callback));
+IL2CPP_REGISTER_METHOD(0x00F329A0, void, Save, (app::PlayerUberState * this_ptr, app::UberStateArchive * archive, app::Object * state));
+IL2CPP_REGISTER_METHOD(0x00F32BB0, void, Load, (app::PlayerUberState * this_ptr, app::UberStateArchive * archive, int32_t store_version));
+IL2CPP_REGISTER_METHOD(0x00F32CF0, void, OnGui, (app::PlayerUberState * this_ptr, app::NavigableOnGUI * gui));
+IL2CPP_REGISTER_METHOD(0x00F33090, int64_t, get_Size, (app::PlayerUberState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F331B0, String *, AsString, (app::PlayerUberState * this_ptr));
 }

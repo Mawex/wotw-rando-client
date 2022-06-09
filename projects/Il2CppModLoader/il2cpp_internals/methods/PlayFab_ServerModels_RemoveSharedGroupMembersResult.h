@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::RemoveSharedGroupMembersResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RemoveSharedGroupMembersResult_1 * __this));
+namespace app::methods::PlayFab_ServerModels::RemoveSharedGroupMembersResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::RemoveSharedGroupMembersResult_1 * this_ptr));
 }

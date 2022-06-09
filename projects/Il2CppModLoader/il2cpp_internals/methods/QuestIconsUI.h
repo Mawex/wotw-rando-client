@@ -1,23 +1,23 @@
 #include <interception_macros.h>
 
 namespace app::methods::QuestIconsUI {
-IL2CPP_REGISTER_METHOD(0x00E88290, GameObject *, get_ObjectiveMarker, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E885B0, void, Awake, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E88640, void, FixedUpdate, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E88650, void, HighlightItem, (QuestIconsUI * __this, CleverMenuItem * cleverMenuItem));
-IL2CPP_REGISTER_METHOD(0x00E88800, void, SetMarkerOnQuest, (QuestIconsUI * __this, Quest * quest));
-IL2CPP_REGISTER_METHOD(0x00E88A80, void, UpdateIcons, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E88C50, void, BuildUI, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E88C70, void, AddIcons, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E890F0, QuestIconUI *, CreateIcon, (QuestIconsUI * __this, RuntimeQuest * quest, bool addToList));
-IL2CPP_REGISTER_METHOD(0x00E897A0, void, ShowObjectiveMarker, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E89960, void, HideObjectiveMarker, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E89A60, void, DestroyAllIcons, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x0061E2F0, bool, IsVisible, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E89C10, void, Reset, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E89C70, void, Show, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E89E60, Quest *, get_ActiveQuest, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E89F10, void, Hide, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E89F50, void, UpdateQuestIcons, (QuestIconsUI * __this));
-IL2CPP_REGISTER_METHOD(0x00E8A320, void, __ctor, (QuestIconsUI * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x00E88290, GameObject*, get_ObjectiveMarker, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E885B0, void, Awake, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E88640, void, FixedUpdate, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E88650, void, HighlightItem, (app::QuestIconsUI * this_ptr, app::CleverMenuItem* clever_menu_item));
+    IL2CPP_REGISTER_METHOD(0x00E88800, void, SetMarkerOnQuest, (app::QuestIconsUI * this_ptr, app::Quest* quest));
+    IL2CPP_REGISTER_METHOD(0x00E88A80, void, UpdateIcons, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E88C50, void, BuildUI, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E88C70, void, AddIcons, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E890F0, QuestIconUI*, CreateIcon, (app::QuestIconsUI * this_ptr, app::RuntimeQuest* quest, bool add_to_list));
+    IL2CPP_REGISTER_METHOD(0x00E897A0, void, ShowObjectiveMarker, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E89960, void, HideObjectiveMarker, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E89A60, void, DestroyAllIcons, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0061E2F0, bool, IsVisible, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E89C10, void, Reset, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E89C70, void, Show, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E89E60, Quest*, get_ActiveQuest, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E89F10, void, Hide, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E89F50, void, UpdateQuestIcons, (app::QuestIconsUI * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00E8A320, void, __ctor, (app::QuestIconsUI * this_ptr));
+} // namespace app::methods::QuestIconsUI

@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::Demos::UserControlInteractions {
-IL2CPP_REGISTER_METHOD(0x0204A740, void, Update, (UserControlInteractions * __this));
-IL2CPP_REGISTER_METHOD(0x0204AA00, void, OnGUI, (UserControlInteractions * __this));
-IL2CPP_REGISTER_METHOD(0x0204ABB0, void, __ctor, (UserControlInteractions * __this));
+namespace app::methods::RootMotion_Demos::UserControlInteractions {
+IL2CPP_REGISTER_METHOD(0x0204A740, void, Update, (app::UserControlInteractions * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0204AA00, void, OnGUI, (app::UserControlInteractions * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0204ABB0, void, __ctor, (app::UserControlInteractions * this_ptr));
 }

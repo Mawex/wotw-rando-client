@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Predicate_1_FullSerializer::Internal::fsVersionedType_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Predicate_1_FullSerializer_Internal_fsVersionedType_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02882470, bool, Invoke, (Predicate_1_FullSerializer_Internal_fsVersionedType_ * __this, fsVersionedType obj));
-IL2CPP_REGISTER_METHOD(0x0288ECB0, IAsyncResult *, BeginInvoke, (Predicate_1_FullSerializer_Internal_fsVersionedType_ * __this, fsVersionedType obj, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x008A1BF0, bool, EndInvoke, (Predicate_1_FullSerializer_Internal_fsVersionedType_ * __this, IAsyncResult * result));
+namespace app::methods::System::Predicate_1_FullSerializer_Internal_fsVersionedType_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Predicate_1_FullSerializer_Internal_fsVersionedType_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02882470, bool, Invoke, (app::Predicate_1_FullSerializer_Internal_fsVersionedType_ * this_ptr, app::fsVersionedType obj));
+IL2CPP_REGISTER_METHOD(0x0288ECB0, IAsyncResult *, BeginInvoke, (app::Predicate_1_FullSerializer_Internal_fsVersionedType_ * this_ptr, app::fsVersionedType obj, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x008A1BF0, bool, EndInvoke, (app::Predicate_1_FullSerializer_Internal_fsVersionedType_ * this_ptr, app::IAsyncResult * result));
 }

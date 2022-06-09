@@ -1,16 +1,16 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Data::DataTablePropertyDescriptor {
-IL2CPP_REGISTER_METHOD(0x002FBC20, DataTable *, get_Table, (DataTablePropertyDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x01F3E400, void, __ctor, (DataTablePropertyDescriptor * __this, DataTable * dataTable));
-IL2CPP_REGISTER_METHOD(0x01F3E440, Type *, get_ComponentType, (DataTablePropertyDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsReadOnly, (DataTablePropertyDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x01F3E4E0, Type *, get_PropertyType, (DataTablePropertyDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x01F3E580, bool, Equals, (DataTablePropertyDescriptor * __this, Object * other));
-IL2CPP_REGISTER_METHOD(0x01F3E660, int32_t, GetHashCode, (DataTablePropertyDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, CanResetValue, (DataTablePropertyDescriptor * __this, Object * component));
-IL2CPP_REGISTER_METHOD(0x01F3E690, Object *, GetValue, (DataTablePropertyDescriptor * __this, Object * component));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, ResetValue, (DataTablePropertyDescriptor * __this, Object * component));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, SetValue, (DataTablePropertyDescriptor * __this, Object * component, Object * value));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, ShouldSerializeValue, (DataTablePropertyDescriptor * __this, Object * component));
+namespace app::methods::System_Data::DataTablePropertyDescriptor {
+IL2CPP_REGISTER_METHOD(0x002FBC20, DataTable *, get_Table, (app::DataTablePropertyDescriptor * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F3E400, void, __ctor, (app::DataTablePropertyDescriptor * this_ptr, app::DataTable * data_table));
+IL2CPP_REGISTER_METHOD(0x01F3E440, Type *, get_ComponentType, (app::DataTablePropertyDescriptor * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsReadOnly, (app::DataTablePropertyDescriptor * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F3E4E0, Type *, get_PropertyType, (app::DataTablePropertyDescriptor * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F3E580, bool, Equals, (app::DataTablePropertyDescriptor * this_ptr, app::Object * other));
+IL2CPP_REGISTER_METHOD(0x01F3E660, int32_t, GetHashCode, (app::DataTablePropertyDescriptor * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, CanResetValue, (app::DataTablePropertyDescriptor * this_ptr, app::Object * component));
+IL2CPP_REGISTER_METHOD(0x01F3E690, Object *, GetValue, (app::DataTablePropertyDescriptor * this_ptr, app::Object * component));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, ResetValue, (app::DataTablePropertyDescriptor * this_ptr, app::Object * component));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, SetValue, (app::DataTablePropertyDescriptor * this_ptr, app::Object * component, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, ShouldSerializeValue, (app::DataTablePropertyDescriptor * this_ptr, app::Object * component));
 }

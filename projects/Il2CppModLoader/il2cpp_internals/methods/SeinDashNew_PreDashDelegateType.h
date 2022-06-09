@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::SeinDashNew_PreDashDelegateType {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (SeinDashNew_PreDashDelegateType * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x006FCF70, void, Invoke, (SeinDashNew_PreDashDelegateType * __this, bool * allow));
-IL2CPP_REGISTER_METHOD(0x006FD2A0, IAsyncResult *, BeginInvoke, (SeinDashNew_PreDashDelegateType * __this, bool * allow, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x006FD370, void, EndInvoke, (SeinDashNew_PreDashDelegateType * __this, bool * allow, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::SeinDashNew_PreDashDelegateType * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x006FCF70, void, Invoke, (app::SeinDashNew_PreDashDelegateType * this_ptr, app::bool * allow));
+IL2CPP_REGISTER_METHOD(0x006FD2A0, IAsyncResult *, BeginInvoke, (app::SeinDashNew_PreDashDelegateType * this_ptr, app::bool * allow, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x006FD370, void, EndInvoke, (app::SeinDashNew_PreDashDelegateType * this_ptr, app::bool * allow, app::IAsyncResult * result));
 }

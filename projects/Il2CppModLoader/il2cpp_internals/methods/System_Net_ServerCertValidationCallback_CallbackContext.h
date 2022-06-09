@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::ServerCertValidationCallback_CallbackContext {
-IL2CPP_REGISTER_METHOD(0x01BD3970, void, __ctor, (ServerCertValidationCallback_CallbackContext * __this, Object * request, X509Certificate_1 * certificate, X509Chain * chain, SslPolicyErrors__Enum sslPolicyErrors));
+namespace app::methods::System_Net::ServerCertValidationCallback_CallbackContext {
+IL2CPP_REGISTER_METHOD(0x01BD3970, void, __ctor, (app::ServerCertValidationCallback_CallbackContext * this_ptr, app::Object * request, app::X509Certificate_1 * certificate, app::X509Chain * chain, app::SslPolicyErrors__Enum ssl_policy_errors));
 }

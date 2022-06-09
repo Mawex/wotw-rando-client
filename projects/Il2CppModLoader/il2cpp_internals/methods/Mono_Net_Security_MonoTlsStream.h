@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Net::Security::MonoTlsStream {
-IL2CPP_REGISTER_METHOD(0x002FB950, HttpWebRequest *, get_Request, (MonoTlsStream * __this));
-IL2CPP_REGISTER_METHOD(0x003FC7F0, WebExceptionStatus__Enum, get_ExceptionStatus, (MonoTlsStream * __this));
-IL2CPP_REGISTER_METHOD(0x004E5A00, bool, get_CertificateValidationFailed, (MonoTlsStream * __this));
-IL2CPP_REGISTER_METHOD(0x004E5A10, void, set_CertificateValidationFailed, (MonoTlsStream * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x02184DA0, void, __ctor, (MonoTlsStream * __this, HttpWebRequest * request, NetworkStream * networkStream));
-IL2CPP_REGISTER_METHOD(0x02184EA0, Stream *, CreateStream, (MonoTlsStream * __this, Byte__Array * buffer));
+namespace app::methods::Mono_Net_Security::MonoTlsStream {
+IL2CPP_REGISTER_METHOD(0x002FB950, HttpWebRequest *, get_Request, (app::MonoTlsStream * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003FC7F0, WebExceptionStatus__Enum, get_ExceptionStatus, (app::MonoTlsStream * this_ptr));
+IL2CPP_REGISTER_METHOD(0x004E5A00, bool, get_CertificateValidationFailed, (app::MonoTlsStream * this_ptr));
+IL2CPP_REGISTER_METHOD(0x004E5A10, void, set_CertificateValidationFailed, (app::MonoTlsStream * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x02184DA0, void, __ctor, (app::MonoTlsStream * this_ptr, app::HttpWebRequest * request, app::NetworkStream * network_stream));
+IL2CPP_REGISTER_METHOD(0x02184EA0, Stream *, CreateStream, (app::MonoTlsStream * this_ptr, app::Byte__Array * buffer));
 IL2CPP_REGISTER_METHODINFO(0x04781F30, MonoTlsStream_CreateStream__MethodInfo);
 }

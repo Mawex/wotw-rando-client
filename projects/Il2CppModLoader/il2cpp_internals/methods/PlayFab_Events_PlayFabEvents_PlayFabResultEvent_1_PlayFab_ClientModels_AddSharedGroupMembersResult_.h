@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::ClientModels::AddSharedGroupMembersResult_ {
-IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_AddSharedGroupMembersResult_ * __this, AddSharedGroupMembersResult * result));
+namespace app::methods::PlayFab_Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_AddSharedGroupMembersResult_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_AddSharedGroupMembersResult_ * this_ptr, app::AddSharedGroupMembersResult * result));
 IL2CPP_REGISTER_METHODINFO(0x0473DAA8, PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_AddSharedGroupMembersResult__Invoke__MethodInfo);
 }

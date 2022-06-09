@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::ArtOptimization::SimpleTask {
-IL2CPP_REGISTER_METHOD(0x002FB940, void, SetNext, (SimpleTask * __this, IOptimizationTask * nextTask));
-IL2CPP_REGISTER_METHOD(0x00CB2CD0, void, Update, (SimpleTask * __this));
-IL2CPP_REGISTER_METHOD(0x00CB2CF0, void, EnterNextTaskContext, (SimpleTask * __this, Object * result));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnterContext, (SimpleTask * __this, IOptimizationTask * antecedent, Object * contextData));
-IL2CPP_REGISTER_METHOD(0x002FC6D0, TaskState__Enum, get_State, (SimpleTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_State, (SimpleTask * __this, TaskState__Enum value));
-IL2CPP_REGISTER_METHOD(0x00CB2DA0, bool, get_IsFinished, (SimpleTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SimpleTask * __this));
+namespace app::methods::Moon_ArtOptimization::SimpleTask {
+IL2CPP_REGISTER_METHOD(0x002FB940, void, SetNext, (app::SimpleTask * this_ptr, app::IOptimizationTask * next_task));
+IL2CPP_REGISTER_METHOD(0x00CB2CD0, void, Update, (app::SimpleTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CB2CF0, void, EnterNextTaskContext, (app::SimpleTask * this_ptr, app::Object * result));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnterContext, (app::SimpleTask * this_ptr, app::IOptimizationTask * antecedent, app::Object * context_data));
+IL2CPP_REGISTER_METHOD(0x002FC6D0, TaskState__Enum, get_State, (app::SimpleTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_State, (app::SimpleTask * this_ptr, app::TaskState__Enum value));
+IL2CPP_REGISTER_METHOD(0x00CB2DA0, bool, get_IsFinished, (app::SimpleTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SimpleTask * this_ptr));
 }

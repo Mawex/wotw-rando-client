@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
 namespace app::methods::Swing::FloatLUT {
-IL2CPP_REGISTER_METHOD(0x0014AFB0, void, __ctor, (FloatLUT__Boxed * __this, int32_t sampleCount));
-IL2CPP_REGISTER_METHOD(0x0014B070, void, SetRange, (FloatLUT__Boxed * __this, FloatRange range));
-IL2CPP_REGISTER_METHOD(0x0014B0A0, FloatLUT_SampleCoord, GetSampleCoord, (FloatLUT__Boxed * __this, float time));
-IL2CPP_REGISTER_METHOD(0x0014B0B0, float, Evaluate, (FloatLUT__Boxed * __this, FloatLUT_SampleCoord sample));
-IL2CPP_REGISTER_METHOD(0x0014B0C0, float, Evaluate, (FloatLUT__Boxed * __this, float time));
-IL2CPP_REGISTER_METHOD(0x0014B0E0, float, GetLocalMaxima, (FloatLUT__Boxed * __this, float fromTime, float toTime));
+IL2CPP_REGISTER_METHOD(0x0014AFB0, void, __ctor, (app::FloatLUT__Boxed * this_ptr, int32_t sample_count));
+IL2CPP_REGISTER_METHOD(0x0014B070, void, SetRange, (app::FloatLUT__Boxed * this_ptr, app::FloatRange range));
+IL2CPP_REGISTER_METHOD(0x0014B0A0, FloatLUT_SampleCoord, GetSampleCoord, (app::FloatLUT__Boxed * this_ptr, float time));
+IL2CPP_REGISTER_METHOD(0x0014B0B0, float, Evaluate_1, (app::FloatLUT__Boxed * this_ptr, app::FloatLUT_SampleCoord sample));
+IL2CPP_REGISTER_METHOD(0x0014B0C0, float, Evaluate_2, (app::FloatLUT__Boxed * this_ptr, float time));
+IL2CPP_REGISTER_METHOD(0x0014B0E0, float, GetLocalMaxima, (app::FloatLUT__Boxed * this_ptr, float from_time, float to_time));
 }

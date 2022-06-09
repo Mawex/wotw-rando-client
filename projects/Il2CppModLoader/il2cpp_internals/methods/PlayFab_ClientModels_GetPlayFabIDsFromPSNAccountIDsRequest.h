@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::GetPlayFabIDsFromPSNAccountIDsRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetPlayFabIDsFromPSNAccountIDsRequest * __this));
+namespace app::methods::PlayFab_ClientModels::GetPlayFabIDsFromPSNAccountIDsRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetPlayFabIDsFromPSNAccountIDsRequest * this_ptr));
 }

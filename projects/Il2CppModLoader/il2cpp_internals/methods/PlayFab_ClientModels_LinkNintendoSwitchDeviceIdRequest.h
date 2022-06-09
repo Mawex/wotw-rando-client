@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::LinkNintendoSwitchDeviceIdRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LinkNintendoSwitchDeviceIdRequest * __this));
+namespace app::methods::PlayFab_ClientModels::LinkNintendoSwitchDeviceIdRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LinkNintendoSwitchDeviceIdRequest * this_ptr));
 }

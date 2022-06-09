@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::ShowRaceFinishMessageAction {
-IL2CPP_REGISTER_METHOD(0x00736CF0, void, Perform, (ShowRaceFinishMessageAction * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x007371F0, void, __ctor, (ShowRaceFinishMessageAction * __this));
+IL2CPP_REGISTER_METHOD(0x00736CF0, void, Perform, (app::ShowRaceFinishMessageAction * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x007371F0, void, __ctor, (app::ShowRaceFinishMessageAction * this_ptr));
 }

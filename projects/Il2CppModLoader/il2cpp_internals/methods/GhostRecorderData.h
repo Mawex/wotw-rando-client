@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
 namespace app::methods::GhostRecorderData {
-IL2CPP_REGISTER_METHOD(0x003FC830, int32_t, get_FlushedFramesCount, (GhostRecorderData * __this));
-IL2CPP_REGISTER_METHOD(0x007E29C0, GhostFrame *, GetFrame, (GhostRecorderData * __this, int32_t index));
-IL2CPP_REGISTER_METHOD(0x007E2A90, GhostFrame *, get_LastFrame, (GhostRecorderData * __this));
-IL2CPP_REGISTER_METHOD(0x007E2B50, void, LoadFromFile, (GhostRecorderData * __this, String * filePath));
-IL2CPP_REGISTER_METHOD(0x007E2E80, void, LoadFromReplay, (GhostRecorderData * __this, String * replay));
-IL2CPP_REGISTER_METHOD(0x007E3240, void, BeginTimeslicedLoadFromReplay, (GhostRecorderData * __this, String * replay));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, ContinueTimeslicedLoadFromReplay, (GhostRecorderData * __this, double * timeLeft));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, FinishTimeslicedLoadFromReplay, (GhostRecorderData * __this));
-IL2CPP_REGISTER_METHOD(0x007E37A0, void, LoadFromBinaryReader, (GhostRecorderData * __this, BinaryReader * binaryReader));
-IL2CPP_REGISTER_METHOD(0x007E3CB0, void, __ctor, (GhostRecorderData * __this));
+IL2CPP_REGISTER_METHOD(0x003FC830, int32_t, get_FlushedFramesCount, (app::GhostRecorderData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x007E29C0, GhostFrame *, GetFrame, (app::GhostRecorderData * this_ptr, int32_t index));
+IL2CPP_REGISTER_METHOD(0x007E2A90, GhostFrame *, get_LastFrame, (app::GhostRecorderData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x007E2B50, void, LoadFromFile, (app::GhostRecorderData * this_ptr, app::String * file_path));
+IL2CPP_REGISTER_METHOD(0x007E2E80, void, LoadFromReplay, (app::GhostRecorderData * this_ptr, app::String * replay));
+IL2CPP_REGISTER_METHOD(0x007E3240, void, BeginTimeslicedLoadFromReplay, (app::GhostRecorderData * this_ptr, app::String * replay));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, ContinueTimeslicedLoadFromReplay, (app::GhostRecorderData * this_ptr, app::double * time_left));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, FinishTimeslicedLoadFromReplay, (app::GhostRecorderData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x007E37A0, void, LoadFromBinaryReader, (app::GhostRecorderData * this_ptr, app::BinaryReader * binary_reader));
+IL2CPP_REGISTER_METHOD(0x007E3CB0, void, __ctor, (app::GhostRecorderData * this_ptr));
 }

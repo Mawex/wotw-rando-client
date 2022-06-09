@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::BehaviourSystem::WaitNode {
-IL2CPP_REGISTER_METHOD(0x00CBB5C0, float, get_TimeRemaining, (WaitNode * __this));
-IL2CPP_REGISTER_METHOD(0x00CBB630, float, get_TimeRemainingNormalized, (WaitNode * __this));
-IL2CPP_REGISTER_METHOD(0x00CBB680, void, Awake, (WaitNode * __this));
-IL2CPP_REGISTER_METHOD(0x03014060, void, OnEnter, (WaitNode * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00CBB7D0, BehaviourStatus__Enum, OnExecute, (WaitNode * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x030142A0, void, __ctor, (WaitNode * __this));
+namespace app::methods::Moon_BehaviourSystem::WaitNode {
+IL2CPP_REGISTER_METHOD(0x00CBB5C0, float, get_TimeRemaining, (app::WaitNode * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CBB630, float, get_TimeRemainingNormalized, (app::WaitNode * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CBB680, void, Awake, (app::WaitNode * this_ptr));
+IL2CPP_REGISTER_METHOD(0x03014060, void, OnEnter, (app::WaitNode * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00CBB7D0, BehaviourStatus__Enum, OnExecute, (app::WaitNode * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x030142A0, void, __ctor, (app::WaitNode * this_ptr));
 }

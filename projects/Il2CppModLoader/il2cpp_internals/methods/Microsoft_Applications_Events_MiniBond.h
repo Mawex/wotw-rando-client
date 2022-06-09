@@ -1,23 +1,23 @@
 #include <interception_macros.h>
 
-namespace app::methods::Microsoft::Applications::Events::MiniBond {
-IL2CPP_REGISTER_METHOD(0x002FD800, void, Serialize, (CompactBinaryProtocolWriter * writer, Ingest * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FD9C0, void, Serialize, (CompactBinaryProtocolWriter * writer, User * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FDB10, void, Serialize, (CompactBinaryProtocolWriter * writer, Device * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FDDA0, void, Serialize, (CompactBinaryProtocolWriter * writer, Os * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FDF30, void, Serialize, (CompactBinaryProtocolWriter * writer, App * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FE180, void, Serialize, (CompactBinaryProtocolWriter * writer, Utc * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FE4E0, void, Serialize, (CompactBinaryProtocolWriter * writer, Xbl * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FEBF0, void, Serialize, (CompactBinaryProtocolWriter * writer, Javascript * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FF3C0, void, Serialize, (CompactBinaryProtocolWriter * writer, Protocol * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FF730, void, Serialize, (CompactBinaryProtocolWriter * writer, Receipts * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FF820, void, Serialize, (CompactBinaryProtocolWriter * writer, Net * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FF820, void, Serialize, (CompactBinaryProtocolWriter * writer, Loc * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FF960, void, Serialize, (CompactBinaryProtocolWriter * writer, Sdk * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FFAF0, void, Serialize, (CompactBinaryProtocolWriter * writer, PII * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FFAF0, void, Serialize, (CompactBinaryProtocolWriter * writer, CustomerContent * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FFB80, void, Serialize, (CompactBinaryProtocolWriter * writer, Attributes * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x002FFFD0, void, Serialize, (CompactBinaryProtocolWriter * writer, Value * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x00301210, void, Serialize, (CompactBinaryProtocolWriter * writer, Data * value, bool isBase));
-IL2CPP_REGISTER_METHOD(0x00301470, void, Serialize, (CompactBinaryProtocolWriter * writer, CsEvent * value, bool isBase));
+namespace app::methods::Microsoft_Applications_Events::MiniBond {
+IL2CPP_REGISTER_METHOD(0x002FD800, void, Serialize_1, (app::CompactBinaryProtocolWriter * writer, app::Ingest * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FD9C0, void, Serialize_2, (app::CompactBinaryProtocolWriter * writer, app::User * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FDB10, void, Serialize_3, (app::CompactBinaryProtocolWriter * writer, app::Device * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FDDA0, void, Serialize_4, (app::CompactBinaryProtocolWriter * writer, app::Os * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FDF30, void, Serialize_5, (app::CompactBinaryProtocolWriter * writer, app::App * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FE180, void, Serialize_6, (app::CompactBinaryProtocolWriter * writer, app::Utc * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FE4E0, void, Serialize_7, (app::CompactBinaryProtocolWriter * writer, app::Xbl * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FEBF0, void, Serialize_8, (app::CompactBinaryProtocolWriter * writer, app::Javascript * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FF3C0, void, Serialize_9, (app::CompactBinaryProtocolWriter * writer, app::Protocol * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FF730, void, Serialize_10, (app::CompactBinaryProtocolWriter * writer, app::Receipts * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FF820, void, Serialize_11, (app::CompactBinaryProtocolWriter * writer, app::Net * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FF820, void, Serialize_12, (app::CompactBinaryProtocolWriter * writer, app::Loc * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FF960, void, Serialize_13, (app::CompactBinaryProtocolWriter * writer, app::Sdk * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FFAF0, void, Serialize_14, (app::CompactBinaryProtocolWriter * writer, app::PII * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FFAF0, void, Serialize_15, (app::CompactBinaryProtocolWriter * writer, app::CustomerContent * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FFB80, void, Serialize_16, (app::CompactBinaryProtocolWriter * writer, app::Attributes * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x002FFFD0, void, Serialize_17, (app::CompactBinaryProtocolWriter * writer, app::Value * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x00301210, void, Serialize_18, (app::CompactBinaryProtocolWriter * writer, app::Data * value, bool is_base));
+IL2CPP_REGISTER_METHOD(0x00301470, void, Serialize_19, (app::CompactBinaryProtocolWriter * writer, app::CsEvent * value, bool is_base));
 }

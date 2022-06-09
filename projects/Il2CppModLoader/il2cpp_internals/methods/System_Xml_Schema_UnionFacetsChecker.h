@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::UnionFacetsChecker {
-IL2CPP_REGISTER_METHOD(0x01ABD9A0, Exception *, CheckValueFacets, (UnionFacetsChecker * __this, Object * value, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x016CD840, bool, MatchEnumeration, (UnionFacetsChecker * __this, Object * value, ArrayList * enumeration, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (UnionFacetsChecker * __this));
+namespace app::methods::System_Xml_Schema::UnionFacetsChecker {
+IL2CPP_REGISTER_METHOD(0x01ABD9A0, Exception *, CheckValueFacets, (app::UnionFacetsChecker * this_ptr, app::Object * value, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x016CD840, bool, MatchEnumeration, (app::UnionFacetsChecker * this_ptr, app::Object * value, app::ArrayList * enumeration, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::UnionFacetsChecker * this_ptr));
 }

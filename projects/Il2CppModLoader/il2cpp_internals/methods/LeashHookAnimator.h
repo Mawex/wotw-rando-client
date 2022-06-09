@@ -1,28 +1,28 @@
 #include <interception_macros.h>
 
 namespace app::methods::LeashHookAnimator {
-IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonSetupVisuals *, get_MoonSetupVisuals, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x015C5420, void, set_MoonSetupVisuals, (LeashHookAnimator * __this, IMoonSetupVisuals * value));
-IL2CPP_REGISTER_METHOD(0x005B96A0, ITimelineEntity *, get_VisualsOpenTimeline, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x005B96C0, ITimelineEntity *, get_VisualsCloseTimeline, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00C89860, ITimelineEntity *, get_VisualsIdleOpenedTimeline, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00C89880, ITimelineEntity *, get_VisualsIdleClosedTimeline, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (LeashHookAnimator * __this));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonSetupVisuals *, get_MoonSetupVisuals, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x015C5420, void, set_MoonSetupVisuals, (app::LeashHookAnimator * this_ptr, app::IMoonSetupVisuals * value));
+IL2CPP_REGISTER_METHOD(0x005B96A0, ITimelineEntity *, get_VisualsOpenTimeline, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x005B96C0, ITimelineEntity *, get_VisualsCloseTimeline, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C89860, ITimelineEntity *, get_VisualsIdleOpenedTimeline, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C89880, ITimelineEntity *, get_VisualsIdleClosedTimeline, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_1, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_2, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_3, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_4, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_5, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_6, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_7, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_8, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_9, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_10, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_11, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_12, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_13, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_14, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_15, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_16, (app::LeashHookAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_17, (app::LeashHookAnimator * this_ptr));
 }

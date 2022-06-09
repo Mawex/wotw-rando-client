@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::MultiplayerModels::Statistics {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Statistics * __this));
+namespace app::methods::PlayFab_MultiplayerModels::Statistics {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::Statistics * this_ptr));
 }

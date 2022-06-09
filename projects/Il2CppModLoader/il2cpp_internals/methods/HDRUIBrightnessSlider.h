@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
 namespace app::methods::HDRUIBrightnessSlider {
-IL2CPP_REGISTER_METHOD(0x0109BEC0, void, Awake, (HDRUIBrightnessSlider * __this));
-IL2CPP_REGISTER_METHOD(0x0109BFB0, float, get_Value, (HDRUIBrightnessSlider * __this));
-IL2CPP_REGISTER_METHOD(0x0109C060, void, set_Value, (HDRUIBrightnessSlider * __this, float value));
-IL2CPP_REGISTER_METHOD(0x0109C150, String *, GetValueToDisplay, (HDRUIBrightnessSlider * __this));
-IL2CPP_REGISTER_METHOD(0x0109C240, void, OnBackgroundEnabled, (HDRUIBrightnessSlider * __this));
-IL2CPP_REGISTER_METHOD(0x0109C2F0, void, OnBackgroundDisabled, (HDRUIBrightnessSlider * __this));
-IL2CPP_REGISTER_METHOD(0x00444040, void, __ctor, (HDRUIBrightnessSlider * __this));
+IL2CPP_REGISTER_METHOD(0x0109BEC0, void, Awake, (app::HDRUIBrightnessSlider * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0109BFB0, float, get_Value, (app::HDRUIBrightnessSlider * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0109C060, void, set_Value, (app::HDRUIBrightnessSlider * this_ptr, float value));
+IL2CPP_REGISTER_METHOD(0x0109C150, String *, GetValueToDisplay, (app::HDRUIBrightnessSlider * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0109C240, void, OnBackgroundEnabled, (app::HDRUIBrightnessSlider * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0109C2F0, void, OnBackgroundDisabled, (app::HDRUIBrightnessSlider * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00444040, void, __ctor, (app::HDRUIBrightnessSlider * this_ptr));
 }

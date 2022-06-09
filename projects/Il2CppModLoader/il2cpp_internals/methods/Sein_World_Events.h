@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Sein::World::Events {
+namespace app::methods::Sein_World::Events {
 IL2CPP_REGISTER_METHOD(0x0106F850, bool, get_GinsoTreeEntered, ());
 IL2CPP_REGISTER_METHOD(0x0106F940, void, set_GinsoTreeEntered, (bool value));
 IL2CPP_REGISTER_METHOD(0x0106FA30, bool, get_MistLifted, ());

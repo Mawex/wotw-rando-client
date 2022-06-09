@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Enumerable__ReverseIterator_d__79_1_System::Collections::Generic::KeyValuePair_2_ {
-IL2CPP_REGISTER_METHOD(0x02985070, void, __ctor, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this, int32_t __1__state));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, IDisposable_Dispose, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this));
-IL2CPP_REGISTER_METHOD(0x02987B60, bool, MoveNext, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this));
-IL2CPP_REGISTER_METHOD(0x00C3DD30, KeyValuePair_2_System_Int32Enum_System_Object_, System_Collections_Generic_IEnumerator_TSource__get_Current, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this));
-IL2CPP_REGISTER_METHOD(0x02987C20, void, IEnumerator_Reset, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+namespace app::methods::System_Linq::Enumerable__ReverseIterator_d__79_1_System_Collections_Generic_KeyValuePair_2_ {
+IL2CPP_REGISTER_METHOD(0x02985070, void, __ctor, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr, int32_t __1__state));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, IDisposable_Dispose, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02987B60, bool, MoveNext, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C3DD30, KeyValuePair_2_System_Int32Enum_System_Object_, System_Collections_Generic_IEnumerator_TSource__get_Current, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02987C20, void, IEnumerator_Reset, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0474F508, Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2__System_Collections_IEnumerator_Reset__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02545770, Object *, IEnumerator_get_Current, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this));
-IL2CPP_REGISTER_METHOD(0x02985410, IEnumerator_1_KeyValuePair_2_System_Int32Enum_System_Object_ *, System_Collections_Generic_IEnumerable_TSource__GetEnumerator, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this));
-IL2CPP_REGISTER_METHOD(0x019D75C0, IEnumerator *, IEnumerable_GetEnumerator, (Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * __this));
+IL2CPP_REGISTER_METHOD(0x02545770, Object *, IEnumerator_get_Current, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02985410, IEnumerator_1_KeyValuePair_2_System_Int32Enum_System_Object_ *, System_Collections_Generic_IEnumerable_TSource__GetEnumerator, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x019D75C0, IEnumerator *, IEnumerable_GetEnumerator, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr));
 }

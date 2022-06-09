@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::MaterialBasedSeinPlatformingEffects {
-IL2CPP_REGISTER_METHOD(0x01381350, void, __ctor, (MaterialBasedSeinPlatformingEffects * __this));
+IL2CPP_REGISTER_METHOD(0x01381350, void, __ctor, (app::MaterialBasedSeinPlatformingEffects * this_ptr));
 }

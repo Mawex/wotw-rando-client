@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::GetPlayFabIDsFromKongregateIDsRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetPlayFabIDsFromKongregateIDsRequest * __this));
+namespace app::methods::PlayFab_ClientModels::GetPlayFabIDsFromKongregateIDsRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetPlayFabIDsFromKongregateIDsRequest * this_ptr));
 }

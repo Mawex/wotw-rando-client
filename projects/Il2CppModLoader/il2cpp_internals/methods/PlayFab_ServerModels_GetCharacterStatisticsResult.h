@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::GetCharacterStatisticsResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetCharacterStatisticsResult_1 * __this));
+namespace app::methods::PlayFab_ServerModels::GetCharacterStatisticsResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetCharacterStatisticsResult_1 * this_ptr));
 }

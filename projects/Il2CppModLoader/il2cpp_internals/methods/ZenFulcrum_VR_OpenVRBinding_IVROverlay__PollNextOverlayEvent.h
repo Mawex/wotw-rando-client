@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVROverlay__PollNextOverlayEvent {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVROverlay_PollNextOverlayEvent * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01679E40, bool, Invoke, (IVROverlay_PollNextOverlayEvent * __this, uint64_t ulOverlayHandle, VREvent_t * pEvent, uint32_t uncbVREvent));
-IL2CPP_REGISTER_METHOD(0x02D7DE50, IAsyncResult *, BeginInvoke, (IVROverlay_PollNextOverlayEvent * __this, uint64_t ulOverlayHandle, VREvent_t * pEvent, uint32_t uncbVREvent, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x0167A2D0, bool, EndInvoke, (IVROverlay_PollNextOverlayEvent * __this, VREvent_t * pEvent, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVROverlay__PollNextOverlayEvent {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVROverlay_PollNextOverlayEvent * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01679E40, bool, Invoke, (app::IVROverlay_PollNextOverlayEvent * this_ptr, uint64_t ul_overlay_handle, app::VREvent_t * p_event, uint32_t uncb_v_r_event));
+IL2CPP_REGISTER_METHOD(0x02D7DE50, IAsyncResult *, BeginInvoke, (app::IVROverlay_PollNextOverlayEvent * this_ptr, uint64_t ul_overlay_handle, app::VREvent_t * p_event, uint32_t uncb_v_r_event, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x0167A2D0, bool, EndInvoke, (app::IVROverlay_PollNextOverlayEvent * this_ptr, app::VREvent_t * p_event, app::IAsyncResult * result));
 }

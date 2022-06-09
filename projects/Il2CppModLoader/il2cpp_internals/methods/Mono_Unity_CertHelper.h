@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Unity::CertHelper {
-IL2CPP_REGISTER_METHOD(0x02186110, void, AddCertificatesToNativeChain, (UnityTls_unitytls_x509list * nativeCertificateChain, X509CertificateCollection_1 * certificates, UnityTls_unitytls_errorstate * errorState));
-IL2CPP_REGISTER_METHOD(0x02186280, void, AddCertificateToNativeChain, (UnityTls_unitytls_x509list * nativeCertificateChain, X509Certificate_1 * certificate, UnityTls_unitytls_errorstate * errorState));
-IL2CPP_REGISTER_METHOD(0x021865F0, X509CertificateCollection_1 *, NativeChainToManagedCollection, (UnityTls_unitytls_x509list_ref nativeCertificateChain, UnityTls_unitytls_errorstate * errorState));
+namespace app::methods::Mono_Unity::CertHelper {
+IL2CPP_REGISTER_METHOD(0x02186110, void, AddCertificatesToNativeChain, (app::UnityTls_unitytls_x509list * native_certificate_chain, app::X509CertificateCollection_1 * certificates, app::UnityTls_unitytls_errorstate * error_state));
+IL2CPP_REGISTER_METHOD(0x02186280, void, AddCertificateToNativeChain, (app::UnityTls_unitytls_x509list * native_certificate_chain, app::X509Certificate_1 * certificate, app::UnityTls_unitytls_errorstate * error_state));
+IL2CPP_REGISTER_METHOD(0x021865F0, X509CertificateCollection_1 *, NativeChainToManagedCollection, (app::UnityTls_unitytls_x509list_ref native_certificate_chain, app::UnityTls_unitytls_errorstate * error_state));
 }

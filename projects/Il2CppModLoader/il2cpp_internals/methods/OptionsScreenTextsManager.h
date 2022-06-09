@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::OptionsScreenTextsManager {
-IL2CPP_REGISTER_METHOD(0x006193E0, void, UpdateItems, (OptionsScreenTextsManager * __this));
-IL2CPP_REGISTER_METHOD(0x0061A620, void, UpdateHDRStateLabel, (OptionsScreenTextsManager * __this));
-IL2CPP_REGISTER_METHOD(0x0061A890, void, UpdateFullscreenLabel, (OptionsScreenTextsManager * __this));
-IL2CPP_REGISTER_METHOD(0x0061AB70, void, FixedUpdate, (OptionsScreenTextsManager * __this));
-IL2CPP_REGISTER_METHOD(0x0061ACD0, void, Start, (OptionsScreenTextsManager * __this));
-IL2CPP_REGISTER_METHOD(0x0061AD60, MessageProvider *, GetAudioAPIMessageProvider, (OptionsScreenTextsManager * __this, AkAudioAPI__Enum audioAPI));
-IL2CPP_REGISTER_METHOD(0x0061ADC0, TranslatedMessageProvider *, GetLanguageMessageProvider, (OptionsScreenTextsManager * __this, Language__Enum lang));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (OptionsScreenTextsManager * __this));
+IL2CPP_REGISTER_METHOD(0x006193E0, void, UpdateItems, (app::OptionsScreenTextsManager * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0061A620, void, UpdateHDRStateLabel, (app::OptionsScreenTextsManager * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0061A890, void, UpdateFullscreenLabel, (app::OptionsScreenTextsManager * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0061AB70, void, FixedUpdate, (app::OptionsScreenTextsManager * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0061ACD0, void, Start, (app::OptionsScreenTextsManager * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0061AD60, MessageProvider *, GetAudioAPIMessageProvider, (app::OptionsScreenTextsManager * this_ptr, app::AkAudioAPI__Enum audio_a_p_i));
+IL2CPP_REGISTER_METHOD(0x0061ADC0, TranslatedMessageProvider *, GetLanguageMessageProvider, (app::OptionsScreenTextsManager * this_ptr, app::Language__Enum lang));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::OptionsScreenTextsManager * this_ptr));
 }

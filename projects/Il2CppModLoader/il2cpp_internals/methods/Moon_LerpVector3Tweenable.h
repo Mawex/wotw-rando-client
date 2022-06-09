@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::LerpVector3Tweenable {
-IL2CPP_REGISTER_METHOD(0x01BAA680, Vector3, Update, (LerpVector3Tweenable * __this, Vector3 startValue, Vector3 endValue, float normalizedInput));
-IL2CPP_REGISTER_METHOD(0x01BAA670, bool, HasFinished, (LerpVector3Tweenable * __this, Vector3 currentValue, Vector3 endValue, float normalizedInput));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LerpVector3Tweenable * __this));
+IL2CPP_REGISTER_METHOD(0x01BAA680, Vector3, Update, (app::LerpVector3Tweenable * this_ptr, app::Vector3 start_value, app::Vector3 end_value, float normalized_input));
+IL2CPP_REGISTER_METHOD(0x01BAA670, bool, HasFinished, (app::LerpVector3Tweenable * this_ptr, app::Vector3 current_value, app::Vector3 end_value, float normalized_input));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LerpVector3Tweenable * this_ptr));
 }

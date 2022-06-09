@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerStats {
-IL2CPP_REGISTER_METHOD(0x027FD120, SteamAPICall_t, RequestUserStats, (CSteamID steamIDUser));
-IL2CPP_REGISTER_METHOD(0x027FD260, bool, GetUserStat, (CSteamID steamIDUser, String * pchName, int32_t * pData));
-IL2CPP_REGISTER_METHOD(0x027FD560, bool, GetUserStat, (CSteamID steamIDUser, String * pchName, float * pData));
-IL2CPP_REGISTER_METHOD(0x027FD860, bool, GetUserAchievement, (CSteamID steamIDUser, String * pchName, bool * pbAchieved));
-IL2CPP_REGISTER_METHOD(0x027FDB70, bool, SetUserStat, (CSteamID steamIDUser, String * pchName, int32_t nData));
-IL2CPP_REGISTER_METHOD(0x027FDE70, bool, SetUserStat, (CSteamID steamIDUser, String * pchName, float fData));
-IL2CPP_REGISTER_METHOD(0x027FE170, bool, UpdateUserAvgRateStat, (CSteamID steamIDUser, String * pchName, float flCountThisSession, double dSessionLength));
-IL2CPP_REGISTER_METHOD(0x027FE480, bool, SetUserAchievement, (CSteamID steamIDUser, String * pchName));
-IL2CPP_REGISTER_METHOD(0x027FE770, bool, ClearUserAchievement, (CSteamID steamIDUser, String * pchName));
-IL2CPP_REGISTER_METHOD(0x027FEA60, SteamAPICall_t, StoreUserStats, (CSteamID steamIDUser));
+IL2CPP_REGISTER_METHOD(0x027FD120, SteamAPICall_t, RequestUserStats, (app::CSteamID steam_i_d_user));
+IL2CPP_REGISTER_METHOD(0x027FD260, bool, GetUserStat_1, (app::CSteamID steam_i_d_user, app::String * pch_name, app::int32_t * p_data));
+IL2CPP_REGISTER_METHOD(0x027FD560, bool, GetUserStat_2, (app::CSteamID steam_i_d_user, app::String * pch_name, app::float * p_data));
+IL2CPP_REGISTER_METHOD(0x027FD860, bool, GetUserAchievement, (app::CSteamID steam_i_d_user, app::String * pch_name, app::bool * pb_achieved));
+IL2CPP_REGISTER_METHOD(0x027FDB70, bool, SetUserStat_1, (app::CSteamID steam_i_d_user, app::String * pch_name, int32_t n_data));
+IL2CPP_REGISTER_METHOD(0x027FDE70, bool, SetUserStat_2, (app::CSteamID steam_i_d_user, app::String * pch_name, float f_data));
+IL2CPP_REGISTER_METHOD(0x027FE170, bool, UpdateUserAvgRateStat, (app::CSteamID steam_i_d_user, app::String * pch_name, float fl_count_this_session, double d_session_length));
+IL2CPP_REGISTER_METHOD(0x027FE480, bool, SetUserAchievement, (app::CSteamID steam_i_d_user, app::String * pch_name));
+IL2CPP_REGISTER_METHOD(0x027FE770, bool, ClearUserAchievement, (app::CSteamID steam_i_d_user, app::String * pch_name));
+IL2CPP_REGISTER_METHOD(0x027FEA60, SteamAPICall_t, StoreUserStats, (app::CSteamID steam_i_d_user));
 }

@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::ConfirmChangingDifficulty {
-IL2CPP_REGISTER_METHOD(0x011E4810, void, Perform, (ConfirmChangingDifficulty * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (ConfirmChangingDifficulty * __this));
+IL2CPP_REGISTER_METHOD(0x011E4810, void, Perform, (app::ConfirmChangingDifficulty * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::ConfirmChangingDifficulty * this_ptr));
 }

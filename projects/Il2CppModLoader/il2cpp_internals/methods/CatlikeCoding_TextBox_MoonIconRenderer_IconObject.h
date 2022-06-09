@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::CatlikeCoding::TextBox::MoonIconRenderer_IconObject {
-IL2CPP_REGISTER_METHOD(0x00123EE0, void, __ctor, (MoonIconRenderer_IconObject__Boxed * __this, GameObject * instance, Vector2 position, int32_t index));
+namespace app::methods::CatlikeCoding_TextBox::MoonIconRenderer_IconObject {
+IL2CPP_REGISTER_METHOD(0x00123EE0, void, __ctor, (app::MoonIconRenderer_IconObject__Boxed * this_ptr, app::GameObject * instance, app::Vector2 position, int32_t index));
 }

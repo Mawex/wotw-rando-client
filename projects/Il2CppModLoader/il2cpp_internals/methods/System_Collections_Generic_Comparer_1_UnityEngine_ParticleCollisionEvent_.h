@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::Comparer_1_UnityEngine::ParticleCollisionEvent_ {
+namespace app::methods::System_Collections_Generic::Comparer_1_UnityEngine_ParticleCollisionEvent_ {
 IL2CPP_REGISTER_METHOD(0x02807CD0, Comparer_1_UnityEngine_ParticleCollisionEvent_ *, get_Default, ());
-IL2CPP_REGISTER_METHOD(0x028D4530, Comparer_1_UnityEngine_ParticleCollisionEvent_ *, Create, (Comparison_1_UnityEngine_ParticleCollisionEvent_ * comparison));
+IL2CPP_REGISTER_METHOD(0x028D4530, Comparer_1_UnityEngine_ParticleCollisionEvent_ *, Create, (app::Comparison_1_UnityEngine_ParticleCollisionEvent_ * comparison));
 IL2CPP_REGISTER_METHODINFO(0x04756E58, Comparer_1_UnityEngine_ParticleCollisionEvent__Create__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x028D4730, Comparer_1_UnityEngine_ParticleCollisionEvent_ *, CreateComparer, ());
-IL2CPP_REGISTER_METHOD(0x0280EC20, int32_t, IComparer_Compare, (Comparer_1_UnityEngine_ParticleCollisionEvent_ * __this, Object * x, Object * y));
-IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (Comparer_1_UnityEngine_ParticleCollisionEvent_ * __this));
+IL2CPP_REGISTER_METHOD(0x0280EC20, int32_t, IComparer_Compare, (app::Comparer_1_UnityEngine_ParticleCollisionEvent_ * this_ptr, app::Object * x, app::Object * y));
+IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (app::Comparer_1_UnityEngine_ParticleCollisionEvent_ * this_ptr));
 }

@@ -1,4 +1,4 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::ContinuousIntegration::IVariablesProvider {
+namespace app::methods::Moon_ContinuousIntegration::IVariablesProvider {
 }

@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::EmbeddedBrowser::CursorRendererOS {
-IL2CPP_REGISTER_METHOD(0x01DD21A0, void, CursorChange, (CursorRendererOS * __this));
-IL2CPP_REGISTER_METHOD(0x008223A0, void, __ctor, (CursorRendererOS * __this));
+namespace app::methods::ZenFulcrum_EmbeddedBrowser::CursorRendererOS {
+IL2CPP_REGISTER_METHOD(0x01DD21A0, void, CursorChange, (app::CursorRendererOS * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008223A0, void, __ctor, (app::CursorRendererOS * this_ptr));
 }

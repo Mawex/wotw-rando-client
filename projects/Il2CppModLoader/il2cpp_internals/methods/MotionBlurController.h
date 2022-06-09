@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::MotionBlurController {
-IL2CPP_REGISTER_METHOD(0x008673C0, float, GetSliceMultiplier, (MotionBlurController * __this, int32_t sliceIndex));
-IL2CPP_REGISTER_METHOD(0x00867470, void, __ctor, (MotionBlurController * __this));
+IL2CPP_REGISTER_METHOD(0x008673C0, float, GetSliceMultiplier, (app::MotionBlurController * this_ptr, int32_t slice_index));
+IL2CPP_REGISTER_METHOD(0x00867470, void, __ctor, (app::MotionBlurController * this_ptr));
 }

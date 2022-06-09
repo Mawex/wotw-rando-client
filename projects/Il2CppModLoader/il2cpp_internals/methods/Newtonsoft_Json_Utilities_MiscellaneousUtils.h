@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Newtonsoft::Json::Utilities::MiscellaneousUtils {
-IL2CPP_REGISTER_METHOD(0x0301E210, bool, ValueEquals, (Object * objA, Object * objB));
-IL2CPP_REGISTER_METHOD(0x0301E580, ArgumentOutOfRangeException *, CreateArgumentOutOfRangeException, (String * paramName, Object * actualValue, String * message));
-IL2CPP_REGISTER_METHOD(0x0301E740, String *, ToString, (Object * value));
-IL2CPP_REGISTER_METHOD(0x0301E820, int32_t, ByteArrayCompare, (Byte__Array * a1, Byte__Array * a2));
-IL2CPP_REGISTER_METHOD(0x0301E8C0, String *, GetPrefix, (String * qualifiedName));
-IL2CPP_REGISTER_METHOD(0x0301E950, String *, GetLocalName, (String * qualifiedName));
-IL2CPP_REGISTER_METHOD(0x0301E9D0, void, GetQualifiedNameParts, (String * qualifiedName, String * * prefix, String * * localName));
-IL2CPP_REGISTER_METHOD(0x0301EA80, RegexOptions__Enum, GetRegexOptions, (String * optionsText));
+namespace app::methods::Newtonsoft_Json_Utilities::MiscellaneousUtils {
+IL2CPP_REGISTER_METHOD(0x0301E210, bool, ValueEquals, (app::Object * obj_a, app::Object * obj_b));
+IL2CPP_REGISTER_METHOD(0x0301E580, ArgumentOutOfRangeException *, CreateArgumentOutOfRangeException, (app::String * param_name, app::Object * actual_value, app::String * message));
+IL2CPP_REGISTER_METHOD(0x0301E740, String *, ToString, (app::Object * value));
+IL2CPP_REGISTER_METHOD(0x0301E820, int32_t, ByteArrayCompare, (app::Byte__Array * a1, app::Byte__Array * a2));
+IL2CPP_REGISTER_METHOD(0x0301E8C0, String *, GetPrefix, (app::String * qualified_name));
+IL2CPP_REGISTER_METHOD(0x0301E950, String *, GetLocalName, (app::String * qualified_name));
+IL2CPP_REGISTER_METHOD(0x0301E9D0, void, GetQualifiedNameParts, (app::String * qualified_name, app::String * * prefix, app::String * * local_name));
+IL2CPP_REGISTER_METHOD(0x0301EA80, RegexOptions__Enum, GetRegexOptions, (app::String * options_text));
 }

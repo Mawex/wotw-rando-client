@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::GetPlayFabIDsFromFacebookInstantGamesIdsResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetPlayFabIDsFromFacebookInstantGamesIdsResult_1 * __this));
+namespace app::methods::PlayFab_ServerModels::GetPlayFabIDsFromFacebookInstantGamesIdsResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetPlayFabIDsFromFacebookInstantGamesIdsResult_1 * this_ptr));
 }

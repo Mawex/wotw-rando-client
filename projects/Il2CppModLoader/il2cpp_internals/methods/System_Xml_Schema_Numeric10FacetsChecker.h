@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::Numeric10FacetsChecker {
-IL2CPP_REGISTER_METHOD(0x016D0D80, void, __ctor, (Numeric10FacetsChecker * __this, Decimal minVal, Decimal maxVal));
-IL2CPP_REGISTER_METHOD(0x016D0D90, Exception *, CheckValueFacets, (Numeric10FacetsChecker * __this, Object * value, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x016D0E30, Exception *, CheckValueFacets, (Numeric10FacetsChecker * __this, Decimal value, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x016D19A0, Exception *, CheckValueFacets, (Numeric10FacetsChecker * __this, int64_t value, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x016D1AA0, Exception *, CheckValueFacets, (Numeric10FacetsChecker * __this, int32_t value, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x016D1BA0, Exception *, CheckValueFacets, (Numeric10FacetsChecker * __this, int16_t value, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x016D1CA0, bool, MatchEnumeration, (Numeric10FacetsChecker * __this, Object * value, ArrayList * enumeration, XmlSchemaDatatype * datatype));
-IL2CPP_REGISTER_METHOD(0x016D1D60, bool, MatchEnumeration, (Numeric10FacetsChecker * __this, Decimal value, ArrayList * enumeration, XmlValueConverter * valueConverter));
-IL2CPP_REGISTER_METHOD(0x016D1ED0, Exception *, CheckTotalAndFractionDigits, (Numeric10FacetsChecker * __this, Decimal value, int32_t totalDigits, int32_t fractionDigits, bool checkTotal, bool checkFraction));
+namespace app::methods::System_Xml_Schema::Numeric10FacetsChecker {
+IL2CPP_REGISTER_METHOD(0x016D0D80, void, __ctor, (app::Numeric10FacetsChecker * this_ptr, app::Decimal min_val, app::Decimal max_val));
+IL2CPP_REGISTER_METHOD(0x016D0D90, Exception *, CheckValueFacets_1, (app::Numeric10FacetsChecker * this_ptr, app::Object * value, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x016D0E30, Exception *, CheckValueFacets_2, (app::Numeric10FacetsChecker * this_ptr, app::Decimal value, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x016D19A0, Exception *, CheckValueFacets_3, (app::Numeric10FacetsChecker * this_ptr, int64_t value, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x016D1AA0, Exception *, CheckValueFacets_4, (app::Numeric10FacetsChecker * this_ptr, int32_t value, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x016D1BA0, Exception *, CheckValueFacets_5, (app::Numeric10FacetsChecker * this_ptr, int16_t value, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x016D1CA0, bool, MatchEnumeration_1, (app::Numeric10FacetsChecker * this_ptr, app::Object * value, app::ArrayList * enumeration, app::XmlSchemaDatatype * datatype));
+IL2CPP_REGISTER_METHOD(0x016D1D60, bool, MatchEnumeration_2, (app::Numeric10FacetsChecker * this_ptr, app::Decimal value, app::ArrayList * enumeration, app::XmlValueConverter * value_converter));
+IL2CPP_REGISTER_METHOD(0x016D1ED0, Exception *, CheckTotalAndFractionDigits, (app::Numeric10FacetsChecker * this_ptr, app::Decimal value, int32_t total_digits, int32_t fraction_digits, bool check_total, bool check_fraction));
 IL2CPP_REGISTER_METHOD(0x016D2530, void, __cctor, ());
 }

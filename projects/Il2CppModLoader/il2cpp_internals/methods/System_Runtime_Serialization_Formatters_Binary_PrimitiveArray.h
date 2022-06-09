@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray {
-IL2CPP_REGISTER_METHOD(0x01D9E280, void, __ctor, (PrimitiveArray * __this, InternalPrimitiveTypeE__Enum code, Array * array));
-IL2CPP_REGISTER_METHOD(0x01D9E280, void, Init, (PrimitiveArray * __this, InternalPrimitiveTypeE__Enum code, Array * array));
-IL2CPP_REGISTER_METHOD(0x01D9E4E0, void, SetValue, (PrimitiveArray * __this, String * value, int32_t index));
+namespace app::methods::System_Runtime_Serialization_Formatters_Binary::PrimitiveArray {
+IL2CPP_REGISTER_METHOD(0x01D9E280, void, __ctor, (app::PrimitiveArray * this_ptr, app::InternalPrimitiveTypeE__Enum code, app::Array * array));
+IL2CPP_REGISTER_METHOD(0x01D9E280, void, Init, (app::PrimitiveArray * this_ptr, app::InternalPrimitiveTypeE__Enum code, app::Array * array));
+IL2CPP_REGISTER_METHOD(0x01D9E4E0, void, SetValue, (app::PrimitiveArray * this_ptr, app::String * value, int32_t index));
 }

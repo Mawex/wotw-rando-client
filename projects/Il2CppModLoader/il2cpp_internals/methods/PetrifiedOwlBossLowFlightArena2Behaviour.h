@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLowFlightArena2Behaviour {
-IL2CPP_REGISTER_METHOD(0x002FBD40, StateMachine_2 *, get_StateMachine, (PetrifiedOwlBossLowFlightArena2Behaviour * __this));
-IL2CPP_REGISTER_METHOD(0x002FBD60, PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseStatesSet *, get_States, (PetrifiedOwlBossLowFlightArena2Behaviour * __this));
-IL2CPP_REGISTER_METHOD(0x017787D0, void, CopyData, (PetrifiedOwlBossLowFlightArena2Behaviour * __this, PetrifiedOwlBossBaseBehaviour * other));
-IL2CPP_REGISTER_METHOD(0x017788B0, void, OnEntityInitialized, (PetrifiedOwlBossLowFlightArena2Behaviour * __this));
-IL2CPP_REGISTER_METHOD(0x01778A80, void, OnEnter, (PetrifiedOwlBossLowFlightArena2Behaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x01778C20, BehaviourStatus__Enum, OnExecute, (PetrifiedOwlBossLowFlightArena2Behaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x01778D20, void, OnExit, (PetrifiedOwlBossLowFlightArena2Behaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x01778D60, void, __ctor, (PetrifiedOwlBossLowFlightArena2Behaviour * __this));
+IL2CPP_REGISTER_METHOD(0x002FBD40, StateMachine_2 *, get_StateMachine, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBD60, PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseStatesSet *, get_States, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x017787D0, void, CopyData, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr, app::PetrifiedOwlBossBaseBehaviour * other));
+IL2CPP_REGISTER_METHOD(0x017788B0, void, OnEntityInitialized, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01778A80, void, OnEnter, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x01778C20, BehaviourStatus__Enum, OnExecute, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x01778D20, void, OnExit, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x01778D60, void, __ctor, (app::PetrifiedOwlBossLowFlightArena2Behaviour * this_ptr));
 }

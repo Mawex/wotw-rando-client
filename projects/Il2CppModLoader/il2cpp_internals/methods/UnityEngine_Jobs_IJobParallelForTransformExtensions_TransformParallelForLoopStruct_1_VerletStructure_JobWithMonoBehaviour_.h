@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_VerletStructure_JobWithMonoBehaviour_ {
+namespace app::methods::UnityEngine_Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_VerletStructure_JobWithMonoBehaviour_ {
 IL2CPP_REGISTER_METHOD(0x02ACCBE0, void *, Initialize, ());
-IL2CPP_REGISTER_METHOD(0x02ACCFA0, void, Execute, (VerletStructure_JobWithMonoBehaviour * jobData, void * jobData2, void * bufferRangePatchData, JobRanges * ranges, int32_t jobIndex));
+IL2CPP_REGISTER_METHOD(0x02ACCFA0, void, Execute, (app::VerletStructure_JobWithMonoBehaviour * job_data, app::void * job_data2, app::void * buffer_range_patch_data, app::JobRanges * ranges, int32_t job_index));
 }

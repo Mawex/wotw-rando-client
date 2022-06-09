@@ -1,18 +1,18 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::ComponentModel::Container {
-IL2CPP_REGISTER_METHOD(0x024AB110, void, Finalize, (Container * __this));
-IL2CPP_REGISTER_METHOD(0x0234BFD0, void, Add, (Container * __this, IComponent * component));
-IL2CPP_REGISTER_METHOD(0x024AB190, void, Add, (Container * __this, IComponent * component, String * name));
-IL2CPP_REGISTER_METHOD(0x024AB4B0, ISite *, CreateSite, (Container * __this, IComponent * component, String * name));
-IL2CPP_REGISTER_METHOD(0x024AB610, void, Dispose, (Container * __this));
-IL2CPP_REGISTER_METHOD(0x024AB6C0, void, Dispose, (Container * __this, bool disposing));
-IL2CPP_REGISTER_METHOD(0x024ABA60, Object *, GetService, (Container * __this, Type * service));
-IL2CPP_REGISTER_METHOD(0x024ABB30, ComponentCollection *, get_Components, (Container * __this));
-IL2CPP_REGISTER_METHOD(0x024ABFF0, void, Remove, (Container * __this, IComponent * component));
-IL2CPP_REGISTER_METHOD(0x024AC000, void, Remove, (Container * __this, IComponent * component, bool preserveSite));
-IL2CPP_REGISTER_METHOD(0x024AC290, void, RemoveWithoutUnsiting, (Container * __this, IComponent * component));
-IL2CPP_REGISTER_METHOD(0x024AC2A0, void, ValidateName, (Container * __this, IComponent * component, String * name));
+namespace app::methods::System_ComponentModel::Container {
+IL2CPP_REGISTER_METHOD(0x024AB110, void, Finalize, (app::Container * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0234BFD0, void, Add_1, (app::Container * this_ptr, app::IComponent * component));
+IL2CPP_REGISTER_METHOD(0x024AB190, void, Add_2, (app::Container * this_ptr, app::IComponent * component, app::String * name));
+IL2CPP_REGISTER_METHOD(0x024AB4B0, ISite *, CreateSite, (app::Container * this_ptr, app::IComponent * component, app::String * name));
+IL2CPP_REGISTER_METHOD(0x024AB610, void, Dispose_1, (app::Container * this_ptr));
+IL2CPP_REGISTER_METHOD(0x024AB6C0, void, Dispose_2, (app::Container * this_ptr, bool disposing));
+IL2CPP_REGISTER_METHOD(0x024ABA60, Object *, GetService, (app::Container * this_ptr, app::Type * service));
+IL2CPP_REGISTER_METHOD(0x024ABB30, ComponentCollection *, get_Components, (app::Container * this_ptr));
+IL2CPP_REGISTER_METHOD(0x024ABFF0, void, Remove_1, (app::Container * this_ptr, app::IComponent * component));
+IL2CPP_REGISTER_METHOD(0x024AC000, void, Remove_2, (app::Container * this_ptr, app::IComponent * component, bool preserve_site));
+IL2CPP_REGISTER_METHOD(0x024AC290, void, RemoveWithoutUnsiting, (app::Container * this_ptr, app::IComponent * component));
+IL2CPP_REGISTER_METHOD(0x024AC2A0, void, ValidateName, (app::Container * this_ptr, app::IComponent * component, app::String * name));
 IL2CPP_REGISTER_METHODINFO(0x0473C738, Container_ValidateName__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x024AC6C0, void, __ctor, (Container * __this));
+IL2CPP_REGISTER_METHOD(0x024AC6C0, void, __ctor, (app::Container * this_ptr));
 }

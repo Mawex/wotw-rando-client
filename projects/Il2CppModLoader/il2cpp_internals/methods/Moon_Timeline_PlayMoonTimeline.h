@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::PlayMoonTimeline {
-IL2CPP_REGISTER_METHOD(0x01E79420, void, Awake, (PlayMoonTimeline * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (PlayMoonTimeline * __this));
+namespace app::methods::Moon_Timeline::PlayMoonTimeline {
+IL2CPP_REGISTER_METHOD(0x01E79420, void, Awake, (app::PlayMoonTimeline * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::PlayMoonTimeline * this_ptr));
 }

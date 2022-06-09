@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::RammingRetreatState {
-IL2CPP_REGISTER_METHOD(0x004C1E90, void, __ctor, (RammingRetreatState * __this, RammingEnemy * RammingEnemy));
-IL2CPP_REGISTER_METHOD(0x0072E190, void, OnEnter, (RammingRetreatState * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnExit, (RammingRetreatState * __this));
-IL2CPP_REGISTER_METHOD(0x0072E2F0, void, UpdateState, (RammingRetreatState * __this));
+IL2CPP_REGISTER_METHOD(0x004C1E90, void, __ctor, (app::RammingRetreatState * this_ptr, app::RammingEnemy * ramming_enemy));
+IL2CPP_REGISTER_METHOD(0x0072E190, void, OnEnter, (app::RammingRetreatState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnExit, (app::RammingRetreatState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0072E2F0, void, UpdateState, (app::RammingRetreatState * this_ptr));
 }

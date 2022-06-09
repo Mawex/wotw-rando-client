@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::XGamingRuntime::Interop::XAsyncBlockPtr {
-IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (XAsyncBlockPtr__Boxed * __this, void * intPtr));
+namespace app::methods::XGamingRuntime_Interop::XAsyncBlockPtr {
+IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (app::XAsyncBlockPtr__Boxed * this_ptr, app::void * int_ptr));
 }

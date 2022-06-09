@@ -1,21 +1,21 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::Logging {
+namespace app::methods::System_Net::Logging {
 IL2CPP_REGISTER_METHOD(0x00420EE0, TraceSource *, get_Web, ());
 IL2CPP_REGISTER_METHOD(0x00420EE0, TraceSource *, get_HttpListener, ());
 IL2CPP_REGISTER_METHOD(0x00420EE0, TraceSource *, get_Sockets, ());
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Enter, (TraceSource * traceSource, Object * obj, String * method_1, Object * paramObject));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Enter, (TraceSource * traceSource, String * msg));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Enter, (TraceSource * traceSource, String * msg, String * parameters));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Exception, (TraceSource * traceSource, Object * obj, String * method_1, Exception * e));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Exit, (TraceSource * traceSource, Object * obj, String * method_1, Object * retObject));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Exit, (TraceSource * traceSource, String * msg));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Exit, (TraceSource * traceSource, String * msg, String * parameters));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintInfo, (TraceSource * traceSource, Object * obj, String * method_1, String * msg));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintInfo, (TraceSource * traceSource, Object * obj, String * msg));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintInfo, (TraceSource * traceSource, String * msg));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintWarning, (TraceSource * traceSource, Object * obj, String * method_1, String * msg));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintWarning, (TraceSource * traceSource, String * msg));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintError, (TraceSource * traceSource, String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Enter_1, (app::TraceSource * trace_source, app::Object * obj, app::String * method_1, app::Object * param_object));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Enter_2, (app::TraceSource * trace_source, app::String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Enter_3, (app::TraceSource * trace_source, app::String * msg, app::String * parameters));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Exception, (app::TraceSource * trace_source, app::Object * obj, app::String * method_1, app::Exception * e));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Exit_1, (app::TraceSource * trace_source, app::Object * obj, app::String * method_1, app::Object * ret_object));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Exit_2, (app::TraceSource * trace_source, app::String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Exit_3, (app::TraceSource * trace_source, app::String * msg, app::String * parameters));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintInfo_1, (app::TraceSource * trace_source, app::Object * obj, app::String * method_1, app::String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintInfo_2, (app::TraceSource * trace_source, app::Object * obj, app::String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintInfo_3, (app::TraceSource * trace_source, app::String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintWarning_1, (app::TraceSource * trace_source, app::Object * obj, app::String * method_1, app::String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintWarning_2, (app::TraceSource * trace_source, app::String * msg));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, PrintError, (app::TraceSource * trace_source, app::String * msg));
 IL2CPP_REGISTER_METHOD(0x002FA000, void, __cctor, ());
 }

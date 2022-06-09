@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::WaterFallMask_WaterLineInterruption {
-IL2CPP_REGISTER_METHOD(0x00F28500, void, __ctor, (WaterFallMask_WaterLineInterruption * __this, Vector2 start, Vector2 end));
-IL2CPP_REGISTER_METHOD(0x00F28550, Vector2, get_Start, (WaterFallMask_WaterLineInterruption * __this));
-IL2CPP_REGISTER_METHOD(0x00F28570, Vector2, get_End, (WaterFallMask_WaterLineInterruption * __this));
-IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_IsActive, (WaterFallMask_WaterLineInterruption * __this));
-IL2CPP_REGISTER_METHOD(0x00F28590, void, UpdateLine, (WaterFallMask_WaterLineInterruption * __this, float deltaTime, Vector2 gravity, bool startPointLocked, float maxHeight, float minHeight));
-IL2CPP_REGISTER_METHOD(0x00F28950, void, Enable, (WaterFallMask_WaterLineInterruption * __this, Vector2 point, float initialVelocity, float initialSeparation));
-IL2CPP_REGISTER_METHOD(0x00F28AE0, void, Disable, (WaterFallMask_WaterLineInterruption * __this));
+IL2CPP_REGISTER_METHOD(0x00F28500, void, __ctor, (app::WaterFallMask_WaterLineInterruption * this_ptr, app::Vector2 start, app::Vector2 end));
+IL2CPP_REGISTER_METHOD(0x00F28550, Vector2, get_Start, (app::WaterFallMask_WaterLineInterruption * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F28570, Vector2, get_End, (app::WaterFallMask_WaterLineInterruption * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_IsActive, (app::WaterFallMask_WaterLineInterruption * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F28590, void, UpdateLine, (app::WaterFallMask_WaterLineInterruption * this_ptr, float delta_time, app::Vector2 gravity, bool start_point_locked, float max_height, float min_height));
+IL2CPP_REGISTER_METHOD(0x00F28950, void, Enable, (app::WaterFallMask_WaterLineInterruption * this_ptr, app::Vector2 point, float initial_velocity, float initial_separation));
+IL2CPP_REGISTER_METHOD(0x00F28AE0, void, Disable, (app::WaterFallMask_WaterLineInterruption * this_ptr));
 }

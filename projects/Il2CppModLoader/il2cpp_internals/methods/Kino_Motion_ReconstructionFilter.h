@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
 namespace app::methods::Kino::Motion_ReconstructionFilter {
-IL2CPP_REGISTER_METHOD(0x01228630, void, __ctor, (Motion_ReconstructionFilter * __this));
-IL2CPP_REGISTER_METHOD(0x01228880, void, Release, (Motion_ReconstructionFilter * __this));
-IL2CPP_REGISTER_METHOD(0x01228970, void, ProcessImage, (Motion_ReconstructionFilter * __this, float shutterAngle, int32_t sampleCount, RenderTexture * source, RenderTexture * destination));
-IL2CPP_REGISTER_METHOD(0x01229110, bool, CheckTextureFormatSupport, (Motion_ReconstructionFilter * __this));
-IL2CPP_REGISTER_METHOD(0x01229150, RenderTexture *, GetTemporaryRT, (Motion_ReconstructionFilter * __this, Texture * source, int32_t divider, RenderTextureFormat__Enum format));
-IL2CPP_REGISTER_METHOD(0x01229280, void, ReleaseTemporaryRT, (Motion_ReconstructionFilter * __this, RenderTexture * rt));
+IL2CPP_REGISTER_METHOD(0x01228630, void, __ctor, (app::Motion_ReconstructionFilter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01228880, void, Release, (app::Motion_ReconstructionFilter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01228970, void, ProcessImage, (app::Motion_ReconstructionFilter * this_ptr, float shutter_angle, int32_t sample_count, app::RenderTexture * source, app::RenderTexture * destination));
+IL2CPP_REGISTER_METHOD(0x01229110, bool, CheckTextureFormatSupport, (app::Motion_ReconstructionFilter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01229150, RenderTexture *, GetTemporaryRT, (app::Motion_ReconstructionFilter * this_ptr, app::Texture * source, int32_t divider, app::RenderTextureFormat__Enum format));
+IL2CPP_REGISTER_METHOD(0x01229280, void, ReleaseTemporaryRT, (app::Motion_ReconstructionFilter * this_ptr, app::RenderTexture * rt));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XElementDescendantsPropertyDescriptor {
-IL2CPP_REGISTER_METHOD(0x03029930, void, __ctor, (XElementDescendantsPropertyDescriptor * __this));
-IL2CPP_REGISTER_METHOD(0x030299C0, Object *, GetValue, (XElementDescendantsPropertyDescriptor * __this, Object * component));
-IL2CPP_REGISTER_METHOD(0x03029CB0, void, OnChanged, (XElementDescendantsPropertyDescriptor * __this, Object * sender, XObjectChangeEventArgs * args));
-IL2CPP_REGISTER_METHOD(0x03029E60, void, OnChanging, (XElementDescendantsPropertyDescriptor * __this, Object * sender, XObjectChangeEventArgs * args));
+namespace app::methods::MS_Internal_Xml_Linq_ComponentModel::XElementDescendantsPropertyDescriptor {
+IL2CPP_REGISTER_METHOD(0x03029930, void, __ctor, (app::XElementDescendantsPropertyDescriptor * this_ptr));
+IL2CPP_REGISTER_METHOD(0x030299C0, Object *, GetValue, (app::XElementDescendantsPropertyDescriptor * this_ptr, app::Object * component));
+IL2CPP_REGISTER_METHOD(0x03029CB0, void, OnChanged, (app::XElementDescendantsPropertyDescriptor * this_ptr, app::Object * sender, app::XObjectChangeEventArgs * args));
+IL2CPP_REGISTER_METHOD(0x03029E60, void, OnChanging, (app::XElementDescendantsPropertyDescriptor * this_ptr, app::Object * sender, app::XObjectChangeEventArgs * args));
 }

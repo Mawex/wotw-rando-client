@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
 namespace app::methods::SkillUpgradeShopUIItem {
-IL2CPP_REGISTER_METHOD(0x002FBB40, UpgradeAbilityItem *, get_UpgradeItem, (SkillUpgradeShopUIItem * __this));
-IL2CPP_REGISTER_METHOD(0x006BBCE0, void, SetItemContext, (SkillUpgradeShopUIItem * __this, Object * context, Object * gridContext));
-IL2CPP_REGISTER_METHOD(0x006BBF00, void, OnItemContextDirty, (SkillUpgradeShopUIItem * __this, Object * gridContext));
-IL2CPP_REGISTER_METHOD(0x006BC050, void, UpdateIconsFromShard, (SkillUpgradeShopUIItem * __this, UpgradeAbilityItem * upgradeItem, bool initialize));
-IL2CPP_REGISTER_METHOD(0x006BC060, void, UpdateShard, (SkillUpgradeShopUIItem * __this, UpgradeAbilityItem * upgradeItem));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (SkillUpgradeShopUIItem * __this));
+IL2CPP_REGISTER_METHOD(0x002FBB40, UpgradeAbilityItem *, get_UpgradeItem, (app::SkillUpgradeShopUIItem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x006BBCE0, void, SetItemContext, (app::SkillUpgradeShopUIItem * this_ptr, app::Object * context, app::Object * grid_context));
+IL2CPP_REGISTER_METHOD(0x006BBF00, void, OnItemContextDirty, (app::SkillUpgradeShopUIItem * this_ptr, app::Object * grid_context));
+IL2CPP_REGISTER_METHOD(0x006BC050, void, UpdateIconsFromShard, (app::SkillUpgradeShopUIItem * this_ptr, app::UpgradeAbilityItem * upgrade_item, bool initialize));
+IL2CPP_REGISTER_METHOD(0x006BC060, void, UpdateShard, (app::SkillUpgradeShopUIItem * this_ptr, app::UpgradeAbilityItem * upgrade_item));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::SkillUpgradeShopUIItem * this_ptr));
 }

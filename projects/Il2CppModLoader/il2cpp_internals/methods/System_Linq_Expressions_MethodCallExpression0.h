@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::MethodCallExpression0 {
-IL2CPP_REGISTER_METHOD(0x02FBC130, void, __ctor, (MethodCallExpression0 * __this, MethodInfo_1 * method_1));
-IL2CPP_REGISTER_METHOD(0x02FBC140, Expression *, GetArgument, (MethodCallExpression0 * __this, int32_t index));
+namespace app::methods::System_Linq_Expressions::MethodCallExpression0 {
+IL2CPP_REGISTER_METHOD(0x02FBC130, void, __ctor, (app::MethodCallExpression0 * this_ptr, app::MethodInfo_1 * method_1));
+IL2CPP_REGISTER_METHOD(0x02FBC140, Expression *, GetArgument, (app::MethodCallExpression0 * this_ptr, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x047169D8, MethodCallExpression0_GetArgument__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_ArgumentCount, (MethodCallExpression0 * __this));
-IL2CPP_REGISTER_METHOD(0x02FBC1A0, ReadOnlyCollection_1_System_Linq_Expressions_Expression_ *, GetOrMakeArguments, (MethodCallExpression0 * __this));
-IL2CPP_REGISTER_METHOD(0x02FBC240, MethodCallExpression *, Rewrite, (MethodCallExpression0 * __this, Expression * instance, IReadOnlyList_1_System_Linq_Expressions_Expression_ * args));
+IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, get_ArgumentCount, (app::MethodCallExpression0 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02FBC1A0, ReadOnlyCollection_1_System_Linq_Expressions_Expression_ *, GetOrMakeArguments, (app::MethodCallExpression0 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02FBC240, MethodCallExpression *, Rewrite, (app::MethodCallExpression0 * this_ptr, app::Expression * instance, app::IReadOnlyList_1_System_Linq_Expressions_Expression_ * args));
 }

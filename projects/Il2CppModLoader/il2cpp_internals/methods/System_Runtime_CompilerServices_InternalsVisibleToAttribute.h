@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::CompilerServices::InternalsVisibleToAttribute {
-IL2CPP_REGISTER_METHOD(0x00BA6CF0, void, __ctor, (InternalsVisibleToAttribute * __this, String * assemblyName));
-IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_AssemblyName, (InternalsVisibleToAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_AllInternalsVisible, (InternalsVisibleToAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x00533150, void, set_AllInternalsVisible, (InternalsVisibleToAttribute * __this, bool value));
+namespace app::methods::System_Runtime_CompilerServices::InternalsVisibleToAttribute {
+IL2CPP_REGISTER_METHOD(0x00BA6CF0, void, __ctor, (app::InternalsVisibleToAttribute * this_ptr, app::String * assembly_name));
+IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_AssemblyName, (app::InternalsVisibleToAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_AllInternalsVisible, (app::InternalsVisibleToAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00533150, void, set_AllInternalsVisible, (app::InternalsVisibleToAttribute * this_ptr, bool value));
 }

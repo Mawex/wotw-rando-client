@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::List_1_ISceneWarningSource_ {
-IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (List_1_ISceneWarningSource_ * __this));
+namespace app::methods::System_Collections_Generic::List_1_ISceneWarningSource_ {
+IL2CPP_REGISTER_METHOD(0x022A4010, void, Clear, (app::List_1_ISceneWarningSource_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0475A810, List_1_ISceneWarningSource__Clear__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025EFC50, ISceneWarningSource *, get_Item, (List_1_ISceneWarningSource_ * __this, int32_t index));
+IL2CPP_REGISTER_METHOD(0x025EFC50, ISceneWarningSource *, get_Item, (app::List_1_ISceneWarningSource_ * this_ptr, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x047794E0, List_1_ISceneWarningSource__get_Item__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025F1690, void, RemoveAt, (List_1_ISceneWarningSource_ * __this, int32_t index));
+IL2CPP_REGISTER_METHOD(0x025F1690, void, RemoveAt, (app::List_1_ISceneWarningSource_ * this_ptr, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x0475AAA8, List_1_ISceneWarningSource__RemoveAt__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (List_1_ISceneWarningSource_ * __this));
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (app::List_1_ISceneWarningSource_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0470FF08, List_1_ISceneWarningSource__get_Count__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (List_1_ISceneWarningSource_ * __this));
+IL2CPP_REGISTER_METHOD(0x025E8100, void, __ctor, (app::List_1_ISceneWarningSource_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x047092B8, List_1_ISceneWarningSource___ctor__MethodInfo);
 }

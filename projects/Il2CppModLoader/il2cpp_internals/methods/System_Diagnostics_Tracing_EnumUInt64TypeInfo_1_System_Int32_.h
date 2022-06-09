@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Diagnostics::Tracing::EnumUInt64TypeInfo_1_System::Int32_ {
-IL2CPP_REGISTER_METHOD(0x02B97350, void, WriteMetadata, (EnumUInt64TypeInfo_1_System_Int32_ * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));
-IL2CPP_REGISTER_METHOD(0x02B97420, void, WriteData, (EnumUInt64TypeInfo_1_System_Int32_ * __this, TraceLoggingDataCollector * collector, int32_t * value));
-IL2CPP_REGISTER_METHOD(0x00502220, Object *, GetData, (EnumUInt64TypeInfo_1_System_Int32_ * __this, Object * value));
-IL2CPP_REGISTER_METHOD(0x0298B8E0, void, __ctor, (EnumUInt64TypeInfo_1_System_Int32_ * __this));
+namespace app::methods::System_Diagnostics_Tracing::EnumUInt64TypeInfo_1_System_Int32_ {
+IL2CPP_REGISTER_METHOD(0x02B97350, void, WriteMetadata, (app::EnumUInt64TypeInfo_1_System_Int32_ * this_ptr, app::TraceLoggingMetadataCollector * collector, app::String * name, app::EventFieldFormat__Enum format));
+IL2CPP_REGISTER_METHOD(0x02B97420, void, WriteData, (app::EnumUInt64TypeInfo_1_System_Int32_ * this_ptr, app::TraceLoggingDataCollector * collector, app::int32_t * value));
+IL2CPP_REGISTER_METHOD(0x00502220, Object *, GetData, (app::EnumUInt64TypeInfo_1_System_Int32_ * this_ptr, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x0298B8E0, void, __ctor, (app::EnumUInt64TypeInfo_1_System_Int32_ * this_ptr));
 }

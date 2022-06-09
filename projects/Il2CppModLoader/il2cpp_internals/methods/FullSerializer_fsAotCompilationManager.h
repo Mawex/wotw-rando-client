@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
 namespace app::methods::FullSerializer::fsAotCompilationManager {
-IL2CPP_REGISTER_METHOD(0x01505520, bool, HasMember, (fsAotVersionInfo versionInfo, fsAotVersionInfo_Member member));
-IL2CPP_REGISTER_METHOD(0x015055E0, bool, IsAotModelUpToDate, (fsMetaType * currentModel, fsIAotConverter * aotModel));
-IL2CPP_REGISTER_METHOD(0x015057F0, String *, RunAotCompilationForType, (fsConfig * config, Type * type));
-IL2CPP_REGISTER_METHOD(0x01505900, String *, EmitVersionInfo, (String * prefix, Type * type, fsMetaProperty__Array * members, bool isConstructorPublic));
-IL2CPP_REGISTER_METHOD(0x01505DA0, String *, GetConverterString, (fsMetaProperty * member));
-IL2CPP_REGISTER_METHOD(0x01505ED0, String *, GetQualifiedConverterNameForType, (Type * type));
-IL2CPP_REGISTER_METHOD(0x01505FF0, String *, GenerateDirectConverterForTypeInCSharp, (Type * type, fsMetaProperty__Array * members, bool isConstructorPublic));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (fsAotCompilationManager * __this));
+IL2CPP_REGISTER_METHOD(0x01505520, bool, HasMember, (app::fsAotVersionInfo version_info, app::fsAotVersionInfo_Member member));
+IL2CPP_REGISTER_METHOD(0x015055E0, bool, IsAotModelUpToDate, (app::fsMetaType * current_model, app::fsIAotConverter * aot_model));
+IL2CPP_REGISTER_METHOD(0x015057F0, String *, RunAotCompilationForType, (app::fsConfig * config, app::Type * type));
+IL2CPP_REGISTER_METHOD(0x01505900, String *, EmitVersionInfo, (app::String * prefix, app::Type * type, app::fsMetaProperty__Array * members, bool is_constructor_public));
+IL2CPP_REGISTER_METHOD(0x01505DA0, String *, GetConverterString, (app::fsMetaProperty * member));
+IL2CPP_REGISTER_METHOD(0x01505ED0, String *, GetQualifiedConverterNameForType, (app::Type * type));
+IL2CPP_REGISTER_METHOD(0x01505FF0, String *, GenerateDirectConverterForTypeInCSharp, (app::Type * type, app::fsMetaProperty__Array * members, bool is_constructor_public));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::fsAotCompilationManager * this_ptr));
 IL2CPP_REGISTER_METHOD(0x01507310, void, __cctor, ());
 }

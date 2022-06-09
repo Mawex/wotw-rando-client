@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Func_2_Object_UnityEngine::Vector4_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_Object_UnityEngine_Vector4_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02FA0640, Vector4, Invoke, (Func_2_Object_UnityEngine_Vector4_ * __this, Object * arg));
-IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (Func_2_Object_UnityEngine_Vector4_ * __this, Object * arg, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x01C7A680, Vector4, EndInvoke, (Func_2_Object_UnityEngine_Vector4_ * __this, IAsyncResult * result));
+namespace app::methods::System::Func_2_Object_UnityEngine_Vector4_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Func_2_Object_UnityEngine_Vector4_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02FA0640, Vector4, Invoke, (app::Func_2_Object_UnityEngine_Vector4_ * this_ptr, app::Object * arg));
+IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (app::Func_2_Object_UnityEngine_Vector4_ * this_ptr, app::Object * arg, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x01C7A680, Vector4, EndInvoke, (app::Func_2_Object_UnityEngine_Vector4_ * this_ptr, app::IAsyncResult * result));
 }

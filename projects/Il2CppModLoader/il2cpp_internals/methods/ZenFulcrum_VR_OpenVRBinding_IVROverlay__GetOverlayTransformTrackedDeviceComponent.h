@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVROverlay__GetOverlayTransformTrackedDeviceComponent {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVROverlay_GetOverlayTransformTrackedDeviceComponent * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02D7CCC0, EVROverlayError__Enum, Invoke, (IVROverlay_GetOverlayTransformTrackedDeviceComponent * __this, uint64_t ulOverlayHandle, uint32_t * punDeviceIndex, String * pchComponentName, uint32_t unComponentNameSize));
-IL2CPP_REGISTER_METHOD(0x02D7D0D0, IAsyncResult *, BeginInvoke, (IVROverlay_GetOverlayTransformTrackedDeviceComponent * __this, uint64_t ulOverlayHandle, uint32_t * punDeviceIndex, String * pchComponentName, uint32_t unComponentNameSize, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F51FA0, EVROverlayError__Enum, EndInvoke, (IVROverlay_GetOverlayTransformTrackedDeviceComponent * __this, uint32_t * punDeviceIndex, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVROverlay__GetOverlayTransformTrackedDeviceComponent {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVROverlay_GetOverlayTransformTrackedDeviceComponent * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02D7CCC0, EVROverlayError__Enum, Invoke, (app::IVROverlay_GetOverlayTransformTrackedDeviceComponent * this_ptr, uint64_t ul_overlay_handle, app::uint32_t * pun_device_index, app::String * pch_component_name, uint32_t un_component_name_size));
+IL2CPP_REGISTER_METHOD(0x02D7D0D0, IAsyncResult *, BeginInvoke, (app::IVROverlay_GetOverlayTransformTrackedDeviceComponent * this_ptr, uint64_t ul_overlay_handle, app::uint32_t * pun_device_index, app::String * pch_component_name, uint32_t un_component_name_size, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F51FA0, EVROverlayError__Enum, EndInvoke, (app::IVROverlay_GetOverlayTransformTrackedDeviceComponent * this_ptr, app::uint32_t * pun_device_index, app::IAsyncResult * result));
 }

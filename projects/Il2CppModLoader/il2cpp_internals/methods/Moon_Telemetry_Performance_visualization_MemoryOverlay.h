@@ -1,22 +1,22 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Telemetry::Performance::visualization::MemoryOverlay {
-IL2CPP_REGISTER_METHOD(0x010A5BE0, void, CreateLineMaterial, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x010A5D80, void, OnEndOfFrame, (MemoryOverlay * __this));
+namespace app::methods::Moon_Telemetry_Performance_visualization::MemoryOverlay {
+IL2CPP_REGISTER_METHOD(0x010A5BE0, void, CreateLineMaterial, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010A5D80, void, OnEndOfFrame, (app::MemoryOverlay * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0478F178, MemoryOverlay_OnEndOfFrame__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x010A5D90, void, EnsureImguiRegistered, (MemoryOverlay * __this, bool registered));
-IL2CPP_REGISTER_METHOD(0x010A5E90, void, Awake, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x010A6000, void, OnDestroy, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x010A60E0, void, OnEnable, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x010A6350, void, Update, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x010A6430, void, OnDisable, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x010A6660, String *, FormatMemory, (MemoryOverlay * __this, String * format, Func_1_Int64_ * memory));
-IL2CPP_REGISTER_METHOD(0x010A67C0, String *, FormatMemoryUInt, (MemoryOverlay * __this, String * format, Func_1_UInt32_ * memory));
-IL2CPP_REGISTER_METHOD(0x010A6910, void, DrawMemoryStat, (MemoryOverlay * __this, String * name, uint64_t bytes));
-IL2CPP_REGISTER_METHOD(0x010A6A60, void, DrawStringWithInt, (MemoryOverlay * __this, String * name, int32_t value));
-IL2CPP_REGISTER_METHOD(0x010A6B90, void, DrawMemoryPair, (MemoryOverlay * __this, String * name, uint64_t minBytes, uint64_t maxBytes));
-IL2CPP_REGISTER_METHOD(0x010A6D70, void, DrawMemoryTriplet, (MemoryOverlay * __this, String * name, uint64_t minBytes, uint64_t maxBytes, int32_t someCount));
-IL2CPP_REGISTER_METHOD(0x010A6FA0, void, DrawDebug, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnGUI, (MemoryOverlay * __this));
-IL2CPP_REGISTER_METHOD(0x004C8610, void, __ctor, (MemoryOverlay * __this));
+IL2CPP_REGISTER_METHOD(0x010A5D90, void, EnsureImguiRegistered, (app::MemoryOverlay * this_ptr, bool registered));
+IL2CPP_REGISTER_METHOD(0x010A5E90, void, Awake, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010A6000, void, OnDestroy, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010A60E0, void, OnEnable, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010A6350, void, Update, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010A6430, void, OnDisable, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010A6660, String *, FormatMemory, (app::MemoryOverlay * this_ptr, app::String * format, app::Func_1_Int64_ * memory));
+IL2CPP_REGISTER_METHOD(0x010A67C0, String *, FormatMemoryUInt, (app::MemoryOverlay * this_ptr, app::String * format, app::Func_1_UInt32_ * memory));
+IL2CPP_REGISTER_METHOD(0x010A6910, void, DrawMemoryStat, (app::MemoryOverlay * this_ptr, app::String * name, uint64_t bytes));
+IL2CPP_REGISTER_METHOD(0x010A6A60, void, DrawStringWithInt, (app::MemoryOverlay * this_ptr, app::String * name, int32_t value));
+IL2CPP_REGISTER_METHOD(0x010A6B90, void, DrawMemoryPair, (app::MemoryOverlay * this_ptr, app::String * name, uint64_t min_bytes, uint64_t max_bytes));
+IL2CPP_REGISTER_METHOD(0x010A6D70, void, DrawMemoryTriplet, (app::MemoryOverlay * this_ptr, app::String * name, uint64_t min_bytes, uint64_t max_bytes, int32_t some_count));
+IL2CPP_REGISTER_METHOD(0x010A6FA0, void, DrawDebug, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnGUI, (app::MemoryOverlay * this_ptr));
+IL2CPP_REGISTER_METHOD(0x004C8610, void, __ctor, (app::MemoryOverlay * this_ptr));
 }

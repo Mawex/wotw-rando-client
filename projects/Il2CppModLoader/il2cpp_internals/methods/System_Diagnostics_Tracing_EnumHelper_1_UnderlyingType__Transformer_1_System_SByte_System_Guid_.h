@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Diagnostics::Tracing::EnumHelper_1_UnderlyingType__Transformer_1_System::SByte_System::Guid_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02885850, int8_t, Invoke, (EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * __this, Guid value));
-IL2CPP_REGISTER_METHOD(0x02F43C60, IAsyncResult *, BeginInvoke, (EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * __this, Guid value, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x008A1BF0, int8_t, EndInvoke, (EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * __this, IAsyncResult * result));
+namespace app::methods::System_Diagnostics_Tracing::EnumHelper_1_UnderlyingType__Transformer_1_System_SByte_System_Guid_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02885850, int8_t, Invoke, (app::EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * this_ptr, app::Guid value));
+IL2CPP_REGISTER_METHOD(0x02F43C60, IAsyncResult *, BeginInvoke, (app::EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * this_ptr, app::Guid value, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x008A1BF0, int8_t, EndInvoke, (app::EnumHelper_1_UnderlyingType_Transformer_1_System_SByte_System_Guid_ * this_ptr, app::IAsyncResult * result));
 }

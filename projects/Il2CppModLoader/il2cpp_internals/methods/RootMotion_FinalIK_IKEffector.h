@@ -1,19 +1,19 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::FinalIK::IKEffector {
-IL2CPP_REGISTER_METHOD(0x02BD8120, IKSolver_Node *, GetNode, (IKEffector * __this, IKSolverFullBody * solver));
-IL2CPP_REGISTER_METHOD(0x004430B0, bool, get_isEndEffector, (IKEffector * __this));
-IL2CPP_REGISTER_METHOD(0x0058ED80, void, set_isEndEffector, (IKEffector * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x02BD81B0, void, PinToBone, (IKEffector * __this, float positionWeight, float rotationWeight));
-IL2CPP_REGISTER_METHOD(0x02BD83B0, void, __ctor, (IKEffector * __this));
-IL2CPP_REGISTER_METHOD(0x02BD8540, void, __ctor, (IKEffector * __this, Transform * bone, Transform__Array * childBones));
-IL2CPP_REGISTER_METHOD(0x02BD86F0, bool, IsValid, (IKEffector * __this, IKSolver * solver, String * * message));
-IL2CPP_REGISTER_METHOD(0x02BD8A70, void, Initiate, (IKEffector * __this, IKSolverFullBody * solver));
-IL2CPP_REGISTER_METHOD(0x02BD8ED0, void, ResetOffset, (IKEffector * __this, IKSolverFullBody * solver));
-IL2CPP_REGISTER_METHOD(0x02BD90D0, void, SetToTarget, (IKEffector * __this));
-IL2CPP_REGISTER_METHOD(0x02BD9270, void, OnPreSolve, (IKEffector * __this, IKSolverFullBody * solver));
-IL2CPP_REGISTER_METHOD(0x02BD9D40, void, OnPostWrite, (IKEffector * __this));
-IL2CPP_REGISTER_METHOD(0x02BD9DF0, Quaternion, GetPlaneRotation, (IKEffector * __this, IKSolverFullBody * solver));
-IL2CPP_REGISTER_METHOD(0x02BDA160, void, Update, (IKEffector * __this, IKSolverFullBody * solver));
-IL2CPP_REGISTER_METHOD(0x02BDA700, Vector3, GetPosition, (IKEffector * __this, IKSolverFullBody * solver, Quaternion * planeRotationOffset));
+namespace app::methods::RootMotion_FinalIK::IKEffector {
+IL2CPP_REGISTER_METHOD(0x02BD8120, IKSolver_Node *, GetNode, (app::IKEffector * this_ptr, app::IKSolverFullBody * solver));
+IL2CPP_REGISTER_METHOD(0x004430B0, bool, get_isEndEffector, (app::IKEffector * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0058ED80, void, set_isEndEffector, (app::IKEffector * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x02BD81B0, void, PinToBone, (app::IKEffector * this_ptr, float position_weight, float rotation_weight));
+IL2CPP_REGISTER_METHOD(0x02BD83B0, void, __ctor_1, (app::IKEffector * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BD8540, void, __ctor_2, (app::IKEffector * this_ptr, app::Transform * bone, app::Transform__Array * child_bones));
+IL2CPP_REGISTER_METHOD(0x02BD86F0, bool, IsValid, (app::IKEffector * this_ptr, app::IKSolver * solver, app::String * * message));
+IL2CPP_REGISTER_METHOD(0x02BD8A70, void, Initiate, (app::IKEffector * this_ptr, app::IKSolverFullBody * solver));
+IL2CPP_REGISTER_METHOD(0x02BD8ED0, void, ResetOffset, (app::IKEffector * this_ptr, app::IKSolverFullBody * solver));
+IL2CPP_REGISTER_METHOD(0x02BD90D0, void, SetToTarget, (app::IKEffector * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BD9270, void, OnPreSolve, (app::IKEffector * this_ptr, app::IKSolverFullBody * solver));
+IL2CPP_REGISTER_METHOD(0x02BD9D40, void, OnPostWrite, (app::IKEffector * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BD9DF0, Quaternion, GetPlaneRotation, (app::IKEffector * this_ptr, app::IKSolverFullBody * solver));
+IL2CPP_REGISTER_METHOD(0x02BDA160, void, Update, (app::IKEffector * this_ptr, app::IKSolverFullBody * solver));
+IL2CPP_REGISTER_METHOD(0x02BDA700, Vector3, GetPosition, (app::IKEffector * this_ptr, app::IKSolverFullBody * solver, app::Quaternion * plane_rotation_offset));
 }

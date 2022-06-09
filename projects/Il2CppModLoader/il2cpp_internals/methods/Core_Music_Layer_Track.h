@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::Core::Music_Layer_Track {
-IL2CPP_REGISTER_METHOD(0x00DAE320, void, __ctor, (Music_Layer_Track * __this, SoundProvider * soundProvider, float fadeInDuration, float fadeOutDuration));
-IL2CPP_REGISTER_METHOD(0x00DAE330, void, Enter, (Music_Layer_Track * __this));
-IL2CPP_REGISTER_METHOD(0x00DAE460, void, Exit, (Music_Layer_Track * __this));
-IL2CPP_REGISTER_METHOD(0x00DAE520, void, Update, (Music_Layer_Track * __this));
+IL2CPP_REGISTER_METHOD(0x00DAE320, void, __ctor, (app::Music_Layer_Track * this_ptr, app::SoundProvider * sound_provider, float fade_in_duration, float fade_out_duration));
+IL2CPP_REGISTER_METHOD(0x00DAE330, void, Enter, (app::Music_Layer_Track * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00DAE460, void, Exit, (app::Music_Layer_Track * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00DAE520, void, Update, (app::Music_Layer_Track * this_ptr));
 }

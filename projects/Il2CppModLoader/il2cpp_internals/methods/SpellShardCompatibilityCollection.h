@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::SpellShardCompatibilityCollection {
-IL2CPP_REGISTER_METHOD(0x009441F0, void, __ctor, (SpellShardCompatibilityCollection * __this));
+IL2CPP_REGISTER_METHOD(0x009441F0, void, __ctor, (app::SpellShardCompatibilityCollection * this_ptr));
 }

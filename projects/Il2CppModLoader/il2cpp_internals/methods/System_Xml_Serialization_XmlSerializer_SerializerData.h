@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Serialization::XmlSerializer_SerializerData {
-IL2CPP_REGISTER_METHOD(0x0194B990, XmlSerializationWriter *, CreateWriter, (XmlSerializer_SerializerData * __this));
+namespace app::methods::System_Xml_Serialization::XmlSerializer_SerializerData {
+IL2CPP_REGISTER_METHOD(0x0194B990, XmlSerializationWriter *, CreateWriter, (app::XmlSerializer_SerializerData * this_ptr));
 }

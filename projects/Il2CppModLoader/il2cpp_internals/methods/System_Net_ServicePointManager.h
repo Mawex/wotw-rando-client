@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::ServicePointManager {
+namespace app::methods::System_Net::ServicePointManager {
 IL2CPP_REGISTER_METHOD(0x01BD77A0, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ServicePointManager * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ServicePointManager * this_ptr));
 IL2CPP_REGISTER_METHOD(0x01BD7970, ICertificatePolicy *, get_CertificatePolicy, ());
-IL2CPP_REGISTER_METHOD(0x01BD7B50, void, set_CertificatePolicy, (ICertificatePolicy * value));
+IL2CPP_REGISTER_METHOD(0x01BD7B50, void, set_CertificatePolicy, (app::ICertificatePolicy * value));
 IL2CPP_REGISTER_METHOD(0x01BD7C00, ICertificatePolicy *, GetLegacyCertificatePolicy, ());
 IL2CPP_REGISTER_METHOD(0x01BD7CA0, bool, get_CheckCertificateRevocationList, ());
 IL2CPP_REGISTER_METHOD(0x01BD7D40, void, set_CheckCertificateRevocationList, (bool value));
@@ -28,10 +28,10 @@ IL2CPP_REGISTER_METHOD(0x00417870, bool, get_ReusePort, ());
 IL2CPP_REGISTER_METHOD(0x01BD8670, void, set_ReusePort, (bool value));
 IL2CPP_REGISTER_METHODINFO(0x04776868, ServicePointManager_set_ReusePort__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x01BD86C0, SecurityProtocolType__Enum, get_SecurityProtocol, ());
-IL2CPP_REGISTER_METHOD(0x01BD8760, void, set_SecurityProtocol, (SecurityProtocolType__Enum value));
+IL2CPP_REGISTER_METHOD(0x01BD8760, void, set_SecurityProtocol, (app::SecurityProtocolType__Enum value));
 IL2CPP_REGISTER_METHOD(0x01BD8810, ServerCertValidationCallback *, get_ServerCertValidationCallback, ());
 IL2CPP_REGISTER_METHOD(0x01BD88B0, RemoteCertificateValidationCallback *, get_ServerCertificateValidationCallback, ());
-IL2CPP_REGISTER_METHOD(0x01BD8990, void, set_ServerCertificateValidationCallback, (RemoteCertificateValidationCallback * value));
+IL2CPP_REGISTER_METHOD(0x01BD8990, void, set_ServerCertificateValidationCallback, (app::RemoteCertificateValidationCallback * value));
 IL2CPP_REGISTER_METHOD(0x00420EE0, EncryptionPolicy__Enum, get_EncryptionPolicy, ());
 IL2CPP_REGISTER_METHOD(0x01BD8B60, bool, get_Expect100Continue, ());
 IL2CPP_REGISTER_METHOD(0x01BD8C00, void, set_Expect100Continue, (bool value));
@@ -39,11 +39,11 @@ IL2CPP_REGISTER_METHOD(0x01BD8CB0, bool, get_UseNagleAlgorithm, ());
 IL2CPP_REGISTER_METHOD(0x01BD8D50, void, set_UseNagleAlgorithm, (bool value));
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DisableStrongCrypto, ());
 IL2CPP_REGISTER_METHOD(0x00417870, bool, get_DisableSendAuxRecord, ());
-IL2CPP_REGISTER_METHOD(0x01BD8E00, void, SetTcpKeepAlive, (bool enabled, int32_t keepAliveTime, int32_t keepAliveInterval));
+IL2CPP_REGISTER_METHOD(0x01BD8E00, void, SetTcpKeepAlive, (bool enabled, int32_t keep_alive_time, int32_t keep_alive_interval));
 IL2CPP_REGISTER_METHODINFO(0x0476A190, ServicePointManager_SetTcpKeepAlive__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01BD8F60, ServicePoint *, FindServicePoint, (Uri * address));
-IL2CPP_REGISTER_METHOD(0x01BD9000, ServicePoint *, FindServicePoint, (String * uriString, IWebProxy * proxy));
-IL2CPP_REGISTER_METHOD(0x01BD9180, ServicePoint *, FindServicePoint, (Uri * address, IWebProxy * proxy));
+IL2CPP_REGISTER_METHOD(0x01BD8F60, ServicePoint *, FindServicePoint_1, (app::Uri * address));
+IL2CPP_REGISTER_METHOD(0x01BD9000, ServicePoint *, FindServicePoint_2, (app::String * uri_string, app::IWebProxy * proxy));
+IL2CPP_REGISTER_METHOD(0x01BD9180, ServicePoint *, FindServicePoint_3, (app::Uri * address, app::IWebProxy * proxy));
 IL2CPP_REGISTER_METHODINFO(0x04751A98, ServicePointManager_FindServicePoint_2__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01BD9C30, void, CloseConnectionGroup, (String * connectionGroupName));
+IL2CPP_REGISTER_METHOD(0x01BD9C30, void, CloseConnectionGroup, (app::String * connection_group_name));
 }

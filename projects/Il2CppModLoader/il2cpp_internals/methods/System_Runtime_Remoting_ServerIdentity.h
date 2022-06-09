@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Remoting::ServerIdentity {
-IL2CPP_REGISTER_METHOD(0x01D836D0, void, __ctor, (ServerIdentity * __this, String * objectUri, Context * context, Type * objectType));
-IL2CPP_REGISTER_METHOD(0x002FB9F0, Type *, get_ObjectType, (ServerIdentity * __this));
-IL2CPP_REGISTER_METHOD(0x01D836E0, void, StartTrackingLifetime, (ServerIdentity * __this, ILease * lease));
-IL2CPP_REGISTER_METHOD(0x01D839B0, void, OnLifetimeExpired, (ServerIdentity * __this));
-IL2CPP_REGISTER_METHOD(0x01D839C0, ObjRef *, CreateObjRef, (ServerIdentity * __this, Type * requestedType));
-IL2CPP_REGISTER_METHOD(0x01D83DB0, void, AttachServerObject, (ServerIdentity * __this, MarshalByRefObject * serverObject, Context * context));
-IL2CPP_REGISTER_METHOD(0x002FBBA0, Lease *, get_Lease, (ServerIdentity * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB80, Context *, get_Context, (ServerIdentity * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_Context, (ServerIdentity * __this, Context * value));
-IL2CPP_REGISTER_METHOD(0x01D83E70, void, DisposeServerObject, (ServerIdentity * __this));
+namespace app::methods::System_Runtime_Remoting::ServerIdentity {
+IL2CPP_REGISTER_METHOD(0x01D836D0, void, __ctor, (app::ServerIdentity * this_ptr, app::String * object_uri, app::Context * context, app::Type * object_type));
+IL2CPP_REGISTER_METHOD(0x002FB9F0, Type *, get_ObjectType, (app::ServerIdentity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D836E0, void, StartTrackingLifetime, (app::ServerIdentity * this_ptr, app::ILease * lease));
+IL2CPP_REGISTER_METHOD(0x01D839B0, void, OnLifetimeExpired, (app::ServerIdentity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D839C0, ObjRef *, CreateObjRef, (app::ServerIdentity * this_ptr, app::Type * requested_type));
+IL2CPP_REGISTER_METHOD(0x01D83DB0, void, AttachServerObject, (app::ServerIdentity * this_ptr, app::MarshalByRefObject * server_object, app::Context * context));
+IL2CPP_REGISTER_METHOD(0x002FBBA0, Lease *, get_Lease, (app::ServerIdentity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB80, Context *, get_Context, (app::ServerIdentity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB90, void, set_Context, (app::ServerIdentity * this_ptr, app::Context * value));
+IL2CPP_REGISTER_METHOD(0x01D83E70, void, DisposeServerObject, (app::ServerIdentity * this_ptr));
 }

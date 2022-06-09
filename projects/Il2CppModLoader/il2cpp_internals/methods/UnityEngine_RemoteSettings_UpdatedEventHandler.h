@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::RemoteSettings_UpdatedEventHandler {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (RemoteSettings_UpdatedEventHandler * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (RemoteSettings_UpdatedEventHandler * __this));
-IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (RemoteSettings_UpdatedEventHandler * __this, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (RemoteSettings_UpdatedEventHandler * __this, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::RemoteSettings_UpdatedEventHandler * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (app::RemoteSettings_UpdatedEventHandler * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (app::RemoteSettings_UpdatedEventHandler * this_ptr, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::RemoteSettings_UpdatedEventHandler * this_ptr, app::IAsyncResult * result));
 }

@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
 namespace app::methods::_ArrayPoolSpatialAudio {
-IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (_ArrayPoolSpatialAudio * __this, void * cPtr, bool cMemoryOwn));
-IL2CPP_REGISTER_METHOD(0x0271BFC0, void *, getCPtr, (_ArrayPoolSpatialAudio * obj));
-IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (_ArrayPoolSpatialAudio * __this, void * cPtr));
-IL2CPP_REGISTER_METHOD(0x0271C050, void, Finalize, (_ArrayPoolSpatialAudio * __this));
-IL2CPP_REGISTER_METHOD(0x0271C0D0, void, Dispose, (_ArrayPoolSpatialAudio * __this));
+IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor_1, (app::_ArrayPoolSpatialAudio * this_ptr, app::void * c_ptr, bool c_memory_own));
+IL2CPP_REGISTER_METHOD(0x0271BFC0, void *, getCPtr, (app::_ArrayPoolSpatialAudio * obj));
+IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (app::_ArrayPoolSpatialAudio * this_ptr, app::void * c_ptr));
+IL2CPP_REGISTER_METHOD(0x0271C050, void, Finalize, (app::_ArrayPoolSpatialAudio * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0271C0D0, void, Dispose, (app::_ArrayPoolSpatialAudio * this_ptr));
 IL2CPP_REGISTER_METHOD(0x0271C2E0, int32_t, Get, ());
-IL2CPP_REGISTER_METHOD(0x0271C3F0, void, __ctor, (_ArrayPoolSpatialAudio * __this));
+IL2CPP_REGISTER_METHOD(0x0271C3F0, void, __ctor_2, (app::_ArrayPoolSpatialAudio * this_ptr));
 }

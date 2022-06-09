@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::SoundCompositionTransition_FadeInformation {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SoundCompositionTransition_FadeInformation * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SoundCompositionTransition_FadeInformation * this_ptr));
 }

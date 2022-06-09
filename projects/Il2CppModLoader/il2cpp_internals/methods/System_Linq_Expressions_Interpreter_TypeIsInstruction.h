@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::TypeIsInstruction {
-IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (TypeIsInstruction * __this, Type * type));
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ConsumedStack, (TypeIsInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ProducedStack, (TypeIsInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x02415950, String *, get_InstructionName, (TypeIsInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x024159D0, int32_t, Run, (TypeIsInstruction * __this, InterpretedFrame * frame));
-IL2CPP_REGISTER_METHOD(0x02415A60, String *, ToString, (TypeIsInstruction * __this));
+namespace app::methods::System_Linq_Expressions_Interpreter::TypeIsInstruction {
+IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (app::TypeIsInstruction * this_ptr, app::Type * type));
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ConsumedStack, (app::TypeIsInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ProducedStack, (app::TypeIsInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02415950, String *, get_InstructionName, (app::TypeIsInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x024159D0, int32_t, Run, (app::TypeIsInstruction * this_ptr, app::InterpretedFrame * frame));
+IL2CPP_REGISTER_METHOD(0x02415A60, String *, ToString, (app::TypeIsInstruction * this_ptr));
 }

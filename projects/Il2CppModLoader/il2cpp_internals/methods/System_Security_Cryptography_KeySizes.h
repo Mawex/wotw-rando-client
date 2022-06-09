@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Security::Cryptography::KeySizes {
-IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_MinSize, (KeySizes * __this));
-IL2CPP_REGISTER_METHOD(0x00CC59E0, int32_t, get_MaxSize, (KeySizes * __this));
-IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_SkipSize, (KeySizes * __this));
-IL2CPP_REGISTER_METHOD(0x0133CEF0, void, __ctor, (KeySizes * __this, int32_t minSize, int32_t maxSize, int32_t skipSize));
-IL2CPP_REGISTER_METHOD(0x020DBE90, bool, IsLegal, (KeySizes * __this, int32_t keySize));
-IL2CPP_REGISTER_METHOD(0x020DBEC0, bool, IsLegalKeySize, (KeySizes__Array * legalKeys, int32_t size));
+namespace app::methods::System_Security_Cryptography::KeySizes {
+IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_MinSize, (app::KeySizes * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CC59E0, int32_t, get_MaxSize, (app::KeySizes * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_SkipSize, (app::KeySizes * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0133CEF0, void, __ctor, (app::KeySizes * this_ptr, int32_t min_size, int32_t max_size, int32_t skip_size));
+IL2CPP_REGISTER_METHOD(0x020DBE90, bool, IsLegal, (app::KeySizes * this_ptr, int32_t key_size));
+IL2CPP_REGISTER_METHOD(0x020DBEC0, bool, IsLegalKeySize, (app::KeySizes__Array * legal_keys, int32_t size));
 }

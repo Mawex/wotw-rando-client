@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Security::Cryptography::RSAPKCS1SignatureDescription {
-IL2CPP_REGISTER_METHOD(0x028ED5C0, void, __ctor, (RSAPKCS1SignatureDescription * __this, String * hashAlgorithm, String * digestAlgorithm));
-IL2CPP_REGISTER_METHOD(0x028ED670, AsymmetricSignatureDeformatter *, CreateDeformatter, (RSAPKCS1SignatureDescription * __this, AsymmetricAlgorithm * key));
-IL2CPP_REGISTER_METHOD(0x028ED790, AsymmetricSignatureFormatter *, CreateFormatter, (RSAPKCS1SignatureDescription * __this, AsymmetricAlgorithm * key));
+namespace app::methods::System_Security_Cryptography::RSAPKCS1SignatureDescription {
+IL2CPP_REGISTER_METHOD(0x028ED5C0, void, __ctor, (app::RSAPKCS1SignatureDescription * this_ptr, app::String * hash_algorithm, app::String * digest_algorithm));
+IL2CPP_REGISTER_METHOD(0x028ED670, AsymmetricSignatureDeformatter *, CreateDeformatter, (app::RSAPKCS1SignatureDescription * this_ptr, app::AsymmetricAlgorithm * key));
+IL2CPP_REGISTER_METHOD(0x028ED790, AsymmetricSignatureFormatter *, CreateFormatter, (app::RSAPKCS1SignatureDescription * this_ptr, app::AsymmetricAlgorithm * key));
 }

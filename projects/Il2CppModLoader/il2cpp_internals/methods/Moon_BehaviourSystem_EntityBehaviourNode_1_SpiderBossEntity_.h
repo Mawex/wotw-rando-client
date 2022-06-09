@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::BehaviourSystem::EntityBehaviourNode_1_SpiderBossEntity_ {
-IL2CPP_REGISTER_METHOD(0x0271C510, SpiderBossEntity *, get_Entity, (EntityBehaviourNode_1_SpiderBossEntity_ * __this));
+namespace app::methods::Moon_BehaviourSystem::EntityBehaviourNode_1_SpiderBossEntity_ {
+IL2CPP_REGISTER_METHOD(0x0271C510, SpiderBossEntity *, get_Entity, (app::EntityBehaviourNode_1_SpiderBossEntity_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0473C248, EntityBehaviourNode_1_SpiderBossEntity__get_Entity__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0271C5B0, void, __ctor, (EntityBehaviourNode_1_SpiderBossEntity_ * __this));
+IL2CPP_REGISTER_METHOD(0x0271C5B0, void, __ctor, (app::EntityBehaviourNode_1_SpiderBossEntity_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0477F3B0, EntityBehaviourNode_1_SpiderBossEntity___ctor__MethodInfo);
 }

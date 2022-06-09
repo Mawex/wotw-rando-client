@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::BanRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (BanRequest * __this));
+namespace app::methods::PlayFab_ServerModels::BanRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::BanRequest * this_ptr));
 }

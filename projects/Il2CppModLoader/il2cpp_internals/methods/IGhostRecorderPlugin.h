@@ -1,18 +1,18 @@
 #include <interception_macros.h>
 
 namespace app::methods::IGhostRecorderPlugin {
-IL2CPP_REGISTER_METHOD(0x002FA280, GhostRecorder *, get_Recorder, (IGhostRecorderPlugin * __this));
-IL2CPP_REGISTER_METHOD(0x002FB930, GhostPlayer *, get_Player, (IGhostRecorderPlugin * __this));
-IL2CPP_REGISTER_METHOD(0x00B6FFA0, void, InitializeFast, (IGhostRecorderPlugin * __this, GhostFrame_FrameDataTypes__Enum typ));
-IL2CPP_REGISTER_METHOD(0x00B70060, void, HandleNextFrameLogicFast, (IGhostRecorderPlugin * __this, float time, GhostFrame_FrameDataTypes__Enum typ));
-IL2CPP_REGISTER_METHOD(0x00B701E0, void, OnRegister, (IGhostRecorderPlugin * __this, GhostRecorder * recorder));
-IL2CPP_REGISTER_METHOD(0x00B701F0, void, OnRegister, (IGhostRecorderPlugin * __this, GhostPlayer * player));
-IL2CPP_REGISTER_METHOD(0x00B70200, void, OnUnregister, (IGhostRecorderPlugin * __this));
-IL2CPP_REGISTER_METHOD(0x00B70210, int32_t, FindNextFrameFast, (IGhostRecorderPlugin * __this, GhostFrame_FrameDataTypes__Enum typ));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStopRecording, (IGhostRecorderPlugin * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStartRecording, (IGhostRecorderPlugin * __this, PreRecordingData * preRecordingData));
-IL2CPP_REGISTER_METHOD(0x007E59B0, void, __ctor, (IGhostRecorderPlugin * __this));
-IL2CPP_REGISTER_METHOD(0x01549FB0, void, Initialize, (IGhostRecorderPlugin * __this));
-IL2CPP_REGISTER_METHOD(0x01549EE0, void, HandleNextFrameLogic, (IGhostRecorderPlugin * __this, float time));
-IL2CPP_REGISTER_METHOD(0x02654C00, int32_t, FindNextFrame, (IGhostRecorderPlugin * __this));
+IL2CPP_REGISTER_METHOD(0x002FA280, GhostRecorder *, get_Recorder, (app::IGhostRecorderPlugin * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB930, GhostPlayer *, get_Player, (app::IGhostRecorderPlugin * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00B6FFA0, void, InitializeFast, (app::IGhostRecorderPlugin * this_ptr, app::GhostFrame_FrameDataTypes__Enum typ));
+IL2CPP_REGISTER_METHOD(0x00B70060, void, HandleNextFrameLogicFast, (app::IGhostRecorderPlugin * this_ptr, float time, app::GhostFrame_FrameDataTypes__Enum typ));
+IL2CPP_REGISTER_METHOD(0x00B701E0, void, OnRegister_1, (app::IGhostRecorderPlugin * this_ptr, app::GhostRecorder * recorder));
+IL2CPP_REGISTER_METHOD(0x00B701F0, void, OnRegister_2, (app::IGhostRecorderPlugin * this_ptr, app::GhostPlayer * player));
+IL2CPP_REGISTER_METHOD(0x00B70200, void, OnUnregister, (app::IGhostRecorderPlugin * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00B70210, int32_t, FindNextFrameFast, (app::IGhostRecorderPlugin * this_ptr, app::GhostFrame_FrameDataTypes__Enum typ));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStopRecording, (app::IGhostRecorderPlugin * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStartRecording, (app::IGhostRecorderPlugin * this_ptr, app::PreRecordingData * pre_recording_data));
+IL2CPP_REGISTER_METHOD(0x007E59B0, void, __ctor, (app::IGhostRecorderPlugin * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01549FB0, void, Initialize, (app::IGhostRecorderPlugin * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01549EE0, void, HandleNextFrameLogic, (app::IGhostRecorderPlugin * this_ptr, float time));
+IL2CPP_REGISTER_METHOD(0x02654C00, int32_t, FindNextFrame, (app::IGhostRecorderPlugin * this_ptr));
 }

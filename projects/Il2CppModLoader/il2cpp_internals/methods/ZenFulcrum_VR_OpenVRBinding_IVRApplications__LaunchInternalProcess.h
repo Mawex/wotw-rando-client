@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRApplications__LaunchInternalProcess {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRApplications_LaunchInternalProcess * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02F3EFE0, EVRApplicationError__Enum, Invoke, (IVRApplications_LaunchInternalProcess * __this, String * pchBinaryPath, String * pchArguments, String * pchWorkingDirectory));
-IL2CPP_REGISTER_METHOD(0x00DC7DB0, IAsyncResult *, BeginInvoke, (IVRApplications_LaunchInternalProcess * __this, String * pchBinaryPath, String * pchArguments, String * pchWorkingDirectory, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F550D0, EVRApplicationError__Enum, EndInvoke, (IVRApplications_LaunchInternalProcess * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRApplications__LaunchInternalProcess {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRApplications_LaunchInternalProcess * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02F3EFE0, EVRApplicationError__Enum, Invoke, (app::IVRApplications_LaunchInternalProcess * this_ptr, app::String * pch_binary_path, app::String * pch_arguments, app::String * pch_working_directory));
+IL2CPP_REGISTER_METHOD(0x00DC7DB0, IAsyncResult *, BeginInvoke, (app::IVRApplications_LaunchInternalProcess * this_ptr, app::String * pch_binary_path, app::String * pch_arguments, app::String * pch_working_directory, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F550D0, EVRApplicationError__Enum, EndInvoke, (app::IVRApplications_LaunchInternalProcess * this_ptr, app::IAsyncResult * result));
 }

@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::IPv6AddressFormatter {
-IL2CPP_REGISTER_METHOD(0x00110270, void, __ctor, (IPv6AddressFormatter__Boxed * __this, UInt16__Array * addr, int64_t scopeId));
+namespace app::methods::System_Net::IPv6AddressFormatter {
+IL2CPP_REGISTER_METHOD(0x00110270, void, __ctor, (app::IPv6AddressFormatter__Boxed * this_ptr, app::UInt16__Array * addr, int64_t scope_id));
 IL2CPP_REGISTER_METHOD(0x01E69DB0, uint16_t, SwapUShort, (uint16_t number));
-IL2CPP_REGISTER_METHOD(0x001D7240, uint32_t, AsIPv4Int, (IPv6AddressFormatter__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001D7250, bool, IsIPv4Compatible, (IPv6AddressFormatter__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001D7260, bool, IsIPv4Mapped, (IPv6AddressFormatter__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001D7270, String *, ToString, (IPv6AddressFormatter__Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001D7240, uint32_t, AsIPv4Int, (app::IPv6AddressFormatter__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001D7250, bool, IsIPv4Compatible, (app::IPv6AddressFormatter__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001D7260, bool, IsIPv4Mapped, (app::IPv6AddressFormatter__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001D7270, String *, ToString, (app::IPv6AddressFormatter__Boxed * this_ptr));
 }

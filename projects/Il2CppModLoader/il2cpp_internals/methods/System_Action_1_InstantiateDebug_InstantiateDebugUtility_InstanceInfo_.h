@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Action_1_InstantiateDebug::InstantiateDebugUtility_InstanceInfo_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x029FD190, void, Invoke, (Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, InstantiateDebugUtility_InstanceInfo obj));
-IL2CPP_REGISTER_METHOD(0x029FE480, IAsyncResult *, BeginInvoke, (Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, InstantiateDebugUtility_InstanceInfo obj, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * __this, IAsyncResult * result));
+namespace app::methods::System::Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x029FD190, void, Invoke, (app::Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * this_ptr, app::InstantiateDebugUtility_InstanceInfo obj));
+IL2CPP_REGISTER_METHOD(0x029FE480, IAsyncResult *, BeginInvoke, (app::Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * this_ptr, app::InstantiateDebugUtility_InstanceInfo obj, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::Action_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * this_ptr, app::IAsyncResult * result));
 }

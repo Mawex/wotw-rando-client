@@ -1,21 +1,21 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::XmlDocumentFragment {
-IL2CPP_REGISTER_METHOD(0x01DAAEE0, void, __ctor, (XmlDocumentFragment * __this, XmlDocument * ownerDocument));
+namespace app::methods::System_Xml::XmlDocumentFragment {
+IL2CPP_REGISTER_METHOD(0x01DAAEE0, void, __ctor, (app::XmlDocumentFragment * this_ptr, app::XmlDocument * owner_document));
 IL2CPP_REGISTER_METHODINFO(0x047885A8, XmlDocumentFragment__ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01DAAFB0, String *, get_Name, (XmlDocumentFragment * __this));
-IL2CPP_REGISTER_METHOD(0x01DAAFB0, String *, get_LocalName, (XmlDocumentFragment * __this));
-IL2CPP_REGISTER_METHOD(0x004FA040, XmlNodeType__Enum, get_NodeType, (XmlDocumentFragment * __this));
-IL2CPP_REGISTER_METHOD(0x00420EE0, XmlNode *, get_ParentNode, (XmlDocumentFragment * __this));
-IL2CPP_REGISTER_METHOD(0x01DAAFE0, XmlDocument *, get_OwnerDocument, (XmlDocumentFragment * __this));
-IL2CPP_REGISTER_METHOD(0x01DAB0B0, void, set_InnerXml, (XmlDocumentFragment * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x01DAB230, XmlNode *, CloneNode, (XmlDocumentFragment * __this, bool deep));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsContainer, (XmlDocumentFragment * __this));
-IL2CPP_REGISTER_METHOD(0x002FB930, XmlLinkedNode *, get_LastNode, (XmlDocumentFragment * __this));
-IL2CPP_REGISTER_METHOD(0x002FB940, void, set_LastNode, (XmlDocumentFragment * __this, XmlLinkedNode * value));
-IL2CPP_REGISTER_METHOD(0x01DAB2D0, bool, IsValidChildType, (XmlDocumentFragment * __this, XmlNodeType__Enum type));
-IL2CPP_REGISTER_METHOD(0x01DAB380, bool, CanInsertAfter, (XmlDocumentFragment * __this, XmlNode * newChild, XmlNode * refChild));
-IL2CPP_REGISTER_METHOD(0x01DAB400, bool, CanInsertBefore, (XmlDocumentFragment * __this, XmlNode * newChild, XmlNode * refChild));
-IL2CPP_REGISTER_METHOD(0x01971EE0, void, WriteTo, (XmlDocumentFragment * __this, XmlWriter * w));
-IL2CPP_REGISTER_METHOD(0x01DAB470, void, WriteContentTo, (XmlDocumentFragment * __this, XmlWriter * w));
+IL2CPP_REGISTER_METHOD(0x01DAAFB0, String *, get_Name, (app::XmlDocumentFragment * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01DAAFB0, String *, get_LocalName, (app::XmlDocumentFragment * this_ptr));
+IL2CPP_REGISTER_METHOD(0x004FA040, XmlNodeType__Enum, get_NodeType, (app::XmlDocumentFragment * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00420EE0, XmlNode *, get_ParentNode, (app::XmlDocumentFragment * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01DAAFE0, XmlDocument *, get_OwnerDocument, (app::XmlDocumentFragment * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01DAB0B0, void, set_InnerXml, (app::XmlDocumentFragment * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x01DAB230, XmlNode *, CloneNode, (app::XmlDocumentFragment * this_ptr, bool deep));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_IsContainer, (app::XmlDocumentFragment * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB930, XmlLinkedNode *, get_LastNode, (app::XmlDocumentFragment * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB940, void, set_LastNode, (app::XmlDocumentFragment * this_ptr, app::XmlLinkedNode * value));
+IL2CPP_REGISTER_METHOD(0x01DAB2D0, bool, IsValidChildType, (app::XmlDocumentFragment * this_ptr, app::XmlNodeType__Enum type));
+IL2CPP_REGISTER_METHOD(0x01DAB380, bool, CanInsertAfter, (app::XmlDocumentFragment * this_ptr, app::XmlNode * new_child, app::XmlNode * ref_child));
+IL2CPP_REGISTER_METHOD(0x01DAB400, bool, CanInsertBefore, (app::XmlDocumentFragment * this_ptr, app::XmlNode * new_child, app::XmlNode * ref_child));
+IL2CPP_REGISTER_METHOD(0x01971EE0, void, WriteTo, (app::XmlDocumentFragment * this_ptr, app::XmlWriter * w));
+IL2CPP_REGISTER_METHOD(0x01DAB470, void, WriteContentTo, (app::XmlDocumentFragment * this_ptr, app::XmlWriter * w));
 }

@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityStandardAssets::CinematicEffects::Bloom_Settings {
-IL2CPP_REGISTER_METHOD(0x00115B30, void, set_thresholdGamma, (Bloom_Settings__Boxed * __this, float value));
-IL2CPP_REGISTER_METHOD(0x001F0710, float, get_thresholdGamma, (Bloom_Settings__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001F0720, void, set_thresholdLinear, (Bloom_Settings__Boxed * __this, float value));
-IL2CPP_REGISTER_METHOD(0x001F0810, float, get_thresholdLinear, (Bloom_Settings__Boxed * __this));
+namespace app::methods::UnityStandardAssets_CinematicEffects::Bloom_Settings {
+IL2CPP_REGISTER_METHOD(0x00115B30, void, set_thresholdGamma, (app::Bloom_Settings__Boxed * this_ptr, float value));
+IL2CPP_REGISTER_METHOD(0x001F0710, float, get_thresholdGamma, (app::Bloom_Settings__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001F0720, void, set_thresholdLinear, (app::Bloom_Settings__Boxed * this_ptr, float value));
+IL2CPP_REGISTER_METHOD(0x001F0810, float, get_thresholdLinear, (app::Bloom_Settings__Boxed * this_ptr));
 IL2CPP_REGISTER_METHOD(0x02500B30, Bloom_Settings, get_defaultSettings, ());
-IL2CPP_REGISTER_METHOD(0x02500B80, Bloom_Settings, Clone, (Bloom_Settings from));
+IL2CPP_REGISTER_METHOD(0x02500B80, Bloom_Settings, Clone, (app::Bloom_Settings from));
 }

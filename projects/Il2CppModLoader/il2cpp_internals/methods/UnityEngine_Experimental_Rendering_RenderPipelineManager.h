@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Experimental::Rendering::RenderPipelineManager {
+namespace app::methods::UnityEngine_Experimental_Rendering::RenderPipelineManager {
 IL2CPP_REGISTER_METHOD(0x02523610, IRenderPipeline *, get_currentPipeline, ());
-IL2CPP_REGISTER_METHOD(0x02523690, void, set_currentPipeline, (IRenderPipeline * value));
+IL2CPP_REGISTER_METHOD(0x02523690, void, set_currentPipeline, (app::IRenderPipeline * value));
 IL2CPP_REGISTER_METHOD(0x02523720, void, CleanupRenderPipeline, ());
-IL2CPP_REGISTER_METHOD(0x02523970, void, DoRenderLoop_Internal, (IRenderPipelineAsset * pipe, Camera__Array * cameras, void * loopPtr));
-IL2CPP_REGISTER_METHOD(0x02523BB0, void, PrepareRenderPipeline, (IRenderPipelineAsset * pipe));
+IL2CPP_REGISTER_METHOD(0x02523970, void, DoRenderLoop_Internal, (app::IRenderPipelineAsset * pipe, app::Camera__Array * cameras, app::void * loop_ptr));
+IL2CPP_REGISTER_METHOD(0x02523BB0, void, PrepareRenderPipeline, (app::IRenderPipelineAsset * pipe));
 }

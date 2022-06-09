@@ -1,24 +1,24 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Wwise::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ {
-IL2CPP_REGISTER_METHOD(0x02AF6B80, void, __ctor, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
+namespace app::methods::Moon_Wwise::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ {
+IL2CPP_REGISTER_METHOD(0x02AF6B80, void, __ctor, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0473AEC8, ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData___ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00654950, int32_t, get_ActiveListenerZones, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x015B78B0, int32_t, get_MaxListenerZones, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x00998570, int32_t, get_ActiveEmitterZones, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x023153B0, int32_t, get_MaxEmitterZones, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x02AF52A0, EmitterSoundZoneTaskData, InitializeEmitterZoneTask, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, EmitterSoundZoneTaskData zone, AudioEmitterZone * audioEmitterZone));
-IL2CPP_REGISTER_METHOD(0x02AF52A0, ListenerSoundZoneTaskData, InitializeListenerZoneTask, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, ListenerSoundZoneTaskData data, AudioListenerZone * audioListenerZone));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, TearDownListenerZoneTask, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, ListenerSoundZoneTaskData data, AudioListenerZoneReference zone, PositionSyncTask__Array * positionTasks, int32_t validPositionTasksSize));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, TearDownEmitterZoneTask, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, EmitterSoundZoneTaskData data, AudioEmitterZoneReference zone, PositionSyncTask__Array * positionTasks, int32_t validPositionTasksSize));
-IL2CPP_REGISTER_METHOD(0x02AF52E0, void, Update, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, PositionSyncTask__Array * positionTasks, int32_t validPositionTasksSize));
-IL2CPP_REGISTER_METHOD(0x02AF5360, void, ResetFirstUpdateTask, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x02AF5460, void, ClearInvalidTasks, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x02AF5940, void, ResetListener, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, SoundListener * listener, PositionSyncTask__Array * positionTasks));
-IL2CPP_REGISTER_METHOD(0x02AF5980, void, Initialize, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, AkWwiseInitializationSettings * config));
-IL2CPP_REGISTER_METHOD(0x02AF5EC0, void, RegisterListenerZoneTask, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, AudioListenerZone * zone, int32_t frameQuantization));
-IL2CPP_REGISTER_METHOD(0x02AF6180, void, RegisterEmitterZoneTask, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this, AudioEmitterZone * zone, int32_t frameQuantization));
-IL2CPP_REGISTER_METHOD(0x02AF6460, void, DefragmentStructures, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x02AF64C0, void, DefragmentEmitterZones, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
-IL2CPP_REGISTER_METHOD(0x02AF6820, void, DefragmentListenerZones, (ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * __this));
+IL2CPP_REGISTER_METHOD(0x00654950, int32_t, get_ActiveListenerZones, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x015B78B0, int32_t, get_MaxListenerZones, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00998570, int32_t, get_ActiveEmitterZones, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x023153B0, int32_t, get_MaxEmitterZones, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02AF52A0, EmitterSoundZoneTaskData, InitializeEmitterZoneTask, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::EmitterSoundZoneTaskData zone, app::AudioEmitterZone * audio_emitter_zone));
+IL2CPP_REGISTER_METHOD(0x02AF52A0, ListenerSoundZoneTaskData, InitializeListenerZoneTask, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::ListenerSoundZoneTaskData data, app::AudioListenerZone * audio_listener_zone));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, TearDownListenerZoneTask, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::ListenerSoundZoneTaskData data, app::AudioListenerZoneReference zone, app::PositionSyncTask__Array * position_tasks, int32_t valid_position_tasks_size));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, TearDownEmitterZoneTask, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::EmitterSoundZoneTaskData data, app::AudioEmitterZoneReference zone, app::PositionSyncTask__Array * position_tasks, int32_t valid_position_tasks_size));
+IL2CPP_REGISTER_METHOD(0x02AF52E0, void, Update, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::PositionSyncTask__Array * position_tasks, int32_t valid_position_tasks_size));
+IL2CPP_REGISTER_METHOD(0x02AF5360, void, ResetFirstUpdateTask, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02AF5460, void, ClearInvalidTasks, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02AF5940, void, ResetListener, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::SoundListener * listener, app::PositionSyncTask__Array * position_tasks));
+IL2CPP_REGISTER_METHOD(0x02AF5980, void, Initialize, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::AkWwiseInitializationSettings * config));
+IL2CPP_REGISTER_METHOD(0x02AF5EC0, void, RegisterListenerZoneTask, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::AudioListenerZone * zone, int32_t frame_quantization));
+IL2CPP_REGISTER_METHOD(0x02AF6180, void, RegisterEmitterZoneTask, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr, app::AudioEmitterZone * zone, int32_t frame_quantization));
+IL2CPP_REGISTER_METHOD(0x02AF6460, void, DefragmentStructures, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02AF64C0, void, DefragmentEmitterZones, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02AF6820, void, DefragmentListenerZones, (app::ZoneProcessor_2_ListenerSoundZoneTaskData_EmitterSoundZoneTaskData_ * this_ptr));
 }

@@ -1,18 +1,18 @@
 #include <interception_macros.h>
 
 namespace app::methods::UberExplosionAnimator {
-IL2CPP_REGISTER_METHOD(0x013E87A0, Transform *, get_Actor, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E8880, void, UpdateDirectionVector, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E8B40, void, OnUpdateEntity, (UberExplosionAnimator * __this, float deltaTime));
-IL2CPP_REGISTER_METHOD(0x013E8BA0, void, OnStartPlayback, (UberExplosionAnimator * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStopPlayback, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDisable, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E8BE0, void, OnStartWhenPlaybackOrPreview, (UberExplosionAnimator * __this, float time));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStopWhenPlaybackOrPreview, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E8C10, void, UpdateAtTime, (UberExplosionAnimator * __this, float timeValue));
-IL2CPP_REGISTER_METHOD(0x013E8C70, void, ExplodeAtCurrentTime, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E8CD0, void, Explode, (UberExplosionAnimator * __this, float weight, float startTime, bool forcePlay));
-IL2CPP_REGISTER_METHOD(0x013E90F0, bool, InArcMode, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E9100, void, OnDrawGizmosSelected, (UberExplosionAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x013E93E0, void, __ctor, (UberExplosionAnimator * __this));
+IL2CPP_REGISTER_METHOD(0x013E87A0, Transform *, get_Actor, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x013E8880, void, UpdateDirectionVector, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x013E8B40, void, OnUpdateEntity, (app::UberExplosionAnimator * this_ptr, float delta_time));
+IL2CPP_REGISTER_METHOD(0x013E8BA0, void, OnStartPlayback, (app::UberExplosionAnimator * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStopPlayback, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDisable, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x013E8BE0, void, OnStartWhenPlaybackOrPreview, (app::UberExplosionAnimator * this_ptr, float time));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnStopWhenPlaybackOrPreview, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x013E8C10, void, UpdateAtTime, (app::UberExplosionAnimator * this_ptr, float time_value));
+IL2CPP_REGISTER_METHOD(0x013E8C70, void, ExplodeAtCurrentTime, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x013E8CD0, void, Explode, (app::UberExplosionAnimator * this_ptr, float weight, float start_time, bool force_play));
+IL2CPP_REGISTER_METHOD(0x013E90F0, bool, InArcMode, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x013E9100, void, OnDrawGizmosSelected, (app::UberExplosionAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x013E93E0, void, __ctor, (app::UberExplosionAnimator * this_ptr));
 }

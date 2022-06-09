@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::EmbeddedBrowser::BrowserNative_Calltype_zfb_evalJS {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (BrowserNative_Calltype_zfb_evalJS * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01C795D0, void, Invoke, (BrowserNative_Calltype_zfb_evalJS * __this, int32_t id, String * script, String * scriptURL));
-IL2CPP_REGISTER_METHOD(0x01C79950, IAsyncResult *, BeginInvoke, (BrowserNative_Calltype_zfb_evalJS * __this, int32_t id, String * script, String * scriptURL, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (BrowserNative_Calltype_zfb_evalJS * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_EmbeddedBrowser::BrowserNative_Calltype_zfb_evalJS {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::BrowserNative_Calltype_zfb_evalJS * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01C795D0, void, Invoke, (app::BrowserNative_Calltype_zfb_evalJS * this_ptr, int32_t id, app::String * script, app::String * script_u_r_l));
+IL2CPP_REGISTER_METHOD(0x01C79950, IAsyncResult *, BeginInvoke, (app::BrowserNative_Calltype_zfb_evalJS * this_ptr, int32_t id, app::String * script, app::String * script_u_r_l, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::BrowserNative_Calltype_zfb_evalJS * this_ptr, app::IAsyncResult * result));
 }

@@ -1,27 +1,27 @@
 #include <interception_macros.h>
 
-namespace app::methods::SystemIntegration::Synchronizer::Achievements::XalAchievements {
-IL2CPP_REGISTER_METHOD(0x0052F860, String *, get_Name, (XalAchievements * __this));
-IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_IsSynchronising, (XalAchievements * __this));
-IL2CPP_REGISTER_METHOD(0x0052C650, void, set_IsSynchronising, (XalAchievements * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00504D80, bool, get_HasSynchronised, (XalAchievements * __this));
-IL2CPP_REGISTER_METHOD(0x0052C660, void, set_HasSynchronised, (XalAchievements * __this, bool value));
+namespace app::methods::SystemIntegration_Synchronizer_Achievements::XalAchievements {
+IL2CPP_REGISTER_METHOD(0x0052F860, String *, get_Name, (app::XalAchievements * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_IsSynchronising, (app::XalAchievements * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052C650, void, set_IsSynchronising, (app::XalAchievements * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x00504D80, bool, get_HasSynchronised, (app::XalAchievements * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052C660, void, set_HasSynchronised, (app::XalAchievements * this_ptr, bool value));
 IL2CPP_REGISTER_METHOD(0x0052F8E0, bool, get_Disable, ());
 IL2CPP_REGISTER_METHOD(0x0052F960, void, set_Disable, (bool value));
-IL2CPP_REGISTER_METHOD(0x002FB930, CacheData__Array *, AwardedOnServer, (XalAchievements * __this));
-IL2CPP_REGISTER_METHOD(0x0052F9F0, void, AwardOnServer, (XalAchievements * __this, CacheData * data));
-IL2CPP_REGISTER_METHOD(0x00530520, void, AchievementSetComplete, (XalAchievements * __this, String * json, CacheData * data));
-IL2CPP_REGISTER_METHOD(0x00530790, void, UpdateFromServer, (XalAchievements * __this));
-IL2CPP_REGISTER_METHOD(0x00530CF0, void, AchievementGetComplete, (XalAchievements * __this, String * json));
+IL2CPP_REGISTER_METHOD(0x002FB930, CacheData__Array *, AwardedOnServer, (app::XalAchievements * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052F9F0, void, AwardOnServer, (app::XalAchievements * this_ptr, app::CacheData * data));
+IL2CPP_REGISTER_METHOD(0x00530520, void, AchievementSetComplete, (app::XalAchievements * this_ptr, app::String * json, app::CacheData * data));
+IL2CPP_REGISTER_METHOD(0x00530790, void, UpdateFromServer, (app::XalAchievements * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00530CF0, void, AchievementGetComplete, (app::XalAchievements * this_ptr, app::String * json));
 IL2CPP_REGISTER_METHODINFO(0x047257F8, XalAchievements_AchievementGetComplete__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00531180, void, HeaderAndArgsForGetAchievements, (String * fullAddress, String * method_1, String * body, List_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * * headers, XalUserGetTokenAndSignatureArgs * args));
-IL2CPP_REGISTER_METHOD(0x00531660, void, OnError, (XalAchievements * __this, Object * error));
+IL2CPP_REGISTER_METHOD(0x00531180, void, HeaderAndArgsForGetAchievements, (app::String * full_address, app::String * method_1, app::String * body, app::List_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * * headers, app::XalUserGetTokenAndSignatureArgs * args));
+IL2CPP_REGISTER_METHOD(0x00531660, void, OnError, (app::XalAchievements * this_ptr, app::Object * error));
 IL2CPP_REGISTER_METHODINFO(0x0475E280, XalAchievements_OnError__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00531670, void, CallMethodWith, (String * fullAddress, HttpMethod * method_1, String * body, IEnumerable_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * headers, String * signature, String * token, Action_1_String_ * onComplete, Action_1_String_ * onError));
+IL2CPP_REGISTER_METHOD(0x00531670, void, CallMethodWith, (app::String * full_address, app::HttpMethod * method_1, app::String * body, app::IEnumerable_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * headers, app::String * signature, app::String * token, app::Action_1_String_ * on_complete, app::Action_1_String_ * on_error));
 IL2CPP_REGISTER_METHODINFO(0x04705590, XalAchievements_CallMethodWith__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00531C80, void, Perform, (UnityWebRequest * request, IEnumerable_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * headers, String * signature, String * token, Action_1_String_ * onComplete, Action_1_String_ * onError));
-IL2CPP_REGISTER_METHOD(0x005320A0, IEnumerator *, RunRequest, (UnityWebRequest * webRequest, Action * onComplete));
-IL2CPP_REGISTER_METHOD(0x00532200, void, AddToClient, (UnityWebRequest * form, IEnumerable_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * headers));
-IL2CPP_REGISTER_METHOD(0x00532410, void, Clear, (XalAchievements * __this));
-IL2CPP_REGISTER_METHOD(0x005324A0, void, __ctor, (XalAchievements * __this));
+IL2CPP_REGISTER_METHOD(0x00531C80, void, Perform, (app::UnityWebRequest * request, app::IEnumerable_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * headers, app::String * signature, app::String * token, app::Action_1_String_ * on_complete, app::Action_1_String_ * on_error));
+IL2CPP_REGISTER_METHOD(0x005320A0, IEnumerator *, RunRequest, (app::UnityWebRequest * web_request, app::Action * on_complete));
+IL2CPP_REGISTER_METHOD(0x00532200, void, AddToClient, (app::UnityWebRequest * form, app::IEnumerable_1_Microsoft_Xbox_Services_Xal_XalHttpHeader_ * headers));
+IL2CPP_REGISTER_METHOD(0x00532410, void, Clear, (app::XalAchievements * this_ptr));
+IL2CPP_REGISTER_METHOD(0x005324A0, void, __ctor, (app::XalAchievements * this_ptr));
 }

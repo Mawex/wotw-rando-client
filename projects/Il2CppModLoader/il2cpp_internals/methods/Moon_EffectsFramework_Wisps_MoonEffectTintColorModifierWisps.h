@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::EffectsFramework::Wisps::MoonEffectTintColorModifierWisps {
-IL2CPP_REGISTER_METHOD(0x0120BD20, void, Apply, (MoonEffectTintColorModifierWisps * __this, IMoonEffectComponentCache * input, MoonEffectRevertHandle * revertHandle));
-IL2CPP_REGISTER_METHOD(0x0120C090, void, ApplyColorOnRenderer, (MoonEffectTintColorModifierWisps * __this, Renderer * renderer, Color color, Color * oldColor));
-IL2CPP_REGISTER_METHOD(0x0120C220, bool, IsValidRenderer, (MoonEffectTintColorModifierWisps * __this, Renderer * renderer));
-IL2CPP_REGISTER_METHOD(0x0120C2F0, void, Revert, (MoonEffectTintColorModifierWisps * __this, MoonEffectGenericRevertibleData_MoonEffectRevertibleData * data));
-IL2CPP_REGISTER_METHOD(0x0120B570, void, __ctor, (MoonEffectTintColorModifierWisps * __this));
+namespace app::methods::Moon_EffectsFramework_Wisps::MoonEffectTintColorModifierWisps {
+IL2CPP_REGISTER_METHOD(0x0120BD20, void, Apply, (app::MoonEffectTintColorModifierWisps * this_ptr, app::IMoonEffectComponentCache * input, app::MoonEffectRevertHandle * revert_handle));
+IL2CPP_REGISTER_METHOD(0x0120C090, void, ApplyColorOnRenderer, (app::MoonEffectTintColorModifierWisps * this_ptr, app::Renderer * renderer, app::Color color, app::Color * old_color));
+IL2CPP_REGISTER_METHOD(0x0120C220, bool, IsValidRenderer, (app::MoonEffectTintColorModifierWisps * this_ptr, app::Renderer * renderer));
+IL2CPP_REGISTER_METHOD(0x0120C2F0, void, Revert, (app::MoonEffectTintColorModifierWisps * this_ptr, app::MoonEffectGenericRevertibleData_MoonEffectRevertibleData * data));
+IL2CPP_REGISTER_METHOD(0x0120B570, void, __ctor, (app::MoonEffectTintColorModifierWisps * this_ptr));
 }

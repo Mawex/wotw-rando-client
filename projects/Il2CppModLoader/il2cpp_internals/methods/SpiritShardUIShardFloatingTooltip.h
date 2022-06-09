@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::SpiritShardUIShardFloatingTooltip {
-IL2CPP_REGISTER_METHOD(0x00D6F470, void, SetAnchor, (SpiritShardUIShardFloatingTooltip * __this, GameObject * newAnchor));
-IL2CPP_REGISTER_METHOD(0x00D6F790, void, SetAmount, (SpiritShardUIShardFloatingTooltip * __this, float xpCost, Color color));
-IL2CPP_REGISTER_METHOD(0x00D6F940, void, __ctor, (SpiritShardUIShardFloatingTooltip * __this));
+IL2CPP_REGISTER_METHOD(0x00D6F470, void, SetAnchor, (app::SpiritShardUIShardFloatingTooltip * this_ptr, app::GameObject * new_anchor));
+IL2CPP_REGISTER_METHOD(0x00D6F790, void, SetAmount, (app::SpiritShardUIShardFloatingTooltip * this_ptr, float xp_cost, app::Color color));
+IL2CPP_REGISTER_METHOD(0x00D6F940, void, __ctor, (app::SpiritShardUIShardFloatingTooltip * this_ptr));
 }

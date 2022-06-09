@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::ClientModels::UnlinkWindowsHelloAccountResponse_ {
-IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_UnlinkWindowsHelloAccountResponse_ * __this, UnlinkWindowsHelloAccountResponse * result));
+namespace app::methods::PlayFab_Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_UnlinkWindowsHelloAccountResponse_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_UnlinkWindowsHelloAccountResponse_ * this_ptr, app::UnlinkWindowsHelloAccountResponse * result));
 IL2CPP_REGISTER_METHODINFO(0x04701088, PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_UnlinkWindowsHelloAccountResponse__Invoke__MethodInfo);
 }

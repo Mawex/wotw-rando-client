@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Bindings::NativeConditionalAttribute {
-IL2CPP_REGISTER_METHOD(0x020D0390, void, __ctor, (NativeConditionalAttribute * __this, String * condition));
-IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Condition, (NativeConditionalAttribute * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x00533150, void, set_Enabled, (NativeConditionalAttribute * __this, bool value));
+namespace app::methods::UnityEngine_Bindings::NativeConditionalAttribute {
+IL2CPP_REGISTER_METHOD(0x020D0390, void, __ctor, (app::NativeConditionalAttribute * this_ptr, app::String * condition));
+IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Condition, (app::NativeConditionalAttribute * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x00533150, void, set_Enabled, (app::NativeConditionalAttribute * this_ptr, bool value));
 }

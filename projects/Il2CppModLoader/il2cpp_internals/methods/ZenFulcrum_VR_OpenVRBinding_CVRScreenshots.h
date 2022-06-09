@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRScreenshots {
-IL2CPP_REGISTER_METHOD(0x0167B4A0, void, __ctor, (CVRScreenshots * __this, void * pInterface));
-IL2CPP_REGISTER_METHOD(0x0167B5D0, EVRScreenshotError__Enum, RequestScreenshot, (CVRScreenshots * __this, uint32_t * pOutScreenshotHandle, EVRScreenshotType__Enum type, String * pchPreviewFilename, String * pchVRFilename));
-IL2CPP_REGISTER_METHOD(0x0167B600, EVRScreenshotError__Enum, HookScreenshot, (CVRScreenshots * __this, EVRScreenshotType__Enum__Array * pSupportedTypes));
-IL2CPP_REGISTER_METHOD(0x0167A550, EVRScreenshotType__Enum, GetScreenshotPropertyType, (CVRScreenshots * __this, uint32_t screenshotHandle, EVRScreenshotError__Enum * pError));
-IL2CPP_REGISTER_METHOD(0x0167B630, uint32_t, GetScreenshotPropertyFilename, (CVRScreenshots * __this, uint32_t screenshotHandle, EVRScreenshotPropertyFilenames__Enum filenameType, StringBuilder * pchFilename, uint32_t cchFilename, EVRScreenshotError__Enum * pError));
-IL2CPP_REGISTER_METHOD(0x0167B660, EVRScreenshotError__Enum, UpdateScreenshotProgress, (CVRScreenshots * __this, uint32_t screenshotHandle, float flProgress));
-IL2CPP_REGISTER_METHOD(0x0167B680, EVRScreenshotError__Enum, TakeStereoScreenshot, (CVRScreenshots * __this, uint32_t * pOutScreenshotHandle, String * pchPreviewFilename, String * pchVRFilename));
-IL2CPP_REGISTER_METHOD(0x0167B6B0, EVRScreenshotError__Enum, SubmitScreenshot, (CVRScreenshots * __this, uint32_t screenshotHandle, EVRScreenshotType__Enum type, String * pchSourcePreviewFilename, String * pchSourceVRFilename));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::CVRScreenshots {
+IL2CPP_REGISTER_METHOD(0x0167B4A0, void, __ctor, (app::CVRScreenshots * this_ptr, app::void * p_interface));
+IL2CPP_REGISTER_METHOD(0x0167B5D0, EVRScreenshotError__Enum, RequestScreenshot, (app::CVRScreenshots * this_ptr, app::uint32_t * p_out_screenshot_handle, app::EVRScreenshotType__Enum type, app::String * pch_preview_filename, app::String * pch_v_r_filename));
+IL2CPP_REGISTER_METHOD(0x0167B600, EVRScreenshotError__Enum, HookScreenshot, (app::CVRScreenshots * this_ptr, app::EVRScreenshotType__Enum__Array * p_supported_types));
+IL2CPP_REGISTER_METHOD(0x0167A550, EVRScreenshotType__Enum, GetScreenshotPropertyType, (app::CVRScreenshots * this_ptr, uint32_t screenshot_handle, app::EVRScreenshotError__Enum * p_error));
+IL2CPP_REGISTER_METHOD(0x0167B630, uint32_t, GetScreenshotPropertyFilename, (app::CVRScreenshots * this_ptr, uint32_t screenshot_handle, app::EVRScreenshotPropertyFilenames__Enum filename_type, app::StringBuilder * pch_filename, uint32_t cch_filename, app::EVRScreenshotError__Enum * p_error));
+IL2CPP_REGISTER_METHOD(0x0167B660, EVRScreenshotError__Enum, UpdateScreenshotProgress, (app::CVRScreenshots * this_ptr, uint32_t screenshot_handle, float fl_progress));
+IL2CPP_REGISTER_METHOD(0x0167B680, EVRScreenshotError__Enum, TakeStereoScreenshot, (app::CVRScreenshots * this_ptr, app::uint32_t * p_out_screenshot_handle, app::String * pch_preview_filename, app::String * pch_v_r_filename));
+IL2CPP_REGISTER_METHOD(0x0167B6B0, EVRScreenshotError__Enum, SubmitScreenshot, (app::CVRScreenshots * this_ptr, uint32_t screenshot_handle, app::EVRScreenshotType__Enum type, app::String * pch_source_preview_filename, app::String * pch_source_v_r_filename));
 }

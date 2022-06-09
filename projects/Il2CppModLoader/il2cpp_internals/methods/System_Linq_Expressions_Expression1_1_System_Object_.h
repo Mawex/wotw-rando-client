@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Expression1_1_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ParameterCount, (Expression1_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x025432D0, void, __ctor, (Expression1_1_System_Object_ * __this, Expression * body, ParameterExpression * par0));
-IL2CPP_REGISTER_METHOD(0x02543310, ParameterExpression *, GetParameter, (Expression1_1_System_Object_ * __this, int32_t index));
+namespace app::methods::System_Linq_Expressions::Expression1_1_System_Object_ {
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ParameterCount, (app::Expression1_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x025432D0, void, __ctor, (app::Expression1_1_System_Object_ * this_ptr, app::Expression * body, app::ParameterExpression * par0));
+IL2CPP_REGISTER_METHOD(0x02543310, ParameterExpression *, GetParameter, (app::Expression1_1_System_Object_ * this_ptr, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x04737B78, Expression1_1_System_Object__GetParameter__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x025433C0, ReadOnlyCollection_1_System_Linq_Expressions_ParameterExpression_ *, GetOrMakeParameters, (Expression1_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x025433D0, Expression_1_System_Object_ *, Rewrite, (Expression1_1_System_Object_ * __this, Expression * body, ParameterExpression__Array * parameters));
+IL2CPP_REGISTER_METHOD(0x025433C0, ReadOnlyCollection_1_System_Linq_Expressions_ParameterExpression_ *, GetOrMakeParameters, (app::Expression1_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x025433D0, Expression_1_System_Object_ *, Rewrite, (app::Expression1_1_System_Object_ * this_ptr, app::Expression * body, app::ParameterExpression__Array * parameters));
 }

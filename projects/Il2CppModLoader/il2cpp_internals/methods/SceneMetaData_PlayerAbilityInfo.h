@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::SceneMetaData_PlayerAbilityInfo {
-IL2CPP_REGISTER_METHOD(0x00BAD560, void, __ctor, (SceneMetaData_PlayerAbilityInfo * __this, GetAbilityOnCondition * data));
+IL2CPP_REGISTER_METHOD(0x00BAD560, void, __ctor, (app::SceneMetaData_PlayerAbilityInfo * this_ptr, app::GetAbilityOnCondition * data));
 }

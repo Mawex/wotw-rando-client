@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Remoting::Contexts::CrossContextChannel_ContextRestoreSink {
-IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (CrossContextChannel_ContextRestoreSink * __this, IMessageSink * next, Context * context, IMessage * call));
-IL2CPP_REGISTER_METHOD(0x02305200, IMessage *, SyncProcessMessage, (CrossContextChannel_ContextRestoreSink * __this, IMessage * msg));
-IL2CPP_REGISTER_METHOD(0x02305500, IMessageCtrl *, AsyncProcessMessage, (CrossContextChannel_ContextRestoreSink * __this, IMessage * msg, IMessageSink * replySink));
+namespace app::methods::System_Runtime_Remoting_Contexts::CrossContextChannel_ContextRestoreSink {
+IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (app::CrossContextChannel_ContextRestoreSink * this_ptr, app::IMessageSink * next, app::Context * context, app::IMessage * call));
+IL2CPP_REGISTER_METHOD(0x02305200, IMessage *, SyncProcessMessage, (app::CrossContextChannel_ContextRestoreSink * this_ptr, app::IMessage * msg));
+IL2CPP_REGISTER_METHOD(0x02305500, IMessageCtrl *, AsyncProcessMessage, (app::CrossContextChannel_ContextRestoreSink * this_ptr, app::IMessage * msg, app::IMessageSink * reply_sink));
 IL2CPP_REGISTER_METHODINFO(0x0470FD90, CrossContextChannel_ContextRestoreSink_AsyncProcessMessage__MethodInfo);
 }

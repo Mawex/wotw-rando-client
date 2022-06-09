@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::ComponentModel::LicenseManager_LicenseInteropHelper {
-IL2CPP_REGISTER_METHOD(0x01FF34B0, Object *, AllocateAndValidateLicense, (RuntimeTypeHandle rth, void * bstrKey, int32_t fDesignTime));
+namespace app::methods::System_ComponentModel::LicenseManager_LicenseInteropHelper {
+IL2CPP_REGISTER_METHOD(0x01FF34B0, Object *, AllocateAndValidateLicense, (app::RuntimeTypeHandle rth, app::void * bstr_key, int32_t f_design_time));
 IL2CPP_REGISTER_METHODINFO(0x047892A0, LicenseManager_LicenseInteropHelper_AllocateAndValidateLicense__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01FF37A0, int32_t, RequestLicKey, (RuntimeTypeHandle rth, void * * pbstrKey));
-IL2CPP_REGISTER_METHOD(0x01FF3940, void, GetLicInfo, (LicenseManager_LicenseInteropHelper * __this, RuntimeTypeHandle rth, int32_t * pRuntimeKeyAvail, int32_t * pLicVerified));
-IL2CPP_REGISTER_METHOD(0x01FF3D10, void, GetCurrentContextInfo, (LicenseManager_LicenseInteropHelper * __this, int32_t * fDesignTime, void * * bstrKey, RuntimeTypeHandle rth));
-IL2CPP_REGISTER_METHOD(0x01FF3EC0, void, SaveKeyInCurrentContext, (LicenseManager_LicenseInteropHelper * __this, void * bstrKey));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LicenseManager_LicenseInteropHelper * __this));
+IL2CPP_REGISTER_METHOD(0x01FF37A0, int32_t, RequestLicKey, (app::RuntimeTypeHandle rth, app::void * * pbstr_key));
+IL2CPP_REGISTER_METHOD(0x01FF3940, void, GetLicInfo, (app::LicenseManager_LicenseInteropHelper * this_ptr, app::RuntimeTypeHandle rth, app::int32_t * p_runtime_key_avail, app::int32_t * p_lic_verified));
+IL2CPP_REGISTER_METHOD(0x01FF3D10, void, GetCurrentContextInfo, (app::LicenseManager_LicenseInteropHelper * this_ptr, app::int32_t * f_design_time, app::void * * bstr_key, app::RuntimeTypeHandle rth));
+IL2CPP_REGISTER_METHOD(0x01FF3EC0, void, SaveKeyInCurrentContext, (app::LicenseManager_LicenseInteropHelper * this_ptr, app::void * bstr_key));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LicenseManager_LicenseInteropHelper * this_ptr));
 }

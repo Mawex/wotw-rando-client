@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::RammingEnemy_States {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RammingEnemy_States * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::RammingEnemy_States * this_ptr));
 }

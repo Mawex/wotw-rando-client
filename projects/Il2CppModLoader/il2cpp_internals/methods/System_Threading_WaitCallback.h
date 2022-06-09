@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Threading::WaitCallback {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (WaitCallback * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (WaitCallback * __this, Object * state));
-IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (WaitCallback * __this, Object * state, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (WaitCallback * __this, IAsyncResult * result));
+namespace app::methods::System_Threading::WaitCallback {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::WaitCallback * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::WaitCallback * this_ptr, app::Object * state));
+IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (app::WaitCallback * this_ptr, app::Object * state, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::WaitCallback * this_ptr, app::IAsyncResult * result));
 }

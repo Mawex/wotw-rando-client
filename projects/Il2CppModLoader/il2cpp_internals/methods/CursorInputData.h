@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::CursorInputData {
-IL2CPP_REGISTER_METHOD(0x00DBAC70, void, Save, (CursorInputData * __this, BinaryWriter * binaryWriter));
-IL2CPP_REGISTER_METHOD(0x00DBACD0, void, Record, (BinaryWriter * binaryWriter));
-IL2CPP_REGISTER_METHOD(0x00DBADB0, void, Load, (CursorInputData * __this, BinaryReader * binaryReader, int32_t currentVersion));
-IL2CPP_REGISTER_METHOD(0x00ADC4A0, RecorderFrame_FrameDataTypes__Enum, FrameType, (CursorInputData * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CursorInputData * __this));
+IL2CPP_REGISTER_METHOD(0x00DBAC70, void, Save, (app::CursorInputData * this_ptr, app::BinaryWriter * binary_writer));
+IL2CPP_REGISTER_METHOD(0x00DBACD0, void, Record, (app::BinaryWriter * binary_writer));
+IL2CPP_REGISTER_METHOD(0x00DBADB0, void, Load, (app::CursorInputData * this_ptr, app::BinaryReader * binary_reader, int32_t current_version));
+IL2CPP_REGISTER_METHOD(0x00ADC4A0, RecorderFrame_FrameDataTypes__Enum, FrameType, (app::CursorInputData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::CursorInputData * this_ptr));
 }

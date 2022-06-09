@@ -1,39 +1,39 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::IO::File {
-IL2CPP_REGISTER_METHOD(0x01E05270, void, Copy, (String * sourceFileName, String * destFileName));
-IL2CPP_REGISTER_METHOD(0x01E05280, void, Copy, (String * sourceFileName, String * destFileName, bool overwrite));
+namespace app::methods::System_IO::File {
+IL2CPP_REGISTER_METHOD(0x01E05270, void, Copy_1, (app::String * source_file_name, app::String * dest_file_name));
+IL2CPP_REGISTER_METHOD(0x01E05280, void, Copy_2, (app::String * source_file_name, app::String * dest_file_name, bool overwrite));
 IL2CPP_REGISTER_METHODINFO(0x047484C0, File_Copy_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E059B0, FileStream *, Create, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E05B20, FileStream *, Create, (String * path, int32_t bufferSize));
-IL2CPP_REGISTER_METHOD(0x01E05CA0, StreamWriter *, CreateText, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E05DF0, void, Delete, (String * path));
+IL2CPP_REGISTER_METHOD(0x01E059B0, FileStream *, Create_1, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E05B20, FileStream *, Create_2, (app::String * path, int32_t buffer_size));
+IL2CPP_REGISTER_METHOD(0x01E05CA0, StreamWriter *, CreateText, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E05DF0, void, Delete, (app::String * path));
 IL2CPP_REGISTER_METHODINFO(0x047109D8, File_Delete__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E06090, bool, Exists, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E06240, FileAttributes__Enum, GetAttributes, (String * path));
+IL2CPP_REGISTER_METHOD(0x01E06090, bool, Exists, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E06240, FileAttributes__Enum, GetAttributes, (app::String * path));
 IL2CPP_REGISTER_METHODINFO(0x047493D0, File_GetAttributes__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E06360, DateTime, GetLastWriteTime, (String * path));
+IL2CPP_REGISTER_METHOD(0x01E06360, DateTime, GetLastWriteTime, (app::String * path));
 IL2CPP_REGISTER_METHODINFO(0x04786C68, File_GetLastWriteTime__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E06620, void, Move, (String * sourceFileName, String * destFileName));
+IL2CPP_REGISTER_METHOD(0x01E06620, void, Move, (app::String * source_file_name, app::String * dest_file_name));
 IL2CPP_REGISTER_METHODINFO(0x047434B8, File_Move__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E06B30, FileStream *, Open, (String * path, FileMode__Enum mode));
-IL2CPP_REGISTER_METHOD(0x01E06CC0, FileStream *, Open, (String * path, FileMode__Enum mode, FileAccess__Enum access, FileShare__Enum share));
-IL2CPP_REGISTER_METHOD(0x01E06E50, FileStream *, OpenRead, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E06FD0, StreamReader *, OpenText, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E07120, FileStream *, OpenWrite, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E07290, void, SetAttributes, (String * path, FileAttributes__Enum fileAttributes));
+IL2CPP_REGISTER_METHOD(0x01E06B30, FileStream *, Open_1, (app::String * path, app::FileMode__Enum mode));
+IL2CPP_REGISTER_METHOD(0x01E06CC0, FileStream *, Open_2, (app::String * path, app::FileMode__Enum mode, app::FileAccess__Enum access, app::FileShare__Enum share));
+IL2CPP_REGISTER_METHOD(0x01E06E50, FileStream *, OpenRead, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E06FD0, StreamReader *, OpenText, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E07120, FileStream *, OpenWrite, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E07290, void, SetAttributes, (app::String * path, app::FileAttributes__Enum file_attributes));
 IL2CPP_REGISTER_METHODINFO(0x04738BB0, File_SetAttributes__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E07490, Byte__Array *, ReadAllBytes, (String * path));
+IL2CPP_REGISTER_METHOD(0x01E07490, Byte__Array *, ReadAllBytes, (app::String * path));
 IL2CPP_REGISTER_METHODINFO(0x04750BA0, File_ReadAllBytes__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01E076A0, String__Array *, ReadAllLines, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E077D0, String__Array *, ReadAllLines, (StreamReader * reader));
-IL2CPP_REGISTER_METHOD(0x01E07A10, String *, ReadAllText, (String * path));
-IL2CPP_REGISTER_METHOD(0x01E07C10, void, WriteAllBytes, (String * path, Byte__Array * bytes));
-IL2CPP_REGISTER_METHOD(0x01E07D50, void, WriteAllLines, (String * path, String__Array * contents));
-IL2CPP_REGISTER_METHOD(0x01E07F70, void, WriteAllLines, (StreamWriter * writer, String__Array * contents));
-IL2CPP_REGISTER_METHOD(0x01E07FF0, void, WriteAllText, (String * path, String * contents));
-IL2CPP_REGISTER_METHOD(0x01E080B0, void, WriteAllText, (String * path, String * contents, Encoding * encoding));
+IL2CPP_REGISTER_METHOD(0x01E076A0, String__Array *, ReadAllLines_1, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E077D0, String__Array *, ReadAllLines_2, (app::StreamReader * reader));
+IL2CPP_REGISTER_METHOD(0x01E07A10, String *, ReadAllText, (app::String * path));
+IL2CPP_REGISTER_METHOD(0x01E07C10, void, WriteAllBytes, (app::String * path, app::Byte__Array * bytes));
+IL2CPP_REGISTER_METHOD(0x01E07D50, void, WriteAllLines_1, (app::String * path, app::String__Array * contents));
+IL2CPP_REGISTER_METHOD(0x01E07F70, void, WriteAllLines_2, (app::StreamWriter * writer, app::String__Array * contents));
+IL2CPP_REGISTER_METHOD(0x01E07FF0, void, WriteAllText_1, (app::String * path, app::String * contents));
+IL2CPP_REGISTER_METHOD(0x01E080B0, void, WriteAllText_2, (app::String * path, app::String * contents, app::Encoding * encoding));
 IL2CPP_REGISTER_METHOD(0x01E082E0, DateTime, get_DefaultLocalFileTime, ());
-IL2CPP_REGISTER_METHOD(0x01E08470, int32_t, FillAttributeInfo, (String * path, MonoIOStat * data, bool tryagain, bool returnErrorOnNotFound));
+IL2CPP_REGISTER_METHOD(0x01E08470, int32_t, FillAttributeInfo, (app::String * path, app::MonoIOStat * data, bool tryagain, bool return_error_on_not_found));
 IL2CPP_REGISTER_METHODINFO(0x04727D40, File_FillAttributeInfo__MethodInfo);
 }

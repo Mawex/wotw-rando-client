@@ -1,17 +1,17 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRTrackedCamera {
-IL2CPP_REGISTER_METHOD(0x0167E230, void, __ctor, (CVRTrackedCamera * __this, void * pInterface));
-IL2CPP_REGISTER_METHOD(0x0167E370, String *, GetCameraErrorNameFromEnum, (CVRTrackedCamera * __this, EVRTrackedCameraError__Enum eCameraError));
-IL2CPP_REGISTER_METHOD(0x0167E450, EVRTrackedCameraError__Enum, HasCamera, (CVRTrackedCamera * __this, uint32_t nDeviceIndex, bool * pHasCamera));
-IL2CPP_REGISTER_METHOD(0x0167E480, EVRTrackedCameraError__Enum, GetCameraFrameSize, (CVRTrackedCamera * __this, uint32_t nDeviceIndex, EVRTrackedCameraFrameType__Enum eFrameType, uint32_t * pnWidth, uint32_t * pnHeight, uint32_t * pnFrameBufferSize));
-IL2CPP_REGISTER_METHOD(0x0167E4C0, EVRTrackedCameraError__Enum, GetCameraIntrinsics, (CVRTrackedCamera * __this, uint32_t nDeviceIndex, EVRTrackedCameraFrameType__Enum eFrameType, HmdVector2_t * pFocalLength, HmdVector2_t * pCenter));
-IL2CPP_REGISTER_METHOD(0x0167E4F0, EVRTrackedCameraError__Enum, GetCameraProjection, (CVRTrackedCamera * __this, uint32_t nDeviceIndex, EVRTrackedCameraFrameType__Enum eFrameType, float flZNear, float flZFar, HmdMatrix44_t * pProjection));
-IL2CPP_REGISTER_METHOD(0x0167E520, EVRTrackedCameraError__Enum, AcquireVideoStreamingService, (CVRTrackedCamera * __this, uint32_t nDeviceIndex, uint64_t * pHandle));
-IL2CPP_REGISTER_METHOD(0x0167E550, EVRTrackedCameraError__Enum, ReleaseVideoStreamingService, (CVRTrackedCamera * __this, uint64_t hTrackedCamera));
-IL2CPP_REGISTER_METHOD(0x0167E570, EVRTrackedCameraError__Enum, GetVideoStreamFrameBuffer, (CVRTrackedCamera * __this, uint64_t hTrackedCamera, EVRTrackedCameraFrameType__Enum eFrameType, void * pFrameBuffer, uint32_t nFrameBufferSize, CameraVideoStreamFrameHeader_t * pFrameHeader, uint32_t nFrameHeaderSize));
-IL2CPP_REGISTER_METHOD(0x0167E5A0, EVRTrackedCameraError__Enum, GetVideoStreamTextureSize, (CVRTrackedCamera * __this, uint32_t nDeviceIndex, EVRTrackedCameraFrameType__Enum eFrameType, VRTextureBounds_t * pTextureBounds, uint32_t * pnWidth, uint32_t * pnHeight));
-IL2CPP_REGISTER_METHOD(0x0167E5E0, EVRTrackedCameraError__Enum, GetVideoStreamTextureD3D11, (CVRTrackedCamera * __this, uint64_t hTrackedCamera, EVRTrackedCameraFrameType__Enum eFrameType, void * pD3D11DeviceOrResource, void * * ppD3D11ShaderResourceView, CameraVideoStreamFrameHeader_t * pFrameHeader, uint32_t nFrameHeaderSize));
-IL2CPP_REGISTER_METHOD(0x0167E610, EVRTrackedCameraError__Enum, GetVideoStreamTextureGL, (CVRTrackedCamera * __this, uint64_t hTrackedCamera, EVRTrackedCameraFrameType__Enum eFrameType, uint32_t * pglTextureId, CameraVideoStreamFrameHeader_t * pFrameHeader, uint32_t nFrameHeaderSize));
-IL2CPP_REGISTER_METHOD(0x0167E640, EVRTrackedCameraError__Enum, ReleaseVideoStreamTextureGL, (CVRTrackedCamera * __this, uint64_t hTrackedCamera, uint32_t glTextureId));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::CVRTrackedCamera {
+IL2CPP_REGISTER_METHOD(0x0167E230, void, __ctor, (app::CVRTrackedCamera * this_ptr, app::void * p_interface));
+IL2CPP_REGISTER_METHOD(0x0167E370, String *, GetCameraErrorNameFromEnum, (app::CVRTrackedCamera * this_ptr, app::EVRTrackedCameraError__Enum e_camera_error));
+IL2CPP_REGISTER_METHOD(0x0167E450, EVRTrackedCameraError__Enum, HasCamera, (app::CVRTrackedCamera * this_ptr, uint32_t n_device_index, app::bool * p_has_camera));
+IL2CPP_REGISTER_METHOD(0x0167E480, EVRTrackedCameraError__Enum, GetCameraFrameSize, (app::CVRTrackedCamera * this_ptr, uint32_t n_device_index, app::EVRTrackedCameraFrameType__Enum e_frame_type, app::uint32_t * pn_width, app::uint32_t * pn_height, app::uint32_t * pn_frame_buffer_size));
+IL2CPP_REGISTER_METHOD(0x0167E4C0, EVRTrackedCameraError__Enum, GetCameraIntrinsics, (app::CVRTrackedCamera * this_ptr, uint32_t n_device_index, app::EVRTrackedCameraFrameType__Enum e_frame_type, app::HmdVector2_t * p_focal_length, app::HmdVector2_t * p_center));
+IL2CPP_REGISTER_METHOD(0x0167E4F0, EVRTrackedCameraError__Enum, GetCameraProjection, (app::CVRTrackedCamera * this_ptr, uint32_t n_device_index, app::EVRTrackedCameraFrameType__Enum e_frame_type, float fl_z_near, float fl_z_far, app::HmdMatrix44_t * p_projection));
+IL2CPP_REGISTER_METHOD(0x0167E520, EVRTrackedCameraError__Enum, AcquireVideoStreamingService, (app::CVRTrackedCamera * this_ptr, uint32_t n_device_index, app::uint64_t * p_handle));
+IL2CPP_REGISTER_METHOD(0x0167E550, EVRTrackedCameraError__Enum, ReleaseVideoStreamingService, (app::CVRTrackedCamera * this_ptr, uint64_t h_tracked_camera));
+IL2CPP_REGISTER_METHOD(0x0167E570, EVRTrackedCameraError__Enum, GetVideoStreamFrameBuffer, (app::CVRTrackedCamera * this_ptr, uint64_t h_tracked_camera, app::EVRTrackedCameraFrameType__Enum e_frame_type, app::void * p_frame_buffer, uint32_t n_frame_buffer_size, app::CameraVideoStreamFrameHeader_t * p_frame_header, uint32_t n_frame_header_size));
+IL2CPP_REGISTER_METHOD(0x0167E5A0, EVRTrackedCameraError__Enum, GetVideoStreamTextureSize, (app::CVRTrackedCamera * this_ptr, uint32_t n_device_index, app::EVRTrackedCameraFrameType__Enum e_frame_type, app::VRTextureBounds_t * p_texture_bounds, app::uint32_t * pn_width, app::uint32_t * pn_height));
+IL2CPP_REGISTER_METHOD(0x0167E5E0, EVRTrackedCameraError__Enum, GetVideoStreamTextureD3D11, (app::CVRTrackedCamera * this_ptr, uint64_t h_tracked_camera, app::EVRTrackedCameraFrameType__Enum e_frame_type, app::void * p_d3_d11_device_or_resource, app::void * * pp_d3_d11_shader_resource_view, app::CameraVideoStreamFrameHeader_t * p_frame_header, uint32_t n_frame_header_size));
+IL2CPP_REGISTER_METHOD(0x0167E610, EVRTrackedCameraError__Enum, GetVideoStreamTextureGL, (app::CVRTrackedCamera * this_ptr, uint64_t h_tracked_camera, app::EVRTrackedCameraFrameType__Enum e_frame_type, app::uint32_t * pgl_texture_id, app::CameraVideoStreamFrameHeader_t * p_frame_header, uint32_t n_frame_header_size));
+IL2CPP_REGISTER_METHOD(0x0167E640, EVRTrackedCameraError__Enum, ReleaseVideoStreamTextureGL, (app::CVRTrackedCamera * this_ptr, uint64_t h_tracked_camera, uint32_t gl_texture_id));
 }

@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
 namespace app::methods::BezierSplineComponent {
-IL2CPP_REGISTER_METHOD(0x00D29400, void, OnDrawGizmosSelected, (BezierSplineComponent * __this));
-IL2CPP_REGISTER_METHOD(0x00D29440, void, OnDrawGizmos, (BezierSplineComponent * __this));
-IL2CPP_REGISTER_METHOD(0x00D29480, void, DrawGizmos, (BezierSplineComponent * __this, Color color, float alpha, bool selected));
-IL2CPP_REGISTER_METHOD(0x002FB9F0, BaseSpline_SplineIterator *, get_iterator, (BezierSplineComponent * __this));
-IL2CPP_REGISTER_METHOD(0x00D29E90, void, StartIterator, (BezierSplineComponent * __this));
-IL2CPP_REGISTER_METHOD(0x00D29FA0, void, KillIterator, (BezierSplineComponent * __this));
-IL2CPP_REGISTER_METHOD(0x00D29FB0, BaseSpline_SplineIterator *, Iterate, (BezierSplineComponent * __this, float dt));
-IL2CPP_REGISTER_METHOD(0x00D2A100, Matrix4x4, GetTransformMatrix, (BezierSplineComponent * __this));
-IL2CPP_REGISTER_METHOD(0x00D2A1D0, Vector3, TransformPoint, (BezierSplineComponent * __this, Vector3 point));
-IL2CPP_REGISTER_METHOD(0x00D2A320, void, __ctor, (BezierSplineComponent * __this));
+IL2CPP_REGISTER_METHOD(0x00D29400, void, OnDrawGizmosSelected, (app::BezierSplineComponent * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D29440, void, OnDrawGizmos, (app::BezierSplineComponent * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D29480, void, DrawGizmos, (app::BezierSplineComponent * this_ptr, app::Color color, float alpha, bool selected));
+IL2CPP_REGISTER_METHOD(0x002FB9F0, BaseSpline_SplineIterator *, get_iterator, (app::BezierSplineComponent * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D29E90, void, StartIterator, (app::BezierSplineComponent * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D29FA0, void, KillIterator, (app::BezierSplineComponent * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D29FB0, BaseSpline_SplineIterator *, Iterate, (app::BezierSplineComponent * this_ptr, float dt));
+IL2CPP_REGISTER_METHOD(0x00D2A100, Matrix4x4, GetTransformMatrix, (app::BezierSplineComponent * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D2A1D0, Vector3, TransformPoint, (app::BezierSplineComponent * this_ptr, app::Vector3 point));
+IL2CPP_REGISTER_METHOD(0x00D2A320, void, __ctor, (app::BezierSplineComponent * this_ptr));
 }

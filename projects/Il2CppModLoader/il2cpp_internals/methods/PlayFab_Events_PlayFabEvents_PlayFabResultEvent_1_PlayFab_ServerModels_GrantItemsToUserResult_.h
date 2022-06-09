@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::ServerModels::GrantItemsToUserResult_ {
-IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_ServerModels_GrantItemsToUserResult_ * __this, GrantItemsToUserResult * result));
+namespace app::methods::PlayFab_Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ServerModels_GrantItemsToUserResult_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ServerModels_GrantItemsToUserResult_ * this_ptr, app::GrantItemsToUserResult * result));
 IL2CPP_REGISTER_METHODINFO(0x04764160, PlayFabEvents_PlayFabResultEvent_1_PlayFab_ServerModels_GrantItemsToUserResult__Invoke__MethodInfo);
 }

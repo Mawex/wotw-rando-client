@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Experimental::VFX::VFXExpressionValues {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (VFXExpressionValues * __this));
-IL2CPP_REGISTER_METHOD(0x031C0D80, VFXExpressionValues *, CreateExpressionValuesWrapper, (void * ptr));
+namespace app::methods::UnityEngine_Experimental_VFX::VFXExpressionValues {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::VFXExpressionValues * this_ptr));
+IL2CPP_REGISTER_METHOD(0x031C0D80, VFXExpressionValues *, CreateExpressionValuesWrapper, (app::void * ptr));
 }

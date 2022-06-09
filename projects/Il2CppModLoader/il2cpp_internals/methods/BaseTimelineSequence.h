@@ -1,19 +1,19 @@
 #include <interception_macros.h>
 
 namespace app::methods::BaseTimelineSequence {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateEntries, (BaseTimelineSequence * __this));
-IL2CPP_REGISTER_METHOD(0x003FDAA0, float, get_UnlockedDuration, (BaseTimelineSequence * __this));
-IL2CPP_REGISTER_METHOD(0x00A47A00, void, set_UnlockedDuration, (BaseTimelineSequence * __this, float value));
-IL2CPP_REGISTER_METHOD(0x00F8B850, float, get_Duration, (BaseTimelineSequence * __this));
-IL2CPP_REGISTER_METHOD(0x00F8B880, void, OnStopPlay, (BaseTimelineSequence * __this));
-IL2CPP_REGISTER_METHOD(0x00F8BA70, void, SampleEntryAtRuntime, (BaseTimelineSequence * __this, float time, IEntry * entry, bool forceSample));
-IL2CPP_REGISTER_METHOD(0x00F8BEE0, void, UpdateSubAnimatorDurationAndTimeCaches, (BaseTimelineSequence * __this));
-IL2CPP_REGISTER_METHOD(0x00F8BFF0, void, GatherSubAnimators, (BaseTimelineSequence * __this, BaseAnimator * animator));
-IL2CPP_REGISTER_METHOD(0x00F8C330, void, OnSubAnimatorDurationChange, (BaseTimelineSequence * __this, BaseAnimator * subAnimator));
-IL2CPP_REGISTER_METHOD(0x00F8C340, void, __ctor, (BaseTimelineSequence * __this));
-IL2CPP_REGISTER_METHOD(0x0157E140, Object *, FindAnimatorOfType, (BaseTimelineSequence * __this, List_1_System_Object_ * entries, float time));
-IL2CPP_REGISTER_METHOD(0x015E7A60, Object *, FindEntryAtTime, (BaseTimelineSequence * __this, List_1_System_Object_ * Entries, float time));
-IL2CPP_REGISTER_METHOD(0x015E7B90, Object *, GetEntryByAnimator, (BaseTimelineSequence * __this, List_1_System_Object_ * Entries, BaseAnimator * animator));
-IL2CPP_REGISTER_METHOD(0x015E7B90, LegacyTimelineSequence_SequenceEntry *, GetEntryByAnimator, (BaseTimelineSequence * __this, List_1_LegacyTimelineSequence_SequenceEntry_ * Entries, BaseAnimator * animator));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateEntries, (app::BaseTimelineSequence * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003FDAA0, float, get_UnlockedDuration, (app::BaseTimelineSequence * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00A47A00, void, set_UnlockedDuration, (app::BaseTimelineSequence * this_ptr, float value));
+IL2CPP_REGISTER_METHOD(0x00F8B850, float, get_Duration, (app::BaseTimelineSequence * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F8B880, void, OnStopPlay, (app::BaseTimelineSequence * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F8BA70, void, SampleEntryAtRuntime, (app::BaseTimelineSequence * this_ptr, float time, app::IEntry * entry, bool force_sample));
+IL2CPP_REGISTER_METHOD(0x00F8BEE0, void, UpdateSubAnimatorDurationAndTimeCaches, (app::BaseTimelineSequence * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F8BFF0, void, GatherSubAnimators, (app::BaseTimelineSequence * this_ptr, app::BaseAnimator * animator));
+IL2CPP_REGISTER_METHOD(0x00F8C330, void, OnSubAnimatorDurationChange, (app::BaseTimelineSequence * this_ptr, app::BaseAnimator * sub_animator));
+IL2CPP_REGISTER_METHOD(0x00F8C340, void, __ctor, (app::BaseTimelineSequence * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0157E140, Object *, FindAnimatorOfType, (app::BaseTimelineSequence * this_ptr, app::List_1_System_Object_ * entries, float time));
+IL2CPP_REGISTER_METHOD(0x015E7A60, Object *, FindEntryAtTime, (app::BaseTimelineSequence * this_ptr, app::List_1_System_Object_ * entries, float time));
+IL2CPP_REGISTER_METHOD(0x015E7B90, Object *, GetEntryByAnimator_1, (app::BaseTimelineSequence * this_ptr, app::List_1_System_Object_ * entries, app::BaseAnimator * animator));
+IL2CPP_REGISTER_METHOD(0x015E7B90, LegacyTimelineSequence_SequenceEntry *, GetEntryByAnimator_2, (app::BaseTimelineSequence * this_ptr, app::List_1_LegacyTimelineSequence_SequenceEntry_ * entries, app::BaseAnimator * animator));
 IL2CPP_REGISTER_METHODINFO(0x0477FEF0, BaseTimelineSequence_GetEntryByAnimator_1__MethodInfo);
 }

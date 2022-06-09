@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngineInternal::Input::NativeInputSystem {
+namespace app::methods::UnityEngineInternal_Input::NativeInputSystem {
 IL2CPP_REGISTER_METHOD(0x031C3320, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x031C3370, void, NotifyBeforeUpdate, (NativeInputUpdateType__Enum updateType));
-IL2CPP_REGISTER_METHOD(0x031C3430, void, NotifyUpdate, (NativeInputUpdateType__Enum updateType, void * eventBuffer));
-IL2CPP_REGISTER_METHOD(0x031C3520, void, NotifyDeviceDiscovered, (int32_t deviceId, String * deviceDescriptor));
+IL2CPP_REGISTER_METHOD(0x031C3370, void, NotifyBeforeUpdate, (app::NativeInputUpdateType__Enum update_type));
+IL2CPP_REGISTER_METHOD(0x031C3430, void, NotifyUpdate, (app::NativeInputUpdateType__Enum update_type, app::void * event_buffer));
+IL2CPP_REGISTER_METHOD(0x031C3520, void, NotifyDeviceDiscovered, (int32_t device_id, app::String * device_descriptor));
 IL2CPP_REGISTER_METHOD(0x031C35F0, void, set_hasDeviceDiscoveredCallback, (bool value));
 }

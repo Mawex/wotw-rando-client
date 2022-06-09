@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::RevokeInventoryItem {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RevokeInventoryItem * __this));
+namespace app::methods::PlayFab_ServerModels::RevokeInventoryItem {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::RevokeInventoryItem * this_ptr));
 }

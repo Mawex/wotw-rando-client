@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Events::PersistentCallGroup {
-IL2CPP_REGISTER_METHOD(0x024306B0, void, __ctor, (PersistentCallGroup * __this));
-IL2CPP_REGISTER_METHOD(0x02430800, void, Initialize, (PersistentCallGroup * __this, InvokableCallList * invokableList, UnityEventBase * unityEventBase));
+namespace app::methods::UnityEngine_Events::PersistentCallGroup {
+IL2CPP_REGISTER_METHOD(0x024306B0, void, __ctor, (app::PersistentCallGroup * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02430800, void, Initialize, (app::PersistentCallGroup * this_ptr, app::InvokableCallList * invokable_list, app::UnityEventBase * unity_event_base));
 }

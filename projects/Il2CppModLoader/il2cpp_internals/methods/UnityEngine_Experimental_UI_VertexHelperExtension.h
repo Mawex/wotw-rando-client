@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Experimental::UI::VertexHelperExtension {
-IL2CPP_REGISTER_METHOD(0x01F2AA00, void, AddVert, (VertexHelper * obj, Vector3 position, Color32 color, Vector2 uv0, Vector2 uv1, Vector2 uv2, Vector2 uv3, Vector3 normal, Vector4 tangent));
+namespace app::methods::UnityEngine_Experimental_UI::VertexHelperExtension {
+IL2CPP_REGISTER_METHOD(0x01F2AA00, void, AddVert, (app::VertexHelper * obj, app::Vector3 position, app::Color32 color, app::Vector2 uv0, app::Vector2 uv1, app::Vector2 uv2, app::Vector2 uv3, app::Vector3 normal, app::Vector4 tangent));
 }

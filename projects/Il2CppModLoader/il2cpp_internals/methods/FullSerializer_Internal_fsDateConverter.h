@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::FullSerializer::Internal::fsDateConverter {
-IL2CPP_REGISTER_METHOD(0x01652370, String *, get_DateTimeFormatString, (fsDateConverter * __this));
-IL2CPP_REGISTER_METHOD(0x01652420, bool, CanProcess, (fsDateConverter * __this, Type * type));
-IL2CPP_REGISTER_METHOD(0x01652550, fsResult, TrySerialize, (fsDateConverter * __this, Object * instance, fsData * * serialized, Type * storageType));
+namespace app::methods::FullSerializer_Internal::fsDateConverter {
+IL2CPP_REGISTER_METHOD(0x01652370, String *, get_DateTimeFormatString, (app::fsDateConverter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01652420, bool, CanProcess, (app::fsDateConverter * this_ptr, app::Type * type));
+IL2CPP_REGISTER_METHOD(0x01652550, fsResult, TrySerialize, (app::fsDateConverter * this_ptr, app::Object * instance, app::fsData * * serialized, app::Type * storage_type));
 IL2CPP_REGISTER_METHODINFO(0x0471BE68, fsDateConverter_TrySerialize__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01652940, fsResult, TryDeserialize, (fsDateConverter * __this, fsData * data, Object * * instance, Type * storageType));
+IL2CPP_REGISTER_METHOD(0x01652940, fsResult, TryDeserialize, (app::fsDateConverter * this_ptr, app::fsData * data, app::Object * * instance, app::Type * storage_type));
 IL2CPP_REGISTER_METHODINFO(0x04720180, fsDateConverter_TryDeserialize__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (fsDateConverter * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::fsDateConverter * this_ptr));
 }

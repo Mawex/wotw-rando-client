@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::DeletePlayerRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (DeletePlayerRequest * __this));
+namespace app::methods::PlayFab_ServerModels::DeletePlayerRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::DeletePlayerRequest * this_ptr));
 }

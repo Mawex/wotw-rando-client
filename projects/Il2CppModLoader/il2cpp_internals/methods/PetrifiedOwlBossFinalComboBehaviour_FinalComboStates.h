@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_FinalComboStates {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PetrifiedOwlBossFinalComboBehaviour_FinalComboStates * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::PetrifiedOwlBossFinalComboBehaviour_FinalComboStates * this_ptr));
 }

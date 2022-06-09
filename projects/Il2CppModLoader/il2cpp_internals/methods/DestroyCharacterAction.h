@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::DestroyCharacterAction {
-IL2CPP_REGISTER_METHOD(0x00B8A400, void, Perform, (DestroyCharacterAction * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00B8A490, String *, GetNiceName, (DestroyCharacterAction * __this));
-IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (DestroyCharacterAction * __this));
+IL2CPP_REGISTER_METHOD(0x00B8A400, void, Perform, (app::DestroyCharacterAction * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00B8A490, String *, GetNiceName, (app::DestroyCharacterAction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::DestroyCharacterAction * this_ptr));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::CameraChaseTargetSetAnimator {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (CameraChaseTargetSetAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x010C8890, void, OnStartPlayback, (CameraChaseTargetSetAnimator * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x010C8A70, void, OnStopPlayback, (CameraChaseTargetSetAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x010C8BB0, void, __ctor, (CameraChaseTargetSetAnimator * __this));
+namespace app::methods::Moon_Timeline::CameraChaseTargetSetAnimator {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (app::CameraChaseTargetSetAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C8890, void, OnStartPlayback, (app::CameraChaseTargetSetAnimator * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x010C8A70, void, OnStopPlayback, (app::CameraChaseTargetSetAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C8BB0, void, __ctor, (app::CameraChaseTargetSetAnimator * this_ptr));
 }

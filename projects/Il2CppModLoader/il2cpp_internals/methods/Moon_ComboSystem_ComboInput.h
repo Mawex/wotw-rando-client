@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::ComboSystem::ComboInput {
-IL2CPP_REGISTER_METHOD(0x00CC59C0, void, __ctor, (ComboInput * __this, InputDirection__Enum direction, AbilityType__Enum action, ButtonInputType__Enum inputType, bool facingLeft));
-IL2CPP_REGISTER_METHOD(0x0052B590, AbilityType__Enum, get_ActionInput, (ComboInput * __this));
-IL2CPP_REGISTER_METHOD(0x00CC59E0, InputDirection__Enum, get_InputDirection, (ComboInput * __this));
-IL2CPP_REGISTER_METHOD(0x00529FF0, ButtonInputType__Enum, get_ButtonInputType, (ComboInput * __this));
-IL2CPP_REGISTER_METHOD(0x0052B580, bool, get_StartFacingLeft, (ComboInput * __this));
-IL2CPP_REGISTER_METHOD(0x00CC59F0, bool, Equals, (ComboInput * __this, ComboInput * other));
-IL2CPP_REGISTER_METHOD(0x00CC5A20, bool, Equals, (ComboInput * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x00CC5B30, int32_t, GetHashCode, (ComboInput * __this));
+namespace app::methods::Moon_ComboSystem::ComboInput {
+IL2CPP_REGISTER_METHOD(0x00CC59C0, void, __ctor, (app::ComboInput * this_ptr, app::InputDirection__Enum direction, app::AbilityType__Enum action, app::ButtonInputType__Enum input_type, bool facing_left));
+IL2CPP_REGISTER_METHOD(0x0052B590, AbilityType__Enum, get_ActionInput, (app::ComboInput * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CC59E0, InputDirection__Enum, get_InputDirection, (app::ComboInput * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00529FF0, ButtonInputType__Enum, get_ButtonInputType, (app::ComboInput * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052B580, bool, get_StartFacingLeft, (app::ComboInput * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CC59F0, bool, Equals_1, (app::ComboInput * this_ptr, app::ComboInput * other));
+IL2CPP_REGISTER_METHOD(0x00CC5A20, bool, Equals_2, (app::ComboInput * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x00CC5B30, int32_t, GetHashCode, (app::ComboInput * this_ptr));
 }

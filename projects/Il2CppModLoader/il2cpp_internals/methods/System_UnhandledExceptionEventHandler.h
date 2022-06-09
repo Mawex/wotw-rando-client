@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::System::UnhandledExceptionEventHandler {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UnhandledExceptionEventHandler * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01686F50, void, Invoke, (UnhandledExceptionEventHandler * __this, Object * sender, UnhandledExceptionEventArgs * e));
-IL2CPP_REGISTER_METHOD(0x01435260, IAsyncResult *, BeginInvoke, (UnhandledExceptionEventHandler * __this, Object * sender, UnhandledExceptionEventArgs * e, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (UnhandledExceptionEventHandler * __this, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::UnhandledExceptionEventHandler * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01686F50, void, Invoke, (app::UnhandledExceptionEventHandler * this_ptr, app::Object * sender, app::UnhandledExceptionEventArgs * e));
+IL2CPP_REGISTER_METHOD(0x01435260, IAsyncResult *, BeginInvoke, (app::UnhandledExceptionEventHandler * this_ptr, app::Object * sender, app::UnhandledExceptionEventArgs * e, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::UnhandledExceptionEventHandler * this_ptr, app::IAsyncResult * result));
 }

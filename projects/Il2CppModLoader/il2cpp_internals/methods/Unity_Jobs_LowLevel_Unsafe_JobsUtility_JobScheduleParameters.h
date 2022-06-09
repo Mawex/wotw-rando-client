@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters {
-IL2CPP_REGISTER_METHOD(0x001EAF30, void, __ctor, (JobsUtility_JobScheduleParameters__Boxed * __this, Void * i_jobData, void * i_reflectionData, JobHandle i_dependency, ScheduleMode__Enum i_scheduleMode));
+namespace app::methods::Unity_Jobs_LowLevel_Unsafe::JobsUtility_JobScheduleParameters {
+IL2CPP_REGISTER_METHOD(0x001EAF30, void, __ctor, (app::JobsUtility_JobScheduleParameters__Boxed * this_ptr, app::Void * i_job_data, app::void * i_reflection_data, app::JobHandle i_dependency, app::ScheduleMode__Enum i_schedule_mode));
 }

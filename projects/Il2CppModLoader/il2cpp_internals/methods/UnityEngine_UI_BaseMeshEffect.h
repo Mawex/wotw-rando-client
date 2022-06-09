@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::UI::BaseMeshEffect {
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (BaseMeshEffect * __this));
-IL2CPP_REGISTER_METHOD(0x01F2B5B0, Graphic *, get_graphic, (BaseMeshEffect * __this));
-IL2CPP_REGISTER_METHOD(0x01F2B680, void, OnEnable, (BaseMeshEffect * __this));
-IL2CPP_REGISTER_METHOD(0x01F2B760, void, OnDisable, (BaseMeshEffect * __this));
-IL2CPP_REGISTER_METHOD(0x01F2B840, void, OnDidApplyAnimationProperties, (BaseMeshEffect * __this));
-IL2CPP_REGISTER_METHOD(0x01F2B920, void, ModifyMesh, (BaseMeshEffect * __this, Mesh * mesh));
+namespace app::methods::UnityEngine_UI::BaseMeshEffect {
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::BaseMeshEffect * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F2B5B0, Graphic *, get_graphic, (app::BaseMeshEffect * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F2B680, void, OnEnable, (app::BaseMeshEffect * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F2B760, void, OnDisable, (app::BaseMeshEffect * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F2B840, void, OnDidApplyAnimationProperties, (app::BaseMeshEffect * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F2B920, void, ModifyMesh, (app::BaseMeshEffect * this_ptr, app::Mesh * mesh));
 }

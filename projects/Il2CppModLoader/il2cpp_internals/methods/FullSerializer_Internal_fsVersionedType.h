@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::FullSerializer::Internal::fsVersionedType {
-IL2CPP_REGISTER_METHOD(0x0012BF80, Object *, Migrate, (fsVersionedType__Boxed * __this, Object * ancestorInstance));
-IL2CPP_REGISTER_METHOD(0x0012BF90, String *, ToString, (fsVersionedType__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x015047A0, bool, operator___, (fsVersionedType a, fsVersionedType b));
-IL2CPP_REGISTER_METHOD(0x01504860, bool, operator___, (fsVersionedType a, fsVersionedType b));
-IL2CPP_REGISTER_METHOD(0x0012BFA0, bool, Equals, (fsVersionedType__Boxed * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x0012BFB0, int32_t, GetHashCode, (fsVersionedType__Boxed * __this));
+namespace app::methods::FullSerializer_Internal::fsVersionedType {
+IL2CPP_REGISTER_METHOD(0x0012BF80, Object *, Migrate, (app::fsVersionedType__Boxed * this_ptr, app::Object * ancestor_instance));
+IL2CPP_REGISTER_METHOD(0x0012BF90, String *, ToString, (app::fsVersionedType__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x015047A0, bool, operator____1, (app::fsVersionedType a, app::fsVersionedType b));
+IL2CPP_REGISTER_METHOD(0x01504860, bool, operator____2, (app::fsVersionedType a, app::fsVersionedType b));
+IL2CPP_REGISTER_METHOD(0x0012BFA0, bool, Equals, (app::fsVersionedType__Boxed * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x0012BFB0, int32_t, GetHashCode, (app::fsVersionedType__Boxed * this_ptr));
 }

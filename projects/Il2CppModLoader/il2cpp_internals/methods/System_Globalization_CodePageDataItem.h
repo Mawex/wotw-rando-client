@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Globalization::CodePageDataItem {
-IL2CPP_REGISTER_METHOD(0x01A22490, void, __ctor, (CodePageDataItem * __this, int32_t dataIndex));
-IL2CPP_REGISTER_METHOD(0x01A225B0, String *, CreateString, (String * pStrings, uint32_t index));
-IL2CPP_REGISTER_METHOD(0x01A226E0, String *, get_WebName, (CodePageDataItem * __this));
+namespace app::methods::System_Globalization::CodePageDataItem {
+IL2CPP_REGISTER_METHOD(0x01A22490, void, __ctor, (app::CodePageDataItem * this_ptr, int32_t data_index));
+IL2CPP_REGISTER_METHOD(0x01A225B0, String *, CreateString, (app::String * p_strings, uint32_t index));
+IL2CPP_REGISTER_METHOD(0x01A226E0, String *, get_WebName, (app::CodePageDataItem * this_ptr));
 IL2CPP_REGISTER_METHOD(0x01A228F0, void, __cctor, ());
 }

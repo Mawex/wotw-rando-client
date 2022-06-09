@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::AllElementsContentValidator {
-IL2CPP_REGISTER_METHOD(0x019A0650, void, __ctor, (AllElementsContentValidator * __this, XmlSchemaContentType__Enum contentType, int32_t size, bool isEmptiable));
-IL2CPP_REGISTER_METHOD(0x019A08C0, bool, AddElement, (AllElementsContentValidator * __this, XmlQualifiedName * name, Object * particle, bool isEmptiable));
-IL2CPP_REGISTER_METHOD(0x019A0A80, bool, get_IsEmptiable, (AllElementsContentValidator * __this));
-IL2CPP_REGISTER_METHOD(0x019A0AA0, void, InitValidation, (AllElementsContentValidator * __this, ValidationState * context));
-IL2CPP_REGISTER_METHOD(0x019A0C30, Object *, ValidateElement, (AllElementsContentValidator * __this, XmlQualifiedName * name, ValidationState * context, int32_t * errorCode));
-IL2CPP_REGISTER_METHOD(0x019A0E30, bool, CompleteValidation, (AllElementsContentValidator * __this, ValidationState * context));
-IL2CPP_REGISTER_METHOD(0x019A0E80, ArrayList *, ExpectedElements, (AllElementsContentValidator * __this, ValidationState * context, bool isRequiredOnly));
-IL2CPP_REGISTER_METHOD(0x019A12B0, ArrayList *, ExpectedParticles, (AllElementsContentValidator * __this, ValidationState * context, bool isRequiredOnly, XmlSchemaSet * schemaSet));
+namespace app::methods::System_Xml_Schema::AllElementsContentValidator {
+IL2CPP_REGISTER_METHOD(0x019A0650, void, __ctor, (app::AllElementsContentValidator * this_ptr, app::XmlSchemaContentType__Enum content_type, int32_t size, bool is_emptiable));
+IL2CPP_REGISTER_METHOD(0x019A08C0, bool, AddElement, (app::AllElementsContentValidator * this_ptr, app::XmlQualifiedName * name, app::Object * particle, bool is_emptiable));
+IL2CPP_REGISTER_METHOD(0x019A0A80, bool, get_IsEmptiable, (app::AllElementsContentValidator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x019A0AA0, void, InitValidation, (app::AllElementsContentValidator * this_ptr, app::ValidationState * context));
+IL2CPP_REGISTER_METHOD(0x019A0C30, Object *, ValidateElement, (app::AllElementsContentValidator * this_ptr, app::XmlQualifiedName * name, app::ValidationState * context, app::int32_t * error_code));
+IL2CPP_REGISTER_METHOD(0x019A0E30, bool, CompleteValidation, (app::AllElementsContentValidator * this_ptr, app::ValidationState * context));
+IL2CPP_REGISTER_METHOD(0x019A0E80, ArrayList *, ExpectedElements, (app::AllElementsContentValidator * this_ptr, app::ValidationState * context, bool is_required_only));
+IL2CPP_REGISTER_METHOD(0x019A12B0, ArrayList *, ExpectedParticles, (app::AllElementsContentValidator * this_ptr, app::ValidationState * context, bool is_required_only, app::XmlSchemaSet * schema_set));
 }

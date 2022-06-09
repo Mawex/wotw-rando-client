@@ -1,4 +1,4 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::IDictionary_2_System::Object_System::Object_ {
+namespace app::methods::System_Collections_Generic::IDictionary_2_System_Object_System_Object_ {
 }

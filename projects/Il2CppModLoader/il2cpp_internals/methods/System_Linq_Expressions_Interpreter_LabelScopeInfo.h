@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::LabelScopeInfo {
-IL2CPP_REGISTER_METHOD(0x01CE43D0, void, __ctor, (LabelScopeInfo * __this, LabelScopeInfo * parent, LabelScopeKind__Enum kind));
-IL2CPP_REGISTER_METHOD(0x01CE43E0, bool, get_CanJumpInto, (LabelScopeInfo * __this));
-IL2CPP_REGISTER_METHOD(0x01CE43F0, bool, ContainsTarget, (LabelScopeInfo * __this, LabelTarget * target));
-IL2CPP_REGISTER_METHOD(0x01CE4510, bool, TryGetLabelInfo, (LabelScopeInfo * __this, LabelTarget * target, LabelInfo * * info));
-IL2CPP_REGISTER_METHOD(0x01CE45D0, void, AddLabelInfo, (LabelScopeInfo * __this, LabelTarget * target, LabelInfo * info));
+namespace app::methods::System_Linq_Expressions_Interpreter::LabelScopeInfo {
+IL2CPP_REGISTER_METHOD(0x01CE43D0, void, __ctor, (app::LabelScopeInfo * this_ptr, app::LabelScopeInfo * parent, app::LabelScopeKind__Enum kind));
+IL2CPP_REGISTER_METHOD(0x01CE43E0, bool, get_CanJumpInto, (app::LabelScopeInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01CE43F0, bool, ContainsTarget, (app::LabelScopeInfo * this_ptr, app::LabelTarget * target));
+IL2CPP_REGISTER_METHOD(0x01CE4510, bool, TryGetLabelInfo, (app::LabelScopeInfo * this_ptr, app::LabelTarget * target, app::LabelInfo * * info));
+IL2CPP_REGISTER_METHOD(0x01CE45D0, void, AddLabelInfo, (app::LabelScopeInfo * this_ptr, app::LabelTarget * target, app::LabelInfo * info));
 }

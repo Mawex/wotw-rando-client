@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::UberStateVisualization::UberStateDataView {
-IL2CPP_REGISTER_METHOD(0x030C2840, void, UpdateWithModel, (UberStateDataView * __this, UberStateData stateData));
-IL2CPP_REGISTER_METHOD(0x030C2920, void, OnGui, (UberStateDataView * __this, Rect rect));
-IL2CPP_REGISTER_METHOD(0x030C3120, void, Layout, (UberStateDataView * __this, Rect viewRect));
-IL2CPP_REGISTER_METHOD(0x030C31A0, void, Render, (UberStateDataView * __this));
-IL2CPP_REGISTER_METHOD(0x030C3960, void, HandleInput, (UberStateDataView * __this, ControllerInput * input));
-IL2CPP_REGISTER_METHOD(0x030C3AC0, void, Clear, (UberStateDataView * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (UberStateDataView * __this));
+namespace app::methods::Moon_UberStateVisualization::UberStateDataView {
+IL2CPP_REGISTER_METHOD(0x030C2840, void, UpdateWithModel, (app::UberStateDataView * this_ptr, app::UberStateData state_data));
+IL2CPP_REGISTER_METHOD(0x030C2920, void, OnGui, (app::UberStateDataView * this_ptr, app::Rect rect));
+IL2CPP_REGISTER_METHOD(0x030C3120, void, Layout, (app::UberStateDataView * this_ptr, app::Rect view_rect));
+IL2CPP_REGISTER_METHOD(0x030C31A0, void, Render, (app::UberStateDataView * this_ptr));
+IL2CPP_REGISTER_METHOD(0x030C3960, void, HandleInput, (app::UberStateDataView * this_ptr, app::ControllerInput * input));
+IL2CPP_REGISTER_METHOD(0x030C3AC0, void, Clear, (app::UberStateDataView * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::UberStateDataView * this_ptr));
 }

@@ -1,24 +1,24 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::TimeSlicer::TimeSlicedActivationTask {
-IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_Activate, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x00C03C70, int32_t, get_NumExpensiveActivations, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FBBC0, String *, get_SceneName, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_SceneName, (TimeSlicedActivationTask * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x010C0350, void, __ctor, (TimeSlicedActivationTask * __this, List_1_UnityEngine_GameObject_ * targetObjects, List_1_UnityEngine_Component_ * preEnableObservers, List_1_UnityEngine_Component_ * postEnableObservers, bool activate, bool reversedOrder, GameObject * owner, Action_1_Boolean_ * onJobCompleted, String * sceneName));
-IL2CPP_REGISTER_METHOD(0x010C0680, void, __ctor, (TimeSlicedActivationTask * __this, List_1_UnityEngine_GameObject_ * targetObjects, List_1_UnityEngine_Component_ * preEnableObservers, List_1_UnityEngine_Component_ * postEnableObservers, bool activate, bool reversedOrder, Action_1_Boolean_ * onJobCompleted));
-IL2CPP_REGISTER_METHOD(0x010C0980, void, CreateTimeSlicedActivationTask, (TimeSlicedActivationTask * __this, List_1_UnityEngine_GameObject_ * targetObjects, List_1_UnityEngine_Component_ * preEnableObservers, List_1_UnityEngine_Component_ * postEnableObservers, bool activate, bool reversedOrder, Action_1_Boolean_ * onJobCompleted));
-IL2CPP_REGISTER_METHOD(0x010C0AB0, void, GetActiveObjects, (Transform * trans, List_1_UnityEngine_GameObject_ * objects));
-IL2CPP_REGISTER_METHOD(0x010C0D30, void, Config, (TimeSlicedActivationTask * __this, List_1_UnityEngine_GameObject_ * targetObjects, List_1_UnityEngine_Component_ * preEnableObservers, List_1_UnityEngine_Component_ * postEnableObservers, bool activate, bool reversedOrder, Action_1_Boolean_ * onJobCompleted));
-IL2CPP_REGISTER_METHOD(0x00777A20, void, Resume, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C0E50, void, ProcessAllObjects, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C0F70, IEnumerator *, TimeSlicedActivation, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C10C0, void, PostEnableObjects, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C13E0, void, PreDisableObjects, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C1680, void, ProcessObject, (TimeSlicedActivationTask * __this, int32_t i));
-IL2CPP_REGISTER_METHOD(0x010C19F0, void, Reset, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x010C1A20, String *, get_JobName, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9D0, String *, get_TimesliceJobOwnerName, (TimeSlicedActivationTask * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_ContextualDebugData, (TimeSlicedActivationTask * __this));
+namespace app::methods::Moon_TimeSlicer::TimeSlicedActivationTask {
+IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_Activate, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C03C70, int32_t, get_NumExpensiveActivations, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBBC0, String *, get_SceneName, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBBD0, void, set_SceneName, (app::TimeSlicedActivationTask * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x010C0350, void, __ctor_1, (app::TimeSlicedActivationTask * this_ptr, app::List_1_UnityEngine_GameObject_ * target_objects, app::List_1_UnityEngine_Component_ * pre_enable_observers, app::List_1_UnityEngine_Component_ * post_enable_observers, bool activate, bool reversed_order, app::GameObject * owner, app::Action_1_Boolean_ * on_job_completed, app::String * scene_name));
+IL2CPP_REGISTER_METHOD(0x010C0680, void, __ctor_2, (app::TimeSlicedActivationTask * this_ptr, app::List_1_UnityEngine_GameObject_ * target_objects, app::List_1_UnityEngine_Component_ * pre_enable_observers, app::List_1_UnityEngine_Component_ * post_enable_observers, bool activate, bool reversed_order, app::Action_1_Boolean_ * on_job_completed));
+IL2CPP_REGISTER_METHOD(0x010C0980, void, CreateTimeSlicedActivationTask, (app::TimeSlicedActivationTask * this_ptr, app::List_1_UnityEngine_GameObject_ * target_objects, app::List_1_UnityEngine_Component_ * pre_enable_observers, app::List_1_UnityEngine_Component_ * post_enable_observers, bool activate, bool reversed_order, app::Action_1_Boolean_ * on_job_completed));
+IL2CPP_REGISTER_METHOD(0x010C0AB0, void, GetActiveObjects, (app::Transform * trans, app::List_1_UnityEngine_GameObject_ * objects));
+IL2CPP_REGISTER_METHOD(0x010C0D30, void, Config, (app::TimeSlicedActivationTask * this_ptr, app::List_1_UnityEngine_GameObject_ * target_objects, app::List_1_UnityEngine_Component_ * pre_enable_observers, app::List_1_UnityEngine_Component_ * post_enable_observers, bool activate, bool reversed_order, app::Action_1_Boolean_ * on_job_completed));
+IL2CPP_REGISTER_METHOD(0x00777A20, void, Resume, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C0E50, void, ProcessAllObjects, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C0F70, IEnumerator *, TimeSlicedActivation, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C10C0, void, PostEnableObjects, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C13E0, void, PreDisableObjects, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C1680, void, ProcessObject, (app::TimeSlicedActivationTask * this_ptr, int32_t i));
+IL2CPP_REGISTER_METHOD(0x010C19F0, void, Reset, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x010C1A20, String *, get_JobName, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB9D0, String *, get_TimesliceJobOwnerName, (app::TimeSlicedActivationTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB40, String *, get_ContextualDebugData, (app::TimeSlicedActivationTask * this_ptr));
 IL2CPP_REGISTER_METHOD(0x010C1B10, void, __cctor, ());
 }

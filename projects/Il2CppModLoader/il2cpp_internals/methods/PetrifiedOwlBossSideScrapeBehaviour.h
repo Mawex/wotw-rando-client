@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossSideScrapeBehaviour {
-IL2CPP_REGISTER_METHOD(0x0177E440, void, CopyData, (PetrifiedOwlBossSideScrapeBehaviour * __this, PetrifiedOwlBossBaseBehaviour * other));
-IL2CPP_REGISTER_METHOD(0x017640A0, void, InitializeCancellableController, (PetrifiedOwlBossSideScrapeBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x01765700, void, InitializeHitReactionController, (PetrifiedOwlBossSideScrapeBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0177E520, void, OnEnter, (PetrifiedOwlBossSideScrapeBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x017644B0, BehaviourStatus__Enum, OnExecute, (PetrifiedOwlBossSideScrapeBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x01765790, void, OnExit, (PetrifiedOwlBossSideScrapeBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0177E640, Enum__Array *, GetEntries, (PetrifiedOwlBossSideScrapeBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x0177E6E0, Enum, Evaluate, (PetrifiedOwlBossSideScrapeBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_ShouldSkip, (PetrifiedOwlBossSideScrapeBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x017657C0, void, __ctor, (PetrifiedOwlBossSideScrapeBehaviour * __this));
+IL2CPP_REGISTER_METHOD(0x0177E440, void, CopyData, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr, app::PetrifiedOwlBossBaseBehaviour * other));
+IL2CPP_REGISTER_METHOD(0x017640A0, void, InitializeCancellableController, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01765700, void, InitializeHitReactionController, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0177E520, void, OnEnter, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x017644B0, BehaviourStatus__Enum, OnExecute, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x01765790, void, OnExit, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0177E640, Enum__Array *, GetEntries, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0177E6E0, Enum, Evaluate, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_ShouldSkip, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x017657C0, void, __ctor, (app::PetrifiedOwlBossSideScrapeBehaviour * this_ptr));
 }

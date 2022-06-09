@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::MulOvfInstruction_MulOvfUInt64 {
-IL2CPP_REGISTER_METHOD(0x024000A0, int32_t, Run, (MulOvfInstruction_MulOvfUInt64 * __this, InterpretedFrame * frame));
+namespace app::methods::System_Linq_Expressions_Interpreter::MulOvfInstruction_MulOvfUInt64 {
+IL2CPP_REGISTER_METHOD(0x024000A0, int32_t, Run, (app::MulOvfInstruction_MulOvfUInt64 * this_ptr, app::InterpretedFrame * frame));
 IL2CPP_REGISTER_METHODINFO(0x04718068, MulOvfInstruction_MulOvfUInt64_Run__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MulOvfInstruction_MulOvfUInt64 * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MulOvfInstruction_MulOvfUInt64 * this_ptr));
 }

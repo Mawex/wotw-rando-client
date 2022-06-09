@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::EntityPlaceholderScalingData_Difficulties {
-IL2CPP_REGISTER_METHOD(0x00C9DFE0, EntityPlaceholderScalingData_EntityScalingValues *, GetDifficultyMulti, (EntityPlaceholderScalingData_Difficulties * __this, int32_t difficulty));
-IL2CPP_REGISTER_METHOD(0x00C9E1E0, void, __ctor, (EntityPlaceholderScalingData_Difficulties * __this));
+IL2CPP_REGISTER_METHOD(0x00C9DFE0, EntityPlaceholderScalingData_EntityScalingValues *, GetDifficultyMulti, (app::EntityPlaceholderScalingData_Difficulties * this_ptr, int32_t difficulty));
+IL2CPP_REGISTER_METHOD(0x00C9E1E0, void, __ctor, (app::EntityPlaceholderScalingData_Difficulties * this_ptr));
 }

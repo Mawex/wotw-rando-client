@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
 namespace app::methods::SteeringForces_SteeringForcesBuilder {
-IL2CPP_REGISTER_METHOD(0x0064EB90, Vector3, get_Value, (SteeringForces_SteeringForcesBuilder * __this));
-IL2CPP_REGISTER_METHOD(0x0064EBB0, void, Reset, (SteeringForces_SteeringForcesBuilder * __this, SteeringForcesSettings * settings));
-IL2CPP_REGISTER_METHOD(0x0064EC70, SteeringForces_SteeringForcesBuilder *, AddNoise, (SteeringForces_SteeringForcesBuilder * __this, Vector3 direction));
-IL2CPP_REGISTER_METHOD(0x0064EE40, SteeringForces_SteeringForcesBuilder *, AddDirectionAvoidance, (SteeringForces_SteeringForcesBuilder * __this, Transform * target));
-IL2CPP_REGISTER_METHOD(0x0064F350, Vector3, DirectionAvoidance, (SteeringForces_SteeringForcesBuilder * __this, Vector3 origin, SteeringForcesAngleAvoidanceSettings * angleAvoidance, Vector3 direction, float offset, float distance, int32_t amountOfRays, float avoidanceScale, SteeringForces_AvoidanceCurve__Enum curve, bool useOffsetedDirection, bool reflect));
-IL2CPP_REGISTER_METHOD(0x0064FCB0, bool, PassedValidation, (SteeringForces_SteeringForcesBuilder * __this, Collider * hitCollider));
-IL2CPP_REGISTER_METHOD(0x0064FD60, float, ApplyAvoidanceCurve, (float scale, float normalizedDistance, SteeringForces_AvoidanceCurve__Enum curve));
-IL2CPP_REGISTER_METHOD(0x0064FE90, Vector3, CalculateAvoidanceFromTarget, (Vector3 origin, Vector3 avoidanceTarget, float distance, float avoidanceScale, bool drawGizmo));
-IL2CPP_REGISTER_METHOD(0x00650080, void, __ctor, (SteeringForces_SteeringForcesBuilder * __this));
+IL2CPP_REGISTER_METHOD(0x0064EB90, Vector3, get_Value, (app::SteeringForces_SteeringForcesBuilder * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0064EBB0, void, Reset, (app::SteeringForces_SteeringForcesBuilder * this_ptr, app::SteeringForcesSettings * settings));
+IL2CPP_REGISTER_METHOD(0x0064EC70, SteeringForces_SteeringForcesBuilder *, AddNoise, (app::SteeringForces_SteeringForcesBuilder * this_ptr, app::Vector3 direction));
+IL2CPP_REGISTER_METHOD(0x0064EE40, SteeringForces_SteeringForcesBuilder *, AddDirectionAvoidance, (app::SteeringForces_SteeringForcesBuilder * this_ptr, app::Transform * target));
+IL2CPP_REGISTER_METHOD(0x0064F350, Vector3, DirectionAvoidance, (app::SteeringForces_SteeringForcesBuilder * this_ptr, app::Vector3 origin, app::SteeringForcesAngleAvoidanceSettings * angle_avoidance, app::Vector3 direction, float offset, float distance, int32_t amount_of_rays, float avoidance_scale, app::SteeringForces_AvoidanceCurve__Enum curve, bool use_offseted_direction, bool reflect));
+IL2CPP_REGISTER_METHOD(0x0064FCB0, bool, PassedValidation, (app::SteeringForces_SteeringForcesBuilder * this_ptr, app::Collider * hit_collider));
+IL2CPP_REGISTER_METHOD(0x0064FD60, float, ApplyAvoidanceCurve, (float scale, float normalized_distance, app::SteeringForces_AvoidanceCurve__Enum curve));
+IL2CPP_REGISTER_METHOD(0x0064FE90, Vector3, CalculateAvoidanceFromTarget, (app::Vector3 origin, app::Vector3 avoidance_target, float distance, float avoidance_scale, bool draw_gizmo));
+IL2CPP_REGISTER_METHOD(0x00650080, void, __ctor, (app::SteeringForces_SteeringForcesBuilder * this_ptr));
 }

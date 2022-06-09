@@ -1,15 +1,15 @@
 #include <interception_macros.h>
 
 namespace app::methods::TestSet {
-IL2CPP_REGISTER_METHOD(0x010DB9C0, void, Init, (TestSet * __this, String * testSetFolderPath, String * testOutputFolderPath, List_1_System_String_ * requestedTests));
-IL2CPP_REGISTER_METHOD(0x010DBB60, void, Run, (TestSet * __this));
-IL2CPP_REGISTER_METHOD(0x010DBB70, void, TestFinished, (TestSet * __this, bool passed, TestReporter * testReporter));
-IL2CPP_REGISTER_METHOD(0x010DBE30, Test *, get_CurrentTest, (TestSet * __this));
-IL2CPP_REGISTER_METHOD(0x010DBED0, String *, get_FirstTestSetSceneAssetPath, (TestSet * __this));
-IL2CPP_REGISTER_METHOD(0x010DBFE0, void, RunNextTest, (TestSet * __this));
-IL2CPP_REGISTER_METHOD(0x010DBFF0, void, RunTest, (TestSet * __this));
-IL2CPP_REGISTER_METHOD(0x010DC1F0, bool, HaveMoreTests, (TestSet * __this));
-IL2CPP_REGISTER_METHOD(0x010DC280, void, InitializeTests, (TestSet * __this));
-IL2CPP_REGISTER_METHOD(0x010DC740, void, FilterRequestedTests, (TestSet * __this, List_1_System_String_ * requestedTests));
-IL2CPP_REGISTER_METHOD(0x010DCB60, void, __ctor, (TestSet * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x010DB9C0, void, Init, (app::TestSet * this_ptr, app::String* test_set_folder_path, app::String* test_output_folder_path, app::List_1_System_String_* requested_tests));
+    IL2CPP_REGISTER_METHOD(0x010DBB60, void, Run, (app::TestSet * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010DBB70, void, TestFinished, (app::TestSet * this_ptr, bool passed, app::TestReporter* test_reporter));
+    IL2CPP_REGISTER_METHOD(0x010DBE30, Test*, get_CurrentTest, (app::TestSet * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010DBED0, String*, get_FirstTestSetSceneAssetPath, (app::TestSet * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010DBFE0, void, RunNextTest, (app::TestSet * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010DBFF0, void, RunTest, (app::TestSet * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010DC1F0, bool, HaveMoreTests, (app::TestSet * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010DC280, void, InitializeTests, (app::TestSet * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x010DC740, void, FilterRequestedTests, (app::TestSet * this_ptr, app::List_1_System_String_* requested_tests));
+    IL2CPP_REGISTER_METHOD(0x010DCB60, void, __ctor, (app::TestSet * this_ptr));
+} // namespace app::methods::TestSet

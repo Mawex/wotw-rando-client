@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::PlayStreamModels::TitlePermissionsPolicyChangedEventData {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (TitlePermissionsPolicyChangedEventData * __this));
+namespace app::methods::PlayFab_PlayStreamModels::TitlePermissionsPolicyChangedEventData {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::TitlePermissionsPolicyChangedEventData * this_ptr));
 }

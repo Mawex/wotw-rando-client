@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabCloudScriptInstanceAPI {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabCloudScriptInstanceAPI * __this));
-IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (PlayFabCloudScriptInstanceAPI * __this, PlayFabApiSettings * settings));
-IL2CPP_REGISTER_METHOD(0x002FB940, void, __ctor, (PlayFabCloudScriptInstanceAPI * __this, PlayFabAuthenticationContext * context));
-IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (PlayFabCloudScriptInstanceAPI * __this, PlayFabApiSettings * settings, PlayFabAuthenticationContext * context));
-IL2CPP_REGISTER_METHOD(0x002FB940, void, SetAuthenticationContext, (PlayFabCloudScriptInstanceAPI * __this, PlayFabAuthenticationContext * context));
-IL2CPP_REGISTER_METHOD(0x002FB930, PlayFabAuthenticationContext *, GetAuthenticationContext, (PlayFabCloudScriptInstanceAPI * __this));
-IL2CPP_REGISTER_METHOD(0x017B4520, void, ForgetAllCredentials, (PlayFabCloudScriptInstanceAPI * __this));
-IL2CPP_REGISTER_METHOD(0x01A25750, void, ExecuteEntityCloudScript, (PlayFabCloudScriptInstanceAPI * __this, ExecuteEntityCloudScriptRequest * request, Action_1_PlayFab_CloudScriptModels_ExecuteCloudScriptResult_ * resultCallback, Action_1_PlayFab_PlayFabError_ * errorCallback, Object * customData, Dictionary_2_System_String_System_String_ * extraHeaders));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor_1, (app::PlayFabCloudScriptInstanceAPI * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor_2, (app::PlayFabCloudScriptInstanceAPI * this_ptr, app::PlayFabApiSettings * settings));
+IL2CPP_REGISTER_METHOD(0x002FB940, void, __ctor_3, (app::PlayFabCloudScriptInstanceAPI * this_ptr, app::PlayFabAuthenticationContext * context));
+IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor_4, (app::PlayFabCloudScriptInstanceAPI * this_ptr, app::PlayFabApiSettings * settings, app::PlayFabAuthenticationContext * context));
+IL2CPP_REGISTER_METHOD(0x002FB940, void, SetAuthenticationContext, (app::PlayFabCloudScriptInstanceAPI * this_ptr, app::PlayFabAuthenticationContext * context));
+IL2CPP_REGISTER_METHOD(0x002FB930, PlayFabAuthenticationContext *, GetAuthenticationContext, (app::PlayFabCloudScriptInstanceAPI * this_ptr));
+IL2CPP_REGISTER_METHOD(0x017B4520, void, ForgetAllCredentials, (app::PlayFabCloudScriptInstanceAPI * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01A25750, void, ExecuteEntityCloudScript, (app::PlayFabCloudScriptInstanceAPI * this_ptr, app::ExecuteEntityCloudScriptRequest * request, app::Action_1_PlayFab_CloudScriptModels_ExecuteCloudScriptResult_ * result_callback, app::Action_1_PlayFab_PlayFabError_ * error_callback, app::Object * custom_data, app::Dictionary_2_System_String_System_String_ * extra_headers));
 }

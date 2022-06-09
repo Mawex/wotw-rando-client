@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Func_1_System::Threading::Tasks::VoidTaskResult_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_1_System_Threading_Tasks_VoidTaskResult_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x008A18F0, VoidTaskResult, Invoke, (Func_1_System_Threading_Tasks_VoidTaskResult_ * __this));
-IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (Func_1_System_Threading_Tasks_VoidTaskResult_ * __this, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x008A1BF0, VoidTaskResult, EndInvoke, (Func_1_System_Threading_Tasks_VoidTaskResult_ * __this, IAsyncResult * result));
+namespace app::methods::System::Func_1_System_Threading_Tasks_VoidTaskResult_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Func_1_System_Threading_Tasks_VoidTaskResult_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x008A18F0, VoidTaskResult, Invoke, (app::Func_1_System_Threading_Tasks_VoidTaskResult_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (app::Func_1_System_Threading_Tasks_VoidTaskResult_ * this_ptr, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x008A1BF0, VoidTaskResult, EndInvoke, (app::Func_1_System_Threading_Tasks_VoidTaskResult_ * this_ptr, app::IAsyncResult * result));
 }

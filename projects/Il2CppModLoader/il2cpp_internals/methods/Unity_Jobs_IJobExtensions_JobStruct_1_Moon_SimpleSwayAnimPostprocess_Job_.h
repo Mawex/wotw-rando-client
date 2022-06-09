@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Unity::Jobs::IJobExtensions_JobStruct_1_Moon::SimpleSwayAnimPostprocess_Job_ {
+namespace app::methods::Unity_Jobs::IJobExtensions_JobStruct_1_Moon_SimpleSwayAnimPostprocess_Job_ {
 IL2CPP_REGISTER_METHOD(0x02265970, void *, Initialize, ());
-IL2CPP_REGISTER_METHOD(0x02265D30, void, Execute, (SimpleSwayAnimPostprocess_Job * data, void * additionalPtr, void * bufferRangePatchData, JobRanges * ranges, int32_t jobIndex));
+IL2CPP_REGISTER_METHOD(0x02265D30, void, Execute, (app::SimpleSwayAnimPostprocess_Job * data, app::void * additional_ptr, app::void * buffer_range_patch_data, app::JobRanges * ranges, int32_t job_index));
 }

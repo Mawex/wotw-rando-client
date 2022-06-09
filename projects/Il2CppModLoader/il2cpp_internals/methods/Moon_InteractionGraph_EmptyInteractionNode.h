@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::InteractionGraph::EmptyInteractionNode {
-IL2CPP_REGISTER_METHOD(0x0198D160, void, OnEnter, (EmptyInteractionNode * __this));
-IL2CPP_REGISTER_METHOD(0x0056FAC0, void, __ctor, (EmptyInteractionNode * __this));
+namespace app::methods::Moon_InteractionGraph::EmptyInteractionNode {
+IL2CPP_REGISTER_METHOD(0x0198D160, void, OnEnter, (app::EmptyInteractionNode * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0056FAC0, void, __ctor, (app::EmptyInteractionNode * this_ptr));
 }

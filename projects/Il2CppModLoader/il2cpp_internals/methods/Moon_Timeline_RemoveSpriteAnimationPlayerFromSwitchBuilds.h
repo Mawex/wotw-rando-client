@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::RemoveSpriteAnimationPlayerFromSwitchBuilds {
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoStrip, (RemoveSpriteAnimationPlayerFromSwitchBuilds * __this));
-IL2CPP_REGISTER_METHOD(0x0077F8F0, void, OnBeforeStrip, (RemoveSpriteAnimationPlayerFromSwitchBuilds * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (RemoveSpriteAnimationPlayerFromSwitchBuilds * __this));
+namespace app::methods::Moon_Timeline::RemoveSpriteAnimationPlayerFromSwitchBuilds {
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoStrip, (app::RemoveSpriteAnimationPlayerFromSwitchBuilds * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0077F8F0, void, OnBeforeStrip, (app::RemoveSpriteAnimationPlayerFromSwitchBuilds * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::RemoveSpriteAnimationPlayerFromSwitchBuilds * this_ptr));
 }

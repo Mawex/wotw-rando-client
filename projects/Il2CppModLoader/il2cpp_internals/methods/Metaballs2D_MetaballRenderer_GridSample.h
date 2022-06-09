@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::Metaballs2D::MetaballRenderer_GridSample {
-IL2CPP_REGISTER_METHOD(0x006D39E0, void, __ctor, (MetaballRenderer_GridSample * __this, float x, float y));
+IL2CPP_REGISTER_METHOD(0x006D39E0, void, __ctor, (app::MetaballRenderer_GridSample * this_ptr, float x, float y));
 }

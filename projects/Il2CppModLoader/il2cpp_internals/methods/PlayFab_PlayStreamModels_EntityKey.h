@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::PlayStreamModels::EntityKey {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EntityKey_9 * __this));
+namespace app::methods::PlayFab_PlayStreamModels::EntityKey {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::EntityKey_9 * this_ptr));
 }

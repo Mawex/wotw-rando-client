@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::XmlUnionConverter {
-IL2CPP_REGISTER_METHOD(0x0192FD00, void, __ctor, (XmlUnionConverter * __this, XmlSchemaType * schemaType));
-IL2CPP_REGISTER_METHOD(0x019300A0, XmlValueConverter *, Create, (XmlSchemaType * schemaType));
-IL2CPP_REGISTER_METHOD(0x019301F0, Object *, ChangeType, (XmlUnionConverter * __this, Object * value, Type * destinationType, IXmlNamespaceResolver * nsResolver));
+namespace app::methods::System_Xml_Schema::XmlUnionConverter {
+IL2CPP_REGISTER_METHOD(0x0192FD00, void, __ctor, (app::XmlUnionConverter * this_ptr, app::XmlSchemaType * schema_type));
+IL2CPP_REGISTER_METHOD(0x019300A0, XmlValueConverter *, Create, (app::XmlSchemaType * schema_type));
+IL2CPP_REGISTER_METHOD(0x019301F0, Object *, ChangeType, (app::XmlUnionConverter * this_ptr, app::Object * value, app::Type * destination_type, app::IXmlNamespaceResolver * ns_resolver));
 IL2CPP_REGISTER_METHODINFO(0x047812D8, XmlUnionConverter_ChangeType__MethodInfo);
 }

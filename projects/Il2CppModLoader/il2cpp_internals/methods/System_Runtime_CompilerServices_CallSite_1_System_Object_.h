@@ -1,18 +1,18 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::CompilerServices::CallSite_1_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x0276D310, Object *, get_Update, (CallSite_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x0276D380, void, __ctor, (CallSite_1_System_Object_ * __this, CallSiteBinder * binder));
-IL2CPP_REGISTER_METHOD(0x0276D3C0, void, __ctor, (CallSite_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x0276D3E0, CallSite_1_System_Object_ *, CreateMatchMaker, (CallSite_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x0276D4F0, CallSite_1_System_Object_ *, Create, (CallSiteBinder * binder));
+namespace app::methods::System_Runtime_CompilerServices::CallSite_1_System_Object_ {
+IL2CPP_REGISTER_METHOD(0x0276D310, Object *, get_Update, (app::CallSite_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0276D380, void, __ctor_1, (app::CallSite_1_System_Object_ * this_ptr, app::CallSiteBinder * binder));
+IL2CPP_REGISTER_METHOD(0x0276D3C0, void, __ctor_2, (app::CallSite_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0276D3E0, CallSite_1_System_Object_ *, CreateMatchMaker, (app::CallSite_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0276D4F0, CallSite_1_System_Object_ *, Create, (app::CallSiteBinder * binder));
 IL2CPP_REGISTER_METHODINFO(0x04772710, CallSite_1_System_Object__Create__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0276D770, Object *, GetUpdateDelegate, (CallSite_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x0276D7E0, Object *, GetUpdateDelegate, (CallSite_1_System_Object_ * __this, Object * * addr));
-IL2CPP_REGISTER_METHOD(0x0276D820, void, AddRule, (CallSite_1_System_Object_ * __this, Object * newRule));
-IL2CPP_REGISTER_METHOD(0x0276D970, void, MoveRule, (CallSite_1_System_Object_ * __this, int32_t i));
-IL2CPP_REGISTER_METHOD(0x0276DA30, Object *, MakeUpdateDelegate, (CallSite_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x0276DB90, Object *, CreateCustomUpdateDelegate, (CallSite_1_System_Object_ * __this, MethodInfo_1 * invoke));
-IL2CPP_REGISTER_METHOD(0x0276FE10, Object *, CreateCustomNoMatchDelegate, (CallSite_1_System_Object_ * __this, MethodInfo_1 * invoke));
-IL2CPP_REGISTER_METHOD(0x02770360, Expression *, Convert, (Expression * arg, Type * type));
+IL2CPP_REGISTER_METHOD(0x0276D770, Object *, GetUpdateDelegate_1, (app::CallSite_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0276D7E0, Object *, GetUpdateDelegate_2, (app::CallSite_1_System_Object_ * this_ptr, app::Object * * addr));
+IL2CPP_REGISTER_METHOD(0x0276D820, void, AddRule, (app::CallSite_1_System_Object_ * this_ptr, app::Object * new_rule));
+IL2CPP_REGISTER_METHOD(0x0276D970, void, MoveRule, (app::CallSite_1_System_Object_ * this_ptr, int32_t i));
+IL2CPP_REGISTER_METHOD(0x0276DA30, Object *, MakeUpdateDelegate, (app::CallSite_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0276DB90, Object *, CreateCustomUpdateDelegate, (app::CallSite_1_System_Object_ * this_ptr, app::MethodInfo_1 * invoke));
+IL2CPP_REGISTER_METHOD(0x0276FE10, Object *, CreateCustomNoMatchDelegate, (app::CallSite_1_System_Object_ * this_ptr, app::MethodInfo_1 * invoke));
+IL2CPP_REGISTER_METHOD(0x02770360, Expression *, Convert, (app::Expression * arg, app::Type * type));
 }

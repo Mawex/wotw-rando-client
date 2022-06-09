@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Rendering::SliceRenderSettings_Slice {
-IL2CPP_REGISTER_METHOD(0x00120380, void, Lerp, (SliceRenderSettings_Slice__Boxed * __this, SliceRenderSettings_Slice from, SliceRenderSettings_Slice to, float t));
-IL2CPP_REGISTER_METHOD(0x00EBDA20, float, GetPixelRadius, (float blurAmount, int32_t resolutionX));
-IL2CPP_REGISTER_METHOD(0x00EBDAE0, float, GetCameraMotionBlurPixelRadius, (float blurForce, float RTPixelSize));
-IL2CPP_REGISTER_METHOD(0x00EBDBA0, int32_t, FindKernelByRadius, (Single__Array * kernelSettings, float kernelPixelRadius));
-IL2CPP_REGISTER_METHOD(0x00EBDC20, void, GetComputeKernel, (float kernelPixelRadius, float camMovementDelta, int32_t * kernelPassIndex, int32_t * threadSize, int32_t * passMaxRadius, int32_t * passIndex));
-IL2CPP_REGISTER_METHOD(0x00EBDDE0, int32_t, GetKernelPassIndex, (float kernelPixelRadius, float camMovementDelta, int32_t kernelBias, bool useBilinear, bool useLinMB));
-IL2CPP_REGISTER_METHOD(0x00EBDFB0, String *, GetKernelPassName, (int32_t index));
-IL2CPP_REGISTER_METHOD(0x00EBE080, String *, GetKernelPassName, (float kernelRadius, float minRTize, int32_t kernelBias, int32_t sliceIndex, float camMovementDelta, bool useLinMB));
+namespace app::methods::Moon_Rendering::SliceRenderSettings_Slice {
+IL2CPP_REGISTER_METHOD(0x00120380, void, Lerp, (app::SliceRenderSettings_Slice__Boxed * this_ptr, app::SliceRenderSettings_Slice from, app::SliceRenderSettings_Slice to, float t));
+IL2CPP_REGISTER_METHOD(0x00EBDA20, float, GetPixelRadius, (float blur_amount, int32_t resolution_x));
+IL2CPP_REGISTER_METHOD(0x00EBDAE0, float, GetCameraMotionBlurPixelRadius, (float blur_force, float r_t_pixel_size));
+IL2CPP_REGISTER_METHOD(0x00EBDBA0, int32_t, FindKernelByRadius, (app::Single__Array * kernel_settings, float kernel_pixel_radius));
+IL2CPP_REGISTER_METHOD(0x00EBDC20, void, GetComputeKernel, (float kernel_pixel_radius, float cam_movement_delta, app::int32_t * kernel_pass_index, app::int32_t * thread_size, app::int32_t * pass_max_radius, app::int32_t * pass_index));
+IL2CPP_REGISTER_METHOD(0x00EBDDE0, int32_t, GetKernelPassIndex, (float kernel_pixel_radius, float cam_movement_delta, int32_t kernel_bias, bool use_bilinear, bool use_lin_m_b));
+IL2CPP_REGISTER_METHOD(0x00EBDFB0, String *, GetKernelPassName_1, (int32_t index));
+IL2CPP_REGISTER_METHOD(0x00EBE080, String *, GetKernelPassName_2, (float kernel_radius, float min_r_tize, int32_t kernel_bias, int32_t slice_index, float cam_movement_delta, bool use_lin_m_b));
 IL2CPP_REGISTER_METHOD(0x00EBE190, void, __cctor, ());
 }

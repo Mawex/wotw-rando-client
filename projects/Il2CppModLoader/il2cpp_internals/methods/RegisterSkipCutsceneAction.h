@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::RegisterSkipCutsceneAction {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Perform, (RegisterSkipCutsceneAction * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (RegisterSkipCutsceneAction * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Perform, (app::RegisterSkipCutsceneAction * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0044C850, void, __ctor, (app::RegisterSkipCutsceneAction * this_ptr));
 }

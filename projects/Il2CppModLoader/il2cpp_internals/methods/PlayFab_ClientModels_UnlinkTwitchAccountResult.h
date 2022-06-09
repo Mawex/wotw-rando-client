@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::UnlinkTwitchAccountResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (UnlinkTwitchAccountResult * __this));
+namespace app::methods::PlayFab_ClientModels::UnlinkTwitchAccountResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::UnlinkTwitchAccountResult * this_ptr));
 }

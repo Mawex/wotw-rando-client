@@ -1,24 +1,24 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::SimpleAsyncResult {
-IL2CPP_REGISTER_METHOD(0x01BDA2F0, void, __ctor, (SimpleAsyncResult * __this, SimpleAsyncCallback * cb));
-IL2CPP_REGISTER_METHOD(0x01BDA440, void, __ctor, (SimpleAsyncResult * __this, AsyncCallback * cb, Object * state));
-IL2CPP_REGISTER_METHOD(0x01BDA740, void, Run, (Func_2_System_Net_SimpleAsyncResult_Boolean_ * func, SimpleAsyncCallback * callback));
-IL2CPP_REGISTER_METHOD(0x01BDAA30, void, RunWithLock, (Object * locker, Func_2_System_Net_SimpleAsyncResult_Boolean_ * func, SimpleAsyncCallback * callback));
-IL2CPP_REGISTER_METHOD(0x01BDAD50, void, Reset_internal, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01BDAE40, void, SetCompleted, (SimpleAsyncResult * __this, bool synch, Exception * e));
-IL2CPP_REGISTER_METHOD(0x01BDAE80, void, SetCompleted, (SimpleAsyncResult * __this, bool synch));
-IL2CPP_REGISTER_METHOD(0x01BDAEC0, void, SetCompleted_internal, (SimpleAsyncResult * __this, bool synch, Exception * e));
-IL2CPP_REGISTER_METHOD(0x01BDAFB0, void, SetCompleted_internal, (SimpleAsyncResult * __this, bool synch));
-IL2CPP_REGISTER_METHOD(0x01BDAFC0, void, DoCallback_private, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01BDAFF0, void, DoCallback_internal, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01BDB020, void, WaitUntilComplete, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01BDB070, bool, WaitUntilComplete, (SimpleAsyncResult * __this, int32_t timeout, bool exitContext));
-IL2CPP_REGISTER_METHOD(0x002FBB00, Object *, get_AsyncState, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01BDB0F0, WaitHandle *, get_AsyncWaitHandle, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01BDB340, bool, get_CompletedSynchronously, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_CompletedSynchronouslyPeek, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x01BDB500, bool, get_IsCompleted, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x00938880, bool, get_GotException, (SimpleAsyncResult * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9B0, Exception *, get_Exception, (SimpleAsyncResult * __this));
+namespace app::methods::System_Net::SimpleAsyncResult {
+IL2CPP_REGISTER_METHOD(0x01BDA2F0, void, __ctor_1, (app::SimpleAsyncResult * this_ptr, app::SimpleAsyncCallback * cb));
+IL2CPP_REGISTER_METHOD(0x01BDA440, void, __ctor_2, (app::SimpleAsyncResult * this_ptr, app::AsyncCallback * cb, app::Object * state));
+IL2CPP_REGISTER_METHOD(0x01BDA740, void, Run, (app::Func_2_System_Net_SimpleAsyncResult_Boolean_ * func, app::SimpleAsyncCallback * callback));
+IL2CPP_REGISTER_METHOD(0x01BDAA30, void, RunWithLock, (app::Object * locker, app::Func_2_System_Net_SimpleAsyncResult_Boolean_ * func, app::SimpleAsyncCallback * callback));
+IL2CPP_REGISTER_METHOD(0x01BDAD50, void, Reset_internal, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BDAE40, void, SetCompleted_1, (app::SimpleAsyncResult * this_ptr, bool synch, app::Exception * e));
+IL2CPP_REGISTER_METHOD(0x01BDAE80, void, SetCompleted_2, (app::SimpleAsyncResult * this_ptr, bool synch));
+IL2CPP_REGISTER_METHOD(0x01BDAEC0, void, SetCompleted_internal_1, (app::SimpleAsyncResult * this_ptr, bool synch, app::Exception * e));
+IL2CPP_REGISTER_METHOD(0x01BDAFB0, void, SetCompleted_internal_2, (app::SimpleAsyncResult * this_ptr, bool synch));
+IL2CPP_REGISTER_METHOD(0x01BDAFC0, void, DoCallback_private, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BDAFF0, void, DoCallback_internal, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BDB020, void, WaitUntilComplete_1, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BDB070, bool, WaitUntilComplete_2, (app::SimpleAsyncResult * this_ptr, int32_t timeout, bool exit_context));
+IL2CPP_REGISTER_METHOD(0x002FBB00, Object *, get_AsyncState, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BDB0F0, WaitHandle *, get_AsyncWaitHandle, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BDB340, bool, get_CompletedSynchronously, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_CompletedSynchronouslyPeek, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BDB500, bool, get_IsCompleted, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00938880, bool, get_GotException, (app::SimpleAsyncResult * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, Exception *, get_Exception, (app::SimpleAsyncResult * this_ptr));
 }

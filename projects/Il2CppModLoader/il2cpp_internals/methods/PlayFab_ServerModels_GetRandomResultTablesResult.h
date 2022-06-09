@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::GetRandomResultTablesResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetRandomResultTablesResult * __this));
+namespace app::methods::PlayFab_ServerModels::GetRandomResultTablesResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetRandomResultTablesResult * this_ptr));
 }

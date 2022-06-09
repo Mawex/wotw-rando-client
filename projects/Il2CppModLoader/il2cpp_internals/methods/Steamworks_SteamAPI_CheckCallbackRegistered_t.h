@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::Steamworks::SteamAPI_CheckCallbackRegistered_t {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (SteamAPI_CheckCallbackRegistered_t * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01C77D40, void, Invoke, (SteamAPI_CheckCallbackRegistered_t * __this, int32_t iCallbackNum));
-IL2CPP_REGISTER_METHOD(0x027E21A0, IAsyncResult *, BeginInvoke, (SteamAPI_CheckCallbackRegistered_t * __this, int32_t iCallbackNum, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (SteamAPI_CheckCallbackRegistered_t * __this, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::SteamAPI_CheckCallbackRegistered_t * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01C77D40, void, Invoke, (app::SteamAPI_CheckCallbackRegistered_t * this_ptr, int32_t i_callback_num));
+IL2CPP_REGISTER_METHOD(0x027E21A0, IAsyncResult *, BeginInvoke, (app::SteamAPI_CheckCallbackRegistered_t * this_ptr, int32_t i_callback_num, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::SteamAPI_CheckCallbackRegistered_t * this_ptr, app::IAsyncResult * result));
 }

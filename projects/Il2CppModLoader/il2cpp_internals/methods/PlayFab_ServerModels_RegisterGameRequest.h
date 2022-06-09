@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::RegisterGameRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RegisterGameRequest * __this));
+namespace app::methods::PlayFab_ServerModels::RegisterGameRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::RegisterGameRequest * this_ptr));
 }

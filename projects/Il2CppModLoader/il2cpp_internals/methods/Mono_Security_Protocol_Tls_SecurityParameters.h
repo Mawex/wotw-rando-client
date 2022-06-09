@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Security::Protocol::Tls::SecurityParameters {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SecurityParameters * __this));
-IL2CPP_REGISTER_METHOD(0x002FA280, CipherSuite *, get_Cipher, (SecurityParameters * __this));
-IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Cipher, (SecurityParameters * __this, CipherSuite * value));
-IL2CPP_REGISTER_METHOD(0x002FB930, Byte__Array *, get_ClientWriteMAC, (SecurityParameters * __this));
-IL2CPP_REGISTER_METHOD(0x002FB940, void, set_ClientWriteMAC, (SecurityParameters * __this, Byte__Array * value));
-IL2CPP_REGISTER_METHOD(0x002FB950, Byte__Array *, get_ServerWriteMAC, (SecurityParameters * __this));
-IL2CPP_REGISTER_METHOD(0x002FB960, void, set_ServerWriteMAC, (SecurityParameters * __this, Byte__Array * value));
-IL2CPP_REGISTER_METHOD(0x0063D180, void, Clear, (SecurityParameters * __this));
+namespace app::methods::Mono_Security_Protocol_Tls::SecurityParameters {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SecurityParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA280, CipherSuite *, get_Cipher, (app::SecurityParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Cipher, (app::SecurityParameters * this_ptr, app::CipherSuite * value));
+IL2CPP_REGISTER_METHOD(0x002FB930, Byte__Array *, get_ClientWriteMAC, (app::SecurityParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB940, void, set_ClientWriteMAC, (app::SecurityParameters * this_ptr, app::Byte__Array * value));
+IL2CPP_REGISTER_METHOD(0x002FB950, Byte__Array *, get_ServerWriteMAC, (app::SecurityParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB960, void, set_ServerWriteMAC, (app::SecurityParameters * this_ptr, app::Byte__Array * value));
+IL2CPP_REGISTER_METHOD(0x0063D180, void, Clear, (app::SecurityParameters * this_ptr));
 }

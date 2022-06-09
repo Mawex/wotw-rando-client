@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::RootMotion::Interp {
-IL2CPP_REGISTER_METHOD(0x02A2A500, float, Float, (float t, InterpolationMode__Enum mode));
-IL2CPP_REGISTER_METHOD(0x02A2ACC0, Vector3, V3, (Vector3 v1, Vector3 v2, float t, InterpolationMode__Enum mode));
-IL2CPP_REGISTER_METHOD(0x02A2AE10, float, LerpValue, (float value, float target, float increaseSpeed, float decreaseSpeed));
+IL2CPP_REGISTER_METHOD(0x02A2A500, float, Float, (float t, app::InterpolationMode__Enum mode));
+IL2CPP_REGISTER_METHOD(0x02A2ACC0, Vector3, V3, (app::Vector3 v1, app::Vector3 v2, float t, app::InterpolationMode__Enum mode));
+IL2CPP_REGISTER_METHOD(0x02A2AE10, float, LerpValue, (float value, float target, float increase_speed, float decrease_speed));
 IL2CPP_REGISTER_METHOD(0x02A2AFF0, float, None, (float t, float b, float c));
 IL2CPP_REGISTER_METHOD(0x02A2B000, float, InOutCubic, (float t, float b, float c));
 IL2CPP_REGISTER_METHOD(0x02A2B030, float, InOutQuintic, (float t, float b, float c));
@@ -31,5 +31,5 @@ IL2CPP_REGISTER_METHOD(0x02A2B7D0, float, InElastic, (float t, float b, float c)
 IL2CPP_REGISTER_METHOD(0x02A2B920, float, OutElastic, (float t, float b, float c));
 IL2CPP_REGISTER_METHOD(0x02A2BA60, float, InBack, (float t, float b, float c));
 IL2CPP_REGISTER_METHOD(0x02A2BA90, float, OutBack, (float t, float b, float c));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (Interp * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::Interp * this_ptr));
 }

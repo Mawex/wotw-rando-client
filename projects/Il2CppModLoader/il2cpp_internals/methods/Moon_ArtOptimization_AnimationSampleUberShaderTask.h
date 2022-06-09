@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::ArtOptimization::AnimationSampleUberShaderTask {
+namespace app::methods::Moon_ArtOptimization::AnimationSampleUberShaderTask {
 IL2CPP_REGISTER_METHOD(0x0133EB10, RenderTexture *, get_RenderTex, ());
-IL2CPP_REGISTER_METHOD(0x0133EE00, void, __ctor, (AnimationSampleUberShaderTask * __this, int32_t sampleIndex, int32_t animSampleIndex, float progress, ArtOptimizationDataModel * dataModel, UberShaderComponent * uberShader, Bounds bounds));
-IL2CPP_REGISTER_METHOD(0x0133EE40, void, OnEnterContext, (AnimationSampleUberShaderTask * __this, IOptimizationTask * antecedent, Object * contextData));
-IL2CPP_REGISTER_METHOD(0x0133EE50, void, Update, (AnimationSampleUberShaderTask * __this));
-IL2CPP_REGISTER_METHOD(0x0133FDC0, void, SaveSample, (AnimationSampleUberShaderTask * __this, Texture2D * sample, String * sampleName));
+IL2CPP_REGISTER_METHOD(0x0133EE00, void, __ctor, (app::AnimationSampleUberShaderTask * this_ptr, int32_t sample_index, int32_t anim_sample_index, float progress, app::ArtOptimizationDataModel * data_model, app::UberShaderComponent * uber_shader, app::Bounds bounds));
+IL2CPP_REGISTER_METHOD(0x0133EE40, void, OnEnterContext, (app::AnimationSampleUberShaderTask * this_ptr, app::IOptimizationTask * antecedent, app::Object * context_data));
+IL2CPP_REGISTER_METHOD(0x0133EE50, void, Update, (app::AnimationSampleUberShaderTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0133FDC0, void, SaveSample, (app::AnimationSampleUberShaderTask * this_ptr, app::Texture2D * sample, app::String * sample_name));
 IL2CPP_REGISTER_METHOD(0x0133FF60, void, __cctor, ());
 }

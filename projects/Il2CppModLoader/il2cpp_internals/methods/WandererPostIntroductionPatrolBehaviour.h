@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::WandererPostIntroductionPatrolBehaviour {
-IL2CPP_REGISTER_METHOD(0x008D2350, void, OnEntityInitialized, (WandererPostIntroductionPatrolBehaviour * __this));
-IL2CPP_REGISTER_METHOD(0x008C6BC0, void, OnEnter, (WandererPostIntroductionPatrolBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00420EE0, BehaviourStatus__Enum, OnExecute, (WandererPostIntroductionPatrolBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x008C6EF0, void, OnExit, (WandererPostIntroductionPatrolBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0060C1C0, void, __ctor, (WandererPostIntroductionPatrolBehaviour * __this));
+IL2CPP_REGISTER_METHOD(0x008D2350, void, OnEntityInitialized, (app::WandererPostIntroductionPatrolBehaviour * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008C6BC0, void, OnEnter, (app::WandererPostIntroductionPatrolBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00420EE0, BehaviourStatus__Enum, OnExecute, (app::WandererPostIntroductionPatrolBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x008C6EF0, void, OnExit, (app::WandererPostIntroductionPatrolBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0060C1C0, void, __ctor, (app::WandererPostIntroductionPatrolBehaviour * this_ptr));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Diagnostics::Tracing::EnumSByteTypeInfo_1_System::Boolean_ {
-IL2CPP_REGISTER_METHOD(0x02B8F010, void, WriteMetadata, (EnumSByteTypeInfo_1_System_Boolean_ * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));
-IL2CPP_REGISTER_METHOD(0x02B8F0E0, void, WriteData, (EnumSByteTypeInfo_1_System_Boolean_ * __this, TraceLoggingDataCollector * collector, bool * value));
-IL2CPP_REGISTER_METHOD(0x00502220, Object *, GetData, (EnumSByteTypeInfo_1_System_Boolean_ * __this, Object * value));
-IL2CPP_REGISTER_METHOD(0x0298B8E0, void, __ctor, (EnumSByteTypeInfo_1_System_Boolean_ * __this));
+namespace app::methods::System_Diagnostics_Tracing::EnumSByteTypeInfo_1_System_Boolean_ {
+IL2CPP_REGISTER_METHOD(0x02B8F010, void, WriteMetadata, (app::EnumSByteTypeInfo_1_System_Boolean_ * this_ptr, app::TraceLoggingMetadataCollector * collector, app::String * name, app::EventFieldFormat__Enum format));
+IL2CPP_REGISTER_METHOD(0x02B8F0E0, void, WriteData, (app::EnumSByteTypeInfo_1_System_Boolean_ * this_ptr, app::TraceLoggingDataCollector * collector, app::bool * value));
+IL2CPP_REGISTER_METHOD(0x00502220, Object *, GetData, (app::EnumSByteTypeInfo_1_System_Boolean_ * this_ptr, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x0298B8E0, void, __ctor, (app::EnumSByteTypeInfo_1_System_Boolean_ * this_ptr));
 }

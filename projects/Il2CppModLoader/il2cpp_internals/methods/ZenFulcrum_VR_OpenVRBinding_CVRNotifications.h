@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRNotifications {
-IL2CPP_REGISTER_METHOD(0x016788C0, void, __ctor, (CVRNotifications * __this, void * pInterface));
-IL2CPP_REGISTER_METHOD(0x016789E0, EVRNotificationError__Enum, CreateNotification, (CVRNotifications * __this, uint64_t ulOverlayHandle, uint64_t ulUserValue, EVRNotificationType__Enum type, String * pchText, EVRNotificationStyle__Enum style, NotificationBitmap_t * pImage, uint32_t * pNotificationId));
-IL2CPP_REGISTER_METHOD(0x01678A20, EVRNotificationError__Enum, RemoveNotification, (CVRNotifications * __this, uint32_t notificationId));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::CVRNotifications {
+IL2CPP_REGISTER_METHOD(0x016788C0, void, __ctor, (app::CVRNotifications * this_ptr, app::void * p_interface));
+IL2CPP_REGISTER_METHOD(0x016789E0, EVRNotificationError__Enum, CreateNotification, (app::CVRNotifications * this_ptr, uint64_t ul_overlay_handle, uint64_t ul_user_value, app::EVRNotificationType__Enum type, app::String * pch_text, app::EVRNotificationStyle__Enum style, app::NotificationBitmap_t * p_image, app::uint32_t * p_notification_id));
+IL2CPP_REGISTER_METHOD(0x01678A20, EVRNotificationError__Enum, RemoveNotification, (app::CVRNotifications * this_ptr, uint32_t notification_id));
 }

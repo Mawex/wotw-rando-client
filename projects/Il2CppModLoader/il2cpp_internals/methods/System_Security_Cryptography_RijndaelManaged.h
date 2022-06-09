@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Security::Cryptography::RijndaelManaged {
-IL2CPP_REGISTER_METHOD(0x028F00D0, void, __ctor, (RijndaelManaged * __this));
+namespace app::methods::System_Security_Cryptography::RijndaelManaged {
+IL2CPP_REGISTER_METHOD(0x028F00D0, void, __ctor, (app::RijndaelManaged * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0473B620, RijndaelManaged__ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x028F0230, ICryptoTransform *, CreateEncryptor, (RijndaelManaged * __this, Byte__Array * rgbKey, Byte__Array * rgbIV));
-IL2CPP_REGISTER_METHOD(0x028F0260, ICryptoTransform *, CreateDecryptor, (RijndaelManaged * __this, Byte__Array * rgbKey, Byte__Array * rgbIV));
-IL2CPP_REGISTER_METHOD(0x028F0290, void, GenerateKey, (RijndaelManaged * __this));
-IL2CPP_REGISTER_METHOD(0x028F0350, void, GenerateIV, (RijndaelManaged * __this));
-IL2CPP_REGISTER_METHOD(0x028F0410, ICryptoTransform *, NewEncryptor, (RijndaelManaged * __this, Byte__Array * rgbKey, CipherMode__Enum mode, Byte__Array * rgbIV, int32_t feedbackSize, RijndaelManagedTransformMode__Enum encryptMode));
+IL2CPP_REGISTER_METHOD(0x028F0230, ICryptoTransform *, CreateEncryptor, (app::RijndaelManaged * this_ptr, app::Byte__Array * rgb_key, app::Byte__Array * rgb_i_v));
+IL2CPP_REGISTER_METHOD(0x028F0260, ICryptoTransform *, CreateDecryptor, (app::RijndaelManaged * this_ptr, app::Byte__Array * rgb_key, app::Byte__Array * rgb_i_v));
+IL2CPP_REGISTER_METHOD(0x028F0290, void, GenerateKey, (app::RijndaelManaged * this_ptr));
+IL2CPP_REGISTER_METHOD(0x028F0350, void, GenerateIV, (app::RijndaelManaged * this_ptr));
+IL2CPP_REGISTER_METHOD(0x028F0410, ICryptoTransform *, NewEncryptor, (app::RijndaelManaged * this_ptr, app::Byte__Array * rgb_key, app::CipherMode__Enum mode, app::Byte__Array * rgb_i_v, int32_t feedback_size, app::RijndaelManagedTransformMode__Enum encrypt_mode));
 }

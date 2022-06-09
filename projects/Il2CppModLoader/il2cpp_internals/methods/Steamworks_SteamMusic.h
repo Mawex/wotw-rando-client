@@ -8,6 +8,6 @@ IL2CPP_REGISTER_METHOD(0x0278BBD0, void, Play, ());
 IL2CPP_REGISTER_METHOD(0x0278BC80, void, Pause, ());
 IL2CPP_REGISTER_METHOD(0x0278BD30, void, PlayPrevious, ());
 IL2CPP_REGISTER_METHOD(0x0278BDE0, void, PlayNext, ());
-IL2CPP_REGISTER_METHOD(0x0278BE90, void, SetVolume, (float flVolume));
+IL2CPP_REGISTER_METHOD(0x0278BE90, void, SetVolume, (float fl_volume));
 IL2CPP_REGISTER_METHOD(0x0278BF50, float, GetVolume, ());
 }

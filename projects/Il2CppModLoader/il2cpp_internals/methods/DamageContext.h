@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::DamageContext {
-IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (DamageContext__Boxed * __this, Damage * damage));
-IL2CPP_REGISTER_METHOD(0x00107C00, Damage *, get_Damage, (DamageContext__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0010FD20, void, set_Damage, (DamageContext__Boxed * __this, Damage * value));
-}
+    IL2CPP_REGISTER_METHOD(0x0010FD20, void, __ctor, (app::DamageContext__Boxed * this_ptr, app::Damage* damage));
+    IL2CPP_REGISTER_METHOD(0x00107C00, Damage*, get_Damage, (app::DamageContext__Boxed * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0010FD20, void, set_Damage, (app::DamageContext__Boxed * this_ptr, app::Damage* value));
+} // namespace app::methods::DamageContext

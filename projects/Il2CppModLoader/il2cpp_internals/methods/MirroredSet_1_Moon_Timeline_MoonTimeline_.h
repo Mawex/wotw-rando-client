@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::MirroredSet_1_Moon::Timeline::MoonTimeline_ {
-IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (MirroredSet_1_Moon_Timeline_MoonTimeline_ * __this));
+namespace app::methods::MirroredSet_1_Moon_Timeline_MoonTimeline_ {
+IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (app::MirroredSet_1_Moon_Timeline_MoonTimeline_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04747180, MirroredSet_1_Moon_Timeline_MoonTimeline___ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x019FA1B0, MoonTimeline *, GetItem, (MirroredSet_1_Moon_Timeline_MoonTimeline_ * __this, float lookDirection));
+IL2CPP_REGISTER_METHOD(0x019FA1B0, MoonTimeline *, GetItem, (app::MirroredSet_1_Moon_Timeline_MoonTimeline_ * this_ptr, float look_direction));
 }

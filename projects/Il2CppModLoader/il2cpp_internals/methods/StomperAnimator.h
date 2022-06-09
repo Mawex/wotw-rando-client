@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
 namespace app::methods::StomperAnimator {
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonSetupVisuals *, get_MoonSetupVisuals, (StomperAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00658D10, void, set_MoonSetupVisuals, (StomperAnimator * __this, IMoonSetupVisuals * value));
-IL2CPP_REGISTER_METHOD(0x00658DE0, void, PlaySound, (StomperAnimator * __this, StomperVisuals_SoundEvent__Enum soundEvent));
-IL2CPP_REGISTER_METHOD(0x00658EB0, void, StopSound, (StomperAnimator * __this, StomperVisuals_SoundEvent__Enum soundEvent));
-IL2CPP_REGISTER_METHOD(0x00658FA0, void, SpawnStompDust, (StomperAnimator * __this, Vector3 position));
-IL2CPP_REGISTER_METHOD(0x00659170, void, SetVisualsFixedJoint, (StomperAnimator * __this, Rigidbody * body));
-IL2CPP_REGISTER_METHOD(0x00659320, void, PlayTriggerStomperTimeline, (StomperAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00659440, void, PlayStomperFallingTimeline, (StomperAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (StomperAnimator * __this));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonSetupVisuals *, get_MoonSetupVisuals, (app::StomperAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00658D10, void, set_MoonSetupVisuals, (app::StomperAnimator * this_ptr, app::IMoonSetupVisuals * value));
+IL2CPP_REGISTER_METHOD(0x00658DE0, void, PlaySound, (app::StomperAnimator * this_ptr, app::StomperVisuals_SoundEvent__Enum sound_event));
+IL2CPP_REGISTER_METHOD(0x00658EB0, void, StopSound, (app::StomperAnimator * this_ptr, app::StomperVisuals_SoundEvent__Enum sound_event));
+IL2CPP_REGISTER_METHOD(0x00658FA0, void, SpawnStompDust, (app::StomperAnimator * this_ptr, app::Vector3 position));
+IL2CPP_REGISTER_METHOD(0x00659170, void, SetVisualsFixedJoint, (app::StomperAnimator * this_ptr, app::Rigidbody * body));
+IL2CPP_REGISTER_METHOD(0x00659320, void, PlayTriggerStomperTimeline, (app::StomperAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00659440, void, PlayStomperFallingTimeline, (app::StomperAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::StomperAnimator * this_ptr));
 }

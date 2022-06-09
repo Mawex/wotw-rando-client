@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::fsm::triggers::OnEnterBash {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (OnEnterBash * __this));
+namespace app::methods::fsm_triggers::OnEnterBash {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::OnEnterBash * this_ptr));
 }

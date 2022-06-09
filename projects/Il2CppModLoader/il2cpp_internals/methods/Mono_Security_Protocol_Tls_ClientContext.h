@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Security::Protocol::Tls::ClientContext {
-IL2CPP_REGISTER_METHOD(0x005B0220, SslClientStream *, get_SslStream, (ClientContext * __this));
-IL2CPP_REGISTER_METHOD(0x01F663B0, int16_t, get_ClientHelloProtocol, (ClientContext * __this));
-IL2CPP_REGISTER_METHOD(0x01F663C0, void, set_ClientHelloProtocol, (ClientContext * __this, int16_t value));
-IL2CPP_REGISTER_METHOD(0x01F663D0, void, __ctor, (ClientContext * __this, SslClientStream * stream, SecurityProtocolType__Enum_1 securityProtocolType, String * targetHost, X509CertificateCollection_1 * clientCertificates));
-IL2CPP_REGISTER_METHOD(0x01F66440, void, Clear, (ClientContext * __this));
+namespace app::methods::Mono_Security_Protocol_Tls::ClientContext {
+IL2CPP_REGISTER_METHOD(0x005B0220, SslClientStream *, get_SslStream, (app::ClientContext * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F663B0, int16_t, get_ClientHelloProtocol, (app::ClientContext * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F663C0, void, set_ClientHelloProtocol, (app::ClientContext * this_ptr, int16_t value));
+IL2CPP_REGISTER_METHOD(0x01F663D0, void, __ctor, (app::ClientContext * this_ptr, app::SslClientStream * stream, app::SecurityProtocolType__Enum_1 security_protocol_type, app::String * target_host, app::X509CertificateCollection_1 * client_certificates));
+IL2CPP_REGISTER_METHOD(0x01F66440, void, Clear, (app::ClientContext * this_ptr));
 }

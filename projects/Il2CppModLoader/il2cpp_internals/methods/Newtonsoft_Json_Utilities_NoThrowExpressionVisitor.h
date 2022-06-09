@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor {
-IL2CPP_REGISTER_METHOD(0x0301EB10, Expression *, VisitConditional, (NoThrowExpressionVisitor * __this, ConditionalExpression * node));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (NoThrowExpressionVisitor * __this));
+namespace app::methods::Newtonsoft_Json_Utilities::NoThrowExpressionVisitor {
+IL2CPP_REGISTER_METHOD(0x0301EB10, Expression *, VisitConditional, (app::NoThrowExpressionVisitor * this_ptr, app::ConditionalExpression * node));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::NoThrowExpressionVisitor * this_ptr));
 IL2CPP_REGISTER_METHOD(0x0301EC70, void, __cctor, ());
 }

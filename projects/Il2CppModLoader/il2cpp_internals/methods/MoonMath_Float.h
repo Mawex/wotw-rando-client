@@ -11,8 +11,8 @@ IL2CPP_REGISTER_METHOD(0x025753D0, float, Wrap, (float value, float min, float m
 IL2CPP_REGISTER_METHOD(0x025754B0, float, AbsoluteMax, (float a, float b));
 IL2CPP_REGISTER_METHOD(0x025755A0, float, AbsoluteMin, (float a, float b));
 IL2CPP_REGISTER_METHOD(0x02575690, float, AbsoluteDifference, (float a, float b));
-IL2CPP_REGISTER_METHOD(0x02575750, float, DivideSafe, (float a, float b, float avoidDivisionByZeroResult));
-IL2CPP_REGISTER_METHOD(0x02575830, float, Remap, (float value, float sourceRangeMin, float sourceRangeMax, float targetRangeMin, float targetRangeMax));
+IL2CPP_REGISTER_METHOD(0x02575750, float, DivideSafe, (float a, float b, float avoid_division_by_zero_result));
+IL2CPP_REGISTER_METHOD(0x02575830, float, Remap, (float value, float source_range_min, float source_range_max, float target_range_min, float target_range_max));
 IL2CPP_REGISTER_METHOD(0x02575850, float, MathMod, (float a, float b));
 IL2CPP_REGISTER_METHOD(0x02575910, bool, IsBetween, (float val, float a, float b));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::HierarchyPerformanceTest::HierarchyTestOutputBase_1_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x0271F050, void, __ctor, (HierarchyTestOutputBase_1_System_Object_ * __this, Object * data));
-IL2CPP_REGISTER_METHOD(0x0271F1B0, String *, Save, (HierarchyTestOutputBase_1_System_Object_ * __this, String * fileName, String * fileExtension));
-IL2CPP_REGISTER_METHOD(0x0271F560, List_1_Moon_HierarchyPerformanceTest_HPerfTestResult_ *, SortResults, (HierarchyTestOutputBase_1_System_Object_ * __this, HierarchyDebugMenu_GameObjectItem * root, Dictionary_2_System_Int32_Moon_HierarchyPerformanceTest_HPerfTestResult_ * rawResults));
-IL2CPP_REGISTER_METHOD(0x0271F710, void, AddResultsRecursively, (HierarchyTestOutputBase_1_System_Object_ * __this, GameObject * root, List_1_Moon_HierarchyPerformanceTest_HPerfTestResult_ * sortedResults, Dictionary_2_System_Int32_Moon_HierarchyPerformanceTest_HPerfTestResult_ * rawResults));
+namespace app::methods::Moon_HierarchyPerformanceTest::HierarchyTestOutputBase_1_System_Object_ {
+IL2CPP_REGISTER_METHOD(0x0271F050, void, __ctor, (app::HierarchyTestOutputBase_1_System_Object_ * this_ptr, app::Object * data));
+IL2CPP_REGISTER_METHOD(0x0271F1B0, String *, Save, (app::HierarchyTestOutputBase_1_System_Object_ * this_ptr, app::String * file_name, app::String * file_extension));
+IL2CPP_REGISTER_METHOD(0x0271F560, List_1_Moon_HierarchyPerformanceTest_HPerfTestResult_ *, SortResults, (app::HierarchyTestOutputBase_1_System_Object_ * this_ptr, app::HierarchyDebugMenu_GameObjectItem * root, app::Dictionary_2_System_Int32_Moon_HierarchyPerformanceTest_HPerfTestResult_ * raw_results));
+IL2CPP_REGISTER_METHOD(0x0271F710, void, AddResultsRecursively, (app::HierarchyTestOutputBase_1_System_Object_ * this_ptr, app::GameObject * root, app::List_1_Moon_HierarchyPerformanceTest_HPerfTestResult_ * sorted_results, app::Dictionary_2_System_Int32_Moon_HierarchyPerformanceTest_HPerfTestResult_ * raw_results));
 }

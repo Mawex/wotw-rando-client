@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::CatlikeCoding::TextBox::AppliedTextStyle {
-IL2CPP_REGISTER_METHOD(0x0011DFB0, void, Apply, (AppliedTextStyle__Boxed * __this, TextStyle * style, TextRenderer * renderer));
-IL2CPP_REGISTER_METHOD(0x00123DD0, void, ApplyOnTop, (AppliedTextStyle__Boxed * __this, TextStyle * style, Color baseColor));
+namespace app::methods::CatlikeCoding_TextBox::AppliedTextStyle {
+IL2CPP_REGISTER_METHOD(0x0011DFB0, void, Apply, (app::AppliedTextStyle__Boxed * this_ptr, app::TextStyle * style, app::TextRenderer * renderer));
+IL2CPP_REGISTER_METHOD(0x00123DD0, void, ApplyOnTop, (app::AppliedTextStyle__Boxed * this_ptr, app::TextStyle * style, app::Color base_color));
 }

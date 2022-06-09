@@ -1,19 +1,19 @@
 #include <interception_macros.h>
 
 namespace app::methods::MoonCharacterController {
-IL2CPP_REGISTER_METHOD(0x00F452B0, Vector3, get_Position, (MoonCharacterController * __this));
-IL2CPP_REGISTER_METHOD(0x00F45340, void, Prewarm, (MoonCharacterController * __this));
-IL2CPP_REGISTER_METHOD(0x00F45340, void, Awake, (MoonCharacterController * __this));
-IL2CPP_REGISTER_METHOD(0x00F45400, void, Move, (MoonCharacterController * __this, Vector3 delta, bool useSafeMovementCode));
-IL2CPP_REGISTER_METHOD(0x00F45480, void, RenderVolume, (MoonCharacterController * __this, Vector3 p1, Vector3 p2, float radius, Vector3 dir, float distance));
-IL2CPP_REGISTER_METHOD(0x00F45B40, void, HideVolume, (MoonCharacterController * __this));
-IL2CPP_REGISTER_METHOD(0x00F45C60, bool, SweepTestSafeAll, (MoonCharacterController * __this, Vector3 direction, RaycastHit__Array * * hitInfo, float magnitude, QueryTriggerInteraction__Enum triggerInteraction));
-IL2CPP_REGISTER_METHOD(0x00F45CC0, bool, SweepTestSafe, (MoonCharacterController * __this, Vector3 direction, RaycastHit * hitInfo, float magnitude, QueryTriggerInteraction__Enum triggerInteraction));
-IL2CPP_REGISTER_METHOD(0x00F45D10, bool, Test, (MoonCharacterController * __this, Vector3 delta));
-IL2CPP_REGISTER_METHOD(0x00F45DC0, bool, Test, (MoonCharacterController * __this, Vector3 delta, MoonControllerColliderHit * moonHitInfo, QueryTriggerInteraction__Enum triggerInteraction));
-IL2CPP_REGISTER_METHOD(0x00F45FD0, bool, TestAll, (MoonCharacterController * __this, Vector3 delta, MoonControllerColliderHit * moonHitInfo, QueryTriggerInteraction__Enum triggerInteraction));
-IL2CPP_REGISTER_METHOD(0x00F46410, bool, CapsuleTest, (MoonCharacterController * __this, Vector3 delta, MoonControllerColliderHit * moonHitInfo, LayerMask mask, QueryTriggerInteraction__Enum triggerInteraction));
-IL2CPP_REGISTER_METHOD(0x00F46920, void, Move, (MoonCharacterController * __this, Vector3 delta, Vector3 originalDelta, bool useSafeMovementCode));
-IL2CPP_REGISTER_METHOD(0x00F46970, void, MovePrivate, (MoonCharacterController * __this, Vector3 delta, Vector3 originalDelta, bool useSafeMovementCode));
-IL2CPP_REGISTER_METHOD(0x00F46FF0, void, __ctor, (MoonCharacterController * __this));
+IL2CPP_REGISTER_METHOD(0x00F452B0, Vector3, get_Position, (app::MoonCharacterController * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F45340, void, Prewarm, (app::MoonCharacterController * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F45340, void, Awake, (app::MoonCharacterController * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F45400, void, Move_1, (app::MoonCharacterController * this_ptr, app::Vector3 delta, bool use_safe_movement_code));
+IL2CPP_REGISTER_METHOD(0x00F45480, void, RenderVolume, (app::MoonCharacterController * this_ptr, app::Vector3 p1, app::Vector3 p2, float radius, app::Vector3 dir, float distance));
+IL2CPP_REGISTER_METHOD(0x00F45B40, void, HideVolume, (app::MoonCharacterController * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00F45C60, bool, SweepTestSafeAll, (app::MoonCharacterController * this_ptr, app::Vector3 direction, app::RaycastHit__Array * * hit_info, float magnitude, app::QueryTriggerInteraction__Enum trigger_interaction));
+IL2CPP_REGISTER_METHOD(0x00F45CC0, bool, SweepTestSafe, (app::MoonCharacterController * this_ptr, app::Vector3 direction, app::RaycastHit * hit_info, float magnitude, app::QueryTriggerInteraction__Enum trigger_interaction));
+IL2CPP_REGISTER_METHOD(0x00F45D10, bool, Test_1, (app::MoonCharacterController * this_ptr, app::Vector3 delta));
+IL2CPP_REGISTER_METHOD(0x00F45DC0, bool, Test_2, (app::MoonCharacterController * this_ptr, app::Vector3 delta, app::MoonControllerColliderHit * moon_hit_info, app::QueryTriggerInteraction__Enum trigger_interaction));
+IL2CPP_REGISTER_METHOD(0x00F45FD0, bool, TestAll, (app::MoonCharacterController * this_ptr, app::Vector3 delta, app::MoonControllerColliderHit * moon_hit_info, app::QueryTriggerInteraction__Enum trigger_interaction));
+IL2CPP_REGISTER_METHOD(0x00F46410, bool, CapsuleTest, (app::MoonCharacterController * this_ptr, app::Vector3 delta, app::MoonControllerColliderHit * moon_hit_info, app::LayerMask mask, app::QueryTriggerInteraction__Enum trigger_interaction));
+IL2CPP_REGISTER_METHOD(0x00F46920, void, Move_2, (app::MoonCharacterController * this_ptr, app::Vector3 delta, app::Vector3 original_delta, bool use_safe_movement_code));
+IL2CPP_REGISTER_METHOD(0x00F46970, void, MovePrivate, (app::MoonCharacterController * this_ptr, app::Vector3 delta, app::Vector3 original_delta, bool use_safe_movement_code));
+IL2CPP_REGISTER_METHOD(0x00F46FF0, void, __ctor, (app::MoonCharacterController * this_ptr));
 }

@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::SeinSpiritLeashAbility_LeashableInfo {
-IL2CPP_REGISTER_METHOD(0x0011C130, Vector3, GetAttackablePosition, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0011C160, bool, ShouldDecelerateOnApproach, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0011C170, float, GetCloseEnoughDistance, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0011C180, void, Clear, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0011C190, void, Copy, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this, SeinSpiritLeashAbility_LeashableInfo other));
-IL2CPP_REGISTER_METHOD(0x0011C220, void, SetAttackablePoint, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this, IAttackable * attackable, GameObject * attackableObject, ISpiritLeashAttackable * spiritLeashAttackable));
-IL2CPP_REGISTER_METHOD(0x0011C270, void, SetAttackableSurfaceLocal, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this, GrabbableSurface * surface, GameObject * attackableObject, ISpiritLeashAttackable * spiritLeashAttackable, Vector3 localPos));
-IL2CPP_REGISTER_METHOD(0x0011C3B0, void, SetAttackableSurfaceWorld, (SeinSpiritLeashAbility_LeashableInfo__Boxed * __this, GrabbableSurface * surface, GameObject * attackableObject, ISpiritLeashAttackable * spiritLeashAttackable, Vector3 worldPos));
+IL2CPP_REGISTER_METHOD(0x0011C130, Vector3, GetAttackablePosition, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0011C160, bool, ShouldDecelerateOnApproach, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0011C170, float, GetCloseEnoughDistance, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0011C180, void, Clear, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0011C190, void, Copy, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr, app::SeinSpiritLeashAbility_LeashableInfo other));
+IL2CPP_REGISTER_METHOD(0x0011C220, void, SetAttackablePoint, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr, app::IAttackable * attackable, app::GameObject * attackable_object, app::ISpiritLeashAttackable * spirit_leash_attackable));
+IL2CPP_REGISTER_METHOD(0x0011C270, void, SetAttackableSurfaceLocal, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr, app::GrabbableSurface * surface, app::GameObject * attackable_object, app::ISpiritLeashAttackable * spirit_leash_attackable, app::Vector3 local_pos));
+IL2CPP_REGISTER_METHOD(0x0011C3B0, void, SetAttackableSurfaceWorld, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr, app::GrabbableSurface * surface, app::GameObject * attackable_object, app::ISpiritLeashAttackable * spirit_leash_attackable, app::Vector3 world_pos));
 }

@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_T____c__DisplayClass5_0_UnityEngine::Quaternion_ {
-IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_T_c_DisplayClass5_0_UnityEngine_Quaternion_ * __this));
-IL2CPP_REGISTER_METHOD(0x027265E0, void, _Init_b__0, (NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_T_c_DisplayClass5_0_UnityEngine_Quaternion_ * __this));
+namespace app::methods::Moon::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_T____c__DisplayClass5_0_UnityEngine_Quaternion_ {
+IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (app::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_T_c_DisplayClass5_0_UnityEngine_Quaternion_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x027265E0, void, _Init_b__0, (app::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_T_c_DisplayClass5_0_UnityEngine_Quaternion_ * this_ptr));
 }

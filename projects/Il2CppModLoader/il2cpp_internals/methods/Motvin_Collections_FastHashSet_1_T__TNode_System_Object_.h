@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::Motvin::Collections::FastHashSet_1_T__TNode_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x00222DB0, void, __ctor, (FastHashSet_1_T_TNode_System_Object___Boxed * __this, Object * elem, int32_t nextIndex, int32_t hash));
+namespace app::methods::Motvin_Collections::FastHashSet_1_T__TNode_System_Object_ {
+IL2CPP_REGISTER_METHOD(0x00222DB0, void, __ctor, (app::FastHashSet_1_T_TNode_System_Object___Boxed * this_ptr, app::Object * elem, int32_t next_index, int32_t hash));
 }

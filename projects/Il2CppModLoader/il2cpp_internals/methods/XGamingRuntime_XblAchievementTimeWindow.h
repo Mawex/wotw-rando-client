@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::XblAchievementTimeWindow {
-IL2CPP_REGISTER_METHOD(0x030BE140, void, __ctor, (XblAchievementTimeWindow * __this, XblAchievementTimeWindow_1 interopTimeWindow));
+IL2CPP_REGISTER_METHOD(0x030BE140, void, __ctor, (app::XblAchievementTimeWindow * this_ptr, app::XblAchievementTimeWindow_1 interop_time_window));
 }

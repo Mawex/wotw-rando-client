@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::Demos::AnimatorController3rdPerson {
-IL2CPP_REGISTER_METHOD(0x02208F90, void, Start, (AnimatorController3rdPerson * __this));
-IL2CPP_REGISTER_METHOD(0x02209020, void, OnAnimatorMove, (AnimatorController3rdPerson * __this));
-IL2CPP_REGISTER_METHOD(0x02209670, void, Move, (AnimatorController3rdPerson * __this, Vector3 moveInput, bool isMoving, Vector3 faceDirection, Vector3 aimTarget));
-IL2CPP_REGISTER_METHOD(0x02209C50, void, __ctor, (AnimatorController3rdPerson * __this));
+namespace app::methods::RootMotion_Demos::AnimatorController3rdPerson {
+IL2CPP_REGISTER_METHOD(0x02208F90, void, Start, (app::AnimatorController3rdPerson * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02209020, void, OnAnimatorMove, (app::AnimatorController3rdPerson * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02209670, void, Move, (app::AnimatorController3rdPerson * this_ptr, app::Vector3 move_input, bool is_moving, app::Vector3 face_direction, app::Vector3 aim_target));
+IL2CPP_REGISTER_METHOD(0x02209C50, void, __ctor, (app::AnimatorController3rdPerson * this_ptr));
 }

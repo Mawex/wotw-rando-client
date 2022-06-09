@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System::TimeSpan_ {
-IL2CPP_REGISTER_METHOD(0x01652210, bool, Equals, (GenericEqualityComparer_1_System_TimeSpan_ * __this, TimeSpan x, TimeSpan y));
-IL2CPP_REGISTER_METHOD(0x02435B40, int32_t, GetHashCode, (GenericEqualityComparer_1_System_TimeSpan_ * __this, TimeSpan obj));
-IL2CPP_REGISTER_METHOD(0x02AB1480, int32_t, IndexOf, (GenericEqualityComparer_1_System_TimeSpan_ * __this, TimeSpan__Array * array, TimeSpan value, int32_t startIndex, int32_t count));
-IL2CPP_REGISTER_METHOD(0x02AB14E0, int32_t, LastIndexOf, (GenericEqualityComparer_1_System_TimeSpan_ * __this, TimeSpan__Array * array, TimeSpan value, int32_t startIndex, int32_t count));
-IL2CPP_REGISTER_METHOD(0x02AB0EE0, bool, Equals, (GenericEqualityComparer_1_System_TimeSpan_ * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x01CC3EB0, int32_t, GetHashCode, (GenericEqualityComparer_1_System_TimeSpan_ * __this));
-IL2CPP_REGISTER_METHOD(0x0225BDA0, void, __ctor, (GenericEqualityComparer_1_System_TimeSpan_ * __this));
+namespace app::methods::System_Collections_Generic::GenericEqualityComparer_1_System_TimeSpan_ {
+IL2CPP_REGISTER_METHOD(0x01652210, bool, Equals_1, (app::GenericEqualityComparer_1_System_TimeSpan_ * this_ptr, app::TimeSpan x, app::TimeSpan y));
+IL2CPP_REGISTER_METHOD(0x02435B40, int32_t, GetHashCode_1, (app::GenericEqualityComparer_1_System_TimeSpan_ * this_ptr, app::TimeSpan obj));
+IL2CPP_REGISTER_METHOD(0x02AB1480, int32_t, IndexOf, (app::GenericEqualityComparer_1_System_TimeSpan_ * this_ptr, app::TimeSpan__Array * array, app::TimeSpan value, int32_t start_index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x02AB14E0, int32_t, LastIndexOf, (app::GenericEqualityComparer_1_System_TimeSpan_ * this_ptr, app::TimeSpan__Array * array, app::TimeSpan value, int32_t start_index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x02AB0EE0, bool, Equals_2, (app::GenericEqualityComparer_1_System_TimeSpan_ * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x01CC3EB0, int32_t, GetHashCode_2, (app::GenericEqualityComparer_1_System_TimeSpan_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0225BDA0, void, __ctor, (app::GenericEqualityComparer_1_System_TimeSpan_ * this_ptr));
 }

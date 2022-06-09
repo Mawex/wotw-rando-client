@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::SpiritShardUIItem {
-IL2CPP_REGISTER_METHOD(0x002FBC80, PlayerUberStateShards_Shard *, get_SpiritShard, (SpiritShardUIItem * __this));
-IL2CPP_REGISTER_METHOD(0x00D6C400, void, Awake, (SpiritShardUIItem * __this));
-IL2CPP_REGISTER_METHOD(0x00D6C430, void, SetItemContext, (SpiritShardUIItem * __this, Object * context, Object * gridContext));
-IL2CPP_REGISTER_METHOD(0x00D6C520, void, OnItemContextDirty, (SpiritShardUIItem * __this, Object * gridContext));
-IL2CPP_REGISTER_METHOD(0x00D6C530, void, SetSpiritShard, (SpiritShardUIItem * __this, PlayerUberStateShards_Shard * spiritShard, Object * gridContext));
-IL2CPP_REGISTER_METHOD(0x00D6C570, void, UpdateShardIcon, (SpiritShardUIItem * __this));
-IL2CPP_REGISTER_METHOD(0x00D6C860, void, UpdateShardProperties, (SpiritShardUIItem * __this, Object * gridContext));
-IL2CPP_REGISTER_METHOD(0x00D6D1F0, void, __ctor, (SpiritShardUIItem * __this));
+IL2CPP_REGISTER_METHOD(0x002FBC80, PlayerUberStateShards_Shard *, get_SpiritShard, (app::SpiritShardUIItem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D6C400, void, Awake, (app::SpiritShardUIItem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D6C430, void, SetItemContext, (app::SpiritShardUIItem * this_ptr, app::Object * context, app::Object * grid_context));
+IL2CPP_REGISTER_METHOD(0x00D6C520, void, OnItemContextDirty, (app::SpiritShardUIItem * this_ptr, app::Object * grid_context));
+IL2CPP_REGISTER_METHOD(0x00D6C530, void, SetSpiritShard, (app::SpiritShardUIItem * this_ptr, app::PlayerUberStateShards_Shard * spirit_shard, app::Object * grid_context));
+IL2CPP_REGISTER_METHOD(0x00D6C570, void, UpdateShardIcon, (app::SpiritShardUIItem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D6C860, void, UpdateShardProperties, (app::SpiritShardUIItem * this_ptr, app::Object * grid_context));
+IL2CPP_REGISTER_METHOD(0x00D6D1F0, void, __ctor, (app::SpiritShardUIItem * this_ptr));
 }

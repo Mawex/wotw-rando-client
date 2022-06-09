@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::LargeArrayBuilder_1_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x00152230, void, __ctor, (LargeArrayBuilder_1_System_Object___Boxed * __this, bool initialize));
-IL2CPP_REGISTER_METHOD(0x001522F0, void, __ctor, (LargeArrayBuilder_1_System_Object___Boxed * __this, int32_t maxCapacity));
-IL2CPP_REGISTER_METHOD(0x001523A0, void, AddRange, (LargeArrayBuilder_1_System_Object___Boxed * __this, IEnumerable_1_System_Object_ * items));
-IL2CPP_REGISTER_METHOD(0x001523B0, void, CopyTo, (LargeArrayBuilder_1_System_Object___Boxed * __this, Object__Array * array, int32_t arrayIndex, int32_t count));
-IL2CPP_REGISTER_METHOD(0x001523C0, Object__Array *, GetBuffer, (LargeArrayBuilder_1_System_Object___Boxed * __this, int32_t index));
-IL2CPP_REGISTER_METHOD(0x00152470, Object__Array *, ToArray, (LargeArrayBuilder_1_System_Object___Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x00152550, bool, TryMove, (LargeArrayBuilder_1_System_Object___Boxed * __this, Object__Array * * array));
-IL2CPP_REGISTER_METHOD(0x00152580, void, AllocateBuffer, (LargeArrayBuilder_1_System_Object___Boxed * __this));
+namespace app::methods::System_Collections_Generic::LargeArrayBuilder_1_System_Object_ {
+IL2CPP_REGISTER_METHOD(0x00152230, void, __ctor_1, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr, bool initialize));
+IL2CPP_REGISTER_METHOD(0x001522F0, void, __ctor_2, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr, int32_t max_capacity));
+IL2CPP_REGISTER_METHOD(0x001523A0, void, AddRange, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr, app::IEnumerable_1_System_Object_ * items));
+IL2CPP_REGISTER_METHOD(0x001523B0, void, CopyTo, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr, app::Object__Array * array, int32_t array_index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x001523C0, Object__Array *, GetBuffer, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr, int32_t index));
+IL2CPP_REGISTER_METHOD(0x00152470, Object__Array *, ToArray, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00152550, bool, TryMove, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr, app::Object__Array * * array));
+IL2CPP_REGISTER_METHOD(0x00152580, void, AllocateBuffer, (app::LargeArrayBuilder_1_System_Object___Boxed * this_ptr));
 }

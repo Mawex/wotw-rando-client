@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Microsoft::Xbox::Services::Xal::XalService_XalPlatformWebShowUrlEventHandler {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (XalService_XalPlatformWebShowUrlEventHandler * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x0143EC80, void, Invoke, (XalService_XalPlatformWebShowUrlEventHandler * __this, void * context, void * userContext, void * operation, String * startUrl, String * finalUrl, bool suppressUi));
-IL2CPP_REGISTER_METHOD(0x0143F1D0, IAsyncResult *, BeginInvoke, (XalService_XalPlatformWebShowUrlEventHandler * __this, void * context, void * userContext, void * operation, String * startUrl, String * finalUrl, bool suppressUi, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (XalService_XalPlatformWebShowUrlEventHandler * __this, IAsyncResult * result));
+namespace app::methods::Microsoft_Xbox_Services_Xal::XalService_XalPlatformWebShowUrlEventHandler {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::XalService_XalPlatformWebShowUrlEventHandler * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x0143EC80, void, Invoke, (app::XalService_XalPlatformWebShowUrlEventHandler * this_ptr, app::void * context, app::void * user_context, app::void * operation, app::String * start_url, app::String * final_url, bool suppress_ui));
+IL2CPP_REGISTER_METHOD(0x0143F1D0, IAsyncResult *, BeginInvoke, (app::XalService_XalPlatformWebShowUrlEventHandler * this_ptr, app::void * context, app::void * user_context, app::void * operation, app::String * start_url, app::String * final_url, bool suppress_ui, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::XalService_XalPlatformWebShowUrlEventHandler * this_ptr, app::IAsyncResult * result));
 }

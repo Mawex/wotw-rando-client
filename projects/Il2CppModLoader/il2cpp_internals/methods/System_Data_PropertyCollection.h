@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Data::PropertyCollection {
-IL2CPP_REGISTER_METHOD(0x01E49380, void, __ctor, (PropertyCollection * __this));
-IL2CPP_REGISTER_METHOD(0x01E493A0, void, __ctor, (PropertyCollection * __this, SerializationInfo * info, StreamingContext context));
-IL2CPP_REGISTER_METHOD(0x01E493C0, Object *, Clone, (PropertyCollection * __this));
+namespace app::methods::System_Data::PropertyCollection {
+IL2CPP_REGISTER_METHOD(0x01E49380, void, __ctor_1, (app::PropertyCollection * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01E493A0, void, __ctor_2, (app::PropertyCollection * this_ptr, app::SerializationInfo * info, app::StreamingContext context));
+IL2CPP_REGISTER_METHOD(0x01E493C0, Object *, Clone, (app::PropertyCollection * this_ptr));
 }

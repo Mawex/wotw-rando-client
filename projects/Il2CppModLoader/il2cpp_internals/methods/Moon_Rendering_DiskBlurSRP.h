@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Rendering::DiskBlurSRP {
-IL2CPP_REGISTER_METHOD(0x00C55F60, void, InitMaterials, (DiskBlurSRP * __this, int32_t sliceCount, Material * material));
-IL2CPP_REGISTER_METHOD(0x00C56340, void, Dispose, (DiskBlurSRP * __this));
-IL2CPP_REGISTER_METHOD(0x00C565E0, void, SetInterestZone, (DiskBlurSRP * __this, int32_t index, Vector4 screenPos));
-IL2CPP_REGISTER_METHOD(0x00C56630, void, ClearInterestZones, (DiskBlurSRP * __this));
-IL2CPP_REGISTER_METHOD(0x00C567A0, Material *, setupMaterial, (DiskBlurSRP * __this, int32_t sliceIndex, Int2 sliceSize, float kernelRadius, Vector2 RTPixelSize));
-IL2CPP_REGISTER_METHOD(0x00C56DB0, Material *, setupMaterialMB, (DiskBlurSRP * __this, int32_t sliceIndex, Vector2 RTPixelSize));
-IL2CPP_REGISTER_METHOD(0x00C57360, void, __ctor, (DiskBlurSRP * __this));
+namespace app::methods::Moon_Rendering::DiskBlurSRP {
+IL2CPP_REGISTER_METHOD(0x00C55F60, void, InitMaterials, (app::DiskBlurSRP * this_ptr, int32_t slice_count, app::Material * material));
+IL2CPP_REGISTER_METHOD(0x00C56340, void, Dispose, (app::DiskBlurSRP * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C565E0, void, SetInterestZone, (app::DiskBlurSRP * this_ptr, int32_t index, app::Vector4 screen_pos));
+IL2CPP_REGISTER_METHOD(0x00C56630, void, ClearInterestZones, (app::DiskBlurSRP * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C567A0, Material *, setupMaterial, (app::DiskBlurSRP * this_ptr, int32_t slice_index, app::Int2 slice_size, float kernel_radius, app::Vector2 r_t_pixel_size));
+IL2CPP_REGISTER_METHOD(0x00C56DB0, Material *, setupMaterialMB, (app::DiskBlurSRP * this_ptr, int32_t slice_index, app::Vector2 r_t_pixel_size));
+IL2CPP_REGISTER_METHOD(0x00C57360, void, __ctor, (app::DiskBlurSRP * this_ptr));
 IL2CPP_REGISTER_METHOD(0x00C57440, void, __cctor, ());
 }

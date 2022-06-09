@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Diagnostics::Tracing::TplEtwProvider {
-IL2CPP_REGISTER_METHOD(0x01A09360, bool, get_Debug, (TplEtwProvider * __this));
-IL2CPP_REGISTER_METHOD(0x01A09390, void, DebugFacilityMessage, (TplEtwProvider * __this, String * Facility, String * Message));
-IL2CPP_REGISTER_METHOD(0x01A093C0, void, DebugFacilityMessage1, (TplEtwProvider * __this, String * Facility, String * Message, String * Arg));
-IL2CPP_REGISTER_METHOD(0x01A093F0, void, SetActivityId, (TplEtwProvider * __this, Guid Id));
-IL2CPP_REGISTER_METHOD(0x01A09520, void, __ctor, (TplEtwProvider * __this));
+namespace app::methods::System_Diagnostics_Tracing::TplEtwProvider {
+IL2CPP_REGISTER_METHOD(0x01A09360, bool, get_Debug, (app::TplEtwProvider * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01A09390, void, DebugFacilityMessage, (app::TplEtwProvider * this_ptr, app::String * facility, app::String * message));
+IL2CPP_REGISTER_METHOD(0x01A093C0, void, DebugFacilityMessage1, (app::TplEtwProvider * this_ptr, app::String * facility, app::String * message, app::String * arg));
+IL2CPP_REGISTER_METHOD(0x01A093F0, void, SetActivityId, (app::TplEtwProvider * this_ptr, app::Guid id));
+IL2CPP_REGISTER_METHOD(0x01A09520, void, __ctor, (app::TplEtwProvider * this_ptr));
 IL2CPP_REGISTER_METHOD(0x01A095C0, void, __cctor, ());
 }

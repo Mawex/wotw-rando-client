@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Security::Protocol::Tls::TlsCipherSuite {
-IL2CPP_REGISTER_METHOD(0x0291AB10, void, __ctor, (TlsCipherSuite * __this, int16_t code, String * name, CipherAlgorithmType__Enum cipherAlgorithmType, HashAlgorithmType__Enum hashAlgorithmType, ExchangeAlgorithmType__Enum exchangeAlgorithmType, bool exportable, bool blockMode, uint8_t keyMaterialSize, uint8_t expandedKeyMaterialSize, int16_t effectiveKeyBytes, uint8_t ivSize, uint8_t blockSize));
-IL2CPP_REGISTER_METHOD(0x0291AD30, Byte__Array *, ComputeServerRecordMAC, (TlsCipherSuite * __this, ContentType__Enum contentType, Byte__Array * fragment));
-IL2CPP_REGISTER_METHOD(0x0291B0A0, Byte__Array *, ComputeClientRecordMAC, (TlsCipherSuite * __this, ContentType__Enum contentType, Byte__Array * fragment));
-IL2CPP_REGISTER_METHOD(0x0291B410, void, ComputeMasterSecret, (TlsCipherSuite * __this, Byte__Array * preMasterSecret));
-IL2CPP_REGISTER_METHOD(0x0291B510, void, ComputeKeys, (TlsCipherSuite * __this));
+namespace app::methods::Mono_Security_Protocol_Tls::TlsCipherSuite {
+IL2CPP_REGISTER_METHOD(0x0291AB10, void, __ctor, (app::TlsCipherSuite * this_ptr, int16_t code, app::String * name, app::CipherAlgorithmType__Enum cipher_algorithm_type, app::HashAlgorithmType__Enum hash_algorithm_type, app::ExchangeAlgorithmType__Enum exchange_algorithm_type, bool exportable, bool block_mode, uint8_t key_material_size, uint8_t expanded_key_material_size, int16_t effective_key_bytes, uint8_t iv_size, uint8_t block_size));
+IL2CPP_REGISTER_METHOD(0x0291AD30, Byte__Array *, ComputeServerRecordMAC, (app::TlsCipherSuite * this_ptr, app::ContentType__Enum content_type, app::Byte__Array * fragment));
+IL2CPP_REGISTER_METHOD(0x0291B0A0, Byte__Array *, ComputeClientRecordMAC, (app::TlsCipherSuite * this_ptr, app::ContentType__Enum content_type, app::Byte__Array * fragment));
+IL2CPP_REGISTER_METHOD(0x0291B410, void, ComputeMasterSecret, (app::TlsCipherSuite * this_ptr, app::Byte__Array * pre_master_secret));
+IL2CPP_REGISTER_METHOD(0x0291B510, void, ComputeKeys, (app::TlsCipherSuite * this_ptr));
 }

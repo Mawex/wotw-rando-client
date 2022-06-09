@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::PlayerPrefsUtility::BoolPref {
-IL2CPP_REGISTER_METHOD(0x00C3D150, void, __ctor, (BoolPref * __this, String * _key, bool _defaultValue));
-IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_value, (BoolPref * __this));
-IL2CPP_REGISTER_METHOD(0x00C3D1D0, void, set_value, (BoolPref * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00C3D1F0, bool, operator_, (BoolPref * _pref));
-IL2CPP_REGISTER_METHOD(0x00C3D210, String *, ToString, (BoolPref * __this));
+namespace app::methods::Moon_PlayerPrefsUtility::BoolPref {
+IL2CPP_REGISTER_METHOD(0x00C3D150, void, __ctor, (app::BoolPref * this_ptr, app::String * _key, bool _default_value));
+IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_value, (app::BoolPref * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C3D1D0, void, set_value, (app::BoolPref * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x00C3D1F0, bool, operator_, (app::BoolPref * _pref));
+IL2CPP_REGISTER_METHOD(0x00C3D210, String *, ToString, (app::BoolPref * this_ptr));
 }

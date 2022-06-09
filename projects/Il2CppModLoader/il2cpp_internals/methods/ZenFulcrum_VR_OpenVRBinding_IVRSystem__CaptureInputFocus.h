@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRSystem__CaptureInputFocus {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRSystem_CaptureInputFocus * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x008A18F0, bool, Invoke, (IVRSystem_CaptureInputFocus * __this));
-IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (IVRSystem_CaptureInputFocus * __this, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x008A1BF0, bool, EndInvoke, (IVRSystem_CaptureInputFocus * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRSystem__CaptureInputFocus {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRSystem_CaptureInputFocus * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x008A18F0, bool, Invoke, (app::IVRSystem_CaptureInputFocus * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (app::IVRSystem_CaptureInputFocus * this_ptr, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x008A1BF0, bool, EndInvoke, (app::IVRSystem_CaptureInputFocus * this_ptr, app::IAsyncResult * result));
 }

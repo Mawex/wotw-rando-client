@@ -4,13 +4,13 @@ namespace app::methods::TriangleNet::Log {
 IL2CPP_REGISTER_METHOD(0x026294B0, bool, get_Verbose, ());
 IL2CPP_REGISTER_METHOD(0x02629550, void, set_Verbose, (bool value));
 IL2CPP_REGISTER_METHOD(0x02629600, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x02629870, void, __ctor, (Log * __this));
+IL2CPP_REGISTER_METHOD(0x02629870, void, __ctor, (app::Log * this_ptr));
 IL2CPP_REGISTER_METHOD(0x026299C0, ILog_1_LogItem_ *, get_Instance, ());
-IL2CPP_REGISTER_METHOD(0x02629A60, void, Add, (Log * __this, LogItem * item));
-IL2CPP_REGISTER_METHOD(0x02629B00, void, Clear, (Log * __this));
-IL2CPP_REGISTER_METHOD(0x02629BB0, void, Info, (Log * __this, String * message));
-IL2CPP_REGISTER_METHOD(0x02629D90, void, Warning, (Log * __this, String * message, String * location));
-IL2CPP_REGISTER_METHOD(0x02629F20, void, Error, (Log * __this, String * message, String * location));
-IL2CPP_REGISTER_METHOD(0x002FA280, IList_1_TriangleNet_Logging_LogItem_ *, get_Data, (Log * __this));
-IL2CPP_REGISTER_METHOD(0x00529FF0, LogLevel__Enum, get_Level, (Log * __this));
+IL2CPP_REGISTER_METHOD(0x02629A60, void, Add, (app::Log * this_ptr, app::LogItem * item));
+IL2CPP_REGISTER_METHOD(0x02629B00, void, Clear, (app::Log * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02629BB0, void, Info, (app::Log * this_ptr, app::String * message));
+IL2CPP_REGISTER_METHOD(0x02629D90, void, Warning, (app::Log * this_ptr, app::String * message, app::String * location));
+IL2CPP_REGISTER_METHOD(0x02629F20, void, Error, (app::Log * this_ptr, app::String * message, app::String * location));
+IL2CPP_REGISTER_METHOD(0x002FA280, IList_1_TriangleNet_Logging_LogItem_ *, get_Data, (app::Log * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00529FF0, LogLevel__Enum, get_Level, (app::Log * this_ptr));
 }

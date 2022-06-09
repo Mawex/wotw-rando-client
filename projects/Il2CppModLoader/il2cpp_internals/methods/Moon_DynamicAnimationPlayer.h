@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::DynamicAnimationPlayer {
-IL2CPP_REGISTER_METHOD(0x01BAA050, void, Clone, (DynamicAnimationPlayer * __this, AnimationPlayer * player));
-IL2CPP_REGISTER_METHOD(0x01BAA3C0, void, OnActiveAnimationStopEvent, (DynamicAnimationPlayer * __this));
-IL2CPP_REGISTER_METHOD(0x01BAA3F0, bool, HasFinished, (DynamicAnimationPlayer * __this, int32_t eventId));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, SynchronizeData, (DynamicAnimationPlayer * __this, MoonTimeline * timeline, TimelineEntityRecord * record));
-IL2CPP_REGISTER_METHOD(0x01BAA410, bool, ApproximateEvent, (DynamicAnimationPlayer * __this, int32_t evt, float * time));
-IL2CPP_REGISTER_METHOD(0x00F59B40, void, __ctor, (DynamicAnimationPlayer * __this));
+IL2CPP_REGISTER_METHOD(0x01BAA050, void, Clone, (app::DynamicAnimationPlayer * this_ptr, app::AnimationPlayer * player));
+IL2CPP_REGISTER_METHOD(0x01BAA3C0, void, OnActiveAnimationStopEvent, (app::DynamicAnimationPlayer * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01BAA3F0, bool, HasFinished, (app::DynamicAnimationPlayer * this_ptr, int32_t event_id));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, SynchronizeData, (app::DynamicAnimationPlayer * this_ptr, app::MoonTimeline * timeline, app::TimelineEntityRecord * record));
+IL2CPP_REGISTER_METHOD(0x01BAA410, bool, ApproximateEvent, (app::DynamicAnimationPlayer * this_ptr, int32_t evt, app::float * time));
+IL2CPP_REGISTER_METHOD(0x00F59B40, void, __ctor, (app::DynamicAnimationPlayer * this_ptr));
 }

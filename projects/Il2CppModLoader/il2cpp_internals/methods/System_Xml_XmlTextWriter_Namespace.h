@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::XmlTextWriter_Namespace {
-IL2CPP_REGISTER_METHOD(0x001DA650, void, Set, (XmlTextWriter_Namespace__Boxed * __this, String * prefix, String * ns, bool declared));
+namespace app::methods::System_Xml::XmlTextWriter_Namespace {
+IL2CPP_REGISTER_METHOD(0x001DA650, void, Set, (app::XmlTextWriter_Namespace__Boxed * this_ptr, app::String * prefix, app::String * ns, bool declared));
 }

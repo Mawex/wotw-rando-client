@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Security::Protocol::Tls::ClientSessionCache {
+namespace app::methods::Mono_Security_Protocol_Tls::ClientSessionCache {
 IL2CPP_REGISTER_METHOD(0x01F674F0, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x01F67710, void, Add, (String * host, Byte__Array * id));
-IL2CPP_REGISTER_METHOD(0x01F67C70, Byte__Array *, FromHost, (String * host));
-IL2CPP_REGISTER_METHOD(0x01F68020, ClientSessionInfo *, FromContext, (Context_1 * context, bool checkValidity));
-IL2CPP_REGISTER_METHOD(0x01F68200, bool, SetContextInCache, (Context_1 * context));
-IL2CPP_REGISTER_METHOD(0x01F68510, bool, SetContextFromCache, (Context_1 * context));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ClientSessionCache * __this));
+IL2CPP_REGISTER_METHOD(0x01F67710, void, Add, (app::String * host, app::Byte__Array * id));
+IL2CPP_REGISTER_METHOD(0x01F67C70, Byte__Array *, FromHost, (app::String * host));
+IL2CPP_REGISTER_METHOD(0x01F68020, ClientSessionInfo *, FromContext, (app::Context_1 * context, bool check_validity));
+IL2CPP_REGISTER_METHOD(0x01F68200, bool, SetContextInCache, (app::Context_1 * context));
+IL2CPP_REGISTER_METHOD(0x01F68510, bool, SetContextFromCache, (app::Context_1 * context));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ClientSessionCache * this_ptr));
 }

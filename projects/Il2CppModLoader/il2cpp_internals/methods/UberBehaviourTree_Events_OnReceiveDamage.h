@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::UberBehaviourTree::Events::OnReceiveDamage {
-IL2CPP_REGISTER_METHOD(0x013E2370, void, __ctor, (OnReceiveDamage_1 * __this, Damage * damage));
+namespace app::methods::UberBehaviourTree_Events::OnReceiveDamage {
+IL2CPP_REGISTER_METHOD(0x013E2370, void, __ctor, (app::OnReceiveDamage_1 * this_ptr, app::Damage * damage));
 }

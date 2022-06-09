@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Diagnostics::Tracing::Int16TypeInfo {
-IL2CPP_REGISTER_METHOD(0x019FE680, void, WriteMetadata, (Int16TypeInfo * __this, TraceLoggingMetadataCollector * collector, String * name, EventFieldFormat__Enum format));
-IL2CPP_REGISTER_METHOD(0x019FE750, void, WriteData, (Int16TypeInfo * __this, TraceLoggingDataCollector * collector, int16_t * value));
-IL2CPP_REGISTER_METHOD(0x019FE780, void, __ctor, (Int16TypeInfo * __this));
+namespace app::methods::System_Diagnostics_Tracing::Int16TypeInfo {
+IL2CPP_REGISTER_METHOD(0x019FE680, void, WriteMetadata, (app::Int16TypeInfo * this_ptr, app::TraceLoggingMetadataCollector * collector, app::String * name, app::EventFieldFormat__Enum format));
+IL2CPP_REGISTER_METHOD(0x019FE750, void, WriteData, (app::Int16TypeInfo * this_ptr, app::TraceLoggingDataCollector * collector, app::int16_t * value));
+IL2CPP_REGISTER_METHOD(0x019FE780, void, __ctor, (app::Int16TypeInfo * this_ptr));
 }

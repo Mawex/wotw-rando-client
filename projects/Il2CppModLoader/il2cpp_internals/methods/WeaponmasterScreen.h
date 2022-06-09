@@ -1,15 +1,15 @@
 #include <interception_macros.h>
 
 namespace app::methods::WeaponmasterScreen {
-IL2CPP_REGISTER_METHOD(0x00418200, ShopkeeperItem__Array *, get_Items, (WeaponmasterScreen * __this));
+IL2CPP_REGISTER_METHOD(0x00418200, ShopkeeperItem__Array *, get_Items, (app::WeaponmasterScreen * this_ptr));
 IL2CPP_REGISTER_METHOD(0x005729D0, WeaponmasterScreen *, get_Instance, ());
-IL2CPP_REGISTER_METHOD(0x00572A50, void, set_Instance, (WeaponmasterScreen * value));
-IL2CPP_REGISTER_METHOD(0x00572AE0, ShopkeeperScreen *, get_ShopInstance, (WeaponmasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00572AF0, void, set_ShopInstance, (WeaponmasterScreen * __this, ShopkeeperScreen * value));
-IL2CPP_REGISTER_METHOD(0x00572C30, Event_1 *, get_PurchaseBeginSound, (WeaponmasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00572C50, Event_1 *, get_PurchaseCompleteSound, (WeaponmasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00572C70, RTPC *, get_PurchaseRTPC, (WeaponmasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00572C90, void, Init, (WeaponmasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00573000, float, GetAllUpgradesProgress, (WeaponmasterScreen * __this));
-IL2CPP_REGISTER_METHOD(0x00418B30, void, __ctor, (WeaponmasterScreen * __this));
+IL2CPP_REGISTER_METHOD(0x00572A50, void, set_Instance, (app::WeaponmasterScreen * value));
+IL2CPP_REGISTER_METHOD(0x00572AE0, ShopkeeperScreen *, get_ShopInstance, (app::WeaponmasterScreen * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00572AF0, void, set_ShopInstance, (app::WeaponmasterScreen * this_ptr, app::ShopkeeperScreen * value));
+IL2CPP_REGISTER_METHOD(0x00572C30, Event_1 *, get_PurchaseBeginSound, (app::WeaponmasterScreen * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00572C50, Event_1 *, get_PurchaseCompleteSound, (app::WeaponmasterScreen * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00572C70, RTPC *, get_PurchaseRTPC, (app::WeaponmasterScreen * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00572C90, void, Init, (app::WeaponmasterScreen * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00573000, float, GetAllUpgradesProgress, (app::WeaponmasterScreen * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00418B30, void, __ctor, (app::WeaponmasterScreen * this_ptr));
 }

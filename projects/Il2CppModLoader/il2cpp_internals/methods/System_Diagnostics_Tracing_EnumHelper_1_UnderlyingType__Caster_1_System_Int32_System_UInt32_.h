@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Diagnostics::Tracing::EnumHelper_1_UnderlyingType__Caster_1_System::Int32_System::UInt32_ {
+namespace app::methods::System_Diagnostics_Tracing::EnumHelper_1_UnderlyingType__Caster_1_System_Int32_System_UInt32_ {
 IL2CPP_REGISTER_METHOD(0x02C48680, void, __cctor, ());
 }

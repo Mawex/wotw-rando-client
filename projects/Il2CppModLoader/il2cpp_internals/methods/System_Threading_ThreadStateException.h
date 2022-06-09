@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Threading::ThreadStateException {
-IL2CPP_REGISTER_METHOD(0x023496B0, void, __ctor, (ThreadStateException * __this));
-IL2CPP_REGISTER_METHOD(0x02349740, void, __ctor, (ThreadStateException * __this, String * message));
-IL2CPP_REGISTER_METHOD(0x01A0FAA0, void, __ctor, (ThreadStateException * __this, SerializationInfo * info, StreamingContext context));
+namespace app::methods::System_Threading::ThreadStateException {
+IL2CPP_REGISTER_METHOD(0x023496B0, void, __ctor_1, (app::ThreadStateException * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02349740, void, __ctor_2, (app::ThreadStateException * this_ptr, app::String * message));
+IL2CPP_REGISTER_METHOD(0x01A0FAA0, void, __ctor_3, (app::ThreadStateException * this_ptr, app::SerializationInfo * info, app::StreamingContext context));
 }

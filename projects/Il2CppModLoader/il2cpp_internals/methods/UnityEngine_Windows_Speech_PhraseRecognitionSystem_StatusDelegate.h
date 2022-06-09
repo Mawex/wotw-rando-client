@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Windows::Speech::PhraseRecognitionSystem_StatusDelegate {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (PhraseRecognitionSystem_StatusDelegate * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01C77D40, void, Invoke, (PhraseRecognitionSystem_StatusDelegate * __this, SpeechSystemStatus__Enum status));
-IL2CPP_REGISTER_METHOD(0x02C7A270, IAsyncResult *, BeginInvoke, (PhraseRecognitionSystem_StatusDelegate * __this, SpeechSystemStatus__Enum status, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (PhraseRecognitionSystem_StatusDelegate * __this, IAsyncResult * result));
+namespace app::methods::UnityEngine_Windows_Speech::PhraseRecognitionSystem_StatusDelegate {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::PhraseRecognitionSystem_StatusDelegate * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01C77D40, void, Invoke, (app::PhraseRecognitionSystem_StatusDelegate * this_ptr, app::SpeechSystemStatus__Enum status));
+IL2CPP_REGISTER_METHOD(0x02C7A270, IAsyncResult *, BeginInvoke, (app::PhraseRecognitionSystem_StatusDelegate * this_ptr, app::SpeechSystemStatus__Enum status, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::PhraseRecognitionSystem_StatusDelegate * this_ptr, app::IAsyncResult * result));
 }

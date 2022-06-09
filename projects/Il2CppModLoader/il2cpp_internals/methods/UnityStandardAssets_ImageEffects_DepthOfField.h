@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityStandardAssets::ImageEffects::DepthOfField {
-IL2CPP_REGISTER_METHOD(0x0251FF20, bool, CheckResources, (DepthOfField * __this));
-IL2CPP_REGISTER_METHOD(0x0251FFA0, void, OnEnable, (DepthOfField * __this));
-IL2CPP_REGISTER_METHOD(0x025200D0, void, OnDisable, (DepthOfField * __this));
-IL2CPP_REGISTER_METHOD(0x02520250, void, ReleaseComputeResources, (DepthOfField * __this));
-IL2CPP_REGISTER_METHOD(0x025202A0, void, CreateComputeResources, (DepthOfField * __this));
-IL2CPP_REGISTER_METHOD(0x025205D0, float, FocalDistance01, (DepthOfField * __this, float worldDist));
-IL2CPP_REGISTER_METHOD(0x02520A00, void, WriteCoc, (DepthOfField * __this, RenderTexture * fromTo, bool fgDilate));
-IL2CPP_REGISTER_METHOD(0x02521150, void, OnRenderImage, (DepthOfField * __this, RenderTexture * source, RenderTexture * destination));
-IL2CPP_REGISTER_METHOD(0x02523590, void, __ctor, (DepthOfField * __this));
+namespace app::methods::UnityStandardAssets_ImageEffects::DepthOfField {
+IL2CPP_REGISTER_METHOD(0x0251FF20, bool, CheckResources, (app::DepthOfField * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0251FFA0, void, OnEnable, (app::DepthOfField * this_ptr));
+IL2CPP_REGISTER_METHOD(0x025200D0, void, OnDisable, (app::DepthOfField * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02520250, void, ReleaseComputeResources, (app::DepthOfField * this_ptr));
+IL2CPP_REGISTER_METHOD(0x025202A0, void, CreateComputeResources, (app::DepthOfField * this_ptr));
+IL2CPP_REGISTER_METHOD(0x025205D0, float, FocalDistance01, (app::DepthOfField * this_ptr, float world_dist));
+IL2CPP_REGISTER_METHOD(0x02520A00, void, WriteCoc, (app::DepthOfField * this_ptr, app::RenderTexture * from_to, bool fg_dilate));
+IL2CPP_REGISTER_METHOD(0x02521150, void, OnRenderImage, (app::DepthOfField * this_ptr, app::RenderTexture * source, app::RenderTexture * destination));
+IL2CPP_REGISTER_METHOD(0x02523590, void, __ctor, (app::DepthOfField * this_ptr));
 }

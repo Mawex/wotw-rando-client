@@ -1,15 +1,15 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Wwise::ArtificialSoundHostReference {
-IL2CPP_REGISTER_METHOD(0x001FE1E0, void, __ctor, (ArtificialSoundHostReference__Boxed * __this, ArtificialSoundHost * host));
-IL2CPP_REGISTER_METHOD(0x001FE200, bool, get_IsValid, (ArtificialSoundHostReference__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001FE220, bool, Equals, (ArtificialSoundHostReference__Boxed * __this, ArtificialSoundHostReference other));
-IL2CPP_REGISTER_METHOD(0x001FE290, bool, Equals, (ArtificialSoundHostReference__Boxed * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x001FE3A0, int32_t, GetHashCode, (ArtificialSoundHostReference__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001FE3F0, void, Release, (ArtificialSoundHostReference__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001FE420, WwiseEventSystem_SoundHandle, PlayAndReleaseWith, (ArtificialSoundHostReference__Boxed * __this, Event_1 * evt));
-IL2CPP_REGISTER_METHOD(0x001FE3F0, void, OnControllingEventComplete, (ArtificialSoundHostReference__Boxed * __this, Object * in_cookie, AkCallbackType__Enum in_type, AkCallbackInfo * in_info));
+namespace app::methods::Moon_Wwise::ArtificialSoundHostReference {
+IL2CPP_REGISTER_METHOD(0x001FE1E0, void, __ctor, (app::ArtificialSoundHostReference__Boxed * this_ptr, app::ArtificialSoundHost * host));
+IL2CPP_REGISTER_METHOD(0x001FE200, bool, get_IsValid, (app::ArtificialSoundHostReference__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001FE220, bool, Equals_1, (app::ArtificialSoundHostReference__Boxed * this_ptr, app::ArtificialSoundHostReference other));
+IL2CPP_REGISTER_METHOD(0x001FE290, bool, Equals_2, (app::ArtificialSoundHostReference__Boxed * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x001FE3A0, int32_t, GetHashCode, (app::ArtificialSoundHostReference__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001FE3F0, void, Release, (app::ArtificialSoundHostReference__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001FE420, WwiseEventSystem_SoundHandle, PlayAndReleaseWith, (app::ArtificialSoundHostReference__Boxed * this_ptr, app::Event_1 * evt));
+IL2CPP_REGISTER_METHOD(0x001FE3F0, void, OnControllingEventComplete, (app::ArtificialSoundHostReference__Boxed * this_ptr, app::Object * in_cookie, app::AkCallbackType__Enum in_type, app::AkCallbackInfo * in_info));
 IL2CPP_REGISTER_METHODINFO(0x04707BF8, ArtificialSoundHostReference_OnControllingEventComplete__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x001FE450, ArtificialSoundHostReference, Place, (ArtificialSoundHostReference__Boxed * __this, Vector3 position));
-IL2CPP_REGISTER_METHOD(0x001FE4B0, ArtificialSoundHostReference, AttachTo, (ArtificialSoundHostReference__Boxed * __this, Transform * transform));
+IL2CPP_REGISTER_METHOD(0x001FE450, ArtificialSoundHostReference, Place, (app::ArtificialSoundHostReference__Boxed * this_ptr, app::Vector3 position));
+IL2CPP_REGISTER_METHOD(0x001FE4B0, ArtificialSoundHostReference, AttachTo, (app::ArtificialSoundHostReference__Boxed * this_ptr, app::Transform * transform));
 }

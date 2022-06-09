@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::EffectsFramework::Wisps::MoonEffectsWispsInstantionHandler {
-IL2CPP_REGISTER_METHOD(0x0120CE90, GameObject *, Instantiate, (MoonEffectsWispsInstantionHandler * __this, GameObject * original, Vector3 position, Quaternion rotation, bool record));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MoonEffectsWispsInstantionHandler * __this));
+namespace app::methods::Moon_EffectsFramework_Wisps::MoonEffectsWispsInstantionHandler {
+IL2CPP_REGISTER_METHOD(0x0120CE90, GameObject *, Instantiate, (app::MoonEffectsWispsInstantionHandler * this_ptr, app::GameObject * original, app::Vector3 position, app::Quaternion rotation, bool record));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MoonEffectsWispsInstantionHandler * this_ptr));
 }

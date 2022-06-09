@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRChaperone {
-IL2CPP_REGISTER_METHOD(0x01677280, void, __ctor, (CVRChaperone * __this, void * pInterface));
-IL2CPP_REGISTER_METHOD(0x016773B0, ChaperoneCalibrationState__Enum, GetCalibrationState, (CVRChaperone * __this));
-IL2CPP_REGISTER_METHOD(0x016773D0, bool, GetPlayAreaSize, (CVRChaperone * __this, float * pSizeX, float * pSizeZ));
-IL2CPP_REGISTER_METHOD(0x01677400, bool, GetPlayAreaRect, (CVRChaperone * __this, HmdQuad_t * rect));
-IL2CPP_REGISTER_METHOD(0x00F6DFD0, void, ReloadInfo, (CVRChaperone * __this));
-IL2CPP_REGISTER_METHOD(0x01677420, void, SetSceneColor, (CVRChaperone * __this, HmdColor_t color));
-IL2CPP_REGISTER_METHOD(0x01677450, void, GetBoundsColor, (CVRChaperone * __this, HmdColor_t * pOutputColorArray, int32_t nNumOutputColors, float flCollisionBoundsFadeDistance, HmdColor_t * pOutputCameraColor));
-IL2CPP_REGISTER_METHOD(0x01677480, bool, AreBoundsVisible, (CVRChaperone * __this));
-IL2CPP_REGISTER_METHOD(0x016774A0, void, ForceBoundsVisible, (CVRChaperone * __this, bool bForce));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::CVRChaperone {
+IL2CPP_REGISTER_METHOD(0x01677280, void, __ctor, (app::CVRChaperone * this_ptr, app::void * p_interface));
+IL2CPP_REGISTER_METHOD(0x016773B0, ChaperoneCalibrationState__Enum, GetCalibrationState, (app::CVRChaperone * this_ptr));
+IL2CPP_REGISTER_METHOD(0x016773D0, bool, GetPlayAreaSize, (app::CVRChaperone * this_ptr, app::float * p_size_x, app::float * p_size_z));
+IL2CPP_REGISTER_METHOD(0x01677400, bool, GetPlayAreaRect, (app::CVRChaperone * this_ptr, app::HmdQuad_t * rect));
+IL2CPP_REGISTER_METHOD(0x00F6DFD0, void, ReloadInfo, (app::CVRChaperone * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01677420, void, SetSceneColor, (app::CVRChaperone * this_ptr, app::HmdColor_t color));
+IL2CPP_REGISTER_METHOD(0x01677450, void, GetBoundsColor, (app::CVRChaperone * this_ptr, app::HmdColor_t * p_output_color_array, int32_t n_num_output_colors, float fl_collision_bounds_fade_distance, app::HmdColor_t * p_output_camera_color));
+IL2CPP_REGISTER_METHOD(0x01677480, bool, AreBoundsVisible, (app::CVRChaperone * this_ptr));
+IL2CPP_REGISTER_METHOD(0x016774A0, void, ForceBoundsVisible, (app::CVRChaperone * this_ptr, bool b_force));
 }

@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Security::Protocol::Tls::HttpsClientStream {
-IL2CPP_REGISTER_METHOD(0x01F75C00, void, __ctor, (HttpsClientStream * __this, Stream * stream, X509CertificateCollection_1 * clientCertificates, HttpWebRequest * request, Byte__Array * buffer));
-IL2CPP_REGISTER_METHOD(0x01F76170, bool, get_TrustFailure, (HttpsClientStream * __this));
-IL2CPP_REGISTER_METHOD(0x01F76190, bool, RaiseServerCertificateValidation, (HttpsClientStream * __this, X509Certificate_1 * certificate, Int32__Array * certificateErrors));
+namespace app::methods::Mono_Security_Protocol_Tls::HttpsClientStream {
+IL2CPP_REGISTER_METHOD(0x01F75C00, void, __ctor, (app::HttpsClientStream * this_ptr, app::Stream * stream, app::X509CertificateCollection_1 * client_certificates, app::HttpWebRequest * request, app::Byte__Array * buffer));
+IL2CPP_REGISTER_METHOD(0x01F76170, bool, get_TrustFailure, (app::HttpsClientStream * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F76190, bool, RaiseServerCertificateValidation, (app::HttpsClientStream * this_ptr, app::X509Certificate_1 * certificate, app::Int32__Array * certificate_errors));
 }

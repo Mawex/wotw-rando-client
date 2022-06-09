@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::ArtOptimization::TexturesPool {
-IL2CPP_REGISTER_METHOD(0x00CB30D0, void, __ctor, (TexturesPool * __this));
-IL2CPP_REGISTER_METHOD(0x00CB3240, TexturePoolEntity *, Get, (TexturesPool * __this));
-IL2CPP_REGISTER_METHOD(0x00CB33E0, void, Back, (TexturesPool * __this, TexturePoolEntity * entity));
-IL2CPP_REGISTER_METHOD(0x00CB34A0, void, Dump, (TexturesPool * __this));
+namespace app::methods::Moon_ArtOptimization::TexturesPool {
+IL2CPP_REGISTER_METHOD(0x00CB30D0, void, __ctor, (app::TexturesPool * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CB3240, TexturePoolEntity *, Get, (app::TexturesPool * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00CB33E0, void, Back, (app::TexturesPool * this_ptr, app::TexturePoolEntity * entity));
+IL2CPP_REGISTER_METHOD(0x00CB34A0, void, Dump, (app::TexturesPool * this_ptr));
 }

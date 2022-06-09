@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x0167DDE0, bool, Invoke, (IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * __this, HmdQuad_t__Array * pQuadsBuffer, uint32_t unQuadsCount));
-IL2CPP_REGISTER_METHOD(0x02F40BD0, IAsyncResult *, BeginInvoke, (IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * __this, HmdQuad_t__Array * pQuadsBuffer, uint32_t unQuadsCount, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x008A1BF0, bool, EndInvoke, (IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRChaperoneSetup__SetWorkingPhysicalBoundsInfo {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x0167DDE0, bool, Invoke, (app::IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * this_ptr, app::HmdQuad_t__Array * p_quads_buffer, uint32_t un_quads_count));
+IL2CPP_REGISTER_METHOD(0x02F40BD0, IAsyncResult *, BeginInvoke, (app::IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * this_ptr, app::HmdQuad_t__Array * p_quads_buffer, uint32_t un_quads_count, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x008A1BF0, bool, EndInvoke, (app::IVRChaperoneSetup_SetWorkingPhysicalBoundsInfo * this_ptr, app::IAsyncResult * result));
 }

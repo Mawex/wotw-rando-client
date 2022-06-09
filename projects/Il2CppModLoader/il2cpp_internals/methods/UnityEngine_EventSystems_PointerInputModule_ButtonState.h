@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::EventSystems::PointerInputModule_ButtonState {
-IL2CPP_REGISTER_METHOD(0x002FC780, void, __ctor, (PointerInputModule_ButtonState * __this));
-IL2CPP_REGISTER_METHOD(0x01F25880, PointerInputModule_MouseButtonEventData *, get_eventData, (PointerInputModule_ButtonState * __this));
-IL2CPP_REGISTER_METHOD(0x002FB940, void, set_eventData, (PointerInputModule_ButtonState * __this, PointerInputModule_MouseButtonEventData * value));
-IL2CPP_REGISTER_METHOD(0x01F25890, PointerEventData_InputButton__Enum, get_button, (PointerInputModule_ButtonState * __this));
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_button, (PointerInputModule_ButtonState * __this, PointerEventData_InputButton__Enum value));
+namespace app::methods::UnityEngine_EventSystems::PointerInputModule_ButtonState {
+IL2CPP_REGISTER_METHOD(0x002FC780, void, __ctor, (app::PointerInputModule_ButtonState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F25880, PointerInputModule_MouseButtonEventData *, get_eventData, (app::PointerInputModule_ButtonState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB940, void, set_eventData, (app::PointerInputModule_ButtonState * this_ptr, app::PointerInputModule_MouseButtonEventData * value));
+IL2CPP_REGISTER_METHOD(0x01F25890, PointerEventData_InputButton__Enum, get_button, (app::PointerInputModule_ButtonState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_button, (app::PointerInputModule_ButtonState * this_ptr, app::PointerEventData_InputButton__Enum value));
 }

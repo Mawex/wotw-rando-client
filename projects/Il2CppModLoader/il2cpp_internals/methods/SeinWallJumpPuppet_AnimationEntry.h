@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::SeinWallJumpPuppet_AnimationEntry {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SeinWallJumpPuppet_AnimationEntry * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SeinWallJumpPuppet_AnimationEntry * this_ptr));
 }

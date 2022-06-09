@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::CheckpointFunctionality {
-IL2CPP_REGISTER_METHOD(0x00126240, bool, IsManualPositionMode, (CheckpointFunctionality__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0010FB00, bool, ShouldRefillHealthAndEnergy, (CheckpointFunctionality__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x00126250, Vector2, get_ManualPosition, (CheckpointFunctionality__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x00126260, void, CreateCheckpoint, (CheckpointFunctionality__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x00126270, void, CreateCheckpoint, (CheckpointFunctionality__Boxed * __this, bool doPerformSave));
-IL2CPP_REGISTER_METHOD(0x00126280, void, CreateCheckpoint, (CheckpointFunctionality__Boxed * __this, bool doPerformSave, bool respectRestrictCheckpointZone));
-IL2CPP_REGISTER_METHOD(0x0010D3A0, void, Reset, (CheckpointFunctionality__Boxed * __this, Transform * ownerTransform));
-IL2CPP_REGISTER_METHOD(0x00126290, void, OnDrawGizmosSelected, (CheckpointFunctionality__Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00126240, bool, IsManualPositionMode, (app::CheckpointFunctionality__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0010FB00, bool, ShouldRefillHealthAndEnergy, (app::CheckpointFunctionality__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00126250, Vector2, get_ManualPosition, (app::CheckpointFunctionality__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00126260, void, CreateCheckpoint_1, (app::CheckpointFunctionality__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00126270, void, CreateCheckpoint_2, (app::CheckpointFunctionality__Boxed * this_ptr, bool do_perform_save));
+IL2CPP_REGISTER_METHOD(0x00126280, void, CreateCheckpoint_3, (app::CheckpointFunctionality__Boxed * this_ptr, bool do_perform_save, bool respect_restrict_checkpoint_zone));
+IL2CPP_REGISTER_METHOD(0x0010D3A0, void, Reset, (app::CheckpointFunctionality__Boxed * this_ptr, app::Transform * owner_transform));
+IL2CPP_REGISTER_METHOD(0x00126290, void, OnDrawGizmosSelected, (app::CheckpointFunctionality__Boxed * this_ptr));
 }

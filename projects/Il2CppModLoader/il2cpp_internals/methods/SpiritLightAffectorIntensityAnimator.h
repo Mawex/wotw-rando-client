@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
 namespace app::methods::SpiritLightAffectorIntensityAnimator {
-IL2CPP_REGISTER_METHOD(0x004167A0, bool, get_IsLooping, (SpiritLightAffectorIntensityAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00D60750, void, CacheOriginals, (SpiritLightAffectorIntensityAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00D60780, void, SampleValue, (SpiritLightAffectorIntensityAnimator * __this, float time, bool forceSample));
-IL2CPP_REGISTER_METHOD(0x00933230, float, get_Duration, (SpiritLightAffectorIntensityAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00D60870, void, RestoreToOriginalState, (SpiritLightAffectorIntensityAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00D608A0, void, Reset, (SpiritLightAffectorIntensityAnimator * __this));
-IL2CPP_REGISTER_METHOD(0x00D60970, void, __ctor, (SpiritLightAffectorIntensityAnimator * __this));
+IL2CPP_REGISTER_METHOD(0x004167A0, bool, get_IsLooping, (app::SpiritLightAffectorIntensityAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D60750, void, CacheOriginals, (app::SpiritLightAffectorIntensityAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D60780, void, SampleValue, (app::SpiritLightAffectorIntensityAnimator * this_ptr, float time, bool force_sample));
+IL2CPP_REGISTER_METHOD(0x00933230, float, get_Duration, (app::SpiritLightAffectorIntensityAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D60870, void, RestoreToOriginalState, (app::SpiritLightAffectorIntensityAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D608A0, void, Reset, (app::SpiritLightAffectorIntensityAnimator * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D60970, void, __ctor, (app::SpiritLightAffectorIntensityAnimator * this_ptr));
 }

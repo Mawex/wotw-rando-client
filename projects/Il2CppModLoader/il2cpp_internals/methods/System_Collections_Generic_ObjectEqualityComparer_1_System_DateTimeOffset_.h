@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System::DateTimeOffset_ {
-IL2CPP_REGISTER_METHOD(0x0265B370, bool, Equals, (ObjectEqualityComparer_1_System_DateTimeOffset_ * __this, DateTimeOffset x, DateTimeOffset y));
-IL2CPP_REGISTER_METHOD(0x0265B3D0, int32_t, GetHashCode, (ObjectEqualityComparer_1_System_DateTimeOffset_ * __this, DateTimeOffset obj));
-IL2CPP_REGISTER_METHOD(0x0265B400, int32_t, IndexOf, (ObjectEqualityComparer_1_System_DateTimeOffset_ * __this, DateTimeOffset__Array * array, DateTimeOffset value, int32_t startIndex, int32_t count));
-IL2CPP_REGISTER_METHOD(0x0265B4F0, int32_t, LastIndexOf, (ObjectEqualityComparer_1_System_DateTimeOffset_ * __this, DateTimeOffset__Array * array, DateTimeOffset value, int32_t startIndex, int32_t count));
-IL2CPP_REGISTER_METHOD(0x01CC3E60, bool, Equals, (ObjectEqualityComparer_1_System_DateTimeOffset_ * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x01CC3EB0, int32_t, GetHashCode, (ObjectEqualityComparer_1_System_DateTimeOffset_ * __this));
-IL2CPP_REGISTER_METHOD(0x019F8810, void, __ctor, (ObjectEqualityComparer_1_System_DateTimeOffset_ * __this));
+namespace app::methods::System_Collections_Generic::ObjectEqualityComparer_1_System_DateTimeOffset_ {
+IL2CPP_REGISTER_METHOD(0x0265B370, bool, Equals_1, (app::ObjectEqualityComparer_1_System_DateTimeOffset_ * this_ptr, app::DateTimeOffset x, app::DateTimeOffset y));
+IL2CPP_REGISTER_METHOD(0x0265B3D0, int32_t, GetHashCode_1, (app::ObjectEqualityComparer_1_System_DateTimeOffset_ * this_ptr, app::DateTimeOffset obj));
+IL2CPP_REGISTER_METHOD(0x0265B400, int32_t, IndexOf, (app::ObjectEqualityComparer_1_System_DateTimeOffset_ * this_ptr, app::DateTimeOffset__Array * array, app::DateTimeOffset value, int32_t start_index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x0265B4F0, int32_t, LastIndexOf, (app::ObjectEqualityComparer_1_System_DateTimeOffset_ * this_ptr, app::DateTimeOffset__Array * array, app::DateTimeOffset value, int32_t start_index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x01CC3E60, bool, Equals_2, (app::ObjectEqualityComparer_1_System_DateTimeOffset_ * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x01CC3EB0, int32_t, GetHashCode_2, (app::ObjectEqualityComparer_1_System_DateTimeOffset_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x019F8810, void, __ctor, (app::ObjectEqualityComparer_1_System_DateTimeOffset_ * this_ptr));
 }

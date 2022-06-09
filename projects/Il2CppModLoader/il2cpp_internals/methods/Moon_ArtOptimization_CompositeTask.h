@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::ArtOptimization::CompositeTask {
-IL2CPP_REGISTER_METHOD(0x0134B680, void, EnqueueSubTask, (CompositeTask * __this, IOptimizationTask * subTask));
-IL2CPP_REGISTER_METHOD(0x0134B750, void, Update, (CompositeTask * __this));
-IL2CPP_REGISTER_METHOD(0x0134B9E0, void, __ctor, (CompositeTask * __this));
+namespace app::methods::Moon_ArtOptimization::CompositeTask {
+IL2CPP_REGISTER_METHOD(0x0134B680, void, EnqueueSubTask, (app::CompositeTask * this_ptr, app::IOptimizationTask * sub_task));
+IL2CPP_REGISTER_METHOD(0x0134B750, void, Update, (app::CompositeTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0134B9E0, void, __ctor, (app::CompositeTask * this_ptr));
 }

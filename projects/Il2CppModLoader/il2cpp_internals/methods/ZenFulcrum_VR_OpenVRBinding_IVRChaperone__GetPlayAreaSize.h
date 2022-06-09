@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRChaperone__GetPlayAreaSize {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRChaperone_GetPlayAreaSize * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x019D6DD0, bool, Invoke, (IVRChaperone_GetPlayAreaSize * __this, float * pSizeX, float * pSizeZ));
-IL2CPP_REGISTER_METHOD(0x02F3FD90, IAsyncResult *, BeginInvoke, (IVRChaperone_GetPlayAreaSize * __this, float * pSizeX, float * pSizeZ, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x0167DD00, bool, EndInvoke, (IVRChaperone_GetPlayAreaSize * __this, float * pSizeX, float * pSizeZ, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRChaperone__GetPlayAreaSize {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRChaperone_GetPlayAreaSize * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x019D6DD0, bool, Invoke, (app::IVRChaperone_GetPlayAreaSize * this_ptr, app::float * p_size_x, app::float * p_size_z));
+IL2CPP_REGISTER_METHOD(0x02F3FD90, IAsyncResult *, BeginInvoke, (app::IVRChaperone_GetPlayAreaSize * this_ptr, app::float * p_size_x, app::float * p_size_z, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x0167DD00, bool, EndInvoke, (app::IVRChaperone_GetPlayAreaSize * this_ptr, app::float * p_size_x, app::float * p_size_z, app::IAsyncResult * result));
 }

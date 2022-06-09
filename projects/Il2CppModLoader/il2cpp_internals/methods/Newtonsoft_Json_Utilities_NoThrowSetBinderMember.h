@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Newtonsoft::Json::Utilities::NoThrowSetBinderMember {
-IL2CPP_REGISTER_METHOD(0x0301F100, void, __ctor, (NoThrowSetBinderMember * __this, SetMemberBinder * innerBinder));
-IL2CPP_REGISTER_METHOD(0x0301F1D0, DynamicMetaObject *, FallbackSetMember, (NoThrowSetBinderMember * __this, DynamicMetaObject * target, DynamicMetaObject * value, DynamicMetaObject * errorSuggestion));
+namespace app::methods::Newtonsoft_Json_Utilities::NoThrowSetBinderMember {
+IL2CPP_REGISTER_METHOD(0x0301F100, void, __ctor, (app::NoThrowSetBinderMember * this_ptr, app::SetMemberBinder * inner_binder));
+IL2CPP_REGISTER_METHOD(0x0301F1D0, DynamicMetaObject *, FallbackSetMember, (app::NoThrowSetBinderMember * this_ptr, app::DynamicMetaObject * target, app::DynamicMetaObject * value, app::DynamicMetaObject * error_suggestion));
 }

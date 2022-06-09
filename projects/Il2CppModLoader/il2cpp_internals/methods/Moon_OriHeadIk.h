@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::OriHeadIk {
-IL2CPP_REGISTER_METHOD(0x00C30950, bool, get_CanApplyIk, (OriHeadIk * __this));
-IL2CPP_REGISTER_METHOD(0x00C30E10, void, Start, (OriHeadIk * __this));
-IL2CPP_REGISTER_METHOD(0x00C31050, void, SubmitLookTarget, (OriHeadIk * __this, Vector3 target));
-IL2CPP_REGISTER_METHOD(0x00C31110, void, OnAddedToAnimator, (OriHeadIk * __this, MoonAnimator * animator));
-IL2CPP_REGISTER_METHOD(0x00C31390, void, Process, (OriHeadIk * __this, float deltaTime));
-IL2CPP_REGISTER_METHOD(0x00C31B70, void, OnDrawGizmosSelected, (OriHeadIk * __this));
-IL2CPP_REGISTER_METHOD(0x00C31F10, void, __ctor, (OriHeadIk * __this));
+IL2CPP_REGISTER_METHOD(0x00C30950, bool, get_CanApplyIk, (app::OriHeadIk * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C30E10, void, Start, (app::OriHeadIk * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C31050, void, SubmitLookTarget, (app::OriHeadIk * this_ptr, app::Vector3 target));
+IL2CPP_REGISTER_METHOD(0x00C31110, void, OnAddedToAnimator, (app::OriHeadIk * this_ptr, app::MoonAnimator * animator));
+IL2CPP_REGISTER_METHOD(0x00C31390, void, Process, (app::OriHeadIk * this_ptr, float delta_time));
+IL2CPP_REGISTER_METHOD(0x00C31B70, void, OnDrawGizmosSelected, (app::OriHeadIk * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C31F10, void, __ctor, (app::OriHeadIk * this_ptr));
 }

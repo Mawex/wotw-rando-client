@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::ComponentModel::EditorAttribute {
-IL2CPP_REGISTER_METHOD(0x01FE7CE0, void, __ctor, (EditorAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x01FE7D80, void, __ctor, (EditorAttribute * __this, String * typeName, String * baseTypeName));
-IL2CPP_REGISTER_METHOD(0x01FE7DD0, void, __ctor, (EditorAttribute * __this, String * typeName, Type * baseType));
-IL2CPP_REGISTER_METHOD(0x01FE7E40, void, __ctor, (EditorAttribute * __this, Type * type, Type * baseType));
-IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_EditorBaseTypeName, (EditorAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_EditorTypeName, (EditorAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x01FE7EB0, Object *, get_TypeId, (EditorAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x01FE7F50, bool, Equals, (EditorAttribute * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x01FDE840, int32_t, GetHashCode, (EditorAttribute * __this));
+namespace app::methods::System_ComponentModel::EditorAttribute {
+IL2CPP_REGISTER_METHOD(0x01FE7CE0, void, __ctor_1, (app::EditorAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01FE7D80, void, __ctor_2, (app::EditorAttribute * this_ptr, app::String * type_name, app::String * base_type_name));
+IL2CPP_REGISTER_METHOD(0x01FE7DD0, void, __ctor_3, (app::EditorAttribute * this_ptr, app::String * type_name, app::Type * base_type));
+IL2CPP_REGISTER_METHOD(0x01FE7E40, void, __ctor_4, (app::EditorAttribute * this_ptr, app::Type * type, app::Type * base_type));
+IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_EditorBaseTypeName, (app::EditorAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_EditorTypeName, (app::EditorAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01FE7EB0, Object *, get_TypeId, (app::EditorAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01FE7F50, bool, Equals, (app::EditorAttribute * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x01FDE840, int32_t, GetHashCode, (app::EditorAttribute * this_ptr));
 }

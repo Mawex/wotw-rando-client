@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::RefreshGameServerInstanceHeartbeatResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (RefreshGameServerInstanceHeartbeatResult * __this));
+namespace app::methods::PlayFab_ServerModels::RefreshGameServerInstanceHeartbeatResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::RefreshGameServerInstanceHeartbeatResult * this_ptr));
 }

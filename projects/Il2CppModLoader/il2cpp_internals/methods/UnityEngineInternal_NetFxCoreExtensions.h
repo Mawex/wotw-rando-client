@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngineInternal::NetFxCoreExtensions {
-IL2CPP_REGISTER_METHOD(0x02C7AB60, Delegate *, CreateDelegate, (MethodInfo_1 * self, Type * delegateType, Object * target));
-IL2CPP_REGISTER_METHOD(0x019E35B0, MethodInfo_1 *, GetMethodInfo, (Delegate * self));
+IL2CPP_REGISTER_METHOD(0x02C7AB60, Delegate *, CreateDelegate, (app::MethodInfo_1 * self, app::Type * delegate_type, app::Object * target));
+IL2CPP_REGISTER_METHOD(0x019E35B0, MethodInfo_1 *, GetMethodInfo, (app::Delegate * self));
 }

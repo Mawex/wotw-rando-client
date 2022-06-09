@@ -1,23 +1,23 @@
 #include <interception_macros.h>
 
-namespace app::methods::ValueWithCondition_1_System::Object_ {
-IL2CPP_REGISTER_METHOD(0x02ACF1E0, Object *, get_m_value, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x019FAA80, void, __ctor, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (ValueWithCondition_1_System_Object_ * __this));
+namespace app::methods::ValueWithCondition_1_System_Object_ {
+IL2CPP_REGISTER_METHOD(0x02ACF1E0, Object *, get_m_value, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_1, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x019FAA80, void, __ctor, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_2, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_3, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_4, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_5, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_6, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_7, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_8, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_9, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_10, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_11, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_12, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_13, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_14, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_15, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_16, (app::ValueWithCondition_1_System_Object_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_17, (app::ValueWithCondition_1_System_Object_ * this_ptr));
 }

@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::Moon::EntityKickbackEvent {
-IL2CPP_REGISTER_METHOD(0x01220930, void, __ctor, (EntityKickbackEvent * __this, Entity * entity, DamageResult damageResult, Vector2 direction, float multiplier, bool instant, Vector2 forceBeforeMultiplier));
+IL2CPP_REGISTER_METHOD(0x01220930, void, __ctor, (app::EntityKickbackEvent * this_ptr, app::Entity * entity, app::DamageResult damage_result, app::Vector2 direction, float multiplier, bool instant, app::Vector2 force_before_multiplier));
 }

@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Rendering::ShaderTime {
+namespace app::methods::Moon_Rendering::ShaderTime {
 IL2CPP_REGISTER_METHOD(0x00EBB200, bool, get_freezeAll, ());
 IL2CPP_REGISTER_METHOD(0x00EBB340, void, set_freezeAll, (bool value));
 IL2CPP_REGISTER_METHOD(0x00EBB400, bool, get_freezeAny, ());
@@ -15,6 +15,6 @@ IL2CPP_REGISTER_METHOD(0x00EBBAA0, bool, get_freezeShaderTurbulenceStrength, ())
 IL2CPP_REGISTER_METHOD(0x00EBBB50, void, set_freezeShaderTurbulenceStrength, (bool value));
 IL2CPP_REGISTER_METHOD(0x00EBBC20, bool, get_freezeShaderGameTime, ());
 IL2CPP_REGISTER_METHOD(0x00EBBCD0, void, set_freezeShaderGameTime, (bool value));
-IL2CPP_REGISTER_METHOD(0x00EBBDA0, void, setTimeConstants, (CommandBuffer * cmd));
+IL2CPP_REGISTER_METHOD(0x00EBBDA0, void, setTimeConstants, (app::CommandBuffer * cmd));
 IL2CPP_REGISTER_METHOD(0x00EBC060, void, __cctor, ());
 }

@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Func_2_Moon::JsonParser_Slot_PlayFab::ClientModels::UserTwitchInfo_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Func_2_Moon_JsonParser_Slot_PlayFab_ClientModels_UserTwitchInfo_ * __this, Object * object, void * method_1));
+namespace app::methods::System::Func_2_Moon_JsonParser_Slot_PlayFab_ClientModels_UserTwitchInfo_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Func_2_Moon_JsonParser_Slot_PlayFab_ClientModels_UserTwitchInfo_ * this_ptr, app::Object * object, app::void * method_1));
 IL2CPP_REGISTER_METHODINFO(0x0475FB80, Func_2_Moon_JsonParser_Slot_PlayFab_ClientModels_UserTwitchInfo___ctor__MethodInfo);
 }

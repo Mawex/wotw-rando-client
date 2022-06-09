@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::ConsumePSNEntitlementsResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ConsumePSNEntitlementsResult * __this));
+namespace app::methods::PlayFab_ClientModels::ConsumePSNEntitlementsResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ConsumePSNEntitlementsResult * this_ptr));
 }

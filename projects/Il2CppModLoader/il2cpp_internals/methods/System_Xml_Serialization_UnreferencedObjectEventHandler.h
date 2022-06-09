@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Serialization::UnreferencedObjectEventHandler {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UnreferencedObjectEventHandler * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01686F50, void, Invoke, (UnreferencedObjectEventHandler * __this, Object * sender, UnreferencedObjectEventArgs * e));
-IL2CPP_REGISTER_METHOD(0x01435260, IAsyncResult *, BeginInvoke, (UnreferencedObjectEventHandler * __this, Object * sender, UnreferencedObjectEventArgs * e, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (UnreferencedObjectEventHandler * __this, IAsyncResult * result));
+namespace app::methods::System_Xml_Serialization::UnreferencedObjectEventHandler {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::UnreferencedObjectEventHandler * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01686F50, void, Invoke, (app::UnreferencedObjectEventHandler * this_ptr, app::Object * sender, app::UnreferencedObjectEventArgs * e));
+IL2CPP_REGISTER_METHOD(0x01435260, IAsyncResult *, BeginInvoke, (app::UnreferencedObjectEventHandler * this_ptr, app::Object * sender, app::UnreferencedObjectEventArgs * e, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::UnreferencedObjectEventHandler * this_ptr, app::IAsyncResult * result));
 }

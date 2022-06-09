@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::FinalIK::RagdollUtility_Rigidbone {
-IL2CPP_REGISTER_METHOD(0x02A1C440, void, __ctor, (RagdollUtility_Rigidbone * __this, Rigidbody * r));
-IL2CPP_REGISTER_METHOD(0x02A1C720, void, RecordVelocity, (RagdollUtility_Rigidbone * __this));
-IL2CPP_REGISTER_METHOD(0x02A1CA40, void, WakeUp, (RagdollUtility_Rigidbone * __this, float velocityWeight, float angularVelocityWeight));
+namespace app::methods::RootMotion_FinalIK::RagdollUtility_Rigidbone {
+IL2CPP_REGISTER_METHOD(0x02A1C440, void, __ctor, (app::RagdollUtility_Rigidbone * this_ptr, app::Rigidbody * r));
+IL2CPP_REGISTER_METHOD(0x02A1C720, void, RecordVelocity, (app::RagdollUtility_Rigidbone * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02A1CA40, void, WakeUp, (app::RagdollUtility_Rigidbone * this_ptr, float velocity_weight, float angular_velocity_weight));
 }

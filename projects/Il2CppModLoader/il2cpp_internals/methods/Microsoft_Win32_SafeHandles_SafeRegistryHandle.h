@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Microsoft::Win32::SafeHandles::SafeRegistryHandle {
-IL2CPP_REGISTER_METHOD(0x021722B0, void, __ctor, (SafeRegistryHandle * __this, void * preexistingHandle, bool ownsHandle));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, ReleaseHandle, (SafeRegistryHandle * __this));
+namespace app::methods::Microsoft_Win32_SafeHandles::SafeRegistryHandle {
+IL2CPP_REGISTER_METHOD(0x021722B0, void, __ctor, (app::SafeRegistryHandle * this_ptr, app::void * preexisting_handle, bool owns_handle));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, ReleaseHandle, (app::SafeRegistryHandle * this_ptr));
 }

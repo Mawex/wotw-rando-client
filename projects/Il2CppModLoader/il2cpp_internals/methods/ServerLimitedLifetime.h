@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::ServerLimitedLifetime {
-IL2CPP_REGISTER_METHOD(0x0059D6C0, void, __ctor, (ServerLimitedLifetime * __this, Object * data));
-IL2CPP_REGISTER_METHOD(0x00ABF6F0, Object *, CreateData, (ServerLimitedLifetime * __this, Object * data));
-IL2CPP_REGISTER_METHOD(0x00ABF780, Component_1 *, ApplyData, (ServerLimitedLifetime * __this, GameObject * * gameobj));
+IL2CPP_REGISTER_METHOD(0x0059D6C0, void, __ctor, (app::ServerLimitedLifetime * this_ptr, app::Object * data));
+IL2CPP_REGISTER_METHOD(0x00ABF6F0, Object *, CreateData, (app::ServerLimitedLifetime * this_ptr, app::Object * data));
+IL2CPP_REGISTER_METHOD(0x00ABF780, Component_1 *, ApplyData, (app::ServerLimitedLifetime * this_ptr, app::GameObject * * gameobj));
 }

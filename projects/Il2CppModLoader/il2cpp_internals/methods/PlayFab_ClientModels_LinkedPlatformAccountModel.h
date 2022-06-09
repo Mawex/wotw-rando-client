@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::LinkedPlatformAccountModel {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LinkedPlatformAccountModel * __this));
+namespace app::methods::PlayFab_ClientModels::LinkedPlatformAccountModel {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LinkedPlatformAccountModel * this_ptr));
 }

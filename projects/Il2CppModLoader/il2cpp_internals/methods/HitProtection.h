@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
 namespace app::methods::HitProtection {
-IL2CPP_REGISTER_METHOD(0x00B571B0, void, SetVulnerability, (HitProtection * __this, float time));
-IL2CPP_REGISTER_METHOD(0x00B571D0, void, Update, (HitProtection * __this));
-IL2CPP_REGISTER_METHOD(0x00B572A0, void, SetProtectionState, (HitProtection * __this, Object * setter, HitProtectionState__Enum value));
-IL2CPP_REGISTER_METHOD(0x00B57530, HitProtectionState__Enum, get_ProtectionState, (HitProtection * __this));
-IL2CPP_REGISTER_METHOD(0x00B57540, bool, IsVulnerable, (HitProtection * __this));
-IL2CPP_REGISTER_METHOD(0x00B57560, bool, IsInvulnerable, (HitProtection * __this));
-IL2CPP_REGISTER_METHOD(0x00B57580, void, PreventVulnerability, (HitProtection * __this, float invulnerabilityTime));
-IL2CPP_REGISTER_METHOD(0x00B575A0, bool, IsProtectedFrom, (HitProtection * __this, HitProtectionState__Enum state, DamageWeight__Enum damageWeight));
-IL2CPP_REGISTER_METHOD(0x00B575C0, bool, IsProtectedFrom, (HitProtection * __this, Damage * damage));
-IL2CPP_REGISTER_METHOD(0x00B57650, void, __ctor, (HitProtection * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x00B571B0, void, SetVulnerability, (app::HitProtection * this_ptr, float time));
+    IL2CPP_REGISTER_METHOD(0x00B571D0, void, Update, (app::HitProtection * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00B572A0, void, SetProtectionState, (app::HitProtection * this_ptr, app::Object* setter, app::HitProtectionState__Enum value));
+    IL2CPP_REGISTER_METHOD(0x00B57530, HitProtectionState__Enum, get_ProtectionState, (app::HitProtection * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00B57540, bool, IsVulnerable, (app::HitProtection * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00B57560, bool, IsInvulnerable, (app::HitProtection * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00B57580, void, PreventVulnerability, (app::HitProtection * this_ptr, float invulnerability_time));
+    IL2CPP_REGISTER_METHOD(0x00B575A0, bool, IsProtectedFrom_1, (app::HitProtection * this_ptr, app::HitProtectionState__Enum state, app::DamageWeight__Enum damage_weight));
+    IL2CPP_REGISTER_METHOD(0x00B575C0, bool, IsProtectedFrom_2, (app::HitProtection * this_ptr, app::Damage* damage));
+    IL2CPP_REGISTER_METHOD(0x00B57650, void, __ctor, (app::HitProtection * this_ptr));
+} // namespace app::methods::HitProtection

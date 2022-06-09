@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::PlayStreamModels::EntityLoggedInEventData {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EntityLoggedInEventData * __this));
+namespace app::methods::PlayFab_PlayStreamModels::EntityLoggedInEventData {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::EntityLoggedInEventData * this_ptr));
 }

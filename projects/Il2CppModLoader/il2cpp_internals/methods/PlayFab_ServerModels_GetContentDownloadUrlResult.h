@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::GetContentDownloadUrlResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetContentDownloadUrlResult_1 * __this));
+namespace app::methods::PlayFab_ServerModels::GetContentDownloadUrlResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetContentDownloadUrlResult_1 * this_ptr));
 }

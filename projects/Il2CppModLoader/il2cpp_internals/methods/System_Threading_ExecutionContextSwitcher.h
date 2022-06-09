@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Threading::ExecutionContextSwitcher {
-IL2CPP_REGISTER_METHOD(0x00206F70, bool, UndoNoThrow, (ExecutionContextSwitcher__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x00206F80, void, Undo, (ExecutionContextSwitcher__Boxed * __this));
+namespace app::methods::System_Threading::ExecutionContextSwitcher {
+IL2CPP_REGISTER_METHOD(0x00206F70, bool, UndoNoThrow, (app::ExecutionContextSwitcher__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00206F80, void, Undo, (app::ExecutionContextSwitcher__Boxed * this_ptr));
 }

@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::UI::StencilMaterial {
-IL2CPP_REGISTER_METHOD(0x01F1B660, Material *, Add, (Material * baseMat, int32_t stencilID));
-IL2CPP_REGISTER_METHOD(0x02678310, Material *, Add, (Material * baseMat, int32_t stencilID, StencilOp__Enum operation, CompareFunction__Enum compareFunction, ColorWriteMask__Enum colorWriteMask));
-IL2CPP_REGISTER_METHOD(0x02678400, Material *, Add, (Material * baseMat, int32_t stencilID, StencilOp__Enum operation, CompareFunction__Enum compareFunction, ColorWriteMask__Enum colorWriteMask, int32_t readMask, int32_t writeMask));
-IL2CPP_REGISTER_METHOD(0x02678E70, void, Remove, (Material * customMat));
+namespace app::methods::UnityEngine_UI::StencilMaterial {
+IL2CPP_REGISTER_METHOD(0x01F1B660, Material *, Add_1, (app::Material * base_mat, int32_t stencil_i_d));
+IL2CPP_REGISTER_METHOD(0x02678310, Material *, Add_2, (app::Material * base_mat, int32_t stencil_i_d, app::StencilOp__Enum operation, app::CompareFunction__Enum compare_function, app::ColorWriteMask__Enum color_write_mask));
+IL2CPP_REGISTER_METHOD(0x02678400, Material *, Add_3, (app::Material * base_mat, int32_t stencil_i_d, app::StencilOp__Enum operation, app::CompareFunction__Enum compare_function, app::ColorWriteMask__Enum color_write_mask, int32_t read_mask, int32_t write_mask));
+IL2CPP_REGISTER_METHOD(0x02678E70, void, Remove, (app::Material * custom_mat));
 IL2CPP_REGISTER_METHOD(0x026790A0, void, ClearAll, ());
 IL2CPP_REGISTER_METHOD(0x02679250, void, __cctor, ());
 }

@@ -1,15 +1,15 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::FinalIK::IKSolverAim {
-IL2CPP_REGISTER_METHOD(0x02BE78A0, float, GetAngle, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BE7A30, Vector3, get_transformAxis, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BE7BA0, Vector3, get_transformPoleAxis, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BE7D10, void, OnInitiate, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BE8110, void, OnUpdate, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_minBones, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BE8960, void, Solve, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BE8AC0, Vector3, GetClampedIKPosition, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BE9180, void, RotateToTarget, (IKSolverAim * __this, Vector3 targetPosition, IKSolver_Bone * bone, float weight));
-IL2CPP_REGISTER_METHOD(0x02BEA020, Vector3, get_localDirection, (IKSolverAim * __this));
-IL2CPP_REGISTER_METHOD(0x02BEA170, void, __ctor, (IKSolverAim * __this));
+namespace app::methods::RootMotion_FinalIK::IKSolverAim {
+IL2CPP_REGISTER_METHOD(0x02BE78A0, float, GetAngle, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BE7A30, Vector3, get_transformAxis, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BE7BA0, Vector3, get_transformPoleAxis, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BE7D10, void, OnInitiate, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BE8110, void, OnUpdate, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_minBones, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BE8960, void, Solve, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BE8AC0, Vector3, GetClampedIKPosition, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BE9180, void, RotateToTarget, (app::IKSolverAim * this_ptr, app::Vector3 target_position, app::IKSolver_Bone * bone, float weight));
+IL2CPP_REGISTER_METHOD(0x02BEA020, Vector3, get_localDirection, (app::IKSolverAim * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02BEA170, void, __ctor, (app::IKSolverAim * this_ptr));
 }

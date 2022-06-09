@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::NpcProject {
-IL2CPP_REGISTER_METHOD(0x0060CEB0, void, Start, (NpcProject * __this));
-IL2CPP_REGISTER_METHOD(0x0060CF60, void, OnDestroy, (NpcProject * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (NpcProject * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x0060CEB0, void, Start, (app::NpcProject * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0060CF60, void, OnDestroy, (app::NpcProject * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::NpcProject * this_ptr));
+} // namespace app::methods::NpcProject

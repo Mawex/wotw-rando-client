@@ -1,17 +1,17 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::WWiseSoundAnimatorEntity {
-IL2CPP_REGISTER_METHOD(0x00D1D730, GameObject *, get_ExternalTarget, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00D1D750, Transform *, get_EffectiveTransform, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00D1D830, SoundHost *, get_EffectiveSoundHost, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00D1D9F0, void, OnStartPlayback, (WWiseSoundAnimatorEntity * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00D1DD70, void, OnStopPlayback, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00D1DD90, void, OnUpdateEntity, (WWiseSoundAnimatorEntity * __this, float deltaTime));
-IL2CPP_REGISTER_METHOD(0x00413160, bool, get_LoopContext, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00413170, void, set_LoopContext, (WWiseSoundAnimatorEntity * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00D1DE00, void, OnLoopExit, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00D1DE20, void, OnRootScopeStopped, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00D1DED0, void, ForceStopSound, (WWiseSoundAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x00D1DF50, void, __ctor, (WWiseSoundAnimatorEntity * __this));
+namespace app::methods::Moon_Timeline::WWiseSoundAnimatorEntity {
+IL2CPP_REGISTER_METHOD(0x00D1D730, GameObject *, get_ExternalTarget, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D1D750, Transform *, get_EffectiveTransform, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D1D830, SoundHost *, get_EffectiveSoundHost, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D1D9F0, void, OnStartPlayback, (app::WWiseSoundAnimatorEntity * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00D1DD70, void, OnStopPlayback, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D1DD90, void, OnUpdateEntity, (app::WWiseSoundAnimatorEntity * this_ptr, float delta_time));
+IL2CPP_REGISTER_METHOD(0x00413160, bool, get_LoopContext, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00413170, void, set_LoopContext, (app::WWiseSoundAnimatorEntity * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x00D1DE00, void, OnLoopExit, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D1DE20, void, OnRootScopeStopped, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D1DED0, void, ForceStopSound, (app::WWiseSoundAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00D1DF50, void, __ctor, (app::WWiseSoundAnimatorEntity * this_ptr));
 }

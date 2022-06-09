@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Sein::World::Keys {
+namespace app::methods::Sein_World::Keys {
 IL2CPP_REGISTER_METHOD(0x01071DA0, bool, get_GinsoTree, ());
 IL2CPP_REGISTER_METHOD(0x01071E90, void, set_GinsoTree, (bool value));
 IL2CPP_REGISTER_METHOD(0x01071F80, bool, get_ForlornRuins, ());

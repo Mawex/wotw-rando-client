@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::Dictionary_2_System::Int32_Moon::CrossSceneDependencyData_ {
-IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (Dictionary_2_System_Int32_Moon_CrossSceneDependencyData_ * __this, int32_t key, CrossSceneDependencyData * value));
+namespace app::methods::System_Collections_Generic::Dictionary_2_System_Int32_Moon_CrossSceneDependencyData_ {
+IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (app::Dictionary_2_System_Int32_Moon_CrossSceneDependencyData_ * this_ptr, int32_t key, app::CrossSceneDependencyData * value));
 IL2CPP_REGISTER_METHODINFO(0x0478B408, Dictionary_2_System_Int32_Moon_CrossSceneDependencyData__Add__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (Dictionary_2_System_Int32_Moon_CrossSceneDependencyData_ * __this));
+IL2CPP_REGISTER_METHOD(0x0283AC20, void, __ctor, (app::Dictionary_2_System_Int32_Moon_CrossSceneDependencyData_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04776710, Dictionary_2_System_Int32_Moon_CrossSceneDependencyData___ctor__MethodInfo);
 }

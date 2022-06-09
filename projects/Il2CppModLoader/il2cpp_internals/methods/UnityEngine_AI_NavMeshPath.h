@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::AI::NavMeshPath {
-IL2CPP_REGISTER_METHOD(0x031B3680, void, __ctor, (NavMeshPath * __this));
-IL2CPP_REGISTER_METHOD(0x031B36D0, void, DestroyNavMeshPath, (NavMeshPath * __this));
-IL2CPP_REGISTER_METHOD(0x031B3720, void, Finalize, (NavMeshPath * __this));
-IL2CPP_REGISTER_METHOD(0x031B3830, void, ClearCornersInternal, (NavMeshPath * __this));
-IL2CPP_REGISTER_METHOD(0x031B3880, void, ClearCorners, (NavMeshPath * __this));
+namespace app::methods::UnityEngine_AI::NavMeshPath {
+IL2CPP_REGISTER_METHOD(0x031B3680, void, __ctor, (app::NavMeshPath * this_ptr));
+IL2CPP_REGISTER_METHOD(0x031B36D0, void, DestroyNavMeshPath, (app::NavMeshPath * this_ptr));
+IL2CPP_REGISTER_METHOD(0x031B3720, void, Finalize, (app::NavMeshPath * this_ptr));
+IL2CPP_REGISTER_METHOD(0x031B3830, void, ClearCornersInternal, (app::NavMeshPath * this_ptr));
+IL2CPP_REGISTER_METHOD(0x031B3880, void, ClearCorners, (app::NavMeshPath * this_ptr));
 }

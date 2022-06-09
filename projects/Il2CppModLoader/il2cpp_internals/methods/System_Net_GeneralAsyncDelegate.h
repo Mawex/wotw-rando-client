@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::GeneralAsyncDelegate {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (GeneralAsyncDelegate * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (GeneralAsyncDelegate * __this, Object * request, Object * state));
-IL2CPP_REGISTER_METHOD(0x01435260, IAsyncResult *, BeginInvoke, (GeneralAsyncDelegate * __this, Object * request, Object * state, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (GeneralAsyncDelegate * __this, IAsyncResult * result));
+namespace app::methods::System_Net::GeneralAsyncDelegate {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::GeneralAsyncDelegate * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (app::GeneralAsyncDelegate * this_ptr, app::Object * request, app::Object * state));
+IL2CPP_REGISTER_METHOD(0x01435260, IAsyncResult *, BeginInvoke, (app::GeneralAsyncDelegate * this_ptr, app::Object * request, app::Object * state, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::GeneralAsyncDelegate * this_ptr, app::IAsyncResult * result));
 }

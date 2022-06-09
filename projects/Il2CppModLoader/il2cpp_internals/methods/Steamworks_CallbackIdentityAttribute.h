@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::Steamworks::CallbackIdentityAttribute {
-IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_Identity, (CallbackIdentityAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_Identity, (CallbackIdentityAttribute * __this, int32_t value));
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (CallbackIdentityAttribute * __this, int32_t callbackNum));
+IL2CPP_REGISTER_METHOD(0x002FC6D0, int32_t, get_Identity, (app::CallbackIdentityAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, set_Identity, (app::CallbackIdentityAttribute * this_ptr, int32_t value));
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (app::CallbackIdentityAttribute * this_ptr, int32_t callback_num));
 }

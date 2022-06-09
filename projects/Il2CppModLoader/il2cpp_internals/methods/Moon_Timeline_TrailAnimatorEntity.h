@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::TrailAnimatorEntity {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (TrailAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x01E8F0E0, GameObject *, get_ExternalTarget, (TrailAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x01E8F190, MoonTrail *, get_EffectiveTrail, (TrailAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x01E8F250, void, OnStartPlayback, (TrailAnimatorEntity * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x01E8F390, void, OnStopPlayback, (TrailAnimatorEntity * __this));
-IL2CPP_REGISTER_METHOD(0x01E8F490, void, __ctor, (TrailAnimatorEntity * __this));
+namespace app::methods::Moon_Timeline::TrailAnimatorEntity {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEntityCreated, (app::TrailAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01E8F0E0, GameObject *, get_ExternalTarget, (app::TrailAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01E8F190, MoonTrail *, get_EffectiveTrail, (app::TrailAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01E8F250, void, OnStartPlayback, (app::TrailAnimatorEntity * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x01E8F390, void, OnStopPlayback, (app::TrailAnimatorEntity * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01E8F490, void, __ctor, (app::TrailAnimatorEntity * this_ptr));
 }

@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::EmbeddedBrowser::WebResources_ResponsePreamble {
-IL2CPP_REGISTER_METHOD(0x016768A0, void, __ctor, (WebResources_ResponsePreamble * __this));
+namespace app::methods::ZenFulcrum_EmbeddedBrowser::WebResources_ResponsePreamble {
+IL2CPP_REGISTER_METHOD(0x016768A0, void, __ctor, (app::WebResources_ResponsePreamble * this_ptr));
 }

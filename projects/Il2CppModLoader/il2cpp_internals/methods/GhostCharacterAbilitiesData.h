@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
 namespace app::methods::GhostCharacterAbilitiesData {
-IL2CPP_REGISTER_METHOD(0x002FA280, HashSet_1_AbilityType_ *, get_Abilities, (GhostCharacterAbilitiesData * __this));
-IL2CPP_REGISTER_METHOD(0x00E15C70, GhostFrame_FrameDataTypes__Enum, get_FrameType, (GhostCharacterAbilitiesData * __this));
-IL2CPP_REGISTER_METHOD(0x00E15C80, int32_t, GetDataSize, (GhostCharacterAbilitiesData * __this));
-IL2CPP_REGISTER_METHOD(0x00E15D10, void, __ctor, (GhostCharacterAbilitiesData * __this));
-IL2CPP_REGISTER_METHOD(0x00E15E90, void, __ctor, (GhostCharacterAbilitiesData * __this, BinaryReader * binaryReader));
-IL2CPP_REGISTER_METHOD(0x00E16030, void, Record, (BinaryWriter * binaryWriter));
-IL2CPP_REGISTER_METHOD(0x00E163D0, void, Save, (GhostCharacterAbilitiesData * __this, BinaryWriter * binaryWriter));
-IL2CPP_REGISTER_METHOD(0x00E16570, void, Load, (GhostCharacterAbilitiesData * __this, BinaryReader * binaryReader));
-IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_Executed, (GhostCharacterAbilitiesData * __this));
-IL2CPP_REGISTER_METHOD(0x00533150, void, set_Executed, (GhostCharacterAbilitiesData * __this, bool value));
+IL2CPP_REGISTER_METHOD(0x002FA280, HashSet_1_AbilityType_ *, get_Abilities, (app::GhostCharacterAbilitiesData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00E15C70, GhostFrame_FrameDataTypes__Enum, get_FrameType, (app::GhostCharacterAbilitiesData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00E15C80, int32_t, GetDataSize, (app::GhostCharacterAbilitiesData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00E15D10, void, __ctor_1, (app::GhostCharacterAbilitiesData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00E15E90, void, __ctor_2, (app::GhostCharacterAbilitiesData * this_ptr, app::BinaryReader * binary_reader));
+IL2CPP_REGISTER_METHOD(0x00E16030, void, Record, (app::BinaryWriter * binary_writer));
+IL2CPP_REGISTER_METHOD(0x00E163D0, void, Save, (app::GhostCharacterAbilitiesData * this_ptr, app::BinaryWriter * binary_writer));
+IL2CPP_REGISTER_METHOD(0x00E16570, void, Load, (app::GhostCharacterAbilitiesData * this_ptr, app::BinaryReader * binary_reader));
+IL2CPP_REGISTER_METHOD(0x0052A280, bool, get_Executed, (app::GhostCharacterAbilitiesData * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00533150, void, set_Executed, (app::GhostCharacterAbilitiesData * this_ptr, bool value));
 }

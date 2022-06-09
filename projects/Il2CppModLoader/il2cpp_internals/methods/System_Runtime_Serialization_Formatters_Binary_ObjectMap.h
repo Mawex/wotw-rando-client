@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Serialization::Formatters::Binary::ObjectMap {
-IL2CPP_REGISTER_METHOD(0x01D93850, void, __ctor, (ObjectMap * __this, String * objectName, Type * objectType, String__Array * memberNames, ObjectReader * objectReader, int32_t objectId, BinaryAssemblyInfo * assemblyInfo));
-IL2CPP_REGISTER_METHOD(0x01D93B40, void, __ctor, (ObjectMap * __this, String * objectName, String__Array * memberNames, BinaryTypeEnum__Enum__Array * binaryTypeEnumA, Object__Array * typeInformationA, Int32__Array * memberAssemIds, ObjectReader * objectReader, int32_t objectId, BinaryAssemblyInfo * assemblyInfo, SizedArray * assemIdToAssemblyTable));
+namespace app::methods::System_Runtime_Serialization_Formatters_Binary::ObjectMap {
+IL2CPP_REGISTER_METHOD(0x01D93850, void, __ctor_1, (app::ObjectMap * this_ptr, app::String * object_name, app::Type * object_type, app::String__Array * member_names, app::ObjectReader * object_reader, int32_t object_id, app::BinaryAssemblyInfo * assembly_info));
+IL2CPP_REGISTER_METHOD(0x01D93B40, void, __ctor_2, (app::ObjectMap * this_ptr, app::String * object_name, app::String__Array * member_names, app::BinaryTypeEnum__Enum__Array * binary_type_enum_a, app::Object__Array * type_information_a, app::Int32__Array * member_assem_ids, app::ObjectReader * object_reader, int32_t object_id, app::BinaryAssemblyInfo * assembly_info, app::SizedArray * assem_id_to_assembly_table));
 IL2CPP_REGISTER_METHODINFO(0x047666A8, ObjectMap__ctor_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01D93F90, ReadObjectInfo *, CreateObjectInfo, (ObjectMap * __this, SerializationInfo * * si, Object__Array * * memberData));
-IL2CPP_REGISTER_METHOD(0x01D93FF0, ObjectMap *, Create, (String * name, Type * objectType, String__Array * memberNames, ObjectReader * objectReader, int32_t objectId, BinaryAssemblyInfo * assemblyInfo));
-IL2CPP_REGISTER_METHOD(0x01D94180, ObjectMap *, Create, (String * name, String__Array * memberNames, BinaryTypeEnum__Enum__Array * binaryTypeEnumA, Object__Array * typeInformationA, Int32__Array * memberAssemIds, ObjectReader * objectReader, int32_t objectId, BinaryAssemblyInfo * assemblyInfo, SizedArray * assemIdToAssemblyTable));
+IL2CPP_REGISTER_METHOD(0x01D93F90, ReadObjectInfo *, CreateObjectInfo, (app::ObjectMap * this_ptr, app::SerializationInfo * * si, app::Object__Array * * member_data));
+IL2CPP_REGISTER_METHOD(0x01D93FF0, ObjectMap *, Create_1, (app::String * name, app::Type * object_type, app::String__Array * member_names, app::ObjectReader * object_reader, int32_t object_id, app::BinaryAssemblyInfo * assembly_info));
+IL2CPP_REGISTER_METHOD(0x01D94180, ObjectMap *, Create_2, (app::String * name, app::String__Array * member_names, app::BinaryTypeEnum__Enum__Array * binary_type_enum_a, app::Object__Array * type_information_a, app::Int32__Array * member_assem_ids, app::ObjectReader * object_reader, int32_t object_id, app::BinaryAssemblyInfo * assembly_info, app::SizedArray * assem_id_to_assembly_table));
 }

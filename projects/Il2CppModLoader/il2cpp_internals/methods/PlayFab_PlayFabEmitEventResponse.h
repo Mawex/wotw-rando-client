@@ -1,17 +1,17 @@
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabEmitEventResponse {
-IL2CPP_REGISTER_METHOD(0x002FA280, PlayFabEvent *, get_Event, (PlayFabEmitEventResponse * __this));
-IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Event, (PlayFabEmitEventResponse * __this, PlayFabEvent * value));
-IL2CPP_REGISTER_METHOD(0x00529FF0, EmitEventResult__Enum, get_EmitEventResult, (PlayFabEmitEventResponse * __this));
-IL2CPP_REGISTER_METHOD(0x0052A000, void, set_EmitEventResult, (PlayFabEmitEventResponse * __this, EmitEventResult__Enum value));
-IL2CPP_REGISTER_METHOD(0x002FB950, PlayFabError *, get_PlayFabError, (PlayFabEmitEventResponse * __this));
-IL2CPP_REGISTER_METHOD(0x002FB960, void, set_PlayFabError, (PlayFabEmitEventResponse * __this, PlayFabError * value));
-IL2CPP_REGISTER_METHOD(0x002FBB00, WriteEventsResponse *, get_WriteEventsResponse, (PlayFabEmitEventResponse * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB10, void, set_WriteEventsResponse, (PlayFabEmitEventResponse * __this, WriteEventsResponse * value));
-IL2CPP_REGISTER_METHOD(0x002FB990, IList_1_PlayFab_IPlayFabEmitEventRequest_ *, get_Batch, (PlayFabEmitEventResponse * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9A0, void, set_Batch, (PlayFabEmitEventResponse * __this, IList_1_PlayFab_IPlayFabEmitEventRequest_ * value));
-IL2CPP_REGISTER_METHOD(0x002FB9B0, uint64_t, get_BatchNumber, (PlayFabEmitEventResponse * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9C0, void, set_BatchNumber, (PlayFabEmitEventResponse * __this, uint64_t value));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (PlayFabEmitEventResponse * __this));
+IL2CPP_REGISTER_METHOD(0x002FA280, PlayFabEvent *, get_Event, (app::PlayFabEmitEventResponse * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Event, (app::PlayFabEmitEventResponse * this_ptr, app::PlayFabEvent * value));
+IL2CPP_REGISTER_METHOD(0x00529FF0, EmitEventResult__Enum, get_EmitEventResult, (app::PlayFabEmitEventResponse * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052A000, void, set_EmitEventResult, (app::PlayFabEmitEventResponse * this_ptr, app::EmitEventResult__Enum value));
+IL2CPP_REGISTER_METHOD(0x002FB950, PlayFabError *, get_PlayFabError, (app::PlayFabEmitEventResponse * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB960, void, set_PlayFabError, (app::PlayFabEmitEventResponse * this_ptr, app::PlayFabError * value));
+IL2CPP_REGISTER_METHOD(0x002FBB00, WriteEventsResponse *, get_WriteEventsResponse, (app::PlayFabEmitEventResponse * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB10, void, set_WriteEventsResponse, (app::PlayFabEmitEventResponse * this_ptr, app::WriteEventsResponse * value));
+IL2CPP_REGISTER_METHOD(0x002FB990, IList_1_PlayFab_IPlayFabEmitEventRequest_ *, get_Batch, (app::PlayFabEmitEventResponse * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB9A0, void, set_Batch, (app::PlayFabEmitEventResponse * this_ptr, app::IList_1_PlayFab_IPlayFabEmitEventRequest_ * value));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, uint64_t, get_BatchNumber, (app::PlayFabEmitEventResponse * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB9C0, void, set_BatchNumber, (app::PlayFabEmitEventResponse * this_ptr, uint64_t value));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::PlayFabEmitEventResponse * this_ptr));
 }

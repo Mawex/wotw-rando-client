@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::GetPlayersSegmentsRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetPlayersSegmentsRequest * __this));
+namespace app::methods::PlayFab_ServerModels::GetPlayersSegmentsRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetPlayersSegmentsRequest * this_ptr));
 }

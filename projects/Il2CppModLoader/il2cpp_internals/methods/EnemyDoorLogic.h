@@ -1,27 +1,27 @@
 #include <interception_macros.h>
 
 namespace app::methods::EnemyDoorLogic {
-IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonSetupAnimator *, get_MoonSetupAnimator, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x00C81D40, void, set_MoonSetupAnimator, (EnemyDoorLogic * __this, IMoonSetupAnimator * value));
-IL2CPP_REGISTER_METHOD(0x005B96C0, MoonTimeline *, get_AnimatorOpenDoorTimeline, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Start, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Update, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
-IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType, (EnemyDoorLogic * __this));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, IMoonSetupAnimator *, get_MoonSetupAnimator, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00C81D40, void, set_MoonSetupAnimator, (app::EnemyDoorLogic * this_ptr, app::IMoonSetupAnimator * value));
+IL2CPP_REGISTER_METHOD(0x005B96C0, MoonTimeline *, get_AnimatorOpenDoorTimeline, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Start, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Update, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_1, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_2, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_3, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_4, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_5, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_6, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_7, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_8, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_9, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_10, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_11, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_12, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_13, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_14, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_15, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_16, (app::EnemyDoorLogic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB990, IMoonTypeResolver *, GetResolverForType_17, (app::EnemyDoorLogic * this_ptr));
 }

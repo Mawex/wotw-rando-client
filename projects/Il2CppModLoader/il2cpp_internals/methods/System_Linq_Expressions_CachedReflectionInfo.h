@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::CachedReflectionInfo {
+namespace app::methods::System_Linq_Expressions::CachedReflectionInfo {
 IL2CPP_REGISTER_METHOD(0x01FA01E0, MethodInfo_1 *, get_CallSiteOps_SetNotMatched, ());
 IL2CPP_REGISTER_METHOD(0x01FA02C0, MethodInfo_1 *, get_CallSiteOps_CreateMatchmaker, ());
 IL2CPP_REGISTER_METHOD(0x01FA03B0, MethodInfo_1 *, get_CallSiteOps_GetMatch, ());

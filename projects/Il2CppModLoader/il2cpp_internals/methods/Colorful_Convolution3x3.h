@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::Colorful::Convolution3x3 {
-IL2CPP_REGISTER_METHOD(0x03041A40, void, OnRenderImage, (Convolution3x3 * __this, RenderTexture * source, RenderTexture * destination));
-IL2CPP_REGISTER_METHOD(0x03041F70, String *, GetShaderName, (Convolution3x3 * __this));
-IL2CPP_REGISTER_METHOD(0x03041FF0, void, __ctor, (Convolution3x3 * __this));
+IL2CPP_REGISTER_METHOD(0x03041A40, void, OnRenderImage, (app::Convolution3x3 * this_ptr, app::RenderTexture * source, app::RenderTexture * destination));
+IL2CPP_REGISTER_METHOD(0x03041F70, String *, GetShaderName, (app::Convolution3x3 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x03041FF0, void, __ctor, (app::Convolution3x3 * this_ptr));
 }

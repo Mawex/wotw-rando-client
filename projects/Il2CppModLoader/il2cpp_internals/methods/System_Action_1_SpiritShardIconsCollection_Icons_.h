@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_1_SpiritShardIconsCollection_Icons_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Action_1_SpiritShardIconsCollection_Icons_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x029FD190, void, Invoke, (Action_1_SpiritShardIconsCollection_Icons_ * __this, SpiritShardIconsCollection_Icons obj));
-IL2CPP_REGISTER_METHOD(0x02A04060, IAsyncResult *, BeginInvoke, (Action_1_SpiritShardIconsCollection_Icons_ * __this, SpiritShardIconsCollection_Icons obj, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (Action_1_SpiritShardIconsCollection_Icons_ * __this, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Action_1_SpiritShardIconsCollection_Icons_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x029FD190, void, Invoke, (app::Action_1_SpiritShardIconsCollection_Icons_ * this_ptr, app::SpiritShardIconsCollection_Icons obj));
+IL2CPP_REGISTER_METHOD(0x02A04060, IAsyncResult *, BeginInvoke, (app::Action_1_SpiritShardIconsCollection_Icons_ * this_ptr, app::SpiritShardIconsCollection_Icons obj, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::Action_1_SpiritShardIconsCollection_Icons_ * this_ptr, app::IAsyncResult * result));
 }

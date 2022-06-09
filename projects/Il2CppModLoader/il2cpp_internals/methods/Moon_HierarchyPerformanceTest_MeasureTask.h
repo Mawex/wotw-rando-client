@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::HierarchyPerformanceTest::MeasureTask {
-IL2CPP_REGISTER_METHOD(0x014A89A0, void, __ctor, (MeasureTask * __this, HierarchyDebugMenu_GameObjectItem * item, SceneSample * model, IProfilingDataProvider * dataProvider, Action * onComplete));
-IL2CPP_REGISTER_METHOD(0x014A89C0, void, Update, (MeasureTask * __this));
-IL2CPP_REGISTER_METHOD(0x014A8ED0, void, StartMeasure, (MeasureTask * __this));
-IL2CPP_REGISTER_METHOD(0x014A9090, void, FinishMeasure, (MeasureTask * __this, double cpuTime, double gpuTime, double srpGameViewTime, bool setMoonHiddenToHierarchy));
-IL2CPP_REGISTER_METHOD(0x014A93C0, void, CacheStartIndex, (MeasureTask * __this));
-IL2CPP_REGISTER_METHOD(0x014A9460, void, CacheEndIndex, (MeasureTask * __this));
-IL2CPP_REGISTER_METHOD(0x014A9500, double, GetCurrentCapturedCPUTime, (MeasureTask * __this));
-IL2CPP_REGISTER_METHOD(0x014A95A0, double, GetCurrentCapturedGPUTime, (MeasureTask * __this));
-IL2CPP_REGISTER_METHOD(0x014A9640, double, GetCurrentCapturedSRPGameViewTime, (MeasureTask * __this));
-IL2CPP_REGISTER_METHOD(0x014A96E0, String *, GetFullPath, (MeasureTask * __this, GameObject * gameObject));
+namespace app::methods::Moon_HierarchyPerformanceTest::MeasureTask {
+IL2CPP_REGISTER_METHOD(0x014A89A0, void, __ctor, (app::MeasureTask * this_ptr, app::HierarchyDebugMenu_GameObjectItem * item, app::SceneSample * model, app::IProfilingDataProvider * data_provider, app::Action * on_complete));
+IL2CPP_REGISTER_METHOD(0x014A89C0, void, Update, (app::MeasureTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x014A8ED0, void, StartMeasure, (app::MeasureTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x014A9090, void, FinishMeasure, (app::MeasureTask * this_ptr, double cpu_time, double gpu_time, double srp_game_view_time, bool set_moon_hidden_to_hierarchy));
+IL2CPP_REGISTER_METHOD(0x014A93C0, void, CacheStartIndex, (app::MeasureTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x014A9460, void, CacheEndIndex, (app::MeasureTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x014A9500, double, GetCurrentCapturedCPUTime, (app::MeasureTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x014A95A0, double, GetCurrentCapturedGPUTime, (app::MeasureTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x014A9640, double, GetCurrentCapturedSRPGameViewTime, (app::MeasureTask * this_ptr));
+IL2CPP_REGISTER_METHOD(0x014A96E0, String *, GetFullPath, (app::MeasureTask * this_ptr, app::GameObject * game_object));
 }

@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::WebRequestPrefixElement {
-IL2CPP_REGISTER_METHOD(0x021B8380, IWebRequestCreate *, get_Creator, (WebRequestPrefixElement * __this));
-IL2CPP_REGISTER_METHOD(0x002FB940, void, set_Creator, (WebRequestPrefixElement * __this, IWebRequestCreate * value));
-IL2CPP_REGISTER_METHOD(0x021B8580, void, __ctor, (WebRequestPrefixElement * __this, String * P, Type * creatorType));
+namespace app::methods::System_Net::WebRequestPrefixElement {
+IL2CPP_REGISTER_METHOD(0x021B8380, IWebRequestCreate *, get_Creator, (app::WebRequestPrefixElement * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB940, void, set_Creator, (app::WebRequestPrefixElement * this_ptr, app::IWebRequestCreate * value));
+IL2CPP_REGISTER_METHOD(0x021B8580, void, __ctor_1, (app::WebRequestPrefixElement * this_ptr, app::String * P, app::Type * creator_type));
 IL2CPP_REGISTER_METHODINFO(0x047854E0, WebRequestPrefixElement__ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor, (WebRequestPrefixElement * __this, String * P, IWebRequestCreate * C));
+IL2CPP_REGISTER_METHOD(0x0058DA40, void, __ctor_2, (app::WebRequestPrefixElement * this_ptr, app::String * P, app::IWebRequestCreate * C));
 }

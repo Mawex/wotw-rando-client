@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::MultiplayerModels::GetQueueStatisticsRequest {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetQueueStatisticsRequest * __this));
+namespace app::methods::PlayFab_MultiplayerModels::GetQueueStatisticsRequest {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetQueueStatisticsRequest * this_ptr));
 }

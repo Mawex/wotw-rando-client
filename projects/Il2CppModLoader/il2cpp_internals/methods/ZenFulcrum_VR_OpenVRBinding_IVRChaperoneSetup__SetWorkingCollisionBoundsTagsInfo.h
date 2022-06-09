@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02187340, void, Invoke, (IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * __this, Byte__Array * pTagsBuffer, uint32_t unTagCount));
-IL2CPP_REGISTER_METHOD(0x02F40B00, IAsyncResult *, BeginInvoke, (IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * __this, Byte__Array * pTagsBuffer, uint32_t unTagCount, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRChaperoneSetup__SetWorkingCollisionBoundsTagsInfo {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02187340, void, Invoke, (app::IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * this_ptr, app::Byte__Array * p_tags_buffer, uint32_t un_tag_count));
+IL2CPP_REGISTER_METHOD(0x02F40B00, IAsyncResult *, BeginInvoke, (app::IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * this_ptr, app::Byte__Array * p_tags_buffer, uint32_t un_tag_count, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::IVRChaperoneSetup_SetWorkingCollisionBoundsTagsInfo * this_ptr, app::IAsyncResult * result));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVROverlay__ShowKeyboardForOverlay {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVROverlay_ShowKeyboardForOverlay * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02D81C40, EVROverlayError__Enum, Invoke, (IVROverlay_ShowKeyboardForOverlay * __this, uint64_t ulOverlayHandle, int32_t eInputMode, int32_t eLineInputMode, String * pchDescription, uint32_t unCharMax, String * pchExistingText, bool bUseMinimalMode, uint64_t uUserValue));
-IL2CPP_REGISTER_METHOD(0x02D822A0, IAsyncResult *, BeginInvoke, (IVROverlay_ShowKeyboardForOverlay * __this, uint64_t ulOverlayHandle, int32_t eInputMode, int32_t eLineInputMode, String * pchDescription, uint32_t unCharMax, String * pchExistingText, bool bUseMinimalMode, uint64_t uUserValue, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F550D0, EVROverlayError__Enum, EndInvoke, (IVROverlay_ShowKeyboardForOverlay * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVROverlay__ShowKeyboardForOverlay {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVROverlay_ShowKeyboardForOverlay * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02D81C40, EVROverlayError__Enum, Invoke, (app::IVROverlay_ShowKeyboardForOverlay * this_ptr, uint64_t ul_overlay_handle, int32_t e_input_mode, int32_t e_line_input_mode, app::String * pch_description, uint32_t un_char_max, app::String * pch_existing_text, bool b_use_minimal_mode, uint64_t u_user_value));
+IL2CPP_REGISTER_METHOD(0x02D822A0, IAsyncResult *, BeginInvoke, (app::IVROverlay_ShowKeyboardForOverlay * this_ptr, uint64_t ul_overlay_handle, int32_t e_input_mode, int32_t e_line_input_mode, app::String * pch_description, uint32_t un_char_max, app::String * pch_existing_text, bool b_use_minimal_mode, uint64_t u_user_value, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F550D0, EVROverlayError__Enum, EndInvoke, (app::IVROverlay_ShowKeyboardForOverlay * this_ptr, app::IAsyncResult * result));
 }

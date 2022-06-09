@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::PlayStreamModels::EntityExecutedCloudScriptEventData {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (EntityExecutedCloudScriptEventData * __this));
+namespace app::methods::PlayFab_PlayStreamModels::EntityExecutedCloudScriptEventData {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::EntityExecutedCloudScriptEventData * this_ptr));
 }

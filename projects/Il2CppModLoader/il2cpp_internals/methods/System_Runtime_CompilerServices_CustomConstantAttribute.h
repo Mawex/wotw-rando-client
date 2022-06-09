@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::CompilerServices::CustomConstantAttribute {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CustomConstantAttribute * __this));
+namespace app::methods::System_Runtime_CompilerServices::CustomConstantAttribute {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::CustomConstantAttribute * this_ptr));
 }

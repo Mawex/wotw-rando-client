@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::FloatDebugMenuItem {
-IL2CPP_REGISTER_METHOD(0x01270930, void, __ctor, (FloatDebugMenuItem * __this));
-IL2CPP_REGISTER_METHOD(0x012709B0, void, __ctor, (FloatDebugMenuItem * __this, String * path, String * text));
-IL2CPP_REGISTER_METHOD(0x01270A90, void, __ctor, (FloatDebugMenuItem * __this, String * path, String * text, Func_1_Single_ * getter, Action_1_Single_ * setter, float min, float max, float speed, String * help, Func_1_String_ * textGetter, bool shouldShowOnlySelected));
-IL2CPP_REGISTER_METHOD(0x01270B60, void, IncrementValue, (FloatDebugMenuItem * __this, int32_t delta));
+IL2CPP_REGISTER_METHOD(0x01270930, void, __ctor_1, (app::FloatDebugMenuItem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012709B0, void, __ctor_2, (app::FloatDebugMenuItem * this_ptr, app::String * path, app::String * text));
+IL2CPP_REGISTER_METHOD(0x01270A90, void, __ctor_3, (app::FloatDebugMenuItem * this_ptr, app::String * path, app::String * text, app::Func_1_Single_ * getter, app::Action_1_Single_ * setter, float min, float max, float speed, app::String * help, app::Func_1_String_ * text_getter, bool should_show_only_selected));
+IL2CPP_REGISTER_METHOD(0x01270B60, void, IncrementValue, (app::FloatDebugMenuItem * this_ptr, int32_t delta));
 }

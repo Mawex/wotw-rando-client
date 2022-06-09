@@ -1,16 +1,16 @@
 #include <interception_macros.h>
 
 namespace app::methods::SeinGlowSpell_GlowLightInfo {
-IL2CPP_REGISTER_METHOD(0x003FC830, SeinGlowSpell_GlowType__Enum, get_GlowType, (SeinGlowSpell_GlowLightInfo * __this));
-IL2CPP_REGISTER_METHOD(0x006A45A0, float, get_Radius, (SeinGlowSpell_GlowLightInfo * __this));
-IL2CPP_REGISTER_METHOD(0x006B5650, float, get_Intensity, (SeinGlowSpell_GlowLightInfo * __this));
-IL2CPP_REGISTER_METHOD(0x00AEDAD0, void, __ctor, (SeinGlowSpell_GlowLightInfo * __this, float minRadius, float maxRadius, float onDuration, AnimationCurve * turnOnCurve, AnimationCurve * turnOffCurve, SeinGlowSpell_GlowType__Enum glowType, Transform * effect));
-IL2CPP_REGISTER_METHOD(0x00AEDB10, void, Update, (SeinGlowSpell_GlowLightInfo * __this, float dt));
-IL2CPP_REGISTER_METHOD(0x00AEDE10, bool, IsTurningOn, (SeinGlowSpell_GlowLightInfo * __this));
-IL2CPP_REGISTER_METHOD(0x00AEDE20, bool, IsOn, (SeinGlowSpell_GlowLightInfo * __this));
-IL2CPP_REGISTER_METHOD(0x00AEDE30, bool, IsTurningOff, (SeinGlowSpell_GlowLightInfo * __this));
-IL2CPP_REGISTER_METHOD(0x00AEDE40, bool, IsOff, (SeinGlowSpell_GlowLightInfo * __this));
-IL2CPP_REGISTER_METHOD(0x00AEDE50, void, TurnOff, (SeinGlowSpell_GlowLightInfo * __this, bool cancel));
-IL2CPP_REGISTER_METHOD(0x00AEDFC0, void, ChangeState, (SeinGlowSpell_GlowLightInfo * __this, SeinGlowSpell_GlowLightState__Enum newState));
-IL2CPP_REGISTER_METHOD(0x00AEDFD0, void, Destroy, (SeinGlowSpell_GlowLightInfo * __this));
+IL2CPP_REGISTER_METHOD(0x003FC830, SeinGlowSpell_GlowType__Enum, get_GlowType, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x006A45A0, float, get_Radius, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x006B5650, float, get_Intensity, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00AEDAD0, void, __ctor, (app::SeinGlowSpell_GlowLightInfo * this_ptr, float min_radius, float max_radius, float on_duration, app::AnimationCurve * turn_on_curve, app::AnimationCurve * turn_off_curve, app::SeinGlowSpell_GlowType__Enum glow_type, app::Transform * effect));
+IL2CPP_REGISTER_METHOD(0x00AEDB10, void, Update, (app::SeinGlowSpell_GlowLightInfo * this_ptr, float dt));
+IL2CPP_REGISTER_METHOD(0x00AEDE10, bool, IsTurningOn, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00AEDE20, bool, IsOn, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00AEDE30, bool, IsTurningOff, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00AEDE40, bool, IsOff, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00AEDE50, void, TurnOff, (app::SeinGlowSpell_GlowLightInfo * this_ptr, bool cancel));
+IL2CPP_REGISTER_METHOD(0x00AEDFC0, void, ChangeState, (app::SeinGlowSpell_GlowLightInfo * this_ptr, app::SeinGlowSpell_GlowLightState__Enum new_state));
+IL2CPP_REGISTER_METHOD(0x00AEDFD0, void, Destroy, (app::SeinGlowSpell_GlowLightInfo * this_ptr));
 }

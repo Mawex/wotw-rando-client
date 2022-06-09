@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Font_FontTextureRebuildCallback {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Font_FontTextureRebuildCallback * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (Font_FontTextureRebuildCallback * __this));
-IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (Font_FontTextureRebuildCallback * __this, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (Font_FontTextureRebuildCallback * __this, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Font_FontTextureRebuildCallback * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (app::Font_FontTextureRebuildCallback * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (app::Font_FontTextureRebuildCallback * this_ptr, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::Font_FontTextureRebuildCallback * this_ptr, app::IAsyncResult * result));
 }

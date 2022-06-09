@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Remoting::Messaging::ArgInfo {
-IL2CPP_REGISTER_METHOD(0x02309730, void, __ctor, (ArgInfo * __this, MethodBase * method_1, ArgInfoType__Enum type));
-IL2CPP_REGISTER_METHOD(0x023099D0, Object__Array *, GetInOutArgs, (ArgInfo * __this, Object__Array * args));
+namespace app::methods::System_Runtime_Remoting_Messaging::ArgInfo {
+IL2CPP_REGISTER_METHOD(0x02309730, void, __ctor, (app::ArgInfo * this_ptr, app::MethodBase * method_1, app::ArgInfoType__Enum type));
+IL2CPP_REGISTER_METHOD(0x023099D0, Object__Array *, GetInOutArgs, (app::ArgInfo * this_ptr, app::Object__Array * args));
 }

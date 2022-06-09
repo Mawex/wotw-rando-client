@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::TransformAnimatorSystem_RotationModification {
-IL2CPP_REGISTER_METHOD(0x00247020, void, Apply, (TransformAnimatorSystem_RotationModification__Boxed * __this, TransformAnimatorSystem_ObjectState * objectState, bool immediatelyApply));
-IL2CPP_REGISTER_METHOD(0x00247030, void, ApplyRigidbody, (TransformAnimatorSystem_RotationModification__Boxed * __this, TransformAnimatorSystem_ObjectState * objectState, bool immediatelyApply));
-IL2CPP_REGISTER_METHOD(0x00247040, void, RotateBody, (TransformAnimatorSystem_RotationModification__Boxed * __this, Rigidbody * rigidbody, Quaternion rotation));
+namespace app::methods::Moon_Timeline::TransformAnimatorSystem_RotationModification {
+IL2CPP_REGISTER_METHOD(0x00247020, void, Apply, (app::TransformAnimatorSystem_RotationModification__Boxed * this_ptr, app::TransformAnimatorSystem_ObjectState * object_state, bool immediately_apply));
+IL2CPP_REGISTER_METHOD(0x00247030, void, ApplyRigidbody, (app::TransformAnimatorSystem_RotationModification__Boxed * this_ptr, app::TransformAnimatorSystem_ObjectState * object_state, bool immediately_apply));
+IL2CPP_REGISTER_METHOD(0x00247040, void, RotateBody, (app::TransformAnimatorSystem_RotationModification__Boxed * this_ptr, app::Rigidbody * rigidbody, app::Quaternion rotation));
 }

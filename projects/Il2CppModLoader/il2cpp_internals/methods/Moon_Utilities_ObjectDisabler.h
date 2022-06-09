@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Utilities::ObjectDisabler {
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (ObjectDisabler * __this));
+namespace app::methods::Moon_Utilities::ObjectDisabler {
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::ObjectDisabler * this_ptr));
 }

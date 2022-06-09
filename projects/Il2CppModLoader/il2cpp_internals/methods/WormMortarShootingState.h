@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::WormMortarShootingState {
-IL2CPP_REGISTER_METHOD(0x0058EEA0, void, __ctor, (WormMortarShootingState * __this, WormEnemy * worm, MortarWormDirectionalAnimations * shoot, PrefabSpawner * shootEffect, SoundSource * shootSound, ProjectileSpawner * projectileSpawner, float shootDelay, float projectileDamage));
-IL2CPP_REGISTER_METHOD(0x0058EEE0, void, OnEnter, (WormMortarShootingState * __this));
-IL2CPP_REGISTER_METHOD(0x0058F360, void, OnExit, (WormMortarShootingState * __this));
-IL2CPP_REGISTER_METHOD(0x0058F370, void, UpdateState, (WormMortarShootingState * __this));
+IL2CPP_REGISTER_METHOD(0x0058EEA0, void, __ctor, (app::WormMortarShootingState * this_ptr, app::WormEnemy * worm, app::MortarWormDirectionalAnimations * shoot, app::PrefabSpawner * shoot_effect, app::SoundSource * shoot_sound, app::ProjectileSpawner * projectile_spawner, float shoot_delay, float projectile_damage));
+IL2CPP_REGISTER_METHOD(0x0058EEE0, void, OnEnter, (app::WormMortarShootingState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0058F360, void, OnExit, (app::WormMortarShootingState * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0058F370, void, UpdateState, (app::WormMortarShootingState * this_ptr));
 }

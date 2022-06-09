@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::InteractionGraph::FinishedInteractionTransition {
-IL2CPP_REGISTER_METHOD(0x0198D180, IInteractionNode *, get_TransitionDestination, (FinishedInteractionTransition * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerEnter, (FinishedInteractionTransition * __this, IInteractionNode * owner));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerExit, (FinishedInteractionTransition * __this, IInteractionNode * owner));
-IL2CPP_REGISTER_METHOD(0x0198D240, bool, Validate, (FinishedInteractionTransition * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (FinishedInteractionTransition * __this));
+namespace app::methods::Moon_InteractionGraph::FinishedInteractionTransition {
+IL2CPP_REGISTER_METHOD(0x0198D180, IInteractionNode *, get_TransitionDestination, (app::FinishedInteractionTransition * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerEnter, (app::FinishedInteractionTransition * this_ptr, app::IInteractionNode * owner));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerExit, (app::FinishedInteractionTransition * this_ptr, app::IInteractionNode * owner));
+IL2CPP_REGISTER_METHOD(0x0198D240, bool, Validate, (app::FinishedInteractionTransition * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::FinishedInteractionTransition * this_ptr));
 }

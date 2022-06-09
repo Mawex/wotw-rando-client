@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::Atlas {
-IL2CPP_REGISTER_METHOD(0x002FB9B0, String *, get_TexturePath, (Atlas * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9C0, void, set_TexturePath, (Atlas * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x00844A30, AtlasSpriteTexture *, FindAtlasSprite, (Atlas * __this, MoonGuid * guid));
-IL2CPP_REGISTER_METHOD(0x00844CC0, void, InitCache, (Atlas * __this));
-IL2CPP_REGISTER_METHOD(0x00844E40, void, ClearData, (Atlas * __this));
-IL2CPP_REGISTER_METHOD(0x00844F00, AtlasSpriteTexture *, AddFrameTexture, (Atlas * __this, String * frameName, Vector2 centerOffset, Vector2 originalSize, Rect normalizedRect, bool flipped, MoonGuid * guid));
-IL2CPP_REGISTER_METHOD(0x00845150, void, InvalidateCache, (Atlas * __this));
-IL2CPP_REGISTER_METHOD(0x008451E0, void, __ctor, (Atlas * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x002FB9B0, String*, get_TexturePath, (app::Atlas * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FB9C0, void, set_TexturePath, (app::Atlas * this_ptr, app::String* value));
+    IL2CPP_REGISTER_METHOD(0x00844A30, AtlasSpriteTexture*, FindAtlasSprite, (app::Atlas * this_ptr, app::MoonGuid* guid));
+    IL2CPP_REGISTER_METHOD(0x00844CC0, void, InitCache, (app::Atlas * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00844E40, void, ClearData, (app::Atlas * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00844F00, AtlasSpriteTexture*, AddFrameTexture, (app::Atlas * this_ptr, app::String* frame_name, app::Vector2 center_offset, app::Vector2 original_size, app::Rect normalized_rect, bool flipped, app::MoonGuid* guid));
+    IL2CPP_REGISTER_METHOD(0x00845150, void, InvalidateCache, (app::Atlas * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008451E0, void, __ctor, (app::Atlas * this_ptr));
+} // namespace app::methods::Atlas

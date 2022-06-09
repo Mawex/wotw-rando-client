@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab::ServerModels::AwardSteamAchievementRequest_ {
-IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_AwardSteamAchievementRequest_ * __this, AwardSteamAchievementRequest * request));
+namespace app::methods::PlayFab_Events::PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_AwardSteamAchievementRequest_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_AwardSteamAchievementRequest_ * this_ptr, app::AwardSteamAchievementRequest * request));
 IL2CPP_REGISTER_METHODINFO(0x0472FE68, PlayFabEvents_PlayFabRequestEvent_1_PlayFab_ServerModels_AwardSteamAchievementRequest__Invoke__MethodInfo);
 }

@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::MultiplayerModels::MatchmakingQueueRule {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MatchmakingQueueRule * __this));
+namespace app::methods::PlayFab_MultiplayerModels::MatchmakingQueueRule {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MatchmakingQueueRule * this_ptr));
 }

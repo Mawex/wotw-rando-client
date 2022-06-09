@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::FullSerializer::Internal::fsDictionaryConverter {
-IL2CPP_REGISTER_METHOD(0x01653170, bool, CanProcess, (fsDictionaryConverter * __this, Type * type));
-IL2CPP_REGISTER_METHOD(0x01653240, Object *, CreateInstance, (fsDictionaryConverter * __this, fsData * data, Type * storageType));
-IL2CPP_REGISTER_METHOD(0x01653320, fsResult, TryDeserialize, (fsDictionaryConverter * __this, fsData * data, Object * * instance_, Type * storageType));
-IL2CPP_REGISTER_METHOD(0x01653CF0, fsResult, TrySerialize, (fsDictionaryConverter * __this, Object * instance_, fsData * * serialized, Type * storageType));
-IL2CPP_REGISTER_METHOD(0x01654750, fsResult, AddItemToDictionary, (fsDictionaryConverter * __this, IDictionary * dictionary, Object * key, Object * value));
-IL2CPP_REGISTER_METHOD(0x01654B30, void, GetKeyValueTypes, (Type * dictionaryType, Type * * keyStorageType, Type * * valueStorageType));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (fsDictionaryConverter * __this));
+namespace app::methods::FullSerializer_Internal::fsDictionaryConverter {
+IL2CPP_REGISTER_METHOD(0x01653170, bool, CanProcess, (app::fsDictionaryConverter * this_ptr, app::Type * type));
+IL2CPP_REGISTER_METHOD(0x01653240, Object *, CreateInstance, (app::fsDictionaryConverter * this_ptr, app::fsData * data, app::Type * storage_type));
+IL2CPP_REGISTER_METHOD(0x01653320, fsResult, TryDeserialize, (app::fsDictionaryConverter * this_ptr, app::fsData * data, app::Object * * instance_, app::Type * storage_type));
+IL2CPP_REGISTER_METHOD(0x01653CF0, fsResult, TrySerialize, (app::fsDictionaryConverter * this_ptr, app::Object * instance_, app::fsData * * serialized, app::Type * storage_type));
+IL2CPP_REGISTER_METHOD(0x01654750, fsResult, AddItemToDictionary, (app::fsDictionaryConverter * this_ptr, app::IDictionary * dictionary, app::Object * key, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x01654B30, void, GetKeyValueTypes, (app::Type * dictionary_type, app::Type * * key_storage_type, app::Type * * value_storage_type));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::fsDictionaryConverter * this_ptr));
 }

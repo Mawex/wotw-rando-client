@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Bindings::NativeThrowsAttribute {
-IL2CPP_REGISTER_METHOD(0x00B80D80, void, __ctor, (NativeThrowsAttribute * __this));
-IL2CPP_REGISTER_METHOD(0x0052C650, void, set_ThrowsException, (NativeThrowsAttribute * __this, bool value));
+namespace app::methods::UnityEngine_Bindings::NativeThrowsAttribute {
+IL2CPP_REGISTER_METHOD(0x00B80D80, void, __ctor, (app::NativeThrowsAttribute * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052C650, void, set_ThrowsException, (app::NativeThrowsAttribute * this_ptr, bool value));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Schema::Positions {
-IL2CPP_REGISTER_METHOD(0x016D9430, int32_t, Add, (Positions * __this, int32_t symbol, Object * particle));
-IL2CPP_REGISTER_METHOD(0x016D9510, Position, get_Item, (Positions * __this, int32_t pos));
-IL2CPP_REGISTER_METHOD(0x016D95F0, int32_t, get_Count, (Positions * __this));
-IL2CPP_REGISTER_METHOD(0x016D9620, void, __ctor, (Positions * __this));
+namespace app::methods::System_Xml_Schema::Positions {
+IL2CPP_REGISTER_METHOD(0x016D9430, int32_t, Add, (app::Positions * this_ptr, int32_t symbol, app::Object * particle));
+IL2CPP_REGISTER_METHOD(0x016D9510, Position, get_Item, (app::Positions * this_ptr, int32_t pos));
+IL2CPP_REGISTER_METHOD(0x016D95F0, int32_t, get_Count, (app::Positions * this_ptr));
+IL2CPP_REGISTER_METHOD(0x016D9620, void, __ctor, (app::Positions * this_ptr));
 }

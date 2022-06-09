@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_TResult__ConfiguredTaskAwaiter_System::Threading::Tasks::VoidTaskResult_ {
-IL2CPP_REGISTER_METHOD(0x00151890, void, __ctor, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * __this, Task_1_VoidTaskResult_ * task, bool continueOnCapturedContext));
-IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0018EF00, void, OnCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * __this, Action * continuation));
-IL2CPP_REGISTER_METHOD(0x0018EF30, void, UnsafeOnCompleted, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * __this, Action * continuation));
-IL2CPP_REGISTER_METHOD(0x001FF6C0, VoidTaskResult, GetResult, (ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * __this));
+namespace app::methods::System_Runtime_CompilerServices::ConfiguredTaskAwaitable_1_TResult__ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult_ {
+IL2CPP_REGISTER_METHOD(0x00151890, void, __ctor, (app::ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * this_ptr, app::Task_1_VoidTaskResult_ * task, bool continue_on_captured_context));
+IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (app::ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0018EF00, void, OnCompleted, (app::ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * this_ptr, app::Action * continuation));
+IL2CPP_REGISTER_METHOD(0x0018EF30, void, UnsafeOnCompleted, (app::ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * this_ptr, app::Action * continuation));
+IL2CPP_REGISTER_METHOD(0x001FF6C0, VoidTaskResult, GetResult, (app::ConfiguredTaskAwaitable_1_TResult_ConfiguredTaskAwaiter_System_Threading_Tasks_VoidTaskResult___Boxed * this_ptr));
 }

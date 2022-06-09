@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::frameworks::Switch::ButtonInput {
-IL2CPP_REGISTER_METHOD(0x00420EE0, Button__Enum, get_Button, (ButtonInput * __this));
-IL2CPP_REGISTER_METHOD(0x00597BD0, void, __ctor, (ButtonInput * __this, Button__Enum button, bool anyPad));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, GetValue, (ButtonInput * __this));
+namespace app::methods::frameworks_Switch::ButtonInput {
+IL2CPP_REGISTER_METHOD(0x00420EE0, Button__Enum, get_Button, (app::ButtonInput * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00597BD0, void, __ctor, (app::ButtonInput * this_ptr, app::Button__Enum button, bool any_pad));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, GetValue, (app::ButtonInput * this_ptr));
 }

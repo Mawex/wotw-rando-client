@@ -1,24 +1,24 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_System::Int32_System::ByteEnum_ {
-IL2CPP_REGISTER_METHOD(0x01D5A980, void, __ctor, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this, Dictionary_2_System_Int32_System_ByteEnum_ * dictionary));
+namespace app::methods::System_Collections_Generic::Dictionary_2_TKey_TValue__KeyCollection_System_Int32_System_ByteEnum_ {
+IL2CPP_REGISTER_METHOD(0x01D5A980, void, __ctor, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr, app::Dictionary_2_System_Int32_System_ByteEnum_ * dictionary));
 IL2CPP_REGISTER_METHODINFO(0x04731F18, Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum___ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01A78360, Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_System_Int32_System_ByteEnum_, GetEnumerator, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
-IL2CPP_REGISTER_METHOD(0x01D5AA50, void, CopyTo, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this, Int32__Array * array, int32_t index));
+IL2CPP_REGISTER_METHOD(0x01A78360, Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_System_Int32_System_ByteEnum_, GetEnumerator, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D5AA50, void, CopyTo, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr, app::Int32__Array * array, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x04716E60, Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum__CopyTo__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01A72C10, int32_t, get_Count, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, System_Collections_Generic_ICollection_TKey__get_IsReadOnly, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
-IL2CPP_REGISTER_METHOD(0x01D5AC80, void, System_Collections_Generic_ICollection_TKey__Add, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this, int32_t item));
+IL2CPP_REGISTER_METHOD(0x01A72C10, int32_t, get_Count, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, System_Collections_Generic_ICollection_TKey__get_IsReadOnly, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D5AC80, void, System_Collections_Generic_ICollection_TKey__Add, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr, int32_t item));
 IL2CPP_REGISTER_METHODINFO(0x04774C48, Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum__System_Collections_Generic_ICollection_TKey__Add__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01D5ACE0, void, System_Collections_Generic_ICollection_TKey__Clear, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
+IL2CPP_REGISTER_METHOD(0x01D5ACE0, void, System_Collections_Generic_ICollection_TKey__Clear, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0472B360, Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum__System_Collections_Generic_ICollection_TKey__Clear__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01A72D00, bool, System_Collections_Generic_ICollection_TKey__Contains, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this, int32_t item));
-IL2CPP_REGISTER_METHOD(0x01D5AD40, bool, System_Collections_Generic_ICollection_TKey__Remove, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this, int32_t item));
+IL2CPP_REGISTER_METHOD(0x01A72D00, bool, System_Collections_Generic_ICollection_TKey__Contains, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr, int32_t item));
+IL2CPP_REGISTER_METHOD(0x01D5AD40, bool, System_Collections_Generic_ICollection_TKey__Remove, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr, int32_t item));
 IL2CPP_REGISTER_METHODINFO(0x04760260, Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum__System_Collections_Generic_ICollection_TKey__Remove__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01A786F0, IEnumerator_1_System_Int32_ *, System_Collections_Generic_IEnumerable_TKey__GetEnumerator, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
-IL2CPP_REGISTER_METHOD(0x01A786F0, IEnumerator *, IEnumerable_GetEnumerator, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
-IL2CPP_REGISTER_METHOD(0x01D5ADA0, void, ICollection_CopyTo, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this, Array * array, int32_t index));
+IL2CPP_REGISTER_METHOD(0x01A786F0, IEnumerator_1_System_Int32_ *, System_Collections_Generic_IEnumerable_TKey__GetEnumerator, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01A786F0, IEnumerator *, IEnumerable_GetEnumerator, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D5ADA0, void, ICollection_CopyTo, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr, app::Array * array, int32_t index));
 IL2CPP_REGISTER_METHODINFO(0x047037A0, Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum__System_Collections_ICollection_CopyTo__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00417870, bool, ICollection_get_IsSynchronized, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
-IL2CPP_REGISTER_METHOD(0x01D5B1F0, Object *, ICollection_get_SyncRoot, (Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * __this));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, ICollection_get_IsSynchronized, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D5B1F0, Object *, ICollection_get_SyncRoot, (app::Dictionary_2_TKey_TValue_KeyCollection_System_Int32_System_ByteEnum_ * this_ptr));
 }

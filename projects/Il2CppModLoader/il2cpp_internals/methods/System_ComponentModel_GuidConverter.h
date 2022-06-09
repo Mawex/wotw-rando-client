@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::ComponentModel::GuidConverter {
-IL2CPP_REGISTER_METHOD(0x01FEDA40, bool, CanConvertFrom, (GuidConverter * __this, ITypeDescriptorContext * context, Type * sourceType));
-IL2CPP_REGISTER_METHOD(0x01FEDB20, bool, CanConvertTo, (GuidConverter * __this, ITypeDescriptorContext * context, Type * destinationType));
-IL2CPP_REGISTER_METHOD(0x01FEDC00, Object *, ConvertFrom, (GuidConverter * __this, ITypeDescriptorContext * context, CultureInfo * culture, Object * value));
-IL2CPP_REGISTER_METHOD(0x01FEDD30, Object *, ConvertTo, (GuidConverter * __this, ITypeDescriptorContext * context, CultureInfo * culture, Object * value, Type * destinationType));
+namespace app::methods::System_ComponentModel::GuidConverter {
+IL2CPP_REGISTER_METHOD(0x01FEDA40, bool, CanConvertFrom, (app::GuidConverter * this_ptr, app::ITypeDescriptorContext * context, app::Type * source_type));
+IL2CPP_REGISTER_METHOD(0x01FEDB20, bool, CanConvertTo, (app::GuidConverter * this_ptr, app::ITypeDescriptorContext * context, app::Type * destination_type));
+IL2CPP_REGISTER_METHOD(0x01FEDC00, Object *, ConvertFrom, (app::GuidConverter * this_ptr, app::ITypeDescriptorContext * context, app::CultureInfo * culture, app::Object * value));
+IL2CPP_REGISTER_METHOD(0x01FEDD30, Object *, ConvertTo, (app::GuidConverter * this_ptr, app::ITypeDescriptorContext * context, app::CultureInfo * culture, app::Object * value, app::Type * destination_type));
 IL2CPP_REGISTER_METHODINFO(0x04786010, GuidConverter_ConvertTo__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x01FEE0F0, void, __ctor, (GuidConverter * __this));
+IL2CPP_REGISTER_METHOD(0x01FEE0F0, void, __ctor, (app::GuidConverter * this_ptr));
 }

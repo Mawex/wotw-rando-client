@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::PlayStreamModels::GameLobbyEndedEventData {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GameLobbyEndedEventData * __this));
+namespace app::methods::PlayFab_PlayStreamModels::GameLobbyEndedEventData {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GameLobbyEndedEventData * this_ptr));
 }

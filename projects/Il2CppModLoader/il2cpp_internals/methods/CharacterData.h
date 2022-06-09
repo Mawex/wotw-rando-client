@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
 namespace app::methods::CharacterData {
-IL2CPP_REGISTER_METHOD(0x00420230, RecorderFrame_FrameDataTypes__Enum, FrameType, (CharacterData * __this));
-IL2CPP_REGISTER_METHOD(0x0104D430, PlatformBehaviour *, get_CurrentPlatformBehaviour, ());
-IL2CPP_REGISTER_METHOD(0x0104D9C0, void, Initialize, (CharacterData * __this));
-IL2CPP_REGISTER_METHOD(0x0104DB90, void, Record, (BinaryWriter * binaryWriter));
-IL2CPP_REGISTER_METHOD(0x0104DE80, void, Save, (CharacterData * __this, BinaryWriter * binaryWriter));
-IL2CPP_REGISTER_METHOD(0x0104DF30, void, Load, (CharacterData * __this, BinaryReader * binaryReader, int32_t currentVersion));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CharacterData * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x00420230, RecorderFrame_FrameDataTypes__Enum, FrameType, (app::CharacterData * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0104D430, PlatformBehaviour*, get_CurrentPlatformBehaviour, ());
+    IL2CPP_REGISTER_METHOD(0x0104D9C0, void, Initialize, (app::CharacterData * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0104DB90, void, Record, (app::BinaryWriter * binary_writer));
+    IL2CPP_REGISTER_METHOD(0x0104DE80, void, Save, (app::CharacterData * this_ptr, app::BinaryWriter* binary_writer));
+    IL2CPP_REGISTER_METHOD(0x0104DF30, void, Load, (app::CharacterData * this_ptr, app::BinaryReader* binary_reader, int32_t current_version));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::CharacterData * this_ptr));
+} // namespace app::methods::CharacterData

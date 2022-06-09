@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVROverlay__GetOverlayTextureSize {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVROverlay_GetOverlayTextureSize * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02CE61E0, EVROverlayError__Enum, Invoke, (IVROverlay_GetOverlayTextureSize * __this, uint64_t ulOverlayHandle, uint32_t * pWidth, uint32_t * pHeight));
-IL2CPP_REGISTER_METHOD(0x02D7C9C0, IAsyncResult *, BeginInvoke, (IVROverlay_GetOverlayTextureSize * __this, uint64_t ulOverlayHandle, uint32_t * pWidth, uint32_t * pHeight, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F530B0, EVROverlayError__Enum, EndInvoke, (IVROverlay_GetOverlayTextureSize * __this, uint32_t * pWidth, uint32_t * pHeight, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVROverlay__GetOverlayTextureSize {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVROverlay_GetOverlayTextureSize * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02CE61E0, EVROverlayError__Enum, Invoke, (app::IVROverlay_GetOverlayTextureSize * this_ptr, uint64_t ul_overlay_handle, app::uint32_t * p_width, app::uint32_t * p_height));
+IL2CPP_REGISTER_METHOD(0x02D7C9C0, IAsyncResult *, BeginInvoke, (app::IVROverlay_GetOverlayTextureSize * this_ptr, uint64_t ul_overlay_handle, app::uint32_t * p_width, app::uint32_t * p_height, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F530B0, EVROverlayError__Enum, EndInvoke, (app::IVROverlay_GetOverlayTextureSize * this_ptr, app::uint32_t * p_width, app::uint32_t * p_height, app::IAsyncResult * result));
 }

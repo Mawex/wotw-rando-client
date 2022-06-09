@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRChaperone__ReloadInfo {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRChaperone_ReloadInfo * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (IVRChaperone_ReloadInfo * __this));
-IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (IVRChaperone_ReloadInfo * __this, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (IVRChaperone_ReloadInfo * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRChaperone__ReloadInfo {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRChaperone_ReloadInfo * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x00611820, void, Invoke, (app::IVRChaperone_ReloadInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00611B10, IAsyncResult *, BeginInvoke, (app::IVRChaperone_ReloadInfo * this_ptr, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, void, EndInvoke, (app::IVRChaperone_ReloadInfo * this_ptr, app::IAsyncResult * result));
 }

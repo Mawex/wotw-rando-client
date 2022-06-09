@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_NightVision_4 {
-IL2CPP_REGISTER_METHOD(0x02481790, Material *, get_material, (CameraFilterPack_NightVision_4 * __this));
-IL2CPP_REGISTER_METHOD(0x02481970, void, ChangeFilters, (CameraFilterPack_NightVision_4 * __this));
-IL2CPP_REGISTER_METHOD(0x02481A20, void, Start, (CameraFilterPack_NightVision_4 * __this));
-IL2CPP_REGISTER_METHOD(0x02481B10, void, OnRenderImage, (CameraFilterPack_NightVision_4 * __this, RenderTexture * sourceTexture, RenderTexture * destTexture));
-IL2CPP_REGISTER_METHOD(0x02482350, void, OnValidate, (CameraFilterPack_NightVision_4 * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Update, (CameraFilterPack_NightVision_4 * __this));
-IL2CPP_REGISTER_METHOD(0x02482360, void, OnDisable, (CameraFilterPack_NightVision_4 * __this));
-IL2CPP_REGISTER_METHOD(0x02482440, void, __ctor, (CameraFilterPack_NightVision_4 * __this));
+IL2CPP_REGISTER_METHOD(0x02481790, Material *, get_material, (app::CameraFilterPack_NightVision_4 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02481970, void, ChangeFilters, (app::CameraFilterPack_NightVision_4 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02481A20, void, Start, (app::CameraFilterPack_NightVision_4 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02481B10, void, OnRenderImage, (app::CameraFilterPack_NightVision_4 * this_ptr, app::RenderTexture * source_texture, app::RenderTexture * dest_texture));
+IL2CPP_REGISTER_METHOD(0x02482350, void, OnValidate, (app::CameraFilterPack_NightVision_4 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Update, (app::CameraFilterPack_NightVision_4 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02482360, void, OnDisable, (app::CameraFilterPack_NightVision_4 * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02482440, void, __ctor, (app::CameraFilterPack_NightVision_4 * this_ptr));
 }

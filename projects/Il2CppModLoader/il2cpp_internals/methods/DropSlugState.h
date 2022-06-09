@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
 namespace app::methods::DropSlugState {
-IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (DropSlugState * __this, DropSlugEnemy * slug));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateState, (DropSlugState * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnter, (DropSlugState * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnExit, (DropSlugState * __this));
-IL2CPP_REGISTER_METHOD(0x0058F9C0, float, get_CurrentStateTime, (DropSlugState * __this));
-IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, GetStateId, (DropSlugState * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (app::DropSlugState * this_ptr, app::DropSlugEnemy* slug));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, UpdateState, (app::DropSlugState * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnEnter, (app::DropSlugState * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, OnExit, (app::DropSlugState * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0058F9C0, float, get_CurrentStateTime, (app::DropSlugState * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x00420EE0, int32_t, GetStateId, (app::DropSlugState * this_ptr));
+} // namespace app::methods::DropSlugState

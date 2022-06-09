@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::VerletEdgeMetaData {
-IL2CPP_REGISTER_METHOD(0x013C4400, void, OnAddEdge, (VerletEdgeMetaData * __this, CageStructureTool_Edge * edge));
-IL2CPP_REGISTER_METHOD(0x013C4580, void, OnMergeEdge, (VerletEdgeMetaData * __this, CageStructureTool_Edge * edgeA, CageStructureTool_Edge * edgeB, CageStructureTool_Edge * newEdge));
-IL2CPP_REGISTER_METHOD(0x013C4820, void, OnSplitEdge, (VerletEdgeMetaData * __this, CageStructureTool_Edge * edge, CageStructureTool_Edge * newEdgeA, CageStructureTool_Edge * newEdgeB));
-IL2CPP_REGISTER_METHOD(0x013C4B00, void, __ctor, (VerletEdgeMetaData * __this));
+IL2CPP_REGISTER_METHOD(0x013C4400, void, OnAddEdge, (app::VerletEdgeMetaData * this_ptr, app::CageStructureTool_Edge * edge));
+IL2CPP_REGISTER_METHOD(0x013C4580, void, OnMergeEdge, (app::VerletEdgeMetaData * this_ptr, app::CageStructureTool_Edge * edge_a, app::CageStructureTool_Edge * edge_b, app::CageStructureTool_Edge * new_edge));
+IL2CPP_REGISTER_METHOD(0x013C4820, void, OnSplitEdge, (app::VerletEdgeMetaData * this_ptr, app::CageStructureTool_Edge * edge, app::CageStructureTool_Edge * new_edge_a, app::CageStructureTool_Edge * new_edge_b));
+IL2CPP_REGISTER_METHOD(0x013C4B00, void, __ctor, (app::VerletEdgeMetaData * this_ptr));
 }

@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::ComponentModel::UInt16Converter {
-IL2CPP_REGISTER_METHOD(0x0295CEB0, Type *, get_TargetType, (UInt16Converter * __this));
-IL2CPP_REGISTER_METHOD(0x0295CF50, Object *, FromString, (UInt16Converter * __this, String * value, int32_t radix));
-IL2CPP_REGISTER_METHOD(0x0295D110, Object *, FromString, (UInt16Converter * __this, String * value, NumberFormatInfo * formatInfo));
-IL2CPP_REGISTER_METHOD(0x0295D1D0, Object *, FromString, (UInt16Converter * __this, String * value, CultureInfo * culture));
-IL2CPP_REGISTER_METHOD(0x0295D280, String *, ToString, (UInt16Converter * __this, Object * value, NumberFormatInfo * formatInfo));
-IL2CPP_REGISTER_METHOD(0x01FE1B70, void, __ctor, (UInt16Converter * __this));
+namespace app::methods::System_ComponentModel::UInt16Converter {
+IL2CPP_REGISTER_METHOD(0x0295CEB0, Type *, get_TargetType, (app::UInt16Converter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0295CF50, Object *, FromString_1, (app::UInt16Converter * this_ptr, app::String * value, int32_t radix));
+IL2CPP_REGISTER_METHOD(0x0295D110, Object *, FromString_2, (app::UInt16Converter * this_ptr, app::String * value, app::NumberFormatInfo * format_info));
+IL2CPP_REGISTER_METHOD(0x0295D1D0, Object *, FromString_3, (app::UInt16Converter * this_ptr, app::String * value, app::CultureInfo * culture));
+IL2CPP_REGISTER_METHOD(0x0295D280, String *, ToString, (app::UInt16Converter * this_ptr, app::Object * value, app::NumberFormatInfo * format_info));
+IL2CPP_REGISTER_METHOD(0x01FE1B70, void, __ctor, (app::UInt16Converter * this_ptr));
 }

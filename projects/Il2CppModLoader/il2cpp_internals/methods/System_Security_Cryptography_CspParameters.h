@@ -1,21 +1,21 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Security::Cryptography::CspParameters {
-IL2CPP_REGISTER_METHOD(0x005C3FF0, CspProviderFlags__Enum, get_Flags, (CspParameters * __this));
-IL2CPP_REGISTER_METHOD(0x020D0460, void, set_Flags, (CspParameters * __this, CspProviderFlags__Enum value));
+namespace app::methods::System_Security_Cryptography::CspParameters {
+IL2CPP_REGISTER_METHOD(0x005C3FF0, CspProviderFlags__Enum, get_Flags, (app::CspParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020D0460, void, set_Flags, (app::CspParameters * this_ptr, app::CspProviderFlags__Enum value));
 IL2CPP_REGISTER_METHODINFO(0x04715C68, CspParameters_set_Flags__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x002FB990, CryptoKeySecurity *, get_CryptoKeySecurity, (CspParameters * __this));
-IL2CPP_REGISTER_METHOD(0x002FB9A0, void, set_CryptoKeySecurity, (CspParameters * __this, CryptoKeySecurity * value));
-IL2CPP_REGISTER_METHOD(0x002FB9B0, SecureString *, get_KeyPassword, (CspParameters * __this));
-IL2CPP_REGISTER_METHOD(0x020D0580, void, set_KeyPassword, (CspParameters * __this, SecureString * value));
-IL2CPP_REGISTER_METHOD(0x002FB9D0, void *, get_ParentWindowHandle, (CspParameters * __this));
-IL2CPP_REGISTER_METHOD(0x020D0630, void, set_ParentWindowHandle, (CspParameters * __this, void * value));
-IL2CPP_REGISTER_METHOD(0x020D0640, void, __ctor, (CspParameters * __this));
-IL2CPP_REGISTER_METHOD(0x020D0670, void, __ctor, (CspParameters * __this, int32_t dwTypeIn));
-IL2CPP_REGISTER_METHOD(0x020D0690, void, __ctor, (CspParameters * __this, int32_t dwTypeIn, String * strProviderNameIn));
-IL2CPP_REGISTER_METHOD(0x020D06B0, void, __ctor, (CspParameters * __this, int32_t dwTypeIn, String * strProviderNameIn, String * strContainerNameIn));
-IL2CPP_REGISTER_METHOD(0x020D06D0, void, __ctor, (CspParameters * __this, int32_t providerType, String * providerName, String * keyContainerName, CryptoKeySecurity * cryptoKeySecurity, SecureString * keyPassword));
-IL2CPP_REGISTER_METHOD(0x020D0710, void, __ctor, (CspParameters * __this, int32_t providerType, String * providerName, String * keyContainerName, CryptoKeySecurity * cryptoKeySecurity, void * parentWindowHandle));
-IL2CPP_REGISTER_METHOD(0x020D0750, void, __ctor, (CspParameters * __this, int32_t providerType, String * providerName, String * keyContainerName, CspProviderFlags__Enum flags));
-IL2CPP_REGISTER_METHOD(0x020D0770, void, __ctor, (CspParameters * __this, CspParameters * parameters));
+IL2CPP_REGISTER_METHOD(0x002FB990, CryptoKeySecurity *, get_CryptoKeySecurity, (app::CspParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB9A0, void, set_CryptoKeySecurity, (app::CspParameters * this_ptr, app::CryptoKeySecurity * value));
+IL2CPP_REGISTER_METHOD(0x002FB9B0, SecureString *, get_KeyPassword, (app::CspParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020D0580, void, set_KeyPassword, (app::CspParameters * this_ptr, app::SecureString * value));
+IL2CPP_REGISTER_METHOD(0x002FB9D0, void *, get_ParentWindowHandle, (app::CspParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020D0630, void, set_ParentWindowHandle, (app::CspParameters * this_ptr, app::void * value));
+IL2CPP_REGISTER_METHOD(0x020D0640, void, __ctor_1, (app::CspParameters * this_ptr));
+IL2CPP_REGISTER_METHOD(0x020D0670, void, __ctor_2, (app::CspParameters * this_ptr, int32_t dw_type_in));
+IL2CPP_REGISTER_METHOD(0x020D0690, void, __ctor_3, (app::CspParameters * this_ptr, int32_t dw_type_in, app::String * str_provider_name_in));
+IL2CPP_REGISTER_METHOD(0x020D06B0, void, __ctor_4, (app::CspParameters * this_ptr, int32_t dw_type_in, app::String * str_provider_name_in, app::String * str_container_name_in));
+IL2CPP_REGISTER_METHOD(0x020D06D0, void, __ctor_5, (app::CspParameters * this_ptr, int32_t provider_type, app::String * provider_name, app::String * key_container_name, app::CryptoKeySecurity * crypto_key_security, app::SecureString * key_password));
+IL2CPP_REGISTER_METHOD(0x020D0710, void, __ctor_6, (app::CspParameters * this_ptr, int32_t provider_type, app::String * provider_name, app::String * key_container_name, app::CryptoKeySecurity * crypto_key_security, app::void * parent_window_handle));
+IL2CPP_REGISTER_METHOD(0x020D0750, void, __ctor_7, (app::CspParameters * this_ptr, int32_t provider_type, app::String * provider_name, app::String * key_container_name, app::CspProviderFlags__Enum flags));
+IL2CPP_REGISTER_METHOD(0x020D0770, void, __ctor_8, (app::CspParameters * this_ptr, app::CspParameters * parameters));
 }

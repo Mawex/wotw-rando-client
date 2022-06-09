@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter {
-IL2CPP_REGISTER_METHOD(0x00151890, void, __ctor, (ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * __this, Task * task, bool continueOnCapturedContext));
-IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0018EF00, void, OnCompleted, (ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * __this, Action * continuation));
-IL2CPP_REGISTER_METHOD(0x0018EF30, void, UnsafeOnCompleted, (ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * __this, Action * continuation));
-IL2CPP_REGISTER_METHOD(0x0018EF60, void, GetResult, (ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * __this));
+namespace app::methods::System_Runtime_CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter {
+IL2CPP_REGISTER_METHOD(0x00151890, void, __ctor, (app::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * this_ptr, app::Task * task, bool continue_on_captured_context));
+IL2CPP_REGISTER_METHOD(0x0018EEE0, bool, get_IsCompleted, (app::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0018EF00, void, OnCompleted, (app::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * this_ptr, app::Action * continuation));
+IL2CPP_REGISTER_METHOD(0x0018EF30, void, UnsafeOnCompleted, (app::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * this_ptr, app::Action * continuation));
+IL2CPP_REGISTER_METHOD(0x0018EF60, void, GetResult, (app::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter__Boxed * this_ptr));
 }

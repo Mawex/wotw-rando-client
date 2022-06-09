@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::ComponentModel::ComponentConverter {
-IL2CPP_REGISTER_METHOD(0x024A9C70, void, __ctor, (ComponentConverter * __this, Type * type));
-IL2CPP_REGISTER_METHOD(0x024A9D90, PropertyDescriptorCollection *, GetProperties, (ComponentConverter * __this, ITypeDescriptorContext * context, Object * value, Attribute__Array * attributes));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetPropertiesSupported, (ComponentConverter * __this, ITypeDescriptorContext * context));
+namespace app::methods::System_ComponentModel::ComponentConverter {
+IL2CPP_REGISTER_METHOD(0x024A9C70, void, __ctor, (app::ComponentConverter * this_ptr, app::Type * type));
+IL2CPP_REGISTER_METHOD(0x024A9D90, PropertyDescriptorCollection *, GetProperties, (app::ComponentConverter * this_ptr, app::ITypeDescriptorContext * context, app::Object * value, app::Attribute__Array * attributes));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetPropertiesSupported, (app::ComponentConverter * this_ptr, app::ITypeDescriptorContext * context));
 }

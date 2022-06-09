@@ -1,17 +1,17 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::Http::Headers::ProductHeaderValue {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ProductHeaderValue * __this));
-IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_Name, (ProductHeaderValue * __this));
-IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Name, (ProductHeaderValue * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_Version, (ProductHeaderValue * __this));
-IL2CPP_REGISTER_METHOD(0x002FB940, void, set_Version, (ProductHeaderValue * __this, String * value));
-IL2CPP_REGISTER_METHOD(0x0173F610, Object *, ICloneable_Clone, (ProductHeaderValue * __this));
-IL2CPP_REGISTER_METHOD(0x02D13260, bool, Equals, (ProductHeaderValue * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x02D13550, int32_t, GetHashCode, (ProductHeaderValue * __this));
-IL2CPP_REGISTER_METHOD(0x02D135E0, bool, TryParse, (String * input, int32_t minimalCount, List_1_System_Net_Http_Headers_ProductHeaderValue_ * * result));
+namespace app::methods::System_Net_Http_Headers::ProductHeaderValue {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ProductHeaderValue * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA280, String *, get_Name, (app::ProductHeaderValue * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA490, void, set_Name, (app::ProductHeaderValue * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_Version, (app::ProductHeaderValue * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB940, void, set_Version, (app::ProductHeaderValue * this_ptr, app::String * value));
+IL2CPP_REGISTER_METHOD(0x0173F610, Object *, ICloneable_Clone, (app::ProductHeaderValue * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02D13260, bool, Equals, (app::ProductHeaderValue * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x02D13550, int32_t, GetHashCode, (app::ProductHeaderValue * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02D135E0, bool, TryParse, (app::String * input, int32_t minimal_count, app::List_1_System_Net_Http_Headers_ProductHeaderValue_ * * result));
 IL2CPP_REGISTER_METHODINFO(0x047500C8, ProductHeaderValue_TryParse__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02D13760, bool, TryParseElement, (Lexer * lexer, ProductHeaderValue * * parsedValue, Token * t));
+IL2CPP_REGISTER_METHOD(0x02D13760, bool, TryParseElement, (app::Lexer * lexer, app::ProductHeaderValue * * parsed_value, app::Token * t));
 IL2CPP_REGISTER_METHODINFO(0x04785B70, ProductHeaderValue_TryParseElement__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02D13A70, String *, ToString, (ProductHeaderValue * __this));
+IL2CPP_REGISTER_METHOD(0x02D13A70, String *, ToString, (app::ProductHeaderValue * this_ptr));
 }

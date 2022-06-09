@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::EditorTools::SceneTracking::SceneDeletionExtension {
-IL2CPP_REGISTER_METHOD(0x012083D0, SceneDeletionFlags__Enum, Add, (SceneDeletionFlags__Enum me, SceneDeletionFlags__Enum toAdd));
-IL2CPP_REGISTER_METHOD(0x012083E0, SceneDeletionFlags__Enum, Remove, (SceneDeletionFlags__Enum me, SceneDeletionFlags__Enum toRemove));
-IL2CPP_REGISTER_METHOD(0x00CD0C30, bool, HasFlags, (SceneDeletionFlags__Enum me, SceneDeletionFlags__Enum toCheck));
-IL2CPP_REGISTER_METHOD(0x012083F0, int32_t, GetActiveFlagsCount, (SceneDeletionFlags__Enum me));
+namespace app::methods::Moon_EditorTools_SceneTracking::SceneDeletionExtension {
+IL2CPP_REGISTER_METHOD(0x012083D0, SceneDeletionFlags__Enum, Add, (app::SceneDeletionFlags__Enum me, app::SceneDeletionFlags__Enum to_add));
+IL2CPP_REGISTER_METHOD(0x012083E0, SceneDeletionFlags__Enum, Remove, (app::SceneDeletionFlags__Enum me, app::SceneDeletionFlags__Enum to_remove));
+IL2CPP_REGISTER_METHOD(0x00CD0C30, bool, HasFlags, (app::SceneDeletionFlags__Enum me, app::SceneDeletionFlags__Enum to_check));
+IL2CPP_REGISTER_METHOD(0x012083F0, int32_t, GetActiveFlagsCount, (app::SceneDeletionFlags__Enum me));
 }

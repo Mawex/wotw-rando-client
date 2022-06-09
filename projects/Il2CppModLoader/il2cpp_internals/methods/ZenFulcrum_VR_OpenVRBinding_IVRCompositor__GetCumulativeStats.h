@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRCompositor__GetCumulativeStats {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRCompositor_GetCumulativeStats * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02187340, void, Invoke, (IVRCompositor_GetCumulativeStats * __this, Compositor_CumulativeStats * pStats, uint32_t nStatsSizeInBytes));
-IL2CPP_REGISTER_METHOD(0x02F41B00, IAsyncResult *, BeginInvoke, (IVRCompositor_GetCumulativeStats * __this, Compositor_CumulativeStats * pStats, uint32_t nStatsSizeInBytes, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x006FD370, void, EndInvoke, (IVRCompositor_GetCumulativeStats * __this, Compositor_CumulativeStats * pStats, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRCompositor__GetCumulativeStats {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRCompositor_GetCumulativeStats * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02187340, void, Invoke, (app::IVRCompositor_GetCumulativeStats * this_ptr, app::Compositor_CumulativeStats * p_stats, uint32_t n_stats_size_in_bytes));
+IL2CPP_REGISTER_METHOD(0x02F41B00, IAsyncResult *, BeginInvoke, (app::IVRCompositor_GetCumulativeStats * this_ptr, app::Compositor_CumulativeStats * p_stats, uint32_t n_stats_size_in_bytes, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x006FD370, void, EndInvoke, (app::IVRCompositor_GetCumulativeStats * this_ptr, app::Compositor_CumulativeStats * p_stats, app::IAsyncResult * result));
 }

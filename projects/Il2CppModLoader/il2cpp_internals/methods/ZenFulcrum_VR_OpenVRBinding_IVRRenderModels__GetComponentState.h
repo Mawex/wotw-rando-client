@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRRenderModels__GetComponentState {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRRenderModels_GetComponentState * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x0167AA00, bool, Invoke, (IVRRenderModels_GetComponentState * __this, String * pchRenderModelName, String * pchComponentName, VRControllerState_t * pControllerState, RenderModel_ControllerMode_State_t * pState, RenderModel_ComponentState_t * pComponentState));
-IL2CPP_REGISTER_METHOD(0x02CE3B70, IAsyncResult *, BeginInvoke, (IVRRenderModels_GetComponentState * __this, String * pchRenderModelName, String * pchComponentName, VRControllerState_t * pControllerState, RenderModel_ControllerMode_State_t * pState, RenderModel_ComponentState_t * pComponentState, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x0167B230, bool, EndInvoke, (IVRRenderModels_GetComponentState * __this, VRControllerState_t * pControllerState, RenderModel_ControllerMode_State_t * pState, RenderModel_ComponentState_t * pComponentState, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRRenderModels__GetComponentState {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRRenderModels_GetComponentState * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x0167AA00, bool, Invoke, (app::IVRRenderModels_GetComponentState * this_ptr, app::String * pch_render_model_name, app::String * pch_component_name, app::VRControllerState_t * p_controller_state, app::RenderModel_ControllerMode_State_t * p_state, app::RenderModel_ComponentState_t * p_component_state));
+IL2CPP_REGISTER_METHOD(0x02CE3B70, IAsyncResult *, BeginInvoke, (app::IVRRenderModels_GetComponentState * this_ptr, app::String * pch_render_model_name, app::String * pch_component_name, app::VRControllerState_t * p_controller_state, app::RenderModel_ControllerMode_State_t * p_state, app::RenderModel_ComponentState_t * p_component_state, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x0167B230, bool, EndInvoke, (app::IVRRenderModels_GetComponentState * this_ptr, app::VRControllerState_t * p_controller_state, app::RenderModel_ControllerMode_State_t * p_state, app::RenderModel_ComponentState_t * p_component_state, app::IAsyncResult * result));
 }

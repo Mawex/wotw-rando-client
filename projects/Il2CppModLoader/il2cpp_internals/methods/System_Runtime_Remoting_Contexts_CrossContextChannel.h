@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Remoting::Contexts::CrossContextChannel {
-IL2CPP_REGISTER_METHOD(0x023048D0, IMessage *, SyncProcessMessage, (CrossContextChannel * __this, IMessage * msg));
-IL2CPP_REGISTER_METHOD(0x02304CE0, IMessageCtrl *, AsyncProcessMessage, (CrossContextChannel * __this, IMessage * msg, IMessageSink * replySink));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (CrossContextChannel * __this));
+namespace app::methods::System_Runtime_Remoting_Contexts::CrossContextChannel {
+IL2CPP_REGISTER_METHOD(0x023048D0, IMessage *, SyncProcessMessage, (app::CrossContextChannel * this_ptr, app::IMessage * msg));
+IL2CPP_REGISTER_METHOD(0x02304CE0, IMessageCtrl *, AsyncProcessMessage, (app::CrossContextChannel * this_ptr, app::IMessage * msg, app::IMessageSink * reply_sink));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::CrossContextChannel * this_ptr));
 }

@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Remoting::WellKnownServiceTypeEntry {
-IL2CPP_REGISTER_METHOD(0x01D87900, void, __ctor, (WellKnownServiceTypeEntry * __this, String * typeName, String * assemblyName, String * objectUri, WellKnownObjectMode__Enum mode));
+namespace app::methods::System_Runtime_Remoting::WellKnownServiceTypeEntry {
+IL2CPP_REGISTER_METHOD(0x01D87900, void, __ctor, (app::WellKnownServiceTypeEntry * this_ptr, app::String * type_name, app::String * assembly_name, app::String * object_uri, app::WellKnownObjectMode__Enum mode));
 IL2CPP_REGISTER_METHODINFO(0x04727410, WellKnownServiceTypeEntry__ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00654950, WellKnownObjectMode__Enum, get_Mode, (WellKnownServiceTypeEntry * __this));
-IL2CPP_REGISTER_METHOD(0x002FB950, Type *, get_ObjectType, (WellKnownServiceTypeEntry * __this));
-IL2CPP_REGISTER_METHOD(0x002FBB00, String *, get_ObjectUri, (WellKnownServiceTypeEntry * __this));
-IL2CPP_REGISTER_METHOD(0x01D87A60, String *, ToString, (WellKnownServiceTypeEntry * __this));
+IL2CPP_REGISTER_METHOD(0x00654950, WellKnownObjectMode__Enum, get_Mode, (app::WellKnownServiceTypeEntry * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB950, Type *, get_ObjectType, (app::WellKnownServiceTypeEntry * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBB00, String *, get_ObjectUri, (app::WellKnownServiceTypeEntry * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01D87A60, String *, ToString, (app::WellKnownServiceTypeEntry * this_ptr));
 }

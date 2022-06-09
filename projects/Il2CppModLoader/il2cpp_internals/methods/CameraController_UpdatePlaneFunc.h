@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::CameraController_UpdatePlaneFunc {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (CameraController_UpdatePlaneFunc * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x01686F50, void, Invoke, (CameraController_UpdatePlaneFunc * __this, Plane__Array * planes, Matrix4x4 * trans));
-IL2CPP_REGISTER_METHOD(0x01687490, IAsyncResult *, BeginInvoke, (CameraController_UpdatePlaneFunc * __this, Plane__Array * planes, Matrix4x4 * trans, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x006FD370, void, EndInvoke, (CameraController_UpdatePlaneFunc * __this, Matrix4x4 * trans, IAsyncResult * result));
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::CameraController_UpdatePlaneFunc * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x01686F50, void, Invoke, (app::CameraController_UpdatePlaneFunc * this_ptr, app::Plane__Array * planes, app::Matrix4x4 * trans));
+IL2CPP_REGISTER_METHOD(0x01687490, IAsyncResult *, BeginInvoke, (app::CameraController_UpdatePlaneFunc * this_ptr, app::Plane__Array * planes, app::Matrix4x4 * trans, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x006FD370, void, EndInvoke, (app::CameraController_UpdatePlaneFunc * this_ptr, app::Matrix4x4 * trans, app::IAsyncResult * result));
 }

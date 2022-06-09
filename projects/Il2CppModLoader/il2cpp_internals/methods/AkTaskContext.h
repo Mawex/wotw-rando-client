@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::AkTaskContext {
-IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor, (AkTaskContext * __this, void * cPtr, bool cMemoryOwn));
-IL2CPP_REGISTER_METHOD(0x026FCB40, void *, getCPtr, (AkTaskContext * obj));
-IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (AkTaskContext * __this, void * cPtr));
-IL2CPP_REGISTER_METHOD(0x026FCBD0, void, Finalize, (AkTaskContext * __this));
-IL2CPP_REGISTER_METHOD(0x026FCC50, void, Dispose, (AkTaskContext * __this));
-IL2CPP_REGISTER_METHOD(0x026FCE60, void, set_uIdxThread, (AkTaskContext * __this, uint32_t value));
-IL2CPP_REGISTER_METHOD(0x026FCF90, uint32_t, get_uIdxThread, (AkTaskContext * __this));
-IL2CPP_REGISTER_METHOD(0x026FD0B0, void, __ctor, (AkTaskContext * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x01880BB0, void, __ctor_1, (app::AkTaskContext * this_ptr, app::void* c_ptr, bool c_memory_own));
+    IL2CPP_REGISTER_METHOD(0x026FCB40, void*, getCPtr, (app::AkTaskContext * obj));
+    IL2CPP_REGISTER_METHOD(0x01880C50, void, setCPtr, (app::AkTaskContext * this_ptr, app::void* c_ptr));
+    IL2CPP_REGISTER_METHOD(0x026FCBD0, void, Finalize, (app::AkTaskContext * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x026FCC50, void, Dispose, (app::AkTaskContext * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x026FCE60, void, set_uIdxThread, (app::AkTaskContext * this_ptr, uint32_t value));
+    IL2CPP_REGISTER_METHOD(0x026FCF90, uint32_t, get_uIdxThread, (app::AkTaskContext * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x026FD0B0, void, __ctor_2, (app::AkTaskContext * this_ptr));
+} // namespace app::methods::AkTaskContext

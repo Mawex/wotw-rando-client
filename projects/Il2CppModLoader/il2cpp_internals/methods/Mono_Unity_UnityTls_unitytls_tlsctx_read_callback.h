@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (UnityTls_unitytls_tlsctx_read_callback * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02188EB0, void *, Invoke, (UnityTls_unitytls_tlsctx_read_callback * __this, Void * userData, uint8_t * buffer, void * bufferLen, UnityTls_unitytls_errorstate * errorState));
-IL2CPP_REGISTER_METHOD(0x0248CA80, IAsyncResult *, BeginInvoke, (UnityTls_unitytls_tlsctx_read_callback * __this, Void * userData, uint8_t * buffer, void * bufferLen, UnityTls_unitytls_errorstate * errorState, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F52480, void *, EndInvoke, (UnityTls_unitytls_tlsctx_read_callback * __this, IAsyncResult * result));
+namespace app::methods::Mono_Unity::UnityTls_unitytls_tlsctx_read_callback {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::UnityTls_unitytls_tlsctx_read_callback * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02188EB0, void *, Invoke, (app::UnityTls_unitytls_tlsctx_read_callback * this_ptr, app::Void * user_data, app::uint8_t * buffer, app::void * buffer_len, app::UnityTls_unitytls_errorstate * error_state));
+IL2CPP_REGISTER_METHOD(0x0248CA80, IAsyncResult *, BeginInvoke, (app::UnityTls_unitytls_tlsctx_read_callback * this_ptr, app::Void * user_data, app::uint8_t * buffer, app::void * buffer_len, app::UnityTls_unitytls_errorstate * error_state, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F52480, void *, EndInvoke, (app::UnityTls_unitytls_tlsctx_read_callback * this_ptr, app::IAsyncResult * result));
 }

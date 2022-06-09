@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::MortarWindupBehaviour {
-IL2CPP_REGISTER_METHOD(0x0147F890, void, OnEnter, (MortarWindupBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0147FA50, BehaviourStatus__Enum, OnExecute, (MortarWindupBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0147FAA0, void, OnExit, (MortarWindupBehaviour * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x0060C1C0, void, __ctor, (MortarWindupBehaviour * __this));
+IL2CPP_REGISTER_METHOD(0x0147F890, void, OnEnter, (app::MortarWindupBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0147FA50, BehaviourStatus__Enum, OnExecute, (app::MortarWindupBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0147FAA0, void, OnExit, (app::MortarWindupBehaviour * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x0060C1C0, void, __ctor, (app::MortarWindupBehaviour * this_ptr));
 }

@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::LoadLocalInstruction {
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (LoadLocalInstruction * __this, int32_t index));
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ProducedStack, (LoadLocalInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x023F9F00, String *, get_InstructionName, (LoadLocalInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x023F9F80, int32_t, Run, (LoadLocalInstruction * __this, InterpretedFrame * frame));
-IL2CPP_REGISTER_METHOD(0x023FA050, Instruction *, BoxIfIndexMatches, (LoadLocalInstruction * __this, int32_t index));
+namespace app::methods::System_Linq_Expressions_Interpreter::LoadLocalInstruction {
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, __ctor, (app::LoadLocalInstruction * this_ptr, int32_t index));
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ProducedStack, (app::LoadLocalInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x023F9F00, String *, get_InstructionName, (app::LoadLocalInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x023F9F80, int32_t, Run, (app::LoadLocalInstruction * this_ptr, app::InterpretedFrame * frame));
+IL2CPP_REGISTER_METHOD(0x023FA050, Instruction *, BoxIfIndexMatches, (app::LoadLocalInstruction * this_ptr, int32_t index));
 }

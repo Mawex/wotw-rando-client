@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::Experimental::Rendering::GraphicsDeviceSettings {
+namespace app::methods::UnityEngine_Experimental_Rendering::GraphicsDeviceSettings {
 IL2CPP_REGISTER_METHOD(0x00491640, WaitForPresentSyncPoint__Enum, get_waitForPresentSyncPoint, ());
-IL2CPP_REGISTER_METHOD(0x02433E40, void, set_waitForPresentSyncPoint, (WaitForPresentSyncPoint__Enum value));
+IL2CPP_REGISTER_METHOD(0x02433E40, void, set_waitForPresentSyncPoint, (app::WaitForPresentSyncPoint__Enum value));
 IL2CPP_REGISTER_METHOD(0x004915A0, GraphicsJobsSyncPoint__Enum, get_graphicsJobsSyncPoint, ());
-IL2CPP_REGISTER_METHOD(0x02433E90, void, set_graphicsJobsSyncPoint, (GraphicsJobsSyncPoint__Enum value));
+IL2CPP_REGISTER_METHOD(0x02433E90, void, set_graphicsJobsSyncPoint, (app::GraphicsJobsSyncPoint__Enum value));
 IL2CPP_REGISTER_METHOD(0x00492630, bool, get_enableRenderThreadOptimizations, ());
 IL2CPP_REGISTER_METHOD(0x02433EE0, void, set_enableRenderThreadOptimizations, (bool value));
 IL2CPP_REGISTER_METHOD(0x004926D0, bool, get_enableUseLargestCb, ());

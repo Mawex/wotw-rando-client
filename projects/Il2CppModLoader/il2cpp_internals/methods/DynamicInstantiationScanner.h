@@ -1,20 +1,20 @@
 #include <interception_macros.h>
 
 namespace app::methods::DynamicInstantiationScanner {
-IL2CPP_REGISTER_METHOD(0x030E0670, void, EmitException, (Exception * ex, Object_1 * obj));
-IL2CPP_REGISTER_METHOD(0x030E0720, void, EmitError, (String * message, Object_1 * obj));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, EmitWarning, (String * message, Object_1 * obj));
-IL2CPP_REGISTER_METHOD(0x030E07E0, bool, IsSerializable, (FieldInfo_1 * field));
-IL2CPP_REGISTER_METHOD(0x030E08B0, bool, IsIncludedField, (FieldInfo_1 * field));
-IL2CPP_REGISTER_METHOD(0x030E0AC0, bool, IsIncludedType, (Type * type));
-IL2CPP_REGISTER_METHOD(0x030E0E30, Type *, GetListElementType, (Type * type));
-IL2CPP_REGISTER_METHOD(0x030E0F90, String *, GetFieldPath, (FieldInfo_1 * field));
-IL2CPP_REGISTER_METHOD(0x030E1080, String *, GetMethodPath, (MethodInfo_1 * method_1));
-IL2CPP_REGISTER_METHOD(0x030E1170, String *, GetGameObjectName, (GameObject * go));
-IL2CPP_REGISTER_METHOD(0x030E1240, String *, GetGameObjectName, (MonoBehaviour * component));
-IL2CPP_REGISTER_METHOD(0x030E1340, void, __ctor, (DynamicInstantiationScanner * __this, bool findGameObjectsWithoutAttribute));
-IL2CPP_REGISTER_METHOD(0x030E15C0, DynamicInstantiationScanner_Visitor *, GetVisitor, (DynamicInstantiationScanner * __this, Type * type, FieldInfo_1 * declaringField));
-IL2CPP_REGISTER_METHOD(0x030E20A0, void, EvaluateComponentOrScriptableObject, (DynamicInstantiationScanner * __this, Object_1 * obj, DynamicInstantiationScanner_EvaluationCtx * * evaluationCtx));
-IL2CPP_REGISTER_METHOD(0x030E2940, List_1_DynamicInstantiationDescriptor_ *, FromMonoBehaviour, (DynamicInstantiationScanner * __this, MonoBehaviour * component));
+IL2CPP_REGISTER_METHOD(0x030E0670, void, EmitException, (app::Exception * ex, app::Object_1 * obj));
+IL2CPP_REGISTER_METHOD(0x030E0720, void, EmitError, (app::String * message, app::Object_1 * obj));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, EmitWarning, (app::String * message, app::Object_1 * obj));
+IL2CPP_REGISTER_METHOD(0x030E07E0, bool, IsSerializable, (app::FieldInfo_1 * field));
+IL2CPP_REGISTER_METHOD(0x030E08B0, bool, IsIncludedField, (app::FieldInfo_1 * field));
+IL2CPP_REGISTER_METHOD(0x030E0AC0, bool, IsIncludedType, (app::Type * type));
+IL2CPP_REGISTER_METHOD(0x030E0E30, Type *, GetListElementType, (app::Type * type));
+IL2CPP_REGISTER_METHOD(0x030E0F90, String *, GetFieldPath, (app::FieldInfo_1 * field));
+IL2CPP_REGISTER_METHOD(0x030E1080, String *, GetMethodPath, (app::MethodInfo_1 * method_1));
+IL2CPP_REGISTER_METHOD(0x030E1170, String *, GetGameObjectName_1, (app::GameObject * go));
+IL2CPP_REGISTER_METHOD(0x030E1240, String *, GetGameObjectName_2, (app::MonoBehaviour * component));
+IL2CPP_REGISTER_METHOD(0x030E1340, void, __ctor, (app::DynamicInstantiationScanner * this_ptr, bool find_game_objects_without_attribute));
+IL2CPP_REGISTER_METHOD(0x030E15C0, DynamicInstantiationScanner_Visitor *, GetVisitor, (app::DynamicInstantiationScanner * this_ptr, app::Type * type, app::FieldInfo_1 * declaring_field));
+IL2CPP_REGISTER_METHOD(0x030E20A0, void, EvaluateComponentOrScriptableObject, (app::DynamicInstantiationScanner * this_ptr, app::Object_1 * obj, app::DynamicInstantiationScanner_EvaluationCtx * * evaluation_ctx));
+IL2CPP_REGISTER_METHOD(0x030E2940, List_1_DynamicInstantiationDescriptor_ *, FromMonoBehaviour, (app::DynamicInstantiationScanner * this_ptr, app::MonoBehaviour * component));
 IL2CPP_REGISTER_METHOD(0x030E2AD0, void, __cctor, ());
 }

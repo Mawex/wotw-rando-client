@@ -1,23 +1,23 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::UI::MaskableGraphic {
-IL2CPP_REGISTER_METHOD(0x02661200, void, __ctor, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x01F26FA0, MaskableGraphic_CullStateChangedEvent *, get_onCullStateChanged, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x002FBCF0, void, set_onCullStateChanged, (MaskableGraphic * __this, MaskableGraphic_CullStateChangedEvent * value));
-IL2CPP_REGISTER_METHOD(0x02661400, bool, get_maskable, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x02661410, void, set_maskable, (MaskableGraphic * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x02661440, Material *, GetModifiedMaterial, (MaskableGraphic * __this, Material * baseMaterial));
-IL2CPP_REGISTER_METHOD(0x02661610, void, Cull, (MaskableGraphic * __this, Rect clipRect, bool validRect));
-IL2CPP_REGISTER_METHOD(0x02661670, void, UpdateCull, (MaskableGraphic * __this, bool cull));
-IL2CPP_REGISTER_METHOD(0x02661810, void, SetClipRect, (MaskableGraphic * __this, Rect clipRect, bool validRect));
-IL2CPP_REGISTER_METHOD(0x02661900, void, OnEnable, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x02661A00, void, OnDisable, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x02661B30, void, OnTransformParentChanged, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, ParentMaskStateChanged, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x02661C90, void, OnCanvasHierarchyChanged, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x02661E60, Rect, get_rootCanvasRect, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x026622B0, void, UpdateClipParent, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x02662650, void, RecalculateClipping, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x02662660, void, RecalculateMasking, (MaskableGraphic * __this));
-IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IClippable_get_gameObject, (MaskableGraphic * __this));
+namespace app::methods::UnityEngine_UI::MaskableGraphic {
+IL2CPP_REGISTER_METHOD(0x02661200, void, __ctor, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F26FA0, MaskableGraphic_CullStateChangedEvent *, get_onCullStateChanged, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBCF0, void, set_onCullStateChanged, (app::MaskableGraphic * this_ptr, app::MaskableGraphic_CullStateChangedEvent * value));
+IL2CPP_REGISTER_METHOD(0x02661400, bool, get_maskable, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02661410, void, set_maskable, (app::MaskableGraphic * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x02661440, Material *, GetModifiedMaterial, (app::MaskableGraphic * this_ptr, app::Material * base_material));
+IL2CPP_REGISTER_METHOD(0x02661610, void, Cull, (app::MaskableGraphic * this_ptr, app::Rect clip_rect, bool valid_rect));
+IL2CPP_REGISTER_METHOD(0x02661670, void, UpdateCull, (app::MaskableGraphic * this_ptr, bool cull));
+IL2CPP_REGISTER_METHOD(0x02661810, void, SetClipRect, (app::MaskableGraphic * this_ptr, app::Rect clip_rect, bool valid_rect));
+IL2CPP_REGISTER_METHOD(0x02661900, void, OnEnable, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02661A00, void, OnDisable, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02661B30, void, OnTransformParentChanged, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, ParentMaskStateChanged, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02661C90, void, OnCanvasHierarchyChanged, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02661E60, Rect, get_rootCanvasRect, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x026622B0, void, UpdateClipParent, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02662650, void, RecalculateClipping, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02662660, void, RecalculateMasking, (app::MaskableGraphic * this_ptr));
+IL2CPP_REGISTER_METHOD(0x004F4750, GameObject *, IClippable_get_gameObject, (app::MaskableGraphic * this_ptr));
 }

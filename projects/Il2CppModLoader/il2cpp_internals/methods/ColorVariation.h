@@ -1,22 +1,22 @@
 #include <interception_macros.h>
 
 namespace app::methods::ColorVariation {
-IL2CPP_REGISTER_METHOD(0x00CFBCF0, bool, get_IsVisible, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D44E0, void, Awake, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D44F0, Vector4, GetSliceRanges, (ColorVariation * __this, float z, LayeredRenderSettings * layeredRenderSetting));
-IL2CPP_REGISTER_METHOD(0x012D4740, void, CacheRenderers, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D5260, void, OnEnable, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDestroy, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D53C0, void, Show, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D53D0, void, Hide, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D53E0, void, FixedUpdate, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D5510, void, Sample, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D5810, Color, SetAlpha, (ColorVariation * __this, Color color, float alpha));
-IL2CPP_REGISTER_METHOD(0x012D5840, void, FillPropertiesForShaders, (ColorVariation * __this, Vector4__Array * * colors, Vector4__Array * * NzDWH, Vector4__Array * * PlaneO, Vector4__Array * * MainTexScaleOffset, Vector4__Array * * MainTexScroll, Vector4__Array * * DistortionScaleOffset, Vector4__Array * * DistortionScrollStrength, Vector4__Array * * SlicesRanges, int32_t startPos, int32_t planesCount));
-IL2CPP_REGISTER_METHOD(0x012D6050, void, FillZeroPropertiesForShaders, (Vector4__Array * * colors, Vector4__Array * * NzDWH, Vector4__Array * * PlaneO, Vector4__Array * * MainTexScaleOffset, Vector4__Array * * MainTexScroll, Vector4__Array * * DistortionScaleOffset, Vector4__Array * * DistortionScrollStrength, Vector4__Array * * SlicesRanges, int32_t startPos, int32_t planesCount));
-IL2CPP_REGISTER_METHOD(0x00443C10, void, OnBeforeSerialize, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnAfterDeserialize, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoStrip, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D6380, void, OnBeforeStrip, (ColorVariation * __this));
-IL2CPP_REGISTER_METHOD(0x012D6570, void, __ctor, (ColorVariation * __this));
+IL2CPP_REGISTER_METHOD(0x00CFBCF0, bool, get_IsVisible, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D44E0, void, Awake, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D44F0, Vector4, GetSliceRanges, (app::ColorVariation * this_ptr, float z, app::LayeredRenderSettings * layered_render_setting));
+IL2CPP_REGISTER_METHOD(0x012D4740, void, CacheRenderers, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D5260, void, OnEnable, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnDestroy, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D53C0, void, Show, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D53D0, void, Hide, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D53E0, void, FixedUpdate, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D5510, void, Sample, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D5810, Color, SetAlpha, (app::ColorVariation * this_ptr, app::Color color, float alpha));
+IL2CPP_REGISTER_METHOD(0x012D5840, void, FillPropertiesForShaders, (app::ColorVariation * this_ptr, app::Vector4__Array * * colors, app::Vector4__Array * * nz_d_w_h, app::Vector4__Array * * plane_o, app::Vector4__Array * * main_tex_scale_offset, app::Vector4__Array * * main_tex_scroll, app::Vector4__Array * * distortion_scale_offset, app::Vector4__Array * * distortion_scroll_strength, app::Vector4__Array * * slices_ranges, int32_t start_pos, int32_t planes_count));
+IL2CPP_REGISTER_METHOD(0x012D6050, void, FillZeroPropertiesForShaders, (app::Vector4__Array * * colors, app::Vector4__Array * * nz_d_w_h, app::Vector4__Array * * plane_o, app::Vector4__Array * * main_tex_scale_offset, app::Vector4__Array * * main_tex_scroll, app::Vector4__Array * * distortion_scale_offset, app::Vector4__Array * * distortion_scroll_strength, app::Vector4__Array * * slices_ranges, int32_t start_pos, int32_t planes_count));
+IL2CPP_REGISTER_METHOD(0x00443C10, void, OnBeforeSerialize, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnAfterDeserialize, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoStrip, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D6380, void, OnBeforeStrip, (app::ColorVariation * this_ptr));
+IL2CPP_REGISTER_METHOD(0x012D6570, void, __ctor, (app::ColorVariation * this_ptr));
 }

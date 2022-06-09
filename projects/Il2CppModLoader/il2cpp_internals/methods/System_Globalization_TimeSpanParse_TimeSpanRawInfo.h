@@ -1,21 +1,21 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Globalization::TimeSpanParse_TimeSpanRawInfo {
-IL2CPP_REGISTER_METHOD(0x001D3C30, TimeSpanFormat_FormatLiterals, get_PositiveInvariant, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001D3C70, TimeSpanFormat_FormatLiterals, get_NegativeInvariant, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001D3CB0, TimeSpanFormat_FormatLiterals, get_PositiveLocalized, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001D3D20, TimeSpanFormat_FormatLiterals, get_NegativeLocalized, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001D3D90, bool, FullAppCompatMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3DD0, bool, PartialAppCompatMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3E10, bool, FullMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3E50, bool, FullDMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3E90, bool, FullHMMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3ED0, bool, FullDHMMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3F10, bool, FullHMSMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3F50, bool, FullDHMSMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3F90, bool, FullHMSFMatch, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanFormat_FormatLiterals pattern));
-IL2CPP_REGISTER_METHOD(0x001D3FD0, void, Init, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, DateTimeFormatInfo * dtfi));
-IL2CPP_REGISTER_METHOD(0x001D3FE0, bool, ProcessToken, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanParse_TimeSpanToken * tok, TimeSpanParse_TimeSpanResult * result));
-IL2CPP_REGISTER_METHOD(0x001D3FF0, bool, AddSep, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, String * sep, TimeSpanParse_TimeSpanResult * result));
-IL2CPP_REGISTER_METHOD(0x001D4000, bool, AddNum, (TimeSpanParse_TimeSpanRawInfo__Boxed * __this, TimeSpanParse_TimeSpanToken num, TimeSpanParse_TimeSpanResult * result));
+namespace app::methods::System_Globalization::TimeSpanParse_TimeSpanRawInfo {
+IL2CPP_REGISTER_METHOD(0x001D3C30, TimeSpanFormat_FormatLiterals, get_PositiveInvariant, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001D3C70, TimeSpanFormat_FormatLiterals, get_NegativeInvariant, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001D3CB0, TimeSpanFormat_FormatLiterals, get_PositiveLocalized, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001D3D20, TimeSpanFormat_FormatLiterals, get_NegativeLocalized, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001D3D90, bool, FullAppCompatMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3DD0, bool, PartialAppCompatMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3E10, bool, FullMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3E50, bool, FullDMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3E90, bool, FullHMMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3ED0, bool, FullDHMMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3F10, bool, FullHMSMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3F50, bool, FullDHMSMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3F90, bool, FullHMSFMatch, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanFormat_FormatLiterals pattern));
+IL2CPP_REGISTER_METHOD(0x001D3FD0, void, Init, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::DateTimeFormatInfo * dtfi));
+IL2CPP_REGISTER_METHOD(0x001D3FE0, bool, ProcessToken, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanParse_TimeSpanToken * tok, app::TimeSpanParse_TimeSpanResult * result));
+IL2CPP_REGISTER_METHOD(0x001D3FF0, bool, AddSep, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::String * sep, app::TimeSpanParse_TimeSpanResult * result));
+IL2CPP_REGISTER_METHOD(0x001D4000, bool, AddNum, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr, app::TimeSpanParse_TimeSpanToken num, app::TimeSpanParse_TimeSpanResult * result));
 }

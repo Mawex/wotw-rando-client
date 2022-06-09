@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::FinalIK::Inertia {
-IL2CPP_REGISTER_METHOD(0x02A06700, void, ResetBodies, (Inertia * __this));
-IL2CPP_REGISTER_METHOD(0x02A06770, void, OnModifyOffset, (Inertia * __this));
-IL2CPP_REGISTER_METHOD(0x008A2C20, void, __ctor, (Inertia * __this));
+namespace app::methods::RootMotion_FinalIK::Inertia {
+IL2CPP_REGISTER_METHOD(0x02A06700, void, ResetBodies, (app::Inertia * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02A06770, void, OnModifyOffset, (app::Inertia * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008A2C20, void, __ctor, (app::Inertia * this_ptr));
 }

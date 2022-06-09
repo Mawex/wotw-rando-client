@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::BehaviourSystem::TaskRunner {
-IL2CPP_REGISTER_METHOD(0x03011AC0, BehaviourStatus__Enum, ExecuteTask, (ITask * task, IContext * context));
-IL2CPP_REGISTER_METHOD(0x03011CC0, void, InterruptTask, (ITask * task, IContext * context, BehaviourStatus__Enum status, bool autoExecute));
+namespace app::methods::Moon_BehaviourSystem::TaskRunner {
+IL2CPP_REGISTER_METHOD(0x03011AC0, BehaviourStatus__Enum, ExecuteTask, (app::ITask * task, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x03011CC0, void, InterruptTask, (app::ITask * task, app::IContext * context, app::BehaviourStatus__Enum status, bool auto_execute));
 }

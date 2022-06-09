@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Ionic::Zlib::DeflateManager_Config {
-IL2CPP_REGISTER_METHOD(0x0306C120, void, __ctor, (DeflateManager_Config * __this, int32_t goodLength, int32_t maxLazy, int32_t niceLength, int32_t maxChainLength, DeflateFlavor__Enum flavor));
-IL2CPP_REGISTER_METHOD(0x0306C140, DeflateManager_Config *, Lookup, (CompressionLevel__Enum level));
+namespace app::methods::Ionic_Zlib::DeflateManager_Config {
+IL2CPP_REGISTER_METHOD(0x0306C120, void, __ctor, (app::DeflateManager_Config * this_ptr, int32_t good_length, int32_t max_lazy, int32_t nice_length, int32_t max_chain_length, app::DeflateFlavor__Enum flavor));
+IL2CPP_REGISTER_METHOD(0x0306C140, DeflateManager_Config *, Lookup, (app::CompressionLevel__Enum level));
 IL2CPP_REGISTER_METHOD(0x0306C210, void, __cctor, ());
 }

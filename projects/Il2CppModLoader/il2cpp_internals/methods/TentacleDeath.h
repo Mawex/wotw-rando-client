@@ -1,15 +1,15 @@
 #include <interception_macros.h>
 
 namespace app::methods::TentacleDeath {
-IL2CPP_REGISTER_METHOD(0x00CED840, void, OnCacheSerializedComponents, (TentacleDeath * __this, Entity * owner));
-IL2CPP_REGISTER_METHOD(0x00CED900, void, OnInitializeTask, (TentacleDeath * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Hide, (TentacleDeath * __this));
+IL2CPP_REGISTER_METHOD(0x00CED840, void, OnCacheSerializedComponents, (app::TentacleDeath * this_ptr, app::Entity * owner));
+IL2CPP_REGISTER_METHOD(0x00CED900, void, OnInitializeTask, (app::TentacleDeath * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Hide, (app::TentacleDeath * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0477ABF0, TentacleDeath_Hide__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00CEDB60, void, ModifyDeathKickbackForce, (TentacleDeath * __this, Damage * damage, float minBoost, float minMagntiude, float minUpDirection));
-IL2CPP_REGISTER_METHOD(0x00CEDE40, void, OnEnterTask, (TentacleDeath * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00CEE140, void, EndReaction, (TentacleDeath * __this));
+IL2CPP_REGISTER_METHOD(0x00CEDB60, void, ModifyDeathKickbackForce, (app::TentacleDeath * this_ptr, app::Damage * damage, float min_boost, float min_magntiude, float min_up_direction));
+IL2CPP_REGISTER_METHOD(0x00CEDE40, void, OnEnterTask, (app::TentacleDeath * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00CEE140, void, EndReaction, (app::TentacleDeath * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04718D98, TentacleDeath_EndReaction__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00CEE190, BehaviourStatus__Enum, OnExecuteTask, (TentacleDeath * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00CEE780, void, OnExitTask, (TentacleDeath * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00CEE7E0, void, __ctor, (TentacleDeath * __this));
+IL2CPP_REGISTER_METHOD(0x00CEE190, BehaviourStatus__Enum, OnExecuteTask, (app::TentacleDeath * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00CEE780, void, OnExitTask, (app::TentacleDeath * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00CEE7E0, void, __ctor, (app::TentacleDeath * this_ptr));
 }

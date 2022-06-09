@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Mono::Security::X509::X509StoreManager {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (X509StoreManager * __this));
+namespace app::methods::Mono_Security_X509::X509StoreManager {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::X509StoreManager * this_ptr));
 IL2CPP_REGISTER_METHOD(0x03169820, String *, get_CurrentUserPath, ());
 IL2CPP_REGISTER_METHOD(0x03169940, String *, get_LocalMachinePath, ());
 IL2CPP_REGISTER_METHOD(0x03169A60, String *, get_NewCurrentUserPath, ());

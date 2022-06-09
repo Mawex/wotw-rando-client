@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::EmbeddedBrowser::BrowserSystemSettings {
-IL2CPP_REGISTER_METHOD(0x01DCE500, void, Awake, (BrowserSystemSettings * __this));
-IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (BrowserSystemSettings * __this));
+namespace app::methods::ZenFulcrum_EmbeddedBrowser::BrowserSystemSettings {
+IL2CPP_REGISTER_METHOD(0x01DCE500, void, Awake, (app::BrowserSystemSettings * this_ptr));
+IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::BrowserSystemSettings * this_ptr));
 }

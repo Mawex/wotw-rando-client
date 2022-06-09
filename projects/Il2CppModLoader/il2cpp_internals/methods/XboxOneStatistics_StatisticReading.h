@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::XboxOneStatistics_StatisticReading {
-IL2CPP_REGISTER_METHOD(0x0013C860, void, __ctor, (XboxOneStatistics_StatisticReading__Boxed * __this, String * name, String * type, String * value));
-IL2CPP_REGISTER_METHOD(0x001C2E50, String *, ToString, (XboxOneStatistics_StatisticReading__Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x0013C860, void, __ctor, (app::XboxOneStatistics_StatisticReading__Boxed * this_ptr, app::String * name, app::String * type, app::String * value));
+IL2CPP_REGISTER_METHOD(0x001C2E50, String *, ToString, (app::XboxOneStatistics_StatisticReading__Boxed * this_ptr));
 }

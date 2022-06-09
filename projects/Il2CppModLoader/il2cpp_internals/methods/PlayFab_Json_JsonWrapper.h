@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::Json::JsonWrapper {
+namespace app::methods::PlayFab_Json::JsonWrapper {
 IL2CPP_REGISTER_METHOD(0x01847F50, ISerializerPlugin *, get_Instance, ());
-IL2CPP_REGISTER_METHOD(0x01847FF0, Object *, DeserializeObject, (String * json));
-IL2CPP_REGISTER_METHOD(0x018480C0, String *, SerializeObject, (Object * json));
-IL2CPP_REGISTER_METHOD(0x01848190, String *, SerializeObject, (Object * json, Object * jsonSerializerStrategy));
-IL2CPP_REGISTER_METHOD(0x016A9A20, Object *, DeserializeObject, (String * json));
-IL2CPP_REGISTER_METHOD(0x016A9AF0, Object *, DeserializeObject, (String * json, Object * jsonSerializerStrategy));
+IL2CPP_REGISTER_METHOD(0x01847FF0, Object *, DeserializeObject_1, (app::String * json));
+IL2CPP_REGISTER_METHOD(0x018480C0, String *, SerializeObject_1, (app::Object * json));
+IL2CPP_REGISTER_METHOD(0x01848190, String *, SerializeObject_2, (app::Object * json, app::Object * json_serializer_strategy));
+IL2CPP_REGISTER_METHOD(0x016A9A20, Object *, DeserializeObject_2, (app::String * json));
+IL2CPP_REGISTER_METHOD(0x016A9AF0, Object *, DeserializeObject_3, (app::String * json, app::Object * json_serializer_strategy));
 }

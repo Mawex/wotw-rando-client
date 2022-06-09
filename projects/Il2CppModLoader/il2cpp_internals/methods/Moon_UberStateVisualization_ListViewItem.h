@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::UberStateVisualization::ListViewItem {
+namespace app::methods::Moon_UberStateVisualization::ListViewItem {
 IL2CPP_REGISTER_METHOD(0x019995A0, GUIStyle *, get_CenteredLabelStyle, ());
-IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_Name, (ListViewItem * __this));
-IL2CPP_REGISTER_METHOD(0x0052A030, bool, get_IsSelected, (ListViewItem * __this));
-IL2CPP_REGISTER_METHOD(0x01999830, void, __ctor, (ListViewItem * __this, int32_t controlId, String * name, ListView * parentView));
-IL2CPP_REGISTER_METHOD(0x0052A040, void, SetSelected, (ListViewItem * __this, bool selected));
-IL2CPP_REGISTER_METHOD(0x01999840, void, OnHandleEvent, (ListViewItem * __this, Rect rect, Event * e));
-IL2CPP_REGISTER_METHOD(0x01999970, void, OnGui, (ListViewItem * __this, Rect rect, bool isHighlighted));
-IL2CPP_REGISTER_METHOD(0x01999E20, void, OnItemGui, (ListViewItem * __this, Rect rect));
+IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_Name, (app::ListViewItem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0052A030, bool, get_IsSelected, (app::ListViewItem * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01999830, void, __ctor, (app::ListViewItem * this_ptr, int32_t control_id, app::String * name, app::ListView * parent_view));
+IL2CPP_REGISTER_METHOD(0x0052A040, void, SetSelected, (app::ListViewItem * this_ptr, bool selected));
+IL2CPP_REGISTER_METHOD(0x01999840, void, OnHandleEvent, (app::ListViewItem * this_ptr, app::Rect rect, app::Event * e));
+IL2CPP_REGISTER_METHOD(0x01999970, void, OnGui, (app::ListViewItem * this_ptr, app::Rect rect, bool is_highlighted));
+IL2CPP_REGISTER_METHOD(0x01999E20, void, OnItemGui, (app::ListViewItem * this_ptr, app::Rect rect));
 }

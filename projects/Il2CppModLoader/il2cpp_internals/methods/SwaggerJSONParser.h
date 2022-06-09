@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::SwaggerJSONParser {
-IL2CPP_REGISTER_METHOD(0x02EA35E0, Object *, GetValue, (SwaggerJSONParser * __this, Object * filedValue, Type * type));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (SwaggerJSONParser * __this));
+IL2CPP_REGISTER_METHOD(0x02EA35E0, Object *, GetValue, (app::SwaggerJSONParser * this_ptr, app::Object * filed_value, app::Type * type));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::SwaggerJSONParser * this_ptr));
 }

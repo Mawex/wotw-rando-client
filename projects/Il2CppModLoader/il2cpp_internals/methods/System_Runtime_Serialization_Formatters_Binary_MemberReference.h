@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Serialization::Formatters::Binary::MemberReference {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MemberReference * __this));
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, Set, (MemberReference * __this, int32_t idRef));
-IL2CPP_REGISTER_METHOD(0x01D93180, void, Write, (MemberReference * __this, _BinaryWriter * sout));
-IL2CPP_REGISTER_METHOD(0x01D8D460, void, Read, (MemberReference * __this, _BinaryParser * input));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Dump, (MemberReference * __this));
+namespace app::methods::System_Runtime_Serialization_Formatters_Binary::MemberReference {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MemberReference * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, Set, (app::MemberReference * this_ptr, int32_t id_ref));
+IL2CPP_REGISTER_METHOD(0x01D93180, void, Write, (app::MemberReference * this_ptr, app::_BinaryWriter * sout));
+IL2CPP_REGISTER_METHOD(0x01D8D460, void, Read, (app::MemberReference * this_ptr, app::_BinaryParser * input));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Dump, (app::MemberReference * this_ptr));
 }

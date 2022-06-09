@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRCompositor__Submit {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRCompositor_Submit * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02CEA590, EVRCompositorError__Enum, Invoke, (IVRCompositor_Submit * __this, EVREye__Enum eEye, Texture_t * pTexture, VRTextureBounds_t * pBounds, EVRSubmitFlags__Enum nSubmitFlags));
-IL2CPP_REGISTER_METHOD(0x02F43380, IAsyncResult *, BeginInvoke, (IVRCompositor_Submit * __this, EVREye__Enum eEye, Texture_t * pTexture, VRTextureBounds_t * pBounds, EVRSubmitFlags__Enum nSubmitFlags, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F530B0, EVRCompositorError__Enum, EndInvoke, (IVRCompositor_Submit * __this, Texture_t * pTexture, VRTextureBounds_t * pBounds, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRCompositor__Submit {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRCompositor_Submit * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02CEA590, EVRCompositorError__Enum, Invoke, (app::IVRCompositor_Submit * this_ptr, app::EVREye__Enum e_eye, app::Texture_t * p_texture, app::VRTextureBounds_t * p_bounds, app::EVRSubmitFlags__Enum n_submit_flags));
+IL2CPP_REGISTER_METHOD(0x02F43380, IAsyncResult *, BeginInvoke, (app::IVRCompositor_Submit * this_ptr, app::EVREye__Enum e_eye, app::Texture_t * p_texture, app::VRTextureBounds_t * p_bounds, app::EVRSubmitFlags__Enum n_submit_flags, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F530B0, EVRCompositorError__Enum, EndInvoke, (app::IVRCompositor_Submit * this_ptr, app::Texture_t * p_texture, app::VRTextureBounds_t * p_bounds, app::IAsyncResult * result));
 }

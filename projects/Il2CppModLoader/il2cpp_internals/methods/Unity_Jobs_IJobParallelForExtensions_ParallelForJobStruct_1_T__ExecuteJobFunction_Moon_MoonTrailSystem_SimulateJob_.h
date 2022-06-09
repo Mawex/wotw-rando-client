@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1_T__ExecuteJobFunction_Moon::MoonTrailSystem_SimulateJob_ {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02264EB0, void, Invoke, (IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * __this, MoonTrailSystem_SimulateJob * data, void * additionalPtr, void * bufferRangePatchData, JobRanges * ranges, int32_t jobIndex));
-IL2CPP_REGISTER_METHOD(0x02AC34F0, IAsyncResult *, BeginInvoke, (IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * __this, MoonTrailSystem_SimulateJob * data, void * additionalPtr, void * bufferRangePatchData, JobRanges * ranges, int32_t jobIndex, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x012E78E0, void, EndInvoke, (IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * __this, MoonTrailSystem_SimulateJob * data, JobRanges * ranges, IAsyncResult * result));
+namespace app::methods::Unity_Jobs::IJobParallelForExtensions_ParallelForJobStruct_1_T__ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02264EB0, void, Invoke, (app::IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * this_ptr, app::MoonTrailSystem_SimulateJob * data, app::void * additional_ptr, app::void * buffer_range_patch_data, app::JobRanges * ranges, int32_t job_index));
+IL2CPP_REGISTER_METHOD(0x02AC34F0, IAsyncResult *, BeginInvoke, (app::IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * this_ptr, app::MoonTrailSystem_SimulateJob * data, app::void * additional_ptr, app::void * buffer_range_patch_data, app::JobRanges * ranges, int32_t job_index, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x012E78E0, void, EndInvoke, (app::IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_Moon_MoonTrailSystem_SimulateJob_ * this_ptr, app::MoonTrailSystem_SimulateJob * data, app::JobRanges * ranges, app::IAsyncResult * result));
 }

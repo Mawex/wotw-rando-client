@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::XboxLiveAccountPlayFabIdPair {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (XboxLiveAccountPlayFabIdPair_1 * __this));
+namespace app::methods::PlayFab_ServerModels::XboxLiveAccountPlayFabIdPair {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::XboxLiveAccountPlayFabIdPair_1 * this_ptr));
 }

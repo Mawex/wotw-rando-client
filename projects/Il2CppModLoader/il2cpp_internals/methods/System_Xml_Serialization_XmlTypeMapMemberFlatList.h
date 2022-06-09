@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::Serialization::XmlTypeMapMemberFlatList {
-IL2CPP_REGISTER_METHOD(0x002FBC00, ListMap *, get_ListMap, (XmlTypeMapMemberFlatList * __this));
-IL2CPP_REGISTER_METHOD(0x002FBC10, void, set_ListMap, (XmlTypeMapMemberFlatList * __this, ListMap * value));
-IL2CPP_REGISTER_METHOD(0x0194ED90, void, __ctor, (XmlTypeMapMemberFlatList * __this));
+namespace app::methods::System_Xml_Serialization::XmlTypeMapMemberFlatList {
+IL2CPP_REGISTER_METHOD(0x002FBC00, ListMap *, get_ListMap, (app::XmlTypeMapMemberFlatList * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FBC10, void, set_ListMap, (app::XmlTypeMapMemberFlatList * this_ptr, app::ListMap * value));
+IL2CPP_REGISTER_METHOD(0x0194ED90, void, __ctor, (app::XmlTypeMapMemberFlatList * this_ptr));
 }

@@ -51,7 +51,7 @@ IL2CPP_REGISTER_METHOD(0x002FA000, void, BeginPostLateUpdateCallback, ());
 IL2CPP_REGISTER_METHODINFO(0x04726130, FrameProfilerPlayerLoopInjector_BeginPostLateUpdateCallback__MethodInfo);
 IL2CPP_REGISTER_METHOD(0x002FA000, void, EndPostLateUpdateCallback, ());
 IL2CPP_REGISTER_METHODINFO(0x047639E8, FrameProfilerPlayerLoopInjector_EndPostLateUpdateCallback__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x002FA000, void, InjectToPlayerLoopEarly, (PlayerLoopSystem * playerLoop));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, InjectToPlayerLoopLate, (PlayerLoopSystem * playerLoop));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, InjectToPlayerLoopEarly, (app::PlayerLoopSystem * player_loop));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, InjectToPlayerLoopLate, (app::PlayerLoopSystem * player_loop));
 IL2CPP_REGISTER_METHOD(0x03152F00, void, __cctor, ());
 }

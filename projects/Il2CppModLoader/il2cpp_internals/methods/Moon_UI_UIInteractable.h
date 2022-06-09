@@ -1,14 +1,14 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::UI::UIInteractable {
-IL2CPP_REGISTER_METHOD(0x0118B670, void, Awake, (UIInteractable * __this));
-IL2CPP_REGISTER_METHOD(0x0118B680, void, Initialize, (UIInteractable * __this));
-IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_Selected, (UIInteractable * __this));
-IL2CPP_REGISTER_METHOD(0x0118B890, void, set_Selected, (UIInteractable * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x00597BB0, void, __ctor, (UIInteractable * __this));
-IL2CPP_REGISTER_METHOD(0x015F3540, Object *, FindTypeInHierarchy, (UIInteractable * __this));
-IL2CPP_REGISTER_METHOD(0x015F3540, Window *, FindTypeInHierarchy, (UIInteractable * __this));
+namespace app::methods::Moon_UI::UIInteractable {
+IL2CPP_REGISTER_METHOD(0x0118B670, void, Awake, (app::UIInteractable * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0118B680, void, Initialize, (app::UIInteractable * this_ptr));
+IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_Selected, (app::UIInteractable * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0118B890, void, set_Selected, (app::UIInteractable * this_ptr, bool value));
+IL2CPP_REGISTER_METHOD(0x00597BB0, void, __ctor, (app::UIInteractable * this_ptr));
+IL2CPP_REGISTER_METHOD(0x015F3540, Object *, FindTypeInHierarchy_1, (app::UIInteractable * this_ptr));
+IL2CPP_REGISTER_METHOD(0x015F3540, Window *, FindTypeInHierarchy_2, (app::UIInteractable * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04705800, UIInteractable_FindTypeInHierarchy_1__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x015F3540, ItemSelectionManager *, FindTypeInHierarchy, (UIInteractable * __this));
+IL2CPP_REGISTER_METHOD(0x015F3540, ItemSelectionManager *, FindTypeInHierarchy_3, (app::UIInteractable * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0470F360, UIInteractable_FindTypeInHierarchy_2__MethodInfo);
 }

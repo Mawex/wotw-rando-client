@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab::ClientModels::GameServerRegionsResult_ {
-IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_GameServerRegionsResult_ * __this, GameServerRegionsResult * result));
+namespace app::methods::PlayFab_Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_GameServerRegionsResult_ {
+IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_GameServerRegionsResult_ * this_ptr, app::GameServerRegionsResult * result));
 IL2CPP_REGISTER_METHODINFO(0x047428C0, PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_GameServerRegionsResult__Invoke__MethodInfo);
 }

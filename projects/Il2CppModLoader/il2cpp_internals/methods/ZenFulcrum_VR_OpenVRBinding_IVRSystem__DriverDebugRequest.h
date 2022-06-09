@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRSystem__DriverDebugRequest {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRSystem_DriverDebugRequest * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02CEA590, uint32_t, Invoke, (IVRSystem_DriverDebugRequest * __this, uint32_t unDeviceIndex, String * pchRequest, String * pchResponseBuffer, uint32_t unResponseBufferSize));
-IL2CPP_REGISTER_METHOD(0x02CEA9A0, IAsyncResult *, BeginInvoke, (IVRSystem_DriverDebugRequest * __this, uint32_t unDeviceIndex, String * pchRequest, String * pchResponseBuffer, uint32_t unResponseBufferSize, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F550D0, uint32_t, EndInvoke, (IVRSystem_DriverDebugRequest * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRSystem__DriverDebugRequest {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRSystem_DriverDebugRequest * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02CEA590, uint32_t, Invoke, (app::IVRSystem_DriverDebugRequest * this_ptr, uint32_t un_device_index, app::String * pch_request, app::String * pch_response_buffer, uint32_t un_response_buffer_size));
+IL2CPP_REGISTER_METHOD(0x02CEA9A0, IAsyncResult *, BeginInvoke, (app::IVRSystem_DriverDebugRequest * this_ptr, uint32_t un_device_index, app::String * pch_request, app::String * pch_response_buffer, uint32_t un_response_buffer_size, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F550D0, uint32_t, EndInvoke, (app::IVRSystem_DriverDebugRequest * this_ptr, app::IAsyncResult * result));
 }

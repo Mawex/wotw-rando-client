@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::ExceptionHelper {
+namespace app::methods::System_Net::ExceptionHelper {
 IL2CPP_REGISTER_METHOD(0x01D27350, NotImplementedException *, get_MethodNotImplementedException, ());
 IL2CPP_REGISTER_METHOD(0x01D274B0, NotImplementedException *, get_PropertyNotImplementedException, ());
 IL2CPP_REGISTER_METHOD(0x01D27610, NotSupportedException *, get_MethodNotSupportedException, ());

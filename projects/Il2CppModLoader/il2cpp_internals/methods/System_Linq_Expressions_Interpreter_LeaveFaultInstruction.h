@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::Interpreter::LeaveFaultInstruction {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (LeaveFaultInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x0043D9E0, int32_t, get_ConsumedStack, (LeaveFaultInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ConsumedContinuations, (LeaveFaultInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x01CE4DD0, String *, get_InstructionName, (LeaveFaultInstruction * __this));
-IL2CPP_REGISTER_METHOD(0x01CE4E50, int32_t, Run, (LeaveFaultInstruction * __this, InterpretedFrame * frame));
+namespace app::methods::System_Linq_Expressions_Interpreter::LeaveFaultInstruction {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::LeaveFaultInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0043D9E0, int32_t, get_ConsumedStack, (app::LeaveFaultInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00417920, int32_t, get_ConsumedContinuations, (app::LeaveFaultInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01CE4DD0, String *, get_InstructionName, (app::LeaveFaultInstruction * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01CE4E50, int32_t, Run, (app::LeaveFaultInstruction * this_ptr, app::InterpretedFrame * frame));
 IL2CPP_REGISTER_METHOD(0x01CE4E80, void, __cctor, ());
 }

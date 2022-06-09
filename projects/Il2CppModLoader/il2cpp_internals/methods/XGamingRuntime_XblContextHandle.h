@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::XblContextHandle {
-IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (XblContextHandle * __this, XblContextHandle_1 interopHandle));
-IL2CPP_REGISTER_METHOD(0x002FA280, XblContextHandle_1, get_InteropHandle, (XblContextHandle * __this));
-IL2CPP_REGISTER_METHOD(0x002FA490, void, set_InteropHandle, (XblContextHandle * __this, XblContextHandle_1 value));
+IL2CPP_REGISTER_METHOD(0x002FA490, void, __ctor, (app::XblContextHandle * this_ptr, app::XblContextHandle_1 interop_handle));
+IL2CPP_REGISTER_METHOD(0x002FA280, XblContextHandle_1, get_InteropHandle, (app::XblContextHandle * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA490, void, set_InteropHandle, (app::XblContextHandle * this_ptr, app::XblContextHandle_1 value));
 }

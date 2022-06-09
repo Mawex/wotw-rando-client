@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRCompositor__GetLastPoses {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVRCompositor_GetLastPoses * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02D77C70, EVRCompositorError__Enum, Invoke, (IVRCompositor_GetLastPoses * __this, TrackedDevicePose_t__Array * pRenderPoseArray, uint32_t unRenderPoseArrayCount, TrackedDevicePose_t__Array * pGamePoseArray, uint32_t unGamePoseArrayCount));
-IL2CPP_REGISTER_METHOD(0x02F42360, IAsyncResult *, BeginInvoke, (IVRCompositor_GetLastPoses * __this, TrackedDevicePose_t__Array * pRenderPoseArray, uint32_t unRenderPoseArrayCount, TrackedDevicePose_t__Array * pGamePoseArray, uint32_t unGamePoseArrayCount, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F550D0, EVRCompositorError__Enum, EndInvoke, (IVRCompositor_GetLastPoses * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVRCompositor__GetLastPoses {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVRCompositor_GetLastPoses * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02D77C70, EVRCompositorError__Enum, Invoke, (app::IVRCompositor_GetLastPoses * this_ptr, app::TrackedDevicePose_t__Array * p_render_pose_array, uint32_t un_render_pose_array_count, app::TrackedDevicePose_t__Array * p_game_pose_array, uint32_t un_game_pose_array_count));
+IL2CPP_REGISTER_METHOD(0x02F42360, IAsyncResult *, BeginInvoke, (app::IVRCompositor_GetLastPoses * this_ptr, app::TrackedDevicePose_t__Array * p_render_pose_array, uint32_t un_render_pose_array_count, app::TrackedDevicePose_t__Array * p_game_pose_array, uint32_t un_game_pose_array_count, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F550D0, EVRCompositorError__Enum, EndInvoke, (app::IVRCompositor_GetLastPoses * this_ptr, app::IAsyncResult * result));
 }

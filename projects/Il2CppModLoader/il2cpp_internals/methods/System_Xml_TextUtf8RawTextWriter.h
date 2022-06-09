@@ -1,27 +1,27 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Xml::TextUtf8RawTextWriter {
-IL2CPP_REGISTER_METHOD(0x019508A0, void, __ctor, (TextUtf8RawTextWriter * __this, Stream * stream, XmlWriterSettings * settings));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteXmlDeclaration, (TextUtf8RawTextWriter * __this, XmlStandalone__Enum standalone));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteXmlDeclaration, (TextUtf8RawTextWriter * __this, String * xmldecl));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteDocType, (TextUtf8RawTextWriter * __this, String * name, String * pubid, String * sysid, String * subset));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteStartElement, (TextUtf8RawTextWriter * __this, String * prefix, String * localName, String * ns));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteEndElement, (TextUtf8RawTextWriter * __this, String * prefix, String * localName, String * ns));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteFullEndElement, (TextUtf8RawTextWriter * __this, String * prefix, String * localName, String * ns));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, StartElementContent, (TextUtf8RawTextWriter * __this));
-IL2CPP_REGISTER_METHOD(0x019507E0, void, WriteStartAttribute, (TextUtf8RawTextWriter * __this, String * prefix, String * localName, String * ns));
-IL2CPP_REGISTER_METHOD(0x019507F0, void, WriteEndAttribute, (TextUtf8RawTextWriter * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteNamespaceDeclaration, (TextUtf8RawTextWriter * __this, String * prefix, String * ns));
-IL2CPP_REGISTER_METHOD(0x00417870, bool, get_SupportsNamespaceDeclarationInChunks, (TextUtf8RawTextWriter * __this));
-IL2CPP_REGISTER_METHOD(0x019508B0, void, WriteCData, (TextUtf8RawTextWriter * __this, String * text));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteComment, (TextUtf8RawTextWriter * __this, String * text));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteProcessingInstruction, (TextUtf8RawTextWriter * __this, String * name, String * text));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteEntityRef, (TextUtf8RawTextWriter * __this, String * name));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteCharEntity, (TextUtf8RawTextWriter * __this, uint16_t ch));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteSurrogateCharEntity, (TextUtf8RawTextWriter * __this, uint16_t lowChar, uint16_t highChar));
-IL2CPP_REGISTER_METHOD(0x019508F0, void, WriteWhitespace, (TextUtf8RawTextWriter * __this, String * ws));
-IL2CPP_REGISTER_METHOD(0x019508F0, void, WriteString, (TextUtf8RawTextWriter * __this, String * textBlock));
-IL2CPP_REGISTER_METHOD(0x01950940, void, WriteChars, (TextUtf8RawTextWriter * __this, Char__Array * buffer, int32_t index, int32_t count));
-IL2CPP_REGISTER_METHOD(0x01950940, void, WriteRaw, (TextUtf8RawTextWriter * __this, Char__Array * buffer, int32_t index, int32_t count));
-IL2CPP_REGISTER_METHOD(0x019508F0, void, WriteRaw, (TextUtf8RawTextWriter * __this, String * data));
+namespace app::methods::System_Xml::TextUtf8RawTextWriter {
+IL2CPP_REGISTER_METHOD(0x019508A0, void, __ctor, (app::TextUtf8RawTextWriter * this_ptr, app::Stream * stream, app::XmlWriterSettings * settings));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteXmlDeclaration_1, (app::TextUtf8RawTextWriter * this_ptr, app::XmlStandalone__Enum standalone));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteXmlDeclaration_2, (app::TextUtf8RawTextWriter * this_ptr, app::String * xmldecl));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteDocType, (app::TextUtf8RawTextWriter * this_ptr, app::String * name, app::String * pubid, app::String * sysid, app::String * subset));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteStartElement, (app::TextUtf8RawTextWriter * this_ptr, app::String * prefix, app::String * local_name, app::String * ns));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteEndElement, (app::TextUtf8RawTextWriter * this_ptr, app::String * prefix, app::String * local_name, app::String * ns));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteFullEndElement, (app::TextUtf8RawTextWriter * this_ptr, app::String * prefix, app::String * local_name, app::String * ns));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, StartElementContent, (app::TextUtf8RawTextWriter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x019507E0, void, WriteStartAttribute, (app::TextUtf8RawTextWriter * this_ptr, app::String * prefix, app::String * local_name, app::String * ns));
+IL2CPP_REGISTER_METHOD(0x019507F0, void, WriteEndAttribute, (app::TextUtf8RawTextWriter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteNamespaceDeclaration, (app::TextUtf8RawTextWriter * this_ptr, app::String * prefix, app::String * ns));
+IL2CPP_REGISTER_METHOD(0x00417870, bool, get_SupportsNamespaceDeclarationInChunks, (app::TextUtf8RawTextWriter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x019508B0, void, WriteCData, (app::TextUtf8RawTextWriter * this_ptr, app::String * text));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteComment, (app::TextUtf8RawTextWriter * this_ptr, app::String * text));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteProcessingInstruction, (app::TextUtf8RawTextWriter * this_ptr, app::String * name, app::String * text));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteEntityRef, (app::TextUtf8RawTextWriter * this_ptr, app::String * name));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteCharEntity, (app::TextUtf8RawTextWriter * this_ptr, uint16_t ch));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, WriteSurrogateCharEntity, (app::TextUtf8RawTextWriter * this_ptr, uint16_t low_char, uint16_t high_char));
+IL2CPP_REGISTER_METHOD(0x019508F0, void, WriteWhitespace, (app::TextUtf8RawTextWriter * this_ptr, app::String * ws));
+IL2CPP_REGISTER_METHOD(0x019508F0, void, WriteString, (app::TextUtf8RawTextWriter * this_ptr, app::String * text_block));
+IL2CPP_REGISTER_METHOD(0x01950940, void, WriteChars, (app::TextUtf8RawTextWriter * this_ptr, app::Char__Array * buffer, int32_t index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x01950940, void, WriteRaw_1, (app::TextUtf8RawTextWriter * this_ptr, app::Char__Array * buffer, int32_t index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x019508F0, void, WriteRaw_2, (app::TextUtf8RawTextWriter * this_ptr, app::String * data));
 }

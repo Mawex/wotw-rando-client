@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::FullSerializer::fsDirectConverter_1_UnityEngine::Bounds_ {
-IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (fsDirectConverter_1_UnityEngine_Bounds_ * __this));
+namespace app::methods::FullSerializer::fsDirectConverter_1_UnityEngine_Bounds_ {
+IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (app::fsDirectConverter_1_UnityEngine_Bounds_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04797108, fsDirectConverter_1_UnityEngine_Bounds___ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x019E6660, Type *, get_ModelType, (fsDirectConverter_1_UnityEngine_Bounds_ * __this));
-IL2CPP_REGISTER_METHOD(0x019E6710, fsResult, TrySerialize, (fsDirectConverter_1_UnityEngine_Bounds_ * __this, Object * instance, fsData * * serialized, Type * storageType));
-IL2CPP_REGISTER_METHOD(0x019E6A10, fsResult, TryDeserialize, (fsDirectConverter_1_UnityEngine_Bounds_ * __this, fsData * data, Object * * instance, Type * storageType));
+IL2CPP_REGISTER_METHOD(0x019E6660, Type *, get_ModelType, (app::fsDirectConverter_1_UnityEngine_Bounds_ * this_ptr));
+IL2CPP_REGISTER_METHOD(0x019E6710, fsResult, TrySerialize, (app::fsDirectConverter_1_UnityEngine_Bounds_ * this_ptr, app::Object * instance, app::fsData * * serialized, app::Type * storage_type));
+IL2CPP_REGISTER_METHOD(0x019E6A10, fsResult, TryDeserialize, (app::fsDirectConverter_1_UnityEngine_Bounds_ * this_ptr, app::fsData * data, app::Object * * instance, app::Type * storage_type));
 }

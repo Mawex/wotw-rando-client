@@ -1,23 +1,23 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRRenderModels {
-IL2CPP_REGISTER_METHOD(0x0167A3B0, void, __ctor, (CVRRenderModels * __this, void * pInterface));
-IL2CPP_REGISTER_METHOD(0x0167A510, EVRRenderModelError__Enum, LoadRenderModel_Async, (CVRRenderModels * __this, String * pchRenderModelName, void * * ppRenderModel));
-IL2CPP_REGISTER_METHOD(0x0167A530, void, FreeRenderModel, (CVRRenderModels * __this, void * pRenderModel));
-IL2CPP_REGISTER_METHOD(0x0167A550, EVRRenderModelError__Enum, LoadTexture_Async, (CVRRenderModels * __this, int32_t textureId, void * * ppTexture));
-IL2CPP_REGISTER_METHOD(0x0167A570, void, FreeTexture, (CVRRenderModels * __this, void * pTexture));
-IL2CPP_REGISTER_METHOD(0x01677EA0, EVRRenderModelError__Enum, LoadTextureD3D11_Async, (CVRRenderModels * __this, int32_t textureId, void * pD3D11Device, void * * ppD3D11Texture2D));
-IL2CPP_REGISTER_METHOD(0x0167A590, EVRRenderModelError__Enum, LoadIntoTextureD3D11_Async, (CVRRenderModels * __this, int32_t textureId, void * pDstTexture));
-IL2CPP_REGISTER_METHOD(0x0167A5B0, void, FreeTextureD3D11, (CVRRenderModels * __this, void * pD3D11Texture2D));
-IL2CPP_REGISTER_METHOD(0x0167A5D0, uint32_t, GetRenderModelName, (CVRRenderModels * __this, uint32_t unRenderModelIndex, StringBuilder * pchRenderModelName, uint32_t unRenderModelNameLen));
-IL2CPP_REGISTER_METHOD(0x0167A600, uint32_t, GetRenderModelCount, (CVRRenderModels * __this));
-IL2CPP_REGISTER_METHOD(0x01676D30, uint32_t, GetComponentCount, (CVRRenderModels * __this, String * pchRenderModelName));
-IL2CPP_REGISTER_METHOD(0x0167A620, uint32_t, GetComponentName, (CVRRenderModels * __this, String * pchRenderModelName, uint32_t unComponentIndex, StringBuilder * pchComponentName, uint32_t unComponentNameLen));
-IL2CPP_REGISTER_METHOD(0x0167A650, uint64_t, GetComponentButtonMask, (CVRRenderModels * __this, String * pchRenderModelName, String * pchComponentName));
-IL2CPP_REGISTER_METHOD(0x0167A670, uint32_t, GetComponentRenderModelName, (CVRRenderModels * __this, String * pchRenderModelName, String * pchComponentName, StringBuilder * pchComponentRenderModelName, uint32_t unComponentRenderModelNameLen));
-IL2CPP_REGISTER_METHOD(0x0167A6A0, bool, GetComponentState, (CVRRenderModels * __this, String * pchRenderModelName, String * pchComponentName, VRControllerState_t * pControllerState, RenderModel_ControllerMode_State_t * pState, RenderModel_ComponentState_t * pComponentState));
-IL2CPP_REGISTER_METHOD(0x0167A880, bool, RenderModelHasComponent, (CVRRenderModels * __this, String * pchRenderModelName, String * pchComponentName));
-IL2CPP_REGISTER_METHOD(0x0167A8B0, uint32_t, GetRenderModelThumbnailURL, (CVRRenderModels * __this, String * pchRenderModelName, StringBuilder * pchThumbnailURL, uint32_t unThumbnailURLLen, EVRRenderModelError__Enum * peError));
-IL2CPP_REGISTER_METHOD(0x0167A8E0, uint32_t, GetRenderModelOriginalPath, (CVRRenderModels * __this, String * pchRenderModelName, StringBuilder * pchOriginalPath, uint32_t unOriginalPathLen, EVRRenderModelError__Enum * peError));
-IL2CPP_REGISTER_METHOD(0x0167A910, String *, GetRenderModelErrorNameFromEnum, (CVRRenderModels * __this, EVRRenderModelError__Enum error));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::CVRRenderModels {
+IL2CPP_REGISTER_METHOD(0x0167A3B0, void, __ctor, (app::CVRRenderModels * this_ptr, app::void * p_interface));
+IL2CPP_REGISTER_METHOD(0x0167A510, EVRRenderModelError__Enum, LoadRenderModel_Async, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, app::void * * pp_render_model));
+IL2CPP_REGISTER_METHOD(0x0167A530, void, FreeRenderModel, (app::CVRRenderModels * this_ptr, app::void * p_render_model));
+IL2CPP_REGISTER_METHOD(0x0167A550, EVRRenderModelError__Enum, LoadTexture_Async, (app::CVRRenderModels * this_ptr, int32_t texture_id, app::void * * pp_texture));
+IL2CPP_REGISTER_METHOD(0x0167A570, void, FreeTexture, (app::CVRRenderModels * this_ptr, app::void * p_texture));
+IL2CPP_REGISTER_METHOD(0x01677EA0, EVRRenderModelError__Enum, LoadTextureD3D11_Async, (app::CVRRenderModels * this_ptr, int32_t texture_id, app::void * p_d3_d11_device, app::void * * pp_d3_d11_texture2_d));
+IL2CPP_REGISTER_METHOD(0x0167A590, EVRRenderModelError__Enum, LoadIntoTextureD3D11_Async, (app::CVRRenderModels * this_ptr, int32_t texture_id, app::void * p_dst_texture));
+IL2CPP_REGISTER_METHOD(0x0167A5B0, void, FreeTextureD3D11, (app::CVRRenderModels * this_ptr, app::void * p_d3_d11_texture2_d));
+IL2CPP_REGISTER_METHOD(0x0167A5D0, uint32_t, GetRenderModelName, (app::CVRRenderModels * this_ptr, uint32_t un_render_model_index, app::StringBuilder * pch_render_model_name, uint32_t un_render_model_name_len));
+IL2CPP_REGISTER_METHOD(0x0167A600, uint32_t, GetRenderModelCount, (app::CVRRenderModels * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01676D30, uint32_t, GetComponentCount, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name));
+IL2CPP_REGISTER_METHOD(0x0167A620, uint32_t, GetComponentName, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, uint32_t un_component_index, app::StringBuilder * pch_component_name, uint32_t un_component_name_len));
+IL2CPP_REGISTER_METHOD(0x0167A650, uint64_t, GetComponentButtonMask, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, app::String * pch_component_name));
+IL2CPP_REGISTER_METHOD(0x0167A670, uint32_t, GetComponentRenderModelName, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, app::String * pch_component_name, app::StringBuilder * pch_component_render_model_name, uint32_t un_component_render_model_name_len));
+IL2CPP_REGISTER_METHOD(0x0167A6A0, bool, GetComponentState, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, app::String * pch_component_name, app::VRControllerState_t * p_controller_state, app::RenderModel_ControllerMode_State_t * p_state, app::RenderModel_ComponentState_t * p_component_state));
+IL2CPP_REGISTER_METHOD(0x0167A880, bool, RenderModelHasComponent, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, app::String * pch_component_name));
+IL2CPP_REGISTER_METHOD(0x0167A8B0, uint32_t, GetRenderModelThumbnailURL, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, app::StringBuilder * pch_thumbnail_u_r_l, uint32_t un_thumbnail_u_r_l_len, app::EVRRenderModelError__Enum * pe_error));
+IL2CPP_REGISTER_METHOD(0x0167A8E0, uint32_t, GetRenderModelOriginalPath, (app::CVRRenderModels * this_ptr, app::String * pch_render_model_name, app::StringBuilder * pch_original_path, uint32_t un_original_path_len, app::EVRRenderModelError__Enum * pe_error));
+IL2CPP_REGISTER_METHOD(0x0167A910, String *, GetRenderModelErrorNameFromEnum, (app::CVRRenderModels * this_ptr, app::EVRRenderModelError__Enum error));
 }

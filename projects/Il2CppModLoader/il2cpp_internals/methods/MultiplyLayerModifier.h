@@ -1,13 +1,13 @@
 #include <interception_macros.h>
 
 namespace app::methods::MultiplyLayerModifier {
-IL2CPP_REGISTER_METHOD(0x0087BFC0, void, ApplyMultipliers, (MultiplyLayerModifier * __this, float strength, float speed));
-IL2CPP_REGISTER_METHOD(0x0087C710, void, SetProperties, (MultiplyLayerModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0087C180, bool, get_IsWorldRotation, (MultiplyLayerModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0087C1C0, bool, DoStrip, (MultiplyLayerModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0087C820, void, OnEnable, (MultiplyLayerModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0087C970, void, OnDisable, (MultiplyLayerModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0087CAC0, void, UpdateModifier, (MultiplyLayerModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0087CB00, void, UpdateWorldRotation, (MultiplyLayerModifier * __this));
-IL2CPP_REGISTER_METHOD(0x0087CCF0, void, __ctor, (MultiplyLayerModifier * __this));
+IL2CPP_REGISTER_METHOD(0x0087BFC0, void, ApplyMultipliers, (app::MultiplyLayerModifier * this_ptr, float strength, float speed));
+IL2CPP_REGISTER_METHOD(0x0087C710, void, SetProperties, (app::MultiplyLayerModifier * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0087C180, bool, get_IsWorldRotation, (app::MultiplyLayerModifier * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0087C1C0, bool, DoStrip, (app::MultiplyLayerModifier * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0087C820, void, OnEnable, (app::MultiplyLayerModifier * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0087C970, void, OnDisable, (app::MultiplyLayerModifier * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0087CAC0, void, UpdateModifier, (app::MultiplyLayerModifier * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0087CB00, void, UpdateWorldRotation, (app::MultiplyLayerModifier * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0087CCF0, void, __ctor, (app::MultiplyLayerModifier * this_ptr));
 }

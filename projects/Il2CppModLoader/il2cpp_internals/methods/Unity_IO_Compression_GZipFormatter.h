@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Unity::IO::Compression::GZipFormatter {
-IL2CPP_REGISTER_METHOD(0x02B78A40, void, __ctor, (GZipFormatter * __this));
-IL2CPP_REGISTER_METHOD(0x02B78AF0, void, __ctor, (GZipFormatter * __this, int32_t compressionLevel));
-IL2CPP_REGISTER_METHOD(0x002FA280, Byte__Array *, GetHeader, (GZipFormatter * __this));
-IL2CPP_REGISTER_METHOD(0x02B78BD0, void, UpdateWithBytesRead, (GZipFormatter * __this, Byte__Array * buffer, int32_t offset, int32_t bytesToCopy));
-IL2CPP_REGISTER_METHOD(0x02B78CE0, Byte__Array *, GetFooter, (GZipFormatter * __this));
-IL2CPP_REGISTER_METHOD(0x02B78DB0, void, WriteUInt32, (GZipFormatter * __this, Byte__Array * b, uint32_t value, int32_t startIndex));
+namespace app::methods::Unity_IO_Compression::GZipFormatter {
+IL2CPP_REGISTER_METHOD(0x02B78A40, void, __ctor_1, (app::GZipFormatter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02B78AF0, void, __ctor_2, (app::GZipFormatter * this_ptr, int32_t compression_level));
+IL2CPP_REGISTER_METHOD(0x002FA280, Byte__Array *, GetHeader, (app::GZipFormatter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02B78BD0, void, UpdateWithBytesRead, (app::GZipFormatter * this_ptr, app::Byte__Array * buffer, int32_t offset, int32_t bytes_to_copy));
+IL2CPP_REGISTER_METHOD(0x02B78CE0, Byte__Array *, GetFooter, (app::GZipFormatter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02B78DB0, void, WriteUInt32, (app::GZipFormatter * this_ptr, app::Byte__Array * b, uint32_t value, int32_t start_index));
 }

@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
 namespace app::methods::OptionalInstantiationHandler {
-IL2CPP_REGISTER_METHOD(0x006178F0, void, Awake, (OptionalInstantiationHandler * __this));
-IL2CPP_REGISTER_METHOD(0x00617980, void, RegisterInstantiation, (OptionalInstantiationHandler * __this, Object_1 * obj, Vector3 position, Quaternion rotation));
-IL2CPP_REGISTER_METHOD(0x00617A60, bool, CanInstantiate, (OptionalInstantiationHandler * __this, Object_1 * obj, Vector3 position, int32_t framesToTestAgainst, int32_t allowedInstanceCount, float distanceThreshold));
-IL2CPP_REGISTER_METHOD(0x00617CB0, void, __ctor, (OptionalInstantiationHandler * __this));
+IL2CPP_REGISTER_METHOD(0x006178F0, void, Awake, (app::OptionalInstantiationHandler * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00617980, void, RegisterInstantiation, (app::OptionalInstantiationHandler * this_ptr, app::Object_1 * obj, app::Vector3 position, app::Quaternion rotation));
+IL2CPP_REGISTER_METHOD(0x00617A60, bool, CanInstantiate, (app::OptionalInstantiationHandler * this_ptr, app::Object_1 * obj, app::Vector3 position, int32_t frames_to_test_against, int32_t allowed_instance_count, float distance_threshold));
+IL2CPP_REGISTER_METHOD(0x00617CB0, void, __ctor, (app::OptionalInstantiationHandler * this_ptr));
 }

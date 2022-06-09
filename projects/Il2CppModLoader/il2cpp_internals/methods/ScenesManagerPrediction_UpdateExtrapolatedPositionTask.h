@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
 namespace app::methods::ScenesManagerPrediction_UpdateExtrapolatedPositionTask {
-IL2CPP_REGISTER_METHOD(0x00124170, void, __ctor, (ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * __this, ScenesManagerPrediction * owner, Vector2 extrapolatedPosition, Vector2 speed, float speedMultiplier, Color debugColor, ScenesManagerPrediction_UpdatePositionType__Enum updateType));
-IL2CPP_REGISTER_METHOD(0x001241C0, bool, get_IsFinished, (ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001241D0, void, Update, (ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001241F0, void, UpdateIterationStart, (ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x00124200, void, UpdateIterationContinuation, (ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x00124170, void, __ctor, (app::ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * this_ptr, app::ScenesManagerPrediction * owner, app::Vector2 extrapolated_position, app::Vector2 speed, float speed_multiplier, app::Color debug_color, app::ScenesManagerPrediction_UpdatePositionType__Enum update_type));
+IL2CPP_REGISTER_METHOD(0x001241C0, bool, get_IsFinished, (app::ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001241D0, void, Update, (app::ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001241F0, void, UpdateIterationStart, (app::ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00124200, void, UpdateIterationContinuation, (app::ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * this_ptr));
 }

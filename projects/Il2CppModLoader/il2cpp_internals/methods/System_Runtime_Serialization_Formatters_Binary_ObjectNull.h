@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Runtime::Serialization::Formatters::Binary::ObjectNull {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ObjectNull * __this));
-IL2CPP_REGISTER_METHOD(0x002FC6E0, void, SetNullCount, (ObjectNull * __this, int32_t nullCount));
-IL2CPP_REGISTER_METHOD(0x01D94530, void, Write, (ObjectNull * __this, _BinaryWriter * sout));
-IL2CPP_REGISTER_METHOD(0x01D94660, void, Read, (ObjectNull * __this, _BinaryParser * input, BinaryHeaderEnum__Enum binaryHeaderEnum));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, Dump, (ObjectNull * __this));
+namespace app::methods::System_Runtime_Serialization_Formatters_Binary::ObjectNull {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ObjectNull * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FC6E0, void, SetNullCount, (app::ObjectNull * this_ptr, int32_t null_count));
+IL2CPP_REGISTER_METHOD(0x01D94530, void, Write, (app::ObjectNull * this_ptr, app::_BinaryWriter * sout));
+IL2CPP_REGISTER_METHOD(0x01D94660, void, Read, (app::ObjectNull * this_ptr, app::_BinaryParser * input, app::BinaryHeaderEnum__Enum binary_header_enum));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, Dump, (app::ObjectNull * this_ptr));
 }

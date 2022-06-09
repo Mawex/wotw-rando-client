@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::InteractionGraph::ConditionalInteractionTransition {
-IL2CPP_REGISTER_METHOD(0x0198CE50, IInteractionNode *, get_TransitionDestination, (ConditionalInteractionTransition * __this));
-IL2CPP_REGISTER_METHOD(0x0198CF10, ICondition *, get_ResolvedCondition, (ConditionalInteractionTransition * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerEnter, (ConditionalInteractionTransition * __this, IInteractionNode * owner));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerExit, (ConditionalInteractionTransition * __this, IInteractionNode * owner));
-IL2CPP_REGISTER_METHOD(0x0198CFB0, bool, Validate, (ConditionalInteractionTransition * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00626870, void, __ctor, (ConditionalInteractionTransition * __this));
+namespace app::methods::Moon_InteractionGraph::ConditionalInteractionTransition {
+IL2CPP_REGISTER_METHOD(0x0198CE50, IInteractionNode *, get_TransitionDestination, (app::ConditionalInteractionTransition * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0198CF10, ICondition *, get_ResolvedCondition, (app::ConditionalInteractionTransition * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerEnter, (app::ConditionalInteractionTransition * this_ptr, app::IInteractionNode * owner));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnOwnerExit, (app::ConditionalInteractionTransition * this_ptr, app::IInteractionNode * owner));
+IL2CPP_REGISTER_METHOD(0x0198CFB0, bool, Validate, (app::ConditionalInteractionTransition * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00626870, void, __ctor, (app::ConditionalInteractionTransition * this_ptr));
 }

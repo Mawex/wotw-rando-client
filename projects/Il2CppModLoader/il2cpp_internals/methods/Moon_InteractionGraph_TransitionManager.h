@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::InteractionGraph::TransitionManager {
-IL2CPP_REGISTER_METHOD(0x01994540, TransitionManager *, AddTransition, (TransitionManager * __this, IState_1 * from, IState_1 * to, ICondition * condition, IContext * context));
-IL2CPP_REGISTER_METHOD(0x01994860, TransitionManager *, AddTransition, (TransitionManager * __this, IState_1 * from, IState_1 * to, Func_1_Boolean_ * condition, IContext * context));
-IL2CPP_REGISTER_METHOD(0x019949E0, bool, Process, (TransitionManager * __this, StateMachine_1 * stateMachine));
-IL2CPP_REGISTER_METHOD(0x01994BE0, bool, ProcessTransitionList, (TransitionManager * __this, StateMachine_1 * stateMachine, List_1_Moon_InteractionGraph_Transition_ * conditionAndStatePairList));
-IL2CPP_REGISTER_METHOD(0x01994D00, void, __ctor, (TransitionManager * __this));
+namespace app::methods::Moon_InteractionGraph::TransitionManager {
+IL2CPP_REGISTER_METHOD(0x01994540, TransitionManager *, AddTransition_1, (app::TransitionManager * this_ptr, app::IState_1 * from, app::IState_1 * to, app::ICondition * condition, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x01994860, TransitionManager *, AddTransition_2, (app::TransitionManager * this_ptr, app::IState_1 * from, app::IState_1 * to, app::Func_1_Boolean_ * condition, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x019949E0, bool, Process, (app::TransitionManager * this_ptr, app::StateMachine_1 * state_machine));
+IL2CPP_REGISTER_METHOD(0x01994BE0, bool, ProcessTransitionList, (app::TransitionManager * this_ptr, app::StateMachine_1 * state_machine, app::List_1_Moon_InteractionGraph_Transition_ * condition_and_state_pair_list));
+IL2CPP_REGISTER_METHOD(0x01994D00, void, __ctor, (app::TransitionManager * this_ptr));
 }

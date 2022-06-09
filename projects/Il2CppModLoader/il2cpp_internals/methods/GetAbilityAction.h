@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::GetAbilityAction {
-IL2CPP_REGISTER_METHOD(0x00E11760, void, Perform, (GetAbilityAction * __this, IContext * context));
-IL2CPP_REGISTER_METHOD(0x00E11920, void, __ctor, (GetAbilityAction * __this));
+IL2CPP_REGISTER_METHOD(0x00E11760, void, Perform, (app::GetAbilityAction * this_ptr, app::IContext * context));
+IL2CPP_REGISTER_METHOD(0x00E11920, void, __ctor, (app::GetAbilityAction * this_ptr));
 }

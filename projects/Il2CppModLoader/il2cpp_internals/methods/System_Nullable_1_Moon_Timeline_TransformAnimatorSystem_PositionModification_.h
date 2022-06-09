@@ -1,19 +1,19 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Nullable_1_Moon::Timeline::TransformAnimatorSystem_PositionModification_ {
-IL2CPP_REGISTER_METHOD(0x001F63D0, bool, get_HasValue, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this));
+namespace app::methods::System::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_ {
+IL2CPP_REGISTER_METHOD(0x001F63D0, bool, get_HasValue, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x047519B0, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification__get_HasValue__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x001F63B0, void, __ctor, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this, TransformAnimatorSystem_PositionModification value));
+IL2CPP_REGISTER_METHOD(0x001F63B0, void, __ctor, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr, app::TransformAnimatorSystem_PositionModification value));
 IL2CPP_REGISTER_METHODINFO(0x04751238, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___ctor__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x001F63E0, TransformAnimatorSystem_PositionModification, get_Value, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001F63E0, TransformAnimatorSystem_PositionModification, get_Value, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04799D50, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification__get_Value__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x001F66E0, TransformAnimatorSystem_PositionModification, GetValueOrDefault, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this));
+IL2CPP_REGISTER_METHOD(0x001F66E0, TransformAnimatorSystem_PositionModification, GetValueOrDefault_1, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0471E428, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification__GetValueOrDefault__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x001F6500, bool, Equals, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this, Object * other));
-IL2CPP_REGISTER_METHOD(0x001F6580, bool, Equals, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_ other));
-IL2CPP_REGISTER_METHOD(0x001F6610, int32_t, GetHashCode, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x001F6700, TransformAnimatorSystem_PositionModification, GetValueOrDefault, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this, TransformAnimatorSystem_PositionModification defaultValue));
-IL2CPP_REGISTER_METHOD(0x001F6750, String *, ToString, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * __this));
-IL2CPP_REGISTER_METHOD(0x0254FCC0, Object *, Box, (Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_ o));
-IL2CPP_REGISTER_METHOD(0x0254FD50, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_, Unbox, (Object * o));
+IL2CPP_REGISTER_METHOD(0x001F6500, bool, Equals_1, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr, app::Object * other));
+IL2CPP_REGISTER_METHOD(0x001F6580, bool, Equals_2, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr, app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_ other));
+IL2CPP_REGISTER_METHOD(0x001F6610, int32_t, GetHashCode, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x001F6700, TransformAnimatorSystem_PositionModification, GetValueOrDefault_2, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr, app::TransformAnimatorSystem_PositionModification default_value));
+IL2CPP_REGISTER_METHOD(0x001F6750, String *, ToString, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification___Boxed * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0254FCC0, Object *, Box, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_ o));
+IL2CPP_REGISTER_METHOD(0x0254FD50, Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_, Unbox, (app::Object * o));
 }

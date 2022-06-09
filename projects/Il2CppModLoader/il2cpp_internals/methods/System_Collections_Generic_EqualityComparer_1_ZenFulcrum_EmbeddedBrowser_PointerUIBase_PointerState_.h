@@ -1,11 +1,11 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::EqualityComparer_1_ZenFulcrum::EmbeddedBrowser::PointerUIBase_PointerState_ {
+namespace app::methods::System_Collections_Generic::EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ {
 IL2CPP_REGISTER_METHOD(0x02807CD0, EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ *, get_Default, ());
 IL2CPP_REGISTER_METHOD(0x02B5D730, EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ *, CreateComparer, ());
-IL2CPP_REGISTER_METHOD(0x02B5E090, int32_t, IndexOf, (EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this, PointerUIBase_PointerState__Array * array, PointerUIBase_PointerState value, int32_t startIndex, int32_t count));
-IL2CPP_REGISTER_METHOD(0x02B5E1C0, int32_t, LastIndexOf, (EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this, PointerUIBase_PointerState__Array * array, PointerUIBase_PointerState value, int32_t startIndex, int32_t count));
-IL2CPP_REGISTER_METHOD(0x02B5E2E0, int32_t, IEqualityComparer_GetHashCode, (EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this, Object * obj));
-IL2CPP_REGISTER_METHOD(0x02B5E400, bool, IEqualityComparer_Equals, (EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this, Object * x, Object * y));
-IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * __this));
+IL2CPP_REGISTER_METHOD(0x02B5E090, int32_t, IndexOf, (app::EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * this_ptr, app::PointerUIBase_PointerState__Array * array, app::PointerUIBase_PointerState value, int32_t start_index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x02B5E1C0, int32_t, LastIndexOf, (app::EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * this_ptr, app::PointerUIBase_PointerState__Array * array, app::PointerUIBase_PointerState value, int32_t start_index, int32_t count));
+IL2CPP_REGISTER_METHOD(0x02B5E2E0, int32_t, IEqualityComparer_GetHashCode, (app::EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * this_ptr, app::Object * obj));
+IL2CPP_REGISTER_METHOD(0x02B5E400, bool, IEqualityComparer_Equals, (app::EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * this_ptr, app::Object * x, app::Object * y));
+IL2CPP_REGISTER_METHOD(0x018E6D70, void, __ctor, (app::EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_PointerUIBase_PointerState_ * this_ptr));
 }

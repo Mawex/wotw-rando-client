@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Timeline::ITimelineEntityParentExtensions {
-IL2CPP_REGISTER_METHOD(0x01BC0C90, bool, IsExternalRecord, (ITimelineEntityParent * registry, EntityId entityId));
-IL2CPP_REGISTER_METHOD(0x01BC0E30, bool, HasRecordForId, (ITimelineEntityParent * parent, EntityId entityId));
-IL2CPP_REGISTER_METHOD(0x01BC0FD0, bool, HasRecordFor, (ITimelineEntityParent * parent, ITimelineEntity * entity));
-IL2CPP_REGISTER_METHOD(0x01BC11C0, TimelineConstraint *, GetConstraintForEntity, (ITimelineEntityParent * parent, EntityId entity, Constraint__Enum constraint));
-IL2CPP_REGISTER_METHOD(0x01BC12B0, bool, IsEndConstraintDependentOnAnything, (ITimelineEntityParent * parent, EntityId owningEntityId));
-IL2CPP_REGISTER_METHOD(0x01BC12E0, bool, IsEndConstraintDependentOnAnything, (IConstraint * constraint, EntityId owningEntityId));
-IL2CPP_REGISTER_METHOD(0x01BC1410, bool, IsContentEnd, (TimelineEntityRecord * record));
-IL2CPP_REGISTER_METHOD(0x01BC1460, TimelineEntityRecord *, GetRecordFor, (ITimelineEntityParent * timeline, ITimelineEntity * timelineEntity));
+namespace app::methods::Moon_Timeline::ITimelineEntityParentExtensions {
+IL2CPP_REGISTER_METHOD(0x01BC0C90, bool, IsExternalRecord, (app::ITimelineEntityParent * registry, app::EntityId entity_id));
+IL2CPP_REGISTER_METHOD(0x01BC0E30, bool, HasRecordForId, (app::ITimelineEntityParent * parent, app::EntityId entity_id));
+IL2CPP_REGISTER_METHOD(0x01BC0FD0, bool, HasRecordFor, (app::ITimelineEntityParent * parent, app::ITimelineEntity * entity));
+IL2CPP_REGISTER_METHOD(0x01BC11C0, TimelineConstraint *, GetConstraintForEntity, (app::ITimelineEntityParent * parent, app::EntityId entity, app::Constraint__Enum constraint));
+IL2CPP_REGISTER_METHOD(0x01BC12B0, bool, IsEndConstraintDependentOnAnything_1, (app::ITimelineEntityParent * parent, app::EntityId owning_entity_id));
+IL2CPP_REGISTER_METHOD(0x01BC12E0, bool, IsEndConstraintDependentOnAnything_2, (app::IConstraint * constraint, app::EntityId owning_entity_id));
+IL2CPP_REGISTER_METHOD(0x01BC1410, bool, IsContentEnd, (app::TimelineEntityRecord * record));
+IL2CPP_REGISTER_METHOD(0x01BC1460, TimelineEntityRecord *, GetRecordFor, (app::ITimelineEntityParent * timeline, app::ITimelineEntity * timeline_entity));
 }

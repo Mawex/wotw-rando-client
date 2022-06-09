@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::EmptyArray_1_Moon::Timeline::Reaction_ {
+namespace app::methods::System::EmptyArray_1_Moon_Timeline_Reaction_ {
 IL2CPP_REGISTER_METHOD(0x0287A010, void, __cctor, ());
 }

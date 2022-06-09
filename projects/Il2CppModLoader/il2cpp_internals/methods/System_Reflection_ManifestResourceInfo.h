@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Reflection::ManifestResourceInfo {
-IL2CPP_REGISTER_METHOD(0x00E332C0, void, __ctor, (ManifestResourceInfo * __this, Assembly * containingAssembly, String * containingFileName, ResourceLocation__Enum resourceLocation));
-IL2CPP_REGISTER_METHOD(0x002FA280, Assembly *, get_ReferencedAssembly, (ManifestResourceInfo * __this));
-IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_FileName, (ManifestResourceInfo * __this));
-IL2CPP_REGISTER_METHOD(0x002FD1D0, ResourceLocation__Enum, get_ResourceLocation, (ManifestResourceInfo * __this));
+namespace app::methods::System_Reflection::ManifestResourceInfo {
+IL2CPP_REGISTER_METHOD(0x00E332C0, void, __ctor, (app::ManifestResourceInfo * this_ptr, app::Assembly * containing_assembly, app::String * containing_file_name, app::ResourceLocation__Enum resource_location));
+IL2CPP_REGISTER_METHOD(0x002FA280, Assembly *, get_ReferencedAssembly, (app::ManifestResourceInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FB930, String *, get_FileName, (app::ManifestResourceInfo * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FD1D0, ResourceLocation__Enum, get_ResourceLocation, (app::ManifestResourceInfo * this_ptr));
 }

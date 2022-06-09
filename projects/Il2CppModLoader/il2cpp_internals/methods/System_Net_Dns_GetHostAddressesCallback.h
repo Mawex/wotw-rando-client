@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::Dns_GetHostAddressesCallback {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (Dns_GetHostAddressesCallback * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x014347E0, IPAddress__Array *, Invoke, (Dns_GetHostAddressesCallback * __this, String * hostName));
-IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (Dns_GetHostAddressesCallback * __this, String * hostName, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00611B40, IPAddress__Array *, EndInvoke, (Dns_GetHostAddressesCallback * __this, IAsyncResult * result));
+namespace app::methods::System_Net::Dns_GetHostAddressesCallback {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::Dns_GetHostAddressesCallback * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x014347E0, IPAddress__Array *, Invoke, (app::Dns_GetHostAddressesCallback * this_ptr, app::String * host_name));
+IL2CPP_REGISTER_METHOD(0x00674080, IAsyncResult *, BeginInvoke, (app::Dns_GetHostAddressesCallback * this_ptr, app::String * host_name, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00611B40, IPAddress__Array *, EndInvoke, (app::Dns_GetHostAddressesCallback * this_ptr, app::IAsyncResult * result));
 }

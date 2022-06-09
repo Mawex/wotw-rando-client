@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
 namespace app::methods::MaterialBasedResourceMapEntry {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (MaterialBasedResourceMapEntry * __this));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::MaterialBasedResourceMapEntry * this_ptr));
 }

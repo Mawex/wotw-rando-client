@@ -1,6 +1,6 @@
 #include <interception_macros.h>
 
 namespace app::methods::SpringPlaceholder {
-IL2CPP_REGISTER_METHOD(0x009A8240, void, Awake, (SpringPlaceholder * __this));
-IL2CPP_REGISTER_METHOD(0x009A8660, void, __ctor, (SpringPlaceholder * __this));
+IL2CPP_REGISTER_METHOD(0x009A8240, void, Awake, (app::SpringPlaceholder * this_ptr));
+IL2CPP_REGISTER_METHOD(0x009A8660, void, __ctor, (app::SpringPlaceholder * this_ptr));
 }

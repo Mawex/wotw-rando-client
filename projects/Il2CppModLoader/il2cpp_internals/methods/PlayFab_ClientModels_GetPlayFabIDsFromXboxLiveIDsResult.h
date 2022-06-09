@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ClientModels::GetPlayFabIDsFromXboxLiveIDsResult {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (GetPlayFabIDsFromXboxLiveIDsResult * __this));
+namespace app::methods::PlayFab_ClientModels::GetPlayFabIDsFromXboxLiveIDsResult {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::GetPlayFabIDsFromXboxLiveIDsResult * this_ptr));
 }

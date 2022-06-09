@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
 namespace app::methods::WaterSplashObject {
-IL2CPP_REGISTER_METHOD(0x008E2280, void, RenameToFollowObject, (WaterSplashObject * __this));
-IL2CPP_REGISTER_METHOD(0x00850FA0, void, Awake, (WaterSplashObject * __this));
-IL2CPP_REGISTER_METHOD(0x008E2370, void, OnValidate, (WaterSplashObject * __this));
-IL2CPP_REGISTER_METHOD(0x008E2380, void, Update, (WaterSplashObject * __this));
-IL2CPP_REGISTER_METHOD(0x008E3520, void, OnMoved, (WaterSplashObject * __this, Vector3 speed, float deltaTime));
-IL2CPP_REGISTER_METHOD(0x008E3DC0, void, UpdateMesh, (WaterSplashObject * __this));
-IL2CPP_REGISTER_METHOD(0x008E4270, void, OnDrawGizmosSelected, (WaterSplashObject * __this));
-IL2CPP_REGISTER_METHOD(0x008E4910, void, __ctor, (WaterSplashObject * __this));
+IL2CPP_REGISTER_METHOD(0x008E2280, void, RenameToFollowObject, (app::WaterSplashObject * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00850FA0, void, Awake, (app::WaterSplashObject * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008E2370, void, OnValidate, (app::WaterSplashObject * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008E2380, void, Update, (app::WaterSplashObject * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008E3520, void, OnMoved, (app::WaterSplashObject * this_ptr, app::Vector3 speed, float delta_time));
+IL2CPP_REGISTER_METHOD(0x008E3DC0, void, UpdateMesh, (app::WaterSplashObject * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008E4270, void, OnDrawGizmosSelected, (app::WaterSplashObject * this_ptr));
+IL2CPP_REGISTER_METHOD(0x008E4910, void, __ctor, (app::WaterSplashObject * this_ptr));
 }

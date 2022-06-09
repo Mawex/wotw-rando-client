@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::Newtonsoft::Json::Serialization::DefaultSerializationBinder {
-IL2CPP_REGISTER_METHOD(0x0186AAF0, void, __ctor, (DefaultSerializationBinder * __this));
-IL2CPP_REGISTER_METHOD(0x0186AD20, Type *, GetTypeFromTypeNameKey, (DefaultSerializationBinder * __this, StructMultiKey_2_System_String_System_String_ typeNameKey));
+namespace app::methods::Newtonsoft_Json_Serialization::DefaultSerializationBinder {
+IL2CPP_REGISTER_METHOD(0x0186AAF0, void, __ctor, (app::DefaultSerializationBinder * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0186AD20, Type *, GetTypeFromTypeNameKey, (app::DefaultSerializationBinder * this_ptr, app::StructMultiKey_2_System_String_System_String_ type_name_key));
 IL2CPP_REGISTER_METHODINFO(0x04715558, DefaultSerializationBinder_GetTypeFromTypeNameKey__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0186B290, Type *, GetGenericTypeFromTypeName, (DefaultSerializationBinder * __this, String * typeName, Assembly * assembly));
-IL2CPP_REGISTER_METHOD(0x0186B5A0, Type *, GetTypeByName, (DefaultSerializationBinder * __this, StructMultiKey_2_System_String_System_String_ typeNameKey));
-IL2CPP_REGISTER_METHOD(0x0186B670, Type *, BindToType, (DefaultSerializationBinder * __this, String * assemblyName, String * typeName));
-IL2CPP_REGISTER_METHOD(0x0186B720, void, BindToName, (DefaultSerializationBinder * __this, Type * serializedType, String * * assemblyName, String * * typeName));
+IL2CPP_REGISTER_METHOD(0x0186B290, Type *, GetGenericTypeFromTypeName, (app::DefaultSerializationBinder * this_ptr, app::String * type_name, app::Assembly * assembly));
+IL2CPP_REGISTER_METHOD(0x0186B5A0, Type *, GetTypeByName, (app::DefaultSerializationBinder * this_ptr, app::StructMultiKey_2_System_String_System_String_ type_name_key));
+IL2CPP_REGISTER_METHOD(0x0186B670, Type *, BindToType, (app::DefaultSerializationBinder * this_ptr, app::String * assembly_name, app::String * type_name));
+IL2CPP_REGISTER_METHOD(0x0186B720, void, BindToName, (app::DefaultSerializationBinder * this_ptr, app::Type * serialized_type, app::String * * assembly_name, app::String * * type_name));
 IL2CPP_REGISTER_METHOD(0x0186B7A0, void, __cctor, ());
 }

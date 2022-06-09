@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::Telemetry::Performance::ProfilingSettings___c {
+namespace app::methods::Moon_Telemetry_Performance::ProfilingSettings___c {
 IL2CPP_REGISTER_METHOD(0x00E39930, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (ProfilingSettings_c * __this));
-IL2CPP_REGISTER_METHOD(0x00E39A70, IEnumerable_1_System_Type_ *, _CreateSettings_b__11_0, (ProfilingSettings_c * __this, Assembly * x));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::ProfilingSettings_c * this_ptr));
+IL2CPP_REGISTER_METHOD(0x00E39A70, IEnumerable_1_System_Type_ *, _CreateSettings_b__11_0, (app::ProfilingSettings_c * this_ptr, app::Assembly * x));
 IL2CPP_REGISTER_METHODINFO(0x04778B50, ProfilingSettings_c__CreateSettings_b__11_0__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x00E39AA0, bool, _CreateSettings_b__11_1, (ProfilingSettings_c * __this, Type * x));
+IL2CPP_REGISTER_METHOD(0x00E39AA0, bool, _CreateSettings_b__11_1, (app::ProfilingSettings_c * this_ptr, app::Type * x));
 IL2CPP_REGISTER_METHODINFO(0x04765F78, ProfilingSettings_c__CreateSettings_b__11_1__MethodInfo);
 }

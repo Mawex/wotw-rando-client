@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Linq::Expressions::LogicalBinaryExpression {
-IL2CPP_REGISTER_METHOD(0x02417850, void, __ctor, (LogicalBinaryExpression * __this, ExpressionType__Enum nodeType, Expression * left, Expression * right));
-IL2CPP_REGISTER_METHOD(0x02417890, Type *, get_Type, (LogicalBinaryExpression * __this));
-IL2CPP_REGISTER_METHOD(0x002FD1D0, ExpressionType__Enum, get_NodeType, (LogicalBinaryExpression * __this));
+namespace app::methods::System_Linq_Expressions::LogicalBinaryExpression {
+IL2CPP_REGISTER_METHOD(0x02417850, void, __ctor, (app::LogicalBinaryExpression * this_ptr, app::ExpressionType__Enum node_type, app::Expression * left, app::Expression * right));
+IL2CPP_REGISTER_METHOD(0x02417890, Type *, get_Type, (app::LogicalBinaryExpression * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FD1D0, ExpressionType__Enum, get_NodeType, (app::LogicalBinaryExpression * this_ptr));
 }

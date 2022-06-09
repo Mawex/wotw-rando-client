@@ -1,12 +1,12 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::Queue_1_System::Collections::IEnumerator_ {
-IL2CPP_REGISTER_METHOD(0x02CA77B0, IEnumerator *, Dequeue, (Queue_1_System_Collections_IEnumerator_ * __this));
+namespace app::methods::System_Collections_Generic::Queue_1_System_Collections_IEnumerator_ {
+IL2CPP_REGISTER_METHOD(0x02CA77B0, IEnumerator *, Dequeue, (app::Queue_1_System_Collections_IEnumerator_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x0475BD88, Queue_1_System_Collections_IEnumerator__Dequeue__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x002FD1D0, int32_t, get_Count, (Queue_1_System_Collections_IEnumerator_ * __this));
+IL2CPP_REGISTER_METHOD(0x002FD1D0, int32_t, get_Count, (app::Queue_1_System_Collections_IEnumerator_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x047490C0, Queue_1_System_Collections_IEnumerator__get_Count__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x02CA7610, void, Enqueue, (Queue_1_System_Collections_IEnumerator_ * __this, IEnumerator * item));
+IL2CPP_REGISTER_METHOD(0x02CA7610, void, Enqueue, (app::Queue_1_System_Collections_IEnumerator_ * this_ptr, app::IEnumerator * item));
 IL2CPP_REGISTER_METHODINFO(0x04774408, Queue_1_System_Collections_IEnumerator__Enqueue__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x0243CB70, void, __ctor, (Queue_1_System_Collections_IEnumerator_ * __this));
+IL2CPP_REGISTER_METHOD(0x0243CB70, void, __ctor, (app::Queue_1_System_Collections_IEnumerator_ * this_ptr));
 IL2CPP_REGISTER_METHODINFO(0x04736078, Queue_1_System_Collections_IEnumerator___ctor__MethodInfo);
 }

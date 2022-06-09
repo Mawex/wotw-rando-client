@@ -1,9 +1,9 @@
 #include <interception_macros.h>
 
-namespace app::methods::UnityEngine::UI::ClipperRegistry {
-IL2CPP_REGISTER_METHOD(0x01F2F2F0, void, __ctor, (ClipperRegistry * __this));
+namespace app::methods::UnityEngine_UI::ClipperRegistry {
+IL2CPP_REGISTER_METHOD(0x01F2F2F0, void, __ctor, (app::ClipperRegistry * this_ptr));
 IL2CPP_REGISTER_METHOD(0x01F2F440, ClipperRegistry *, get_instance, ());
-IL2CPP_REGISTER_METHOD(0x01F2F6D0, void, Cull, (ClipperRegistry * __this));
-IL2CPP_REGISTER_METHOD(0x01F2F890, void, Register, (IClipper * c));
-IL2CPP_REGISTER_METHOD(0x01F2F940, void, Unregister, (IClipper * c));
+IL2CPP_REGISTER_METHOD(0x01F2F6D0, void, Cull, (app::ClipperRegistry * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01F2F890, void, Register, (app::IClipper * c));
+IL2CPP_REGISTER_METHOD(0x01F2F940, void, Unregister, (app::IClipper * c));
 }

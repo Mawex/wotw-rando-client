@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::FinalIK::InteractionTrigger_CameraPosition {
-IL2CPP_REGISTER_METHOD(0x02A163D0, Quaternion, GetRotation, (InteractionTrigger_CameraPosition * __this));
-IL2CPP_REGISTER_METHOD(0x02A16750, bool, IsInRange, (InteractionTrigger_CameraPosition * __this, Transform * raycastFrom, RaycastHit hit, Transform * trigger, float * error));
-IL2CPP_REGISTER_METHOD(0x02A16A80, void, __ctor, (InteractionTrigger_CameraPosition * __this));
+namespace app::methods::RootMotion_FinalIK::InteractionTrigger_CameraPosition {
+IL2CPP_REGISTER_METHOD(0x02A163D0, Quaternion, GetRotation, (app::InteractionTrigger_CameraPosition * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02A16750, bool, IsInRange, (app::InteractionTrigger_CameraPosition * this_ptr, app::Transform * raycast_from, app::RaycastHit hit, app::Transform * trigger, app::float * error));
+IL2CPP_REGISTER_METHOD(0x02A16A80, void, __ctor, (app::InteractionTrigger_CameraPosition * this_ptr));
 }

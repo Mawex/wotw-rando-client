@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVROverlay__SetOverlayFlag {
-IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (IVROverlay_SetOverlayFlag * __this, Object * object, void * method_1));
-IL2CPP_REGISTER_METHOD(0x02D7F710, EVROverlayError__Enum, Invoke, (IVROverlay_SetOverlayFlag * __this, uint64_t ulOverlayHandle, VROverlayFlags__Enum eOverlayFlag, bool bEnabled));
-IL2CPP_REGISTER_METHOD(0x02D7FAB0, IAsyncResult *, BeginInvoke, (IVROverlay_SetOverlayFlag * __this, uint64_t ulOverlayHandle, VROverlayFlags__Enum eOverlayFlag, bool bEnabled, AsyncCallback * callback, Object * object));
-IL2CPP_REGISTER_METHOD(0x00F550D0, EVROverlayError__Enum, EndInvoke, (IVROverlay_SetOverlayFlag * __this, IAsyncResult * result));
+namespace app::methods::ZenFulcrum_VR_OpenVRBinding::IVROverlay__SetOverlayFlag {
+IL2CPP_REGISTER_METHOD(0x00611810, void, __ctor, (app::IVROverlay_SetOverlayFlag * this_ptr, app::Object * object, app::void * method_1));
+IL2CPP_REGISTER_METHOD(0x02D7F710, EVROverlayError__Enum, Invoke, (app::IVROverlay_SetOverlayFlag * this_ptr, uint64_t ul_overlay_handle, app::VROverlayFlags__Enum e_overlay_flag, bool b_enabled));
+IL2CPP_REGISTER_METHOD(0x02D7FAB0, IAsyncResult *, BeginInvoke, (app::IVROverlay_SetOverlayFlag * this_ptr, uint64_t ul_overlay_handle, app::VROverlayFlags__Enum e_overlay_flag, bool b_enabled, app::AsyncCallback * callback, app::Object * object));
+IL2CPP_REGISTER_METHOD(0x00F550D0, EVROverlayError__Enum, EndInvoke, (app::IVROverlay_SetOverlayFlag * this_ptr, app::IAsyncResult * result));
 }

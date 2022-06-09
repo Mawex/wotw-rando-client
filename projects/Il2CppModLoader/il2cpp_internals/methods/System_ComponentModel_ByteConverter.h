@@ -1,10 +1,10 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::ComponentModel::ByteConverter {
-IL2CPP_REGISTER_METHOD(0x024A5B20, Type *, get_TargetType, (ByteConverter * __this));
-IL2CPP_REGISTER_METHOD(0x024A5BC0, Object *, FromString, (ByteConverter * __this, String * value, int32_t radix));
-IL2CPP_REGISTER_METHOD(0x024A5C80, Object *, FromString, (ByteConverter * __this, String * value, NumberFormatInfo * formatInfo));
-IL2CPP_REGISTER_METHOD(0x024A5D40, Object *, FromString, (ByteConverter * __this, String * value, CultureInfo * culture));
-IL2CPP_REGISTER_METHOD(0x024A5DF0, String *, ToString, (ByteConverter * __this, Object * value, NumberFormatInfo * formatInfo));
-IL2CPP_REGISTER_METHOD(0x01FE1B70, void, __ctor, (ByteConverter * __this));
+namespace app::methods::System_ComponentModel::ByteConverter {
+IL2CPP_REGISTER_METHOD(0x024A5B20, Type *, get_TargetType, (app::ByteConverter * this_ptr));
+IL2CPP_REGISTER_METHOD(0x024A5BC0, Object *, FromString_1, (app::ByteConverter * this_ptr, app::String * value, int32_t radix));
+IL2CPP_REGISTER_METHOD(0x024A5C80, Object *, FromString_2, (app::ByteConverter * this_ptr, app::String * value, app::NumberFormatInfo * format_info));
+IL2CPP_REGISTER_METHOD(0x024A5D40, Object *, FromString_3, (app::ByteConverter * this_ptr, app::String * value, app::CultureInfo * culture));
+IL2CPP_REGISTER_METHOD(0x024A5DF0, String *, ToString, (app::ByteConverter * this_ptr, app::Object * value, app::NumberFormatInfo * format_info));
+IL2CPP_REGISTER_METHOD(0x01FE1B70, void, __ctor, (app::ByteConverter * this_ptr));
 }

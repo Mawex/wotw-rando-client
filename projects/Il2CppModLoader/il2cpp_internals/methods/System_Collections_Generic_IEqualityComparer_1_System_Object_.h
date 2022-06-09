@@ -1,4 +1,4 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Collections::Generic::IEqualityComparer_1_System::Object_ {
+namespace app::methods::System_Collections_Generic::IEqualityComparer_1_System_Object_ {
 }

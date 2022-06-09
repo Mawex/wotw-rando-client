@@ -1,5 +1,5 @@
 #include <interception_macros.h>
 
-namespace app::methods::PlayFab::ServerModels::UserFacebookInfo {
-IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (UserFacebookInfo_1 * __this));
+namespace app::methods::PlayFab_ServerModels::UserFacebookInfo {
+IL2CPP_REGISTER_METHOD(0x002FA000, void, __ctor, (app::UserFacebookInfo_1 * this_ptr));
 }

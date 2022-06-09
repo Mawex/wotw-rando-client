@@ -1,29 +1,29 @@
 #include <interception_macros.h>
 
-namespace app::methods::RootMotion::FinalIK::IKSolverTrigonometric {
-IL2CPP_REGISTER_METHOD(0x02C02BB0, void, SetBendGoalPosition, (IKSolverTrigonometric * __this, Vector3 goalPosition, float weight));
-IL2CPP_REGISTER_METHOD(0x02C02F00, void, SetBendPlaneToCurrent, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C03300, void, SetIKRotation, (IKSolverTrigonometric * __this, Quaternion rotation));
-IL2CPP_REGISTER_METHOD(0x02C03310, void, SetIKRotationWeight, (IKSolverTrigonometric * __this, float weight));
-IL2CPP_REGISTER_METHOD(0x02C033E0, Quaternion, GetIKRotation, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x0091E0B0, float, GetIKRotationWeight, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C033F0, IKSolver_Point__Array *, GetPoints, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C03590, IKSolver_Point *, GetPoint, (IKSolverTrigonometric * __this, Transform * transform));
-IL2CPP_REGISTER_METHOD(0x02C03740, void, StoreDefaultLocalState, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C037A0, void, FixTransforms, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C03800, bool, IsValid, (IKSolverTrigonometric * __this, String * * message));
-IL2CPP_REGISTER_METHOD(0x02C03D40, bool, SetChain, (IKSolverTrigonometric * __this, Transform * bone1, Transform * bone2, Transform * bone3, Transform * root));
-IL2CPP_REGISTER_METHOD(0x02C03DB0, void, Solve, (Transform * bone1, Transform * bone2, Transform * bone3, Vector3 targetPosition, Vector3 bendNormal, float weight));
-IL2CPP_REGISTER_METHOD(0x02C04B50, void, SolveVirtual, (IKSolver_Bone__Array * bones, int32_t first, int32_t second, int32_t third, Vector3 targetPosition, Vector3 bendNormal, float weight));
-IL2CPP_REGISTER_METHOD(0x02C055C0, void, SolveVirtualPositions, (IKSolver_Bone * bone1, IKSolver_Bone * bone2, IKSolver_Bone * bone3, Vector3 targetPosition, Vector3 bendNormal, float weight));
-IL2CPP_REGISTER_METHOD(0x02C05C30, Vector3, GetDirectionToBendPoint, (Vector3 direction, float directionMag, Vector3 bendDirection, float sqrMag1, float sqrMag2));
-IL2CPP_REGISTER_METHOD(0x02C05F70, void, OnInitiate, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C061E0, bool, IsDirectHierarchy, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C063F0, void, InitiateBones, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C065C0, void, OnUpdate, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnInitiateVirtual, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnUpdateVirtual, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, OnPostSolveVirtual, (IKSolverTrigonometric * __this));
-IL2CPP_REGISTER_METHOD(0x02C07420, Vector3, GetBendDirection, (IKSolverTrigonometric * __this, Vector3 IKPosition, Vector3 bendNormal));
-IL2CPP_REGISTER_METHOD(0x02C07950, void, __ctor, (IKSolverTrigonometric * __this));
+namespace app::methods::RootMotion_FinalIK::IKSolverTrigonometric {
+IL2CPP_REGISTER_METHOD(0x02C02BB0, void, SetBendGoalPosition, (app::IKSolverTrigonometric * this_ptr, app::Vector3 goal_position, float weight));
+IL2CPP_REGISTER_METHOD(0x02C02F00, void, SetBendPlaneToCurrent, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C03300, void, SetIKRotation, (app::IKSolverTrigonometric * this_ptr, app::Quaternion rotation));
+IL2CPP_REGISTER_METHOD(0x02C03310, void, SetIKRotationWeight, (app::IKSolverTrigonometric * this_ptr, float weight));
+IL2CPP_REGISTER_METHOD(0x02C033E0, Quaternion, GetIKRotation, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x0091E0B0, float, GetIKRotationWeight, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C033F0, IKSolver_Point__Array *, GetPoints, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C03590, IKSolver_Point *, GetPoint, (app::IKSolverTrigonometric * this_ptr, app::Transform * transform));
+IL2CPP_REGISTER_METHOD(0x02C03740, void, StoreDefaultLocalState, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C037A0, void, FixTransforms, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C03800, bool, IsValid, (app::IKSolverTrigonometric * this_ptr, app::String * * message));
+IL2CPP_REGISTER_METHOD(0x02C03D40, bool, SetChain, (app::IKSolverTrigonometric * this_ptr, app::Transform * bone1, app::Transform * bone2, app::Transform * bone3, app::Transform * root));
+IL2CPP_REGISTER_METHOD(0x02C03DB0, void, Solve, (app::Transform * bone1, app::Transform * bone2, app::Transform * bone3, app::Vector3 target_position, app::Vector3 bend_normal, float weight));
+IL2CPP_REGISTER_METHOD(0x02C04B50, void, SolveVirtual, (app::IKSolver_Bone__Array * bones, int32_t first, int32_t second, int32_t third, app::Vector3 target_position, app::Vector3 bend_normal, float weight));
+IL2CPP_REGISTER_METHOD(0x02C055C0, void, SolveVirtualPositions, (app::IKSolver_Bone * bone1, app::IKSolver_Bone * bone2, app::IKSolver_Bone * bone3, app::Vector3 target_position, app::Vector3 bend_normal, float weight));
+IL2CPP_REGISTER_METHOD(0x02C05C30, Vector3, GetDirectionToBendPoint, (app::Vector3 direction, float direction_mag, app::Vector3 bend_direction, float sqr_mag1, float sqr_mag2));
+IL2CPP_REGISTER_METHOD(0x02C05F70, void, OnInitiate, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C061E0, bool, IsDirectHierarchy, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C063F0, void, InitiateBones, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C065C0, void, OnUpdate, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnInitiateVirtual, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnUpdateVirtual, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x002FA000, void, OnPostSolveVirtual, (app::IKSolverTrigonometric * this_ptr));
+IL2CPP_REGISTER_METHOD(0x02C07420, Vector3, GetBendDirection, (app::IKSolverTrigonometric * this_ptr, app::Vector3 i_k_position, app::Vector3 bend_normal));
+IL2CPP_REGISTER_METHOD(0x02C07950, void, __ctor, (app::IKSolverTrigonometric * this_ptr));
 }

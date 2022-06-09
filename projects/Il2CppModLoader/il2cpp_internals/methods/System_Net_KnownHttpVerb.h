@@ -1,8 +1,8 @@
 #include <interception_macros.h>
 
-namespace app::methods::System::Net::KnownHttpVerb {
-IL2CPP_REGISTER_METHOD(0x01E6A970, void, __ctor, (KnownHttpVerb * __this, String * name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse));
+namespace app::methods::System_Net::KnownHttpVerb {
+IL2CPP_REGISTER_METHOD(0x01E6A970, void, __ctor, (app::KnownHttpVerb * this_ptr, app::String * name, bool require_content_body, bool content_body_not_allowed, bool connect_request, bool expect_no_content_response));
 IL2CPP_REGISTER_METHOD(0x01E6A990, void, __cctor, ());
-IL2CPP_REGISTER_METHOD(0x01E6B1B0, bool, Equals, (KnownHttpVerb * __this, KnownHttpVerb * verb));
-IL2CPP_REGISTER_METHOD(0x01E6B340, KnownHttpVerb *, Parse, (String * name));
+IL2CPP_REGISTER_METHOD(0x01E6B1B0, bool, Equals, (app::KnownHttpVerb * this_ptr, app::KnownHttpVerb * verb));
+IL2CPP_REGISTER_METHOD(0x01E6B340, KnownHttpVerb *, Parse, (app::String * name));
 }

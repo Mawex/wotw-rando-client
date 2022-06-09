@@ -1,23 +1,23 @@
 #include <interception_macros.h>
 
 namespace app::methods::ReplayScreen {
-IL2CPP_REGISTER_METHOD(0x008FE400, void, ResetStatics, ());
-IL2CPP_REGISTER_METHOD(0x008FE480, void, Awake, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FE550, void, OnDestroy, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FE700, void, Hide, (ReplayScreen * __this, bool change));
-IL2CPP_REGISTER_METHOD(0x008FE8E0, void, ShowImmediate, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FE930, void, HideImmediate, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FE960, void, Show, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FEA10, void, OnBackPressed, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHODINFO(0x0478C470, ReplayScreen_OnBackPressed__MethodInfo);
-IL2CPP_REGISTER_METHOD(0x008FEBE0, void, PopulateItems, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FEC40, void, PopulateItems, (ReplayScreen * __this, CleverMenuItemGroup * group, ReplaySetting__Array * replaySettings));
-IL2CPP_REGISTER_METHOD(0x002FA000, void, DestroyItems, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x0061E2F0, bool, get_IsSuspended, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x0061E2E0, void, set_IsSuspended, (ReplayScreen * __this, bool value));
-IL2CPP_REGISTER_METHOD(0x007007F0, SuspendableMask__Enum, get_Mask, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FF170, void, set_Mask, (ReplayScreen * __this, SuspendableMask__Enum value));
-IL2CPP_REGISTER_METHOD(0x008FF230, void, OnPostTimeSlicedEnable, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FF340, void, OnInstantiate, (ReplayScreen * __this));
-IL2CPP_REGISTER_METHOD(0x008FF670, void, __ctor, (ReplayScreen * __this));
-}
+    IL2CPP_REGISTER_METHOD(0x008FE400, void, ResetStatics, ());
+    IL2CPP_REGISTER_METHOD(0x008FE480, void, Awake, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FE550, void, OnDestroy, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FE700, void, Hide, (app::ReplayScreen * this_ptr, bool change));
+    IL2CPP_REGISTER_METHOD(0x008FE8E0, void, ShowImmediate, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FE930, void, HideImmediate, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FE960, void, Show, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FEA10, void, OnBackPressed, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHODINFO(0x0478C470, ReplayScreen_OnBackPressed__MethodInfo);
+    IL2CPP_REGISTER_METHOD(0x008FEBE0, void, PopulateItems_1, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FEC40, void, PopulateItems_2, (app::ReplayScreen * this_ptr, app::CleverMenuItemGroup* group, app::ReplaySetting__Array* replay_settings));
+    IL2CPP_REGISTER_METHOD(0x002FA000, void, DestroyItems, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0061E2F0, bool, get_IsSuspended, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x0061E2E0, void, set_IsSuspended, (app::ReplayScreen * this_ptr, bool value));
+    IL2CPP_REGISTER_METHOD(0x007007F0, SuspendableMask__Enum, get_Mask, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FF170, void, set_Mask, (app::ReplayScreen * this_ptr, app::SuspendableMask__Enum value));
+    IL2CPP_REGISTER_METHOD(0x008FF230, void, OnPostTimeSlicedEnable, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FF340, void, OnInstantiate, (app::ReplayScreen * this_ptr));
+    IL2CPP_REGISTER_METHOD(0x008FF670, void, __ctor, (app::ReplayScreen * this_ptr));
+} // namespace app::methods::ReplayScreen

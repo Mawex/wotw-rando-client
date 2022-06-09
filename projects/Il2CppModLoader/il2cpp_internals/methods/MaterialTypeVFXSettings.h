@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
 namespace app::methods::MaterialTypeVFXSettings {
-IL2CPP_REGISTER_METHOD(0x01383400, void, Initialize, (MaterialTypeVFXSettings * __this));
-IL2CPP_REGISTER_METHOD(0x01383680, void, __ctor, (MaterialTypeVFXSettings * __this));
-IL2CPP_REGISTER_METHOD(0x01383AD0, GameObject *, FindVFX, (MaterialTypeVFXSettings * __this, SurfaceMaterialType__Enum materialType, MaterialTypeVFXSettings_EffectSize__Enum size));
+IL2CPP_REGISTER_METHOD(0x01383400, void, Initialize, (app::MaterialTypeVFXSettings * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01383680, void, __ctor, (app::MaterialTypeVFXSettings * this_ptr));
+IL2CPP_REGISTER_METHOD(0x01383AD0, GameObject *, FindVFX, (app::MaterialTypeVFXSettings * this_ptr, app::SurfaceMaterialType__Enum material_type, app::MaterialTypeVFXSettings_EffectSize__Enum size));
 }

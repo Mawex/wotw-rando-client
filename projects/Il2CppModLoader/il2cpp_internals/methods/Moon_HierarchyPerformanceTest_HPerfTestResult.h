@@ -1,7 +1,7 @@
 #include <interception_macros.h>
 
-namespace app::methods::Moon::HierarchyPerformanceTest::HPerfTestResult {
-IL2CPP_REGISTER_METHOD(0x0149BC20, void, __ctor, (HPerfTestResult * __this, int32_t id, double cpuTime, double gpuTime, double srpGameViewTime, int32_t childCount, String * path, GameObject * target));
-IL2CPP_REGISTER_METHOD(0x0149BD00, bool, Equals, (HPerfTestResult * __this, HPerfTestResult * x, HPerfTestResult * y));
-IL2CPP_REGISTER_METHOD(0x0149BDD0, int32_t, GetHashCode, (HPerfTestResult * __this, HPerfTestResult * obj));
+namespace app::methods::Moon_HierarchyPerformanceTest::HPerfTestResult {
+IL2CPP_REGISTER_METHOD(0x0149BC20, void, __ctor, (app::HPerfTestResult * this_ptr, int32_t id, double cpu_time, double gpu_time, double srp_game_view_time, int32_t child_count, app::String * path, app::GameObject * target));
+IL2CPP_REGISTER_METHOD(0x0149BD00, bool, Equals, (app::HPerfTestResult * this_ptr, app::HPerfTestResult * x, app::HPerfTestResult * y));
+IL2CPP_REGISTER_METHOD(0x0149BDD0, int32_t, GetHashCode, (app::HPerfTestResult * this_ptr, app::HPerfTestResult * obj));
 }
