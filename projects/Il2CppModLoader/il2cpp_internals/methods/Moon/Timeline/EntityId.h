@@ -13,10 +13,10 @@ namespace app::methods::Moon::Timeline::EntityId {
     IL2CPP_REGISTER_METHOD(0x01BB88F0, app::EntityId, get_Nothing, ());
     IL2CPP_REGISTER_METHOD(0x006CE970, app::EntityId, From, (int32_t id));
     IL2CPP_REGISTER_METHOD(0x001311C0, app::String *, ToString, (app::EntityId__Boxed * this_ptr));
-    operator == (app::EntityId lhs, app::EntityId rhs) {
+    bool operator == (app::EntityId lhs, app::EntityId rhs) {
         return op_Equality(lhs, rhs);
     }
-    operator != (app::EntityId lhs, app::EntityId rhs) {
+    bool operator != (app::EntityId lhs, app::EntityId rhs) {
         return op_Inequality(lhs, rhs);
     }
 }

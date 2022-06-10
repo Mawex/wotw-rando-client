@@ -50,10 +50,10 @@ namespace app::methods::FullSerializer::fsData {
     IL2CPP_REGISTER_METHODINFO(0x04761268, fsData_Cast_5__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x015E9100, app::List_1_FullSerializer_fsData_ *, Cast_7, (app::fsData * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x0476A2E0, fsData_Cast_6__MethodInfo);
-    operator == (app::fsData * a, app::fsData * b) {
+    bool operator == (app::fsData * a, app::fsData * b) {
         return op_Equality(a, b);
     }
-    operator != (app::fsData * a, app::fsData * b) {
+    bool operator != (app::fsData * a, app::fsData * b) {
         return op_Inequality(a, b);
     }
 }

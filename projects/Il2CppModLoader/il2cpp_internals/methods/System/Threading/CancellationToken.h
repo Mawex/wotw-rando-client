@@ -24,10 +24,10 @@ namespace app::methods::System::Threading::CancellationToken {
     IL2CPP_REGISTER_METHOD(0x027D8EE0, void, ThrowObjectDisposedException, ());
     IL2CPP_REGISTER_METHODINFO(0x04739F68, CancellationToken_ThrowObjectDisposedException__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x027D8F50, void, __cctor, ());
-    operator == (app::CancellationToken left, app::CancellationToken right) {
+    bool operator == (app::CancellationToken left, app::CancellationToken right) {
         return op_Equality(left, right);
     }
-    operator != (app::CancellationToken left, app::CancellationToken right) {
+    bool operator != (app::CancellationToken left, app::CancellationToken right) {
         return op_Inequality(left, right);
     }
 }

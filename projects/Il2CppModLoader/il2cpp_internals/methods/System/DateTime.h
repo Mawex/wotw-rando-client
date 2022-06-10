@@ -158,31 +158,31 @@ namespace app::methods::System::DateTime {
     IL2CPP_REGISTER_METHOD(0x00214AB0, app::Object *, IConvertible_ToType, (app::DateTime__Boxed * this_ptr, app::Type * type, app::IFormatProvider * provider));
     IL2CPP_REGISTER_METHOD(0x028A6930, bool, TryCreate, (int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, app::DateTime * result));
     IL2CPP_REGISTER_METHOD(0x028A6BD0, void, __cctor, ());
-    operator + (app::DateTime d, app::TimeSpan t) {
+    app::DateTime operator + (app::DateTime d, app::TimeSpan t) {
         return op_Addition(d, t);
     }
-    operator - (app::DateTime d, app::TimeSpan t) {
+    app::DateTime operator - (app::DateTime d, app::TimeSpan t) {
         return op_Subtraction(d, t);
     }
-    operator - (app::DateTime d1, app::DateTime d2) {
+    app::TimeSpan operator - (app::DateTime d1, app::DateTime d2) {
         return op_Subtraction(d1, d2);
     }
-    operator == (app::DateTime d1, app::DateTime d2) {
+    bool operator == (app::DateTime d1, app::DateTime d2) {
         return op_Equality(d1, d2);
     }
-    operator != (app::DateTime d1, app::DateTime d2) {
+    bool operator != (app::DateTime d1, app::DateTime d2) {
         return op_Inequality(d1, d2);
     }
-    operator < (app::DateTime t1, app::DateTime t2) {
+    bool operator < (app::DateTime t1, app::DateTime t2) {
         return op_LessThan(t1, t2);
     }
-    operator <= (app::DateTime t1, app::DateTime t2) {
+    bool operator <= (app::DateTime t1, app::DateTime t2) {
         return op_LessThanOrEqual(t1, t2);
     }
-    operator > (app::DateTime t1, app::DateTime t2) {
+    bool operator > (app::DateTime t1, app::DateTime t2) {
         return op_GreaterThan(t1, t2);
     }
-    operator >= (app::DateTime t1, app::DateTime t2) {
+    bool operator >= (app::DateTime t1, app::DateTime t2) {
         return op_GreaterThanOrEqual(t1, t2);
     }
 }

@@ -47,10 +47,10 @@ namespace app::methods::System::Guid {
     IL2CPP_REGISTER_METHODINFO(0x04763920, Guid_ToString_2__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x01DFCC80, app::Guid, NewGuid, ());
     IL2CPP_REGISTER_METHOD(0x01DFCF20, void, __cctor, ());
-    operator == (app::Guid a, app::Guid b) {
+    bool operator == (app::Guid a, app::Guid b) {
         return op_Equality(a, b);
     }
-    operator != (app::Guid a, app::Guid b) {
+    bool operator != (app::Guid a, app::Guid b) {
         return op_Inequality(a, b);
     }
 }

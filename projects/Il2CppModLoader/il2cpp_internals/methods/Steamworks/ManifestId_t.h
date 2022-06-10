@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::ManifestId_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::ManifestId_t__Boxed * this_ptr, app::ManifestId_t other));
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::ManifestId_t__Boxed * this_ptr, app::ManifestId_t other));
     IL2CPP_REGISTER_METHOD(0x01600D50, void, __cctor, ());
-    operator == (app::ManifestId_t x, app::ManifestId_t y) {
+    bool operator == (app::ManifestId_t x, app::ManifestId_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::ManifestId_t x, app::ManifestId_t y) {
+    bool operator != (app::ManifestId_t x, app::ManifestId_t y) {
         return op_Inequality(x, y);
     }
 }

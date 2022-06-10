@@ -11,10 +11,10 @@ namespace app::methods::Steamworks::HSteamUser {
     IL2CPP_REGISTER_METHOD(0x006CE970, int32_t, op_Explicit_2, (app::HSteamUser that));
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::HSteamUser__Boxed * this_ptr, app::HSteamUser other));
     IL2CPP_REGISTER_METHOD(0x001312E0, int32_t, CompareTo, (app::HSteamUser__Boxed * this_ptr, app::HSteamUser other));
-    operator == (app::HSteamUser x, app::HSteamUser y) {
+    bool operator == (app::HSteamUser x, app::HSteamUser y) {
         return op_Equality(x, y);
     }
-    operator != (app::HSteamUser x, app::HSteamUser y) {
+    bool operator != (app::HSteamUser x, app::HSteamUser y) {
         return op_Inequality(x, y);
     }
 }

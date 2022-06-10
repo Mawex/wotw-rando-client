@@ -39,28 +39,28 @@ namespace app::methods::System::Data::SqlTypes::SqlInt32 {
     IL2CPP_REGISTER_METHOD(0x001E4DB0, void, IXmlSerializable_WriteXml, (app::SqlInt32__Boxed * this_ptr, app::XmlWriter * writer));
     IL2CPP_REGISTER_METHOD(0x022B3950, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set));
     IL2CPP_REGISTER_METHOD(0x022B3AA0, void, __cctor, ());
-    operator - (app::SqlInt32 x) {
+    app::SqlInt32 operator - (app::SqlInt32 x) {
         return op_UnaryNegation(x);
     }
-    operator + (app::SqlInt32 x, app::SqlInt32 y) {
+    app::SqlInt32 operator + (app::SqlInt32 x, app::SqlInt32 y) {
         return op_Addition(x, y);
     }
-    operator - (app::SqlInt32 x, app::SqlInt32 y) {
+    app::SqlInt32 operator - (app::SqlInt32 x, app::SqlInt32 y) {
         return op_Subtraction(x, y);
     }
-    operator * (app::SqlInt32 x, app::SqlInt32 y) {
+    app::SqlInt32 operator * (app::SqlInt32 x, app::SqlInt32 y) {
         return op_Multiply(x, y);
     }
-    operator / (app::SqlInt32 x, app::SqlInt32 y) {
+    app::SqlInt32 operator / (app::SqlInt32 x, app::SqlInt32 y) {
         return op_Division(x, y);
     }
-    operator == (app::SqlInt32 x, app::SqlInt32 y) {
+    app::SqlBoolean operator == (app::SqlInt32 x, app::SqlInt32 y) {
         return op_Equality(x, y);
     }
-    operator < (app::SqlInt32 x, app::SqlInt32 y) {
+    app::SqlBoolean operator < (app::SqlInt32 x, app::SqlInt32 y) {
         return op_LessThan(x, y);
     }
-    operator > (app::SqlInt32 x, app::SqlInt32 y) {
+    app::SqlBoolean operator > (app::SqlInt32 x, app::SqlInt32 y) {
         return op_GreaterThan(x, y);
     }
 }

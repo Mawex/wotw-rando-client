@@ -22,7 +22,7 @@ namespace app::methods::System::TimeZoneInfo_TransitionTime {
     IL2CPP_REGISTER_METHODINFO(0x04710AC8, TimeZoneInfo_TransitionTime_System_Runtime_Serialization_ISerializable_GetObjectData__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x00203FD0, void, __ctor, (app::TimeZoneInfo_TransitionTime__Boxed * this_ptr, app::SerializationInfo * info, app::StreamingContext context));
     IL2CPP_REGISTER_METHODINFO(0x04750B68, TimeZoneInfo_TransitionTime__ctor__MethodInfo);
-    operator != (app::TimeZoneInfo_TransitionTime t1, app::TimeZoneInfo_TransitionTime t2) {
+    bool operator != (app::TimeZoneInfo_TransitionTime t1, app::TimeZoneInfo_TransitionTime t2) {
         return op_Inequality(t1, t2);
     }
 }

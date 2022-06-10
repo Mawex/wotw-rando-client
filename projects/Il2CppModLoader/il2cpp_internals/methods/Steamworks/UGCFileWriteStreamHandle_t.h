@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::UGCFileWriteStreamHandle_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::UGCFileWriteStreamHandle_t__Boxed * this_ptr, app::UGCFileWriteStreamHandle_t other));
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::UGCFileWriteStreamHandle_t__Boxed * this_ptr, app::UGCFileWriteStreamHandle_t other));
     IL2CPP_REGISTER_METHOD(0x027A68B0, void, __cctor, ());
-    operator == (app::UGCFileWriteStreamHandle_t x, app::UGCFileWriteStreamHandle_t y) {
+    bool operator == (app::UGCFileWriteStreamHandle_t x, app::UGCFileWriteStreamHandle_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::UGCFileWriteStreamHandle_t x, app::UGCFileWriteStreamHandle_t y) {
+    bool operator != (app::UGCFileWriteStreamHandle_t x, app::UGCFileWriteStreamHandle_t y) {
         return op_Inequality(x, y);
     }
 }

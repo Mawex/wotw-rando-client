@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::UGCQueryHandle_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::UGCQueryHandle_t__Boxed * this_ptr, app::UGCQueryHandle_t other));
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::UGCQueryHandle_t__Boxed * this_ptr, app::UGCQueryHandle_t other));
     IL2CPP_REGISTER_METHOD(0x027A6B10, void, __cctor, ());
-    operator == (app::UGCQueryHandle_t x, app::UGCQueryHandle_t y) {
+    bool operator == (app::UGCQueryHandle_t x, app::UGCQueryHandle_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::UGCQueryHandle_t x, app::UGCQueryHandle_t y) {
+    bool operator != (app::UGCQueryHandle_t x, app::UGCQueryHandle_t y) {
         return op_Inequality(x, y);
     }
 }

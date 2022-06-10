@@ -40,10 +40,10 @@ namespace app::methods::RuntimeSceneMetaData {
     IL2CPP_REGISTER_METHOD(0x0137F7E0, int32_t, GetHashCode_2, (app::RuntimeSceneMetaData * this_ptr, app::RuntimeSceneMetaData * obj));
     IL2CPP_REGISTER_METHOD(0x0137F8C0, bool, op_Equality, (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b));
     IL2CPP_REGISTER_METHOD(0x0137F9C0, bool, op_Inequality, (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b));
-    operator == (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b) {
+    bool operator == (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b) {
         return op_Equality(a, b);
     }
-    operator != (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b) {
+    bool operator != (app::RuntimeSceneMetaData * a, app::RuntimeSceneMetaData * b) {
         return op_Inequality(a, b);
     }
 }

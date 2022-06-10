@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::SteamItemInstanceID_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::SteamItemInstanceID_t__Boxed * this_ptr, app::SteamItemInstanceID_t other));
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::SteamItemInstanceID_t__Boxed * this_ptr, app::SteamItemInstanceID_t other));
     IL2CPP_REGISTER_METHOD(0x027867E0, void, __cctor, ());
-    operator == (app::SteamItemInstanceID_t x, app::SteamItemInstanceID_t y) {
+    bool operator == (app::SteamItemInstanceID_t x, app::SteamItemInstanceID_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::SteamItemInstanceID_t x, app::SteamItemInstanceID_t y) {
+    bool operator != (app::SteamItemInstanceID_t x, app::SteamItemInstanceID_t y) {
         return op_Inequality(x, y);
     }
 }

@@ -54,49 +54,49 @@ namespace app::methods::Swing::Angle {
     IL2CPP_REGISTER_METHOD(0x0014ABD0, float, get_sin, (app::Angle__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0014AC80, void, clamp, (app::Angle__Boxed * this_ptr, app::Angle _min, app::Angle _max));
     IL2CPP_REGISTER_METHOD(0x0182A880, void, __cctor, ());
-    operator + (app::Angle _a, app::Angle _b) {
+    app::Angle operator + (app::Angle _a, app::Angle _b) {
         return op_Addition(_a, _b);
     }
-    operator - (app::Angle _a, app::Angle _b) {
+    app::Angle operator - (app::Angle _a, app::Angle _b) {
         return op_Subtraction(_a, _b);
     }
-    operator * (app::Angle _a, float _b) {
+    app::Angle operator * (app::Angle _a, float _b) {
         return op_Multiply(_a, _b);
     }
-    operator * (float _a, app::Angle _b) {
+    app::Angle operator * (float _a, app::Angle _b) {
         return op_Multiply(_a, _b);
     }
-    operator / (app::Angle _a, float _b) {
+    app::Angle operator / (app::Angle _a, float _b) {
         return op_Division(_a, _b);
     }
-    operator / (float _a, app::Angle _b) {
+    app::Angle operator / (float _a, app::Angle _b) {
         return op_Division(_a, _b);
     }
-    operator % (app::Angle _a, app::Angle _b) {
+    app::Angle operator % (app::Angle _a, app::Angle _b) {
         return op_Modulus(_a, _b);
     }
-    operator / (app::Angle _a, app::Angle _b) {
+    float operator / (app::Angle _a, app::Angle _b) {
         return op_Division(_a, _b);
     }
-    operator - (app::Angle _a) {
+    app::Angle operator - (app::Angle _a) {
         return op_UnaryNegation(_a);
     }
-    operator > (app::Angle _a, app::Angle _b) {
+    bool operator > (app::Angle _a, app::Angle _b) {
         return op_GreaterThan(_a, _b);
     }
-    operator < (app::Angle _a, app::Angle _b) {
+    bool operator < (app::Angle _a, app::Angle _b) {
         return op_LessThan(_a, _b);
     }
-    operator >= (app::Angle _a, app::Angle _b) {
+    bool operator >= (app::Angle _a, app::Angle _b) {
         return op_GreaterThanOrEqual(_a, _b);
     }
-    operator <= (app::Angle _a, app::Angle _b) {
+    bool operator <= (app::Angle _a, app::Angle _b) {
         return op_LessThanOrEqual(_a, _b);
     }
-    operator == (app::Angle _a, app::Angle _b) {
+    bool operator == (app::Angle _a, app::Angle _b) {
         return op_Equality(_a, _b);
     }
-    operator != (app::Angle _a, app::Angle _b) {
+    bool operator != (app::Angle _a, app::Angle _b) {
         return op_Inequality(_a, _b);
     }
 }

@@ -69,7 +69,7 @@ namespace app::methods::UnityEngine::Playables::PlayableHandle {
     IL2CPP_REGISTER_METHODINFO(0x04722318, PlayableHandle_IsPlayableOfType_8__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x0012D530, bool, IsPlayableOfType_10, (app::PlayableHandle__Boxed * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x0477FE20, PlayableHandle_IsPlayableOfType_9__MethodInfo);
-    operator == (app::PlayableHandle x, app::PlayableHandle y) {
+    bool operator == (app::PlayableHandle x, app::PlayableHandle y) {
         return op_Equality(x, y);
     }
 }

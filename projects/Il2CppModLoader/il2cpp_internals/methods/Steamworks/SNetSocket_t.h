@@ -11,10 +11,10 @@ namespace app::methods::Steamworks::SNetSocket_t {
     IL2CPP_REGISTER_METHOD(0x006CE970, uint32_t, op_Explicit_2, (app::SNetSocket_t that));
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::SNetSocket_t__Boxed * this_ptr, app::SNetSocket_t other));
     IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (app::SNetSocket_t__Boxed * this_ptr, app::SNetSocket_t other));
-    operator == (app::SNetSocket_t x, app::SNetSocket_t y) {
+    bool operator == (app::SNetSocket_t x, app::SNetSocket_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::SNetSocket_t x, app::SNetSocket_t y) {
+    bool operator != (app::SNetSocket_t x, app::SNetSocket_t y) {
         return op_Inequality(x, y);
     }
 }

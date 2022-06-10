@@ -63,28 +63,28 @@ namespace app::methods::UnityEngine::Vector3 {
     IL2CPP_REGISTER_METHOD(0x02C77C30, void, __cctor, ());
     IL2CPP_REGISTER_METHOD(0x02C77E40, void, Slerp_Injected, (app::Vector3 * a, app::Vector3 * b, float t, app::Vector3 * ret));
     IL2CPP_REGISTER_METHOD(0x02C77EC0, void, RotateTowards_Injected, (app::Vector3 * current, app::Vector3 * target, float max_radians_delta, float max_magnitude_delta, app::Vector3 * ret));
-    operator + (app::Vector3 a, app::Vector3 b) {
+    app::Vector3 operator + (app::Vector3 a, app::Vector3 b) {
         return op_Addition(a, b);
     }
-    operator - (app::Vector3 a, app::Vector3 b) {
+    app::Vector3 operator - (app::Vector3 a, app::Vector3 b) {
         return op_Subtraction(a, b);
     }
-    operator - (app::Vector3 a) {
+    app::Vector3 operator - (app::Vector3 a) {
         return op_UnaryNegation(a);
     }
-    operator * (app::Vector3 a, float d) {
+    app::Vector3 operator * (app::Vector3 a, float d) {
         return op_Multiply(a, d);
     }
-    operator * (float d, app::Vector3 a) {
+    app::Vector3 operator * (float d, app::Vector3 a) {
         return op_Multiply(d, a);
     }
-    operator / (app::Vector3 a, float d) {
+    app::Vector3 operator / (app::Vector3 a, float d) {
         return op_Division(a, d);
     }
-    operator == (app::Vector3 lhs, app::Vector3 rhs) {
+    bool operator == (app::Vector3 lhs, app::Vector3 rhs) {
         return op_Equality(lhs, rhs);
     }
-    operator != (app::Vector3 lhs, app::Vector3 rhs) {
+    bool operator != (app::Vector3 lhs, app::Vector3 rhs) {
         return op_Inequality(lhs, rhs);
     }
 }

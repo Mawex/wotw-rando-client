@@ -16,7 +16,7 @@ namespace app::methods::System::UIntPtr {
     IL2CPP_REGISTER_METHOD(0x004C50A0, void *, op_Explicit_2, (app::Void * value));
     IL2CPP_REGISTER_METHOD(0x0043D9A0, int32_t, get_Size, ());
     IL2CPP_REGISTER_METHOD(0x027C59D0, void, __cctor, ());
-    operator == (void * value1, void * value2) {
+    bool operator == (void * value1, void * value2) {
         return op_Equality(value1, value2);
     }
 }

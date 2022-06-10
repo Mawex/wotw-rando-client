@@ -47,28 +47,28 @@ namespace app::methods::System::Data::SqlTypes::SqlMoney {
     IL2CPP_REGISTER_METHOD(0x001E59B0, void, IXmlSerializable_WriteXml, (app::SqlMoney__Boxed * this_ptr, app::XmlWriter * writer));
     IL2CPP_REGISTER_METHOD(0x022B8100, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set));
     IL2CPP_REGISTER_METHOD(0x022B8250, void, __cctor, ());
-    operator - (app::SqlMoney x) {
+    app::SqlMoney operator - (app::SqlMoney x) {
         return op_UnaryNegation(x);
     }
-    operator + (app::SqlMoney x, app::SqlMoney y) {
+    app::SqlMoney operator + (app::SqlMoney x, app::SqlMoney y) {
         return op_Addition(x, y);
     }
-    operator - (app::SqlMoney x, app::SqlMoney y) {
+    app::SqlMoney operator - (app::SqlMoney x, app::SqlMoney y) {
         return op_Subtraction(x, y);
     }
-    operator * (app::SqlMoney x, app::SqlMoney y) {
+    app::SqlMoney operator * (app::SqlMoney x, app::SqlMoney y) {
         return op_Multiply(x, y);
     }
-    operator / (app::SqlMoney x, app::SqlMoney y) {
+    app::SqlMoney operator / (app::SqlMoney x, app::SqlMoney y) {
         return op_Division(x, y);
     }
-    operator == (app::SqlMoney x, app::SqlMoney y) {
+    app::SqlBoolean operator == (app::SqlMoney x, app::SqlMoney y) {
         return op_Equality(x, y);
     }
-    operator < (app::SqlMoney x, app::SqlMoney y) {
+    app::SqlBoolean operator < (app::SqlMoney x, app::SqlMoney y) {
         return op_LessThan(x, y);
     }
-    operator > (app::SqlMoney x, app::SqlMoney y) {
+    app::SqlBoolean operator > (app::SqlMoney x, app::SqlMoney y) {
         return op_GreaterThan(x, y);
     }
 }

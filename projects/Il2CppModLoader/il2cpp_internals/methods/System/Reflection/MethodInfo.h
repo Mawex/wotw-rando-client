@@ -20,10 +20,10 @@ namespace app::methods::System::Reflection::MethodInfo {
     IL2CPP_REGISTER_METHOD(0x0268DC70, app::Delegate *, CreateDelegate_2, (app::MethodInfo_1 * this_ptr, app::Type * delegate_type, app::Object * target));
     IL2CPP_REGISTER_METHODINFO(0x0474FC38, MethodInfo_1_CreateDelegate_1__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x004C50A0, app::MethodInfo_1 *, GetBaseMethod, (app::MethodInfo_1 * this_ptr));
-    operator == (app::MethodInfo_1 * left, app::MethodInfo_1 * right) {
+    bool operator == (app::MethodInfo_1 * left, app::MethodInfo_1 * right) {
         return op_Equality(left, right);
     }
-    operator != (app::MethodInfo_1 * left, app::MethodInfo_1 * right) {
+    bool operator != (app::MethodInfo_1 * left, app::MethodInfo_1 * right) {
         return op_Inequality(left, right);
     }
 }

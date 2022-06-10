@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::HAuthTicket {
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::HAuthTicket__Boxed * this_ptr, app::HAuthTicket other));
     IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (app::HAuthTicket__Boxed * this_ptr, app::HAuthTicket other));
     IL2CPP_REGISTER_METHOD(0x015FB810, void, __cctor, ());
-    operator == (app::HAuthTicket x, app::HAuthTicket y) {
+    bool operator == (app::HAuthTicket x, app::HAuthTicket y) {
         return op_Equality(x, y);
     }
-    operator != (app::HAuthTicket x, app::HAuthTicket y) {
+    bool operator != (app::HAuthTicket x, app::HAuthTicket y) {
         return op_Inequality(x, y);
     }
 }

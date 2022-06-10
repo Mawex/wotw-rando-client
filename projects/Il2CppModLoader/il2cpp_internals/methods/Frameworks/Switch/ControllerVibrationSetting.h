@@ -9,10 +9,10 @@ namespace app::methods::frameworks::Switch::ControllerVibrationSetting {
     IL2CPP_REGISTER_METHOD(0x00F59F50, bool, op_Equality, (app::ControllerVibrationSetting a, app::ControllerVibrationSetting b));
     IL2CPP_REGISTER_METHOD(0x00F59F70, bool, op_Inequality, (app::ControllerVibrationSetting a, app::ControllerVibrationSetting b));
     IL2CPP_REGISTER_METHOD(0x00F59F90, void, __cctor, ());
-    operator == (app::ControllerVibrationSetting a, app::ControllerVibrationSetting b) {
+    bool operator == (app::ControllerVibrationSetting a, app::ControllerVibrationSetting b) {
         return op_Equality(a, b);
     }
-    operator != (app::ControllerVibrationSetting a, app::ControllerVibrationSetting b) {
+    bool operator != (app::ControllerVibrationSetting a, app::ControllerVibrationSetting b) {
         return op_Inequality(a, b);
     }
 }

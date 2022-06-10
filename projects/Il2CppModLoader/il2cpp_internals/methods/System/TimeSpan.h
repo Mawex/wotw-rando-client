@@ -59,28 +59,28 @@ namespace app::methods::System::TimeSpan {
     IL2CPP_REGISTER_METHOD(0x027AE000, bool, GetLegacyFormatMode, ());
     IL2CPP_REGISTER_METHOD(0x027AE0A0, bool, get_LegacyMode, ());
     IL2CPP_REGISTER_METHOD(0x027AE260, void, __cctor, ());
-    operator - (app::TimeSpan t1, app::TimeSpan t2) {
+    app::TimeSpan operator - (app::TimeSpan t1, app::TimeSpan t2) {
         return op_Subtraction(t1, t2);
     }
-    operator + (app::TimeSpan t1, app::TimeSpan t2) {
+    app::TimeSpan operator + (app::TimeSpan t1, app::TimeSpan t2) {
         return op_Addition(t1, t2);
     }
-    operator == (app::TimeSpan t1, app::TimeSpan t2) {
+    bool operator == (app::TimeSpan t1, app::TimeSpan t2) {
         return op_Equality(t1, t2);
     }
-    operator != (app::TimeSpan t1, app::TimeSpan t2) {
+    bool operator != (app::TimeSpan t1, app::TimeSpan t2) {
         return op_Inequality(t1, t2);
     }
-    operator < (app::TimeSpan t1, app::TimeSpan t2) {
+    bool operator < (app::TimeSpan t1, app::TimeSpan t2) {
         return op_LessThan(t1, t2);
     }
-    operator <= (app::TimeSpan t1, app::TimeSpan t2) {
+    bool operator <= (app::TimeSpan t1, app::TimeSpan t2) {
         return op_LessThanOrEqual(t1, t2);
     }
-    operator > (app::TimeSpan t1, app::TimeSpan t2) {
+    bool operator > (app::TimeSpan t1, app::TimeSpan t2) {
         return op_GreaterThan(t1, t2);
     }
-    operator >= (app::TimeSpan t1, app::TimeSpan t2) {
+    bool operator >= (app::TimeSpan t1, app::TimeSpan t2) {
         return op_GreaterThanOrEqual(t1, t2);
     }
 }

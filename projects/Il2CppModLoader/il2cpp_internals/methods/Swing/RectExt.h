@@ -77,22 +77,22 @@ namespace app::methods::Swing::RectExt {
     IL2CPP_REGISTER_METHOD(0x0014C740, bool, Equals, (app::RectExt__Boxed * this_ptr, app::Object * other));
     IL2CPP_REGISTER_METHOD(0x0014C750, app::String *, ToString_1, (app::RectExt__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0014C760, app::String *, ToString_2, (app::RectExt__Boxed * this_ptr, app::String * format));
-    operator * (app::RectExt _rect, float _mult) {
+    app::RectExt operator * (app::RectExt _rect, float _mult) {
         return op_Multiply(_rect, _mult);
     }
-    operator * (app::RectExt _rect, app::Vector2 _mult) {
+    app::RectExt operator * (app::RectExt _rect, app::Vector2 _mult) {
         return op_Multiply(_rect, _mult);
     }
-    operator / (app::RectExt _rect, float _div) {
+    app::RectExt operator / (app::RectExt _rect, float _div) {
         return op_Division(_rect, _div);
     }
-    operator / (app::RectExt _rect, app::Vector2 _div) {
+    app::RectExt operator / (app::RectExt _rect, app::Vector2 _div) {
         return op_Division(_rect, _div);
     }
-    operator != (app::RectExt lhs, app::RectExt rhs) {
+    bool operator != (app::RectExt lhs, app::RectExt rhs) {
         return op_Inequality(lhs, rhs);
     }
-    operator == (app::RectExt lhs, app::RectExt rhs) {
+    bool operator == (app::RectExt lhs, app::RectExt rhs) {
         return op_Equality(lhs, rhs);
     }
 }

@@ -19,7 +19,7 @@ namespace app::methods::FullSerializer::fsResult {
     IL2CPP_REGISTER_METHOD(0x0012C740, app::IEnumerable_1_System_String_ *, get_RawMessages, (app::fsResult__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x0012C750, app::String *, get_FormattedMessages, (app::fsResult__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01515380, void, __cctor, ());
-    operator + (app::fsResult a, app::fsResult b) {
+    app::fsResult operator + (app::fsResult a, app::fsResult b) {
         return op_Addition(a, b);
     }
 }

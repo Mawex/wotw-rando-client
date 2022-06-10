@@ -23,10 +23,10 @@ namespace app::methods::System::Xml::Linq::XNamespace {
     IL2CPP_REGISTER_METHOD(0x0303A040, app::String *, ExtractNamespace, (app::WeakReference * r));
     IL2CPP_REGISTER_METHODINFO(0x04780C88, XNamespace_ExtractNamespace__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x0303A110, app::XNamespace *, EnsureNamespace, (app::WeakReference * * ref_nmsp, app::String * namespace_name));
-    operator == (app::XNamespace * left, app::XNamespace * right) {
+    bool operator == (app::XNamespace * left, app::XNamespace * right) {
         return op_Equality(left, right);
     }
-    operator != (app::XNamespace * left, app::XNamespace * right) {
+    bool operator != (app::XNamespace * left, app::XNamespace * right) {
         return op_Inequality(left, right);
     }
 }

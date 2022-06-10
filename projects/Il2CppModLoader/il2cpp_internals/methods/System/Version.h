@@ -38,22 +38,22 @@ namespace app::methods::System::Version {
     IL2CPP_REGISTER_METHOD(0x0314D3F0, bool, op_GreaterThan, (app::Version * v1, app::Version * v2));
     IL2CPP_REGISTER_METHOD(0x0314D4A0, bool, op_GreaterThanOrEqual, (app::Version * v1, app::Version * v2));
     IL2CPP_REGISTER_METHOD(0x0314D550, void, __cctor, ());
-    operator == (app::Version * v1, app::Version * v2) {
+    bool operator == (app::Version * v1, app::Version * v2) {
         return op_Equality(v1, v2);
     }
-    operator != (app::Version * v1, app::Version * v2) {
+    bool operator != (app::Version * v1, app::Version * v2) {
         return op_Inequality(v1, v2);
     }
-    operator < (app::Version * v1, app::Version * v2) {
+    bool operator < (app::Version * v1, app::Version * v2) {
         return op_LessThan(v1, v2);
     }
-    operator <= (app::Version * v1, app::Version * v2) {
+    bool operator <= (app::Version * v1, app::Version * v2) {
         return op_LessThanOrEqual(v1, v2);
     }
-    operator > (app::Version * v1, app::Version * v2) {
+    bool operator > (app::Version * v1, app::Version * v2) {
         return op_GreaterThan(v1, v2);
     }
-    operator >= (app::Version * v1, app::Version * v2) {
+    bool operator >= (app::Version * v1, app::Version * v2) {
         return op_GreaterThanOrEqual(v1, v2);
     }
 }

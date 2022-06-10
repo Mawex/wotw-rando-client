@@ -11,10 +11,10 @@ namespace app::methods::Steamworks::ControllerAnalogActionHandle_t {
     IL2CPP_REGISTER_METHOD(0x004C50A0, uint64_t, op_Explicit_2, (app::ControllerAnalogActionHandle_t that));
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::ControllerAnalogActionHandle_t__Boxed * this_ptr, app::ControllerAnalogActionHandle_t other));
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::ControllerAnalogActionHandle_t__Boxed * this_ptr, app::ControllerAnalogActionHandle_t other));
-    operator == (app::ControllerAnalogActionHandle_t x, app::ControllerAnalogActionHandle_t y) {
+    bool operator == (app::ControllerAnalogActionHandle_t x, app::ControllerAnalogActionHandle_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::ControllerAnalogActionHandle_t x, app::ControllerAnalogActionHandle_t y) {
+    bool operator != (app::ControllerAnalogActionHandle_t x, app::ControllerAnalogActionHandle_t y) {
         return op_Inequality(x, y);
     }
 }

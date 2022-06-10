@@ -11,10 +11,10 @@ namespace app::methods::Moon::CrossSceneReferenceId {
     IL2CPP_REGISTER_METHOD(0x031BAE10, bool, op_Inequality, (app::CrossSceneReferenceId left, app::CrossSceneReferenceId right));
     IL2CPP_REGISTER_METHOD(0x031BAE70, app::IEqualityComparer_1_Moon_CrossSceneReferenceId_ *, get_CrossSceneReferenceIdComparer, ());
     IL2CPP_REGISTER_METHOD(0x031BAF10, void, __cctor, ());
-    operator == (app::CrossSceneReferenceId left, app::CrossSceneReferenceId right) {
+    bool operator == (app::CrossSceneReferenceId left, app::CrossSceneReferenceId right) {
         return op_Equality(left, right);
     }
-    operator != (app::CrossSceneReferenceId left, app::CrossSceneReferenceId right) {
+    bool operator != (app::CrossSceneReferenceId left, app::CrossSceneReferenceId right) {
         return op_Inequality(left, right);
     }
 }

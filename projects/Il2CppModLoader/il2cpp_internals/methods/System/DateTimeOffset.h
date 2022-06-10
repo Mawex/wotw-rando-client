@@ -66,10 +66,10 @@ namespace app::methods::System::DateTimeOffset {
     IL2CPP_REGISTER_METHOD(0x028ACBC0, bool, op_Equality, (app::DateTimeOffset left, app::DateTimeOffset right));
     IL2CPP_REGISTER_METHOD(0x028ACC90, bool, op_Inequality, (app::DateTimeOffset left, app::DateTimeOffset right));
     IL2CPP_REGISTER_METHOD(0x028ACD60, void, __cctor, ());
-    operator == (app::DateTimeOffset left, app::DateTimeOffset right) {
+    bool operator == (app::DateTimeOffset left, app::DateTimeOffset right) {
         return op_Equality(left, right);
     }
-    operator != (app::DateTimeOffset left, app::DateTimeOffset right) {
+    bool operator != (app::DateTimeOffset left, app::DateTimeOffset right) {
         return op_Inequality(left, right);
     }
 }

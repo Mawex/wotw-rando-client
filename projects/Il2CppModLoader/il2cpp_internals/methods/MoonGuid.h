@@ -24,10 +24,10 @@ namespace app::methods::MoonGuid {
     IL2CPP_REGISTER_METHOD(0x00F51830, void, Load, (app::MoonGuid * this_ptr, app::UberStateArchive * ar));
     IL2CPP_REGISTER_METHOD(0x00F51920, void, Save_2, (app::MoonGuid * this_ptr, app::BinaryWriter * binary_writer));
     IL2CPP_REGISTER_METHOD(0x00F519A0, void, __cctor, ());
-    operator == (app::MoonGuid * a, app::MoonGuid * b) {
+    bool operator == (app::MoonGuid * a, app::MoonGuid * b) {
         return op_Equality(a, b);
     }
-    operator != (app::MoonGuid * a, app::MoonGuid * b) {
+    bool operator != (app::MoonGuid * a, app::MoonGuid * b) {
         return op_Inequality(a, b);
     }
 }

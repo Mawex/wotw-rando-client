@@ -40,43 +40,43 @@ namespace app::methods::Swing::Int2 {
     IL2CPP_REGISTER_METHOD(0x0182B4C0, app::Int2, get_right, ());
     IL2CPP_REGISTER_METHOD(0x0182B4D0, app::Int2, get_maxValue, ());
     IL2CPP_REGISTER_METHOD(0x0182B4F0, app::Int2, get_minValue, ());
-    operator == (app::Int2 lhs, app::Int2 rhs) {
+    bool operator == (app::Int2 lhs, app::Int2 rhs) {
         return op_Equality(lhs, rhs);
     }
-    operator != (app::Int2 lhs, app::Int2 rhs) {
+    bool operator != (app::Int2 lhs, app::Int2 rhs) {
         return op_Inequality(lhs, rhs);
     }
-    operator + (app::Int2 a, app::Int2 b) {
+    app::Int2 operator + (app::Int2 a, app::Int2 b) {
         return op_Addition(a, b);
     }
-    operator - (app::Int2 a, app::Int2 b) {
+    app::Int2 operator - (app::Int2 a, app::Int2 b) {
         return op_Subtraction(a, b);
     }
-    operator - (app::Int2 a) {
+    app::Int2 operator - (app::Int2 a) {
         return op_UnaryNegation(a);
     }
-    operator * (app::Int2 a, int32_t d) {
+    app::Int2 operator * (app::Int2 a, int32_t d) {
         return op_Multiply(a, d);
     }
-    operator * (int32_t d, app::Int2 a) {
+    app::Int2 operator * (int32_t d, app::Int2 a) {
         return op_Multiply(d, a);
     }
-    operator * (app::Int2 a, app::Int2 b) {
+    app::Int2 operator * (app::Int2 a, app::Int2 b) {
         return op_Multiply(a, b);
     }
-    operator * (app::Int2 a, float d) {
+    app::Vector2 operator * (app::Int2 a, float d) {
         return op_Multiply(a, d);
     }
-    operator * (float d, app::Int2 a) {
+    app::Vector2 operator * (float d, app::Int2 a) {
         return op_Multiply(d, a);
     }
-    operator / (app::Int2 a, float d) {
+    app::Vector2 operator / (app::Int2 a, float d) {
         return op_Division(a, d);
     }
-    operator / (float f, app::Int2 d) {
+    app::Vector2 operator / (float f, app::Int2 d) {
         return op_Division(f, d);
     }
-    operator / (app::Int2 a, app::Int2 b) {
+    app::Vector2 operator / (app::Int2 a, app::Int2 b) {
         return op_Division(a, b);
     }
 }

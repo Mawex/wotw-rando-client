@@ -38,10 +38,10 @@ namespace app::methods::System::Reflection::MethodBase {
     IL2CPP_REGISTER_METHOD(0x0268D930, app::MethodBody *, GetMethodBody_2, (void * handle));
     IL2CPP_REGISTER_METHOD(0x0268D940, app::MethodBase *, GetMethodFromHandleInternalType, (void * method_handle, void * type_handle));
     IL2CPP_REGISTER_METHOD(0x0268D950, app::MethodBase *, GetMethodFromHandleInternalType_native, (void * method_handle, void * type_handle, bool generic_check));
-    operator == (app::MethodBase * left, app::MethodBase * right) {
+    bool operator == (app::MethodBase * left, app::MethodBase * right) {
         return op_Equality(left, right);
     }
-    operator != (app::MethodBase * left, app::MethodBase * right) {
+    bool operator != (app::MethodBase * left, app::MethodBase * right) {
         return op_Inequality(left, right);
     }
 }

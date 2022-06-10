@@ -11,10 +11,10 @@ namespace app::methods::Steamworks::SteamLeaderboardEntries_t {
     IL2CPP_REGISTER_METHOD(0x004C50A0, uint64_t, op_Explicit_2, (app::SteamLeaderboardEntries_t that));
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::SteamLeaderboardEntries_t__Boxed * this_ptr, app::SteamLeaderboardEntries_t other));
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::SteamLeaderboardEntries_t__Boxed * this_ptr, app::SteamLeaderboardEntries_t other));
-    operator == (app::SteamLeaderboardEntries_t x, app::SteamLeaderboardEntries_t y) {
+    bool operator == (app::SteamLeaderboardEntries_t x, app::SteamLeaderboardEntries_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::SteamLeaderboardEntries_t x, app::SteamLeaderboardEntries_t y) {
+    bool operator != (app::SteamLeaderboardEntries_t x, app::SteamLeaderboardEntries_t y) {
         return op_Inequality(x, y);
     }
 }

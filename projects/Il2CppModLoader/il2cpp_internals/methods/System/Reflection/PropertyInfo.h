@@ -23,10 +23,10 @@ namespace app::methods::System::Reflection::PropertyInfo {
     IL2CPP_REGISTER_METHOD(0x02695E70, app::PropertyInfo_1 *, internal_from_handle_type, (void * event_handle, void * type_handle));
     IL2CPP_REGISTER_METHOD(0x02695ED0, app::PropertyInfo_1 *, GetPropertyFromHandle, (app::RuntimePropertyHandle handle, app::RuntimeTypeHandle reflected_type));
     IL2CPP_REGISTER_METHODINFO(0x04779B38, PropertyInfo_1_GetPropertyFromHandle__MethodInfo);
-    operator == (app::PropertyInfo_1 * left, app::PropertyInfo_1 * right) {
+    bool operator == (app::PropertyInfo_1 * left, app::PropertyInfo_1 * right) {
         return op_Equality(left, right);
     }
-    operator != (app::PropertyInfo_1 * left, app::PropertyInfo_1 * right) {
+    bool operator != (app::PropertyInfo_1 * left, app::PropertyInfo_1 * right) {
         return op_Inequality(left, right);
     }
 }

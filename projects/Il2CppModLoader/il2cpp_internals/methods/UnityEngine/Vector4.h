@@ -39,25 +39,25 @@ namespace app::methods::UnityEngine::Vector4 {
     IL2CPP_REGISTER_METHOD(0x02C796F0, float, SqrMagnitude_1, (app::Vector4 a));
     IL2CPP_REGISTER_METHOD(0x00229A80, float, SqrMagnitude_2, (app::Vector4__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x02C797D0, void, __cctor, ());
-    operator + (app::Vector4 a, app::Vector4 b) {
+    app::Vector4 operator + (app::Vector4 a, app::Vector4 b) {
         return op_Addition(a, b);
     }
-    operator - (app::Vector4 a, app::Vector4 b) {
+    app::Vector4 operator - (app::Vector4 a, app::Vector4 b) {
         return op_Subtraction(a, b);
     }
-    operator * (app::Vector4 a, float d) {
+    app::Vector4 operator * (app::Vector4 a, float d) {
         return op_Multiply(a, d);
     }
-    operator * (float d, app::Vector4 a) {
+    app::Vector4 operator * (float d, app::Vector4 a) {
         return op_Multiply(d, a);
     }
-    operator / (app::Vector4 a, float d) {
+    app::Vector4 operator / (app::Vector4 a, float d) {
         return op_Division(a, d);
     }
-    operator == (app::Vector4 lhs, app::Vector4 rhs) {
+    bool operator == (app::Vector4 lhs, app::Vector4 rhs) {
         return op_Equality(lhs, rhs);
     }
-    operator != (app::Vector4 lhs, app::Vector4 rhs) {
+    bool operator != (app::Vector4 lhs, app::Vector4 rhs) {
         return op_Inequality(lhs, rhs);
     }
 }

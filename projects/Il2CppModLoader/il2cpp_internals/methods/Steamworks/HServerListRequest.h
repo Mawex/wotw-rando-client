@@ -11,10 +11,10 @@ namespace app::methods::Steamworks::HServerListRequest {
     IL2CPP_REGISTER_METHOD(0x004C50A0, void *, op_Explicit_2, (app::HServerListRequest that));
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::HServerListRequest__Boxed * this_ptr, app::HServerListRequest other));
     IL2CPP_REGISTER_METHOD(0x015FBA60, void, __cctor, ());
-    operator == (app::HServerListRequest x, app::HServerListRequest y) {
+    bool operator == (app::HServerListRequest x, app::HServerListRequest y) {
         return op_Equality(x, y);
     }
-    operator != (app::HServerListRequest x, app::HServerListRequest y) {
+    bool operator != (app::HServerListRequest x, app::HServerListRequest y) {
         return op_Inequality(x, y);
     }
 }

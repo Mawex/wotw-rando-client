@@ -14,10 +14,10 @@ namespace app::methods::Moon::Rendering::RenderTargetDescriptor {
     IL2CPP_REGISTER_METHOD(0x00EB2F30, bool, op_Inequality, (app::RenderTargetDescriptor left, app::RenderTargetDescriptor right));
     IL2CPP_REGISTER_METHOD(0x00120270, bool, Equals_2, (app::RenderTargetDescriptor__Boxed * this_ptr, app::Object * obj));
     IL2CPP_REGISTER_METHOD(0x00120370, int32_t, GetHashCode, (app::RenderTargetDescriptor__Boxed * this_ptr));
-    operator == (app::RenderTargetDescriptor left, app::RenderTargetDescriptor right) {
+    bool operator == (app::RenderTargetDescriptor left, app::RenderTargetDescriptor right) {
         return op_Equality(left, right);
     }
-    operator != (app::RenderTargetDescriptor left, app::RenderTargetDescriptor right) {
+    bool operator != (app::RenderTargetDescriptor left, app::RenderTargetDescriptor right) {
         return op_Inequality(left, right);
     }
 }

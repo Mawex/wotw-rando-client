@@ -33,10 +33,10 @@ namespace app::methods::System::Reflection::Module {
     IL2CPP_REGISTER_METHOD(0x0268EAB0, bool, IsDefined, (app::Module * this_ptr, app::Type * attribute_type, bool inherit));
     IL2CPP_REGISTER_METHODINFO(0x04798700, Module_IsDefined__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x0268EB50, void, __cctor, ());
-    operator == (app::Module * left, app::Module * right) {
+    bool operator == (app::Module * left, app::Module * right) {
         return op_Equality(left, right);
     }
-    operator != (app::Module * left, app::Module * right) {
+    bool operator != (app::Module * left, app::Module * right) {
         return op_Inequality(left, right);
     }
 }

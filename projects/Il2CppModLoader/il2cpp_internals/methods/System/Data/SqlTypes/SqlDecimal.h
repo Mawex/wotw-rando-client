@@ -89,28 +89,28 @@ namespace app::methods::System::Data::SqlTypes::SqlDecimal {
     IL2CPP_REGISTER_METHOD(0x001E3A10, void, IXmlSerializable_WriteXml, (app::SqlDecimal__Boxed * this_ptr, app::XmlWriter * writer));
     IL2CPP_REGISTER_METHOD(0x022AD760, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set));
     IL2CPP_REGISTER_METHOD(0x022AD8B0, void, __cctor, ());
-    operator - (app::SqlDecimal x) {
+    app::SqlDecimal operator - (app::SqlDecimal x) {
         return op_UnaryNegation(x);
     }
-    operator + (app::SqlDecimal x, app::SqlDecimal y) {
+    app::SqlDecimal operator + (app::SqlDecimal x, app::SqlDecimal y) {
         return op_Addition(x, y);
     }
-    operator - (app::SqlDecimal x, app::SqlDecimal y) {
+    app::SqlDecimal operator - (app::SqlDecimal x, app::SqlDecimal y) {
         return op_Subtraction(x, y);
     }
-    operator * (app::SqlDecimal x, app::SqlDecimal y) {
+    app::SqlDecimal operator * (app::SqlDecimal x, app::SqlDecimal y) {
         return op_Multiply(x, y);
     }
-    operator / (app::SqlDecimal x, app::SqlDecimal y) {
+    app::SqlDecimal operator / (app::SqlDecimal x, app::SqlDecimal y) {
         return op_Division(x, y);
     }
-    operator == (app::SqlDecimal x, app::SqlDecimal y) {
+    app::SqlBoolean operator == (app::SqlDecimal x, app::SqlDecimal y) {
         return op_Equality(x, y);
     }
-    operator < (app::SqlDecimal x, app::SqlDecimal y) {
+    app::SqlBoolean operator < (app::SqlDecimal x, app::SqlDecimal y) {
         return op_LessThan(x, y);
     }
-    operator > (app::SqlDecimal x, app::SqlDecimal y) {
+    app::SqlBoolean operator > (app::SqlDecimal x, app::SqlDecimal y) {
         return op_GreaterThan(x, y);
     }
 }

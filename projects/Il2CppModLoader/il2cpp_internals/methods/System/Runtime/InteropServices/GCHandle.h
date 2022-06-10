@@ -27,7 +27,7 @@ namespace app::methods::System::Runtime::InteropServices::GCHandle {
     IL2CPP_REGISTER_METHOD(0x0010E170, int32_t, GetHashCode, (app::GCHandle__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01A94B00, app::GCHandle, FromIntPtr, (void * value));
     IL2CPP_REGISTER_METHOD(0x01A948E0, void *, ToIntPtr, (app::GCHandle value));
-    operator == (app::GCHandle a, app::GCHandle b) {
+    bool operator == (app::GCHandle a, app::GCHandle b) {
         return op_Equality(a, b);
     }
 }

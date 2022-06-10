@@ -9,10 +9,10 @@ namespace app::methods::System::Reflection::ConstructorInfo {
     IL2CPP_REGISTER_METHOD(0x02283820, bool, op_Equality, (app::ConstructorInfo * left, app::ConstructorInfo * right));
     IL2CPP_REGISTER_METHOD(0x02283870, bool, op_Inequality, (app::ConstructorInfo * left, app::ConstructorInfo * right));
     IL2CPP_REGISTER_METHOD(0x0267D5C0, void, __cctor, ());
-    operator == (app::ConstructorInfo * left, app::ConstructorInfo * right) {
+    bool operator == (app::ConstructorInfo * left, app::ConstructorInfo * right) {
         return op_Equality(left, right);
     }
-    operator != (app::ConstructorInfo * left, app::ConstructorInfo * right) {
+    bool operator != (app::ConstructorInfo * left, app::ConstructorInfo * right) {
         return op_Inequality(left, right);
     }
 }

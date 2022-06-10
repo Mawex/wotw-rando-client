@@ -7,10 +7,10 @@ namespace app::methods::FullSerializer::Internal::fsVersionedType {
     IL2CPP_REGISTER_METHOD(0x01504860, bool, op_Inequality, (app::fsVersionedType a, app::fsVersionedType b));
     IL2CPP_REGISTER_METHOD(0x0012BFA0, bool, Equals, (app::fsVersionedType__Boxed * this_ptr, app::Object * obj));
     IL2CPP_REGISTER_METHOD(0x0012BFB0, int32_t, GetHashCode, (app::fsVersionedType__Boxed * this_ptr));
-    operator == (app::fsVersionedType a, app::fsVersionedType b) {
+    bool operator == (app::fsVersionedType a, app::fsVersionedType b) {
         return op_Equality(a, b);
     }
-    operator != (app::fsVersionedType a, app::fsVersionedType b) {
+    bool operator != (app::fsVersionedType a, app::fsVersionedType b) {
         return op_Inequality(a, b);
     }
 }

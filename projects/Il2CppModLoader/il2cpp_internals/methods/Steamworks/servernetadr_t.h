@@ -19,16 +19,16 @@ namespace app::methods::Steamworks::servernetadr_t {
     IL2CPP_REGISTER_METHOD(0x0064E510, bool, op_Inequality, (app::servernetadr_t x, app::servernetadr_t y));
     IL2CPP_REGISTER_METHOD(0x00113E30, bool, Equals_2, (app::servernetadr_t__Boxed * this_ptr, app::servernetadr_t other));
     IL2CPP_REGISTER_METHOD(0x00113E60, int32_t, CompareTo, (app::servernetadr_t__Boxed * this_ptr, app::servernetadr_t other));
-    operator < (app::servernetadr_t x, app::servernetadr_t y) {
+    bool operator < (app::servernetadr_t x, app::servernetadr_t y) {
         return op_LessThan(x, y);
     }
-    operator > (app::servernetadr_t x, app::servernetadr_t y) {
+    bool operator > (app::servernetadr_t x, app::servernetadr_t y) {
         return op_GreaterThan(x, y);
     }
-    operator == (app::servernetadr_t x, app::servernetadr_t y) {
+    bool operator == (app::servernetadr_t x, app::servernetadr_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::servernetadr_t x, app::servernetadr_t y) {
+    bool operator != (app::servernetadr_t x, app::servernetadr_t y) {
         return op_Inequality(x, y);
     }
 }

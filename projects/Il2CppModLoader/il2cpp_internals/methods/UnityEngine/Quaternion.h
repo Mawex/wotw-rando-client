@@ -48,16 +48,16 @@ namespace app::methods::UnityEngine::Quaternion {
     IL2CPP_REGISTER_METHOD(0x0296CFB0, void, Internal_ToAxisAngleRad_Injected, (app::Quaternion * q, app::Vector3 * axis, float * angle));
     IL2CPP_REGISTER_METHOD(0x0296D020, void, AngleAxis_Injected, (float angle, app::Vector3 * axis, app::Quaternion * ret));
     IL2CPP_REGISTER_METHOD(0x0296D090, void, LookRotation_Injected, (app::Vector3 * forward, app::Vector3 * upwards, app::Quaternion * ret));
-    operator * (app::Quaternion lhs, app::Quaternion rhs) {
+    app::Quaternion operator * (app::Quaternion lhs, app::Quaternion rhs) {
         return op_Multiply(lhs, rhs);
     }
-    operator * (app::Quaternion rotation, app::Vector3 point) {
+    app::Vector3 operator * (app::Quaternion rotation, app::Vector3 point) {
         return op_Multiply(rotation, point);
     }
-    operator == (app::Quaternion lhs, app::Quaternion rhs) {
+    bool operator == (app::Quaternion lhs, app::Quaternion rhs) {
         return op_Equality(lhs, rhs);
     }
-    operator != (app::Quaternion lhs, app::Quaternion rhs) {
+    bool operator != (app::Quaternion lhs, app::Quaternion rhs) {
         return op_Inequality(lhs, rhs);
     }
 }

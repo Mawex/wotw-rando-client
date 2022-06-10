@@ -21,10 +21,10 @@ namespace app::methods::DynamicInstantiationDescriptor {
     IL2CPP_REGISTER_METHODINFO(0x047148F0, DynamicInstantiationDescriptor_FromMonoBehaviourOld__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x030DFFF0, app::List_1_DynamicInstantiationDescriptor_ *, FromMonoBehaviour, (app::MonoBehaviour * component));
     IL2CPP_REGISTER_METHOD(0x030E01D0, void, __cctor, ());
-    operator == (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right) {
+    bool operator == (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right) {
         return op_Equality(left, right);
     }
-    operator != (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right) {
+    bool operator != (app::DynamicInstantiationDescriptor * left, app::DynamicInstantiationDescriptor * right) {
         return op_Inequality(left, right);
     }
 }

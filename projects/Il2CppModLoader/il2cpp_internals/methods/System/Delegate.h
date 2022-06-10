@@ -40,7 +40,7 @@ namespace app::methods::System::Delegate {
     IL2CPP_REGISTER_METHOD(0x01740070, bool, op_Equality, (app::Delegate * d1, app::Delegate * d2));
     IL2CPP_REGISTER_METHOD(0x017400A0, app::Delegate *, CreateDelegateNoSecurityCheck, (app::RuntimeType * type, app::Object * first_argument, app::MethodInfo_1 * method_1));
     IL2CPP_REGISTER_METHOD(0x017400C0, app::MulticastDelegate *, AllocDelegateLike_internal, (app::Delegate * d));
-    operator == (app::Delegate * d1, app::Delegate * d2) {
+    bool operator == (app::Delegate * d1, app::Delegate * d2) {
         return op_Equality(d1, d2);
     }
 }

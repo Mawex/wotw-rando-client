@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::PublishedFileUpdateHandle_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::PublishedFileUpdateHandle_t__Boxed * this_ptr, app::PublishedFileUpdateHandle_t other));
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::PublishedFileUpdateHandle_t__Boxed * this_ptr, app::PublishedFileUpdateHandle_t other));
     IL2CPP_REGISTER_METHOD(0x027E1C30, void, __cctor, ());
-    operator == (app::PublishedFileUpdateHandle_t x, app::PublishedFileUpdateHandle_t y) {
+    bool operator == (app::PublishedFileUpdateHandle_t x, app::PublishedFileUpdateHandle_t y) {
         return op_Equality(x, y);
     }
-    operator != (app::PublishedFileUpdateHandle_t x, app::PublishedFileUpdateHandle_t y) {
+    bool operator != (app::PublishedFileUpdateHandle_t x, app::PublishedFileUpdateHandle_t y) {
         return op_Inequality(x, y);
     }
 }

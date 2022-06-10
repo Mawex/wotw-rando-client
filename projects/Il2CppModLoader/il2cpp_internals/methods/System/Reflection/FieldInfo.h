@@ -27,10 +27,10 @@ namespace app::methods::System::Reflection::FieldInfo {
     IL2CPP_REGISTER_METHOD(0x0194D440, int32_t, GetHashCode, (app::FieldInfo_1 * this_ptr));
     IL2CPP_REGISTER_METHOD(0x02283820, bool, op_Equality, (app::FieldInfo_1 * left, app::FieldInfo_1 * right));
     IL2CPP_REGISTER_METHOD(0x02283870, bool, op_Inequality, (app::FieldInfo_1 * left, app::FieldInfo_1 * right));
-    operator == (app::FieldInfo_1 * left, app::FieldInfo_1 * right) {
+    bool operator == (app::FieldInfo_1 * left, app::FieldInfo_1 * right) {
         return op_Equality(left, right);
     }
-    operator != (app::FieldInfo_1 * left, app::FieldInfo_1 * right) {
+    bool operator != (app::FieldInfo_1 * left, app::FieldInfo_1 * right) {
         return op_Inequality(left, right);
     }
 }

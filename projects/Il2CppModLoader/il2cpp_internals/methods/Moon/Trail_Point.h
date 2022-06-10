@@ -8,10 +8,10 @@ namespace app::methods::Moon::Trail_Point {
     IL2CPP_REGISTER_METHOD(0x0256F370, app::Trail_Point, Interpolate, (app::Trail_Point a, app::Trail_Point b, app::Trail_Point c, app::Trail_Point d, float t));
     IL2CPP_REGISTER_METHOD(0x0256F950, app::Trail_Point, op_Addition, (app::Trail_Point p1, app::Trail_Point p2));
     IL2CPP_REGISTER_METHOD(0x0256FC40, app::Trail_Point, op_Subtraction, (app::Trail_Point p1, app::Trail_Point p2));
-    operator + (app::Trail_Point p1, app::Trail_Point p2) {
+    app::Trail_Point operator + (app::Trail_Point p1, app::Trail_Point p2) {
         return op_Addition(p1, p2);
     }
-    operator - (app::Trail_Point p1, app::Trail_Point p2) {
+    app::Trail_Point operator - (app::Trail_Point p1, app::Trail_Point p2) {
         return op_Subtraction(p1, p2);
     }
 }

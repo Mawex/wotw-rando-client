@@ -15,10 +15,10 @@ namespace app::methods::UnityEngine::Vector3Int {
     IL2CPP_REGISTER_METHOD(0x00229810, int32_t, GetHashCode, (app::Vector3Int__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00229840, app::String *, ToString, (app::Vector3Int__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x02C782B0, void, __cctor, ());
-    operator - (app::Vector3Int a, app::Vector3Int b) {
+    app::Vector3Int operator - (app::Vector3Int a, app::Vector3Int b) {
         return op_Subtraction(a, b);
     }
-    operator == (app::Vector3Int lhs, app::Vector3Int rhs) {
+    bool operator == (app::Vector3Int lhs, app::Vector3Int rhs) {
         return op_Equality(lhs, rhs);
     }
 }

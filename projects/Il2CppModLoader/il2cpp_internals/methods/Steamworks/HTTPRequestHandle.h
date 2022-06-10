@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::HTTPRequestHandle {
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::HTTPRequestHandle__Boxed * this_ptr, app::HTTPRequestHandle other));
     IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (app::HTTPRequestHandle__Boxed * this_ptr, app::HTTPRequestHandle other));
     IL2CPP_REGISTER_METHOD(0x015FBDC0, void, __cctor, ());
-    operator == (app::HTTPRequestHandle x, app::HTTPRequestHandle y) {
+    bool operator == (app::HTTPRequestHandle x, app::HTTPRequestHandle y) {
         return op_Equality(x, y);
     }
-    operator != (app::HTTPRequestHandle x, app::HTTPRequestHandle y) {
+    bool operator != (app::HTTPRequestHandle x, app::HTTPRequestHandle y) {
         return op_Inequality(x, y);
     }
 }

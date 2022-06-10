@@ -49,10 +49,10 @@ namespace app::methods::UnityEngine::Rect {
     IL2CPP_REGISTER_METHOD(0x00217D90, float, get_right, (app::Rect__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x001EB410, float, get_top, (app::Rect__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x00217DA0, float, get_bottom, (app::Rect__Boxed * this_ptr));
-    operator != (app::Rect lhs, app::Rect rhs) {
+    bool operator != (app::Rect lhs, app::Rect rhs) {
         return op_Inequality(lhs, rhs);
     }
-    operator == (app::Rect lhs, app::Rect rhs) {
+    bool operator == (app::Rect lhs, app::Rect rhs) {
         return op_Equality(lhs, rhs);
     }
 }

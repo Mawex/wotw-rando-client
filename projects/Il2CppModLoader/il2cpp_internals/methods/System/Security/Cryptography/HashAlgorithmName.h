@@ -14,10 +14,10 @@ namespace app::methods::System::Security::Cryptography::HashAlgorithmName {
     IL2CPP_REGISTER_METHOD(0x001DC3D0, int32_t, GetHashCode, (app::HashAlgorithmName__Boxed * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01E27CD0, bool, op_Equality, (app::HashAlgorithmName left, app::HashAlgorithmName right));
     IL2CPP_REGISTER_METHOD(0x01E280E0, bool, op_Inequality, (app::HashAlgorithmName left, app::HashAlgorithmName right));
-    operator == (app::HashAlgorithmName left, app::HashAlgorithmName right) {
+    bool operator == (app::HashAlgorithmName left, app::HashAlgorithmName right) {
         return op_Equality(left, right);
     }
-    operator != (app::HashAlgorithmName left, app::HashAlgorithmName right) {
+    bool operator != (app::HashAlgorithmName left, app::HashAlgorithmName right) {
         return op_Inequality(left, right);
     }
 }
