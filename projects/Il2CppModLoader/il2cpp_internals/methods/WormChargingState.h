@@ -1,6 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::WormChargingState {
-    IL2CPP_REGISTER_METHOD(0x00522850, void, __ctor, (app::WormChargingState * this_ptr, app::WormEnemy * worm, app::TextureAnimationWithTransitions * charging, app::PrefabSpawner * charging_effect));
-    IL2CPP_REGISTER_METHOD(0x0058D6B0, void, OnEnter, (app::WormChargingState * this_ptr));
-}

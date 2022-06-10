@@ -1,9 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::SeinAnimationSystemSwitcher {
-    IL2CPP_REGISTER_METHOD(0x00D84720, void, Start, (app::SeinAnimationSystemSwitcher * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00D84730, void, Update, (app::SeinAnimationSystemSwitcher * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00D848F0, void, ToggleOldSystem, (app::SeinAnimationSystemSwitcher * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00D84A50, void, ToggleNewSystem, (app::SeinAnimationSystemSwitcher * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00D84B70, void, __ctor, (app::SeinAnimationSystemSwitcher * this_ptr));
-}

@@ -1,6 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::AttachSpriteToPhysicsSystem_JobWithMonoBehaviour {
-    IL2CPP_REGISTER_METHOD(0x0011A640, void, __ctor, (app::AttachSpriteToPhysicsSystem_JobWithMonoBehaviour__Boxed * this_ptr, app::AttachSpriteToPhysicsSystem__Array * items));
-    IL2CPP_REGISTER_METHOD(0x0011A660, void, Execute, (app::AttachSpriteToPhysicsSystem_JobWithMonoBehaviour__Boxed * this_ptr, int32_t index, app::TransformAccess transform));
-}

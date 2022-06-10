@@ -1,6 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::SeinHealthCurrentNormalizedProvider {
-    IL2CPP_REGISTER_METHOD(0x00FFF5E0, float, GetFloatValue, (app::SeinHealthCurrentNormalizedProvider * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x003F8A60, void, __ctor, (app::SeinHealthCurrentNormalizedProvider * this_ptr));
-}

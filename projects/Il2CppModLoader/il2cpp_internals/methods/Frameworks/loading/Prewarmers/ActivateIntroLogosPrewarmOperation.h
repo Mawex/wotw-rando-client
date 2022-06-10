@@ -1,9 +1,0 @@
-#include <interception_macros.h>
-
-namespace app::methods::frameworks::loading::Prewarmers::ActivateIntroLogosPrewarmOperation {
-    IL2CPP_REGISTER_METHOD(0x00F5D670, void, __ctor, (app::ActivateIntroLogosPrewarmOperation * this_ptr, app::LoadIntroLogosPrewarmOperation * load_op));
-    IL2CPP_REGISTER_METHOD(0x00F5D720, bool, Begin, (app::ActivateIntroLogosPrewarmOperation * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00F5D7F0, bool, Update, (app::ActivateIntroLogosPrewarmOperation * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, FinishImmediately, (app::ActivateIntroLogosPrewarmOperation * this_ptr));
-    IL2CPP_REGISTER_METHOD(0x00F5D850, int32_t, DebugDrawStatus, (app::ActivateIntroLogosPrewarmOperation * this_ptr, int32_t xbegin, int32_t ybegin));
-}
