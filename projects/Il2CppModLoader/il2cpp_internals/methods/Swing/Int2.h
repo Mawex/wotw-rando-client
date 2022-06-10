@@ -56,27 +56,27 @@ namespace app::methods::Swing::Int2 {
         return op_UnaryNegation(a);
     }
     app::Int2 operator * (app::Int2 a, int32_t d) {
-        return op_Multiply(a, d);
+        return op_Multiply_1(a, d);
     }
     app::Int2 operator * (int32_t d, app::Int2 a) {
-        return op_Multiply(d, a);
+        return op_Multiply_2(d, a);
     }
     app::Int2 operator * (app::Int2 a, app::Int2 b) {
-        return op_Multiply(a, b);
+        return op_Multiply_3(a, b);
     }
     app::Vector2 operator * (app::Int2 a, float d) {
-        return op_Multiply(a, d);
+        return op_Multiply_4(a, d);
     }
     app::Vector2 operator * (float d, app::Int2 a) {
-        return op_Multiply(d, a);
+        return op_Multiply_5(d, a);
     }
     app::Vector2 operator / (app::Int2 a, float d) {
-        return op_Division(a, d);
+        return op_Division_1(a, d);
     }
     app::Vector2 operator / (float f, app::Int2 d) {
-        return op_Division(f, d);
+        return op_Division_2(f, d);
     }
     app::Vector2 operator / (app::Int2 a, app::Int2 b) {
-        return op_Division(a, b);
+        return op_Division_3(a, b);
     }
 }

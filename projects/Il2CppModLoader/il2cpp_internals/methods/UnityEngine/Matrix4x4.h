@@ -44,10 +44,10 @@ namespace app::methods::UnityEngine::Matrix4x4 {
     IL2CPP_REGISTER_METHOD(0x025394E0, void, Ortho_Injected, (float left, float right, float bottom, float top, float z_near, float z_far, app::Matrix4x4 * ret));
     IL2CPP_REGISTER_METHOD(0x02539580, void, Perspective_Injected, (float fov, float aspect, float z_near, float z_far, app::Matrix4x4 * ret));
     app::Matrix4x4 operator * (app::Matrix4x4 lhs, app::Matrix4x4 rhs) {
-        return op_Multiply(lhs, rhs);
+        return op_Multiply_1(lhs, rhs);
     }
     app::Vector4 operator * (app::Matrix4x4 lhs, app::Vector4 vector) {
-        return op_Multiply(lhs, vector);
+        return op_Multiply_2(lhs, vector);
     }
     bool operator == (app::Matrix4x4 lhs, app::Matrix4x4 rhs) {
         return op_Equality(lhs, rhs);

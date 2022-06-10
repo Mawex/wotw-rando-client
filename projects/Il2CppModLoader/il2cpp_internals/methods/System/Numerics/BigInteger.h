@@ -97,27 +97,27 @@ namespace app::methods::System::Numerics::BigInteger {
         return op_Multiply(left, right);
     }
     bool operator <= (app::BigInteger_2 left, app::BigInteger_2 right) {
-        return op_LessThanOrEqual(left, right);
+        return op_LessThanOrEqual_1(left, right);
     }
     bool operator != (app::BigInteger_2 left, app::BigInteger_2 right) {
-        return op_Inequality(left, right);
+        return op_Inequality_1(left, right);
     }
     bool operator < (app::BigInteger_2 left, int64_t right) {
-        return op_LessThan(left, right);
+        return op_LessThan_1(left, right);
     }
     bool operator <= (app::BigInteger_2 left, int64_t right) {
-        return op_LessThanOrEqual(left, right);
+        return op_LessThanOrEqual_2(left, right);
     }
     bool operator == (app::BigInteger_2 left, int64_t right) {
         return op_Equality(left, right);
     }
     bool operator != (app::BigInteger_2 left, int64_t right) {
-        return op_Inequality(left, right);
+        return op_Inequality_2(left, right);
     }
     bool operator < (int64_t left, app::BigInteger_2 right) {
-        return op_LessThan(left, right);
+        return op_LessThan_2(left, right);
     }
     bool operator <= (int64_t left, app::BigInteger_2 right) {
-        return op_LessThanOrEqual(left, right);
+        return op_LessThanOrEqual_3(left, right);
     }
 }

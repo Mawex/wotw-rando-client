@@ -46,13 +46,13 @@ namespace app::methods::UnityEngine::Color {
         return op_Subtraction(a, b);
     }
     app::Color operator * (app::Color a, app::Color b) {
-        return op_Multiply(a, b);
+        return op_Multiply_1(a, b);
     }
     app::Color operator * (app::Color a, float b) {
-        return op_Multiply(a, b);
+        return op_Multiply_2(a, b);
     }
     app::Color operator * (float b, app::Color a) {
-        return op_Multiply(b, a);
+        return op_Multiply_3(b, a);
     }
     app::Color operator / (app::Color a, float b) {
         return op_Division(a, b);

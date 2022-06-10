@@ -57,22 +57,22 @@ namespace app::methods::UnityEngine::Vector2 {
         return op_Subtraction(a, b);
     }
     app::Vector2 operator * (app::Vector2 a, app::Vector2 b) {
-        return op_Multiply(a, b);
+        return op_Multiply_1(a, b);
     }
     app::Vector2 operator / (app::Vector2 a, app::Vector2 b) {
-        return op_Division(a, b);
+        return op_Division_1(a, b);
     }
     app::Vector2 operator - (app::Vector2 a) {
         return op_UnaryNegation(a);
     }
     app::Vector2 operator * (app::Vector2 a, float d) {
-        return op_Multiply(a, d);
+        return op_Multiply_2(a, d);
     }
     app::Vector2 operator * (float d, app::Vector2 a) {
-        return op_Multiply(d, a);
+        return op_Multiply_3(d, a);
     }
     app::Vector2 operator / (app::Vector2 a, float d) {
-        return op_Division(a, d);
+        return op_Division_2(a, d);
     }
     bool operator == (app::Vector2 lhs, app::Vector2 rhs) {
         return op_Equality(lhs, rhs);

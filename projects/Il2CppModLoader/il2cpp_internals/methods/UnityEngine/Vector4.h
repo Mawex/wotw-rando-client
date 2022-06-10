@@ -46,10 +46,10 @@ namespace app::methods::UnityEngine::Vector4 {
         return op_Subtraction(a, b);
     }
     app::Vector4 operator * (app::Vector4 a, float d) {
-        return op_Multiply(a, d);
+        return op_Multiply_1(a, d);
     }
     app::Vector4 operator * (float d, app::Vector4 a) {
-        return op_Multiply(d, a);
+        return op_Multiply_2(d, a);
     }
     app::Vector4 operator / (app::Vector4 a, float d) {
         return op_Division(a, d);

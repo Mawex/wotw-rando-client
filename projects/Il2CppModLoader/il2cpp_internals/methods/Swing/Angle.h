@@ -61,22 +61,22 @@ namespace app::methods::Swing::Angle {
         return op_Subtraction(_a, _b);
     }
     app::Angle operator * (app::Angle _a, float _b) {
-        return op_Multiply(_a, _b);
+        return op_Multiply_1(_a, _b);
     }
     app::Angle operator * (float _a, app::Angle _b) {
-        return op_Multiply(_a, _b);
+        return op_Multiply_2(_a, _b);
     }
     app::Angle operator / (app::Angle _a, float _b) {
-        return op_Division(_a, _b);
+        return op_Division_1(_a, _b);
     }
     app::Angle operator / (float _a, app::Angle _b) {
-        return op_Division(_a, _b);
+        return op_Division_2(_a, _b);
     }
     app::Angle operator % (app::Angle _a, app::Angle _b) {
         return op_Modulus(_a, _b);
     }
     float operator / (app::Angle _a, app::Angle _b) {
-        return op_Division(_a, _b);
+        return op_Division_3(_a, _b);
     }
     app::Angle operator - (app::Angle _a) {
         return op_UnaryNegation(_a);

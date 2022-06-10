@@ -73,10 +73,10 @@ namespace app::methods::UnityEngine::Vector3 {
         return op_UnaryNegation(a);
     }
     app::Vector3 operator * (app::Vector3 a, float d) {
-        return op_Multiply(a, d);
+        return op_Multiply_1(a, d);
     }
     app::Vector3 operator * (float d, app::Vector3 a) {
-        return op_Multiply(d, a);
+        return op_Multiply_2(d, a);
     }
     app::Vector3 operator / (app::Vector3 a, float d) {
         return op_Division(a, d);

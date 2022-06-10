@@ -162,10 +162,10 @@ namespace app::methods::System::DateTime {
         return op_Addition(d, t);
     }
     app::DateTime operator - (app::DateTime d, app::TimeSpan t) {
-        return op_Subtraction(d, t);
+        return op_Subtraction_1(d, t);
     }
     app::TimeSpan operator - (app::DateTime d1, app::DateTime d2) {
-        return op_Subtraction(d1, d2);
+        return op_Subtraction_2(d1, d2);
     }
     bool operator == (app::DateTime d1, app::DateTime d2) {
         return op_Equality(d1, d2);
