@@ -14,10 +14,10 @@ namespace app::methods::System::Security::Cryptography::RSASignaturePadding {
     IL2CPP_REGISTER_METHOD(0x028EE060, void, __cctor, ());
     IL2CPP_REGISTER_METHOD(0x028EE280, void, __ctor_2, (app::RSASignaturePadding * this_ptr));
     IL2CPP_REGISTER_METHODINFO(0x04731320, RSASignaturePadding__ctor_1__MethodInfo);
-    bool operator == (app::RSASignaturePadding * left, app::RSASignaturePadding * right) {
-        return op_Equality(left, right);
+    bool operator == (app::RSASignaturePadding & left, app::RSASignaturePadding & right) {
+        return op_Equality(&left, &right);
     }
-    bool operator != (app::RSASignaturePadding * left, app::RSASignaturePadding * right) {
-        return op_Inequality(left, right);
+    bool operator != (app::RSASignaturePadding & left, app::RSASignaturePadding & right) {
+        return op_Inequality(&left, &right);
     }
 }

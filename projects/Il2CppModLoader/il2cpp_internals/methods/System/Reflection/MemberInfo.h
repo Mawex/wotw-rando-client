@@ -11,10 +11,10 @@ namespace app::methods::System::Reflection::MemberInfo {
     IL2CPP_REGISTER_METHOD(0x0268B5F0, bool, op_Inequality, (app::MemberInfo_1 * left, app::MemberInfo_1 * right));
     IL2CPP_REGISTER_METHOD(0x015F8190, bool, Equals, (app::MemberInfo_1 * this_ptr, app::Object * obj));
     IL2CPP_REGISTER_METHOD(0x0194D440, int32_t, GetHashCode, (app::MemberInfo_1 * this_ptr));
-    bool operator == (app::MemberInfo_1 * left, app::MemberInfo_1 * right) {
-        return op_Equality(left, right);
+    bool operator == (app::MemberInfo_1 & left, app::MemberInfo_1 & right) {
+        return op_Equality(&left, &right);
     }
-    bool operator != (app::MemberInfo_1 * left, app::MemberInfo_1 * right) {
-        return op_Inequality(left, right);
+    bool operator != (app::MemberInfo_1 & left, app::MemberInfo_1 & right) {
+        return op_Inequality(&left, &right);
     }
 }

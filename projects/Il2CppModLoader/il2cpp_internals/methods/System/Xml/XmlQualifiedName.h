@@ -25,10 +25,10 @@ namespace app::methods::System::Xml::XmlQualifiedName {
     IL2CPP_REGISTER_METHODINFO(0x04707650, XmlQualifiedName_Parse__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x01700630, app::XmlQualifiedName *, Clone, (app::XmlQualifiedName * this_ptr));
     IL2CPP_REGISTER_METHOD(0x01700780, void, __cctor, ());
-    bool operator == (app::XmlQualifiedName * a, app::XmlQualifiedName * b) {
-        return op_Equality(a, b);
+    bool operator == (app::XmlQualifiedName & a, app::XmlQualifiedName & b) {
+        return op_Equality(&a, &b);
     }
-    bool operator != (app::XmlQualifiedName * a, app::XmlQualifiedName * b) {
-        return op_Inequality(a, b);
+    bool operator != (app::XmlQualifiedName & a, app::XmlQualifiedName & b) {
+        return op_Inequality(&a, &b);
     }
 }

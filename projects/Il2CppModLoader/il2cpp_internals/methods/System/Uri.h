@@ -164,10 +164,10 @@ namespace app::methods::System::Uri {
     IL2CPP_REGISTER_METHODINFO(0x04752578, Uri_GetComponentsHelper__MethodInfo);
     IL2CPP_REGISTER_METHOD(0x02A8DA80, void, CreateThisFromUri, (app::Uri * this_ptr, app::Uri * other_uri));
     IL2CPP_REGISTER_METHOD(0x02A8DC30, void, __cctor, ());
-    bool operator == (app::Uri * uri1, app::Uri * uri2) {
-        return op_Equality(uri1, uri2);
+    bool operator == (app::Uri & uri1, app::Uri & uri2) {
+        return op_Equality(&uri1, &uri2);
     }
-    bool operator != (app::Uri * uri1, app::Uri * uri2) {
-        return op_Inequality(uri1, uri2);
+    bool operator != (app::Uri & uri1, app::Uri & uri2) {
+        return op_Inequality(&uri1, &uri2);
     }
 }
