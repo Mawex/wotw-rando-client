@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CageStructureTool___c__149_1_System_Int32_ {

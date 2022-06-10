@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TurbulenceScaleModifier__GetKeywordsForShader_d__6 {

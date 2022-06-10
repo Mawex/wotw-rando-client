@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ClassPropertyWriter_2_ContainerType_ValueType__Getter_EmptyStruct_System_Object_ {

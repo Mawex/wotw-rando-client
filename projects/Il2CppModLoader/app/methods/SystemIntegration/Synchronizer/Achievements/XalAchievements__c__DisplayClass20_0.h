@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::XalAchievements___c__DisplayClass20_0 {

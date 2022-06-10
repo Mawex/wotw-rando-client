@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericComparer_1_System_UInt64_ {

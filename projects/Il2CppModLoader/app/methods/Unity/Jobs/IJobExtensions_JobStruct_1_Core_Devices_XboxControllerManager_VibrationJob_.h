@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobExtensions_JobStruct_1_Core_Devices_XboxControllerManager_VibrationJob_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_TriangleNet_Topology_Triangle_ {

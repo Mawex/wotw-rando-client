@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__ConcatIterator_d__59_1_System_Object_ {

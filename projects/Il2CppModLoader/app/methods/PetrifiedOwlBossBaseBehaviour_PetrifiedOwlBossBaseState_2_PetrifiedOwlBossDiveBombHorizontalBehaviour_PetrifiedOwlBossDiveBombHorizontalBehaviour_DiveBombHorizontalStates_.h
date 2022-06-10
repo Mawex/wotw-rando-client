@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseState_2_PetrifiedOwlBossDiveBombHorizontalBehaviour_PetrifiedOwlBossDiveBombHorizontalBehaviour_DiveBombHorizontalStates_ {

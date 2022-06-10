@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PressurePlate___c__DisplayClass28_0 {

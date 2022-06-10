@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CompositeTriggerCollider__PropagateCollisionsToSiblings_d__9 {

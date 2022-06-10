@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_String_Dictionary_2_System_String_System_Reflection_FieldInfo__ {

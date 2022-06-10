@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_MenuScreenManager_Screens_System_Func_1_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_T__Enumerator_CatlikeCoding_TextBox_AppliedTextStyle_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Net::SimpleAsyncResult___c__DisplayClass11_0 {

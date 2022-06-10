@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::CallSite_1_System_Func_4_ {

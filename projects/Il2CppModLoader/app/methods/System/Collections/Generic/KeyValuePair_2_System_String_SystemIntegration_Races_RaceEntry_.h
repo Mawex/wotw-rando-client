@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_String_SystemIntegration_Races_RaceEntry_ {

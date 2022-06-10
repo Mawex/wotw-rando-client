@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_ZenFulcrum_EmbeddedBrowser_TimeData_Boolean_ {

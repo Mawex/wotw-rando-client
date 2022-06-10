@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_fsm_IState_List_1_fsm_Transition__ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityLocomotionTask_1_SpiderBossEntity_ {

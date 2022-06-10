@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskCompletionSource_1_System_Collections_Generic_IEnumerable_1_ {

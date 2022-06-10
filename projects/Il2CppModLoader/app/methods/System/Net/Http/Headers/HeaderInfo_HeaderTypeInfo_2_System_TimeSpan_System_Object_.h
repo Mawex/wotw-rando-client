@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HeaderInfo_HeaderTypeInfo_2_System_TimeSpan_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::StructMultiKey_2_System_Type_System_Type_ {

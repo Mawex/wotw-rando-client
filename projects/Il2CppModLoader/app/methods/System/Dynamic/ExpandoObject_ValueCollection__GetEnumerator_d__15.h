@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_ValueCollection__GetEnumerator_d__15 {

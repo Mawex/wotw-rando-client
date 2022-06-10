@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::EntityReactionBehaviour_1_SandWormEntity_ {

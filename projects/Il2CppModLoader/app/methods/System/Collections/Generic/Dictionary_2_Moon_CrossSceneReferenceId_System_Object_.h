@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_CrossSceneReferenceId_System_Object_ {

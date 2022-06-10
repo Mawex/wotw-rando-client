@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Tuple_3_Single_Int32Enum_Boolean_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_4_System_Runtime_CompilerServices_IRuntimeVariables_System_Runtime_CompilerServices_IRuntimeVariables_Int32___System_Runtime_CompilerServices_IRuntimeVariables_ {

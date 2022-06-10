@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XObject__Annotations_d__16_1_System_Object_ {

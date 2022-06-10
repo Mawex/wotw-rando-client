@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DictionaryWrapper_2_TKey_TValue__DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object_ {

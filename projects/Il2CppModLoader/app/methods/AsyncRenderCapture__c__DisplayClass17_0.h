@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::AsyncRenderCapture___c__DisplayClass17_0 {

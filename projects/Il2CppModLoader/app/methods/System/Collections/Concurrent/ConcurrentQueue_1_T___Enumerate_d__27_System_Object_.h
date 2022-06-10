@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentQueue_1_T___Enumerate_d__27_System_Object_ {

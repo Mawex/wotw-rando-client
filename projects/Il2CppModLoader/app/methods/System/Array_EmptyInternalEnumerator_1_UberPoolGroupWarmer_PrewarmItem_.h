@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_UberPoolGroupWarmer_PrewarmItem_ {

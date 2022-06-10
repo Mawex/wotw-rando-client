@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::LeaderboardsB___c__DisplayClass72_0 {

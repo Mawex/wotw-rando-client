@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::ElementTryParser_1_StringWithQualityHeaderValue_ {

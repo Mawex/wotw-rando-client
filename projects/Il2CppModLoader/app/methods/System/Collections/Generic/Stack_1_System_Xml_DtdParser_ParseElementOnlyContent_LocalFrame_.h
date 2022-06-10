@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_System_Xml_DtdParser_ParseElementOnlyContent_LocalFrame_ {

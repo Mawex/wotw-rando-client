@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_InteractionGraph_IState_List_1_Moon_InteractionGraph_Transition__ {

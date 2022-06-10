@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ControlsScreen___c__DisplayClass11_0 {

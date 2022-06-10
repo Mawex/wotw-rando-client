@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_UnityEngine_Experimental_Animations_TransformStreamHandle_ {

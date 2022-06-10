@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::XboxOneSave___c__DisplayClass23_0 {

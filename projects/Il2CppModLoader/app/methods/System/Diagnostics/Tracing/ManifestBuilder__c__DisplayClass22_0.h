@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ManifestBuilder___c__DisplayClass22_0 {

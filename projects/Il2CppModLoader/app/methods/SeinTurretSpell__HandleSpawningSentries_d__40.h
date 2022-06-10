@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SeinTurretSpell__HandleSpawningSentries_d__40 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Net::WebRequest___c__DisplayClass79_0 {

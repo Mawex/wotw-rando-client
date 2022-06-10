@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::DCEL::Face__EnumerateEdges_d__18 {

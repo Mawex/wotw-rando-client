@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System_Xml_XmlNamespaceManager_NamespaceDeclaration_ {

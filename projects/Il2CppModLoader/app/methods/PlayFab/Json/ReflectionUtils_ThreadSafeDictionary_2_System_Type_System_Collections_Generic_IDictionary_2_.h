@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils_ThreadSafeDictionary_2_System_Type_System_Collections_Generic_IDictionary_2_ {

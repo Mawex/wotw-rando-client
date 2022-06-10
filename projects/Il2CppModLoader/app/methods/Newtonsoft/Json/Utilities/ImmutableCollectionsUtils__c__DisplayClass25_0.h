@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0 {

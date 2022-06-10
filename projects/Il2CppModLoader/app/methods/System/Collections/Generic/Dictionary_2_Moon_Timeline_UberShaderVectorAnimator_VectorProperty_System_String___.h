@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_Timeline_UberShaderVectorAnimator_VectorProperty_System_String___ {

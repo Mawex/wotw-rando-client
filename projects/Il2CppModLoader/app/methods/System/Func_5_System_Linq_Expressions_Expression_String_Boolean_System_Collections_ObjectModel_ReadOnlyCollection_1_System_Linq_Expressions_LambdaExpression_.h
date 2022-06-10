@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_5_System_Linq_Expressions_Expression_String_Boolean_System_Collections_ObjectModel_ReadOnlyCollection_1_System_Linq_Expressions_LambdaExpression_ {

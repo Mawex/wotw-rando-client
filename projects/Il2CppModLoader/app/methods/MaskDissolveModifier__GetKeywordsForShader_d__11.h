@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::MaskDissolveModifier__GetKeywordsForShader_d__11 {

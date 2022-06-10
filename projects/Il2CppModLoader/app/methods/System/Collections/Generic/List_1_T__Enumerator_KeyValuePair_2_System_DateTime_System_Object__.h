@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_KeyValuePair_2_System_DateTime_System_Object__ {

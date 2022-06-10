@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ListPool_1_RectMask2D_ {

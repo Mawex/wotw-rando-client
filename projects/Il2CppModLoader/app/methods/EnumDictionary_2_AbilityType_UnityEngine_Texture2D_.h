@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_AbilityType_UnityEngine_Texture2D_ {

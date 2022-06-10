@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_2_UnityEngine_RenderTexture_P3D_Rect_ {

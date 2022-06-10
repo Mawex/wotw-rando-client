@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SandWormJumpAttackBehaviour___c__DisplayClass40_0 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ {

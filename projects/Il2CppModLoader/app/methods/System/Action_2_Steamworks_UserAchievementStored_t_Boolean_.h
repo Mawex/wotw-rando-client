@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Steamworks_UserAchievementStored_t_Boolean_ {

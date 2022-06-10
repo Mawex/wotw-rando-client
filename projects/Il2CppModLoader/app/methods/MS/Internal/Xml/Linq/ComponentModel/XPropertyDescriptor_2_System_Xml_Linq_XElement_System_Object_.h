@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XPropertyDescriptor_2_System_Xml_Linq_XElement_System_Object_ {

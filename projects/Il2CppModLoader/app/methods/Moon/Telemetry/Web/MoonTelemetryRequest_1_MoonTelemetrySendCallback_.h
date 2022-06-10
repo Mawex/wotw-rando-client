@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Web::MoonTelemetryRequest_1_MoonTelemetrySendCallback_ {

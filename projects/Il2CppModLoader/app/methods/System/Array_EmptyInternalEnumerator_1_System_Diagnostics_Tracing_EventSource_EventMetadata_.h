@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_System_Diagnostics_Tracing_EventSource_EventMetadata_ {

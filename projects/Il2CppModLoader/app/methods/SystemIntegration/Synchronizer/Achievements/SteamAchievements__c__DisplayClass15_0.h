@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::SteamAchievements___c__DisplayClass15_0 {

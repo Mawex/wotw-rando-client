@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::ThreadedWebRequest_1_T____c__DisplayClass10_0_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_ValueTuple_2_Int32_Object__Boolean_ {

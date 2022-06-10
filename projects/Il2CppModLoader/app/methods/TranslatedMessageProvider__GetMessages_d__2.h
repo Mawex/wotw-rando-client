@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TranslatedMessageProvider__GetMessages_d__2 {

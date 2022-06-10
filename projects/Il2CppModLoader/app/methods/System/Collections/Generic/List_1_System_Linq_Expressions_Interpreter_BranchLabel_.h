@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System_Linq_Expressions_Interpreter_BranchLabel_ {

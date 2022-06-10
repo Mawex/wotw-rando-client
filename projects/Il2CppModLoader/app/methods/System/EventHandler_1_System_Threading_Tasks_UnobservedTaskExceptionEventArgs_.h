@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::EventHandler_1_System_Threading_Tasks_UnobservedTaskExceptionEventArgs_ {

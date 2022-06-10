@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_SmartInput_IButtonInput_Core_Input_InputButtonProcessor_ {

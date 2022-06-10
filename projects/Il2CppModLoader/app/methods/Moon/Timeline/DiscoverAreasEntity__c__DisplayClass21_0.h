@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::DiscoverAreasEntity___c__DisplayClass21_0 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::KeybindingCommandMapAsset__GetAllBindingsIterator_d__62 {

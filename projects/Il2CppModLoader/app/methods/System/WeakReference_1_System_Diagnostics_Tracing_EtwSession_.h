@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::WeakReference_1_System_Diagnostics_Tracing_EtwSession_ {

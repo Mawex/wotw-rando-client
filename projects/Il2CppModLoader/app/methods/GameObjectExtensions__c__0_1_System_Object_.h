@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::GameObjectExtensions___c__0_1_System_Object_ {

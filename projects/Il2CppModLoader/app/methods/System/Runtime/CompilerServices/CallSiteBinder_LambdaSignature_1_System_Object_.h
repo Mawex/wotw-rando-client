@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1_System_Object_ {

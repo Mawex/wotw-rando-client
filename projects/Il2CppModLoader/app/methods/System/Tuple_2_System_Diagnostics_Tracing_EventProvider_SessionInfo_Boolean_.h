@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_System_Diagnostics_Tracing_EventProvider_SessionInfo_Boolean_ {

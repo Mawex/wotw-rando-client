@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::ClientModels::Container_Dictionary_String_String {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ZoneProcessor_2_LZData_EZData_ {

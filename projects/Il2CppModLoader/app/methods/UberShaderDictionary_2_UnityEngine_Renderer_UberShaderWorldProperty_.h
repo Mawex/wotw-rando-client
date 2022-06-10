@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_UnityEngine_Renderer_UberShaderWorldProperty_ {

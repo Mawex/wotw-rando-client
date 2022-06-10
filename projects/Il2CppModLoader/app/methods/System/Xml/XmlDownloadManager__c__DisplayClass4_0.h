@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Xml::XmlDownloadManager___c__DisplayClass4_0 {

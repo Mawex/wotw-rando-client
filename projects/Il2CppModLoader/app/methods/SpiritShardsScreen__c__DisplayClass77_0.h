@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SpiritShardsScreen___c__DisplayClass77_0 {

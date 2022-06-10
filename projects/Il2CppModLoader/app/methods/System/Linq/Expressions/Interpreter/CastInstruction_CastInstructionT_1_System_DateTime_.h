@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::CastInstruction_CastInstructionT_1_System_DateTime_ {

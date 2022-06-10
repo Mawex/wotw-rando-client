@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::GroupedEnumerable_3_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ {

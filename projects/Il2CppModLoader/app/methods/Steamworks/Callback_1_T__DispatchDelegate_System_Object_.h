@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Steamworks::Callback_1_T__DispatchDelegate_System_Object_ {

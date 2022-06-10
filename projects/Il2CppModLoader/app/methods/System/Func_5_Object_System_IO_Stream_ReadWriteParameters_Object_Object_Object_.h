@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_5_Object_System_IO_Stream_ReadWriteParameters_Object_Object_Object_ {

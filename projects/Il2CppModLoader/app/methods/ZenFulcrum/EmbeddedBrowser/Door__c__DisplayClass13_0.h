@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Door___c__DisplayClass13_0 {

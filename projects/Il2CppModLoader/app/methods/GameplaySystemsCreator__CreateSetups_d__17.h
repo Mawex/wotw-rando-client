@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::GameplaySystemsCreator__CreateSetups_d__17 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::DownloadManager___c__DisplayClass7_0 {

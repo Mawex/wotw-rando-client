@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::EnumerableSorter_2_System_Int32_System_Int32_ {

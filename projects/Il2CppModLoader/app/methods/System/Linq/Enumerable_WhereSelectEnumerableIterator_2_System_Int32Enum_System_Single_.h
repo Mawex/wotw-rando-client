@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereSelectEnumerableIterator_2_System_Int32Enum_System_Single_ {

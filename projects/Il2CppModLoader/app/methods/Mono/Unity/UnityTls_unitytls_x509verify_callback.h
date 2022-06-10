@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTls_unitytls_x509verify_callback {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::Ex__Chunk_d__0_1_System_Object_ {

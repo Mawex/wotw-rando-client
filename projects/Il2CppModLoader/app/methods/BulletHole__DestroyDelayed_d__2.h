@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::BulletHole__DestroyDelayed_d__2 {

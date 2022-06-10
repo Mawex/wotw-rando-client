@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::OneDSEventsAPI__WaitWhile_d__13 {

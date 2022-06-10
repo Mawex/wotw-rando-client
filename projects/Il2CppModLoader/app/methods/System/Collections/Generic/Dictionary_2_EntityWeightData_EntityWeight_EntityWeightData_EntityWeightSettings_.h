@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_EntityWeightData_EntityWeight_EntityWeightData_EntityWeightSettings_ {

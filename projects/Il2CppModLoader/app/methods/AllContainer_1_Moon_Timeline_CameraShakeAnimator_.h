@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::AllContainer_1_Moon_Timeline_CameraShakeAnimator_ {

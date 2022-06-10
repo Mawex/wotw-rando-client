@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils_ThreadSafeDictionaryValueFactory_2_System_Type_ReflectionUtils_ConstructorDelegate_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SimpleGenericPool_1_T__PoolItem_InstantiateUtility_InstantiateInfo_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2_TKey_TValue___GetEnumeratorWorker_d__7_System_Object_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentBag_1_T__Enumerator_System_Object_ {

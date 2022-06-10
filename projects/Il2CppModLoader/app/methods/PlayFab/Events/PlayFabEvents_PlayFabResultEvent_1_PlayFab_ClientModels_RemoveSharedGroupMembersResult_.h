@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Events::PlayFabEvents_PlayFabResultEvent_1_PlayFab_ClientModels_RemoveSharedGroupMembersResult_ {

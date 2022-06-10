@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoProperty_StaticGetter_1_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Newtonsoft_Json_Converters_DiscriminatedUnionConverter_UnionCase_Boolean_ {

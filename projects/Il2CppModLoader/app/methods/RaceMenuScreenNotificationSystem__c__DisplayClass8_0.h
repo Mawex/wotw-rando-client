@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::RaceMenuScreenNotificationSystem___c__DisplayClass8_0 {

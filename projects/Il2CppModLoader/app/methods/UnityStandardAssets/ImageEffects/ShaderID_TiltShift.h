@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ShaderID_TiltShift {

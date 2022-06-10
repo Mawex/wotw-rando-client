@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TextureAnimation___c__DisplayClass15_0 {

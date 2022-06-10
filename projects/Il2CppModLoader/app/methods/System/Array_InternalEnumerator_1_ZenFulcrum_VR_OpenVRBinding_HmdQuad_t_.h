@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_ZenFulcrum_VR_OpenVRBinding_HmdQuad_t_ {

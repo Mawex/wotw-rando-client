@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Security::Claims::ClaimsIdentity__get_Claims_d__51 {

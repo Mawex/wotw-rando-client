@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Promise_1_PromisedT____c__DisplayClass35_0_1_System_Object_System_Object_ {

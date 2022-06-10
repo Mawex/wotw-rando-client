@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::IntegratedSubsystemDescriptor_1_UnityEngine_Experimental_XR_XRReferencePointSubsystem_ {

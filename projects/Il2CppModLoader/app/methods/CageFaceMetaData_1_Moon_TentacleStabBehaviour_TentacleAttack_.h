@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CageFaceMetaData_1_Moon_TentacleStabBehaviour_TentacleAttack_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumInt64TypeInfo_1_System_TimeSpan_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::LoadingBootstrap___c__DisplayClass37_0 {

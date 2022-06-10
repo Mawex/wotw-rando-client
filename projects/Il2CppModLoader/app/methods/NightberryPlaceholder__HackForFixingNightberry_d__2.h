@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::NightberryPlaceholder__HackForFixingNightberry_d__2 {

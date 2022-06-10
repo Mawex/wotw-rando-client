@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::UnwrapPromise_1_TResult____c_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_Newtonsoft_Json_Linq_JToken_ {

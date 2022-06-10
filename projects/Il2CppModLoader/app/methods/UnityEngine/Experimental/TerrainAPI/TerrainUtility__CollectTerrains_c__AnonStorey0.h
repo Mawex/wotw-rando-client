@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::TerrainAPI::TerrainUtility__CollectTerrains_c__AnonStorey0 {

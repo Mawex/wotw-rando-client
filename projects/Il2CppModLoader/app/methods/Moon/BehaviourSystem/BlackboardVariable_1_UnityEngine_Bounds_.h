@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BlackboardVariable_1_UnityEngine_Bounds_ {

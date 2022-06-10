@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityAction_2_UnityEngine_SceneManagement_Scene_System_Int32Enum_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_2_System_Linq_Expressions_Interpreter_LightCompiler_System_Linq_Expressions_Expression_ {

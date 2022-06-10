@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::MD5SHA1 {

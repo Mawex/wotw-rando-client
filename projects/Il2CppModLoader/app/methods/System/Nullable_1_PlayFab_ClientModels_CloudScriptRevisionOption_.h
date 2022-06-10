@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_PlayFab_ClientModels_CloudScriptRevisionOption_ {

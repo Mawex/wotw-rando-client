@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UberStateModifierDataVirtualAnimator_1_T__Context_System_Object_ {

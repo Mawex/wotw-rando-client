@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::ScreenSpaceReflection_SSRSettings_LayoutAttribute {

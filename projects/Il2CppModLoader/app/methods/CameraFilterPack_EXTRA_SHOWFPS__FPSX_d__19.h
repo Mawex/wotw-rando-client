@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_EXTRA_SHOWFPS__FPSX_d__19 {

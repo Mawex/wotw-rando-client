@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Dropdown__Show_c__AnonStorey1 {

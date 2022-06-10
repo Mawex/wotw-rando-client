@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::UnmanagedCallback_2_System_Object_System_Object_ {

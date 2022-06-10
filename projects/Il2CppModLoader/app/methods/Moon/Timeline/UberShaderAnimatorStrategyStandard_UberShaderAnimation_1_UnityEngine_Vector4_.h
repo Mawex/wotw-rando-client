@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_UnityEngine_Vector4_ {

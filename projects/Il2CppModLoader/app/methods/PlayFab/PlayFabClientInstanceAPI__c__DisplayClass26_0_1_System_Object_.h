@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabClientInstanceAPI___c__DisplayClass26_0_1_System_Object_ {

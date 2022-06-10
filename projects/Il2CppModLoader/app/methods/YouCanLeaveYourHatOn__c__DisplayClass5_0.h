@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::YouCanLeaveYourHatOn___c__DisplayClass5_0 {

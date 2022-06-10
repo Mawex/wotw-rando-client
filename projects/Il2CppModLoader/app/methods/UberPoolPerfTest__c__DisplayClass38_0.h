@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UberPoolPerfTest___c__DisplayClass38_0 {

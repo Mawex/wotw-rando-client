@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::LegacyEntity___c__DisplayClass69_0 {

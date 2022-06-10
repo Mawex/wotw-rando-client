@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Converter_2_System_Linq_Expressions_ParameterExpression_System_Linq_Expressions_Expression_ {

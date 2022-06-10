@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CacheDict_2_TKey_TValue__Entry_System_Object_System_Object_ {

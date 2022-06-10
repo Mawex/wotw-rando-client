@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::EnumDebugMenuItem_1_MoonDataPlatform_XboxQualityModeManager_QualityMode_ {

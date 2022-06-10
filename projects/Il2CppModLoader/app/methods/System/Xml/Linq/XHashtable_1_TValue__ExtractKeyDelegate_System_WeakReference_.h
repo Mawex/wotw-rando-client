@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XHashtable_1_TValue__ExtractKeyDelegate_System_WeakReference_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::EventHandler_1_Microsoft_Xbox_Services_Xal_UserChangeEventArgs_ {

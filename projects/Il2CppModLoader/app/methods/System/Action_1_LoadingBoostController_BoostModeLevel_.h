@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_1_LoadingBoostController_BoostModeLevel_ {

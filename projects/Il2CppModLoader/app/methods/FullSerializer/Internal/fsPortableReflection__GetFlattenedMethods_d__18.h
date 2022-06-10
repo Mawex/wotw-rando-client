@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsPortableReflection__GetFlattenedMethods_d__18 {

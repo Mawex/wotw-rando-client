@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_ValueTuple_3_Int32_Object_Int32__ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Animations::ProcessAnimationJobStruct_1_Moon_Animation_MatchJointsJob_ {

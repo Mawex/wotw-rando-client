@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::StateMap_1_IntStateMap_Mapping_ {

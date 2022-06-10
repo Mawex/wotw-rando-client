@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabHttp_ApiProcessingEvent_1_System_Object_ {

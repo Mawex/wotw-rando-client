@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CheatsHandler__InitDebugMenu_d__14 {

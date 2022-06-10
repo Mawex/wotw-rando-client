@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine_Profiling_Memory_Experimental_MetaData_ {

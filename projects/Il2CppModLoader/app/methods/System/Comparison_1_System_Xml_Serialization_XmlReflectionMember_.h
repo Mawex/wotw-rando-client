@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Comparison_1_System_Xml_Serialization_XmlReflectionMember_ {

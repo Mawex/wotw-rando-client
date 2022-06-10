@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Converter_2_DigZone_UnityEngine_MonoBehaviour_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HttpHeaders__GetEnumerator_d__19 {

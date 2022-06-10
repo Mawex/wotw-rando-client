@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Newtonsoft_Json_Formatting_ {

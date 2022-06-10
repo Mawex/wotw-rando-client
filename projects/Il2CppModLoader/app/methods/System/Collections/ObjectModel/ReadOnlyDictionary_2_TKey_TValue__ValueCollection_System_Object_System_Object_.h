@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyDictionary_2_TKey_TValue__ValueCollection_System_Object_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task___c__DisplayClass178_0 {

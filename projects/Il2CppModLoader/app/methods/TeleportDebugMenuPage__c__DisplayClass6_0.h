@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TeleportDebugMenuPage___c__DisplayClass6_0 {

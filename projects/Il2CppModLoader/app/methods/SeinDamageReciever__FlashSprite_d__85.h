@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SeinDamageReciever__FlashSprite_d__85 {

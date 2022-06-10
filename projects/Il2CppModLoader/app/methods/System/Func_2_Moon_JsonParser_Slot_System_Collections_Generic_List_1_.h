@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Moon_JsonParser_Slot_System_Collections_Generic_List_1_ {

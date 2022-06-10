@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CharacterStatePuppet___c__DisplayClass14_0_1_System_Object_ {

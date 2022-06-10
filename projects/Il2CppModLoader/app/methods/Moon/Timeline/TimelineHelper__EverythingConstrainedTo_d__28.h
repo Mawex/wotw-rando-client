@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineHelper__EverythingConstrainedTo_d__28 {

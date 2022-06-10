@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Compiler::DelegateHelpers_VBCallSiteDelegate7_1_System_Object_ {

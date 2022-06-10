@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_3_ZenFulcrum_EmbeddedBrowser_IPromise_Func_1_ZenFulcrum_EmbeddedBrowser_IPromise__ZenFulcrum_EmbeddedBrowser_IPromise_ {

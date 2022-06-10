@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::BlockingCollection_1_T___GetConsumingEnumerable_d__68_System_Object_ {

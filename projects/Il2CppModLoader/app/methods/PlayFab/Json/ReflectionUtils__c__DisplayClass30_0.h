@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils___c__DisplayClass30_0 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__CastIterator_d__99_1_System_Object_ {

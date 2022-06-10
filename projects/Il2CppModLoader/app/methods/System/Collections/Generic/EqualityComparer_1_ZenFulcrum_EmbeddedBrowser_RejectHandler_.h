@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_ZenFulcrum_EmbeddedBrowser_RejectHandler_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Type_Tuple_4_Boolean_Boolean_Boolean_Boolean__ {

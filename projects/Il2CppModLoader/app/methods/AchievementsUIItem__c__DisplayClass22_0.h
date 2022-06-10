@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::AchievementsUIItem___c__DisplayClass22_0 {

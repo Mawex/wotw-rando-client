@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::Tests__RunTests_d__5 {

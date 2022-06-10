@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_RootMotion_FinalIK_GrounderQuadruped_Foot_ {

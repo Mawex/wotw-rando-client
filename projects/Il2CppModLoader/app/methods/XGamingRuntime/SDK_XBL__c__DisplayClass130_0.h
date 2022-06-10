@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK_XBL___c__DisplayClass130_0 {

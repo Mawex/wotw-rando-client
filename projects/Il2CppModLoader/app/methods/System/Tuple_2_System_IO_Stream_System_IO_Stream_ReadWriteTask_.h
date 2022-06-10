@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_System_IO_Stream_System_IO_Stream_ReadWriteTask_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::AlphabetOptions___c__DisplayClass11_0 {

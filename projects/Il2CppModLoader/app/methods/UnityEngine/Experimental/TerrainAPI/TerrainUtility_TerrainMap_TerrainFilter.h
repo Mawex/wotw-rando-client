@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::TerrainAPI::TerrainUtility_TerrainMap_TerrainFilter {

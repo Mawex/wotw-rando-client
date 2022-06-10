@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::LeashMarkEffect__DelayedDestroyInactive_d__18 {

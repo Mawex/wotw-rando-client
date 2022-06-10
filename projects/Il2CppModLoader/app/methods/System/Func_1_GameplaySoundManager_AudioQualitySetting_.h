@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_1_GameplaySoundManager_AudioQualitySetting_ {

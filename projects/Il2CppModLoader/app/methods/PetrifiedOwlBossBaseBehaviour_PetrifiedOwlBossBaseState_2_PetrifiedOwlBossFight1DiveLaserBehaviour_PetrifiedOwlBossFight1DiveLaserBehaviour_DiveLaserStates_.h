@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseState_2_PetrifiedOwlBossFight1DiveLaserBehaviour_PetrifiedOwlBossFight1DiveLaserBehaviour_DiveLaserStates_ {

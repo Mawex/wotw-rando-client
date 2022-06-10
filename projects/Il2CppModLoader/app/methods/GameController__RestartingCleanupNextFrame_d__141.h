@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::GameController__RestartingCleanupNextFrame_d__141 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::GoldenSein__UndrainRoutine_d__60 {

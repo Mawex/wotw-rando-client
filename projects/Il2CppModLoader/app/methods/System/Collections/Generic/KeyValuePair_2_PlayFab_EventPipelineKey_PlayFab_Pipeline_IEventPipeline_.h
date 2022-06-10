@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_PlayFab_EventPipelineKey_PlayFab_Pipeline_IEventPipeline_ {

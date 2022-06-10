@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Recorder__ResetRecorderAndComponents_d__59 {

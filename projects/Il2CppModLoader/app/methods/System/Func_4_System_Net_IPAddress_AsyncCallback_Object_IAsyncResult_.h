@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_4_System_Net_IPAddress_AsyncCallback_Object_IAsyncResult_ {

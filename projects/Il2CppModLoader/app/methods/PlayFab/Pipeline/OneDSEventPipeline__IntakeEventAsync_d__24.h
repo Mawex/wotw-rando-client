@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::OneDSEventPipeline__IntakeEventAsync_d__24 {

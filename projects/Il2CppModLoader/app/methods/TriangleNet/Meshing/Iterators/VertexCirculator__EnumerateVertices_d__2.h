@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Iterators::VertexCirculator__EnumerateVertices_d__2 {

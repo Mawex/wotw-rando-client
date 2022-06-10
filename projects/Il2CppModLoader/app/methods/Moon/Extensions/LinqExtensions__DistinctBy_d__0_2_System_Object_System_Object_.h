@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Extensions::LinqExtensions__DistinctBy_d__0_2_System_Object_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SeinRunToTargetAction__Perform_d__14 {

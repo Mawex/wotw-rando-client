@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityEvent_1_UnityEngine_Networking_PlayerConnection_MessageEventArgs_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SkinnedMeshLod___c__DisplayClass11_1 {

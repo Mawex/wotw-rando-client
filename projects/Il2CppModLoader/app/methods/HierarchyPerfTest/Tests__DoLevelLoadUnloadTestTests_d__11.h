@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::Tests__DoLevelLoadUnloadTestTests_d__11 {

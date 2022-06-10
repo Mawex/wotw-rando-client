@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__SelectManyIterator_d__19_2_System_Object_System_Object_ {

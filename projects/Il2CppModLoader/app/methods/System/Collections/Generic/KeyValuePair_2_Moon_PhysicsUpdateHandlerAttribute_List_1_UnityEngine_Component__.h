@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon_PhysicsUpdateHandlerAttribute_List_1_UnityEngine_Component__ {

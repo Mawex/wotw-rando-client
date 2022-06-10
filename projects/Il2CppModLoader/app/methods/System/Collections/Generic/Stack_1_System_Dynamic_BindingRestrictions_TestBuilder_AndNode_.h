@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_System_Dynamic_BindingRestrictions_TestBuilder_AndNode_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_3_System_Runtime_CompilerServices_CallSite_Object_Object_ {

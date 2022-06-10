@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::FireStick__DeactivateWithDelay_d__81 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::RuntimeType_ListBuilder_1_Type_ {

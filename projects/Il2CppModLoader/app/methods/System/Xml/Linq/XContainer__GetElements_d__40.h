@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XContainer__GetElements_d__40 {

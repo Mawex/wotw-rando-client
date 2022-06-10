@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_SmartInput_ICachableInput_SmartInput_InputCacheManager_SetupTempData_Node_ {

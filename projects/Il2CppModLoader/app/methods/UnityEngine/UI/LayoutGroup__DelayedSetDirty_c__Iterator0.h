@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::LayoutGroup__DelayedSetDirty_c__Iterator0 {

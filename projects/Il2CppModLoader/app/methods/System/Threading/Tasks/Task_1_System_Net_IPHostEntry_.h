@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_System_Net_IPHostEntry_ {

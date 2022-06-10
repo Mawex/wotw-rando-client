@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_UnityEngine_Transform_AnimationMetaData_AnimationData_ {

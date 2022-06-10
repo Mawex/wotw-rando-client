@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobExtensions_JobStruct_1_Moon_SimpleSwayAnimPostprocess_Job_ {

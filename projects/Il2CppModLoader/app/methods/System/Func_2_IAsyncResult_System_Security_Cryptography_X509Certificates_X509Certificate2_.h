@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_IAsyncResult_System_Security_Cryptography_X509Certificates_X509Certificate2_ {

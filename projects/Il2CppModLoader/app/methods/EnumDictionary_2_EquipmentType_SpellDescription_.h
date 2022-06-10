@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_EquipmentType_SpellDescription_ {

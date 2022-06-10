@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ReadOnlyCollectionBuilder_1_System_Linq_Expressions_Expression_ {

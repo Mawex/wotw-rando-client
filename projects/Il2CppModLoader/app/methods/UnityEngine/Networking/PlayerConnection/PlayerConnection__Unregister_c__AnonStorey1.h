@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::PlayerConnection::PlayerConnection__Unregister_c__AnonStorey1 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EnumEqualityComparer_1_System_Int32Enum_ {

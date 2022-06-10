@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::IdentityFunction_1_TElement____c_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ {

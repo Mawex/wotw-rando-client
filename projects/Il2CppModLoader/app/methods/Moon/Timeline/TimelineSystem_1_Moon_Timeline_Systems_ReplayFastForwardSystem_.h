@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineSystem_1_Moon_Timeline_Systems_ReplayFastForwardSystem_ {

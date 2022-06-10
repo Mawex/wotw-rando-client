@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents__UnregisterManagedCallback_c__AnonStorey2 {

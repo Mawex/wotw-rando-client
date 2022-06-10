@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_Moon_Rendering_MoonRenderPipelineView_SrpProfilerFrame_Slice_ {

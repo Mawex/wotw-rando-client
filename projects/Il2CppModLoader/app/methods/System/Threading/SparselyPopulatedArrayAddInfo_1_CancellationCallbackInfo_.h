@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::SparselyPopulatedArrayAddInfo_1_CancellationCallbackInfo_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2_System_Object_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_1_System_Xml_Schema_RangePositionInfo_ {

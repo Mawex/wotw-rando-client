@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Data::Listeners_1_TElem__Func_2_DataViewListener_DataViewListener_System_Boolean_ {

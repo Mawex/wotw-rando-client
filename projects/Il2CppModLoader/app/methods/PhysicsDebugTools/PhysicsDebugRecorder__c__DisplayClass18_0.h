@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PhysicsDebugTools::PhysicsDebugRecorder___c__DisplayClass18_0 {

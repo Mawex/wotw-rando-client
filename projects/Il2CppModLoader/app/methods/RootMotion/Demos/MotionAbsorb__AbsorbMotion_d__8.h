@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::MotionAbsorb__AbsorbMotion_d__8 {

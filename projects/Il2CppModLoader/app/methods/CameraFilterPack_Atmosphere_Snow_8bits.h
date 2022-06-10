@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Atmosphere_Snow_8bits {

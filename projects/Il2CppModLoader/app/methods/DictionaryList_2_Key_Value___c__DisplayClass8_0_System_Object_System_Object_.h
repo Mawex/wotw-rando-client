@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::DictionaryList_2_Key_Value____c__DisplayClass8_0_System_Object_System_Object_ {

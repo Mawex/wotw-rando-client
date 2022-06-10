@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ComparisonComparer_1_System_Collections_DictionaryEntry_ {

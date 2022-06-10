@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_System_Reflection_AssemblyName_System_Reflection_Assembly_ {

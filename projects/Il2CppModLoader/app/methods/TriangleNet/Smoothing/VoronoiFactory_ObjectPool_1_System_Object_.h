@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TriangleNet::Smoothing::VoronoiFactory_ObjectPool_1_System_Object_ {

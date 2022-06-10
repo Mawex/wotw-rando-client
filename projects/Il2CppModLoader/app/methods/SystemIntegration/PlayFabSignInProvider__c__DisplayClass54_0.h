@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::PlayFabSignInProvider___c__DisplayClass54_0 {

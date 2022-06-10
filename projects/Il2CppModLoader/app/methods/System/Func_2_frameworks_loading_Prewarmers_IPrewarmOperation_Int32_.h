@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_frameworks_loading_Prewarmers_IPrewarmOperation_Int32_ {

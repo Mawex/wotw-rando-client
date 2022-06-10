@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System_Runtime_Serialization_StreamingContext_ {

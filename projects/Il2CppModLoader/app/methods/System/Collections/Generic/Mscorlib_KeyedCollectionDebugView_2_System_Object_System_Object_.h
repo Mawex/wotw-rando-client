@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Mscorlib_KeyedCollectionDebugView_2_System_Object_System_Object_ {

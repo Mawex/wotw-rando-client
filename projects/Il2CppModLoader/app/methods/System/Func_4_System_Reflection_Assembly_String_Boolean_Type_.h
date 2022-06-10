@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_4_System_Reflection_Assembly_String_Boolean_Type_ {

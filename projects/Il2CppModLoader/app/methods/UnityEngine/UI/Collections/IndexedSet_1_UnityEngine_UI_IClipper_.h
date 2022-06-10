@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Collections::IndexedSet_1_UnityEngine_UI_IClipper_ {

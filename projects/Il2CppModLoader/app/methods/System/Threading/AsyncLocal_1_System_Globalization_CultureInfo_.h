@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::AsyncLocal_1_System_Globalization_CultureInfo_ {

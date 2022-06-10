@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TurbulenceTranslationModifier__GetKeywordsForShader_d__9 {

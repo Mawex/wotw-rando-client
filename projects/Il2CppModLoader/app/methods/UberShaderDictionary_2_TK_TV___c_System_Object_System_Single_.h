@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_TK_TV____c_System_Object_System_Single_ {

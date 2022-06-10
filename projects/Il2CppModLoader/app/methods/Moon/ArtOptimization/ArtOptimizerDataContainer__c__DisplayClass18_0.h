@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ArtOptimizerDataContainer___c__DisplayClass18_0 {

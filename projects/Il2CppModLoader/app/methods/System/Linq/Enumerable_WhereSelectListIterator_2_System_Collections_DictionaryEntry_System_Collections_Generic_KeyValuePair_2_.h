@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereSelectListIterator_2_System_Collections_DictionaryEntry_System_Collections_Generic_KeyValuePair_2_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Net::WebConnectionStream___c__DisplayClass76_0 {

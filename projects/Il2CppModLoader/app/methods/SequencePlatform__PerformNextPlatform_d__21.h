@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SequencePlatform__PerformNextPlatform_d__21 {

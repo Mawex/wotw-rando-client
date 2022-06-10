@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::OrderedEnumerable_2_MicroProfilerInspector_MetricData_System_UInt32_ {

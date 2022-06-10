@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskFactory_1_TResult__FromAsyncTrimPromise_1_VoidTaskResult_System_Object_ {

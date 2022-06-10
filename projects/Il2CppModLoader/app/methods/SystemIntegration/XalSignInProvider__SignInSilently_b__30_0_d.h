@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SystemIntegration::XalSignInProvider___SignInSilently_b__30_0_d {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnparentTrailRenderer__ResetTrail_d__12 {

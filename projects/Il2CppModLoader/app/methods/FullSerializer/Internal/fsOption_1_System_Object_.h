@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsOption_1_System_Object_ {

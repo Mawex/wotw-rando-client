@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_TriangleNet_Meshing_Data_BadSubseg_ {

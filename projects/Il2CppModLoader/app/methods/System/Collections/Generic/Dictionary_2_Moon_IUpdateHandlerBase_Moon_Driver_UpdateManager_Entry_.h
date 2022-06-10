@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_IUpdateHandlerBase_Moon_Driver_UpdateManager_Entry_ {

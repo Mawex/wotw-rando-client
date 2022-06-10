@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::AchievementsLogic_Func_3_System_Int32_System_Int32_System_Boolean_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Predicate_1_OneWayCapsuleCollider_ColliderEntry_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable___c__DisplayClass7_0_3_System_Collections_Generic_KeyValuePair_2_UnityEngine_Rect_UnityEngine_Rect_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::CharacterPlatformMovement__MoveSeinToPositionSmoothly_d__224 {

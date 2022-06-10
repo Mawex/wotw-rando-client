@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SneezeSlugEntity___c__DisplayClass48_0 {

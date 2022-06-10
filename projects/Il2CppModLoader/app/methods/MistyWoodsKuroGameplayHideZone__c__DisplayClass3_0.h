@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::MistyWoodsKuroGameplayHideZone___c__DisplayClass3_0 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SoundCompositionPlayer___c__DisplayClass12_0 {

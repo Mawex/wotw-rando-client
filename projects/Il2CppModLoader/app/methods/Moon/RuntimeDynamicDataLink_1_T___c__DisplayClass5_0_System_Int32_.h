@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::RuntimeDynamicDataLink_1_T____c__DisplayClass5_0_System_Int32_ {

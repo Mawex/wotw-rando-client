@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::RaceHandler__CreateGhostFolder_d__15 {

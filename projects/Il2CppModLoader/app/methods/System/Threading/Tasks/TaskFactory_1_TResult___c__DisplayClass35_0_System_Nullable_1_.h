@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskFactory_1_TResult____c__DisplayClass35_0_System_Nullable_1_ {

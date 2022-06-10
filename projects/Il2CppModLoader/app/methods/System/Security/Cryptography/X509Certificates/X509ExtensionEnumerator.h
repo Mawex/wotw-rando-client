@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ExtensionEnumerator {

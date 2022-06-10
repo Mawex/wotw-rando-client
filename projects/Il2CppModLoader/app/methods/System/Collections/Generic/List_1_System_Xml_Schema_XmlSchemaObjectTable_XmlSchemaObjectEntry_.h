@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System_Xml_Schema_XmlSchemaObjectTable_XmlSchemaObjectEntry_ {

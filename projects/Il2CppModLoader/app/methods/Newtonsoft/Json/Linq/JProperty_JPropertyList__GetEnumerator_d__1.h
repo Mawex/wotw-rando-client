@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JProperty_JPropertyList__GetEnumerator_d__1 {

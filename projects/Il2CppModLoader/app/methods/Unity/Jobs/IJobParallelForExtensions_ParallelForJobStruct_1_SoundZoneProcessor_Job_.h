@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1_SoundZoneProcessor_Job_ {

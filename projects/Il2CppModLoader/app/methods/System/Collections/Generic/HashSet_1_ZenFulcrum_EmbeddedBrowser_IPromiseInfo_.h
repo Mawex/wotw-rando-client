@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_ZenFulcrum_EmbeddedBrowser_IPromiseInfo_ {

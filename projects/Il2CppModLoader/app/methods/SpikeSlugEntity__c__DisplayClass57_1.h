@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SpikeSlugEntity___c__DisplayClass57_1 {

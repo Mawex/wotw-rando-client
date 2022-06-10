@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::Win32IPGlobalProperties_Win32_MIB_TCPROW {

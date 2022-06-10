@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_3_Int32_System_Collections_Generic_List_1_Int32_ {

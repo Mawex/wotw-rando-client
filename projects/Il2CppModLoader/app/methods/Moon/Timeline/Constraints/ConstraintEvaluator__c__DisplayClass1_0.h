@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Constraints::ConstraintEvaluator___c__DisplayClass1_0 {

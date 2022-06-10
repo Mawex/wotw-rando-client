@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_UberShaderProperty_Color_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_ {

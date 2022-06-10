@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::moonCore::moonDriver::UpdateHelper_UpdateCategoryGetter_3_System_Object_System_Object_System_Object_ {

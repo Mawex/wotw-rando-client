@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::LeaderboardsController__UploadScoresRoutine_d__32 {

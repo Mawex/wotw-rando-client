@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_System_Threading_ThreadLocal_1_LinkedSlotVolatile_ {

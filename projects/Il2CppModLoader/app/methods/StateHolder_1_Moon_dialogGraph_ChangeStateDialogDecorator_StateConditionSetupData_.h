@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::StateHolder_1_Moon_dialogGraph_ChangeStateDialogDecorator_StateConditionSetupData_ {

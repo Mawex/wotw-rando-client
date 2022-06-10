@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_TKey_TElement___GetEnumerator_d__12_System_Object_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SmartInput::CachedInput_1_System_Single_ {

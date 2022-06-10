@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UberInteractionModifier__GetBaseVertexTextureNames_d__66 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_3_System_Xml_Linq_XElement_System_Xml_Linq_XName_System_Xml_Linq_XElement_ {

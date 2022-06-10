@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Comparison_1_System_Linq_Expressions_Interpreter_InstructionList_DebugView_InstructionView_ {

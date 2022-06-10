@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskFactory_1_System_Security_Cryptography_X509Certificates_X509Certificate2_ {

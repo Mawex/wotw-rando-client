@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SyncAnimations___c__DisplayClass10_0 {

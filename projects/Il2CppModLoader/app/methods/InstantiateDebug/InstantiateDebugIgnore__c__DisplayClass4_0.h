@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::InstantiateDebug::InstantiateDebugIgnore___c__DisplayClass4_0 {

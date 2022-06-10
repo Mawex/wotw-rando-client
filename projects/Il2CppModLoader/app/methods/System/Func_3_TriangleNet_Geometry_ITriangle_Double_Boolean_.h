@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_3_TriangleNet_Geometry_ITriangle_Double_Boolean_ {

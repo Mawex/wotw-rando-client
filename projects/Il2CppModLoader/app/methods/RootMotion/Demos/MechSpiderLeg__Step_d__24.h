@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::MechSpiderLeg__Step_d__24 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Reflection_MemberInfo_PlayFab_Json_ReflectionUtils_GetDelegate_ {

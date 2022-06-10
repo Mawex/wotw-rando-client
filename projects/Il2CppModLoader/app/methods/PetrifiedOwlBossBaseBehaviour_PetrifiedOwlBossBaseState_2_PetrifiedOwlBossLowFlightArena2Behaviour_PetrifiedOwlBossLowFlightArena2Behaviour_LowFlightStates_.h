@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseState_2_PetrifiedOwlBossLowFlightArena2Behaviour_PetrifiedOwlBossLowFlightArena2Behaviour_LowFlightStates_ {

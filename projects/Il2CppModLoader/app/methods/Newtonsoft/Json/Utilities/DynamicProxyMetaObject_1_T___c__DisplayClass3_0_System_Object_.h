@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DynamicProxyMetaObject_1_T____c__DisplayClass3_0_System_Object_ {

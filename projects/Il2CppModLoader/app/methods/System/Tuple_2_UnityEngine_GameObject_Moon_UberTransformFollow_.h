@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_UnityEngine_GameObject_Moon_UberTransformFollow_ {

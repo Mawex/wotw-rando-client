@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System_Linq_Expressions_Interpreter_LocalDefinition_ {

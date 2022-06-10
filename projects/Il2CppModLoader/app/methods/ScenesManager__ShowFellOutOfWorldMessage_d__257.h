@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ScenesManager__ShowFellOutOfWorldMessage_d__257 {

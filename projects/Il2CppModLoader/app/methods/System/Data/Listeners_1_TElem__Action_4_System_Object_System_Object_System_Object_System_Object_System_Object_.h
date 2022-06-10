@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Data::Listeners_1_TElem__Action_4_System_Object_System_Object_System_Object_System_Object_System_Object_ {

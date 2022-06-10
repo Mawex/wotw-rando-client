@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_PlayFab_PlayFabEmitEventRequest_PlayFab_EventsModels_EventContents_ {

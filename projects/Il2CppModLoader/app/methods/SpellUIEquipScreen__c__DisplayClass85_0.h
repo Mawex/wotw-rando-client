@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SpellUIEquipScreen___c__DisplayClass85_0 {

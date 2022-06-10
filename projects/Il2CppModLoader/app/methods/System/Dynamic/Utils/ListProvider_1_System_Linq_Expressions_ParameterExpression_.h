@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ListProvider_1_System_Linq_Expressions_ParameterExpression_ {

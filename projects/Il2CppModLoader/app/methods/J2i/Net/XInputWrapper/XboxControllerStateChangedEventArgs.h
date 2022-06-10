@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::J2i::Net::XInputWrapper::XboxControllerStateChangedEventArgs {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::EnumOrderAttribute___c__DisplayClass2_0_1_System_Object_ {

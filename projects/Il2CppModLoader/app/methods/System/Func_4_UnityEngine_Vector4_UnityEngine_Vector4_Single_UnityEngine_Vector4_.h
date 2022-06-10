@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_4_UnityEngine_Vector4_UnityEngine_Vector4_Single_UnityEngine_Vector4_ {

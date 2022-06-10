@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CoroutineTween::TweenRunner_1_T___Start_c__Iterator0_FloatTween_ {

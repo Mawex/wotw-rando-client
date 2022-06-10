@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::IO::FileSystemEnumerableIterator_1_System_String_ {

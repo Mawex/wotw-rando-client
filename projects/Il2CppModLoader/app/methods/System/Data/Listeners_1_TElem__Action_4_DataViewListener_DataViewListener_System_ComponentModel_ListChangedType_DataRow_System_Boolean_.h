@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Data::Listeners_1_TElem__Action_4_DataViewListener_DataViewListener_System_ComponentModel_ListChangedType_DataRow_System_Boolean_ {

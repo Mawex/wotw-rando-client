@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::HierarchyTestOutputBase_1_System_Object_ {

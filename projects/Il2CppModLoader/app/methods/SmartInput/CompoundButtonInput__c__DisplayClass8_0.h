@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SmartInput::CompoundButtonInput___c__DisplayClass8_0 {

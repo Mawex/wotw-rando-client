@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::BasePrewarmOperation___c__DisplayClass41_0 {

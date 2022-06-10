@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Rendering::CullingCategoryManager_1_MeshTrailModifier_ {

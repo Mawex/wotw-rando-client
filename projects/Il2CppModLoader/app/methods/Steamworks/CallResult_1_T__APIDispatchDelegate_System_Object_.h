@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Steamworks::CallResult_1_T__APIDispatchDelegate_System_Object_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw_EtwEnableCallback {

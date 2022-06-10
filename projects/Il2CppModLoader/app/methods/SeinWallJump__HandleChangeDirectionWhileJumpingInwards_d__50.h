@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SeinWallJump__HandleChangeDirectionWhileJumpingInwards_d__50 {

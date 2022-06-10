@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_Int32_UnityEngine_GameObject_ {

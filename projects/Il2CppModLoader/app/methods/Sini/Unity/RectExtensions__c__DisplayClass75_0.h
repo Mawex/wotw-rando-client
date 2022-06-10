@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Sini::Unity::RectExtensions___c__DisplayClass75_0 {

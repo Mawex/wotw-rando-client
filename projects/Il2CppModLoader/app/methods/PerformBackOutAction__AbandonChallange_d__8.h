@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PerformBackOutAction__AbandonChallange_d__8 {

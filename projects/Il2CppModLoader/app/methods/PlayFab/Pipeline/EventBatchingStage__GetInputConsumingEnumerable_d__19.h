@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::EventBatchingStage__GetInputConsumingEnumerable_d__19 {

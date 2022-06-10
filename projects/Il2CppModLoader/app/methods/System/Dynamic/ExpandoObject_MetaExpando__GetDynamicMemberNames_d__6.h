@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_MetaExpando__GetDynamicMemberNames_d__6 {

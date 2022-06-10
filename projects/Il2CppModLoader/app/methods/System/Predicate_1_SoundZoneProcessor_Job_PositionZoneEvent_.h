@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Predicate_1_SoundZoneProcessor_Job_PositionZoneEvent_ {

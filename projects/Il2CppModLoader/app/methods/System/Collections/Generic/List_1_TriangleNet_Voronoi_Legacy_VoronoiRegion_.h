@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_TriangleNet_Voronoi_Legacy_VoronoiRegion_ {

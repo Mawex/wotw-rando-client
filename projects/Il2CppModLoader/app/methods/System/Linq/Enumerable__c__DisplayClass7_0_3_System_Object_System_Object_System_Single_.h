@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable___c__DisplayClass7_0_3_System_Object_System_Object_System_Single_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_1_DynamicInstantiationScanner_EvaluationFn_1_ {

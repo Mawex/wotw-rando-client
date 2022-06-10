@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::EventHandler_1_ZenFulcrum_EmbeddedBrowser_ExceptionEventArgs_ {

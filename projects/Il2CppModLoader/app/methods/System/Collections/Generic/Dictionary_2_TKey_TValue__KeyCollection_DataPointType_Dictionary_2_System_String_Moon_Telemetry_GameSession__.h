@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_DataPointType_Dictionary_2_System_String_Moon_Telemetry_GameSession__ {

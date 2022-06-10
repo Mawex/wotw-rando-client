@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::WeightedGroup_1_Moon_BehaviourSystem_BehaviourNode_ {

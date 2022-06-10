@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereSelectArrayIterator_2_UnityEngine_Vector3_UnityEngine_Vector2_ {

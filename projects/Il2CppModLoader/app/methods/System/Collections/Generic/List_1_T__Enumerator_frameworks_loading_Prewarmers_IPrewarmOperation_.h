@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_frameworks_loading_Prewarmers_IPrewarmOperation_ {

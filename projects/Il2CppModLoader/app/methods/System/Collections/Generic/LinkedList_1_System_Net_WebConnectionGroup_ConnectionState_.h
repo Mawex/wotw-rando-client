@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::LinkedList_1_System_Net_WebConnectionGroup_ConnectionState_ {

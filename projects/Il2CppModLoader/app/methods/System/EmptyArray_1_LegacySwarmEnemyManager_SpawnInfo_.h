@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::EmptyArray_1_LegacySwarmEnemyManager_SpawnInfo_ {

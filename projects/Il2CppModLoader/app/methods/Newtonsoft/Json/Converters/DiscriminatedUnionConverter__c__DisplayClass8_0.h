@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::DiscriminatedUnionConverter___c__DisplayClass8_0 {

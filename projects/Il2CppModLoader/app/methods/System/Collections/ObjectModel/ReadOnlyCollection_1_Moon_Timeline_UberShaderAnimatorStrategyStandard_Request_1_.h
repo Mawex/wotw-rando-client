@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1_ {

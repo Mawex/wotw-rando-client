@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::SceneLoadingTest__LoadEmptySceneCoroutine_d__18 {

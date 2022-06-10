@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::WaterFallMasksSystem__TimeslicedInit_d__27 {

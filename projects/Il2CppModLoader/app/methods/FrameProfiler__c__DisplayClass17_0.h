@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::FrameProfiler___c__DisplayClass17_0 {

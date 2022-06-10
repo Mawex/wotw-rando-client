@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::ArraySegment_1_T__ArraySegmentEnumerator_Object_ {

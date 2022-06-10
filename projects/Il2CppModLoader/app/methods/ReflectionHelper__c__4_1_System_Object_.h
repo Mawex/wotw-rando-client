@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ReflectionHelper___c__4_1_System_Object_ {

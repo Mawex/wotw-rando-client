@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TitleScreenManager__WaitToShowFirstTimeQualitySettings_d__48 {

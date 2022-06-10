@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConditionalWeakTable_2_System_Threading_Tasks_TaskScheduler_System_Object_ {

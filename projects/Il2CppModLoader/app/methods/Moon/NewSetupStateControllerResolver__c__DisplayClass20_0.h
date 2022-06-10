@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver___c__DisplayClass20_0 {

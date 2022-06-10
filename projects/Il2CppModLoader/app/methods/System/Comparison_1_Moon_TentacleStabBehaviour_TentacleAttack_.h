@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Comparison_1_Moon_TentacleStabBehaviour_TentacleAttack_ {

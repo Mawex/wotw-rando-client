@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::DynamicInstantiationScanner_EvaluationFn_1_UnityEngine_Object_ {

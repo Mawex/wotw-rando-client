@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Microsoft::Xbox::Services::Xal::XalUser___c__DisplayClass25_0 {

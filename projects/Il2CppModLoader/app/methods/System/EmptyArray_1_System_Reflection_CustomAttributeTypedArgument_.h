@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::EmptyArray_1_System_Reflection_CustomAttributeTypedArgument_ {

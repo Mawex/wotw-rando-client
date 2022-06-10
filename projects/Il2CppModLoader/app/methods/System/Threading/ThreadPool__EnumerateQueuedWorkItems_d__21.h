@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadPool__EnumerateQueuedWorkItems_d__21 {

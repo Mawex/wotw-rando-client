@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ShaderID_CameraFilterPack_Antialiasing_FXAA {

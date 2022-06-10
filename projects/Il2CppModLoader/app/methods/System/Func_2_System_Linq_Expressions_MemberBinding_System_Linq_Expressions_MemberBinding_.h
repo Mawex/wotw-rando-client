@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_System_Linq_Expressions_MemberBinding_System_Linq_Expressions_MemberBinding_ {

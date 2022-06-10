@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_2_System_Net_WebClient_System_Net_UploadStringCompletedEventHandler_ {

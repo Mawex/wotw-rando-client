@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabHttp__SendScreenTimeEvents_d__19 {

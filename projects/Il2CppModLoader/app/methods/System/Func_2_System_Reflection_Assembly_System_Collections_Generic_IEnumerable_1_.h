@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_System_Reflection_Assembly_System_Collections_Generic_IEnumerable_1_ {

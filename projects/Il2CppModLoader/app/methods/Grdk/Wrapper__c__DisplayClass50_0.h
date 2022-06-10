@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Grdk::Wrapper___c__DisplayClass50_0 {

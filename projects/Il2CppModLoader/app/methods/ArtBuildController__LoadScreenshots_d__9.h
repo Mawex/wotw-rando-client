@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ArtBuildController__LoadScreenshots_d__9 {

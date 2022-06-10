@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::AsyncProtocolRequest__InnerRead_d__25 {

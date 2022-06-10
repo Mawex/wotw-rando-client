@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::RenderModel_TextureMap_t_Packed {

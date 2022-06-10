@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::moonCore::moonDriver::UpdateHelper_UpdateCategoryGetter_3_UnityEngine_Transform_UnityEngine_Rigidbody_Moon_UpdateCategory_ {

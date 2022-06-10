@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentQueue_1_T__Segment_System_Object_ {

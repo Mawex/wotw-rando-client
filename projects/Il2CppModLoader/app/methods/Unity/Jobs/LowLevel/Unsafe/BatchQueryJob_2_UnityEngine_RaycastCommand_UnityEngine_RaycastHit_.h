@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Unity::Jobs::LowLevel::Unsafe::BatchQueryJob_2_UnityEngine_RaycastCommand_UnityEngine_RaycastHit_ {

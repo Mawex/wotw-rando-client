@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::RaceSystem__StartRaceFromMainMenuCoroutine_d__147 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_GameController_ProfilingConfiguration_Moon_Telemetry_Performance_ProfilingSettings_Setting___ {

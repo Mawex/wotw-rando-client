@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabClientAPI___c__DisplayClass19_0_1_System_Boolean_ {

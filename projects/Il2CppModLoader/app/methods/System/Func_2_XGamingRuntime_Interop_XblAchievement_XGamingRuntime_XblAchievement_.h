@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_XGamingRuntime_Interop_XblAchievement_XGamingRuntime_XblAchievement_ {

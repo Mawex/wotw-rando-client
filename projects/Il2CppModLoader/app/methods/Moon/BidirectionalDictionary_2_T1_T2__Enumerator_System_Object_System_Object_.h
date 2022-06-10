@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::BidirectionalDictionary_2_T1_T2__Enumerator_System_Object_System_Object_ {

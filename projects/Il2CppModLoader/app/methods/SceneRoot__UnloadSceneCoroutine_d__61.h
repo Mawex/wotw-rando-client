@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::SceneRoot__UnloadSceneCoroutine_d__61 {

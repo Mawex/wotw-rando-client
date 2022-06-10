@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_Type_System_Reflection_FieldInfo_ {

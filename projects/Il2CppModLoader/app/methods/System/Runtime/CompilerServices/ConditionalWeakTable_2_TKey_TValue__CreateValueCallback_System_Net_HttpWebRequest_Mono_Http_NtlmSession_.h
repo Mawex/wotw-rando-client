@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConditionalWeakTable_2_TKey_TValue__CreateValueCallback_System_Net_HttpWebRequest_Mono_Http_NtlmSession_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::BehaviourEvent_1_UberBehaviourTree_Events_BatPeerDeath_ {

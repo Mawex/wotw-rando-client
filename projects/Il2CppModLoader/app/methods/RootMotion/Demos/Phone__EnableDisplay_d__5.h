@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::Phone__EnableDisplay_d__5 {

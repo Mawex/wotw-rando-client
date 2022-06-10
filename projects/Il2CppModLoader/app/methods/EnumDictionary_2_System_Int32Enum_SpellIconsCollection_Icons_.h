@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_System_Int32Enum_SpellIconsCollection_Icons_ {

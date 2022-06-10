@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DynamicReflectionDelegateFactory___c__DisplayClass11_0_1_System_Object_ {

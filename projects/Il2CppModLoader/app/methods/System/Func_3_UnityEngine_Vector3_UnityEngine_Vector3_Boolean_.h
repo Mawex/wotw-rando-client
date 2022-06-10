@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_3_UnityEngine_Vector3_UnityEngine_Vector3_Boolean_ {

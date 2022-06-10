@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::SceneLoadingTest___c__DisplayClass19_0 {

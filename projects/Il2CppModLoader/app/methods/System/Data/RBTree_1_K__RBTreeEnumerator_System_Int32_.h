@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Data::RBTree_1_K__RBTreeEnumerator_System_Int32_ {

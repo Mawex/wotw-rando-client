@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Tuple_2_GameController_ProfilingConfiguration_FrameCaptureTester_ {

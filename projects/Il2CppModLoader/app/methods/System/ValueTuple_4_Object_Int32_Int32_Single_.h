@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::ValueTuple_4_Object_Int32_Int32_Single_ {

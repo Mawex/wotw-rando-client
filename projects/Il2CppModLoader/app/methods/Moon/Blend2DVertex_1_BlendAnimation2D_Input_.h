@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Blend2DVertex_1_BlendAnimation2D_Input_ {

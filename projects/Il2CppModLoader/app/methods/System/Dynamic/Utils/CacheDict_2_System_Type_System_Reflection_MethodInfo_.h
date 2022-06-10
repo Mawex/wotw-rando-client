@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CacheDict_2_System_Type_System_Reflection_MethodInfo_ {

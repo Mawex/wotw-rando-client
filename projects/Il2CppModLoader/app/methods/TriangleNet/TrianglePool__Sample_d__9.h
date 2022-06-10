@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::TriangleNet::TrianglePool__Sample_d__9 {

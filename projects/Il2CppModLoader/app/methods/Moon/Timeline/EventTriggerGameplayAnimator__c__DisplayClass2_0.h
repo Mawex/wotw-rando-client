@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EventTriggerGameplayAnimator___c__DisplayClass2_0 {

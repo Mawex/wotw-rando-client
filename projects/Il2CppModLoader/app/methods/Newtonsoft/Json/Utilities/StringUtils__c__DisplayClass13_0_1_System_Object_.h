@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass13_0_1_System_Object_ {

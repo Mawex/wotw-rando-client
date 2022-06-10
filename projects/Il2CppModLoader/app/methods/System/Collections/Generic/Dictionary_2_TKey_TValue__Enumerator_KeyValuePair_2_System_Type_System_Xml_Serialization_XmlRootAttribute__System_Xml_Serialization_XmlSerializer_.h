@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_KeyValuePair_2_System_Type_System_Xml_Serialization_XmlRootAttribute__System_Xml_Serialization_XmlSerializer_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_Iterator_1_UberPoolGroupWarmer_PrewarmItem_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::EquipmentScreen___c__DisplayClass58_0 {

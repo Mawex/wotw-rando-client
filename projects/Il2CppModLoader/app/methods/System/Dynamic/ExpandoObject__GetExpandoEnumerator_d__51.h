@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51 {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConditionalWeakTable_2_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression_ExtensionInfo_ {

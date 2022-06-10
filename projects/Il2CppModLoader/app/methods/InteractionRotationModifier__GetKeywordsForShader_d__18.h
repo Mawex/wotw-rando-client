@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::InteractionRotationModifier__GetKeywordsForShader_d__18 {

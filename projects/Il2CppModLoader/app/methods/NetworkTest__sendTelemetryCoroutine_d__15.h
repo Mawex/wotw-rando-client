@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::NetworkTest__sendTelemetryCoroutine_d__15 {

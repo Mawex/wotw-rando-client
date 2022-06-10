@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::KeyedCollection_2_System_String_Newtonsoft_Json_Serialization_JsonProperty_ {

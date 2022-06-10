@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_Newtonsoft_Json_Serialization_JsonProperty_Int32_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_4_Object_Moon_ActiveAnimationHandle_Int32_Object_ {

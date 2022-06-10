@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Func_2_System_Net_OpenWriteCompletedEventArgs_System_IO_Stream_ {

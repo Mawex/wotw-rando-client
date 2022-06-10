@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::AVProWindowsMediaManager__FinalRenderCapture_d__20 {

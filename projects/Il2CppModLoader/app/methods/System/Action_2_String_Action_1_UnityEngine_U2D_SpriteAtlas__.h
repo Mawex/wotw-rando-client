@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_2_String_Action_1_UnityEngine_U2D_SpriteAtlas__ {

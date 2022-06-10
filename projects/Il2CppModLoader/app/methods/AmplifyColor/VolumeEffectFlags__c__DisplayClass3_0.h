@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::AmplifyColor::VolumeEffectFlags___c__DisplayClass3_0 {

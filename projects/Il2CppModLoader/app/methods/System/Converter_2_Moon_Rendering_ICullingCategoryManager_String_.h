@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Converter_2_Moon_Rendering_ICullingCategoryManager_String_ {

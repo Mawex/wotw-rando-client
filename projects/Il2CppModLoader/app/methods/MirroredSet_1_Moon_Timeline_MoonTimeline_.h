@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::MirroredSet_1_Moon_Timeline_MoonTimeline_ {

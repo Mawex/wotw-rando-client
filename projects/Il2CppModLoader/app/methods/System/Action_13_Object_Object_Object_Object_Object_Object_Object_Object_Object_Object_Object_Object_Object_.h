@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_13_Object_Object_Object_Object_Object_Object_Object_Object_Object_Object_Object_Object_Object_ {

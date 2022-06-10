@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::NewObjectiveMessageProvider__GetMessages_d__3 {

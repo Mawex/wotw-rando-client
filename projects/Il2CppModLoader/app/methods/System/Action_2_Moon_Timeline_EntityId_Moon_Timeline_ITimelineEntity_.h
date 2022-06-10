@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon_Timeline_EntityId_Moon_Timeline_ITimelineEntity_ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimesliceResourceUnloadTask__TimeslicedUnload_d__10 {

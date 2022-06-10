@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::Motvin::Collections::FastHashSet_1_System_UInt32_ {

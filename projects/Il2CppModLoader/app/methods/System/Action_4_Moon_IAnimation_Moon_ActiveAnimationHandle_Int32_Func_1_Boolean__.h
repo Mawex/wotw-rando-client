@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Action_4_Moon_IAnimation_Moon_ActiveAnimationHandle_Int32_Func_1_Boolean__ {

@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::PipelineStageBase_2_TitleEventBatch_PlayFab_SharedModels_PlayFabResult_1_ {

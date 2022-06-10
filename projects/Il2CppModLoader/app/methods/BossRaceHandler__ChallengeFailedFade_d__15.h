@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::BossRaceHandler__ChallengeFailedFade_d__15 {

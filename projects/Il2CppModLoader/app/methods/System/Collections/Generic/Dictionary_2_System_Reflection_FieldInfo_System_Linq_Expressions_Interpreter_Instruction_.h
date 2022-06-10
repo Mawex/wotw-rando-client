@@ -1,3 +1,4 @@
+#pragma once
 #include <interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Reflection_FieldInfo_System_Linq_Expressions_Interpreter_Instruction_ {
