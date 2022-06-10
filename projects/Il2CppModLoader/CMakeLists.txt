@@ -39,7 +39,7 @@ foreach (i RANGE 1 ${TYPE_FILES_COUNT})
     list(APPEND PUBLIC_HEADER_FILES "il2cpp_internals/types/types.${i}.h")
 endforeach ()
 
-file(GLOB METHODS ${PROJECT_DIR}/il2cpp_internals/methods/*.h)
+file(GLOB_RECURSE METHODS ${PROJECT_DIR}/il2cpp_internals/methods *.h)
 
 list(
         APPEND
@@ -132,6 +132,7 @@ message(STATUS "test ${SOURCE_FILES};${PUBLIC_HEADER_FILES};${MISC_FILES};${INTE
 set_vc_structure("${CMAKE_CURRENT_SOURCE_DIR}" "${SOURCE_FILES};${PUBLIC_HEADER_FILES};${MISC_FILES};${INTERNAL_IL2CPP_HEADERS}")
 set_vc_structure_with_prefix("_project_settings" "${CMAKE_CURRENT_SOURCE_DIR}" "${MISC_FILES};")
 
+message(STATUS "Resolving il2cpp methods.")
 source_group(TREE ${PROJECT_DIR} FILES ${METHODS})
 
 message(STATUS "TESTING ${PROJECT_BINARY_DIR}")
