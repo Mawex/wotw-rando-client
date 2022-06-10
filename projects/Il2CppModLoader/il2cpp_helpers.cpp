@@ -1,18 +1,17 @@
 #include <common.h>
 #include <il2cpp_helpers.h>
-#include <interception_macros.h>
 #include <windows_api/console.h>
 #include <windows_api/memory.h>
 
 #include <il2cpp_internals/methods/System/String.h>
 #include <il2cpp_internals/methods/System/Type.h>
-#include <il2cpp_internals/methods/UnityEngine/Object.h>
 #include <il2cpp_internals/methods/UnityEngine/Component.h>
 #include <il2cpp_internals/methods/UnityEngine/GameObject.h>
-#include <il2cpp_internals/methods/UnityEngine/ScriptableObject.h>
+#include <il2cpp_internals/methods/UnityEngine/Object.h>
+#include <il2cpp_internals/methods/UnityEngine/Quaternion.h>
 #include <il2cpp_internals/methods/UnityEngine/SceneManagement/Scene.h>
 #include <il2cpp_internals/methods/UnityEngine/SceneManagement/SceneManager.h>
-#include <il2cpp_internals/methods/UnityEngine/Quaternion.h>
+#include <il2cpp_internals/methods/UnityEngine/ScriptableObject.h>
 #include <il2cpp_internals/methods/UnityEngine/Transform.h>
 
 #include <Common/ext.h>
