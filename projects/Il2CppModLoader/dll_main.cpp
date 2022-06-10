@@ -18,6 +18,10 @@
 #include <Common/csv.h>
 #include <Common/ext.h>
 #include <Common/settings.h>
+#include <il2cpp_internals/methods/_ArrayPoolDefault.h>
+#include <il2cpp_internals/methods/UnityEngine/Application.h>
+#include <il2cpp_internals/methods/UnityEngine/Cursor.h>
+#include <il2cpp_internals/methods/GameController.h>
 
 //---------------------------------------------------Globals-----------------------------------------------------
 
@@ -112,10 +116,6 @@ namespace modloader {
 
     bool attached = false;
 
-    STATIC_IL2CPP_BINDING(UnityEngine, Application, app::String*, get_version, ());
-    STATIC_IL2CPP_BINDING(UnityEngine, Application, app::String*, get_unityVersion, ());
-    STATIC_IL2CPP_BINDING(UnityEngine, Application, app::String*, get_productName, ());
-
     IL2CPP_MODLOADER_C_DLLEXPORT void injection_entry(std::string path) {
         base_path = path;
         trace(MessageType::Info, 5, "initialize", "Loading settings.");
@@ -146,9 +146,9 @@ namespace modloader {
 
         il2cpp::load_all_types();
 
-        auto product = il2cpp::convert_csstring(Application::get_productName());
-        auto version = il2cpp::convert_csstring(Application::get_version());
-        auto unity_version = il2cpp::convert_csstring(Application::get_unityVersion());
+        auto product = il2cpp::convert_csstring(app::methods::UnityEngine::Application::get_productName());
+        auto version = il2cpp::convert_csstring(app::methods::UnityEngine::Application::get_version());
+        auto unity_version = il2cpp::convert_csstring(app::methods::UnityEngine::Application::get_unityVersion());
         trace(MessageType::Info, 5, "initialize", format("Application %s injected (%s)[%s].", product.c_str(), version.c_str(), unity_version.c_str()));
 
         while (!shutdown_thread) {
@@ -165,13 +165,13 @@ namespace modloader {
         common::free_library_and_exit_thread("Il2CppModLoader.dll");
     }
 
-    STATIC_IL2CPP_BINDING(UnityEngine, Cursor, int32_t, get_lockState, ());
-    STATIC_IL2CPP_BINDING(UnityEngine, Cursor, void, set_lockState, (int32_t value));
-
     IL2CPP_MODLOADER_C_DLLEXPORT bool toggle_cursorlock() {
-        int32_t newState = 2 - Cursor::get_lockState();
-        Cursor::set_lockState(newState);
-        return newState > 0;
+        auto state = app::methods::UnityEngine::Cursor::get_lockState();
+        app::methods::UnityEngine::Cursor::set_lockState(
+            state == app::CursorLockMode__Enum::None ?
+            app::CursorLockMode__Enum::Confined :
+            app::CursorLockMode__Enum::None);
+        return state == app::CursorLockMode__Enum::None;
     }
 
     IL2CPP_MODLOADER_C_DLLEXPORT const char* get_base_path() {
@@ -183,13 +183,13 @@ namespace modloader {
     }
 
     bool initialized = false;
-    IL2CPP_INTERCEPT(, GameController, void, FixedUpdate, (app::GameController * this_ptr)) {
+    IL2CPP_INTERCEPT(app::methods::GameController, void, FixedUpdate, (app::GameController * this_ptr)) {
         if (!initialized) {
             trace(MessageType::Info, 5, "initialize", "Calling initialization callbacks.");
             initialization_callbacks();
             initialized = true;
         }
 
-        GameController::FixedUpdate(this_ptr);
+        FixedUpdate_original(this_ptr);
     }
 } // namespace modloader

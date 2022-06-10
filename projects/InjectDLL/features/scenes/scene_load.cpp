@@ -41,7 +41,7 @@ namespace scenes {
         IL2CPP_BINDING(, ScenesManager, app::SceneMetaData*, GetSceneMetaDataFromRuntimeMetaData, (app::ScenesManager * this_ptr, app::RuntimeSceneMetaData* runtime));
         IL2CPP_BINDING(, ScenesManager, app::SceneManagerScene*, GetSceneManagerScene, (app::ScenesManager * this_ptr, app::String* scene_name));
 
-        INTERNAL_BINDING(0xBCB6F0, void, ScenesManager_QueryQuadTreeFast, (app::ScenesManager * this_ptr, app::Vector3 position, app::List_1_System_Int32_* list));
+        IL2CPP_REGISTER_METHOD(0xBCB6F0, void, ScenesManager_QueryQuadTreeFast, (app::ScenesManager * this_ptr, app::Vector3 position, app::List_1_System_Int32_* list));
         // Once Generics work: IL2CPP_BINDING_OVERLOAD(, ScenesManager, void, QueryQuadTreeFast, (app::ScenesManager* this_ptr, app::Vector3 position, app::List_1_System_Int32_* list), (UnityEngine:Vector3, System.Collections.Generic:List`1));
 
         IL2CPP_BINDING(, ScenesManager, void, EnableDisabledScene, (app::ScenesManager * this_ptr, app::SceneManagerScene* scene, bool async));

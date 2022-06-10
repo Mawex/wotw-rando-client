@@ -4,6 +4,17 @@
 #include <windows_api/console.h>
 #include <windows_api/memory.h>
 
+#include <il2cpp_internals/methods/System/String.h>
+#include <il2cpp_internals/methods/System/Type.h>
+#include <il2cpp_internals/methods/UnityEngine/Object.h>
+#include <il2cpp_internals/methods/UnityEngine/Component.h>
+#include <il2cpp_internals/methods/UnityEngine/GameObject.h>
+#include <il2cpp_internals/methods/UnityEngine/ScriptableObject.h>
+#include <il2cpp_internals/methods/UnityEngine/SceneManagement/Scene.h>
+#include <il2cpp_internals/methods/UnityEngine/SceneManagement/SceneManager.h>
+#include <il2cpp_internals/methods/UnityEngine/Quaternion.h>
+#include <il2cpp_internals/methods/UnityEngine/Transform.h>
+
 #include <Common/ext.h>
 
 #include <codecvt>
@@ -12,70 +23,13 @@
 #include <xstring>
 
 using namespace modloader::win;
+using namespace app::methods;
 
 namespace il2cpp {
     namespace {
         std::unordered_map<std::string, Il2CppClass*> resolved_classes;
         std::unordered_map<Il2CppClass*, std::vector<MethodOverloadInfo>> resolved_klass_overloads;
         std::unordered_map<Il2CppClass*, app::Type*> resolved_class_types;
-
-        STATIC_IL2CPP_BINDING(UnityEngine, ScriptableObject, app::ScriptableObject*, CreateInstance, (app::Type * type));
-
-        STATIC_IL2CPP_BINDING(UnityEngine, Object, bool, op_Equality, (void* o1, void* o2));
-        STATIC_IL2CPP_BINDING(UnityEngine, Object, bool, op_Inequality, (void* o1, void* o2));
-        STATIC_IL2CPP_BINDING(UnityEngine, Object, bool, op_Implicit, (void* this_ptr));
-        STATIC_IL2CPP_BINDING_OVERLOAD(UnityEngine, Object, app::Object*, Instantiate, (void* object), (UnityEngine
-                                                                                                        : Object));
-        STATIC_IL2CPP_BINDING(UnityEngine, Object, void, Destroy, (app::Object * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Object, app::String*, get_name, (app::Object * this_ptr));
-
-        IL2CPP_BINDING(UnityEngine, Component, app::GameObject*, get_gameObject, (void* this_ptr));
-
-        IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_position, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Quaternion, get_rotation, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_localPosition, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Quaternion, get_localRotation, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_localScale, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, void, set_position, (app::Transform * this_ptr, app::Vector3* pos));
-        IL2CPP_BINDING(UnityEngine, Transform, void, set_rotation, (app::Transform * this_ptr, app::Quaternion* rot));
-        IL2CPP_BINDING(UnityEngine, Transform, void, set_localPosition, (app::Transform * this_ptr, app::Vector3* pos));
-        IL2CPP_BINDING(UnityEngine, Transform, void, set_localRotation, (app::Transform * this_ptr, app::Quaternion* rot));
-        IL2CPP_BINDING(UnityEngine, Transform, void, set_localScale, (app::Transform * this_ptr, app::Vector3* scale));
-        STATIC_IL2CPP_BINDING(UnityEngine, Quaternion, app::Quaternion, Euler, (float x, float y, float z));
-        IL2CPP_BINDING(UnityEngine, Quaternion, app::Vector3, get_eulerAngles, (app::Quaternion__Boxed * this_ptr));
-
-        IL2CPP_BINDING(UnityEngine, GameObject, bool, get_active, (app::GameObject * this_ptr));
-        IL2CPP_BINDING(UnityEngine, GameObject, bool, get_activeSelf, (app::GameObject * this_ptr));
-        IL2CPP_BINDING(UnityEngine, GameObject, void, set_active, (app::GameObject * this_ptr, bool value));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Transform*, get_parent, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, void, set_parent, (app::Transform * this_ptr, app::Transform* parent));
-        IL2CPP_BINDING(UnityEngine, GameObject, app::Transform*, get_transform, (app::GameObject * this_ptr));
-        IL2CPP_BINDING(UnityEngine, GameObject, app::Scene, get_scene, (app::GameObject * this_ptr));
-        IL2CPP_BINDING(UnityEngine, GameObject, app::Component*, AddComponent, (app::GameObject * this_ptr, app::Type* type));
-        IL2CPP_BINDING_OVERLOAD(UnityEngine, GameObject, app::IComponent__Array*, GetComponents, (app::GameObject * this_ptr, app::Type* type), (System
-                                                                                                                                                 : Type));
-        IL2CPP_BINDING_OVERLOAD(UnityEngine, GameObject, app::Component*, GetComponentInChildren, (app::GameObject * this_ptr, app::Type* type), (System
-                                                                                                                                                  : Type));
-        IL2CPP_BINDING_OVERLOAD(UnityEngine, GameObject, app::IComponent__Array*, GetComponentsInChildren, (app::GameObject * this_ptr, app::Type* type), (System
-                                                                                                                                                           : Type));
-
-        IL2CPP_BINDING(UnityEngine, Transform, int32_t, GetChildCount, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Transform*, GetChild, (app::Transform * this_ptr, int32_t index));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Transform*, Find, (app::Transform * this_ptr, app::String* name));
-
-        STATIC_IL2CPP_BINDING(UnityEngine.SceneManagement, SceneManager, int32_t, get_sceneCount, ());
-        STATIC_IL2CPP_BINDING(UnityEngine.SceneManagement, SceneManager, app::Scene, GetActiveScene, ());
-        STATIC_IL2CPP_BINDING(UnityEngine.SceneManagement, SceneManager, app::Scene, GetSceneAt, (int32_t index));
-
-        IL2CPP_BINDING(UnityEngine.SceneManagement, Scene, bool, get_isLoaded, (app::Scene__Boxed * this_ptr));
-        IL2CPP_BINDING(UnityEngine.SceneManagement, Scene, app::GameObject__Array*, GetRootGameObjects, (app::Scene__Boxed * this_ptr));
-        IL2CPP_BINDING(UnityEngine.SceneManagement, Scene, app::String*, get_path, (app::Scene__Boxed * this_ptr));
-        IL2CPP_BINDING(UnityEngine.SceneManagement, Scene, app::String*, get_name, (app::Scene__Boxed * this_ptr));
-
-        IL2CPP_BINDING(System, Type, app::Type*, GetType, (app::String * type_name, bool throw_on_error));
-        IL2CPP_BINDING(System, String, app::Char__Array*, ToCharArray, (app::String * this_ptr));
-
-        IL2CPP_BINDING(System.Reflection, Assembly, app::Type__Array*, GetTypes, (Il2CppAssembly * this_ptr));
 
         thread_local std::string buffer;
         std::string const& get_full_name(std::string_view namezpace, std::string_view name, std::string_view nested = "") {
@@ -150,7 +104,7 @@ namespace il2cpp {
             if (il2cpp::is_assignable(obj, "UnityEngine", "GameObject"))
                 return reinterpret_cast<app::GameObject*>(obj);
             else if (il2cpp::is_assignable(obj, "UnityEngine", "Component"))
-                return Component::get_gameObject(obj);
+                return UnityEngine::Component::get_gameObject(reinterpret_cast<app::Component_1*>(obj));
             else
                 return nullptr;
         }
@@ -192,93 +146,93 @@ namespace il2cpp {
 
         app::Vector3 get_position(void* obj) {
             auto transform = get_transform(obj);
-            return Transform::get_position(transform);
+            return UnityEngine::Transform::get_position(transform);
         }
 
         app::Vector3 get_rotation(void* obj) {
             auto transform = get_transform(obj);
-            auto value = Transform::get_rotation(transform);
-            return Quaternion::get_eulerAngles(il2cpp::box_value<app::Quaternion__Boxed>(
+            auto value = UnityEngine::Transform::get_rotation(transform);
+            return UnityEngine::Quaternion::get_eulerAngles(il2cpp::box_value<app::Quaternion__Boxed>(
                     il2cpp::get_class("UnityEngine", "Quaternion"), value
             ));
         }
 
         app::Vector3 get_local_position(void* obj) {
             auto transform = get_transform(obj);
-            return Transform::get_localPosition(transform);
+            return UnityEngine::Transform::get_localPosition(transform);
         }
 
         app::Vector3 get_local_rotation(void* obj) {
             auto transform = get_transform(obj);
-            auto value = Transform::get_localRotation(transform);
-            return Quaternion::get_eulerAngles(il2cpp::box_value<app::Quaternion__Boxed>(
+            auto value = UnityEngine::Transform::get_localRotation(transform);
+            return UnityEngine::Quaternion::get_eulerAngles(il2cpp::box_value<app::Quaternion__Boxed>(
                     il2cpp::get_class("UnityEngine", "Quaternion"), value
             ));
         }
 
         app::Vector3 get_local_scale(void* obj) {
             auto transform = get_transform(obj);
-            return Transform::get_localScale(transform);
+            return UnityEngine::Transform::get_localScale(transform);
         }
 
         void set_position(void* obj, app::Vector3 value) {
             auto transform = get_transform(obj);
-            Transform::set_position(transform, &value);
+            UnityEngine::Transform::set_position(transform, value);
         }
 
         void set_rotation(void* obj, app::Vector3 value) {
             auto transform = get_transform(obj);
-            auto quat = Quaternion::Euler(value.x, value.y, value.z);
-            Transform::set_rotation(transform, &quat);
+            auto quat = UnityEngine::Quaternion::Euler_2(value);
+            UnityEngine::Transform::set_rotation(transform, quat);
         }
 
         void set_local_position(void* obj, app::Vector3 value) {
             auto transform = get_transform(obj);
-            Transform::set_localPosition(transform, &value);
+            UnityEngine::Transform::set_localPosition(transform, value);
         }
 
         void set_local_rotation(void* obj, app::Vector3 value) {
             auto transform = get_transform(obj);
-            auto quat = Quaternion::Euler(value.x, value.y, value.z);
-            Transform::set_localRotation(transform, &quat);
+            auto quat = UnityEngine::Quaternion::Euler_2(value);
+            UnityEngine::Transform::set_localRotation(transform, quat);
         }
 
         void set_local_scale(void* obj, app::Vector3 value) {
             auto transform = get_transform(obj);
-            Transform::set_localScale(transform, &value);
+            UnityEngine::Transform::set_localScale(transform, value);
         }
 
         app::Transform* get_parent(void* object) {
-            return Transform::get_parent(get_transform(object));
+            return UnityEngine::Transform::get_parent(get_transform(object));
         }
 
         void set_parent(void* child, void* parent, bool keep_local) {
             auto child_transform = get_transform(child);
             if (keep_local) {
                 auto pos = get_local_position(child_transform);
-                auto rot = Transform::get_localRotation(child_transform);
+                auto rot = UnityEngine::Transform::get_localRotation(child_transform);
                 auto scale = get_local_scale(child_transform);
-                Transform::set_parent(get_transform(child), get_transform(parent));
+                UnityEngine::Transform::set_parent(get_transform(child), get_transform(parent));
                 set_local_position(child_transform, pos);
-                Transform::set_localRotation(child_transform, &rot);
+                UnityEngine::Transform::set_localRotation(child_transform, rot);
                 set_local_scale(child_transform, scale);
             } else
-                Transform::set_parent(get_transform(child), get_transform(parent));
+                UnityEngine::Transform::set_parent(get_transform(child), get_transform(parent));
         }
 
         bool get_active(void* object) {
             auto go = get_game_object(object);
-            return GameObject::get_active(go);
+            return UnityEngine::GameObject::get_active(go);
         }
 
         bool get_active_self(void* object) {
             auto go = get_game_object(object);
-            return GameObject::get_activeSelf(go);
+            return UnityEngine::GameObject::get_activeSelf(go);
         }
 
         void set_active(void* object, bool value) {
             auto go = get_game_object(object);
-            GameObject::set_active(go, value);
+            UnityEngine::GameObject::set_active(go, value);
         }
 
         app::Transform* get_transform(void* object) {
@@ -292,15 +246,15 @@ namespace il2cpp {
             else
                 trace(modloader::MessageType::Error, 1, "il2cpp", "Tried to get transform of non gameobject/component class");
 
-            return GameObject::get_transform(go);
+            return UnityEngine::GameObject::get_transform(go);
         }
 
         std::vector<app::GameObject*> get_children(void* obj) {
             auto transform = get_transform(obj);
             std::vector<app::GameObject*> children;
-            auto count = Transform::GetChildCount(transform);
+            auto count = UnityEngine::Transform::GetChildCount(transform);
             for (auto i = 0; i < count; ++i)
-                children.push_back(get_game_object(Transform::GetChild(transform, i)));
+                children.push_back(get_game_object(UnityEngine::Transform::GetChild(transform, i)));
 
             return children;
         }
@@ -309,7 +263,7 @@ namespace il2cpp {
             std::vector<app::GameObject*> children;
             auto transform = get_transform(obj);
             auto str = il2cpp::string_new(name);
-            transform = Transform::Find(transform, str);
+            transform = UnityEngine::Transform::Find(transform, str);
             return transform != nullptr ? get_game_object(transform) : nullptr;
         }
 
@@ -336,52 +290,46 @@ namespace il2cpp {
         }
 
         bool is_valid(void* obj) {
-            return obj != nullptr && Object::op_Implicit(obj);
+            return obj != nullptr && UnityEngine::Object::op_Implicit(reinterpret_cast<app::Object_1*>(obj));
         }
 
         bool equals(void* o1, void* o2) {
-            return Object::op_Equality(o1, o2);
+            return UnityEngine::Object::op_Equality(reinterpret_cast<app::Object_1*>(o1), reinterpret_cast<app::Object_1*>(o2));
         }
 
         bool not_equals(void* o1, void* o2) {
-            return Object::op_Inequality(o1, o2);
+            return UnityEngine::Object::op_Inequality(reinterpret_cast<app::Object_1*>(o1), reinterpret_cast<app::Object_1*>(o2));
         }
 
-        app::Type* get_type(std::string_view namezpace, std::string_view name) {
+        std::vector<app::Component_1*> get_components_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
+            std::vector<app::Component_1*> components;
             auto qualified = get_qualified(namezpace, name);
             auto type_str = il2cpp::string_new(qualified);
-            return Type::GetType(type_str, false);
-        }
-
-        std::vector<app::Component*> get_components_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
-            std::vector<app::Component*> components;
-            auto qualified = get_qualified(namezpace, name);
-            auto type_str = il2cpp::string_new(qualified);
-            auto runtime_type = Type::GetType(type_str, false);
-            auto c_array = GameObject::GetComponents(game_object, runtime_type);
+            auto runtime_type = System::Type::GetType_6(type_str, false);
+            auto c_array = UnityEngine::GameObject::GetComponents_1(game_object, runtime_type);
             for (auto i = 0; i < c_array->max_length; ++i)
-                components.push_back(reinterpret_cast<app::Component*>(c_array->vector[i]));
+                components.push_back(reinterpret_cast<app::Component_1*>(c_array->vector[i]));
 
             return components;
         }
 
-        std::vector<app::Component*> get_components_in_children_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
-            std::vector<app::Component*> components;
+        std::vector<app::Component_1*> get_components_in_children_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
+            std::vector<app::Component_1*> components;
             auto qualified = get_qualified(namezpace, name);
             auto type_str = il2cpp::string_new(qualified);
-            auto runtime_type = Type::GetType(type_str, false);
-            auto c_array = GameObject::GetComponentsInChildren(game_object, runtime_type);
+            auto runtime_type = System::Type::GetType_6(type_str, false);
+            auto c_array = UnityEngine::GameObject::GetComponentsInChildren_1(game_object, runtime_type);
             for (auto i = 0; i < c_array->max_length; ++i)
-                components.push_back(reinterpret_cast<app::Component*>(c_array->vector[i]));
+                components.push_back(reinterpret_cast<app::Component_1*>(c_array->vector[i]));
 
             return components;
         }
 
-        app::Component* get_component_in_children_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
+        app::Component_1* get_component_in_children_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
             auto qualified = get_qualified(namezpace, name);
             auto type_str = il2cpp::string_new(qualified);
-            auto runtime_type = Type::GetType(type_str, false);
-            return reinterpret_cast<app::Component*>(GameObject::GetComponentInChildren(game_object, runtime_type));
+            auto runtime_type = System::Type::GetType_6(type_str, false);
+            return reinterpret_cast<app::Component_1*>(UnityEngine::GameObject::GetComponentInChildren_2(game_object, runtime_type));
         }
 
         app::ScriptableObject* create_scriptable_object_untyped(Il2CppClass* klass) {
@@ -389,70 +337,70 @@ namespace il2cpp {
                 auto type = il2cpp_class_get_type(klass);
                 auto qualified = il2cpp_type_get_assembly_qualified_name(type);
                 auto type_str = il2cpp::string_new(qualified);
-                auto runtime_type = Type::GetType(type_str, false);
+                auto runtime_type = System::Type::GetType_6(type_str, false);
                 resolved_class_types[klass] = runtime_type;
             }
 
-            return ScriptableObject::CreateInstance(resolved_class_types[klass]);
+            return UnityEngine::ScriptableObject::CreateInstance_1(resolved_class_types[klass]);
         }
 
         void* instantiate_object_untyped(void* object) {
-            return Object::Instantiate(reinterpret_cast<app::Object*>(object));
+            return UnityEngine::Object::Instantiate_3(reinterpret_cast<app::Object_1*>(object));
         }
 
         void destroy_object(void* object) {
-            Object::Destroy(reinterpret_cast<app::Object*>(object));
+            UnityEngine::Object::Destroy_2(reinterpret_cast<app::Object_1*>(object));
         }
 
         app::GameObject* get_game_object(void* component) {
             return convert(component);
         }
 
-        app::Component* add_component_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
+        app::Component_1* add_component_untyped(app::GameObject* game_object, std::string_view namezpace, std::string_view name) {
             auto qualified = get_qualified(namezpace, name);
             auto type_str = il2cpp::string_new(qualified);
-            auto runtime_type = Type::GetType(type_str, false);
-            return GameObject::AddComponent(game_object, runtime_type);
+            auto runtime_type = System::Type::GetType_6(type_str, false);
+            return UnityEngine::GameObject::AddComponent_1(game_object, runtime_type);
         }
 
         std::string get_object_name(void* object) {
-            auto cast_object = static_cast<app::Object*>(object);
+            auto cast_object = static_cast<app::Object_1*>(object);
             if (cast_object == nullptr)
                 return "nullptr";
 
-            auto csstr = Object::get_name(cast_object);
+            auto csstr = UnityEngine::Object::get_name(cast_object);
             return convert_csstring(csstr);
         }
 
         app::String* get_object_csname(void* object) {
-            auto cast_object = static_cast<app::Object*>(object);
+            auto cast_object = static_cast<app::Object_1*>(object);
             if (cast_object == nullptr)
                 return nullptr;
 
-            return Object::get_name(cast_object);
+            return UnityEngine::Object::get_name(cast_object);
         }
 
         int32_t get_scene_count() {
-            return SceneManager::get_sceneCount();
+            return UnityEngine::SceneManagement::SceneManager::get_sceneCount();
         }
 
         app::Scene get_scene_at(int32_t i) {
-            return SceneManager::GetSceneAt(i);
+            return UnityEngine::SceneManagement::SceneManager::GetSceneAt(i);
         }
 
         app::Scene get_active_scene() {
-            return SceneManager::GetActiveScene();
+            return UnityEngine::SceneManagement::SceneManager::GetActiveScene();
         }
 
         app::Scene get_scene(app::GameObject* game_object) {
-            return GameObject::get_scene(game_object);
+            return UnityEngine::GameObject::get_scene(game_object);
         }
 
         std::vector<app::GameObject*> get_root_game_objects(app::Scene& scene) {
             std::vector<app::GameObject*> output;
             auto boxed = box_value<app::Scene__Boxed>(get_class("UnityEngine.SceneManagement", "Scene"), scene);
-            if (Scene::get_isLoaded(boxed)) {
-                auto game_objects = Scene::GetRootGameObjects(boxed);
+            if (UnityEngine::SceneManagement::Scene::get_isLoaded(boxed)) {
+                auto game_objects = UnityEngine::SceneManagement::Scene::GetRootGameObjects_1(boxed);
                 for (auto i = 0; i < game_objects->max_length; ++i)
                     output.push_back(game_objects->vector[i]);
             }
@@ -462,13 +410,13 @@ namespace il2cpp {
 
         std::string get_scene_name(app::Scene& scene) {
             auto boxed = box_value<app::Scene__Boxed>(get_class("UnityEngine.SceneManagement", "Scene"), scene);
-            auto csstring = Scene::get_name(boxed);
+            auto csstring = UnityEngine::SceneManagement::Scene::get_name(boxed);
             return convert_csstring(csstring);
         }
 
         std::string get_scene_path(app::Scene& scene) {
             auto boxed = box_value<app::Scene__Boxed>(get_class("UnityEngine.SceneManagement", "Scene"), scene);
-            auto csstring = Scene::get_path(boxed);
+            auto csstring = UnityEngine::SceneManagement::Scene::get_path(boxed);
             return convert_csstring(csstring);
         }
     } // namespace unity
@@ -927,7 +875,7 @@ namespace il2cpp {
         if (str == nullptr)
             return cppstr;
 
-        auto chars = String::ToCharArray(str);
+        auto chars = System::String::ToCharArray(str);
         if (chars == nullptr)
             return cppstr;
 

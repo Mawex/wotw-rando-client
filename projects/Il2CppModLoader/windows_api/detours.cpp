@@ -12,15 +12,9 @@ namespace modloader::win::detours {
         DetourUpdateThread(GetCurrentThread());
     }
 
-    void do_intercept(std::unordered_map<long long, void*>& intercept_cache, long long cache_index, const std::string& debug, void** original_pointer, void* intercept_pointer) {
-        auto it = intercept_cache.find(cache_index);
-        if (it != intercept_cache.end()) {
-            trace(MessageType::Debug, 3, "initialize", format("Changing intercept address (%d, %d)", *original_pointer, it->second));
-            *original_pointer = it->second;
-        }
-
-        trace(MessageType::Debug, 3, "initialize", format("Intercepting (il2cpp): %s @ %d -> %d", debug.c_str(), reinterpret_cast<uint64_t>(*original_pointer), reinterpret_cast<uint64_t>(intercept_pointer)));
-
+    void do_intercept(const std::string& debug, void** original_pointer, void* intercept_pointer) {
+        trace(MessageType::Debug, 3, "initialize", format("Intercepting (il2cpp): %s @ %d -> %d", debug.c_str(),
+            reinterpret_cast<uint64_t>(*original_pointer), reinterpret_cast<uint64_t>(intercept_pointer)));
         PDETOUR_TRAMPOLINE trampoline = nullptr;
         void* target = nullptr;
         void* detour = nullptr;
@@ -36,7 +30,6 @@ namespace modloader::win::detours {
             trace(MessageType::Error, 3, "initialize", format("Error attaching %s : %d", debug.c_str(), result));
         else {
             trace(MessageType::Debug, 3, "initialize", format("Attach success (%d, %d, %d)", trampoline, target, detour));
-            intercept_cache[cache_index] = detour;
         }
     }
 
