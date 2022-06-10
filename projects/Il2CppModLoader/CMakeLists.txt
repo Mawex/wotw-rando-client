@@ -15,7 +15,7 @@ set(
         "windows_api/memory.cpp"
         "windows_api/detours.cpp"
         "windows_api/common.cpp"
-        "il2cpp_internals/il2cpp_init.cpp"
+        "app/il2cpp_init.cpp"
         "dll_main.cpp"
         "il2cpp_helpers.cpp"
         "interception.cpp"
@@ -32,20 +32,20 @@ set(
         "common.h"
         "constants.h"
         "il2cpp_helpers.h"
-        "il2cpp_internals/il2cpp_internals.h"
+        "app/il2cpp_internals.h"
 )
 
 foreach (i RANGE 1 ${TYPE_FILES_COUNT})
-    list(APPEND PUBLIC_HEADER_FILES "il2cpp_internals/types/types.${i}.h")
+    list(APPEND PUBLIC_HEADER_FILES "app/types/types.${i}.h")
 endforeach ()
 
-file(GLOB_RECURSE METHODS ${PROJECT_DIR}/il2cpp_internals/methods *.h)
+file(GLOB_RECURSE METHODS ${PROJECT_DIR}/app/methods *.h)
 
 list(
         APPEND
         PUBLIC_HEADER_FILES
-        "il2cpp_internals/il2cpp_api.h"
-        "il2cpp_internals/il2cpp_typeinfo.h"
+        "app/il2cpp_api.h"
+        "app/il2cpp_typeinfo.h"
         "interception.h"
         "interception_macros.h"
         "macros.h"
@@ -104,20 +104,20 @@ target_link_libraries(
 target_precompile_headers(
         ${PROJECT_NAME}
         PRIVATE <cstdint>
-        PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_internals.h>
+        PUBLIC <${PROJECT_NAME}/app/il2cpp_internals.h>
 )
 
 foreach (i RANGE 1 ${TYPE_FILES_COUNT})
     target_precompile_headers(
             ${PROJECT_NAME}
-            PUBLIC <${PROJECT_NAME}/il2cpp_internals/types/types.${i}.h>
+            PUBLIC <${PROJECT_NAME}/app/types/types.${i}.h>
     )
 endforeach ()
 
 target_precompile_headers(
         ${PROJECT_NAME}
-        PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_api.h>
-        PUBLIC <${PROJECT_NAME}/il2cpp_internals/il2cpp_typeinfo.h>
+        PUBLIC <${PROJECT_NAME}/app/il2cpp_api.h>
+        PUBLIC <${PROJECT_NAME}/app/il2cpp_typeinfo.h>
 )
 
 set_source_files_properties(windows_api/console.cpp PROPERTIES SKIP_PRECOMPILE_HEADERS ON)

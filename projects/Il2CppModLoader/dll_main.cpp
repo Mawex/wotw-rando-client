@@ -5,9 +5,9 @@
 #include <il2cpp_helpers.h>
 #include <interception_macros.h>
 #include <macros.h>
+#include <windows_api/bootstrap.h>
 #include <windows_api/common.h>
 #include <windows_api/console.h>
-#include <windows_api/bootstrap.h>
 
 #include <fstream>
 #include <string>
@@ -18,10 +18,9 @@
 #include <Common/csv.h>
 #include <Common/ext.h>
 #include <Common/settings.h>
-#include <il2cpp_internals/methods/_ArrayPoolDefault.h>
-#include <il2cpp_internals/methods/UnityEngine/Application.h>
-#include <il2cpp_internals/methods/UnityEngine/Cursor.h>
-#include <il2cpp_internals/methods/GameController.h>
+#include <app/methods/GameController.h>
+#include <app/methods/UnityEngine/Application.h>
+#include <app/methods/UnityEngine/Cursor.h>
 
 //---------------------------------------------------Globals-----------------------------------------------------
 
@@ -33,7 +32,6 @@ namespace modloader {
 
     std::string base_path = "C:\\moon\\";
     std::string modloader_path = "modloader_config.json";
-    std::string mod_title = "Randomizer";
     std::string csv_path = "inject_log.csv";
     bool shutdown_thread = false;
 
@@ -168,9 +166,8 @@ namespace modloader {
     IL2CPP_MODLOADER_C_DLLEXPORT bool toggle_cursorlock() {
         auto state = app::methods::UnityEngine::Cursor::get_lockState();
         app::methods::UnityEngine::Cursor::set_lockState(
-            state == app::CursorLockMode__Enum::None ?
-            app::CursorLockMode__Enum::Confined :
-            app::CursorLockMode__Enum::None);
+                state == app::CursorLockMode__Enum::None ? app::CursorLockMode__Enum::Confined : app::CursorLockMode__Enum::None
+        );
         return state == app::CursorLockMode__Enum::None;
     }
 
