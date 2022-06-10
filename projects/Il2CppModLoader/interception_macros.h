@@ -4,8 +4,8 @@
 #include <Il2CppModLoader/interception.h>
 
 #define IL2CPP_REGISTER_METHOD(address, return_type, name, params) \
-    return_type(*name) params = nullptr;                     \
-    modloader::intercept::binding binding_##name(address, reinterpret_cast<void**>(&name), #name);
+    inline return_type(*name) params = nullptr;                     \
+    inline modloader::intercept::binding binding_##name(address, reinterpret_cast<void**>(&name), #name);
 
 // We may use this later.
 #define IL2CPP_REGISTER_METHODINFO(address, name)
