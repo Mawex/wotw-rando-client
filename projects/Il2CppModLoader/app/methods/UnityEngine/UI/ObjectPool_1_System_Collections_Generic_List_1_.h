@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ObjectPool_1_System_Collections_Generic_List_1_ {
     IL2CPP_REGISTER_METHOD(0x02ACEDE0, void, ctor, (app::ObjectPool_1_System_Collections_Generic_List_1_ * this_ptr, app::UnityAction_1_System_Collections_Generic_List_1_ * action_on_get, app::UnityAction_1_System_Collections_Generic_List_1_ * action_on_release))

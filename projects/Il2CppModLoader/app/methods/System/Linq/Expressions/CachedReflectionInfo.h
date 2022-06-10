@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::CachedReflectionInfo {
     IL2CPP_REGISTER_METHOD(0x01FA01E0, app::MethodInfo_1 *, get_CallSiteOps_SetNotMatched, ())

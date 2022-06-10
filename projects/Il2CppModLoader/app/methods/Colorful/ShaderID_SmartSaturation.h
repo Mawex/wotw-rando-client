@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::ShaderID_SmartSaturation {
     IL2CPP_REGISTER_METHOD(0x03051A40, void, cctor, ())

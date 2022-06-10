@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Blur {
     IL2CPP_REGISTER_METHOD(0x02515B20, app::Material *, get_material, (app::Blur * this_ptr))

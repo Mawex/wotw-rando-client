@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::SetIntAction {
     IL2CPP_REGISTER_METHOD(0x03010BF0, app::String *, get_Info, (app::SetIntAction * this_ptr))

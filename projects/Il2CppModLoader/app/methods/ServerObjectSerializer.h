@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ServerObjectSerializer {
     IL2CPP_REGISTER_METHOD(0x00AC12D0, app::ServerObject *, Serialize, (app::GameObject * game_obj, bool is_prefab))

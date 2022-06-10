@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ColorPixelArray {
     IL2CPP_REGISTER_METHOD(0x0134A020, void, ctor_1, (app::ColorPixelArray * this_ptr, int32_t width, int32_t height))

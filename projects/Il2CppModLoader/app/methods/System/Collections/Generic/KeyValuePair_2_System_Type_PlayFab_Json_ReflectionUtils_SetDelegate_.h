@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_Type_PlayFab_Json_ReflectionUtils_SetDelegate_ {
     IL2CPP_REGISTER_METHOD(0x00110270, void, ctor, (app::KeyValuePair_2_System_Type_PlayFab_Json_ReflectionUtils_SetDelegate___Boxed * this_ptr, app::Type * key, app::ReflectionUtils_SetDelegate * value))

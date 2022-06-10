@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SneezeSlugSneezeBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x00EE0070, void, Awake, (app::SneezeSlugSneezeBehaviourNew * this_ptr))

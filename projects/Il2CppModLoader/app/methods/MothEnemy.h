@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MothEnemy {
     IL2CPP_REGISTER_METHOD(0x00864990, app::MothSwarm *, get_Swarm, (app::MothEnemy * this_ptr))

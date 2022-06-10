@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::JsonReader {
     IL2CPP_REGISTER_METHOD(0x00529E80, app::JsonReader_State__Enum, get_CurrentState, (app::JsonReader * this_ptr))

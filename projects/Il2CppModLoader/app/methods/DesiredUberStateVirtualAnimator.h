@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DesiredUberStateVirtualAnimator {
     IL2CPP_REGISTER_METHOD(0x00F9DBA0, int32_t, get_Hash, (app::DesiredUberStateVirtualAnimator * this_ptr))

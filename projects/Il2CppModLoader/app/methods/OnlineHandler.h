@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OnlineHandler {
     IL2CPP_REGISTER_METHOD(0x00617340, void, OnEnable, (app::OnlineHandler * this_ptr))

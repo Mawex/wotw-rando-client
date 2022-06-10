@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostRecordingMetaDataData {
     IL2CPP_REGISTER_METHOD(0x007E3F10, int64_t, GetSize, (app::GhostRecordingMetaDataData * this_ptr))

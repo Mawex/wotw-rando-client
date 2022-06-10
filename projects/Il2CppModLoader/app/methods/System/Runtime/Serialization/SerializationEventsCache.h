@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SerializationEventsCache {
     IL2CPP_REGISTER_METHOD(0x01EDDB10, app::SerializationEvents *, GetSerializationEventsForType, (app::Type * t))

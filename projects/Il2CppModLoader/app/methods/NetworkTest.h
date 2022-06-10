@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NetworkTest {
     IL2CPP_REGISTER_METHOD(0x0088CA60, void, SubscribeOnRemoteAction, (app::NetworkTest * this_ptr))

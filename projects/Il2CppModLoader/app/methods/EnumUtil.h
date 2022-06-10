@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnumUtil {
     IL2CPP_REGISTER_METHOD(0x0156C140, app::IEnumerable_1_System_Object_ *, GetValues_1, ())

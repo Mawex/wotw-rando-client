@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::ExpandString {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::ExpandString * this_ptr, app::String * s))

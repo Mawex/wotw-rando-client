@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::SharedJsonParser {
     IL2CPP_REGISTER_METHOD(0x030F1EC0, app::SharedJsonParser, Get, (app::String * json))

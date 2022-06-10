@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::RaycastHit {
     IL2CPP_REGISTER_METHOD(0x00244650, app::Collider *, get_collider, (app::RaycastHit__Boxed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_VirtualTimelineRepresentationGroup_System_Boolean_ {
     IL2CPP_REGISTER_METHOD(0x02DB99B0, bool, get_Item, (app::Dictionary_2_VirtualTimelineRepresentationGroup_System_Boolean_ * this_ptr, app::VirtualTimelineRepresentationGroup__Enum key))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HideMenuAction {
     IL2CPP_REGISTER_METHOD(0x00B493C0, bool, get_ShouldSKipUiBackgroundBlur, (app::HideMenuAction * this_ptr))

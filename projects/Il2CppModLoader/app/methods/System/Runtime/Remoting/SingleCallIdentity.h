@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::SingleCallIdentity {
     IL2CPP_REGISTER_METHOD(0x01D836D0, void, ctor, (app::SingleCallIdentity * this_ptr, app::String * object_uri, app::Context * context, app::Type * object_type))

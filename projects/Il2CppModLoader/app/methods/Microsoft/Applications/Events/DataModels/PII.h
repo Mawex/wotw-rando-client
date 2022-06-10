@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::DataModels::PII {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, app::PIIKind__Enum, get_Kind, (app::PII * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnparentTrailRenderer__ResetTrail_d__12 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::UnparentTrailRenderer_ResetTrail_d_12 * this_ptr, int32_t __1__state))

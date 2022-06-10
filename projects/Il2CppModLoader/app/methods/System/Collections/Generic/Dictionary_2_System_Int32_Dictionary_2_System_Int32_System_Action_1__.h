@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1__ {
     IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear_1, (app::Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Action_1_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Race::ReplayValidatorData {
     IL2CPP_REGISTER_METHOD(0x00C4C7F0, app::ReplayValidatorData *, FromTrialData, (app::ITrialData * data, bool set_positions))

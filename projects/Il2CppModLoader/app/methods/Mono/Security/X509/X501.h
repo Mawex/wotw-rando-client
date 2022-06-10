@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::X501 {
     IL2CPP_REGISTER_METHOD(0x025E4F40, app::String *, ToString_1, (app::ASN1 * seq))

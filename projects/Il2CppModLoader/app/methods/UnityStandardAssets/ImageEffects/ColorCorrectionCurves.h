@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ColorCorrectionCurves {
     IL2CPP_REGISTER_METHOD(0x0251AC50, void, Start, (app::ColorCorrectionCurves * this_ptr))

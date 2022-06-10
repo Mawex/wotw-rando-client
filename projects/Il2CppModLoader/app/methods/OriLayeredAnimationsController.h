@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OriLayeredAnimationsController {
     IL2CPP_REGISTER_METHOD(0x0043DA30, app::MoonAnimator *, get_OriAnimator, (app::OriLayeredAnimationsController * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::RemapDecorator {
     IL2CPP_REGISTER_METHOD(0x0300F620, app::String *, get_Info, (app::RemapDecorator * this_ptr))

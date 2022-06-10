@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::ClientContext {
     IL2CPP_REGISTER_METHOD(0x005B0220, app::SslClientStream *, get_SslStream, (app::ClientContext * this_ptr))

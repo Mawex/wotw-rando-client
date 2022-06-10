@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GameTimer {
     IL2CPP_REGISTER_METHOD(0x00404DA0, void, Awake, (app::GameTimer * this_ptr))

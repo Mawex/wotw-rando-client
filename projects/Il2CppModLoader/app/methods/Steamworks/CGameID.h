@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::CGameID {
     IL2CPP_REGISTER_METHOD(0x0010FD20, void, ctor_1, (app::CGameID__Boxed * this_ptr, uint64_t game_i_d))

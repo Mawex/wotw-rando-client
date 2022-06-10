@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ActivityTracker {
     IL2CPP_REGISTER_METHOD(0x01745360, void, OnStart, (app::ActivityTracker * this_ptr, app::String * provider_name, app::String * activity_name, int32_t task, app::Guid * activity_id, app::Guid * related_activity_id, app::EventActivityOptions__Enum options))

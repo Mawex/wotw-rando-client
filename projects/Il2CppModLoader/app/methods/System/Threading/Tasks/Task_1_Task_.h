@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_1_Task_ {
     IL2CPP_REGISTER_METHOD(0x0277FBD0, app::ConfiguredTaskAwaitable_1_System_Threading_Tasks_Task_, ConfigureAwait, (app::Task_1_Task_ * this_ptr, bool continue_on_captured_context))

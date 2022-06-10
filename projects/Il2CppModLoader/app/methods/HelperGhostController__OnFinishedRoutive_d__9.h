@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HelperGhostController__OnFinishedRoutive_d__9 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::HelperGhostController_OnFinishedRoutive_d_9 * this_ptr, int32_t __1__state))

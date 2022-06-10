@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayFab::ISerializerPlugin {
     IL2CPP_REGISTER_METHODINFO(0x0476CA20, ISerializerPlugin_DeserializeObject_2__MethodInfo)

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Fader {
     IL2CPP_REGISTER_METHOD(0x0098FFA0, void, ChangeState, (app::Fader * this_ptr, app::Fader_State__Enum state))

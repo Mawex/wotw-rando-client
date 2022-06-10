@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::ProfilingSettings___c__DisplayClass18_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::ProfilingSettings_c_DisplayClass18_0 * this_ptr))

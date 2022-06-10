@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::FileStream {
     IL2CPP_REGISTER_METHOD(0x01E09CF0, void, ctor_1, (app::FileStream * this_ptr, void * handle, app::FileAccess__Enum access, bool owns_handle, int32_t buffer_size))

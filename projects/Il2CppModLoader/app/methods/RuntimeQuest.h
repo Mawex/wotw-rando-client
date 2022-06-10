@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RuntimeQuest {
     IL2CPP_REGISTER_METHOD(0x0137AAD0, void, CatchUpState, (app::RuntimeQuest * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_1_Steamworks_UserStatsReceived_t_ {
     IL2CPP_REGISTER_METHOD(0x01D24D50, void, Invoke, (app::Action_1_Steamworks_UserStatsReceived_t_ * this_ptr, app::UserStatsReceived_t obj))

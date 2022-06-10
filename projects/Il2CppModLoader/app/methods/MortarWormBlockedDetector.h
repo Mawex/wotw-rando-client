@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MortarWormBlockedDetector {
     IL2CPP_REGISTER_METHOD(0x0147FAE0, void, OnValidate, (app::MortarWormBlockedDetector * this_ptr))

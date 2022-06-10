@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BombableSolidWallEntity {
     IL2CPP_REGISTER_METHOD(0x00D387B0, void, ResolveDamage, (app::BombableSolidWallEntity * this_ptr, app::DamageResult * damage_result))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacySinMovementAnimator {
     IL2CPP_REGISTER_METHOD(0x00A359C0, void, AnimateIt, (app::LegacySinMovementAnimator * this_ptr, float value))

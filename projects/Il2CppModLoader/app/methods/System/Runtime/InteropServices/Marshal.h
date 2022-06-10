@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::Marshal {
     IL2CPP_REGISTER_METHOD(0x01A94B10, void *, AllocCoTaskMem, (int32_t cb))

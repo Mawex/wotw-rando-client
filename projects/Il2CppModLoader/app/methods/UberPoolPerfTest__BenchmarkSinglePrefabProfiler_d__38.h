@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberPoolPerfTest__BenchmarkSinglePrefabProfiler_d__38 {
     IL2CPP_REGISTER_METHOD(0x00123890, void, MoveNext, (app::UberPoolPerfTest_BenchmarkSinglePrefabProfiler_d_38__Boxed * this_ptr))

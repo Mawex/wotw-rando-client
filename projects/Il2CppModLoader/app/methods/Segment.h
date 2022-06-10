@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Segment {
     IL2CPP_REGISTER_METHOD(0x0106EB50, void, ResetStatics, ())

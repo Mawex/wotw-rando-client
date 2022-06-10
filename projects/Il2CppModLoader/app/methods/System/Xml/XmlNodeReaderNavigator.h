@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlNodeReaderNavigator {
     IL2CPP_REGISTER_METHOD(0x016FB1D0, void, ctor, (app::XmlNodeReaderNavigator * this_ptr, app::XmlNode * node))

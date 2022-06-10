@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::RuntimeType_ListBuilder_1_System_Reflection_EventInfo_ {
     IL2CPP_REGISTER_METHOD(0x001FF7C0, void, ctor, (app::RuntimeType_ListBuilder_1_System_Reflection_EventInfo___Boxed * this_ptr, int32_t capacity))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_UnityEngine_Rendering_RenderTargetIdentifier_ {
     IL2CPP_REGISTER_METHOD(0x001F52B0, bool, get_HasValue, (app::Nullable_1_UnityEngine_Rendering_RenderTargetIdentifier___Boxed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlWellFormedWriter_AttributeValueCache {
     IL2CPP_REGISTER_METHOD(0x01FD3600, app::String *, get_StringValue, (app::XmlWellFormedWriter_AttributeValueCache * this_ptr))

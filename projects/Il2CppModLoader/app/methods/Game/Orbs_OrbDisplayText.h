@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Game::Orbs_OrbDisplayText {
     IL2CPP_REGISTER_METHOD(0x015267E0, app::GameObject *, get_OrbText, ())

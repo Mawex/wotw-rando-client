@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ThreadSafeStore_2_System_Type_System_Type_ {
     IL2CPP_REGISTER_METHOD(0x01D122F0, app::Type *, Get, (app::ThreadSafeStore_2_System_Type_System_Type_ * this_ptr, app::Type * key))

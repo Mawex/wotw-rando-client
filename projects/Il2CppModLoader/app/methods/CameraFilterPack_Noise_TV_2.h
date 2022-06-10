@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Noise_TV_2 {
     IL2CPP_REGISTER_METHOD(0x02482E90, app::Material *, get_material, (app::CameraFilterPack_Noise_TV_2 * this_ptr))

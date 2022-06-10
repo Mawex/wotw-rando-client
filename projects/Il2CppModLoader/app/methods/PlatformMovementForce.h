@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlatformMovementForce {
     IL2CPP_REGISTER_METHOD(0x0116F490, app::PlatformBehaviour *, get_PlatformBehaviour, (app::PlatformMovementForce * this_ptr))

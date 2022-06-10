@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Cheat {
     IL2CPP_REGISTER_METHOD(0x00522850, void, ctor, (app::Cheat * this_ptr, app::Input_InputButtonProcessor__Array * combination, app::Action * action, app::Func_1_Boolean_ * condition))

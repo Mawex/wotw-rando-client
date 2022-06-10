@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonDataPlatform::PCQualityModeManager {
     IL2CPP_REGISTER_METHOD(0x00F485D0, app::PCQualityModeManager_QualityMode__Enum, get_CurrentMode, ())

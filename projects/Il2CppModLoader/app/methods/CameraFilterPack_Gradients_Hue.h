@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Gradients_Hue {
     IL2CPP_REGISTER_METHOD(0x0247BB80, app::Material *, get_material, (app::CameraFilterPack_Gradients_Hue * this_ptr))

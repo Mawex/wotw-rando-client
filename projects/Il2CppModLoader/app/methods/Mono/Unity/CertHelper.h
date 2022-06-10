@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Unity::CertHelper {
     IL2CPP_REGISTER_METHOD(0x02186110, void, AddCertificatesToNativeChain, (app::UnityTls_unitytls_x509list * native_certificate_chain, app::X509CertificateCollection_1 * certificates, app::UnityTls_unitytls_errorstate * error_state))

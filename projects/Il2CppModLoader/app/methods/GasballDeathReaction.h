@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GasballDeathReaction {
     IL2CPP_REGISTER_METHOD(0x0041DB70, void, SetInstantDeath, (app::GasballDeathReaction * this_ptr, bool instant_death))

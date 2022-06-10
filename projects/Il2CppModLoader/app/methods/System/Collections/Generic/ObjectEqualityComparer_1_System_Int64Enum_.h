@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System_Int64Enum_ {
     IL2CPP_REGISTER_METHOD(0x02435D10, bool, Equals_1, (app::ObjectEqualityComparer_1_System_Int64Enum_ * this_ptr, app::Int64Enum__Enum x, app::Int64Enum__Enum y))

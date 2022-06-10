@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_Object_FullSerializer_Internal_fsOption_1_ {
     IL2CPP_REGISTER_METHOD(0x00151460, void, ctor, (app::KeyValuePair_2_System_Object_FullSerializer_Internal_fsOption_1___Boxed * this_ptr, app::Object * key, app::fsOption_1_fsVersionedType_ value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_TKey_TValue__Enumerator_UnityEngine_GameObject_List_1_UnityEngine_GameObject__ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::List_1_UnityEngine_GameObject_ *, get_Current, (app::Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enumerator_UnityEngine_GameObject_List_1_UnityEngine_GameObject___Boxed * this_ptr))

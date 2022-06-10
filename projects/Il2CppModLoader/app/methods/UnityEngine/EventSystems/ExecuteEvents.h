@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::ExecuteEvents {
     IL2CPP_REGISTER_METHOD(0x01F1E570, void, Execute_1, (app::IPointerEnterHandler * handler, app::BaseEventData * event_data))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::GL {
     IL2CPP_REGISTER_METHOD(0x02526170, void, Vertex3, (float x, float y, float z))

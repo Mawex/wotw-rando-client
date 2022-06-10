@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Design::Serialization::InstanceDescriptor {
     IL2CPP_REGISTER_METHOD(0x01FE4D60, void, ctor_1, (app::InstanceDescriptor * this_ptr, app::MemberInfo_1 * member, app::ICollection * arguments))

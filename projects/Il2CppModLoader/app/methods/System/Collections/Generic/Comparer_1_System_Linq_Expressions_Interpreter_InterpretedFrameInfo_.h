@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Comparer_1_System_Linq_Expressions_Interpreter_InterpretedFrameInfo_ {
     IL2CPP_REGISTER_METHOD(0x02807CD0, app::Comparer_1_System_Linq_Expressions_Interpreter_InterpretedFrameInfo_ *, get_Default, ())

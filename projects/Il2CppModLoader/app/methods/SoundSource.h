@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SoundSource {
     IL2CPP_REGISTER_METHOD(0x00EED000, bool, get_IsPlaying, (app::SoundSource * this_ptr))

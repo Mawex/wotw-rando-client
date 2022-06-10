@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Water3Float {
     IL2CPP_REGISTER_METHOD(0x02D75770, void, Start, (app::Water3Float * this_ptr))

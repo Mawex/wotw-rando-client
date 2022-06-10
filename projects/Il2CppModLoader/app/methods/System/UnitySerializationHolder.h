@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::UnitySerializationHolder {
     IL2CPP_REGISTER_METHOD(0x027C5C80, void, GetUnitySerializationInfo_1, (app::SerializationInfo * info, app::Missing * missing))

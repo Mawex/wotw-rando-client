@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SoulFlameCastTrigger {
     IL2CPP_REGISTER_METHOD(0x00EE4640, void, Awake, (app::SoulFlameCastTrigger * this_ptr))

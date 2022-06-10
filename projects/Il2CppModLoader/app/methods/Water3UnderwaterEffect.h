@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Water3UnderwaterEffect {
     IL2CPP_REGISTER_METHOD(0x02D77540, void, Start, (app::Water3UnderwaterEffect * this_ptr))

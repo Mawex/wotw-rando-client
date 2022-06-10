@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CC_FastVignette {
     IL2CPP_REGISTER_METHOD(0x03193430, void, OnRenderImage, (app::CC_FastVignette * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

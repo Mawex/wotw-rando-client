@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::PerfTestTimer_TestData {
     IL2CPP_REGISTER_METHOD(0x01974EF0, void, ctor, (app::PerfTestTimer_TestData * this_ptr))

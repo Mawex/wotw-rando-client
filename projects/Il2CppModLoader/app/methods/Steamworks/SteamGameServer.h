@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServer {
     IL2CPP_REGISTER_METHOD(0x027F0650, bool, InitGameServer, (uint32_t un_i_p, uint16_t us_game_port, uint16_t us_query_port, uint32_t un_flags, app::AppId_t n_game_app_id, app::String * pch_version_string))

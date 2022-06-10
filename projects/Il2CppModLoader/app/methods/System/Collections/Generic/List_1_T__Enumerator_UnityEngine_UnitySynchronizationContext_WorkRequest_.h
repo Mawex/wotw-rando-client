@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_UnityEngine_UnitySynchronizationContext_WorkRequest_ {
     IL2CPP_REGISTER_METHOD(0x00133A80, app::UnitySynchronizationContext_WorkRequest, get_Current, (app::List_1_T_Enumerator_UnityEngine_UnitySynchronizationContext_WorkRequest___Boxed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokBossButtSlamBehaviour_AttackState {
     IL2CPP_REGISTER_METHOD(0x0124A2D0, void, ctor, (app::KwolokBossButtSlamBehaviour_AttackState * this_ptr, app::KwolokBossButtSlamBehaviour * behaviour))

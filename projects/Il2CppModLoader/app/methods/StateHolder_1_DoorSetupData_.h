@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::StateHolder_1_DoorSetupData_ {
     IL2CPP_REGISTER_METHOD(0x01D19450, app::DoorSetupData *, ResolveCurrent, (app::StateHolder_1_DoorSetupData_ * this_ptr))

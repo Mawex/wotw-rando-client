@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadInterruptedException {
     IL2CPP_REGISTER_METHOD(0x02344910, void, ctor_1, (app::ThreadInterruptedException * this_ptr))

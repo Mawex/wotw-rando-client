@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AdvancedDebugMenuPage___c__DisplayClass65_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::AdvancedDebugMenuPage_c_DisplayClass65_0 * this_ptr))

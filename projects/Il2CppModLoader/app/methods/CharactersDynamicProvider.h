@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CharactersDynamicProvider {
     IL2CPP_REGISTER_METHOD(0x01316FD0, app::GameObject *, get_GameplayOri, (app::CharactersDynamicProvider * this_ptr))

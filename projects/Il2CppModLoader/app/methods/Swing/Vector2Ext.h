@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Swing::Vector2Ext {
     IL2CPP_REGISTER_METHOD(0x013BB100, float, cross, (app::Vector2 lhs, app::Vector2 rhs))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::CultureInfoConverter {
     IL2CPP_REGISTER_METHOD(0x01FDA1E0, app::String *, get_DefaultCultureString, (app::CultureInfoConverter * this_ptr))

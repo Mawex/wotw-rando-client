@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LicenseManager_LicenseInteropHelper {
     IL2CPP_REGISTER_METHOD(0x01FF34B0, app::Object *, AllocateAndValidateLicense, (app::RuntimeTypeHandle rth, void * bstr_key, int32_t f_design_time))

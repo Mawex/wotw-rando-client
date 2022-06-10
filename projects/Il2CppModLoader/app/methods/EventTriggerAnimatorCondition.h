@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EventTriggerAnimatorCondition {
     IL2CPP_REGISTER_METHOD(0x00982E50, bool, Validate, (app::EventTriggerAnimatorCondition * this_ptr, app::IContext * context))

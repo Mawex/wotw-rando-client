@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CursorInputData {
     IL2CPP_REGISTER_METHOD(0x00DBAC70, void, Save, (app::CursorInputData * this_ptr, app::BinaryWriter * binary_writer))

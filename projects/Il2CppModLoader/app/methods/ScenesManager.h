@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ScenesManager {
     IL2CPP_REGISTER_METHOD(0x00BC1A90, bool, SceneVisibleAtPosition, (app::ScenesManager * this_ptr, app::Vector3 position))

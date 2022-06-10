@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentBag_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02ADBFD0, int32_t, get_Count, (app::ConcurrentBag_1_System_Object_ * this_ptr))

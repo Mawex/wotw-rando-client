@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Extensions::AnimationCurveExtensions {
     IL2CPP_REGISTER_METHOD(0x031B38E0, float, GetMaxAnimationCurveDuration, (app::AnimationCurve__Array * curves))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::UI::BitmapFont {
     IL2CPP_REGISTER_METHOD(0x00D23B60, app::BitmapFontChar_1 *, get_Item, (app::BitmapFont_1 * this_ptr, uint16_t c))

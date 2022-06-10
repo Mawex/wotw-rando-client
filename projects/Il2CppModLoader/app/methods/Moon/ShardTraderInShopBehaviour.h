@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ShardTraderInShopBehaviour {
     IL2CPP_REGISTER_METHOD(0x00E27020, void, OnEnter, (app::ShardTraderInShopBehaviour * this_ptr, app::IContext * context))

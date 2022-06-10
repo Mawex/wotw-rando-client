@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ClientContextReplySink {
     IL2CPP_REGISTER_METHOD(0x01A9AC30, void, ctor, (app::ClientContextReplySink * this_ptr, app::Context * ctx, app::IMessageSink * reply_sink))

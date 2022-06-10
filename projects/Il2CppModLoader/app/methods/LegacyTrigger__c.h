@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyTrigger___c {
     IL2CPP_REGISTER_METHOD(0x0112C9F0, void, cctor, ())

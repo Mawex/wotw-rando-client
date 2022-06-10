@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::SlowMo {
     IL2CPP_REGISTER_METHOD(0x02046090, void, Update, (app::SlowMo * this_ptr))

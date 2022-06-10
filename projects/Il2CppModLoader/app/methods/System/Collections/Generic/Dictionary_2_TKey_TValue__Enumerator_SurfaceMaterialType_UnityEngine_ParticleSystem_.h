@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_SurfaceMaterialType_UnityEngine_ParticleSystem_ {
     IL2CPP_REGISTER_METHOD(0x00136440, app::KeyValuePair_2_SurfaceMaterialType_UnityEngine_ParticleSystem_, get_Current, (app::Dictionary_2_TKey_TValue_Enumerator_SurfaceMaterialType_UnityEngine_ParticleSystem___Boxed * this_ptr))

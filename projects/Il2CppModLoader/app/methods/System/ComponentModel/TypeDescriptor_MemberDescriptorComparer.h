@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_MemberDescriptorComparer {
     IL2CPP_REGISTER_METHOD(0x02957170, int32_t, Compare, (app::TypeDescriptor_MemberDescriptorComparer * this_ptr, app::Object * left, app::Object * right))

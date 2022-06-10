@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::EntityState {
     IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_IsRunning, (app::EntityState * this_ptr))

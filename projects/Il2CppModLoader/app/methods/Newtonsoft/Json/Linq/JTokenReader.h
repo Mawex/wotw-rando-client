@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JTokenReader {
     IL2CPP_REGISTER_METHOD(0x002FBC40, app::JToken *, get_CurrentToken, (app::JTokenReader * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlAutoDetectWriter {
     IL2CPP_REGISTER_METHOD(0x0195DDC0, void, ctor_1, (app::XmlAutoDetectWriter * this_ptr, app::XmlWriterSettings * writer_settings))

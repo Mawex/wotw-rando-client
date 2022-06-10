@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::ChannelInfo {
     IL2CPP_REGISTER_METHOD(0x01A9AAA0, void, ctor_1, (app::ChannelInfo * this_ptr))

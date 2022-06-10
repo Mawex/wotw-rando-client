@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::Bloom_Settings {
     IL2CPP_REGISTER_METHOD(0x00115B30, void, set_thresholdGamma, (app::Bloom_Settings__Boxed * this_ptr, float value))

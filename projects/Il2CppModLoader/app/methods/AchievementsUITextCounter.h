@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AchievementsUITextCounter {
     IL2CPP_REGISTER_METHOD(0x004C0FC0, void, Awake, (app::AchievementsUITextCounter * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PickupMessageIcon {
     IL2CPP_REGISTER_METHOD(0x01159630, void, SetIcon, (app::PickupMessageIcon * this_ptr, app::Texture2D * icon))

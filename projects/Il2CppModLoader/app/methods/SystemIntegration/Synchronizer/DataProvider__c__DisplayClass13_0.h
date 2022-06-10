@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::DataProvider___c__DisplayClass13_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::DataProvider_c_DisplayClass13_0 * this_ptr))

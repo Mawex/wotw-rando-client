@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GlideFeatherAnimator {
     IL2CPP_REGISTER_METHOD(0x007F4060, app::Atlas__Array *, get_Atlases, (app::GlideFeatherAnimator * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GetItemAction {
     IL2CPP_REGISTER_METHOD(0x00E11D20, void, Perform, (app::GetItemAction * this_ptr, app::IContext * context))

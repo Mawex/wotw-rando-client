@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::TimerThread {
     IL2CPP_REGISTER_METHOD(0x020A5FD0, void, cctor, ())

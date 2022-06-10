@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::PerformanceCountersElement {
     IL2CPP_REGISTER_METHOD(0x02019F20, void, ctor, (app::PerformanceCountersElement * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::ISteamMatchmakingRulesResponse {
     IL2CPP_REGISTER_METHOD(0x015FDA70, void, ctor, (app::ISteamMatchmakingRulesResponse * this_ptr, app::ISteamMatchmakingRulesResponse_RulesResponded * on_rules_responded, app::ISteamMatchmakingRulesResponse_RulesFailedToRespond * on_rules_failed_to_respond, app::ISteamMatchmakingRulesResponse_RulesRefreshComplete * on_rules_refresh_complete))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_UnityEngine_UI_ColorBlock_ {
     IL2CPP_REGISTER_METHOD(0x02AB2AE0, bool, Equals_1, (app::GenericEqualityComparer_1_UnityEngine_UI_ColorBlock_ * this_ptr, app::ColorBlock x, app::ColorBlock y))

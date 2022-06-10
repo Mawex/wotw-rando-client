@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Interp {
     IL2CPP_REGISTER_METHOD(0x02A2A500, float, Float, (float t, app::InterpolationMode__Enum mode))

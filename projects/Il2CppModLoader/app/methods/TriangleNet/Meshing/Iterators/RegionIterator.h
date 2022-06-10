@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Iterators::RegionIterator {
     IL2CPP_REGISTER_METHOD(0x02B11180, void, ctor, (app::RegionIterator * this_ptr, app::Mesh_1 * mesh))

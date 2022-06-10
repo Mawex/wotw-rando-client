@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ListProvider_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02879B70, app::Object *, get_Item, (app::ListProvider_1_System_Object_ * this_ptr, int32_t index))

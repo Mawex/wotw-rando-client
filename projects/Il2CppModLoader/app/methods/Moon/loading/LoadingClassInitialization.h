@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::loading::LoadingClassInitialization {
     IL2CPP_REGISTER_METHOD(0x00F2CE80, void, ctor, (app::LoadingClassInitialization * this_ptr, bool prewarm_all_types, bool should_gc))

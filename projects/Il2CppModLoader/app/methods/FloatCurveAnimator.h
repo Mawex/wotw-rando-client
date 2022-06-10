@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FloatCurveAnimator {
     IL2CPP_REGISTER_METHOD(0x01270690, void, CacheOriginals, (app::FloatCurveAnimator * this_ptr))

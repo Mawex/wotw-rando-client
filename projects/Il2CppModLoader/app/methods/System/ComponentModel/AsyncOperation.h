@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::AsyncOperation {
     IL2CPP_REGISTER_METHOD(0x024A0500, void, ctor_1, (app::AsyncOperation * this_ptr, app::Object * user_supplied_state, app::SynchronizationContext * sync_context))

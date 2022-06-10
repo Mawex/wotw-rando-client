@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SetGameModeToPrologueAction {
     IL2CPP_REGISTER_METHOD(0x005A2CA0, void, Perform, (app::SetGameModeToPrologueAction * this_ptr, app::IContext * context))

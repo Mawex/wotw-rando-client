@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::SimpleFPSController {
     IL2CPP_REGISTER_METHOD(0x0166AAA0, void, Awake, (app::SimpleFPSController * this_ptr))

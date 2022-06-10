@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskCache {
     IL2CPP_REGISTER_METHOD(0x01A91550, app::Task_1_System_Int32___Array *, CreateInt32Tasks, ())

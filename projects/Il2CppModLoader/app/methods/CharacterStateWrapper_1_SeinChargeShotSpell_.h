@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CharacterStateWrapper_1_SeinChargeShotSpell_ {
     IL2CPP_REGISTER_METHOD(0x019DF450, void, Refresh, (app::CharacterStateWrapper_1_SeinChargeShotSpell_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FPSTestFields {
     IL2CPP_REGISTER_METHOD(0x0098B530, void, AppendHeaderRow, (app::StringBuilder * s, app::FPSTestFields_Scope__Enum scope))

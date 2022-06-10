@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacySwarmEnemyPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00A3B640, app::LegacyEntity *, Instantiate, (app::LegacySwarmEnemyPlaceholder * this_ptr))

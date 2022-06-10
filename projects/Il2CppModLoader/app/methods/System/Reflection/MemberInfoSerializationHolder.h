@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::MemberInfoSerializationHolder {
     IL2CPP_REGISTER_METHOD(0x0268B610, void, GetSerializationInfo_1, (app::SerializationInfo * info, app::String * name, app::RuntimeType * reflected_class, app::String * signature, app::MemberTypes__Enum type))

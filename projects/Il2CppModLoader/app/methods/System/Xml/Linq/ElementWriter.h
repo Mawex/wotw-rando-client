@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::ElementWriter {
     IL2CPP_REGISTER_METHOD(0x002411A0, void, ctor, (app::ElementWriter__Boxed * this_ptr, app::XmlWriter * writer))

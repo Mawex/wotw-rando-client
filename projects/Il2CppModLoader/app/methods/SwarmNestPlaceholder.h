@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SwarmNestPlaceholder {
     IL2CPP_REGISTER_METHOD(0x01824830, void, OnStart, (app::SwarmNestPlaceholder * this_ptr))

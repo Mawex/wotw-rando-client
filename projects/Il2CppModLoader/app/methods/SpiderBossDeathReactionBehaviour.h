@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderBossDeathReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x0096B6C0, void, Awake, (app::SpiderBossDeathReactionBehaviour * this_ptr))

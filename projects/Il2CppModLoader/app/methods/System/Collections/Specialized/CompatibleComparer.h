@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::CompatibleComparer {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::CompatibleComparer_1 * this_ptr, app::IComparer * comparer, app::IHashCodeProvider * hash_code_provider))

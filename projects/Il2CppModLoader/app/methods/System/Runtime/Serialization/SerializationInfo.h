@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::SerializationInfo {
     IL2CPP_REGISTER_METHOD(0x01EDE780, void, ctor_1, (app::SerializationInfo * this_ptr, app::Type * type, app::IFormatterConverter * converter))

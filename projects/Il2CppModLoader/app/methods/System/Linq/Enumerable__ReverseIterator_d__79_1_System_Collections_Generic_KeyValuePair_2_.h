@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__ReverseIterator_d__79_1_System_Collections_Generic_KeyValuePair_2_ {
     IL2CPP_REGISTER_METHOD(0x02985070, void, ctor, (app::Enumerable_ReverseIterator_d_79_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr, int32_t __1__state))

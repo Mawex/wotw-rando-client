@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Func_4_System_IO_Stream_System_Xml_XmlReaderSettings_System_Xml_XmlParserContext_System_Xml_XmlReader_ {
     IL2CPP_REGISTER_METHOD(0x02FA8B20, app::XmlReader *, Invoke, (app::Func_4_System_IO_Stream_System_Xml_XmlReaderSettings_System_Xml_XmlParserContext_System_Xml_XmlReader_ * this_ptr, app::Stream * arg1, app::XmlReaderSettings * arg2, app::XmlParserContext * arg3))

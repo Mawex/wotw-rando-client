@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::InstructionArray_DebugView {
     IL2CPP_REGISTER_METHOD(0x01CD7AE0, void, ctor, (app::InstructionArray_DebugView * this_ptr, app::InstructionArray array))

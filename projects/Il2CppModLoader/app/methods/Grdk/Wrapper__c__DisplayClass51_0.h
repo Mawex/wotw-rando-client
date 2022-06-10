@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Grdk::Wrapper___c__DisplayClass51_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::Wrapper_c_DisplayClass51_0 * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GetWorldEventCondition {
     IL2CPP_REGISTER_METHOD(0x00E12D60, bool, Validate, (app::GetWorldEventCondition * this_ptr, app::IContext * context))

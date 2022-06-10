@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnvironmentLight {
     IL2CPP_REGISTER_METHOD(0x00CA6810, bool, get_IsSceneLight, (app::EnvironmentLight * this_ptr))

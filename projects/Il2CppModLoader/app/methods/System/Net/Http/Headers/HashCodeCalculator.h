@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HashCodeCalculator {
     IL2CPP_REGISTER_METHOD(0x0209EAF0, int32_t, Calculate_1, (app::ICollection_1_System_Object_ * list))

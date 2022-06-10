@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseSyncProcessor_RtpcSyncTask {
     IL2CPP_REGISTER_METHOD(0x002FB930, app::Func_1_Single_ *, get_Getter, (app::WwiseSyncProcessor_RtpcSyncTask * this_ptr))

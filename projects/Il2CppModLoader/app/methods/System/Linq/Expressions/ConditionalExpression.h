@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::ConditionalExpression {
     IL2CPP_REGISTER_METHOD(0x01FA2E70, void, ctor, (app::ConditionalExpression * this_ptr, app::Expression * test, app::Expression * if_true))

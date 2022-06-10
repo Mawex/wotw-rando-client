@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NavigableOnGUI {
     IL2CPP_REGISTER_METHOD(0x00887DE0, bool, get_isSelected, (app::NavigableOnGUI_1 * this_ptr))

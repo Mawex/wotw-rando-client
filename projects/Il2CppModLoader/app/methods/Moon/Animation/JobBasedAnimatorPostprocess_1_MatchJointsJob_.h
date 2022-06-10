@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Animation::JobBasedAnimatorPostprocess_1_MatchJointsJob_ {
     IL2CPP_REGISTER_METHOD(0x019FC330, void, ctor, (app::JobBasedAnimatorPostprocess_1_MatchJointsJob_ * this_ptr))

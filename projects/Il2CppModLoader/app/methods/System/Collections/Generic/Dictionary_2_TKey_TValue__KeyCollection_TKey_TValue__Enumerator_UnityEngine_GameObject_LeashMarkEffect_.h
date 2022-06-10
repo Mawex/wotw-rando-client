@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_UnityEngine_GameObject_LeashMarkEffect_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::GameObject *, get_Current, (app::Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_UnityEngine_GameObject_LeashMarkEffect___Boxed * this_ptr))

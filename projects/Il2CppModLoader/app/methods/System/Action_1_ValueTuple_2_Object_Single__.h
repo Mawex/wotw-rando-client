@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_1_ValueTuple_2_Object_Single__ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::Action_1_ValueTuple_2_Object_Single_ * this_ptr, app::Object * object, void * method_1))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LightCanvas_LightCanvasStateData {
     IL2CPP_REGISTER_METHOD(0x011459B0, int32_t, get_Guid, (app::LightCanvas_LightCanvasStateData * this_ptr))

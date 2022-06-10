@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeekerSlugShootingState {
     IL2CPP_REGISTER_METHOD(0x0106C6F0, void, ctor, (app::SeekerSlugShootingState * this_ptr, app::SlugEnemy * slug, app::SlugDirectionalAnimation * animation, app::GameObject * spike_prefab, app::SoundSource * shooting_sound))

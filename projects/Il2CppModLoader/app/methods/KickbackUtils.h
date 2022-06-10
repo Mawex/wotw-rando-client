@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KickbackUtils {
     IL2CPP_REGISTER_METHOD(0x00E714E0, app::Vector3, ModifyDeathKickbackForce, (app::Vector3 damage_force, app::EntityWeightData_EntityWeight__Enum entity_weight, bool is_on_ground))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BaurInteractionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00F9A690, void, OnEntityInitialized, (app::BaurInteractionBehaviour * this_ptr))

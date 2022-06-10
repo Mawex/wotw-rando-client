@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_UInt64_System_Action_2_ {
     IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add_1, (app::Dictionary_2_System_UInt64_System_Action_2_ * this_ptr, uint64_t key, app::Action_2_Steamworks_UserAchievementStored_t_Boolean_ * value))

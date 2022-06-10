@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ {
     IL2CPP_REGISTER_METHOD(0x02F3C060, void, Sort_1, (app::TransparencyAnimatorSystemStrategy_SetSceneHiddenAction__Array * keys, int32_t index, int32_t length, app::IComparer_1_Moon_Timeline_TransparencyAnimatorSystemStrategy_SetSceneHiddenAction_ * comparer))

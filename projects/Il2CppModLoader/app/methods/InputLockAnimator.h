@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InputLockAnimator {
     IL2CPP_REGISTER_METHOD(0x00628CF0, void, OnStartPlay, (app::InputLockAnimator * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MusicVolumeProvider {
     IL2CPP_REGISTER_METHOD(0x0087EAC0, float, GetFloatValue, (app::MusicVolumeProvider * this_ptr))

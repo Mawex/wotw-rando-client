@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Design::RuntimeLicenseContext {
     IL2CPP_REGISTER_METHOD(0x01FE3840, app::String *, GetLocalPath, (app::RuntimeLicenseContext * this_ptr, app::String * file_name))

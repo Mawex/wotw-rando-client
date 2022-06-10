@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TeleportPlayerAnimatorEntity {
     IL2CPP_REGISTER_METHOD(0x00CE8CF0, void, OnStartPlayback, (app::TeleportPlayerAnimatorEntity * this_ptr, app::IContext * context))

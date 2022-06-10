@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::IPGlobalProperties {
     IL2CPP_REGISTER_METHOD(0x01E765D0, bool, get_PlatformNeedsLibCWorkaround, ())

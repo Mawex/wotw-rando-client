@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossTripleSlamBehaviour {
     IL2CPP_REGISTER_METHOD(0x0049F2B0, app::StateMachine_2 *, get_StateMachine, (app::PetrifiedOwlBossTripleSlamBehaviour * this_ptr))

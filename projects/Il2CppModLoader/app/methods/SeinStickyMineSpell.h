@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinStickyMineSpell {
     IL2CPP_REGISTER_METHOD(0x00A7E680, void, Awake, (app::SeinStickyMineSpell * this_ptr))

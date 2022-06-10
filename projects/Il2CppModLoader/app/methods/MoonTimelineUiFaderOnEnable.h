@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTimelineUiFaderOnEnable {
     IL2CPP_REGISTER_METHOD(0x01474380, void, OnEnable, (app::MoonTimelineUiFaderOnEnable * this_ptr))

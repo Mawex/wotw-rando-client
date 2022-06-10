@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Claims::Claim {
     IL2CPP_REGISTER_METHOD(0x020C0D40, void, ctor_1, (app::Claim * this_ptr, app::String * type, app::String * value, app::String * value_type, app::String * issuer, app::String * original_issuer, app::ClaimsIdentity * subject))

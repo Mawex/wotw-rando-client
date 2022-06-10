@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Gui::GuiBeginScrollView {
     IL2CPP_REGISTER_METHOD(0x00F28550, app::Vector2, get_Scroll, (app::GuiBeginScrollView * this_ptr))

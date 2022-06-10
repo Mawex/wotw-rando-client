@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SnakeSolver {
     IL2CPP_REGISTER_METHOD(0x006D4160, int32_t, get_TotalJoints, (app::SnakeSolver * this_ptr))

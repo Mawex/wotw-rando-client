@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::StaticTree {
     IL2CPP_REGISTER_METHOD(0x030752E0, void, ctor, (app::StaticTree * this_ptr, app::Int16__Array * tree_codes, app::Int32__Array * extra_bits, int32_t extra_base, int32_t elems, int32_t max_length))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::MoonIconRenderer {
     IL2CPP_REGISTER_METHOD(0x0102ED10, void, Prepare, (app::MoonIconRenderer * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GainPassiveSpiritShardSocket {
     IL2CPP_REGISTER_METHOD(0x0151E910, void, Perform, (app::GainPassiveSpiritShardSocket * this_ptr, app::IContext * context))

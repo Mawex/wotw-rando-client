@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OverlapPlatform {
     IL2CPP_REGISTER_METHOD(0x00442AD0, void, FixedUpdate, (app::OverlapPlatform * this_ptr))

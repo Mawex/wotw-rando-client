@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Configuration::SpecialSettingAttribute {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::SpecialSettingAttribute * this_ptr, app::SpecialSetting__Enum special_setting))

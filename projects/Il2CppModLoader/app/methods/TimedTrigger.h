@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimedTrigger {
     IL2CPP_REGISTER_METHOD(0x010F3F90, bool, get_IsTriggered, (app::TimedTrigger * this_ptr))

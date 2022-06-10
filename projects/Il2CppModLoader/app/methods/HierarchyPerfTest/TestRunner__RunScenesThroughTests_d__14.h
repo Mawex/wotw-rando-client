@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HierarchyPerfTest::TestRunner__RunScenesThroughTests_d__14 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::TestRunner_RunScenesThroughTests_d_14 * this_ptr, int32_t __1__state))

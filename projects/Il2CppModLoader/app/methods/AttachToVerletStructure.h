@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AttachToVerletStructure {
     IL2CPP_REGISTER_METHOD(0x008519A0, bool, ISuspendable_get_IsSuspended, (app::AttachToVerletStructure * this_ptr))

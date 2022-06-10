@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlDownloadManager___c__DisplayClass4_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::XmlDownloadManager_c_DisplayClass4_0 * this_ptr))

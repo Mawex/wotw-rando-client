@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinComboHandler_StubbedComboMove {
     IL2CPP_REGISTER_METHOD(0x002FB980, void, ctor, (app::SeinComboHandler_StubbedComboMove * this_ptr, app::ComboMoveType__Enum move_type))

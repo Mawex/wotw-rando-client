@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::Handshake::Client::TlsServerFinished {
     IL2CPP_REGISTER_METHOD(0x01F6F4B0, void, ctor, (app::TlsServerFinished_1 * this_ptr, app::Context_1 * context, app::Byte__Array * buffer))

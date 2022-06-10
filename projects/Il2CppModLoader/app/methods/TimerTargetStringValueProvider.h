@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimerTargetStringValueProvider {
     IL2CPP_REGISTER_METHOD(0x010F88F0, app::String *, GetStringValue, (app::TimerTargetStringValueProvider * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils {
     IL2CPP_REGISTER_METHOD(0x004C50A0, app::Type *, GetTypeInfo, (app::Type * type))

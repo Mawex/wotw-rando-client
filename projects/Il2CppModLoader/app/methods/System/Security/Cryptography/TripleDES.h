@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::TripleDES {
     IL2CPP_REGISTER_METHOD(0x01E12060, void, ctor, (app::TripleDES * this_ptr))

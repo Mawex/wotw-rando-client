@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::StaticEntityLocomotion {
     IL2CPP_REGISTER_METHOD(0x005B0220, app::Transform *, get_FeetTransform, (app::StaticEntityLocomotion * this_ptr))

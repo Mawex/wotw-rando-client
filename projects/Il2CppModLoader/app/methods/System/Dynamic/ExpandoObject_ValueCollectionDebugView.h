@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_ValueCollectionDebugView {
     IL2CPP_REGISTER_METHOD(0x01F935F0, void, ctor, (app::ExpandoObject_ValueCollectionDebugView * this_ptr, app::ICollection_1_System_Object_ * collection))

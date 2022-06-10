@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Video::VideoPlayer_TimeEventHandler {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::VideoPlayer_TimeEventHandler * this_ptr, app::Object * object, void * method_1))

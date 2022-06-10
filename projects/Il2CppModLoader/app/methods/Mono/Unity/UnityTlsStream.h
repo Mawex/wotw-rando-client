@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTlsStream {
     IL2CPP_REGISTER_METHOD(0x02491D80, void, ctor, (app::UnityTlsStream * this_ptr, app::Stream * inner_stream, bool leave_inner_stream_open, app::SslStream * owner, app::MonoTlsSettings * settings, app::MonoTlsProvider * provider))

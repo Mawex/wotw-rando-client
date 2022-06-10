@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostCameraPlugin {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, PlayCycle, (app::GhostCameraPlugin * this_ptr, float time))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Iterators::VertexCirculator__EnumerateVertices_d__2 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::VertexCirculator_EnumerateVertices_d_2 * this_ptr, int32_t __1__state))

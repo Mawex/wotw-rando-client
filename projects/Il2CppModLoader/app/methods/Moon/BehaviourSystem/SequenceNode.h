@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::SequenceNode {
     IL2CPP_REGISTER_METHOD(0x0300FC10, app::BehaviourStatus__Enum, OnExecute, (app::SequenceNode_1 * this_ptr, app::IContext * context))

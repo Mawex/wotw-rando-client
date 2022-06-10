@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InstantLoadScenesController {
     IL2CPP_REGISTER_METHOD(0x0062A7A0, void, ResetStatics, ())

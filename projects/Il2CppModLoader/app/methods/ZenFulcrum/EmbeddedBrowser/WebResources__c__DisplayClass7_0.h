@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::WebResources___c__DisplayClass7_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::WebResources_c_DisplayClass7_0 * this_ptr))

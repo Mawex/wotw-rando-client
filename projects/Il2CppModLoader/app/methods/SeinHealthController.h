@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinHealthController {
     IL2CPP_REGISTER_METHOD(0x00FFBA80, bool, get_IsHealthFull, (app::SeinHealthController * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ILGeneratorExtensions {
     IL2CPP_REGISTER_METHOD(0x03019000, void, PushInstance, (app::ILGenerator * generator, app::Type * type))

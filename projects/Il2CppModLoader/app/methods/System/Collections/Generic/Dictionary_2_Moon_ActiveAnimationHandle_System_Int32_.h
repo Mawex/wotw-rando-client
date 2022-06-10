@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_ActiveAnimationHandle_System_Int32_ {
     IL2CPP_REGISTER_METHOD(0x02E259D0, int32_t, get_Item, (app::Dictionary_2_Moon_ActiveAnimationHandle_System_Int32_ * this_ptr, app::ActiveAnimationHandle key))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task {
     IL2CPP_REGISTER_METHOD(0x02330800, bool, AddToActiveTasks, (app::Task * task))

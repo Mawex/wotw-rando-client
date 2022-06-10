@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FloatingRockController {
     IL2CPP_REGISTER_METHOD(0x01272C50, void, Awake, (app::FloatingRockController * this_ptr))

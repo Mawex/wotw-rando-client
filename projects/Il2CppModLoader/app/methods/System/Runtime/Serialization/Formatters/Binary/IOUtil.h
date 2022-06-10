@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::IOUtil {
     IL2CPP_REGISTER_METHOD(0x00EB1B80, bool, FlagTest, (app::MessageEnum__Enum flag, app::MessageEnum__Enum target))

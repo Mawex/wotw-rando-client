@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleEntity {
     IL2CPP_REGISTER_METHOD(0x00CFDBE0, bool, get_IsTentacleFacingTarget, (app::TentacleEntity * this_ptr))

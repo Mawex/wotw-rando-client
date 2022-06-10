@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyGameObjectDisabler {
     IL2CPP_REGISTER_METHOD(0x00443C10, void, Awake, (app::LegacyGameObjectDisabler * this_ptr))

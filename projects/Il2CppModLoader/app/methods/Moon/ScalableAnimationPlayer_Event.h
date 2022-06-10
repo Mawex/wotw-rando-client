@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ScalableAnimationPlayer_Event {
     IL2CPP_REGISTER_METHOD(0x00418FC0, float, get_SimulatedTime, (app::ScalableAnimationPlayer_Event * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SmartInput::ButtonAxisInput {
     IL2CPP_REGISTER_METHOD(0x006CA160, void, ctor, (app::ButtonAxisInput * this_ptr, app::IButtonInput * button_input, app::ButtonAxisInput_Mode__Enum mode))

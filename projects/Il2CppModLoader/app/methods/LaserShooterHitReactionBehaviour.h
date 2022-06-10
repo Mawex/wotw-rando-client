@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LaserShooterHitReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00F13C60, void, HandleReasonToNotInterrupt, (app::LaserShooterHitReactionBehaviour * this_ptr, app::EntityReactionBehaviour_ReasonWhyReactionWontInterrupt reason, app::EntityEvent * reaction_event))

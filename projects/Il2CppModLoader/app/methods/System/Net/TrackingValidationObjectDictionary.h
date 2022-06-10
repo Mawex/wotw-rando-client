@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::TrackingValidationObjectDictionary {
     IL2CPP_REGISTER_METHOD(0x020AA220, void, ctor, (app::TrackingValidationObjectDictionary * this_ptr, app::IDictionary_2_System_String_System_Net_TrackingValidationObjectDictionary_ValidateAndParseValue_ * validators))

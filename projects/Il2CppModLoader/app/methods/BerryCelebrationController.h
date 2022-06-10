@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BerryCelebrationController {
     IL2CPP_REGISTER_METHOD(0x00F9E1C0, void, OnNaruCollided, (app::BerryCelebrationController * this_ptr))

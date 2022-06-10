@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::EarlyZDelayedUnhide {
     IL2CPP_REGISTER_METHOD(0x007897C0, void, Awake, (app::EarlyZDelayedUnhide * this_ptr))

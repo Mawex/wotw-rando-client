@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AnimationTester_ToggleElementButton {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::AnimationTester_IToogleGroup *, get_ToogleGroup, (app::AnimationTester_ToggleElementButton * this_ptr))

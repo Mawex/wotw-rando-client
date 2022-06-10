@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_System_Single_ {
     IL2CPP_REGISTER_METHOD(0x001DF770, void, ctor, (app::NativeArray_1_System_Single___Boxed * this_ptr, int32_t length, app::Allocator__Enum allocator, app::NativeArrayOptions__Enum options))

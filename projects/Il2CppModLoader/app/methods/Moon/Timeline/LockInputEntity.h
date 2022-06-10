@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::LockInputEntity {
     IL2CPP_REGISTER_METHOD(0x00775D40, void, OnStartPlayback, (app::LockInputEntity * this_ptr, app::IContext * context))

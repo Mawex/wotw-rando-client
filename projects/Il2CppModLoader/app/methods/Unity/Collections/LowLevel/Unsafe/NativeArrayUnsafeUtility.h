@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility {
     IL2CPP_REGISTER_METHOD(0x015E7A50, app::Void *, GetUnsafeBufferPointerWithoutChecks_1, (app::NativeArray_1_UnityEngine_Bounds_ native_array))

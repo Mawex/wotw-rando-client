@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LagoonContactSwitchGroupAction {
     IL2CPP_REGISTER_METHOD(0x00F01420, void, OnEnable, (app::LagoonContactSwitchGroupAction * this_ptr))

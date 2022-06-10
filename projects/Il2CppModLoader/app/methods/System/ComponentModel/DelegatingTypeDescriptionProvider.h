@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DelegatingTypeDescriptionProvider {
     IL2CPP_REGISTER_METHOD(0x002FB960, void, ctor, (app::DelegatingTypeDescriptionProvider * this_ptr, app::Type * type))

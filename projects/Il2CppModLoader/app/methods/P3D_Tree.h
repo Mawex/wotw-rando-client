@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::P3D_Tree {
     IL2CPP_REGISTER_METHOD(0x03099100, app::P3D_Tree *, get_TempInstance, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_PlayFab_ClientModels_UserDataPermission_ {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, ctor, (app::Nullable_1_PlayFab_ClientModels_UserDataPermission___Boxed * this_ptr, app::UserDataPermission__Enum value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::JetBrains::Annotations::UsedImplicitlyAttribute {
     IL2CPP_REGISTER_METHOD(0x02418CA0, void, ctor_1, (app::UsedImplicitlyAttribute * this_ptr))

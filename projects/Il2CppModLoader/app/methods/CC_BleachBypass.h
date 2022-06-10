@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CC_BleachBypass {
     IL2CPP_REGISTER_METHOD(0x03192750, void, OnRenderImage, (app::CC_BleachBypass * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::GraphicRaycaster {
     IL2CPP_REGISTER_METHOD(0x024B1F60, void, ctor, (app::GraphicRaycaster * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::NameCache {
     IL2CPP_REGISTER_METHOD(0x01D93230, app::Object *, GetCachedValue, (app::NameCache * this_ptr, app::String * name))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EventTriggerGameplayAnimator {
     IL2CPP_REGISTER_METHOD(0x01BBD9E0, app::List_1_Moon_Timeline_EventTriggerGameplayAnimator_ *, FindInTimeline, (app::MoonTimeline * timeline, app::EventTriggerGameplayAnimator_Type__Enum type))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Font {
     IL2CPP_REGISTER_METHOD(0x0319AA50, void, ctor, (app::Font * this_ptr))

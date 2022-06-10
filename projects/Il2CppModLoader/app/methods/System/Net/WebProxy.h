@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::WebProxy {
     IL2CPP_REGISTER_METHOD(0x01D805A0, void, ctor_1, (app::WebProxy * this_ptr))

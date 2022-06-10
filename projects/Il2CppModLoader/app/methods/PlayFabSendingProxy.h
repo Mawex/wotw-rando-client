@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayFabSendingProxy {
     IL2CPP_REGISTER_METHOD(0x02EA04A0, app::Action_1_MoonTelemetryEvent_ *, get_Proxy, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MaterialProperties {
     IL2CPP_REGISTER_METHOD(0x01381450, void, ApplyMaterialProperties, (app::MaterialProperties * this_ptr, app::MaterialProperties * material_properties))

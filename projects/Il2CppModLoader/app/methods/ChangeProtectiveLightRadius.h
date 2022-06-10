@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ChangeProtectiveLightRadius {
     IL2CPP_REGISTER_METHOD(0x01045F60, void, FixedUpdate, (app::ChangeProtectiveLightRadius * this_ptr))

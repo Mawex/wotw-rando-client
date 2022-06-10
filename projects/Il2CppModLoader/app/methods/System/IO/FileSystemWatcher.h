@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::FileSystemWatcher {
     IL2CPP_REGISTER_METHOD(0x0200A8A0, app::ISite *, get_Site, (app::FileSystemWatcher * this_ptr))

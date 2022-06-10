@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::Phone {
     IL2CPP_REGISTER_METHOD(0x0222AB70, void, OnPickUp, (app::Phone * this_ptr))

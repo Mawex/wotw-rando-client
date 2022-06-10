@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BezierSpline {
     IL2CPP_REGISTER_METHOD(0x00F9F600, void, AppendPoint, (app::BezierSpline * this_ptr, app::Vector3 pos, app::BaseSpline_SplinePointType__Enum type, app::Vector3 cp1, app::Vector3 cp2))

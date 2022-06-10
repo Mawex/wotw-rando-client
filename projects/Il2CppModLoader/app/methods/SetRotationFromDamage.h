@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SetRotationFromDamage {
     IL2CPP_REGISTER_METHOD(0x005A3CA0, void, OnEnable, (app::SetRotationFromDamage * this_ptr))

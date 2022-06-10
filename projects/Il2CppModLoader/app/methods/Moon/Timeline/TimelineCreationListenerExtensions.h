@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineCreationListenerExtensions {
     IL2CPP_REGISTER_METHOD(0x01E83E80, app::List_1_UnityEngine_Object_ *, GetFilteredTargets, (app::ITimelineEntityCreationListener * listener))

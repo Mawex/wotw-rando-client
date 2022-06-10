@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::RectOffset {
     IL2CPP_REGISTER_METHOD(0x0296DE00, void, ctor_1, (app::RectOffset * this_ptr))

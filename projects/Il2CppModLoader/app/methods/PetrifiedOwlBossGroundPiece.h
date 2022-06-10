@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossGroundPiece {
     IL2CPP_REGISTER_METHOD(0x017727F0, void, Awake, (app::PetrifiedOwlBossGroundPiece * this_ptr))

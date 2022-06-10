@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AK::Wwise::BaseType {
     IL2CPP_REGISTER_METHOD(0x026C1570, app::String *, get_Name, (app::BaseType * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GroundEntityMovementProcessor {
     IL2CPP_REGISTER_METHOD(0x0108DD00, bool, get_StickToSurfaces, (app::GroundEntityMovementProcessor * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour_ChaseState {
     IL2CPP_REGISTER_METHOD(0x00C503D0, app::String *, get_StateName, (app::RammingBehaviour_ChaseState * this_ptr))

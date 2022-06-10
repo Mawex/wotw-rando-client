@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskCompletionSource_1_PlayFab_IPlayFabEmitEventResponse_ {
     IL2CPP_REGISTER_METHOD(0x02777830, void, SetCanceled, (app::TaskCompletionSource_1_PlayFab_IPlayFabEmitEventResponse_ * this_ptr))

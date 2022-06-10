@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TurbulenceRotationModifier {
     IL2CPP_REGISTER_METHOD(0x00B17FE0, void, ApplyMultipliers, (app::TurbulenceRotationModifier * this_ptr, float strength, float speed))

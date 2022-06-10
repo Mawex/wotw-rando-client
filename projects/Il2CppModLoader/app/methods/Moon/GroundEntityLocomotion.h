@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::GroundEntityLocomotion {
     IL2CPP_REGISTER_METHOD(0x0049F2B0, app::GroundEntityMovementProcessor *, get_GroundMovement, (app::GroundEntityLocomotion * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Door {
     IL2CPP_REGISTER_METHOD(0x00B9C830, app::GameObject *, get_Target, (app::Door * this_ptr))

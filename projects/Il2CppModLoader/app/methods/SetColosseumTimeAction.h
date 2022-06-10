@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SetColosseumTimeAction {
     IL2CPP_REGISTER_METHOD(0x005A2320, void, Perform, (app::SetColosseumTimeAction * this_ptr, app::IContext * context))

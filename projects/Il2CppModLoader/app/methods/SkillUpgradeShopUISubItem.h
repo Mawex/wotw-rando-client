@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkillUpgradeShopUISubItem {
     IL2CPP_REGISTER_METHOD(0x006BC4D0, void, Update, (app::SkillUpgradeShopUISubItem * this_ptr))

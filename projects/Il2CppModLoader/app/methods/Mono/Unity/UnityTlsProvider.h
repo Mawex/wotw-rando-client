@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Unity::UnityTlsProvider {
     IL2CPP_REGISTER_METHOD(0x024912D0, app::String *, get_Name, (app::UnityTlsProvider * this_ptr))

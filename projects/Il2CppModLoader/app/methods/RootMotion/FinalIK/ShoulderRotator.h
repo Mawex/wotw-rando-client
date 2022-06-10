@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::ShoulderRotator {
     IL2CPP_REGISTER_METHOD(0x02A26CD0, void, Start, (app::ShoulderRotator * this_ptr))

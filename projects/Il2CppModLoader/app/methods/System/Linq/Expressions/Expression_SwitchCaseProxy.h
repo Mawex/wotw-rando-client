@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_SwitchCaseProxy {
     IL2CPP_REGISTER_METHOD(0x022C7540, void, ctor, (app::Expression_SwitchCaseProxy * this_ptr, app::SwitchCase * node))

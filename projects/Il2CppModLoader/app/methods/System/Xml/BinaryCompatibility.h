@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::BinaryCompatibility {
     IL2CPP_REGISTER_METHOD(0x021E7500, bool, get_TargetsAtLeast_Desktop_V4_5_2, ())

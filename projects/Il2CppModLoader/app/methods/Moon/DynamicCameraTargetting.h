@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::DynamicCameraTargetting {
     IL2CPP_REGISTER_METHOD(0x01202300, bool, get_Bypass, (app::DynamicCameraTargetting * this_ptr))

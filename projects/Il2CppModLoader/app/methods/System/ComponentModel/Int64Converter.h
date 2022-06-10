@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Int64Converter {
     IL2CPP_REGISTER_METHOD(0x01FEF870, app::Type *, get_TargetType, (app::Int64Converter * this_ptr))

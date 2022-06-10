@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SafeToShowWispTextCondition {
     IL2CPP_REGISTER_METHOD(0x00C07E40, bool, Validate, (app::SafeToShowWispTextCondition * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyCameraSettingsDistanceBasedAnimator {
     IL2CPP_REGISTER_METHOD(0x015DD330, app::Bounds, GetOuterBounds, (app::LegacyCameraSettingsDistanceBasedAnimator * this_ptr))

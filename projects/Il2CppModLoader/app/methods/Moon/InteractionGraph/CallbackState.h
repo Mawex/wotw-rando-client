@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::CallbackState {
     IL2CPP_REGISTER_METHOD(0x0198B7F0, app::CallbackState *, AddUpdateStateAction, (app::CallbackState * this_ptr, app::Action * update_state_action))

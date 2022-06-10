@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonArray {
     IL2CPP_REGISTER_METHOD(0x01A485B0, void, Add, (app::BsonArray * this_ptr, app::BsonToken * token))

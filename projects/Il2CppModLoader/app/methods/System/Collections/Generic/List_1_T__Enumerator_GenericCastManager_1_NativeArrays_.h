@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_GenericCastManager_1_NativeArrays_ {
     IL2CPP_REGISTER_METHOD(0x00152840, void, ctor_1, (app::List_1_T_Enumerator_GenericCastManager_1_NativeArrays___Boxed * this_ptr, app::List_1_GenericCastManager_1_NativeArrays__2 * list))

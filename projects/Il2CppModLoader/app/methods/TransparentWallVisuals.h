@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TransparentWallVisuals {
     IL2CPP_REGISTER_METHOD(0x00B0F190, void, OnTriggerEnter, (app::TransparentWallVisuals * this_ptr, app::Collider * collider))

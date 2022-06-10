@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ArtOptimizerHeuristics {
     IL2CPP_REGISTER_METHOD(0x01347A60, bool, IsObjectIgnored, (app::GameObject * uber_shader))

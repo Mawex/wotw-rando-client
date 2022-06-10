@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberStateCollectionReference {
     IL2CPP_REGISTER_METHOD(0x03149500, app::UberStateCollection *, get_Collection, ())

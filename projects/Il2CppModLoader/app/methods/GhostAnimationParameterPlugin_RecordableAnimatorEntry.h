@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostAnimationParameterPlugin_RecordableAnimatorEntry {
     IL2CPP_REGISTER_METHOD(0x00E14150, app::IRecordable *, get_Recordable, (app::GhostAnimationParameterPlugin_RecordableAnimatorEntry * this_ptr))

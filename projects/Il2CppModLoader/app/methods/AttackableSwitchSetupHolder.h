@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AttackableSwitchSetupHolder {
     IL2CPP_REGISTER_METHOD(0x00855D30, app::AttackableSwitchSetupData *, get_DeactivatedState, (app::AttackableSwitchSetupHolder * this_ptr))

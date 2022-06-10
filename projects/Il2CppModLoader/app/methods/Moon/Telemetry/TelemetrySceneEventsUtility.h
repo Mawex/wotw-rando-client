@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::TelemetrySceneEventsUtility {
     IL2CPP_REGISTER_METHOD(0x010AA6C0, app::Color, GetColor, (app::MoonTelemetrySceneEvent_EventSceneState__Enum state))

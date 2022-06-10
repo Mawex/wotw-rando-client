@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::TypeUtils {
     IL2CPP_REGISTER_METHOD(0x01F965B0, app::Type *, GetNonNullableType, (app::Type * type))

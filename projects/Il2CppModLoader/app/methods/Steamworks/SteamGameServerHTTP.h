@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerHTTP {
     IL2CPP_REGISTER_METHOD(0x027F9090, app::HTTPRequestHandle, CreateHTTPRequest, (app::EHTTPMethod__Enum e_h_t_t_p_request_method, app::String * pch_absolute_u_r_l))

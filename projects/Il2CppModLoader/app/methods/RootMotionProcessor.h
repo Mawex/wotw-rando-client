@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotionProcessor {
     IL2CPP_REGISTER_METHOD(0x013673F0, void, Start, (app::RootMotionProcessor * this_ptr, app::RootMotionProcessorData * root_motion_config_data, app::MoonAnimator * animator, app::CharacterPlatformMovement * platform_movement, float gravity, app::Func_2_UnityEngine_Vector3_UnityEngine_Vector3_ * motion_modifier))

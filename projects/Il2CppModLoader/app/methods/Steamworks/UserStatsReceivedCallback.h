@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::UserStatsReceivedCallback {
     IL2CPP_REGISTER_METHOD(0x027A8220, int32_t, get_CallbackCount, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::EnumerableSorter_2_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x0289C9B0, void, ctor, (app::EnumerableSorter_2_System_Object_System_Object_ * this_ptr, app::Func_2_Object_Object_ * key_selector, app::IComparer_1_System_Object_ * comparer, bool descending, app::EnumerableSorter_1_System_Object_ * next))

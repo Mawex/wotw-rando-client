@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GiantSlugHitReactionBehaviour___c {
     IL2CPP_REGISTER_METHOD(0x007F3F20, void, cctor, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsIEnumerableConverter {
     IL2CPP_REGISTER_METHOD(0x01656710, bool, CanProcess, (app::fsIEnumerableConverter * this_ptr, app::Type * type))

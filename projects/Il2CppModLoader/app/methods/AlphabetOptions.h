@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AlphabetOptions {
     IL2CPP_REGISTER_METHOD(0x002FBBE0, app::String *, get_CurrentlySelected, (app::AlphabetOptions * this_ptr))

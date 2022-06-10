@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::CapsulecastCommand {
     IL2CPP_REGISTER_METHOD(0x00244140, void, ctor, (app::CapsulecastCommand__Boxed * this_ptr, app::Vector3 p1, app::Vector3 p2, float radius, app::Vector3 direction, float distance, int32_t layer_mask))

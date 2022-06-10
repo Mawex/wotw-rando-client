@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LevelUpDamageAction {
     IL2CPP_REGISTER_METHOD(0x01132D30, void, Perform, (app::LevelUpDamageAction * this_ptr, app::IContext * context))

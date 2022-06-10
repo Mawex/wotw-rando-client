@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageStructureTool___c__DisplayClass62_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::CageStructureTool_c_DisplayClass62_0 * this_ptr))

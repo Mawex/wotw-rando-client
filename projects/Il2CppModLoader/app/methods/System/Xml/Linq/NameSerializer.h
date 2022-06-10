@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::NameSerializer {
     IL2CPP_REGISTER_METHOD(0x0302C390, void, ctor, (app::NameSerializer * this_ptr, app::SerializationInfo * info, app::StreamingContext context))

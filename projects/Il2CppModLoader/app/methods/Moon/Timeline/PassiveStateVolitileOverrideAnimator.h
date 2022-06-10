@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PassiveStateVolitileOverrideAnimator {
     IL2CPP_REGISTER_METHOD(0x01E78F40, app::IPassiveStateDescriptor *, get_ResolvedDescriptor, (app::PassiveStateVolitileOverrideAnimator * this_ptr))

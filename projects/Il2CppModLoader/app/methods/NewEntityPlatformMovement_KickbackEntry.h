@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NewEntityPlatformMovement_KickbackEntry {
     IL2CPP_REGISTER_METHOD(0x005FBEA0, app::Vector2, GetKickbackVector, (app::NewEntityPlatformMovement_KickbackEntry * this_ptr))

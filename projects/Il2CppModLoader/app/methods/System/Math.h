@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Math {
     IL2CPP_REGISTER_METHOD(0x02268030, double, Acos, (double d))

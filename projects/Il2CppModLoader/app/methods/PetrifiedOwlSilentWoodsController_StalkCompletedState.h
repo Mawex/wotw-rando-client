@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlSilentWoodsController_StalkCompletedState {
     IL2CPP_REGISTER_METHOD(0x014E7B90, void, ctor, (app::PetrifiedOwlSilentWoodsController_StalkCompletedState * this_ptr, app::PetrifiedOwlSilentWoodsController * controller))

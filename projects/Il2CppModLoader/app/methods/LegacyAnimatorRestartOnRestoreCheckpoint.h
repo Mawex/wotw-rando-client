@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyAnimatorRestartOnRestoreCheckpoint {
     IL2CPP_REGISTER_METHOD(0x015CD120, void, OnValidate, (app::LegacyAnimatorRestartOnRestoreCheckpoint * this_ptr))

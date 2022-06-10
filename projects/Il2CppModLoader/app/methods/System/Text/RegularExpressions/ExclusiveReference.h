@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::ExclusiveReference {
     IL2CPP_REGISTER_METHOD(0x02581350, app::Object *, Get, (app::ExclusiveReference * this_ptr))

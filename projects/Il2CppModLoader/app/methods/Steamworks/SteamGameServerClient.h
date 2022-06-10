@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerClient {
     IL2CPP_REGISTER_METHOD(0x027F53E0, app::HSteamPipe, CreateSteamPipe, ())

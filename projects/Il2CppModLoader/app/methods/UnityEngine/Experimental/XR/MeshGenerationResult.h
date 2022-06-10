@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::XR::MeshGenerationResult {
     IL2CPP_REGISTER_METHOD(0x001D9980, app::TrackableId, get_MeshId, (app::MeshGenerationResult__Boxed * this_ptr))

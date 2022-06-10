@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::StrongNameKeyPair {
     IL2CPP_REGISTER_METHOD(0x026988E0, void, ctor, (app::StrongNameKeyPair * this_ptr, app::SerializationInfo * info, app::StreamingContext context))

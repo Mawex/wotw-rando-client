@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BerryTreeController {
     IL2CPP_REGISTER_METHOD(0x00F9E920, void, Start, (app::BerryTreeController * this_ptr))

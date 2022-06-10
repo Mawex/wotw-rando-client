@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TextureAnimationGUIText {
     IL2CPP_REGISTER_METHOD(0x010E9DC0, void, Update, (app::TextureAnimationGUIText * this_ptr))

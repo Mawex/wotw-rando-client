@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::GfxJobQueueProfilingSetting {
     IL2CPP_REGISTER_METHOD(0x00E3D360, app::ProfilingSettings_SettingType__Enum, get_SettingType, (app::GfxJobQueueProfilingSetting * this_ptr))

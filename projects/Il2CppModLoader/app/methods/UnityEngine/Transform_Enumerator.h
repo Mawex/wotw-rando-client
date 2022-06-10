@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Transform_Enumerator {
     IL2CPP_REGISTER_METHOD(0x01DC2A00, void, ctor, (app::Transform_Enumerator * this_ptr, app::Transform * outer))

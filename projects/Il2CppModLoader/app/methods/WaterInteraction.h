@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WaterInteraction {
     IL2CPP_REGISTER_METHOD(0x008D6C00, void, add_OnWaterZoneEnterAction, (app::WaterInteraction * this_ptr, app::Action * value))

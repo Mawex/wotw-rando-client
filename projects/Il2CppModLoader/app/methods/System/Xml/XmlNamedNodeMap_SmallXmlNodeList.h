@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlNamedNodeMap_SmallXmlNodeList {
     IL2CPP_REGISTER_METHOD(0x001CFBF0, int32_t, get_Count, (app::XmlNamedNodeMap_SmallXmlNodeList__Boxed * this_ptr))

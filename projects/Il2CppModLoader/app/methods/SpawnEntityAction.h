@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpawnEntityAction {
     IL2CPP_REGISTER_METHOD(0x00EF4FB0, void, Awake, (app::SpawnEntityAction * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyEntityDamageReciever {
     IL2CPP_REGISTER_METHOD(0x00A210B0, void, OnValidate, (app::LegacyEntityDamageReciever * this_ptr))

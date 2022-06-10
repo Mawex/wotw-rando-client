@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::EndpointPermission {
     IL2CPP_REGISTER_METHOD(0x01D25D60, void, ctor_1, (app::EndpointPermission * this_ptr, app::String * hostname, int32_t port, app::TransportType__Enum transport))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HttpHeaders_HeaderBucket {
     IL2CPP_REGISTER_METHOD(0x02D0D6C0, bool, get_HasStringValues, (app::HttpHeaders_HeaderBucket * this_ptr))

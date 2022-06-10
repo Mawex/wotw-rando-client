@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PushPullBlockTest {
     IL2CPP_REGISTER_METHOD(0x00653A60, app::Vector3, get_Position, (app::PushPullBlockTest * this_ptr))

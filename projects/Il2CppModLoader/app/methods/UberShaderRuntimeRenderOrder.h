@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberShaderRuntimeRenderOrder {
     IL2CPP_REGISTER_METHOD(0x01284B10, bool, get_IsInScene, (app::UberShaderRuntimeRenderOrder * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::InfTree {
     IL2CPP_REGISTER_METHOD(0x0306E730, int32_t, huft_build, (app::InfTree * this_ptr, app::Int32__Array * b, int32_t bindex, int32_t n, int32_t s, app::Int32__Array * d, app::Int32__Array * e, app::Int32__Array * t, app::Int32__Array * m, app::Int32__Array * hp, app::Int32__Array * hn, app::Int32__Array * v))

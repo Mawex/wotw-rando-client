@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Interface::MonoTlsSettings {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::MonoRemoteCertificateValidationCallback *, get_RemoteCertificateValidationCallback, (app::MonoTlsSettings * this_ptr))

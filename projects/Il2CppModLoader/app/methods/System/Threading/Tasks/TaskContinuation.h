@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskContinuation {
     IL2CPP_REGISTER_METHOD(0x0233BFA0, void, InlineIfPossibleOrElseQueue, (app::Task * task, bool needs_protection))

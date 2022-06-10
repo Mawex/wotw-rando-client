@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MixerManager {
     IL2CPP_REGISTER_METHOD(0x0132C7D0, void, RegisterSnapshotZone, (app::MixerManager * this_ptr, app::MixerSnapshotZone * mixer_snapshot_zone))

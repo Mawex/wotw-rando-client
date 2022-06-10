@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_OfflineRaceMetaData {
     IL2CPP_REGISTER_METHOD(0x0071B680, app::ReplayValidatorData *, ToReplayValidatorData, (app::RaceStateMachineContext_OfflineRaceMetaData * this_ptr))

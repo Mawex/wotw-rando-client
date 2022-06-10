@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PerformanceDataCollector {
     IL2CPP_REGISTER_METHOD(0x0044CE80, void, Start, (app::PerformanceDataCollector * this_ptr))

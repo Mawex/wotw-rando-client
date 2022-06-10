@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::DepthOfField {
     IL2CPP_REGISTER_METHOD(0x02500C20, app::Shader *, get_filmicDepthOfFieldShader, (app::DepthOfField_1 * this_ptr))

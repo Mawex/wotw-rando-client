@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Trail_CurveFrame {
     IL2CPP_REGISTER_METHOD(0x001F9D70, void, ctor, (app::Trail_CurveFrame__Boxed * this_ptr, app::Vector3 position, app::Vector3 normal, app::Vector3 bitangent, app::Vector3 tangent))

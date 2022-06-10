@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsLoadedEventHandler {
     IL2CPP_REGISTER_METHOD(0x02962C80, void, ctor, (app::SettingsLoadedEventHandler * this_ptr, app::Object * object, void * method_1))

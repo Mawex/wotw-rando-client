@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_System_Dynamic_BindingRestrictions_ {
     IL2CPP_REGISTER_METHOD(0x02AB4A60, bool, Add, (app::HashSet_1_System_Dynamic_BindingRestrictions_ * this_ptr, app::BindingRestrictions * item))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ControlsScreen___c__DisplayClass11_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::ControlsScreen_c_DisplayClass11_0 * this_ptr))

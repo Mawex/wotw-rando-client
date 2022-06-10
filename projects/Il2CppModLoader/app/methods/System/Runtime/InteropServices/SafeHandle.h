@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::SafeHandle {
     IL2CPP_REGISTER_METHOD(0x01A96E40, void, ctor, (app::SafeHandle * this_ptr, void * invalid_handle_value, bool owns_handle))

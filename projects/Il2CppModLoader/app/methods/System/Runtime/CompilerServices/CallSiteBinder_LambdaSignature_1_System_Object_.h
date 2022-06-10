@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::CallSiteBinder_LambdaSignature_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x0276CA10, app::CallSiteBinder_LambdaSignature_1_System_Object_ *, get_Instance, ())

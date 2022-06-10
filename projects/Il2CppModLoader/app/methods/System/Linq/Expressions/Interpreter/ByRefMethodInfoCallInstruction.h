@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::ByRefMethodInfoCallInstruction {
     IL2CPP_REGISTER_METHOD(0x0199E410, void, ctor, (app::ByRefMethodInfoCallInstruction * this_ptr, app::MethodInfo_1 * target, int32_t argument_count, app::ByRefUpdater__Array * byref_args))

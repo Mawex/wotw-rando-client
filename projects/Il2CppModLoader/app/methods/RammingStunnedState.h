@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RammingStunnedState {
     IL2CPP_REGISTER_METHOD(0x004C1E90, void, ctor, (app::RammingStunnedState * this_ptr, app::RammingEnemy * ramming_enemy))

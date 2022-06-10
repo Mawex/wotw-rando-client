@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinController {
     IL2CPP_REGISTER_METHOD(0x006DB840, bool, get_IsPlayingAnimation, (app::SeinController * this_ptr))

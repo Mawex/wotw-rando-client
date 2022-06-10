@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::fsJsonPrinter {
     IL2CPP_REGISTER_METHOD(0x0150FB10, void, InsertSpacing, (app::TextWriter * stream, int32_t count))

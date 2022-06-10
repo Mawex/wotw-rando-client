@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_ContingentProperties {
     IL2CPP_REGISTER_METHOD(0x0233B130, void, SetCompleted, (app::Task_ContingentProperties * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipeline {
     IL2CPP_REGISTER_METHOD(0x007917F0, void, ctor, (app::MoonRenderPipeline * this_ptr, app::MoonRenderPipelineAsset * owner))

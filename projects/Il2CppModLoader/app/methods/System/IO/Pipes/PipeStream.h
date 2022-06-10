@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::Pipes::PipeStream {
     IL2CPP_REGISTER_METHOD(0x01F99750, void, ctor_1, (app::PipeStream * this_ptr, app::PipeDirection__Enum direction, int32_t buffer_size))

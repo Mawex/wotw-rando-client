@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiritShardIcons {
     IL2CPP_REGISTER_METHOD(0x00D680F0, app::Texture2D *, GetIcon, (app::SpiritShardIcons * this_ptr, app::SpiritShardType__Enum type))

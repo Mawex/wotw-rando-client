@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::DrawRendererSettings {
     IL2CPP_REGISTER_METHOD(0x001EC740, void, ctor, (app::DrawRendererSettings__Boxed * this_ptr, app::Camera * camera, app::ShaderPassName shader_pass_name))

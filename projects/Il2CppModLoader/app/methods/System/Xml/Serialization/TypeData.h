@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::TypeData {
     IL2CPP_REGISTER_METHOD(0x01C903A0, void, ctor_1, (app::TypeData * this_ptr, app::Type * type, app::String * element_name, bool is_primitive))

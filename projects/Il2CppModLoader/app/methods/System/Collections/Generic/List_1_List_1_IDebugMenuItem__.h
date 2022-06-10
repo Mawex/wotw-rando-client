@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_List_1_IDebugMenuItem__ {
     IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (app::List_1_List_1_IDebugMenuItem_ * this_ptr, app::List_1_IDebugMenuItem_ * item))

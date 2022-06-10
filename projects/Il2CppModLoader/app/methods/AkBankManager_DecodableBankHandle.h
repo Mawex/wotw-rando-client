@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkBankManager_DecodableBankHandle {
     IL2CPP_REGISTER_METHOD(0x026CE230, void, ctor, (app::AkBankManager_DecodableBankHandle * this_ptr, app::String * name, bool save))

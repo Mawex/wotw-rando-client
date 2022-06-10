@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::UI::CharMetaData {
     IL2CPP_REGISTER_METHOD(0x0011E1B0, void, EraseIfVisible, (app::CharMetaData_1__Boxed * this_ptr))

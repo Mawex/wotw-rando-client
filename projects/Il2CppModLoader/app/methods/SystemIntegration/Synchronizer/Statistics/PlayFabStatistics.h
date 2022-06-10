@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Statistics::PlayFabStatistics {
     IL2CPP_REGISTER_METHOD(0x00535A80, app::String *, get_Name, (app::PlayFabStatistics * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleHead {
     IL2CPP_REGISTER_METHOD(0x00D00300, void, add_OnTriggerEnterEvent, (app::TentacleHead * this_ptr, app::Action_1_UnityEngine_Collider_ * value))

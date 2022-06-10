@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DamageBasedSoundProvider {
     IL2CPP_REGISTER_METHOD(0x00DC22A0, bool, Match, (app::DamageBasedSoundProvider * this_ptr, app::Damage * damage, app::SoundDamageType__Enum sound_damage_type))

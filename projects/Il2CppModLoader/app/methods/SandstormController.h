@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SandstormController {
     IL2CPP_REGISTER_METHOD(0x002FB990, app::SandstormController *, get_Instance, (app::SandstormController * this_ptr))

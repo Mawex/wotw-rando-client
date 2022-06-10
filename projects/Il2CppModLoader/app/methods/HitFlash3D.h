@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HitFlash3D {
     IL2CPP_REGISTER_METHOD(0x002FB9F0, app::List_1_HitFlash3D_Flash_ *, get_Entries, (app::HitFlash3D * this_ptr))

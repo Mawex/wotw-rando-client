@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ByteExtentions {
     IL2CPP_REGISTER_METHOD(0x02551CF0, bool, GetBit, (uint8_t b, int32_t bit_index))

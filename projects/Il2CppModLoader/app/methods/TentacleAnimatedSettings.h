@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleAnimatedSettings {
     IL2CPP_REGISTER_METHOD(0x00CEB0F0, app::TentacleAnimatedSettings, Lerp, (app::TentacleAnimatedSettings from, app::TentacleAnimatedSettings to, float t))

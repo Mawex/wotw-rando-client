@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_Swing_Int2_Moon_Rendering_SrpSampler_ {
     IL2CPP_REGISTER_METHOD(0x01D52BA0, void, ctor, (app::Dictionary_2_TKey_TValue_KeyCollection_Swing_Int2_Moon_Rendering_SrpSampler_ * this_ptr, app::Dictionary_2_Swing_Int2_Moon_Rendering_SrpSampler_ * dictionary))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HasAbilityUberStateCondition {
     IL2CPP_REGISTER_METHOD(0x0109D340, app::AbilityType__Enum, get_AbilityType, (app::HasAbilityUberStateCondition * this_ptr))

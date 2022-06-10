@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::FXAA {
     IL2CPP_REGISTER_METHOD(0x02504DF0, void, ctor, (app::FXAA * this_ptr, bool use_separate_alpha))

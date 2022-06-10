@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Xbox::Services::Xal::InitArgs {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, uint32_t, get_TitleId, (app::InitArgs * this_ptr))

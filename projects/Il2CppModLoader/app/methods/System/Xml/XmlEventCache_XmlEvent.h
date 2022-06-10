@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlEventCache_XmlEvent {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, InitEvent_1, (app::XmlEventCache_XmlEvent__Boxed * this_ptr, app::XmlEventCache_XmlEventType__Enum event_type))

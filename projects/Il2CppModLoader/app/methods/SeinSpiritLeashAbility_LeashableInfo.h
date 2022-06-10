@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinSpiritLeashAbility_LeashableInfo {
     IL2CPP_REGISTER_METHOD(0x0011C130, app::Vector3, GetAttackablePosition, (app::SeinSpiritLeashAbility_LeashableInfo__Boxed * this_ptr))

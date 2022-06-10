@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EquipmentRadialSelection {
     IL2CPP_REGISTER_METHOD(0x00CAB820, app::CleverMenuItemSelectionManager *, get_NavigationManager, (app::EquipmentRadialSelection * this_ptr))

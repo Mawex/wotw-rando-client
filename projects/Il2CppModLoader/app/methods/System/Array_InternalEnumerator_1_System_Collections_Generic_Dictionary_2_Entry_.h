@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Array_InternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry_ {
     IL2CPP_REGISTER_METHOD(0x00160580, void, ctor_1, (app::Array_InternalEnumerator_1_System_Collections_Generic_Dictionary_2_Entry___Boxed * this_ptr, app::Array * array))

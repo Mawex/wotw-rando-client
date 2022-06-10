@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlUnspecifiedAttribute {
     IL2CPP_REGISTER_METHOD(0x0195AF70, void, ctor, (app::XmlUnspecifiedAttribute * this_ptr, app::String * prefix, app::String * local_name, app::String * namespace_u_r_i, app::XmlDocument * doc))

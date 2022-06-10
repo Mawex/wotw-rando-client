@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_integer {
     IL2CPP_REGISTER_METHOD(0x00C754B0, app::XmlTypeCode__Enum, get_TypeCode, (app::Datatype_integer * this_ptr))

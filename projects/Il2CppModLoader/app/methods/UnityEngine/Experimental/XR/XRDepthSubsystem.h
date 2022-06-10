@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::XR::XRDepthSubsystem {
     IL2CPP_REGISTER_METHOD(0x031769D0, void, ctor, (app::XRDepthSubsystem * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon_PhysicsUpdateHandlerAttribute_List_1_UnityEngine_Component__ {
     IL2CPP_REGISTER_METHOD(0x00107C10, app::List_1_UnityEngine_Component_ *, get_Value, (app::KeyValuePair_2_Moon_PhysicsUpdateHandlerAttribute_List_1_UnityEngine_Component___Boxed * this_ptr))

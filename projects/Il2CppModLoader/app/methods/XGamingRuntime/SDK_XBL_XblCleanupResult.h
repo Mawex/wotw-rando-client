@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK_XBL_XblCleanupResult {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::SDK_XBL_XblCleanupResult * this_ptr, app::Object * object, void * method_1))

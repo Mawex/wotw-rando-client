@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShockWaveAnimator {
     IL2CPP_REGISTER_METHOD(0x003FD4D0, float, get_Duration, (app::ShockWaveAnimator * this_ptr))

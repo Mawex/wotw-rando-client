@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::HR {
     IL2CPP_REGISTER_METHOD(0x01084DF0, bool, SUCCEEDED, (int32_t hr))

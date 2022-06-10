@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PickupCameraTarget {
     IL2CPP_REGISTER_METHOD(0x01158B30, bool, get_CameraTargetActive, (app::PickupCameraTarget * this_ptr))

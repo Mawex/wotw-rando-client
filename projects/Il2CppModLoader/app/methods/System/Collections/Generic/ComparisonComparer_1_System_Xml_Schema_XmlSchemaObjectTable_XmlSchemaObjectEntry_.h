@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ComparisonComparer_1_System_Xml_Schema_XmlSchemaObjectTable_XmlSchemaObjectEntry_ {
     IL2CPP_REGISTER_METHOD(0x0162A010, void, ctor, (app::ComparisonComparer_1_System_Xml_Schema_XmlSchemaObjectTable_XmlSchemaObjectEntry_ * this_ptr, app::Comparison_1_System_Xml_Schema_XmlSchemaObjectTable_XmlSchemaObjectEntry_ * comparison))

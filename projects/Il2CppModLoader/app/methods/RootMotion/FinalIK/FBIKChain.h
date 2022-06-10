@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FBIKChain {
     IL2CPP_REGISTER_METHOD(0x0205C2B0, void, ctor_1, (app::FBIKChain * this_ptr))

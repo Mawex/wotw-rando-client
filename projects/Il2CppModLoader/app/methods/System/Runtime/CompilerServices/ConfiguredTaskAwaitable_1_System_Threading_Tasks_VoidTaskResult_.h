@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult_ {
     IL2CPP_REGISTER_METHOD(0x001FF760, void, ctor, (app::ConfiguredTaskAwaitable_1_System_Threading_Tasks_VoidTaskResult___Boxed * this_ptr, app::Task_1_VoidTaskResult_ * task, bool continue_on_captured_context))

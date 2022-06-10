@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::DnsEndPoint {
     IL2CPP_REGISTER_METHOD(0x01EB37F0, void, ctor_1, (app::DnsEndPoint * this_ptr, app::String * host, int32_t port))

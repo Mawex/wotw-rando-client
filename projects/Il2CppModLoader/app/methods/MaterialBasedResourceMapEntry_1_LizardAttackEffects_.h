@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MaterialBasedResourceMapEntry_1_LizardAttackEffects_ {
     IL2CPP_REGISTER_METHOD(0x018E6D70, void, ctor, (app::MaterialBasedResourceMapEntry_1_LizardAttackEffects_ * this_ptr))

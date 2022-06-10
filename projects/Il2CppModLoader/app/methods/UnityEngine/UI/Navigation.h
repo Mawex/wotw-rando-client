@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Navigation {
     IL2CPP_REGISTER_METHOD(0x001EBC90, app::Navigation_Mode__Enum, get_mode, (app::Navigation__Boxed * this_ptr))

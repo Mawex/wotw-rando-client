@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayerInSphereChecker {
     IL2CPP_REGISTER_METHOD(0x014108A0, bool, get_IsInside, (app::PlayerInSphereChecker * this_ptr))

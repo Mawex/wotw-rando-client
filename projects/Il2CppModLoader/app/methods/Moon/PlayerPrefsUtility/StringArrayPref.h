@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::PlayerPrefsUtility::StringArrayPref {
     IL2CPP_REGISTER_METHOD(0x00C3D4F0, void, ctor, (app::StringArrayPref * this_ptr, app::String * _key, app::String__Array * _default_value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::RunWorkerCompletedEventArgs {
     IL2CPP_REGISTER_METHOD(0x029AC5C0, void, ctor, (app::RunWorkerCompletedEventArgs * this_ptr, app::Object * result, app::Exception * error, bool cancelled))

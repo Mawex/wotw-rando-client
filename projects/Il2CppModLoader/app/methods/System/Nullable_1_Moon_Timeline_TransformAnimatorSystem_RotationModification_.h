@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Moon_Timeline_TransformAnimatorSystem_RotationModification_ {
     IL2CPP_REGISTER_METHOD(0x001F68D0, bool, get_HasValue, (app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_RotationModification___Boxed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::EraInfo {
     IL2CPP_REGISTER_METHOD(0x02610550, void, ctor_1, (app::EraInfo * this_ptr, int32_t era, int32_t start_year, int32_t start_month, int32_t start_day, int32_t year_offset, int32_t min_era_year, int32_t max_era_year))

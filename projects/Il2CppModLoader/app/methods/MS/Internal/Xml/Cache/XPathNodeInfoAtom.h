@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Cache::XPathNodeInfoAtom {
     IL2CPP_REGISTER_METHOD(0x002FBB80, app::XPathNodePageInfo *, get_PageInfo, (app::XPathNodeInfoAtom * this_ptr))

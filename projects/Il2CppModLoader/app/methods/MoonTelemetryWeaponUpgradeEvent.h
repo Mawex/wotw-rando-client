@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryWeaponUpgradeEvent {
     IL2CPP_REGISTER_METHOD(0x01472F90, void, ctor, (app::MoonTelemetryWeaponUpgradeEvent * this_ptr, app::AbilityType__Enum type, int32_t new_level, int32_t exp_spent))

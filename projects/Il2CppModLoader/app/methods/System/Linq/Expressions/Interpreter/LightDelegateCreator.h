@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LightDelegateCreator {
     IL2CPP_REGISTER_METHOD(0x0231B8E0, void, ctor, (app::LightDelegateCreator * this_ptr, app::Interpreter * interpreter, app::LambdaExpression * lambda))

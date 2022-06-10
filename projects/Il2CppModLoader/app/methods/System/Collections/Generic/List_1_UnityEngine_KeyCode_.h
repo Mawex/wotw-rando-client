@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine_KeyCode_ {
     IL2CPP_REGISTER_METHOD(0x02F1CC20, bool, Contains, (app::List_1_UnityEngine_KeyCode_ * this_ptr, app::KeyCode__Enum item))

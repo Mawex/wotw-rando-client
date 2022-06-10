@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_AnimationParameter_Moon_AnimationParameter_Instance_ {
     IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (app::Dictionary_2_Moon_AnimationParameter_Moon_AnimationParameter_Instance_ * this_ptr, app::AnimationParameter * key, app::AnimationParameter_Instance * value))

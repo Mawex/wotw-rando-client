@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ActivateAndHold {
     IL2CPP_REGISTER_METHOD(0x004C7770, app::ILever *, get_ResolvedLever, (app::ActivateAndHold * this_ptr))

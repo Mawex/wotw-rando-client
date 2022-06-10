@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlatformBehaviour {
     IL2CPP_REGISTER_METHOD(0x01164D30, app::SurfaceMaterialType__Enum, get_WallSurfaceMaterialType, (app::PlatformBehaviour * this_ptr))

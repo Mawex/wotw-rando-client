@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DamageTextSpawner {
     IL2CPP_REGISTER_METHOD(0x00DCA5F0, void, SpawnDamageText, (app::DamageTextSpawner * this_ptr, app::IContext * context))

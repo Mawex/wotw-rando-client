@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageFaceMetaData_1_System_Int32Enum_ {
     IL2CPP_REGISTER_METHOD(0x019DA570, void, OnEnable, (app::CageFaceMetaData_1_System_Int32Enum_ * this_ptr))

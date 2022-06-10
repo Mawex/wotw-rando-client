@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RecorderInput {
     IL2CPP_REGISTER_METHOD(0x008F1A10, void, ResetStatics, ())

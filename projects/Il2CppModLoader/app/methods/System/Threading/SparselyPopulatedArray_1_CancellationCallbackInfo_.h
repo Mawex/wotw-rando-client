@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::SparselyPopulatedArray_1_CancellationCallbackInfo_ {
     IL2CPP_REGISTER_METHOD(0x02775520, void, ctor, (app::SparselyPopulatedArray_1_CancellationCallbackInfo_ * this_ptr, int32_t initial_size))

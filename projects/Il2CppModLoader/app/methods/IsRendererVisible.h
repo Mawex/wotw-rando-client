@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::IsRendererVisible {
     IL2CPP_REGISTER_METHOD(0x00647560, bool, Validate, (app::IsRendererVisible * this_ptr, app::IContext * context))

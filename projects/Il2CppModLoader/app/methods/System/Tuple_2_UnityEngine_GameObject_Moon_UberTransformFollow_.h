@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Tuple_2_UnityEngine_GameObject_Moon_UberTransformFollow_ {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::GameObject *, get_Item1, (app::Tuple_2_UnityEngine_GameObject_Moon_UberTransformFollow_ * this_ptr))

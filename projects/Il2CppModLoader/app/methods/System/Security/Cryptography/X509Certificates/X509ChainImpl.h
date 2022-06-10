@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509ChainImpl {
     IL2CPP_REGISTER_METHOD(0x021CE880, void, Dispose_1, (app::X509ChainImpl * this_ptr))

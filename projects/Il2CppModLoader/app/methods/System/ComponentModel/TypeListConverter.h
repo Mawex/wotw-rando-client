@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeListConverter {
     IL2CPP_REGISTER_METHOD(0x0295C510, void, ctor, (app::TypeListConverter * this_ptr, app::Type__Array * types))

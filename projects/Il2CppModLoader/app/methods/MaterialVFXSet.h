@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MaterialVFXSet {
     IL2CPP_REGISTER_METHOD(0x01384820, void, ctor, (app::MaterialVFXSet * this_ptr, app::SurfaceMaterialType__Enum material))

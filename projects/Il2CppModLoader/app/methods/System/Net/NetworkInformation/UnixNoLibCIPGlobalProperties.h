@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties {
     IL2CPP_REGISTER_METHOD(0x01BC9820, app::String *, get_DomainName, (app::UnixNoLibCIPGlobalProperties * this_ptr))

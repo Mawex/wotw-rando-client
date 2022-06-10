@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyEventTriggerAnimator {
     IL2CPP_REGISTER_METHOD(0x00A242F0, void, add_Started, (app::LegacyEventTriggerAnimator * this_ptr, app::Action * value))

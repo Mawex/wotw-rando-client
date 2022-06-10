@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SaveSlotUI {
     IL2CPP_REGISTER_METHOD(0x009238D0, void, OnDrawGizmos, (app::SaveSlotUI * this_ptr))

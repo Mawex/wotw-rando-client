@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::StatisticianInteractionBehaviour {
     IL2CPP_REGISTER_METHOD(0x009B8C30, void, OnEntityInitialized, (app::StatisticianInteractionBehaviour * this_ptr))

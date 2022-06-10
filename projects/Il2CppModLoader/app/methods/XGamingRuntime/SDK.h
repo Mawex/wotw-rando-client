@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK {
     IL2CPP_REGISTER_METHOD(0x030B44F0, app::NativeBool, EnumerateBlobInfoCallback, (app::XGameSaveBlobInfo interop_blob_info, void * context))

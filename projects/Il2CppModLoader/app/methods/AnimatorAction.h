@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AnimatorAction {
     IL2CPP_REGISTER_METHOD(0x00503F60, void, Start, (app::AnimatorAction * this_ptr))

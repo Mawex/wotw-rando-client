@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::TouchInputModule {
     IL2CPP_REGISTER_METHOD(0x01F29500, void, ctor, (app::TouchInputModule * this_ptr))

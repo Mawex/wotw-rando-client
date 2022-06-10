@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::WebUtility_UrlDecoder {
     IL2CPP_REGISTER_METHOD(0x021BB4D0, void, FlushBytes, (app::WebUtility_UrlDecoder * this_ptr))

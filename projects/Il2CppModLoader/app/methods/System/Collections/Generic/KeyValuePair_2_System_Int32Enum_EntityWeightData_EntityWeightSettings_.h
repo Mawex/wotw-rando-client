@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_Int32Enum_EntityWeightData_EntityWeightSettings_ {
     IL2CPP_REGISTER_METHOD(0x00150E70, void, ctor, (app::KeyValuePair_2_System_Int32Enum_EntityWeightData_EntityWeightSettings___Boxed * this_ptr, app::Int32Enum__Enum key, app::EntityWeightData_EntityWeightSettings value))

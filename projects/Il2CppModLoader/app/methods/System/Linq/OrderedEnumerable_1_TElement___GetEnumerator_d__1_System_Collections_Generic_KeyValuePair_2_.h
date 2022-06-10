@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::OrderedEnumerable_1_TElement___GetEnumerator_d__1_System_Collections_Generic_KeyValuePair_2_ {
     IL2CPP_REGISTER_METHOD(0x01D09710, void, ctor_1, (app::OrderedEnumerable_1_TElement_GetEnumerator_d_1_System_Collections_Generic_KeyValuePair_2_ * this_ptr, int32_t __1__state))

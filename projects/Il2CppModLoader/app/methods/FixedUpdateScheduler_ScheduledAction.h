@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FixedUpdateScheduler_ScheduledAction {
     IL2CPP_REGISTER_METHOD(0x0126FF10, void, ctor, (app::FixedUpdateScheduler_ScheduledAction * this_ptr, app::Action * action, app::ISuspendable * suspendable, float remaining_time))

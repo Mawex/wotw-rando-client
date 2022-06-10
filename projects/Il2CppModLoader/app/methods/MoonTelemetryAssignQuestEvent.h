@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryAssignQuestEvent {
     IL2CPP_REGISTER_METHOD(0x01466940, void, ctor, (app::MoonTelemetryAssignQuestEvent * this_ptr, app::Quest * quest))

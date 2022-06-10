@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::WaterFallMask_WaterLineInterruption {
     IL2CPP_REGISTER_METHOD(0x00F28500, void, ctor, (app::WaterFallMask_WaterLineInterruption * this_ptr, app::Vector2 start, app::Vector2 end))

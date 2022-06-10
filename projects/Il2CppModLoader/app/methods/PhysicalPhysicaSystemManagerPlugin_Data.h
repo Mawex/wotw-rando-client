@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PhysicalPhysicaSystemManagerPlugin_Data {
     IL2CPP_REGISTER_METHOD(0x014ED2B0, app::GhostFrame_FrameDataTypes__Enum, get_FrameType, (app::PhysicalPhysicaSystemManagerPlugin_Data * this_ptr))

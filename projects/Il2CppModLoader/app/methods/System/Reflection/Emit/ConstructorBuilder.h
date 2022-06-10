@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::ConstructorBuilder {
     IL2CPP_REGISTER_METHOD(0x0267F4F0, app::MethodAttributes__Enum, get_Attributes, (app::ConstructorBuilder * this_ptr))

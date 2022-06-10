@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::DateTimeFormatInfoScanner {
     IL2CPP_REGISTER_METHOD(0x02605430, app::Dictionary_2_System_String_System_String_ *, get_KnownWords, ())

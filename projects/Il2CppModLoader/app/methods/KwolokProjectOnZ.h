@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokProjectOnZ {
     IL2CPP_REGISTER_METHOD(0x012FCD90, void, Update, (app::KwolokProjectOnZ * this_ptr))

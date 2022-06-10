@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OriUpgradeMenuItem {
     IL2CPP_REGISTER_METHOD(0x00440FF0, void, ctor, (app::OriUpgradeMenuItem * this_ptr, app::String * str))

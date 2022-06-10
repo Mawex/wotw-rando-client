@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::JumpShotShield {
     IL2CPP_REGISTER_METHOD(0x00E508D0, void, add_OnCollision, (app::JumpShotShield * this_ptr, app::Action_1_UnityEngine_Collider_ * value))

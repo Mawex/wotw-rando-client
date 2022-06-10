@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::PixelMatrix {
     IL2CPP_REGISTER_METHOD(0x0304C680, void, OnRenderImage, (app::PixelMatrix * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

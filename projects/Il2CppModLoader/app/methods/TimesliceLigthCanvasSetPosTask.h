@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimesliceLigthCanvasSetPosTask {
     IL2CPP_REGISTER_METHOD(0x00AF5190, void, ctor, (app::TimesliceLigthCanvasSetPosTask * this_ptr, app::Object_1 * source))

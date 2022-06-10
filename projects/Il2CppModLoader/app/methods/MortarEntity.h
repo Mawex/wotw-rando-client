@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MortarEntity {
     IL2CPP_REGISTER_METHOD(0x01476150, bool, get_ShouldCharge, (app::MortarEntity * this_ptr))

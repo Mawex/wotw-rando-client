@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderBatEntity {
     IL2CPP_REGISTER_METHOD(0x00956A60, app::ConfigurableJoint *, GetGeneratedConfigurableJoint, (app::SpiderBatEntity * this_ptr))

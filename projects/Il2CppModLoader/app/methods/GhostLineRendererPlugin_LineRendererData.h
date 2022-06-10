@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostLineRendererPlugin_LineRendererData {
     IL2CPP_REGISTER_METHOD(0x00E21D20, app::GhostFrame_FrameDataTypes__Enum, get_FrameType, (app::GhostLineRendererPlugin_LineRendererData * this_ptr))

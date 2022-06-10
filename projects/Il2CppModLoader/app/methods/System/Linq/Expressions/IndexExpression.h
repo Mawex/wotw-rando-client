@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::IndexExpression {
     IL2CPP_REGISTER_METHOD(0x022D0050, void, ctor, (app::IndexExpression * this_ptr, app::Expression * instance, app::PropertyInfo_1 * indexer, app::IReadOnlyList_1_System_Linq_Expressions_Expression_ * arguments))

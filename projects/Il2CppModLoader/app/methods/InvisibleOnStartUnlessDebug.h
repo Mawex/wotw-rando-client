@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InvisibleOnStartUnlessDebug {
     IL2CPP_REGISTER_METHOD(0x00645B00, void, Start, (app::InvisibleOnStartUnlessDebug * this_ptr))

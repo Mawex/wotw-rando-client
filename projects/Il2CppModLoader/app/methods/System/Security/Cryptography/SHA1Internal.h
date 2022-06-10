@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::SHA1Internal {
     IL2CPP_REGISTER_METHOD(0x028F4BC0, void, ctor, (app::SHA1Internal * this_ptr))

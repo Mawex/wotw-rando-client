@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GenericDataContainer {
     IL2CPP_REGISTER_METHOD(0x01B5C7F0, void, CopyDataFrom, (app::GenericDataContainer * this_ptr, app::GenericDataContainer * other))

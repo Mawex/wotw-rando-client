@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RunActionAndWait {
     IL2CPP_REGISTER_METHOD(0x013727E0, void, Awake, (app::RunActionAndWait * this_ptr))

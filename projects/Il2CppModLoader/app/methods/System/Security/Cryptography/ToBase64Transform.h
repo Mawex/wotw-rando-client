@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::ToBase64Transform {
     IL2CPP_REGISTER_METHOD(0x00420230, int32_t, get_InputBlockSize, (app::ToBase64Transform * this_ptr))

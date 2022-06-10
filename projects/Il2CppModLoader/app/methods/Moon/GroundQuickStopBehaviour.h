@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::GroundQuickStopBehaviour {
     IL2CPP_REGISTER_METHOD(0x01497010, void, OnEntityInitialized, (app::GroundQuickStopBehaviour * this_ptr))

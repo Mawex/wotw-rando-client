@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::XSDSchema_NameType {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::XSDSchema_NameType * this_ptr, app::String * n, app::Type * t))

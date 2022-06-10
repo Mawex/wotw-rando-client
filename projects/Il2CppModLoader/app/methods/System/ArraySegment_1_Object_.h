@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ArraySegment_1_Object_ {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::Object__Array *, get_Array, (app::ArraySegment_1_Object___Boxed * this_ptr))

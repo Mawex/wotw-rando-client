@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostCharacterStatesData {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::Dictionary_2_System_Int32_System_Boolean_ *, get_States, (app::GhostCharacterStatesData * this_ptr))

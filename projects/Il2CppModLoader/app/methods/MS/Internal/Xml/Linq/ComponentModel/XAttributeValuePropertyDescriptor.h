@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XAttributeValuePropertyDescriptor {
     IL2CPP_REGISTER_METHOD(0x03028C80, void, ctor, (app::XAttributeValuePropertyDescriptor * this_ptr))

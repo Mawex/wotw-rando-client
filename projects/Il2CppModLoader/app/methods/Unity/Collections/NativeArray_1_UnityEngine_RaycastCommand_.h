@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_UnityEngine_RaycastCommand_ {
     IL2CPP_REGISTER_METHOD(0x001DF8B0, void, Dispose, (app::NativeArray_1_UnityEngine_RaycastCommand___Boxed * this_ptr))

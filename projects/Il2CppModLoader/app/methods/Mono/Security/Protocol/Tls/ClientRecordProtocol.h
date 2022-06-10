@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::ClientRecordProtocol {
     IL2CPP_REGISTER_METHOD(0x01F66450, void, ctor, (app::ClientRecordProtocol * this_ptr, app::Stream * inner_stream, app::ClientContext * context))

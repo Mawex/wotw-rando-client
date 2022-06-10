@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BaseAnimator {
     IL2CPP_REGISTER_METHOD(0x00F83CB0, app::AnimatorDriver *, get_AnimatorDriver, (app::BaseAnimator * this_ptr))

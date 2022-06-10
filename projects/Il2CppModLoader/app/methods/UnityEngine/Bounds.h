@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Bounds {
     IL2CPP_REGISTER_METHOD(0x001EB560, void, ctor, (app::Bounds__Boxed * this_ptr, app::Vector3 center, app::Vector3 size))

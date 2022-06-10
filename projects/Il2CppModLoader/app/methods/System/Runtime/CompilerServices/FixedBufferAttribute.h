@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::FixedBufferAttribute {
     IL2CPP_REGISTER_METHOD(0x00CC8D50, void, ctor, (app::FixedBufferAttribute * this_ptr, app::Type * element_type, int32_t length))

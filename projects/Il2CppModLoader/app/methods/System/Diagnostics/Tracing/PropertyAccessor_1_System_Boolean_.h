@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::PropertyAccessor_1_System_Boolean_ {
     IL2CPP_REGISTER_METHOD(0x02BA16E0, app::PropertyAccessor_1_System_Boolean_ *, Create, (app::PropertyAnalysis * property))

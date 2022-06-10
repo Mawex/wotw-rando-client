@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::DelegateSerializationHolder_DelegateEntry {
     IL2CPP_REGISTER_METHOD(0x01740800, void, ctor, (app::DelegateSerializationHolder_DelegateEntry * this_ptr, app::Delegate * del, app::String * target_label))

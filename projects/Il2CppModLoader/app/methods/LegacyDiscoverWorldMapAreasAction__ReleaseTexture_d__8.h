@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyDiscoverWorldMapAreasAction__ReleaseTexture_d__8 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::LegacyDiscoverWorldMapAreasAction_ReleaseTexture_d_8 * this_ptr, int32_t __1__state))

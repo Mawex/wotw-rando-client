@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::MoonProfilerManager_Recorders {
     IL2CPP_REGISTER_METHOD(0x0111BD80, void, cctor, ())

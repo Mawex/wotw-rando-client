@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Func_2_Moon_JsonParser_Slot_Nullable_1_Int32__ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::Func_2_Moon_JsonParser_Slot_Nullable_1_Int32_ * this_ptr, app::Object * object, void * method_1))

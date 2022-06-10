@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Grayscale {
     IL2CPP_REGISTER_METHOD(0x02D59DA0, void, OnRenderImage, (app::Grayscale_1 * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

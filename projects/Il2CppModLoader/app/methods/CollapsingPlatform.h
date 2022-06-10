@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CollapsingPlatform {
     IL2CPP_REGISTER_METHOD(0x012C71C0, bool, get_IsCollapsed, (app::CollapsingPlatform * this_ptr))

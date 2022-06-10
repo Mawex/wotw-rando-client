@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::MoonEffectRevertHandlePool {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::Stack_1_Moon_EffectsFramework_MoonEffectRevertHandle_ *, get_Instances, (app::MoonEffectRevertHandlePool * this_ptr))

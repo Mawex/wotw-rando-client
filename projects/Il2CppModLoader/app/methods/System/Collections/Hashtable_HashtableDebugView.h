@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Hashtable_HashtableDebugView {
     IL2CPP_REGISTER_METHOD(0x02026FE0, void, ctor, (app::Hashtable_HashtableDebugView * this_ptr, app::Hashtable * hashtable))

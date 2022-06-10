@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CrabHitReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00A64230, app::EntityDamageEvent *, get_DamageEvent, (app::CrabHitReactionBehaviour * this_ptr))

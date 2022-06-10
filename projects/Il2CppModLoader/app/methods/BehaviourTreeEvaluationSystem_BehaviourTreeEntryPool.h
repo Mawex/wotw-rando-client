@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BehaviourTreeEvaluationSystem_BehaviourTreeEntryPool {
     IL2CPP_REGISTER_METHOD(0x00F9CF60, app::BehaviourTreeEvaluationSystem_BehaviourTreeEvaluationEntry *, GetEntry, (app::BehaviourTreeEvaluationSystem_BehaviourTreeEntryPool * this_ptr, app::Entity * entity))

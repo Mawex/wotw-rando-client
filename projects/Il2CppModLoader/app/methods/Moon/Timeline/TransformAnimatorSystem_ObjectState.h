@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransformAnimatorSystem_ObjectState {
     IL2CPP_REGISTER_METHOD(0x0311F8F0, app::Nullable_1_Moon_Timeline_TransformAnimatorSystem_PositionModification_ *, get_HandoverPosition, (app::TransformAnimatorSystem_ObjectState * this_ptr))

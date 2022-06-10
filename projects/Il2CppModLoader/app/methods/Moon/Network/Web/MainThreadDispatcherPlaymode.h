@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::MainThreadDispatcherPlaymode {
     IL2CPP_REGISTER_METHOD(0x02E96BC0, app::MainThreadDispatcherPlaymode *, get_Instance, ())

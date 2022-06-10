@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::BooleanConverter {
     IL2CPP_REGISTER_METHOD(0x024A5150, bool, CanConvertFrom, (app::BooleanConverter * this_ptr, app::ITypeDescriptorContext * context, app::Type * source_type))

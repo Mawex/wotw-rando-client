@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamRemoteStorage {
     IL2CPP_REGISTER_METHOD(0x02790310, bool, FileWrite, (app::String * pch_file, app::Byte__Array * pv_data, int32_t cub_data))

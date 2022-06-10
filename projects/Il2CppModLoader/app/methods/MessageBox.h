@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MessageBox {
     IL2CPP_REGISTER_METHOD(0x0158DA80, app::HashSet_1_Moon_ISuspendable_ *, GetSuspendables, (app::MessageBox * this_ptr))

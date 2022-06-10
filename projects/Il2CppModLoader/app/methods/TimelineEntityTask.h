@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimelineEntityTask {
     IL2CPP_REGISTER_METHOD(0x010F6E20, void, OnEnterTask, (app::TimelineEntityTask * this_ptr, app::IContext * context))

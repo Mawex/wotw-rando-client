@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkCommonAdvancedSettings_SpatialAudioSettings {
     IL2CPP_REGISTER_METHOD(0x026D9780, void, ctor, (app::AkCommonAdvancedSettings_SpatialAudioSettings * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::AudioClip {
     IL2CPP_REGISTER_METHOD(0x0313DB80, void, ctor, (app::AudioClip * this_ptr))

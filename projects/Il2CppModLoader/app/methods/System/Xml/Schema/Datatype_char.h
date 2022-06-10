@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_char {
     IL2CPP_REGISTER_METHOD(0x0235A120, app::Type *, get_ValueType, (app::Datatype_char * this_ptr))

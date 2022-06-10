@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShadingZoneRendererTarget {
     IL2CPP_REGISTER_METHOD(0x005A8FE0, void, ctor, (app::ShadingZoneRendererTarget * this_ptr, app::Renderer * renderer))

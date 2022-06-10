@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::TimeZoneInfo {
     IL2CPP_REGISTER_METHOD(0x027AE7B0, bool, UtcOffsetOutOfRange, (app::TimeSpan offset))

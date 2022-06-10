@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ModifierWrapper {
     IL2CPP_REGISTER_METHOD(0x0134CF00, void, ctor, (app::ModifierWrapper * this_ptr, int32_t id, app::UberShaderModifier * modifier, app::SerializableUberSaderModifierWrapper * serializable_modifier_wrapper))

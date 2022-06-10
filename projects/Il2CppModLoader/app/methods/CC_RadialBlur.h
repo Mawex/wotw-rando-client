@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CC_RadialBlur {
     IL2CPP_REGISTER_METHOD(0x03194F40, void, Start, (app::CC_RadialBlur * this_ptr))

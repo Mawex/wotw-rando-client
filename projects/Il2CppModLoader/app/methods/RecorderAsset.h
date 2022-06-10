@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RecorderAsset {
     IL2CPP_REGISTER_METHOD(0x002FB940, void, SetData, (app::RecorderAsset * this_ptr, app::RecorderData * data))

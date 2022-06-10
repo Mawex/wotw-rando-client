@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FirewhirlBeam {
     IL2CPP_REGISTER_METHOD(0x012620E0, bool, get_DamageAreaEnabled, (app::FirewhirlBeam * this_ptr))

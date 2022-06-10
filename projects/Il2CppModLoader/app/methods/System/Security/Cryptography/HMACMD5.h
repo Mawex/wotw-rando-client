@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::HMACMD5 {
     IL2CPP_REGISTER_METHOD(0x020D9880, void, ctor_1, (app::HMACMD5 * this_ptr))

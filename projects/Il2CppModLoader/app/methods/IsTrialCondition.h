@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::IsTrialCondition {
     IL2CPP_REGISTER_METHOD(0x00647D20, bool, Validate, (app::IsTrialCondition * this_ptr, app::IContext * context))

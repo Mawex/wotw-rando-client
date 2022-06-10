@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Base64Encoder {
     IL2CPP_REGISTER_METHOD(0x021E1290, void, ctor, (app::Base64Encoder * this_ptr))

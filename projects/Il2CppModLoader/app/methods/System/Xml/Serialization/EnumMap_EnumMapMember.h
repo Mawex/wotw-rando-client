@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::EnumMap_EnumMapMember {
     IL2CPP_REGISTER_METHOD(0x00522850, void, ctor, (app::EnumMap_EnumMapMember * this_ptr, app::String * xml_name, app::String * enum_name, int64_t value))

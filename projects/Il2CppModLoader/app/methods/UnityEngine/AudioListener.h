@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::AudioListener {
     IL2CPP_REGISTER_METHOD(0x03140E60, int32_t, GetNumExtensionProperties, (app::AudioListener * this_ptr))

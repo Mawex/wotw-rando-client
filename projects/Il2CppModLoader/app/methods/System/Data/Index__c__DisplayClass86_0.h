@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Index___c__DisplayClass86_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::Index_c_DisplayClass86_0 * this_ptr))

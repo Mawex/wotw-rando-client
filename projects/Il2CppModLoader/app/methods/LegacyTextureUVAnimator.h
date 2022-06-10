@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyTextureUVAnimator {
     IL2CPP_REGISTER_METHOD(0x00A2DEC0, int32_t, get_TextureID, (app::LegacyTextureUVAnimator * this_ptr))

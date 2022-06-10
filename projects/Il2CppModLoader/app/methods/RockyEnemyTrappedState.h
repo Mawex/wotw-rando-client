@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RockyEnemyTrappedState {
     IL2CPP_REGISTER_METHOD(0x009A1A40, void, ctor, (app::RockyEnemyTrappedState * this_ptr, app::RockyEnemy * enemy))

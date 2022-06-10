@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BuilderNPC {
     IL2CPP_REGISTER_METHOD(0x0061E5E0, app::BuilderNPC_State__Enum, get_CurrentState, (app::BuilderNPC * this_ptr))

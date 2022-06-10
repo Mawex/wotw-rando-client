@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver_SetupStateControllerLinkSerializedData {
     IL2CPP_REGISTER_METHOD(0x01B64A30, void, ctor, (app::NewSetupStateControllerResolver_SetupStateControllerLinkSerializedData * this_ptr, int32_t state_guid, int32_t modifier_guid, app::NewSetupStateController * controller, app::MemberInfo_1 * target_member_info))

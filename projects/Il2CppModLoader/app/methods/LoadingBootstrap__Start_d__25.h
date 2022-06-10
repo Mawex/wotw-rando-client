@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LoadingBootstrap__Start_d__25 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::LoadingBootstrap_Start_d_25 * this_ptr, int32_t __1__state))

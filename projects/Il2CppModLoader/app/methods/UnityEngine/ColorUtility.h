@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ColorUtility {
     IL2CPP_REGISTER_METHOD(0x02428C70, bool, DoTryParseHtmlColor, (app::String * html_string, app::Color32 * color))

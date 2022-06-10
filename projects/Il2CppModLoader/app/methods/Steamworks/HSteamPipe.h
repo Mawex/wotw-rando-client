@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::HSteamPipe {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, ctor, (app::HSteamPipe__Boxed * this_ptr, int32_t value))

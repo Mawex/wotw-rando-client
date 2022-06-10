@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::XalSignInProvider {
     IL2CPP_REGISTER_METHOD(0x00CDC050, void, ctor, (app::XalSignInProvider * this_ptr, app::INetworkConnectivityChecker * net_connectivity_checker))

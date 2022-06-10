@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ValueWithMaxValue {
     IL2CPP_REGISTER_METHOD(0x006B5650, float, get_Value, (app::ValueWithMaxValue * this_ptr))

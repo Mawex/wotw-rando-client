@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FrameCaptureExtensions {
     IL2CPP_REGISTER_METHOD(0x01542520, app::String__Array *, HeaderNames_1, (app::IFrameCaptureAgent_1_EntityDataCaptureAgent_EntityDataHeader_ * agent))

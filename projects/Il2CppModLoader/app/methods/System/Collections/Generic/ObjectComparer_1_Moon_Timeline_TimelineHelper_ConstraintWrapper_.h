@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon_Timeline_TimelineHelper_ConstraintWrapper_ {
     IL2CPP_REGISTER_METHOD(0x01CC6010, int32_t, Compare, (app::ObjectComparer_1_Moon_Timeline_TimelineHelper_ConstraintWrapper_ * this_ptr, app::TimelineHelper_ConstraintWrapper x, app::TimelineHelper_ConstraintWrapper y))

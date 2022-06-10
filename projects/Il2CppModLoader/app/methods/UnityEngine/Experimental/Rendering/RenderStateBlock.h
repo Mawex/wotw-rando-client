@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::RenderStateBlock {
     IL2CPP_REGISTER_METHOD(0x001F0DB0, void, ctor, (app::RenderStateBlock__Boxed * this_ptr, app::RenderStateMask__Enum mask))

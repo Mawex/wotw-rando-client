@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimelineEventTrigger {
     IL2CPP_REGISTER_METHOD(0x004C65D0, app::String *, get_EventProviderName, (app::TimelineEventTrigger * this_ptr))

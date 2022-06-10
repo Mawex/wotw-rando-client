@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::ConditionalDecorator {
     IL2CPP_REGISTER_METHOD(0x0300B200, app::String *, get_Info, (app::ConditionalDecorator * this_ptr))

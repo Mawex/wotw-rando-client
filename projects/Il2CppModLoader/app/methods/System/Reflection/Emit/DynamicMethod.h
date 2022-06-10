@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::DynamicMethod {
     IL2CPP_REGISTER_METHOD(0x0267F7B0, void, ctor_1, (app::DynamicMethod * this_ptr, app::String * name, app::Type * return_type, app::Type__Array * parameter_types, app::Module * m, bool skip_visibility))

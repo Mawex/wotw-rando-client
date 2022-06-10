@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFrustumOptimizer_BoundsCache {
     IL2CPP_REGISTER_METHOD(0x0013B9E0, void, Init, (app::CameraFrustumOptimizer_BoundsCache__Boxed * this_ptr))

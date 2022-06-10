@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AcidSlugEnemy {
     IL2CPP_REGISTER_METHOD(0x004C2860, void, FixedUpdate, (app::AcidSlugEnemy * this_ptr))

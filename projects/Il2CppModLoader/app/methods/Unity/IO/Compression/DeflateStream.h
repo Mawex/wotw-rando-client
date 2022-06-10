@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::DeflateStream {
     IL2CPP_REGISTER_METHOD(0x02B72150, void, ctor_1, (app::DeflateStream_1 * this_ptr, app::Stream * stream, app::CompressionMode__Enum_2 mode))

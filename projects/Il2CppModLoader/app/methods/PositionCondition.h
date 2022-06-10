@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PositionCondition {
     IL2CPP_REGISTER_METHOD(0x00C68860, bool, Validate, (app::PositionCondition * this_ptr, app::IContext * context))

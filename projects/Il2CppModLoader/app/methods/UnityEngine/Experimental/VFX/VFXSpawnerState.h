@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::VFX::VFXSpawnerState {
     IL2CPP_REGISTER_METHOD(0x01669060, void, ctor, (app::VFXSpawnerState * this_ptr, void * ptr, bool owner))

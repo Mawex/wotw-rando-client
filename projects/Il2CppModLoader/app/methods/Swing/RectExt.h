@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Swing::RectExt {
     IL2CPP_REGISTER_METHOD(0x0182E030, app::RectExt, op_Implicit_1, (app::Rect _rect))

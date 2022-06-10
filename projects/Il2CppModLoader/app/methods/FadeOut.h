@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FadeOut {
     IL2CPP_REGISTER_METHOD(0x0098F310, void, Perform, (app::FadeOut * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WorldRotation {
     IL2CPP_REGISTER_METHOD(0x0058D120, void, FixedUpdate, (app::WorldRotation * this_ptr))

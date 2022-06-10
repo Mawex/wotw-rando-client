@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::DeflateStreamAsyncResult {
     IL2CPP_REGISTER_METHOD(0x02B75330, void, ctor, (app::DeflateStreamAsyncResult * this_ptr, app::Object * async_object, app::Object * async_state, app::AsyncCallback * async_callback, app::Byte__Array * buffer, int32_t offset, int32_t count))

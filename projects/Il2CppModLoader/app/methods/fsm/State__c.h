@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::fsm::State___c {
     IL2CPP_REGISTER_METHOD(0x00F6E8E0, void, cctor, ())

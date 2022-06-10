@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DemoTimeoutTimeMenuItem {
     IL2CPP_REGISTER_METHOD(0x00B82AD0, void, ctor, (app::DemoTimeoutTimeMenuItem * this_ptr, app::String * path, app::String * str, app::DemoTimeoutTimeMenuItem_TimeoutType__Enum type))

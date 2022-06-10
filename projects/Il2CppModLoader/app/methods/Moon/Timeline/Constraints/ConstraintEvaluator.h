@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Constraints::ConstraintEvaluator {
     IL2CPP_REGISTER_METHOD(0x01BB1790, app::IDisposable *, OpenCache, (app::IConstraintEntityCache * cache))

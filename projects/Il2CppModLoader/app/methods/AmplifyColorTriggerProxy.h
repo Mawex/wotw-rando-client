@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AmplifyColorTriggerProxy {
     IL2CPP_REGISTER_METHOD(0x030DACF0, void, Start, (app::AmplifyColorTriggerProxy * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::PropertyChangingEventArgs {
     IL2CPP_REGISTER_METHOD(0x02992530, void, ctor, (app::PropertyChangingEventArgs * this_ptr, app::String * property_name))

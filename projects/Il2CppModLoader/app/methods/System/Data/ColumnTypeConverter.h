@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::ColumnTypeConverter {
     IL2CPP_REGISTER_METHOD(0x02151820, bool, CanConvertTo, (app::ColumnTypeConverter * this_ptr, app::ITypeDescriptorContext * context, app::Type * destination_type))

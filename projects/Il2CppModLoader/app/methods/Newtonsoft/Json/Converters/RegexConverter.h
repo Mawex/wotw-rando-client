@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::RegexConverter {
     IL2CPP_REGISTER_METHOD(0x01A54DE0, void, WriteJson_1, (app::RegexConverter * this_ptr, app::JsonWriter * writer, app::Object * value, app::JsonSerializer * serializer))

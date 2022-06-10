@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WorldMapUI {
     IL2CPP_REGISTER_METHOD(0x00585310, bool, get_Activated, (app::WorldMapUI * this_ptr))

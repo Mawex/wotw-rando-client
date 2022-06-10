@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageMetaData_1_Moon_TentacleStabBehaviour_TentacleAttack_ {
     IL2CPP_REGISTER_METHOD(0x019DC010, void, OnEnable, (app::CageMetaData_1_Moon_TentacleStabBehaviour_TentacleAttack_ * this_ptr))

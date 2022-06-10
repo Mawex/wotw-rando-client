@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LocomotionVolumeMoveTimelineBehaviour {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, SetAnimationSpeed, (app::LocomotionVolumeMoveTimelineBehaviour * this_ptr, float speed))

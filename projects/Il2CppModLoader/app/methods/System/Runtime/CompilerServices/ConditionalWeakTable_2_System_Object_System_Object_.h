@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConditionalWeakTable_2_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02770450, void, ctor, (app::ConditionalWeakTable_2_System_Object_System_Object_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LightSource {
     IL2CPP_REGISTER_METHOD(0x0114F2A0, bool, get_AnyExist, ())

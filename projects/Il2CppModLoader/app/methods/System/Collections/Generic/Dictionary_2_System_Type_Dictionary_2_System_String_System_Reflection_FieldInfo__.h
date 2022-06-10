@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Type_Dictionary_2_System_String_System_Reflection_FieldInfo__ {
     IL2CPP_REGISTER_METHOD(0x0283AC20, void, ctor, (app::Dictionary_2_System_Type_Dictionary_2_System_String_System_Reflection_FieldInfo_ * this_ptr))

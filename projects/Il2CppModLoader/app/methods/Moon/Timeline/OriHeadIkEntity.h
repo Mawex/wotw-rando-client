@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::OriHeadIkEntity {
     IL2CPP_REGISTER_METHOD(0x00777870, app::Transform *, get_ResolvedLookTarget, (app::OriHeadIkEntity * this_ptr))

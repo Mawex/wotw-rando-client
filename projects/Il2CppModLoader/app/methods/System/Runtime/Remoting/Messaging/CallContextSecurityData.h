@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::CallContextSecurityData {
     IL2CPP_REGISTER_METHOD(0x00627D70, bool, get_HasInfo, (app::CallContextSecurityData * this_ptr))

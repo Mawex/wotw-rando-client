@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::LayoutUtility {
     IL2CPP_REGISTER_METHOD(0x0265DE50, float, GetMinSize, (app::RectTransform * rect, int32_t axis))

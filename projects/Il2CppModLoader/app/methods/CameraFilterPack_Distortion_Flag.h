@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Distortion_Flag {
     IL2CPP_REGISTER_METHOD(0x024E7B80, app::Material *, get_material, (app::CameraFilterPack_Distortion_Flag * this_ptr))

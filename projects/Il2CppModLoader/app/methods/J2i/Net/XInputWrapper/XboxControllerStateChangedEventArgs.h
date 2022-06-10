@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::J2i::Net::XInputWrapper::XboxControllerStateChangedEventArgs {
     IL2CPP_REGISTER_METHOD(0x011927A0, void, set_CurrentInputState, (app::XboxControllerStateChangedEventArgs * this_ptr, app::XInputState value))

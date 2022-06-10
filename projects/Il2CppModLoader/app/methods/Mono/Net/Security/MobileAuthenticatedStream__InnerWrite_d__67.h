@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::MobileAuthenticatedStream__InnerWrite_d__67 {
     IL2CPP_REGISTER_METHOD(0x001DCF60, void, MoveNext, (app::MobileAuthenticatedStream_InnerWrite_d_67__Boxed * this_ptr))

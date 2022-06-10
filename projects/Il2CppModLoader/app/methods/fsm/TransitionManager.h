@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::fsm::TransitionManager {
     IL2CPP_REGISTER_METHOD(0x00F70AD0, app::TransitionManager_1 *, AddTransition_1, (app::TransitionManager_1 * this_ptr, app::IState_2 * from, app::IState_2 * to, app::ICondition * condition, app::IAction * action, app::IContext * context))

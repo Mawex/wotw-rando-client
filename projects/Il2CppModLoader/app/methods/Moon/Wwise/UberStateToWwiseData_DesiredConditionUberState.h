@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::UberStateToWwiseData_DesiredConditionUberState {
     IL2CPP_REGISTER_METHOD(0x0270D320, bool, IsFulfilled, (app::UberStateToWwiseData_DesiredConditionUberState * this_ptr))

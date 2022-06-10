@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GlowChargeEffect___c {
     IL2CPP_REGISTER_METHOD(0x007FB8F0, void, cctor, ())

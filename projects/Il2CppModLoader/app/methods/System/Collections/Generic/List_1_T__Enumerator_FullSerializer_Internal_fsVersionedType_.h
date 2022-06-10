@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_FullSerializer_Internal_fsVersionedType_ {
     IL2CPP_REGISTER_METHOD(0x0014D030, void, ctor, (app::List_1_T_Enumerator_FullSerializer_Internal_fsVersionedType___Boxed * this_ptr, app::List_1_FullSerializer_Internal_fsVersionedType_ * list))

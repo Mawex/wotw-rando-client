@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonSwarm {
     IL2CPP_REGISTER_METHOD(0x00CA25B0, bool, get_IsSuspended, (app::MoonSwarm * this_ptr))

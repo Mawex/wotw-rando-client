@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Base64Stream_ReadAsyncResult {
     IL2CPP_REGISTER_METHOD(0x020139E0, void, ctor, (app::Base64Stream_ReadAsyncResult * this_ptr, app::Base64Stream * parent, app::Byte__Array * buffer, int32_t offset, int32_t count, app::AsyncCallback * callback, app::Object * state))

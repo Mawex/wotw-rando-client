@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Letterbox {
     IL2CPP_REGISTER_METHOD(0x01131EA0, void, Awake, (app::Letterbox_1 * this_ptr))

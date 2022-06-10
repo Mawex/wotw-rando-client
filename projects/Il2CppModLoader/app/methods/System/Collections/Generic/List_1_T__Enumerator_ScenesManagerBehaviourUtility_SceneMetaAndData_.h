@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_ScenesManagerBehaviourUtility_SceneMetaAndData_ {
     IL2CPP_REGISTER_METHOD(0x0014D4F0, void, ctor, (app::List_1_T_Enumerator_ScenesManagerBehaviourUtility_SceneMetaAndData___Boxed * this_ptr, app::List_1_ScenesManagerBehaviourUtility_SceneMetaAndData_ * list))

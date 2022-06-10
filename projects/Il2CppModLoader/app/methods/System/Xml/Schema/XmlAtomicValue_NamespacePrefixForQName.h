@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlAtomicValue_NamespacePrefixForQName {
     IL2CPP_REGISTER_METHOD(0x02028E40, void, ctor, (app::XmlAtomicValue_NamespacePrefixForQName * this_ptr, app::String * prefix, app::String * ns))

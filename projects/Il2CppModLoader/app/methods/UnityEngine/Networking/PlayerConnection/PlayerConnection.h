@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::PlayerConnection::PlayerConnection {
     IL2CPP_REGISTER_METHOD(0x0253D780, void, ctor, (app::PlayerConnection * this_ptr))

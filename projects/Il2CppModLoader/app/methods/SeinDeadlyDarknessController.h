@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinDeadlyDarknessController {
     IL2CPP_REGISTER_METHOD(0x006FD880, bool, get_ControllerShakeActive, (app::SeinDeadlyDarknessController * this_ptr))

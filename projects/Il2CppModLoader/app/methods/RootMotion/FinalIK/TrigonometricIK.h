@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::TrigonometricIK {
     IL2CPP_REGISTER_METHOD(0x02A27E40, void, OpenUserManual, (app::TrigonometricIK * this_ptr))

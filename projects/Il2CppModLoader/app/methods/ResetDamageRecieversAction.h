@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ResetDamageRecieversAction {
     IL2CPP_REGISTER_METHOD(0x00904C80, void, Perform, (app::ResetDamageRecieversAction * this_ptr, app::IContext * context))

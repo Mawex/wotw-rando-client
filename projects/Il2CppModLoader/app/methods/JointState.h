@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::JointState {
     IL2CPP_REGISTER_METHOD(0x0064C5D0, void, Break, (app::JointState * this_ptr))

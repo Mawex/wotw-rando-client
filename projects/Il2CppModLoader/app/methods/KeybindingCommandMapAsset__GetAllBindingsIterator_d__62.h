@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KeybindingCommandMapAsset__GetAllBindingsIterator_d__62 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::KeybindingCommandMapAsset_GetAllBindingsIterator_d_62 * this_ptr, int32_t __1__state))

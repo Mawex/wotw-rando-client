@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonShadingZoneController_TargetData {
     IL2CPP_REGISTER_METHOD(0x009B3690, bool, get_IsInsideZone, (app::MoonShadingZoneController_TargetData * this_ptr))

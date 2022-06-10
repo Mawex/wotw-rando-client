@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ChakramProjectile {
     IL2CPP_REGISTER_METHOD(0x0103CD30, void, Awake, (app::ChakramProjectile * this_ptr))

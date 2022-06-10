@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlDateTime {
     IL2CPP_REGISTER_METHOD(0x001D6C50, void, ctor_1, (app::SqlDateTime__Boxed * this_ptr, bool f_null))

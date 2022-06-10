@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimelineParentOwnerUtils {
     IL2CPP_REGISTER_METHOD(0x01E947F0, void, AddChildrenTimelines, (app::GameObject * source, app::VirtualClipsBuilder * builder, bool add_state_requirements))

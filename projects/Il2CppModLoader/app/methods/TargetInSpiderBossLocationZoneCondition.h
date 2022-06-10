@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TargetInSpiderBossLocationZoneCondition {
     IL2CPP_REGISTER_METHOD(0x00CE2720, app::String *, get_Info, (app::TargetInSpiderBossLocationZoneCondition * this_ptr))

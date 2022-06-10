@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::SimpleAimingSystem {
     IL2CPP_REGISTER_METHOD(0x02230240, void, Start, (app::SimpleAimingSystem * this_ptr))

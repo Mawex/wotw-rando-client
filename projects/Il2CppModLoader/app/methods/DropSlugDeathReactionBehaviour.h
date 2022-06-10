@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DropSlugDeathReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00BE0FB0, void, OnEnterTask, (app::DropSlugDeathReactionBehaviour * this_ptr, app::IContext * context))

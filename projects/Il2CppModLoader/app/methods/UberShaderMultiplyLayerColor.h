@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberShaderMultiplyLayerColor {
     IL2CPP_REGISTER_METHOD(0x01914590, float, CalculateColorComponentValue, (app::UberShaderMultiplyLayerColor * this_ptr, float v))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberShaderColor {
     IL2CPP_REGISTER_METHOD(0x0190CEA0, void, BindProperties, (app::UberShaderColor * this_ptr))

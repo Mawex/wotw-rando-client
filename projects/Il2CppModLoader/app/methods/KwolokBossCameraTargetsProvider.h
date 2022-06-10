@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokBossCameraTargetsProvider {
     IL2CPP_REGISTER_METHOD(0x0124AA20, float, get_KwolokCutOffDistance, (app::KwolokBossCameraTargetsProvider * this_ptr))

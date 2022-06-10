@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Int64_GhostWorldObjectsLifetimePlugin_RecordableTrackingEntry_ {
     IL2CPP_REGISTER_METHOD(0x0283B2B0, app::Dictionary_2_TKey_TValue_KeyCollection_System_Int64_GhostWorldObjectsLifetimePlugin_RecordableTrackingEntry_ *, get_Keys, (app::Dictionary_2_System_Int64_GhostWorldObjectsLifetimePlugin_RecordableTrackingEntry_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Util::Parser {
     IL2CPP_REGISTER_METHOD(0x01E21CD0, app::SecurityElement *, GetTopElement, (app::Parser * this_ptr))

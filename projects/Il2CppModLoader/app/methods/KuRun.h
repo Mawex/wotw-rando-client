@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KuRun {
     IL2CPP_REGISTER_METHOD(0x003FDD20, float, get_RunSquashFloat, (app::KuRun * this_ptr))

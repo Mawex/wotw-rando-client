@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SetMusicAction {
     IL2CPP_REGISTER_METHOD(0x005A2F00, void, Perform, (app::SetMusicAction * this_ptr, app::IContext * context))

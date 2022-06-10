@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SaveSlotInfo {
     IL2CPP_REGISTER_METHOD(0x00922B60, void, ctor_1, (app::SaveSlotInfo * this_ptr, app::SaveSlotInfo * clone))

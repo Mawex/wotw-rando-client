@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_IntStateMap_Mapping_ {
     IL2CPP_REGISTER_METHOD(0x02C2B870, int32_t, Compare, (app::ObjectComparer_1_IntStateMap_Mapping_ * this_ptr, app::IntStateMap_Mapping x, app::IntStateMap_Mapping y))

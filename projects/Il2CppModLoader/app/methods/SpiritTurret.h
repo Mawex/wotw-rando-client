@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiritTurret {
     IL2CPP_REGISTER_METHOD(0x0064D960, float, get_Lifetime, (app::SpiritTurret * this_ptr))

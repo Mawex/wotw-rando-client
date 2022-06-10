@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JContainer {
     IL2CPP_REGISTER_METHOD(0x01F050C0, void, add_ListChanged, (app::JContainer * this_ptr, app::ListChangedEventHandler * value))

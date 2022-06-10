@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CryptoStream {
     IL2CPP_REGISTER_METHOD(0x020CCDA0, void, ctor, (app::CryptoStream * this_ptr, app::Stream * stream, app::ICryptoTransform * transform, app::CryptoStreamMode__Enum mode))

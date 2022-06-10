@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::DefaultSerializationBinder {
     IL2CPP_REGISTER_METHOD(0x0186AAF0, void, ctor, (app::DefaultSerializationBinder * this_ptr))

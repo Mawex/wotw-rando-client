@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::FileStreamAsyncResult {
     IL2CPP_REGISTER_METHOD(0x0236F0A0, void, ctor, (app::FileStreamAsyncResult * this_ptr, app::AsyncCallback * cb, app::Object * state))

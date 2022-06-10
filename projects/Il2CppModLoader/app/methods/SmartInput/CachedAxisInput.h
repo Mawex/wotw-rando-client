@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SmartInput::CachedAxisInput {
     IL2CPP_REGISTER_METHOD(0x004C87B0, float, AxisValue, (app::CachedAxisInput * this_ptr))

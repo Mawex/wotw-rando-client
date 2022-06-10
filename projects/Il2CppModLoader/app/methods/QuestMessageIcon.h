@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::QuestMessageIcon {
     IL2CPP_REGISTER_METHOD(0x00E8B100, void, SetQuest, (app::QuestMessageIcon * this_ptr, app::Quest * quest, app::QuestMessageIcon_QuestMode__Enum mode))

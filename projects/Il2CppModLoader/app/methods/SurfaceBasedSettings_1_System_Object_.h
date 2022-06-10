@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SurfaceBasedSettings_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x01D1CC50, app::Object *, GetValue_1, (app::SurfaceBasedSettings_1_System_Object_ * this_ptr, app::Collider * collider))

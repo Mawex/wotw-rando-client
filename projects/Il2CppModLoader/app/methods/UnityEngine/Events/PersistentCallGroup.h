@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::PersistentCallGroup {
     IL2CPP_REGISTER_METHOD(0x024306B0, void, ctor, (app::PersistentCallGroup * this_ptr))

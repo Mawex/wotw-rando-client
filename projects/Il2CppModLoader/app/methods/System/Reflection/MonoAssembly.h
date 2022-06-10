@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoAssembly {
     IL2CPP_REGISTER_METHOD(0x0268ED90, app::Type *, GetType, (app::MonoAssembly * this_ptr, app::String * name, bool throw_on_error, bool ignore_case))

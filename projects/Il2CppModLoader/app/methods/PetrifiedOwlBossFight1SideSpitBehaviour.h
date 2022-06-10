@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1SideSpitBehaviour {
     IL2CPP_REGISTER_METHOD(0x0176B3E0, float, get_BaseDirectionAngle, (app::PetrifiedOwlBossFight1SideSpitBehaviour * this_ptr))

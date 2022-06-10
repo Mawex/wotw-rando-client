@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkSoundEngine {
     IL2CPP_REGISTER_METHOD(0x01898660, uint32_t, get_AK_SOUNDBANK_VERSION, ())

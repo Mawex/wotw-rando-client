@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkWwiseInitializationSettings_PlatformSettings {
     IL2CPP_REGISTER_METHOD(0x02706F50, void, IgnorePropertyValue, (app::AkWwiseInitializationSettings_PlatformSettings * this_ptr, app::String * property_path))

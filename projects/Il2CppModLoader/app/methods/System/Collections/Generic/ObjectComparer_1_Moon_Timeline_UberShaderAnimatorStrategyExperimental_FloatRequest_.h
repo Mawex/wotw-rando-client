@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_FloatRequest_ {
     IL2CPP_REGISTER_METHOD(0x01CC6450, int32_t, Compare, (app::ObjectComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_FloatRequest_ * this_ptr, app::UberShaderAnimatorStrategyExperimental_FloatRequest x, app::UberShaderAnimatorStrategyExperimental_FloatRequest y))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::RemotingSurrogate {
     IL2CPP_REGISTER_METHOD(0x023191D0, void, GetObjectData, (app::RemotingSurrogate * this_ptr, app::Object * obj, app::SerializationInfo * si, app::StreamingContext sc))

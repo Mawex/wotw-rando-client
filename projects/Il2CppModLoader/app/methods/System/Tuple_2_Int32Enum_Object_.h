@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Tuple_2_Int32Enum_Object_ {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, app::Int32Enum__Enum, get_Item1, (app::Tuple_2_Int32Enum_Object_ * this_ptr))

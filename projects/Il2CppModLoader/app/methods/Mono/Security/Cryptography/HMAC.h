@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::HMAC {
     IL2CPP_REGISTER_METHOD(0x02A3C290, app::Byte__Array *, get_Key, (app::HMAC_1 * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DeathStartEffectSpawnSetting {
     IL2CPP_REGISTER_METHOD(0x002FB9C0, void, OnEntityInitialized, (app::DeathStartEffectSpawnSetting * this_ptr, app::Entity * entity))

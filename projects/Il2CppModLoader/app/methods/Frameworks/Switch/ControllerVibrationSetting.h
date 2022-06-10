@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::frameworks::Switch::ControllerVibrationSetting {
     IL2CPP_REGISTER_METHOD(0x001215B0, bool, Equals_1, (app::ControllerVibrationSetting__Boxed * this_ptr, app::ControllerVibrationSetting other))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CompositeTriggerCollider {
     IL2CPP_REGISTER_METHOD(0x011DF060, void, Start, (app::CompositeTriggerCollider * this_ptr))

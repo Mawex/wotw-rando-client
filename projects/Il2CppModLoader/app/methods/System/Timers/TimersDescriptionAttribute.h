@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Timers::TimersDescriptionAttribute {
     IL2CPP_REGISTER_METHOD(0x02A7C090, void, ctor, (app::TimersDescriptionAttribute * this_ptr, app::String * description))

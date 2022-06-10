@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BuildRunningHook {
     IL2CPP_REGISTER_METHOD(0x00815DC0, void, Awake, (app::BuildRunningHook * this_ptr))

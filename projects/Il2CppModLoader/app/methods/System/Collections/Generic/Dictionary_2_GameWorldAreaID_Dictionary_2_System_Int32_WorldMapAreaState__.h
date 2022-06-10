@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_GameWorldAreaID_Dictionary_2_System_Int32_WorldMapAreaState__ {
     IL2CPP_REGISTER_METHOD(0x02BA5400, app::Dictionary_2_TKey_TValue_Enumerator_GameWorldAreaID_Dictionary_2_System_Int32_WorldMapAreaState_, GetEnumerator, (app::Dictionary_2_GameWorldAreaID_Dictionary_2_System_Int32_WorldMapAreaState_ * this_ptr))

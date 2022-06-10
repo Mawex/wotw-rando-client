@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::SwitchLevelAttribute {
     IL2CPP_REGISTER_METHOD(0x02005510, void, ctor, (app::SwitchLevelAttribute * this_ptr, app::Type * switch_level_type))

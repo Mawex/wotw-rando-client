@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::VideoTrimMarker {
     IL2CPP_REGISTER_METHOD(0x008C08F0, void, ResetPosition, (app::VideoTrimMarker * this_ptr))

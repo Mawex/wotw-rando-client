@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsDateConverter {
     IL2CPP_REGISTER_METHOD(0x01652370, app::String *, get_DateTimeFormatString, (app::fsDateConverter * this_ptr))

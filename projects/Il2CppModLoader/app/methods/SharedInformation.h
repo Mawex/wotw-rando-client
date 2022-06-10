@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SharedInformation {
     IL2CPP_REGISTER_METHOD(0x005B0F00, app::String *, get_UserSourceAnimationsPath, ())

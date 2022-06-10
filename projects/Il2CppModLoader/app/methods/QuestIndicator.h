@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::QuestIndicator {
     IL2CPP_REGISTER_METHOD(0x00E8A800, bool, get_HasActiveQuest, (app::QuestIndicator * this_ptr))

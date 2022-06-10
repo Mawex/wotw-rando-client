@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::P3D_Helper {
     IL2CPP_REGISTER_METHOD(0x03091AD0, app::TextureFormat__Enum, GetTextureFormat, (app::P3D_Format__Enum format))

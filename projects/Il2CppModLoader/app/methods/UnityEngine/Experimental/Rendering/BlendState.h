@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::BlendState {
     IL2CPP_REGISTER_METHOD(0x001EC6F0, void, ctor, (app::BlendState__Boxed * this_ptr, bool separate_m_r_t_blend, bool alpha_to_mask))

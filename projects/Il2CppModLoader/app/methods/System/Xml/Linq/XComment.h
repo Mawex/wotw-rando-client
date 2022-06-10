@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::XComment {
     IL2CPP_REGISTER_METHOD(0x0302F580, void, ctor_1, (app::XComment * this_ptr, app::String * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::DamageLayerMaskExtensions {
     IL2CPP_REGISTER_METHOD(0x00CD0C10, bool, Contains_1, (app::DamageLayerMask__Enum mask, app::DamageLayer__Enum tag))

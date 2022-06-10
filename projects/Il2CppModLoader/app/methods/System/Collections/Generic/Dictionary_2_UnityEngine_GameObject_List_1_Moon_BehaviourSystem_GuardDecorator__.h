@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine_GameObject_List_1_Moon_BehaviourSystem_GuardDecorator__ {
     IL2CPP_REGISTER_METHOD(0x02BD24D0, app::List_1_Moon_BehaviourSystem_GuardDecorator_ *, get_Item, (app::Dictionary_2_UnityEngine_GameObject_List_1_Moon_BehaviourSystem_GuardDecorator_ * this_ptr, app::GameObject * key))

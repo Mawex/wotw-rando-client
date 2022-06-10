@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Unity::Debug {
     IL2CPP_REGISTER_METHOD(0x02186A20, void, CheckAndThrow_1, (app::UnityTls_unitytls_errorstate error_state, app::String * context, app::AlertDescription__Enum default_alert))

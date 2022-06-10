@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::TextWriter_SyncTextWriter {
     IL2CPP_REGISTER_METHOD(0x023882C0, void, ctor, (app::TextWriter_SyncTextWriter * this_ptr, app::TextWriter * t))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MeleeWeaponSword {
     IL2CPP_REGISTER_METHOD(0x009D0E80, bool, get_IsAllowed, (app::MeleeWeaponSword * this_ptr))

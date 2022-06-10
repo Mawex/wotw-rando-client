@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RecorderMessageInputUI {
     IL2CPP_REGISTER_METHOD(0x008F2740, void, Start, (app::RecorderMessageInputUI * this_ptr))

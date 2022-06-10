@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FBIKBendGoal {
     IL2CPP_REGISTER_METHOD(0x02219B40, void, Start, (app::FBIKBendGoal * this_ptr))

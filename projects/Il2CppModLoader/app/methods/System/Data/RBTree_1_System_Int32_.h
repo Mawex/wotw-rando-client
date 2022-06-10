@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::RBTree_1_System_Int32_ {
     IL2CPP_REGISTER_METHOD(0x02FB3CE0, int32_t, get_Item, (app::RBTree_1_System_Int32_ * this_ptr, int32_t index))

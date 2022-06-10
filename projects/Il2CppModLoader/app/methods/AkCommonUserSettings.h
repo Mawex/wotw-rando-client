@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkCommonUserSettings {
     IL2CPP_REGISTER_METHOD(0x026DAD80, void, CopyTo_1, (app::AkCommonUserSettings * this_ptr, app::AkMemSettings * settings))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UWPVideoPlayer_OnPlayDelegate {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::UWPVideoPlayer_OnPlayDelegate * this_ptr, app::Object * object, void * method_1))

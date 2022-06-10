@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::FXAA {
     IL2CPP_REGISTER_METHOD(0x0078A1A0, void, OnEnable, (app::FXAA_1 * this_ptr))

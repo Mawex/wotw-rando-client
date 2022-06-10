@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Helper {
     IL2CPP_REGISTER_METHOD(0x01E178B0, void, InstallNativeHelper, (app::INativeCertificateHelper * helper))

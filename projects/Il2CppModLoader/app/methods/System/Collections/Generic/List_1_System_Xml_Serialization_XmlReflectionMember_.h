@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_System_Xml_Serialization_XmlReflectionMember_ {
     IL2CPP_REGISTER_METHOD(0x025F0B10, app::List_1_T_Enumerator_System_Xml_Serialization_XmlReflectionMember_, GetEnumerator, (app::List_1_System_Xml_Serialization_XmlReflectionMember_ * this_ptr))

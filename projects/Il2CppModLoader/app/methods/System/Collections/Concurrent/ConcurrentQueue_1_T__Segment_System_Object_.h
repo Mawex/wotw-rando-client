@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentQueue_1_T__Segment_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02027AB0, int32_t, get_Capacity, (app::ConcurrentQueue_1_T_Segment_System_Object_ * this_ptr))

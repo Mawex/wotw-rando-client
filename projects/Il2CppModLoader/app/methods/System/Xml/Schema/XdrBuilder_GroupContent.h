@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XdrBuilder_GroupContent {
     IL2CPP_REGISTER_METHOD(0x02232350, void, Copy_1, (app::XdrBuilder_GroupContent * from, app::XdrBuilder_GroupContent * to))

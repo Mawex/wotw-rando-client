@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::NoAllocHelpers {
     IL2CPP_REGISTER_METHOD(0x02540D90, int32_t, SafeLength_1, (app::Array * values))

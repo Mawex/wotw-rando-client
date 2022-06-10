@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageStructureTool_Vertex {
     IL2CPP_REGISTER_METHOD(0x0167FE70, void, ctor, (app::CageStructureTool_Vertex * this_ptr, app::Vector3 position, int32_t id))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathNavigator {
     IL2CPP_REGISTER_METHOD(0x00CC2AF0, app::String *, ToString, (app::XPathNavigator * this_ptr))

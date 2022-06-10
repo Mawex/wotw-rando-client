@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LightCullingSystem {
     IL2CPP_REGISTER_METHOD(0x0114B1F0, void, Update, (app::LightCullingSystem * this_ptr, app::List_1_PointLightMaskModifier_ * lights, float delta_time))

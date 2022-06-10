@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::MobileTlsContext {
     IL2CPP_REGISTER_METHOD(0x02182D80, void, ctor, (app::MobileTlsContext * this_ptr, app::MobileAuthenticatedStream * parent, bool server_mode, app::String * target_host, app::SslProtocols__Enum enabled_protocols, app::X509Certificate_1 * server_certificate, app::X509CertificateCollection_1 * client_certificates, bool ask_for_client_cert))

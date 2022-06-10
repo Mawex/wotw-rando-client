@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::Enable3DLighting {
     IL2CPP_REGISTER_METHOD(0x00E3C140, app::ProfilingSettings_SettingType__Enum, get_SettingType, (app::Enable3DLighting * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WorldCoordinatesMap {
     IL2CPP_REGISTER_METHOD(0x0057EC10, app::Vector3, WorldToLocal, (app::WorldCoordinatesMap * this_ptr, app::Vector3 position))

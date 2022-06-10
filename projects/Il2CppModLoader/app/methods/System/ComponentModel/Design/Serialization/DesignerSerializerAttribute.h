@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Design::Serialization::DesignerSerializerAttribute {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::DesignerSerializerAttribute * this_ptr, app::String * serializer_type_name, app::String * base_serializer_type_name))

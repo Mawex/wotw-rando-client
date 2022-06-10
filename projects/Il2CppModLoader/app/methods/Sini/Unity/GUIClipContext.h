@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Sini::Unity::GUIClipContext {
     IL2CPP_REGISTER_METHOD(0x00246C90, void, ctor, (app::GUIClipContext__Boxed * this_ptr, app::Rect rect, app::Vector2 scroll))

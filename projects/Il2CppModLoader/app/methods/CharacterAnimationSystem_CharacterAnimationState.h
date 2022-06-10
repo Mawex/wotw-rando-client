@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CharacterAnimationSystem_CharacterAnimationState {
     IL2CPP_REGISTER_METHOD(0x01049E40, void, ctor_1, (app::CharacterAnimationSystem_CharacterAnimationState * this_ptr, app::TextureAnimationWithTransitions * animation, app::Func_1_Boolean_ * condition, int32_t layer, bool play_once, bool keep_frame))

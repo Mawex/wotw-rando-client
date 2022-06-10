@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ParameterizedStrings_FormatParam {
     IL2CPP_REGISTER_METHOD(0x001E1180, void, ctor_1, (app::ParameterizedStrings_FormatParam__Boxed * this_ptr, int32_t value))

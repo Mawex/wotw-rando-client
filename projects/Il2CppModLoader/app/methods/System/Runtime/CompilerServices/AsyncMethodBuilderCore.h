@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncMethodBuilderCore {
     IL2CPP_REGISTER_METHOD(0x0018ED60, void, SetStateMachine, (app::AsyncMethodBuilderCore__Boxed * this_ptr, app::IAsyncStateMachine * state_machine))

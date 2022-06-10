@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ClickMeshBrowserUI {
     IL2CPP_REGISTER_METHOD(0x01DCE780, app::ClickMeshBrowserUI *, Create, (app::MeshCollider * mesh_collider))

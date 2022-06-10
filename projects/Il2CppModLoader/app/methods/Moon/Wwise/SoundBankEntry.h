@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::SoundBankEntry {
     IL2CPP_REGISTER_METHOD(0x0270B420, void, Load, (app::SoundBankEntry * this_ptr, bool async))

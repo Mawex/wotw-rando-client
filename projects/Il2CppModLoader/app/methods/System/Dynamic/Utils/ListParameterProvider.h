@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ListParameterProvider {
     IL2CPP_REGISTER_METHOD(0x01F95C40, void, ctor, (app::ListParameterProvider * this_ptr, app::IParameterProvider * provider, app::ParameterExpression * arg0))

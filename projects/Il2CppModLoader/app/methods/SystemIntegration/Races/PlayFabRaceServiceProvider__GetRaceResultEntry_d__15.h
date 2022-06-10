@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabRaceServiceProvider__GetRaceResultEntry_d__15 {
     IL2CPP_REGISTER_METHOD(0x001114F0, void, MoveNext, (app::PlayFabRaceServiceProvider_GetRaceResultEntry_d_15__Boxed * this_ptr))

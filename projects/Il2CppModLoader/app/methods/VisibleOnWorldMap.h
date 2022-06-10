@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::VisibleOnWorldMap {
     IL2CPP_REGISTER_METHOD(0x008C1CB0, void, AlwaysAddToAll, (app::VisibleOnWorldMap * this_ptr))

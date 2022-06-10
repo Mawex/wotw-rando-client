@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::fsObjectAttribute {
     IL2CPP_REGISTER_METHOD(0x015145C0, void, ctor_1, (app::fsObjectAttribute * this_ptr))

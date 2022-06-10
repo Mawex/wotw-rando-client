@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::StencilMaterial {
     IL2CPP_REGISTER_METHOD(0x01F1B660, app::Material *, Add_1, (app::Material * base_mat, int32_t stencil_i_d))

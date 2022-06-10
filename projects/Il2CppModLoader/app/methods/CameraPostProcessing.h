@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraPostProcessing {
     IL2CPP_REGISTER_METHOD(0x0169F5E0, app::List_1_IPostProcessInfluencer_ *, get_Influencers, ())

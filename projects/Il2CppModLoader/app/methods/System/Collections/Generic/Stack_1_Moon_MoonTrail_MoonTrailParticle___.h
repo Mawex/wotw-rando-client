@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_Moon_MoonTrail_MoonTrailParticle___ {
     IL2CPP_REGISTER_METHOD(0x00529FF0, int32_t, get_Count, (app::Stack_1_Moon_MoonTrail_MoonTrailParticle_ * this_ptr))

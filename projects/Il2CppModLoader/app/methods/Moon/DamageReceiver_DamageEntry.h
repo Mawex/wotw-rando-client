@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::DamageReceiver_DamageEntry {
     IL2CPP_REGISTER_METHOD(0x01200C90, bool, get_WillBeProcessedThisFrame, (app::DamageReceiver_DamageEntry * this_ptr))

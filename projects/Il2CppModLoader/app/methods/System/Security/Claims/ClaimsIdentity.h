@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Claims::ClaimsIdentity {
     IL2CPP_REGISTER_METHOD(0x01E1C300, void, ctor_1, (app::ClaimsIdentity * this_ptr))

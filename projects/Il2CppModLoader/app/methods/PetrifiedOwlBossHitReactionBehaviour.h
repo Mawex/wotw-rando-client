@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossHitReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x017731C0, app::MoonTimeline *, get_HitReactionTimeline, (app::PetrifiedOwlBossHitReactionBehaviour * this_ptr))

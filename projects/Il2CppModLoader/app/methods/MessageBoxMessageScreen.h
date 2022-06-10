@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MessageBoxMessageScreen {
     IL2CPP_REGISTER_METHOD(0x01592840, bool, get_Visible, (app::MessageBoxMessageScreen * this_ptr))

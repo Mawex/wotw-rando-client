@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DelayedActionExecuter {
     IL2CPP_REGISTER_METHOD(0x00724010, void, set_StartTime, (app::DelayedActionExecuter * this_ptr, float value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::TaskRunner {
     IL2CPP_REGISTER_METHOD(0x03011AC0, app::BehaviourStatus__Enum, ExecuteTask, (app::ITask * task, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Moon_CrossSceneReferenceId_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x0014FB00, void, ctor, (app::KeyValuePair_2_Moon_CrossSceneReferenceId_System_Object___Boxed * this_ptr, app::CrossSceneReferenceId key, app::Object * value))

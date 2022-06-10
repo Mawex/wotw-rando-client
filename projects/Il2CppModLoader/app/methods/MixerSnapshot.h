@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MixerSnapshot {
     IL2CPP_REGISTER_METHOD(0x0132EB50, float, get_Weight, (app::MixerSnapshot * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_System_ByteEnum_SpiritShardIconsCollection_Icons_ {
     IL2CPP_REGISTER_METHOD(0x00143B20, void, ctor, (app::Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_System_ByteEnum_SpiritShardIconsCollection_Icons___Boxed * this_ptr, app::Dictionary_2_System_ByteEnum_SpiritShardIconsCollection_Icons_ * dictionary))

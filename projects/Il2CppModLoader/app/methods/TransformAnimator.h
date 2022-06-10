@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TransformAnimator {
     IL2CPP_REGISTER_METHOD(0x00B06110, app::Transform *, get_EffectiveTranform, (app::TransformAnimator * this_ptr))

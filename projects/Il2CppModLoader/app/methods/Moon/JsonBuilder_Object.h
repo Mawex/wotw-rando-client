@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::JsonBuilder_Object {
     IL2CPP_REGISTER_METHOD(0x00245440, void, ctor, (app::JsonBuilder_Object__Boxed * this_ptr, int32_t ident, app::JsonBuilder * builder))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AnimationMetaDataDrivenTransform {
     IL2CPP_REGISTER_METHOD(0x005023A0, void, Awake, (app::AnimationMetaDataDrivenTransform * this_ptr))

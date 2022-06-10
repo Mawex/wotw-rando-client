@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FireflyHive {
     IL2CPP_REGISTER_METHOD(0x0125F550, app::Firefly *, get_FireflyInstance, (app::FireflyHive * this_ptr))

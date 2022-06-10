@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventPayload {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::EventPayload * this_ptr, app::List_1_System_String_ * payload_names, app::List_1_System_Object_ * payload_values))

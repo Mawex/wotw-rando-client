@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::SymmetricTransform {
     IL2CPP_REGISTER_METHOD(0x025D7EF0, void, ctor, (app::SymmetricTransform * this_ptr, app::SymmetricAlgorithm * symm_algo, bool encryption, app::Byte__Array * rgb_i_v))

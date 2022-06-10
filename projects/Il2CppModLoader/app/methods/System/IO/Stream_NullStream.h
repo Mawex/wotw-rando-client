@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::Stream_NullStream {
     IL2CPP_REGISTER_METHOD(0x0237E700, void, ctor, (app::Stream_NullStream * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DisableTargetForSeconds {
     IL2CPP_REGISTER_METHOD(0x00B98C70, void, OnEnable, (app::DisableTargetForSeconds * this_ptr))

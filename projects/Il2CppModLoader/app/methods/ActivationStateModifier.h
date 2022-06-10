@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ActivationStateModifier {
     IL2CPP_REGISTER_METHOD(0x01B54A20, bool, get_Active, (app::ActivationStateModifier * this_ptr))

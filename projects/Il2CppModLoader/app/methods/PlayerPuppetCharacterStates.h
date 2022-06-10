@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayerPuppetCharacterStates {
     IL2CPP_REGISTER_METHOD(0x01428220, bool, IsPerforming, (app::PlayerPuppetCharacterStates * this_ptr, int32_t state_id))

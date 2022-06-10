@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::AppliedTextStyle {
     IL2CPP_REGISTER_METHOD(0x0011DFB0, void, Apply, (app::AppliedTextStyle__Boxed * this_ptr, app::TextStyle * style, app::TextRenderer * renderer))

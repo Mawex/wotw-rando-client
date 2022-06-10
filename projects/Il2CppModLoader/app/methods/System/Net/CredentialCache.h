@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::CredentialCache {
     IL2CPP_REGISTER_METHOD(0x01EA98F0, bool, get_IsDefaultInCache, (app::CredentialCache * this_ptr))

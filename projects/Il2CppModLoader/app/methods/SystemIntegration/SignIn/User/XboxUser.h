@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::SignIn::User::XboxUser {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::Texture2D *, get_Image, (app::XboxUser * this_ptr))

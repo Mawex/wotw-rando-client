@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BreakFireStickAction {
     IL2CPP_REGISTER_METHOD(0x00D4AE40, void, Perform, (app::BreakFireStickAction * this_ptr, app::IContext * context))

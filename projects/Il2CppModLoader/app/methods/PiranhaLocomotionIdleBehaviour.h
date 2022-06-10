@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PiranhaLocomotionIdleBehaviour {
     IL2CPP_REGISTER_METHOD(0x0115FA80, void, OnInitializeTask, (app::PiranhaLocomotionIdleBehaviour * this_ptr, app::IContext * context))

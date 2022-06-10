@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine_Canvas_UnityEngine_UI_Collections_IndexedSet_1_ {
     IL2CPP_REGISTER_METHOD(0x0283AC20, void, ctor, (app::Dictionary_2_UnityEngine_Canvas_UnityEngine_UI_Collections_IndexedSet_1_ * this_ptr))

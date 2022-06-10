@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NumericConvertInstruction {
     IL2CPP_REGISTER_METHOD(0x02408810, void, ctor, (app::NumericConvertInstruction * this_ptr, app::TypeCode__Enum from, app::TypeCode__Enum to, bool is_lifted_to_null))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ServerActionSequence {
     IL2CPP_REGISTER_METHOD(0x0059D6C0, void, ctor, (app::ServerActionSequence * this_ptr, app::Object * data))

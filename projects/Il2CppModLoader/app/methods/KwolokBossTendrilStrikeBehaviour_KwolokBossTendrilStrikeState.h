@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokBossTendrilStrikeBehaviour_KwolokBossTendrilStrikeState {
     IL2CPP_REGISTER_METHOD(0x012F0660, void, ctor, (app::KwolokBossTendrilStrikeBehaviour_KwolokBossTendrilStrikeState * this_ptr, app::KwolokBossTendrilStrikeBehaviour * behaviour))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::CuthillMcKee {
     IL2CPP_REGISTER_METHOD(0x02A95410, app::Int32__Array *, Renumber_1, (app::CuthillMcKee * this_ptr, app::Mesh_1 * mesh))

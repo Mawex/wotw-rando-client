@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::ServicePointManager_SPKey {
     IL2CPP_REGISTER_METHOD(0x010415E0, void, ctor, (app::ServicePointManager_SPKey * this_ptr, app::Uri * uri, app::Uri * proxy, bool use_connect))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostCharacterStatesPlugin {
     IL2CPP_REGISTER_METHOD(0x00E19560, void, PlayCycle, (app::GhostCharacterStatesPlugin * this_ptr, float time))

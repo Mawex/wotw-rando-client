@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MortarHideBehaviour {
     IL2CPP_REGISTER_METHOD(0x0147D140, void, OnEnter, (app::MortarHideBehaviour * this_ptr, app::IContext * context))

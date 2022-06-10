@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Activation::ActivationServices {
     IL2CPP_REGISTER_METHOD(0x01A97860, app::IActivator *, get_ConstructionActivator, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayerGrabPushPullHintSystem {
     IL2CPP_REGISTER_METHOD(0x0140ECE0, void, OnEnterRange, (app::PlayerGrabPushPullHintSystem * this_ptr, bool bash))

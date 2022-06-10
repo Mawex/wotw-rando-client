@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ProjectileSpawner {
     IL2CPP_REGISTER_METHOD(0x00C7C010, app::Vector3, get_Position, (app::ProjectileSpawner * this_ptr))

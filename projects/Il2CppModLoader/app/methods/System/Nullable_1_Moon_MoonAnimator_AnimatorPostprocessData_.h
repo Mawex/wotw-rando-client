@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Moon_MoonAnimator_AnimatorPostprocessData_ {
     IL2CPP_REGISTER_METHOD(0x0011E7F0, void, ctor, (app::Nullable_1_Moon_MoonAnimator_AnimatorPostprocessData___Boxed * this_ptr, app::MoonAnimator_AnimatorPostprocessData value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HornBugBossEntity {
     IL2CPP_REGISTER_METHOD(0x00B62280, void, BlockedHitEffectPrefabInstantiation, (app::HornBugBossEntity * this_ptr, app::List_1_DynamicInstantiationDescriptor_ * instantiations))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::IKPostprocessPlayer {
     IL2CPP_REGISTER_METHOD(0x0076F5E0, app::IKTargetBehaviour *, get_TargetBehaviour, (app::IKPostprocessPlayer * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::UnSafeCharBuffer {
     IL2CPP_REGISTER_METHOD(0x00206930, void, ctor, (app::UnSafeCharBuffer__Boxed * this_ptr, uint16_t * buffer, int32_t buffer_size))

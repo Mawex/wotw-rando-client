@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon_BehaviourSystem_TreeBehaviour_Exception_ {
     IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (app::Action_2_Moon_BehaviourSystem_TreeBehaviour_Exception_ * this_ptr, app::TreeBehaviour * arg1, app::Exception * arg2))

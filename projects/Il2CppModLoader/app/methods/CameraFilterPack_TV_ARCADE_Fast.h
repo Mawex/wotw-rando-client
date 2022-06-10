@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_TV_ARCADE_Fast {
     IL2CPP_REGISTER_METHOD(0x020E4CC0, app::Material *, get_material, (app::CameraFilterPack_TV_ARCADE_Fast * this_ptr))

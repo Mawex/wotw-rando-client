@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GainSpiritShardAction {
     IL2CPP_REGISTER_METHOD(0x0151E9D0, void, Perform, (app::GainSpiritShardAction * this_ptr, app::IContext * context))

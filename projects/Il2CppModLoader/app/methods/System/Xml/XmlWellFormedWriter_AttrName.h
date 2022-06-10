@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlWellFormedWriter_AttrName {
     IL2CPP_REGISTER_METHOD(0x001DAE60, void, Set, (app::XmlWellFormedWriter_AttrName__Boxed * this_ptr, app::String * prefix, app::String * local_name, app::String * namespace_uri))

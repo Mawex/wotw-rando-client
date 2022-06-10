@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FireStick__DropAndDestroy_d__73 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::FireStick_DropAndDestroy_d_73 * this_ptr, int32_t __1__state))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkillTreeAction {
     IL2CPP_REGISTER_METHOD(0x006B5490, void, Perform, (app::SkillTreeAction * this_ptr, app::IContext * context))

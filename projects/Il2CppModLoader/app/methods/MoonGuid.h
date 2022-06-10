@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonGuid {
     IL2CPP_REGISTER_METHOD(0x00F506D0, void, ctor_1, (app::MoonGuid * this_ptr, app::MoonGuid * moon_guid))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransformAnimatorEntity {
     IL2CPP_REGISTER_METHOD(0x00C03C70, app::UpdateCategory__Enum, get_UpdateCategory, (app::TransformAnimatorEntity * this_ptr))

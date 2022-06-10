@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlAnyListConverter {
     IL2CPP_REGISTER_METHOD(0x0223B440, void, ctor, (app::XmlAnyListConverter * this_ptr, app::XmlBaseConverter * atomic_converter))

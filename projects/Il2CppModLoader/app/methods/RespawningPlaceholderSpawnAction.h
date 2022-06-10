@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RespawningPlaceholderSpawnAction {
     IL2CPP_REGISTER_METHOD(0x0090A9B0, void, Perform, (app::RespawningPlaceholderSpawnAction * this_ptr, app::IContext * context))

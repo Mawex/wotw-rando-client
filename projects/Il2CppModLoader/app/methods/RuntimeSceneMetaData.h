@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RuntimeSceneMetaData {
     IL2CPP_REGISTER_METHOD(0x0137B160, void, ctor_1, (app::RuntimeSceneMetaData * this_ptr))

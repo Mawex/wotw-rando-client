@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberTypeTracker {
     IL2CPP_REGISTER_METHOD(0x0314ABB0, app::Dictionary_2_System_Type_UberTypeTracker_IDerivedTypeTracker_ *, get_AllTrackers, ())

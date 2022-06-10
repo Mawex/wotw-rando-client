@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::BipedLimbOrientations {
     IL2CPP_REGISTER_METHOD(0x0058D710, void, ctor, (app::BipedLimbOrientations * this_ptr, app::BipedLimbOrientations_LimbOrientation * left_arm, app::BipedLimbOrientations_LimbOrientation * right_arm, app::BipedLimbOrientations_LimbOrientation * left_leg, app::BipedLimbOrientations_LimbOrientation * right_leg))

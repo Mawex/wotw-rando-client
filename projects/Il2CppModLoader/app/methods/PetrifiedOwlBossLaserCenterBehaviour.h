@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLaserCenterBehaviour {
     IL2CPP_REGISTER_METHOD(0x01776660, void, CopyData, (app::PetrifiedOwlBossLaserCenterBehaviour * this_ptr, app::PetrifiedOwlBossBaseBehaviour * other))

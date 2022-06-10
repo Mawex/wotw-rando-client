@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine_Font_HashSet_1_UnityEngine_UI_Text__ {
     IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_UnityEngine_Font_HashSet_1_UnityEngine_UI_Text_ * this_ptr, app::Font * key, app::HashSet_1_UnityEngine_UI_Text_ * * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::TentacleIdleBehaviour {
     IL2CPP_REGISTER_METHOD(0x010AD3F0, app::Vector2, get_EffectiveRandomTargetCenter, (app::TentacleIdleBehaviour * this_ptr))

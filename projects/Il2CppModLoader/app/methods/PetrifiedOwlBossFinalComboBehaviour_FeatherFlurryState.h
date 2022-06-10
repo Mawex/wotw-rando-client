@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFinalComboBehaviour_FeatherFlurryState {
     IL2CPP_REGISTER_METHOD(0x0176FFA0, void, ctor, (app::PetrifiedOwlBossFinalComboBehaviour_FeatherFlurryState * this_ptr, app::PetrifiedOwlBossFinalComboBehaviour * behaviour))

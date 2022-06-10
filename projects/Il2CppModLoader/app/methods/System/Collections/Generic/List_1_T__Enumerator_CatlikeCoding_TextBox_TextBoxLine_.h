@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_CatlikeCoding_TextBox_TextBoxLine_ {
     IL2CPP_REGISTER_METHOD(0x0014C770, void, ctor, (app::List_1_T_Enumerator_CatlikeCoding_TextBox_TextBoxLine___Boxed * this_ptr, app::List_1_CatlikeCoding_TextBox_TextBoxLine_ * list))

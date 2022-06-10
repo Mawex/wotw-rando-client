@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::HitReaction_HitPointEffector_EffectorLink {
     IL2CPP_REGISTER_METHOD(0x02077950, void, Apply, (app::HitReaction_HitPointEffector_EffectorLink * this_ptr, app::IKSolverFullBodyBiped * solver, app::Vector3 offset, float cross_fader))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Race::LeaderBoardService {
     IL2CPP_REGISTER_METHOD(0x00C430B0, float, GetPlayerTime, (app::LeaderBoardService * this_ptr, app::String * race_name, app::RaceSettings * race_settings, app::ReplayValidatorData * validator_data))

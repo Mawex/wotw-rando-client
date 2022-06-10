@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamScreenshots {
     IL2CPP_REGISTER_METHOD(0x02797530, app::ScreenshotHandle, WriteScreenshot, (app::Byte__Array * pub_r_g_b, uint32_t cub_r_g_b, int32_t n_width, int32_t n_height))

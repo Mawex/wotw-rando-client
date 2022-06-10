@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinRide_KuRidingState {
     IL2CPP_REGISTER_METHOD(0x005D45D0, app::KuController *, get_KuController, (app::SeinRide_KuRidingState * this_ptr))

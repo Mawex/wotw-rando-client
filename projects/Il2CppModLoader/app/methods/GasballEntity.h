@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GasballEntity {
     IL2CPP_REGISTER_METHOD(0x0041EBA0, app::GasballEntity_InflateState__Enum, GetNextInflateState, (app::GasballEntity * this_ptr))

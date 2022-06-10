@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::StomperTrigger {
     IL2CPP_REGISTER_METHOD(0x0065C110, void, OnTriggerEnter, (app::StomperTrigger * this_ptr, app::Collider * collider))

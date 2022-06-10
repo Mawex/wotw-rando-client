@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02545B40, app::Object *, get_Item, (app::HybridReferenceDictionary_2_System_Object_System_Object_ * this_ptr, app::Object * key))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CartographerNPC {
     IL2CPP_REGISTER_METHOD(0x00B41E60, int32_t, get_CurrentState, (app::CartographerNPC * this_ptr))

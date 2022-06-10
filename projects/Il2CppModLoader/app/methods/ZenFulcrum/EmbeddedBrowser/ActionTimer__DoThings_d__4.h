@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ActionTimer__DoThings_d__4 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::ActionTimer_DoThings_d_4 * this_ptr, int32_t __1__state))

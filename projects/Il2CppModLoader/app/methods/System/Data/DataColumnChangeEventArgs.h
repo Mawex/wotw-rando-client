@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::DataColumnChangeEventArgs {
     IL2CPP_REGISTER_METHOD(0x0239A030, void, ctor_1, (app::DataColumnChangeEventArgs * this_ptr, app::DataRow * row))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mine {
     IL2CPP_REGISTER_METHOD(0x0058E140, app::Vector3, get_Position, (app::Mine * this_ptr))

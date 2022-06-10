@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SaveFileInfo {
     IL2CPP_REGISTER_METHOD(0x00C2B030, void, ctor, (app::SaveFileInfo * this_ptr, app::String * folder_path, app::String * file_name, int32_t slot_index, int32_t backup_slot_index))

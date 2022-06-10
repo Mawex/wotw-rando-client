@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RecorderFrame {
     IL2CPP_REGISTER_METHOD(0x008EFBB0, void, SaveToFile, (app::RecorderFrame * this_ptr, app::BinaryWriter * binary_writer))

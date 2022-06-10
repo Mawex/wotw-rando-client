@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLegStompBehaviour {
     IL2CPP_REGISTER_METHOD(0x017774B0, void, CopyData, (app::PetrifiedOwlBossLegStompBehaviour * this_ptr, app::PetrifiedOwlBossBaseBehaviour * other))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::P3D_Triangle {
     IL2CPP_REGISTER_METHOD(0x0309C9B0, app::P3D_Triangle *, Spawn, ())

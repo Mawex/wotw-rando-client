@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SmartGUIText {
     IL2CPP_REGISTER_METHOD(0x03117D00, void, Initialize, ())

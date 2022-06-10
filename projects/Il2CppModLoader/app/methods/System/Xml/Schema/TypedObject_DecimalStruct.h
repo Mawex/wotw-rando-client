@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::TypedObject_DecimalStruct {
     IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_IsDecimal, (app::TypedObject_DecimalStruct * this_ptr))

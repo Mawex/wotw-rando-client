@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AutomationRunWrapper {
     IL2CPP_REGISTER_METHOD(0x0085E380, void, ctor, (app::AutomationRunWrapper * this_ptr, app::AutomationRunType__Enum type))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Inertia_Body {
     IL2CPP_REGISTER_METHOD(0x02A06890, void, Reset, (app::Inertia_Body * this_ptr))

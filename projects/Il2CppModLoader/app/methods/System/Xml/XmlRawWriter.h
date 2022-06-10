@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlRawWriter {
     IL2CPP_REGISTER_METHOD(0x01700F60, void, WriteStartDocument_1, (app::XmlRawWriter * this_ptr))

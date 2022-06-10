@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GarbageCollectionDetector {
     IL2CPP_REGISTER_METHOD(0x00416940, void, Finalize, (app::GarbageCollectionDetector * this_ptr))

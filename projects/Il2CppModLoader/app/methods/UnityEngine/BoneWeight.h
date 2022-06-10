@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::BoneWeight {
     IL2CPP_REGISTER_METHOD(0x001EB400, float, get_weight0, (app::BoneWeight__Boxed * this_ptr))

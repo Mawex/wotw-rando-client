@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderContext {
     IL2CPP_REGISTER_METHOD(0x0078DB50, void, SetRenderTargetArray, (app::MoonRenderContext * this_ptr, app::RenderTargetIdentifier color, int32_t slice, app::Nullable_1_Moon_Rendering_Viewport_ viewport, app::ClearSettings clear))

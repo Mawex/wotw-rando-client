@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiritLanternPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00D5B890, void, Start, (app::SpiritLanternPlaceholder * this_ptr))

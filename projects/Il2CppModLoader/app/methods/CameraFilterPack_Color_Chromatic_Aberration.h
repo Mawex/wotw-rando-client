@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Color_Chromatic_Aberration {
     IL2CPP_REGISTER_METHOD(0x024D8960, app::Material *, get_material, (app::CameraFilterPack_Color_Chromatic_Aberration * this_ptr))

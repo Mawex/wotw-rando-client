@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnemyArenaController_EnemyWave {
     IL2CPP_REGISTER_METHOD(0x00C02130, app::MoonTimeline *, get_OnStartTimelineResolved, (app::EnemyArenaController_EnemyWave * this_ptr))

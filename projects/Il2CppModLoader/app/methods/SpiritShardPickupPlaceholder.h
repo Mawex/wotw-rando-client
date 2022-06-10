@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiritShardPickupPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00D68860, void, OnInstantiate, (app::SpiritShardPickupPlaceholder * this_ptr, app::GameObject * instance))

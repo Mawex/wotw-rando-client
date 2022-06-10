@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LoreNodeWisps {
     IL2CPP_REGISTER_METHOD(0x009ED350, bool, get_IsActive, (app::LoreNodeWisps * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UnityEngine_Experimental_Rendering_VisibleLight_ {
     IL2CPP_REGISTER_METHOD(0x02438990, bool, Equals_1, (app::ObjectEqualityComparer_1_UnityEngine_Experimental_Rendering_VisibleLight_ * this_ptr, app::VisibleLight x, app::VisibleLight y))

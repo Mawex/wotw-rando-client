@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::UI::WindowManager {
     IL2CPP_REGISTER_METHOD(0x0118C190, app::WindowManager_1 *, get_Instance, ())

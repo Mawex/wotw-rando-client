@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_Newtonsoft_Json_JsonPosition_ {
     IL2CPP_REGISTER_METHOD(0x02F7A3F0, void, Sort_1, (app::JsonPosition__Array * keys, int32_t index, int32_t length, app::IComparer_1_Newtonsoft_Json_JsonPosition_ * comparer))

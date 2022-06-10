@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::RegistryKeyComparer {
     IL2CPP_REGISTER_METHOD(0x023B61A0, bool, Equals, (app::RegistryKeyComparer * this_ptr, app::Object * x, app::Object * y))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::SocketElement {
     IL2CPP_REGISTER_METHOD(0x01E99320, void, ctor, (app::SocketElement * this_ptr))

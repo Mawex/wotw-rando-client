@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::UnixRegistryApi {
     IL2CPP_REGISTER_METHOD(0x023B6600, app::String *, ToUnix, (app::String * keyname))

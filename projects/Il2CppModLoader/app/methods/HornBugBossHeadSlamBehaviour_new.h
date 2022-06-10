@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HornBugBossHeadSlamBehaviour_new {
     IL2CPP_REGISTER_METHOD(0x00B64DD0, void, OnEntityInitialized, (app::HornBugBossHeadSlamBehaviour_new * this_ptr))

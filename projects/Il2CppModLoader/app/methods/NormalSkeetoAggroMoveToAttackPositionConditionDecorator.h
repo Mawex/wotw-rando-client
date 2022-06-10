@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NormalSkeetoAggroMoveToAttackPositionConditionDecorator {
     IL2CPP_REGISTER_METHOD(0x0060C060, app::BehaviourStatus__Enum, OnExecute, (app::NormalSkeetoAggroMoveToAttackPositionConditionDecorator * this_ptr, app::IContext * context))

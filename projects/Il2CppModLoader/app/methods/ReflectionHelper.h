@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ReflectionHelper {
     IL2CPP_REGISTER_METHOD(0x008FC270, app::Object *, DoInvoke, (app::Type * type, app::String * method_name, app::Object__Array * parameters))

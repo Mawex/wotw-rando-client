@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HookFlingPlant {
     IL2CPP_REGISTER_METHOD(0x00B5D6D0, app::SeinSpiritLeashAbility *, get_Leash, (app::HookFlingPlant * this_ptr))

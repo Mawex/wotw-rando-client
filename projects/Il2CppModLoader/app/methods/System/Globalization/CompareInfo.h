@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::CompareInfo {
     IL2CPP_REGISTER_METHOD(0x01A229B0, void, ctor_1, (app::CompareInfo * this_ptr, app::CultureInfo * culture))

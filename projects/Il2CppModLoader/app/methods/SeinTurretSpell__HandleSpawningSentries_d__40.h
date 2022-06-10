@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinTurretSpell__HandleSpawningSentries_d__40 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::SeinTurretSpell_HandleSpawningSentries_d_40 * this_ptr, int32_t __1__state))

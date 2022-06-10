@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::VertexHelper {
     IL2CPP_REGISTER_METHOD(0x009A3B50, void, ctor_1, (app::VertexHelper * this_ptr))

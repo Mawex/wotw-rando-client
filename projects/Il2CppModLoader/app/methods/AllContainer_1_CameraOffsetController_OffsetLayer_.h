@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AllContainer_1_CameraOffsetController_OffsetLayer_ {
     IL2CPP_REGISTER_METHOD(0x019D79F0, bool, Contains, (app::AllContainer_1_CameraOffsetController_OffsetLayer_ * this_ptr, app::CameraOffsetController_OffsetLayer * item))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LeaderboardsB {
     IL2CPP_REGISTER_METHOD(0x015BA0C0, app::LeaderboardFilter__Enum, get_m_currentFilter, (app::LeaderboardsB * this_ptr))

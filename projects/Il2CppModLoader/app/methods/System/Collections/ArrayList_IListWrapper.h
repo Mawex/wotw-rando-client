@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::ArrayList_IListWrapper {
     IL2CPP_REGISTER_METHOD(0x0201AA60, void, ctor, (app::ArrayList_IListWrapper * this_ptr, app::IList * list))

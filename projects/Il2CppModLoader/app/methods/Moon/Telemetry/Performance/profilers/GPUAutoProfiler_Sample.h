@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::profilers::GPUAutoProfiler_Sample {
     IL2CPP_REGISTER_METHOD(0x002FD1D0, app::GPUAutoProfiler_Sample_SamplingState__Enum, get_State, (app::GPUAutoProfiler_Sample * this_ptr))

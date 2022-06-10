@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::NamespaceListV1Compat {
     IL2CPP_REGISTER_METHOD(0x016D0020, void, ctor, (app::NamespaceListV1Compat * this_ptr, app::String * namespaces, app::String * target_namespace))

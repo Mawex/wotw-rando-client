@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacySwarmEnemy {
     IL2CPP_REGISTER_METHOD(0x00A37EA0, bool, CanBeOptimized, (app::LegacySwarmEnemy * this_ptr))

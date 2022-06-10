@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::RuntimeClassHandle {
     IL2CPP_REGISTER_METHOD(0x0010FD20, void, ctor_1, (app::RuntimeClassHandle__Boxed * this_ptr, app::RuntimeStructs_MonoClass * value))

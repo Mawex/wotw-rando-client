@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingChangingEventArgs {
     IL2CPP_REGISTER_METHOD(0x02962200, void, ctor, (app::SettingChangingEventArgs * this_ptr, app::String * setting_name, app::String * setting_class, app::String * setting_key, app::Object * new_value, bool cancel))

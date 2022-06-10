@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::XR::XRNodeState {
     IL2CPP_REGISTER_METHOD(0x0010D440, void, set_uniqueID, (app::XRNodeState__Boxed * this_ptr, uint64_t value))

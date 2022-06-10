@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Tuple_2_String_UnityEngine_Vector3_ {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::String *, get_Item1, (app::Tuple_2_String_UnityEngine_Vector3_ * this_ptr))

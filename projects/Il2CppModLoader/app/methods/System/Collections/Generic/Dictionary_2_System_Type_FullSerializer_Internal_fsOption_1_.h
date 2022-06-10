@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Type_FullSerializer_Internal_fsOption_1_ {
     IL2CPP_REGISTER_METHOD(0x02DCE920, bool, TryGetValue, (app::Dictionary_2_System_Type_FullSerializer_Internal_fsOption_1_ * this_ptr, app::Type * key, app::fsOption_1_fsVersionedType_ * value))

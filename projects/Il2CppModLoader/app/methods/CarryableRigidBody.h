@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CarryableRigidBody {
     IL2CPP_REGISTER_METHOD(0x00B26440, void, add_OnAnyCarryablePickedUpAction, (app::Action * value))

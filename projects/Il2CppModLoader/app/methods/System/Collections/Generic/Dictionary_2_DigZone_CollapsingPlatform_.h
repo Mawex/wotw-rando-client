@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_DigZone_CollapsingPlatform_ {
     IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (app::Dictionary_2_DigZone_CollapsingPlatform_ * this_ptr, app::DigZone * key, app::CollapsingPlatform * value))

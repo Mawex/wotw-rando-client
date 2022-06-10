@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FallBehaviour {
     IL2CPP_REGISTER_METHOD(0x00994900, void, OnInitialize, (app::FallBehaviour * this_ptr))

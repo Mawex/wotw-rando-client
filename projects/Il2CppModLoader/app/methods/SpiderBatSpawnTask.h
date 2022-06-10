@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderBatSpawnTask {
     IL2CPP_REGISTER_METHOD(0x00960460, void, OnEnterTask, (app::SpiderBatSpawnTask * this_ptr, app::IContext * context))

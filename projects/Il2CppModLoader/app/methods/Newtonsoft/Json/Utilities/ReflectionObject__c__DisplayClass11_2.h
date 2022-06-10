@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ReflectionObject___c__DisplayClass11_2 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::ReflectionObject_c_DisplayClass11_2 * this_ptr))

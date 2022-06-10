@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereSelectListIterator_2_System_Collections_Generic_KeyValuePair_2_System_ValueTuple_2_ {
     IL2CPP_REGISTER_METHOD(0x02894D90, void, ctor, (app::Enumerable_WhereSelectListIterator_2_System_Collections_Generic_KeyValuePair_2_System_ValueTuple_2_ * this_ptr, app::List_1_KeyValuePair_2_System_Object_System_ValueTuple_2_ * source, app::Func_2_System_Collections_Generic_KeyValuePair_2_Boolean__5 * predicate, app::Func_2_System_Collections_Generic_KeyValuePair_2_ValueTuple_2_Int32_Object_ * selector))

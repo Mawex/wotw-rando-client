@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CutsceneTransition {
     IL2CPP_REGISTER_METHOD(0x00DBF130, void, Awake, (app::CutsceneTransition * this_ptr))

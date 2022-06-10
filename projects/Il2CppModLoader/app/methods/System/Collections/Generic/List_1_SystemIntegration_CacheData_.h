@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_SystemIntegration_CacheData_ {
     IL2CPP_REGISTER_METHOD(0x025EAEF0, app::CacheData__Array *, ToArray, (app::List_1_SystemIntegration_CacheData_ * this_ptr))

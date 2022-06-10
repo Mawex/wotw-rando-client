@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslCipherSuite {
     IL2CPP_REGISTER_METHOD(0x01F7CDB0, void, ctor, (app::SslCipherSuite * this_ptr, int16_t code, app::String * name, app::CipherAlgorithmType__Enum cipher_algorithm_type, app::HashAlgorithmType__Enum hash_algorithm_type, app::ExchangeAlgorithmType__Enum exchange_algorithm_type, bool exportable, bool block_mode, uint8_t key_material_size, uint8_t expanded_key_material_size, int16_t effective_key_bytes, uint8_t iv_size, uint8_t block_size))

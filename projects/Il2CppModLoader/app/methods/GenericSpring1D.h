@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GenericSpring1D {
     IL2CPP_REGISTER_METHOD(0x00E109B0, void, Step, (app::GenericSpring1D * this_ptr, app::GenericSpring1D_Particle * * particle))

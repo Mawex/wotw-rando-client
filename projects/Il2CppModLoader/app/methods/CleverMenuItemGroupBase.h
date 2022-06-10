@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CleverMenuItemGroupBase {
     IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsSuspended, (app::CleverMenuItemGroupBase * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::IsTriggerCollidingCondition {
     IL2CPP_REGISTER_METHOD(0x00647DD0, void, Start, (app::IsTriggerCollidingCondition * this_ptr))

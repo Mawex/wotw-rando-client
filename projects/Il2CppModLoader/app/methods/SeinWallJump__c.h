@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinWallJump___c {
     IL2CPP_REGISTER_METHOD(0x00AB05D0, void, cctor, ())

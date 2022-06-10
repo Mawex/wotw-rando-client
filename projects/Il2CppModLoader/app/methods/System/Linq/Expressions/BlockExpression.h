@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::BlockExpression {
     IL2CPP_REGISTER_METHOD(0x0060EEC0, app::ReadOnlyCollection_1_System_Linq_Expressions_Expression_ *, get_Expressions, (app::BlockExpression * this_ptr))

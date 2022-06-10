@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::ReaderPositionInfo {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::ReaderPositionInfo * this_ptr, app::IXmlLineInfo * line_info))

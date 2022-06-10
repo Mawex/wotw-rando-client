@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Edge_Edge_filter {
     IL2CPP_REGISTER_METHOD(0x024643F0, app::Material *, get_material, (app::CameraFilterPack_Edge_Edge_filter * this_ptr))

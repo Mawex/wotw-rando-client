@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ReplayScreen {
     IL2CPP_REGISTER_METHOD(0x008FE400, void, ResetStatics, ())

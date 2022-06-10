@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::DataBundle {
     IL2CPP_REGISTER_METHOD(0x00E338F0, void, ctor, (app::DataBundle * this_ptr, app::String * path))

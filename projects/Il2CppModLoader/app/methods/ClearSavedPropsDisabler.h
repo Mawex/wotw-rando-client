@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ClearSavedPropsDisabler {
     IL2CPP_REGISTER_METHOD(0x012ACB70, void, OnEnable, (app::ClearSavedPropsDisabler * this_ptr))

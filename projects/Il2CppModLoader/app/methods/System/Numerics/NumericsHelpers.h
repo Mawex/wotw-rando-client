@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Numerics::NumericsHelpers {
     IL2CPP_REGISTER_METHOD(0x03101C80, void, GetDoubleParts, (double dbl, int32_t * sign, int32_t * exp, uint64_t * man, bool * f_finite))

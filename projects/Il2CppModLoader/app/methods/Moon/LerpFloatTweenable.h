@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::LerpFloatTweenable {
     IL2CPP_REGISTER_METHOD(0x01BAA5A0, float, Update, (app::LerpFloatTweenable * this_ptr, float start_value, float end_value, float normalized_input))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Request_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x002FB950, app::String *, get_Path, (app::Request_1_System_Object_ * this_ptr))

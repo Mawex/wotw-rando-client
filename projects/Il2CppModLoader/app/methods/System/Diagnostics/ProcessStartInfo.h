@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::ProcessStartInfo {
     IL2CPP_REGISTER_METHOD(0x020035C0, void, ctor, (app::ProcessStartInfo * this_ptr, app::Process * parent))

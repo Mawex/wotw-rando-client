@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateInventory_InventoryItem {
     IL2CPP_REGISTER_METHOD(0x00F3E1C0, void, ctor_1, (app::PlayerUberStateInventory_InventoryItem * this_ptr, app::EquipmentType__Enum type, app::Action * set_dirty_callback))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::XblAchievementReward {
     IL2CPP_REGISTER_METHOD(0x0012DA60, app::Object *, GetMediaAsset_1, (app::XblAchievementReward_1__Boxed * this_ptr, app::Func_2_XGamingRuntime_Interop_XblAchievementMediaAsset_Object_ * ctor))

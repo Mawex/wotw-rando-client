@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::BindingRestrictions_BindingRestrictionsProxy {
     IL2CPP_REGISTER_METHOD(0x01F88CD0, void, ctor, (app::BindingRestrictions_BindingRestrictionsProxy * this_ptr, app::BindingRestrictions * node))

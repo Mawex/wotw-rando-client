@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokBossEntity {
     IL2CPP_REGISTER_METHOD(0x012D70E0, app::Collider__Array *, get_AllColliders, (app::KwolokBossEntity * this_ptr))

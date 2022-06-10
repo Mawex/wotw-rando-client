@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ArgumentException {
     IL2CPP_REGISTER_METHOD(0x022901E0, void, ctor_1, (app::ArgumentException * this_ptr))

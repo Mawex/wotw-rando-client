@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ImageEffects {
     IL2CPP_REGISTER_METHOD(0x02D5A430, void, RenderDistortion, (app::Material * material, app::RenderTexture * source, app::RenderTexture * destination, float angle, app::Vector2 center, app::Vector2 radius))

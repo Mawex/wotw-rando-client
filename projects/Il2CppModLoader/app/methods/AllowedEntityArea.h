@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AllowedEntityArea {
     IL2CPP_REGISTER_METHOD(0x004F4CE0, bool, get_Forgotten, (app::AllowedEntityArea * this_ptr))

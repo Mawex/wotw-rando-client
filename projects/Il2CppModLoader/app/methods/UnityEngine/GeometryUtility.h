@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::GeometryUtility {
     IL2CPP_REGISTER_METHOD(0x02528E00, app::Plane__Array *, CalculateFrustumPlanes_1, (app::Camera * camera))

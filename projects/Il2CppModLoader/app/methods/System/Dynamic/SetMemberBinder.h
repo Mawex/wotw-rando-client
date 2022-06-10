@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::SetMemberBinder {
     IL2CPP_REGISTER_METHOD(0x01F939D0, void, ctor, (app::SetMemberBinder * this_ptr, app::String * name, bool ignore_case))

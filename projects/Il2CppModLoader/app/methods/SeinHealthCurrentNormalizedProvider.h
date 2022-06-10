@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinHealthCurrentNormalizedProvider {
     IL2CPP_REGISTER_METHOD(0x00FFF5E0, float, GetFloatValue, (app::SeinHealthCurrentNormalizedProvider * this_ptr))

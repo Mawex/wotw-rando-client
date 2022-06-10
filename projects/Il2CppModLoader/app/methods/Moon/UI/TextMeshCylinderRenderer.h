@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::UI::TextMeshCylinderRenderer {
     IL2CPP_REGISTER_METHOD(0x01188E90, void, Prepare, (app::TextMeshCylinderRenderer_1 * this_ptr))

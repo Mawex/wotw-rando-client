@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::WandererPatrolBehaviour {
     IL2CPP_REGISTER_METHOD(0x011A3AB0, void, OnEntityInitialized, (app::WandererPatrolBehaviour * this_ptr))

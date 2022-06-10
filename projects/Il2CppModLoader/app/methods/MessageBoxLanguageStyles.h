@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MessageBoxLanguageStyles {
     IL2CPP_REGISTER_METHOD(0x01592690, app::TextStyleCollection *, get_Current, (app::MessageBoxLanguageStyles * this_ptr))

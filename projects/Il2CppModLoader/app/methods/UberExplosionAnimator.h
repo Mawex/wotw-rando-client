@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberExplosionAnimator {
     IL2CPP_REGISTER_METHOD(0x013E87A0, app::Transform *, get_Actor, (app::UberExplosionAnimator * this_ptr))

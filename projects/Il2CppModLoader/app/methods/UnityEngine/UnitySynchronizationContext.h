@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UnitySynchronizationContext {
     IL2CPP_REGISTER_METHOD(0x02C71310, void, ctor_1, (app::UnitySynchronizationContext * this_ptr, int32_t main_thread_i_d))

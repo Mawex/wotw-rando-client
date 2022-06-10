@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DisableGameObjectWhenOutOfFrustrum {
     IL2CPP_REGISTER_METHOD(0x00B953C0, void, AutoGenerate_1, (app::DisableGameObjectWhenOutOfFrustrum * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::debugMenu::scripts::gameSpecific::menuItems::JobThreadConfigurator {
     IL2CPP_REGISTER_METHOD(0x00F2BFB0, app::JobThreadConfigurator_SaveIOThreadingMode__Enum, get_SaveIOThreadMode, ())

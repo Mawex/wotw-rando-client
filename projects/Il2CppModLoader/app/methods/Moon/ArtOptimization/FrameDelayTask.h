@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::FrameDelayTask {
     IL2CPP_REGISTER_METHOD(0x002FD1E0, void, ctor, (app::FrameDelayTask * this_ptr, int32_t frames_delay))

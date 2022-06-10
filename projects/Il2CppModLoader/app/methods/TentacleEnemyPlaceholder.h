@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleEnemyPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00CFD240, app::LegacyEntity *, Instantiate, (app::TentacleEnemyPlaceholder * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::IgnoreGoThroughPlatforms {
     IL2CPP_REGISTER_METHOD(0x00627270, void, OnEnable, (app::IgnoreGoThroughPlatforms * this_ptr))

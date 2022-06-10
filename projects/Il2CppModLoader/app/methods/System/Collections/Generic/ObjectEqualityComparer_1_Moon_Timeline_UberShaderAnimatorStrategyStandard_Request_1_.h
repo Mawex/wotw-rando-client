@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1_ {
     IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals_1, (app::ObjectEqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyStandard_Request_1_ * this_ptr, app::UberShaderAnimatorStrategyStandard_Request_1_System_Object_ x, app::UberShaderAnimatorStrategyStandard_Request_1_System_Object_ y))

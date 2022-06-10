@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ {
     IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, ctor, (app::ReadOnlyCollection_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * this_ptr, app::IList_1_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * list))

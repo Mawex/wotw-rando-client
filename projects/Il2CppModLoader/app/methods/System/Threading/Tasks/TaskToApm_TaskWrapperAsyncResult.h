@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskToApm_TaskWrapperAsyncResult {
     IL2CPP_REGISTER_METHOD(0x010415E0, void, ctor, (app::TaskToApm_TaskWrapperAsyncResult * this_ptr, app::Task * task, app::Object * state, bool completed_synchronously))

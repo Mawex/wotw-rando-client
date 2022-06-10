@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathDocument {
     IL2CPP_REGISTER_METHOD(0x002FB950, app::XmlNameTable *, get_NameTable, (app::XPathDocument * this_ptr))

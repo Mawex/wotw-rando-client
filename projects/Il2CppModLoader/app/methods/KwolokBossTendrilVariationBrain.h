@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokBossTendrilVariationBrain {
     IL2CPP_REGISTER_METHOD(0x012F0C30, void, Start, (app::KwolokBossTendrilVariationBrain * this_ptr))

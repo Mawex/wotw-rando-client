@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::GZipFormatter {
     IL2CPP_REGISTER_METHOD(0x02B78A40, void, ctor_1, (app::GZipFormatter * this_ptr))

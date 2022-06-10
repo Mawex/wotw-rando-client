@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::LizardKamikazeAttackBehaviour {
     IL2CPP_REGISTER_METHOD(0x01106E50, bool, IsBlockingInterruption, (app::LizardKamikazeAttackBehaviour * this_ptr, app::EntityDamageEvent * damage_event, app::EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason))

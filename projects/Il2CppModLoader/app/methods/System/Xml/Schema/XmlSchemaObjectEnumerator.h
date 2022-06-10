@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaObjectEnumerator {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::XmlSchemaObjectEnumerator * this_ptr, app::IEnumerator * enumerator))

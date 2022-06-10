@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::Regex {
     IL2CPP_REGISTER_METHOD(0x025842D0, void, ctor_1, (app::Regex * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HierarchyDebugMenu_GameObjectItem {
     IL2CPP_REGISTER_METHOD(0x00B52660, void, ctor, (app::HierarchyDebugMenu_GameObjectItem * this_ptr, app::GameObject * go))

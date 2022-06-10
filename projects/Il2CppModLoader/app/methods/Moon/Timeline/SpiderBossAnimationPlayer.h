@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SpiderBossAnimationPlayer {
     IL2CPP_REGISTER_METHOD(0x00D059A0, void, OnStartPlayback, (app::SpiderBossAnimationPlayer * this_ptr, app::IContext * context))

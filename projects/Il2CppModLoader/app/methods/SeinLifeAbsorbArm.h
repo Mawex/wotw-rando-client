@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinLifeAbsorbArm {
     IL2CPP_REGISTER_METHOD(0x0088EB90, app::SeinLifeAbsorbSpell *, get_Spell, (app::SeinLifeAbsorbArm * this_ptr))

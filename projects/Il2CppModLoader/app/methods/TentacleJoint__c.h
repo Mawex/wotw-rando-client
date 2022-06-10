@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleJoint___c {
     IL2CPP_REGISTER_METHOD(0x010CE100, void, cctor, ())

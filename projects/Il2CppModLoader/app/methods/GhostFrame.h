@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostFrame {
     IL2CPP_REGISTER_METHOD(0x00E199E0, void, SaveToFile, (app::GhostFrame * this_ptr, app::BinaryWriter * binary_writer))

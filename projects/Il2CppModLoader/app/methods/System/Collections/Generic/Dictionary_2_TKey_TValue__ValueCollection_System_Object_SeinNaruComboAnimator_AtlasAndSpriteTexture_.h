@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System_Object_SeinNaruComboAnimator_AtlasAndSpriteTexture_ {
     IL2CPP_REGISTER_METHOD(0x026BB7E0, void, ctor, (app::Dictionary_2_TKey_TValue_ValueCollection_System_Object_SeinNaruComboAnimator_AtlasAndSpriteTexture_ * this_ptr, app::Dictionary_2_System_Object_SeinNaruComboAnimator_AtlasAndSpriteTexture_ * dictionary))

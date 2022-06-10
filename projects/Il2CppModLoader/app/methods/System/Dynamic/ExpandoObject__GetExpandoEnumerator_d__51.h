@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject__GetExpandoEnumerator_d__51 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::ExpandoObject_GetExpandoEnumerator_d_51 * this_ptr, int32_t __1__state))

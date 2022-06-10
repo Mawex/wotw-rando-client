@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DepthPrecullModifier {
     IL2CPP_REGISTER_METHOD(0x00B83D00, void, SetProperties, (app::DepthPrecullModifier * this_ptr))

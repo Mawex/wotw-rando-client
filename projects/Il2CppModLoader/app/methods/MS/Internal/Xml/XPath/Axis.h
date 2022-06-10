@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::Axis {
     IL2CPP_REGISTER_METHOD(0x021D8C00, void, ctor_1, (app::Axis * this_ptr, app::Axis_AxisType__Enum axis_type, app::AstNode * input, app::String * prefix, app::String * name, app::XPathNodeType__Enum nodetype))

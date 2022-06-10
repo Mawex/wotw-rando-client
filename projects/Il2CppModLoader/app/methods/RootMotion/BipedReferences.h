@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::BipedReferences {
     IL2CPP_REGISTER_METHOD(0x02201AC0, bool, get_isFilled, (app::BipedReferences * this_ptr))

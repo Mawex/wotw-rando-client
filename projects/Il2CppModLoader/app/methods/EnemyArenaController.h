@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnemyArenaController {
     IL2CPP_REGISTER_METHOD(0x00BFF2B0, bool, get_IsCompleted, (app::EnemyArenaController * this_ptr))

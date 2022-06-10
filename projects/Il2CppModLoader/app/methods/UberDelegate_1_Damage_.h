@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberDelegate_1_Damage_ {
     IL2CPP_REGISTER_METHOD(0x0225C400, void, Add, (app::UberDelegate_1_Damage_ * this_ptr, app::Action_1_Damage_ * act))

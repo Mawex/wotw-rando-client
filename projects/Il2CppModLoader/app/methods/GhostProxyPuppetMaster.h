@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostProxyPuppetMaster {
     IL2CPP_REGISTER_METHOD(0x002FB990, app::CharacterAnimationSystem *, IPuppetBase_get_Animation, (app::GhostProxyPuppetMaster * this_ptr))

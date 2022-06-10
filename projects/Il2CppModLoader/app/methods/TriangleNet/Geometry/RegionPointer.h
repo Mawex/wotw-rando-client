@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::RegionPointer {
     IL2CPP_REGISTER_METHOD(0x0261CB50, double, get_Area, (app::RegionPointer * this_ptr))

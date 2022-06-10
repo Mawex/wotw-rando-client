@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::Win32IPGlobalProperties {
     IL2CPP_REGISTER_METHOD(0x01BC98A0, void, FillTcpTable, (app::Win32IPGlobalProperties * this_ptr, app::List_1_System_Net_NetworkInformation_Win32IPGlobalProperties_Win32_MIB_TCPROW_ * * tab4, app::List_1_System_Net_NetworkInformation_Win32IPGlobalProperties_Win32_MIB_TCP6ROW_ * * tab6))

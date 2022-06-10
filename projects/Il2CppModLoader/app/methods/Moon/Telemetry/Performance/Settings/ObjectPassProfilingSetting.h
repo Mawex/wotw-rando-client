@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::ObjectPassProfilingSetting {
     IL2CPP_REGISTER_METHOD(0x00E3E530, app::ProfilingSettings_SettingType__Enum, get_SettingType, (app::ObjectPassProfilingSetting * this_ptr))

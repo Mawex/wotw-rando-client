@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Principal::GenericPrincipal {
     IL2CPP_REGISTER_METHOD(0x01E1C930, void, ctor, (app::GenericPrincipal * this_ptr, app::IIdentity * identity, app::String__Array * roles))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ParticleSystemVelocityAnimator {
     IL2CPP_REGISTER_METHOD(0x00446040, void, CacheOriginals, (app::ParticleSystemVelocityAnimator * this_ptr, app::ParticleSystem * particle_system_to_animate))

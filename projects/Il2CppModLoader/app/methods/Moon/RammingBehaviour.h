@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour {
     IL2CPP_REGISTER_METHOD(0x00805AA0, int32_t, get_GroundMask, ())

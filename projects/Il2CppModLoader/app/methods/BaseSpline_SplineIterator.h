@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BaseSpline_SplineIterator {
     IL2CPP_REGISTER_METHOD(0x00F89440, void, ctor, (app::BaseSpline_SplineIterator * this_ptr, app::BaseSpline * spline, bool reverse, int32_t startidx, int32_t endidx))

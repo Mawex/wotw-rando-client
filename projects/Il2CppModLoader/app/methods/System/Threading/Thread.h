@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Thread {
     IL2CPP_REGISTER_METHOD(0x023417A0, void, AsyncLocalSetCurrentCulture, (app::AsyncLocalValueChangedArgs_1_System_Globalization_CultureInfo_ args))

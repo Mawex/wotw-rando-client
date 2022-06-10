@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SetupStateModifierData {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Apply, (app::SetupStateModifierData * this_ptr, app::MoonReference_1_UnityEngine_GameObject_ * target, app::UberStateApplyContext__Enum context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::VisualDebug::ConcurrentBagPool_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02AF4640, void, ctor, (app::ConcurrentBagPool_1_System_Object_ * this_ptr, app::Func_1_Object_ * object_generator, int32_t initial_size, bool auto_change_size))

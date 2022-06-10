@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Playables::PlayableHandle {
     IL2CPP_REGISTER_METHOD(0x02964F40, app::PlayableHandle, get_Null, ())

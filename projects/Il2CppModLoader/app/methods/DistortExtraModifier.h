@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DistortExtraModifier {
     IL2CPP_REGISTER_METHOD(0x00B99C50, void, SetProperties, (app::DistortExtraModifier * this_ptr))

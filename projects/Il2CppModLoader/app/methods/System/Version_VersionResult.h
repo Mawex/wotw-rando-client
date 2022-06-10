@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Version_VersionResult {
     IL2CPP_REGISTER_METHOD(0x00249F60, void, Init, (app::Version_VersionResult__Boxed * this_ptr, app::String * argument_name, bool can_throw))

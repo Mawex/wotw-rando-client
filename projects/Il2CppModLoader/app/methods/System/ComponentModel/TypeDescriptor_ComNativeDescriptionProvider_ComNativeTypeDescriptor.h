@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_ComNativeDescriptionProvider_ComNativeTypeDescriptor {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::TypeDescriptor_ComNativeDescriptionProvider_ComNativeTypeDescriptor * this_ptr, app::IComNativeDescriptorHandler * handler, app::Object * instance))

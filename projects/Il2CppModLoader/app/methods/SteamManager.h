@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SteamManager {
     IL2CPP_REGISTER_METHOD(0x009BF2B0, app::SteamManager *, get_Instance, ())

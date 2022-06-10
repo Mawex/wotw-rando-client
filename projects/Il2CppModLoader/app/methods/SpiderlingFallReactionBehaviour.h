@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderlingFallReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x002FBC40, app::MoonTimeline *, get_EffectiveLandSequenceNew, (app::SpiderlingFallReactionBehaviour * this_ptr))

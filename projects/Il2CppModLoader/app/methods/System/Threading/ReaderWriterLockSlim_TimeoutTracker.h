@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::ReaderWriterLockSlim_TimeoutTracker {
     IL2CPP_REGISTER_METHOD(0x00240600, void, ctor, (app::ReaderWriterLockSlim_TimeoutTracker__Boxed * this_ptr, int32_t milliseconds_timeout))

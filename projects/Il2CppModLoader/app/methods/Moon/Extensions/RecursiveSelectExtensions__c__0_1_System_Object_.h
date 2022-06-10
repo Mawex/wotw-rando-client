@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Extensions::RecursiveSelectExtensions___c__0_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x019DE4F0, void, cctor, ())

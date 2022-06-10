@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::DeflateInput {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::Byte__Array *, get_Buffer, (app::DeflateInput * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::XR::TrackableId {
     IL2CPP_REGISTER_METHOD(0x0024AF50, app::String *, ToString, (app::TrackableId__Boxed * this_ptr))

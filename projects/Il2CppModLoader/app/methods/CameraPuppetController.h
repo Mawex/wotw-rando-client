@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraPuppetController {
     IL2CPP_REGISTER_METHOD(0x016A1240, float, get_DebugOverrideFOV, ())

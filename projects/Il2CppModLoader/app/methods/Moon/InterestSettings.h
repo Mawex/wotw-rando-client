@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::InterestSettings {
     IL2CPP_REGISTER_METHOD(0x01103530, void, GetDebugMenuItems, (app::InterestSettings * this_ptr, app::List_1_IDebugMenuItem_ * list, app::String * menu_name))

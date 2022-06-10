@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LightCanvas_SubLayerSettings {
     IL2CPP_REGISTER_METHOD(0x01145DA0, app::LightCanvas_SubLayerSettings *, get_ClipBoard, ())

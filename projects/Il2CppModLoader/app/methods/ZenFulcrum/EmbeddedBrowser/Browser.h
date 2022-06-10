@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::Browser {
     IL2CPP_REGISTER_METHOD(0x01C61210, void, add_onConsoleMessage, (app::Browser * this_ptr, app::Action_2_String_String_ * value))

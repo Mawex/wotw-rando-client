@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::StreamingContext {
     IL2CPP_REGISTER_METHOD(0x001D7E30, void, ctor_1, (app::StreamingContext__Boxed * this_ptr, app::StreamingContextStates__Enum state))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::CharUnicodeInfo {
     IL2CPP_REGISTER_METHOD(0x01A21B10, int32_t, InternalConvertToUtf32, (app::String * s, int32_t index))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::GradientRampDynamic {
     IL2CPP_REGISTER_METHOD(0x03045A90, void, Start, (app::GradientRampDynamic * this_ptr))

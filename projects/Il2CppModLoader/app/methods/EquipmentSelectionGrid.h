@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EquipmentSelectionGrid {
     IL2CPP_REGISTER_METHOD(0x00976AA0, void, UpdateItemProperties, (app::EquipmentSelectionGrid * this_ptr, app::Object * grid_context))

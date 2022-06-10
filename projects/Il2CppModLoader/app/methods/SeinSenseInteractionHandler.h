@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinSenseInteractionHandler {
     IL2CPP_REGISTER_METHOD(0x005D9710, void, Register, (app::ISenseInteractable * sense_interactable))

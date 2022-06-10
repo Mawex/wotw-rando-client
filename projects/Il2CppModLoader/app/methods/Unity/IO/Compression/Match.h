@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::Match {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, app::MatchState__Enum, get_State, (app::Match_1 * this_ptr))

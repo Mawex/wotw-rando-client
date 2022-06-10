@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ArithmeticException {
     IL2CPP_REGISTER_METHOD(0x02290D10, void, ctor_1, (app::ArithmeticException * this_ptr))

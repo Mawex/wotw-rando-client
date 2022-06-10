@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OverridableColorProperty {
     IL2CPP_REGISTER_METHOD(0x00443210, int32_t, get_ID, (app::OverridableColorProperty * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine_PhysicMaterial_SurfaceMaterialType_ {
     IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (app::Dictionary_2_UnityEngine_PhysicMaterial_SurfaceMaterialType_ * this_ptr, app::PhysicMaterial * key, app::SurfaceMaterialType__Enum value))

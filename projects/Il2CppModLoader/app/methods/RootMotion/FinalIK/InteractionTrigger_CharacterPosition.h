@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionTrigger_CharacterPosition {
     IL2CPP_REGISTER_METHOD(0x02A16B70, app::Vector3, get_offset3D, (app::InteractionTrigger_CharacterPosition * this_ptr))

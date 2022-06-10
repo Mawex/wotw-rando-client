@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnlockFullGameLogic {
     IL2CPP_REGISTER_METHOD(0x013AC460, void, FixedUpdate, (app::UnlockFullGameLogic * this_ptr))

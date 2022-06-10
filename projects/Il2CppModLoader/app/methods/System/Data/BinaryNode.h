@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::BinaryNode {
     IL2CPP_REGISTER_METHOD(0x01E3FFB0, void, ctor, (app::BinaryNode * this_ptr, app::DataTable * table, int32_t op, app::ExpressionNode * left, app::ExpressionNode * right))

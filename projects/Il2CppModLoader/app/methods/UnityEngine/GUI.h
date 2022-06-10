@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::GUI {
     IL2CPP_REGISTER_METHOD(0x029D8A00, void, cctor, ())

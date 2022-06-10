@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::KeyMappings {
     IL2CPP_REGISTER_METHOD(0x01DE8160, void, cctor, ())

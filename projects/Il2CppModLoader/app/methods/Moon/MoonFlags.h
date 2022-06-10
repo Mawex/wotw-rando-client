@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::MoonFlags {
     IL2CPP_REGISTER_METHOD(0x01119B40, bool, HasFlag, (app::GameObject * go, uint32_t flag))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GlobalRecordingTable {
     IL2CPP_REGISTER_METHOD(0x007F7BE0, void, AddEntry, (app::GlobalRecordingTable * this_ptr, app::GlobalRecordingTable_RecordableEntry * entry))

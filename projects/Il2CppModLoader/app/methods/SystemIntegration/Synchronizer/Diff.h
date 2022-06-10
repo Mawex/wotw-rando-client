@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Diff {
     IL2CPP_REGISTER_METHOD(0x00534B00, app::List_1_SystemIntegration_CacheData_ *, AwardedOnlyLocally, (app::IDataProvider * provider))

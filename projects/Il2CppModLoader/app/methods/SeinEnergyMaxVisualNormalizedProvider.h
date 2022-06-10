@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinEnergyMaxVisualNormalizedProvider {
     IL2CPP_REGISTER_METHOD(0x00AD07D0, float, GetFloatValue, (app::SeinEnergyMaxVisualNormalizedProvider * this_ptr))

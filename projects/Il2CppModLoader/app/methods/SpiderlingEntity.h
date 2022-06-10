@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderlingEntity {
     IL2CPP_REGISTER_METHOD(0x011C1220, app::GroundPatrolDirectionMode__Enum, get_MovementPattern, (app::SpiderlingEntity * this_ptr))

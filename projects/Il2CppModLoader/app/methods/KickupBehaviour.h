@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KickupBehaviour {
     IL2CPP_REGISTER_METHOD(0x00E72A70, void, OnInitializeTask, (app::KickupBehaviour * this_ptr, app::IContext * context))

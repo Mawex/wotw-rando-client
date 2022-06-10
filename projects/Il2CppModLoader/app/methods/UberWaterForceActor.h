@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberWaterForceActor {
     IL2CPP_REGISTER_METHOD(0x0129F010, void, Awake, (app::UberWaterForceActor * this_ptr))

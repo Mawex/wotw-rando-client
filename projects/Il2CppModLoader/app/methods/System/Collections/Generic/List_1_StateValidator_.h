@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_StateValidator_ {
     IL2CPP_REGISTER_METHOD(0x025ED850, app::List_1_T_Enumerator_StateValidator_, GetEnumerator, (app::List_1_StateValidator_ * this_ptr))

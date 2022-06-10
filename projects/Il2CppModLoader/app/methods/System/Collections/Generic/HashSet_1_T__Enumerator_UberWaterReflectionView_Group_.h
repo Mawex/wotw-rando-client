@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_T__Enumerator_UberWaterReflectionView_Group_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::UberWaterReflectionView_Group *, get_Current, (app::HashSet_1_T_Enumerator_UberWaterReflectionView_Group___Boxed * this_ptr))

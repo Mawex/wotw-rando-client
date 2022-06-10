@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumHelper_1_System_UInt32_ {
     IL2CPP_REGISTER_METHOD(0x02FF68C0, uint32_t, Cast_1, (bool value))

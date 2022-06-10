@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PhysicalSystemState {
     IL2CPP_REGISTER_METHOD(0x014FB5B0, void, Init, (app::PhysicalSystemState * this_ptr, app::PhysicalSystemManager * manager))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::StickSpawner {
     IL2CPP_REGISTER_METHOD(0x00E31ED0, app::Input_InputButtonProcessor *, get_ActivationButton, (app::StickSpawner * this_ptr))

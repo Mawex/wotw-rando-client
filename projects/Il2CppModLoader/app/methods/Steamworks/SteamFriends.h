@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamFriends {
     IL2CPP_REGISTER_METHOD(0x027E9BB0, app::String *, GetPersonaName, ())

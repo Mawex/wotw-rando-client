@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ScenesManagerHelper {
     IL2CPP_REGISTER_METHOD(0x010648E0, bool, LinecastIgnoringSand, (app::Vector3 p1, app::Vector3 p2, app::RaycastHit * hit_info, app::LayerMask raycast_mask))

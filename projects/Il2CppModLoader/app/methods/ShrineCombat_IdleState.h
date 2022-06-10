@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShrineCombat_IdleState {
     IL2CPP_REGISTER_METHOD(0x0073CAB0, void, ctor, (app::ShrineCombat_IdleState * this_ptr, app::ShrineCombat * combat_shrine))

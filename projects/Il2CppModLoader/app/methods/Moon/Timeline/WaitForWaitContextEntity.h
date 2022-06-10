@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::WaitForWaitContextEntity {
     IL2CPP_REGISTER_METHOD(0x008693A0, float, get_CurrentTime, (app::WaitForWaitContextEntity * this_ptr))

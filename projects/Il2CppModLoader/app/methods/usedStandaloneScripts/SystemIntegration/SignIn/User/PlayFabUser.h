@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::usedStandaloneScripts::SystemIntegration::SignIn::User::PlayFabUser {
     IL2CPP_REGISTER_METHOD(0x03127490, void, ctor, (app::PlayFabUser * this_ptr, app::LoginResult * login_result))

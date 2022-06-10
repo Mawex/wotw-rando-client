@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_TKey_TValue___GetEnumerator_d__32_System_Guid_System_Int32_ {
     IL2CPP_REGISTER_METHOD(0x01D09710, void, ctor, (app::ConcurrentDictionary_2_TKey_TValue_GetEnumerator_d_32_System_Guid_System_Int32_ * this_ptr, int32_t __1__state))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::JUnitReporter_TestCase {
     IL2CPP_REGISTER_METHOD(0x00649310, void, ctor, (app::JUnitReporter_TestCase * this_ptr, app::String * id, app::String * name))

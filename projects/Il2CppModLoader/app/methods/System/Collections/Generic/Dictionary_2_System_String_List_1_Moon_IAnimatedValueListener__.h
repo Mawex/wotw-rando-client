@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_String_List_1_Moon_IAnimatedValueListener__ {
     IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_System_String_List_1_Moon_IAnimatedValueListener_ * this_ptr, app::String * key, app::List_1_Moon_IAnimatedValueListener_ * * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MortarWormChargingState {
     IL2CPP_REGISTER_METHOD(0x0147FE90, void, ctor, (app::MortarWormChargingState * this_ptr, app::MortarWormEnemy * mortar_worm_enemy, app::TextureAnimationWithTransitions * charging, app::PrefabSpawner * charging_effect, app::SoundSource * charging_sound))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_2_UnityEngine_GameObject_System_Reflection_FieldInfo_ {
     IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (app::Action_2_UnityEngine_GameObject_System_Reflection_FieldInfo_ * this_ptr, app::GameObject * arg1, app::FieldInfo_1 * arg2))

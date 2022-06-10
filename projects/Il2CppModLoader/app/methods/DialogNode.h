@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DialogNode {
     IL2CPP_REGISTER_METHOD(0x00B900E0, app::IDialogActor *, get_Actor, (app::DialogNode * this_ptr))

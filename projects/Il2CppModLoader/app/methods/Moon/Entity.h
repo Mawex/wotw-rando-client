@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Entity {
     IL2CPP_REGISTER_METHOD(0x006FB810, int64_t, get_PlaceholderID, (app::Entity * this_ptr))

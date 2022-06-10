@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::DialogHandler {
     IL2CPP_REGISTER_METHOD(0x01DD4430, app::DialogHandler *, Create, (app::Browser * parent, app::DialogHandler_DialogCallback * dialog_callback, app::DialogHandler_MenuCallback * context_callback))

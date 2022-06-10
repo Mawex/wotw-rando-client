@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SoundZoneProcessor_Job {
     IL2CPP_REGISTER_METHOD(0x00EEFC40, app::PositionSyncTask__Array *, get_PositionTasks, ())

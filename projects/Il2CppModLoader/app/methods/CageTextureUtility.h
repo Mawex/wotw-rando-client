@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageTextureUtility {
     IL2CPP_REGISTER_METHOD(0x01680D30, app::CageTextureUtility_PointaState__Enum, GetPointState_1, (app::Vector3 point, app::Texture2D * texture, app::Bounds bounds))

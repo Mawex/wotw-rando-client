@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::Operator {
     IL2CPP_REGISTER_METHOD(0x0200ADC0, void, ctor, (app::Operator * this_ptr, app::Operator_Op__Enum op, app::AstNode * opnd1, app::AstNode * opnd2))

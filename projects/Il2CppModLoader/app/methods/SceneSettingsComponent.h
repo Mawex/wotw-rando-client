@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SceneSettingsComponent {
     IL2CPP_REGISTER_METHOD(0x00BBDFF0, app::SceneSettings *, get_GetSettings, (app::SceneSettingsComponent * this_ptr))

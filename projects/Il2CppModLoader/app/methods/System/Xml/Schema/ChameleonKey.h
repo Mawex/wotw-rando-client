@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ChameleonKey {
     IL2CPP_REGISTER_METHOD(0x019A9360, void, ctor, (app::ChameleonKey * this_ptr, app::String * ns, app::XmlSchema * original_schema))

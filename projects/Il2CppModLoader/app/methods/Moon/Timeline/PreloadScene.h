@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PreloadScene {
     IL2CPP_REGISTER_METHOD(0x0077CA30, void, OnEnable, (app::PreloadScene * this_ptr))

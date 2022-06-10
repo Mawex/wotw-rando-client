@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Text::EncoderFallbackBuffer {
     IL2CPP_REGISTER_METHOD(0x0244D220, void, Reset, (app::EncoderFallbackBuffer * this_ptr))

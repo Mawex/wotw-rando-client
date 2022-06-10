@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpringSeinTrigger {
     IL2CPP_REGISTER_METHOD(0x009A8A00, void, OnCollisionEnter, (app::SpringSeinTrigger * this_ptr, app::Collision * collision))

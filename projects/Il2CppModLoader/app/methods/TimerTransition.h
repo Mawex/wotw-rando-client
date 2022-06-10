@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimerTransition {
     IL2CPP_REGISTER_METHOD(0x010F9340, bool, ShouldTransition, (app::TimerTransition * this_ptr))

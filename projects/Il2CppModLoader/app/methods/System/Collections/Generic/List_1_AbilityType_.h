@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_AbilityType_ {
     IL2CPP_REGISTER_METHOD(0x02F51B80, app::List_1_T_Enumerator_AbilityType_, GetEnumerator, (app::List_1_AbilityType_ * this_ptr))

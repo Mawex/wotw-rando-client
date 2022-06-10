@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Buffer_1_System_Collections_Generic_KeyValuePair_2_ {
     IL2CPP_REGISTER_METHOD(0x00218BC0, void, ctor_1, (app::Buffer_1_System_Collections_Generic_KeyValuePair_2___Boxed * this_ptr, app::IEnumerable_1_KeyValuePair_2_System_Int32Enum_System_Object_ * source))

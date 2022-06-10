@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MeleeComboMove {
     IL2CPP_REGISTER_METHOD(0x01386280, void, ResetHitTracking, (app::MeleeComboMove * this_ptr))

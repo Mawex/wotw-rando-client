@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkBaseArray_1_AkReflectionPathInfo_ {
     IL2CPP_REGISTER_METHOD(0x019D7280, void, ctor, (app::AkBaseArray_1_AkReflectionPathInfo_ * this_ptr, int32_t capacity))

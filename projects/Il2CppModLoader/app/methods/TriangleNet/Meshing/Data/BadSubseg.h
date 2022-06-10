@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Data::BadSubseg {
     IL2CPP_REGISTER_METHOD(0x020D03A0, int32_t, GetHashCode, (app::BadSubseg * this_ptr))

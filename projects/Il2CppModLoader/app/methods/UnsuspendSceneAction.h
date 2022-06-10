@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnsuspendSceneAction {
     IL2CPP_REGISTER_METHOD(0x013AD8B0, void, Perform, (app::UnsuspendSceneAction * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerRequest_Context {
     IL2CPP_REGISTER_METHOD(0x01D4A310, app::ChannelBinding *, GetChannelBinding, (app::HttpListenerRequest_Context * this_ptr, app::ChannelBindingKind__Enum kind))

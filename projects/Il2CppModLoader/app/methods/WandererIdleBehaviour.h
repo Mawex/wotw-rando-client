@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WandererIdleBehaviour {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, OnResetTask, (app::WandererIdleBehaviour * this_ptr, app::IContext * context))

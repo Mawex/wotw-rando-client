@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::DesiredUberStateGeneric {
     IL2CPP_REGISTER_METHOD(0x01B619E0, void, ctor, (app::DesiredUberStateGeneric * this_ptr, app::IGenericUberState * uber_state, app::GameObject * owner, float desired_value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::DataViewSettingCollection {
     IL2CPP_REGISTER_METHOD(0x01F4BE20, void, ctor, (app::DataViewSettingCollection * this_ptr, app::DataViewManager * data_view_manager))

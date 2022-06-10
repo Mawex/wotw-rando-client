@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Index_IndexTree {
     IL2CPP_REGISTER_METHOD(0x01E3F860, void, ctor, (app::Index_IndexTree * this_ptr, app::Index * index))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ShowQuestEntity {
     IL2CPP_REGISTER_METHOD(0x00D02D50, void, OnEnable, (app::ShowQuestEntity * this_ptr))

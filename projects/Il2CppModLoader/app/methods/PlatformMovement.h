@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlatformMovement {
     IL2CPP_REGISTER_METHOD(0x011654C0, void, RefreshCapsulePropertiesCache, (app::PlatformMovement * this_ptr))

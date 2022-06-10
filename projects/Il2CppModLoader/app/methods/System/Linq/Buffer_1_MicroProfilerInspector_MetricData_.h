@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Buffer_1_MicroProfilerInspector_MetricData_ {
     IL2CPP_REGISTER_METHOD(0x00218B90, void, ctor, (app::Buffer_1_MicroProfilerInspector_MetricData___Boxed * this_ptr, app::IEnumerable_1_MicroProfilerInspector_MetricData_ * source))

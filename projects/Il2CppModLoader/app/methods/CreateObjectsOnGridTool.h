@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CreateObjectsOnGridTool {
     IL2CPP_REGISTER_METHOD(0x00DB7310, app::Shelf *, get_CurrentShelf, (app::CreateObjectsOnGridTool * this_ptr))

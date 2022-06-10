@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::RammingBehaviour_KnockbackState {
     IL2CPP_REGISTER_METHOD(0x00C525C0, void, ctor, (app::RammingBehaviour_KnockbackState * this_ptr, app::RammingBehaviour * behaviour))

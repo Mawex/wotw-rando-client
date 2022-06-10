@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AK::Wwise::Switch {
     IL2CPP_REGISTER_METHOD(0x008556D0, app::WwiseObjectType__Enum, get_WwiseObjectType, (app::Switch_1 * this_ptr))

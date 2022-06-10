@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::HebrewNumber {
     IL2CPP_REGISTER_METHOD(0x02613650, app::String *, ToString, (int32_t number))

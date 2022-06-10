@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AnimatingFloat {
     IL2CPP_REGISTER_METHOD(0x004FBCF0, bool, Update, (app::AnimatingFloat * this_ptr, float dt))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::AsyncProtocolRequest__StartOperation_d__23 {
     IL2CPP_REGISTER_METHOD(0x001DCE20, void, MoveNext, (app::AsyncProtocolRequest_StartOperation_d_23__Boxed * this_ptr))

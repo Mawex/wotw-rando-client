@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DashOwlEnemy {
     IL2CPP_REGISTER_METHOD(0x00DCD570, bool, CanBeOptimized, (app::DashOwlEnemy * this_ptr))

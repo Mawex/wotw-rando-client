@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OrbSpawner {
     IL2CPP_REGISTER_METHOD(0x0061AEE0, void, CopySettings, (app::OrbSpawner * this_ptr, app::OrbSpawner * other))

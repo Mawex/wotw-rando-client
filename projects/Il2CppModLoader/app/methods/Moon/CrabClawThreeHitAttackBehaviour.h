@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::CrabClawThreeHitAttackBehaviour {
     IL2CPP_REGISTER_METHOD(0x00CCC620, void, OnEnter, (app::CrabClawThreeHitAttackBehaviour * this_ptr, app::IContext * context))

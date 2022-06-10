@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseGameObjectSystem {
     IL2CPP_REGISTER_METHOD(0x027153E0, void, Initialize, (app::WwiseGameObjectSystem * this_ptr, app::AkWwiseInitializationSettings * config))

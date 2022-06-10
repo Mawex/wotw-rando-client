@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::AtomicBoolean {
     IL2CPP_REGISTER_METHOD(0x027D82B0, bool, TryRelaxedSet, (app::AtomicBoolean * this_ptr))

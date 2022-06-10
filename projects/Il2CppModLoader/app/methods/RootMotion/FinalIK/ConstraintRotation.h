@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::ConstraintRotation {
     IL2CPP_REGISTER_METHOD(0x020524D0, void, UpdateConstraint, (app::ConstraintRotation * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkipCutscene {
     IL2CPP_REGISTER_METHOD(0x006C0B30, app::List_1_ICondition_ *, get_ResolvedConditions, (app::SkipCutscene * this_ptr))

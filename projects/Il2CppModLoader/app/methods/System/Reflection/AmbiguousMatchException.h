@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::AmbiguousMatchException {
     IL2CPP_REGISTER_METHOD(0x02280F00, void, ctor_1, (app::AmbiguousMatchException * this_ptr))

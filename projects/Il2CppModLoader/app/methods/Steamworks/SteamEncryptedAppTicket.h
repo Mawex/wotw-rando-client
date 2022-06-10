@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamEncryptedAppTicket {
     IL2CPP_REGISTER_METHOD(0x016022C0, bool, BDecryptTicket, (app::Byte__Array * rgub_ticket_encrypted, uint32_t cub_ticket_encrypted, app::Byte__Array * rgub_ticket_decrypted, uint32_t * pcub_ticket_decrypted, app::Byte__Array * rgub_key, int32_t cub_key))

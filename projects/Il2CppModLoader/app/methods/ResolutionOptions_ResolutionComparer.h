@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ResolutionOptions_ResolutionComparer {
     IL2CPP_REGISTER_METHOD(0x009079F0, bool, Equals, (app::ResolutionOptions_ResolutionComparer * this_ptr, app::ResolutionOptions_ResolutionEntry * x, app::ResolutionOptions_ResolutionEntry * y))

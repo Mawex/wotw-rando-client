@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Algorithm::Incremental {
     IL2CPP_REGISTER_METHOD(0x02635A00, app::IMesh *, Triangulate, (app::Incremental * this_ptr, app::IList_1_TriangleNet_Geometry_Vertex_ * points, app::Configuration_1 * config))

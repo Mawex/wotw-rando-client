@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::UberStateSaveFileHandler {
     IL2CPP_REGISTER_METHOD(0x01B6D260, void, Save_1, (app::UberStateSaveFileHandler * this_ptr, app::UberStateValueStore * uber_state_value_store, app::String * path))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MinerDeathReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x01447940, void, OnInitializeTask, (app::MinerDeathReactionBehaviour * this_ptr, app::IContext * context))

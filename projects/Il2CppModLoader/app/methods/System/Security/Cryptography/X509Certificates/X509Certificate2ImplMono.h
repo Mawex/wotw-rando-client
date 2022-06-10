@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono {
     IL2CPP_REGISTER_METHOD(0x0194FC60, bool, get_IsValid, (app::X509Certificate2ImplMono * this_ptr))

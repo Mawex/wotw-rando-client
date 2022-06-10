@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::StringConverter {
     IL2CPP_REGISTER_METHOD(0x029AD260, bool, CanConvertFrom, (app::StringConverter * this_ptr, app::ITypeDescriptorContext * context, app::Type * source_type))

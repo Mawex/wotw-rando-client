@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::_PrivateImplementationDetails_ {
     IL2CPP_REGISTER_METHOD(0x004AB190, uint32_t, ComputeStringHash_1, (app::String * s))

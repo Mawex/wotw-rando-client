@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SelectedSaveValidCondition {
     IL2CPP_REGISTER_METHOD(0x00AB5750, bool, Validate, (app::SelectedSaveValidCondition * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayerPuppetAbilities {
     IL2CPP_REGISTER_METHOD(0x01427E20, bool, HasAbility, (app::PlayerPuppetAbilities * this_ptr, app::AbilityType__Enum ability_type))

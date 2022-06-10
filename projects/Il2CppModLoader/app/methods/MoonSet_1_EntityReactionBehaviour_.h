@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonSet_1_EntityReactionBehaviour_ {
     IL2CPP_REGISTER_METHOD(0x02AF7A10, void, PopulateFromList, (app::MoonSet_1_EntityReactionBehaviour_ * this_ptr, app::List_1_EntityReactionBehaviour_ * values))

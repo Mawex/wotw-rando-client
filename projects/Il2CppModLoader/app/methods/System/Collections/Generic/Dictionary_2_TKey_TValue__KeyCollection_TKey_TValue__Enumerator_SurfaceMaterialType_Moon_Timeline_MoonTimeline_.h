@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_TKey_TValue__Enumerator_SurfaceMaterialType_Moon_Timeline_MoonTimeline_ {
     IL2CPP_REGISTER_METHOD(0x00114150, app::SurfaceMaterialType__Enum, get_Current, (app::Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_SurfaceMaterialType_Moon_Timeline_MoonTimeline___Boxed * this_ptr))

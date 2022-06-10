@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlDecimalStorage {
     IL2CPP_REGISTER_METHOD(0x02851E00, void, ctor, (app::SqlDecimalStorage * this_ptr, app::DataColumn * column))

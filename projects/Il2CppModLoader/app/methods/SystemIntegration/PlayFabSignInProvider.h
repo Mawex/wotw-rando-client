@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::PlayFabSignInProvider {
     IL2CPP_REGISTER_METHOD(0x0051DAB0, bool, get_IsSignedIn, (app::PlayFabSignInProvider * this_ptr))

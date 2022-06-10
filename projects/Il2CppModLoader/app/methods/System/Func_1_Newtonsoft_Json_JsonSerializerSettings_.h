@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Func_1_Newtonsoft_Json_JsonSerializerSettings_ {
     IL2CPP_REGISTER_METHOD(0x01938310, app::JsonSerializerSettings *, Invoke, (app::Func_1_Newtonsoft_Json_JsonSerializerSettings_ * this_ptr))

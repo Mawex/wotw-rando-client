@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::BindingRestrictions_InstanceRestriction {
     IL2CPP_REGISTER_METHOD(0x01F892C0, void, ctor, (app::BindingRestrictions_InstanceRestriction * this_ptr, app::Expression * parameter, app::Object * instance))

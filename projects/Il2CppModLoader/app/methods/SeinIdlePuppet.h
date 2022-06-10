@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinIdlePuppet {
     IL2CPP_REGISTER_METHOD(0x0100D080, void, InstantiateLeaveTrails, (app::SeinIdlePuppet * this_ptr))

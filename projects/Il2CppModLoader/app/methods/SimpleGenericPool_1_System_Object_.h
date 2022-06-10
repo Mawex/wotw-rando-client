@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SimpleGenericPool_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x01D17E40, void, ctor, (app::SimpleGenericPool_1_System_Object_ * this_ptr, int32_t capacity))

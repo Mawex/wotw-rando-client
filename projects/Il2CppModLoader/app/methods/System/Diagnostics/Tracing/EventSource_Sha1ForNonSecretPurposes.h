@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSource_Sha1ForNonSecretPurposes {
     IL2CPP_REGISTER_METHOD(0x00154C30, void, Start, (app::EventSource_Sha1ForNonSecretPurposes__Boxed * this_ptr))

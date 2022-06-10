@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::fsBaseConverter {
     IL2CPP_REGISTER_METHOD(0x01507EA0, app::Object *, CreateInstance, (app::fsBaseConverter * this_ptr, app::fsData * data, app::Type * storage_type))

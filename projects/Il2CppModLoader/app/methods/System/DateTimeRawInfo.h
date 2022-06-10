@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::DateTimeRawInfo {
     IL2CPP_REGISTER_METHOD(0x00215B80, void, Init, (app::DateTimeRawInfo__Boxed * this_ptr, int32_t * number_buffer))

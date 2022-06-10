@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::FrameCounter {
     IL2CPP_REGISTER_METHOD(0x01489790, void, Awake, (app::FrameCounter_1 * this_ptr))

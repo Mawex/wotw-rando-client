@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::ObjectManager {
     IL2CPP_REGISTER_METHOD(0x01ED7C10, void, ctor, (app::ObjectManager * this_ptr, app::ISurrogateSelector * selector, app::StreamingContext context, bool check_security, bool is_cross_app_domain))

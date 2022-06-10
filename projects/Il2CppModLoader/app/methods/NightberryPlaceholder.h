@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NightberryPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00609740, void, FixedUpdate, (app::NightberryPlaceholder * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Jobs::IJobParallelForTransformExtensions_TransformParallelForLoopStruct_1_Moon_SimpleSwayBossAnimPostprocess_Job_ {
     IL2CPP_REGISTER_METHOD(0x02ACC6A0, void *, Initialize, ())

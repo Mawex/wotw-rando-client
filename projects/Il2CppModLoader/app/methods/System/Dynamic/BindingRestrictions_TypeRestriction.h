@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::BindingRestrictions_TypeRestriction {
     IL2CPP_REGISTER_METHOD(0x01F8A5D0, void, ctor, (app::BindingRestrictions_TypeRestriction * this_ptr, app::Expression * parameter, app::Type * type))

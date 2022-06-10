@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CspKeyContainerInfo {
     IL2CPP_REGISTER_METHOD(0x020D0390, void, ctor, (app::CspKeyContainerInfo * this_ptr, app::CspParameters * parameters))

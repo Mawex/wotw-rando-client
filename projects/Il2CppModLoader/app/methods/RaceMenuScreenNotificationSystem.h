@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RaceMenuScreenNotificationSystem {
     IL2CPP_REGISTER_METHOD(0x0070EBC0, void, ctor, (app::RaceMenuScreenNotificationSystem * this_ptr))

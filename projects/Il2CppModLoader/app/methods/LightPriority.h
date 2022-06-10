@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LightPriority {
     IL2CPP_REGISTER_METHOD(0x0114E930, app::Dictionary_2_LightPriority_Layer_System_Int32_ *, get_DarkeningErasingPriorityMap, ())

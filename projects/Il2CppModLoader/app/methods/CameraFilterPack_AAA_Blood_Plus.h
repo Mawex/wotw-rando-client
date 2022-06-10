@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_AAA_Blood_Plus {
     IL2CPP_REGISTER_METHOD(0x0273BBA0, app::Material *, get_material, (app::CameraFilterPack_AAA_Blood_Plus * this_ptr))

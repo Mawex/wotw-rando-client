@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::SkeetoLocomotion {
     IL2CPP_REGISTER_METHOD(0x00418200, app::SkeetoAirEntityMovementProcessor *, get_SkeetoMovementProcessor, (app::SkeetoLocomotion * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UberInteractionManager_ActorInfo_ {
     IL2CPP_REGISTER_METHOD(0x01CD2410, bool, Equals_1, (app::ObjectEqualityComparer_1_UberInteractionManager_ActorInfo_ * this_ptr, app::UberInteractionManager_ActorInfo x, app::UberInteractionManager_ActorInfo y))

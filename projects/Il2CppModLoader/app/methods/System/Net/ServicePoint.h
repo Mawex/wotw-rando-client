@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::ServicePoint {
     IL2CPP_REGISTER_METHOD(0x01BD4A90, void, ctor_1, (app::ServicePoint * this_ptr, app::Uri * uri, int32_t connection_limit, int32_t max_idle_time))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::GUIStyle_DirectConverter {
     IL2CPP_REGISTER_METHOD(0x0164C3E0, app::fsResult, DoSerialize, (app::GUIStyle_DirectConverter * this_ptr, app::GUIStyle * model, app::Dictionary_2_System_String_FullSerializer_fsData_ * serialized))

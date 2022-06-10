@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::PKCS1 {
     IL2CPP_REGISTER_METHOD(0x025D0AD0, bool, Compare_1, (app::Byte__Array * array1, app::Byte__Array * array2))

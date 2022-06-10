@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ {
     IL2CPP_REGISTER_METHOD(0x00133F90, app::InstantiateDebugUtility_InstanceInfo, get_Current, (app::List_1_T_Enumerator_InstantiateDebug_InstantiateDebugUtility_InstanceInfo___Boxed * this_ptr))

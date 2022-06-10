@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShellSlugShell {
     IL2CPP_REGISTER_METHOD(0x005B3ED0, void, ShatterEffectPrefabsInstantiation, (app::ShellSlugShell * this_ptr, app::List_1_DynamicInstantiationDescriptor_ * instantiations))

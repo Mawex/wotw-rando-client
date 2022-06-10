@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ProcessUtility {
     IL2CPP_REGISTER_METHOD(0x031918C0, app::String *, ExcecuteCommandLine, (app::String * application, app::String * arguments))

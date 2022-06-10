@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GuidOwner {
     IL2CPP_REGISTER_METHOD(0x01099210, app::MoonGuid *, GetGuid, (app::GuidOwner * this_ptr))

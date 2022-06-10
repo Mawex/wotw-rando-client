@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Drawing_Crosshatch {
     IL2CPP_REGISTER_METHOD(0x024F03F0, app::Material *, get_material, (app::CameraFilterPack_Drawing_Crosshatch * this_ptr))

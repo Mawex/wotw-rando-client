@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::QuestIconsUI {
     IL2CPP_REGISTER_METHOD(0x00E88290, app::GameObject *, get_ObjectiveMarker, (app::QuestIconsUI * this_ptr))

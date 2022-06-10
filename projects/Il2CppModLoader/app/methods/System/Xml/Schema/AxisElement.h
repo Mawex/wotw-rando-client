@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::AxisElement {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::DoubleLinkAxis *, get_CurNode, (app::AxisElement * this_ptr))

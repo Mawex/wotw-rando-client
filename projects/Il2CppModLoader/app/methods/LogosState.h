@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LogosState {
     IL2CPP_REGISTER_METHOD(0x009ECA10, void, OnEnterState, (app::LogosState * this_ptr))

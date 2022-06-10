@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ContextMenu {
     IL2CPP_REGISTER_METHOD(0x0242AD30, void, ctor_1, (app::ContextMenu * this_ptr, app::String * item_name))

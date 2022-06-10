@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::PetrifiedOwlDoubleClawBehaviour {
     IL2CPP_REGISTER_METHOD(0x00C33D90, void, OnStartBehaviour, (app::PetrifiedOwlDoubleClawBehaviour * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::SimpleType {
     IL2CPP_REGISTER_METHOD(0x01E4C230, void, ctor_1, (app::SimpleType * this_ptr, app::String * base_type))

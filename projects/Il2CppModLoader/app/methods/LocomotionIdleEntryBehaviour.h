@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LocomotionIdleEntryBehaviour {
     IL2CPP_REGISTER_METHOD(0x00FC77B0, void, OnInitializeTask, (app::LocomotionIdleEntryBehaviour * this_ptr, app::IContext * context))

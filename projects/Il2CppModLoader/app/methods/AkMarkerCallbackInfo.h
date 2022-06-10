@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkMarkerCallbackInfo {
     IL2CPP_REGISTER_METHOD(0x026F88A0, void, ctor_1, (app::AkMarkerCallbackInfo * this_ptr, void * c_ptr, bool c_memory_own))

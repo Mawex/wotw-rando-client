@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GameWorldArea {
     IL2CPP_REGISTER_METHOD(0x0040A2E0, app::Bounds, get_Bounds, (app::GameWorldArea * this_ptr))

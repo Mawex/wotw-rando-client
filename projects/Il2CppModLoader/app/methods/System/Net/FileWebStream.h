@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::FileWebStream {
     IL2CPP_REGISTER_METHOD(0x01D2BB10, void, ctor_1, (app::FileWebStream * this_ptr, app::FileWebRequest * request, app::String * path, app::FileMode__Enum mode, app::FileAccess__Enum access, app::FileShare__Enum sharing))

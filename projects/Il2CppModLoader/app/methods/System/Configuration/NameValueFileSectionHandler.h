@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Configuration::NameValueFileSectionHandler {
     IL2CPP_REGISTER_METHOD(0x02961ED0, void, ctor, (app::NameValueFileSectionHandler * this_ptr))

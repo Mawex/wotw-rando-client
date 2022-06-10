@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ToggleModifierTask {
     IL2CPP_REGISTER_METHOD(0x00CB3630, void, ctor, (app::ToggleModifierTask * this_ptr, app::UberShaderComponent * uber_shader, app::UberShaderModifier * modifier, bool modifier_state))

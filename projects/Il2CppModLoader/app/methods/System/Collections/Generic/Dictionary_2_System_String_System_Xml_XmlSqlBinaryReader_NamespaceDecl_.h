@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_String_System_Xml_XmlSqlBinaryReader_NamespaceDecl_ {
     IL2CPP_REGISTER_METHOD(0x0283AC50, void, ctor, (app::Dictionary_2_System_String_System_Xml_XmlSqlBinaryReader_NamespaceDecl_ * this_ptr, app::IEqualityComparer_1_System_String_ * comparer))

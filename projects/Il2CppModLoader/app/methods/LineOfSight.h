@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LineOfSight {
     IL2CPP_REGISTER_METHOD(0x00FA7080, bool, IsRayOccluded_1, (app::Vector3 origin, app::Vector3 dir, app::RaycastHit * hit, float dist, app::LayerMask mask, app::QueryTriggerInteraction__Enum trigger))

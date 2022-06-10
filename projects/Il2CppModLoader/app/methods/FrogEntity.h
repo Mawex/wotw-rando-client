@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FrogEntity {
     IL2CPP_REGISTER_METHOD(0x01646F60, bool, CanAnySeeCharacter, (app::FrogEntity * this_ptr))

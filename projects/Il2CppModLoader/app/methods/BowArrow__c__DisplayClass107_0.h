@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BowArrow___c__DisplayClass107_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::BowArrow_c_DisplayClass107_0 * this_ptr))

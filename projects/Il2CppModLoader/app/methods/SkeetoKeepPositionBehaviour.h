@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkeetoKeepPositionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00758140, void, OnEntityInitialized, (app::SkeetoKeepPositionBehaviour * this_ptr))

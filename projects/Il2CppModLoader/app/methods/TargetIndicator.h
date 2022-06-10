@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TargetIndicator {
     IL2CPP_REGISTER_METHOD(0x00CE2970, void, Start, (app::TargetIndicator * this_ptr))

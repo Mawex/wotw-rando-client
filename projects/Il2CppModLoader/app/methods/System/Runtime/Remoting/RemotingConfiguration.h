@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::RemotingConfiguration {
     IL2CPP_REGISTER_METHOD(0x02320D70, app::String *, get_ApplicationName, ())

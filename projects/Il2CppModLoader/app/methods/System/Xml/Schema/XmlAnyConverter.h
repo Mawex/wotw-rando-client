@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlAnyConverter {
     IL2CPP_REGISTER_METHOD(0x02236CC0, void, ctor, (app::XmlAnyConverter * this_ptr, app::XmlTypeCode__Enum type_code))

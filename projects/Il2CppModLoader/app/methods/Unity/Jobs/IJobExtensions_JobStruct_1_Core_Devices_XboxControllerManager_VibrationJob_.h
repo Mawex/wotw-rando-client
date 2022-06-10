@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobExtensions_JobStruct_1_Core_Devices_XboxControllerManager_VibrationJob_ {
     IL2CPP_REGISTER_METHOD(0x022655A0, void *, Initialize, ())

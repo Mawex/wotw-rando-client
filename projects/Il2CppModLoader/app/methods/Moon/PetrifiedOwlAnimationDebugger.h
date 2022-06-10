@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::PetrifiedOwlAnimationDebugger {
     IL2CPP_REGISTER_METHOD(0x00C33510, void, OnEnable, (app::PetrifiedOwlAnimationDebugger * this_ptr))

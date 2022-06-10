@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Contexts::CrossContextChannel_ContextRestoreSink {
     IL2CPP_REGISTER_METHOD(0x00522850, void, ctor, (app::CrossContextChannel_ContextRestoreSink * this_ptr, app::IMessageSink * next, app::Context * context, app::IMessage * call))

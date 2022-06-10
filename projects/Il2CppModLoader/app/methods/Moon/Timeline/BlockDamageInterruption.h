@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::BlockDamageInterruption {
     IL2CPP_REGISTER_METHOD(0x002FBBE0, app::Action_1_DamageWeightMask_ *, get_EventStart, (app::BlockDamageInterruption * this_ptr))

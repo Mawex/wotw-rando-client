@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::CategoryAttribute {
     IL2CPP_REGISTER_METHOD(0x024A6000, app::CategoryAttribute *, get_Action, ())

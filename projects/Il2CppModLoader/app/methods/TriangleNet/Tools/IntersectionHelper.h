@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::IntersectionHelper {
     IL2CPP_REGISTER_METHOD(0x02A96E40, void, IntersectSegments, (app::Point * p0, app::Point * p1, app::Point * q0, app::Point * q1, app::Point * * c0))

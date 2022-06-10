@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_SimpleGenericPool_1_PoolItem_ {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose_1, (app::Array_EmptyInternalEnumerator_1_SimpleGenericPool_1_PoolItem_ * this_ptr))

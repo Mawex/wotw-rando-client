@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ImGuiManager {
     IL2CPP_REGISTER_METHOD(0x01989CA0, void, Awake, (app::ImGuiManager * this_ptr))

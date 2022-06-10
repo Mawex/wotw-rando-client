@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::AttributeHelperEngine {
     IL2CPP_REGISTER_METHOD(0x0241E7B0, app::Type *, GetParentTypeDisallowingMultipleInclusion, (app::Type * type))

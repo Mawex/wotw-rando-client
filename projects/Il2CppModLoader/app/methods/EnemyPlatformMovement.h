@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnemyPlatformMovement {
     IL2CPP_REGISTER_METHOD(0x00417FF0, float, get_OnGroundSpeedTreshold, (app::EnemyPlatformMovement * this_ptr))

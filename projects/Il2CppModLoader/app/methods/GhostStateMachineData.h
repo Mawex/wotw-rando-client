@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostStateMachineData {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::MoonGuid *, get_Guid, (app::GhostStateMachineData * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::PhysicMaterial {
     IL2CPP_REGISTER_METHOD(0x030A3870, void, ctor, (app::PhysicMaterial * this_ptr))

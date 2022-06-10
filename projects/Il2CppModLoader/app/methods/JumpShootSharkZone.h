@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::JumpShootSharkZone {
     IL2CPP_REGISTER_METHOD(0x00E4FA00, void, OnTriggerStay, (app::JumpShootSharkZone * this_ptr, app::Collider * collider))

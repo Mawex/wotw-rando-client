@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::TimeSpanFormat_FormatLiterals {
     IL2CPP_REGISTER_METHOD(0x001D3A80, app::String *, get_Start, (app::TimeSpanFormat_FormatLiterals__Boxed * this_ptr))

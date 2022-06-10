@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Brain___c {
     IL2CPP_REGISTER_METHOD(0x00CC0370, void, cctor, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WandererInteractionBehaviour {
     IL2CPP_REGISTER_METHOD(0x008C8600, void, OnEntityInitialized, (app::WandererInteractionBehaviour * this_ptr))

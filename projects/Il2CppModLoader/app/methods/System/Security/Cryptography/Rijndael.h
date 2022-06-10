@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::Rijndael {
     IL2CPP_REGISTER_METHOD(0x028EFAC0, void, ctor, (app::Rijndael * this_ptr))

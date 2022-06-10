@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Race::Networking::WebService {
     IL2CPP_REGISTER_METHOD(0x00C454F0, app::ReplayData *, GetReplay, (app::String * race_name, app::String * player_id))

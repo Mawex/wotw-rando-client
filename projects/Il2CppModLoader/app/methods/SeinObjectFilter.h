@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinObjectFilter {
     IL2CPP_REGISTER_METHOD(0x008AF110, bool, Valid, (app::SeinObjectFilter * this_ptr, app::GameObject * game_object))

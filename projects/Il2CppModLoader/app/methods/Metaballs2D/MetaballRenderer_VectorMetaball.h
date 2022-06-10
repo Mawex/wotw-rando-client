@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Metaballs2D::MetaballRenderer_VectorMetaball {
     IL2CPP_REGISTER_METHOD(0x00F28550, app::Vector2, get_Position, (app::MetaballRenderer_VectorMetaball * this_ptr))

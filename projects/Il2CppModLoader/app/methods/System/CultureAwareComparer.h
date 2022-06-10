@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::CultureAwareComparer {
     IL2CPP_REGISTER_METHOD(0x028A0750, void, ctor, (app::CultureAwareComparer * this_ptr, app::CultureInfo * culture, bool ignore_case))

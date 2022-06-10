@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::ButtonInteractionTransition {
     IL2CPP_REGISTER_METHOD(0x003FC7F0, app::InteractionBidingButton__Enum, get_Button, (app::ButtonInteractionTransition * this_ptr))

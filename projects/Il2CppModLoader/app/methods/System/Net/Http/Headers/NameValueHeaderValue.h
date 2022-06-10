@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::NameValueHeaderValue {
     IL2CPP_REGISTER_METHOD(0x02D101C0, void, ctor_1, (app::NameValueHeaderValue * this_ptr, app::NameValueHeaderValue * source))

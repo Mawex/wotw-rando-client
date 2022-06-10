@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::ChannelData {
     IL2CPP_REGISTER_METHOD(0x01A99A40, app::ArrayList *, get_ServerProviders, (app::ChannelData * this_ptr))

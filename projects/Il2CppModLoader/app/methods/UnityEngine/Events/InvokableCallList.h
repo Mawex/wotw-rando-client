@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::InvokableCallList {
     IL2CPP_REGISTER_METHOD(0x0242EF00, void, ctor, (app::InvokableCallList * this_ptr))

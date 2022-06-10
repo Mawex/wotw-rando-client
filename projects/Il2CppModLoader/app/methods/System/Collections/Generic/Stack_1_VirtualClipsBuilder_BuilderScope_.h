@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_VirtualClipsBuilder_BuilderScope_ {
     IL2CPP_REGISTER_METHOD(0x02CF7F30, app::VirtualClipsBuilder_BuilderScope *, Peek, (app::Stack_1_VirtualClipsBuilder_BuilderScope_ * this_ptr))

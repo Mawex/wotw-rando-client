@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkBankManager_AsyncBankHandle {
     IL2CPP_REGISTER_METHOD(0x0239A1A0, void, ctor, (app::AkBankManager_AsyncBankHandle * this_ptr, app::String * name, app::AkCallbackManager_BankCallback * callback))

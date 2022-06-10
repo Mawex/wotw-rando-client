@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::GrdkAchievements {
     IL2CPP_REGISTER_METHOD(0x0052BB80, app::String *, get_Name, (app::GrdkAchievements * this_ptr))

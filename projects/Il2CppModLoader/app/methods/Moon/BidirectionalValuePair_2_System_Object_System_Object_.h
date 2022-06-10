@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BidirectionalValuePair_2_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::Object *, get_FirstValue, (app::BidirectionalValuePair_2_System_Object_System_Object___Boxed * this_ptr))

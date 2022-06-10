@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UpgradablePropertyLevel {
     IL2CPP_REGISTER_METHOD(0x013AE020, bool, HasProperty, (app::UpgradablePropertyLevel * this_ptr, app::UpgradablePropertyType__Enum property_type))

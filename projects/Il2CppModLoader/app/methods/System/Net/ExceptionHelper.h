@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::ExceptionHelper {
     IL2CPP_REGISTER_METHOD(0x01D27350, app::NotImplementedException *, get_MethodNotImplementedException, ())

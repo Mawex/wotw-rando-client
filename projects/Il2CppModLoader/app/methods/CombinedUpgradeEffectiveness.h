@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CombinedUpgradeEffectiveness {
     IL2CPP_REGISTER_METHOD(0x011DE590, app::Single__Array *, GetForType, (app::CombinedUpgradeEffectiveness * this_ptr, app::CombinedUpgradeEffectiveness_UpgradableAbilityType__Enum type))

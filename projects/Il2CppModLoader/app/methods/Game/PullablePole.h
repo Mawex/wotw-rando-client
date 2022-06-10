@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Game::PullablePole {
     IL2CPP_REGISTER_METHOD(0x015273C0, void, OnGrabbed, (app::PullablePole * this_ptr))

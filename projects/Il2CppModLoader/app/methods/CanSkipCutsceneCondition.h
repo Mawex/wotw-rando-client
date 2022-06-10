@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CanSkipCutsceneCondition {
     IL2CPP_REGISTER_METHOD(0x00B22180, bool, Validate, (app::CanSkipCutsceneCondition * this_ptr, app::IContext * context))

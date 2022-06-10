@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HueShiftModifier {
     IL2CPP_REGISTER_METHOD(0x00B6FC80, void, SetProperties, (app::HueShiftModifier * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedPlant {
     IL2CPP_REGISTER_METHOD(0x014E92D0, void, Awake, (app::PetrifiedPlant * this_ptr))

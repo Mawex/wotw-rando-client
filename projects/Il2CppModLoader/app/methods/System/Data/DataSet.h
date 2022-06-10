@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::DataSet {
     IL2CPP_REGISTER_METHOD(0x017E2750, void, ctor_1, (app::DataSet * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RayCastManager {
     IL2CPP_REGISTER_METHOD(0x0072FBC0, app::RaycastCommand, get_InvalidCmd, (app::RayCastManager * this_ptr))

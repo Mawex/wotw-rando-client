@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Permissions::SecurityPermission {
     IL2CPP_REGISTER_METHOD(0x01E1B0F0, void, ctor_1, (app::SecurityPermission * this_ptr, app::PermissionState__Enum state))

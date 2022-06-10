@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::InputField__CaretBlink_c__Iterator0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::InputField_CaretBlink_c_Iterator0 * this_ptr))

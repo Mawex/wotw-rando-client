@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::EarlyZReconstructionProfilingSetting {
     IL2CPP_REGISTER_METHOD(0x008556D0, app::ProfilingSettings_SettingType__Enum, get_SettingType, (app::EarlyZReconstructionProfilingSetting * this_ptr))

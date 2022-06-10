@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinPrefabFactory {
     IL2CPP_REGISTER_METHOD(0x002FB9A0, void, SetReferenceToSein, (app::SeinPrefabFactory * this_ptr, app::SeinCharacter * sein))

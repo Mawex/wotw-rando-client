@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::UnexceptionalStreamWriter {
     IL2CPP_REGISTER_METHOD(0x02389090, void, ctor, (app::UnexceptionalStreamWriter * this_ptr, app::Stream * stream, app::Encoding * encoding))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::ActivatedClientTypeEntry {
     IL2CPP_REGISTER_METHOD(0x01A97590, void, ctor, (app::ActivatedClientTypeEntry * this_ptr, app::String * type_name, app::String * assembly_name, app::String * app_url))

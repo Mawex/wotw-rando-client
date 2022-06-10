@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::CharMetaData {
     IL2CPP_REGISTER_METHOD(0x00123DF0, app::String *, ToString, (app::CharMetaData__Boxed * this_ptr))

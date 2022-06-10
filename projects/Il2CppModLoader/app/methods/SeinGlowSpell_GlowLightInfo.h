@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinGlowSpell_GlowLightInfo {
     IL2CPP_REGISTER_METHOD(0x003FC830, app::SeinGlowSpell_GlowType__Enum, get_GlowType, (app::SeinGlowSpell_GlowLightInfo * this_ptr))

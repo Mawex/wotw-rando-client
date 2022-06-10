@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::RectMask2D {
     IL2CPP_REGISTER_METHOD(0x02664160, void, ctor, (app::RectMask2D * this_ptr))

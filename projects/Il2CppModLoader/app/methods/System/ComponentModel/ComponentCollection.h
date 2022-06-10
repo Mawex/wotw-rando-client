@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ComponentCollection {
     IL2CPP_REGISTER_METHOD(0x024A97C0, void, ctor, (app::ComponentCollection * this_ptr, app::IComponent__Array * components))

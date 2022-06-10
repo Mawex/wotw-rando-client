@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::AllConditions {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor_1, (app::AllConditions * this_ptr, app::ICondition__Array * conditions))

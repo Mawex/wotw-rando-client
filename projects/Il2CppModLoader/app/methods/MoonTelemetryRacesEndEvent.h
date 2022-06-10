@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryRacesEndEvent {
     IL2CPP_REGISTER_METHOD(0x01470E30, void, ctor, (app::MoonTelemetryRacesEndEvent * this_ptr, float time, int32_t place, app::ITrialData * data))

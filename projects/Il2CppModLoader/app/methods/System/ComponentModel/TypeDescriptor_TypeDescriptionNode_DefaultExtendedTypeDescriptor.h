@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TypeDescriptor_TypeDescriptionNode_DefaultExtendedTypeDescriptor {
     IL2CPP_REGISTER_METHOD(0x00110270, void, ctor, (app::TypeDescriptor_TypeDescriptionNode_DefaultExtendedTypeDescriptor__Boxed * this_ptr, app::TypeDescriptor_TypeDescriptionNode * node, app::Object * instance))

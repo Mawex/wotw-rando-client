@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::RegexMatchTimeoutException {
     IL2CPP_REGISTER_METHOD(0x025959D0, void, ctor_1, (app::RegexMatchTimeoutException * this_ptr, app::String * regex_input, app::String * regex_pattern, app::TimeSpan match_timeout))

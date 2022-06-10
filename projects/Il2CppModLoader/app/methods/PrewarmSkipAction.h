@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PrewarmSkipAction {
     IL2CPP_REGISTER_METHOD(0x00C738A0, void, Perform, (app::PrewarmSkipAction * this_ptr, app::IContext * context))

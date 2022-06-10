@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_UnityEngine_RaycastHit_ {
     IL2CPP_REGISTER_METHOD(0x00138150, app::RaycastHit, get_Current, (app::List_1_T_Enumerator_UnityEngine_RaycastHit___Boxed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BaseAnimatorSerializer {
     IL2CPP_REGISTER_METHOD(0x00F85D70, void, OnValidate, (app::BaseAnimatorSerializer * this_ptr))

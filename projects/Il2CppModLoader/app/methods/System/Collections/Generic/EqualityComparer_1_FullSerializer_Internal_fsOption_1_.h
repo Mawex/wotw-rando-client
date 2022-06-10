@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_FullSerializer_Internal_fsOption_1_ {
     IL2CPP_REGISTER_METHOD(0x02807CD0, app::EqualityComparer_1_FullSerializer_Internal_fsOption_1_ *, get_Default, ())

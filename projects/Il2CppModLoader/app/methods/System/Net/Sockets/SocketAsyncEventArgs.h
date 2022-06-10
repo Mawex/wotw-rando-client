@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::SocketAsyncEventArgs {
     IL2CPP_REGISTER_METHOD(0x002FB990, app::Socket *, get_AcceptSocket, (app::SocketAsyncEventArgs * this_ptr))

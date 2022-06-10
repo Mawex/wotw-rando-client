@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KamikazeSkeetoDiveAttackBehaviour {
     IL2CPP_REGISTER_METHOD(0x00E5BF60, app::KamikazeSkeetoDiveAttackBehaviour_DiveAttackState__Enum, get_State, (app::KamikazeSkeetoDiveAttackBehaviour * this_ptr))

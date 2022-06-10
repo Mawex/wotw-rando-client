@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine_Experimental_XR_SessionTrackingStateChangedEventArgs_ {
     IL2CPP_REGISTER_METHOD(0x01D247B0, void, Invoke, (app::Action_1_UnityEngine_Experimental_XR_SessionTrackingStateChangedEventArgs_ * this_ptr, app::SessionTrackingStateChangedEventArgs obj))

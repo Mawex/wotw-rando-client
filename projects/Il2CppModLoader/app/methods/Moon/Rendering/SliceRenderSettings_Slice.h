@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::SliceRenderSettings_Slice {
     IL2CPP_REGISTER_METHOD(0x00120380, void, Lerp, (app::SliceRenderSettings_Slice__Boxed * this_ptr, app::SliceRenderSettings_Slice from, app::SliceRenderSettings_Slice to, float t))

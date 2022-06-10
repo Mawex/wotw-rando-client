@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinNaruComboAnimator {
     IL2CPP_REGISTER_METHOD(0x008ADB50, app::AtlasSpriteTexture *, get_NaruCurrentTexture, (app::SeinNaruComboAnimator * this_ptr))

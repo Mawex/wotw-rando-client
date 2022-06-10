@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TurbulenceRotationModifier__GetBaseVertexTextureNames_d__11 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::TurbulenceRotationModifier_GetBaseVertexTextureNames_d_11 * this_ptr, int32_t __1__state))

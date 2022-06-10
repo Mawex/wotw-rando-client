@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyDictionary_2_TKey_TValue__DictionaryEnumerator_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x002238A0, app::DictionaryEntry, get_Entry, (app::ReadOnlyDictionary_2_TKey_TValue_DictionaryEnumerator_System_Object_System_Object___Boxed * this_ptr))

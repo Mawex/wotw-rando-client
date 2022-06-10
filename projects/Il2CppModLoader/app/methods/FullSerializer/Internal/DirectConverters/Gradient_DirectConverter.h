@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::Gradient_DirectConverter {
     IL2CPP_REGISTER_METHOD(0x0164ED90, app::fsResult, DoSerialize, (app::Gradient_DirectConverter * this_ptr, app::Gradient * model, app::Dictionary_2_System_String_FullSerializer_fsData_ * serialized))

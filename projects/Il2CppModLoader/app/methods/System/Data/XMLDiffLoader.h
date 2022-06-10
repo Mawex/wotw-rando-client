@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::XMLDiffLoader {
     IL2CPP_REGISTER_METHOD(0x023D0AD0, void, LoadDiffGram_1, (app::XMLDiffLoader * this_ptr, app::DataSet * ds, app::XmlReader * data_text_reader))

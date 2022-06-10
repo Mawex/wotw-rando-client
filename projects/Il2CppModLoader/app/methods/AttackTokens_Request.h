@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AttackTokens_Request {
     IL2CPP_REGISTER_METHOD(0x0011A6A0, void, ctor, (app::AttackTokens_Request__Boxed * this_ptr, app::IAttackTokenHolder * holder))

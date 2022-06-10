@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SneezeSlugBurrowBehaviour {
     IL2CPP_REGISTER_METHOD(0x00ED5050, bool, IsBlockingInterruption, (app::SneezeSlugBurrowBehaviour * this_ptr, app::EntityDamageEvent * damage_event, app::EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason))

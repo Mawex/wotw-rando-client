@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension {
     IL2CPP_REGISTER_METHOD(0x021D4A00, void, ctor, (app::X509EnhancedKeyUsageExtension * this_ptr, app::AsnEncodedData * encoded_enhanced_key_usages, bool critical))

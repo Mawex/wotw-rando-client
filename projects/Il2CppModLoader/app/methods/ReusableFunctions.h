@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ReusableFunctions {
     IL2CPP_REGISTER_METHOD(0x0090FAA0, app::List_1_UnityEngine_Vector3_ *, GenerateVerticesFromPointList, (app::List_1_UnityEngine_Vector3_ * points, float thickness))

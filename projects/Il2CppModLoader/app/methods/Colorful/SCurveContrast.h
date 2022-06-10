@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::SCurveContrast {
     IL2CPP_REGISTER_METHOD(0x0304D5B0, void, OnRenderImage, (app::SCurveContrast * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

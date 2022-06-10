@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::RenderPipelineManager {
     IL2CPP_REGISTER_METHOD(0x02523610, app::IRenderPipeline *, get_currentPipeline, ())

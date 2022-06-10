@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AnimationMetaData {
     IL2CPP_REGISTER_METHOD(0x004FCA50, int32_t, get_FrameCount, (app::AnimationMetaData * this_ptr))

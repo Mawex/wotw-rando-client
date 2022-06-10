@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::InputField_OnChangeEvent {
     IL2CPP_REGISTER_METHOD(0x024CE820, void, ctor, (app::InputField_OnChangeEvent * this_ptr))

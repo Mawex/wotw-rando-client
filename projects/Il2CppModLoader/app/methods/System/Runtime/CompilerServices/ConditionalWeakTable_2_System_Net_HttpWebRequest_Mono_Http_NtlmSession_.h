@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConditionalWeakTable_2_System_Net_HttpWebRequest_Mono_Http_NtlmSession_ {
     IL2CPP_REGISTER_METHOD(0x02771670, app::NtlmSession *, GetValue, (app::ConditionalWeakTable_2_System_Net_HttpWebRequest_Mono_Http_NtlmSession_ * this_ptr, app::HttpWebRequest * key, app::ConditionalWeakTable_2_TKey_TValue_CreateValueCallback_System_Net_HttpWebRequest_Mono_Http_NtlmSession_ * create_value_callback))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::LocatedActiveAxis {
     IL2CPP_REGISTER_METHOD(0x002FB970, int32_t, get_Column, (app::LocatedActiveAxis * this_ptr))

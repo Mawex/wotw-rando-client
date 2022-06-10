@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStateAreaMapInformation {
     IL2CPP_REGISTER_METHOD(0x00F35560, int64_t, get_Size, (app::PlayerUberStateAreaMapInformation * this_ptr))

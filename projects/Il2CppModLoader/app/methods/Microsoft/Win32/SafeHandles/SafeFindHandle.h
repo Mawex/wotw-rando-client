@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::SafeHandles::SafeFindHandle {
     IL2CPP_REGISTER_METHOD(0x02172280, void, ctor, (app::SafeFindHandle * this_ptr, void * preexisting_handle))

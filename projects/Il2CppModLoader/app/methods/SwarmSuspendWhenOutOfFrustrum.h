@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SwarmSuspendWhenOutOfFrustrum {
     IL2CPP_REGISTER_METHOD(0x01825520, app::Bounds, get_Bounds, (app::SwarmSuspendWhenOutOfFrustrum * this_ptr))

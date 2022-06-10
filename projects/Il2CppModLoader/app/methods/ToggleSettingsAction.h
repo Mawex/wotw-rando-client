@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ToggleSettingsAction {
     IL2CPP_REGISTER_METHOD(0x00AFD570, void, Perform, (app::ToggleSettingsAction * this_ptr, app::IContext * context))

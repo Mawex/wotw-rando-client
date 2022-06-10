@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::WebConnectionStream___c__DisplayClass76_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::WebConnectionStream_c_DisplayClass76_0 * this_ptr))

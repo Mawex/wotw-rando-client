@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberShaderVectorDisplay {
     IL2CPP_REGISTER_METHOD(0x0128A000, bool, get_DisplayX, (app::UberShaderVectorDisplay * this_ptr))

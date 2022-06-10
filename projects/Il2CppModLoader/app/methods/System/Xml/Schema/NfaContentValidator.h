@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::NfaContentValidator {
     IL2CPP_REGISTER_METHOD(0x016D0120, void, ctor, (app::NfaContentValidator * this_ptr, app::BitSet * firstpos, app::BitSet__Array * followpos, app::SymbolsDictionary * symbols, app::Positions * positions, int32_t end_marker_pos, app::XmlSchemaContentType__Enum content_type, bool is_open, bool is_emptiable))

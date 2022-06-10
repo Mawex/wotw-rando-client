@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_Moon_BehaviourSystem_UtilitySelectorNode_NodeUtility_ {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (app::Array_EmptyInternalEnumerator_1_Moon_BehaviourSystem_UtilitySelectorNode_NodeUtility_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_decimal {
     IL2CPP_REGISTER_METHOD(0x0235B710, app::XmlValueConverter *, CreateValueConverter, (app::Datatype_decimal * this_ptr, app::XmlSchemaType * schema_type))

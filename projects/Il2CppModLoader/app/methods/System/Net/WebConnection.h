@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::WebConnection {
     IL2CPP_REGISTER_METHOD(0x002FBBA0, app::MonoChunkStream *, get_MonoChunkStream, (app::WebConnection * this_ptr))

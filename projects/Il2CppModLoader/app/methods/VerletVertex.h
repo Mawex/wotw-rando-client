@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::VerletVertex {
     IL2CPP_REGISTER_METHOD(0x013D3D90, void, Set, (app::VerletVertex * this_ptr, app::VerletVertex * verlet_vertex, bool set_skinning))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::WeakReference {
     IL2CPP_REGISTER_METHOD(0x0314DC40, void, AllocateHandle, (app::WeakReference * this_ptr, app::Object * target))

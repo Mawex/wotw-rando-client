@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadPoolWorkQueueThreadLocals {
     IL2CPP_REGISTER_METHOD(0x02349010, void, ctor, (app::ThreadPoolWorkQueueThreadLocals * this_ptr, app::ThreadPoolWorkQueue * tpq))

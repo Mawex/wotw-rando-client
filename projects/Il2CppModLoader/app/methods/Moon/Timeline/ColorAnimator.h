@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ColorAnimator {
     IL2CPP_REGISTER_METHOD(0x0075FB80, app::GameObject *, get_EffectiveTarget, (app::ColorAnimator * this_ptr))

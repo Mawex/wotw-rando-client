@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamMusic {
     IL2CPP_REGISTER_METHOD(0x0278B9C0, bool, BIsEnabled, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MeleeWeaponHammer {
     IL2CPP_REGISTER_METHOD(0x009CD4A0, float, get_MoveDurationDept, (app::MeleeWeaponHammer * this_ptr))

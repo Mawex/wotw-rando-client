@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpellUIConfirmationOverlay {
     IL2CPP_REGISTER_METHOD(0x003FF8B0, app::SpellUIConfirmationOverlay_Context__Enum, get_CurrentContext, (app::SpellUIConfirmationOverlay * this_ptr))

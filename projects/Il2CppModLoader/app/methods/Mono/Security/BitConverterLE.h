@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::BitConverterLE {
     IL2CPP_REGISTER_METHOD(0x025C3C30, app::Byte__Array *, GetUIntBytes_1, (uint8_t * bytes))

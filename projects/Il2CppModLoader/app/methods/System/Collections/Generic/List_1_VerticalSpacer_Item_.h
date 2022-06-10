@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_VerticalSpacer_Item_ {
     IL2CPP_REGISTER_METHOD(0x02C1F070, app::List_1_T_Enumerator_VerticalSpacer_Item_, GetEnumerator, (app::List_1_VerticalSpacer_Item_ * this_ptr))

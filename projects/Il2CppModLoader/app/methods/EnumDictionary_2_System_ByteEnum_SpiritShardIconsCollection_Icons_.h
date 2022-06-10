@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_System_ByteEnum_SpiritShardIconsCollection_Icons_ {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, OnBeforeSerialize, (app::EnumDictionary_2_System_ByteEnum_SpiritShardIconsCollection_Icons_ * this_ptr))

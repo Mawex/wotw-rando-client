@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::SupportedRenderingFeatures {
     IL2CPP_REGISTER_METHOD(0x02525330, void, ctor, (app::SupportedRenderingFeatures * this_ptr))

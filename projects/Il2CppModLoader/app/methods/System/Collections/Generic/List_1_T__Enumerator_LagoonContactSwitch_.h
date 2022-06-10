@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_LagoonContactSwitch_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::LagoonContactSwitch *, get_Current, (app::List_1_T_Enumerator_LagoonContactSwitch___Boxed * this_ptr))

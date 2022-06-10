@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_3_Boolean_Boolean_Int32_ {
     IL2CPP_REGISTER_METHOD(0x02C149C0, void, Invoke, (app::Action_3_Boolean_Boolean_Int32_ * this_ptr, bool arg1, bool arg2, int32_t arg3))

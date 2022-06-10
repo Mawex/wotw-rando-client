@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyCameraSettingsAnimator {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Restart, (app::LegacyCameraSettingsAnimator * this_ptr))

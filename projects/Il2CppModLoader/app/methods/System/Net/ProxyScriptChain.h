@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::ProxyScriptChain {
     IL2CPP_REGISTER_METHOD(0x01BCE180, void, ctor, (app::ProxyScriptChain * this_ptr, app::WebProxy * proxy, app::Uri * destination))

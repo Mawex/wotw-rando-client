@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkeetoBombAttack {
     IL2CPP_REGISTER_METHOD(0x0074D8F0, app::SkeetoLocomotion *, get_Locomotion, (app::SkeetoBombAttack * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::DSAManaged_KeyGeneratedEventHandler * this_ptr, app::Object * object, void * method_1))

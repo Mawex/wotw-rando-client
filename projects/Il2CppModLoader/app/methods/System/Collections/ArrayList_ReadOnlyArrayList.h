@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::ArrayList_ReadOnlyArrayList {
     IL2CPP_REGISTER_METHOD(0x0201C4D0, void, ctor, (app::ArrayList_ReadOnlyArrayList * this_ptr, app::ArrayList * l))

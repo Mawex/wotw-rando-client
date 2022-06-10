@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KamikazeSkeetoHitReaction {
     IL2CPP_REGISTER_METHOD(0x00E60520, void, OnCacheSerializedComponents, (app::KamikazeSkeetoHitReaction * this_ptr, app::Entity * owner))

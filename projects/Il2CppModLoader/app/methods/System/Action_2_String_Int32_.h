@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_2_String_Int32_ {
     IL2CPP_REGISTER_METHOD(0x02C11970, void, Invoke, (app::Action_2_String_Int32_ * this_ptr, app::String * arg1, int32_t arg2))

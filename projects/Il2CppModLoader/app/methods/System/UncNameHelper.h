@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::UncNameHelper {
     IL2CPP_REGISTER_METHOD(0x02A7C140, app::String *, ParseCanonicalName, (app::String * str, int32_t start, int32_t end, bool * loopback))

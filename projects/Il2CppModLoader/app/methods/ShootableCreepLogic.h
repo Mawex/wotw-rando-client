@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShootableCreepLogic {
     IL2CPP_REGISTER_METHOD(0x005B9760, app::IUberState *, get_UberState, (app::ShootableCreepLogic * this_ptr))

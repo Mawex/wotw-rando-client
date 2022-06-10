@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_Moon_ComboSystem_ComboMove_ {
     IL2CPP_REGISTER_METHOD(0x02ABEAC0, bool, Contains, (app::HashSet_1_Moon_ComboSystem_ComboMove_ * this_ptr, app::ComboMove * item))

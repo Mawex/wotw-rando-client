@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::CaseInsensitiveAscii {
     IL2CPP_REGISTER_METHOD(0x02016520, int32_t, GetHashCode, (app::CaseInsensitiveAscii * this_ptr, app::Object * my_object))

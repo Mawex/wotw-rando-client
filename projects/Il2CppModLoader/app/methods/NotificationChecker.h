@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NotificationChecker {
     IL2CPP_REGISTER_METHOD(0x0060C330, void, ctor, (app::NotificationChecker * this_ptr, app::RaceSettings * settings, app::String * race_i_d, int32_t original_rank, app::LeaderBoardService * leader_board_service, int32_t slot_index))

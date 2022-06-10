@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_TKey_TValue__SortedListValueEnumerator_System_Single_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02CAB870, void, ctor, (app::SortedList_2_TKey_TValue_SortedListValueEnumerator_System_Single_System_Object_ * this_ptr, app::SortedList_2_System_Single_System_Object_ * sorted_list))

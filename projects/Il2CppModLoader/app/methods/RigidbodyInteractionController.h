@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RigidbodyInteractionController {
     IL2CPP_REGISTER_METHOD(0x00912560, void, OnCollisionEnter, (app::RigidbodyInteractionController * this_ptr, app::Collision * collision))

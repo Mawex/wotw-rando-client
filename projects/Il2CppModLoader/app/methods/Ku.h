@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Ku {
     IL2CPP_REGISTER_METHOD(0x0122A160, app::Vector3, get_WorldSpeed, (app::Ku * this_ptr))

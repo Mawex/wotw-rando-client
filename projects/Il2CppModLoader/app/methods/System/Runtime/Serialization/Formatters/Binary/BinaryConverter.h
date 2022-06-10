@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::BinaryConverter {
     IL2CPP_REGISTER_METHOD(0x01D8C320, app::BinaryTypeEnum__Enum, GetBinaryTypeInfo, (app::Type * type, app::WriteObjectInfo * object_info, app::String * type_name, app::ObjectWriter * object_writer, app::Object * * type_information, int32_t * assem_id))

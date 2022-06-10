@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageEdgeMetaData_1_PhysicsEdge_ {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, OnMergeEdge, (app::CageEdgeMetaData_1_PhysicsEdge_ * this_ptr, app::CageStructureTool_Edge * edge_a, app::CageStructureTool_Edge * edge_b, app::CageStructureTool_Edge * new_edge))

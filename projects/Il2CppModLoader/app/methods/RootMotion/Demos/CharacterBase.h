@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::CharacterBase {
     IL2CPP_REGISTER_METHOD(0x022100A0, app::Vector3, GetGravity, (app::CharacterBase * this_ptr))

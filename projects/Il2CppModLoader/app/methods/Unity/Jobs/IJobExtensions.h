@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobExtensions {
     IL2CPP_REGISTER_METHOD(0x02FF7290, app::JobHandle, Schedule_1, (app::SimpleSwayAnimPostprocess_Job job_data, app::JobHandle depends_on))

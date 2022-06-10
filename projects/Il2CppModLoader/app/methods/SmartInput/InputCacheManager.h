@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SmartInput::InputCacheManager {
     IL2CPP_REGISTER_METHOD(0x006CB5A0, void, DeclareSource, (app::InputCacheManager * this_ptr, app::ICachableInput * input))

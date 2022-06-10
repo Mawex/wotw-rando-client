@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::AndInstruction_AndSByte {
     IL2CPP_REGISTER_METHOD(0x022D4DA0, int32_t, Run, (app::AndInstruction_AndSByte * this_ptr, app::InterpretedFrame * frame))

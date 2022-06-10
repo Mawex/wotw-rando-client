@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CartographerPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00B47330, void, InstantiateInstance, (app::CartographerPlaceholder * this_ptr))

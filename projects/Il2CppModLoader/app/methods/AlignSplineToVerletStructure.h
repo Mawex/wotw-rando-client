@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AlignSplineToVerletStructure {
     IL2CPP_REGISTER_METHOD(0x004F1E60, void, FindJoints, (app::AlignSplineToVerletStructure * this_ptr))

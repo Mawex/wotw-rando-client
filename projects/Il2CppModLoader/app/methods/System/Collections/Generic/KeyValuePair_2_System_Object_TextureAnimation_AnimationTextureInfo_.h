@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_Object_TextureAnimation_AnimationTextureInfo_ {
     IL2CPP_REGISTER_METHOD(0x00151540, void, ctor, (app::KeyValuePair_2_System_Object_TextureAnimation_AnimationTextureInfo___Boxed * this_ptr, app::Object * key, app::TextureAnimation_AnimationTextureInfo value))

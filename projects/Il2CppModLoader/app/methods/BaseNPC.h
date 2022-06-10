@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BaseNPC {
     IL2CPP_REGISTER_METHOD(0x00F86A90, void, Awake, (app::BaseNPC * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SetupCoroutine {
     IL2CPP_REGISTER_METHOD(0x0297D080, void, InvokeMoveNext, (app::IEnumerator * enumerator, void * return_value_address))

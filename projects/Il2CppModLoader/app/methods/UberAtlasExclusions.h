@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberAtlasExclusions {
     IL2CPP_REGISTER_METHOD(0x013DE100, app::UberAtlasExclusions_SceneExclusion, GetExclusion, (app::UberAtlasExclusions * this_ptr, app::SceneMetaData * scene_meta, bool * found))

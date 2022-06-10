@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DashOwlEnemyPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00DD02C0, app::LegacyEntity *, Instantiate, (app::DashOwlEnemyPlaceholder * this_ptr))

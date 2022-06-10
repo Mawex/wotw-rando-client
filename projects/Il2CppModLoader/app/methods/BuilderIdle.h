@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BuilderIdle {
     IL2CPP_REGISTER_METHOD(0x00816A70, app::BuilderEntity *, get_m_builder, (app::BuilderIdle * this_ptr))

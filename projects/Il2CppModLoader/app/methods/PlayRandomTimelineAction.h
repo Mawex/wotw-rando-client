@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayRandomTimelineAction {
     IL2CPP_REGISTER_METHOD(0x0117AE50, void, Perform, (app::PlayRandomTimelineAction * this_ptr, app::IContext * context))

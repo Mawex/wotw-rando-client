@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::SmtpNetworkElement {
     IL2CPP_REGISTER_METHOD(0x01E98CF0, void, ctor, (app::SmtpNetworkElement * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DestroyOnRestoreCheckpoint {
     IL2CPP_REGISTER_METHOD(0x00B8CAD0, void, Awake, (app::DestroyOnRestoreCheckpoint * this_ptr))

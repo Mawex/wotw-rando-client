@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Warning {
     IL2CPP_REGISTER_METHOD(0x02A2EF60, void, Log_1, (app::String * message, app::Warning_Logger * logger, bool log_in_edit_mode))

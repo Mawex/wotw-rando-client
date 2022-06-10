@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyWaitForInput {
     IL2CPP_REGISTER_METHOD(0x01131720, app::Func_2_IContext_Boolean_ *, get_CodeCondition, (app::LegacyWaitForInput * this_ptr))

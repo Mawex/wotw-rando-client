@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::XboxSignInProvider {
     IL2CPP_REGISTER_METHOD(0x00CDFE20, void, ctor, (app::XboxSignInProvider * this_ptr, app::INetworkConnectivityChecker * network_connectivity_checker))

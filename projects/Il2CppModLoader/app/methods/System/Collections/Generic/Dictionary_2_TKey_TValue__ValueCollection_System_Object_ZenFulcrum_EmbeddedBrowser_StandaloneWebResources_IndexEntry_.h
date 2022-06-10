@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System_Object_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ {
     IL2CPP_REGISTER_METHOD(0x02835340, void, ctor, (app::Dictionary_2_TKey_TValue_ValueCollection_System_Object_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * this_ptr, app::Dictionary_2_System_Object_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * dictionary))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ContractUtils {
     IL2CPP_REGISTER_METHOD(0x01F93C70, app::Exception *, get_Unreachable, ())

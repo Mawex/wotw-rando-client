@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossShriekArena2Behaviour {
     IL2CPP_REGISTER_METHOD(0x0177D490, void, CopyData, (app::PetrifiedOwlBossShriekArena2Behaviour * this_ptr, app::PetrifiedOwlBossBaseBehaviour * other))

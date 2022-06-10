@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Boolean {
     IL2CPP_REGISTER_METHOD(0x001E1560, int32_t, GetHashCode, (app::Boolean__Boxed * this_ptr))

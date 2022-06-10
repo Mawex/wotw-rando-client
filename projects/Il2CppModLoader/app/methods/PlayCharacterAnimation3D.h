@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayCharacterAnimation3D {
     IL2CPP_REGISTER_METHOD(0x01177180, bool, ConsumeTerminationEvent, (app::PlayCharacterAnimation3D * this_ptr))

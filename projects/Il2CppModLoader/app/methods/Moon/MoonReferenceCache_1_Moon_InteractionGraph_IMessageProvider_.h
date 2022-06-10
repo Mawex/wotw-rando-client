@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::MoonReferenceCache_1_Moon_InteractionGraph_IMessageProvider_ {
     IL2CPP_REGISTER_METHOD(0x027204F0, app::IMessageProvider *, GetValue, (app::MoonReferenceCache_1_Moon_InteractionGraph_IMessageProvider_ * this_ptr, app::MoonReference_1_Moon_InteractionGraph_IMessageProvider_ * moon_ref))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShaderID_CameraFilterPack_Colors_Adjust_PreFilters {
     IL2CPP_REGISTER_METHOD(0x02106E90, void, cctor, ())

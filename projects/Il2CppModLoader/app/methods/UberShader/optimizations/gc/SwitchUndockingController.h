@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberShader::optimizations::gc::SwitchUndockingController {
     IL2CPP_REGISTER_METHOD(0x01902270, bool, get_Enabled, ())

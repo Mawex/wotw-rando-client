@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blend2Camera_PhotoshopFilters {
     IL2CPP_REGISTER_METHOD(0x02759FB0, app::Material *, get_material, (app::CameraFilterPack_Blend2Camera_PhotoshopFilters * this_ptr))

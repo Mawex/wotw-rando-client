@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Merger {
     IL2CPP_REGISTER_METHOD(0x01E40FC0, void, ctor_1, (app::Merger * this_ptr, app::DataSet * data_set, bool preserve_changes, app::MissingSchemaAction__Enum missing_schema_action))

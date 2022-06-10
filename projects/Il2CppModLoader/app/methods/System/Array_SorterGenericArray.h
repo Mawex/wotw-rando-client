@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Array_SorterGenericArray {
     IL2CPP_REGISTER_METHOD(0x001E1420, void, ctor, (app::Array_SorterGenericArray__Boxed * this_ptr, app::Array * keys, app::Array * items, app::IComparer * comparer))

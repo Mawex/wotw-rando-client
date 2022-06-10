@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::LoopExpression {
     IL2CPP_REGISTER_METHOD(0x02417930, void, ctor, (app::LoopExpression * this_ptr, app::Expression * body, app::LabelTarget * break_1, app::LabelTarget * continue_1))

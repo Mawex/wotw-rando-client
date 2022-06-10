@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DealDamageOverTime {
     IL2CPP_REGISTER_METHOD(0x00DDD550, void, OnDisable, (app::DealDamageOverTime * this_ptr))

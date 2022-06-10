@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderBatSpitBehaviour {
     IL2CPP_REGISTER_METHOD(0x009608C0, void, OnBehaviourTreeInitialize, (app::SpiderBatSpitBehaviour * this_ptr, app::IContext * context))

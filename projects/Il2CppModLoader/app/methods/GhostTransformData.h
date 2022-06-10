@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostTransformData {
     IL2CPP_REGISTER_METHOD(0x007EC230, app::Vector3, get_Position, (app::GhostTransformData * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::MoonTrail_MoonTrailParticle {
     IL2CPP_REGISTER_METHOD(0x001F9BA0, bool, get_IsAlive, (app::MoonTrail_MoonTrailParticle__Boxed * this_ptr))

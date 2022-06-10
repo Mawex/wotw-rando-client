@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::CinematicEffects::ImageEffectHelper {
     IL2CPP_REGISTER_METHOD(0x02506A60, bool, IsSupported, (app::Shader * s, bool need_depth, bool need_hdr, app::MonoBehaviour * effect))

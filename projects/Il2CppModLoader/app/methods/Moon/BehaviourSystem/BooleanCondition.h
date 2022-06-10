@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BooleanCondition {
     IL2CPP_REGISTER_METHOD(0x0300A820, app::String *, get_Info, (app::BooleanCondition * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1RainOfFeathersBehaviour {
     IL2CPP_REGISTER_METHOD(0x017694F0, float, get_TimeBetweenProjectiles, (app::PetrifiedOwlBossFight1RainOfFeathersBehaviour * this_ptr))

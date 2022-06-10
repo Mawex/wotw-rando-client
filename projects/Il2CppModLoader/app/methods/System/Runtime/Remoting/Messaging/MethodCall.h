@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::MethodCall {
     IL2CPP_REGISTER_METHOD(0x0230EC70, void, ctor_1, (app::MethodCall * this_ptr, app::SerializationInfo * info, app::StreamingContext context))

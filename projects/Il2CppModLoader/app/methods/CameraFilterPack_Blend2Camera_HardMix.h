@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blend2Camera_HardMix {
     IL2CPP_REGISTER_METHOD(0x0274E750, app::Material *, get_material, (app::CameraFilterPack_Blend2Camera_HardMix * this_ptr))

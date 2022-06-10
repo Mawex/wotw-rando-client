@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderBossLocomotionIdleBehaviour {
     IL2CPP_REGISTER_METHOD(0x011B5740, app::MoonTimeline *, GetIdleAnimation, (app::SpiderBossLocomotionIdleBehaviour * this_ptr, app::SpiderBossLocationZone__Enum location_zone))

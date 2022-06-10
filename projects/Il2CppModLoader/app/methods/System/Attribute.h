@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Attribute {
     IL2CPP_REGISTER_METHOD(0x022990C0, app::Attribute__Array *, InternalGetCustomAttributes_1, (app::PropertyInfo_1 * element, app::Type * type, bool inherit))

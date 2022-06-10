@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::PlayFabWebRequest___c__DisplayClass38_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::PlayFabWebRequest_c_DisplayClass38_0 * this_ptr))

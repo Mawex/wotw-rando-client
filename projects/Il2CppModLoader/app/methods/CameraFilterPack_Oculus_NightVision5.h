@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Oculus_NightVision5 {
     IL2CPP_REGISTER_METHOD(0x02486030, app::Material *, get_material, (app::CameraFilterPack_Oculus_NightVision5 * this_ptr))

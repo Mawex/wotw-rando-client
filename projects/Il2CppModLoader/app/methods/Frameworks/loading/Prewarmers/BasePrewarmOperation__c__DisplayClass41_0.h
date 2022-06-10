@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::BasePrewarmOperation___c__DisplayClass41_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::BasePrewarmOperation_c_DisplayClass41_0 * this_ptr))

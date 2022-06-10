@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ByteConverter {
     IL2CPP_REGISTER_METHOD(0x024A5B20, app::Type *, get_TargetType, (app::ByteConverter * this_ptr))

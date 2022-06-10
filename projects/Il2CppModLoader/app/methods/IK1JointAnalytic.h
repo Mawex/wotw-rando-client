@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::IK1JointAnalytic {
     IL2CPP_REGISTER_METHOD(0x00B70340, void, Solve, (app::IK1JointAnalytic * this_ptr, app::Transform__Array * bones, app::Vector3 target))

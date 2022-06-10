@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_TKey_TValue__DictionaryEnumerator_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02ADC8C0, void, ctor, (app::ConcurrentDictionary_2_TKey_TValue_DictionaryEnumerator_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * this_ptr, app::ConcurrentDictionary_2_Newtonsoft_Json_Utilities_StructMultiKey_2_System_Object_ * dictionary))

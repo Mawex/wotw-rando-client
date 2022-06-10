@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CollisionContext {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::CollisionContext * this_ptr, app::Collision * collision, app::Collider * collision_reciever))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ConstraintOperation {
     IL2CPP_REGISTER_METHOD(0x01BB0A00, bool, IsEntityPadding, (app::ITimelineEntityParent * timeline, app::EntityId entity_id))

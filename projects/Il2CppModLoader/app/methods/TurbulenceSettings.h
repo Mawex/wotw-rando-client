@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TurbulenceSettings {
     IL2CPP_REGISTER_METHOD(0x00B1A610, app::Texture2D *, get_TurbulenceTexture, (app::TurbulenceSettings * this_ptr))

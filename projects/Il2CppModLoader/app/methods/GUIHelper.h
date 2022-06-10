@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GUIHelper {
     IL2CPP_REGISTER_METHOD(0x0151D9B0, app::GUIStyle *, get_BigTextStyle, ())

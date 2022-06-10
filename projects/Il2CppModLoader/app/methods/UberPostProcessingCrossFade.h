@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberPostProcessingCrossFade {
     IL2CPP_REGISTER_METHOD(0x018F6430, app::Material *, get_Material, (app::UberPostProcessingCrossFade * this_ptr))

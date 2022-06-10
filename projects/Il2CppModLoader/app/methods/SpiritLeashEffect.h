@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiritLeashEffect {
     IL2CPP_REGISTER_METHOD(0x00D5BCE0, void, Awake, (app::SpiritLeashEffect * this_ptr))

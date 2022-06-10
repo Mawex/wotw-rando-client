@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DeadZoneLeftStickSlider {
     IL2CPP_REGISTER_METHOD(0x00DDC490, float, get_Value, (app::DeadZoneLeftStickSlider * this_ptr))

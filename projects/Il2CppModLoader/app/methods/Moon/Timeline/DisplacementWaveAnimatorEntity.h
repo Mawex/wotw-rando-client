@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::DisplacementWaveAnimatorEntity {
     IL2CPP_REGISTER_METHOD(0x00765EE0, void, OnStartPlayback, (app::DisplacementWaveAnimatorEntity * this_ptr, app::IContext * context))

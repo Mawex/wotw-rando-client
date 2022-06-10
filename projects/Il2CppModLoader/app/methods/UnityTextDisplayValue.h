@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityTextDisplayValue {
     IL2CPP_REGISTER_METHOD(0x013A9BD0, void, Awake, (app::UnityTextDisplayValue * this_ptr))

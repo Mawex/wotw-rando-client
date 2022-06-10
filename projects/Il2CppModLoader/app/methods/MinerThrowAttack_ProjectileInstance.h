@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MinerThrowAttack_ProjectileInstance {
     IL2CPP_REGISTER_METHOD(0x014524A0, void, Clear, (app::MinerThrowAttack_ProjectileInstance * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::CachedAttributeGetter_1_System_Runtime_Serialization_DataContractAttribute_ {
     IL2CPP_REGISTER_METHOD(0x01D092A0, app::DataContractAttribute *, GetAttribute, (app::Object * type))

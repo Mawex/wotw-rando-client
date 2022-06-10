@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::RangeItemHeaderValue {
     IL2CPP_REGISTER_METHOD(0x02D16450, void, ctor, (app::RangeItemHeaderValue * this_ptr, app::Nullable_1_Int64_ from, app::Nullable_1_Int64_ to))

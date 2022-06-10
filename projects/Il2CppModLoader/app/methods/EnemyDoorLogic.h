@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnemyDoorLogic {
     IL2CPP_REGISTER_METHOD(0x002FB9B0, app::IMoonSetupAnimator *, get_MoonSetupAnimator, (app::EnemyDoorLogic * this_ptr))

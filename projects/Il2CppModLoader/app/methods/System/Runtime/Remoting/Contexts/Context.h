@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Contexts::Context {
     IL2CPP_REGISTER_METHOD(0x0173D7D0, void, RegisterContext, (app::Context * ctx))

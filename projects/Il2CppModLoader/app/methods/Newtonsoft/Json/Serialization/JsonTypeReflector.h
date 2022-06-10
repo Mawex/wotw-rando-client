@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonTypeReflector {
     IL2CPP_REGISTER_METHOD(0x01BF8DD0, bool, CanTypeDescriptorConvertString, (app::Type * type, app::TypeConverter * * type_converter))

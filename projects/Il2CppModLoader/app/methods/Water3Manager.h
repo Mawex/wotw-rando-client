@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Water3Manager {
     IL2CPP_REGISTER_METHOD(0x02D76130, void, SetDisplacementHeightMap, (app::Water3Manager * this_ptr, app::Texture2D * map, int32_t index))

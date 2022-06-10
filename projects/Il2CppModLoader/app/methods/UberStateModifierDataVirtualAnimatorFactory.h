@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberStateModifierDataVirtualAnimatorFactory {
     IL2CPP_REGISTER_METHOD(0x01E96370, app::ITimelineEntity *, CreateAnimatorForType, (app::SetupStateModifierDataType__Enum type, app::NewSetupStateController * state_controller, app::SetupStateModifier * modifier, int32_t state_guid, app::VirtualTimelineEntityPool * pool))

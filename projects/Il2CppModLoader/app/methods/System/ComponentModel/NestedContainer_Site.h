@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::NestedContainer_Site {
     IL2CPP_REGISTER_METHOD(0x00522850, void, ctor, (app::NestedContainer_Site * this_ptr, app::IComponent * component, app::NestedContainer * container, app::String * name))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SplineUtil {
     IL2CPP_REGISTER_METHOD(0x009A30C0, int32_t, ClampIndex, (int32_t idx, int32_t len))

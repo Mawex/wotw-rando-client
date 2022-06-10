@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RuntimeGameWorldArea {
     IL2CPP_REGISTER_METHOD(0x01374BF0, app::PlayerUberStateAreaMapInformation *, get_AreaMapUberState, (app::RuntimeGameWorldArea * this_ptr))

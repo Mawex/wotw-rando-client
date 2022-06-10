@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::SceneOptimizationResultsWriter {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::SceneOptimizationResultsWriter * this_ptr, app::Dictionary_2_System_String_Moon_ArtOptimization_SceneOptimizationResults_ * scene_results))

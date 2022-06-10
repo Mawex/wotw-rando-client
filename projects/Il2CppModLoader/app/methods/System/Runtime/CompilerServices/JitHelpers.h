@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::JitHelpers {
     IL2CPP_REGISTER_METHOD(0x0153B7A0, app::Object *, UnsafeCast, (app::Object * o))

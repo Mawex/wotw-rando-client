@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::MessageDictionary_DictionaryEnumerator {
     IL2CPP_REGISTER_METHOD(0x02314440, void, ctor, (app::MessageDictionary_DictionaryEnumerator * this_ptr, app::MessageDictionary * method_dictionary))

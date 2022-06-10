@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::DnsPermission {
     IL2CPP_REGISTER_METHOD(0x01EB3EA0, void, ctor, (app::DnsPermission * this_ptr, app::PermissionState__Enum state))

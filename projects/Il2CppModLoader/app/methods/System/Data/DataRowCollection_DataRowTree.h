@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::DataRowCollection_DataRowTree {
     IL2CPP_REGISTER_METHOD(0x017E11B0, void, ctor, (app::DataRowCollection_DataRowTree * this_ptr))

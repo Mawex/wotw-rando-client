@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabEventRouter {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::IDictionary_2_PlayFab_EventPipelineKey_PlayFab_Pipeline_IEventPipeline_ *, get_Pipelines, (app::PlayFabEventRouter * this_ptr))

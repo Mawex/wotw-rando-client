@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::ObjectHolderList {
     IL2CPP_REGISTER_METHOD(0x01ED6C70, void, ctor_1, (app::ObjectHolderList * this_ptr))

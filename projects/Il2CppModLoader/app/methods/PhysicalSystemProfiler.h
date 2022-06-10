@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PhysicalSystemProfiler {
     IL2CPP_REGISTER_METHOD(0x014F9D90, app::GUIStyle *, get_LabelStyle, (app::PhysicalSystemProfiler * this_ptr))

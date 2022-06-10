@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Timer {
     IL2CPP_REGISTER_METHOD(0x02349880, void, ctor_1, (app::Timer * this_ptr, app::TimerCallback * callback, app::Object * state, int32_t due_time, int32_t period))

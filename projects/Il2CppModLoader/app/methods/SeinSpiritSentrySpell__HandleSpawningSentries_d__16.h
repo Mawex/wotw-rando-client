@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinSpiritSentrySpell__HandleSpawningSentries_d__16 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::SeinSpiritSentrySpell_HandleSpawningSentries_d_16 * this_ptr, int32_t __1__state))

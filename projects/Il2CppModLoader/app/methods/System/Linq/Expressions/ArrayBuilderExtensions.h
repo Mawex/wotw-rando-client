@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::ArrayBuilderExtensions {
     IL2CPP_REGISTER_METHOD(0x01EBB8E0, app::ReadOnlyCollection_1_System_Object_ *, ToReadOnly_1, (app::ArrayBuilder_1_System_Object_ builder))

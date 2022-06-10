@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Video::VideoPlayer {
     IL2CPP_REGISTER_METHOD(0x031B7200, void, set_source, (app::VideoPlayer * this_ptr, app::VideoSource__Enum value))

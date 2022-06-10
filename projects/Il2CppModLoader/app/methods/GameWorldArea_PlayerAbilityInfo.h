@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GameWorldArea_PlayerAbilityInfo {
     IL2CPP_REGISTER_METHOD(0x0040AF10, void, ctor_1, (app::GameWorldArea_PlayerAbilityInfo * this_ptr, app::SceneMetaData_PlayerAbilityInfo * ability_info))

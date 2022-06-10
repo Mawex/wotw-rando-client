@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GetReplaysCallback {
     IL2CPP_REGISTER_METHOD(0x02E91BC0, void, OnResult, (app::GetReplaysCallback * this_ptr, app::Byte__Array * data))

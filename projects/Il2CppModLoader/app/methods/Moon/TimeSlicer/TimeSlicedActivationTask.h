@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedActivationTask {
     IL2CPP_REGISTER_METHOD(0x00739A80, bool, get_Activate, (app::TimeSlicedActivationTask * this_ptr))

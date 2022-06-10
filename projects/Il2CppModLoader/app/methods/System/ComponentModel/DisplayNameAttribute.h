@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DisplayNameAttribute {
     IL2CPP_REGISTER_METHOD(0x01FE73C0, void, ctor_1, (app::DisplayNameAttribute * this_ptr))

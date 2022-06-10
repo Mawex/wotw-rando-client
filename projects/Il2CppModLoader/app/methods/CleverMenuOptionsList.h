@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CleverMenuOptionsList {
     IL2CPP_REGISTER_METHOD(0x012BFF60, void, ClearItems, (app::CleverMenuOptionsList * this_ptr))

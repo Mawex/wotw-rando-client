@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DecalLayerModifier {
     IL2CPP_REGISTER_METHOD(0x00B7EBD0, void, SetProperties, (app::DecalLayerModifier * this_ptr))

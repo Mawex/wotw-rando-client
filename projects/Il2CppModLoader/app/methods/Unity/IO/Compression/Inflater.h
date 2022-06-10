@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::Inflater {
     IL2CPP_REGISTER_METHOD(0x02B7AD40, void, ctor, (app::Inflater * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MurmurHash2 {
     IL2CPP_REGISTER_METHOD(0x027198C0, uint32_t, Hash_1, (app::BinaryReader * reader, int32_t size))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_AttackTokens_Request_ {
     IL2CPP_REGISTER_METHOD(0x02C29230, int32_t, Compare, (app::ObjectComparer_1_AttackTokens_Request_ * this_ptr, app::AttackTokens_Request x, app::AttackTokens_Request y))

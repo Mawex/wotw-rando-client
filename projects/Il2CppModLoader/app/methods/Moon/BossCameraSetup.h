@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BossCameraSetup {
     IL2CPP_REGISTER_METHOD(0x00CBCC50, bool, get_IsSuspended, (app::BossCameraSetup * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberWaterReflectionView {
     IL2CPP_REGISTER_METHOD(0x012A1690, app::UberWaterReflectionView_AutomaticGroup *, FindAutomaticGroup, (app::UberWaterReflectionView * this_ptr, app::UberWaterReflectionPlane * plane, bool is_game_view))

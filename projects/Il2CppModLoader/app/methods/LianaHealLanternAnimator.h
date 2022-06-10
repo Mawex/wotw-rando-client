@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LianaHealLanternAnimator {
     IL2CPP_REGISTER_METHOD(0x002FBB40, app::IMoonSetupVisuals *, get_MoonSetupVisuals, (app::LianaHealLanternAnimator * this_ptr))

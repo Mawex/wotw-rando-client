@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShadowEmitter {
     IL2CPP_REGISTER_METHOD(0x005A93B0, app::Transform *, get_GroundAnchorSafe, (app::ShadowEmitter * this_ptr))

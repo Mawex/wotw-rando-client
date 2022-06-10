@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::MonoProperty {
     IL2CPP_REGISTER_METHOD(0x02693030, void, CachePropertyInfo, (app::MonoProperty * this_ptr, app::PInfo__Enum flags))

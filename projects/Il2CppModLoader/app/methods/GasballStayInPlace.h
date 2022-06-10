@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GasballStayInPlace {
     IL2CPP_REGISTER_METHOD(0x00421000, void, OnEntityInitialized, (app::GasballStayInPlace * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_PreviewAnimation {
     IL2CPP_REGISTER_METHOD(0x0211A960, float, get_Duration, (app::MoonAnimator_PreviewAnimation * this_ptr))

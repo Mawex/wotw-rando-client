@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::FlutteringShotDownBehaviour {
     IL2CPP_REGISTER_METHOD(0x014829B0, void, OnEntityInitialized, (app::FlutteringShotDownBehaviour * this_ptr))

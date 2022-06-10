@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Drawing_Paper3 {
     IL2CPP_REGISTER_METHOD(0x024F9CD0, app::Material *, get_material, (app::CameraFilterPack_Drawing_Paper3 * this_ptr))

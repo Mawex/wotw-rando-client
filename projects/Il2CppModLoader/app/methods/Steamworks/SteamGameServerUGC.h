@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerUGC {
     IL2CPP_REGISTER_METHOD(0x027FEBA0, app::UGCQueryHandle_t, CreateQueryUserUGCRequest, (app::AccountID_t un_account_i_d, app::EUserUGCList__Enum e_list_type, app::EUGCMatchingUGCType__Enum e_matching_u_g_c_type, app::EUserUGCListSortOrder__Enum e_sort_order, app::AppId_t n_creator_app_i_d, app::AppId_t n_consumer_app_i_d, uint32_t un_page))

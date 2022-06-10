@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Texture2D {
     IL2CPP_REGISTER_METHOD(0x02C66B50, void, ctor_1, (app::Texture2D * this_ptr, int32_t width, int32_t height, app::GraphicsFormat__Enum format, app::TextureCreationFlags__Enum flags, void * native_tex))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::ValueTypeFixupInfo {
     IL2CPP_REGISTER_METHOD(0x01EE1F40, void, ctor, (app::ValueTypeFixupInfo * this_ptr, int64_t container_i_d, app::FieldInfo_1 * member, app::Int32__Array * parent_index))

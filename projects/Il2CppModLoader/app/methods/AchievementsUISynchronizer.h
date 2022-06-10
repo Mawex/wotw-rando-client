@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AchievementsUISynchronizer {
     IL2CPP_REGISTER_METHOD(0x004C0670, bool, get_IsSynchronized, (app::AchievementsUISynchronizer * this_ptr))

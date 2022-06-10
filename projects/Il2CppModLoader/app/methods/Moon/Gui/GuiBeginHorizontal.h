@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Gui::GuiBeginHorizontal {
     IL2CPP_REGISTER_METHOD(0x01988C20, void, ctor_1, (app::GuiBeginHorizontal * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Recoil_RecoilOffset {
     IL2CPP_REGISTER_METHOD(0x02A1F3C0, void, Start, (app::Recoil_RecoilOffset * this_ptr))

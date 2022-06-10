@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Endian {
     IL2CPP_REGISTER_METHOD(0x01B5A600, void, PutBytes2_1, (app::Byte__Array * bytes, int32_t offset, int16_t value))

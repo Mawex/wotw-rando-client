@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::Threshold {
     IL2CPP_REGISTER_METHOD(0x030548A0, void, OnRenderImage, (app::Threshold * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

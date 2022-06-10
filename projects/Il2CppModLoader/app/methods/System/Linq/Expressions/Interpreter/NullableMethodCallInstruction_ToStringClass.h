@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction_ToStringClass {
     IL2CPP_REGISTER_METHOD(0x02408720, int32_t, Run, (app::NullableMethodCallInstruction_ToStringClass * this_ptr, app::InterpretedFrame * frame))

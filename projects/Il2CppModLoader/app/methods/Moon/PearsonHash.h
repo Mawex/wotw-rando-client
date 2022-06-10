@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::PearsonHash {
     IL2CPP_REGISTER_METHOD(0x01B64F70, uint16_t, Hash, (app::String * guid))

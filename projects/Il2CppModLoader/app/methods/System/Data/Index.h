@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Index {
     IL2CPP_REGISTER_METHOD(0x01E39C40, void, ctor_1, (app::Index * this_ptr, app::DataTable * table, app::IndexField__Array * index_fields, app::DataViewRowState__Enum record_states, app::IFilter * row_filter))

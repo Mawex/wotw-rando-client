@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskSchedulerException {
     IL2CPP_REGISTER_METHOD(0x0233FF80, void, ctor_1, (app::TaskSchedulerException * this_ptr))

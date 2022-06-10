@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Sensor_SensorLineOfSightRequest {
     IL2CPP_REGISTER_METHOD(0x00120650, void, Init, (app::Sensor_SensorLineOfSightRequest__Boxed * this_ptr, app::Sensor * _sensor))

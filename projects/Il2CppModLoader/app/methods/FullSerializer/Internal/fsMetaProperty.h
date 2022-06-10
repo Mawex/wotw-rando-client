@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsMetaProperty {
     IL2CPP_REGISTER_METHOD(0x01658810, void, ctor_1, (app::fsMetaProperty * this_ptr, app::fsConfig * config, app::FieldInfo_1 * field))

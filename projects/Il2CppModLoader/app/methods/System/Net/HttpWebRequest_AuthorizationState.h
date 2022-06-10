@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::HttpWebRequest_AuthorizationState {
     IL2CPP_REGISTER_METHOD(0x00114130, bool, get_IsCompleted, (app::HttpWebRequest_AuthorizationState__Boxed * this_ptr))

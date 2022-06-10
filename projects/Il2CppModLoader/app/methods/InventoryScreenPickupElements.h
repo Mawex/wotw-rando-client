@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InventoryScreenPickupElements {
     IL2CPP_REGISTER_METHOD(0x00643C10, void, Setup, (app::InventoryScreenPickupElements * this_ptr))

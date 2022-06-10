@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Gizmos {
     IL2CPP_REGISTER_METHOD(0x025295F0, void, DrawLine, (app::Vector3 from, app::Vector3 to))

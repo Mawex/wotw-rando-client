@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::PlayFabAchievements {
     IL2CPP_REGISTER_METHOD(0x0052C5D0, app::String *, get_Name, (app::PlayFabAchievements * this_ptr))

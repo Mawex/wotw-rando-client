@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::STCDemo {
     IL2CPP_REGISTER_METHOD(0x00C07A70, void, Start, (app::STCDemo * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Vortex {
     IL2CPP_REGISTER_METHOD(0x02D6B310, void, OnRenderImage, (app::Vortex * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

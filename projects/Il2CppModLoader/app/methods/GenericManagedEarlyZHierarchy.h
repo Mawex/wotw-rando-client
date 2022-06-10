@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GenericManagedEarlyZHierarchy {
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, DoStrip, (app::GenericManagedEarlyZHierarchy * this_ptr))

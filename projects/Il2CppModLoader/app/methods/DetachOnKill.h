@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DetachOnKill {
     IL2CPP_REGISTER_METHOD(0x00B8DF10, void, Awake, (app::DetachOnKill * this_ptr))

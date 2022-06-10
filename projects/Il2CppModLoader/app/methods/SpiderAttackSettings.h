@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderAttackSettings {
     IL2CPP_REGISTER_METHOD(0x005150C0, bool, IsSpecialAttack, (app::SpiderAttackSettings * this_ptr))

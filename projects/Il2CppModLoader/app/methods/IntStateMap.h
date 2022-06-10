@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::IntStateMap {
     IL2CPP_REGISTER_METHOD(0x01B5E220, app::List_1_GenericMappingEntry_ *, GetGenericMapping, (app::IntStateMap * this_ptr))

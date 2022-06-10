@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MakeEnemyAttackPlayerAction {
     IL2CPP_REGISTER_METHOD(0x009F7A00, void, Perform, (app::MakeEnemyAttackPlayerAction * this_ptr, app::IContext * context))

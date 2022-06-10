@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MaterialPropertiesUtility {
     IL2CPP_REGISTER_METHOD(0x01382A20, void, ApplyShaderProperty, (app::OverridableShaderProperty * shader_property_from, app::OverridableShaderProperty * shader_property_to))

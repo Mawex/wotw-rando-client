@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MicroProfiler_MarkerInfo {
     IL2CPP_REGISTER_METHOD(0x0024A2C0, void, Begin, (app::MicroProfiler_MarkerInfo__Boxed * this_ptr))

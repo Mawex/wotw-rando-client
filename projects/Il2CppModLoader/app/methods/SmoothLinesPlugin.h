@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SmoothLinesPlugin {
     IL2CPP_REGISTER_METHOD(0x006D2B30, void, OnEnable, (app::SmoothLinesPlugin * this_ptr))

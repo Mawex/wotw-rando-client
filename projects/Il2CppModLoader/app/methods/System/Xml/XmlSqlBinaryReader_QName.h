@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlSqlBinaryReader_QName {
     IL2CPP_REGISTER_METHOD(0x0013C860, void, ctor, (app::XmlSqlBinaryReader_QName__Boxed * this_ptr, app::String * prefix, app::String * lname, app::String * ns_uri))

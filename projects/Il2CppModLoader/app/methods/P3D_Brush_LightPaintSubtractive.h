@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::P3D_Brush_LightPaintSubtractive {
     IL2CPP_REGISTER_METHOD(0x0308DF50, void, Initialize, ())

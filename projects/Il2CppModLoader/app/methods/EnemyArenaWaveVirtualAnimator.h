@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnemyArenaWaveVirtualAnimator {
     IL2CPP_REGISTER_METHOD(0x002FBBE0, app::EnemyArenaController *, get_Controller, (app::EnemyArenaWaveVirtualAnimator * this_ptr))

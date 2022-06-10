@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Resources {
     IL2CPP_REGISTER_METHOD(0x02542670, app::Object_1__Array *, FindObjectsOfTypeAll_1, (app::Type * type))

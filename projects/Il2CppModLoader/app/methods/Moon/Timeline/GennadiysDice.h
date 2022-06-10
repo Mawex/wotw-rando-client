@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::GennadiysDice {
     IL2CPP_REGISTER_METHOD(0x01BC0070, app::Int32__Array *, GetEventsIds, (app::GennadiysDice * this_ptr))

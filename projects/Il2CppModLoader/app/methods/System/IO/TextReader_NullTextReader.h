@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::TextReader_NullTextReader {
     IL2CPP_REGISTER_METHOD(0x02385CC0, void, ctor, (app::TextReader_NullTextReader * this_ptr))

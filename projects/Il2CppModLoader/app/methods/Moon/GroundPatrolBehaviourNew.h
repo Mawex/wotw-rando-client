@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::GroundPatrolBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x01492620, app::Vector3, get_EffectivePatrollOrigin, (app::GroundPatrolBehaviourNew * this_ptr))

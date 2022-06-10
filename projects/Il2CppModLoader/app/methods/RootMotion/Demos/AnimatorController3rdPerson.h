@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::AnimatorController3rdPerson {
     IL2CPP_REGISTER_METHOD(0x02208F90, void, Start, (app::AnimatorController3rdPerson * this_ptr))

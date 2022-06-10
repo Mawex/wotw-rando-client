@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::MoonReference_1_MeshTrail_ {
     IL2CPP_REGISTER_METHOD(0x02720EB0, app::MeshTrail *, SafeResolve, (app::MoonReference_1_MeshTrail_ * this_ptr, app::IMoonResolverContext * context))

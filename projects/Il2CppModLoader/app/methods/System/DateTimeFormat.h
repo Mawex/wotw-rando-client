@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::DateTimeFormat {
     IL2CPP_REGISTER_METHOD(0x028A6D20, void, FormatDigits_1, (app::StringBuilder * output_buffer, int32_t value, int32_t len))

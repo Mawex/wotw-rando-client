@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UberWaterControl_ImpactBuf_ {
     IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals_1, (app::ObjectEqualityComparer_1_UberWaterControl_ImpactBuf_ * this_ptr, app::UberWaterControl_ImpactBuf x, app::UberWaterControl_ImpactBuf y))

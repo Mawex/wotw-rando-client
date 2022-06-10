@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System_Xml_XmlQualifiedName_System_Xml_Schema_SchemaEntity_ {
     IL2CPP_REGISTER_METHOD(0x01A729A0, app::Dictionary_2_TKey_TValue_ValueCollection_TKey_TValue_Enumerator_System_Xml_XmlQualifiedName_System_Xml_Schema_SchemaEntity_, GetEnumerator, (app::Dictionary_2_TKey_TValue_ValueCollection_System_Xml_XmlQualifiedName_System_Xml_Schema_SchemaEntity_ * this_ptr))

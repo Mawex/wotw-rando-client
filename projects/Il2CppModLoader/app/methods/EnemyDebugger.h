@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnemyDebugger {
     IL2CPP_REGISTER_METHOD(0x00C048B0, void, DrawGeneralInfo, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_MinMaxGradient {
     IL2CPP_REGISTER_METHOD(0x00248760, void, ctor, (app::ParticleSystem_MinMaxGradient__Boxed * this_ptr, app::Color color))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkSourceSettingsArray {
     IL2CPP_REGISTER_METHOD(0x026FAA50, void, ctor, (app::AkSourceSettingsArray * this_ptr, int32_t count))

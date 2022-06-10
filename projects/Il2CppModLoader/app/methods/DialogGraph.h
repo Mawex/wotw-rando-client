@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DialogGraph {
     IL2CPP_REGISTER_METHOD(0x00B8E940, app::IDialogNode *, get_ResolvedRootNode, (app::DialogGraph * this_ptr))

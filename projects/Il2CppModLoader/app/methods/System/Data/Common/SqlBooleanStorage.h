@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlBooleanStorage {
     IL2CPP_REGISTER_METHOD(0x02843600, void, ctor, (app::SqlBooleanStorage * this_ptr, app::DataColumn * column))

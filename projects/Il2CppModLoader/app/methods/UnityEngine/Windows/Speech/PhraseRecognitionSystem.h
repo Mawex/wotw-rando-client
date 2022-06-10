@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Windows::Speech::PhraseRecognitionSystem {
     IL2CPP_REGISTER_METHOD(0x02C7A070, void, PhraseRecognitionSystem_InvokeErrorEvent, (app::SpeechError__Enum error_code))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LayeredRender::OccludeMotionVectors {
     IL2CPP_REGISTER_METHOD(0x00F25D50, void, Start, (app::OccludeMotionVectors * this_ptr))

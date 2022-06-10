@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberWaterCross_CullingCategoryManager {
     IL2CPP_REGISTER_METHOD(0x0129E3F0, void, ctor, (app::UberWaterCross_CullingCategoryManager * this_ptr))

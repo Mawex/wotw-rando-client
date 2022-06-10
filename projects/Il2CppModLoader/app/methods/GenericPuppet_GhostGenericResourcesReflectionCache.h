@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GenericPuppet_GhostGenericResourcesReflectionCache {
     IL2CPP_REGISTER_METHOD(0x00E10300, bool, TryGetValue, (app::GenericPuppet_GhostGenericResourcesReflectionCache * this_ptr, app::Object * obj, app::GhostGenericResourceAttribute * * res))

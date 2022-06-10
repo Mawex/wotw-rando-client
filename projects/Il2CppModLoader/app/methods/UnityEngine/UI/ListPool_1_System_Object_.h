@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::ListPool_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02ACE6D0, void, Clear, (app::List_1_System_Object_ * l))

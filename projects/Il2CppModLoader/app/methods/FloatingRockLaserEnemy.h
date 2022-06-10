@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FloatingRockLaserEnemy {
     IL2CPP_REGISTER_METHOD(0x01273520, void, PlayAnimationOnce, (app::FloatingRockLaserEnemy * this_ptr, app::CharacterAnimationSystem * animation_system, app::TextureAnimationWithTransitions * anim, int32_t layer))

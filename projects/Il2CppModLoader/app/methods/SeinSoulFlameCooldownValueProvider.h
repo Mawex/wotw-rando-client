@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinSoulFlameCooldownValueProvider {
     IL2CPP_REGISTER_METHOD(0x005DFC40, float, GetFloatValue, (app::SeinSoulFlameCooldownValueProvider * this_ptr))

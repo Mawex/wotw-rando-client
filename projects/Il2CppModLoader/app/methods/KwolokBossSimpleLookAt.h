@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokBossSimpleLookAt {
     IL2CPP_REGISTER_METHOD(0x012E9B00, void, Start, (app::KwolokBossSimpleLookAt * this_ptr))

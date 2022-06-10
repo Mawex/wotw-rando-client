@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::DESTransform {
     IL2CPP_REGISTER_METHOD(0x020D1FF0, void, ctor, (app::DESTransform * this_ptr, app::SymmetricAlgorithm * symm_algo, bool encryption, app::Byte__Array * key, app::Byte__Array * iv))

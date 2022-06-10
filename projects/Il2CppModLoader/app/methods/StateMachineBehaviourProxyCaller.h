@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::StateMachineBehaviourProxyCaller {
     IL2CPP_REGISTER_METHOD(0x009B5F10, app::StateMachineBehaviourProxy_IReceiver *, GetReceiver, (app::StateMachineBehaviourProxyCaller * this_ptr, app::Animator * animator))

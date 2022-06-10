@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MenuScreenManager__CallNextFrame_d__93 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::MenuScreenManager_CallNextFrame_d_93 * this_ptr, int32_t __1__state))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnvironmentShadingModifier {
     IL2CPP_REGISTER_METHOD(0x006D41F0, float, get_FadeTime, (app::EnvironmentShadingModifier * this_ptr))

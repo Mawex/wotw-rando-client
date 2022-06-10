@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_TriangleNet_Topology_DCEL_Face_ {
     IL2CPP_REGISTER_METHOD(0x025E9020, void, AddRange, (app::List_1_TriangleNet_Topology_DCEL_Face_ * this_ptr, app::IEnumerable_1_TriangleNet_Topology_DCEL_Face_ * collection))

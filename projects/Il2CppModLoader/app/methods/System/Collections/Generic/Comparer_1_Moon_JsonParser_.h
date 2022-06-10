@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Comparer_1_Moon_JsonParser_ {
     IL2CPP_REGISTER_METHOD(0x028C3060, app::Comparer_1_Moon_JsonParser_ *, Create, (app::Comparison_1_Moon_JsonParser_ * comparison))

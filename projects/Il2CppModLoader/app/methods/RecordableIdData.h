@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RecordableIdData {
     IL2CPP_REGISTER_METHOD(0x00114C30, void, ctor_1, (app::RecordableIdData__Boxed * this_ptr, app::RecordableType__Enum recordable_type, int64_t id, app::String * asset_guid))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GenericAttackable {
     IL2CPP_REGISTER_METHOD(0x00E05AB0, void, Awake, (app::GenericAttackable * this_ptr))

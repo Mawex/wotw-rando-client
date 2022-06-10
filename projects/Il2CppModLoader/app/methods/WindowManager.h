@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WindowManager {
     IL2CPP_REGISTER_METHOD(0x0057AB90, int32_t, SetWindowLong, (void * h_wnd, int32_t n_index, int32_t dw_new_long))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::ListDictionary_NodeEnumerator {
     IL2CPP_REGISTER_METHOD(0x0202A190, void, ctor, (app::ListDictionary_NodeEnumerator * this_ptr, app::ListDictionary * list))

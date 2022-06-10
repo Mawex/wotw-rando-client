@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ChainLightningController {
     IL2CPP_REGISTER_METHOD(0x0103BB20, void, Initialize, (app::ChainLightningController * this_ptr, app::DamageReceiver * first_damage_receiver, app::Damage * damage))

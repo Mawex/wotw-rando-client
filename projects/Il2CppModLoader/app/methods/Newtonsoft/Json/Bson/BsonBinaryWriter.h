@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonBinaryWriter {
     IL2CPP_REGISTER_METHOD(0x002FD1D0, app::DateTimeKind__Enum, get_DateTimeKindHandling, (app::BsonBinaryWriter * this_ptr))

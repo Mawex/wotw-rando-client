@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InstantiateDebug::InstantiateDebugIgnore {
     IL2CPP_REGISTER_METHOD(0x0062CDF0, app::ICollection_1_System_String_ *, get_IgnoreCache, (app::InstantiateDebugIgnore * this_ptr))

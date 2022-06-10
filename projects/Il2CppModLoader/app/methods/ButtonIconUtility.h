@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ButtonIconUtility {
     IL2CPP_REGISTER_METHOD(0x0081E660, app::String *, KeyCodeToString, (app::KeyCode__Enum key_code))

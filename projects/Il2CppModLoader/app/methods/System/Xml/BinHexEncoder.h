@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::BinHexEncoder {
     IL2CPP_REGISTER_METHOD(0x021E1E90, void, Encode_1, (app::Byte__Array * buffer, int32_t index, int32_t count, app::XmlWriter * writer))

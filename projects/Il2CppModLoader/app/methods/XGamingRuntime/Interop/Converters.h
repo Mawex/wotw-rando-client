@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::Converters {
     IL2CPP_REGISTER_METHOD(0x030B0320, void *, Offset, (void * ptr, int64_t that))

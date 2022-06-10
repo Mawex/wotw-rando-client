@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleEnemy {
     IL2CPP_REGISTER_METHOD(0x00CEF030, app::TentacleEnemy_Joint *, get_HeadJoint, (app::TentacleEnemy * this_ptr))

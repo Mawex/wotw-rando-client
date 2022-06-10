@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlCustomFormatter {
     IL2CPP_REGISTER_METHOD(0x01C9D2B0, app::String *, FromEnum, (int64_t value, app::String__Array * values, app::Int64__Array * ids, app::String * type_name))

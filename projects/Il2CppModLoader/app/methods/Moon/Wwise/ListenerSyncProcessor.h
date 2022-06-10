@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ListenerSyncProcessor {
     IL2CPP_REGISTER_METHOD(0x02709E80, void, Initialize, (app::ListenerSyncProcessor * this_ptr, app::AkWwiseInitializationSettings * config))

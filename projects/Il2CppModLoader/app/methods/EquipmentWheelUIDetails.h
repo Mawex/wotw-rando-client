@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EquipmentWheelUIDetails {
     IL2CPP_REGISTER_METHOD(0x00981340, void, Awake, (app::EquipmentWheelUIDetails * this_ptr))

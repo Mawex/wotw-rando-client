@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::Scrollbar {
     IL2CPP_REGISTER_METHOD(0x0266F180, void, ctor, (app::Scrollbar * this_ptr))

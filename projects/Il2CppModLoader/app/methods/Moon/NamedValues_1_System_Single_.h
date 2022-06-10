@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::NamedValues_1_System_Single_ {
     IL2CPP_REGISTER_METHOD(0x02722490, app::String *, GetName, (app::NamedValues_1_System_Single_ * this_ptr, float value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Sein::World::Events {
     IL2CPP_REGISTER_METHOD(0x0106F850, bool, get_GinsoTreeEntered, ())

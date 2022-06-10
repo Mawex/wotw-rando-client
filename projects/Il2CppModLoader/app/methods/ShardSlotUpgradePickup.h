@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ShardSlotUpgradePickup {
     IL2CPP_REGISTER_METHOD(0x005ABE60, void, OnCollectorCandidateTouch, (app::ShardSlotUpgradePickup * this_ptr, app::GameObject * collector))

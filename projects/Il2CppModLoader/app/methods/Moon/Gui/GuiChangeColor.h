@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Gui::GuiChangeColor {
     IL2CPP_REGISTER_METHOD(0x01349560, app::Color, get_PreviousColor, (app::GuiChangeColor * this_ptr))

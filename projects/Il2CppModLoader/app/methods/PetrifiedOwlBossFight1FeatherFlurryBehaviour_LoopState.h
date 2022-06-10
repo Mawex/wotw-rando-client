@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1FeatherFlurryBehaviour_LoopState {
     IL2CPP_REGISTER_METHOD(0x01768570, void, ctor, (app::PetrifiedOwlBossFight1FeatherFlurryBehaviour_LoopState * this_ptr, app::PetrifiedOwlBossFight1FeatherFlurryBehaviour * behaviour))

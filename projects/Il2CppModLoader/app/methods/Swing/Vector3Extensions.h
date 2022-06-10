@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Swing::Vector3Extensions {
     IL2CPP_REGISTER_METHOD(0x018318F0, app::Vector3, perpendicular, (app::Vector3 _this))

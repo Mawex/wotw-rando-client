@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::Punycode {
     IL2CPP_REGISTER_METHOD(0x01DEB430, void, ctor, (app::Punycode * this_ptr))

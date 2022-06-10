@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinRide_RideState {
     IL2CPP_REGISTER_METHOD(0x005D6970, void, Initialize, (app::SeinRide_RideState * this_ptr, app::SeinRide * sein_ride))

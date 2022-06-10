@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::VirtualTimelineConstrainedTimelineEntity {
     IL2CPP_REGISTER_METHOD(0x01E92970, int32_t, get_ConstrainedEntitiesCount, (app::VirtualTimelineConstrainedTimelineEntity * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverFullBody {
     IL2CPP_REGISTER_METHOD(0x02BF2590, app::IKEffector *, GetEffector, (app::IKSolverFullBody * this_ptr, app::Transform * t))

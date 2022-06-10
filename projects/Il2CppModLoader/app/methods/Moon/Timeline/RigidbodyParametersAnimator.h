@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::RigidbodyParametersAnimator {
     IL2CPP_REGISTER_METHOD(0x007808F0, app::GameObject *, get_ExternalTarget, (app::RigidbodyParametersAnimator * this_ptr))

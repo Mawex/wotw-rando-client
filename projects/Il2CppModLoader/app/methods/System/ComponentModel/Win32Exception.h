@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::Win32Exception {
     IL2CPP_REGISTER_METHOD(0x0295EA40, void, ctor_1, (app::Win32Exception * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Resources::FastResourceComparer {
     IL2CPP_REGISTER_METHOD(0x02699220, int32_t, GetHashCode_1, (app::FastResourceComparer * this_ptr, app::Object * key))

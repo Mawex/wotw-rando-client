@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::PathInternal {
     IL2CPP_REGISTER_METHOD(0x00417870, bool, IsPartiallyQualified, (app::String * path))

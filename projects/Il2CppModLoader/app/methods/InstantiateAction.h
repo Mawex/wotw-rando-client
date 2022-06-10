@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InstantiateAction {
     IL2CPP_REGISTER_METHOD(0x003FF2B0, int32_t, GetPrewarmAmount, (app::InstantiateAction * this_ptr, app::GameObject * entry))

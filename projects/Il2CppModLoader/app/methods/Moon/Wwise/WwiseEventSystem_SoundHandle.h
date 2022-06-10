@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseEventSystem_SoundHandle {
     IL2CPP_REGISTER_METHOD(0x001FEC90, void, ctor, (app::WwiseEventSystem_SoundHandle__Boxed * this_ptr, app::WwiseEventSystem_SoundHandleProtected * snd_handle, int64_t handle_version))

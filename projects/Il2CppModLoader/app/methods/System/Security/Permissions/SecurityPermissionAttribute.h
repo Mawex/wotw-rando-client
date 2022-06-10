@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Security::Permissions::SecurityPermissionAttribute {
     IL2CPP_REGISTER_METHOD(0x01E1BCD0, void, set_SkipVerification, (app::SecurityPermissionAttribute * this_ptr, bool value))

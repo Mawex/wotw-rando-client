@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinLaunch {
     IL2CPP_REGISTER_METHOD(0x01020FB0, void, OnSetReferenceToSein, (app::SeinLaunch * this_ptr))

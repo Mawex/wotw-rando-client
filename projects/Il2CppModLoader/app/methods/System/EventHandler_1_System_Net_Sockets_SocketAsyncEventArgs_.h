@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::EventHandler_1_System_Net_Sockets_SocketAsyncEventArgs_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::EventHandler_1_System_Net_Sockets_SocketAsyncEventArgs_ * this_ptr, app::Object * object, void * method_1))

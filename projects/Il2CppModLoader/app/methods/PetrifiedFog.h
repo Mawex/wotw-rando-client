@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedFog {
     IL2CPP_REGISTER_METHOD(0x0049ABF0, float, get_RemainingDuration, ())

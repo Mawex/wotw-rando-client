@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_DateTime_System_TimeType_ {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::DateTime, get_Key, (app::KeyValuePair_2_System_DateTime_System_TimeType___Boxed * this_ptr))

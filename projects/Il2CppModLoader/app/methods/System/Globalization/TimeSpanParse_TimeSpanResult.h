@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::TimeSpanParse_TimeSpanResult {
     IL2CPP_REGISTER_METHOD(0x001D43C0, void, Init, (app::TimeSpanParse_TimeSpanResult__Boxed * this_ptr, app::TimeSpanParse_TimeSpanThrowStyle__Enum can_throw))

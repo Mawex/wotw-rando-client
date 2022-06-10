@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::ConfigHandler {
     IL2CPP_REGISTER_METHOD(0x01AA0550, void, ctor, (app::ConfigHandler * this_ptr, bool only_delayed_channels))

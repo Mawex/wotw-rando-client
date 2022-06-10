@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AreaMapIcon {
     IL2CPP_REGISTER_METHOD(0x0050CA80, bool, ShouldShowAttentionMarker, (app::AreaMapIcon * this_ptr, app::GameWorldAreaID__Enum area_i_d))

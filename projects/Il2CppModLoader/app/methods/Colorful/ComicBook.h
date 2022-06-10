@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::ComicBook {
     IL2CPP_REGISTER_METHOD(0x03041040, void, OnRenderImage, (app::ComicBook * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

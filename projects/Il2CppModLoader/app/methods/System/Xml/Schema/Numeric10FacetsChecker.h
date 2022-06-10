@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Numeric10FacetsChecker {
     IL2CPP_REGISTER_METHOD(0x016D0D80, void, ctor, (app::Numeric10FacetsChecker * this_ptr, app::Decimal min_val, app::Decimal max_val))

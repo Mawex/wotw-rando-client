@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::ShadowsMidtonesHighlights {
     IL2CPP_REGISTER_METHOD(0x030523E0, void, OnRenderImage, (app::ShadowsMidtonesHighlights * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

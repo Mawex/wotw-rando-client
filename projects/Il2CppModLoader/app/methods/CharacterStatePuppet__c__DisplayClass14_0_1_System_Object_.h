@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CharacterStatePuppet___c__DisplayClass14_0_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x018E6D70, void, ctor, (app::CharacterStatePuppet_c_DisplayClass14_0_1_System_Object_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WeaponmasterScreen {
     IL2CPP_REGISTER_METHOD(0x00418200, app::ShopkeeperItem__Array *, get_Items, (app::WeaponmasterScreen * this_ptr))

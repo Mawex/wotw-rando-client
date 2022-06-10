@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereEnumerableIterator_1_System_Boolean_ {
     IL2CPP_REGISTER_METHOD(0x02892980, void, ctor, (app::Enumerable_WhereEnumerableIterator_1_System_Boolean_ * this_ptr, app::IEnumerable_1_System_Boolean_ * source, app::Func_2_Boolean_Boolean_ * predicate))

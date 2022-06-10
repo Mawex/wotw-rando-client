@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AchievementsUI {
     IL2CPP_REGISTER_METHOD(0x004BDC70, app::AchievementsUI *, get_Instance, ())

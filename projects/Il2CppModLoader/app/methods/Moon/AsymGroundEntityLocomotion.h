@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::AsymGroundEntityLocomotion {
     IL2CPP_REGISTER_METHOD(0x00CB47C0, app::Vector2, get_LookDirection, (app::AsymGroundEntityLocomotion * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::NativeMethods {
     IL2CPP_REGISTER_METHOD(0x02171B50, bool, DuplicateHandle_1, (app::HandleRef h_source_process_handle, app::SafeHandle * h_source_handle, app::HandleRef h_target_process, app::SafeWaitHandle * * target_handle, int32_t dw_desired_access, bool b_inherit_handle, int32_t dw_options))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::EarlyZDelayDebugMenuItem {
     IL2CPP_REGISTER_METHOD(0x00789430, void, ctor, (app::EarlyZDelayDebugMenuItem * this_ptr, app::String * path, app::String * str))

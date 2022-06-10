@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::LineRenderer {
     IL2CPP_REGISTER_METHOD(0x0252FEC0, void, SetWidth, (app::LineRenderer * this_ptr, float start, float end))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberShaderTexture {
     IL2CPP_REGISTER_METHOD(0x012881C0, void, Set, (app::UberShaderTexture * this_ptr, app::String * bind_name, app::UberShaderBlock * attached_block))

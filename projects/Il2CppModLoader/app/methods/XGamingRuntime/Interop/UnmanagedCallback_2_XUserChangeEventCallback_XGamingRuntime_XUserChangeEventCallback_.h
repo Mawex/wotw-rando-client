@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::UnmanagedCallback_2_XUserChangeEventCallback_XGamingRuntime_XUserChangeEventCallback_ {
     IL2CPP_REGISTER_METHOD(0x018E6D70, void, ctor, (app::UnmanagedCallback_2_XUserChangeEventCallback_XGamingRuntime_XUserChangeEventCallback_ * this_ptr))

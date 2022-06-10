@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverTrigonometric {
     IL2CPP_REGISTER_METHOD(0x02C02BB0, void, SetBendGoalPosition, (app::IKSolverTrigonometric * this_ptr, app::Vector3 goal_position, float weight))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::SceneLoadingTest_GatherStatsScope {
     IL2CPP_REGISTER_METHOD(0x00ECB3A0, void, ctor, (app::SceneLoadingTest_GatherStatsScope * this_ptr, app::SceneLoadingTest_Context * ctx, app::SceneLoadingTest_Stats * stats))

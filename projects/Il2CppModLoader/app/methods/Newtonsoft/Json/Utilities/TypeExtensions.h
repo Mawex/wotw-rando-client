@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::TypeExtensions {
     IL2CPP_REGISTER_METHOD(0x019E35B0, app::MemberTypes__Enum, MemberType, (app::MemberInfo_1 * member_info))

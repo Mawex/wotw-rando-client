@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TranslateModifier {
     IL2CPP_REGISTER_METHOD(0x00B0A3F0, void, ApplyMultipliers, (app::TranslateModifier * this_ptr, float strength, float speed))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IPv6AddressHelper {
     IL2CPP_REGISTER_METHOD(0x0200BB50, app::String *, ParseCanonicalName, (app::String * str, int32_t start, bool * is_loopback, app::String * * scope_id))

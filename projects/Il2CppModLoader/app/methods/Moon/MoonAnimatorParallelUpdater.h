@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimatorParallelUpdater {
     IL2CPP_REGISTER_METHOD(0x0211C7B0, void, ResetStatics, ())

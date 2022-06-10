@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FollowPositionRotation {
     IL2CPP_REGISTER_METHOD(0x00C944C0, void, OnPoolSpawned, (app::FollowPositionRotation * this_ptr))

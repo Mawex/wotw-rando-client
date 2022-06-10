@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DynamicInstantiationScanner {
     IL2CPP_REGISTER_METHOD(0x030E0670, void, EmitException, (app::Exception * ex, app::Object_1 * obj))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlTextReaderImpl_DtdDefaultAttributeInfoToNodeDataComparer {
     IL2CPP_REGISTER_METHOD(0x01FBACB0, app::IComparer_1_System_Object_ *, get_Instance, ())

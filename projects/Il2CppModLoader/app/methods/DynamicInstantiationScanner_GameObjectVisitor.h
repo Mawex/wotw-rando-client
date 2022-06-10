@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DynamicInstantiationScanner_GameObjectVisitor {
     IL2CPP_REGISTER_METHOD(0x030E5C50, void, ctor, (app::DynamicInstantiationScanner_GameObjectVisitor * this_ptr, bool is_moon_reference, app::FieldInfo_1 * field, app::DynamicInstantiationAttribute * attribute))

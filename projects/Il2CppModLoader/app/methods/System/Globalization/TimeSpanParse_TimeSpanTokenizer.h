@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Globalization::TimeSpanParse_TimeSpanTokenizer {
     IL2CPP_REGISTER_METHOD(0x001D4590, void, Init_1, (app::TimeSpanParse_TimeSpanTokenizer__Boxed * this_ptr, app::String * input))

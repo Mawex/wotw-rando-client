@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineView_SrpProfilerFrame {
     IL2CPP_REGISTER_METHOD(0x00EB09D0, app::MoonRenderPipelineView_SrpProfilerFrame, op_Addition, (app::MoonRenderPipelineView_SrpProfilerFrame a, app::MoonRenderPipelineView_SrpProfilerFrame b))

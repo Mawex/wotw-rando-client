@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::RegisteredWaitHandle {
     IL2CPP_REGISTER_METHOD(0x0232A0F0, void, ctor, (app::RegisteredWaitHandle * this_ptr, app::WaitHandle * wait_object, app::WaitOrTimerCallback * callback, app::Object * state, app::TimeSpan timeout, bool execute_only_once))

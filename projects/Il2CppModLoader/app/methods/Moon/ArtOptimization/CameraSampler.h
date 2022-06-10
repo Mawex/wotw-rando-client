@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::CameraSampler {
     IL2CPP_REGISTER_METHOD(0x01349100, void, ctor, (app::CameraSampler * this_ptr, app::SceneMetaData * scene_meta, app::Camera * camera))

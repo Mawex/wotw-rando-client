@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkObjectInfoArray {
     IL2CPP_REGISTER_METHOD(0x01885120, void, ctor, (app::AkObjectInfoArray * this_ptr, int32_t count))

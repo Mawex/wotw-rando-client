@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::CaseInsensitiveHashCodeProvider {
     IL2CPP_REGISTER_METHOD(0x0201EF80, void, ctor_1, (app::CaseInsensitiveHashCodeProvider * this_ptr))

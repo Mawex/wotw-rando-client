@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraTransformMetaDataDrivenAnimator {
     IL2CPP_REGISTER_METHOD(0x00B21100, int32_t, GetFrameAtTime, (app::CameraTransformMetaDataDrivenAnimator * this_ptr, float index))

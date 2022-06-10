@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::DynamicCubeReference {
     IL2CPP_REGISTER_METHOD(0x031B03F0, void, Awake, (app::DynamicCubeReference * this_ptr))

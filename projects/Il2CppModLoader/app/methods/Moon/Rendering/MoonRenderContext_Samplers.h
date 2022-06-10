@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderContext_Samplers {
     IL2CPP_REGISTER_METHOD(0x007916C0, void, cctor, ())

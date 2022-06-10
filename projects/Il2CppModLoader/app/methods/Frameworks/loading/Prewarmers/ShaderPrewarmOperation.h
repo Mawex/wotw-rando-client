@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::frameworks::loading::Prewarmers::ShaderPrewarmOperation {
     IL2CPP_REGISTER_METHOD(0x00F62000, void, ctor, (app::ShaderPrewarmOperation * this_ptr))

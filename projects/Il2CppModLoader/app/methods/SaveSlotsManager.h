@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SaveSlotsManager {
     IL2CPP_REGISTER_METHOD(0x00927F30, app::UberStateValueStore *, get_SelectedSlotUberStateValueStore, ())

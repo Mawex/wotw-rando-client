@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DoorUberStatePair {
     IL2CPP_REGISTER_METHOD(0x01B5A5F0, bool, get_EffectiveValue, (app::DoorUberStatePair * this_ptr))

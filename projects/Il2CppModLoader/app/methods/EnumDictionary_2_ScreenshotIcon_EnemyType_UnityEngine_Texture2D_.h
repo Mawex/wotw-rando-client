@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_ScreenshotIcon_EnemyType_UnityEngine_Texture2D_ {
     IL2CPP_REGISTER_METHOD(0x019E4530, void, ctor, (app::EnumDictionary_2_ScreenshotIcon_EnemyType_UnityEngine_Texture2D_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Activator {
     IL2CPP_REGISTER_METHOD(0x0228AE50, app::Object *, CreateInstance_1, (app::Type * type, app::BindingFlags__Enum binding_attr, app::Binder * binder, app::Object__Array * args, app::CultureInfo * culture))

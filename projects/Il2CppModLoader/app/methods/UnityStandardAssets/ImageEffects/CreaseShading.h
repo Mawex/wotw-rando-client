@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::CreaseShading {
     IL2CPP_REGISTER_METHOD(0x0251F850, bool, CheckResources, (app::CreaseShading * this_ptr))

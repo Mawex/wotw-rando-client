@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_ValueTuple_2_Object_Object__ {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (app::Array_EmptyInternalEnumerator_1_ValueTuple_2_Object_Object_ * this_ptr))

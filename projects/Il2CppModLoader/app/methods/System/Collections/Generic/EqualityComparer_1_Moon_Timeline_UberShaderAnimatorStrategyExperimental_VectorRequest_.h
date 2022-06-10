@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ {
     IL2CPP_REGISTER_METHOD(0x02807CD0, app::EqualityComparer_1_Moon_Timeline_UberShaderAnimatorStrategyExperimental_VectorRequest_ *, get_Default, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor {
     IL2CPP_REGISTER_METHOD(0x0301EB10, app::Expression *, VisitConditional, (app::NoThrowExpressionVisitor * this_ptr, app::ConditionalExpression * node))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineDebug_Slice {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor_1, (app::MoonRenderPipelineDebug_Slice * this_ptr))

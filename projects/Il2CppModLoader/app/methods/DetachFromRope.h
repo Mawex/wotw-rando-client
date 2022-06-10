@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DetachFromRope {
     IL2CPP_REGISTER_METHOD(0x00B8DEF0, void, Perform, (app::DetachFromRope * this_ptr, app::IContext * context))

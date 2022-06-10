@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::String {
     IL2CPP_REGISTER_METHOD(0x01E26B60, app::String *, Join_1, (app::String * separator, app::String__Array * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::UriParser {
     IL2CPP_REGISTER_METHOD(0x002FB950, app::String *, get_SchemeName, (app::UriParser * this_ptr))

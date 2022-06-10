@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SaveInTheDarkZone {
     IL2CPP_REGISTER_METHOD(0x00C2F630, void, Awake, (app::SaveInTheDarkZone * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::AuthenticationModuleElement {
     IL2CPP_REGISTER_METHOD(0x020180B0, void, ctor_1, (app::AuthenticationModuleElement * this_ptr))

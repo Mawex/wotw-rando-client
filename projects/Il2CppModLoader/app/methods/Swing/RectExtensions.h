@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Swing::RectExtensions {
     IL2CPP_REGISTER_METHOD(0x0182EF30, app::Rect, scale_1, (app::Rect _this, float _scale))

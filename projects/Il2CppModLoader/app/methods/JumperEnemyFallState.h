@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::JumperEnemyFallState {
     IL2CPP_REGISTER_METHOD(0x004C1E90, void, ctor, (app::JumperEnemyFallState * this_ptr, app::JumperEnemy * jumper_enemy))

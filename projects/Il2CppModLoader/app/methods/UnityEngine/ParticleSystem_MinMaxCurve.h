@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_MinMaxCurve {
     IL2CPP_REGISTER_METHOD(0x00248700, void, ctor_1, (app::ParticleSystem_MinMaxCurve__Boxed * this_ptr, float constant))

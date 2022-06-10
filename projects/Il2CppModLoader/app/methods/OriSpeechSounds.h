@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OriSpeechSounds {
     IL2CPP_REGISTER_METHOD(0x00440050, void, Awake, (app::OriSpeechSounds * this_ptr))

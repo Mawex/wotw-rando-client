@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::ForcedCooperation___Comply_d__3 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::ForcedCooperation_Comply_d_3 * this_ptr, int32_t __1__state))

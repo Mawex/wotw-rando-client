@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::UberShaderAnimatorStrategyExperimental_RendererState {
     IL2CPP_REGISTER_METHOD(0x00D15290, void, ctor, (app::UberShaderAnimatorStrategyExperimental_RendererState * this_ptr))

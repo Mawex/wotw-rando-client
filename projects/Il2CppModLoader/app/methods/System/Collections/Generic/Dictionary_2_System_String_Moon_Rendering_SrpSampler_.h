@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_String_Moon_Rendering_SrpSampler_ {
     IL2CPP_REGISTER_METHOD(0x02DA9FC0, bool, TryGetValue, (app::Dictionary_2_System_String_Moon_Rendering_SrpSampler_ * this_ptr, app::String * key, app::SrpSampler * value))

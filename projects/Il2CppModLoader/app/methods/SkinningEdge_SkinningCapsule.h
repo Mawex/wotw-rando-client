@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkinningEdge_SkinningCapsule {
     IL2CPP_REGISTER_METHOD(0x006BE9E0, void, Set, (app::SkinningEdge_SkinningCapsule * this_ptr, app::SkinningEdge_SkinningCapsule * cap))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MasterTimelineSequence {
     IL2CPP_REGISTER_METHOD(0x00A11940, float, get_UnlockedDuration, (app::MasterTimelineSequence * this_ptr))

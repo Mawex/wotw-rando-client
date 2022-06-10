@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OutputWriter {
     IL2CPP_REGISTER_METHOD(0x00442420, void, ctor, (app::OutputWriter * this_ptr, app::String * folder, app::String * output_file_name))

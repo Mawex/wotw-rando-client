@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::VerletStructure_JobSystem {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::VerletStructure_JobSystem * this_ptr, app::VerletStructure__Array * entities))

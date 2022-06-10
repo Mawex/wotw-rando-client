@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTelemetry_SendRequestData {
     IL2CPP_REGISTER_METHOD(0x02E9FBD0, bool, get_IsProcessing, (app::MoonTelemetry_SendRequestData * this_ptr))

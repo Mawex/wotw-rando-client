@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CatAndMouseRoomDController {
     IL2CPP_REGISTER_METHOD(0x0102B6C0, void, Awake, (app::CatAndMouseRoomDController * this_ptr))

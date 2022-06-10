@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CoroutineTween::ColorTween {
     IL2CPP_REGISTER_METHOD(0x001D9AC0, app::Color, get_startColor, (app::ColorTween__Boxed * this_ptr))

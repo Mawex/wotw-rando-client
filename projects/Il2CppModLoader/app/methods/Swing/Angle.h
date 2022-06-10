@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Swing::Angle {
     IL2CPP_REGISTER_METHOD(0x0010FDD0, float, get_rad, (app::Angle__Boxed * this_ptr))

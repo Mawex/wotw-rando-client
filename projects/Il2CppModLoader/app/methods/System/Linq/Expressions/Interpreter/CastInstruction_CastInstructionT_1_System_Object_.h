@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::CastInstruction_CastInstructionT_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02545450, int32_t, Run, (app::CastInstruction_CastInstructionT_1_System_Object_ * this_ptr, app::InterpretedFrame * frame))

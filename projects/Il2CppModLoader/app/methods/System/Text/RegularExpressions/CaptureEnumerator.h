@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::CaptureEnumerator {
     IL2CPP_REGISTER_METHOD(0x01DC2A00, void, ctor, (app::CaptureEnumerator * this_ptr, app::CaptureCollection * rcc))

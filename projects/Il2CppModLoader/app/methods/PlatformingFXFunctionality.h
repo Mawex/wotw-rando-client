@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlatformingFXFunctionality {
     IL2CPP_REGISTER_METHOD(0x011720B0, void, ctor, (app::PlatformingFXFunctionality * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::UploadStringCompletedEventArgs {
     IL2CPP_REGISTER_METHOD(0x01BCB240, void, ctor_1, (app::UploadStringCompletedEventArgs * this_ptr, app::String * result, app::Exception * exception, bool cancelled, app::Object * user_token))

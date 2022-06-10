@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::AutoIncrementBigInteger {
     IL2CPP_REGISTER_METHOD(0x021492F0, app::Object *, get_Current, (app::AutoIncrementBigInteger * this_ptr))

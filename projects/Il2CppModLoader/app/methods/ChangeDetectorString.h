@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ChangeDetectorString {
     IL2CPP_REGISTER_METHOD(0x01045800, bool, CheckValueChanged, (app::ChangeDetectorString * this_ptr, app::String * t))

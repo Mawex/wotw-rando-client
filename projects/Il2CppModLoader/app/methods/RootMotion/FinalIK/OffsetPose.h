@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::OffsetPose {
     IL2CPP_REGISTER_METHOD(0x02A19190, void, Apply_1, (app::OffsetPose * this_ptr, app::IKSolverFullBodyBiped * solver, float weight))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::InteropHelp_UTF8StringHandle {
     IL2CPP_REGISTER_METHOD(0x01600550, void, ctor, (app::InteropHelp_UTF8StringHandle * this_ptr, app::String * str))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RaceMenuScreenUISlot {
     IL2CPP_REGISTER_METHOD(0x002FBB40, app::RaceSettings *, get_RaceSetting, (app::RaceMenuScreenUISlot * this_ptr))

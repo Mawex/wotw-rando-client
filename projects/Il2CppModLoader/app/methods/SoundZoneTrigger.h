@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SoundZoneTrigger {
     IL2CPP_REGISTER_METHOD(0x00EF3770, app::String *, get_GizmoText, (app::SoundZoneTrigger * this_ptr))

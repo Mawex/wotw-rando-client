@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslStreamBase_InternalAsyncResult {
     IL2CPP_REGISTER_METHOD(0x0291A490, void, ctor, (app::SslStreamBase_InternalAsyncResult * this_ptr, app::AsyncCallback * user_callback, app::Object * user_state, app::Byte__Array * buffer, int32_t offset, int32_t count, bool from_write, bool proceed_after_handshake))

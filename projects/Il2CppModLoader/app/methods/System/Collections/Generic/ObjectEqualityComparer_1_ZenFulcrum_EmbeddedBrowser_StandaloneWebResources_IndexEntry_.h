@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ {
     IL2CPP_REGISTER_METHOD(0x01CD0C40, bool, Equals_1, (app::ObjectEqualityComparer_1_ZenFulcrum_EmbeddedBrowser_StandaloneWebResources_IndexEntry_ * this_ptr, app::StandaloneWebResources_IndexEntry x, app::StandaloneWebResources_IndexEntry y))

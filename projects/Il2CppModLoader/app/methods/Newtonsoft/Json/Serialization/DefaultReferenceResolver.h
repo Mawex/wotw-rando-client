@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::DefaultReferenceResolver {
     IL2CPP_REGISTER_METHOD(0x0186A530, app::BidirectionalDictionary_2_System_String_System_Object_ *, GetMappings, (app::DefaultReferenceResolver * this_ptr, app::Object * context))

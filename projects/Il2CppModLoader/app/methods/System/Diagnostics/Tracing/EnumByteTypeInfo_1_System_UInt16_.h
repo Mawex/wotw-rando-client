@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EnumByteTypeInfo_1_System_UInt16_ {
     IL2CPP_REGISTER_METHOD(0x02B40C20, void, WriteMetadata, (app::EnumByteTypeInfo_1_System_UInt16_ * this_ptr, app::TraceLoggingMetadataCollector * collector, app::String * name, app::EventFieldFormat__Enum format))

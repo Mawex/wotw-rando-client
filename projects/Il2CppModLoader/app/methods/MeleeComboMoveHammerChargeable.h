@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MeleeComboMoveHammerChargeable {
     IL2CPP_REGISTER_METHOD(0x006FB810, app::HammerComboMoveBase_BalancingData *, get_BalancingBase, (app::MeleeComboMoveHammerChargeable * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XboxOneStatistics_StatisticReading {
     IL2CPP_REGISTER_METHOD(0x0013C860, void, ctor, (app::XboxOneStatistics_StatisticReading__Boxed * this_ptr, app::String * name, app::String * type, app::String * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LightTorchZone {
     IL2CPP_REGISTER_METHOD(0x00FA2CA0, void, Awake, (app::LightTorchZone * this_ptr))

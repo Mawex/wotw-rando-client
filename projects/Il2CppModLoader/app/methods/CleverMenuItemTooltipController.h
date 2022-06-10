@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CleverMenuItemTooltipController {
     IL2CPP_REGISTER_METHOD(0x012BF310, bool, get_IsSelectionActive, (app::CleverMenuItemTooltipController * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::BinaryFacetsChecker {
     IL2CPP_REGISTER_METHOD(0x019A7FE0, app::Exception *, CheckValueFacets_1, (app::BinaryFacetsChecker * this_ptr, app::Object * value, app::XmlSchemaDatatype * datatype))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LabelScopeInfo {
     IL2CPP_REGISTER_METHOD(0x01CE43D0, void, ctor, (app::LabelScopeInfo * this_ptr, app::LabelScopeInfo * parent, app::LabelScopeKind__Enum kind))

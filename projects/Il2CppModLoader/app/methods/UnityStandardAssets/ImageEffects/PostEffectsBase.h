@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::PostEffectsBase {
     IL2CPP_REGISTER_METHOD(0x02D5D890, app::Material *, CheckShaderAndCreateMaterial, (app::PostEffectsBase * this_ptr, app::Shader * s, app::Material * m2_create))

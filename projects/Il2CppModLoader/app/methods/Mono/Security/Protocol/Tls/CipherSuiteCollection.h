@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::CipherSuiteCollection {
     IL2CPP_REGISTER_METHOD(0x01F65030, app::CipherSuite *, get_Item_1, (app::CipherSuiteCollection * this_ptr, app::String * name))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::BoxCollider2D {
     IL2CPP_REGISTER_METHOD(0x0316CB60, app::Vector2, get_size, (app::BoxCollider2D * this_ptr))

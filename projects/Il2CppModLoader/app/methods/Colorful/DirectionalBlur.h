@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::DirectionalBlur {
     IL2CPP_REGISTER_METHOD(0x030424C0, void, OnRenderImage, (app::DirectionalBlur * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

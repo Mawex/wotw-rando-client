@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::CADMethodRef {
     IL2CPP_REGISTER_METHOD(0x0230CE10, app::Type__Array *, GetTypes, (app::CADMethodRef * this_ptr, app::String__Array * type_array))

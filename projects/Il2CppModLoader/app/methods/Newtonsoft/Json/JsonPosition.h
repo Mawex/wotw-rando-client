@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::JsonPosition {
     IL2CPP_REGISTER_METHOD(0x00167100, void, ctor, (app::JsonPosition__Boxed * this_ptr, app::JsonContainerType__Enum type))

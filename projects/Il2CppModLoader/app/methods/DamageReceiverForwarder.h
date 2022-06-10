@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DamageReceiverForwarder {
     IL2CPP_REGISTER_METHOD(0x00DC8A50, void, OnRecieveDamage, (app::DamageReceiverForwarder * this_ptr, app::Damage * damage))

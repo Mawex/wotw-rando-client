@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::VRMainControlPanel___c__DisplayClass10_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::VRMainControlPanel_c_DisplayClass10_0 * this_ptr))

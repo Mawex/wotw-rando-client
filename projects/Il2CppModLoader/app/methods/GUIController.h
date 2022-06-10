@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GUIController {
     IL2CPP_REGISTER_METHOD(0x03163090, void, Start, (app::GUIController * this_ptr))

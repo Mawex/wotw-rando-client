@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TargetBreadcrumbsTracker {
     IL2CPP_REGISTER_METHOD(0x002FBBC0, app::Transform *, get_FollowedTarget, (app::TargetBreadcrumbsTracker * this_ptr))

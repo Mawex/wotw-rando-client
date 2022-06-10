@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SlugKickupHitBehaviour {
     IL2CPP_REGISTER_METHOD(0x006C6090, void, OnCacheSerializedComponents, (app::SlugKickupHitBehaviour * this_ptr, app::Entity * owner))

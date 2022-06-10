@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::SandWormDashBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x00EC1200, app::Vector3, get_DashTargetPosition, (app::SandWormDashBehaviourNew * this_ptr))

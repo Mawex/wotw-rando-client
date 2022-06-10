@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Base64Stream {
     IL2CPP_REGISTER_METHOD(0x02010F00, void, ctor_1, (app::Base64Stream * this_ptr, app::Stream * stream, app::Base64WriteStateInfo * write_state_info))

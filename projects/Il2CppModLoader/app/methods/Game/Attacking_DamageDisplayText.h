@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Game::Attacking_DamageDisplayText {
     IL2CPP_REGISTER_METHOD(0x01521900, app::GameObject *, get_DamageText, ())

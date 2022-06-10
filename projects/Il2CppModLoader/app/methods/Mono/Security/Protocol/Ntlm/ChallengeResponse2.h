@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Ntlm::ChallengeResponse2 {
     IL2CPP_REGISTER_METHOD(0x02A497B0, app::Byte__Array *, Compute_LM, (app::String * password, app::Byte__Array * challenge))

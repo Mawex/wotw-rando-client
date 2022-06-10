@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_String_Microsoft_Applications_Events_DataModels_Value_ {
     IL2CPP_REGISTER_METHOD(0x00107C10, app::Value *, get_Value, (app::KeyValuePair_2_System_String_Microsoft_Applications_Events_DataModels_Value___Boxed * this_ptr))

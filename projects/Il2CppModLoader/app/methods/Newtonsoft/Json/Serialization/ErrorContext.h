@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::ErrorContext {
     IL2CPP_REGISTER_METHOD(0x0186BD10, void, ctor, (app::ErrorContext * this_ptr, app::Object * original_object, app::Object * member, app::String * path, app::Exception * error))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BatSwarmerSettings {
     IL2CPP_REGISTER_METHOD(0x00F97980, void, ctor, (app::BatSwarmerSettings * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PositionTweenCurveAnimator {
     IL2CPP_REGISTER_METHOD(0x01E7C9B0, void, OnStartPlayback, (app::PositionTweenCurveAnimator * this_ptr, app::IContext * context))

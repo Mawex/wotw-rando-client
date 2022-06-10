@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BeautifyEffect::Demo1 {
     IL2CPP_REGISTER_METHOD(0x0317AFE0, void, OnGUI, (app::Demo1 * this_ptr))

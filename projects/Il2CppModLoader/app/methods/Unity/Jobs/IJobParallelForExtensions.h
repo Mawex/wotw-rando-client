@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobParallelForExtensions {
     IL2CPP_REGISTER_METHOD(0x02FF7470, app::JobHandle, Schedule_1, (app::MoonTrailSystem_SimulateJob job_data, int32_t array_length, int32_t innerloop_batch_count, app::JobHandle depends_on))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinBreathRemainingValueProvider {
     IL2CPP_REGISTER_METHOD(0x00DA2DB0, float, GetFloatValue, (app::SeinBreathRemainingValueProvider * this_ptr))

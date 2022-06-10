@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::StarNode {
     IL2CPP_REGISTER_METHOD(0x016D9320, void, ConstructPos, (app::StarNode * this_ptr, app::BitSet * firstpos, app::BitSet * lastpos, app::BitSet__Array * followpos))

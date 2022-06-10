@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Terrain {
     IL2CPP_REGISTER_METHOD(0x025668D0, app::TerrainData *, get_terrainData, (app::Terrain * this_ptr))

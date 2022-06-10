@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Fisheye {
     IL2CPP_REGISTER_METHOD(0x02D58740, bool, CheckResources, (app::Fisheye * this_ptr))

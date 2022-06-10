@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Yoga::Native {
     IL2CPP_REGISTER_METHOD(0x031BE3F0, void, YGNodeFree, (void * yg_node))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Race::RaceLeaderboardAction {
     IL2CPP_REGISTER_METHOD(0x00C48BF0, void, Perform, (app::RaceLeaderboardAction * this_ptr, app::IContext * context))

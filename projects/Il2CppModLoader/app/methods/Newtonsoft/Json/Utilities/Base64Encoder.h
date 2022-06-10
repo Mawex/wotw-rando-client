@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::Base64Encoder {
     IL2CPP_REGISTER_METHOD(0x01BFFFC0, void, ctor, (app::Base64Encoder_1 * this_ptr, app::TextWriter * writer))

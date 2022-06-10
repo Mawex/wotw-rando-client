@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::DebugNode {
     IL2CPP_REGISTER_METHOD(0x0300CC10, void, OnEnter, (app::DebugNode * this_ptr, app::IContext * context))

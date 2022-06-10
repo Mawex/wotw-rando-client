@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1_System_DateTimeOffset_ {
     IL2CPP_REGISTER_METHOD(0x028733D0, void, ctor_1, (app::TraceLoggingTypeInfo_1_System_DateTimeOffset_ * this_ptr))

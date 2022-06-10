@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberInteractionManager {
     IL2CPP_REGISTER_METHOD(0x013F7820, app::UberInteractionManager_PropertyIDCache *, GetCachedPropertyID, (app::UberInteractionManager_PropertyIDCache * * static_cache, app::String * property_interaction_name))

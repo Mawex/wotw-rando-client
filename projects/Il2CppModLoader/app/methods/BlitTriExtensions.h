@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BlitTriExtensions {
     IL2CPP_REGISTER_METHOD(0x00D2B910, app::Material *, get_defaultMaterial, ())

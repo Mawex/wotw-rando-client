@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MicroProfilerGraph_MetricCache {
     IL2CPP_REGISTER_METHOD(0x0010E170, app::Metric__Enum, get_Metric, (app::MicroProfilerGraph_MetricCache__Boxed * this_ptr))

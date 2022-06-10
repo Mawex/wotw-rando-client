@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Hashtable_SyncHashtable {
     IL2CPP_REGISTER_METHOD(0x002FBB50, void, ctor_1, (app::Hashtable_SyncHashtable * this_ptr, app::Hashtable * table))

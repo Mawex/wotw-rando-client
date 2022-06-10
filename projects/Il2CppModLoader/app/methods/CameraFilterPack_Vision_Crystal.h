@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Vision_Crystal {
     IL2CPP_REGISTER_METHOD(0x020F66F0, app::Material *, get_material, (app::CameraFilterPack_Vision_Crystal * this_ptr))

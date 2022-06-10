@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Swing::Math2d {
     IL2CPP_REGISTER_METHOD(0x0182B520, float, getAngle, (app::Vector2 _vector))

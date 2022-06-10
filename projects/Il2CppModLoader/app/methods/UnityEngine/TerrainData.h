@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::TerrainData {
     IL2CPP_REGISTER_METHOD(0x0319A460, void, ctor, (app::TerrainData_1 * this_ptr))

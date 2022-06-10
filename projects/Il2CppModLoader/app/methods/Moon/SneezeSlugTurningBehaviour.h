@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::SneezeSlugTurningBehaviour {
     IL2CPP_REGISTER_METHOD(0x00E2E380, void, OnInitializeTask, (app::SneezeSlugTurningBehaviour * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlElement {
     IL2CPP_REGISTER_METHOD(0x01DAD950, void, ctor_1, (app::XmlElement * this_ptr, app::XmlName * name, bool empty, app::XmlDocument * doc))

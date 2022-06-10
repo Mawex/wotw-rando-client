@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpikeSlugFallReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x011CCD70, app::SpikeSlugLocomotion *, get_Locomotion, (app::SpikeSlugFallReactionBehaviour * this_ptr))

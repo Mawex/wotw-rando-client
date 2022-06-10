@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::QuadTree_Node {
     IL2CPP_REGISTER_METHOD(0x01996640, void, ctor_1, (app::QuadTree_Node * this_ptr, app::Rect rect, int32_t depth))

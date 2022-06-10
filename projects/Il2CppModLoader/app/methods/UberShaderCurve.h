@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberShaderCurve {
     IL2CPP_REGISTER_METHOD(0x002FB9B0, app::AnimationCurve *, get_Curve, (app::UberShaderCurve * this_ptr))

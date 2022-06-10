@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Blend_1_System_Single_ {
     IL2CPP_REGISTER_METHOD(0x019D84A0, void, ctor, (app::Blend_1_System_Single_ * this_ptr, app::Func_2_Single_Single_ * ease, app::Func_4_Single_Single_Single_Single_ * lerp))

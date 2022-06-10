@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Configuration::ConfigurationElement {
     IL2CPP_REGISTER_METHOD(0x031BB900, app::ConfigurationPropertyCollection *, get_Properties, (app::ConfigurationElement * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InventoryAbilityItem {
     IL2CPP_REGISTER_METHOD(0x0063EA70, bool, get_HasAbility, (app::InventoryAbilityItem * this_ptr))

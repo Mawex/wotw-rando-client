@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1_T__ExecuteJobFunction_BlendGradientColorsJob_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::IJobParallelForExtensions_ParallelForJobStruct_1_T_ExecuteJobFunction_BlendGradientColorsJob_ * this_ptr, app::Object * object, void * method_1))

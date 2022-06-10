@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolver_Bone {
     IL2CPP_REGISTER_METHOD(0x02BE5490, app::RotationLimit *, get_rotationLimit, (app::IKSolver_Bone * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::eventAnimators::ObjectLayerAnimator {
     IL2CPP_REGISTER_METHOD(0x00F2CAF0, void, OnStartPlayback, (app::ObjectLayerAnimator * this_ptr, app::IContext * context))

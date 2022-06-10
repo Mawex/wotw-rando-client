@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::EvaluateException {
     IL2CPP_REGISTER_METHOD(0x01F4D260, void, ctor_1, (app::EvaluateException * this_ptr, app::SerializationInfo * info, app::StreamingContext context))

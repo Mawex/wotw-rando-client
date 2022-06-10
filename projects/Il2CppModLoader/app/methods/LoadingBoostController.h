@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LoadingBoostController {
     IL2CPP_REGISTER_METHOD(0x00FB5980, app::LoadingBoostController_BoostModeLevel__Enum, get_CurrentLevel, ())

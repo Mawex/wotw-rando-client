@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ActiveQuestDistanceFloatProvider {
     IL2CPP_REGISTER_METHOD(0x004C99B0, float, GetFloatValue, (app::ActiveQuestDistanceFloatProvider * this_ptr))

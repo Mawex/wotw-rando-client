@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Datatype_dayTimeDuration {
     IL2CPP_REGISTER_METHOD(0x0235B380, app::Exception *, TryParseValue, (app::Datatype_dayTimeDuration * this_ptr, app::String * s, app::XmlNameTable * name_table, app::IXmlNamespaceResolver * nsmgr, app::Object * * typed_value))

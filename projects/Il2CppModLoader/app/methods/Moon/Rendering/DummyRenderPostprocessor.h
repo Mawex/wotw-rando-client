@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::DummyRenderPostprocessor {
     IL2CPP_REGISTER_METHOD(0x007890D0, void, IRenderPostprocessor_OnRenderImage, (app::DummyRenderPostprocessor * this_ptr, app::PostProcessRenderContext * context))

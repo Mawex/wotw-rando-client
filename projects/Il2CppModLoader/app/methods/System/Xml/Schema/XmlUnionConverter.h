@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlUnionConverter {
     IL2CPP_REGISTER_METHOD(0x0192FD00, void, ctor, (app::XmlUnionConverter * this_ptr, app::XmlSchemaType * schema_type))

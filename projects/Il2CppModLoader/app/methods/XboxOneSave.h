@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::XboxOneSave {
     IL2CPP_REGISTER_METHOD(0x01C598B0, app::XboxOneSave *, get_Instance, ())

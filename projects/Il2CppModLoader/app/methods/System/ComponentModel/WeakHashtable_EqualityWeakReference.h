@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::WeakHashtable_EqualityWeakReference {
     IL2CPP_REGISTER_METHOD(0x0295E800, void, ctor, (app::WeakHashtable_EqualityWeakReference * this_ptr, app::Object * o))

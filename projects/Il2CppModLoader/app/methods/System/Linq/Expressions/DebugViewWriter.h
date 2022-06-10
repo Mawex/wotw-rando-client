@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::DebugViewWriter {
     IL2CPP_REGISTER_METHOD(0x01FA3B10, void, ctor, (app::DebugViewWriter * this_ptr, app::TextWriter * file))

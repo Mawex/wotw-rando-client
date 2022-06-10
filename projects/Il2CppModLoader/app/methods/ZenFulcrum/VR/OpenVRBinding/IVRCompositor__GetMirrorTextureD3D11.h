@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRCompositor__GetMirrorTextureD3D11 {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::IVRCompositor_GetMirrorTextureD3D11 * this_ptr, app::Object * object, void * method_1))

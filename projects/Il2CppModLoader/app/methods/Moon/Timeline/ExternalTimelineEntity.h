@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ExternalTimelineEntity {
     IL2CPP_REGISTER_METHOD(0x01BBDF00, app::String *, get_FullAddress, (app::ExternalTimelineEntity * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::MergeFailedEventArgs {
     IL2CPP_REGISTER_METHOD(0x01E40F10, void, ctor, (app::MergeFailedEventArgs * this_ptr, app::DataTable * table, app::String * conflict))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_System_Guid_ {
     IL2CPP_REGISTER_METHOD(0x02AB11D0, bool, Equals_1, (app::GenericEqualityComparer_1_System_Guid_ * this_ptr, app::Guid x, app::Guid y))

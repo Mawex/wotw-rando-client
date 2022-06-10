@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Bindings::NativeConditionalAttribute {
     IL2CPP_REGISTER_METHOD(0x020D0390, void, ctor, (app::NativeConditionalAttribute * this_ptr, app::String * condition))

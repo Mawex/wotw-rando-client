@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SwitchSeriesPuzzleSwitchSetupHolder {
     IL2CPP_REGISTER_METHOD(0x01835240, app::SwitchSeriesPuzzleSetupData *, get_DeactivatedState, (app::SwitchSeriesPuzzleSwitchSetupHolder * this_ptr))

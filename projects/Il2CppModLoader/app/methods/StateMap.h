@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::StateMap {
     IL2CPP_REGISTER_METHOD(0x00597B10, int32_t, Resolve, (app::StateMap * this_ptr, app::IUberState * uber_state))

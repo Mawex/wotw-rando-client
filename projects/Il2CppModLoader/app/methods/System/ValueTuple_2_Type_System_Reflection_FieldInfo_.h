@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_Type_System_Reflection_FieldInfo_ {
     IL2CPP_REGISTER_METHOD(0x00110270, void, ctor, (app::ValueTuple_2_Type_System_Reflection_FieldInfo___Boxed * this_ptr, app::Type * item1, app::FieldInfo_1 * item2))

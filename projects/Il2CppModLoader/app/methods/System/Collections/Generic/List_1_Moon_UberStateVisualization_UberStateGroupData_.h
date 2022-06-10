@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon_UberStateVisualization_UberStateGroupData_ {
     IL2CPP_REGISTER_METHOD(0x02E05DF0, app::UberStateGroupData, get_Item, (app::List_1_Moon_UberStateVisualization_UberStateGroupData_ * this_ptr, int32_t index))

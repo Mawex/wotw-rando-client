@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::QualityProfile {
     IL2CPP_REGISTER_METHOD(0x00EB1580, void, Apply, (app::QualityProfile * this_ptr))

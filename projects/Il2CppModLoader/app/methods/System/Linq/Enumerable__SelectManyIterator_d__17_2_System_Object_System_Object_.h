@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__SelectManyIterator_d__17_2_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x002FB930, app::Object *, System_Collections_Generic_IEnumerator_TResult__get_Current, (app::Enumerable_SelectManyIterator_d_17_2_System_Object_System_Object_ * this_ptr))

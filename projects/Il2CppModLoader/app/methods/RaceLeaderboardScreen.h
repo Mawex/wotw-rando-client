@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RaceLeaderboardScreen {
     IL2CPP_REGISTER_METHOD(0x00E9FCC0, app::RaceLeaderboardEntry *, get_SelectedEntry, (app::RaceLeaderboardScreen * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AudioDeviceOptions___c__DisplayClass4_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::AudioDeviceOptions_c_DisplayClass4_0 * this_ptr))

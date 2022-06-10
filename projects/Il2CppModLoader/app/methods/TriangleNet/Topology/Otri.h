@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::Otri {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::Triangle *, get_Triangle, (app::Otri__Boxed * this_ptr))

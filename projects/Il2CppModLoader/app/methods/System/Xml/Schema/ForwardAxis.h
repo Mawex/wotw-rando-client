@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::ForwardAxis {
     IL2CPP_REGISTER_METHOD(0x002FB930, app::DoubleLinkAxis *, get_RootNode, (app::ForwardAxis * this_ptr))

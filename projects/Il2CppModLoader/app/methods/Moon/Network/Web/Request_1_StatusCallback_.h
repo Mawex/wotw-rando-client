@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Request_1_StatusCallback_ {
     IL2CPP_REGISTER_METHOD(0x0052A000, void, SetMethod, (app::Request_1_StatusCallback_ * this_ptr, app::Method__Enum method_1))

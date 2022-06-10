@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsVersionedType {
     IL2CPP_REGISTER_METHOD(0x0012BF80, app::Object *, Migrate, (app::fsVersionedType__Boxed * this_ptr, app::Object * ancestor_instance))

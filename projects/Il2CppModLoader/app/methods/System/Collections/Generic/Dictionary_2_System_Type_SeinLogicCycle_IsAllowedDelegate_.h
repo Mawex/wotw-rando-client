@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Type_SeinLogicCycle_IsAllowedDelegate_ {
     IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_System_Type_SeinLogicCycle_IsAllowedDelegate_ * this_ptr, app::Type * key, app::SeinLogicCycle_IsAllowedDelegate * * value))

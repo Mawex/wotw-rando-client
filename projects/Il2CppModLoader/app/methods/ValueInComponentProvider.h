@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ValueInComponentProvider {
     IL2CPP_REGISTER_METHOD(0x013B8FF0, void, Awake, (app::ValueInComponentProvider * this_ptr))

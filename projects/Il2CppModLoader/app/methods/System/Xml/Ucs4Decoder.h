@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Ucs4Decoder {
     IL2CPP_REGISTER_METHOD(0x019512C0, int32_t, GetCharCount, (app::Ucs4Decoder * this_ptr, app::Byte__Array * bytes, int32_t index, int32_t count))

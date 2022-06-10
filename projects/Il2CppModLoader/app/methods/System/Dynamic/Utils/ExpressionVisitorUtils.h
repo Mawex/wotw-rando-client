@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::ExpressionVisitorUtils {
     IL2CPP_REGISTER_METHOD(0x01F95420, app::Expression__Array *, VisitBlockExpressions, (app::ExpressionVisitor * visitor, app::BlockExpression * block))

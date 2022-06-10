@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_MemberInitExpressionProxy {
     IL2CPP_REGISTER_METHOD(0x029D5220, void, ctor, (app::Expression_MemberInitExpressionProxy * this_ptr, app::MemberInitExpression * node))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ResolutionOptions {
     IL2CPP_REGISTER_METHOD(0x00905930, void, Awake, (app::ResolutionOptions * this_ptr))

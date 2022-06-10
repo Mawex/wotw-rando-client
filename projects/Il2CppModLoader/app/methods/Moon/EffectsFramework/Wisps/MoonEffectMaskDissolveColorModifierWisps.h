@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::Wisps::MoonEffectMaskDissolveColorModifierWisps {
     IL2CPP_REGISTER_METHOD(0x0120B580, void, Apply, (app::MoonEffectMaskDissolveColorModifierWisps * this_ptr, app::IMoonEffectComponentCache * input, app::MoonEffectRevertHandle * revert_handle))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ExceptionProcessing::ExceptionProcessor {
     IL2CPP_REGISTER_METHOD(0x01987530, app::Dictionary_2_System_Int32_Moon_ExceptionProcessing_ExceptionEntry_ *, Process, (app::ExceptionProcessor * this_ptr, app::String * log_path))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_DataPointType_Dictionary_2_System_String_Moon_Telemetry_GameSession__ {
     IL2CPP_REGISTER_METHOD(0x0283AC20, void, ctor, (app::Dictionary_2_DataPointType_Dictionary_2_System_String_Moon_Telemetry_GameSession_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinCharacter {
     IL2CPP_REGISTER_METHOD(0x006A63A0, app::SpiritLightRadialVisualAffector *, get_LightAffector, (app::SeinCharacter * this_ptr))

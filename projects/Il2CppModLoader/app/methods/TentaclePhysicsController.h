@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentaclePhysicsController {
     IL2CPP_REGISTER_METHOD(0x010CE240, bool, get_Enabled, (app::TentaclePhysicsController * this_ptr))

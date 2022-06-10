@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Enum {
     IL2CPP_REGISTER_METHOD(0x01A10D70, app::Enum_ValuesAndNames *, GetCachedValuesAndNames, (app::RuntimeType * enum_type, bool get_names))

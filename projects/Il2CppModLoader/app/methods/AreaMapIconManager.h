@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AreaMapIconManager {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Awake, (app::AreaMapIconManager * this_ptr))

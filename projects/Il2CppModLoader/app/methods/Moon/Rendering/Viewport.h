@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::Viewport {
     IL2CPP_REGISTER_METHOD(0x00120520, void, ctor_1, (app::Viewport__Boxed * this_ptr, app::Rect rect))

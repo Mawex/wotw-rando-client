@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ClassPropertyWriter_2_System_SByte_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02B3C460, void, ctor, (app::ClassPropertyWriter_2_System_SByte_System_Object_ * this_ptr, app::PropertyAnalysis * property))

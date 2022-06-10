@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_WhenAllPromise_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02776B30, bool, get_ShouldNotifyDebuggerOfWaitCompletion, (app::Task_WhenAllPromise_1_System_Object_ * this_ptr))

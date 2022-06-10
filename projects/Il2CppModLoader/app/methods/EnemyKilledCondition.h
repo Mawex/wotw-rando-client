@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnemyKilledCondition {
     IL2CPP_REGISTER_METHOD(0x00C821C0, bool, Validate, (app::EnemyKilledCondition * this_ptr, app::IContext * context))

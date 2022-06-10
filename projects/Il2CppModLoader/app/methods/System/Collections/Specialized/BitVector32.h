@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::BitVector32 {
     IL2CPP_REGISTER_METHOD(0x001EF440, bool, get_Item, (app::BitVector32__Boxed * this_ptr, int32_t bit))

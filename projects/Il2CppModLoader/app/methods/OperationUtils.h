@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::OperationUtils {
     IL2CPP_REGISTER_METHOD(0x031137A0, float, Operate_1, (float a, float b, app::OperationMethod__Enum om, float delta))

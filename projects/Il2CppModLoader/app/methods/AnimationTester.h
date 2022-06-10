@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AnimationTester {
     IL2CPP_REGISTER_METHOD(0x01AFB1B0, float, get_ChangeAnimationInterval, (app::AnimationTester * this_ptr))

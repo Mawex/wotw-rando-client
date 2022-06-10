@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinAbilityCondition {
     IL2CPP_REGISTER_METHOD(0x00D7FCA0, bool, Validate, (app::SeinAbilityCondition * this_ptr, app::IContext * context))

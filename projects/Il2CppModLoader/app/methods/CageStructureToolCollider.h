@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageStructureToolCollider {
     IL2CPP_REGISTER_METHOD(0x00417870, bool, DoStrip, (app::CageStructureToolCollider * this_ptr))

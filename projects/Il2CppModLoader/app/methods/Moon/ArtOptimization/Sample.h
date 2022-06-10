@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::Sample {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::TexturePoolEntity *, get_MasterTex, (app::Sample * this_ptr))

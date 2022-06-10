@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NetworkTest__sendTelemetryCoroutine_d__15 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::NetworkTest_sendTelemetryCoroutine_d_15 * this_ptr, int32_t __1__state))

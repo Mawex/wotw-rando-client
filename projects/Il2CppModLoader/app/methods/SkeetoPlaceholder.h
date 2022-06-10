@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkeetoPlaceholder {
     IL2CPP_REGISTER_METHOD(0x0075F7D0, app::SkeetoEntity *, get_CurrentEntity, (app::SkeetoPlaceholder * this_ptr))

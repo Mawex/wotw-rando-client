@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DepthOfFieldAnimator {
     IL2CPP_REGISTER_METHOD(0x002FBC20, app::LayeredRenderSettings *, get_LayeredRenderSettings, (app::DepthOfFieldAnimator * this_ptr))

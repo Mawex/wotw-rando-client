@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Jobs::TransformAccessArray {
     IL2CPP_REGISTER_METHOD(0x001F2790, void, ctor, (app::TransformAccessArray__Boxed * this_ptr, app::Transform__Array * transforms, int32_t desired_job_count))

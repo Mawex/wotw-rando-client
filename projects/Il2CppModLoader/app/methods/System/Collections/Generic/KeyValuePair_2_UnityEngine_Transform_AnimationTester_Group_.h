@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_UnityEngine_Transform_AnimationTester_Group_ {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::Transform *, get_Key, (app::KeyValuePair_2_UnityEngine_Transform_AnimationTester_Group___Boxed * this_ptr))

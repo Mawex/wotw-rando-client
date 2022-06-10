@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::RuntimeHelpers {
     IL2CPP_REGISTER_METHOD(0x01A92480, void, InitializeArray_1, (app::Array * array, void * fld_handle))

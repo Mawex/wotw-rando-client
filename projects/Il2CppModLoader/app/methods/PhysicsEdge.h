@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PhysicsEdge {
     IL2CPP_REGISTER_METHOD(0x014FE040, void, Set, (app::PhysicsEdge * this_ptr, app::PhysicsEdge * physics_edge, bool set_skinning))

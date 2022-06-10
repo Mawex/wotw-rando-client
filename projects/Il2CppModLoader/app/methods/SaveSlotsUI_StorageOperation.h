@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SaveSlotsUI_StorageOperation {
     IL2CPP_REGISTER_METHOD(0x009317D0, void, ctor, (app::SaveSlotsUI_StorageOperation * this_ptr, app::Action * request, app::Action * on_finished))

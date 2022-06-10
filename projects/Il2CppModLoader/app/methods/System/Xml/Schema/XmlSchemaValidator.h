@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaValidator {
     IL2CPP_REGISTER_METHOD(0x0191EF60, void, ctor, (app::XmlSchemaValidator * this_ptr, app::XmlNameTable * name_table, app::XmlSchemaSet * schemas, app::IXmlNamespaceResolver * namespace_resolver, app::XmlSchemaValidationFlags__Enum validation_flags))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CleanupDebugger {
     IL2CPP_REGISTER_METHOD(0x01324D40, app::GUIStyle *, get_LabelStyle, (app::CleanupDebugger * this_ptr))

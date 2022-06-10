@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyDistanceAnimator {
     IL2CPP_REGISTER_METHOD(0x00A19E90, void, Start, (app::LegacyDistanceAnimator * this_ptr))

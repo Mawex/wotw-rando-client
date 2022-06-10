@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::GCHandle {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, ctor_1, (app::GCHandle__Boxed * this_ptr, void * h))

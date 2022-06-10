@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlBinaryStorage {
     IL2CPP_REGISTER_METHOD(0x02842470, void, ctor, (app::SqlBinaryStorage * this_ptr, app::DataColumn * column))

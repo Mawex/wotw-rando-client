@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ {
     IL2CPP_REGISTER_METHOD(0x02D49F20, void, Add, (app::List_1_Moon_Timeline_ExperimentalTransparencyAnimatorSystemStrategy_Request_ * this_ptr, app::ExperimentalTransparencyAnimatorSystemStrategy_Request item))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SplitTurnAnimation {
     IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_IsDone, (app::SplitTurnAnimation * this_ptr))

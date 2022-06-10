@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionEffector {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, app::FullBodyBipedEffector__Enum, get_effectorType, (app::InteractionEffector * this_ptr))

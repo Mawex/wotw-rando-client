@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::CompletionActionInvoker {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::CompletionActionInvoker * this_ptr, app::ITaskCompletionAction * action, app::Task * completing_task))

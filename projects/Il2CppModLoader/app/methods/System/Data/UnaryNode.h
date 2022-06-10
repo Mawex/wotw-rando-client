@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::UnaryNode {
     IL2CPP_REGISTER_METHOD(0x0199E410, void, ctor, (app::UnaryNode * this_ptr, app::DataTable * table, int32_t op, app::ExpressionNode * right))

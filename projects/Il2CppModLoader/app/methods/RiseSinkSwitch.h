@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RiseSinkSwitch {
     IL2CPP_REGISTER_METHOD(0x01355AA0, void, Awake, (app::RiseSinkSwitch * this_ptr))

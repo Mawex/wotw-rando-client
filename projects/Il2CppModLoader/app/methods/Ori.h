@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Ori {
     IL2CPP_REGISTER_METHOD(0x0061E140, app::Transform *, get_m_target, (app::Ori * this_ptr))

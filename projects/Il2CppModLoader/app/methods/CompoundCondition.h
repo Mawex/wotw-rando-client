@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CompoundCondition {
     IL2CPP_REGISTER_METHOD(0x011E18A0, bool, Validate, (app::CompoundCondition * this_ptr, app::IContext * context))

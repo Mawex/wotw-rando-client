@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FoxEnemy2 {
     IL2CPP_REGISTER_METHOD(0x01283220, void, Awake, (app::FoxEnemy2 * this_ptr))

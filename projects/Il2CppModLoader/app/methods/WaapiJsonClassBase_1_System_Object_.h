@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WaapiJsonClassBase_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x00C4CBF0, app::String *, ToString, (app::WaapiJsonClassBase_1_System_Object_ * this_ptr))

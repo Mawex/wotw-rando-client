@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkeetoAirMoveBehaviour {
     IL2CPP_REGISTER_METHOD(0x0074C3A0, app::Vector3, get_TargetPosition, (app::SkeetoAirMoveBehaviour * this_ptr))

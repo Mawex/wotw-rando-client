@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::CartographerDesertPatrolBehaviour_IdleStop {
     IL2CPP_REGISTER_METHOD(0x00CC3890, app::Transform *, get_PositionRight, (app::CartographerDesertPatrolBehaviour_IdleStop * this_ptr))

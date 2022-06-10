@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Colorful::GaussianBlur {
     IL2CPP_REGISTER_METHOD(0x03043B80, void, OnRenderImage, (app::GaussianBlur * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

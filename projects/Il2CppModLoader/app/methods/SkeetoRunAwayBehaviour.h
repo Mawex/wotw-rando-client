@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkeetoRunAwayBehaviour {
     IL2CPP_REGISTER_METHOD(0x006AF270, app::SkeetoLocomotion *, get_Locomotion, (app::SkeetoRunAwayBehaviour * this_ptr))

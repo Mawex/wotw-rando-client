@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::IsWarmingShadersCondition {
     IL2CPP_REGISTER_METHOD(0x00648D30, bool, Validate, (app::IsWarmingShadersCondition * this_ptr, app::IContext * context))

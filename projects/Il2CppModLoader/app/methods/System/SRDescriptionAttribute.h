@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::SRDescriptionAttribute {
     IL2CPP_REGISTER_METHOD(0x021BC5A0, void, ctor, (app::SRDescriptionAttribute * this_ptr, app::String * description))

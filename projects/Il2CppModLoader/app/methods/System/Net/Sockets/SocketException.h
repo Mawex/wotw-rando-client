@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Sockets::SocketException {
     IL2CPP_REGISTER_METHOD(0x020A2700, int32_t, WSAGetLastError_internal, ())

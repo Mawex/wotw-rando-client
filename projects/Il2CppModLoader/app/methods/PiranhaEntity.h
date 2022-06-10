@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PiranhaEntity {
     IL2CPP_REGISTER_METHOD(0x0115E6D0, bool, get_ShouldFollowOri, (app::PiranhaEntity * this_ptr))

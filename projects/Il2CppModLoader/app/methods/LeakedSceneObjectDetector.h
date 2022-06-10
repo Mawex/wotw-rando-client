@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LeakedSceneObjectDetector {
     IL2CPP_REGISTER_METHOD(0x004E7F00, bool, get_Enabled, ())

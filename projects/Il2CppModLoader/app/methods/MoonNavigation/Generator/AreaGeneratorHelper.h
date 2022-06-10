@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonNavigation::Generator::AreaGeneratorHelper {
     IL2CPP_REGISTER_METHOD(0x0145B5C0, bool, LineIntersection, (app::Vector2 p1, app::Vector2 p2, app::Vector2 p3, app::Vector2 p4, app::Vector2 * intersection))

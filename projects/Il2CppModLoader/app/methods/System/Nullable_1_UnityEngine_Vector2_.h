@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_UnityEngine_Vector2_ {
     IL2CPP_REGISTER_METHOD(0x002126E0, app::Vector2, GetValueOrDefault_1, (app::Nullable_1_UnityEngine_Vector2___Boxed * this_ptr, app::Vector2 default_value))

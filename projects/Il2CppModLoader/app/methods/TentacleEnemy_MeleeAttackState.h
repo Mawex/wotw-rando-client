@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleEnemy_MeleeAttackState {
     IL2CPP_REGISTER_METHOD(0x00CF8280, bool, get_CanInitiateAttack, (app::TentacleEnemy_MeleeAttackState * this_ptr))

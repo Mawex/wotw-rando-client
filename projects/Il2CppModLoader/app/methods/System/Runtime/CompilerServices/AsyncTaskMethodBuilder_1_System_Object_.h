@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x001FF3E0, app::Task_1_System_Object_ *, get_Task, (app::AsyncTaskMethodBuilder_1_System_Object___Boxed * this_ptr))

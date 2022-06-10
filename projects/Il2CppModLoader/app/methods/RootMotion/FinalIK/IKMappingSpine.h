@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKMappingSpine {
     IL2CPP_REGISTER_METHOD(0x02BE0FA0, bool, IsValid, (app::IKMappingSpine * this_ptr, app::IKSolver * solver, app::String * * message))

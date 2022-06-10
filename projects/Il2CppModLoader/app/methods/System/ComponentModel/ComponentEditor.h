@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ComponentEditor {
     IL2CPP_REGISTER_METHOD(0x024A9E40, bool, EditComponent, (app::ComponentEditor * this_ptr, app::Object * component))

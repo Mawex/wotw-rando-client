@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WandererTurningBehaviour {
     IL2CPP_REGISTER_METHOD(0x003FC5D0, float, get_TargetLookDirectionX, (app::WandererTurningBehaviour * this_ptr))

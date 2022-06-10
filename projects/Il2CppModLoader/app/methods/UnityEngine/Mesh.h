@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Mesh {
     IL2CPP_REGISTER_METHOD(0x02539620, void, ctor, (app::Mesh * this_ptr))

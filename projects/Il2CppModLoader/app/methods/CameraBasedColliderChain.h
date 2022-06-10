@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CameraBasedColliderChain {
     IL2CPP_REGISTER_METHOD(0x01682070, app::Vector3, get_CameraPosition, (app::CameraBasedColliderChain * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SteeringForces_SteeringForcesBuilder {
     IL2CPP_REGISTER_METHOD(0x0064EB90, app::Vector3, get_Value, (app::SteeringForces_SteeringForcesBuilder * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CircleGameplayZone {
     IL2CPP_REGISTER_METHOD(0x01323F40, void, OnValidate, (app::CircleGameplayZone * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ConsoleConnection {
     IL2CPP_REGISTER_METHOD(0x011E4E90, void, ctor, (app::ConsoleConnection * this_ptr, bool receive_files))

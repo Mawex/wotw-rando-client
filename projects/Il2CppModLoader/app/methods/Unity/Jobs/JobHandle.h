@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Unity::Jobs::JobHandle {
     IL2CPP_REGISTER_METHOD(0x001EAEC0, void, Complete, (app::JobHandle__Boxed * this_ptr))

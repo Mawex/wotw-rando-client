@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents__AddAndCreate_c__AnonStorey1 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::PlayerEditorConnectionEvents_AddAndCreate_c_AnonStorey1 * this_ptr))

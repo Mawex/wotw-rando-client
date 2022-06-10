@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HDRShadowDetailSlider {
     IL2CPP_REGISTER_METHOD(0x0109BB50, void, Awake, (app::HDRShadowDetailSlider * this_ptr))

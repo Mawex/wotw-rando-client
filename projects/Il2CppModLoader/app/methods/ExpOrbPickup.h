@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ExpOrbPickup {
     IL2CPP_REGISTER_METHOD(0x00986F10, void, OnCollectorCandidateTouch, (app::ExpOrbPickup * this_ptr, app::GameObject * collector))

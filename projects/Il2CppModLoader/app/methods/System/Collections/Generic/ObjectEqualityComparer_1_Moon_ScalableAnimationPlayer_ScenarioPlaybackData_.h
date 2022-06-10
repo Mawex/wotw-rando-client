@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon_ScalableAnimationPlayer_ScenarioPlaybackData_ {
     IL2CPP_REGISTER_METHOD(0x01CD1820, bool, Equals_1, (app::ObjectEqualityComparer_1_Moon_ScalableAnimationPlayer_ScenarioPlaybackData_ * this_ptr, app::ScalableAnimationPlayer_ScenarioPlaybackData x, app::ScalableAnimationPlayer_ScenarioPlaybackData y))

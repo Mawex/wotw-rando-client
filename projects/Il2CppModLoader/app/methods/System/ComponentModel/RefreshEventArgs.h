@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::RefreshEventArgs {
     IL2CPP_REGISTER_METHOD(0x029ABBD0, void, ctor_1, (app::RefreshEventArgs * this_ptr, app::Object * component_changed))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::DataColumnCollection {
     IL2CPP_REGISTER_METHOD(0x0239A1B0, void, ctor, (app::DataColumnCollection * this_ptr, app::DataTable * table))

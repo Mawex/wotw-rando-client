@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon_DamageResolver_Rule_ {
     IL2CPP_REGISTER_METHOD(0x025EFC50, app::DamageResolver_Rule *, get_Item, (app::List_1_Moon_DamageResolver_Rule_ * this_ptr, int32_t index))

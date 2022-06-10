@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Versioning::TargetFrameworkAttribute {
     IL2CPP_REGISTER_METHOD(0x01EE21A0, void, ctor, (app::TargetFrameworkAttribute * this_ptr, app::String * framework_name))

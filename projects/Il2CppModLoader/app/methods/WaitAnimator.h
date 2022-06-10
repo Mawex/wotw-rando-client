@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WaitAnimator {
     IL2CPP_REGISTER_METHOD(0x00420EE0, app::Func_2_IContext_Boolean_ *, get_CodeCondition, (app::WaitAnimator * this_ptr))

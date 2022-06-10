@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::StringResultHandler {
     IL2CPP_REGISTER_METHOD(0x02384010, void, ctor, (app::StringResultHandler * this_ptr, bool include_files, bool include_dirs))

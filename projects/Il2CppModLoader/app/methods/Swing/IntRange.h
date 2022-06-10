@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Swing::IntRange {
     IL2CPP_REGISTER_METHOD(0x00115520, void, ctor, (app::IntRange__Boxed * this_ptr, int32_t _min, int32_t _max))

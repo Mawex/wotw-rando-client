@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SuspendWhenOutOfFrustrumWithCondition {
     IL2CPP_REGISTER_METHOD(0x006753C0, bool, get_IsBlockedFromSuspending, (app::SuspendWhenOutOfFrustrumWithCondition * this_ptr))

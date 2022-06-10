@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FullSerializer::fsResult {
     IL2CPP_REGISTER_METHOD(0x0012C5C0, void, AddMessage, (app::fsResult__Boxed * this_ptr, app::String * message))

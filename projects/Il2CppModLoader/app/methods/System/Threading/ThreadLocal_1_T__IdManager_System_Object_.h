@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadLocal_1_T__IdManager_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02A5F7F0, int32_t, GetId, (app::ThreadLocal_1_T_IdManager_System_Object_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Datadog {
     IL2CPP_REGISTER_METHOD(0x02E8ECB0, app::Datadog *, get_Instance, ())

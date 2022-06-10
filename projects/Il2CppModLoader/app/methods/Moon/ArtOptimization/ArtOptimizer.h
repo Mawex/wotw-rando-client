@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ArtOptimizer {
     IL2CPP_REGISTER_METHOD(0x01341260, void, add_OnEnterGettingReady, (app::ArtOptimizer * this_ptr, app::Action * value))

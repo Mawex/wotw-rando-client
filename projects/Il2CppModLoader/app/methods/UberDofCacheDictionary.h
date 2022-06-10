@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberDofCacheDictionary {
     IL2CPP_REGISTER_METHOD(0x013E6AB0, void, ctor, (app::UberDofCacheDictionary * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinChakramSpell_BalancingData {
     IL2CPP_REGISTER_METHOD(0x00A3F1B0, app::SeinChakramSpell_BalancingData_ChakramSettings *, GetCurrentChakramSettings, (app::SeinChakramSpell_BalancingData * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ {
     IL2CPP_REGISTER_METHOD(0x0283AC20, void, ctor, (app::Dictionary_2_SpiritShardType_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ * this_ptr))

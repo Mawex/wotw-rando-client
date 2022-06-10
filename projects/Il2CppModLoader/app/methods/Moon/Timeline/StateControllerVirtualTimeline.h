@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::StateControllerVirtualTimeline {
     IL2CPP_REGISTER_METHOD(0x002FBBE0, app::NewSetupStateController *, get_StateController, (app::StateControllerVirtualTimeline * this_ptr))

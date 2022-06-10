@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__RangeIterator_d__115 {
     IL2CPP_REGISTER_METHOD(0x01F9B3A0, void, ctor, (app::Enumerable_RangeIterator_d_115 * this_ptr, int32_t __1__state))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ActivityFilter {
     IL2CPP_REGISTER_METHOD(0x01742A20, void, DisableFilter, (app::ActivityFilter * * filter_list, app::EventSource * source))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GhostTimelineEventsPlugin_TimelineEventData {
     IL2CPP_REGISTER_METHOD(0x007EC140, app::GhostFrame_FrameDataTypes__Enum, get_FrameType, (app::GhostTimelineEventsPlugin_TimelineEventData * this_ptr))

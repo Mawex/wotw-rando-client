@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::HTTPCookieContainerHandle {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, ctor, (app::HTTPCookieContainerHandle__Boxed * this_ptr, uint32_t value))

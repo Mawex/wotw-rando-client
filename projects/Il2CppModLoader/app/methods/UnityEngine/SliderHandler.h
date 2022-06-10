@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SliderHandler {
     IL2CPP_REGISTER_METHOD(0x00218FB0, void, ctor, (app::SliderHandler__Boxed * this_ptr, app::Rect position, float current_value, float size, float start, float end, app::GUIStyle * slider, app::GUIStyle * thumb, bool horiz, int32_t id))

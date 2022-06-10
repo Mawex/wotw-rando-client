@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::ObjectProgress {
     IL2CPP_REGISTER_METHOD(0x01D94700, void, ctor, (app::ObjectProgress * this_ptr))

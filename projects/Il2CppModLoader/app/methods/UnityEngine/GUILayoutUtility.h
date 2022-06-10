@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::GUILayoutUtility {
     IL2CPP_REGISTER_METHOD(0x029EBA90, app::Rect, Internal_GetWindowRect, (int32_t window_i_d))

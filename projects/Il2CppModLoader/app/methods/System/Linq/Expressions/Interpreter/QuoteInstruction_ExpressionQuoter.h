@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::QuoteInstruction_ExpressionQuoter {
     IL2CPP_REGISTER_METHOD(0x0240D6C0, void, ctor, (app::QuoteInstruction_ExpressionQuoter * this_ptr, app::Dictionary_2_System_Linq_Expressions_ParameterExpression_System_Linq_Expressions_Interpreter_LocalVariable_ * hoisted_variables, app::InterpretedFrame * frame))

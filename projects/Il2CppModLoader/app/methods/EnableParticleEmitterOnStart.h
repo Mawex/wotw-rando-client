@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnableParticleEmitterOnStart {
     IL2CPP_REGISTER_METHOD(0x00BFCBE0, void, Awake, (app::EnableParticleEmitterOnStart * this_ptr))

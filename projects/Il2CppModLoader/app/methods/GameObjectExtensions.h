@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GameObjectExtensions {
     IL2CPP_REGISTER_METHOD(0x015855E0, app::Object__Array *, GetInterfaces, (app::GameObject * g_obj))

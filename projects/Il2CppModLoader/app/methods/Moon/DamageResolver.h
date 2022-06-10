@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::DamageResolver {
     IL2CPP_REGISTER_METHOD(0x01200D00, void, AddRuleOverrides, (app::DamageResolver * this_ptr, app::DamageResolver_Rule__Array * rules_to_override))

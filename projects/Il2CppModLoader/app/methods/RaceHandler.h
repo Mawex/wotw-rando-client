@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RaceHandler {
     IL2CPP_REGISTER_METHOD(0x00E99590, app::RaceStateMachineContext *, get_Context, (app::RaceHandler * this_ptr))

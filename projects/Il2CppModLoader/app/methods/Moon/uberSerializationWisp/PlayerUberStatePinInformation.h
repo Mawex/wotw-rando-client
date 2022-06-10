@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::PlayerUberStatePinInformation {
     IL2CPP_REGISTER_METHOD(0x00F3ED30, void, SetPinActiveState, (app::PlayerUberStatePinInformation * this_ptr, app::GameMapPins_PinColour__Enum color, bool state))

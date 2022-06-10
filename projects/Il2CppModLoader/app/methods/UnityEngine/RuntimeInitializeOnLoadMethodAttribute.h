@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::RuntimeInitializeOnLoadMethodAttribute {
     IL2CPP_REGISTER_METHOD(0x002FC780, void, ctor_1, (app::RuntimeInitializeOnLoadMethodAttribute * this_ptr))

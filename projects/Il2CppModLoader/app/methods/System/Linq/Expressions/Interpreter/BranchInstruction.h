@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::BranchInstruction {
     IL2CPP_REGISTER_METHOD(0x022D61E0, app::Instruction__Array *, get_Cache, (app::BranchInstruction * this_ptr))

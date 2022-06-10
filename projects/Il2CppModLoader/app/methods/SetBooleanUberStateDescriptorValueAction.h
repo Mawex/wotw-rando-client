@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SetBooleanUberStateDescriptorValueAction {
     IL2CPP_REGISTER_METHOD(0x005A1BA0, void, Perform, (app::SetBooleanUberStateDescriptorValueAction * this_ptr, app::IContext * context))

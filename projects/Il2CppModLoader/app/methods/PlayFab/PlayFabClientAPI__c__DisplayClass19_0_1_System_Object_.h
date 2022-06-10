@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabClientAPI___c__DisplayClass19_0_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x018E6D70, void, ctor, (app::PlayFabClientAPI_c_DisplayClass19_0_1_System_Object_ * this_ptr))

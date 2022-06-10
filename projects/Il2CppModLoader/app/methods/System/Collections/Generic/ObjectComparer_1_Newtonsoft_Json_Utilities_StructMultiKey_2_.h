@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Newtonsoft_Json_Utilities_StructMultiKey_2_ {
     IL2CPP_REGISTER_METHOD(0x01CC7FF0, int32_t, Compare, (app::ObjectComparer_1_Newtonsoft_Json_Utilities_StructMultiKey_2_ * this_ptr, app::StructMultiKey_2_System_Object_System_Object_ x, app::StructMultiKey_2_System_Object_System_Object_ y))

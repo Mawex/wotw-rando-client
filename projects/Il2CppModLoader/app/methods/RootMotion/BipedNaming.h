@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::BipedNaming {
     IL2CPP_REGISTER_METHOD(0x021FCD40, app::Transform__Array *, GetBonesOfType, (app::BipedNaming_BoneType__Enum bone_type, app::Transform__Array * bones))

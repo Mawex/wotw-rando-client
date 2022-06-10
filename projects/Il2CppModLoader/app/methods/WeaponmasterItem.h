@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WeaponmasterItem {
     IL2CPP_REGISTER_METHOD(0x004173F0, app::MessageProvider *, get_ItemName, (app::WeaponmasterItem * this_ptr))

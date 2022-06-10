@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncMethodBuilderCore_ContinuationWrapper {
     IL2CPP_REGISTER_METHOD(0x01A91110, void, ctor, (app::AsyncMethodBuilderCore_ContinuationWrapper * this_ptr, app::Action * continuation, app::Action * invoke_action, app::Task * inner_task))

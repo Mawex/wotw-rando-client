@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::GroundPatrolWithDirectionBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x01494FE0, app::Vector3, get_PatrolOrigin, (app::GroundPatrolWithDirectionBehaviourNew * this_ptr))

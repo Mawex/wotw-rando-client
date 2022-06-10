@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MeleeWeaponColliderStick {
     IL2CPP_REGISTER_METHOD(0x009C8F20, void, add_OnCollision, (app::MeleeWeaponColliderStick * this_ptr, app::Action_2_UnityEngine_Collider_UnityEngine_Vector3_ * value))

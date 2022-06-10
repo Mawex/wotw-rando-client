@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MessageDescriptor {
     IL2CPP_REGISTER_METHOD(0x0012E2A0, void, ctor_1, (app::MessageDescriptor__Boxed * this_ptr, app::String * message, app::EmotionType__Enum emotion, app::SoundProvider * sound, app::Event_1 * wwise_event))

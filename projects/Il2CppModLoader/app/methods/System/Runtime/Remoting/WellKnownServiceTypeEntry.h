@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::WellKnownServiceTypeEntry {
     IL2CPP_REGISTER_METHOD(0x01D87900, void, ctor, (app::WellKnownServiceTypeEntry * this_ptr, app::String * type_name, app::String * assembly_name, app::String * object_uri, app::WellKnownObjectMode__Enum mode))

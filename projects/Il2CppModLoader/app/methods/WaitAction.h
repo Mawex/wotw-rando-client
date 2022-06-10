@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WaitAction {
     IL2CPP_REGISTER_METHOD(0x008C4680, void, Awake, (app::WaitAction * this_ptr))

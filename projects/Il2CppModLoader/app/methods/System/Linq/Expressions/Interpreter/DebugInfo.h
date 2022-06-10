@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::DebugInfo {
     IL2CPP_REGISTER_METHOD(0x022DA540, app::DebugInfo *, GetMatchingDebugInfo, (app::DebugInfo__Array * debug_infos, int32_t index))

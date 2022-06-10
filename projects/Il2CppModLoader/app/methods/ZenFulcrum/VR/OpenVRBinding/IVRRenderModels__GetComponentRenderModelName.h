@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::IVRRenderModels__GetComponentRenderModelName {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::IVRRenderModels_GetComponentRenderModelName * this_ptr, app::Object * object, void * method_1))

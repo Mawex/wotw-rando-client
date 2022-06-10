@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::XalUser {
     IL2CPP_REGISTER_METHOD(0x00CDE930, uint64_t, get_Id, (app::XalUser * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::TypeIdentifiers_Display {
     IL2CPP_REGISTER_METHOD(0x00B701E0, void, ctor, (app::TypeIdentifiers_Display * this_ptr, app::String * display_name))

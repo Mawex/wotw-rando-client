@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlChars {
     IL2CPP_REGISTER_METHOD(0x01E518F0, void, ctor_1, (app::SqlChars * this_ptr))

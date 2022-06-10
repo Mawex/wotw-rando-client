@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DifficultyModeMessageProvider__GetMessages_d__5 {
     IL2CPP_REGISTER_METHOD(0x004BD8A0, void, ctor, (app::DifficultyModeMessageProvider_GetMessages_d_5 * this_ptr, int32_t __1__state))

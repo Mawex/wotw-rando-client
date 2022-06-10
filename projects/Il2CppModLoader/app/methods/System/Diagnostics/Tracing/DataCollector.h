@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::DataCollector {
     IL2CPP_REGISTER_METHOD(0x0013DDE0, void, Enable, (app::DataCollector__Boxed * this_ptr, uint8_t * scratch, int32_t scratch_size, app::EventSource_EventData * datas, int32_t data_count, app::GCHandle * pins, int32_t pin_count))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlValidatingReaderImpl {
     IL2CPP_REGISTER_METHOD(0x01FC9360, void, ctor, (app::XmlValidatingReaderImpl * this_ptr, app::XmlReader * reader, app::ValidationEventHandler * settings_event_handler, bool process_identity_constraints))

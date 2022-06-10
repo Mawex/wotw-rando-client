@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::TriggerEventBroadcaster {
     IL2CPP_REGISTER_METHOD(0x02A2E0D0, void, OnTriggerEnter, (app::TriggerEventBroadcaster * this_ptr, app::Collider * collider))

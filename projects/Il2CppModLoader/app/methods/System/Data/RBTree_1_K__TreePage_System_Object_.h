@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::RBTree_1_K__TreePage_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x002FD1D0, int32_t, get_InUseCount, (app::RBTree_1_K_TreePage_System_Object_ * this_ptr))

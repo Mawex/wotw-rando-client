@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ColorStateModifierDataWisps {
     IL2CPP_REGISTER_METHOD(0x012D3960, app::Color, get_Color, (app::ColorStateModifierDataWisps * this_ptr))

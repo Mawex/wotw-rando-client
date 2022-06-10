@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_SceneLoadingQueue_QueueSceneToLoad_ {
     IL2CPP_REGISTER_METHOD(0x025EC760, app::SceneLoadingQueue_QueueSceneToLoad, get_Item, (app::List_1_SceneLoadingQueue_QueueSceneToLoad_ * this_ptr, int32_t index))

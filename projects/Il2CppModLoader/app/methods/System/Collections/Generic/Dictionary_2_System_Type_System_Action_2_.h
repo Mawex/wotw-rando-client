@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Type_System_Action_2_ {
     IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (app::Dictionary_2_System_Type_System_Action_2_ * this_ptr, app::Type * key, app::Action_2_Moon_JsonBuilder_Slot_Object_ * value))

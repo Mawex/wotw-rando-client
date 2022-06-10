@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::TelemetryComunicator {
     IL2CPP_REGISTER_METHOD(0x010A9E90, app::SwaggerComunicator *, get_Instance, ())

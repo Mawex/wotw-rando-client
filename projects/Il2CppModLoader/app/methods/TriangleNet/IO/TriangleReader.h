@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::IO::TriangleReader {
     IL2CPP_REGISTER_METHOD(0x02622160, bool, TryReadLine, (app::TriangleReader * this_ptr, app::StreamReader * reader, app::String__Array * * token))

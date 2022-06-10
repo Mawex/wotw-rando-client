@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryPlayerSessionEndEvent {
     IL2CPP_REGISTER_METHOD(0x0146F610, void, ctor, (app::MoonTelemetryPlayerSessionEndEvent * this_ptr, app::RestartReason__Enum restart_reason, float session_duration))

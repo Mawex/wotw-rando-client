@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerStats {
     IL2CPP_REGISTER_METHOD(0x027FD120, app::SteamAPICall_t, RequestUserStats, (app::CSteamID steam_i_d_user))

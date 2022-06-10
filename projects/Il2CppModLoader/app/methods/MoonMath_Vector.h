@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonMath_Vector {
     IL2CPP_REGISTER_METHOD(0x02579E50, app::Vector2, ApplyCircleDeadzone, (app::Vector2 axis, float deadzone_radius))

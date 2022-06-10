@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinSkillUpDownDebugMenuItem {
     IL2CPP_REGISTER_METHOD(0x005DAE00, void, ctor, (app::SeinSkillUpDownDebugMenuItem * this_ptr, app::String * path, app::String * str))

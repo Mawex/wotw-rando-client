@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Map_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::Dictionary_2_System_Int32_Dictionary_2_System_Int32_System_Object_ *, get_Cells, (app::Map_1_System_Object_ * this_ptr))

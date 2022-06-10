@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::GuardDecorator {
     IL2CPP_REGISTER_METHOD(0x0300DE30, app::List_1_Moon_BehaviourSystem_GuardDecorator_ *, AgentGuards, (app::Component_1 * agent))

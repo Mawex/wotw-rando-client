@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::CryptoConvert {
     IL2CPP_REGISTER_METHOD(0x025C5550, int32_t, ToInt32LE_1, (app::Byte__Array * bytes, int32_t offset))

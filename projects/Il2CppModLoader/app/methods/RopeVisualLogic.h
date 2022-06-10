@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RopeVisualLogic {
     IL2CPP_REGISTER_METHOD(0x0136E210, void, Awake, (app::RopeVisualLogic * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DynamicInstantiationScanner_ScriptableObjectVisitor {
     IL2CPP_REGISTER_METHOD(0x030E7390, void, ctor, (app::DynamicInstantiationScanner_ScriptableObjectVisitor * this_ptr, app::Type * type))

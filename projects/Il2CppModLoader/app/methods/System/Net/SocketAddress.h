@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::SocketAddress {
     IL2CPP_REGISTER_METHOD(0x01BDB850, app::AddressFamily__Enum, get_Family, (app::SocketAddress * this_ptr))

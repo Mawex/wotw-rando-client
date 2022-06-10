@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimerTextbox {
     IL2CPP_REGISTER_METHOD(0x010F8C60, void, OnDestroy, (app::TimerTextbox * this_ptr))

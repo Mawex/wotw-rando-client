@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Game::AttackableIteratorUnitTester {
     IL2CPP_REGISTER_METHOD(0x0151EC00, app::List_1_Game_AttackableIteratorUnitTester_TestAttackable_ *, CreateTestAttackables, (int32_t count))

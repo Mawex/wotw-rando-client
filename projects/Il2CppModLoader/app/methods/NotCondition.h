@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NotCondition {
     IL2CPP_REGISTER_METHOD(0x0060C300, bool, Validate, (app::NotCondition * this_ptr, app::IContext * context))

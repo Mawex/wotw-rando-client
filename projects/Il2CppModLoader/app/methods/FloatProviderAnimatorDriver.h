@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FloatProviderAnimatorDriver {
     IL2CPP_REGISTER_METHOD(0x01270E80, void, Start, (app::FloatProviderAnimatorDriver * this_ptr))

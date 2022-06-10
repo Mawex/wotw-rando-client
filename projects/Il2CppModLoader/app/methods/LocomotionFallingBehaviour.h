@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LocomotionFallingBehaviour {
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, GetShouldPauseTree, (app::LocomotionFallingBehaviour * this_ptr))

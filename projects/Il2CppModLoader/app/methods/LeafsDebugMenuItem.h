@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LeafsDebugMenuItem {
     IL2CPP_REGISTER_METHOD(0x015C26D0, void, ctor, (app::LeafsDebugMenuItem * this_ptr, app::String * path, app::String * str))

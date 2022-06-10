@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Configuration::NetSectionGroup {
     IL2CPP_REGISTER_METHOD(0x02019D70, void, ctor, (app::NetSectionGroup * this_ptr))

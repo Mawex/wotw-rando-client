@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SendMouseEvents_HitInfo {
     IL2CPP_REGISTER_METHOD(0x00218890, void, SendMessage, (app::SendMouseEvents_HitInfo__Boxed * this_ptr, app::String * name))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_Moon_ArtOptimization_IOptimizationTask_ {
     IL2CPP_REGISTER_METHOD(0x02CA7610, void, Enqueue, (app::Queue_1_Moon_ArtOptimization_IOptimizationTask_ * this_ptr, app::IOptimizationTask * item))

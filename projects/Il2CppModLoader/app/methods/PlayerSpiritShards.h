@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PlayerSpiritShards {
     IL2CPP_REGISTER_METHOD(0x01428CF0, app::PlayerUberStateShards *, get_PlayerUberStateShards, (app::PlayerSpiritShards * this_ptr))

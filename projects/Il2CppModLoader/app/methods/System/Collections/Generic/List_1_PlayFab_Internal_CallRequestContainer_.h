@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_PlayFab_Internal_CallRequestContainer_ {
     IL2CPP_REGISTER_METHOD(0x025F0B10, app::List_1_T_Enumerator_PlayFab_Internal_CallRequestContainer_, GetEnumerator, (app::List_1_PlayFab_Internal_CallRequestContainer_ * this_ptr))

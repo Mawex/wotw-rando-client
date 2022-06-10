@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ConstructionResponse {
     IL2CPP_REGISTER_METHOD(0x023100E0, void, ctor_1, (app::ConstructionResponse * this_ptr, app::Object * result_object, app::LogicalCallContext * call_ctx, app::IMethodCallMessage * msg))

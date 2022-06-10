@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::SkeetoPatrolBehaviour {
     IL2CPP_REGISTER_METHOD(0x00E2CF70, void, OnEntityInitialized, (app::SkeetoPatrolBehaviour * this_ptr))

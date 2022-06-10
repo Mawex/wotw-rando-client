@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Asttree {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::ArrayList *, get_SubtreeArray, (app::Asttree * this_ptr))

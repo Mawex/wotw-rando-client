@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TestSet {
     IL2CPP_REGISTER_METHOD(0x010DB9C0, void, Init, (app::TestSet * this_ptr, app::String * test_set_folder_path, app::String * test_output_folder_path, app::List_1_System_String_ * requested_tests))

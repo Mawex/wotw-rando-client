@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderlingDeathReaction {
     IL2CPP_REGISTER_METHOD(0x011BF7D0, void, OnInitializeTask, (app::SpiderlingDeathReaction * this_ptr, app::IContext * context))

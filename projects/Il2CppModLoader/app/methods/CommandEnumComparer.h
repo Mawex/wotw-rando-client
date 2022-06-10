@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CommandEnumComparer {
     IL2CPP_REGISTER_METHOD(0x00124C50, bool, Equals, (app::CommandEnumComparer__Boxed * this_ptr, app::Input_Command__Enum x, app::Input_Command__Enum y))

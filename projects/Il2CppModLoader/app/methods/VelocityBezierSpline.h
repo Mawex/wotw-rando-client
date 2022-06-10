@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::VelocityBezierSpline {
     IL2CPP_REGISTER_METHOD(0x013BCE90, void, ReversePoints, (app::VelocityBezierSpline * this_ptr))

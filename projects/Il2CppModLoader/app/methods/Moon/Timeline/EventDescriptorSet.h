@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EventDescriptorSet {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::HashSet_1_System_Int32_ *, get_m_ids, (app::EventDescriptorSet * this_ptr))

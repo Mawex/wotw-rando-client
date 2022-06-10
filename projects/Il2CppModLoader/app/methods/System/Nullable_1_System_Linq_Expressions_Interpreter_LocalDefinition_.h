@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System_Linq_Expressions_Interpreter_LocalDefinition_ {
     IL2CPP_REGISTER_METHOD(0x001F4750, bool, get_HasValue, (app::Nullable_1_System_Linq_Expressions_Interpreter_LocalDefinition___Boxed * this_ptr))

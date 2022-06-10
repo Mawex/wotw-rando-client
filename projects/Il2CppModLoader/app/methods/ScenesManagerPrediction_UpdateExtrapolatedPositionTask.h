@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ScenesManagerPrediction_UpdateExtrapolatedPositionTask {
     IL2CPP_REGISTER_METHOD(0x00124170, void, ctor, (app::ScenesManagerPrediction_UpdateExtrapolatedPositionTask__Boxed * this_ptr, app::ScenesManagerPrediction * owner, app::Vector2 extrapolated_position, app::Vector2 speed, float speed_multiplier, app::Color debug_color, app::ScenesManagerPrediction_UpdatePositionType__Enum update_type))

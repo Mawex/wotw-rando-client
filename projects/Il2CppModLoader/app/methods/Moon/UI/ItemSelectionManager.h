@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::UI::ItemSelectionManager {
     IL2CPP_REGISTER_METHOD(0x00D251B0, void, OnDrawGizmosSelected, (app::ItemSelectionManager * this_ptr))

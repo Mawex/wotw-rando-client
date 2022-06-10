@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Vignette {
     IL2CPP_REGISTER_METHOD(0x008C1900, void, Awake, (app::Vignette * this_ptr))

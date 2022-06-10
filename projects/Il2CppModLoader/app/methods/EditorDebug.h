@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EditorDebug {
     IL2CPP_REGISTER_METHOD(0x00BF7080, void, ctor, (app::EditorDebug * this_ptr, app::String * name))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::KeyValuePairConverter {
     IL2CPP_REGISTER_METHOD(0x01A53E30, app::ReflectionObject *, InitializeReflectionObject, (app::Type * t))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::QuestsController_QuestStateToIndexRemap {
     IL2CPP_REGISTER_METHOD(0x00E93800, void, BuildDictionary, (app::QuestsController_QuestStateToIndexRemap * this_ptr))

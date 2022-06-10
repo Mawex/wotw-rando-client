@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LizardLocomotionTurningTimelineBehaviour {
     IL2CPP_REGISTER_METHOD(0x00FB17C0, app::Transform *, get_VFXHolder, (app::LizardLocomotionTurningTimelineBehaviour * this_ptr))

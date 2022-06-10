@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Text::Encoding_EncodingCharBuffer {
     IL2CPP_REGISTER_METHOD(0x02454ED0, void, ctor, (app::Encoding_EncodingCharBuffer * this_ptr, app::Encoding * enc, app::DecoderNLS * decoder, uint16_t * char_start, int32_t char_count, uint8_t * byte_start, int32_t byte_count))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::IO::StreamWriter {
     IL2CPP_REGISTER_METHOD(0x02382180, void, CheckAsyncTaskInProgress, (app::StreamWriter * this_ptr))

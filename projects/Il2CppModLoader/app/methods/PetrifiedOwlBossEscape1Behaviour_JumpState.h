@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossEscape1Behaviour_JumpState {
     IL2CPP_REGISTER_METHOD(0x01763400, void, ctor, (app::PetrifiedOwlBossEscape1Behaviour_JumpState * this_ptr, app::PetrifiedOwlBossEscape1Behaviour * behaviour))

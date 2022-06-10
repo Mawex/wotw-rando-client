@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Action_2_Steamworks_UserAchievementStored_t_Boolean_ {
     IL2CPP_REGISTER_METHOD(0x02C0E990, void, Invoke, (app::Action_2_Steamworks_UserAchievementStored_t_Boolean_ * this_ptr, app::UserAchievementStored_t arg1, bool arg2))

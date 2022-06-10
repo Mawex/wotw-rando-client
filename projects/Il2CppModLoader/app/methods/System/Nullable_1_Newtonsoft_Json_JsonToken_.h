@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Newtonsoft_Json_JsonToken_ {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, ctor, (app::Nullable_1_Newtonsoft_Json_JsonToken___Boxed * this_ptr, app::JsonToken__Enum_1 value))

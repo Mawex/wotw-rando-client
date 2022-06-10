@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TurbulenceScaleModifier__GetKeywordsForShader_d__6 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::TurbulenceScaleModifier_GetKeywordsForShader_d_6 * this_ptr, int32_t __1__state))

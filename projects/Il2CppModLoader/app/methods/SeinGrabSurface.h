@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SeinGrabSurface {
     IL2CPP_REGISTER_METHOD(0x014BE840, app::SeinGrabSurfacePuppet *, get_Puppet, (app::SeinGrabSurface * this_ptr))

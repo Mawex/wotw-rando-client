@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_FullSerializer_Internal_fsPortableReflection_AttributeQuery_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x01D4FDA0, void, ctor, (app::Dictionary_2_TKey_TValue_KeyCollection_FullSerializer_Internal_fsPortableReflection_AttributeQuery_System_Object_ * this_ptr, app::Dictionary_2_FullSerializer_Internal_fsPortableReflection_AttributeQuery_System_Object_ * dictionary))

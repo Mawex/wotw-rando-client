@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ActivateLaserAction {
     IL2CPP_REGISTER_METHOD(0x004C88F0, void, Perform, (app::ActivateLaserAction * this_ptr, app::IContext * context))

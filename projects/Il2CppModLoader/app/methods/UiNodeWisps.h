@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UiNodeWisps {
     IL2CPP_REGISTER_METHOD(0x012AB080, void, OnEnter, (app::UiNodeWisps * this_ptr))

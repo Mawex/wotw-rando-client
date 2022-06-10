@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DropSlugHitReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00BE4BC0, void, OnInitializeTask, (app::DropSlugHitReactionBehaviour * this_ptr, app::IContext * context))

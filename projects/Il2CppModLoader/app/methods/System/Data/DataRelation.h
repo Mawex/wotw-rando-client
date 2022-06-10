@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::DataRelation {
     IL2CPP_REGISTER_METHOD(0x023A1700, void, ctor_1, (app::DataRelation * this_ptr, app::String * relation_name, app::DataColumn * parent_column, app::DataColumn * child_column))

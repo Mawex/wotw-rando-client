@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::Statics {
     IL2CPP_REGISTER_METHOD(0x01A07C40, app::Byte__Array *, MetadataForString, (app::String * name, int32_t prefix_size, int32_t suffix_size, int32_t additional_size))

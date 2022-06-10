@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_SequencesConfiguration {
     IL2CPP_REGISTER_METHOD(0x0071BA10, app::ActionMethod *, For, (app::RaceStateMachineContext_SequencesConfiguration * this_ptr, app::ScoreResult__Enum result))

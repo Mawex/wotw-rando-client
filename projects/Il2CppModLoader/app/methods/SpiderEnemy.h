@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpiderEnemy {
     IL2CPP_REGISTER_METHOD(0x011BB730, void, Awake, (app::SpiderEnemy * this_ptr))

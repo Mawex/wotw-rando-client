@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GasballAirMoveTimelineBehaviour {
     IL2CPP_REGISTER_METHOD(0x0041A160, void, OnInitializeTask, (app::GasballAirMoveTimelineBehaviour * this_ptr, app::IContext * context))

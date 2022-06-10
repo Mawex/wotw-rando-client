@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::EnumDictionary_2_EquipmentType_SpellIconsCollection_Icons_ {
     IL2CPP_REGISTER_METHOD(0x019E4980, app::SpellIconsCollection_Icons, GetValue, (app::EnumDictionary_2_EquipmentType_SpellIconsCollection_Icons_ * this_ptr, app::EquipmentType__Enum key))

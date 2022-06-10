@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MirroringData {
     IL2CPP_REGISTER_METHOD(0x01452F50, void, ctor_1, (app::MirroringData * this_ptr))

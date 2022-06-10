@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryDamageTransactionEvent {
     IL2CPP_REGISTER_METHOD(0x0146DB30, app::MoonTelemetryDamageTransactionEvent_DamageEntity__Enum, TypeToDamageEntity, (app::Type * object_to_cast))

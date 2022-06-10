@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlTypeMapElementInfo {
     IL2CPP_REGISTER_METHOD(0x0194CD70, void, ctor, (app::XmlTypeMapElementInfo * this_ptr, app::XmlTypeMapMember * member, app::TypeData * type))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::KwolokTongueStatue {
     IL2CPP_REGISTER_METHOD(0x012FD6B0, app::IByteUberState *, get_ResolvedUberState, (app::KwolokTongueStatue * this_ptr))

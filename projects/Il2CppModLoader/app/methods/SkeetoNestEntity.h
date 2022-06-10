@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SkeetoNestEntity {
     IL2CPP_REGISTER_METHOD(0x0075D470, void, ResetStatics, ())

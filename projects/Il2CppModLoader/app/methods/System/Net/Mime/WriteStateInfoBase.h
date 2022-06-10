@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Net::Mime::WriteStateInfoBase {
     IL2CPP_REGISTER_METHOD(0x01E6ECF0, void, ctor, (app::WriteStateInfoBase * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSource {
     IL2CPP_REGISTER_METHOD(0x01751690, void, WriteMultiMerge_1, (app::EventSource * this_ptr, app::String * event_name, app::EventSourceOptions * options, app::TraceLoggingEventTypes * event_types, app::Guid * activity_i_d, app::Guid * child_activity_i_d, app::Object__Array * values))

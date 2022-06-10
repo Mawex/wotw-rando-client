@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ContinuousIntegration::RecordingLogHandler {
     IL2CPP_REGISTER_METHOD(0x0318BC50, void, ctor, (app::RecordingLogHandler * this_ptr, bool quick_exit))

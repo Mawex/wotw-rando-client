@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::StandardTaskContinuation {
     IL2CPP_REGISTER_METHOD(0x0232FBB0, void, ctor, (app::StandardTaskContinuation * this_ptr, app::Task * task, app::TaskContinuationOptions__Enum options, app::TaskScheduler * scheduler))

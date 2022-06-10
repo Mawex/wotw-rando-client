@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryShrineStartEvent {
     IL2CPP_REGISTER_METHOD(0x01472910, void, ctor, (app::MoonTelemetryShrineStartEvent * this_ptr, app::String * scene_name))

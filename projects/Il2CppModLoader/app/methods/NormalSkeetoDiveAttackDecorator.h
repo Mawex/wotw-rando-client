@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NormalSkeetoDiveAttackDecorator {
     IL2CPP_REGISTER_METHOD(0x0060C1D0, app::BehaviourStatus__Enum, OnExecute, (app::NormalSkeetoDiveAttackDecorator * this_ptr, app::IContext * context))

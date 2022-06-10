@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MokiNPCPlaceholder {
     IL2CPP_REGISTER_METHOD(0x01331810, void, InstantiateFromPooledObj, (app::MokiNPCPlaceholder * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SpriteRotationController {
     IL2CPP_REGISTER_METHOD(0x009AE9E0, void, Awake, (app::SpriteRotationController * this_ptr))

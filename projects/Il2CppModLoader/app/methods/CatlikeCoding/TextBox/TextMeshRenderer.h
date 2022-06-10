@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CatlikeCoding::TextBox::TextMeshRenderer {
     IL2CPP_REGISTER_METHOD(0x01037470, void, OnDestroy, (app::TextMeshRenderer * this_ptr))

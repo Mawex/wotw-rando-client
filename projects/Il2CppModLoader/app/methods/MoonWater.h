@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonWater {
     IL2CPP_REGISTER_METHOD(0x014751F0, void, Start, (app::MoonWater * this_ptr))

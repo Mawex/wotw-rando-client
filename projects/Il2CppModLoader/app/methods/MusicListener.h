@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MusicListener {
     IL2CPP_REGISTER_METHOD(0x0087DEC0, void, OnEnable, (app::MusicListener * this_ptr))

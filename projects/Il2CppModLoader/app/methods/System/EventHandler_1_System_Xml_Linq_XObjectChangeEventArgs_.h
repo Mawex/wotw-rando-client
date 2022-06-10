@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::EventHandler_1_System_Xml_Linq_XObjectChangeEventArgs_ {
     IL2CPP_REGISTER_METHOD(0x015FE410, void, Invoke, (app::EventHandler_1_System_Xml_Linq_XObjectChangeEventArgs_ * this_ptr, app::Object * sender, app::XObjectChangeEventArgs * e))

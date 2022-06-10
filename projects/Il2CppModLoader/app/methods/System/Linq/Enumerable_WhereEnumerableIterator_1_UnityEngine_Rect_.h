@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable_WhereEnumerableIterator_1_UnityEngine_Rect_ {
     IL2CPP_REGISTER_METHOD(0x00E77C70, app::IEnumerable_1_System_Boolean_ *, Select_1, (app::Enumerable_WhereEnumerableIterator_1_UnityEngine_Rect_ * this_ptr, app::Func_2_UnityEngine_Rect_Boolean_ * selector))

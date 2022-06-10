@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::SafeBag {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor_1, (app::SafeBag * this_ptr, app::String * bag_o_i_d, app::ASN1 * asn1))

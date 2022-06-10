@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GameTimeExtensions {
     IL2CPP_REGISTER_METHOD(0x02553510, void, ExecuteAfter, (app::MonoBehaviour * behaviour, float time, app::Action * action))

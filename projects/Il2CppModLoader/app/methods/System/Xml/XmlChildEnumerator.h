@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlChildEnumerator {
     IL2CPP_REGISTER_METHOD(0x0195FF00, void, ctor, (app::XmlChildEnumerator * this_ptr, app::XmlNode * container))

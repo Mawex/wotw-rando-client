@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryKeyValueCollection {
     IL2CPP_REGISTER_METHOD(0x01669060, void, ctor, (app::OrderedDictionary_OrderedDictionaryKeyValueCollection * this_ptr, app::ArrayList * array, bool is_keys))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FlipPlantLogic {
     IL2CPP_REGISTER_METHOD(0x012700C0, void, Awake, (app::FlipPlantLogic * this_ptr))

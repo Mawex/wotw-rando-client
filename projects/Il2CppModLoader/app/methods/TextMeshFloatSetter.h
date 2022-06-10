@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TextMeshFloatSetter {
     IL2CPP_REGISTER_METHOD(0x010E8220, void, Start, (app::TextMeshFloatSetter * this_ptr))

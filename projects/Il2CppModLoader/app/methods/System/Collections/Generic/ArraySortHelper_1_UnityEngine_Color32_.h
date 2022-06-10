@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_UnityEngine_Color32_ {
     IL2CPP_REGISTER_METHOD(0x02F64C80, void, Sort_1, (app::Color32__Array * keys, int32_t index, int32_t length, app::IComparer_1_UnityEngine_Color32_ * comparer))

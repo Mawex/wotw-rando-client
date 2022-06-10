@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TentacleEnemy_DyingState {
     IL2CPP_REGISTER_METHOD(0x00CF6C40, app::String *, get_Name, (app::TentacleEnemy_DyingState * this_ptr))

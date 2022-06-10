@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LegacyAttackableSwitch {
     IL2CPP_REGISTER_METHOD(0x015CD510, void, ToggleSwitch, (app::LegacyAttackableSwitch * this_ptr))

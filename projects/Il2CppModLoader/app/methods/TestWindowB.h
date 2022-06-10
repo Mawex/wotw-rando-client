@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TestWindowB {
     IL2CPP_REGISTER_METHOD(0x010E17B0, void, OnEnable, (app::TestWindowB * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::CancellationCallbackInfo {
     IL2CPP_REGISTER_METHOD(0x00F70AB0, void, ctor, (app::CancellationCallbackInfo * this_ptr, app::Action_1_Object_ * callback, app::Object * state_for_callback, app::SynchronizationContext * target_sync_context, app::ExecutionContext * target_execution_context, app::CancellationTokenSource * cancellation_token_source))

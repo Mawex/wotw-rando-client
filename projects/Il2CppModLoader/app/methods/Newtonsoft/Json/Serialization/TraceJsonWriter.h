@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::TraceJsonWriter {
     IL2CPP_REGISTER_METHOD(0x01BFD6D0, void, ctor, (app::TraceJsonWriter * this_ptr, app::JsonWriter * inner_writer))

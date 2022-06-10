@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::EnumUtils {
     IL2CPP_REGISTER_METHOD(0x01C0F590, app::EnumInfo *, InitializeValuesAndNames, (app::StructMultiKey_2_System_Type_Newtonsoft_Json_Serialization_NamingStrategy_ key))

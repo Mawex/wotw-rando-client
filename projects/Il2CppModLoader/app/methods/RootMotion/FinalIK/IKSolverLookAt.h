@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverLookAt {
     IL2CPP_REGISTER_METHOD(0x02BFEBF0, void, SetLookAtWeight_1, (app::IKSolverLookAt * this_ptr, float weight))

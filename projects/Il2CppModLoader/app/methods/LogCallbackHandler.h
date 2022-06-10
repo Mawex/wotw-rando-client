@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::LogCallbackHandler {
     IL2CPP_REGISTER_METHOD(0x0318F920, void, ctor, (app::LogCallbackHandler * this_ptr))

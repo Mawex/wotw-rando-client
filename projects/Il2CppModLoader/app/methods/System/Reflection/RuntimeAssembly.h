@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Reflection::RuntimeAssembly {
     IL2CPP_REGISTER_METHOD(0x026968D0, void, GetObjectData, (app::RuntimeAssembly * this_ptr, app::SerializationInfo * info, app::StreamingContext context))

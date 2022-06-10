@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::MeleeComboAdapter {
     IL2CPP_REGISTER_METHOD(0x00CC7730, void, OnInitialize, (app::MeleeComboAdapter * this_ptr))

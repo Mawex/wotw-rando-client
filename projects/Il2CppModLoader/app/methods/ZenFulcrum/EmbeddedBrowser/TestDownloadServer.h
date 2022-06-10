@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::TestDownloadServer {
     IL2CPP_REGISTER_METHOD(0x0166E610, void, OnEnable, (app::TestDownloadServer * this_ptr))

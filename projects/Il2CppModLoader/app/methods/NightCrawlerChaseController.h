@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::NightCrawlerChaseController {
     IL2CPP_REGISTER_METHOD(0x00601A30, app::Vector3, get_KnockbackForceDirection, (app::NightCrawlerChaseController * this_ptr))

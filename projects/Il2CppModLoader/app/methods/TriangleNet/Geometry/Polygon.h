@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::Polygon {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::List_1_TriangleNet_Geometry_Vertex_ *, get_Points, (app::Polygon * this_ptr))

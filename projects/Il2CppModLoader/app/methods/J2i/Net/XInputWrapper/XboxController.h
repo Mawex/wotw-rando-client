@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::J2i::Net::XInputWrapper::XboxController {
     IL2CPP_REGISTER_METHOD(0x031B8910, void, set_UpdateFrequency, (int32_t value))

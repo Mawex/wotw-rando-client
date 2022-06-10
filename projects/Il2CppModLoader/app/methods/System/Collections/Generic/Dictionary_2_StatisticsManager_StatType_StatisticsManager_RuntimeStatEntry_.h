@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_StatisticsManager_StatType_StatisticsManager_RuntimeStatEntry_ {
     IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (app::Dictionary_2_StatisticsManager_StatType_StatisticsManager_RuntimeStatEntry_ * this_ptr))

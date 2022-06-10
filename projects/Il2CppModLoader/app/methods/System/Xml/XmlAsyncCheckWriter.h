@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlAsyncCheckWriter {
     IL2CPP_REGISTER_METHOD(0x0195A260, void, ctor, (app::XmlAsyncCheckWriter * this_ptr, app::XmlWriter * writer))

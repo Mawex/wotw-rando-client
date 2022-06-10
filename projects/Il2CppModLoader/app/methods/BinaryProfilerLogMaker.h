@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BinaryProfilerLogMaker {
     IL2CPP_REGISTER_METHOD(0x00D2A5B0, bool, get_Enabled, ())

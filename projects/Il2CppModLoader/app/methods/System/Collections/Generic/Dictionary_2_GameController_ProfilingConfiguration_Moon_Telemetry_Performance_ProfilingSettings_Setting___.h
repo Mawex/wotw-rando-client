@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_GameController_ProfilingConfiguration_Moon_Telemetry_Performance_ProfilingSettings_Setting___ {
     IL2CPP_REGISTER_METHOD(0x0283B2A0, int32_t, get_Count, (app::Dictionary_2_GameController_ProfilingConfiguration_Moon_Telemetry_Performance_ProfilingSettings_Setting_ * this_ptr))

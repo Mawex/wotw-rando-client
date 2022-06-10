@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ToolboxItemAttribute {
     IL2CPP_REGISTER_METHOD(0x029ADF90, bool, IsDefaultAttribute, (app::ToolboxItemAttribute * this_ptr))

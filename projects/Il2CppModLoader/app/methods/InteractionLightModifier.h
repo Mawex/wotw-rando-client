@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InteractionLightModifier {
     IL2CPP_REGISTER_METHOD(0x00637F10, void, Reset, (app::InteractionLightModifier * this_ptr))

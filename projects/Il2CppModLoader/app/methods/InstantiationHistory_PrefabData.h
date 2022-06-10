@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InstantiationHistory_PrefabData {
     IL2CPP_REGISTER_METHOD(0x00635BE0, void, ctor, (app::InstantiationHistory_PrefabData * this_ptr))

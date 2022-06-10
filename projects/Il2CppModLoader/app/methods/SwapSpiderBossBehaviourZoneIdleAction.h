@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::SwapSpiderBossBehaviourZoneIdleAction {
     IL2CPP_REGISTER_METHOD(0x00676F10, app::String *, get_Info, (app::SwapSpiderBossBehaviourZoneIdleAction * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::ListView {
     IL2CPP_REGISTER_METHOD(0x019976D0, void, add_OnSelectionChanged, (app::ListView * this_ptr, app::Action_1_Moon_UberStateVisualization_ListViewItem_ * value))

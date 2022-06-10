@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::LeaveExceptionHandlerInstruction {
     IL2CPP_REGISTER_METHOD(0x01CE4920, void, ctor, (app::LeaveExceptionHandlerInstruction * this_ptr, int32_t label_index, bool has_value))

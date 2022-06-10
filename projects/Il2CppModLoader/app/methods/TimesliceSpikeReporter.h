@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimesliceSpikeReporter {
     IL2CPP_REGISTER_METHOD(0x00AF5B90, app::GUIStyle *, get_LabelStyle, (app::TimesliceSpikeReporter * this_ptr))

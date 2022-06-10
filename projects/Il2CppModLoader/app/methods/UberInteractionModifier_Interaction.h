@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberInteractionModifier_Interaction {
     IL2CPP_REGISTER_METHOD(0x00123670, bool, get_ReadyToPlay, (app::UberInteractionModifier_Interaction__Boxed * this_ptr))

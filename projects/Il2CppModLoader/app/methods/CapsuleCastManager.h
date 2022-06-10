@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CapsuleCastManager {
     IL2CPP_REGISTER_METHOD(0x00B22E80, app::CapsulecastCommand, get_InvalidCmd, (app::CapsuleCastManager * this_ptr))

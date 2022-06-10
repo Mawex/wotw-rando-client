@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::InternalDataCollectionBase {
     IL2CPP_REGISTER_METHOD(0x01E3FA80, int32_t, get_Count, (app::InternalDataCollectionBase * this_ptr))

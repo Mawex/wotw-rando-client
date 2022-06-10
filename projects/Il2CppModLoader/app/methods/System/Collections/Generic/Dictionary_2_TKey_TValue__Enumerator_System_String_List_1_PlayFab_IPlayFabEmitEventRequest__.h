@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System_String_List_1_PlayFab_IPlayFabEmitEventRequest__ {
     IL2CPP_REGISTER_METHOD(0x00136440, app::KeyValuePair_2_System_String_List_1_PlayFab_IPlayFabEmitEventRequest_, get_Current, (app::Dictionary_2_TKey_TValue_Enumerator_System_String_List_1_PlayFab_IPlayFabEmitEventRequest___Boxed * this_ptr))

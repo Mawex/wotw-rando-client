@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::WormHole {
     IL2CPP_REGISTER_METHOD(0x0058DF50, void, Start, (app::WormHole * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult_ {
     IL2CPP_REGISTER_METHOD(0x0018ED60, void, SetStateMachine, (app::AsyncTaskMethodBuilder_1_System_Threading_Tasks_VoidTaskResult___Boxed * this_ptr, app::IAsyncStateMachine * state_machine))

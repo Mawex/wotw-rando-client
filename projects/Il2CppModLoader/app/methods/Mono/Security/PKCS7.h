@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Security::PKCS7 {
     IL2CPP_REGISTER_METHOD(0x02A472B0, app::ASN1_1 *, AlgorithmIdentifier_1, (app::String * oid))

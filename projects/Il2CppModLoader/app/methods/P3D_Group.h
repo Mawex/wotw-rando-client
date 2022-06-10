@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::P3D_Group {
     IL2CPP_REGISTER_METHOD(0x00243CE0, void, ctor, (app::P3D_Group__Boxed * this_ptr, int32_t new_index))

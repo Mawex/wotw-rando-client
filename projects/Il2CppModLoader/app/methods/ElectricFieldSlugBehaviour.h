@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ElectricFieldSlugBehaviour {
     IL2CPP_REGISTER_METHOD(0x00BF7C50, void, OnEnter, (app::ElectricFieldSlugBehaviour * this_ptr, app::IContext * context))

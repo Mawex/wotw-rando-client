@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TurbulenceManagerBinder {
     IL2CPP_REGISTER_METHOD(0x00B17270, app::Texture2D *, CombineTexture, (app::TurbulenceManagerBinder * this_ptr, app::Texture2D * tex1, app::Texture2D * tex2, float tween_time))

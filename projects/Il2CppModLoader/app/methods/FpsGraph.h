@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FpsGraph {
     IL2CPP_REGISTER_METHOD(0x00653FB0, int32_t, get_FrameIndex, (app::FpsGraph * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Primitive {
     IL2CPP_REGISTER_METHOD(0x00C3EAA0, app::Vector3, TransformPosition, (app::Vector3 position, app::PrimitiveSpace__Enum source_space, app::PrimitiveSpace__Enum target_space, app::Transform * local_toworld, app::Transform * root))

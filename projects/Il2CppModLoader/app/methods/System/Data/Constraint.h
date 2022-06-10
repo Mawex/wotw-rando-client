@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Constraint {
     IL2CPP_REGISTER_METHOD(0x002FBB00, app::String *, get_ConstraintName, (app::Constraint_1 * this_ptr))

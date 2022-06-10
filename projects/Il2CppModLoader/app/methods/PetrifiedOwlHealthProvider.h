@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlHealthProvider {
     IL2CPP_REGISTER_METHOD(0x014E3BE0, float, GetFloatValue, (app::PetrifiedOwlHealthProvider * this_ptr))

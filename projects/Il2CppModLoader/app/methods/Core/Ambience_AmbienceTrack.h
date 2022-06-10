@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Core::Ambience_AmbienceTrack {
     IL2CPP_REGISTER_METHOD(0x00CB5CD0, app::ArtificialSoundHostReference, get_SoundHost, (app::Ambience_AmbienceTrack * this_ptr))

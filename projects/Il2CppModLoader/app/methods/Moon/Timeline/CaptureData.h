@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::CaptureData {
     IL2CPP_REGISTER_METHOD(0x010CAB50, app::CaptureData *, Create, (int32_t captured_frames, app::String * shot_name, int32_t cross_fade_time, bool flip_in_x))

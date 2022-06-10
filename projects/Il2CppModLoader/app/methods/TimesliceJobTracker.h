@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::TimesliceJobTracker {
     IL2CPP_REGISTER_METHOD(0x00AF3960, app::String *, get_TestName, (app::TimesliceJobTracker * this_ptr))

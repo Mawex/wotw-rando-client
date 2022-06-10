@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::HandleCollector {
     IL2CPP_REGISTER_METHOD(0x021BBD50, void, ctor_1, (app::HandleCollector * this_ptr, app::String * name, int32_t initial_threshold))

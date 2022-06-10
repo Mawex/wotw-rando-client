@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::RightMenuManager___c {
     IL2CPP_REGISTER_METHOD(0x00911AA0, void, cctor, ())

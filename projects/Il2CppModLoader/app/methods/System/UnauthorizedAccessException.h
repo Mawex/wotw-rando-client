@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::UnauthorizedAccessException {
     IL2CPP_REGISTER_METHOD(0x027C5B20, void, ctor_1, (app::UnauthorizedAccessException * this_ptr))

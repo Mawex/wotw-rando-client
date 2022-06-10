@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Xml::Linq::NamespaceResolver {
     IL2CPP_REGISTER_METHOD(0x00241310, void, PushScope, (app::NamespaceResolver__Boxed * this_ptr))

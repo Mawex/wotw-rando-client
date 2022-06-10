@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::VerletStructure_SystemWithMonoBehaviour {
     IL2CPP_REGISTER_METHOD(0x013CF520, void, ctor, (app::VerletStructure_SystemWithMonoBehaviour * this_ptr, app::VerletStructure__Array * entities))

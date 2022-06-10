@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::BabyWormAnimation {
     IL2CPP_REGISTER_METHOD(0x00F7FA90, void, SetTurnParameter, (app::BabyWormAnimation * this_ptr, float turn_parameter))

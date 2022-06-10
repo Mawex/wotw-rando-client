@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CreditsTextPosition {
     IL2CPP_REGISTER_METHOD(0x00DB7970, bool, get_IsLooping, (app::CreditsTextPosition * this_ptr))

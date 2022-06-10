@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ServerPhysicalMaterial {
     IL2CPP_REGISTER_METHOD(0x00AC3150, app::ServerPhysicalMaterial_PhysicalMaterialData, CreateData, (app::PhysicMaterial * physic_material))

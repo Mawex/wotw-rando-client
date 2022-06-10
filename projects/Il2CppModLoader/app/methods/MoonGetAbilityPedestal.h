@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::MoonGetAbilityPedestal {
     IL2CPP_REGISTER_METHOD(0x00F4E2B0, bool, get_SeinInRange, (app::MoonGetAbilityPedestal * this_ptr))

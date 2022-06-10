@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::InstantiateUtility {
     IL2CPP_REGISTER_METHOD(0x0062FA00, app::GameObject *, CreateNewGameObject, (app::String * name))

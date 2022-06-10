@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::DllImportAttribute {
     IL2CPP_REGISTER_METHOD(0x01A93F90, app::Attribute *, GetCustomAttribute, (app::RuntimeMethodInfo * method_1))

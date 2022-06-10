@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::ResetTriggerOnCheckpoint {
     IL2CPP_REGISTER_METHOD(0x00905430, void, Awake, (app::ResetTriggerOnCheckpoint * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::DeadEnemyRagdoll {
     IL2CPP_REGISTER_METHOD(0x00DD7B80, void, OnReceiveContext, (app::DeadEnemyRagdoll * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CageStructureMetaDataGroup {
     IL2CPP_REGISTER_METHOD(0x00824120, app::CageStructureTool *, get_CageStructure, (app::CageStructureMetaDataGroup * this_ptr))

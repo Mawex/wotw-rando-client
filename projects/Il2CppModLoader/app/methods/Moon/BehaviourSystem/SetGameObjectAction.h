@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::SetGameObjectAction {
     IL2CPP_REGISTER_METHOD(0x03010A50, app::String *, get_Info, (app::SetGameObjectAction * this_ptr))

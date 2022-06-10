@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::SafeStringMarshal {
     IL2CPP_REGISTER_METHOD(0x023CED90, void *, StringToUtf8, (app::String * str))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::HealthBar {
     IL2CPP_REGISTER_METHOD(0x006FE430, float, get_Value, (app::HealthBar * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Data::Listeners_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x02FAEDD0, bool, get_HasListeners, (app::Listeners_1_System_Object_ * this_ptr))

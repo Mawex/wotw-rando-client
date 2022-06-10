@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::GameController {
     IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsPressTourBuild, (app::GameController * this_ptr))

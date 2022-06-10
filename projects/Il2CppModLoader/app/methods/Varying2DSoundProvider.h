@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Varying2DSoundProvider {
     IL2CPP_REGISTER_METHOD(0x013B9450, uint32_t, get_GuidHash, (app::Varying2DSoundProvider * this_ptr))

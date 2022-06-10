@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Threading::EventWaitHandle {
     IL2CPP_REGISTER_METHOD(0x027DB590, void, ctor_1, (app::EventWaitHandle * this_ptr, bool initial_state, app::EventResetMode__Enum mode))

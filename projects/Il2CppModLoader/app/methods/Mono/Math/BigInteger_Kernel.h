@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Mono::Math::BigInteger_Kernel {
     IL2CPP_REGISTER_METHOD(0x023C8C80, app::BigInteger *, AddSameSign_1, (app::BigInteger * bi1, app::BigInteger * bi2))

@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_System_Net_Sockets_Socket_WSABUF_ {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (app::Array_EmptyInternalEnumerator_1_System_Net_Sockets_Socket_WSABUF_ * this_ptr))

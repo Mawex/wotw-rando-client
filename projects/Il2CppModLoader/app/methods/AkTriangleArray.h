@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::AkTriangleArray {
     IL2CPP_REGISTER_METHOD(0x027000B0, void, ctor, (app::AkTriangleArray * this_ptr, int32_t count))

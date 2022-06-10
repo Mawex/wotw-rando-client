@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberScreenManager {
     IL2CPP_REGISTER_METHOD(0x018F8970, app::Vector4, GetScreen, (app::UberScreenMode__Enum mode, float tweak))

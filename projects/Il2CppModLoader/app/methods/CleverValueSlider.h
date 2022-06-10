@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::CleverValueSlider {
     IL2CPP_REGISTER_METHOD(0x012C19C0, float, get_Step, (app::CleverValueSlider * this_ptr))

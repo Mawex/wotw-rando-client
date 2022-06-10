@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::UberInteractionManager_InteractionCurve {
     IL2CPP_REGISTER_METHOD(0x00C3DD50, float, get_Scale, (app::UberInteractionManager_InteractionCurve * this_ptr))

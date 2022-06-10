@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::Microsoft::Win32::UnsafeNativeMethods_ManifestEtw {
     IL2CPP_REGISTER_METHOD(0x023B70F0, uint32_t, EventRegister, (app::Guid * provider_id, app::UnsafeNativeMethods_ManifestEtw_EtwEnableCallback * enable_callback, app::Void * callback_context, int64_t * registration_handle))

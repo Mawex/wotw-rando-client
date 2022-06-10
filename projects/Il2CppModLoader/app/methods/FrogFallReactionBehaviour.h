@@ -1,5 +1,5 @@
 #pragma once
-#include <interception_macros.h>
+#include <Il2CppModloader/interception_macros.h>
 
 namespace app::methods::FrogFallReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x01647CE0, void, OnInitializeTask, (app::FrogFallReactionBehaviour * this_ptr, app::IContext * context))
