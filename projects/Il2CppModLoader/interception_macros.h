@@ -6,7 +6,7 @@
 #define IL2CPP_REGISTER_METHOD(address, return_type, name, params) \
     inline return_type(*name) params = nullptr;                     \
     namespace binding {                                            \
-        inline modloader::intercept::binding name(address, reinterpret_cast<void**>(&name), #name); \
+        inline modloader::intercept::binding name##_binding(address, reinterpret_cast<void**>(&name), #name); \
     }
 
 // We may use this later.
@@ -16,7 +16,7 @@
     static_assert(std::is_same<decltype(app::methods::method_namespace::method_name), return_type(*) params>::value, "incorrect function type");     \
                                                                                                                                                      \
     namespace method_namespace::next {                                                                                                               \
-        return_type(*method_name) params = nullptr;                                                                                                  \
+        return_type(*(method_name)) params = nullptr;                                                                                                  \
     }                                                                                                                                                \
     \
     namespace method_namespace::intercept {                                                                                                          \
