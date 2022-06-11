@@ -8,7 +8,7 @@ namespace {
         if (always_show_keystones)
             this_ptr->fields.m_showKeystonesTimer = this_ptr->fields.ShowKeyStoneTime;
 
-        next::FixedUpdate(this_ptr);
+        next::SeinUI::FixedUpdate(this_ptr);
     }
 } // namespace
 

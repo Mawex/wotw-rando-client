@@ -187,6 +187,6 @@ namespace modloader {
             initialized = true;
         }
 
-        next::FixedUpdate(this_ptr);
+        next::GameController::FixedUpdate(this_ptr);
     }
 } // namespace modloader

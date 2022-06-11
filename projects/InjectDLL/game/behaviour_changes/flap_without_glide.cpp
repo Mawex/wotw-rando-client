@@ -16,7 +16,7 @@ namespace {
         if (temporary_glide_switch)
             return false;
 
-        return next::get_CanGlide(this_ptr);
+        return next::SeinGlide::get_CanGlide(this_ptr);
     }
 
     IL2CPP_INTERCEPT(SeinFeatherFlap, void, EnterAttack, (app::SeinFeatherFlap * this_ptr)) {
@@ -25,12 +25,12 @@ namespace {
             game::player::set_ability(app::AbilityType__Enum::Glide, true);
         }
 
-        next::EnterAttack(this_ptr);
+        next::SeinFeatherFlap::EnterAttack(this_ptr);
     }
 
     uber_states::UberState glide(UberStateGroup::RandoState, 1014);
     IL2CPP_INTERCEPT(SeinFeatherFlap, void, ExitAttack, (app::SeinFeatherFlap * this_ptr)) {
-        next::ExitAttack(this_ptr);
+        next::SeinFeatherFlap::ExitAttack(this_ptr);
         if (temporary_glide_switch) {
             // If we picked up glide in the meantime don't remove it.
             if (!glide.get<bool>())

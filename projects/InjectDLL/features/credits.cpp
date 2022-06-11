@@ -51,7 +51,7 @@ namespace {
 
     float time = 0.0f;
     IL2CPP_INTERCEPT(GameController, void, FixedUpdate, (app::GameController * this_ptr)) {
-        next::FixedUpdate(this_ptr);
+        next::GameController::FixedUpdate(this_ptr);
         auto cred_cont = il2cpp::get_class<app::CreditsController__Class>("", "CreditsController")
                                  ->static_fields->Instance;
         if (cred_cont != nullptr && CreditsController::IsCreditsTimelinePlaying(cred_cont)) {

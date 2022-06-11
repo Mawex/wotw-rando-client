@@ -12,6 +12,6 @@ namespace {
             value == app::SpiritShardType__Enum::Sense)
             return true;
 
-        return next::IsGlobalShardEquipped_1(this_ptr, value);
+        return next::PlayerSpiritShards::IsGlobalShardEquipped_1(this_ptr, value);
     }
 } // namespace

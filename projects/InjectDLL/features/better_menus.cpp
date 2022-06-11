@@ -17,7 +17,7 @@ namespace {
 
     IL2CPP_INTERCEPT(FaderB, void, Fade, (app::FaderB * this_ptr, float fadeInDuration, float fadeStayDuration, float fadeOutDuration, app::Action* fadeInComplete, app::Action* fadeOutComplete, bool skipCameraMoveToTarget)) {
         if (!skip_fade_to_black)
-            next::Fade(this_ptr, fadeInDuration, fadeStayDuration, fadeOutDuration, fadeInComplete, fadeOutComplete, skipCameraMoveToTarget);
+            next::FaderB::Fade(this_ptr, fadeInDuration, fadeStayDuration, fadeOutDuration, fadeInComplete, fadeOutComplete, skipCameraMoveToTarget);
     }
 
     /**
@@ -26,8 +26,8 @@ namespace {
      */
     IL2CPP_INTERCEPT(MenuScreenManager__PostFadeMenuOpen_d__100, bool, MoveNext, (app::MenuScreenManager_PostFadeMenuOpen_d_100 * this_ptr)) {
         ScopedSetter setter(skip_fade_to_black, true);
-        next::MoveNext(this_ptr);
-        return next::MoveNext(this_ptr);
+        next::MenuScreenManager__PostFadeMenuOpen_d__100::MoveNext(this_ptr);
+        return next::MenuScreenManager__PostFadeMenuOpen_d__100::MoveNext(this_ptr);
     }
 
     /*

@@ -39,6 +39,6 @@ namespace {
                 return true;
         }
 
-        return next::DoesReactTo(this_ptr, damage_type);
+        return next::AttackableSwitch::DoesReactTo(this_ptr, damage_type);
     }
 } // namespace

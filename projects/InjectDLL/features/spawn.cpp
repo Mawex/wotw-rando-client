@@ -70,7 +70,7 @@ namespace {
             teleport_state = TeleportState::None;
         }
 
-        next::FixedUpdate(this_ptr);
+        next::SeinCharacter::FixedUpdate(this_ptr);
     }
 
     uber_states::UberState intro_cutscene(static_cast<UberStateGroup>(21786), 48748);
@@ -79,13 +79,13 @@ namespace {
         if (handling_start && state == app::WorldMapAreaState__Enum::Visited)
             state = app::WorldMapAreaState__Enum::Discovered;
 
-        next::SetAreaState(this_ptr, area_id, index, state, position);
+        next::Moon::uberSerializationWisp::PlayerUberStateAreaMapInformation::SetAreaState(this_ptr, area_id, index, state, position);
     }
 
     // Dont cancel loads during teleportation.
     IL2CPP_INTERCEPT(ScenesManager, bool, CancelScene, (app::ScenesManager * this_ptr, app::SceneManagerScene* scene)) {
         if (teleport_state != TeleportState::Teleport)
-            return ScenesManager::CancelScene(this_ptr, scene);
+            return next::ScenesManager::CancelScene(this_ptr, scene);
 
         return false;
     }
@@ -101,7 +101,7 @@ namespace {
     }
 
     IL2CPP_INTERCEPT(TitleScreenManager, void, SetScreen, (app::TitleScreenManager_Screen__Enum screen)) {
-        next::SetScreen(screen);
+        next::TitleScreenManager::SetScreen(screen);
 
         if (screen == app::TitleScreenManager_Screen__Enum::SaveSlots) {
             auto save_slots_ui = get_save_slots_ui();
@@ -132,11 +132,11 @@ namespace {
 
     IL2CPP_INTERCEPT(SaveSlotsUI, void, OnEnable, (app::SaveSlotsUI * this_ptr)) {
         ScopedSetter setter(prevent_preload_on_selecting_empty_save, true);
-        next::OnEnable(this_ptr);
+        next::SaveSlotsUI::OnEnable(this_ptr);
     }
 
     IL2CPP_INTERCEPT(SaveSlotsManager, void, set_CurrentSlotIndex, (int index)) {
-        next::set_CurrentSlotIndex(index);
+        next::SaveSlotsManager::set_CurrentSlotIndex(index);
 
         if (!prevent_preload_on_selecting_empty_save) {
             auto slot_info = SaveSlotsManager::SlotByIndex(index);
@@ -180,7 +180,7 @@ namespace {
     app::WaitAction* empty_slot_pressed_wait = nullptr;
 
     IL2CPP_INTERCEPT(WaitAction, void, Perform, (app::WaitAction * this_ptr, app::IContext* context)) {
-        next::Perform(this_ptr, context);
+        next::WaitAction::Perform(this_ptr, context);
 
         // If this is the empty slot wait action, fade out
         if (this_ptr == empty_slot_pressed_wait) {

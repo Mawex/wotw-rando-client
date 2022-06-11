@@ -15,16 +15,17 @@
 #define IL2CPP_INTERCEPT(method_namespace, return_type, method_name, params)                                                                         \
     static_assert(std::is_same<decltype(app::methods::method_namespace::method_name), return_type(*) params>::value, "incorrect function type");     \
                                                                                                                                                      \
-    namespace next {                                                                                                               \
-        return_type(*(method_name)) params = nullptr;                                                                                                  \
+    namespace next::method_namespace {                                                                                                               \
+        return_type(*(method_name)) params = nullptr;                                                                                                \
     }                                                                                                                                                \
     \
-    namespace intercept {                                                                                                          \
+    /* I hate myself for this */                                                                                                                     \
+    namespace _intercept::_internal##_##method_namespace {                                                                                           \
         return_type method_name params;                                                                                                              \
-        modloader::interception::intercept method_name##_intercept(reinterpret_cast<void**>(&app::methods::method_namespace::method_name), reinterpret_cast<void**>(&next::method_name), method_name, #method_name); \
+        modloader::interception::intercept method_name##_intercept(reinterpret_cast<void**>(&app::methods::method_namespace::method_name), reinterpret_cast<void**>(&next::method_namespace::method_name), method_name, #method_name); \
     }                                                                                                                                                \
     \
-    return_type intercept::method_name params
+    return_type _intercept::_internal##_##method_namespace::method_name params
 
 #define GUARD(namezpace, nested, klass_name, name, ...)                                                                                                           \
     {                                                                                                                                                             \

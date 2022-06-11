@@ -5,7 +5,6 @@
 #include <constants.h>
 #include <macros.h>
 
-#include <Common/ext.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/interception_macros.h>
 #include <uber_states/uber_state_interface.h>
@@ -43,7 +42,7 @@ namespace {
     }
 
     IL2CPP_INTERCEPT(SpiritGrenade, bool, CanBeBashed, (app::SpiritGrenade * this_ptr)) {
-        return uncharged_bash_grenades.get<bool>() || next::CanBeBashed(this_ptr);
+        return uncharged_bash_grenades.get<bool>() || next::SpiritGrenade::CanBeBashed(this_ptr);
     }
 
     // IL2CPP_BINDING(UnityEngine, Collision, app::GameObject*, get_gameObject, (app::Collision* this_ptr))
@@ -67,7 +66,7 @@ namespace {
     IL2CPP_INTERCEPT(SeinGrenadeAttack, void, Start, (app::SeinGrenadeAttack * this_ptr)) {
         this_ptr->fields.m_explodeWithSecondButtonPress = !extra_grenades.get<bool>();
         this_ptr->fields.m_forceExplodeGrenadeOnCollision = explode_on_collision.get<bool>();
-        next::Start(this_ptr);
+        next::SeinGrenadeAttack::Start(this_ptr);
     }
 
     IL2CPP_INTERCEPT(SeinGrenadeAttack, void, SpawnGrenadeInternal, (app::SeinGrenadeAttack *
@@ -76,7 +75,7 @@ namespace {
         if (!is_fractured_piece && air_bashable)
             bashable = is_charged;
 
-        next::SpawnGrenadeInternal(this_ptr, velocity, bashable, damage, position, can_fracture, is_fractured_piece);
+        next::SeinGrenadeAttack::SpawnGrenadeInternal(this_ptr, velocity, bashable, damage, position, can_fracture, is_fractured_piece);
         const auto multi_grenade = grenade_multishot.get<int>();
         if (!is_fractured_piece && multi_grenade > 0) {
             float angle_increment = 2 * PI / multi_grenade;
@@ -85,7 +84,7 @@ namespace {
                 app::Vector2 new_velocity;
                 new_velocity.x = velocity.x + MULTI_GRENADE_OFFSET_MAGNITUDE * cosf(angle_offset);
                 new_velocity.y = velocity.y + MULTI_GRENADE_OFFSET_MAGNITUDE * sinf(angle_offset);
-                next::SpawnGrenadeInternal(this_ptr, new_velocity, bashable, damage, position, can_fracture,
+                next::SeinGrenadeAttack::SpawnGrenadeInternal(this_ptr, new_velocity, bashable, damage, position, can_fracture,
                                            is_fractured_piece);
             }
         }
@@ -122,20 +121,20 @@ namespace {
         } else
             this_ptr->fields.m_explodeWithSecondButtonPress = !custom_explode;
 
-        next::UpdateNormal(this_ptr);
+        next::SeinGrenadeAttack::UpdateNormal(this_ptr);
         explode = false;
     }
 
     IL2CPP_INTERCEPT(SeinGrenadeAttack, void, UpdateCharacterState, (app::SeinGrenadeAttack * this_ptr)) {
         modloader::ScopedSetter setter(override_on_ground, charge_in_air.get<bool>());
-        next::UpdateCharacterState(this_ptr);
+        next::SeinGrenadeAttack::UpdateCharacterState(this_ptr);
     }
 
     IL2CPP_INTERCEPT(SeinCharacter, bool, get_IsOnGround, (app::SeinCharacter * this_ptr)) {
         if (override_on_ground)
             return true;
 
-        return next::get_IsOnGround(this_ptr);
+        return next::SeinCharacter::get_IsOnGround(this_ptr);
     }
 
     IL2CPP_INTERCEPT(SeinGrenadeAttack, bool, get_CanAim, (app::SeinGrenadeAttack * this_ptr)) {

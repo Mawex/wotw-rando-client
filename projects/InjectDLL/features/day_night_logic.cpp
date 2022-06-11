@@ -30,7 +30,7 @@ namespace {
     IL2CPP_INTERCEPT(QuestNodeSetup_QuestInteraction, bool, get_Eligible,
                      (app::QuestNodeSetup_QuestInteraction * this_ptr)) {
         time_override = 1;
-        auto ret = next::get_Eligible(this_ptr);
+        auto ret = next::QuestNodeSetup_QuestInteraction::get_Eligible(this_ptr);
         time_override = 2;
         return ret;
     }
@@ -227,7 +227,7 @@ namespace {
     IL2CPP_INTERCEPT(SwampNightDayTransition, void, UpdateStateBasedOnCondition,
                      (app::SwampNightDayTransition * this_ptr)) {
         modloader::ScopedSetter setter(override_has_ability, true);
-        next::UpdateStateBasedOnCondition(this_ptr);
+        next::SwampNightDayTransition::UpdateStateBasedOnCondition(this_ptr);
     }
 
     IL2CPP_INTERCEPT(PlayerAbilities, bool, HasAbility,
@@ -235,7 +235,7 @@ namespace {
         if (override_has_ability)
             return is_day();
 
-        return next::HasAbility(this_ptr, ability);
+        return next::PlayerAbilities::HasAbility(this_ptr, ability);
     }
 
     CALL_ON_INIT(initialize_day_night_logic);

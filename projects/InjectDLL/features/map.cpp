@@ -76,23 +76,23 @@ namespace {
         auto cost = uber_states::UberState(UberStateGroup::LupoGroup, id).get<int>();
         area->fields.LupoData.AreaMapSpiritLevelCost = cost;
         area->fields.LupoDataOnCondition.AreaMapSpiritLevelCost = cost;
-        return handle_lupo_message(this_ptr, LupoSelection::Intro, next::get_IntroMessageProvider);
+        return handle_lupo_message(this_ptr, LupoSelection::Intro, next::CartographerEntity::get_IntroMessageProvider);
     }
 
     IL2CPP_INTERCEPT(CartographerEntity, app::MessageProvider*, get_NoSaleMessage, (app::CartographerEntity * this_ptr)) {
-        return handle_lupo_message(this_ptr, LupoSelection::NoSale, next::get_NoSaleMessage);
+        return handle_lupo_message(this_ptr, LupoSelection::NoSale, next::CartographerEntity::get_NoSaleMessage);
     }
 
     IL2CPP_INTERCEPT(CartographerEntity, app::MessageProvider*, get_SalesPitchMessage, (app::CartographerEntity * this_ptr)) {
-        return handle_lupo_message(this_ptr, LupoSelection::SalesPitch, next::get_SalesPitchMessage);
+        return handle_lupo_message(this_ptr, LupoSelection::SalesPitch, next::CartographerEntity::get_SalesPitchMessage);
     }
 
     IL2CPP_INTERCEPT(CartographerEntity, app::MessageProvider*, get_InsufficientFundsMessage, (app::CartographerEntity * this_ptr)) {
-        return handle_lupo_message(this_ptr, LupoSelection::Broke, next::get_InsufficientFundsMessage);
+        return handle_lupo_message(this_ptr, LupoSelection::Broke, next::CartographerEntity::get_InsufficientFundsMessage);
     }
 
     IL2CPP_INTERCEPT(CartographerEntity, app::MessageProvider*, get_ThanksMessage, (app::CartographerEntity * this_ptr)) {
-        return handle_lupo_message(this_ptr, LupoSelection::Thanks, next::get_ThanksMessage);
+        return handle_lupo_message(this_ptr, LupoSelection::Thanks, next::CartographerEntity::get_ThanksMessage);
     }
 
     IL2CPP_INTERCEPT(RuntimeWorldMapIcon, bool, IsVisible, (app::RuntimeWorldMapIcon * this_ptr, app::AreaMapUI* areaMap)) {
@@ -102,7 +102,7 @@ namespace {
     app::GameWorldAreaID__Enum area_id = app::GameWorldAreaID__Enum::None;
 
     IL2CPP_INTERCEPT(GameMapUI, void, FixedUpdate, (app::GameMapUI * this_ptr)) {
-        next::FixedUpdate(this_ptr);
+        next::GameMapUI::FixedUpdate(this_ptr);
         auto area = GameMapUI::get_CurrentHighlightedArea(this_ptr);
         if (area == nullptr || area->fields.Area == nullptr)
             return;
@@ -119,12 +119,12 @@ namespace {
         if (csharp_bridge::check_ini("DisableQuestFocus"))
             disable_next_update_map_target = true;
         else
-            next::SetTarget(this_ptr, quest);
+            next::AreaMapNavigation::SetTarget(this_ptr, quest);
     }
 
     IL2CPP_INTERCEPT(AreaMapNavigation, void, UpdateMapTarget, (app::AreaMapNavigation * this_ptr)) {
         if (!disable_next_update_map_target)
-            next::UpdateMapTarget(this_ptr);
+            next::AreaMapNavigation::UpdateMapTarget(this_ptr);
 
         disable_next_update_map_target = false;
     }
@@ -136,18 +136,18 @@ namespace {
             MenuScreenManager::HideMenuScreen(menu, true, false);
             AK::Wwise::State::SetValue(menu->fields.Sounds->fields.NoUIDisplayedState);
 
-            next::ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::Reveal);
-            next::ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::Fade);
-            next::ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::WaitForInput);
+            next::Moon::Timeline::DiscoverAreasEntity::ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::Reveal);
+            next::Moon::Timeline::DiscoverAreasEntity::ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::Fade);
+            next::Moon::Timeline::DiscoverAreasEntity::ChangeState(this_ptr, app::DiscoverAreasEntity_State__Enum::WaitForInput);
         } else
-            next::ChangeState(this_ptr, value);
+            next::Moon::Timeline::DiscoverAreasEntity::ChangeState(this_ptr, value);
     }
 
     float scaling_factor = 2.0f;
     float original_zoom = -1.0f;
     float original_scale = -1.0f;
     IL2CPP_INTERCEPT(AreaMapUI, void, Awake, (app::AreaMapUI * this_ptr)) {
-        next::Awake(this_ptr);
+        next::AreaMapUI::Awake(this_ptr);
         auto transition = il2cpp::get_class<app::GameMapTransitionManager__Class>("", "GameMapTransitionManager");
         transition->static_fields->WorldMapEnabled = csharp_bridge::check_ini("WorldMapEnabled");
         if (original_zoom < 0.0f)

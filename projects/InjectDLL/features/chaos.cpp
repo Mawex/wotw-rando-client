@@ -82,7 +82,7 @@ namespace {
     }
 
     IL2CPP_INTERCEPT(GameController, void, Update, (app::GameController * this_ptr)) {
-        next::Update(this_ptr);
+        next::GameController::Update(this_ptr);
 
         if (game::is_paused() || !chaos_mode.get<bool>())
             return;

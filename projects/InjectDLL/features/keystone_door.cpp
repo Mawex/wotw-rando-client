@@ -15,16 +15,16 @@ namespace {
         if (SeinLogicCycle::GetFlags(this_ptr, app::SeinLogicCycle_StateFlags__Enum::IsDigging) != app::SeinLogicCycle_StateFlags__Enum::Clear)
             return true;
 
-        return next::get_AllowInteraction(this_ptr);
+        return next::SeinLogicCycle::get_AllowInteraction(this_ptr);
     }
 
     // No it's not KeystoneDoor
     IL2CPP_INTERCEPT(MoonDoorWithSlots, bool, get_SeinInRange, (app::MoonDoorWithSlots * this_ptr)) {
         // We could do something position based, but that would be actual work :>
         this_ptr->fields.m_opensOnLeftSide = false;
-        bool right = next::get_SeinInRange(this_ptr);
+        bool right = next::MoonDoorWithSlots::get_SeinInRange(this_ptr);
         this_ptr->fields.m_opensOnLeftSide = true;
-        bool left = next::get_SeinInRange(this_ptr);
+        bool left = next::MoonDoorWithSlots::get_SeinInRange(this_ptr);
         return right || left;
     }
 
@@ -45,6 +45,6 @@ namespace {
                 return kwolok_door_available.get<bool>();
         }
 
-        return next::Validate(this_ptr, context);
+        return next::UberStateValueCondition::Validate(this_ptr, context);
     }
 } // namespace
