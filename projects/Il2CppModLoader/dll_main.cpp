@@ -140,7 +140,7 @@ namespace modloader {
         }
 
         trace(MessageType::Info, 5, "initialize", "Performing intercepts.");
-        intercept::interception_init();
+        interception::interception_init();
 
         il2cpp::load_all_types();
 
@@ -158,7 +158,7 @@ namespace modloader {
         if (write_to_csv)
             csv_file.close();
 
-        intercept::interception_detach();
+        interception::interception_detach();
         bootstrap::bootstrap_shutdown();
         common::free_library_and_exit_thread("Il2CppModLoader.dll");
     }

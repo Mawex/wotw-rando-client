@@ -18,7 +18,7 @@ namespace modloader {
     extern std::string base_path;
     extern std::string modloader_path;
 
-    namespace intercept {
+    namespace interception {
         binding* first_binding = nullptr;
         binding* last_binding = nullptr;
         intercept* first_intercept = nullptr;
@@ -91,5 +91,5 @@ namespace modloader {
             if (first_intercept == nullptr)
                 first_intercept = this;
         }
-    } // namespace intercept
+    } // namespace interception
 } // namespace modloader

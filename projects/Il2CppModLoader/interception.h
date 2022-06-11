@@ -4,7 +4,7 @@
 
 #include <string_view>
 
-namespace modloader::intercept {
+namespace modloader::interception {
     struct IL2CPP_MODLOADER_DLLEXPORT binding {
         binding(uint64_t address, void** ptr, std::string_view s);
 
@@ -30,4 +30,4 @@ namespace modloader::intercept {
 
     void interception_init();
     void interception_detach();
-} // namespace modloader::intercept
+} // namespace modloader::interception
