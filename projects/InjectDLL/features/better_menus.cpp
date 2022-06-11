@@ -15,19 +15,19 @@ namespace {
     // Skip fade to black when opening menus
     bool skip_fade_to_black = false;
 
-    IL2CPP_INTERCEPT(app::methods::FaderB, void, Fade, (app::FaderB * this_ptr, float fadeInDuration, float fadeStayDuration, float fadeOutDuration, app::Action* fadeInComplete, app::Action* fadeOutComplete, bool skipCameraMoveToTarget)) {
+    IL2CPP_INTERCEPT(FaderB, void, Fade, (app::FaderB * this_ptr, float fadeInDuration, float fadeStayDuration, float fadeOutDuration, app::Action* fadeInComplete, app::Action* fadeOutComplete, bool skipCameraMoveToTarget)) {
         if (!skip_fade_to_black)
-            FaderB::Fade(this_ptr, fadeInDuration, fadeStayDuration, fadeOutDuration, fadeInComplete, fadeOutComplete, skipCameraMoveToTarget);
+            next::Fade(this_ptr, fadeInDuration, fadeStayDuration, fadeOutDuration, fadeInComplete, fadeOutComplete, skipCameraMoveToTarget);
     }
 
     /**
      * In vanilla, there's a 100ms WaitForSeconds coroutine running before opening the menu.
      * We skip that by advancing the coroutine enumerator twice.
      */
-    IL2CPP_INTERCEPT(app::methods::MenuScreenManager__PostFadeMenuOpen_d__100, bool, MoveNext, (app::MenuScreenManager_PostFadeMenuOpen_d_100 * this_ptr)) {
+    IL2CPP_INTERCEPT(MenuScreenManager__PostFadeMenuOpen_d__100, bool, MoveNext, (app::MenuScreenManager_PostFadeMenuOpen_d_100 * this_ptr)) {
         ScopedSetter setter(skip_fade_to_black, true);
-        MenuScreenManager__PostFadeMenuOpen_d__100::MoveNext(this_ptr);
-        return MenuScreenManager__PostFadeMenuOpen_d__100::MoveNext(this_ptr);
+        next::MoveNext(this_ptr);
+        return next::MoveNext(this_ptr);
     }
 
     /*

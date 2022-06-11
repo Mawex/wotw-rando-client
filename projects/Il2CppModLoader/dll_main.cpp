@@ -180,13 +180,13 @@ namespace modloader {
     }
 
     bool initialized = false;
-    IL2CPP_INTERCEPT(app::methods::GameController, void, FixedUpdate, (app::GameController * this_ptr)) {
+    IL2CPP_INTERCEPT(GameController, void, FixedUpdate, (app::GameController * this_ptr)) {
         if (!initialized) {
             trace(MessageType::Info, 5, "initialize", "Calling initialization callbacks.");
             initialization_callbacks();
             initialized = true;
         }
 
-        FixedUpdate_original(this_ptr);
+        next::FixedUpdate(this_ptr);
     }
 } // namespace modloader

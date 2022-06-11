@@ -1,15 +1,12 @@
 #include <dev/object_visualizer.h>
-#include <randomizer/render/shaders.h>
 
 #include <Common/ext.h>
 
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
-#include <Il2CppModLoader/interception_macros.h>
 #include <Il2CppModLoader/windows_api/console.h>
 
 #include <Il2CppModLoader/app/methods/NewSetupStateController.h>
-#include <Il2CppModLoader/app/methods/SetupStateModifier.h>
 #include <Il2CppModLoader/app/methods/UnityEngine/Transform.h>
 #include <Il2CppModLoader/app/methods/UnityEngine/Quaternion.h>
 #include <Il2CppModLoader/app/methods/UberShaderAPI.h>
