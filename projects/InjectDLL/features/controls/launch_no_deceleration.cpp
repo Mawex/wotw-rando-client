@@ -4,8 +4,11 @@
 #include <Common/ext.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
+#include <Il2CppModLoader/app/methods/Game/UI.h>
+#include <Il2CppModLoader/app/methods/TimeUtility.h>
 
 using namespace modloader;
+using namespace app::methods;
 
 INJECT_C_DLLEXPORT bool in_menu();
 
@@ -15,11 +18,6 @@ namespace {
     float aim_timer = 0.0f;
     float reset_timer = 0.0f;
 
-    STATIC_IL2CPP_BINDING(Game, UI, bool, get_MainMenuVisible, ());
-    STATIC_IL2CPP_BINDING(Game, UI, bool, get_WorldMapVisible, ());
-    STATIC_IL2CPP_BINDING(Game, UI, bool, get_ShardShopVisible, ());
-    STATIC_IL2CPP_BINDING(Game, UI, bool, IsInventoryVisible, ());
-    STATIC_IL2CPP_BINDING(, TimeUtility, float, get_deltaTime, ());
     bool is_aiming_launch(app::CharacterAirNoDeceleration* this_ptr) {
         if (!in_menu()) {
             if (aim_timer >= 0.0f)
