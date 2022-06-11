@@ -6,29 +6,31 @@
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/interception.h>
 #include <Il2CppModLoader/interception_macros.h>
+#include <Il2CppModLoader/app/methods/SeinGlide.h>
+#include <Il2CppModLoader/app/methods/SeinFeatherFlap.h>
 
 namespace {
     bool temporary_glide_switch = false;
 
-    IL2CPP_INTERCEPT(, SeinGlide, bool, get_CanGlide, (app::SeinGlide * this_ptr)) {
+    IL2CPP_INTERCEPT(SeinGlide, bool, get_CanGlide, (app::SeinGlide * this_ptr)) {
         if (temporary_glide_switch)
             return false;
 
-        return SeinGlide::get_CanGlide(this_ptr);
+        return next::get_CanGlide(this_ptr);
     }
 
-    IL2CPP_INTERCEPT(, SeinFeatherFlap, void, EnterAttack, (app::SeinFeatherFlap * this_ptr)) {
+    IL2CPP_INTERCEPT(SeinFeatherFlap, void, EnterAttack, (app::SeinFeatherFlap * this_ptr)) {
         if (!game::player::has_ability(app::AbilityType__Enum::Glide)) {
             temporary_glide_switch = true;
             game::player::set_ability(app::AbilityType__Enum::Glide, true);
         }
 
-        SeinFeatherFlap::EnterAttack(this_ptr);
+        next::EnterAttack(this_ptr);
     }
 
     uber_states::UberState glide(UberStateGroup::RandoState, 1014);
-    IL2CPP_INTERCEPT(, SeinFeatherFlap, void, ExitAttack, (app::SeinFeatherFlap * this_ptr)) {
-        SeinFeatherFlap::ExitAttack(this_ptr);
+    IL2CPP_INTERCEPT(SeinFeatherFlap, void, ExitAttack, (app::SeinFeatherFlap * this_ptr)) {
+        next::ExitAttack(this_ptr);
         if (temporary_glide_switch) {
             // If we picked up glide in the meantime don't remove it.
             if (!glide.get<bool>())
