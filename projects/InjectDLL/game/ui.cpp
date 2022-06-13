@@ -86,7 +86,7 @@ namespace game {
             if (game::ui::get()->static_fields->SeinUI == nullptr)
                 trace(MessageType::Error, 2, "game", "SeinUI is invalid!");
             else
-                SeinUI::ShakeSpiritLight(game::ui::get()->static_fields->SeinUI);
+                SeinUI::ShakeSpiritLight_1(game::ui::get()->static_fields->SeinUI);
         }
 
         void shake_keystone() {
@@ -102,7 +102,7 @@ namespace game {
             if (game::ui::get()->static_fields->SeinUI == nullptr)
                 trace(MessageType::Error, 2, "game", "SeinUI is invalid!");
             else
-                SeinUI::ShakeSeeds(game::ui::get()->static_fields->SeinUI);
+                SeinUI::ShakeSeeds_1(game::ui::get()->static_fields->SeinUI);
         }
     } // namespace ui
 } // namespace game
