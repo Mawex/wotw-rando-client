@@ -18,7 +18,7 @@ namespace {
             float duration,
             app::String * replay_data,
             app::ReplayValidatorData * data)) {
-        // NOOP
+        return false; // NOOP
     }
 
     IL2CPP_INTERCEPT(Moon::Race::Networking::WebService, void, UploadData, (
