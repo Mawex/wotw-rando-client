@@ -31,7 +31,7 @@ namespace game {
         } // namespace
 
         app::UI__Class *get() {
-            return il2cpp::get_class<app::UI__Class>("Game", "UI");
+            return *app::UI__TypeInfo;
         }
 
         bool area_map_open() {
@@ -39,7 +39,7 @@ namespace game {
         }
 
         bool world_map_open() {
-            return UI::get_WorldMapVisible();
+            return Game::UI::get_WorldMapVisible();
         }
 
         bool menu_open() {
@@ -65,7 +65,7 @@ namespace game {
                 MenuScreenManager::IsVisible(ui->static_fields->m_sMenu, app::MenuScreenManager_Screens__Enum::Stats))
                 return true;
 
-            if (UI::get_MainMenuVisible() ||
+            if (Game::UI::get_MainMenuVisible() ||
                 area_map_open() ||
                 world_map_open() ||
                 shop_open())
@@ -75,10 +75,10 @@ namespace game {
         }
 
         bool shop_open() {
-            return UI::get_ShardShopVisible() ||
-                   UI::get_WeaponmasterScreenVisible() ||
-                   UI::get_BuilderScreenVisible() ||
-                   UI::get_GardenerScreenVisible();
+            return Game::UI::get_ShardShopVisible() ||
+                   Game::UI::get_WeaponmasterScreenVisible() ||
+                   Game::UI::get_BuilderScreenVisible() ||
+                   Game::UI::get_GardenerScreenVisible();
         }
 
         void shake_spiritlight() {
