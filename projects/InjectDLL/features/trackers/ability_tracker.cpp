@@ -219,7 +219,7 @@ namespace {
     bool ignore_end_grenade = false;
     IL2CPP_INTERCEPT(SeinGrenadeAttack, void, CancelAiming, (app::SeinGrenadeAttack * this_ptr)) {
         ScopedSetter ieg(ignore_end_grenade, true);
-        next::SeinGrenadeAttack::SeinGrenadeAttack::CancelAiming(this_ptr);
+        next::SeinGrenadeAttack::CancelAiming(this_ptr);
     }
 
     IL2CPP_INTERCEPT(SeinGrenadeAttack, void, EndAiming, (app::SeinGrenadeAttack * this_ptr)) {
