@@ -290,9 +290,9 @@ namespace {
             on_launch.set(0);
     }
 
-    IL2CPP_INTERCEPT(SeinWallJump, void, PerformWallJump, (app::SeinWallJump * this_ptr, bool to_left)) {
+    IL2CPP_INTERCEPT(SeinWallJump, void, PerformWallJump_2, (app::SeinWallJump * this_ptr, bool to_left)) {
         on_wall_jump.set(1);
-        next::SeinWallJump::PerformWallJump(this_ptr, to_left);
+        next::SeinWallJump::PerformWallJump_2(this_ptr, to_left);
         on_wall_jump.set(0);
     }
 
