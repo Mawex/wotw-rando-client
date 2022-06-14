@@ -39,9 +39,9 @@ namespace game {
             }
 
             IL2CPP_INTERCEPT(SeinPickupProcessor, void, OnCollectMaxEnergyHalfContainerPickup,
-                             (__int64 this_ptr, __int64 pickupPointer)) {
+                             (app::SeinPickupProcessor * this_ptr, app::MaxEnergyHalfContainerPickup * pickup)) {
                 ScopedSetter setter(collecting_pickup, true);
-                next::SeinPickupProcessor::OnCollectMaxEnergyHalfContainerPickup(this_ptr, pickupPointer);
+                next::SeinPickupProcessor::OnCollectMaxEnergyHalfContainerPickup(this_ptr, pickup);
             }
 
             IL2CPP_INTERCEPT(SeinPickupProcessor, void, OnCollectExpOrbPickup,
