@@ -10,13 +10,13 @@ namespace {
     uber_states::UberState jumps(UberStateGroup::RandoUpgrade, 35);
     uber_states::UberState dashes(UberStateGroup::RandoUpgrade, 36);
 
-    IL2CPP_INTERCEPT(SeinDoubleJump, int32_t, get_ExtraJumpsAvailable, (app::SeinDoubleJump * this_ptr)) {
-        return jumps.get<int>() + get_ExtraJumpsAvailable(this_ptr);
+    IL2CPP_INTERCEPT(SeinDoubleJump, int32_t, get_ExtraJumpsAvailable, ()) {
+        return jumps.get<int>() + next::SeinDoubleJump::get_ExtraJumpsAvailable();
     }
 
     int dashes_used = 0;
-    IL2CPP_INTERCEPT(SeinDashNew, void, TryPerformDash, (app::SeinDashNew * this_ptr, int32_t direction, bool is_forward)) {
-        next::SeinDashNew::TryPerformDash(this_ptr, direction, is_forward);
+    IL2CPP_INTERCEPT(SeinDashNew, void, TryPerformDash_2, (app::SeinDashNew * this_ptr, int32_t direction, bool is_forward)) {
+        next::SeinDashNew::TryPerformDash_2(this_ptr, direction, is_forward);
         if (this_ptr->fields.m_isDashing && !this_ptr->fields.m_allowDash)
             ++dashes_used;
     }
