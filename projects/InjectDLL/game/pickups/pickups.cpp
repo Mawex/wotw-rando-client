@@ -17,11 +17,11 @@ namespace game {
         namespace {
             bool collecting_pickup = false;
 
-            IL2CPP_INTERCEPT(SeinUI, void, ShakeSpiritLight, (app::SeinUI * this_ptr)) {
+            IL2CPP_INTERCEPT(SeinUI, void, ShakeSpiritLight_1, (app::SeinUI * this_ptr)) {
                 if (collecting_pickup)
                     return;
 
-                next::SeinUI::ShakeSpiritLight(this_ptr);
+                next::SeinUI::ShakeSpiritLight_1(this_ptr);
             }
 
             IL2CPP_INTERCEPT(SeinUI, void, ShakeKeystones, (app::SeinUI * this_ptr)) {
@@ -31,11 +31,11 @@ namespace game {
                 next::SeinUI::ShakeKeystones(this_ptr);
             }
 
-            IL2CPP_INTERCEPT(SeinUI, void, ShakeSeeds, (app::SeinUI * this_ptr)) {
+            IL2CPP_INTERCEPT(SeinUI, void, ShakeSeeds_1, (app::SeinUI * this_ptr)) {
                 if (collecting_pickup)
                     return;
 
-                next::SeinUI::ShakeSeeds(this_ptr);
+                next::SeinUI::ShakeSeeds_1(this_ptr);
             }
 
             IL2CPP_INTERCEPT(SeinPickupProcessor, void, OnCollectMaxEnergyHalfContainerPickup,

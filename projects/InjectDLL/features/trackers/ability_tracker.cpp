@@ -225,7 +225,7 @@ namespace {
     IL2CPP_INTERCEPT(SeinGrenadeAttack, void, EndAiming, (app::SeinGrenadeAttack * this_ptr)) {
         if (!ignore_end_grenade)
             on_grenade.set(1);
-        next::SeinGrenadeAttack::SeinGrenadeAttack::EndAiming(this_ptr);
+        next::SeinGrenadeAttack::EndAiming(this_ptr);
         if (!ignore_end_grenade)
             on_grenade.set(0);
     }
