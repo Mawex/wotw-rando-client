@@ -1,9 +1,6 @@
 #include <game/game.h>
-#include <game/pickups/pickups.h>
 #include <interop/csharp_bridge.h>
 #include <macros.h>
-#include <randomizer/conditions/new_setup_state_override.h>
-#include <randomizer/render/textures.h>
 
 #include <Il2CppModLoader/app/methods/GameController.h>
 #include <Il2CppModLoader/app/methods/NewGameAction.h>
@@ -31,10 +28,10 @@ namespace {
         game::event_bus().trigger_event(GameEvent::NewGame, EventTiming::End);
     }
 
-    IL2CPP_INTERCEPT(SaveGameController, void, SaveToFile, (app::SaveGameController * this_ptr, int32_t slotIndex, int32_t backupIndex, app::Byte__Array* bytes)) {
+    IL2CPP_INTERCEPT(SaveGameController, void, SaveToFile_2, (app::SaveGameController * this_ptr, int32_t slotIndex, int32_t backupIndex, app::Byte__Array* bytes)) {
         game::event_bus().trigger_event(GameEvent::CreateSave, EventTiming::Start);
         csharp_bridge::on_save(slotIndex, backupIndex);
-        next::SaveGameController::SaveToFile(this_ptr, slotIndex, backupIndex, bytes);
+        next::SaveGameController::SaveToFile_2(this_ptr, slotIndex, backupIndex, bytes);
         game::event_bus().trigger_event(GameEvent::CreateSave, EventTiming::End);
     }
 
