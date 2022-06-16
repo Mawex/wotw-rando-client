@@ -1,6 +1,7 @@
 #include <input/simulator.h>
 
 #include <Il2CppModLoader/app/methods/SmartInput/CompoundButtonInput.h>
+#include <Il2CppModLoader/app/methods/SmartInput/CachedButtonInput.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
 
