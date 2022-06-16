@@ -32,7 +32,7 @@ namespace randomizer::shaders {
     }
 
     void set_color(app::Material *mat, std::string_view name, app::Color value) {
-        Material::SetColor_1(mat, il2cpp::string_new(name), &value);
+        Material::SetColor_1(mat, il2cpp::string_new(name), value);
     }
 
     void set_texture(app::Material *mat, std::string_view name, app::Texture *value) {
@@ -89,10 +89,10 @@ namespace randomizer::shaders {
         for (auto const &pair: info.textures) {
             auto const &value = pair.first;
             auto const &block = pair.second;
-            UberShaderAPI::SetTextureOffset(renderer, value, &block.offset);
-            UberShaderAPI::SetTextureScale(renderer, value, &block.scale);
-            UberShaderAPI::SetTextureAtlasUVs(renderer, value, &block.uvs);
-            UberShaderAPI::SetTextureScrollRotData(renderer, value, &block.scroll_rot);
+            UberShaderAPI::SetTextureOffset(renderer, value, block.offset);
+            UberShaderAPI::SetTextureScale(renderer, value, block.scale);
+            UberShaderAPI::SetTextureAtlasUVs(renderer, value, block.uvs);
+            UberShaderAPI::SetTextureScrollRotData(renderer, value, block.scroll_rot);
             UberShaderAPI::SetTexture(renderer, value, block.texture);
         }
 
