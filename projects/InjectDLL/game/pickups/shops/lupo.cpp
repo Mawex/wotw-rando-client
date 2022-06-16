@@ -8,6 +8,15 @@
 
 #include <Common/ext.h>
 
+#include <Il2CppModLoader/app/methods/CatlikeCoding/TextBox/TextBox.h>
+#include <Il2CppModLoader/app/methods/CleverMenuItem.h>
+#include <Il2CppModLoader/app/methods/MapMakerItem.h>
+#include <Il2CppModLoader/app/methods/MapmakerScreen.h>
+#include <Il2CppModLoader/app/methods/MapmakerUIDetails.h>
+#include <Il2CppModLoader/app/methods/MapmakerUIItem.h>
+#include <Il2CppModLoader/app/methods/MapmakerUISubItem.h>
+#include <Il2CppModLoader/app/methods/Moon/SerializedBooleanUberState.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/GameObject.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
@@ -15,18 +24,21 @@
 #include <unordered_map>
 
 using namespace modloader;
+using namespace app::methods;
+using namespace app::methods::UnityEngine;
+using namespace app::methods::CatlikeCoding::TextBox;
 
 namespace {
-    IL2CPP_INTERCEPT(, MapmakerItem, int32_t, GetCost, (app::MapmakerItem * this_ptr)) {
+    IL2CPP_INTERCEPT(MapmakerItem, int32_t, GetCost, (app::MapmakerItem * this_ptr)) {
         return csharp_bridge::lupo_upgrade_cost(this_ptr->fields.UberState->fields._.m_id->fields.m_id);
     }
 
     bool prevent_map_safeguard = false;
 
-    IL2CPP_INTERCEPT(, MapmakerScreen, void, Show, (app::MapmakerScreen * this_ptr)) {
+    IL2CPP_INTERCEPT(MapmakerScreen, void, Show, (app::MapmakerScreen * this_ptr)) {
         prevent_map_safeguard = true;
         csharp_bridge::update_shop_data();
-        MapmakerScreen::Show(this_ptr);
+        next::MapmakerScreen::Show(this_ptr);
         prevent_map_safeguard = false;
     }
 
@@ -34,7 +46,7 @@ namespace {
         if (prevent_map_safeguard && this_ptr->fields._.m_id->fields.m_id == 35534)
             return false;
 
-        return SerializedBooleanUberState::get_Value(this_ptr);
+        return next::Moon::SerializedBooleanUberState::get_Value(this_ptr);
     }
 
     std::unordered_map<uint64_t, shops::ShopItem> lupo_overrides;
@@ -45,7 +57,7 @@ namespace {
         return static_cast<uint64_t>(group_id & 0xFFFFFFFF) | (static_cast<uint64_t>(state_id & 0xFFFFFFFF) << 8);
     }
 
-    IL2CPP_INTERCEPT(, MapmakerUISubItem, void, UpdateUpgradeIcon, (app::MapmakerUISubItem * this_ptr)) {
+    IL2CPP_INTERCEPT(MapmakerUISubItem, void, UpdateUpgradeIcon, (app::MapmakerUISubItem * this_ptr)) {
         const auto key = get_key(this_ptr->fields.m_upgradeItem);
         const auto it = lupo_overrides.find(key);
         auto texture = shops::get_icon(shops::ShopType::Lupo, this_ptr->fields.m_upgradeItem);
@@ -61,7 +73,6 @@ namespace {
         }
     }
 
-    IL2CPP_BINDING(, MapmakerScreen, void, ShowHint, (app::MapmakerScreen * this_ptr, app::MessageProvider* provider));
     bool show_hint(app::MapmakerScreen* screen, app::MessageProvider* provider) {
         auto klass = il2cpp::get_nested_class<app::Input_Cmd__Class>("Core", "Input", "Cmd");
         auto selected = klass->static_fields->MenuSelect;
@@ -74,8 +85,7 @@ namespace {
         return false;
     }
 
-    IL2CPP_BINDING(, MapmakerScreen, app::MapmakerItem*, get_SelectedUpgradeItem, (app::MapmakerScreen * this_ptr));
-    IL2CPP_INTERCEPT(, MapmakerScreen, bool, CanPurchase, (app::MapmakerScreen * this_ptr)) {
+    IL2CPP_INTERCEPT(MapmakerScreen, bool, CanPurchase, (app::MapmakerScreen * this_ptr)) {
         auto item = MapmakerScreen::get_SelectedUpgradeItem(this_ptr);
         if (!il2cpp::unity::is_valid(item))
             return false;
@@ -97,13 +107,8 @@ namespace {
         return true;
     }
 
-    IL2CPP_BINDING(UnityEngine, GameObject, void, SetActive, (app::GameObject * this_ptr, bool value));
-    IL2CPP_BINDING(, CleverMenuItem, void, set_IsDisabled, (app::CleverMenuItem * this_ptr, bool disabled));
-    IL2CPP_BINDING(CatlikeCoding.TextBox, TextBox, void, RenderText, (app::TextBox * this_ptr));
-    IL2CPP_BINDING_OVERLOAD(CatlikeCoding.TextBox, TextBox, void, SetText, (app::TextBox * this_ptr, app::String* text), (System
-                                                                                                                          : String));
-    IL2CPP_INTERCEPT(, MapmakerUISubItem, void, UpdateItem, (app::MapmakerUISubItem * this_ptr)) {
-        MapmakerUISubItem::UpdateUpgradeIcon_intercept(this_ptr);
+    IL2CPP_INTERCEPT(MapmakerUISubItem, void, UpdateItem, (app::MapmakerUISubItem * this_ptr)) {
+        MapmakerUISubItem::UpdateUpgradeIcon(this_ptr);
 
         auto visible = false;
         auto locked = true;
@@ -146,8 +151,7 @@ namespace {
         CleverMenuItem::set_IsDisabled(menu_item, !can_purchase);
     }
 
-    IL2CPP_BINDING(, MessageBox, void, RefreshText, (app::MessageBox * this_ptr));
-    IL2CPP_INTERCEPT(, MapmakerUIDetails, void, UpdateDetails, (app::MapmakerUIDetails * this_ptr)) {
+    IL2CPP_INTERCEPT(MapmakerUIDetails, void, UpdateDetails, (app::MapmakerUIDetails * this_ptr)) {
         auto item = this_ptr->fields.m_item;
         auto renderer = il2cpp::unity::get_component<app::Renderer>(this_ptr->fields.IconGO, "UnityEngine", "Renderer");
 
@@ -213,8 +217,7 @@ namespace {
         GameObject::SetActive(this_ptr->fields.OwnedGO, owned);
     }
 
-    IL2CPP_BINDING(, MapmakerUISubItem, void, SetUpgradeItem, (app::MapmakerUISubItem * this_ptr, app::MapmakerItem* item, app::Object* grid_context));
-    IL2CPP_INTERCEPT(, MapmakerUIItem, void, UpdateMapmakerItem, (app::MapmakerUIItem * this_ptr, app::MapmakerItem* item)) {
+    IL2CPP_INTERCEPT(MapmakerUIItem, void, UpdateMapmakerItem, (app::MapmakerUIItem * this_ptr, app::MapmakerItem* item)) {
         const auto key = get_key(item);
         const auto it = lupo_overrides.find(key);
 
