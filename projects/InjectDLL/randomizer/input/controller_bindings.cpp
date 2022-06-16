@@ -7,7 +7,7 @@
 #include <constants.h>
 
 #include <Il2CppModLoader/app/methods/PlayerInput.h>
-#include <Il2CppModLoader/app/methods/SmartInput/AxiosButtonInput.h>
+#include <Il2CppModLoader/app/methods/SmartInput/AxisButtonInput.h>
 #include <Il2CppModLoader/app/methods/SmartInput/CompoundAxisInput.h>
 #include <Il2CppModLoader/app/methods/SmartInput/CompoundButtonInput.h>
 #include <Il2CppModLoader/app/methods/SmartInput/ControllerAxisInput.h>
