@@ -9,6 +9,12 @@
 #include <utils/misc.h>
 
 #include <Common/ext.h>
+#include <Il2CppModLoader/app/methods/CatlikeCoding/TextBox/TextBox.h>
+#include <Il2CppModLoader/app/methods/IconPlacementScaler.h>
+#include <Il2CppModLoader/app/methods/TimeUtility.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/GameObject.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/Object.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/Transform.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/il2cpp_math.h>
@@ -19,6 +25,8 @@
 
 using namespace modloader;
 using namespace modloader::win;
+using namespace app::methods;
+using namespace app::methods::UnityEngine;
 
 INJECT_C_DLLEXPORT void add_player(const wchar_t* id, const wchar_t* name, multiplayer::PlayerIcon icon);
 INJECT_C_DLLEXPORT void set_player_icon(const wchar_t* id, multiplayer::PlayerIcon icon);
@@ -61,23 +69,6 @@ namespace multiplayer {
     app::Color const& get_local_player_color() {
         return local_player_color;
     }
-
-    IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_position, (app::Transform * this_ptr));
-    IL2CPP_BINDING(UnityEngine, Transform, void, set_position, (app::Transform * this_ptr, app::Vector3* pos));
-    IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_localPosition, (app::Transform * this_ptr));
-    IL2CPP_BINDING(UnityEngine, Transform, void, set_localPosition, (app::Transform * this_ptr, app::Vector3* pos));
-    IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_localScale, (app::Transform * this_ptr));
-    IL2CPP_BINDING(UnityEngine, Transform, void, set_localScale, (app::Transform * this_ptr, app::Vector3* scale));
-    IL2CPP_BINDING(UnityEngine, Transform, app::Transform*, get_root, (app::Transform * this_ptr));
-    IL2CPP_BINDING(UnityEngine, Transform, app::Transform*, get_parent, (app::Transform * this_ptr));
-    IL2CPP_BINDING(UnityEngine, Transform, void, set_parent, (app::Transform * this_ptr, app::Transform* parent));
-
-    STATIC_IL2CPP_BINDING_OVERLOAD(UnityEngine, Object, app::Object*, Instantiate, (app::Object * object), (UnityEngine
-                                                                                                            : Object));
-    IL2CPP_BINDING(UnityEngine, GameObject, void, set_layer, (app::GameObject * this_ptr, int value));
-
-    IL2CPP_BINDING(, IconPlacementScaler, void, PlaceIcon, (app::IconPlacementScaler * this_ptr, app::GameObject* icon, app::Vector3* location, bool is_teleportable));
-    IL2CPP_BINDING(, IconPlacementScaler, void, RemoveIcon, (app::IconPlacementScaler * this_ptr, app::GameObject* icon));
 
     constexpr int DOT_COUNT = 64;
     constexpr float DOT_TIMEOUT = 0.25f;
@@ -136,7 +127,6 @@ namespace multiplayer {
         player.next_dot_index = (player.next_dot_index + 1) % DOT_COUNT;
     }
 
-    STATIC_IL2CPP_BINDING(, TimeUtility, float, get_fixedDeltaTime, ());
     bool should_make_dot(PlayerInfo& player) {
         player.time_until_next_dot -= TimeUtility::get_fixedDeltaTime();
         auto dx = player.previous_dot_position.x - player.map_avatar.position.x;
@@ -151,9 +141,6 @@ namespace multiplayer {
             set_layer_recursive(child, layer);
     }
 
-    IL2CPP_BINDING_OVERLOAD(CatlikeCoding.TextBox, TextBox, void, SetText, (app::TextBox * this_ptr, app::String* text), (System
-                                                                                                                          : String));
-    IL2CPP_BINDING(CatlikeCoding.TextBox, TextBox, void, RenderText, (app::TextBox * this_ptr));
     void set_avatar_active(PlayerInfo& info, PlayerInfo::Icon& icon, bool value) {
         il2cpp::unity::set_active(icon.root, value);
         if (value) {
@@ -327,7 +314,6 @@ namespace multiplayer {
         return a * (1 - weight) + b * weight;
     }
 
-    STATIC_IL2CPP_BINDING(, TimeUtility, float, get_deltaTime, ());
     void update_avatar_facing(PlayerInfo& info) {
         if (info.world_avatar.handle != 0) {
             auto transform = il2cpp::unity::get_transform(info.world_avatar.icon);
