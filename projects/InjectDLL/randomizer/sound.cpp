@@ -2,6 +2,12 @@
 
 #include <Common/ext.h>
 
+#include <Il2CppModLoader/app/methods/AkSoundEngine.h>
+#include <Il2CppModLoader/app/methods/Moon/Wwise/ArtificialSoundHostReference.h>
+#include <Il2CppModLoader/app/methods/Moon/Wwise/WwiseEventSystem.h>
+#include <Il2CppModLoader/app/methods/Moon/Wwise/WwiseEventSystem_SoundHandle.h>
+#include <Il2CppModLoader/app/methods/Moon/Wwise/WwiseGameObjectSystem.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/Transform.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
@@ -17,47 +23,6 @@ namespace randomizer {
         std::unordered_map<std::string, SoundEventID> string_to_event = {
             { "Catching", SoundEventID::Catching }
         };
-
-        // public static uint GetMajorMinorVersion() { }
-        // public static uint GetSubminorBuildVersion() { }
-        STATIC_IL2CPP_BINDING(, AkSoundEngine, uint32_t, GetMajorMinorVersion, ());
-        STATIC_IL2CPP_BINDING(, AkSoundEngine, uint32_t, GetSubminorBuildVersion, ());
-        STATIC_IL2CPP_BINDING(, AkSoundEngine, uint32_t, get_AK_SOUNDBANK_VERSION, ());
-        STATIC_IL2CPP_BINDING(, AkSoundEngine, int32_t, get_g_SpatialAudioPoolId, ());
-        STATIC_IL2CPP_BINDING(, AkSoundEngine, int32_t, GetPoolID, ());
-        STATIC_IL2CPP_BINDING(, AkSoundEngine, app::AKRESULT__Enum, AddBasePath, (app::String * base_path));
-        STATIC_IL2CPP_BINDING(, AkSoundEngine, app::AKRESULT__Enum, LoadAndDecodeBankFromMemory, (app::IntPtr bank_data, uint32_t size, bool save_bank, app::String* bank_name, bool is_language_specific, uint32_t* out_bank_id));
-        // STATIC_IL2CPP_BINDING(, AkSoundEngine, app::AKRESULT__Enum, LoadBank, (app::IntPtr bank_data, uint32_t size, uint32_t* out_bank_id));
-        STATIC_IL2CPP_BINDING_OVERLOAD(, AkSoundEngine, app::AKRESULT__Enum, PrepareBank, (app::AkPreparationType__Enum type, uint32_t bank_id, app::AkBankContent__Enum content), (AkPreparationType, System
-                                                                                                                                                                                    : UInt32, AkBankContent));
-        STATIC_IL2CPP_BINDING_OVERLOAD(, AkSoundEngine, uint32_t, PostEvent, (uint32_t event_id, uint64_t game_object_id), (System
-                                                                                                                            : UInt32, System
-                                                                                                                            : UInt64));
-
-        IL2CPP_BINDING_OVERLOAD(Moon.Wwise, WwiseEventSystem, void, FireAndForget, (app::WwiseEventSystem * system, uint32_t event_id, app::ISoundHost* host), (System
-                                                                                                                                                                : UInt32, Moon.Wwise
-                                                                                                                                                                : ISoundHost));
-        NAMED_IL2CPP_BINDING_OVERLOAD(Moon.Wwise, WwiseEventSystem, void, FireAndForget, FireAndForgetEvt, (app::WwiseEventSystem * system, app::Event_1* evt, app::ISoundHost* host), (AK.Wwise
-                                                                                                                                                                                        : Event, Moon.Wwise
-                                                                                                                                                                                        : ISoundHost));
-        IL2CPP_BINDING(Moon.Wwise, WwiseEventSystem, app::WwiseEventSystem_SoundHandle, AllocateHandle, (app::WwiseEventSystem * system, app::Event_1* evt, app::ISoundHost* host));
-
-        IL2CPP_BINDING(Moon.Wwise, WwiseGameObjectSystem, app::ArtificialSoundHostReference*, Allocate, (app::WwiseGameObjectSystem * this_ptr, app::String* name));
-        IL2CPP_BINDING(Moon.Wwise, WwiseGameObjectSystem, void, FireAndForget, (app::WwiseGameObjectSystem * this_ptr, app::String* name, app::Event_1* evt, app::Vector3* position));
-
-        IL2CPP_BINDING(Moon.Wwise, ArtificialSoundHostReference, void, Release, (app::ArtificialSoundHostReference * this_ptr));
-        IL2CPP_BINDING(Moon.Wwise, ArtificialSoundHostReference, app::ArtificialSoundHostReference*, Place, (app::ArtificialSoundHostReference * this_ptr, app::Vector3* position));
-        IL2CPP_BINDING(Moon.Wwise, ArtificialSoundHostReference, app::ArtificialSoundHostReference*, AttachTo, (app::ArtificialSoundHostReference * this_ptr, app::Transform* transform));
-        IL2CPP_BINDING(Moon.Wwise, ArtificialSoundHostReference, app::WwiseEventSystem_SoundHandle*, PlayAndReleaseWith, (app::ArtificialSoundHostReference * this_ptr, app::Event_1* evt));
-
-        NESTED_IL2CPP_BINDING(Moon.Wwise, WwiseEventSystem, SoundHandle, void, Play, (app::WwiseEventSystem_SoundHandle__Boxed * this_ptr));
-        NESTED_IL2CPP_BINDING(Moon.Wwise, WwiseEventSystem, SoundHandle, void, Stop, (app::WwiseEventSystem_SoundHandle__Boxed * this_ptr, int transitTimeMs, app::AkCurveInterpolation__Enum curve));
-        NESTED_IL2CPP_BINDING(Moon.Wwise, WwiseEventSystem, SoundHandle, void, Pause, (app::WwiseEventSystem_SoundHandle__Boxed * this_ptr, int transitTimeMs, app::AkCurveInterpolation__Enum curve));
-        NESTED_IL2CPP_BINDING(Moon.Wwise, WwiseEventSystem, SoundHandle, void, Resume, (app::WwiseEventSystem_SoundHandle__Boxed * this_ptr, int transitTimeMs, app::AkCurveInterpolation__Enum curve));
-        NESTED_IL2CPP_BINDING(Moon.Wwise, WwiseEventSystem, SoundHandle, app::WwiseEventSystem_EventStatus__Enum, get_Status, (app::WwiseEventSystem_SoundHandle__Boxed * this_ptr));
-
-        IL2CPP_BINDING(UnityEngine, Transform, void, set_position, (app::Transform * this_ptr, app::Vector3* position));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_position, (app::Transform * this_ptr));
 
         app::Event_1* create_event(SoundEventID id) {
             auto evt = il2cpp::create_object<app::Event_1>("AK.Wwise", "Event");
