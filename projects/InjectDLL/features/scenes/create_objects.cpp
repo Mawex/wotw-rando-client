@@ -57,14 +57,14 @@ namespace scenes {
                 il2cpp::invoke(spawn->game_object, "set_name", il2cpp::string_new(spawn->name));
                 game::add_to_container(game::RandoContainer::GameObjects, spawn->game_object);
                 auto transform = il2cpp::unity::get_transform(spawn->game_object);
-                Transform::set_position(transform, &spawn->position);
+                Transform::set_position(transform, spawn->position);
                 if (spawn->scale.has_value())
-                    Transform::set_localScale(transform, &spawn->scale.value());
+                    Transform::set_localScale(transform, spawn->scale.value());
 
                 if (spawn->rotation.has_value()) {
                     auto& rot = spawn->rotation.value();
-                    auto quat = Quaternion::Euler(rot.x, rot.y, rot.z);
-                    Transform::set_rotation(transform, &quat);
+                    auto quat = Quaternion::Euler_1(rot.x, rot.y, rot.z);
+                    Transform::set_rotation(transform, quat);
                 }
 
                 randomizer::shaders::duplicate_materials(spawn->game_object);
