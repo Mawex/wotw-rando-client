@@ -82,7 +82,7 @@ namespace game {
         }
 
         void shake_spiritlight() {
-            auto setter(pickups::collect_pickup());
+            auto setter(pickups::scoped_not_collecting_pickup());
             if (game::ui::get()->static_fields->SeinUI == nullptr)
                 trace(MessageType::Error, 2, "game", "SeinUI is invalid!");
             else
@@ -90,7 +90,7 @@ namespace game {
         }
 
         void shake_keystone() {
-            auto setter(pickups::collect_pickup());
+            auto setter(pickups::scoped_not_collecting_pickup());
             if (game::ui::get()->static_fields->SeinUI == nullptr)
                 trace(MessageType::Error, 2, "game", "SeinUI is invalid!");
             else
@@ -98,7 +98,7 @@ namespace game {
         }
 
         void shake_ore() {
-            auto setter(pickups::collect_pickup());
+            auto setter(pickups::scoped_not_collecting_pickup());
             if (game::ui::get()->static_fields->SeinUI == nullptr)
                 trace(MessageType::Error, 2, "game", "SeinUI is invalid!");
             else

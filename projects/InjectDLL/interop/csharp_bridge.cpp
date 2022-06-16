@@ -132,7 +132,7 @@ namespace csharp_bridge {
         STATIC_IL2CPP_BINDING(, SaveSlotsManager, int, get_BackupIndex, ());
 
         void on_checkpoint_handler(GameEvent game_event, EventTiming timing) {
-            auto cp(game::pickups::collect_pickup()); // fuck fuck fuck shit damn aaaaa
+            auto cp(game::pickups::scoped_not_collecting_pickup()); // fuck fuck fuck shit damn aaaaa
             csharp_bridge::on_checkpoint();
         }
 
