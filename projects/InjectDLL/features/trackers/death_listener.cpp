@@ -4,7 +4,7 @@
 #include <Il2CppModLoader/interception_macros.h>
 #include <Il2CppModLoader/windows_api/console.h>
 #include <Il2CppModLoader/app/methods/Moon/EnemyEntity.h>
-#include <Il2CppModLoader/app/methods/SeinDamageReceiver.h>
+#include <Il2CppModLoader/app/methods/SeinDamageReciever.h>
 
 #include <interop/csharp_bridge.h>
 
