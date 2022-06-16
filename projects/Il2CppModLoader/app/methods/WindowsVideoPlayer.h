@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WindowsVideoPlayer {
     IL2CPP_REGISTER_METHOD(0x0057B9F0, void, set_Filename, (app::WindowsVideoPlayer * this_ptr, app::String * value))

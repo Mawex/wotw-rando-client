@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::ZlibBaseStream {
     IL2CPP_REGISTER_METHOD(0x03076B70, int32_t, get_Crc32, (app::ZlibBaseStream * this_ptr))

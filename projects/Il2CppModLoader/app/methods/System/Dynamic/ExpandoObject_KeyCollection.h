@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_KeyCollection {
     IL2CPP_REGISTER_METHOD(0x01F8FDB0, void, ctor, (app::ExpandoObject_KeyCollection * this_ptr, app::ExpandoObject * expando))

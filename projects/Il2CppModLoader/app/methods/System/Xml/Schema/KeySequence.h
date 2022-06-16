@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::KeySequence {
     IL2CPP_REGISTER_METHOD(0x016CC620, void, ctor, (app::KeySequence * this_ptr, int32_t dim, int32_t line, int32_t col))

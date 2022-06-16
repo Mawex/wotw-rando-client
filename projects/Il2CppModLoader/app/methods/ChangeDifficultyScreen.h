@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ChangeDifficultyScreen {
     IL2CPP_REGISTER_METHOD(0x010459A0, app::String *, DifficultyToText, (app::ChangeDifficultyScreen * this_ptr, app::DifficultyMode__Enum mode))

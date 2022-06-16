@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::SimpleSwayAnimPostprocess {
     IL2CPP_REGISTER_METHOD(0x0211F5E0, bool, get_UseSimpleSway, ())

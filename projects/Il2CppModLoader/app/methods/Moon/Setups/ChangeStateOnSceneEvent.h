@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Setups::ChangeStateOnSceneEvent {
     IL2CPP_REGISTER_METHOD(0x00E24CB0, void, Awake, (app::ChangeStateOnSceneEvent * this_ptr))

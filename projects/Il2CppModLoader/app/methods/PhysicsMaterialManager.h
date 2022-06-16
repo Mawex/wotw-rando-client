@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PhysicsMaterialManager {
     IL2CPP_REGISTER_METHOD(0x01153E30, app::Switch_1 *, SurfaceMaterialTypeToSwitch, (app::PhysicsMaterialManager * this_ptr, app::SurfaceMaterialType__Enum type))

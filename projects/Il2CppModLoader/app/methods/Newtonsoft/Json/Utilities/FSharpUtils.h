@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::FSharpUtils {
     IL2CPP_REGISTER_METHOD(0x01C11750, void, set_FSharpCoreAssembly, (app::Assembly * value))

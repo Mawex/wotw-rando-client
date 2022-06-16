@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AbilitiesPlugin {
     IL2CPP_REGISTER_METHOD(0x004ABA40, app::Object *, ReflectionHack, (app::String * full_name))

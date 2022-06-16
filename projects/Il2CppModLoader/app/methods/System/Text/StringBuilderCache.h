@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::StringBuilderCache {
     IL2CPP_REGISTER_METHOD(0x027C7470, app::StringBuilder *, Acquire, (int32_t capacity))

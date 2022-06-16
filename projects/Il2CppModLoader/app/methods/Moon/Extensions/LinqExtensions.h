@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Extensions::LinqExtensions {
     IL2CPP_REGISTER_METHOD(0x00E7D170, app::IEnumerable_1_System_Object_ *, DistinctBy, (app::IEnumerable_1_System_Object_ * source, app::Func_2_Object_Object_ * key_selector))

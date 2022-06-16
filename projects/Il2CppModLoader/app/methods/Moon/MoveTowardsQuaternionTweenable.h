@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::MoveTowardsQuaternionTweenable {
     IL2CPP_REGISTER_METHOD(0x01BAB3B0, app::Quaternion, Update, (app::MoveTowardsQuaternionTweenable * this_ptr, app::Quaternion current_value, app::Quaternion start_value, app::Quaternion end_value, float speed))

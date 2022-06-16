@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Math::Prime::PrimalityTests {
     IL2CPP_REGISTER_METHOD(0x023CDD00, int32_t, GetSPPRounds_1, (app::BigInteger * bi, app::ConfidenceFactor__Enum confidence))

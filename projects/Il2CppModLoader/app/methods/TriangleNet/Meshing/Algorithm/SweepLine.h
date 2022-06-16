@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Algorithm::SweepLine {
     IL2CPP_REGISTER_METHOD(0x02636B70, int32_t, randomnation, (int32_t choices))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MudkisserPatrolBehaviour {
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, KeepMoving, (app::MudkisserPatrolBehaviour * this_ptr))

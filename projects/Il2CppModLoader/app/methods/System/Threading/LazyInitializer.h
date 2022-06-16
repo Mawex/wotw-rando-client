@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Threading::LazyInitializer {
     IL2CPP_REGISTER_METHOD(0x0157AA30, app::Object *, EnsureInitialized_1, (app::Object * * target, app::Func_1_Object_ * value_factory))

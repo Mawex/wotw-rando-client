@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::OrderedDictionary_OrderedDictionaryEnumerator {
     IL2CPP_REGISTER_METHOD(0x0249D300, void, ctor, (app::OrderedDictionary_OrderedDictionaryEnumerator * this_ptr, app::ArrayList * array, int32_t object_return_type))

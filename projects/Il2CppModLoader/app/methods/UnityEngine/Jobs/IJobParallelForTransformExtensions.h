@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Jobs::IJobParallelForTransformExtensions {
     IL2CPP_REGISTER_METHOD(0x02FF7760, app::JobHandle, Schedule_1, (app::SimpleSwayBossAnimPostprocess_Job job_data, app::TransformAccessArray transforms, app::JobHandle depends_on))

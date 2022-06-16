@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DetachRopeOnStomp {
     IL2CPP_REGISTER_METHOD(0x00B8E4A0, app::Vector3, get_Position, (app::DetachRopeOnStomp * this_ptr))

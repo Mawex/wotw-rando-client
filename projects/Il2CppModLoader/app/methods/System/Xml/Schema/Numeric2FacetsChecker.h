@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Numeric2FacetsChecker {
     IL2CPP_REGISTER_METHOD(0x016D2610, app::Exception *, CheckValueFacets_1, (app::Numeric2FacetsChecker * this_ptr, app::Object * value, app::XmlSchemaDatatype * datatype))

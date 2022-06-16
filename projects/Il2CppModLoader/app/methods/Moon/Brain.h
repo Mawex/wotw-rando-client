@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Brain {
     IL2CPP_REGISTER_METHOD(0x004358D0, bool, get_IsSuspended, (app::Brain * this_ptr))

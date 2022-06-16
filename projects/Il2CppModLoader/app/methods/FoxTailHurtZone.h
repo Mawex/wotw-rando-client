@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FoxTailHurtZone {
     IL2CPP_REGISTER_METHOD(0x01633ED0, void, add_ReceiveDamageCallback, (app::FoxTailHurtZone * this_ptr, app::Action_1_Damage_ * value))

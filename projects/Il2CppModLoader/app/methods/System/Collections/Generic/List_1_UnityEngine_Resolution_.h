@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_UnityEngine_Resolution_ {
     IL2CPP_REGISTER_METHOD(0x02EE42B0, void, ctor_1, (app::List_1_UnityEngine_Resolution_ * this_ptr, app::IEnumerable_1_UnityEngine_Resolution_ * collection))

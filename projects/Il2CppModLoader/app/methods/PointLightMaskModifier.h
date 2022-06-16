@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PointLightMaskModifier {
     IL2CPP_REGISTER_METHOD(0x0142FB20, app::Color, get_LightColor, (app::PointLightMaskModifier * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::EqualityComparer_1_KeyValuePair_2_System_Object_System_Boolean__ {
     IL2CPP_REGISTER_METHOD(0x02807CD0, app::EqualityComparer_1_KeyValuePair_2_System_Object_System_Boolean_ *, get_Default, ())

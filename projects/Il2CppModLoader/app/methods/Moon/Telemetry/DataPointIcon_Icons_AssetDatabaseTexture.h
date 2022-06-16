@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::DataPointIcon_Icons_AssetDatabaseTexture {
     IL2CPP_REGISTER_METHOD(0x002FB930, app::Texture2D *, get_Texture, (app::DataPointIcon_Icons_AssetDatabaseTexture * this_ptr))

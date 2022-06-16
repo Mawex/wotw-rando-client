@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::IO::BinaryReader {
     IL2CPP_REGISTER_METHOD(0x01DFD6B0, void, ctor_1, (app::BinaryReader * this_ptr, app::Stream * input))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Algorithm::Dwyer {
     IL2CPP_REGISTER_METHOD(0x026321A0, app::IMesh *, Triangulate, (app::Dwyer * this_ptr, app::IList_1_TriangleNet_Geometry_Vertex_ * points, app::Configuration_1 * config))

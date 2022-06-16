@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_UberAtlasExclusions_SceneExclusion_ {
     IL2CPP_REGISTER_METHOD(0x01CCD260, int32_t, Compare, (app::ObjectComparer_1_UberAtlasExclusions_SceneExclusion_ * this_ptr, app::UberAtlasExclusions_SceneExclusion x, app::UberAtlasExclusions_SceneExclusion y))

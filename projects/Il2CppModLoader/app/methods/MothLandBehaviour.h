@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MothLandBehaviour {
     IL2CPP_REGISTER_METHOD(0x008663D0, float, get_LandRadius, (app::MothLandBehaviour * this_ptr))

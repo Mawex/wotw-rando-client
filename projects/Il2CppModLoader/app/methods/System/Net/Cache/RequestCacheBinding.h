@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::Cache::RequestCacheBinding {
     IL2CPP_REGISTER_METHOD(0x00522850, void, ctor, (app::RequestCacheBinding * this_ptr, app::RequestCache * request_cache, app::RequestCacheValidator * cache_validator, app::RequestCachePolicy * policy))

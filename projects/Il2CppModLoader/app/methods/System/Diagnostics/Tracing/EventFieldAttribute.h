@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventFieldAttribute {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, app::EventFieldTags__Enum, get_Tags, (app::EventFieldAttribute * this_ptr))

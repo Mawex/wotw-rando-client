@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TargetMatch {
     IL2CPP_REGISTER_METHOD(0x031B6D90, void, Awake, (app::TargetMatch * this_ptr))

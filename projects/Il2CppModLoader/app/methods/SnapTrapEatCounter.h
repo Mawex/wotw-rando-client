@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SnapTrapEatCounter {
     IL2CPP_REGISTER_METHOD(0x006D6050, void, Awake, (app::SnapTrapEatCounter * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberShaderBlockTextured {
     IL2CPP_REGISTER_METHOD(0x0190C360, void, SetProperties, (app::UberShaderBlockTextured * this_ptr))

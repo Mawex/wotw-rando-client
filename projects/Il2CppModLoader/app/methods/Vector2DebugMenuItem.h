@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Vector2DebugMenuItem {
     IL2CPP_REGISTER_METHOD(0x00F28570, app::Vector2, get_Value, (app::Vector2DebugMenuItem * this_ptr))

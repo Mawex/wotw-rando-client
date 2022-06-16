@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ {
     IL2CPP_REGISTER_METHOD(0x01CCF890, int32_t, Compare, (app::ObjectComparer_1_UnityEngine_UnitySynchronizationContext_WorkRequest_ * this_ptr, app::UnitySynchronizationContext_WorkRequest x, app::UnitySynchronizationContext_WorkRequest y))

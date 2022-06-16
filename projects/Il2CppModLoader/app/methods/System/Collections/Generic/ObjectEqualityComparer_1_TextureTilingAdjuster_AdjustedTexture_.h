@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ {
     IL2CPP_REGISTER_METHOD(0x01CD3170, bool, Equals_1, (app::ObjectEqualityComparer_1_TextureTilingAdjuster_AdjustedTexture_ * this_ptr, app::TextureTilingAdjuster_AdjustedTexture x, app::TextureTilingAdjuster_AdjustedTexture y))

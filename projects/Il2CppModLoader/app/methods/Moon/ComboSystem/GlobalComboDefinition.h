@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::GlobalComboDefinition {
     IL2CPP_REGISTER_METHOD(0x00CC6E10, void, InitializeDictionary, (app::GlobalComboDefinition * this_ptr))

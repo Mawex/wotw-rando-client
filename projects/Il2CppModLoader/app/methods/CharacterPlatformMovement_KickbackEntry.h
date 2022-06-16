@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CharacterPlatformMovement_KickbackEntry {
     IL2CPP_REGISTER_METHOD(0x01311F00, app::Vector2, GetKickbackVector, (app::CharacterPlatformMovement_KickbackEntry * this_ptr))

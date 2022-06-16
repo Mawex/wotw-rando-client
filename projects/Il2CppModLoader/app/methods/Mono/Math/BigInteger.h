@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Math::BigInteger {
     IL2CPP_REGISTER_METHOD(0x023C5490, void, ctor_1, (app::BigInteger * this_ptr, app::BigInteger_Sign__Enum sign, uint32_t len))

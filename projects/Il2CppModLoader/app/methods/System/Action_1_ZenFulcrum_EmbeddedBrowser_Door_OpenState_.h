@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Action_1_ZenFulcrum_EmbeddedBrowser_Door_OpenState_ {
     IL2CPP_REGISTER_METHOD(0x01C77D40, void, Invoke, (app::Action_1_ZenFulcrum_EmbeddedBrowser_Door_OpenState_ * this_ptr, app::Door_OpenState__Enum obj))

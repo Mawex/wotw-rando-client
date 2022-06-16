@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::MonoChunkStream_Chunk {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::MonoChunkStream_Chunk * this_ptr, app::Byte__Array * chunk))

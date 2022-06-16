@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::MoonVector3 {
     IL2CPP_REGISTER_METHOD(0x02F9A7C0, bool, get_IsCrossSceneReference, (app::MoonVector3 * this_ptr))

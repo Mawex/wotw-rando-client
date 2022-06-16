@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::pooling::UberPoolPrewarmMasterList {
     IL2CPP_REGISTER_METHOD(0x00F30ED0, app::UberPoolPrewarmMasterList_PrewarmConfig *, GetConfig, (app::UberPoolPrewarmMasterList * this_ptr, app::String * id))

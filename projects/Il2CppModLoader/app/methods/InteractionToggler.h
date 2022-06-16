@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::InteractionToggler {
     IL2CPP_REGISTER_METHOD(0x0063B910, app::String *, get_Path, (app::InteractionToggler * this_ptr))

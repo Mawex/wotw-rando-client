@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Race::LeaderBoardEntry {
     IL2CPP_REGISTER_METHOD(0x00C42ED0, bool, get_IsPlatformlessEntry, (app::LeaderBoardEntry * this_ptr))

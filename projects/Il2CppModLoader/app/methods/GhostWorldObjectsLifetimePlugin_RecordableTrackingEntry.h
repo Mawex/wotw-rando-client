@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostWorldObjectsLifetimePlugin_RecordableTrackingEntry {
     IL2CPP_REGISTER_METHOD(0x007F08A0, app::IRecordable *, get_Recordable, (app::GhostWorldObjectsLifetimePlugin_RecordableTrackingEntry * this_ptr))

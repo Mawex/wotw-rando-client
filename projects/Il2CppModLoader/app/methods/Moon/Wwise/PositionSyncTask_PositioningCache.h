@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::PositionSyncTask_PositioningCache {
     IL2CPP_REGISTER_METHOD(0x001FE8F0, void, ctor, (app::PositionSyncTask_PositioningCache__Boxed * this_ptr, app::Vector3 position, app::Quaternion rotation))

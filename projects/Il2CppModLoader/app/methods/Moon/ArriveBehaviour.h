@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ArriveBehaviour {
     IL2CPP_REGISTER_METHOD(0x0133CA10, void, OnExecute, (app::ArriveBehaviour * this_ptr, app::IBlackboard * blackboard))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossLandBehaviour {
     IL2CPP_REGISTER_METHOD(0x002FBD60, app::StateMachine_2 *, get_StateMachine, (app::PetrifiedOwlBossLandBehaviour * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonMath_Int {
     IL2CPP_REGISTER_METHOD(0x02575A20, int32_t, GreatestCommonDenominator, (int32_t x, int32_t y))

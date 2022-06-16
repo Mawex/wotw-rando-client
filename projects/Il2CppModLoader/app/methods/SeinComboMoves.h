@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinComboMoves {
     IL2CPP_REGISTER_METHOD(0x002FB950, app::List_1_Moon_ComboSystem_ComboMove_ *, get_Moves, (app::SeinComboMoves * this_ptr))

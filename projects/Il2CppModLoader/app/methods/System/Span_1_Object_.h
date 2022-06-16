@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Span_1_Object_ {
     IL2CPP_REGISTER_METHOD(0x001FFA00, app::String *, get_DebuggerDisplay, (app::Span_1_Object___Boxed * this_ptr))

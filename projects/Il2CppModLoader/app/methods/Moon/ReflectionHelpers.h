@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ReflectionHelpers {
     IL2CPP_REGISTER_METHOD(0x018F11E0, app::Action_1_Object_ *, CreateReflectedStaticFuncDelegate_1, (app::Type * type, app::String * method_name, app::BindingFlags__Enum binding_flags))

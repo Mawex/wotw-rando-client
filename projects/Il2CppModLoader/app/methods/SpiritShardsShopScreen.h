@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiritShardsShopScreen {
     IL2CPP_REGISTER_METHOD(0x006B8940, app::CleverMenuItemSelectionManager *, get_NavigationManager, (app::SpiritShardsShopScreen * this_ptr))

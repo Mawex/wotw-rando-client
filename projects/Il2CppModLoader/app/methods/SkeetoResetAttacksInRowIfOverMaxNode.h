@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SkeetoResetAttacksInRowIfOverMaxNode {
     IL2CPP_REGISTER_METHOD(0x0075FA10, void, OnEntityInitialized, (app::SkeetoResetAttacksInRowIfOverMaxNode * this_ptr))

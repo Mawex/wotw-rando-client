@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_fsm_IState_List_1_fsm_Transition__ {
     IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_fsm_IState_List_1_fsm_Transition_ * this_ptr, app::IState_2 * key, app::List_1_fsm_Transition_ * * value))

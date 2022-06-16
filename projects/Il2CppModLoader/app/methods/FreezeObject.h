@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FreezeObject {
     IL2CPP_REGISTER_METHOD(0x02553230, void, Awake, (app::FreezeObject * this_ptr))

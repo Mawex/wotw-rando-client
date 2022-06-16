@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WandererPlaceholder {
     IL2CPP_REGISTER_METHOD(0x008D1780, void, InstantiateFromPooledObj, (app::WandererPlaceholder * this_ptr))

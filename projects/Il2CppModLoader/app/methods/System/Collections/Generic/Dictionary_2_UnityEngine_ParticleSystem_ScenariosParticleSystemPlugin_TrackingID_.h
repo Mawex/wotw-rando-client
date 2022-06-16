@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine_ParticleSystem_ScenariosParticleSystemPlugin_TrackingID_ {
     IL2CPP_REGISTER_METHOD(0x02BAC140, void, set_Item, (app::Dictionary_2_UnityEngine_ParticleSystem_ScenariosParticleSystemPlugin_TrackingID_ * this_ptr, app::ParticleSystem * key, app::ScenariosParticleSystemPlugin_TrackingID * value))

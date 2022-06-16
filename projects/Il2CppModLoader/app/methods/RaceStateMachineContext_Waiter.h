@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_Waiter {
     IL2CPP_REGISTER_METHOD(0x0071BBD0, void, ctor, (app::RaceStateMachineContext_Waiter * this_ptr, float timeleft, app::RaceStateMachineContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::CredentialCache_CredentialEnumerator {
     IL2CPP_REGISTER_METHOD(0x01EAAF30, void, ctor, (app::CredentialCache_CredentialEnumerator * this_ptr, app::CredentialCache * cache, app::Hashtable * table, app::Hashtable * host_table, int32_t version))

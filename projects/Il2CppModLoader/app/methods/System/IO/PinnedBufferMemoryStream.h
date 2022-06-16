@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::IO::PinnedBufferMemoryStream {
     IL2CPP_REGISTER_METHOD(0x0237B110, void, ctor, (app::PinnedBufferMemoryStream * this_ptr, app::Byte__Array * array))

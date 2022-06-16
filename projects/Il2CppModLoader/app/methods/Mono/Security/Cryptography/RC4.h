@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::RC4 {
     IL2CPP_REGISTER_METHOD(0x025D48D0, void, ctor_1, (app::RC4 * this_ptr))

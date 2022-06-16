@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System_Net_Http_Headers_Token_ {
     IL2CPP_REGISTER_METHOD(0x001F6D10, bool, get_HasValue, (app::Nullable_1_System_Net_Http_Headers_Token___Boxed * this_ptr))

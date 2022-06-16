@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Point {
     IL2CPP_REGISTER_METHOD(0x00C3DB40, app::Vector3, GetPosition, (app::Point_1 * this_ptr, app::PrimitiveSpace__Enum target_space, app::Transform * local_toworld, app::Transform * root))

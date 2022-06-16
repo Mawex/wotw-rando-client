@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XsdDateTime_Parser {
     IL2CPP_REGISTER_METHOD(0x001C6160, bool, Parse, (app::XsdDateTime_Parser__Boxed * this_ptr, app::String * text, app::XsdDateTimeFlags__Enum kinds))

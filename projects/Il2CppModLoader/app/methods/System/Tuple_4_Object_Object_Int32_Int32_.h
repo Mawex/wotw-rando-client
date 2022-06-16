@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Tuple_4_Object_Object_Int32_Int32_ {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::Object *, get_Item1, (app::Tuple_4_Object_Object_Int32_Int32_ * this_ptr))

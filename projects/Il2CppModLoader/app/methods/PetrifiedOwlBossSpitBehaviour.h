@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossSpitBehaviour {
     IL2CPP_REGISTER_METHOD(0x0177E780, int32_t, get_ShotsLeft, (app::PetrifiedOwlBossSpitBehaviour * this_ptr))

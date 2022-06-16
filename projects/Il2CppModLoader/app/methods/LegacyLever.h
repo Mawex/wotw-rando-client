@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyLever {
     IL2CPP_REGISTER_METHOD(0x004430B0, bool, get_InRange, (app::LegacyLever * this_ptr))

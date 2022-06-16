@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayerFacingCondition {
     IL2CPP_REGISTER_METHOD(0x0140EB90, bool, Validate, (app::PlayerFacingCondition * this_ptr, app::IContext * context))

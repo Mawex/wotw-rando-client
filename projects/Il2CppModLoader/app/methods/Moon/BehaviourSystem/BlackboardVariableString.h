@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::BlackboardVariableString {
     IL2CPP_REGISTER_METHOD(0x002FB9B0, app::IMoonType_1_System_String_ *, GetMoonType, (app::BlackboardVariableString * this_ptr))

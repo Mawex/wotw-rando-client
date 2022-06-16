@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Animation::DirectionalHitReactionPostprocess {
     IL2CPP_REGISTER_METHOD(0x003FF7B0, int32_t, get_Order, (app::DirectionalHitReactionPostprocess * this_ptr))

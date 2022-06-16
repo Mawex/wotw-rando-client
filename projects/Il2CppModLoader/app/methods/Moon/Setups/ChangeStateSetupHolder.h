@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Setups::ChangeStateSetupHolder {
     IL2CPP_REGISTER_METHOD(0x00E253C0, app::String *, get_NewStateName, (app::ChangeStateSetupHolder * this_ptr))

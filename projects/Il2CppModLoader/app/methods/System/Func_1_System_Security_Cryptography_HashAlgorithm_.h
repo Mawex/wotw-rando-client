@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Func_1_System_Security_Cryptography_HashAlgorithm_ {
     IL2CPP_REGISTER_METHOD(0x01938310, app::HashAlgorithm *, Invoke, (app::Func_1_System_Security_Cryptography_HashAlgorithm_ * this_ptr))

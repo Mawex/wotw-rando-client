@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::NumericDebugMenuItem_1_System_Double_ {
     IL2CPP_REGISTER_METHOD(0x018E6D70, void, ctor_1, (app::NumericDebugMenuItem_1_System_Double_ * this_ptr))

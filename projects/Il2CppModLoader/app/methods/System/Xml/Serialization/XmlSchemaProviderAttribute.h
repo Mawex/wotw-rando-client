@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSchemaProviderAttribute {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::XmlSchemaProviderAttribute * this_ptr, app::String * method_name))

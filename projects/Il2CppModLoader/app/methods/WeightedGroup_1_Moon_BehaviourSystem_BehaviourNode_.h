@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WeightedGroup_1_Moon_BehaviourSystem_BehaviourNode_ {
     IL2CPP_REGISTER_METHOD(0x02AD0150, app::BehaviourNode *, GetRandomElement, (app::WeightedGroup_1_Moon_BehaviourSystem_BehaviourNode_ * this_ptr))

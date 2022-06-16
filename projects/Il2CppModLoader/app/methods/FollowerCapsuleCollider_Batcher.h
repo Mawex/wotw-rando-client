@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FollowerCapsuleCollider_Batcher {
     IL2CPP_REGISTER_METHOD(0x001257B0, void, RefreshCapacity, (app::FollowerCapsuleCollider_Batcher__Boxed * this_ptr, int32_t instance_count))

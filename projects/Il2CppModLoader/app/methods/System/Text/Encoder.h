@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::Encoder {
     IL2CPP_REGISTER_METHOD(0x0244B830, void, SerializeEncoder, (app::Encoder * this_ptr, app::SerializationInfo * info))

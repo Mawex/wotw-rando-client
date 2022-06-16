@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CageMath {
     IL2CPP_REGISTER_METHOD(0x00823240, bool, IsPointInsideCage, (app::Vector2 point, app::CageStructureTool * cage))

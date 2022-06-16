@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::VerletStructure_VerletJoint {
     IL2CPP_REGISTER_METHOD(0x013D00E0, app::Vector3, get_Velocity, (app::VerletStructure_VerletJoint * this_ptr))

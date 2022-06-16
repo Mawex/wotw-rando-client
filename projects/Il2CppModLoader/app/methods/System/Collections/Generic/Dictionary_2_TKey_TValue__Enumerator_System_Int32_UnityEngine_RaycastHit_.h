@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_System_Int32_UnityEngine_RaycastHit_ {
     IL2CPP_REGISTER_METHOD(0x00135060, void, ctor, (app::Dictionary_2_TKey_TValue_Enumerator_System_Int32_UnityEngine_RaycastHit___Boxed * this_ptr, app::Dictionary_2_System_Int32_UnityEngine_RaycastHit_ * dictionary, int32_t get_enumerator_ret_type))

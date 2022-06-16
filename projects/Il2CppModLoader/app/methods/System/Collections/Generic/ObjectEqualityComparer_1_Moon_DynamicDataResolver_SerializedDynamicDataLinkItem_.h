@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon_DynamicDataResolver_SerializedDynamicDataLinkItem_ {
     IL2CPP_REGISTER_METHOD(0x01CD1410, bool, Equals_1, (app::ObjectEqualityComparer_1_Moon_DynamicDataResolver_SerializedDynamicDataLinkItem_ * this_ptr, app::DynamicDataResolver_SerializedDynamicDataLinkItem x, app::DynamicDataResolver_SerializedDynamicDataLinkItem y))

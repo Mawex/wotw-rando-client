@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PoolCaptureAgent {
     IL2CPP_REGISTER_METHOD(0x00C5F740, void, MarkUnpooledInstantiation, (app::String * prefab_name, float elapsed_milliseconds))

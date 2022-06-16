@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LazyInitialization_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x019F85F0, app::Object *, get_Value, (app::LazyInitialization_1_System_Object__1 * this_ptr))

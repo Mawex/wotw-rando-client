@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SceneManagement::Scene {
     IL2CPP_REGISTER_METHOD(0x02978E80, bool, IsValidInternal, (int32_t scene_handle))

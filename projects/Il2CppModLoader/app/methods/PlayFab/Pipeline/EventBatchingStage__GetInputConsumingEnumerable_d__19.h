@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::EventBatchingStage__GetInputConsumingEnumerable_d__19 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::EventBatchingStage_GetInputConsumingEnumerable_d_19 * this_ptr, int32_t __1__state))

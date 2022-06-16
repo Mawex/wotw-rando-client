@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::ObjectHolderListEnumerator {
     IL2CPP_REGISTER_METHOD(0x01ED7120, void, ctor, (app::ObjectHolderListEnumerator * this_ptr, app::ObjectHolderList * list, bool is_fixup_enumerator))

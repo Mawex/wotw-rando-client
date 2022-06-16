@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::IndexField {
     IL2CPP_REGISTER_METHOD(0x00151890, void, ctor, (app::IndexField__Boxed * this_ptr, app::DataColumn * column, bool is_descending))

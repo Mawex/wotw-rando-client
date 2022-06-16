@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MantisFallReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x002FBC60, app::LegacyTimelineSequence *, get_EffectiveLandSequence, (app::MantisFallReactionBehaviour * this_ptr))

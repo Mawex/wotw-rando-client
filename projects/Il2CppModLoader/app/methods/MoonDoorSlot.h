@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonDoorSlot {
     IL2CPP_REGISTER_METHOD(0x00F4A030, void, Awake, (app::MoonDoorSlot * this_ptr))

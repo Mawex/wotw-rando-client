@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::SecurityException {
     IL2CPP_REGISTER_METHOD(0x01E219C0, void, ctor_1, (app::SecurityException * this_ptr))

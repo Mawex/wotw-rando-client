@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KuDamageReceiver {
     IL2CPP_REGISTER_METHOD(0x002FBBA0, app::Ku *, get_Ku, (app::KuDamageReceiver * this_ptr))

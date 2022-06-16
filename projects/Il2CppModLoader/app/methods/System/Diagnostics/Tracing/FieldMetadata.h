@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::FieldMetadata {
     IL2CPP_REGISTER_METHOD(0x019FD900, void, ctor_1, (app::FieldMetadata * this_ptr, app::String * name, app::TraceLoggingDataType__Enum type, app::EventFieldTags__Enum tags, bool variable_count))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_MeshTrail_MeshTrailEmitter_ {
     IL2CPP_REGISTER_METHOD(0x0243A6F0, bool, Equals_1, (app::ObjectEqualityComparer_1_MeshTrail_MeshTrailEmitter_ * this_ptr, app::MeshTrail_MeshTrailEmitter x, app::MeshTrail_MeshTrailEmitter y))

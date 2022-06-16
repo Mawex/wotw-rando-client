@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::InternalEncoderBestFitFallback {
     IL2CPP_REGISTER_METHOD(0x02458940, void, ctor, (app::InternalEncoderBestFitFallback * this_ptr, app::Encoding * encoding))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Globalization::TimeSpanParse_TimeSpanRawInfo {
     IL2CPP_REGISTER_METHOD(0x001D3C30, app::TimeSpanFormat_FormatLiterals, get_PositiveInvariant, (app::TimeSpanParse_TimeSpanRawInfo__Boxed * this_ptr))

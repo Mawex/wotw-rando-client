@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::OffsetModifier_OffsetLimits {
     IL2CPP_REGISTER_METHOD(0x02A18C50, void, Apply, (app::OffsetModifier_OffsetLimits * this_ptr, app::IKEffector * e, app::Quaternion root_rotation))

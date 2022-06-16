@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::BidirectionalDictionary_2_System_String_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x01D0A250, bool, TryGetByFirst, (app::BidirectionalDictionary_2_System_String_System_Object_ * this_ptr, app::String * first, app::Object * * second))

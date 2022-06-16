@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ArraySpec {
     IL2CPP_REGISTER_METHOD(0x02298B90, void, ctor, (app::ArraySpec * this_ptr, int32_t dimensions, bool bound))

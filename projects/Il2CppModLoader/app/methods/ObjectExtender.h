@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ObjectExtender {
     IL2CPP_REGISTER_METHOD(0x0060E350, app::Component_1 *, GetComponentInParents_1, (app::GameObject * game_object, app::Type * type))

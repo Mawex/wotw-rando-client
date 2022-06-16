@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SwarmEntityTargeting {
     IL2CPP_REGISTER_METHOD(0x01820A10, bool, ISwarmAttackable_ShouldSpawnEffect, (app::SwarmEntityTargeting * this_ptr))

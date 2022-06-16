@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityAction_2_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_ {
     IL2CPP_REGISTER_METHOD(0x02AC7C60, void, Invoke, (app::UnityAction_2_UnityEngine_SceneManagement_Scene_UnityEngine_SceneManagement_LoadSceneMode_ * this_ptr, app::Scene arg0, app::LoadSceneMode__Enum arg1))

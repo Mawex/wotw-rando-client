@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Vector2 {
     IL2CPP_REGISTER_METHOD(0x00125480, void, ctor, (app::Vector2__Boxed * this_ptr, float x, float y))

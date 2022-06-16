@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlPhaseABrain {
     IL2CPP_REGISTER_METHOD(0x014E3D60, void, Awake, (app::PetrifiedOwlPhaseABrain * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::DurationFacetsChecker {
     IL2CPP_REGISTER_METHOD(0x02369080, app::Exception *, CheckValueFacets_1, (app::DurationFacetsChecker * this_ptr, app::Object * value, app::XmlSchemaDatatype * datatype))

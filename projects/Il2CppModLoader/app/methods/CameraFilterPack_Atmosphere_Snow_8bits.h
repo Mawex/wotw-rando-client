@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Atmosphere_Snow_8bits {
     IL2CPP_REGISTER_METHOD(0x02740D90, app::Material *, get_material, (app::CameraFilterPack_Atmosphere_Snow_8bits * this_ptr))

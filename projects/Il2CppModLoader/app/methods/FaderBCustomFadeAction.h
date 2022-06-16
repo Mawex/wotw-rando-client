@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FaderBCustomFadeAction {
     IL2CPP_REGISTER_METHOD(0x00993A70, float, get_Duration, (app::FaderBCustomFadeAction * this_ptr))

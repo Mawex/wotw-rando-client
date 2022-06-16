@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Http::NtlmClient {
     IL2CPP_REGISTER_METHOD(0x02172460, app::Authorization *, Authenticate, (app::NtlmClient * this_ptr, app::String * challenge, app::WebRequest * web_request, app::ICredentials * credentials))

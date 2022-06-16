@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PiranhaChaseBehaviour {
     IL2CPP_REGISTER_METHOD(0x0115D4E0, void, OnEntityInitialized, (app::PiranhaChaseBehaviour * this_ptr))

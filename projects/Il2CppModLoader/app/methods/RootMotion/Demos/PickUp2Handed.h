@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::PickUp2Handed {
     IL2CPP_REGISTER_METHOD(0x0222B500, void, OnGUI, (app::PickUp2Handed * this_ptr))

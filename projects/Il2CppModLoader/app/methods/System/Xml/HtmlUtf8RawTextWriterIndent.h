@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::HtmlUtf8RawTextWriterIndent {
     IL2CPP_REGISTER_METHOD(0x0199D3E0, void, ctor, (app::HtmlUtf8RawTextWriterIndent * this_ptr, app::Stream * stream, app::XmlWriterSettings * settings))

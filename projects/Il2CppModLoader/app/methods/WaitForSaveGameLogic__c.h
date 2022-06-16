@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WaitForSaveGameLogic___c {
     IL2CPP_REGISTER_METHOD(0x008C68F0, void, cctor, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::CrossSceneReferenceExportRegistry {
     IL2CPP_REGISTER_METHOD(0x002FB990, app::List_1_Moon_CrossSceneReferenceExportData_ *, get_ExportedObjects, (app::CrossSceneReferenceExportRegistry * this_ptr))

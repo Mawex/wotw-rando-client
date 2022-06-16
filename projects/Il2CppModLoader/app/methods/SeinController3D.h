@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinController3D {
     IL2CPP_REGISTER_METHOD(0x006DF9E0, void, add_OnAnimationEventCallback, (app::SeinController3D * this_ptr, app::Action_1_SeinController3D_EventId_ * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AkMIDIEventCallbackInfo {
     IL2CPP_REGISTER_METHOD(0x026F60E0, void, ctor_1, (app::AkMIDIEventCallbackInfo * this_ptr, void * c_ptr, bool c_memory_own))

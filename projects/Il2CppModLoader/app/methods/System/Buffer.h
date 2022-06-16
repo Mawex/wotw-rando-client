@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Buffer {
     IL2CPP_REGISTER_METHOD(0x0229E780, bool, InternalBlockCopy, (app::Array * src, int32_t src_offset_bytes, app::Array * dst, int32_t dst_offset_bytes, int32_t byte_count))

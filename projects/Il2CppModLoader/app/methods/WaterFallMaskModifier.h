@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WaterFallMaskModifier {
     IL2CPP_REGISTER_METHOD(0x008D6620, void, Randomize, (app::WaterFallMaskModifier * this_ptr))

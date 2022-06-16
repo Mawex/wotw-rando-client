@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Contracts::Contract {
     IL2CPP_REGISTER_METHOD(0x01565330, bool, ForAll_1, (app::IEnumerable_1_System_Object_ * collection, app::Predicate_1_Object_ * predicate))

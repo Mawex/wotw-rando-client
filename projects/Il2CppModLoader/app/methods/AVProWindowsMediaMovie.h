@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AVProWindowsMediaMovie {
     IL2CPP_REGISTER_METHOD(0x0312E3B0, app::Texture *, get_OutputTexture, (app::AVProWindowsMediaMovie * this_ptr))

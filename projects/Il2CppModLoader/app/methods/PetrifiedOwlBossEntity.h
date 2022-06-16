@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossEntity {
     IL2CPP_REGISTER_METHOD(0x004A21A0, app::Vector2, get_ArenaBoundsX, (app::PetrifiedOwlBossEntity * this_ptr))

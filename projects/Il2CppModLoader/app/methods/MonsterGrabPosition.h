@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MonsterGrabPosition {
     IL2CPP_REGISTER_METHOD(0x01331F00, void, LateUpdate, (app::MonsterGrabPosition * this_ptr))

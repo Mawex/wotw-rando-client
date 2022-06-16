@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KillVolumeChaseController {
     IL2CPP_REGISTER_METHOD(0x00E749A0, app::Vector3, get_SeinPos, (app::KillVolumeChaseController * this_ptr))

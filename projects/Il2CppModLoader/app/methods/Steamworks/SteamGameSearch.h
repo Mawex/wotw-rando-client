@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameSearch {
     IL2CPP_REGISTER_METHOD(0x027EF190, app::EGameSearchErrorCode_t__Enum, AddGameSearchParams, (app::String * pch_key_to_find, app::String * pch_values_to_find))

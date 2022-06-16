@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SandWormSandDigLocomotionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00C24D60, float, get_LastAvoidancePower, (app::SandWormSandDigLocomotionBehaviour * this_ptr))

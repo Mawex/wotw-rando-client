@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_UInt32_RuntimeGuidMapping_CacheEntry_ {
     IL2CPP_REGISTER_METHOD(0x0283B900, void, Clear, (app::Dictionary_2_System_UInt32_RuntimeGuidMapping_CacheEntry_ * this_ptr))

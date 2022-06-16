@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::CredentialHostKey {
     IL2CPP_REGISTER_METHOD(0x01EAB330, void, ctor, (app::CredentialHostKey * this_ptr, app::String * host, int32_t port, app::String * authentication_type))

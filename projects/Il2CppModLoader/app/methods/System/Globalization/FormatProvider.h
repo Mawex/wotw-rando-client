@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Globalization::FormatProvider {
     IL2CPP_REGISTER_METHOD(0x030F4FA0, app::String *, FormatBigInteger, (int32_t precision, int32_t scale, bool sign, app::String * format, app::NumberFormatInfo * number_format_info, app::Char__Array * digits, int32_t start_index))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PoolAnalyzeToggler {
     IL2CPP_REGISTER_METHOD(0x00C5F3B0, app::String *, get_Path, (app::PoolAnalyzeToggler * this_ptr))

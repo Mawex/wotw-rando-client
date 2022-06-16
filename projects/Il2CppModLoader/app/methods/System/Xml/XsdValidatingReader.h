@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::XsdValidatingReader {
     IL2CPP_REGISTER_METHOD(0x03102080, void, ctor_1, (app::XsdValidatingReader * this_ptr, app::XmlReader * reader, app::XmlResolver * xml_resolver, app::XmlReaderSettings * reader_settings, app::XmlSchemaObject * partial_validation_type))

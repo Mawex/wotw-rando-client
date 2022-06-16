@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Principal::WindowsIdentity {
     IL2CPP_REGISTER_METHOD(0x01E1CBF0, void, ctor_1, (app::WindowsIdentity * this_ptr, void * user_token, app::String * type, app::WindowsAccountType__Enum acct_type, bool is_authenticated))

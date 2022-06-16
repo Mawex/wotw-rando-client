@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::IO::Compression::GZipStream {
     IL2CPP_REGISTER_METHOD(0x02009FA0, void, ctor_1, (app::GZipStream * this_ptr, app::Stream * stream, app::CompressionMode__Enum mode))

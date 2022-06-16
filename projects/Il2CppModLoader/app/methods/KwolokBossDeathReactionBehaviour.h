@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KwolokBossDeathReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x01252360, app::KwolokBossEntity *, get_Kwolok, (app::KwolokBossDeathReactionBehaviour * this_ptr))

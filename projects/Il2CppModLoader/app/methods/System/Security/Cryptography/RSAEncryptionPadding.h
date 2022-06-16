@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RSAEncryptionPadding {
     IL2CPP_REGISTER_METHOD(0x028EA3A0, app::RSAEncryptionPadding *, get_Pkcs1, ())

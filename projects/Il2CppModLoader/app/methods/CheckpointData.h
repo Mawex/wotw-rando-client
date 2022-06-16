@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CheckpointData {
     IL2CPP_REGISTER_METHOD(0x00AD8BA0, app::RecorderFrame_FrameDataTypes__Enum, FrameType, (app::CheckpointData * this_ptr))

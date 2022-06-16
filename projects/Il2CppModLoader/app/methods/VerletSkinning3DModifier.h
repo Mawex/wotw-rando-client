@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::VerletSkinning3DModifier {
     IL2CPP_REGISTER_METHOD(0x013C5680, void, OnEnable, (app::VerletSkinning3DModifier * this_ptr))

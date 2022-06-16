@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WasLastInputKeyboardCondition {
     IL2CPP_REGISTER_METHOD(0x008D36D0, bool, Validate, (app::WasLastInputKeyboardCondition * this_ptr, app::IContext * context))

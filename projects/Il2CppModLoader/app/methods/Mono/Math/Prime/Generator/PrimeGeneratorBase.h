@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Math::Prime::Generator::PrimeGeneratorBase {
     IL2CPP_REGISTER_METHOD(0x0043D9E0, app::ConfidenceFactor__Enum, get_Confidence_1, (app::PrimeGeneratorBase * this_ptr))

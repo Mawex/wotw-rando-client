@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Amplifier_Body {
     IL2CPP_REGISTER_METHOD(0x0204E460, void, Update, (app::Amplifier_Body * this_ptr, app::IKSolverFullBodyBiped * solver, float w, float delta_time))

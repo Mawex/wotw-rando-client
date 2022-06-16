@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::IKLimb {
     IL2CPP_REGISTER_METHOD(0x002FBC60, app::IKSolverHeuristic *, get_Solver, (app::IKLimb * this_ptr))

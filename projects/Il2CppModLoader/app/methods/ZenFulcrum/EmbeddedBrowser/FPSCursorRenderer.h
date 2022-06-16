@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::EmbeddedBrowser::FPSCursorRenderer {
     IL2CPP_REGISTER_METHOD(0x01DDD440, app::FPSCursorRenderer *, get_Instance, ())

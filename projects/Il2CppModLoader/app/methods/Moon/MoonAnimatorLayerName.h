@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimatorLayerName {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::String *, get_DisplayName, (app::MoonAnimatorLayerName__Boxed * this_ptr))

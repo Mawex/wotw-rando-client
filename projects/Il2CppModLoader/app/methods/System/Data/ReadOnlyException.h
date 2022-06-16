@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::ReadOnlyException {
     IL2CPP_REGISTER_METHOD(0x01E49810, void, ctor_1, (app::ReadOnlyException * this_ptr, app::SerializationInfo * info, app::StreamingContext context))

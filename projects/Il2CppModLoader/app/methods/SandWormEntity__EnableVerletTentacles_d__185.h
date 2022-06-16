@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SandWormEntity__EnableVerletTentacles_d__185 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::SandWormEntity_EnableVerletTentacles_d_185 * this_ptr, int32_t __1__state))

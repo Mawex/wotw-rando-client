@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::FtpStatus {
     IL2CPP_REGISTER_METHOD(0x0091DD30, void, ctor, (app::FtpStatus * this_ptr, app::FtpStatusCode__Enum status_code, app::String * status_description))

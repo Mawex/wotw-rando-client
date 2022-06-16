@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_GenericCastManager_1_NativeArrays_ {
     IL2CPP_REGISTER_METHOD(0x01CD2D60, bool, Equals_1, (app::ObjectEqualityComparer_1_GenericCastManager_1_NativeArrays_ * this_ptr, app::GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand_ x, app::GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand_ y))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::ConditionalWeakTable_2_TKey_TValue__CreateValueCallback_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::ConditionalWeakTable_2_TKey_TValue_CreateValueCallback_System_Object_System_Object_ * this_ptr, app::Object * object, void * method_1))

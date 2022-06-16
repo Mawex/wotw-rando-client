@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossEscape1Behaviour_WaitState {
     IL2CPP_REGISTER_METHOD(0x01763B30, void, ctor, (app::PetrifiedOwlBossEscape1Behaviour_WaitState * this_ptr, app::PetrifiedOwlBossEscape1Behaviour * behaviour))

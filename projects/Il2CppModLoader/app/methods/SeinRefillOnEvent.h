@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinRefillOnEvent {
     IL2CPP_REGISTER_METHOD(0x005D11F0, void, OnEnable, (app::SeinRefillOnEvent * this_ptr))

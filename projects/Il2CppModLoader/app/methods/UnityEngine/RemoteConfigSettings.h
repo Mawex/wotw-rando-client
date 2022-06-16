@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::RemoteConfigSettings {
     IL2CPP_REGISTER_METHOD(0x031C1E10, void, Finalize, (app::RemoteConfigSettings * this_ptr))

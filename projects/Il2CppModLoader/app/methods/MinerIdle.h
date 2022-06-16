@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MinerIdle {
     IL2CPP_REGISTER_METHOD(0x0144BA50, void, OnInitializeTask, (app::MinerIdle * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_Moon_HierarchyPerformanceTest_SceneSample_ {
     IL2CPP_REGISTER_METHOD(0x025EFC50, app::SceneSample *, get_Item, (app::List_1_Moon_HierarchyPerformanceTest_SceneSample_ * this_ptr, int32_t index))

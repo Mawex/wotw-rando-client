@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KwolokTongueStatue_TongueState {
     IL2CPP_REGISTER_METHOD(0x00EFB0C0, void, ctor, (app::KwolokTongueStatue_TongueState * this_ptr, app::KwolokTongueStatue * owner, app::KwolokTongueStatue_KwolowTongueStatueState__Enum desired_state, app::MoonTimeline * timeline))

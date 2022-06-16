@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::NameNode {
     IL2CPP_REGISTER_METHOD(0x01E44480, void, ctor_1, (app::NameNode * this_ptr, app::DataTable * table, app::Char__Array * text, int32_t start, int32_t pos))

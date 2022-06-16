@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SnakeAnimator {
     IL2CPP_REGISTER_METHOD(0x03087460, void, BeginChain, (app::SnakeAnimator * this_ptr, app::SnakeAnimatorConfiguration configuration))

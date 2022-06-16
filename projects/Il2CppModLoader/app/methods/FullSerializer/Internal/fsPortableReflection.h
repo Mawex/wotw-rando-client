@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsPortableReflection {
     IL2CPP_REGISTER_METHOD(0x01659200, bool, HasAttribute_1, (app::MemberInfo_1 * element, app::Type * attribute_type))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::IsChinaRegionCondition {
     IL2CPP_REGISTER_METHOD(0x00645E60, bool, Validate, (app::IsChinaRegionCondition * this_ptr, app::IContext * context))

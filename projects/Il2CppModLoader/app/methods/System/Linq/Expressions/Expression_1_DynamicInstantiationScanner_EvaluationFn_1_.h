@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Expression_1_DynamicInstantiationScanner_EvaluationFn_1_ {
     IL2CPP_REGISTER_METHOD(0x02544AF0, app::DynamicInstantiationScanner_EvaluationFn_1_UnityEngine_Object_ *, Compile, (app::Expression_1_DynamicInstantiationScanner_EvaluationFn_1_ * this_ptr))

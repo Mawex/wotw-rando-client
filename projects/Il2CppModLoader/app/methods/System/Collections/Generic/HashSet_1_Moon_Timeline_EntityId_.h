@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::HashSet_1_Moon_Timeline_EntityId_ {
     IL2CPP_REGISTER_METHOD(0x02AB4AF0, bool, Contains, (app::HashSet_1_Moon_Timeline_EntityId_ * this_ptr, app::EntityId item))

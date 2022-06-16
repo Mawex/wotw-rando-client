@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SceneRootRecruiter {
     IL2CPP_REGISTER_METHOD(0x00BB9E50, void, Awake, (app::SceneRootRecruiter * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::FBBIKSettings_Limb {
     IL2CPP_REGISTER_METHOD(0x02219AB0, void, Apply, (app::FBBIKSettings_Limb * this_ptr, app::FullBodyBipedChain__Enum chain, app::IKSolverFullBodyBiped * solver))

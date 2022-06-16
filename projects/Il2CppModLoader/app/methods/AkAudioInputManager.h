@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AkAudioInputManager {
     IL2CPP_REGISTER_METHOD(0x026C6E70, uint32_t, PostAudioInputEvent_1, (app::Event_1 * ak_event, app::GameObject * game_object, app::AkAudioInputManager_AudioSamplesDelegate * sample_delegate, app::AkAudioInputManager_AudioFormatDelegate * format_delegate))

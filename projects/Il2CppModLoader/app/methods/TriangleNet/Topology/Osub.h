@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Topology::Osub {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::SubSegment *, get_Segment, (app::Osub__Boxed * this_ptr))

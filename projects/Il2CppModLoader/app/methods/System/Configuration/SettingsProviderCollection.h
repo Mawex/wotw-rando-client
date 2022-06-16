@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsProviderCollection {
     IL2CPP_REGISTER_METHOD(0x01FFE110, void, ctor, (app::SettingsProviderCollection * this_ptr))

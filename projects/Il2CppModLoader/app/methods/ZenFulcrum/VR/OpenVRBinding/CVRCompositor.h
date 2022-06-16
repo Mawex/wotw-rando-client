@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRCompositor {
     IL2CPP_REGISTER_METHOD(0x01677C10, void, ctor, (app::CVRCompositor * this_ptr, void * p_interface))

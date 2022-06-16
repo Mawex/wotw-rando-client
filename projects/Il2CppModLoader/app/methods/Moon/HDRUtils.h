@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::HDRUtils {
     IL2CPP_REGISTER_METHOD(0x01497540, app::String *, GetPaperwhiteDisplayString, (float value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MicroProfiler_StatInfo {
     IL2CPP_REGISTER_METHOD(0x0011DC50, app::MicroProfiler_StatType__Enum, get_Type, (app::MicroProfiler_StatInfo__Boxed * this_ptr))

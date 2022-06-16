@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::TlsClientSettings {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::String *, get_TargetHost, (app::TlsClientSettings * this_ptr))

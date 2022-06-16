@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraManager {
     IL2CPP_REGISTER_METHOD(0x01692FD0, void, OnEnable, (app::CameraManager * this_ptr))

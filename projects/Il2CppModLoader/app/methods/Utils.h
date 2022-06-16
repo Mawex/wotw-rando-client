@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Utils {
     IL2CPP_REGISTER_METHOD(0x02C6A720, float, get_TimeScale, ())

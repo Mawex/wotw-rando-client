@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::WeakReference_1_System_Diagnostics_Tracing_EtwSession_ {
     IL2CPP_REGISTER_METHOD(0x0225A0C0, bool, TryGetTarget, (app::WeakReference_1_System_Diagnostics_Tracing_EtwSession_ * this_ptr, app::EtwSession * * target))

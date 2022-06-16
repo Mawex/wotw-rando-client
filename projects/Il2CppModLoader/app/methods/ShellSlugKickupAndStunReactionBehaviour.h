@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShellSlugKickupAndStunReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x005B38C0, bool, get_ShouldSkipUpdate, (app::ShellSlugKickupAndStunReactionBehaviour * this_ptr))

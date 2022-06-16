@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Trail {
     IL2CPP_REGISTER_METHOD(0x00B02030, void, OnPoolSpawned, (app::Trail_1 * this_ptr))

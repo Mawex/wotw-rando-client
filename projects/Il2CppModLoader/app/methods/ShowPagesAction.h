@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShowPagesAction {
     IL2CPP_REGISTER_METHOD(0x005C51A0, void, Perform, (app::ShowPagesAction * this_ptr, app::IContext * context))

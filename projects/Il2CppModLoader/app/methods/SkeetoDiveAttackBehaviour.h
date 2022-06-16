@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SkeetoDiveAttackBehaviour {
     IL2CPP_REGISTER_METHOD(0x0074F800, app::SkeetoDiveAttackBehaviour_DiveAttackState__Enum, get_State, (app::SkeetoDiveAttackBehaviour * this_ptr))

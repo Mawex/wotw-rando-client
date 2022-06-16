@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::MulticastNotSupportedException {
     IL2CPP_REGISTER_METHOD(0x0226F1C0, void, ctor_1, (app::MulticastNotSupportedException * this_ptr))

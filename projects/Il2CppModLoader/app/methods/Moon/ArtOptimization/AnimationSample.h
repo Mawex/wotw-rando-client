@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::AnimationSample {
     IL2CPP_REGISTER_METHOD(0x0133E4D0, void, ctor, (app::AnimationSample * this_ptr, float shader_time))

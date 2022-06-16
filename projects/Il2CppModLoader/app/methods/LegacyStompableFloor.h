@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyStompableFloor {
     IL2CPP_REGISTER_METHOD(0x00A37AF0, void, Awake, (app::LegacyStompableFloor * this_ptr))

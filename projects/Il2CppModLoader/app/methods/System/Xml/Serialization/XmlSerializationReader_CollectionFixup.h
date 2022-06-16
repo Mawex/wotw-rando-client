@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSerializationReader_CollectionFixup {
     IL2CPP_REGISTER_METHOD(0x025B2FE0, void, ctor, (app::XmlSerializationReader_CollectionFixup * this_ptr, app::Object * collection, app::XmlSerializationCollectionFixupCallback * callback, app::String * id))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ConditionBasedBrainController {
     IL2CPP_REGISTER_METHOD(0x011E3D60, app::Enum__Array *, GetEntries, (app::ConditionBasedBrainController * this_ptr))

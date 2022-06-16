@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Ntlm::Type2Message {
     IL2CPP_REGISTER_METHOD(0x02A4C140, void, ctor, (app::Type2Message * this_ptr, app::Byte__Array * message))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TransparencyAnimator {
     IL2CPP_REGISTER_METHOD(0x00D0BB50, app::GameObject *, get_ExternalTarget, (app::TransparencyAnimator * this_ptr))

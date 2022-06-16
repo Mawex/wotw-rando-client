@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::NightCrawlerRetaliationController {
     IL2CPP_REGISTER_METHOD(0x00608180, app::Enum__Array *, GetEntries, (app::NightCrawlerRetaliationController * this_ptr))

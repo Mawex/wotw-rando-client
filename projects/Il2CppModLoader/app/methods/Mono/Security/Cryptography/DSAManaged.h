@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::DSAManaged {
     IL2CPP_REGISTER_METHOD(0x025C92E0, void, ctor, (app::DSAManaged * this_ptr, int32_t dw_key_size))

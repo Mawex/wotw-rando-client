@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet_ {
     IL2CPP_REGISTER_METHOD(0x02BAC170, void, Add, (app::Dictionary_2_Moon_ThrowAnimationType_SeinHold_ThrowAnimationSet_ * this_ptr, app::ThrowAnimationType__Enum key, app::SeinHold_ThrowAnimationSet * value))

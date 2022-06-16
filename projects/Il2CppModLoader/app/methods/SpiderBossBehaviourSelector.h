@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiderBossBehaviourSelector {
     IL2CPP_REGISTER_METHOD(0x00969290, app::SpiderBossBehaviourZone__Enum, GetEnumValue, (app::SpiderBossBehaviourSelector * this_ptr, app::IContext * context))

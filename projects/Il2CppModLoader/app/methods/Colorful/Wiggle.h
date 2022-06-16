@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::Wiggle {
     IL2CPP_REGISTER_METHOD(0x030557E0, void, Update, (app::Wiggle * this_ptr))

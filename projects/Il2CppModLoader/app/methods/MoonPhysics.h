@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonPhysics {
     IL2CPP_REGISTER_METHOD(0x0145C220, void, IgnoreLayerCollision, (int32_t layer1, int32_t layer2, bool ignore))

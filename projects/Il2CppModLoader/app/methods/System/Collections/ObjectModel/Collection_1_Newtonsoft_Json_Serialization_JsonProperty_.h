@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::Collection_1_Newtonsoft_Json_Serialization_JsonProperty_ {
     IL2CPP_REGISTER_METHOD(0x02B833F0, app::IEnumerator_1_Newtonsoft_Json_Serialization_JsonProperty_ *, GetEnumerator, (app::Collection_1_Newtonsoft_Json_Serialization_JsonProperty_ * this_ptr))

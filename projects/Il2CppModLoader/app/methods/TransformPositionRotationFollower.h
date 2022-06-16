@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TransformPositionRotationFollower {
     IL2CPP_REGISTER_METHOD(0x00B07E00, void, Awake, (app::TransformPositionRotationFollower * this_ptr))

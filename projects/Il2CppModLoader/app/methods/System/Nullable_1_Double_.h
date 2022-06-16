@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_Double_ {
     IL2CPP_REGISTER_METHOD(0x00155570, double, GetValueOrDefault_1, (app::Nullable_1_Double___Boxed * this_ptr))

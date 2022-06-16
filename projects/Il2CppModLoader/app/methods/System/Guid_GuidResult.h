@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Guid_GuidResult {
     IL2CPP_REGISTER_METHOD(0x001D4820, void, Init, (app::Guid_GuidResult__Boxed * this_ptr, app::Guid_GuidParseThrowStyle__Enum can_throw))

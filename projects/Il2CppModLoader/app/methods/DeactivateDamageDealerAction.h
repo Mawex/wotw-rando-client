@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DeactivateDamageDealerAction {
     IL2CPP_REGISTER_METHOD(0x00DD63B0, void, Perform, (app::DeactivateDamageDealerAction * this_ptr, app::IContext * context))

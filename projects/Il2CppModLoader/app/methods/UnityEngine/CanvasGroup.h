@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::CanvasGroup {
     IL2CPP_REGISTER_METHOD(0x031A5E40, float, get_alpha, (app::CanvasGroup * this_ptr))

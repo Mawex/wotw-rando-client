@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::IO::MonoIO {
     IL2CPP_REGISTER_METHOD(0x023721F0, app::Exception *, GetException_1, (app::MonoIOError__Enum error))

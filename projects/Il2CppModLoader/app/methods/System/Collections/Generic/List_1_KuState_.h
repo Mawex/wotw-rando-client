@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_KuState_ {
     IL2CPP_REGISTER_METHOD(0x02F1E150, void, Add, (app::List_1_KuState_ * this_ptr, app::KuState * item))

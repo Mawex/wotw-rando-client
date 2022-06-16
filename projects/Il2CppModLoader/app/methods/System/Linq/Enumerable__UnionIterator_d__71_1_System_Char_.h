@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__UnionIterator_d__71_1_System_Char_ {
     IL2CPP_REGISTER_METHOD(0x02984B50, void, ctor, (app::Enumerable_UnionIterator_d_71_1_System_Char_ * this_ptr, int32_t __1__state))

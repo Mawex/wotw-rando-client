@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Race::EscapeRaceData {
     IL2CPP_REGISTER_METHOD(0x00C41510, float, get_TimeLimit, (app::EscapeRaceData * this_ptr))

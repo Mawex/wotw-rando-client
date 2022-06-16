@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ErrorMessage {
     IL2CPP_REGISTER_METHOD(0x023104C0, void, ctor, (app::ErrorMessage * this_ptr))

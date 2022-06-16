@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::Internal::SingletonMonoBehaviour_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x01D14FB0, app::Object *, get_instance, ())

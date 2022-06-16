@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::VideoEditor {
     IL2CPP_REGISTER_METHOD(0x008BBD50, uint32_t, Execute, (app::String * path, app::String * parameters, app::String * working_dir))

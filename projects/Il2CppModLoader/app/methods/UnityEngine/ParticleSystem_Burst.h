@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem_Burst {
     IL2CPP_REGISTER_METHOD(0x002470A0, app::ParticleSystem_MinMaxCurve, get_count, (app::ParticleSystem_Burst__Boxed * this_ptr))

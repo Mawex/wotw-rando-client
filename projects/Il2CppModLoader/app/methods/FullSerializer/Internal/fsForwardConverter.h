@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsForwardConverter {
     IL2CPP_REGISTER_METHOD(0x01655A90, void, ctor, (app::fsForwardConverter * this_ptr, app::fsForwardAttribute * attribute))

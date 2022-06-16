@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::frameworks::xboxLive::PlayerPrefStorageEventHandler {
     IL2CPP_REGISTER_METHOD(0x00F6B820, app::Task *, Write, (app::PlayerPrefStorageEventHandler * this_ptr, app::String * key, app::Byte__Array * data))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::Events::PlayFabEvents {
     IL2CPP_REGISTER_METHOD(0x00303920, void, add_OnAuthenticationGetEntityTokenRequestEvent, (app::PlayFabEvents * this_ptr, app::PlayFabEvents_PlayFabRequestEvent_1_PlayFab_AuthenticationModels_GetEntityTokenRequest_ * value))

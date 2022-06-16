@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DestroyObjectAction {
     IL2CPP_REGISTER_METHOD(0x00B8C140, void, Perform, (app::DestroyObjectAction * this_ptr, app::IContext * context))

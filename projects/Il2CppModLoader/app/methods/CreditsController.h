@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CreditsController {
     IL2CPP_REGISTER_METHOD(0x00DB76B0, void, Awake, (app::CreditsController * this_ptr))

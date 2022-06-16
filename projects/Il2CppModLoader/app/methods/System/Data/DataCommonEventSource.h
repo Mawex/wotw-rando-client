@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::DataCommonEventSource {
     IL2CPP_REGISTER_METHOD(0x0239ECF0, void, Trace_1, (app::DataCommonEventSource * this_ptr, app::String * message))

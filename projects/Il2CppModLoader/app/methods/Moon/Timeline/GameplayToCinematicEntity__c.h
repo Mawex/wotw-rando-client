@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::GameplayToCinematicEntity___c {
     IL2CPP_REGISTER_METHOD(0x0076F470, void, cctor, ())

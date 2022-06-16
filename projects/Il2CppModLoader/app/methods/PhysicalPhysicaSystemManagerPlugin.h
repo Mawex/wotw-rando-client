@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PhysicalPhysicaSystemManagerPlugin {
     IL2CPP_REGISTER_METHOD(0x002FB9F0, app::GlobalRecordingTable *, get_GlobalRecordingTable, (app::PhysicalPhysicaSystemManagerPlugin * this_ptr))

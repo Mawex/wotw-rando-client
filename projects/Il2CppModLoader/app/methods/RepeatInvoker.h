@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RepeatInvoker {
     IL2CPP_REGISTER_METHOD(0x008FE3B0, bool, Update, (app::RepeatInvoker * this_ptr, float dt))

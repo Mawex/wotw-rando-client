@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::SceneSampleTask {
     IL2CPP_REGISTER_METHOD(0x00C1B200, void, ctor, (app::SceneSampleTask * this_ptr, app::Vector3 sample_position))

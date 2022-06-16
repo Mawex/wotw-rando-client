@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon_IEntityBehaviour_Moon_EntityBehaviourStatus_ {
     IL2CPP_REGISTER_METHOD(0x02C11970, void, Invoke, (app::Action_2_Moon_IEntityBehaviour_Moon_EntityBehaviourStatus_ * this_ptr, app::IEntityBehaviour * arg1, app::EntityBehaviourStatus__Enum arg2))

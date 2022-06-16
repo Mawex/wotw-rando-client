@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::XmlToDatasetMap_XmlNodeIdentety {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::XmlToDatasetMap_XmlNodeIdentety * this_ptr, app::String * local_name, app::String * namespace_u_r_i))

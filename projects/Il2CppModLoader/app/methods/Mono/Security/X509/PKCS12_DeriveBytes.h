@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::PKCS12_DeriveBytes {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor_1, (app::PKCS12_DeriveBytes * this_ptr))

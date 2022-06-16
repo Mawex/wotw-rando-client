@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShowWorldMapAction {
     IL2CPP_REGISTER_METHOD(0x00739780, void, Perform, (app::ShowWorldMapAction * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Cache::XPathNodeRef {
     IL2CPP_REGISTER_METHOD(0x0011D2D0, void, ctor, (app::XPathNodeRef__Boxed * this_ptr, app::XPathNode__Array * page, int32_t idx))

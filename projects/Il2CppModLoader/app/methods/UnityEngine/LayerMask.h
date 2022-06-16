@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::LayerMask {
     IL2CPP_REGISTER_METHOD(0x0252E560, int32_t, op_Implicit_1, (app::LayerMask mask))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DamageBasedPrefabProvider {
     IL2CPP_REGISTER_METHOD(0x00DC1C80, app::GameObject *, Prefab, (app::DamageBasedPrefabProvider * this_ptr, app::IContext * context))

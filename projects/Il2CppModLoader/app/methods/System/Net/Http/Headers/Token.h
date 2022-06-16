@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::Token {
     IL2CPP_REGISTER_METHOD(0x00234C30, void, ctor, (app::Token__Boxed * this_ptr, app::Token_Type__Enum type, int32_t start_position, int32_t end_position))

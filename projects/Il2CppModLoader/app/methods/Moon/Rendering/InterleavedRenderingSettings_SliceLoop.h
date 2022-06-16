@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::InterleavedRenderingSettings_SliceLoop {
     IL2CPP_REGISTER_METHOD(0x0078DA70, int32_t, GetSliceIndexToStore, (app::InterleavedRenderingSettings_SliceLoop * this_ptr))

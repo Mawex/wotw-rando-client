@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_GameMapPins_PinColour_GameMapPins_Pin_ {
     IL2CPP_REGISTER_METHOD(0x02C35530, app::GameMapPins_Pin *, get_Item, (app::Dictionary_2_GameMapPins_PinColour_GameMapPins_Pin_ * this_ptr, app::GameMapPins_PinColour__Enum key))

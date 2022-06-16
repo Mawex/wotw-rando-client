@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::RunInstallerAttribute {
     IL2CPP_REGISTER_METHOD(0x0052C650, void, ctor, (app::RunInstallerAttribute * this_ptr, bool run_installer))

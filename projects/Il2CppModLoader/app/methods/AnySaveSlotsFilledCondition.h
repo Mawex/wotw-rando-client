@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AnySaveSlotsFilledCondition {
     IL2CPP_REGISTER_METHOD(0x005058E0, bool, Validate, (app::AnySaveSlotsFilledCondition * this_ptr, app::IContext * context))

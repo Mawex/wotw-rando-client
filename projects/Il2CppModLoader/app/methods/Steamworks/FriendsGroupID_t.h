@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::FriendsGroupID_t {
     IL2CPP_REGISTER_METHOD(0x00113CD0, void, ctor, (app::FriendsGroupID_t__Boxed * this_ptr, int16_t value))

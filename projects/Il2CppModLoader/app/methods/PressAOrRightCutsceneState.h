@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PressAOrRightCutsceneState {
     IL2CPP_REGISTER_METHOD(0x00C6FEC0, app::CharacterAnimationSystem *, get_Animation, (app::PressAOrRightCutsceneState * this_ptr))

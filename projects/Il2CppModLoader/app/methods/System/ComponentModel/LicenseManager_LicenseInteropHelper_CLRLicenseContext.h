@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LicenseManager_LicenseInteropHelper_CLRLicenseContext {
     IL2CPP_REGISTER_METHOD(0x0091DD30, void, ctor, (app::LicenseManager_LicenseInteropHelper_CLRLicenseContext * this_ptr, app::LicenseUsageMode__Enum usage_mode, app::Type * type))

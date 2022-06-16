@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::DynamicMirrorTurningBehaviour {
     IL2CPP_REGISTER_METHOD(0x01207370, app::SplitTurnAnimation *, get_CurrentMirrorTurningAnimation, (app::DynamicMirrorTurningBehaviour * this_ptr))

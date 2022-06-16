@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FrameCaptureTester_StringBuilderScope {
     IL2CPP_REGISTER_METHOD(0x00139AC0, void, ctor, (app::FrameCaptureTester_StringBuilderScope__Boxed * this_ptr, app::FrameCaptureTester * self))

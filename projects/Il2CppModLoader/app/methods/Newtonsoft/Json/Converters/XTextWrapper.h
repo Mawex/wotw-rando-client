@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Converters::XTextWrapper {
     IL2CPP_REGISTER_METHOD(0x01A59E70, app::XText *, get_Text, (app::XTextWrapper * this_ptr))

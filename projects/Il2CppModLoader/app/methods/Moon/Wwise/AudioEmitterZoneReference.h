@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::AudioEmitterZoneReference {
     IL2CPP_REGISTER_METHOD(0x001FE500, void, ctor, (app::AudioEmitterZoneReference__Boxed * this_ptr, app::AudioEmitterZone * zone))

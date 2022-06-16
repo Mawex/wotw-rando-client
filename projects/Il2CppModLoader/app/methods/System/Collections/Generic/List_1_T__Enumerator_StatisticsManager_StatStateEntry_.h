@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_StatisticsManager_StatStateEntry_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::StatisticsManager_StatStateEntry *, get_Current, (app::List_1_T_Enumerator_StatisticsManager_StatStateEntry___Boxed * this_ptr))

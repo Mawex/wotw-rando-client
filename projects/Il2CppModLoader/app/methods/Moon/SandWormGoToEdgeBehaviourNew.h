@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::SandWormGoToEdgeBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x00EC2CC0, void, OnEnter, (app::SandWormGoToEdgeBehaviourNew * this_ptr, app::IContext * context))

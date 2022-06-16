@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Trigger {
     IL2CPP_REGISTER_METHOD(0x00B11420, bool, get_IsSuspended, (app::Trigger_1 * this_ptr))

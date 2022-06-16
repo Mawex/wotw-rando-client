@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::InstantiationRecycleHelper {
     IL2CPP_REGISTER_METHOD(0x006366B0, void, ctor, (app::InstantiationRecycleHelper * this_ptr, int32_t prewarm_amount, bool limit_amount_of_active_instances))

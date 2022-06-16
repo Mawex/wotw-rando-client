@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MistyWoodsKuroGameplayHideZone {
     IL2CPP_REGISTER_METHOD(0x0132A7D0, bool, PositionInside, (app::Vector3 position))

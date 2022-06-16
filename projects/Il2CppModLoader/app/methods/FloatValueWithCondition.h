@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FloatValueWithCondition {
     IL2CPP_REGISTER_METHOD(0x002FB9D0, app::ConditionAndValue_1_System_Single___Array *, get_m_conditionsAndValues, (app::FloatValueWithCondition * this_ptr))

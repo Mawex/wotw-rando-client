@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::InteractionPunchModifier__GetKeywordsForShader_d__12 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::InteractionPunchModifier_GetKeywordsForShader_d_12 * this_ptr, int32_t __1__state))

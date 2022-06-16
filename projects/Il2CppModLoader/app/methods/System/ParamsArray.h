@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ParamsArray {
     IL2CPP_REGISTER_METHOD(0x001E11D0, void, ctor_1, (app::ParamsArray__Boxed * this_ptr, app::Object * arg0))

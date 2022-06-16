@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::IntersectionHelper {
     IL2CPP_REGISTER_METHOD(0x0063E090, bool, LinesIntersect, (app::Vector3 start0, app::Vector3 end0, app::Vector3 start1, app::Vector3 end1))

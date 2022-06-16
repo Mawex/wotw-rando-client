@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::ZlibCodec {
     IL2CPP_REGISTER_METHOD(0x030791D0, void, ctor, (app::ZlibCodec * this_ptr))

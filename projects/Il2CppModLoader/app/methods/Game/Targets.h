@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Game::Targets {
     IL2CPP_REGISTER_METHOD(0x00682C30, app::IEnumerable_1_IAttackable_ *, get_Attackables, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FireStickInteractor {
     IL2CPP_REGISTER_METHOD(0x0125C150, void, OnEnable, (app::FireStickInteractor * this_ptr))

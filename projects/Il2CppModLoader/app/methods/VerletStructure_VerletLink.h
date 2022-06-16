@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::VerletStructure_VerletLink {
     IL2CPP_REGISTER_METHOD(0x013D0CC0, void, Init, (app::VerletStructure_VerletLink * this_ptr, app::VerletStructure * verlet_structure))

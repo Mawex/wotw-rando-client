@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BubblemakerBlocked {
     IL2CPP_REGISTER_METHOD(0x00805460, void, Start, (app::BubblemakerBlocked * this_ptr))

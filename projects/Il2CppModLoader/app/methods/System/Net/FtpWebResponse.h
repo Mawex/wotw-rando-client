@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::FtpWebResponse {
     IL2CPP_REGISTER_METHOD(0x01D37BE0, void, ctor_1, (app::FtpWebResponse * this_ptr, app::FtpWebRequest * request, app::Uri * uri, app::String * method_1, bool keep_alive))

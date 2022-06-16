@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DamageReceiverCondition {
     IL2CPP_REGISTER_METHOD(0x00DC85E0, app::IDamageNotifier *, get_ResolvedDamageNotifier, (app::DamageReceiverCondition * this_ptr))

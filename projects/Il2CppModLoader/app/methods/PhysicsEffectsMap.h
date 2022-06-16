@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PhysicsEffectsMap {
     IL2CPP_REGISTER_METHOD(0x014FF5D0, void, PopulateRuntimeCache, (app::PhysicsEffectsMap * this_ptr, app::MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache * cache))

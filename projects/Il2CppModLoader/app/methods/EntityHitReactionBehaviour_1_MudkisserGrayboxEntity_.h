@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::EntityHitReactionBehaviour_1_MudkisserGrayboxEntity_ {
     IL2CPP_REGISTER_METHOD(0x019E1460, void, ApplyExternalKickbackForce, (app::EntityHitReactionBehaviour_1_MudkisserGrayboxEntity_ * this_ptr, app::Vector2 force, app::DamageWeight__Enum damage_weight))

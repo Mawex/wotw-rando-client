@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Threading::ThreadPool {
     IL2CPP_REGISTER_METHOD(0x023449C0, void, GetAvailableThreads, (int32_t * worker_threads, int32_t * completion_port_threads))

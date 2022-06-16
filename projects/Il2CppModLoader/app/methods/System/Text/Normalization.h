@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::Normalization {
     IL2CPP_REGISTER_METHOD(0x0245A300, uint32_t, PropValue, (int32_t cp))

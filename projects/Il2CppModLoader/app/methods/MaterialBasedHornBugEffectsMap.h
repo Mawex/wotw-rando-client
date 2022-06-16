@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MaterialBasedHornBugEffectsMap {
     IL2CPP_REGISTER_METHOD(0x0137F9F0, void, PopulateRuntimeCache, (app::MaterialBasedHornBugEffectsMap * this_ptr, app::MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache * cache))

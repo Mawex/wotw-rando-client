@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Lookup_2_TKey_TElement__Grouping_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ {
     IL2CPP_REGISTER_METHOD(0x02547780, void, Add, (app::Lookup_2_TKey_TElement_Grouping_System_Object_InstantiateDebug_InstantiateDebugUtility_InstanceInfo_ * this_ptr, app::InstantiateDebugUtility_InstanceInfo element))

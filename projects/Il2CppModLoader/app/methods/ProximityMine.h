@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ProximityMine {
     IL2CPP_REGISTER_METHOD(0x00C7FA90, app::SeinCharacter *, get_Sein, (app::ProximityMine * this_ptr))

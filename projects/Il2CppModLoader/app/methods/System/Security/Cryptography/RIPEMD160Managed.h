@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RIPEMD160Managed {
     IL2CPP_REGISTER_METHOD(0x028E0A70, void, ctor, (app::RIPEMD160Managed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HelperGhostController {
     IL2CPP_REGISTER_METHOD(0x010A32F0, void, Start, (app::HelperGhostController * this_ptr))

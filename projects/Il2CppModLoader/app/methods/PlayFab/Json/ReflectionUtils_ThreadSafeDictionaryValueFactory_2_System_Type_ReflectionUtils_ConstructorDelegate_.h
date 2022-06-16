@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::Json::ReflectionUtils_ThreadSafeDictionaryValueFactory_2_System_Type_ReflectionUtils_ConstructorDelegate_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::ReflectionUtils_ThreadSafeDictionaryValueFactory_2_System_Type_ReflectionUtils_ConstructorDelegate_ * this_ptr, app::Object * object, void * method_1))

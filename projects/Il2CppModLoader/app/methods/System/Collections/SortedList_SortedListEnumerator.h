@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::SortedList_SortedListEnumerator {
     IL2CPP_REGISTER_METHOD(0x0202F720, void, ctor, (app::SortedList_SortedListEnumerator * this_ptr, app::SortedList * sorted_list, int32_t index, int32_t count, int32_t get_obj_ret_type))

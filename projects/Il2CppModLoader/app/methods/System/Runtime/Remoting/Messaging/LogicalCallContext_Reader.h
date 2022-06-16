@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader {
     IL2CPP_REGISTER_METHOD(0x0010FD20, void, ctor, (app::LogicalCallContext_Reader__Boxed * this_ptr, app::LogicalCallContext * ctx))

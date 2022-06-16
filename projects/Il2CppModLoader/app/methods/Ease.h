@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Ease {
     IL2CPP_REGISTER_METHOD(0x00BED370, float, EaseByType_1, (app::Ease_Easing__Enum e, float start, float end, float t))

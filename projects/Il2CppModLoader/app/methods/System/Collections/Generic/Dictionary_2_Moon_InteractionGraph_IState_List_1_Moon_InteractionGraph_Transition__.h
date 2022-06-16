@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_InteractionGraph_IState_List_1_Moon_InteractionGraph_Transition__ {
     IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_Moon_InteractionGraph_IState_List_1_Moon_InteractionGraph_Transition_ * this_ptr, app::IState_1 * key, app::List_1_Moon_InteractionGraph_Transition_ * * value))

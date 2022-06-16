@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ParadoxNotion::Internal::AOTDummy {
     IL2CPP_REGISTER_METHOD(0x00444050, void, Moon_BehaviourSystem_IBlackboard_SetValue, (app::AOTDummy * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::KnownHttpVerb {
     IL2CPP_REGISTER_METHOD(0x01E6A970, void, ctor, (app::KnownHttpVerb * this_ptr, app::String * name, bool require_content_body, bool content_body_not_allowed, bool connect_request, bool expect_no_content_response))

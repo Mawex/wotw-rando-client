@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SoftJointLimit {
     IL2CPP_REGISTER_METHOD(0x001EB400, float, get_limit, (app::SoftJointLimit__Boxed * this_ptr))

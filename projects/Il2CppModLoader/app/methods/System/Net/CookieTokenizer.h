@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::CookieTokenizer {
     IL2CPP_REGISTER_METHOD(0x01EA8A40, void, ctor, (app::CookieTokenizer * this_ptr, app::String * token_stream))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DynamicInstantiationDescriptor_ReflectionInfo {
     IL2CPP_REGISTER_METHOD(0x00245220, void, ctor_1, (app::DynamicInstantiationDescriptor_ReflectionInfo__Boxed * this_ptr, app::FieldInfo_1 * field, app::MethodInfo_1 * dynamic_provider))

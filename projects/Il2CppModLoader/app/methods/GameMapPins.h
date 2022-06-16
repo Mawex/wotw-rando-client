@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GameMapPins {
     IL2CPP_REGISTER_METHOD(0x0069E090, app::GameObject *, GetPinObject, (app::GameMapPins * this_ptr, app::GameMapPins_PinColour__Enum pin))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CacheDict_2_System_Type_System_Func_5_ {
     IL2CPP_REGISTER_METHOD(0x02879320, void, ctor, (app::CacheDict_2_System_Type_System_Func_5_ * this_ptr, int32_t size))

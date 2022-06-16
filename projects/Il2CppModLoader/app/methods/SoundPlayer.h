@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SoundPlayer {
     IL2CPP_REGISTER_METHOD(0x00EEB3A0, app::SoundHost *, get_SoundHost, (app::SoundPlayer * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::Interop::XGRInterop {
     IL2CPP_REGISTER_METHOD(0x030B18E0, int32_t, XGameSaveInitializeProviderAsync, (app::XUserHandle_1 user_context, app::Byte__Array * configuration_id, bool sync_on_demand, app::XAsyncBlockPtr async_block))

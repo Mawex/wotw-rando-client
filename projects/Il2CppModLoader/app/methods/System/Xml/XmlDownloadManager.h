@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlDownloadManager {
     IL2CPP_REGISTER_METHOD(0x01DABC20, app::Stream *, GetStream, (app::XmlDownloadManager * this_ptr, app::Uri * uri, app::ICredentials * credentials, app::IWebProxy * proxy, app::RequestCachePolicy * cache_policy))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MortarEntity_AimVeloCache_Packer {
     IL2CPP_REGISTER_METHOD(0x0147CC30, void, ctor, (app::MortarEntity_AimVeloCache_Packer * this_ptr))

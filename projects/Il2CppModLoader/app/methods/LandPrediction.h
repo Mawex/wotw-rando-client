@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LandPrediction {
     IL2CPP_REGISTER_METHOD(0x006142D0, bool, get_GroundDetected, (app::LandPrediction * this_ptr))

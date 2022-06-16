@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::AnimationPostprocessPlayer {
     IL2CPP_REGISTER_METHOD(0x01BAFD80, void, OnUpdateEntity, (app::AnimationPostprocessPlayer * this_ptr, float delta))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Swing::FloatLUT {
     IL2CPP_REGISTER_METHOD(0x0014AFB0, void, ctor, (app::FloatLUT__Boxed * this_ptr, int32_t sample_count))

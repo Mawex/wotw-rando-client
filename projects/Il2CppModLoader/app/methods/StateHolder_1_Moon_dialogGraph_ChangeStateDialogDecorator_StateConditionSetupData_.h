@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::StateHolder_1_Moon_dialogGraph_ChangeStateDialogDecorator_StateConditionSetupData_ {
     IL2CPP_REGISTER_METHOD(0x01D197E0, void, ctor, (app::StateHolder_1_Moon_dialogGraph_ChangeStateDialogDecorator_StateConditionSetupData_ * this_ptr))

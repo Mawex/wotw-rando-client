@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TurtleAIUtilities {
     IL2CPP_REGISTER_METHOD(0x013D7A10, app::Sensor *, get_Sensor, (app::TurtleAIUtilities * this_ptr))

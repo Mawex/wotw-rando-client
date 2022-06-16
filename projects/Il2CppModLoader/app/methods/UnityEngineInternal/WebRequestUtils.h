@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngineInternal::WebRequestUtils {
     IL2CPP_REGISTER_METHOD(0x03181C00, app::String *, RedirectTo, (app::String * base_uri, app::String * redirect_uri))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TwistAnimationSet {
     IL2CPP_REGISTER_METHOD(0x013DCCE0, app::TextureAnimationWithTransitions *, GetAnimation, (app::TwistAnimationSet * this_ptr, float a))

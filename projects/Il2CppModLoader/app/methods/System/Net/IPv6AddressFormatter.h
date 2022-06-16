@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::IPv6AddressFormatter {
     IL2CPP_REGISTER_METHOD(0x00110270, void, ctor, (app::IPv6AddressFormatter__Boxed * this_ptr, app::UInt16__Array * addr, int64_t scope_id))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Core::Music_Layer {
     IL2CPP_REGISTER_METHOD(0x00DAD8C0, bool, UsesGivenSoundProvider, (app::Music_Layer * this_ptr, app::SoundProvider * sound_provider))

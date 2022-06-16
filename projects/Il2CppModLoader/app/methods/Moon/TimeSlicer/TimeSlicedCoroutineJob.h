@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedCoroutineJob {
     IL2CPP_REGISTER_METHOD(0x00863E90, float, get_EnqueuedTime, (app::TimeSlicedCoroutineJob * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SandWormEntity_Segment {
     IL2CPP_REGISTER_METHOD(0x004C87B0, float, get_DistanceOffset, (app::SandWormEntity_Segment * this_ptr))

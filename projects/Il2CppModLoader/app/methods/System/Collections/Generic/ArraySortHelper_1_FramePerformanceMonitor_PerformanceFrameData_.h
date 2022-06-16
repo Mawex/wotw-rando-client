@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_FramePerformanceMonitor_PerformanceFrameData_ {
     IL2CPP_REGISTER_METHOD(0x02F5ACD0, void, Sort_1, (app::FramePerformanceMonitor_PerformanceFrameData__Array * keys, int32_t index, int32_t length, app::IComparer_1_FramePerformanceMonitor_PerformanceFrameData_ * comparer))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsAttributeDictionary {
     IL2CPP_REGISTER_METHOD(0x029628F0, void, ctor_1, (app::SettingsAttributeDictionary * this_ptr))

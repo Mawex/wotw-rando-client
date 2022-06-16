@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsPortableReflection__GetFlattenedMethods_d__18 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::fsPortableReflection_GetFlattenedMethods_d_18 * this_ptr, int32_t __1__state))

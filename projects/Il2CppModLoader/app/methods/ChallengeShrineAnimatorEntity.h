@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ChallengeShrineAnimatorEntity {
     IL2CPP_REGISTER_METHOD(0x010415F0, void, OnStartPlayback, (app::ChallengeShrineAnimatorEntity * this_ptr, app::IContext * context))

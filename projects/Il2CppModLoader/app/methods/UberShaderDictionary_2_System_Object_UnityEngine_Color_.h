@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_System_Object_UnityEngine_Color_ {
     IL2CPP_REGISTER_METHOD(0x0225FD40, void, OnBeforeSerialize, (app::UberShaderDictionary_2_System_Object_UnityEngine_Color_ * this_ptr))

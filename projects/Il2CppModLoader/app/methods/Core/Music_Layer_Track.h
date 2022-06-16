@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Core::Music_Layer_Track {
     IL2CPP_REGISTER_METHOD(0x00DAE320, void, ctor, (app::Music_Layer_Track * this_ptr, app::SoundProvider * sound_provider, float fade_in_duration, float fade_out_duration))

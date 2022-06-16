@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::SerializedByteUberState {
     IL2CPP_REGISTER_METHOD(0x002FB930, app::UberID *, get_StateID, (app::SerializedByteUberState * this_ptr))

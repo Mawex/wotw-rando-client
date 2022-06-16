@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Globalization::Unicode::CodePointIndexer {
     IL2CPP_REGISTER_METHOD(0x023B9D70, void, ctor, (app::CodePointIndexer * this_ptr, app::Int32__Array * starts, app::Int32__Array * ends, int32_t default_index, int32_t default_c_p))

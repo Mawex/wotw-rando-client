@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::CollectionExtensions {
     IL2CPP_REGISTER_METHOD(0x0153E7E0, app::TrueReadOnlyCollection_1_System_Object_ *, AddFirst_1, (app::ReadOnlyCollection_1_System_Object_ * list, app::Object * item))

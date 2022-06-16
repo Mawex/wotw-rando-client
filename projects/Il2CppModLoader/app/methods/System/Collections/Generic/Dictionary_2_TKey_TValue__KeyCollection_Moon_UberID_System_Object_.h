@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__KeyCollection_Moon_UberID_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x01A729A0, app::Dictionary_2_TKey_TValue_KeyCollection_TKey_TValue_Enumerator_Moon_UberID_System_Object_, GetEnumerator, (app::Dictionary_2_TKey_TValue_KeyCollection_Moon_UberID_System_Object_ * this_ptr))

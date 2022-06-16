@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineView_UpscalePost {
     IL2CPP_REGISTER_METHOD(0x00EB0CC0, void, IRenderPostprocessor_OnRenderImage, (app::MoonRenderPipelineView_UpscalePost * this_ptr, app::PostProcessRenderContext * context))

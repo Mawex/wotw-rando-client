@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_OrbSpawnerManager_ItemToSpawn_ {
     IL2CPP_REGISTER_METHOD(0x0265A070, bool, Equals_1, (app::ObjectEqualityComparer_1_OrbSpawnerManager_ItemToSpawn_ * this_ptr, app::OrbSpawnerManager_ItemToSpawn x, app::OrbSpawnerManager_ItemToSpawn y))

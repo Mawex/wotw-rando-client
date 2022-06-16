@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Type_Moon_PhysicsUpdateHandlerAttribute_ {
     IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_System_Type_Moon_PhysicsUpdateHandlerAttribute_ * this_ptr, app::Type * key, app::PhysicsUpdateHandlerAttribute * * value))

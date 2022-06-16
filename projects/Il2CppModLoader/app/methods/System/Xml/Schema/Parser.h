@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::Parser {
     IL2CPP_REGISTER_METHOD(0x016D2ED0, void, ctor, (app::Parser_1 * this_ptr, app::SchemaType__Enum schema_type, app::XmlNameTable * name_table, app::SchemaNames * schema_names, app::ValidationEventHandler * event_handler))

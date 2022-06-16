@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpawnPrefabAction {
     IL2CPP_REGISTER_METHOD(0x00EF5F90, void, Perform, (app::SpawnPrefabAction * this_ptr, app::IContext * context))

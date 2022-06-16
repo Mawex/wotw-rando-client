@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraSettings_AnimateJobData {
     IL2CPP_REGISTER_METHOD(0x016A7800, void, CreateArrays, (app::CameraSettings_AnimateJobData * this_ptr, int32_t length, int32_t mult_length))

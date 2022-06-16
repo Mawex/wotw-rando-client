@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::InventoryScreenHealthEnergyElements {
     IL2CPP_REGISTER_METHOD(0x006435E0, int32_t, get_HealthCellCount, (app::InventoryScreenHealthEnergyElements * this_ptr))

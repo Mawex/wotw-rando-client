@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MapmakerUIDetails {
     IL2CPP_REGISTER_METHOD(0x00A0E4F0, void, Awake, (app::MapmakerUIDetails * this_ptr))

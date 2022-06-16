@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::ExpandoObject_MetaExpando {
     IL2CPP_REGISTER_METHOD(0x01F90A70, void, ctor, (app::ExpandoObject_MetaExpando * this_ptr, app::Expression * expression, app::ExpandoObject * value))

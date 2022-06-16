@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::UTF8Encoding {
     IL2CPP_REGISTER_METHOD(0x027CE2E0, void, ctor_1, (app::UTF8Encoding * this_ptr))

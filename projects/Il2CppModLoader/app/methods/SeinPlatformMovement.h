@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinPlatformMovement {
     IL2CPP_REGISTER_METHOD(0x005C7080, bool, get_IsSphere, (app::SeinPlatformMovement * this_ptr))

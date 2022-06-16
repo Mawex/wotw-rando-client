@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::DtdValidator {
     IL2CPP_REGISTER_METHOD(0x023657A0, void, ctor, (app::DtdValidator * this_ptr, app::XmlValidatingReaderImpl * reader, app::IValidationEventHandling * event_handling, bool process_identity_constraints))

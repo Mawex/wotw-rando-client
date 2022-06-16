@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LeaderboardTableUI {
     IL2CPP_REGISTER_METHOD(0x015B8B20, app::LeaderboardTableUI_LeaderboardMetaData *, get_CurrentMetaData, (app::LeaderboardTableUI * this_ptr))

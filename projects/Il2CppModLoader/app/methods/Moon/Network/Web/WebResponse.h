@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::WebResponse {
     IL2CPP_REGISTER_METHOD(0x02E99D90, void, ctor_1, (app::WebResponse_1 * this_ptr, app::Byte__Array * data, app::Exception * error))

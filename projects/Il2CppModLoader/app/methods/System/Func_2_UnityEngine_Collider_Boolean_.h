@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Func_2_UnityEngine_Collider_Boolean_ {
     IL2CPP_REGISTER_METHOD(0x0167EC80, bool, Invoke, (app::Func_2_UnityEngine_Collider_Boolean_ * this_ptr, app::Collider * arg))

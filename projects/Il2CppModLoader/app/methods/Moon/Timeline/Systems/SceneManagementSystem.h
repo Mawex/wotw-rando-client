@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Systems::SceneManagementSystem {
     IL2CPP_REGISTER_METHOD(0x00D094B0, void, IncreaseSceneEntityPlayCount, (app::SceneManagementSystem * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::DiscoverAreasEntity {
     IL2CPP_REGISTER_METHOD(0x00764800, app::SpellUIExperience *, get_Experience, (app::DiscoverAreasEntity * this_ptr))

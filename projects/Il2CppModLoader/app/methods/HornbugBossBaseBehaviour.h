@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HornbugBossBaseBehaviour {
     IL2CPP_REGISTER_METHOD(0x00B6E7F0, app::GroundEntityLocomotion *, get_Locomotion, (app::HornbugBossBaseBehaviour * this_ptr))

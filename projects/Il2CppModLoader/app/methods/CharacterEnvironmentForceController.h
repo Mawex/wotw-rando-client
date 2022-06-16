@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CharacterEnvironmentForceController {
     IL2CPP_REGISTER_METHOD(0x0104E000, void, Start, (app::CharacterEnvironmentForceController * this_ptr))

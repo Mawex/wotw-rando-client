@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UISoundSettingsAsset {
     IL2CPP_REGISTER_METHOD(0x013DCDF0, void, PlaySoundEvent, (app::UISoundSettingsAsset * this_ptr, app::Event_1 * sound_event))

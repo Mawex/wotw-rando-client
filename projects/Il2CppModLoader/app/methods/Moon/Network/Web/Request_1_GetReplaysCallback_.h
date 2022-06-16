@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Request_1_GetReplaysCallback_ {
     IL2CPP_REGISTER_METHOD(0x0052A000, void, SetMethod, (app::Request_1_GetReplaysCallback_ * this_ptr, app::Method__Enum method_1))

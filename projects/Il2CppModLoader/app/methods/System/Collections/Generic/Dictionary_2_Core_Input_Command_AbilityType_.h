@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Core_Input_Command_AbilityType_ {
     IL2CPP_REGISTER_METHOD(0x02BADFC0, bool, TryGetValue, (app::Dictionary_2_Core_Input_Command_AbilityType_ * this_ptr, app::Input_Command__Enum key, app::AbilityType__Enum * value))

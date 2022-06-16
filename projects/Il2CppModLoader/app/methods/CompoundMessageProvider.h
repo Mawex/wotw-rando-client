@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CompoundMessageProvider {
     IL2CPP_REGISTER_METHOD(0x002FB9E0, void, SetMessage, (app::CompoundMessageProvider * this_ptr, app::MessageProvider * message))

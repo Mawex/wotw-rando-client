@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::UnixIPGlobalProperties {
     IL2CPP_REGISTER_METHOD(0x01BC97D0, app::IPEndPoint__Array *, GetActiveTcpListeners, (app::UnixIPGlobalProperties * this_ptr))

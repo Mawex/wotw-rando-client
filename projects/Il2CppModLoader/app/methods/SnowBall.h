@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SnowBall {
     IL2CPP_REGISTER_METHOD(0x00EE2210, void, Awake, (app::SnowBall * this_ptr))

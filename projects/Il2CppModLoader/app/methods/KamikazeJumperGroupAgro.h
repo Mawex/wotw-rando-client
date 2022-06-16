@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KamikazeJumperGroupAgro {
     IL2CPP_REGISTER_METHOD(0x003FCB00, bool, get_IsAgro, (app::KamikazeJumperGroupAgro * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::NoThrowSetBinderMember {
     IL2CPP_REGISTER_METHOD(0x0301F100, void, ctor, (app::NoThrowSetBinderMember * this_ptr, app::SetMemberBinder * inner_binder))

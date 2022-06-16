@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::EditorTools::ArtKit::ArtKit {
     IL2CPP_REGISTER_METHOD(0x01207740, void, AddVersionInfo, (app::ArtKit * this_ptr, int32_t version_number, int64_t timestamp))

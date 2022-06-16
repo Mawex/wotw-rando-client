@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::OriCellBar {
     IL2CPP_REGISTER_METHOD(0x00437A00, void, SetShowCondition, (app::OriCellBar * this_ptr, app::Func_1_Boolean_ * should_show_now))

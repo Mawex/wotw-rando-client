@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KuDoubleJump {
     IL2CPP_REGISTER_METHOD(0x01234A70, int32_t, get_ExtraJumpsAvailable, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::nanoProfiler::NanoProfiler {
     IL2CPP_REGISTER_METHOD(0x00F2DAC0, app::NanoProfiler *, get_Instance, ())

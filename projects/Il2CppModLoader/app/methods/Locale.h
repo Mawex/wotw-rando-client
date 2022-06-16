@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Locale {
     IL2CPP_REGISTER_METHOD(0x004C50A0, app::String *, GetText_1, (app::String * msg))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Assertions::AssertionMessageUtil {
     IL2CPP_REGISTER_METHOD(0x0241DB90, app::String *, GetMessage_1, (app::String * failure_message))

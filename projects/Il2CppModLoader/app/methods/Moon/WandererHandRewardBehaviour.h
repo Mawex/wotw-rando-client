@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::WandererHandRewardBehaviour {
     IL2CPP_REGISTER_METHOD(0x011A2F00, void, OnEntityInitialized, (app::WandererHandRewardBehaviour * this_ptr))

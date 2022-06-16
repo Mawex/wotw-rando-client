@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AkMIDIPostArray {
     IL2CPP_REGISTER_METHOD(0x026F81B0, void, ctor, (app::AkMIDIPostArray * this_ptr, int32_t size))

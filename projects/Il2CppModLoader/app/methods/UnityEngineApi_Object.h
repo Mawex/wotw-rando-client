@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngineApi_Object {
     IL2CPP_REGISTER_METHOD(0x03118A90, app::GameObject *, New_1, (app::String * name))

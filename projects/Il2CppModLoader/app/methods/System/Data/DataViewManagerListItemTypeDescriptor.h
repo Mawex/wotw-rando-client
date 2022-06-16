@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::DataViewManagerListItemTypeDescriptor {
     IL2CPP_REGISTER_METHOD(0x002FA490, void, ctor, (app::DataViewManagerListItemTypeDescriptor * this_ptr, app::DataViewManager * data_view_manager))

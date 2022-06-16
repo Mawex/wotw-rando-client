@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::EntityHitReactionBehaviour_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x006C14C0, bool, get_HasLocomotion, (app::EntityHitReactionBehaviour_1_System_Object_ * this_ptr))

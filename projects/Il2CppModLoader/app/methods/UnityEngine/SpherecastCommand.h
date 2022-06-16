@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SpherecastCommand {
     IL2CPP_REGISTER_METHOD(0x00244720, void, ctor, (app::SpherecastCommand__Boxed * this_ptr, app::Vector3 origin, float radius, app::Vector3 direction, float distance, int32_t layer_mask))

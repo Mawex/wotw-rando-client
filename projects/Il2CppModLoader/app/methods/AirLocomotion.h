@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AirLocomotion {
     IL2CPP_REGISTER_METHOD(0x004F15D0, app::Transform *, get_FeetTransform, (app::AirLocomotion * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostReplaysOverview {
     IL2CPP_REGISTER_METHOD(0x007E5060, void, AddGhostReplay, (app::GhostReplaysOverview * this_ptr, app::GhostReplayMetaData * ghost_replay_meta_data))

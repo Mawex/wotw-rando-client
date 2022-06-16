@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::CompilerServices::TaskAwaiter_1_System_Nullable_1_ {
     IL2CPP_REGISTER_METHOD(0x0010FD20, void, ctor, (app::TaskAwaiter_1_System_Nullable_1___Boxed * this_ptr, app::Task_1_System_Nullable_1_ * task))

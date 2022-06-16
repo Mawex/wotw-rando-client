@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::CopyEncoder {
     IL2CPP_REGISTER_METHOD(0x02B71C80, void, GetBlock, (app::CopyEncoder * this_ptr, app::DeflateInput * input, app::OutputBuffer * output, bool is_final))

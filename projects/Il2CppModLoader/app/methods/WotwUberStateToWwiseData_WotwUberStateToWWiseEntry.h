@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WotwUberStateToWwiseData_WotwUberStateToWWiseEntry {
     IL2CPP_REGISTER_METHOD(0x0058F9F0, bool, IsFulfilled, (app::WotwUberStateToWwiseData_WotwUberStateToWWiseEntry * this_ptr))

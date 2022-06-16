@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::TaskScheduler {
     IL2CPP_REGISTER_METHOD(0x0233EC50, bool, TryRunInline, (app::TaskScheduler * this_ptr, app::Task * task, bool task_was_previously_queued))

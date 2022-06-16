@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_SpiritShardIconsCollection_Icons_ {
     IL2CPP_REGISTER_METHOD(0x0014D4F0, void, ctor, (app::List_1_T_Enumerator_SpiritShardIconsCollection_Icons___Boxed * this_ptr, app::List_1_SpiritShardIconsCollection_Icons_ * list))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AutoRotate {
     IL2CPP_REGISTER_METHOD(0x0085CEE0, void, Awake, (app::AutoRotate * this_ptr))

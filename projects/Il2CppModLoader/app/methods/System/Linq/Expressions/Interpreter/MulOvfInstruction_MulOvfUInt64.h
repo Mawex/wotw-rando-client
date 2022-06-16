@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::MulOvfInstruction_MulOvfUInt64 {
     IL2CPP_REGISTER_METHOD(0x024000A0, int32_t, Run, (app::MulOvfInstruction_MulOvfUInt64 * this_ptr, app::InterpretedFrame * frame))

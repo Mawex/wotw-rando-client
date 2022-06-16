@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DamageDealerUnlessCarryingNightberry {
     IL2CPP_REGISTER_METHOD(0x00DC7DF0, void, Awake, (app::DamageDealerUnlessCarryingNightberry * this_ptr))

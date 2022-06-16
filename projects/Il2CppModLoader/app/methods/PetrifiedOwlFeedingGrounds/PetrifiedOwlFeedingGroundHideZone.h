@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::PetrifiedOwlFeedingGroundHideZone {
     IL2CPP_REGISTER_METHOD(0x0132AA40, void, Start, (app::PetrifiedOwlFeedingGroundHideZone * this_ptr))

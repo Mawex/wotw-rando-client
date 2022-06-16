@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::Bloom {
     IL2CPP_REGISTER_METHOD(0x025111D0, bool, CheckResources, (app::Bloom * this_ptr))

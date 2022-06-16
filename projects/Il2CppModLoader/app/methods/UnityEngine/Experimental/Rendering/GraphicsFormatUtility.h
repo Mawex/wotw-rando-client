@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::GraphicsFormatUtility {
     IL2CPP_REGISTER_METHOD(0x02434390, app::GraphicsFormat__Enum, GetGraphicsFormat, (app::TextureFormat__Enum format, bool is_s_r_g_b))

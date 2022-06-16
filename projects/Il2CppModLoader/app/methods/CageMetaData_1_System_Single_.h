@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CageMetaData_1_System_Single_ {
     IL2CPP_REGISTER_METHOD(0x019DDBD0, void, OnEnable, (app::CageMetaData_1_System_Single_ * this_ptr))

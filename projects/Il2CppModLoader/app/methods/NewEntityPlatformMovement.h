@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::NewEntityPlatformMovement {
     IL2CPP_REGISTER_METHOD(0x005FA060, bool, get_IsAnticipatingLanding, (app::NewEntityPlatformMovement * this_ptr))

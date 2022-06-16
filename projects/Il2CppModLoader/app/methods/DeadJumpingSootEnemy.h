@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DeadJumpingSootEnemy {
     IL2CPP_REGISTER_METHOD(0x00DDB010, void, OnReceiveContext, (app::DeadJumpingSootEnemy * this_ptr, app::IContext * context))

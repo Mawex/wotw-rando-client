@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blur_Bloom {
     IL2CPP_REGISTER_METHOD(0x02763B70, app::Material *, get_material, (app::CameraFilterPack_Blur_Bloom * this_ptr))

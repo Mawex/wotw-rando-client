@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Activation::AppDomainLevelActivator {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::AppDomainLevelActivator * this_ptr, app::String * activation_url, app::IActivator * next))

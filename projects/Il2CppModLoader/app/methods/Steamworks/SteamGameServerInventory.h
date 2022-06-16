@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamGameServerInventory {
     IL2CPP_REGISTER_METHOD(0x027FAAF0, app::EResult__Enum, GetResultStatus, (app::SteamInventoryResult_t result_handle))

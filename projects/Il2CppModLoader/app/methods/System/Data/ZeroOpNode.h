@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::ZeroOpNode {
     IL2CPP_REGISTER_METHOD(0x030649E0, void, ctor, (app::ZeroOpNode * this_ptr, int32_t op))

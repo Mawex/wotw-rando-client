@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BounceProjectile {
     IL2CPP_REGISTER_METHOD(0x00D3F910, void, FixedUpdate, (app::BounceProjectile * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HornBugGuardBehaviour {
     IL2CPP_REGISTER_METHOD(0x0064D930, app::Vector3, get_Target, (app::HornBugGuardBehaviour * this_ptr))

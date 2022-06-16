@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KwolokBossCleanWaterPhaseStartBehaviour_BreakArenaState {
     IL2CPP_REGISTER_METHOD(0x01251B60, void, ctor, (app::KwolokBossCleanWaterPhaseStartBehaviour_BreakArenaState * this_ptr, app::KwolokBossCleanWaterPhaseStartBehaviour * behaviour))

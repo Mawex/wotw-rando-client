@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FoxPlatformingMovement {
     IL2CPP_REGISTER_METHOD(0x01633B20, void, ApplyKickback, (app::FoxPlatformingMovement * this_ptr, float kickback_multiplier))

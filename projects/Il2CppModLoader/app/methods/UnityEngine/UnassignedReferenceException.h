@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UnassignedReferenceException {
     IL2CPP_REGISTER_METHOD(0x02C705A0, void, ctor_1, (app::UnassignedReferenceException * this_ptr))

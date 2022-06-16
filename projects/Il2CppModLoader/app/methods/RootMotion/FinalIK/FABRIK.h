@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::FABRIK {
     IL2CPP_REGISTER_METHOD(0x020537B0, void, OpenUserManual, (app::FABRIK * this_ptr))

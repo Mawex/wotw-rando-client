@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::NSAsyncQueueInfo {
     IL2CPP_REGISTER_METHOD(0x0257B4C0, void, ctor_1, (app::NSAsyncQueueInfo * this_ptr, app::String * typ, app::String * path, app::Byte__Array * data, int32_t file_size_in_bytes, bool overwrite, bool is_from_copy_request))

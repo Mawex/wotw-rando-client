@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::HeaderInfo {
     IL2CPP_REGISTER_METHOD(0x02D082C0, void, ctor, (app::HeaderInfo_1 * this_ptr, app::String * name, app::HttpHeaderKind__Enum header_kind))

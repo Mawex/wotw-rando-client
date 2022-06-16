@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_System_TimeZoneInfo_ {
     IL2CPP_REGISTER_METHOD(0x02B7DF30, app::IEnumerator_1_System_TimeZoneInfo_ *, GetEnumerator, (app::ReadOnlyCollection_1_System_TimeZoneInfo_ * this_ptr))

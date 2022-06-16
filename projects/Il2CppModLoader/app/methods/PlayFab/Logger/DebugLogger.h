@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::Logger::DebugLogger {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::DebugLogger * this_ptr, app::LogLevel__Enum_1 min_log_level))

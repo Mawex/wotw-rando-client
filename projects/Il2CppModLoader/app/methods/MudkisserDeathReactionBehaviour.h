@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MudkisserDeathReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00872D40, void, OnInitializeTask, (app::MudkisserDeathReactionBehaviour * this_ptr, app::IContext * context))

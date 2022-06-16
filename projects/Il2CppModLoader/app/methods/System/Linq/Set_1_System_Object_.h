@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Set_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x0254B120, void, ctor, (app::Set_1_System_Object_ * this_ptr, app::IEqualityComparer_1_System_Object_ * comparer))

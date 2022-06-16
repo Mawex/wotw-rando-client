@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ScreenCapture {
     IL2CPP_REGISTER_METHOD(0x031C4D80, void, CaptureScreenshot_1, (app::String * filename))

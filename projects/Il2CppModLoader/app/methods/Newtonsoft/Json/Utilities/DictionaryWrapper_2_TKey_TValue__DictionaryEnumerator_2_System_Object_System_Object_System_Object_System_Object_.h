@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DictionaryWrapper_2_TKey_TValue__DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x001C9550, app::DictionaryEntry, get_Entry, (app::DictionaryWrapper_2_TKey_TValue_DictionaryEnumerator_2_System_Object_System_Object_System_Object_System_Object___Boxed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::UI::TextMeshTorusRenderer {
     IL2CPP_REGISTER_METHOD(0x0118A720, void, Apply, (app::TextMeshTorusRenderer_1 * this_ptr))

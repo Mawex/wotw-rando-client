@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostSceneTrackingPlugin_Data {
     IL2CPP_REGISTER_METHOD(0x007E59C0, void, Save, (app::GhostSceneTrackingPlugin_Data * this_ptr, app::BinaryWriter * binary_writer))

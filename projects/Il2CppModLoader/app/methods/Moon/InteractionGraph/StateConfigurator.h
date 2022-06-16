@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::StateConfigurator {
     IL2CPP_REGISTER_METHOD(0x0058DA40, void, ctor, (app::StateConfigurator * this_ptr, app::StateMachine_1 * state_machine, app::IState_1 * state))

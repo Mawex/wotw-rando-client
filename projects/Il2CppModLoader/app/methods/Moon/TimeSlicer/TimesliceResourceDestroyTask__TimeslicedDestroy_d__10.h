@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimesliceResourceDestroyTask__TimeslicedDestroy_d__10 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::TimesliceResourceDestroyTask_TimeslicedDestroy_d_10 * this_ptr, int32_t __1__state))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::CCDIK {
     IL2CPP_REGISTER_METHOD(0x020517C0, void, OpenUserManual, (app::CCDIK * this_ptr))

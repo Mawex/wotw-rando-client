@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::FileWebRequest {
     IL2CPP_REGISTER_METHOD(0x01D27E90, void, ctor_1, (app::FileWebRequest * this_ptr, app::Uri * uri))

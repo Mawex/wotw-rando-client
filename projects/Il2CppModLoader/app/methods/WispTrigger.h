@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WispTrigger {
     IL2CPP_REGISTER_METHOD(0x002FB990, app::MessageProvider *, get_Dialogue, (app::WispTrigger * this_ptr))

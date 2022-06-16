@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JProperty_JPropertyList {
     IL2CPP_REGISTER_METHOD(0x01F0E2D0, app::IEnumerator_1_Newtonsoft_Json_Linq_JToken_ *, GetEnumerator, (app::JProperty_JPropertyList * this_ptr))

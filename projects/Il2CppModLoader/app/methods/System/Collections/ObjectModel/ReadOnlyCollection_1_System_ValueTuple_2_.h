@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_System_ValueTuple_2_ {
     IL2CPP_REGISTER_METHOD(0x02B7DCF0, void, ctor_1, (app::ReadOnlyCollection_1_System_ValueTuple_2_ * this_ptr, app::IList_1_System_ValueTuple_2_ * list))

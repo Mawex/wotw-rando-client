@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MeleeComboMoveHammer__HitStop_d__94 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::MeleeComboMoveHammer_HitStop_d_94 * this_ptr, int32_t __1__state))

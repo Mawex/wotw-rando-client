@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::ArtificialSoundHost {
     IL2CPP_REGISTER_METHOD(0x02708AF0, void, ctor, (app::ArtificialSoundHost * this_ptr, uint64_t i))

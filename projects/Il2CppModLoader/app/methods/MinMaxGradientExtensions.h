@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MinMaxGradientExtensions {
     IL2CPP_REGISTER_METHOD(0x02557D70, app::ParticleSystem_MinMaxGradient, MultiplyColor, (app::ParticleSystem_MinMaxGradient target, app::Color color))

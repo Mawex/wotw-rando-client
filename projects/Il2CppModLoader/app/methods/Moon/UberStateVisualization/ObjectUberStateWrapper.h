@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::ObjectUberStateWrapper {
     IL2CPP_REGISTER_METHOD(0x0199AEF0, void, ctor, (app::ObjectUberStateWrapper * this_ptr, app::IUberState * state))

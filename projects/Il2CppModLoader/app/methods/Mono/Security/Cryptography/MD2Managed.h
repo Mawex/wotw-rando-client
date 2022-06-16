@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Cryptography::MD2Managed {
     IL2CPP_REGISTER_METHOD(0x025CE830, app::Byte__Array *, Padding_1, (app::MD2Managed * this_ptr, int32_t n_length))

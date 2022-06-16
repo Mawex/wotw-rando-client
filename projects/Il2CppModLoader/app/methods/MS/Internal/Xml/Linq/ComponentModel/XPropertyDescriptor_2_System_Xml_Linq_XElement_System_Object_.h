@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::Linq::ComponentModel::XPropertyDescriptor_2_System_Xml_Linq_XElement_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x019F8960, void, ctor, (app::XPropertyDescriptor_2_System_Xml_Linq_XElement_System_Object_ * this_ptr, app::String * name))

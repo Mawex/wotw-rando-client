@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::frameworks::xboxLive::GRDKStorageHandler {
     IL2CPP_REGISTER_METHOD(0x00F6A350, app::Task *, Write, (app::GRDKStorageHandler * this_ptr, app::String * key, app::Byte__Array * data))

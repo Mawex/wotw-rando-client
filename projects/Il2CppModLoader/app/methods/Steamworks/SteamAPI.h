@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamAPI {
     IL2CPP_REGISTER_METHOD(0x027E1F00, bool, Init, ())

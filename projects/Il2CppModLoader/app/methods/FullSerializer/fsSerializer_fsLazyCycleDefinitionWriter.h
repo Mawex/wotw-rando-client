@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::fsSerializer_fsLazyCycleDefinitionWriter {
     IL2CPP_REGISTER_METHOD(0x0151C550, void, WriteDefinition, (app::fsSerializer_fsLazyCycleDefinitionWriter * this_ptr, int32_t id, app::fsData * data))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GameObjectExtender {
     IL2CPP_REGISTER_METHOD(0x003F8460, app::Transform *, FindChildRecursive, (app::GameObject * game_object, app::String * name, bool include_inactive))

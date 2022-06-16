@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::MotionAbsorbCharacter {
     IL2CPP_REGISTER_METHOD(0x02228220, void, Start, (app::MotionAbsorbCharacter * this_ptr))

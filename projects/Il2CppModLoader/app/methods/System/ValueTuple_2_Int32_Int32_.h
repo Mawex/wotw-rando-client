@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ValueTuple_2_Int32_Int32_ {
     IL2CPP_REGISTER_METHOD(0x00115520, void, ctor, (app::ValueTuple_2_Int32_Int32___Boxed * this_ptr, int32_t item1, int32_t item2))

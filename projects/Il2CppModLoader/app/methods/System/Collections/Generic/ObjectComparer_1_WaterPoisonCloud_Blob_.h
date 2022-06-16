@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_WaterPoisonCloud_Blob_ {
     IL2CPP_REGISTER_METHOD(0x01CCFFB0, int32_t, Compare, (app::ObjectComparer_1_WaterPoisonCloud_Blob_ * this_ptr, app::WaterPoisonCloud_Blob x, app::WaterPoisonCloud_Blob y))

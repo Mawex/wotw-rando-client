@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::DSASignatureDeformatter {
     IL2CPP_REGISTER_METHOD(0x020D72C0, void, ctor_1, (app::DSASignatureDeformatter * this_ptr))

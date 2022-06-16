@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LoremasterReplayController {
     IL2CPP_REGISTER_METHOD(0x009ED850, bool, get_LoreMasterReplayActive, ())

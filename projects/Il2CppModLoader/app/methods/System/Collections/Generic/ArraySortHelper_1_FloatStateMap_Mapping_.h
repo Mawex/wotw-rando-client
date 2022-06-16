@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_FloatStateMap_Mapping_ {
     IL2CPP_REGISTER_METHOD(0x02F32C60, void, Sort_1, (app::FloatStateMap_Mapping__Array * keys, int32_t index, int32_t length, app::IComparer_1_FloatStateMap_Mapping_ * comparer))

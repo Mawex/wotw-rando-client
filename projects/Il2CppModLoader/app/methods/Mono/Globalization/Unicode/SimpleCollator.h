@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Globalization::Unicode::SimpleCollator {
     IL2CPP_REGISTER_METHOD(0x023BDF30, void, ctor, (app::SimpleCollator * this_ptr, app::CultureInfo * culture))

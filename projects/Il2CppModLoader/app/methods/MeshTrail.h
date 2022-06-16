@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MeshTrail {
     IL2CPP_REGISTER_METHOD(0x011354B0, app::Mesh *, get_RenderMesh, (app::MeshTrail * this_ptr))

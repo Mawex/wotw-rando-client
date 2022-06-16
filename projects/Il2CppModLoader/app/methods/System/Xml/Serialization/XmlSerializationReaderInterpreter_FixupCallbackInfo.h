@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlSerializationReaderInterpreter_FixupCallbackInfo {
     IL2CPP_REGISTER_METHOD(0x010415E0, void, ctor, (app::XmlSerializationReaderInterpreter_FixupCallbackInfo * this_ptr, app::XmlSerializationReaderInterpreter * sri, app::ClassMap * map, bool is_value_list))

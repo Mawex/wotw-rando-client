@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SetNightberryPositionAction {
     IL2CPP_REGISTER_METHOD(0x005A3100, void, Perform, (app::SetNightberryPositionAction * this_ptr, app::IContext * context))

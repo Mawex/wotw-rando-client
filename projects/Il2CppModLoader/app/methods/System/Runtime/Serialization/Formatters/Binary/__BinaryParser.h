@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::__BinaryParser {
     IL2CPP_REGISTER_METHOD(0x01DA46A0, void, ctor, (app::_BinaryParser * this_ptr, app::Stream * stream, app::ObjectReader * object_reader))

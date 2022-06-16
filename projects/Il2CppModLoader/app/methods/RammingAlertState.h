@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RammingAlertState {
     IL2CPP_REGISTER_METHOD(0x004C1E90, void, ctor, (app::RammingAlertState * this_ptr, app::RammingEnemy * ground_enemy))

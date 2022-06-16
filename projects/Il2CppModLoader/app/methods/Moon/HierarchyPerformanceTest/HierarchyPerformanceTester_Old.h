@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::HierarchyPerformanceTest::HierarchyPerformanceTester_Old {
     IL2CPP_REGISTER_METHOD(0x0149BDF0, void, add_OnTestComplete, (app::HierarchyPerformanceTester_Old * this_ptr, app::Action * value))

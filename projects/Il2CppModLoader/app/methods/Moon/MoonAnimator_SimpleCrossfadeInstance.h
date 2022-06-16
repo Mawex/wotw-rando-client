@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimator_SimpleCrossfadeInstance {
     IL2CPP_REGISTER_METHOD(0x002FB9F0, app::MoonAnimator_AnimationInstance *, get_MainAnimationInstance, (app::MoonAnimator_SimpleCrossfadeInstance * this_ptr))

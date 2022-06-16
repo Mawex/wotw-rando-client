@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::SpriteAnimationPlayer {
     IL2CPP_REGISTER_METHOD(0x002FBCE0, app::TextureAnimator *, get_TextureAnimator, (app::SpriteAnimationPlayer * this_ptr))

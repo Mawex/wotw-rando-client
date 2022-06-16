@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::TentacleSpawnBehaviour {
     IL2CPP_REGISTER_METHOD(0x010B4F20, app::MoonTimeline *, get_EffectiveSpawnTimeline, (app::TentacleSpawnBehaviour * this_ptr))

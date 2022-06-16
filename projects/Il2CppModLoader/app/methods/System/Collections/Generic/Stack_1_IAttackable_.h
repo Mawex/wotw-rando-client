@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Stack_1_IAttackable_ {
     IL2CPP_REGISTER_METHOD(0x02CF7B70, bool, Contains, (app::Stack_1_IAttackable_ * this_ptr, app::IAttackable * item))

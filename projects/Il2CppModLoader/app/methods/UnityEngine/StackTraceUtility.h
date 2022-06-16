@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::StackTraceUtility {
     IL2CPP_REGISTER_METHOD(0x02C63660, void, SetProjectFolder, (app::String * folder))

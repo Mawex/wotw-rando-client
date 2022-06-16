@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossDiveBombHorizontalBehaviour_BackgroundFlightState {
     IL2CPP_REGISTER_METHOD(0x004A0210, void, ctor, (app::PetrifiedOwlBossDiveBombHorizontalBehaviour_BackgroundFlightState * this_ptr, app::PetrifiedOwlBossDiveBombHorizontalBehaviour * behaviour))

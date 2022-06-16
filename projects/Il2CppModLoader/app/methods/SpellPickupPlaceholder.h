@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpellPickupPlaceholder {
     IL2CPP_REGISTER_METHOD(0x00943B00, void, OnInstantiate, (app::SpellPickupPlaceholder * this_ptr, app::GameObject * instance))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::LookupNode {
     IL2CPP_REGISTER_METHOD(0x01E40A50, void, ctor, (app::LookupNode * this_ptr, app::DataTable * table, app::String * column_name, app::String * relation_name))

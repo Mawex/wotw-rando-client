@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DefaultBindingPropertyAttribute {
     IL2CPP_REGISTER_METHOD(0x0063D180, void, ctor_1, (app::DefaultBindingPropertyAttribute * this_ptr))

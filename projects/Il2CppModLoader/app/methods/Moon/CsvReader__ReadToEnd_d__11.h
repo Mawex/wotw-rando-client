@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::CsvReader__ReadToEnd_d__11 {
     IL2CPP_REGISTER_METHOD(0x01426B00, void, ctor, (app::CsvReader_ReadToEnd_d_11 * this_ptr, int32_t __1__state))

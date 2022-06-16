@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberSpawnManager {
     IL2CPP_REGISTER_METHOD(0x00446960, float, get_FrameBudgetSpent, (app::UberSpawnManager * this_ptr))

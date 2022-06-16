@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::RenderTextureDescriptor {
     IL2CPP_REGISTER_METHOD(0x00218070, void, ctor_1, (app::RenderTextureDescriptor__Boxed * this_ptr, int32_t width, int32_t height))

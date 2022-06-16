@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1DiveLaserBehaviour_WaitState {
     IL2CPP_REGISTER_METHOD(0x01766D00, void, ctor, (app::PetrifiedOwlBossFight1DiveLaserBehaviour_WaitState * this_ptr, app::PetrifiedOwlBossFight1DiveLaserBehaviour * behaviour))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::ExtendedPropertyDescriptor {
     IL2CPP_REGISTER_METHOD(0x01FECBA0, void, ctor_1, (app::ExtendedPropertyDescriptor * this_ptr, app::ReflectPropertyDescriptor * extender_info, app::Type * receiver_type, app::IExtenderProvider * provider, app::Attribute__Array * attributes))

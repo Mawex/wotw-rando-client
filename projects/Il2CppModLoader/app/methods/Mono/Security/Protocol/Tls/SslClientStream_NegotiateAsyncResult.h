@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslClientStream_NegotiateAsyncResult {
     IL2CPP_REGISTER_METHOD(0x01F81210, void, ctor, (app::SslClientStream_NegotiateAsyncResult * this_ptr, app::AsyncCallback * user_callback, app::Object * user_state, app::SslClientStream_NegotiateState__Enum state))

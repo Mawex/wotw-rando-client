@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DelayedAction_1_System_Single_ {
     IL2CPP_REGISTER_METHOD(0x019E00E0, void, ctor_1, (app::DelayedAction_1_System_Single_ * this_ptr, app::Action_1_Single_ * action, float time_seconds, float param))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_String_System_Net_Http_Headers_HttpHeaders_HeaderBucket_ {
     IL2CPP_REGISTER_METHOD(0x0283AC50, void, ctor, (app::Dictionary_2_System_String_System_Net_Http_Headers_HttpHeaders_HeaderBucket_ * this_ptr, app::IEqualityComparer_1_System_String_ * comparer))

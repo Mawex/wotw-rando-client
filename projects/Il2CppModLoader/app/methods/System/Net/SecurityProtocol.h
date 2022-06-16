@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::SecurityProtocol {
     IL2CPP_REGISTER_METHOD(0x01BD3210, void, ThrowOnNotAllowed, (app::SslProtocols__Enum protocols, bool allow_none))

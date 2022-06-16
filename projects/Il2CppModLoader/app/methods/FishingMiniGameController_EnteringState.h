@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FishingMiniGameController_EnteringState {
     IL2CPP_REGISTER_METHOD(0x0126E300, void, ctor, (app::FishingMiniGameController_EnteringState * this_ptr, app::FishingMiniGameController * fishing_game))

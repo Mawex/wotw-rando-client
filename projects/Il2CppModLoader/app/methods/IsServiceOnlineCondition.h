@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::IsServiceOnlineCondition {
     IL2CPP_REGISTER_METHOD(0x00647AA0, bool, Validate, (app::IsServiceOnlineCondition * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiderBossDirectionBrainController {
     IL2CPP_REGISTER_METHOD(0x0096C060, app::Enum__Array *, GetEntries, (app::SpiderBossDirectionBrainController * this_ptr))

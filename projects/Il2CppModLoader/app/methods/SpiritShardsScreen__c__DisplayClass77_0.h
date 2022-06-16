@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiritShardsScreen___c__DisplayClass77_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::SpiritShardsScreen_c_DisplayClass77_0 * this_ptr))

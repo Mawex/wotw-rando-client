@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ArraySegment_1_T__ArraySegmentEnumerator_Object_ {
     IL2CPP_REGISTER_METHOD(0x02AD7040, app::Object *, get_Current, (app::ArraySegment_1_T_ArraySegmentEnumerator_Object_ * this_ptr))

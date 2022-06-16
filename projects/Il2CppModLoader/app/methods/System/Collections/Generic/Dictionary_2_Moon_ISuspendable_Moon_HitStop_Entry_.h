@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_Moon_ISuspendable_Moon_HitStop_Entry_ {
     IL2CPP_REGISTER_METHOD(0x02BBA760, bool, TryGetValue, (app::Dictionary_2_Moon_ISuspendable_Moon_HitStop_Entry_ * this_ptr, app::ISuspendable * key, app::HitStop_Entry * * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_Moon_Profile_Metric_System_Single___ {
     IL2CPP_REGISTER_METHOD(0x00136440, app::KeyValuePair_2_Moon_Profile_Metric_System_Single__1, get_Current, (app::Dictionary_2_TKey_TValue_Enumerator_Moon_Profile_Metric_System_Single___Boxed * this_ptr))

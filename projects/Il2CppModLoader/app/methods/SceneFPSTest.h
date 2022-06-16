@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SceneFPSTest {
     IL2CPP_REGISTER_METHOD(0x00939BC0, app::List_1_RuntimeSceneMetaData_ *, get_SceneList, (app::SceneFPSTest * this_ptr))

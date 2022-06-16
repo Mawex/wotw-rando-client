@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_GhostTimelineEventsPlugin_PendingEvent_ {
     IL2CPP_REGISTER_METHOD(0x02CA2440, app::GhostTimelineEventsPlugin_PendingEvent, Dequeue, (app::Queue_1_GhostTimelineEventsPlugin_PendingEvent_ * this_ptr))

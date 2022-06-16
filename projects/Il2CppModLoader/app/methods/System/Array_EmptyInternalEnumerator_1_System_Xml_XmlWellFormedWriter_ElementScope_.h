@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Array_EmptyInternalEnumerator_1_System_Xml_XmlWellFormedWriter_ElementScope_ {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, Dispose, (app::Array_EmptyInternalEnumerator_1_System_Xml_XmlWellFormedWriter_ElementScope_ * this_ptr))

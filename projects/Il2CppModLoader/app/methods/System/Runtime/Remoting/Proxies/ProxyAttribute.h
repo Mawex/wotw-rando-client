@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Proxies::ProxyAttribute {
     IL2CPP_REGISTER_METHOD(0x0231D270, app::MarshalByRefObject *, CreateInstance, (app::ProxyAttribute * this_ptr, app::Type * server_type))

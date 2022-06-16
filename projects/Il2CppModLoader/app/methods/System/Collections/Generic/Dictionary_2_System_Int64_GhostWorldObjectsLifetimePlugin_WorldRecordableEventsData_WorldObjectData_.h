@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Int64_GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData_ {
     IL2CPP_REGISTER_METHOD(0x02C3E9A0, app::GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData *, get_Item, (app::Dictionary_2_System_Int64_GhostWorldObjectsLifetimePlugin_WorldRecordableEventsData_WorldObjectData_ * this_ptr, int64_t key))

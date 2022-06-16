@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Wwise::WwiseSoundBankSystem {
     IL2CPP_REGISTER_METHOD(0x02716B80, void, Initialize, (app::WwiseSoundBankSystem * this_ptr, app::AkWwiseInitializationSettings * config))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DynamicInstantiationDescriptor {
     IL2CPP_REGISTER_METHOD(0x030DC4B0, void, ctor, (app::DynamicInstantiationDescriptor * this_ptr, app::GameObject * prefab, int32_t count, app::Nullable_1_Single_ high_priority_prewarm_ratio))

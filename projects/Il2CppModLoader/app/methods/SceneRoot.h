@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SceneRoot {
     IL2CPP_REGISTER_METHOD(0x008519A0, bool, get_HighPriorityEnabling, (app::SceneRoot * this_ptr))

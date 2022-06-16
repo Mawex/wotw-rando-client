@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::EnergyPlantAnimator {
     IL2CPP_REGISTER_METHOD(0x002FB9B0, app::IMoonSetupVisuals *, get_MoonSetupVisuals, (app::EnergyPlantAnimator * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ControllerShakeLogic {
     IL2CPP_REGISTER_METHOD(0x011F22A0, void, ResetStatics, ())

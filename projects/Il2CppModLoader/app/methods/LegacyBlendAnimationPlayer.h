@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyBlendAnimationPlayer {
     IL2CPP_REGISTER_METHOD(0x015DD320, void, SampleValue, (app::LegacyBlendAnimationPlayer * this_ptr, float value, bool force_sample))

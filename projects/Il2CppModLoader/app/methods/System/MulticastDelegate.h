@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::MulticastDelegate {
     IL2CPP_REGISTER_METHOD(0x0173FA70, void, GetObjectData, (app::MulticastDelegate * this_ptr, app::SerializationInfo * info, app::StreamingContext context))

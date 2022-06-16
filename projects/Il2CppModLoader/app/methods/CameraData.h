@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraData {
     IL2CPP_REGISTER_METHOD(0x0043D9E0, app::RecorderFrame_FrameDataTypes__Enum, FrameType, (app::CameraData * this_ptr))

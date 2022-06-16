@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostTimeTrackingPlugin {
     IL2CPP_REGISTER_METHOD(0x007E9F70, void, OnStartRecording, (app::GhostTimeTrackingPlugin * this_ptr, app::PreRecordingData * pre_recording_data))

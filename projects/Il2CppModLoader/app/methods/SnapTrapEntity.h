@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SnapTrapEntity {
     IL2CPP_REGISTER_METHOD(0x006D6470, bool, get_IsSuspended, (app::SnapTrapEntity * this_ptr))

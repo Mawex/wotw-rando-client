@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Context {
     IL2CPP_REGISTER_METHOD(0x011E77D0, void, SendContextToGameObject, (app::GameObject * target, app::IContext * context))

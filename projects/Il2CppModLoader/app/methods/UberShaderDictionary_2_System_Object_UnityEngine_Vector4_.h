@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberShaderDictionary_2_System_Object_UnityEngine_Vector4_ {
     IL2CPP_REGISTER_METHOD(0x02262820, void, OnBeforeSerialize, (app::UberShaderDictionary_2_System_Object_UnityEngine_Vector4_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinSpiritSpearSpell_FlyingSpear {
     IL2CPP_REGISTER_METHOD(0x0011C410, app::Vector3, get_Direction, (app::SeinSpiritSpearSpell_FlyingSpear__Boxed * this_ptr))

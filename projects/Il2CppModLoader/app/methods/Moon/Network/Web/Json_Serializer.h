@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Json_Serializer {
     IL2CPP_REGISTER_METHOD(0x02E94940, void, ctor, (app::Json_Serializer * this_ptr))

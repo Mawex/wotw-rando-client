@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::HttpListenerTimeoutManager {
     IL2CPP_REGISTER_METHOD(0x01E58740, app::TimeSpan, get_EntityBody, (app::HttpListenerTimeoutManager * this_ptr))

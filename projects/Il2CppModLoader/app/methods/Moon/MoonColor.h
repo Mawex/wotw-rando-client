@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::MoonColor {
     IL2CPP_REGISTER_METHOD(0x02F91EE0, bool, get_IsCrossSceneReference, (app::MoonColor * this_ptr))

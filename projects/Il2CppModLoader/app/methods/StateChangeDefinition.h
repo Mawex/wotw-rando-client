@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::StateChangeDefinition {
     IL2CPP_REGISTER_METHOD(0x01E945E0, void, Perform, (app::StateChangeDefinition * this_ptr, bool always_play_transition))

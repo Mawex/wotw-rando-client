@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Microsoft::Applications::Events::MiniBond {
     IL2CPP_REGISTER_METHOD(0x002FD800, void, Serialize_1, (app::CompactBinaryProtocolWriter * writer, app::Ingest * value, bool is_base))

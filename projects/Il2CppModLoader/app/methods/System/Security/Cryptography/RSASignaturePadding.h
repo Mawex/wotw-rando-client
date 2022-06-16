@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::RSASignaturePadding {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor_1, (app::RSASignaturePadding * this_ptr, app::RSASignaturePaddingMode__Enum mode))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RecorderPlaybackUIInspector {
     IL2CPP_REGISTER_METHOD(0x008F7CD0, void, PlayCycle, (app::RecorderPlaybackUIInspector * this_ptr, int32_t frame))

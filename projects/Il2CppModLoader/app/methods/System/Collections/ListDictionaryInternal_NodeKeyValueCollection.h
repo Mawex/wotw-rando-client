@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::ListDictionaryInternal_NodeKeyValueCollection {
     IL2CPP_REGISTER_METHOD(0x01669060, void, ctor, (app::ListDictionaryInternal_NodeKeyValueCollection * this_ptr, app::ListDictionaryInternal * list, bool is_keys))

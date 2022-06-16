@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::CryptoStream__WriteAsyncInternal_d__37 {
     IL2CPP_REGISTER_METHOD(0x001DC1F0, void, MoveNext, (app::CryptoStream_WriteAsyncInternal_d_37__Boxed * this_ptr))

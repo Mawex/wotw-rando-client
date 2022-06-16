@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabFileDownloader {
     IL2CPP_REGISTER_METHOD(0x00521550, void, ctor, (app::PlayFabFileDownloader * this_ptr, app::String * owner_id, app::String * file_name, app::RaceDataLeaderBoardType__Enum data, int32_t max_size))

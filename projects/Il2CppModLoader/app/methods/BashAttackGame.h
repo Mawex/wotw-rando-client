@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BashAttackGame {
     IL2CPP_REGISTER_METHOD(0x00F8D5E0, void, add_BashGameComplete, (app::BashAttackGame * this_ptr, app::Action_1_Single_ * value))

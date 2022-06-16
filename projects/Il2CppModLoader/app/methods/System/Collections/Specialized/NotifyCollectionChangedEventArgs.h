@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::NotifyCollectionChangedEventArgs {
     IL2CPP_REGISTER_METHOD(0x0249AF80, void, ctor_1, (app::NotifyCollectionChangedEventArgs * this_ptr, app::NotifyCollectionChangedAction__Enum action))

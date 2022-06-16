@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::VectorAnimationParameter_Instance {
     IL2CPP_REGISTER_METHOD(0x0064EB90, app::Vector3, get_TargetValue, (app::VectorAnimationParameter_Instance * this_ptr))

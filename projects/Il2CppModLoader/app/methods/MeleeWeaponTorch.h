@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MeleeWeaponTorch {
     IL2CPP_REGISTER_METHOD(0x009D4720, app::FireStick *, get_Torch, (app::MeleeWeaponTorch * this_ptr))

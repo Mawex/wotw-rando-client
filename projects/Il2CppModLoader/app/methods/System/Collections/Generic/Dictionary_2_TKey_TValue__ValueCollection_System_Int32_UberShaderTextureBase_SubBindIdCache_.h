@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__ValueCollection_System_Int32_UberShaderTextureBase_SubBindIdCache_ {
     IL2CPP_REGISTER_METHOD(0x026B0860, void, ctor, (app::Dictionary_2_TKey_TValue_ValueCollection_System_Int32_UberShaderTextureBase_SubBindIdCache_ * this_ptr, app::Dictionary_2_System_Int32_UberShaderTextureBase_SubBindIdCache_ * dictionary))

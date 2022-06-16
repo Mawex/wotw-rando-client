@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Motvin::Collections::FastHashSet_1_T__FastHashSetEnumerator_1_System_UInt32_System_UInt32_ {
     IL2CPP_REGISTER_METHOD(0x02AF7D00, void, ctor, (app::FastHashSet_1_T_FastHashSetEnumerator_1_System_UInt32_System_UInt32_ * this_ptr, app::FastHashSet_1_System_UInt32_ * set))

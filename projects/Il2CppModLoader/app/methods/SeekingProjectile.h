@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeekingProjectile {
     IL2CPP_REGISTER_METHOD(0x0106CF40, app::Vector3, get_TargetPosition, (app::SeekingProjectile * this_ptr))

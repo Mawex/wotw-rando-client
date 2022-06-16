@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShuoldShowHDRToggleCondition {
     IL2CPP_REGISTER_METHOD(0x0073E0F0, bool, Validate, (app::ShuoldShowHDRToggleCondition * this_ptr, app::IContext * context))

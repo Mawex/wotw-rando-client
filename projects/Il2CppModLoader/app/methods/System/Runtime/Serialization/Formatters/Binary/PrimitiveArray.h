@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray {
     IL2CPP_REGISTER_METHOD(0x01D9E280, void, ctor, (app::PrimitiveArray * this_ptr, app::InternalPrimitiveTypeE__Enum code, app::Array * array))

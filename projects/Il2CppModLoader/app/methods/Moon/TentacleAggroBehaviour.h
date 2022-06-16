@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::TentacleAggroBehaviour {
     IL2CPP_REGISTER_METHOD(0x010AB560, void, OnEnter, (app::TentacleAggroBehaviour * this_ptr, app::IContext * context))

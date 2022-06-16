@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::DashNewComboMove {
     IL2CPP_REGISTER_METHOD(0x003FC7F0, app::ComboMoveState__Enum, get_m_comboMoveState, (app::DashNewComboMove * this_ptr))

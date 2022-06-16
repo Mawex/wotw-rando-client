@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Delegate {
     IL2CPP_REGISTER_METHOD(0x0173D7B0, app::MethodInfo_1 *, get_Method, (app::Delegate * this_ptr))

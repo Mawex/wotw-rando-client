@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Quaternion {
     IL2CPP_REGISTER_METHOD(0x00121740, void, ctor, (app::Quaternion__Boxed * this_ptr, float x, float y, float z, float w))

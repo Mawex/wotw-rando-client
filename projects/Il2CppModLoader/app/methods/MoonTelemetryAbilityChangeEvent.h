@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryAbilityChangeEvent {
     IL2CPP_REGISTER_METHOD(0x006A63A0, app::String *, get_Name, (app::MoonTelemetryAbilityChangeEvent * this_ptr))

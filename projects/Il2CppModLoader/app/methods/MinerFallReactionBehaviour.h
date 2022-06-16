@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MinerFallReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x014497D0, void, StartTimeline, (app::MinerFallReactionBehaviour * this_ptr, app::MoonTimeline * timeline, app::Action * on_stop))

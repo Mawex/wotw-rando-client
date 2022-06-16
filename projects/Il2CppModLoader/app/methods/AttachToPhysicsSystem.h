@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AttachToPhysicsSystem {
     IL2CPP_REGISTER_METHOD(0x002FBB80, app::ConfigurableJoint *, get_GeneratedConfigurableJoint, (app::AttachToPhysicsSystem * this_ptr))

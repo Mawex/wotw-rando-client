@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericComparer_1_System_UInt32_ {
     IL2CPP_REGISTER_METHOD(0x02B60460, int32_t, Compare, (app::GenericComparer_1_System_UInt32_ * this_ptr, uint32_t x, uint32_t y))

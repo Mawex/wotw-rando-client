@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::usedStandaloneScripts::MainThreadWorkStealer {
     IL2CPP_REGISTER_METHOD(0x03125FF0, app::MainThreadWorkStealer_WorkStealingMode__Enum, get_StealingMode, ())

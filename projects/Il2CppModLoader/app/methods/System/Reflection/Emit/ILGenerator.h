@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Reflection::Emit::ILGenerator {
     IL2CPP_REGISTER_METHOD(0x02680C20, app::LocalBuilder *, DeclareLocal, (app::ILGenerator * this_ptr, app::Type * local_type))

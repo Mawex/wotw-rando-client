@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::RobustPredicates {
     IL2CPP_REGISTER_METHOD(0x02B277F0, app::RobustPredicates *, get_Default, ())

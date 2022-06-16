@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::StateMachineBehaviourProxy {
     IL2CPP_REGISTER_METHOD(0x009B53C0, void, add_OnIntEventAction, (app::StateMachineBehaviourProxy * this_ptr, app::Action_1_Int32_ * value))

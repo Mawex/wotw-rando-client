@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WorldEvents {
     IL2CPP_REGISTER_METHOD(0x00581340, app::String *, GetNameFromID, (app::WorldEvents * this_ptr, int32_t id))

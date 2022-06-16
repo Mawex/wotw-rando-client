@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WeightController {
     IL2CPP_REGISTER_METHOD(0x00418FC0, float, get_Weight, (app::WeightController * this_ptr))

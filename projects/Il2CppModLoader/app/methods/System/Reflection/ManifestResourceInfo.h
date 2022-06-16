@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Reflection::ManifestResourceInfo {
     IL2CPP_REGISTER_METHOD(0x00E332C0, void, ctor, (app::ManifestResourceInfo * this_ptr, app::Assembly * containing_assembly, app::String * containing_file_name, app::ResourceLocation__Enum resource_location))

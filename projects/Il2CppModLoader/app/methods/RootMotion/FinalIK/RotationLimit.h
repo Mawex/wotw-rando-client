@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::RotationLimit {
     IL2CPP_REGISTER_METHOD(0x02A1F900, void, SetDefaultLocalRotation, (app::RotationLimit * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::TimeSlicer::TimeSlicedHierarchyDisablingTask {
     IL2CPP_REGISTER_METHOD(0x010C4020, void, ctor, (app::TimeSlicedHierarchyDisablingTask * this_ptr, app::List_1_UnityEngine_GameObject_ * objects_to_time_slice_disable, app::GameObject * owner, app::Action_1_Boolean_ * on_job_completed, app::String * scene_name))

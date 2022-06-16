@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::LookupFilter {
     IL2CPP_REGISTER_METHOD(0x03049CF0, void, OnRenderImage, (app::LookupFilter * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

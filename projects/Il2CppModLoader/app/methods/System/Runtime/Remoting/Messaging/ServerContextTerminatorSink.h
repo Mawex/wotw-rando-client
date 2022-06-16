@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink {
     IL2CPP_REGISTER_METHOD(0x02319F80, app::IMessage *, SyncProcessMessage, (app::ServerContextTerminatorSink * this_ptr, app::IMessage * msg))

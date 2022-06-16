@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::TimelineHelper__EverythingConstrainedTo_d__28 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::TimelineHelper_EverythingConstrainedTo_d_28 * this_ptr, int32_t __1__state))

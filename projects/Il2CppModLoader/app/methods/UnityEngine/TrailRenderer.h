@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::TrailRenderer {
     IL2CPP_REGISTER_METHOD(0x02C6AC30, float, get_time, (app::TrailRenderer * this_ptr))

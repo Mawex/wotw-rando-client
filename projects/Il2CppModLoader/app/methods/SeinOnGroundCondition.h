@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinOnGroundCondition {
     IL2CPP_REGISTER_METHOD(0x008AF4D0, bool, Validate, (app::SeinOnGroundCondition * this_ptr, app::IContext * context))

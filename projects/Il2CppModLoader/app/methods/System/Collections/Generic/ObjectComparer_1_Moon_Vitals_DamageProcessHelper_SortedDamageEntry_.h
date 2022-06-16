@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ {
     IL2CPP_REGISTER_METHOD(0x01CC7620, int32_t, Compare, (app::ObjectComparer_1_Moon_Vitals_DamageProcessHelper_SortedDamageEntry_ * this_ptr, app::Vitals_DamageProcessHelper_SortedDamageEntry x, app::Vitals_DamageProcessHelper_SortedDamageEntry y))

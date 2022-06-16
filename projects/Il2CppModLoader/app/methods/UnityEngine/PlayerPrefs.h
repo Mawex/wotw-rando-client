@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::PlayerPrefs {
     IL2CPP_REGISTER_METHOD(0x02967A40, bool, TrySetInt, (app::String * key, int32_t value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Recoil {
     IL2CPP_REGISTER_METHOD(0x02A1CF80, void, SetHandRotations, (app::Recoil * this_ptr, app::Quaternion left_hand_rotation, app::Quaternion right_hand_rotation))

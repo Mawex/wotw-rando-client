@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::StatisticsManager {
     IL2CPP_REGISTER_METHOD(0x002FB9D0, app::List_1_StatSetting_ *, get_StatSettings, (app::StatisticsManager * this_ptr))

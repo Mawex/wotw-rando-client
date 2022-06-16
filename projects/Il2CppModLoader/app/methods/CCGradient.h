@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CCGradient {
     IL2CPP_REGISTER_METHOD(0x0315B1B0, app::Color, get_Item, (app::CCGradient * this_ptr, float p))

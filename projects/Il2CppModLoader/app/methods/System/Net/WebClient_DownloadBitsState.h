@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::WebClient_DownloadBitsState {
     IL2CPP_REGISTER_METHOD(0x01D60120, void, ctor, (app::WebClient_DownloadBitsState * this_ptr, app::WebRequest * request, app::Stream * write_stream, app::CompletionDelegate * completion_delegate, app::AsyncOperation * async_op, app::WebClient_ProgressData * progress, app::WebClient * web_client))

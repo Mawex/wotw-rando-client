@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberSwarmPOI {
     IL2CPP_REGISTER_METHOD(0x0128C2C0, app::Vector2, get_Position, (app::UberSwarmPOI * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::StateMachine {
     IL2CPP_REGISTER_METHOD(0x004C87B0, float, get_CurrentStateTime, (app::StateMachine_1 * this_ptr))

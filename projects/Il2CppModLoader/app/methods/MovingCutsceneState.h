@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MovingCutsceneState {
     IL2CPP_REGISTER_METHOD(0x0086C6F0, app::SeinCharacter *, get_Sein, (app::MovingCutsceneState * this_ptr))

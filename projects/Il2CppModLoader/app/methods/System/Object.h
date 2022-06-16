@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Object {
     IL2CPP_REGISTER_METHOD(0x015F8190, bool, Equals_1, (app::Object * this_ptr, app::Object * obj))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::fsAotCompilationManager {
     IL2CPP_REGISTER_METHOD(0x01505520, bool, HasMember, (app::fsAotVersionInfo version_info, app::fsAotVersionInfo_Member member))

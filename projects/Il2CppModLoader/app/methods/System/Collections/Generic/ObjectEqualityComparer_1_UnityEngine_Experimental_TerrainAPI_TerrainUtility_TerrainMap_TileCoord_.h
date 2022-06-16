@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_ {
     IL2CPP_REGISTER_METHOD(0x01CD1020, bool, Equals_1, (app::ObjectEqualityComparer_1_UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_TileCoord_ * this_ptr, app::TerrainUtility_TerrainMap_TileCoord x, app::TerrainUtility_TerrainMap_TileCoord y))

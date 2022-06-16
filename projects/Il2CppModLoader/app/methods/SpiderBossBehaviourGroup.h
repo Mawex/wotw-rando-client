@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiderBossBehaviourGroup {
     IL2CPP_REGISTER_METHOD(0x009690E0, app::CageStructureMetaDataGroup *, GetItem, (app::SpiderBossBehaviourGroup * this_ptr, float look_direction))

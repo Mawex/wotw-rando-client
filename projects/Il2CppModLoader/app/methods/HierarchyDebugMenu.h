@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HierarchyDebugMenu {
     IL2CPP_REGISTER_METHOD(0x002FB990, app::List_1_List_1_IDebugMenuItem_ *, get_Items, (app::HierarchyDebugMenu * this_ptr))

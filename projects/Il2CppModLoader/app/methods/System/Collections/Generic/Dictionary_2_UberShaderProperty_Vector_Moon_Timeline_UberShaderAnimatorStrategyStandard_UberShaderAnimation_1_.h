@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UberShaderProperty_Vector_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_ {
     IL2CPP_REGISTER_METHOD(0x02BA5400, app::Dictionary_2_TKey_TValue_Enumerator_UberShaderProperty_Vector_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_, GetEnumerator, (app::Dictionary_2_UberShaderProperty_Vector_Moon_Timeline_UberShaderAnimatorStrategyStandard_UberShaderAnimation_1_ * this_ptr))

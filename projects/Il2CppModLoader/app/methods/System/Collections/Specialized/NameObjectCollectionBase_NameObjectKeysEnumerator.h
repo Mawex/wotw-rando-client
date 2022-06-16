@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator {
     IL2CPP_REGISTER_METHOD(0x02499460, void, ctor, (app::NameObjectCollectionBase_NameObjectKeysEnumerator * this_ptr, app::NameObjectCollectionBase * coll))

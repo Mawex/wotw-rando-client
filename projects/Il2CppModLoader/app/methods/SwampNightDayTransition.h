@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SwampNightDayTransition {
     IL2CPP_REGISTER_METHOD(0x00675960, bool, get_DayTime, (app::SwampNightDayTransition * this_ptr))

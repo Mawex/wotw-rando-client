@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KwolokBossTongueAttackBehaviour {
     IL2CPP_REGISTER_METHOD(0x012F0DF0, app::Transform *, get_TongueRoot, (app::KwolokBossTongueAttackBehaviour * this_ptr))

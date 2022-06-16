@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::StackBuilderSink {
     IL2CPP_REGISTER_METHOD(0x0231A770, void, ctor, (app::StackBuilderSink * this_ptr, app::MarshalByRefObject * obj, bool force_internal_execute))

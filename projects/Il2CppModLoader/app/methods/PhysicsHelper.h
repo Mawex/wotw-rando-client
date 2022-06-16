@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PhysicsHelper {
     IL2CPP_REGISTER_METHOD(0x014FF820, void, AddForceSafe_1, (app::Rigidbody * rigidbody, app::Vector2 force))

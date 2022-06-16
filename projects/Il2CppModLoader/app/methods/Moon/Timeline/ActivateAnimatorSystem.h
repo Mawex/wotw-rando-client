@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ActivateAnimatorSystem {
     IL2CPP_REGISTER_METHOD(0x0311AC10, app::ActivateAnimatorSystem *, get_Instance, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CancellableController {
     IL2CPP_REGISTER_METHOD(0x00B228C0, void, InitializeForTimeline, (app::CancellableController * this_ptr, app::MoonTimeline * timeline))

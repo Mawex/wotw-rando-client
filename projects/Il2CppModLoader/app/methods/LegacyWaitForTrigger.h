@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyWaitForTrigger {
     IL2CPP_REGISTER_METHOD(0x011318A0, app::Rect, get_Bounds, (app::LegacyWaitForTrigger * this_ptr))

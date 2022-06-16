@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::UI::Button {
     IL2CPP_REGISTER_METHOD(0x00D23FF0, void, OnSelected, (app::Button_1 * this_ptr))

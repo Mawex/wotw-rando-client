@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SlugHitBehaviour {
     IL2CPP_REGISTER_METHOD(0x006C5B70, void, OnInitialize, (app::SlugHitBehaviour * this_ptr))

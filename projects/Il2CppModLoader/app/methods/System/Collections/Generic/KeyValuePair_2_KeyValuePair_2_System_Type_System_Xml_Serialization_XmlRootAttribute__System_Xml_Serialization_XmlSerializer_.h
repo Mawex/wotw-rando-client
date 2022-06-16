@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_KeyValuePair_2_System_Type_System_Xml_Serialization_XmlRootAttribute__System_Xml_Serialization_XmlSerializer_ {
     IL2CPP_REGISTER_METHOD(0x0010A980, app::KeyValuePair_2_System_Type_System_Xml_Serialization_XmlRootAttribute_, get_Key, (app::KeyValuePair_2_KeyValuePair_2_System_Type_System_Xml_Serialization_XmlRootAttribute_System_Xml_Serialization_XmlSerializer___Boxed * this_ptr))

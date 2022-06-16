@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::Decoder {
     IL2CPP_REGISTER_METHOD(0x02448100, void, SerializeDecoder, (app::Decoder * this_ptr, app::SerializationInfo * info))

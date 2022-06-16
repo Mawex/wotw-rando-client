@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::WsaReflectionExtensions {
     IL2CPP_REGISTER_METHOD(0x01AD43A0, app::Delegate *, CreateDelegate, (app::MethodInfo_1 * method_info, app::Type * delegate_type, app::Object * instance))

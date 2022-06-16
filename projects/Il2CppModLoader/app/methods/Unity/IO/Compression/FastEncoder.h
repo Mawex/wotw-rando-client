@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Unity::IO::Compression::FastEncoder {
     IL2CPP_REGISTER_METHOD(0x02B76210, void, ctor, (app::FastEncoder * this_ptr))

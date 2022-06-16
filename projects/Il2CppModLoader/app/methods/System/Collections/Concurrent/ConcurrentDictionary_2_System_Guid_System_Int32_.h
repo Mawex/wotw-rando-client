@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_System_Guid_System_Int32_ {
     IL2CPP_REGISTER_METHOD(0x02AE63B0, void, set_Item, (app::ConcurrentDictionary_2_System_Guid_System_Int32_ * this_ptr, app::Guid key, int32_t value))

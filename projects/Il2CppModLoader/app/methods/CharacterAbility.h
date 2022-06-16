@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CharacterAbility {
     IL2CPP_REGISTER_METHOD(0x01046690, void, ctor, (app::CharacterAbility * this_ptr, app::PlayerAbilities * player_abilities, app::AbilityType__Enum ability_type))

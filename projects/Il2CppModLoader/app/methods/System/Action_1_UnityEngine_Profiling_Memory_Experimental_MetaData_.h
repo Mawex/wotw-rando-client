@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Action_1_UnityEngine_Profiling_Memory_Experimental_MetaData_ {
     IL2CPP_REGISTER_METHOD(0x00673B90, void, Invoke, (app::Action_1_UnityEngine_Profiling_Memory_Experimental_MetaData_ * this_ptr, app::MetaData * obj))

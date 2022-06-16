@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_DebugMenu_ExternalItem_ {
     IL2CPP_REGISTER_METHOD(0x02C2A010, int32_t, Compare, (app::ObjectComparer_1_DebugMenu_ExternalItem_ * this_ptr, app::DebugMenu_ExternalItem x, app::DebugMenu_ExternalItem y))

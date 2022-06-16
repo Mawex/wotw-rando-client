@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_Swing_Int2_Moon_Rendering_SrpSampler_ {
     IL2CPP_REGISTER_METHOD(0x0014FCA0, void, ctor, (app::KeyValuePair_2_Swing_Int2_Moon_Rendering_SrpSampler___Boxed * this_ptr, app::Int2 key, app::SrpSampler value))

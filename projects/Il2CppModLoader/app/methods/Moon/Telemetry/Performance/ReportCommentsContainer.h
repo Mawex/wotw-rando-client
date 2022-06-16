@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::ReportCommentsContainer {
     IL2CPP_REGISTER_METHOD(0x0052A040, void, set_IsChanged, (app::ReportCommentsContainer * this_ptr, bool value))

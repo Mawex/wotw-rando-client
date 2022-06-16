@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DistortModifier {
     IL2CPP_REGISTER_METHOD(0x00B99D90, app::IEnumerable_1_System_String_ *, GetKeywordsForShader, (app::DistortModifier * this_ptr))

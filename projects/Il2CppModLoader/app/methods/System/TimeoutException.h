@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::TimeoutException {
     IL2CPP_REGISTER_METHOD(0x027BB380, void, ctor_1, (app::TimeoutException * this_ptr))

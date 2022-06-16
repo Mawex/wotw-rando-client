@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ChallengeShrineTrigger {
     IL2CPP_REGISTER_METHOD(0x01045060, void, OnTriggerEnter, (app::ChallengeShrineTrigger * this_ptr, app::Collider * collider))

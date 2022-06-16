@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::RelatedView {
     IL2CPP_REGISTER_METHOD(0x01E4AB30, void, ctor_1, (app::RelatedView * this_ptr, app::DataColumn__Array * columns, app::Object__Array * values))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::X509::PKCS12 {
     IL2CPP_REGISTER_METHOD(0x025DAA00, void, ctor_1, (app::PKCS12 * this_ptr))

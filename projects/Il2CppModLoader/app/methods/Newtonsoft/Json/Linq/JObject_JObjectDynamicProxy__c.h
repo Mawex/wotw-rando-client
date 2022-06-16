@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy___c {
     IL2CPP_REGISTER_METHOD(0x01F0CE70, void, cctor, ())

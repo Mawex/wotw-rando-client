@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostCameraPlugin_CameraData {
     IL2CPP_REGISTER_METHOD(0x00E159F0, void, Save, (app::GhostCameraPlugin_CameraData * this_ptr, app::BinaryWriter * binary_writer))

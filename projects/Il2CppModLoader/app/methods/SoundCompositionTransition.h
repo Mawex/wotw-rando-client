@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SoundCompositionTransition {
     IL2CPP_REGISTER_METHOD(0x00EE7A80, float, get_EndPreviousSoundTime, (app::SoundCompositionTransition * this_ptr))

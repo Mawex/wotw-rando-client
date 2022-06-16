@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ScenariosParticleSystemAnimator {
     IL2CPP_REGISTER_METHOD(0x01E81F20, app::Transform *, get_TransformTarget, (app::ScenariosParticleSystemAnimator * this_ptr))

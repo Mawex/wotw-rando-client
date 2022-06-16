@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::TwoDataProviderSynchronizer {
     IL2CPP_REGISTER_METHOD(0x00CDA2A0, bool, get_HasSynchronised, (app::TwoDataProviderSynchronizer * this_ptr))

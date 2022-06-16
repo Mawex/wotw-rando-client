@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::DictionaryKeyCollectionDebugView_2_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x0162AB30, app::Object__Array *, get_Items_1, (app::DictionaryKeyCollectionDebugView_2_System_Object_System_Object_ * this_ptr))

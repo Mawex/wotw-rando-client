@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Blizzard {
     IL2CPP_REGISTER_METHOD(0x02763440, app::Material *, get_material, (app::CameraFilterPack_Blizzard * this_ptr))

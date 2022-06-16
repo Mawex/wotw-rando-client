@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Util::Tokenizer_StreamTokenReader {
     IL2CPP_REGISTER_METHOD(0x00E464D0, void, ctor, (app::Tokenizer_StreamTokenReader * this_ptr, app::StreamReader * input))

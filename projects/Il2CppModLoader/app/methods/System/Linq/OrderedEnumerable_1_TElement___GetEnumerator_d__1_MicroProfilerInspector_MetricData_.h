@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::OrderedEnumerable_1_TElement___GetEnumerator_d__1_MicroProfilerInspector_MetricData_ {
     IL2CPP_REGISTER_METHOD(0x01D09710, void, ctor, (app::OrderedEnumerable_1_TElement_GetEnumerator_d_1_MicroProfilerInspector_MetricData_ * this_ptr, int32_t __1__state))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::IgnoreCollisionsHelper {
     IL2CPP_REGISTER_METHOD(0x00113420, bool, IsIgnorning, (app::IgnoreCollisionsHelper__Boxed * this_ptr, app::Collider * other))

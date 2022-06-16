@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Physics {
     IL2CPP_REGISTER_METHOD(0x030A3D30, app::Vector3, get_gravity, ())

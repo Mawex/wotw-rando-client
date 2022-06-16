@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TentacleJoint {
     IL2CPP_REGISTER_METHOD(0x010CDB80, void, add_ReceiveDamageCallback, (app::TentacleJoint * this_ptr, app::Action_2_Damage_Int32_ * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RollingRockParticlesController {
     IL2CPP_REGISTER_METHOD(0x01366C00, void, Start, (app::RollingRockParticlesController * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriggerColliderCallback_OnTrigger_Callback {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::TriggerColliderCallback_OnTrigger_Callback * this_ptr, app::Object * object, void * method_1))

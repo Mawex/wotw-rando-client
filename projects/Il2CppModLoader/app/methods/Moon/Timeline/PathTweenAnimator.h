@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::PathTweenAnimator {
     IL2CPP_REGISTER_METHOD(0x00778090, float, get_CurrentNormalizedPosition, (app::PathTweenAnimator * this_ptr))

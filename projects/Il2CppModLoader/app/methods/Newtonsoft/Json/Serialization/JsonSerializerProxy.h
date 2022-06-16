@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Serialization::JsonSerializerProxy {
     IL2CPP_REGISTER_METHOD(0x01BF85F0, void, add_Error, (app::JsonSerializerProxy * this_ptr, app::EventHandler_1_Newtonsoft_Json_Serialization_ErrorEventArgs_ * value))

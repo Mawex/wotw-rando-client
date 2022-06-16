@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PostStateDefinition_PostState {
     IL2CPP_REGISTER_METHOD(0x00C6A760, app::CameraSettings *, get_Settings, (app::PostStateDefinition_PostState * this_ptr))

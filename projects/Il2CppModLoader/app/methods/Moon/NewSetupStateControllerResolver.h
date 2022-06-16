@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver {
     IL2CPP_REGISTER_METHOD(0x002FB950, app::Dictionary_2_System_Int32_Moon_NewSetupStateControllerResolver_IRuntimeUberStateControllerDataLink_ *, get_DataLinks, (app::NewSetupStateControllerResolver * this_ptr))

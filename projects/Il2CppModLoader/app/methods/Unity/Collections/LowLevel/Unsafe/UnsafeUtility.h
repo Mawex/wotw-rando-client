@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Unity::Collections::LowLevel::Unsafe::UnsafeUtility {
     IL2CPP_REGISTER_METHOD(0x02418CB0, app::Void *, Malloc, (int64_t size, int32_t alignment, app::Allocator__Enum allocator))

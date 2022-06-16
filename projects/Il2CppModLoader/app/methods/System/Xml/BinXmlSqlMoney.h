@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::BinXmlSqlMoney {
     IL2CPP_REGISTER_METHOD(0x001DE610, void, ctor_1, (app::BinXmlSqlMoney__Boxed * this_ptr, int32_t v))

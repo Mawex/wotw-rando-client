@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DataProviderTest2 {
     IL2CPP_REGISTER_METHOD(0x00B8E4A0, app::Vector3, get_TestVector3, (app::DataProviderTest2 * this_ptr))

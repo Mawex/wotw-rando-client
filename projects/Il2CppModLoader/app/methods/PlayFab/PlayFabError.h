@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::PlayFabError {
     IL2CPP_REGISTER_METHOD(0x01A27450, app::String *, ToString, (app::PlayFabError * this_ptr))

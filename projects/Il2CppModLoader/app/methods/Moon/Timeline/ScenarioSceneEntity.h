@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ScenarioSceneEntity {
     IL2CPP_REGISTER_METHOD(0x007832B0, float, get_SceneDuration, (app::ScenarioSceneEntity * this_ptr))

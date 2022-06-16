@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberGhostTrail {
     IL2CPP_REGISTER_METHOD(0x013EE640, app::Renderer *, get_TargetRenderer, (app::UberGhostTrail * this_ptr))

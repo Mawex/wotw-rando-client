@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::IsInRangeFromTarget {
     IL2CPP_REGISTER_METHOD(0x00CB98E0, app::String *, get_Info, (app::IsInRangeFromTarget * this_ptr))

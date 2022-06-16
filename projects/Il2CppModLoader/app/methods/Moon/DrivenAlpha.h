@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::DrivenAlpha {
     IL2CPP_REGISTER_METHOD(0x01201D70, app::ITweenLerpInputProvider *, get_ResolvedInputProvider, (app::DrivenAlpha * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_String_System_ValueTuple_2_ {
     IL2CPP_REGISTER_METHOD(0x00107C10, app::ValueTuple_2_Int32_Int32_, get_Value, (app::KeyValuePair_2_System_String_System_ValueTuple_2___Boxed * this_ptr))

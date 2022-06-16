@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_Int32_LightCanvasEditorTextureCache_LightCanvasEditorTextureData_ {
     IL2CPP_REGISTER_METHOD(0x02DCC9C0, void, set_Item, (app::Dictionary_2_System_Int32_LightCanvasEditorTextureCache_LightCanvasEditorTextureData_ * this_ptr, int32_t key, app::LightCanvasEditorTextureCache_LightCanvasEditorTextureData value))

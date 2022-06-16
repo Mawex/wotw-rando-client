@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::EntityPhysicsAnimator {
     IL2CPP_REGISTER_METHOD(0x00766190, app::CharacterPlatformMovement *, get_Movement, (app::EntityPhysicsAnimator * this_ptr))

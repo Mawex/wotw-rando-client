@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ControllerShakeAsset {
     IL2CPP_REGISTER_METHOD(0x011F2260, float, get_Duration, (app::ControllerShakeAsset * this_ptr))

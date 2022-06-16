@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::frameworks::Switch::AxisInput {
     IL2CPP_REGISTER_METHOD(0x00597BC0, void, ctor, (app::AxisInput * this_ptr, app::Axis__Enum_1 axis, bool any_pad))

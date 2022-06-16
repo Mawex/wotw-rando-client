@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter {
     IL2CPP_REGISTER_METHOD(0x00E06D70, void, set_AssemblyFormat, (app::BinaryFormatter * this_ptr, app::FormatterAssemblyStyle__Enum value))

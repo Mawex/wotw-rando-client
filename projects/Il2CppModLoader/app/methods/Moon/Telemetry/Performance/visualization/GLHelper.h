@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::visualization::GLHelper {
     IL2CPP_REGISTER_METHOD(0x010A3D60, void, DrawRect, (float x1, float y1, float x2, float y2))

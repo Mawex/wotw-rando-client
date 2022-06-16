@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::dialogGraph::ChangeStateDialogDecorator {
     IL2CPP_REGISTER_METHOD(0x00F2C640, void, ExecuteDecorator, (app::ChangeStateDialogDecorator * this_ptr, app::IContext * context))

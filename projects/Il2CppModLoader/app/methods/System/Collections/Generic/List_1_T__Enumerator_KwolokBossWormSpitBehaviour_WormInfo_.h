@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_KwolokBossWormSpitBehaviour_WormInfo_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::KwolokBossWormSpitBehaviour_WormInfo *, get_Current, (app::List_1_T_Enumerator_KwolokBossWormSpitBehaviour_WormInfo___Boxed * this_ptr))

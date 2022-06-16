@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UpgradableShardItem {
     IL2CPP_REGISTER_METHOD(0x013AE4A0, app::PlayerUberStateShards_Shard *, get_ShardState, (app::UpgradableShardItem * this_ptr))

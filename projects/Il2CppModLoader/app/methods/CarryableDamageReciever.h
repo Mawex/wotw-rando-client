@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CarryableDamageReciever {
     IL2CPP_REGISTER_METHOD(0x00B25A10, void, Awake, (app::CarryableDamageReciever * this_ptr))

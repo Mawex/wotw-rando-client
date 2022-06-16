@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SetSeinColliderHeight {
     IL2CPP_REGISTER_METHOD(0x005A4240, void, Perform, (app::SetSeinColliderHeight * this_ptr, app::IContext * context))

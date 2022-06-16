@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::IsActiveCondition {
     IL2CPP_REGISTER_METHOD(0x00645CA0, app::GameObject *, get_EffectiveTarget, (app::IsActiveCondition * this_ptr))

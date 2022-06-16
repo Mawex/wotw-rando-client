@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsSerializationCallbackReceiverProcessor {
     IL2CPP_REGISTER_METHOD(0x0165D980, bool, CanProcess, (app::fsSerializationCallbackReceiverProcessor * this_ptr, app::Type * type))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::uberSerializationWisp::SavePedestalUberState {
     IL2CPP_REGISTER_METHOD(0x00F442B0, bool, get_HasGameBeenSaved, (app::SavePedestalUberState * this_ptr))

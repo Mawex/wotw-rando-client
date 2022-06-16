@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TwirlSettings {
     IL2CPP_REGISTER_METHOD(0x013DCB80, app::TwirlSettings *, Clone, (app::TwirlSettings * this_ptr))

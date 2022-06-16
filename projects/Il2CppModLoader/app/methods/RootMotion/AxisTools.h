@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::AxisTools {
     IL2CPP_REGISTER_METHOD(0x021FB560, app::Vector3, ToVector3, (app::Axis__Enum axis))

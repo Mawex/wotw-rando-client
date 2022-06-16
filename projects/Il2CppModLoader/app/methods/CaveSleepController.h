@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CaveSleepController {
     IL2CPP_REGISTER_METHOD(0x0103B230, void, Start, (app::CaveSleepController * this_ptr))

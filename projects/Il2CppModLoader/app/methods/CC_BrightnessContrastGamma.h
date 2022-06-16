@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CC_BrightnessContrastGamma {
     IL2CPP_REGISTER_METHOD(0x031928D0, void, OnRenderImage, (app::CC_BrightnessContrastGamma * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

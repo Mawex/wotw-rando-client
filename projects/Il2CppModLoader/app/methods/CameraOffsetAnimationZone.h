@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraOffsetAnimationZone {
     IL2CPP_REGISTER_METHOD(0x01693660, bool, get_IsActivated, (app::CameraOffsetAnimationZone * this_ptr))

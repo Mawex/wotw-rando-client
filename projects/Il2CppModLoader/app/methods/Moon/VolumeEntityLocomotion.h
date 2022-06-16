@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::VolumeEntityLocomotion {
     IL2CPP_REGISTER_METHOD(0x0049F2B0, app::VolumeEntityMovementProcessor *, get_VolumeMovement, (app::VolumeEntityLocomotion * this_ptr))

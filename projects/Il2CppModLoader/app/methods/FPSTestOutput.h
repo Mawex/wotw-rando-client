@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FPSTestOutput {
     IL2CPP_REGISTER_METHOD(0x0098DE70, void, ctor, (app::FPSTestOutput * this_ptr, app::String * output_file_name))

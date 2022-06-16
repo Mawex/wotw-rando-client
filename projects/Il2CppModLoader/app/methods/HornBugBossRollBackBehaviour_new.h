@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HornBugBossRollBackBehaviour_new {
     IL2CPP_REGISTER_METHOD(0x00B68320, app::Damage *, TweakDamage, (app::HornBugBossRollBackBehaviour_new * this_ptr, app::Damage * dmg, app::DamageDealer * dealer, app::IDamageReciever * reciever))

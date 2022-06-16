@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::PointerInputModule {
     IL2CPP_REGISTER_METHOD(0x01F23A50, void, ctor, (app::PointerInputModule * this_ptr))

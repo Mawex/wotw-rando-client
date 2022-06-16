@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_CatlikeCoding_TextBox_TextBoxLine_ {
     IL2CPP_REGISTER_METHOD(0x02C29BD0, int32_t, Compare, (app::ObjectComparer_1_CatlikeCoding_TextBox_TextBoxLine_ * this_ptr, app::TextBoxLine x, app::TextBoxLine y))

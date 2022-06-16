@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_Moon_UberStateVisualization_UberStateGroupData_ {
     IL2CPP_REGISTER_METHOD(0x02659C00, bool, Equals_1, (app::ObjectEqualityComparer_1_Moon_UberStateVisualization_UberStateGroupData_ * this_ptr, app::UberStateGroupData x, app::UberStateGroupData y))

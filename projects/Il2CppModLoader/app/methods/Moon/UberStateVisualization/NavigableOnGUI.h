@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::NavigableOnGUI {
     IL2CPP_REGISTER_METHOD(0x01B73260, bool, get_isSelected, (app::NavigableOnGUI * this_ptr))

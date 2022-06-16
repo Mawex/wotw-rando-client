@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Threading::Interlocked {
     IL2CPP_REGISTER_METHOD(0x027DE190, int32_t, CompareExchange_1, (int32_t * location1, int32_t value, int32_t comparand))

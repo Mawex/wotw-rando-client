@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::MoonEffectEmissionRateModifier {
     IL2CPP_REGISTER_METHOD(0x019809B0, void, Apply, (app::MoonEffectEmissionRateModifier * this_ptr, app::IMoonEffectComponentCache * input, app::MoonEffectRevertHandle * revert_handle))

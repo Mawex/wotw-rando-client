@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Net::CFNetwork {
     IL2CPP_REGISTER_METHOD(0x02173E80, void *, CFNetworkCopyProxiesForAutoConfigurationScriptSequential, (void * proxy_auto_configuration_script, void * target_u_r_l, app::void * * error))

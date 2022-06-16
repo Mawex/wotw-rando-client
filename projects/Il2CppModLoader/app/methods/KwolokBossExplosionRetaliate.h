@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KwolokBossExplosionRetaliate {
     IL2CPP_REGISTER_METHOD(0x012DFF60, void, Start, (app::KwolokBossExplosionRetaliate * this_ptr))

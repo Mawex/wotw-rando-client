@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyColorFlashAnimator {
     IL2CPP_REGISTER_METHOD(0x00A16740, void, Awake, (app::LegacyColorFlashAnimator * this_ptr))

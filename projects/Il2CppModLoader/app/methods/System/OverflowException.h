@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::OverflowException {
     IL2CPP_REGISTER_METHOD(0x0227C860, void, ctor_1, (app::OverflowException * this_ptr))

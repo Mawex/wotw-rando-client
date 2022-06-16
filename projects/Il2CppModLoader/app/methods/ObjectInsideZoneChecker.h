@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ObjectInsideZoneChecker {
     IL2CPP_REGISTER_METHOD(0x005C3FE0, app::Rect, get_Bounds, (app::ObjectInsideZoneChecker * this_ptr))

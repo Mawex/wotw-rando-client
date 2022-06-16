@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::UberStateController {
     IL2CPP_REGISTER_METHOD(0x01B69690, app::List_1_Moon_IUberStateApplier_ *, get_AppliersEditorCache, ())

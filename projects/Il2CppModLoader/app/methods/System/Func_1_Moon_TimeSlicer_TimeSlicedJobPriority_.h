@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Func_1_Moon_TimeSlicer_TimeSlicedJobPriority_ {
     IL2CPP_REGISTER_METHOD(0x0167F180, app::TimeSlicedJobPriority__Enum, Invoke, (app::Func_1_Moon_TimeSlicer_TimeSlicedJobPriority_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::ConcurrentDictionary_2_System_Type_System_Tuple_4_ {
     IL2CPP_REGISTER_METHOD(0x02AF0770, app::Tuple_4_Boolean_Boolean_Boolean_Boolean_ *, GetOrAdd, (app::ConcurrentDictionary_2_System_Type_System_Tuple_4_ * this_ptr, app::Type * key, app::Func_2_Type_Tuple_4_Boolean_Boolean_Boolean_Boolean_ * value_factory))

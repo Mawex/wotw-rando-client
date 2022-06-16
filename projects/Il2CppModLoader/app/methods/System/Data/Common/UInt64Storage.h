@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::Common::UInt64Storage {
     IL2CPP_REGISTER_METHOD(0x02868EC0, void, ctor, (app::UInt64Storage * this_ptr, app::DataColumn * column))

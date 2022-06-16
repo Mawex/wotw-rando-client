@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AmplifyColor::VolumeEffect {
     IL2CPP_REGISTER_METHOD(0x030CD060, void, ctor, (app::VolumeEffect * this_ptr, app::AmplifyColorBase * effect))

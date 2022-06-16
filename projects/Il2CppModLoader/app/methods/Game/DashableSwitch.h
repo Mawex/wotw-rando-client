@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Game::DashableSwitch {
     IL2CPP_REGISTER_METHOD(0x00A09730, void, Reset, (app::DashableSwitch * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_System_UInt16_ {
     IL2CPP_REGISTER_METHOD(0x02436970, bool, Equals_1, (app::ObjectEqualityComparer_1_System_UInt16_ * this_ptr, uint16_t x, uint16_t y))

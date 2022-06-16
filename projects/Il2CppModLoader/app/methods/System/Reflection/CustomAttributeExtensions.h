@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Reflection::CustomAttributeExtensions {
     IL2CPP_REGISTER_METHOD(0x0229B200, app::Attribute *, GetCustomAttribute_1, (app::Assembly * element, app::Type * attribute_type))

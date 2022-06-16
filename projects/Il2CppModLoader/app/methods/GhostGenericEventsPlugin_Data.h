@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostGenericEventsPlugin_Data {
     IL2CPP_REGISTER_METHOD(0x0011F5D0, void, ctor, (app::GhostGenericEventsPlugin_Data__Boxed * this_ptr, int32_t recording_i_d, int32_t property_id))

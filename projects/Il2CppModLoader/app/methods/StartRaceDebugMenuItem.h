@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::StartRaceDebugMenuItem {
     IL2CPP_REGISTER_METHOD(0x009B24D0, void, ctor, (app::StartRaceDebugMenuItem * this_ptr, app::String * path, app::String * text))

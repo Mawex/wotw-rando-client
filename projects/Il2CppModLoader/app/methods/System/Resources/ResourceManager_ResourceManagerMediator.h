@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceManager_ResourceManagerMediator {
     IL2CPP_REGISTER_METHOD(0x01A88460, void, ctor, (app::ResourceManager_ResourceManagerMediator * this_ptr, app::ResourceManager * rm))

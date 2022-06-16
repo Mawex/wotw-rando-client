@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::RemotingException {
     IL2CPP_REGISTER_METHOD(0x01E25790, void, ctor_1, (app::RemotingException * this_ptr))

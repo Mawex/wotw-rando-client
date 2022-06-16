@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DeactivatePetrifiedFogAction {
     IL2CPP_REGISTER_METHOD(0x00DD66D0, void, Perform, (app::DeactivatePetrifiedFogAction * this_ptr, app::IContext * context))

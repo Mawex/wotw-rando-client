@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::CacheControlHeaderValue {
     IL2CPP_REGISTER_METHOD(0x02D02C30, app::ICollection_1_System_Net_Http_Headers_NameValueHeaderValue_ *, get_Extensions, (app::CacheControlHeaderValue * this_ptr))

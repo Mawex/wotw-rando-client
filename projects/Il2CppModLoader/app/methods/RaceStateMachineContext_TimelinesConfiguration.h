@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RaceStateMachineContext_TimelinesConfiguration {
     IL2CPP_REGISTER_METHOD(0x0071BAF0, app::MoonTimeline *, For, (app::RaceStateMachineContext_TimelinesConfiguration * this_ptr, app::ScoreResult__Enum result))

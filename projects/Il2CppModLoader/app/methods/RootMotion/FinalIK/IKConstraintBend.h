@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKConstraintBend {
     IL2CPP_REGISTER_METHOD(0x02077D90, bool, IsValid, (app::IKConstraintBend * this_ptr, app::IKSolverFullBody * solver, app::Warning_Logger * logger))

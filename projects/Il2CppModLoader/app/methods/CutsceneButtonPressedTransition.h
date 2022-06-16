@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CutsceneButtonPressedTransition {
     IL2CPP_REGISTER_METHOD(0x00DBD8C0, bool, ShouldTransition, (app::CutsceneButtonPressedTransition * this_ptr))

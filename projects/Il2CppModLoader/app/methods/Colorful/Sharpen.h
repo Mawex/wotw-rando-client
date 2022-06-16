@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::Sharpen {
     IL2CPP_REGISTER_METHOD(0x03052960, bool, IRenderPostprocessor_get_enabled, (app::Sharpen * this_ptr))

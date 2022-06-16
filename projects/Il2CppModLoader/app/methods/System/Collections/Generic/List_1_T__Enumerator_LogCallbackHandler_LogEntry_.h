@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_LogCallbackHandler_LogEntry_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::LogCallbackHandler_LogEntry *, get_Current, (app::List_1_T_Enumerator_LogCallbackHandler_LogEntry___Boxed * this_ptr))

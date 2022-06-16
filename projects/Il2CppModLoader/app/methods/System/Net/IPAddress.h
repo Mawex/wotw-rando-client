@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::IPAddress {
     IL2CPP_REGISTER_METHOD(0x01E66070, void, ctor_1, (app::IPAddress * this_ptr, int64_t new_address))

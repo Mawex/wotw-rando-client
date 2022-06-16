@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MoveCameraToPlayerAnimator {
     IL2CPP_REGISTER_METHOD(0x00776270, void, OnStartPlayback, (app::MoveCameraToPlayerAnimator * this_ptr, app::IContext * context))

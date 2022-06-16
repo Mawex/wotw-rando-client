@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Configuration::SettingsLoadedEventArgs {
     IL2CPP_REGISTER_METHOD(0x02962C20, void, ctor, (app::SettingsLoadedEventArgs * this_ptr, app::SettingsProvider * provider))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ClientInformation {
     IL2CPP_REGISTER_METHOD(0x02E8E470, void, SetProvider, (app::IBuildInformationProvider * provider))

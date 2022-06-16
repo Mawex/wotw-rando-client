@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::DownloadProgressChangedEventArgs {
     IL2CPP_REGISTER_METHOD(0x01EB4050, void, ctor_1, (app::DownloadProgressChangedEventArgs * this_ptr, int32_t progress_percentage, app::Object * user_token, int64_t bytes_received, int64_t total_bytes_to_receive))

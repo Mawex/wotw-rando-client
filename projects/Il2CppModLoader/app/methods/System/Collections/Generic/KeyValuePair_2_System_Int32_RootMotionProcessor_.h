@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_Int32_RootMotionProcessor_ {
     IL2CPP_REGISTER_METHOD(0x00107C10, app::RootMotionProcessor *, get_Value, (app::KeyValuePair_2_System_Int32_RootMotionProcessor___Boxed * this_ptr))

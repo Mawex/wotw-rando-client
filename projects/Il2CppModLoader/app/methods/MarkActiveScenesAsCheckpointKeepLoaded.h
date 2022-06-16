@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MarkActiveScenesAsCheckpointKeepLoaded {
     IL2CPP_REGISTER_METHOD(0x00A0FD50, void, Perform, (app::MarkActiveScenesAsCheckpointKeepLoaded * this_ptr, app::IContext * context))

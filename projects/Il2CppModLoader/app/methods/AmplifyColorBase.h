@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AmplifyColorBase {
     IL2CPP_REGISTER_METHOD(0x030D48D0, app::Texture2D *, get_DefaultLut, (app::AmplifyColorBase * this_ptr))

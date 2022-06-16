@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Enumerable__SkipIterator_d__31_1_System_Int64_ {
     IL2CPP_REGISTER_METHOD(0x0225B170, void, ctor, (app::Enumerable_SkipIterator_d_31_1_System_Int64_ * this_ptr, int32_t __1__state))

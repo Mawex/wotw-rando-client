@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MarkSavePedestalAsUsedAction {
     IL2CPP_REGISTER_METHOD(0x00A0FDE0, void, Perform, (app::MarkSavePedestalAsUsedAction * this_ptr, app::IContext * context))

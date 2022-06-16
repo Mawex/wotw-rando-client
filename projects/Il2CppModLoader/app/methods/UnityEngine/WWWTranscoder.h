@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::WWWTranscoder {
     IL2CPP_REGISTER_METHOD(0x03181410, uint8_t, Hex2Byte, (app::Byte__Array * b, int32_t offset))

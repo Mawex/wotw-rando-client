@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::AsyncHandshakeRequest {
     IL2CPP_REGISTER_METHOD(0x0217AC90, void, ctor, (app::AsyncHandshakeRequest * this_ptr, app::MobileAuthenticatedStream * parent, bool sync))

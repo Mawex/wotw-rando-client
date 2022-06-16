@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostGenericEventsPlugin {
     IL2CPP_REGISTER_METHOD(0x00E1B3E0, void, PlayCycle, (app::GhostGenericEventsPlugin * this_ptr, float frame_time))

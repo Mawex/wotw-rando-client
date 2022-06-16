@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Rendering::MoonRenderPipelineDebugUI_FpsCounter {
     IL2CPP_REGISTER_METHOD(0x00119820, void, increment, (app::MoonRenderPipelineDebugUI_FpsCounter__Boxed * this_ptr, float frame_time))

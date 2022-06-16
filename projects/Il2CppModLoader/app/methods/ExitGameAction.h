@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ExitGameAction {
     IL2CPP_REGISTER_METHOD(0x00986ED0, void, Perform, (app::ExitGameAction * this_ptr, app::IContext * context))

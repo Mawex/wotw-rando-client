@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::RegularExpressions::SharedReference {
     IL2CPP_REGISTER_METHOD(0x02A7AB90, app::Object *, Get, (app::SharedReference * this_ptr))

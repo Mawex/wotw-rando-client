@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Nullable_1_System_Text_RegularExpressions_RegexOptions_ {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, ctor, (app::Nullable_1_System_Text_RegularExpressions_RegexOptions___Boxed * this_ptr, app::RegexOptions__Enum value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Dynamic::Utils::TypeExtensions {
     IL2CPP_REGISTER_METHOD(0x01F95E10, app::MethodInfo_1 *, GetAnyStaticMethodValidated, (app::Type * type, app::String * name, app::Type__Array * types))

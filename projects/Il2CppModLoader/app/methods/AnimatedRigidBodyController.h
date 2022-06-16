@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AnimatedRigidBodyController {
     IL2CPP_REGISTER_METHOD(0x004FBC40, void, FixedUpdate, (app::AnimatedRigidBodyController * this_ptr))

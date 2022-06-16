@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CoroutineTween::TweenRunner_1_ColorTween_ {
     IL2CPP_REGISTER_METHOD(0x018E6D70, void, ctor, (app::TweenRunner_1_ColorTween_ * this_ptr))

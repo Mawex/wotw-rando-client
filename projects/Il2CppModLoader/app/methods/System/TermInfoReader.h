@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::TermInfoReader {
     IL2CPP_REGISTER_METHOD(0x02444C20, void, ctor_1, (app::TermInfoReader * this_ptr, app::String * term, app::String * filename))

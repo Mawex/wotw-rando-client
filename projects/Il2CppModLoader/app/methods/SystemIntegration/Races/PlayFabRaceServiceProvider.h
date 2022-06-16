@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::PlayFabRaceServiceProvider {
     IL2CPP_REGISTER_METHOD(0x005245D0, void, ctor, (app::PlayFabRaceServiceProvider * this_ptr, app::IDataProvider * statistics_provider_provider, app::PlayFabSignInProvider * play_fab_sign_in_provider))

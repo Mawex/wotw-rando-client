@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayerSettingsPerScene {
     IL2CPP_REGISTER_METHOD(0x01428A60, void, Lerp, (app::PlayerSettingsPerScene * from, app::PlayerSettingsPerScene * to, app::PlayerSettingsPerScene * * destination, float curve_value))

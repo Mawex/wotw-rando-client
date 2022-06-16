@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LightCanvas_SubLayerSettingGroup {
     IL2CPP_REGISTER_METHOD(0x01145B20, bool, Equals_1, (app::LightCanvas_SubLayerSettingGroup * this_ptr, app::LightCanvas_SubLayerSettingGroup * other))

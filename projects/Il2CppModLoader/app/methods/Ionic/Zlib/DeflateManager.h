@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::DeflateManager {
     IL2CPP_REGISTER_METHOD(0x03065460, void, ctor, (app::DeflateManager * this_ptr))

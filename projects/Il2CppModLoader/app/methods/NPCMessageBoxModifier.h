@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::NPCMessageBoxModifier {
     IL2CPP_REGISTER_METHOD(0x00881C70, void, HideHideables, (app::NPCMessageBoxModifier * this_ptr))

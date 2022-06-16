@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CharacterState {
     IL2CPP_REGISTER_METHOD(0x01314750, app::MoonAnimator *, get_SeinAnimator, (app::CharacterState * this_ptr))

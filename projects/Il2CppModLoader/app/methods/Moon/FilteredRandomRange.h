@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::FilteredRandomRange {
     IL2CPP_REGISTER_METHOD(0x02559030, void, ctor, (app::FilteredRandomRange * this_ptr, app::IRng * rng, int32_t history_length))

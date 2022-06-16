@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ScreenshotLegacySetup {
     IL2CPP_REGISTER_METHOD(0x01068F60, app::Type *, get_Type, (app::ScreenshotLegacySetup * this_ptr))

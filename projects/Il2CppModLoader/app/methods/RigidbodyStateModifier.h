@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RigidbodyStateModifier {
     IL2CPP_REGISTER_METHOD(0x01B789A0, app::Vector3, get_Position, (app::RigidbodyStateModifier * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BabySeinSpriteRotationController {
     IL2CPP_REGISTER_METHOD(0x003FCB00, bool, get_IsSuspended, (app::BabySeinSpriteRotationController * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Race::MatchmakingExtensions {
     IL2CPP_REGISTER_METHOD(0x00C44530, app::List_1_Moon_Race_LeaderBoardEntry_ *, GetEntriesInRange, (app::List_1_Moon_Race_LeaderBoardEntry_ * leaderboard, int32_t amount, int32_t pivot_slot, int32_t * started_range_index))

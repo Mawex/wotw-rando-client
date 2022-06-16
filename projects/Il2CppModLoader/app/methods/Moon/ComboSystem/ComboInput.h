@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ComboSystem::ComboInput {
     IL2CPP_REGISTER_METHOD(0x00CC59C0, void, ctor, (app::ComboInput * this_ptr, app::InputDirection__Enum direction, app::AbilityType__Enum action, app::ButtonInputType__Enum input_type, bool facing_left))

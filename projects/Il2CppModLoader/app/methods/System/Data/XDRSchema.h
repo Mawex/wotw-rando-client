@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::XDRSchema {
     IL2CPP_REGISTER_METHOD(0x022C1A50, void, ctor, (app::XDRSchema * this_ptr, app::DataSet * ds, bool f_inline))

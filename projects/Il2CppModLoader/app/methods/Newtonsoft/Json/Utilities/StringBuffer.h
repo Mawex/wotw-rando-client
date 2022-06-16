@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::StringBuffer {
     IL2CPP_REGISTER_METHOD(0x0010A860, int32_t, get_Position, (app::StringBuffer__Boxed * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::GrounderQuadruped {
     IL2CPP_REGISTER_METHOD(0x0206BC80, void, OpenUserManual, (app::GrounderQuadruped * this_ptr))

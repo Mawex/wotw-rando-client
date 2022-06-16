@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::StaticEntityGenericTurningBehaviour {
     IL2CPP_REGISTER_METHOD(0x003FDD20, float, get_TargetLookDirectionX, (app::StaticEntityGenericTurningBehaviour * this_ptr))

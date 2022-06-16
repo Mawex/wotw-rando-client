@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MeleeComboMoveSword__DummyHitStop_d__102 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::MeleeComboMoveSword_DummyHitStop_d_102 * this_ptr, int32_t __1__state))

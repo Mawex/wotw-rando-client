@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Globalization::JapaneseCalendar {
     IL2CPP_REGISTER_METHOD(0x02618350, app::DateTime, get_MinSupportedDateTime, (app::JapaneseCalendar * this_ptr))

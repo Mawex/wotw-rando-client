@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Threading::Tasks::Task_WhenAllPromise {
     IL2CPP_REGISTER_METHOD(0x0233B690, void, ctor, (app::Task_WhenAllPromise * this_ptr, app::Task__Array * tasks))

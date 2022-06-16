@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DebugProjectileTester {
     IL2CPP_REGISTER_METHOD(0x00DFDD30, void, Shoot, (app::DebugProjectileTester * this_ptr))

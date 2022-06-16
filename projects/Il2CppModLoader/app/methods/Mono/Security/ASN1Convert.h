@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::ASN1Convert {
     IL2CPP_REGISTER_METHOD(0x025C2DB0, app::ASN1 *, FromInt32_1, (int32_t value))

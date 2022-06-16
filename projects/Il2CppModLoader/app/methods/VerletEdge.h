@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::VerletEdge {
     IL2CPP_REGISTER_METHOD(0x013C3E30, void, Set, (app::VerletEdge * this_ptr, app::VerletEdge * verlet_edge, bool set_skinning))

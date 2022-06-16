@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DamageReceiversKilledStateWriter {
     IL2CPP_REGISTER_METHOD(0x00DC8E30, void, OnEnable, (app::DamageReceiversKilledStateWriter * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Request_1_ActionStatesCallback_ {
     IL2CPP_REGISTER_METHOD(0x02722770, void, Send, (app::Request_1_ActionStatesCallback_ * this_ptr, app::Action_1_ActionStatesCallback_ * callback))

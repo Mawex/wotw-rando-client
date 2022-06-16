@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RetaliateShriek {
     IL2CPP_REGISTER_METHOD(0x002FCE30, bool, get_IsSuspended, (app::RetaliateShriek * this_ptr))

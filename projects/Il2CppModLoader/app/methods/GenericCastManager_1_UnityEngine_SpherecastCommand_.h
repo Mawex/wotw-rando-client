@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GenericCastManager_1_UnityEngine_SpherecastCommand_ {
     IL2CPP_REGISTER_METHOD(0x019F5A80, bool, PerformCastInternal, (app::SpherecastCommand cmd, app::RaycastHit * hit, int32_t * request_i_d, bool guarantee_immediate_result))

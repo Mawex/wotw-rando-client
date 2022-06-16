@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::DecoratorNode {
     IL2CPP_REGISTER_METHOD(0x0300CEF0, app::BehaviourStatus__Enum, get_DecoratorStatus, (app::DecoratorNode * this_ptr))

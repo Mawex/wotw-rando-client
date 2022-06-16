@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::JsonTokenizer {
     IL2CPP_REGISTER_METHOD(0x030F0670, app::JsonToken__Enum, Next, (app::String * json, app::Substr span, app::Substr * remainder, app::StringBuilder * buffer, double * number))

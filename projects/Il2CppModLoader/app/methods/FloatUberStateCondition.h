@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FloatUberStateCondition {
     IL2CPP_REGISTER_METHOD(0x01B5B4E0, void, ctor, (app::FloatUberStateCondition * this_ptr))

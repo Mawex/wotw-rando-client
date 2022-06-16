@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JsonLoadSettings {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, app::CommentHandling__Enum, get_CommentHandling, (app::JsonLoadSettings * this_ptr))

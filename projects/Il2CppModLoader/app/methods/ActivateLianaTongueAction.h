@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ActivateLianaTongueAction {
     IL2CPP_REGISTER_METHOD(0x004C8B80, void, Perform, (app::ActivateLianaTongueAction * this_ptr, app::IContext * context))

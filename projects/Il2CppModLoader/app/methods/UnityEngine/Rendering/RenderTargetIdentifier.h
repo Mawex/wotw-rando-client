@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Rendering::RenderTargetIdentifier {
     IL2CPP_REGISTER_METHOD(0x00218440, void, ctor_1, (app::RenderTargetIdentifier__Boxed * this_ptr, app::BuiltinRenderTextureType__Enum type))

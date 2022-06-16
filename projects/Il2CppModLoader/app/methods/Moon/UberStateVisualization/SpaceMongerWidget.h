@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::UberStateVisualization::SpaceMongerWidget {
     IL2CPP_REGISTER_METHOD(0x030BED70, void, add_OnSelectionChanged, (app::SpaceMongerWidget * this_ptr, app::Action_1_Moon_UberStateVisualization_UberStateData_ * value))

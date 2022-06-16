@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AtlasSpriteTextureBinder {
     IL2CPP_REGISTER_METHOD(0x00845430, void, OnPoolSpawned, (app::AtlasSpriteTextureBinder * this_ptr))

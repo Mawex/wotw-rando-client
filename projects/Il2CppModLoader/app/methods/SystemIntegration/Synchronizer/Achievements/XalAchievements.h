@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Synchronizer::Achievements::XalAchievements {
     IL2CPP_REGISTER_METHOD(0x0052F860, app::String *, get_Name, (app::XalAchievements * this_ptr))

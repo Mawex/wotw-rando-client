@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::Private::CallbackHelpers {
     IL2CPP_REGISTER_METHOD(0x02185570, app::MonoRemoteCertificateValidationCallback *, PublicToMono, (app::RemoteCertificateValidationCallback * callback))

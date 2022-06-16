@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DashableSwitchSetupData {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::MoonTimeline *, get_Transition, (app::DashableSwitchSetupData * this_ptr))

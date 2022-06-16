@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpellUISpellDetails {
     IL2CPP_REGISTER_METHOD(0x009512C0, void, Awake, (app::SpellUISpellDetails * this_ptr))

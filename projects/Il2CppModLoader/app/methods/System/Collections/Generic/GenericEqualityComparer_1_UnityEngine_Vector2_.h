@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_UnityEngine_Vector2_ {
     IL2CPP_REGISTER_METHOD(0x02AB3000, bool, Equals_1, (app::GenericEqualityComparer_1_UnityEngine_Vector2_ * this_ptr, app::Vector2 x, app::Vector2 y))

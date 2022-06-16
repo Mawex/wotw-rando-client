@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::EnergyDoor {
     IL2CPP_REGISTER_METHOD(0x00C878F0, void, OnValidate, (app::EnergyDoor * this_ptr))

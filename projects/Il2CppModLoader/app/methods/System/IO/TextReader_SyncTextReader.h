@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::IO::TextReader_SyncTextReader {
     IL2CPP_REGISTER_METHOD(0x02385D50, void, ctor, (app::TextReader_SyncTextReader * this_ptr, app::TextReader * t))

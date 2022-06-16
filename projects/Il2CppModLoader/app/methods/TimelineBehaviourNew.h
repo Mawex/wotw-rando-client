@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TimelineBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x010F4B70, app::BehaviourStatus__Enum, get_StatusWhenPlaying, (app::TimelineBehaviourNew * this_ptr))

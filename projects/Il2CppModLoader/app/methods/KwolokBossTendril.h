@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KwolokBossTendril {
     IL2CPP_REGISTER_METHOD(0x00989BF0, app::KwolokBossTendril_DurationType__Enum, get_Duration, (app::KwolokBossTendril * this_ptr))

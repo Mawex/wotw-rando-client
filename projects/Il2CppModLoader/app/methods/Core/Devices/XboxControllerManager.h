@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Core::Devices::XboxControllerManager {
     IL2CPP_REGISTER_METHOD(0x011F8410, app::XboxControllerManager *, get_CurrentController, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::Callback_1_T__DispatchDelegate_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::Callback_1_T_DispatchDelegate_System_Object_ * this_ptr, app::Object * object, void * method_1))

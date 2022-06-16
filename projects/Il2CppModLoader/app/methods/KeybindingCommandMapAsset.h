@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KeybindingCommandMapAsset {
     IL2CPP_REGISTER_METHOD(0x00E65250, app::List_1_KeybindingCommandMapAsset_ExclusiveCommandList_ *, GetExclusiveKeyLists, (app::KeybindingCommandMapAsset * this_ptr, app::KeybindingCommandMapAsset_CommandBindingEnum__Enum bind))

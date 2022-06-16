@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MinerInteractionBehaviour {
     IL2CPP_REGISTER_METHOD(0x0144C570, void, OnEntityInitialized, (app::MinerInteractionBehaviour * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::UnloadTexturesTask {
     IL2CPP_REGISTER_METHOD(0x00CB4780, void, Update, (app::UnloadTexturesTask * this_ptr))

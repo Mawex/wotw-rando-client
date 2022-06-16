@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::frameworks::xboxLive::NintendoFileStorageEventHandler {
     IL2CPP_REGISTER_METHOD(0x00F6A710, app::Object *, ByteArrayToData, (app::NintendoFileStorageEventHandler * this_ptr, app::Byte__Array * bytes))

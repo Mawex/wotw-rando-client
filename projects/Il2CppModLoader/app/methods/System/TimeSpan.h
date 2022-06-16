@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::TimeSpan {
     IL2CPP_REGISTER_METHOD(0x0010FD20, void, ctor_1, (app::TimeSpan__Boxed * this_ptr, int64_t ticks))

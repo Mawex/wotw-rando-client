@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::GenericEqualityComparer_1_UnityEngine_UI_SpriteState_ {
     IL2CPP_REGISTER_METHOD(0x02AB2E70, bool, Equals_1, (app::GenericEqualityComparer_1_UnityEngine_UI_SpriteState_ * this_ptr, app::SpriteState x, app::SpriteState y))

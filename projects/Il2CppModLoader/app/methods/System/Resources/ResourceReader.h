@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Resources::ResourceReader {
     IL2CPP_REGISTER_METHOD(0x01A887D0, void, ctor, (app::ResourceReader * this_ptr, app::Stream * stream, app::Dictionary_2_System_String_System_Resources_ResourceLocator_ * res_cache))

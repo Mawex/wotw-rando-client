@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ScenesManagerContext {
     IL2CPP_REGISTER_METHOD(0x010648A0, app::List_1_SceneManagerScene_ *, get_ActiveScenes, (app::ScenesManagerContext * this_ptr))

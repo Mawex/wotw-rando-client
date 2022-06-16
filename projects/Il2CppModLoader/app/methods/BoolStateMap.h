@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BoolStateMap {
     IL2CPP_REGISTER_METHOD(0x01B55180, app::List_1_GenericMappingEntry_ *, GetGenericMapping, (app::BoolStateMap * this_ptr))

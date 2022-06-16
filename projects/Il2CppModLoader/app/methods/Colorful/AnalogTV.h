@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::AnalogTV {
     IL2CPP_REGISTER_METHOD(0x0303D7C0, void, Update, (app::AnalogTV * this_ptr))

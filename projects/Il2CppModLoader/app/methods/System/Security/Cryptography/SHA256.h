@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::SHA256 {
     IL2CPP_REGISTER_METHOD(0x028F7B70, void, ctor, (app::SHA256 * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Audio::AudioSampleProvider_SampleFramesHandler {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::AudioSampleProvider_SampleFramesHandler * this_ptr, app::Object * object, void * method_1))

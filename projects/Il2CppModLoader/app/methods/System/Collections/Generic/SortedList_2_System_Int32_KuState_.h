@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_System_Int32_KuState_ {
     IL2CPP_REGISTER_METHOD(0x02CAE6C0, void, Add, (app::SortedList_2_System_Int32_KuState_ * this_ptr, int32_t key, app::KuState * value))

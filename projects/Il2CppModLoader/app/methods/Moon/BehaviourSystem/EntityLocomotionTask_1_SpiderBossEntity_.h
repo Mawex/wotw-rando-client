@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::EntityLocomotionTask_1_SpiderBossEntity_ {
     IL2CPP_REGISTER_METHOD(0x019E1C80, app::SpiderBossEntity *, get_Entity, (app::EntityLocomotionTask_1_SpiderBossEntity_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Proxies::TransparentProxy {
     IL2CPP_REGISTER_METHOD(0x023200F0, app::RuntimeType *, GetProxyType, (app::TransparentProxy * this_ptr))

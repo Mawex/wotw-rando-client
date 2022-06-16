@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraOffsetMenuItem {
     IL2CPP_REGISTER_METHOD(0x0169B4A0, void, ctor, (app::CameraOffsetMenuItem * this_ptr, app::String * path, app::String * str))

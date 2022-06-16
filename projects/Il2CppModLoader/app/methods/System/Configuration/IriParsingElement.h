@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Configuration::IriParsingElement {
     IL2CPP_REGISTER_METHOD(0x02961C60, void, ctor, (app::IriParsingElement * this_ptr))

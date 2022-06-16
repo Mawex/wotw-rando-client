@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AkCommonOutputSettings_ChannelConfiguration {
     IL2CPP_REGISTER_METHOD(0x026DA0E0, void, CopyTo, (app::AkCommonOutputSettings_ChannelConfiguration * this_ptr, app::AkChannelConfig * config))

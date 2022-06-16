@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LizardDeathReaction {
     IL2CPP_REGISTER_METHOD(0x00FA9E50, void, OnCacheSerializedComponents, (app::LizardDeathReaction * this_ptr, app::Entity * owner))

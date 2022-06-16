@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MinerBuilderDialogBehaviour {
     IL2CPP_REGISTER_METHOD(0x008519C0, app::BuilderNPC_State__Enum, get_DialogState, (app::MinerBuilderDialogBehaviour * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WideScreenAdjustmentAnimator {
     IL2CPP_REGISTER_METHOD(0x00573350, void, CacheOriginals, (app::WideScreenAdjustmentAnimator * this_ptr))

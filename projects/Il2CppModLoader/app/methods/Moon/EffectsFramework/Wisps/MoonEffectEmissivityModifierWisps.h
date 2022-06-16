@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::Wisps::MoonEffectEmissivityModifierWisps {
     IL2CPP_REGISTER_METHOD(0x01209C00, void, Apply, (app::MoonEffectEmissivityModifierWisps * this_ptr, app::IMoonEffectComponentCache * input, app::MoonEffectRevertHandle * revert_handle))

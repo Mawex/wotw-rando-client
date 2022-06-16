@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MeleeWeaponColliderStick_DebugCircle {
     IL2CPP_REGISTER_METHOD(0x009CCE50, void, ctor, (app::MeleeWeaponColliderStick_DebugCircle * this_ptr, app::Vector3 position, float radius))

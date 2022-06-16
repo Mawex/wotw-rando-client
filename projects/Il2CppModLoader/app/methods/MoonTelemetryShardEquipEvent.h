@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryShardEquipEvent {
     IL2CPP_REGISTER_METHOD(0x01472090, void, ctor, (app::MoonTelemetryShardEquipEvent * this_ptr, app::PlayerUberStateShards_Shard * shard, bool equipped))

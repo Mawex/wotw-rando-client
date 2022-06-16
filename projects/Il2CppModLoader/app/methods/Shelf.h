@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Shelf {
     IL2CPP_REGISTER_METHOD(0x005B20A0, app::GridObject *, get_CurrentGridObject, (app::Shelf * this_ptr))

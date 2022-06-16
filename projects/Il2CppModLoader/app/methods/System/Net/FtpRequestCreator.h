@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::FtpRequestCreator {
     IL2CPP_REGISTER_METHOD(0x01D2EE40, app::WebRequest *, Create, (app::FtpRequestCreator * this_ptr, app::Uri * uri))

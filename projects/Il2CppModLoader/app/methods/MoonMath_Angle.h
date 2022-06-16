@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonMath_Angle {
     IL2CPP_REGISTER_METHOD(0x013B3770, float, Wrap, (float angle))

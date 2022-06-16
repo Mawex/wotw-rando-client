@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiderBossLocationAnimationSet {
     IL2CPP_REGISTER_METHOD(0x011B2290, app::MoonAnimation *, GetItem, (app::SpiderBossLocationAnimationSet * this_ptr, app::SpiderBossLocationZone__Enum zone, float facing_direction))

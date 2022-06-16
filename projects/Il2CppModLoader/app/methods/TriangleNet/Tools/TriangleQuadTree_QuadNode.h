@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Tools::TriangleQuadTree_QuadNode {
     IL2CPP_REGISTER_METHOD(0x02A9CB50, void, ctor_1, (app::TriangleQuadTree_QuadNode * this_ptr, app::Rectangle * box, app::TriangleQuadTree * tree))

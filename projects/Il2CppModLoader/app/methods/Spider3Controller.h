@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Spider3Controller {
     IL2CPP_REGISTER_METHOD(0x00953C30, void, Update, (app::Spider3Controller * this_ptr))

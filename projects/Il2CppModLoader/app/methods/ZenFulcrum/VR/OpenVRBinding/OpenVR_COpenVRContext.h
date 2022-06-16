@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::OpenVR_COpenVRContext {
     IL2CPP_REGISTER_METHOD(0x00F56B30, void, ctor, (app::OpenVR_COpenVRContext * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LaserShooterMinibossSpawn {
     IL2CPP_REGISTER_METHOD(0x00F1DC30, void, OnEnterTask, (app::LaserShooterMinibossSpawn * this_ptr, app::IContext * context))

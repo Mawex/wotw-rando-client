@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::Common::SqlConvert {
     IL2CPP_REGISTER_METHOD(0x028489B0, app::SqlByte, ConvertToSqlByte, (app::Object * value))

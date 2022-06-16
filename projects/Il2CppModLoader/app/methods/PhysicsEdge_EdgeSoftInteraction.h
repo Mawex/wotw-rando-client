@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PhysicsEdge_EdgeSoftInteraction {
     IL2CPP_REGISTER_METHOD(0x014FED70, void, Set, (app::PhysicsEdge_EdgeSoftInteraction * this_ptr, app::PhysicsEdge_EdgeSoftInteraction * inter))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Comparison_1_System_Diagnostics_Tracing_EventProvider_SessionInfo_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::Comparison_1_System_Diagnostics_Tracing_EventProvider_SessionInfo_ * this_ptr, app::Object * object, void * method_1))

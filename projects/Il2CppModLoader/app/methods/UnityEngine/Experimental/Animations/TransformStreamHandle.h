@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Animations::TransformStreamHandle {
     IL2CPP_REGISTER_METHOD(0x002431E0, bool, IsValidInternal, (app::TransformStreamHandle__Boxed * this_ptr, app::AnimationStream * stream))

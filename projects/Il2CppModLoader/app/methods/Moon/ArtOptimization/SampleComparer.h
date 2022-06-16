@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::SampleComparer {
     IL2CPP_REGISTER_METHOD(0x013500B0, app::ComputeShader *, GetImageCompareShader, (app::SampleComparer * this_ptr, int32_t width, int32_t height))

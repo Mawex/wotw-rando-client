@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Action_3_CageStructureTool_Edge_CageStructureTool_Edge_CageStructureTool_Edge_ {
     IL2CPP_REGISTER_METHOD(0x0186BDE0, void, Invoke, (app::Action_3_CageStructureTool_Edge_CageStructureTool_Edge_CageStructureTool_Edge_ * this_ptr, app::CageStructureTool_Edge * arg1, app::CageStructureTool_Edge * arg2, app::CageStructureTool_Edge * arg3))

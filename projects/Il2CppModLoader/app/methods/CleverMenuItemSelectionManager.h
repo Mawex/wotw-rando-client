@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CleverMenuItemSelectionManager {
     IL2CPP_REGISTER_METHOD(0x012B4A00, app::List_1_ICleverMenuFadeObserver_ *, get_ResolvedFaderObservers, (app::CleverMenuItemSelectionManager * this_ptr))

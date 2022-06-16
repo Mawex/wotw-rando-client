@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::OperatingSystem {
     IL2CPP_REGISTER_METHOD(0x0227BA00, void, ctor_1, (app::OperatingSystem * this_ptr, app::PlatformID__Enum platform, app::Version * version))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ByteEqualityComparer {
     IL2CPP_REGISTER_METHOD(0x02021DC0, bool, Equals_1, (app::ByteEqualityComparer * this_ptr, uint8_t x, uint8_t y))

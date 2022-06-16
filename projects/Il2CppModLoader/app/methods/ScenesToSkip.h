@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ScenesToSkip {
     IL2CPP_REGISTER_METHOD(0x010683F0, void, ctor_1, (app::ScenesToSkip * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ {
     IL2CPP_REGISTER_METHOD(0x01CC7A60, int32_t, Compare, (app::ObjectComparer_1_Moon_uberSerializationWisp_PlayerStateMap_Mapping_ * this_ptr, app::PlayerStateMap_Mapping x, app::PlayerStateMap_Mapping y))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::ContrastStretch {
     IL2CPP_REGISTER_METHOD(0x0251E1E0, app::Material *, get_materialLum, (app::ContrastStretch * this_ptr))

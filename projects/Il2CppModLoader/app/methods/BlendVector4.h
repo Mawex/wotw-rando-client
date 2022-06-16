@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BlendVector4 {
     IL2CPP_REGISTER_METHOD(0x00D2B550, void, ctor, (app::BlendVector4 * this_ptr, app::Func_2_Single_Single_ * ease))

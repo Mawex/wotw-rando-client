@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Animations::AnimationVerletPlayable {
     IL2CPP_REGISTER_METHOD(0x00241FC0, void, ctor, (app::AnimationVerletPlayable__Boxed * this_ptr, app::PlayableHandle handle))

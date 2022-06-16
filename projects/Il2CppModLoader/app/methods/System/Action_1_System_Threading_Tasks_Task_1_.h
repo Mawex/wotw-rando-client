@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Action_1_System_Threading_Tasks_Task_1_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor_1, (app::Action_1_System_Threading_Tasks_Task_1__3 * this_ptr, app::Object * object, void * method_1))

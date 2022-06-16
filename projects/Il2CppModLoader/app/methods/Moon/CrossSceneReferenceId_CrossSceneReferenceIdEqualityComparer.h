@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::CrossSceneReferenceId_CrossSceneReferenceIdEqualityComparer {
     IL2CPP_REGISTER_METHOD(0x02B605C0, bool, Equals, (app::CrossSceneReferenceId_CrossSceneReferenceIdEqualityComparer * this_ptr, app::CrossSceneReferenceId x, app::CrossSceneReferenceId y))

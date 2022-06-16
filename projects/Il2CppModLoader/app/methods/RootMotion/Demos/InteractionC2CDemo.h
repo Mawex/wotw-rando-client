@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::InteractionC2CDemo {
     IL2CPP_REGISTER_METHOD(0x02220FD0, void, OnGUI, (app::InteractionC2CDemo * this_ptr))

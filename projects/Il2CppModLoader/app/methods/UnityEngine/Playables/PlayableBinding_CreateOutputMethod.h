@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Playables::PlayableBinding_CreateOutputMethod {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::PlayableBinding_CreateOutputMethod * this_ptr, app::Object * object, void * method_1))

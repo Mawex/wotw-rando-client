@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinDamageReciever__FlashSprite_d__85 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::SeinDamageReciever_FlashSprite_d_85 * this_ptr, int32_t __1__state))

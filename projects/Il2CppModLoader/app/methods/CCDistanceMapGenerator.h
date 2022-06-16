@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CCDistanceMapGenerator {
     IL2CPP_REGISTER_METHOD(0x02738160, void, Generate, (app::Texture2D * source, app::Texture2D * destination, float max_inside, float max_outside, float post_process_distance, app::CCDistanceMapGenerator_RGBMode__Enum rgb_mode))

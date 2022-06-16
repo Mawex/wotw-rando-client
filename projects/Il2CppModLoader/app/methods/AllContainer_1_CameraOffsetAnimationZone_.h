@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AllContainer_1_CameraOffsetAnimationZone_ {
     IL2CPP_REGISTER_METHOD(0x019D7A20, void, GetList, (app::AllContainer_1_CameraOffsetAnimationZone_ * this_ptr, app::List_1_CameraOffsetAnimationZone_ * list))

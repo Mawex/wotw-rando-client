@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AkPlaylist {
     IL2CPP_REGISTER_METHOD(0x0188A780, void, ctor_1, (app::AkPlaylist * this_ptr, void * c_ptr, bool c_memory_own))

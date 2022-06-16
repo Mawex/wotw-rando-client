@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinDashNewPuppet {
     IL2CPP_REGISTER_METHOD(0x006FD440, void, Awake, (app::SeinDashNewPuppet * this_ptr))

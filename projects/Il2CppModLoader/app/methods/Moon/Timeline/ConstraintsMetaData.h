@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ConstraintsMetaData {
     IL2CPP_REGISTER_METHOD(0x01BB8230, bool, HasFlags, (app::ConstraintsMetaData * this_ptr, app::ConstraintFlag__Enum flags))

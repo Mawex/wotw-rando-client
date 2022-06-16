@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::WeakHashtable_WeakKeyComparer {
     IL2CPP_REGISTER_METHOD(0x0295E8D0, bool, IEqualityComparer_Equals, (app::WeakHashtable_WeakKeyComparer * this_ptr, app::Object * x, app::Object * y))

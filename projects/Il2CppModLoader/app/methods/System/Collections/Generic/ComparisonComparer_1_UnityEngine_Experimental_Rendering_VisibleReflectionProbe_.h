@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ComparisonComparer_1_UnityEngine_Experimental_Rendering_VisibleReflectionProbe_ {
     IL2CPP_REGISTER_METHOD(0x0162A010, void, ctor, (app::ComparisonComparer_1_UnityEngine_Experimental_Rendering_VisibleReflectionProbe_ * this_ptr, app::Comparison_1_UnityEngine_Experimental_Rendering_VisibleReflectionProbe_ * comparison))

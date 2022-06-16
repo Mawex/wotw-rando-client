@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BabyWaterWormNest {
     IL2CPP_REGISTER_METHOD(0x00F782C0, void, Update, (app::BabyWaterWormNest * this_ptr))

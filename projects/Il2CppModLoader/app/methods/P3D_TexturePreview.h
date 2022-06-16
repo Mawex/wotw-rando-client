@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::P3D_TexturePreview {
     IL2CPP_REGISTER_METHOD(0x030979A0, void, Show, (app::Mesh * mesh, int32_t submesh_index, app::Transform * transform, float opacity, app::Texture2D * texture, app::Vector2 tiling, app::Vector2 offset))

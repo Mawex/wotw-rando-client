@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::WaterReflectionProfilingSetting {
     IL2CPP_REGISTER_METHOD(0x005D6E50, app::ProfilingSettings_SettingType__Enum, get_SettingType, (app::WaterReflectionProfilingSetting * this_ptr))

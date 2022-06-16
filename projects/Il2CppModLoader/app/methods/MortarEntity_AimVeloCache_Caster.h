@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MortarEntity_AimVeloCache_Caster {
     IL2CPP_REGISTER_METHOD(0x01478B50, app::Vector3, TweakVelocity, (app::Vector3 v))

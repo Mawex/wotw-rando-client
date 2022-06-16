@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Glitch_Mozaic {
     IL2CPP_REGISTER_METHOD(0x02477B20, app::Material *, get_material, (app::CameraFilterPack_Glitch_Mozaic * this_ptr))

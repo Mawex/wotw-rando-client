@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LizardHitReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x00FAE9A0, app::EntityDamageEvent *, get_DamageEvent, (app::LizardHitReactionBehaviour * this_ptr))

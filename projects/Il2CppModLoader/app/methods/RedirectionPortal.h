@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RedirectionPortal {
     IL2CPP_REGISTER_METHOD(0x008FBB30, void, OnCollisionEnter, (app::RedirectionPortal * this_ptr, app::Collision * collision))

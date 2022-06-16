@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::SandWormStickOutBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x00EC5520, void, OnEnter, (app::SandWormStickOutBehaviourNew * this_ptr, app::IContext * context))

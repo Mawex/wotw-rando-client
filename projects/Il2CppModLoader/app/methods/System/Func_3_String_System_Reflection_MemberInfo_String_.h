@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Func_3_String_System_Reflection_MemberInfo_String_ {
     IL2CPP_REGISTER_METHOD(0x01D117F0, app::String *, Invoke, (app::Func_3_String_System_Reflection_MemberInfo_String_ * this_ptr, app::String * arg1, app::MemberInfo_1 * arg2))

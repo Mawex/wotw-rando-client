@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::HitReaction_HitPointEffector {
     IL2CPP_REGISTER_METHOD(0x02077210, float, GetLength, (app::HitReaction_HitPointEffector * this_ptr))

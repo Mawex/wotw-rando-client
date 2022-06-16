@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::TraceLoggingTypeInfo_1_System_Boolean_ {
     IL2CPP_REGISTER_METHOD(0x02871520, void, ctor_1, (app::TraceLoggingTypeInfo_1_System_Boolean_ * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon_MoonAnimator_AnimatorPostprocessData_ {
     IL2CPP_REGISTER_METHOD(0x00152840, void, ctor, (app::List_1_T_Enumerator_Moon_MoonAnimator_AnimatorPostprocessData___Boxed * this_ptr, app::List_1_Moon_MoonAnimator_AnimatorPostprocessData_ * list))

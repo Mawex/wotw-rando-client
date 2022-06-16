@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Animation::NativeVerletAnimationPostprocess {
     IL2CPP_REGISTER_METHOD(0x01B026D0, bool, get_IsAllowed, (app::NativeVerletAnimationPostprocess * this_ptr))

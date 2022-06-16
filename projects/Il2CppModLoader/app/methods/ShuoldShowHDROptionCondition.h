@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShuoldShowHDROptionCondition {
     IL2CPP_REGISTER_METHOD(0x0073DFD0, bool, Validate, (app::ShuoldShowHDROptionCondition * this_ptr, app::IContext * context))

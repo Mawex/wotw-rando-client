@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Pixelisation_OilPaintHQ {
     IL2CPP_REGISTER_METHOD(0x0248A080, app::Material *, get_material, (app::CameraFilterPack_Pixelisation_OilPaintHQ * this_ptr))

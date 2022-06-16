@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpikeSlugDeathReaction {
     IL2CPP_REGISTER_METHOD(0x011C7BD0, void, OnCacheSerializedComponents, (app::SpikeSlugDeathReaction * this_ptr, app::Entity * owner))

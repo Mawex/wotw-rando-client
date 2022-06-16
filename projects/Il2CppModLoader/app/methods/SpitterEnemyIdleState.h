@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpitterEnemyIdleState {
     IL2CPP_REGISTER_METHOD(0x004C1E90, void, ctor, (app::SpitterEnemyIdleState * this_ptr, app::SpitterEnemy * enemy))

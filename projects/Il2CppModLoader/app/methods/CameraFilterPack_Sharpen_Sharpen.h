@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Sharpen_Sharpen {
     IL2CPP_REGISTER_METHOD(0x020E1BF0, app::Material *, get_material, (app::CameraFilterPack_Sharpen_Sharpen * this_ptr))

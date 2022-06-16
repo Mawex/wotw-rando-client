@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Reflection::RuntimeConstructorInfo {
     IL2CPP_REGISTER_METHOD(0x02696B10, app::Module *, get_Module, (app::RuntimeConstructorInfo * this_ptr))

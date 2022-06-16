@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::Cache::RequestCachePolicy {
     IL2CPP_REGISTER_METHOD(0x020162E0, void, ctor, (app::RequestCachePolicy * this_ptr, app::RequestCacheLevel__Enum level))

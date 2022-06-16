@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DynamicBrightnessSource {
     IL2CPP_REGISTER_METHOD(0x00BE8F10, app::Vector2, get_CameraPosition, (app::DynamicBrightnessSource * this_ptr))

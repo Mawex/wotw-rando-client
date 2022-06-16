@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ColorVariation {
     IL2CPP_REGISTER_METHOD(0x00CFBCF0, bool, get_IsVisible, (app::ColorVariation * this_ptr))

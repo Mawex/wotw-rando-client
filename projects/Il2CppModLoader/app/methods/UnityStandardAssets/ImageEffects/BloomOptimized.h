@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityStandardAssets::ImageEffects::BloomOptimized {
     IL2CPP_REGISTER_METHOD(0x025152C0, bool, CheckResources, (app::BloomOptimized * this_ptr))

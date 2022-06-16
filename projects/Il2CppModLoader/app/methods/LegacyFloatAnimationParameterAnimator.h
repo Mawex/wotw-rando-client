@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyFloatAnimationParameterAnimator {
     IL2CPP_REGISTER_METHOD(0x004C87D0, void, OnStartPlay, (app::LegacyFloatAnimationParameterAnimator * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle {
     IL2CPP_REGISTER_METHOD(0x02009980, bool, get_IsInvalid, (app::DeflateStreamNative_SafeDeflateStreamHandle * this_ptr))

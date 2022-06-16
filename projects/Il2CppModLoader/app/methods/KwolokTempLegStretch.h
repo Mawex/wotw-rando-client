@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KwolokTempLegStretch {
     IL2CPP_REGISTER_METHOD(0x012FD210, void, Update, (app::KwolokTempLegStretch * this_ptr))

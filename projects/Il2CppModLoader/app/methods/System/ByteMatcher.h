@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ByteMatcher {
     IL2CPP_REGISTER_METHOD(0x0229F8E0, void, AddMapping, (app::ByteMatcher * this_ptr, app::TermInfoStrings__Enum key, app::Byte__Array * val))

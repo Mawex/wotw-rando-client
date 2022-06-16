@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::RagdollUtilityDemo {
     IL2CPP_REGISTER_METHOD(0x0222E700, void, OnGUI, (app::RagdollUtilityDemo * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Events::UnityAction_1_UnityEngine_SceneManagement_Scene_ {
     IL2CPP_REGISTER_METHOD(0x02AC77B0, void, Invoke, (app::UnityAction_1_UnityEngine_SceneManagement_Scene_ * this_ptr, app::Scene arg0))

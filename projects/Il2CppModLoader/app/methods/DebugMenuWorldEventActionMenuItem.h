@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DebugMenuWorldEventActionMenuItem {
     IL2CPP_REGISTER_METHOD(0x00DF83C0, void, ctor, (app::DebugMenuWorldEventActionMenuItem * this_ptr, app::String * path, app::WorldEvents * world_event))

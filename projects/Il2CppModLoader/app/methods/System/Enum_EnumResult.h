@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Enum_EnumResult {
     IL2CPP_REGISTER_METHOD(0x001557F0, void, Init, (app::Enum_EnumResult__Boxed * this_ptr, bool can_method_throw))

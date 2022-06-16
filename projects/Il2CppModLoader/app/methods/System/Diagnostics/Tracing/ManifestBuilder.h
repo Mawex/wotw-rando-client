@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ManifestBuilder {
     IL2CPP_REGISTER_METHOD(0x019FF750, void, ctor, (app::ManifestBuilder * this_ptr, app::String * provider_name, app::Guid provider_guid, app::String * dll_name, app::ResourceManager * resources, app::EventManifestOptions__Enum flags))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::InputPlugin {
     IL2CPP_REGISTER_METHOD(0x00628ED0, void, Awake, (app::InputPlugin * this_ptr))

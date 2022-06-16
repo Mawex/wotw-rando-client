@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::JsonPropertyAttribute {
     IL2CPP_REGISTER_METHOD(0x002FBB80, app::Type *, get_ItemConverterType, (app::JsonPropertyAttribute * this_ptr))

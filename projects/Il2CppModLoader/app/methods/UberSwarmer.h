@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberSwarmer {
     IL2CPP_REGISTER_METHOD(0x002FB930, app::UberSwarm *, get_Swarm, (app::UberSwarmer * this_ptr))

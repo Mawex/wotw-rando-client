@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::BinXmlSqlDecimal {
     IL2CPP_REGISTER_METHOD(0x001DE5A0, bool, get_IsPositive, (app::BinXmlSqlDecimal__Boxed * this_ptr))

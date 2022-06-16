@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathNavigator_DebuggerDisplayProxy {
     IL2CPP_REGISTER_METHOD(0x0010FD20, void, ctor, (app::XPathNavigator_DebuggerDisplayProxy__Boxed * this_ptr, app::XPathNavigator * nav))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ArtOptimization::ModifiersIgnoreList {
     IL2CPP_REGISTER_METHOD(0x0134D750, app::List_1_Moon_ArtOptimization_ModifierDataModel_ *, get_ModifiersToggles, (app::ModifiersIgnoreList * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::fsPortableReflection_AttributeQueryComparator {
     IL2CPP_REGISTER_METHOD(0x0165B0D0, bool, Equals, (app::fsPortableReflection_AttributeQueryComparator * this_ptr, app::fsPortableReflection_AttributeQuery x, app::fsPortableReflection_AttributeQuery y))

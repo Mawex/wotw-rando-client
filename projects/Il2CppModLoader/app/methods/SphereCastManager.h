@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SphereCastManager {
     IL2CPP_REGISTER_METHOD(0x00952390, app::SpherecastCommand, get_InvalidCmd, (app::SphereCastManager * this_ptr))

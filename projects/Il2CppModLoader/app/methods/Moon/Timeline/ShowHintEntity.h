@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::ShowHintEntity {
     IL2CPP_REGISTER_METHOD(0x00623240, float, get_Duration, (app::ShowHintEntity * this_ptr))

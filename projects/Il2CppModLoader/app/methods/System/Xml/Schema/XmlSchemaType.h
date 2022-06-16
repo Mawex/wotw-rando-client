@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaType {
     IL2CPP_REGISTER_METHOD(0x0191E340, app::XmlSchemaSimpleType *, GetBuiltInSimpleType_1, (app::XmlQualifiedName * qualified_name))

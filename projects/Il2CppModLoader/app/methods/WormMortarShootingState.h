@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WormMortarShootingState {
     IL2CPP_REGISTER_METHOD(0x0058EEA0, void, ctor, (app::WormMortarShootingState * this_ptr, app::WormEnemy * worm, app::MortarWormDirectionalAnimations * shoot, app::PrefabSpawner * shoot_effect, app::SoundSource * shoot_sound, app::ProjectileSpawner * projectile_spawner, float shoot_delay, float projectile_damage))

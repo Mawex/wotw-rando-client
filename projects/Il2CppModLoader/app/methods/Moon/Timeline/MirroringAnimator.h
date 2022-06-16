@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MirroringAnimator {
     IL2CPP_REGISTER_METHOD(0x007760F0, void, OnStartPlayback, (app::MirroringAnimator * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Kino::Motion_FrameBlendingFilter {
     IL2CPP_REGISTER_METHOD(0x00E75A40, void, ctor, (app::Motion_FrameBlendingFilter * this_ptr))

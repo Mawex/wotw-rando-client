@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AkLogger {
     IL2CPP_REGISTER_METHOD(0x026EE590, void, ctor, (app::AkLogger * this_ptr))

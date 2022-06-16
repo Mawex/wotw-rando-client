@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SerializationSetupGroup_StateChange {
     IL2CPP_REGISTER_METHOD(0x00AB8C10, void, SetTransition, (app::SerializationSetupGroup_StateChange * this_ptr, app::MoonTimeline * transition))

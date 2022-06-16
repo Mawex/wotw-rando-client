@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiderBatEntityReactions {
     IL2CPP_REGISTER_METHOD(0x0095B870, void, ProcessEntityEvent, (app::SpiderBatEntityReactions * this_ptr, app::EntityEvent * event_info))

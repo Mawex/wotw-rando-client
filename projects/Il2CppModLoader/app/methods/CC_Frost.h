@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CC_Frost {
     IL2CPP_REGISTER_METHOD(0x03193660, void, OnRenderImage, (app::CC_Frost * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

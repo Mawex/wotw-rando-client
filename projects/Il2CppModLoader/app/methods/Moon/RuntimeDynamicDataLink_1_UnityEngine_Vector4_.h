@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::RuntimeDynamicDataLink_1_UnityEngine_Vector4_ {
     IL2CPP_REGISTER_METHOD(0x02919200, bool, Init, (app::RuntimeDynamicDataLink_1_UnityEngine_Vector4_ * this_ptr, app::DynamicDataLinkSerializedData data, app::MemberInfo_1 * member_info))

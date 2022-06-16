@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::NPCEntity {
     IL2CPP_REGISTER_METHOD(0x01121E00, app::InteractionGraph *, get_CurrentInteractionGraph, (app::NPCEntity * this_ptr))

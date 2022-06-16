@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::Technicolor {
     IL2CPP_REGISTER_METHOD(0x03054490, void, OnRenderImage, (app::Technicolor * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

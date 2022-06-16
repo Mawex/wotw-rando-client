@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::StaticProxy {
     IL2CPP_REGISTER_METHOD(0x020A5B70, void, ctor, (app::StaticProxy * this_ptr, app::Uri * destination, app::Uri * proxy))

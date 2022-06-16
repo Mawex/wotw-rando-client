@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::InteropServices::SafeBuffer {
     IL2CPP_REGISTER_METHOD(0x01A96CB0, void, AcquirePointer, (app::SafeBuffer * this_ptr, app::uint8_t * * pointer))

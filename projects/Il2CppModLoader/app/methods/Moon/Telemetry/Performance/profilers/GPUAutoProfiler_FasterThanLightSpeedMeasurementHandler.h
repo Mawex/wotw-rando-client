@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::profilers::GPUAutoProfiler_FasterThanLightSpeedMeasurementHandler {
     IL2CPP_REGISTER_METHOD(0x00E449E0, void, ctor, (app::GPUAutoProfiler_FasterThanLightSpeedMeasurementHandler * this_ptr, app::List_1_Moon_Telemetry_Performance_profilers_GPUAutoProfiler_Sample_ * samples))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::CVRChaperoneSetup {
     IL2CPP_REGISTER_METHOD(0x016774C0, void, ctor, (app::CVRChaperoneSetup * this_ptr, void * p_interface))

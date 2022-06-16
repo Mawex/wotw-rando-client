@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TraceGroundMovement {
     IL2CPP_REGISTER_METHOD(0x00449EA0, float, get_Speed, (app::TraceGroundMovement * this_ptr))

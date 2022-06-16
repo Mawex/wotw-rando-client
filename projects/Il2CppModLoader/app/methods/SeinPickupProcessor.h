@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinPickupProcessor {
     IL2CPP_REGISTER_METHOD(0x003FFDF0, bool, get_AreFirstTimeHintsEnabled, (app::SeinPickupProcessor * this_ptr))

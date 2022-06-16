@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DepthOfFieldController {
     IL2CPP_REGISTER_METHOD(0x002FB990, app::SliceRenderSettings *, get_SliceRenderSettings, (app::DepthOfFieldController * this_ptr))

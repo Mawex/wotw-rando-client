@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::EntityBehaviourCageMetaData {
     IL2CPP_REGISTER_METHOD(0x00C8C800, void, OnEnable, (app::EntityBehaviourCageMetaData * this_ptr))

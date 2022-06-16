@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LightCanvas_CanvasAssetIdentifier {
     IL2CPP_REGISTER_METHOD(0x01143DA0, bool, get_Initialized, (app::LightCanvas_CanvasAssetIdentifier * this_ptr))

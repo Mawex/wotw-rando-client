@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::MoonAnimatorSystem_AnimatorPriorityComparer {
     IL2CPP_REGISTER_METHOD(0x0211F4A0, int32_t, Compare, (app::MoonAnimatorSystem_AnimatorPriorityComparer * this_ptr, app::MoonAnimator * lhs, app::MoonAnimator * rhs))

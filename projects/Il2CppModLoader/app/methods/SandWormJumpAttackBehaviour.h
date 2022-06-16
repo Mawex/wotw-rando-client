@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SandWormJumpAttackBehaviour {
     IL2CPP_REGISTER_METHOD(0x00C1B7F0, void, OnEntityInitialized, (app::SandWormJumpAttackBehaviour * this_ptr))

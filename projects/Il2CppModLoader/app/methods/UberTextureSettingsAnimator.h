@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberTextureSettingsAnimator {
     IL2CPP_REGISTER_METHOD(0x012902E0, app::Vector2, get_OriginalOffset, (app::UberTextureSettingsAnimator * this_ptr))

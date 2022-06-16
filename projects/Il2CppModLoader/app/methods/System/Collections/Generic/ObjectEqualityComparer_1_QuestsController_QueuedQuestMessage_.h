@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectEqualityComparer_1_QuestsController_QueuedQuestMessage_ {
     IL2CPP_REGISTER_METHOD(0x01CD0840, bool, Equals_1, (app::ObjectEqualityComparer_1_QuestsController_QueuedQuestMessage_ * this_ptr, app::QuestsController_QueuedQuestMessage x, app::QuestsController_QueuedQuestMessage y))

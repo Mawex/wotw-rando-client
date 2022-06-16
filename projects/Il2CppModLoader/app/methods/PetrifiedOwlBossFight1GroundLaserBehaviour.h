@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossFight1GroundLaserBehaviour {
     IL2CPP_REGISTER_METHOD(0x017691C0, void, CopyData, (app::PetrifiedOwlBossFight1GroundLaserBehaviour * this_ptr, app::PetrifiedOwlBossBaseBehaviour * other))

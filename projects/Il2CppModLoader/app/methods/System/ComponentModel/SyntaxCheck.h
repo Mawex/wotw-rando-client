@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::SyntaxCheck {
     IL2CPP_REGISTER_METHOD(0x029AD4D0, bool, CheckMachineName, (app::String * value))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::Common::DataStorage {
     IL2CPP_REGISTER_METHOD(0x02159C70, void, ctor_1, (app::DataStorage * this_ptr, app::DataColumn * column, app::Type * type, app::Object * default_value, app::StorageType__Enum storage_type))

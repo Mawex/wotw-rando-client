@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ConfigurableJoint {
     IL2CPP_REGISTER_METHOD(0x030A0540, app::Vector3, get_secondaryAxis, (app::ConfigurableJoint * this_ptr))

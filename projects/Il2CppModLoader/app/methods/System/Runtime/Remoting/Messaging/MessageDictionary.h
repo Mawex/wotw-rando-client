@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Messaging::MessageDictionary {
     IL2CPP_REGISTER_METHOD(0x002FB940, void, ctor, (app::MessageDictionary * this_ptr, app::IMethodMessage * message))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HasAreaMapCondition {
     IL2CPP_REGISTER_METHOD(0x0109D8B0, app::GameWorldArea *, get_CurrentArea, (app::HasAreaMapCondition * this_ptr))

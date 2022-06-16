@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::LizardGroundChaseBehaviour {
     IL2CPP_REGISTER_METHOD(0x0074B530, float, get_ChasingTime, (app::LizardGroundChaseBehaviour * this_ptr))

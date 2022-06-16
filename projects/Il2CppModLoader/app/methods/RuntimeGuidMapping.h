@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RuntimeGuidMapping {
     IL2CPP_REGISTER_METHOD(0x02719EB0, void, ForceRefresh, ())

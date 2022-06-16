@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MantisJumpAttackBehaviour {
     IL2CPP_REGISTER_METHOD(0x00A04E60, bool, get_m_jumpDirectionLeft, (app::MantisJumpAttackBehaviour * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DamageContext {
     IL2CPP_REGISTER_METHOD(0x0010FD20, void, ctor, (app::DamageContext__Boxed * this_ptr, app::Damage * damage))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::SteamNetworking {
     IL2CPP_REGISTER_METHOD(0x0278E260, bool, SendP2PPacket, (app::CSteamID steam_i_d_remote, app::Byte__Array * pub_data, uint32_t cub_data, app::EP2PSend__Enum e_p2_p_send_type, int32_t n_channel))

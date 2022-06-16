@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::PhysicsScene {
     IL2CPP_REGISTER_METHOD(0x002442E0, app::String *, ToString, (app::PhysicsScene__Boxed * this_ptr))

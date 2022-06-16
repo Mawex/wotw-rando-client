@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Cubemap {
     IL2CPP_REGISTER_METHOD(0x0242AE70, void, ctor_1, (app::Cubemap * this_ptr, int32_t width, app::GraphicsFormat__Enum format, app::TextureCreationFlags__Enum flags))

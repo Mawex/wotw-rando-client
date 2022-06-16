@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::KuDashPuppet {
     IL2CPP_REGISTER_METHOD(0x012345B0, app::MoonAnimator *, get_KuAnimator, (app::KuDashPuppet * this_ptr))

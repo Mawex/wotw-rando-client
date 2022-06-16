@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::BaseEffect {
     IL2CPP_REGISTER_METHOD(0x0303DB90, app::Shader *, get_ShaderSafe, (app::BaseEffect * this_ptr))

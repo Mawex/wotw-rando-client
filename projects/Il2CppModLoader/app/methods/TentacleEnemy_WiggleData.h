@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TentacleEnemy_WiggleData {
     IL2CPP_REGISTER_METHOD(0x00CFCF00, void, ctor, (app::TentacleEnemy_WiggleData * this_ptr, float strength, float speed, float frequency))

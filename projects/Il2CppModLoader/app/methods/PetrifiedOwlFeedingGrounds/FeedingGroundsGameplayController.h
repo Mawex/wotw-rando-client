@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::FeedingGroundsGameplayController {
     IL2CPP_REGISTER_METHOD(0x01785A30, app::PetrifiedOwlUberState__Enum, get_CurrentUberState, (app::FeedingGroundsGameplayController * this_ptr))

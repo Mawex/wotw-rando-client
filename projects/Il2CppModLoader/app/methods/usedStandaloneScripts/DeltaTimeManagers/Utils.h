@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::usedStandaloneScripts::DeltaTimeManagers::Utils {
     IL2CPP_REGISTER_METHOD(0x03125A70, double, VapsSmoothing_1, (app::DeltaTimeManager_DeltaTimeFrameHistory__Array * history, int32_t history_length, double max_deviant_k, double max_frame_time_milliseconds))

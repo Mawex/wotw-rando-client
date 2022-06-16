@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LoadingFinishedCondition {
     IL2CPP_REGISTER_METHOD(0x00FC0C20, bool, Validate, (app::LoadingFinishedCondition * this_ptr, app::IContext * context))

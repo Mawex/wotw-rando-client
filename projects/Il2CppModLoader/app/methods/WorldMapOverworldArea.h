@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WorldMapOverworldArea {
     IL2CPP_REGISTER_METHOD(0x002FBBC0, app::CleverMenuItem *, get_CleverMenu, (app::WorldMapOverworldArea * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Globalization::Unicode::MSCompatUnicodeTable___c {
     IL2CPP_REGISTER_METHOD(0x023BCC10, void, cctor, ())

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::NumericConvertInstruction_Unchecked {
     IL2CPP_REGISTER_METHOD(0x0240A310, app::String *, get_InstructionName, (app::NumericConvertInstruction_Unchecked * this_ptr))

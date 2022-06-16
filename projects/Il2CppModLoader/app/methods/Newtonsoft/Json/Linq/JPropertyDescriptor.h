@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Linq::JPropertyDescriptor {
     IL2CPP_REGISTER_METHOD(0x01F0E5C0, void, ctor, (app::JPropertyDescriptor * this_ptr, app::String * name))

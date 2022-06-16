@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::RuntimeType {
     IL2CPP_REGISTER_METHOD(0x01EE29F0, void, ThrowIfTypeNeverValidGenericArgument, (app::RuntimeType * type))

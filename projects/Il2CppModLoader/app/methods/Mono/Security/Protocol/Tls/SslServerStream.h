@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Security::Protocol::Tls::SslServerStream {
     IL2CPP_REGISTER_METHOD(0x01F82390, void, add_ClientCertValidation, (app::SslServerStream * this_ptr, app::CertificateValidationCallback * value))

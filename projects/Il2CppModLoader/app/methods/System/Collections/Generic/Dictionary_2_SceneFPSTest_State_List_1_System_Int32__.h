@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_SceneFPSTest_State_List_1_System_Int32__ {
     IL2CPP_REGISTER_METHOD(0x02BA5090, bool, ContainsKey, (app::Dictionary_2_SceneFPSTest_State_List_1_System_Int32_ * this_ptr, app::SceneFPSTest_State__Enum key))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ReadyForAnimationTrigger {
     IL2CPP_REGISTER_METHOD(0x007340E0, void, Awake, (app::ReadyForAnimationTrigger * this_ptr))

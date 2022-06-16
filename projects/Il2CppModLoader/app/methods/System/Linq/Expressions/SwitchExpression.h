@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::SwitchExpression {
     IL2CPP_REGISTER_METHOD(0x02FC4FE0, void, ctor, (app::SwitchExpression * this_ptr, app::Type * type, app::Expression * switch_value, app::Expression * default_body, app::MethodInfo_1 * comparison, app::ReadOnlyCollection_1_System_Linq_Expressions_SwitchCase_ * cases))

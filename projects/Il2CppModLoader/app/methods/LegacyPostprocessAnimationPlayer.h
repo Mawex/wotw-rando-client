@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyPostprocessAnimationPlayer {
     IL2CPP_REGISTER_METHOD(0x00A319F0, float, get_Duration, (app::LegacyPostprocessAnimationPlayer * this_ptr))

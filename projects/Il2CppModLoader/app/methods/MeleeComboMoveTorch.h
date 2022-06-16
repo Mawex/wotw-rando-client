@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MeleeComboMoveTorch {
     IL2CPP_REGISTER_METHOD(0x009C0FE0, bool, get_MoveHasFinished, (app::MeleeComboMoveTorch * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpellInventory {
     IL2CPP_REGISTER_METHOD(0x00EF8A00, app::PlayerUberStateInventory *, get_PlayerUberStateInventory, (app::SpellInventory * this_ptr))

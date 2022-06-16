@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BossRaceData {
     IL2CPP_REGISTER_METHOD(0x00D3D530, app::String *, get_RaceName, (app::BossRaceData * this_ptr))

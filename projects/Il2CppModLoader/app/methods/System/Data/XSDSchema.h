@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::XSDSchema {
     IL2CPP_REGISTER_METHOD(0x003FD650, bool, get_FromInference, (app::XSDSchema * this_ptr))

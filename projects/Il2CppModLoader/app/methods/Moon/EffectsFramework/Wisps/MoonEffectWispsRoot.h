@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::EffectsFramework::Wisps::MoonEffectWispsRoot {
     IL2CPP_REGISTER_METHOD(0x0120CB20, app::List_1_Moon_EffectsFramework_IMoonEffectComposition_ *, get_SubEffects, (app::MoonEffectWispsRoot * this_ptr))

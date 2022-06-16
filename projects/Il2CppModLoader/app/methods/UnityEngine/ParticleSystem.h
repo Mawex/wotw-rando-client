@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::ParticleSystem {
     IL2CPP_REGISTER_METHOD(0x03132610, void, Emit_1, (app::ParticleSystem * this_ptr, app::Vector3 position, app::Vector3 velocity, float size, float lifetime, app::Color32 color))

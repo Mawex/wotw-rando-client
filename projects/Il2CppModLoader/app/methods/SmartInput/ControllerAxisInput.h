@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SmartInput::ControllerAxisInput {
     IL2CPP_REGISTER_METHOD(0x006CB400, void, ctor, (app::ControllerAxisInput * this_ptr, app::XboxControllerInput_Axis__Enum axis))

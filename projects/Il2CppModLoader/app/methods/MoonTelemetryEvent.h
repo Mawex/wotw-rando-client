@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryEvent {
     IL2CPP_REGISTER_METHOD(0x02EA01A0, void, Serialize, (app::MoonTelemetryEvent * this_ptr, app::JsonBuilder_Slot slot))

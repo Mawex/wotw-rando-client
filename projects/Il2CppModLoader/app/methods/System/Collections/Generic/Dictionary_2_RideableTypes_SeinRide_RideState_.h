@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_RideableTypes_SeinRide_RideState_ {
     IL2CPP_REGISTER_METHOD(0x02C35530, app::SeinRide_RideState *, get_Item, (app::Dictionary_2_RideableTypes_SeinRide_RideState_ * this_ptr, app::RideableTypes__Enum key))

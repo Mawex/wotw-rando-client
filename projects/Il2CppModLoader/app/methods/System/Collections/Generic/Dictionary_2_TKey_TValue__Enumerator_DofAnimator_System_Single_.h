@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_TKey_TValue__Enumerator_DofAnimator_System_Single_ {
     IL2CPP_REGISTER_METHOD(0x00136440, app::KeyValuePair_2_DofAnimator_System_Single_, get_Current, (app::Dictionary_2_TKey_TValue_Enumerator_DofAnimator_System_Single___Boxed * this_ptr))

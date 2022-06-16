@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Color {
     IL2CPP_REGISTER_METHOD(0x00121740, void, ctor_1, (app::Color__Boxed * this_ptr, float r, float g, float b, float a))

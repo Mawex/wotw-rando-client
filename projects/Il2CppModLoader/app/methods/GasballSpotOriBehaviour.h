@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GasballSpotOriBehaviour {
     IL2CPP_REGISTER_METHOD(0x00420EE0, app::BehaviourStatus__Enum, get_StatusWhenPlaying, (app::GasballSpotOriBehaviour * this_ptr))

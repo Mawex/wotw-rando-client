@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::MoonTimeline {
     IL2CPP_REGISTER_METHOD(0x01BC1B00, void, PostEvent, (app::MoonTimeline * this_ptr, app::ITimelineEntityParent * scope, app::EntityId id, int32_t event_id))

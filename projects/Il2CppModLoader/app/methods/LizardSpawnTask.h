@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LizardSpawnTask {
     IL2CPP_REGISTER_METHOD(0x00FB24F0, void, OnEnterTask, (app::LizardSpawnTask * this_ptr, app::IContext * context))

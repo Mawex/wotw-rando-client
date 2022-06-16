@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GodRayModifier_CullingCategoryManager {
     IL2CPP_REGISTER_METHOD(0x00800E60, void, ctor, (app::GodRayModifier_CullingCategoryManager * this_ptr))

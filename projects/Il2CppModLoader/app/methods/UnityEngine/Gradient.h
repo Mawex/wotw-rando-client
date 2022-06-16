@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Gradient {
     IL2CPP_REGISTER_METHOD(0x02529FC0, void, ctor, (app::Gradient * this_ptr))

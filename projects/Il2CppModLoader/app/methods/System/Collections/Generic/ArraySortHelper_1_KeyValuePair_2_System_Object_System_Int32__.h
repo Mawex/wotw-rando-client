@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ArraySortHelper_1_KeyValuePair_2_System_Object_System_Int32__ {
     IL2CPP_REGISTER_METHOD(0x02FFB2B0, void, Sort_1, (app::KeyValuePair_2_System_Object_System_Int32___Array * keys, int32_t index, int32_t length, app::IComparer_1_KeyValuePair_2_System_Object_System_Int32_ * comparer))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SequencePlatform__PerformVanish_d__23 {
     IL2CPP_REGISTER_METHOD(0x002FC6E0, void, ctor, (app::SequencePlatform_PerformVanish_d_23 * this_ptr, int32_t __1__state))

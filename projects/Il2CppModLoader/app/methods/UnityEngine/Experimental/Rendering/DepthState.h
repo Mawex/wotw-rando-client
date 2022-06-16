@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Rendering::DepthState {
     IL2CPP_REGISTER_METHOD(0x001EC730, void, ctor, (app::DepthState__Boxed * this_ptr, bool write_enabled, app::CompareFunction__Enum compare_function))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ScaleAnimationModifier {
     IL2CPP_REGISTER_METHOD(0x009328B0, void, ApplyMultipliers, (app::ScaleAnimationModifier * this_ptr, float strength, float speed))

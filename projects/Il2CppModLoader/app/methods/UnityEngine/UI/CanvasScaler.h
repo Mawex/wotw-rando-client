@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::UI::CanvasScaler {
     IL2CPP_REGISTER_METHOD(0x01F2C240, void, ctor, (app::CanvasScaler * this_ptr))

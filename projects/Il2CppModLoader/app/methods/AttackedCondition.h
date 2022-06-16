@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AttackedCondition {
     IL2CPP_REGISTER_METHOD(0x0058E140, app::Vector3, get_Position, (app::AttackedCondition * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GameMapShowObjective {
     IL2CPP_REGISTER_METHOD(0x006A2E90, void, add_OnFinish, (app::GameMapShowObjective * this_ptr, app::Action * value))

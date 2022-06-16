@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::AsyncOperationManager {
     IL2CPP_REGISTER_METHOD(0x024A0B70, app::AsyncOperation *, CreateOperation, (app::Object * user_supplied_state))

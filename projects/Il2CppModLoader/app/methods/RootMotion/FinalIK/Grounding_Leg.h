@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::Grounding_Leg {
     IL2CPP_REGISTER_METHOD(0x0052B590, bool, get_isGrounded, (app::Grounding_Leg * this_ptr))

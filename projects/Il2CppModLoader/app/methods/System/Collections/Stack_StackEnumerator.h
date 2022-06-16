@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Stack_StackEnumerator {
     IL2CPP_REGISTER_METHOD(0x02032A90, void, ctor, (app::Stack_StackEnumerator * this_ptr, app::Stack * stack))

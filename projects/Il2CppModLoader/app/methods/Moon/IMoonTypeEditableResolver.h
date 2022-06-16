@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::IMoonTypeEditableResolver {
     IL2CPP_REGISTER_METHODINFO(0x047386F0, IMoonTypeEditableResolver_SetValueOnSource_1__MethodInfo)

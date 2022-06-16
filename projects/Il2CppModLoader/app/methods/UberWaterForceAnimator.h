@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberWaterForceAnimator {
     IL2CPP_REGISTER_METHOD(0x0129F370, app::UberWaterForceActor *, get_Actor, (app::UberWaterForceAnimator * this_ptr))

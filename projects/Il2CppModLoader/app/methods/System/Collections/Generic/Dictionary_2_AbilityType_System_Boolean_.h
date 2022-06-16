@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_AbilityType_System_Boolean_ {
     IL2CPP_REGISTER_METHOD(0x02E38260, bool, TryGetValue, (app::Dictionary_2_AbilityType_System_Boolean_ * this_ptr, app::AbilityType__Enum key, bool * value))

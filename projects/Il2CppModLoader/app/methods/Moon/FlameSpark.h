@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::FlameSpark {
     IL2CPP_REGISTER_METHOD(0x012239E0, void, OnEnable, (app::FlameSpark * this_ptr))

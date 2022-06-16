@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Mesh__get_Edges_d__39 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::Mesh_get_Edges_d_39 * this_ptr, int32_t __1__state))

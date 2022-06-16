@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SkeetoSpawnTask {
     IL2CPP_REGISTER_METHOD(0x006B35D0, void, OnEnterTask, (app::SkeetoSpawnTask * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GardenerEntity {
     IL2CPP_REGISTER_METHOD(0x00416C40, app::ITimelineEntity *, get_CurrentProject, (app::GardenerEntity * this_ptr))

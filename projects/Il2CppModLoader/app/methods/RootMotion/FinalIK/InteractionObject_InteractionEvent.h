@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::InteractionObject_InteractionEvent {
     IL2CPP_REGISTER_METHOD(0x02A0DC20, void, Activate, (app::InteractionObject_InteractionEvent * this_ptr, app::Transform * t))

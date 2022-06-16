@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostCharacterAbilitiesData {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::HashSet_1_AbilityType_ *, get_Abilities, (app::GhostCharacterAbilitiesData * this_ptr))

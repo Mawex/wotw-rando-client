@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::ExpressionParser {
     IL2CPP_REGISTER_METHOD(0x01F5A8B0, void, ctor, (app::ExpressionParser * this_ptr, app::DataTable * table))

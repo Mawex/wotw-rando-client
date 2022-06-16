@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Animations::AnimationOffsetPlayable {
     IL2CPP_REGISTER_METHOD(0x00241C30, void, ctor, (app::AnimationOffsetPlayable__Boxed * this_ptr, app::PlayableHandle handle))

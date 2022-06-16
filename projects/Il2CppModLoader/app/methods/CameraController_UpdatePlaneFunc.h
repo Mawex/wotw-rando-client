@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraController_UpdatePlaneFunc {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::CameraController_UpdatePlaneFunc * this_ptr, app::Object * object, void * method_1))

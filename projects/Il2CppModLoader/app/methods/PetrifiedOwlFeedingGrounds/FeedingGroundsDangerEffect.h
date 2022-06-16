@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::FeedingGroundsDangerEffect {
     IL2CPP_REGISTER_METHOD(0x017852B0, void, FadeIn, (app::FeedingGroundsDangerEffect * this_ptr, float timescale))

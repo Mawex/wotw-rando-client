@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DeathsPlugin {
     IL2CPP_REGISTER_METHOD(0x00DE0FB0, void, Awake, (app::DeathsPlugin * this_ptr))

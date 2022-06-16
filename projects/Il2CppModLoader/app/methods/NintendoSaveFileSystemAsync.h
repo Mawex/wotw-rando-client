@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::NintendoSaveFileSystemAsync {
     IL2CPP_REGISTER_METHOD(0x031120B0, void, SubmitWriteRequestAsync, (app::String * path, app::Byte__Array * data, int32_t file_size_in_bytes, bool overwrite, bool is_from_copy_request))

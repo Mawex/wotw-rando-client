@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinPositionAndDirectionTracker {
     IL2CPP_REGISTER_METHOD(0x005C8CD0, app::Vector3, get_Speed, (app::SeinPositionAndDirectionTracker * this_ptr))

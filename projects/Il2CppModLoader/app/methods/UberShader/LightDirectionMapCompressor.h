@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberShader::LightDirectionMapCompressor {
     IL2CPP_REGISTER_METHOD(0x018F95D0, app::Texture2D *, GenerateErrorTexture, (app::LightDirectionMapCompressor * this_ptr, app::Texture2D * left_tex, app::Texture2D * right_tex, app::Texture2D * top_tex, app::Texture2D * bottom_tex))

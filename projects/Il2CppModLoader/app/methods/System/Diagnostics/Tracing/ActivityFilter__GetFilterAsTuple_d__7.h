@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::ActivityFilter__GetFilterAsTuple_d__7 {
     IL2CPP_REGISTER_METHOD(0x006389F0, void, ctor, (app::ActivityFilter_GetFilterAsTuple_d_7 * this_ptr, int32_t __1__state))

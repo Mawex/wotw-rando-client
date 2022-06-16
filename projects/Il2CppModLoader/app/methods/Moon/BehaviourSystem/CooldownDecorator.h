@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::BehaviourSystem::CooldownDecorator {
     IL2CPP_REGISTER_METHOD(0x0300C550, float, get_TimeRemaining, (app::CooldownDecorator * this_ptr))

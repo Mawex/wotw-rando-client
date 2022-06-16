@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Channels::CrossAppDomainChannel {
     IL2CPP_REGISTER_METHOD(0x01A9E3F0, void, RegisterCrossAppDomainChannel, ())

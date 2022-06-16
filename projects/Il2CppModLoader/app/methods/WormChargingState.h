@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WormChargingState {
     IL2CPP_REGISTER_METHOD(0x00522850, void, ctor, (app::WormChargingState * this_ptr, app::WormEnemy * worm, app::TextureAnimationWithTransitions * charging, app::PrefabSpawner * charging_effect))

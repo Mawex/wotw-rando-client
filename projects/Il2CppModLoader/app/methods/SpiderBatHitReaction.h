@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiderBatHitReaction {
     IL2CPP_REGISTER_METHOD(0x006A63A0, app::EntityDamageEvent *, get_DamageEvent, (app::SpiderBatHitReaction * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Action_2_Moon_VectorAnimationParameter_UnityEngine_Vector3_ {
     IL2CPP_REGISTER_METHOD(0x02C13740, void, Invoke, (app::Action_2_Moon_VectorAnimationParameter_UnityEngine_Vector3_ * this_ptr, app::VectorAnimationParameter * arg1, app::Vector3 arg2))

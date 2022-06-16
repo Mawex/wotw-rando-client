@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::EntityController {
     IL2CPP_REGISTER_METHOD(0x00C8D800, app::Vector3, get_LastSeenSeinPosition, (app::EntityController * this_ptr))

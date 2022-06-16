@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AmbientSoundZone {
     IL2CPP_REGISTER_METHOD(0x004F8FB0, void, Awake, (app::AmbientSoundZone * this_ptr))

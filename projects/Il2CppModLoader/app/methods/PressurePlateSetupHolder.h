@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PressurePlateSetupHolder {
     IL2CPP_REGISTER_METHOD(0x00C73190, app::PressurePlateSetupData *, get_NotPressed, (app::PressurePlateSetupHolder * this_ptr))

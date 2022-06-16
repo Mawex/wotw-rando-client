@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::IsInNPCInteractionCondition {
     IL2CPP_REGISTER_METHOD(0x00646140, bool, Validate, (app::IsInNPCInteractionCondition * this_ptr, app::IContext * context))

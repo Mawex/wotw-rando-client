@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Frameworks::Shader {
     IL2CPP_REGISTER_METHOD(0x01643ED0, void, ConvertColorsToTexture, (app::Texture2D * texture, app::Color__Array * gradient))

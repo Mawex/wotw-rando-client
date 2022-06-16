@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::Internal::DirectConverters::LayerMask_DirectConverter {
     IL2CPP_REGISTER_METHOD(0x0164FB40, app::fsResult, DoSerialize, (app::LayerMask_DirectConverter * this_ptr, app::LayerMask model, app::Dictionary_2_System_String_FullSerializer_fsData_ * serialized))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::EventSystems::PointerInputModule_MouseState {
     IL2CPP_REGISTER_METHOD(0x01F258E0, void, ctor, (app::PointerInputModule_MouseState * this_ptr))

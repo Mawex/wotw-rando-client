@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::PlayerUberStateShards_Shard *, get_Current, (app::List_1_T_Enumerator_Moon_uberSerializationWisp_PlayerUberStateShards_Shard___Boxed * this_ptr))

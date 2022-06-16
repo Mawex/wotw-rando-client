@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShardUpgradeScreen {
     IL2CPP_REGISTER_METHOD(0x005B0220, app::ShopkeeperItem__Array *, get_Items, (app::ShardUpgradeScreen * this_ptr))

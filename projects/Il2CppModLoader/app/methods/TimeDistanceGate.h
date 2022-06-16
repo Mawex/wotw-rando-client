@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TimeDistanceGate {
     IL2CPP_REGISTER_METHOD(0x010EFE70, void, ctor, (app::TimeDistanceGate * this_ptr, float time_cooldown, float distance_cooldown))

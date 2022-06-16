@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CCText {
     IL2CPP_REGISTER_METHOD(0x0315D530, uint16_t, get_Item, (app::CCText * this_ptr, int32_t index))

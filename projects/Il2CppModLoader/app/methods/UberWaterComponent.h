@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberWaterComponent {
     IL2CPP_REGISTER_METHOD(0x01293B10, app::UberWaterControl *, get_Control, (app::UberWaterComponent * this_ptr))

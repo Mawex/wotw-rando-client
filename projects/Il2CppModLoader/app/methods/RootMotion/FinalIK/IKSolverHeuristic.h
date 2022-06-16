@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKSolverHeuristic {
     IL2CPP_REGISTER_METHOD(0x02BFA210, bool, SetChain, (app::IKSolverHeuristic * this_ptr, app::Transform__Array * hierarchy, app::Transform * root))

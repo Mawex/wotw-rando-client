@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::SortedList_2_TKey_TValue__KeyList_System_Int32_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x019D6B90, void, ctor, (app::SortedList_2_TKey_TValue_KeyList_System_Int32_System_Object_ * this_ptr, app::SortedList_2_System_Int32_System_Object_ * dictionary))

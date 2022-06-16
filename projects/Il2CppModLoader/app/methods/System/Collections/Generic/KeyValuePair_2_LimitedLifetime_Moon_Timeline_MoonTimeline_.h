@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_LimitedLifetime_Moon_Timeline_MoonTimeline_ {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::LimitedLifetime *, get_Key, (app::KeyValuePair_2_LimitedLifetime_Moon_Timeline_MoonTimeline___Boxed * this_ptr))

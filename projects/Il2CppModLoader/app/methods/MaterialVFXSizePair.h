@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MaterialVFXSizePair {
     IL2CPP_REGISTER_METHOD(0x01384E20, void, ctor, (app::MaterialVFXSizePair * this_ptr, app::MaterialTypeVFXSettings_EffectSize__Enum size, app::GameObject * prefab))

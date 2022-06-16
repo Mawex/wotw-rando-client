@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::HeaderVariantInfo {
     IL2CPP_REGISTER_METHOD(0x0011D2D0, void, ctor, (app::HeaderVariantInfo__Boxed * this_ptr, app::String * name, app::CookieVariant__Enum variant))

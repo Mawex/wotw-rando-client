@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::P3D_Node {
     IL2CPP_REGISTER_METHOD(0x030959C0, app::P3D_Node *, Spawn, ())

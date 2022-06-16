@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonTelemetryItemTransactionEvent {
     IL2CPP_REGISTER_METHOD(0x0146F430, void, ctor, (app::MoonTelemetryItemTransactionEvent * this_ptr, app::MoonTelemetryItemTransactionEvent_ItemTransactionID__Enum item_i_d))

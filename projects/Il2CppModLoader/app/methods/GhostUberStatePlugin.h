@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GhostUberStatePlugin {
     IL2CPP_REGISTER_METHOD(0x007EC420, void, OnStartRecording, (app::GhostUberStatePlugin * this_ptr, app::PreRecordingData * pre_recording_data))

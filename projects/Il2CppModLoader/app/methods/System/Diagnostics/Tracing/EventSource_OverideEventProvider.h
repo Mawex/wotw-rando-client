@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::Tracing::EventSource_OverideEventProvider {
     IL2CPP_REGISTER_METHOD(0x019FC480, void, ctor, (app::EventSource_OverideEventProvider * this_ptr, app::EventSource * event_source))

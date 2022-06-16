@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Comparer_1_LoadDebugMenuPage_DebugSaveInfo_ {
     IL2CPP_REGISTER_METHOD(0x0280A220, app::Comparer_1_LoadDebugMenuPage_DebugSaveInfo_ *, Create, (app::Comparison_1_LoadDebugMenuPage_DebugSaveInfo_ * comparison))

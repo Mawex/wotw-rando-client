@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::TimeSpanConverter {
     IL2CPP_REGISTER_METHOD(0x029AD780, bool, CanConvertFrom, (app::TimeSpanConverter * this_ptr, app::ITypeDescriptorContext * context, app::Type * source_type))

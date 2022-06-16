@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::Performance::Settings::DoStressTestsProfilingSetting {
     IL2CPP_REGISTER_METHOD(0x0043D9A0, app::ProfilingSettings_SettingType__Enum, get_SettingType, (app::DoStressTestsProfilingSetting * this_ptr))

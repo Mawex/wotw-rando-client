@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::NumberFormatter_CustomInfo {
     IL2CPP_REGISTER_METHOD(0x02279FC0, void, GetActiveSection, (app::String * format, bool * positive, bool zero, int32_t * offset, int32_t * length))

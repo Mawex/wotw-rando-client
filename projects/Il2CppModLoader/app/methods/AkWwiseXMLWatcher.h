@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AkWwiseXMLWatcher {
     IL2CPP_REGISTER_METHOD(0x027081D0, void, add_XMLUpdated, (app::AkWwiseXMLWatcher * this_ptr, app::Action * value))

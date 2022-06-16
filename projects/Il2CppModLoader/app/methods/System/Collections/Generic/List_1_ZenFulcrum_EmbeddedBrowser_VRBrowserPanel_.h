@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_ZenFulcrum_EmbeddedBrowser_VRBrowserPanel_ {
     IL2CPP_REGISTER_METHOD(0x025E9A20, int32_t, FindIndex, (app::List_1_ZenFulcrum_EmbeddedBrowser_VRBrowserPanel_ * this_ptr, app::Predicate_1_ZenFulcrum_EmbeddedBrowser_VRBrowserPanel_ * match))

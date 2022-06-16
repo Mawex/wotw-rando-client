@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlFeedingGrounds::FeedingGroundsBreakablePlatform {
     IL2CPP_REGISTER_METHOD(0x01784060, void, OnDisable, (app::FeedingGroundsBreakablePlatform * this_ptr))

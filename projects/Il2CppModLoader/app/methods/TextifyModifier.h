@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TextifyModifier {
     IL2CPP_REGISTER_METHOD(0x010E8E80, float, GetQuadExpandSize, (app::TextifyModifier * this_ptr))

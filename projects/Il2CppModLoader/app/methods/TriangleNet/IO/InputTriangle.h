@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::IO::InputTriangle {
     IL2CPP_REGISTER_METHOD(0x026213E0, void, ctor, (app::InputTriangle * this_ptr, int32_t p0, int32_t p1, int32_t p2))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Game::PoleSetupHolder {
     IL2CPP_REGISTER_METHOD(0x01526DD0, app::PoleSetupData *, get_ReleasedState, (app::PoleSetupHolder * this_ptr))

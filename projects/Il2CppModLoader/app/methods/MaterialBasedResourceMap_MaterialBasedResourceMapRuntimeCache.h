@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache {
     IL2CPP_REGISTER_METHOD(0x01380BD0, app::List_1_MaterialBasedResourceMapEntry_ *, get_Entries, (app::MaterialBasedResourceMap_MaterialBasedResourceMapRuntimeCache * this_ptr))

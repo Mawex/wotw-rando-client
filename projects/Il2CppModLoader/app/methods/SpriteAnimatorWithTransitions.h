@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpriteAnimatorWithTransitions {
     IL2CPP_REGISTER_METHOD(0x00938890, bool, get_IsTransitionPlaying, (app::SpriteAnimatorWithTransitions * this_ptr))

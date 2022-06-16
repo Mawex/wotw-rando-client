@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MeleeComboMoveSwordstaff {
     IL2CPP_REGISTER_METHOD(0x013A5D20, float, get_EffectiveDamage, (app::MeleeComboMoveSwordstaff * this_ptr))

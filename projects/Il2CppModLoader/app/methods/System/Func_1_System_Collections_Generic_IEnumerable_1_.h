@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Func_1_System_Collections_Generic_IEnumerable_1_ {
     IL2CPP_REGISTER_METHOD(0x01938310, app::IEnumerable_1_ZenFulcrum_EmbeddedBrowser_IPromise_ *, Invoke_1, (app::Func_1_System_Collections_Generic_IEnumerable_1_ * this_ptr))

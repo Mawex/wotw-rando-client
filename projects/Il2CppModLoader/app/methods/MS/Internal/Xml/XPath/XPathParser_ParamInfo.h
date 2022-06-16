@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MS::Internal::Xml::XPath::XPathParser_ParamInfo {
     IL2CPP_REGISTER_METHOD(0x002FC6D0, app::Function_FunctionType__Enum, get_FType, (app::XPathParser_ParamInfo * this_ptr))

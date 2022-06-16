@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Security::Cryptography::HashAlgorithmName {
     IL2CPP_REGISTER_METHOD(0x020DBC10, app::HashAlgorithmName, get_MD5, ())

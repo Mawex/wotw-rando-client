@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::IKMapping_BoneMap {
     IL2CPP_REGISTER_METHOD(0x02BDB2F0, void, Initiate, (app::IKMapping_BoneMap * this_ptr, app::Transform * transform, app::IKSolverFullBody * solver))

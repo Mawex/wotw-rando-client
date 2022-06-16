@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Tuple_2_System_IO_Stream_System_IO_Stream_ReadWriteTask_ {
     IL2CPP_REGISTER_METHOD(0x002FA280, app::Stream *, get_Item1, (app::Tuple_2_System_IO_Stream_System_IO_Stream_ReadWriteTask_ * this_ptr))

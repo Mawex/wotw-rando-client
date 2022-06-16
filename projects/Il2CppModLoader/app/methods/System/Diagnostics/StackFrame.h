@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Diagnostics::StackFrame {
     IL2CPP_REGISTER_METHOD(0x017412D0, bool, get_frame_info, (int32_t skip, bool need_file_info, app::MethodBase * * method_1, int32_t * iloffset, int32_t * native_offset, app::String * * file, int32_t * line, int32_t * column))

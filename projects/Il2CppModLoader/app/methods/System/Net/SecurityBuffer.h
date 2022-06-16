@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::SecurityBuffer {
     IL2CPP_REGISTER_METHOD(0x01BD2F00, void, ctor_1, (app::SecurityBuffer * this_ptr, app::Byte__Array * data, int32_t offset, int32_t size, app::BufferType__Enum tokentype))

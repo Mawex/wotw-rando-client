@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::LinkedListNode_1_System_WeakReference_ {
     IL2CPP_REGISTER_METHOD(0x002FBB00, app::WeakReference *, get_Value, (app::LinkedListNode_1_System_WeakReference_ * this_ptr))

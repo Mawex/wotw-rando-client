@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Serialization::Formatters::Binary::ObjectWriter {
     IL2CPP_REGISTER_METHOD(0x01D9A180, void, ctor, (app::ObjectWriter * this_ptr, app::ISurrogateSelector * selector, app::StreamingContext context, app::InternalFE * formatter_enums, app::SerializationBinder * binder))

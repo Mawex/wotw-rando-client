@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Queue {
     IL2CPP_REGISTER_METHOD(0x0202B250, void, ctor_1, (app::Queue * this_ptr))

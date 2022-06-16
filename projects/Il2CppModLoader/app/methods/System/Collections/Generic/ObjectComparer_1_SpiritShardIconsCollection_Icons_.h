@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_SpiritShardIconsCollection_Icons_ {
     IL2CPP_REGISTER_METHOD(0x01CC9800, int32_t, Compare, (app::ObjectComparer_1_SpiritShardIconsCollection_Icons_ * this_ptr, app::SpiritShardIconsCollection_Icons x, app::SpiritShardIconsCollection_Icons y))

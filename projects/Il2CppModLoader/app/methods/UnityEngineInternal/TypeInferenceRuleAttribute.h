@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngineInternal::TypeInferenceRuleAttribute {
     IL2CPP_REGISTER_METHOD(0x02C7AB90, void, ctor_1, (app::TypeInferenceRuleAttribute * this_ptr, app::TypeInferenceRules__Enum rule))

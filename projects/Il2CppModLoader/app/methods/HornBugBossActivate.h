@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HornBugBossActivate {
     IL2CPP_REGISTER_METHOD(0x00B60690, void, Perform, (app::HornBugBossActivate * this_ptr, app::IContext * context))

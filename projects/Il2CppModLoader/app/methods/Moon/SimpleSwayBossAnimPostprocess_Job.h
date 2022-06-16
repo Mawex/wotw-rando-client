@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::SimpleSwayBossAnimPostprocess_Job {
     IL2CPP_REGISTER_METHOD(0x001DC710, void, Allocate, (app::SimpleSwayBossAnimPostprocess_Job__Boxed * this_ptr, int32_t chain_count))

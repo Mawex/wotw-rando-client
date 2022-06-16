@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TranslatedMessageProvider {
     IL2CPP_REGISTER_METHOD(0x00B0A900, app::IEnumerable_1_MessageDescriptor_ *, GetMessages, (app::TranslatedMessageProvider * this_ptr))

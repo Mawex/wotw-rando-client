@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinFootstepsPuppet {
     IL2CPP_REGISTER_METHOD(0x00AE2690, int32_t, get_Id, (app::SeinFootstepsPuppet * this_ptr))

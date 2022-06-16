@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SkeetoEatingBehaviour {
     IL2CPP_REGISTER_METHOD(0x00754CE0, app::SkeetoLocomotion *, get_Locomotion, (app::SkeetoEatingBehaviour * this_ptr))

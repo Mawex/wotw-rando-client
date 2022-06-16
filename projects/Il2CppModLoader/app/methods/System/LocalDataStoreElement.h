@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::LocalDataStoreElement {
     IL2CPP_REGISTER_METHOD(0x002FB940, void, ctor, (app::LocalDataStoreElement * this_ptr, int64_t cookie))

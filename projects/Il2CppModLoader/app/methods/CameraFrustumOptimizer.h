@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFrustumOptimizer {
     IL2CPP_REGISTER_METHOD(0x0168A060, void, RegisterVisualDebug, (app::CameraFrustumOptimizer * this_ptr))

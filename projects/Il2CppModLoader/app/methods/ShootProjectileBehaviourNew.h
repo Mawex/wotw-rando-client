@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShootProjectileBehaviourNew {
     IL2CPP_REGISTER_METHOD(0x005B8000, bool, IsBlockingInterruption, (app::ShootProjectileBehaviourNew * this_ptr, app::EntityDamageEvent * damage_event, app::EntityReactionBehaviour_ReasonWhyReactionWontInterrupt * reason))

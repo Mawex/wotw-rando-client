@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Driver::UpdateManager {
     IL2CPP_REGISTER_METHOD(0x031371A0, void, ctor, (app::UpdateManager * this_ptr, app::UpdateType__Enum update_type, app::UpdateManager__Array * managers))

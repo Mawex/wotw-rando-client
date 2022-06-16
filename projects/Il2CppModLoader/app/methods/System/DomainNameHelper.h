@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::DomainNameHelper {
     IL2CPP_REGISTER_METHOD(0x020056B0, app::String *, ParseCanonicalName, (app::String * str, int32_t start, int32_t end, bool * loopback))

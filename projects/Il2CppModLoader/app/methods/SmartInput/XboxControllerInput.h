@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SmartInput::XboxControllerInput {
     IL2CPP_REGISTER_METHOD(0x006CDA80, float, ToAxisFloat, (int32_t axis))

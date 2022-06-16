@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::GotoExpression {
     IL2CPP_REGISTER_METHOD(0x022CFE50, void, ctor, (app::GotoExpression * this_ptr, app::GotoExpressionKind__Enum kind, app::LabelTarget * target, app::Expression * value, app::Type * type))

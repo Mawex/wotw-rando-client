@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Extensions::MathExtensions {
     IL2CPP_REGISTER_METHOD(0x031B5BA0, float, GetMax, (app::Single__Array * values))

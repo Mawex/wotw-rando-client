@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CharacterFovController {
     IL2CPP_REGISTER_METHOD(0x01050A40, void, GetTargets, (app::CharacterFovController * this_ptr, app::SeinCharacter * character, float * offset, float * factor))

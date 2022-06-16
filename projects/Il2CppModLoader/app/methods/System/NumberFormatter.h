@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::NumberFormatter {
     IL2CPP_REGISTER_METHOD(0x02273730, void, GetFormatterTables, (app::uint64_t * * mantissa_bits_table, app::int32_t * * tens_exponent_table, app::uint16_t * * digit_lower_table, app::uint16_t * * digit_upper_table, app::int64_t * * ten_powers_list, app::int32_t * * dec_hex_digits))

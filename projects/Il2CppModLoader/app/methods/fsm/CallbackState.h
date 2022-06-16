@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::fsm::CallbackState {
     IL2CPP_REGISTER_METHOD(0x00F6CC00, app::CallbackState_1 *, AddUpdateStateAction, (app::CallbackState_1 * this_ptr, app::Action * update_state_action))

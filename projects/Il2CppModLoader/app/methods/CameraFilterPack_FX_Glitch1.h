@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_FX_Glitch1 {
     IL2CPP_REGISTER_METHOD(0x0246DCC0, app::Material *, get_material, (app::CameraFilterPack_FX_Glitch1 * this_ptr))

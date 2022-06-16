@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ScenesManagerBehaviourLegacy {
     IL2CPP_REGISTER_METHOD(0x01056D40, app::Vector2, get_CurrentCameraTargetPositionExtrapolated, (app::ScenesManagerBehaviourLegacy * this_ptr))

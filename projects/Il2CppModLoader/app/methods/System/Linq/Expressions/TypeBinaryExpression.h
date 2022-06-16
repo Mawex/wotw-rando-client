@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::TypeBinaryExpression {
     IL2CPP_REGISTER_METHOD(0x02FC5520, void, ctor, (app::TypeBinaryExpression * this_ptr, app::Expression * expression, app::Type * type_operand, app::ExpressionType__Enum node_type))

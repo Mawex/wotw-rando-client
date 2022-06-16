@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_Moon_MoonTrail_SimulationFrameData_ {
     IL2CPP_REGISTER_METHOD(0x01CC54D0, int32_t, Compare, (app::ObjectComparer_1_Moon_MoonTrail_SimulationFrameData_ * this_ptr, app::MoonTrail_SimulationFrameData x, app::MoonTrail_SimulationFrameData y))

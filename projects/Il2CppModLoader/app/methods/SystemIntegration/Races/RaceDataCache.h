@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SystemIntegration::Races::RaceDataCache {
     IL2CPP_REGISTER_METHOD(0x002FB950, app::Dictionary_2_System_String_SystemIntegration_Races_RaceEntry_ *, get_Entries, (app::RaceDataCache * this_ptr))

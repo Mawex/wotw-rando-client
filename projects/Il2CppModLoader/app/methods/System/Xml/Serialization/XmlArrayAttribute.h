@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlArrayAttribute {
     IL2CPP_REGISTER_METHOD(0x01C9A660, app::String *, get_ElementName, (app::XmlArrayAttribute * this_ptr))

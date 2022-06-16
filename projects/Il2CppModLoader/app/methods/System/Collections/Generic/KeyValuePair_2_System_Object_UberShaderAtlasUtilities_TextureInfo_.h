@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_System_Object_UberShaderAtlasUtilities_TextureInfo_ {
     IL2CPP_REGISTER_METHOD(0x00110270, void, ctor, (app::KeyValuePair_2_System_Object_UberShaderAtlasUtilities_TextureInfo___Boxed * this_ptr, app::Object * key, app::UberShaderAtlasUtilities_TextureInfo value))

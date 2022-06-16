@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FullSerializer::fsJsonParser {
     IL2CPP_REGISTER_METHOD(0x0150C4C0, app::fsResult, MakeFailure, (app::fsJsonParser * this_ptr, app::String * message))

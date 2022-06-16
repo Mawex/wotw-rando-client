@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DamageTypeCondition {
     IL2CPP_REGISTER_METHOD(0x00DCA6E0, bool, Validate, (app::DamageTypeCondition * this_ptr, app::IContext * context))

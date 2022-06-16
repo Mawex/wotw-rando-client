@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LegacyAnimator {
     IL2CPP_REGISTER_METHOD(0x0052A050, bool, get_IsInScene, (app::LegacyAnimator * this_ptr))

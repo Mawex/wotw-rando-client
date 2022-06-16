@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CurrentCharacterFacingCondition {
     IL2CPP_REGISTER_METHOD(0x00DB9FC0, bool, Validate, (app::CurrentCharacterFacingCondition * this_ptr, app::IContext * context))

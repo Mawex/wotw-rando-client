@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Linq::Expressions::Interpreter::PropertyByRefUpdater {
     IL2CPP_REGISTER_METHOD(0x022E5C20, void, ctor, (app::PropertyByRefUpdater * this_ptr, app::Nullable_1_System_Linq_Expressions_Interpreter_LocalDefinition_ obj, app::PropertyInfo_1 * property, int32_t argument_index))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_UnityEngine_ThreadPriority_System_Double_ {
     IL2CPP_REGISTER_METHOD(0x02BBBD40, void, set_Item, (app::Dictionary_2_UnityEngine_ThreadPriority_System_Double_ * this_ptr, app::ThreadPriority__Enum_1 key, double value))

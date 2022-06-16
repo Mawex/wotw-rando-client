@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::frameworks::entity::SimpleNPCEntity {
     IL2CPP_REGISTER_METHOD(0x00F5BA90, app::Vector2, get_EffectivePlayerAnchor, (app::SimpleNPCEntity * this_ptr))

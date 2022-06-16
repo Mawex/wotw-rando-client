@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::Http::Headers::CollectionParser {
     IL2CPP_REGISTER_METHOD(0x02D05710, bool, TryParse_1, (app::String * input, int32_t minimal_count, app::List_1_System_String_ * * result))

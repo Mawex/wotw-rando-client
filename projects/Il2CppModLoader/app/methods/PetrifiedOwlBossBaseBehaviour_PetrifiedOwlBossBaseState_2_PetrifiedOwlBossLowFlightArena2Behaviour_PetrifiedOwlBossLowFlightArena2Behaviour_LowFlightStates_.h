@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseState_2_PetrifiedOwlBossLowFlightArena2Behaviour_PetrifiedOwlBossLowFlightArena2Behaviour_LowFlightStates_ {
     IL2CPP_REGISTER_METHOD(0x01D14C90, void, ctor, (app::PetrifiedOwlBossBaseBehaviour_PetrifiedOwlBossBaseState_2_PetrifiedOwlBossLowFlightArena2Behaviour_PetrifiedOwlBossLowFlightArena2Behaviour_LowFlightStates_ * this_ptr, app::PetrifiedOwlBossBaseBehaviour * behaviour))

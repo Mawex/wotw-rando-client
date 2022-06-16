@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::DictionaryWrapper_2_TKey_TValue____c_System_Object_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x019DE4F0, void, cctor, ())

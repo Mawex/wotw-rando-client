@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::DebugMenuToggler {
     IL2CPP_REGISTER_METHOD(0x00DF7260, void, SetCurrentToggleOption, (app::DebugMenuToggler * this_ptr, int32_t toggle_option_id))

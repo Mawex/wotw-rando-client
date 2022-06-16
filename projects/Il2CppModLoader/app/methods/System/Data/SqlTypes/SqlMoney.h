@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::SqlTypes::SqlMoney {
     IL2CPP_REGISTER_METHOD(0x001E3B70, void, ctor_1, (app::SqlMoney__Boxed * this_ptr, bool f_null))

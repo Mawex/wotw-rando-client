@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::RaycastCommand {
     IL2CPP_REGISTER_METHOD(0x00244600, void, ctor, (app::RaycastCommand__Boxed * this_ptr, app::Vector3 from, app::Vector3 direction, float distance, int32_t layer_mask, int32_t max_hits))

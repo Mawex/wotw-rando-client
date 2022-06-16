@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayerInputButtonRebinder {
     IL2CPP_REGISTER_METHOD(0x0141CC70, bool, IsAbilityBlocked, (app::PlayerInputButtonRebinder * this_ptr, app::AbilityType__Enum ability))

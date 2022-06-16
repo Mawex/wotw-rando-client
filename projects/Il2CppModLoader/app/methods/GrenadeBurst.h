@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GrenadeBurst {
     IL2CPP_REGISTER_METHOD(0x002FD750, app::DamageLayerMask__Enum, get_DamageLayerMask, (app::GrenadeBurst * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::BaurSelectedMemoryToReplayCondition {
     IL2CPP_REGISTER_METHOD(0x00F9B260, bool, Validate, (app::BaurSelectedMemoryToReplayCondition * this_ptr, app::IContext * context))

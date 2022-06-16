@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::FinalIK::GrounderBipedIK {
     IL2CPP_REGISTER_METHOD(0x02065EA0, void, OpenUserManual, (app::GrounderBipedIK * this_ptr))

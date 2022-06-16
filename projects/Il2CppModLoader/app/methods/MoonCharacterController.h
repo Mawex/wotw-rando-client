@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoonCharacterController {
     IL2CPP_REGISTER_METHOD(0x00F452B0, app::Vector3, get_Position, (app::MoonCharacterController * this_ptr))

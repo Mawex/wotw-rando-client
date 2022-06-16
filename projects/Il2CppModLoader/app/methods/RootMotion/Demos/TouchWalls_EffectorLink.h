@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RootMotion::Demos::TouchWalls_EffectorLink {
     IL2CPP_REGISTER_METHOD(0x02047870, void, Initiate, (app::TouchWalls_EffectorLink * this_ptr, app::InteractionSystem * interaction_system))

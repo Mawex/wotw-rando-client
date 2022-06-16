@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Networking::UploadHandlerRaw {
     IL2CPP_REGISTER_METHOD(0x03181290, void, ctor, (app::UploadHandlerRaw * this_ptr, app::Byte__Array * data))

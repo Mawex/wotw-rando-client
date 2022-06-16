@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::StateChangeProvider {
     IL2CPP_REGISTER_METHOD(0x01BAF240, app::IGenericUberState *, get_State, (app::StateChangeProvider * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::DesignTimeVisibleAttribute {
     IL2CPP_REGISTER_METHOD(0x0052C650, void, ctor_1, (app::DesignTimeVisibleAttribute * this_ptr, bool visible))

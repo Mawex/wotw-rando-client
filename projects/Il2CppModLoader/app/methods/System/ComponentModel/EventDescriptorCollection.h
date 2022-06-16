@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::EventDescriptorCollection {
     IL2CPP_REGISTER_METHOD(0x01FE9E20, void, ctor_1, (app::EventDescriptorCollection * this_ptr, app::EventDescriptor_1__Array * events))

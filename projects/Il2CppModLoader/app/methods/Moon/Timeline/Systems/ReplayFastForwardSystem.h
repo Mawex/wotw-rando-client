@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Timeline::Systems::ReplayFastForwardSystem {
     IL2CPP_REGISTER_METHOD(0x00417920, app::UpdateType__Enum, get_UpdateType, (app::ReplayFastForwardSystem * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberShader::optimizations::gc::MemoryManagerDebugger {
     IL2CPP_REGISTER_METHOD(0x018FFBA0, app::MemoryManagerDebugger_MemoryManagerDataCache *, get_LastKnownInfo, ())

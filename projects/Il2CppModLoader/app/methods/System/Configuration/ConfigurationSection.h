@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Configuration::ConfigurationSection {
     IL2CPP_REGISTER_METHOD(0x031BBDE0, void, DeserializeSection, (app::ConfigurationSection * this_ptr, app::XmlReader * reader))

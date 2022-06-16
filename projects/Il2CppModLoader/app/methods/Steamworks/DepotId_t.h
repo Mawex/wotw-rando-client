@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::DepotId_t {
     IL2CPP_REGISTER_METHOD(0x0010DB80, void, ctor, (app::DepotId_t__Boxed * this_ptr, uint32_t value))

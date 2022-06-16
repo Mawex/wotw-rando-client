@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Predicate_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ {
     IL2CPP_REGISTER_METHOD(0x00611810, void, ctor, (app::Predicate_1_MoonTelemetryCharacterHeartbeatEvent_Cleanup_ * this_ptr, app::Object * object, void * method_1))

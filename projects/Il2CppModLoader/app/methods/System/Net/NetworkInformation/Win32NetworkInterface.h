@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::NetworkInformation::Win32NetworkInterface {
     IL2CPP_REGISTER_METHOD(0x01BCABE0, int32_t, GetNetworkParams, (void * ptr, int32_t * size))

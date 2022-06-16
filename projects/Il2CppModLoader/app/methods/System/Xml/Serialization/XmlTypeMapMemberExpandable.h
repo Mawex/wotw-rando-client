@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Serialization::XmlTypeMapMemberExpandable {
     IL2CPP_REGISTER_METHOD(0x003FF8B0, int32_t, get_FlatArrayIndex, (app::XmlTypeMapMemberExpandable * this_ptr))

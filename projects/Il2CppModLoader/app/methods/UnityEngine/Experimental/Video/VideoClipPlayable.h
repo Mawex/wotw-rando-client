@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Experimental::Video::VideoClipPlayable {
     IL2CPP_REGISTER_METHOD(0x001D9980, app::PlayableHandle, GetHandle, (app::VideoClipPlayable__Boxed * this_ptr))

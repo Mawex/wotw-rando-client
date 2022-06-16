@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MoveCameraToPlayerAction {
     IL2CPP_REGISTER_METHOD(0x008682E0, void, Perform, (app::MoveCameraToPlayerAction * this_ptr, app::IContext * context))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Reflection::CustomAttributeTypedArgument {
     IL2CPP_REGISTER_METHOD(0x001FC9A0, void, ctor, (app::CustomAttributeTypedArgument__Boxed * this_ptr, app::Type * argument_type, app::Object * value))

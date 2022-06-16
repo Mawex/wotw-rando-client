@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::ObjectComparer_1_ZenFulcrum_EmbeddedBrowser_RejectHandler_ {
     IL2CPP_REGISTER_METHOD(0x01CD06E0, int32_t, Compare, (app::ObjectComparer_1_ZenFulcrum_EmbeddedBrowser_RejectHandler_ * this_ptr, app::RejectHandler x, app::RejectHandler y))

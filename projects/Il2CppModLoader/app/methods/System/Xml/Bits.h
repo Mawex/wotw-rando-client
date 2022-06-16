@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Bits {
     IL2CPP_REGISTER_METHOD(0x021E7B70, int32_t, Count, (uint32_t num))

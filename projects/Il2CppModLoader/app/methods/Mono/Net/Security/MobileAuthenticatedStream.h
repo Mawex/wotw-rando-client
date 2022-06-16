@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Mono::Net::Security::MobileAuthenticatedStream {
     IL2CPP_REGISTER_METHOD(0x0217E0D0, void, ctor, (app::MobileAuthenticatedStream * this_ptr, app::Stream * inner_stream, bool leave_inner_stream_open, app::SslStream * owner, app::MonoTlsSettings * settings, app::MonoTlsProvider * provider))

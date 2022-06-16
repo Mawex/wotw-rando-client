@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Queue_1_T__Enumerator_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x001EE300, app::Object *, get_Current, (app::Queue_1_T_Enumerator_System_Object___Boxed * this_ptr))

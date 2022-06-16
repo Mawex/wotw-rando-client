@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::AI::NavMeshPath {
     IL2CPP_REGISTER_METHOD(0x031B3680, void, ctor, (app::NavMeshPath * this_ptr))

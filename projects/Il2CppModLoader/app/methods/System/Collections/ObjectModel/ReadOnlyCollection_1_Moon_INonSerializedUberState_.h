@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::ObjectModel::ReadOnlyCollection_1_Moon_INonSerializedUberState_ {
     IL2CPP_REGISTER_METHOD(0x02EC2580, app::INonSerializedUberState *, get_Item, (app::ReadOnlyCollection_1_Moon_INonSerializedUberState_ * this_ptr, int32_t index))

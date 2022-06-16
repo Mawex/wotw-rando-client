@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::InstantiateDebug::InstantiateDebugUtility {
     IL2CPP_REGISTER_METHOD(0x0062D3F0, void, ResetStatics, ())

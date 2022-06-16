@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Telemetry::TelemetryTimelineScene {
     IL2CPP_REGISTER_METHOD(0x010AA7F0, void, ctor, (app::TelemetryTimelineScene * this_ptr, app::MoonTelemetrySceneEvent__Array * scene_events))

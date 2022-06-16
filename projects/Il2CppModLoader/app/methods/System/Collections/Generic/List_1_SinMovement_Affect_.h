@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_SinMovement_Affect_ {
     IL2CPP_REGISTER_METHOD(0x025F0B10, app::List_1_T_Enumerator_SinMovement_Affect_, GetEnumerator, (app::List_1_SinMovement_Affect_ * this_ptr))

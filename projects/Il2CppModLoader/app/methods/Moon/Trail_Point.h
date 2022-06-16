@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Trail_Point {
     IL2CPP_REGISTER_METHOD(0x001F9EE0, void, ctor, (app::Trail_Point__Boxed * this_ptr, app::Vector3 position, app::Vector3 tangent, app::Vector3 normal, app::Color color, float thickness, float lifetime, float u))

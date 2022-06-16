@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::Json::JsonArray {
     IL2CPP_REGISTER_METHOD(0x01846A70, void, ctor_1, (app::JsonArray * this_ptr))

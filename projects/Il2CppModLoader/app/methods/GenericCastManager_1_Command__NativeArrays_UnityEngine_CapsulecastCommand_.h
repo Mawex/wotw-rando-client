@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::GenericCastManager_1_Command__NativeArrays_UnityEngine_CapsulecastCommand_ {
     IL2CPP_REGISTER_METHOD(0x00115940, int32_t, get_Capacity, (app::GenericCastManager_1_Command_NativeArrays_UnityEngine_CapsulecastCommand___Boxed * this_ptr))

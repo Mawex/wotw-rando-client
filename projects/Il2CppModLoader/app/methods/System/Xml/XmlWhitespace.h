@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::XmlWhitespace {
     IL2CPP_REGISTER_METHOD(0x01FD5270, void, ctor, (app::XmlWhitespace * this_ptr, app::String * str_data, app::XmlDocument * doc))

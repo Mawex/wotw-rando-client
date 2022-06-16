@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WaterSplashObject {
     IL2CPP_REGISTER_METHOD(0x008E2280, void, RenameToFollowObject, (app::WaterSplashObject * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory {
     IL2CPP_REGISTER_METHOD(0x0301DA30, app::ReflectionDelegateFactory *, get_Instance, ())

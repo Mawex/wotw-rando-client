@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinAnimationUtils {
     IL2CPP_REGISTER_METHOD(0x00D84B90, void, Play_1, (app::String * name, app::Action * on_stop_playing, app::Func_1_Boolean_ * condition))

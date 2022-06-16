@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Bson::BsonValue {
     IL2CPP_REGISTER_METHOD(0x01A4ABB0, void, ctor, (app::BsonValue * this_ptr, app::Object * value, app::BsonType__Enum type))

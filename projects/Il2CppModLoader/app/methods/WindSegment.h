@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WindSegment {
     IL2CPP_REGISTER_METHOD(0x005782E0, void, Awake, (app::WindSegment * this_ptr))

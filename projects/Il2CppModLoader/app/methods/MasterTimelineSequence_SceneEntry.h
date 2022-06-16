@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::MasterTimelineSequence_SceneEntry {
     IL2CPP_REGISTER_METHOD(0x00A13C70, float, get_StartTime, (app::MasterTimelineSequence_SceneEntry * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Steamworks::CSteamID {
     IL2CPP_REGISTER_METHOD(0x0012F2F0, void, ctor_1, (app::CSteamID__Boxed * this_ptr, app::AccountID_t un_account_i_d, app::EUniverse__Enum e_universe, app::EAccountType__Enum e_account_type))

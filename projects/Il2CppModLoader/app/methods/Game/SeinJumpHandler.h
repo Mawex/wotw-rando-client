@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Game::SeinJumpHandler {
     IL2CPP_REGISTER_METHOD(0x01529030, app::SeinCharacter *, get_Sein, (app::SeinJumpHandler * this_ptr))

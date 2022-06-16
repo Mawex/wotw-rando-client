@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Meshing::Converter {
     IL2CPP_REGISTER_METHOD(0x0263D7F0, app::Mesh_1 *, ToMesh_1, (app::Polygon * polygon, app::IList_1_TriangleNet_Geometry_ITriangle_ * triangles))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WispMessageIcon {
     IL2CPP_REGISTER_METHOD(0x0057CCD0, void, SetWisp, (app::WispMessageIcon * this_ptr, app::WispMessageIcon_Wisp__Enum wisp))

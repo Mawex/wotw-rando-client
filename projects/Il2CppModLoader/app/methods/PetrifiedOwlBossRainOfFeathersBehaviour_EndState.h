@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PetrifiedOwlBossRainOfFeathersBehaviour_EndState {
     IL2CPP_REGISTER_METHOD(0x0177CC60, void, ctor, (app::PetrifiedOwlBossRainOfFeathersBehaviour_EndState * this_ptr, app::PetrifiedOwlBossRainOfFeathersBehaviour * behaviour))

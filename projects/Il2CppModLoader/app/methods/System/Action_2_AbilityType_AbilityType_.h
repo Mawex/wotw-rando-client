@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Action_2_AbilityType_AbilityType_ {
     IL2CPP_REGISTER_METHOD(0x02C0FEA0, void, Invoke, (app::Action_2_AbilityType_AbilityType_ * this_ptr, app::AbilityType__Enum arg1, app::AbilityType__Enum arg2))

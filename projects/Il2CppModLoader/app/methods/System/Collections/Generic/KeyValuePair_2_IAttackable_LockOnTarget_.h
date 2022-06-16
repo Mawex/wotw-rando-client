@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::KeyValuePair_2_IAttackable_LockOnTarget_ {
     IL2CPP_REGISTER_METHOD(0x00107C00, app::IAttackable *, get_Key, (app::KeyValuePair_2_IAttackable_LockOnTarget___Boxed * this_ptr))

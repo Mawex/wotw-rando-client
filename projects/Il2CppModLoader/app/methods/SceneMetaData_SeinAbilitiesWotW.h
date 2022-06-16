@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SceneMetaData_SeinAbilitiesWotW {
     IL2CPP_REGISTER_METHOD(0x00BADDC0, void, ctor_1, (app::SceneMetaData_SeinAbilitiesWotW * this_ptr))

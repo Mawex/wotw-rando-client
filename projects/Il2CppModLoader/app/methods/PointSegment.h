@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PointSegment {
     IL2CPP_REGISTER_METHOD(0x01431940, app::Vector3, get_FirstPoint, (app::PointSegment * this_ptr))

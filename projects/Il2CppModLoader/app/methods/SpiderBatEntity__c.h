@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SpiderBatEntity___c {
     IL2CPP_REGISTER_METHOD(0x0095B730, void, cctor, ())

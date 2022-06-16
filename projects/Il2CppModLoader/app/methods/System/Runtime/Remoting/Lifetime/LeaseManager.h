@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Runtime::Remoting::Lifetime::LeaseManager {
     IL2CPP_REGISTER_METHOD(0x02308060, void, SetPollTime, (app::LeaseManager * this_ptr, app::TimeSpan time_span))

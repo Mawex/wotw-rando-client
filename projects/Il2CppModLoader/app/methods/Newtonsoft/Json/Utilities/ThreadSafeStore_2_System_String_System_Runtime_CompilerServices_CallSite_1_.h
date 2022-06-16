@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Newtonsoft::Json::Utilities::ThreadSafeStore_2_System_String_System_Runtime_CompilerServices_CallSite_1_ {
     IL2CPP_REGISTER_METHOD(0x01D12150, void, ctor_1, (app::ThreadSafeStore_2_System_String_System_Runtime_CompilerServices_CallSite_1_ * this_ptr, app::Func_2_String_System_Runtime_CompilerServices_CallSite_1_ * creator))

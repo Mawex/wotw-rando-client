@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayerAbilities {
     IL2CPP_REGISTER_METHOD(0x0117BB70, app::PlayerUberStateAbilities *, get_Abilities, (app::PlayerAbilities * this_ptr))

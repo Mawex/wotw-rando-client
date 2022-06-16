@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::Playables::PlayableExtensions {
     IL2CPP_REGISTER_METHOD(0x015E6670, void, SetInputWeight_1, (app::AnimationLayerMixerPlayable playable, int32_t input_index, float weight))

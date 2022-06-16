@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AreaMapCanvasOverlay {
     IL2CPP_REGISTER_METHOD(0x0050B270, void, OnValidate, (app::AreaMapCanvasOverlay * this_ptr))

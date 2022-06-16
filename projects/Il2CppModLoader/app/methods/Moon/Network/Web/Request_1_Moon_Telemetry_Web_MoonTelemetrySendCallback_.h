@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Network::Web::Request_1_Moon_Telemetry_Web_MoonTelemetrySendCallback_ {
     IL2CPP_REGISTER_METHOD(0x002FB960, void, SetPath, (app::Request_1_Moon_Telemetry_Web_MoonTelemetrySendCallback_ * this_ptr, app::String * path))

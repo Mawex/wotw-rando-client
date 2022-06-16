@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::DataKey {
     IL2CPP_REGISTER_METHOD(0x001E9F50, void, ctor, (app::DataKey__Boxed * this_ptr, app::DataColumn__Array * columns, bool copy_columns))

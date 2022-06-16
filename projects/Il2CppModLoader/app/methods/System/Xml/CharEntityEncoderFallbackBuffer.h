@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::CharEntityEncoderFallbackBuffer {
     IL2CPP_REGISTER_METHOD(0x021E8320, void, ctor, (app::CharEntityEncoderFallbackBuffer * this_ptr, app::CharEntityEncoderFallback * parent))

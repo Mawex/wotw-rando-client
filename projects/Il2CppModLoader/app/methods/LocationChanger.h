@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LocationChanger {
     IL2CPP_REGISTER_METHOD(0x00FC1570, void, Start, (app::LocationChanger * this_ptr))

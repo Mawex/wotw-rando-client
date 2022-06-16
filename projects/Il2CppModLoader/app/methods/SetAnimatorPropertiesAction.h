@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SetAnimatorPropertiesAction {
     IL2CPP_REGISTER_METHOD(0x005A1960, void, Start, (app::SetAnimatorPropertiesAction * this_ptr))

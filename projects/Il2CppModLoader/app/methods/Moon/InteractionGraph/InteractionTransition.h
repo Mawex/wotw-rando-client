@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::InteractionGraph::InteractionTransition {
     IL2CPP_REGISTER_METHOD(0x019907A0, bool, Validate, (app::InteractionTransition * this_ptr, app::IContext * context))

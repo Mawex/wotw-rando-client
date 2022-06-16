@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::QuestItemUI {
     IL2CPP_REGISTER_METHOD(0x00E8AC70, void, SetQuest, (app::QuestItemUI * this_ptr, app::RuntimeQuest * runtime_quest))

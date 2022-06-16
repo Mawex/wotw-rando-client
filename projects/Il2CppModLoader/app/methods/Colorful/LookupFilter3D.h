@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::LookupFilter3D {
     IL2CPP_REGISTER_METHOD(0x03049F70, app::Shader *, get_Shader2DSafe, (app::LookupFilter3D * this_ptr))

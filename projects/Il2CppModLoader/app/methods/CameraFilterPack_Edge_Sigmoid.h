@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CameraFilterPack_Edge_Sigmoid {
     IL2CPP_REGISTER_METHOD(0x02465DD0, app::Material *, get_material, (app::CameraFilterPack_Edge_Sigmoid * this_ptr))

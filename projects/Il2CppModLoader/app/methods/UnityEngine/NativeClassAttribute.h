@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::NativeClassAttribute {
     IL2CPP_REGISTER_METHOD(0x031BB790, void, ctor_1, (app::NativeClassAttribute * this_ptr, app::String * qualified_cpp_name))

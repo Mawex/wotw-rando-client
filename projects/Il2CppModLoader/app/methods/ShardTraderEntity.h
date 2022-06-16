@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShardTraderEntity {
     IL2CPP_REGISTER_METHOD(0x005AC370, app::String *, get_DialogActorName, (app::ShardTraderEntity * this_ptr))

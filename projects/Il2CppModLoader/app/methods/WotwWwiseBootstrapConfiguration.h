@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::WotwWwiseBootstrapConfiguration {
     IL2CPP_REGISTER_METHOD(0x00592170, void, SetStatics, (app::WotwWwiseBootstrapConfiguration * this_ptr))

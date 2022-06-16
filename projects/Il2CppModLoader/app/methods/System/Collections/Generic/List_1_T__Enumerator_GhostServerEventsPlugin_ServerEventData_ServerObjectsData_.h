@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_T__Enumerator_GhostServerEventsPlugin_ServerEventData_ServerObjectsData_ {
     IL2CPP_REGISTER_METHOD(0x00107C20, app::GhostServerEventsPlugin_ServerEventData_ServerObjectsData *, get_Current, (app::List_1_T_Enumerator_GhostServerEventsPlugin_ServerEventData_ServerObjectsData___Boxed * this_ptr))

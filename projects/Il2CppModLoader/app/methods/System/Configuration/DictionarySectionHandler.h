@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Configuration::DictionarySectionHandler {
     IL2CPP_REGISTER_METHOD(0x02961A80, void, ctor, (app::DictionarySectionHandler * this_ptr))

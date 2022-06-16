@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Data::DataColumnPropertyDescriptor {
     IL2CPP_REGISTER_METHOD(0x0239E050, void, ctor, (app::DataColumnPropertyDescriptor * this_ptr, app::DataColumn * data_column))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AmbienceZone {
     IL2CPP_REGISTER_METHOD(0x004F7280, app::Rect, get_EditorBounds, (app::AmbienceZone * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::RequestStream {
     IL2CPP_REGISTER_METHOD(0x01BCE410, void, ctor_1, (app::RequestStream * this_ptr, app::Stream * stream, app::Byte__Array * buffer, int32_t offset, int32_t length))

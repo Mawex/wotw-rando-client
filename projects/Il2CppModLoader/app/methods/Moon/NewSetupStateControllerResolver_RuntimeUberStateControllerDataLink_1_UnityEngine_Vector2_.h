@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_UnityEngine_Vector2_ {
     IL2CPP_REGISTER_METHOD(0x028FF440, bool, Init, (app::NewSetupStateControllerResolver_RuntimeUberStateControllerDataLink_1_UnityEngine_Vector2_ * this_ptr, app::NewSetupStateControllerResolver_SetupStateControllerLinkSerializedData * serialized_data, app::MemberInfo_1 * member_info))

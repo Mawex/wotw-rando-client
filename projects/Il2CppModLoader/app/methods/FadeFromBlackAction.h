@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::FadeFromBlackAction {
     IL2CPP_REGISTER_METHOD(0x008A34C0, float, get_Duration, (app::FadeFromBlackAction * this_ptr))

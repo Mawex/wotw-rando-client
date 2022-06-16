@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::CurrentCameraTransformProvider {
     IL2CPP_REGISTER_METHOD(0x00DB9D20, app::Transform *, get_CurrentCameraTransform, (app::CurrentCameraTransformProvider * this_ptr))

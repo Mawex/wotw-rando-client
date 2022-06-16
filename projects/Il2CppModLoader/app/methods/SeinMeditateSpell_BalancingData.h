@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinMeditateSpell_BalancingData {
     IL2CPP_REGISTER_METHOD(0x008A6C30, bool, get_Upgraded, (app::SeinMeditateSpell_BalancingData * this_ptr))

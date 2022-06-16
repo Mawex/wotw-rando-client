@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Text::DecoderExceptionFallbackBuffer {
     IL2CPP_REGISTER_METHOD(0x02448F70, bool, Fallback, (app::DecoderExceptionFallbackBuffer * this_ptr, app::Byte__Array * bytes_unknown, int32_t index))

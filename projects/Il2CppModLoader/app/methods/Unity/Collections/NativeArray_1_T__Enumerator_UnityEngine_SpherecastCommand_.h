@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Unity::Collections::NativeArray_1_T__Enumerator_UnityEngine_SpherecastCommand_ {
     IL2CPP_REGISTER_METHOD(0x001DF020, void, ctor, (app::NativeArray_1_T_Enumerator_UnityEngine_SpherecastCommand___Boxed * this_ptr, app::NativeArray_1_UnityEngine_SpherecastCommand_ * array))

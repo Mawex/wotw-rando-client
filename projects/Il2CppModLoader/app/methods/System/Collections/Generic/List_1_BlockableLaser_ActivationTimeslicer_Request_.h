@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::List_1_BlockableLaser_ActivationTimeslicer_Request_ {
     IL2CPP_REGISTER_METHOD(0x025ECB30, void, Add, (app::List_1_BlockableLaser_ActivationTimeslicer_Request_ * this_ptr, app::BlockableLaser_ActivationTimeslicer_Request item))

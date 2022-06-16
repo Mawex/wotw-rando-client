@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::experiments::npcs::weaponMaster::scripts::SkillUpgradeShopPurchaseResultCondition {
     IL2CPP_REGISTER_METHOD(0x00F59B90, bool, Validate, (app::SkillUpgradeShopPurchaseResultCondition * this_ptr, app::IContext * context))

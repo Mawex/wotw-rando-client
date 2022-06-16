@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::EulerRotationAnimator {
     IL2CPP_REGISTER_METHOD(0x00982550, app::Transform *, get_m_target, (app::EulerRotationAnimator * this_ptr))

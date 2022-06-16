@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::IMoonEffectPoolExtensions {
     IL2CPP_REGISTER_METHOD(0x0154A080, void, ReturnToPool_1, (app::IMoonEffectPool_1_System_Object_ * pool, app::Object * instance))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PositionCheckerPlugin {
     IL2CPP_REGISTER_METHOD(0x00C675B0, void, Awake, (app::PositionCheckerPlugin * this_ptr))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::TextGenerationSettings {
     IL2CPP_REGISTER_METHOD(0x0024B230, bool, CompareColors, (app::TextGenerationSettings__Boxed * this_ptr, app::Color left, app::Color right))

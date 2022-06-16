@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UnityEngine::SphereCollider {
     IL2CPP_REGISTER_METHOD(0x030AF4E0, app::Vector3, get_center, (app::SphereCollider * this_ptr))

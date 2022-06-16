@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Concurrent::BlockingCollectionDebugView_1_System_Object_ {
     IL2CPP_REGISTER_METHOD(0x0243AC00, app::Object__Array *, get_Items, (app::BlockingCollectionDebugView_1_System_Object_ * this_ptr))

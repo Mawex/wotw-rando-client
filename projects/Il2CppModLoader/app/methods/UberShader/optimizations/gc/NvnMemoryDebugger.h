@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberShader::optimizations::gc::NvnMemoryDebugger {
     IL2CPP_REGISTER_METHOD(0x01900D80, app::NvnMemoryDebugger_NvnDataCache *, get_LastKnownInfo, ())

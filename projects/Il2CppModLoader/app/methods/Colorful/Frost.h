@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Colorful::Frost {
     IL2CPP_REGISTER_METHOD(0x030438A0, void, OnRenderImage, (app::Frost * this_ptr, app::RenderTexture * source, app::RenderTexture * destination))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Swing::AngleRange {
     IL2CPP_REGISTER_METHOD(0x00115520, void, ctor, (app::AngleRange__Boxed * this_ptr, app::Angle _min, app::Angle _max))

@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::AnimationCurveKeyframeExtensions {
     IL2CPP_REGISTER_METHOD(0x004FC160, bool, SameAs_1, (app::Keyframe ok, app::Keyframe nk))

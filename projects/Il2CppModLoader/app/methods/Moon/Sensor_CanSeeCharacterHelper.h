@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::Sensor_CanSeeCharacterHelper {
     IL2CPP_REGISTER_METHOD(0x00120590, void, Init, (app::Sensor_CanSeeCharacterHelper__Boxed * this_ptr, app::Sensor * sensor))

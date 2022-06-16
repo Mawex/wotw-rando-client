@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::LianaHealLanternVisuals {
     IL2CPP_REGISTER_METHOD(0x0113F2B0, void, AttachVisuals, (app::LianaHealLanternVisuals * this_ptr, app::Transform * follow_transform))

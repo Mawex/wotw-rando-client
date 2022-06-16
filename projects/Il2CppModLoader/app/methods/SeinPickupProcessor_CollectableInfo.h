@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::SeinPickupProcessor_CollectableInfo {
     IL2CPP_REGISTER_METHOD(0x008B80C0, app::PickupContext *, GetPickupContext, (app::SeinPickupProcessor_CollectableInfo * this_ptr))

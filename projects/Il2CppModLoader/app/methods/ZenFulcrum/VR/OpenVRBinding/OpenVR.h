@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ZenFulcrum::VR::OpenVRBinding::OpenVR {
     IL2CPP_REGISTER_METHOD(0x00F55520, uint32_t, InitInternal, (app::EVRInitError__Enum * pe_error, app::EVRApplicationType__Enum e_application_type))

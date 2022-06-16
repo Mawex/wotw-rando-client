@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::RollingMovement {
     IL2CPP_REGISTER_METHOD(0x00724040, float, get_SpeedY, (app::RollingMovement * this_ptr))

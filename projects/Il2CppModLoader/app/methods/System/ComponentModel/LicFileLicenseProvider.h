@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::ComponentModel::LicFileLicenseProvider {
     IL2CPP_REGISTER_METHOD(0x01FEFF90, bool, IsKeyValid, (app::LicFileLicenseProvider * this_ptr, app::String * key, app::Type * type))

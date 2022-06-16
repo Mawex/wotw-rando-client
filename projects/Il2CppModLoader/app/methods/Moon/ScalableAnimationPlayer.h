@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::ScalableAnimationPlayer {
     IL2CPP_REGISTER_METHOD(0x003FC510, float, get_EffectiveSpeed, (app::ScalableAnimationPlayer * this_ptr))

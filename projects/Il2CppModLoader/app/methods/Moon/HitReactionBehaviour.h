@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Moon::HitReactionBehaviour {
     IL2CPP_REGISTER_METHOD(0x014AB990, void, Awake, (app::HitReactionBehaviour * this_ptr))

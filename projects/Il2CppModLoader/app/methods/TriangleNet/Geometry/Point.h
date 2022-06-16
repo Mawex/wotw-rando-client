@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Geometry::Point {
     IL2CPP_REGISTER_METHOD(0x0261CAF0, void, ctor_1, (app::Point * this_ptr))

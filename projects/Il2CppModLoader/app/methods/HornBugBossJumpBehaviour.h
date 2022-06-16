@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::HornBugBossJumpBehaviour {
     IL2CPP_REGISTER_METHOD(0x00B65480, void, SetupTimelines, (app::HornBugBossJumpBehaviour * this_ptr))

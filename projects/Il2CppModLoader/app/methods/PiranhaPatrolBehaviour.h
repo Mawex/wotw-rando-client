@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PiranhaPatrolBehaviour {
     IL2CPP_REGISTER_METHOD(0x01162FD0, int32_t, get_RandomIndex, (app::PiranhaPatrolBehaviour * this_ptr))

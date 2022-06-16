@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::Ionic::Zlib::Adler {
     IL2CPP_REGISTER_METHOD(0x03064F10, uint32_t, Adler32, (uint32_t adler, app::Byte__Array * buf, int32_t index, int32_t len))

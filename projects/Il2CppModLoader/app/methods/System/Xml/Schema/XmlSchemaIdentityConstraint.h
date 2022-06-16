@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::Schema::XmlSchemaIdentityConstraint {
     IL2CPP_REGISTER_METHOD(0x002FBB40, app::String *, get_Name, (app::XmlSchemaIdentityConstraint * this_ptr))

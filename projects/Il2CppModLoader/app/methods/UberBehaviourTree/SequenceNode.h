@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::UberBehaviourTree::SequenceNode {
     IL2CPP_REGISTER_METHOD(0x013E3310, void, ctor, (app::SequenceNode_2 * this_ptr, app::String * name))

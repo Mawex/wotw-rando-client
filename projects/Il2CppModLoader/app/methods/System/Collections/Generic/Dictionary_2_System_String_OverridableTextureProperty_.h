@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Collections::Generic::Dictionary_2_System_String_OverridableTextureProperty_ {
     IL2CPP_REGISTER_METHOD(0x0283B3E0, app::Dictionary_2_TKey_TValue_ValueCollection_System_String_OverridableTextureProperty_ *, get_Values, (app::Dictionary_2_System_String_OverridableTextureProperty_ * this_ptr))

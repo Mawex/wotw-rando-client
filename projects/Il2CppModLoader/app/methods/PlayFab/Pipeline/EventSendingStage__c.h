@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::PlayFab::Pipeline::EventSendingStage___c {
     IL2CPP_REGISTER_METHOD(0x017B0BC0, void, cctor, ())

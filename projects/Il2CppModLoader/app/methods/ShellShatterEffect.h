@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::ShellShatterEffect {
     IL2CPP_REGISTER_METHOD(0x005B2370, void, OnEnable, (app::ShellShatterEffect * this_ptr))

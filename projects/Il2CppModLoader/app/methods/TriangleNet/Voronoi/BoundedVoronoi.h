@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::TriangleNet::Voronoi::BoundedVoronoi {
     IL2CPP_REGISTER_METHOD(0x02AA7800, void, ctor_1, (app::BoundedVoronoi * this_ptr, app::Mesh_1 * mesh))

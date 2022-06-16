@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Net::ChunkedInputStream {
     IL2CPP_REGISTER_METHOD(0x02016D60, void, ctor, (app::ChunkedInputStream * this_ptr, app::HttpListenerContext * context, app::Stream * stream, app::Byte__Array * buffer, int32_t offset, int32_t length))

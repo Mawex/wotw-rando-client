@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::XGamingRuntime::SDK___c__DisplayClass33_0 {
     IL2CPP_REGISTER_METHOD(0x002FA000, void, ctor, (app::SDK_c_DisplayClass33_0 * this_ptr))

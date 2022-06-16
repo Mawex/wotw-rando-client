@@ -1,5 +1,5 @@
 #pragma once
-#include <Il2CppModloader/interception_macros.h>
+#include <Il2CppModLoader/interception_macros.h>
 
 namespace app::methods::System::Xml::XPath::XPathNavigatorKeyComparer {
     IL2CPP_REGISTER_METHOD(0x01957B90, bool, IEqualityComparer_Equals, (app::XPathNavigatorKeyComparer * this_ptr, app::Object * obj1, app::Object * obj2))
