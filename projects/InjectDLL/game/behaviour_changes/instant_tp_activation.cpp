@@ -4,13 +4,17 @@
 
 #include <Common/ext.h>
 
+#include <Il2CppModLoader/app/methods/Moon/uberSerializationWisp/PlayerUberStateAreaMapInformation.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/interception.h>
 #include <Il2CppModLoader/interception_macros.h>
 
 #include <unordered_map>
 
+using namespace app::methods;
+
 namespace {
+    // NOLINTBEGIN(readability-magic-numbers)
     std::unordered_map<std::pair<app::GameWorldAreaID__Enum, int>, int, pair_hash> area_to_tp = {
         { std::make_pair(app::GameWorldAreaID__Enum::InkwaterMarsh, 2701), 16 }, // Marsh
         { std::make_pair(app::GameWorldAreaID__Enum::InkwaterMarsh, 4298), 1 }, // Howls Den
@@ -31,9 +35,10 @@ namespace {
         { std::make_pair(app::GameWorldAreaID__Enum::WillowsEnd, 6124), 12 }, // Willow
         { std::make_pair(app::GameWorldAreaID__Enum::WillowsEnd, 6432), 15 }, // Shriek
     };
+    // NOLINTEND(readability-magic-numbers)
 
-    IL2CPP_INTERCEPT(Moon.uberSerializationWisp, PlayerUberStateAreaMapInformation, void, SetAreaState, (app::PlayerUberStateAreaMapInformation * this_ptr, app::GameWorldAreaID__Enum area_id, int index, app::WorldMapAreaState__Enum state, app::Vector3* position)) {
-        PlayerUberStateAreaMapInformation::SetAreaState(this_ptr, area_id, index, state, position);
+    IL2CPP_INTERCEPT(Moon::uberSerializationWisp::PlayerUberStateAreaMapInformation, void, SetAreaState, (app::PlayerUberStateAreaMapInformation * this_ptr, app::GameWorldAreaID__Enum area_id, int index, app::WorldMapAreaState__Enum state, app::Vector3 position)) {
+        next::Moon::uberSerializationWisp::PlayerUberStateAreaMapInformation::SetAreaState(this_ptr, area_id, index, state, position);
         if (state != app::WorldMapAreaState__Enum::Visited)
             return;
 
@@ -43,8 +48,6 @@ namespace {
 
         csharp_bridge::on_found_tp(it->second);
     }
-
-    IL2CPP_BINDING(Moon.uberSerializationWisp, PlayerUberStateAreaMapInformation, app::WorldMapAreaState__Enum, GetAreaState, (app::PlayerUberStateAreaMapInformation * this_ptr, app::GameWorldAreaID__Enum area, int index));
 } // namespace
 
 INJECT_C_DLLEXPORT bool is_visited(app::GameWorldAreaID__Enum area, int index) {
@@ -52,6 +55,6 @@ INJECT_C_DLLEXPORT bool is_visited(app::GameWorldAreaID__Enum area, int index) {
     if (!il2cpp::unity::is_valid(player_group))
         return false;
 
-    auto ami = player_group->fields.PlayerUberState->fields.m_state->fields.AreaMapInfo;
-    return PlayerUberStateAreaMapInformation::GetAreaState(ami, area, index) == app::WorldMapAreaState__Enum::Visited;
+    auto area_map_info = player_group->fields.PlayerUberState->fields.m_state->fields.AreaMapInfo;
+    return Moon::uberSerializationWisp::PlayerUberStateAreaMapInformation::GetAreaState(area_map_info, area, index) == app::WorldMapAreaState__Enum::Visited;
 }
