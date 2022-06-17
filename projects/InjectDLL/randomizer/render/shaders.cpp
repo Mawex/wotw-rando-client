@@ -31,7 +31,7 @@ namespace randomizer::shaders {
         Material::SetFloat(mat, Shader::PropertyToID(il2cpp::string_new(name)), value);
     }
 
-    void set_color(app::Material *mat, std::string_view name, app::Color value) {
+    void set_color(app::Material *mat, std::string_view name, const app::Color &value) {
         Material::SetColor_1(mat, il2cpp::string_new(name), value);
     }
 

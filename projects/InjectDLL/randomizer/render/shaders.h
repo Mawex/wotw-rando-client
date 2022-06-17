@@ -24,8 +24,8 @@ namespace randomizer::shaders {
     void apply(app::Renderer* renderer, ShaderInfo const& info);
 
     void set_float(app::Material* mat, std::string_view name, float value);
-    void set_color(app::Material* mat, std::string_view name, app::Color value);
-    void set_vector(app::Material* mat, std::string_view name, app::Vector4 value);
+    void set_color(app::Material* mat, std::string_view name, const app::Color &value);
+    void set_vector(app::Material *mat, std::string_view name, const app::Vector4 &value);
     void set_texture(app::Material* mat, std::string_view name, app::Texture* value);
 
     /**
