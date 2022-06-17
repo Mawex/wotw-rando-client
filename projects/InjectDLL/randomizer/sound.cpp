@@ -18,6 +18,10 @@
 #include <string>
 #include <unordered_map>
 
+using namespace app::methods;
+using namespace app::methods::UnityEngine;
+using namespace app::methods::Moon::Wwise;
+
 namespace randomizer {
     namespace sound {
         std::unordered_map<std::string, SoundEventID> string_to_event = {
@@ -38,9 +42,8 @@ namespace randomizer {
             banks[std::string(name)] = std::vector<unsigned char>(std::istreambuf_iterator<char>(input), {});
             auto& data = banks[std::string(name)];
             uint32_t bank_id = 0;
-            app::IntPtr data_ptr;
-            data_ptr.m_value = reinterpret_cast<app::Void*>(data.data());
-            auto out = AkSoundEngine::LoadAndDecodeBankFromMemory(data_ptr, data.size(), true, il2cpp::string_new("WotwRando"), false, &bank_id);
+            void* data_ptr = data.data();
+            AkSoundEngine::LoadAndDecodeBankFromMemory(data_ptr, data.size(), true, il2cpp::string_new("WotwRando"), false, &bank_id);
         }
 
         app::WwiseEventSystem_SoundHandle play_sound(SoundEventID event_id, app::ISoundHost* host) {
@@ -52,7 +55,7 @@ namespace randomizer {
             auto evt = create_event(event_id);
             auto handle = WwiseEventSystem::AllocateHandle(wes, evt, host);
             auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), handle);
-            WwiseEventSystem::SoundHandle::Play(boxed);
+            WwiseEventSystem_SoundHandle::Play(boxed);
             return handle;
         }
 
@@ -64,7 +67,7 @@ namespace randomizer {
 
             auto evt = create_event(event_id);
             auto name = il2cpp::string_new(artificial_host_name_template + std::to_string(artificial_host_id++));
-            WwiseGameObjectSystem::FireAndForget(go_system, name, evt, &location);
+            WwiseGameObjectSystem::FireAndForget(go_system, name, evt, location);
         }
 
         void initialize() {
@@ -94,31 +97,31 @@ namespace randomizer {
 
     app::WwiseEventSystem_EventStatus__Enum SoundActor::status() {
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        return sound::WwiseEventSystem::SoundHandle::get_Status(boxed);
+        return WwiseEventSystem_SoundHandle::get_Status(boxed);
     }
 
     void SoundActor::play(SoundEventID event_id) {
         auto wwise = il2cpp::get_class<app::Wwise__Class>("Moon.Wwise", "Wwise");
         auto wes = wwise->static_fields->m_eventsSystem;
         auto evt = sound::create_event(event_id);
-        m_sound = sound::WwiseEventSystem::AllocateHandle(wes, evt, reinterpret_cast<app::ISoundHost*>(m_host));
+        m_sound = WwiseEventSystem::AllocateHandle(wes, evt, reinterpret_cast<app::ISoundHost*>(m_host));
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        sound::WwiseEventSystem::SoundHandle::Play(boxed);
+        WwiseEventSystem_SoundHandle::Play(boxed);
     }
 
     void SoundActor::pause() {
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        sound::WwiseEventSystem::SoundHandle::Pause(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
+        WwiseEventSystem_SoundHandle::Pause(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
     }
 
     void SoundActor::resume() {
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        sound::WwiseEventSystem::SoundHandle::Resume(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
+        WwiseEventSystem_SoundHandle::Resume(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
     }
 
     void SoundActor::stop() {
         auto boxed = il2cpp::box_value<app::WwiseEventSystem_SoundHandle__Boxed>(il2cpp::get_class("Moon.Wwise", "WwiseEventSystem.SoundHandle"), m_sound);
-        sound::WwiseEventSystem::SoundHandle::Stop(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
+        WwiseEventSystem_SoundHandle::Stop(boxed, 0, app::AkCurveInterpolation__Enum::AkCurveInterpolation_Linear);
     }
 } // namespace randomizer
 
