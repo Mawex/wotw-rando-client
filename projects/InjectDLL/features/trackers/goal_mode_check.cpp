@@ -68,7 +68,7 @@ namespace {
                 set_camera_next_update = true;
             }
         } else
-            SeinCharacter::FixedUpdate(this_ptr);
+            next::SeinCharacter::FixedUpdate(this_ptr);
     }
 
     void report_player_position(std::string const& command, std::vector<console::CommandParam> const& params) {

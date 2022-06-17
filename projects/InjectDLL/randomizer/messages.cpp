@@ -296,7 +296,7 @@ namespace {
 
     app::GameObject* create_permanent_box(RandoMessage& message, bool instant = false) {
         auto controller = il2cpp::get_class<app::UI__Class>("Game", "UI")->static_fields->MessageController;
-        auto go = reinterpret_cast<app::GameObject*>(Object::Instantiate_12(controller->fields.HintSmallMessage));
+        auto go = reinterpret_cast<app::GameObject*>(Object::Instantiate_3(reinterpret_cast<app::Object_1*>(controller->fields.HintSmallMessage)));
         game::add_to_container(game::RandoContainer::Messages, go);
 
         auto destroy_on_restore = il2cpp::unity::get_component_in_children<app::DestroyOnRestoreCheckpoint>(go, "", "DestroyOnRestoreCheckpoint");

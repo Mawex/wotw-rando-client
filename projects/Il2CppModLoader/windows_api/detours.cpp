@@ -12,7 +12,7 @@ namespace modloader::win::detours {
         DetourUpdateThread(GetCurrentThread());
     }
 
-    void do_intercept(const std::string& debug, void** original_pointer, void* intercept_pointer) {
+    void* do_intercept(const std::string& debug, void** original_pointer, void* intercept_pointer) {
         trace(MessageType::Debug, 3, "initialize", format("Intercepting (il2cpp): %s @ %d -> %d", debug.c_str(),
             reinterpret_cast<uint64_t>(*original_pointer), reinterpret_cast<uint64_t>(intercept_pointer)));
         PDETOUR_TRAMPOLINE trampoline = nullptr;
@@ -26,10 +26,12 @@ namespace modloader::win::detours {
                 &detour
         );
 
-        if (result)
+        if (result) {
             trace(MessageType::Error, 3, "initialize", format("Error attaching %s : %d", debug.c_str(), result));
-        else {
+            return nullptr;
+        } else {
             trace(MessageType::Debug, 3, "initialize", format("Attach success (%d, %d, %d)", trampoline, target, detour));
+            return detour;
         }
     }
 

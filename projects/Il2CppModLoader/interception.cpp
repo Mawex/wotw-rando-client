@@ -33,17 +33,31 @@ namespace modloader {
 		}
 
         void internal_intercepts() {
+            std::unordered_map<void*, void*> intercept_cache;
+
             detours::start_transaction();
 
             auto current = last_intercept;
             while (current != nullptr) {
                 *current->original_pointer = *current->binding_pointer;
+
                 if (current->intercept_pointer) {
-                    detours::do_intercept(
+                    auto it = intercept_cache.find(*current->binding_pointer);
+                    if (it != intercept_cache.end())
+                    {
+                        trace(MessageType::Debug, 3, "initialize", format("Changing intercept address (%d, %d)", *current->original_pointer, it->second));
+                        *current->original_pointer = it->second;
+                    }
+
+                    void* detour = detours::do_intercept(
                             format("%s (%d, %d)", current->name.data(), memory::get_game_assembly_address(), reinterpret_cast<uint64_t>(*current->binding_pointer)),
                             current->original_pointer,
                             current->intercept_pointer
                     );
+
+                    if (detour != nullptr) {
+                        intercept_cache[*current->binding_pointer] = detour;
+                    }
                 }
 
                 current = current->prev;
