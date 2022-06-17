@@ -1,4 +1,3 @@
-#include "Il2CppModLoader/interception.h"
 #include "Il2CppModLoader/windows_api/memory.h"
 
 #define IL2CPP_TYPEDEF(a, n) app::##n##__Class** app::##n##__TypeInfo = (n##__Class**)(modloader::win::memory::resolve_rva(a));
