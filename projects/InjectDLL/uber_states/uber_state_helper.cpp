@@ -10,58 +10,47 @@
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
+#include <Il2CppModLoader/app/methods/CapsuleCrushDetector.h>
+#include <Il2CppModLoader/app/methods/SeinHealthController.h>
+#include <Il2CppModLoader/app/methods/SeinEnergy.h>
+#include <Il2CppModLoader/app/methods/PlayerSpiritShards.h>
+#include <Il2CppModLoader/app/methods/Moon/uberSerializationWisp/PlayerUberStateAbilities.h>
+#include <Il2CppModLoader/app/methods/Moon/uberSerializationWisp/PlayerUberStateShards.h>
+#include <Il2CppModLoader/app/methods/Moon/UberStateCollection.h>
+#include <Il2CppModLoader/app/methods/SeinCharacter.h>
+#include <Il2CppModLoader/app/methods/SeinLevel.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/Transform.h>
 
 #include <array>
 
 using namespace modloader;
+using namespace app::methods;
+using namespace app::methods::Moon;
+using namespace app::methods::Moon::uberSerializationWisp;
+using namespace app::methods::UnityEngine;
 
 namespace {
-    IL2CPP_BINDING(, CapsuleCrushDetector, void, KillOri, (app::CapsuleCrushDetector * this_ptr));
-    IL2CPP_BINDING(, SeinHealthController, void, RestoreAllHealth, (app::SeinHealthController * this_ptr, float visualSpeed));
-    IL2CPP_BINDING(, SeinHealthController, void, LoseHealth, (app::SeinHealthController * this_ptr, float amount, float visualSpeed));
-    IL2CPP_BINDING(, SeinHealthController, void, GainHealth, (app::SeinHealthController * this_ptr, float amount, float visualSpeed, bool incrementStatistic));
-    IL2CPP_BINDING(, SeinHealthController, void, set_Amount, (app::SeinHealthController * this_ptr, float value));
-    IL2CPP_BINDING(, SeinHealthController, void, set_BaseMaxHealth, (app::SeinHealthController * this_ptr, int value));
-    IL2CPP_BINDING(, SeinHealthController, int, get_BaseMaxHealth, (app::SeinHealthController * this_ptr));
-    IL2CPP_BINDING(, SeinEnergy, void, Gain, (app::SeinEnergy * this_ptr, float amount));
-    IL2CPP_BINDING(, SeinEnergy, void, RestoreAllEnergy, (app::SeinEnergy * this_ptr));
-    IL2CPP_BINDING(, SeinEnergy, void, set_Current, (app::SeinEnergy * this_ptr, float value));
-    IL2CPP_BINDING(, SeinEnergy, float, get_BaseMaxEnergy, (app::SeinEnergy * this_ptr));
-    IL2CPP_BINDING(, SeinEnergy, void, set_BaseMaxEnergy, (app::SeinEnergy * this_ptr, float amount));
-    IL2CPP_BINDING(, PlayerSpiritShards, void, RefreshHasShard, (app::PlayerSpiritShards * this_ptr));
-    IL2CPP_BINDING(, PlayerSpiritShards, void, SetGlobalShardSlotCount, (app::PlayerSpiritShards * this_ptr, int32_t count));
-    IL2CPP_BINDING(, PlayerSpiritShards, bool, HasShard, (app::PlayerSpiritShards * this_ptr, csharp_bridge::ShardType type));
-    IL2CPP_BINDING_OVERLOAD(, PlayerSpiritShards, bool, IsGlobalShardEquipped, (app::PlayerSpiritShards * this_ptr, app::SpiritShardType__Enum value), (SpiritShardType));
-    IL2CPP_BINDING_OVERLOAD(, PlayerSpiritShards, app::PlayerUberStateShards_Shard*, AddNewShardToInventory, (app::PlayerSpiritShards * this_ptr, csharp_bridge::ShardType type), (SpiritShardType));
-    IL2CPP_BINDING(Moon.uberSerializationWisp, PlayerUberStateAbilities, void, SetAbilityLevel, (app::PlayerUberStateAbilities * this_ptr, app::AbilityType__Enum type, int level));
-    STATIC_IL2CPP_BINDING(Moon, UberStateCollection, app::IUberState*, GetState, (app::UberID * groupID, app::UberID* stateID));
-    STATIC_IL2CPP_BINDING(Moon, UberStateCollection, Il2CppObject*, get_Descriptors, ());
-    IL2CPP_BINDING(, SeinCharacter, app::Vector3, get_Position, (app::SeinCharacter * this_ptr));
-    IL2CPP_BINDING(, SeinCharacter, void, set_Position, (app::SeinCharacter * this_ptr, app::Vector3 value));
-    IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_position, (app::Transform * this_ptr));
-    IL2CPP_BINDING(, SeinLevel, void, set_Ore, (app::SeinLevel * this_ptr, int32_t value));
-
     app::CheatsHandler__StaticFields* get_cheats() {
-        return il2cpp::get_class<app::CheatsHandler__Class>("", "CheatsHandler")->static_fields;
+        return (*app::CheatsHandler__TypeInfo)->static_fields;
     }
 
     app::PlayerUberStateStats* get_stats() {
-        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Stats;
     }
 
     app::PlayerUberStateInventory* get_inventory() {
-        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Inventory;
     }
 
     app::PlayerUberStateShards* get_shards() {
-        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Shards;
     }
 
     app::PlayerUberStateAbilities* get_abilities() {
-        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Abilities;
     }
 } // namespace
@@ -299,7 +288,7 @@ INJECT_C_DLLEXPORT void set_shard_slots(int32_t value) {
 INJECT_C_DLLEXPORT bool has_shard(csharp_bridge::ShardType type) {
     auto shards = get_player_spirit_shards();
     if (shards != nullptr)
-        return PlayerSpiritShards::HasShard(shards, type);
+        return PlayerSpiritShards::HasShard(shards, static_cast<app::SpiritShardType__Enum>(type));
     else
         return false;
 }
@@ -307,7 +296,7 @@ INJECT_C_DLLEXPORT bool has_shard(csharp_bridge::ShardType type) {
 INJECT_C_DLLEXPORT bool is_shard_equipped(csharp_bridge::ShardType type) {
     auto shards = get_player_spirit_shards();
     if (shards != nullptr)
-        return PlayerSpiritShards::IsGlobalShardEquipped(shards, static_cast<app::SpiritShardType__Enum>(type));
+        return PlayerSpiritShards::IsGlobalShardEquipped_1(shards, static_cast<app::SpiritShardType__Enum>(type));
     else
         return false;
 }
@@ -318,13 +307,11 @@ INJECT_C_DLLEXPORT void refresh_shards() {
         PlayerSpiritShards::RefreshHasShard(shards);
 }
 
-IL2CPP_BINDING(Moon.uberSerializationWisp, PlayerUberStateShards, app::PlayerUberStateShards_Shard*, SetAbility, (app::PlayerUberStateShards * this_ptr, uint8_t ability, bool value));
-
 INJECT_C_DLLEXPORT void set_shard(csharp_bridge::ShardType type, bool value) {
     auto player_shards = get_player_spirit_shards();
     if (player_shards != nullptr) {
         auto shards = get_shards();
-        auto shard = PlayerUberStateShards::SetAbility(shards, static_cast<uint8_t>(type), value);
+        auto shard = PlayerUberStateShards::SetAbility(shards, static_cast<app::SpiritShardType__Enum>(type), value);
         il2cpp::invoke(player_shards->fields.OnInventoryUpdated, "Invoke", shard);
     }
 }
