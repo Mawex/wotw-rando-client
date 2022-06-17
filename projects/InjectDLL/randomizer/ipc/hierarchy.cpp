@@ -5,10 +5,16 @@
 
 #include <Common/ext.h>
 
+#include <Il2CppModLoader/app/methods/UnityEngine/Object.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/Quaternion.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/Transform.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
 #include <Il2CppModLoader/windows_api/console.h>
+
+using namespace app::methods;
+using namespace app::methods::UnityEngine;
 
 namespace randomizer::ipc {
     namespace {
@@ -360,12 +366,6 @@ namespace randomizer::ipc {
             }
         }
 
-        IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_position, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Quaternion, get_rotation, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_localPosition, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Quaternion, get_localRotation, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Transform, app::Vector3, get_localScale, (app::Transform * this_ptr));
-        IL2CPP_BINDING(UnityEngine, Quaternion, app::Vector3, get_eulerAngles, (app::Quaternion__Boxed * this_ptr));
         void visualize_transform(nlohmann::json& j, void* obj, bool verbose) {
             auto transform = reinterpret_cast<app::Transform*>(obj);
             auto position = Transform::get_position(transform);
@@ -393,10 +393,9 @@ namespace randomizer::ipc {
             }
         }
 
-        IL2CPP_BINDING(UnityEngine, Object, int, GetInstanceID, (app::GameObject * this_ptr));
         void visualize_game_object(nlohmann::json& j, void* obj, bool verbose) {
             auto go = reinterpret_cast<app::GameObject*>(obj);
-            auto id = Object::GetInstanceID(go);
+            auto id = Object::GetInstanceID(reinterpret_cast<app::Object_1*>(go));
             auto layer = il2cpp::invoke<app::Int32__Boxed>(go, "get_layer")->fields;
             j["instance_id"] = id;
             j["active"] = il2cpp::unity::get_active(go);
