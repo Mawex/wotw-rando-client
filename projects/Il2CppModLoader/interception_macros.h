@@ -26,7 +26,7 @@
                 reinterpret_cast<void**>(&app::methods::method_namespace::method_name),                                                              \
                 reinterpret_cast<void**>(&next::method_namespace::method_name),                                                                      \
                 method_name,                                                                                                                         \
-                #method_name                                                                                                                         \
+                #method_namespace "::" #method_name                                                                                                   \
         ); \
     }                                                                                                                                                \
                                                                                                                                                      \

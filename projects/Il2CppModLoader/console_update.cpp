@@ -4,4 +4,5 @@
 
 IL2CPP_INTERCEPT(GameController, void, Update, (app::GameController * this_ptr)) {
     modloader::win::console::console_update();
+    next::GameController::Update(this_ptr);
 }
