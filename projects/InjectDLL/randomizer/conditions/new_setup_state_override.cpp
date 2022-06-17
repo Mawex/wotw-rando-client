@@ -7,6 +7,9 @@
 #include <uber_states/uber_state_helper.h>
 #include <uber_states/uber_state_interface.h>
 
+#include <Il2CppModLoader/app/methods/Moon/SerializedIntUberState.h>
+#include <Il2CppModLoader/app/methods/Moon/UberStateController.h>
+#include <Il2CppModLoader/app/methods/NewSetupStateController.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
@@ -20,6 +23,8 @@
 using namespace modloader;
 using namespace modloader::win;
 using namespace uber_states;
+using namespace app::methods;
+using namespace app::methods::Moon;
 
 namespace randomizer {
     namespace conditions {
@@ -67,8 +72,7 @@ namespace randomizer {
                 return map->fields._.FallbackSetupStateIndex;
             }
 
-            STATIC_IL2CPP_BINDING(Moon, UberStateController, void, ApplyAll, (int32_t context));
-            IL2CPP_INTERCEPT(, NewSetupStateController, app::SetupState*, get_ActiveState, (app::NewSetupStateController * this_ptr)) {
+            IL2CPP_INTERCEPT(NewSetupStateController, app::SetupState*, get_ActiveState, (app::NewSetupStateController * this_ptr)) {
                 auto can_resolve = il2cpp::invoke(this_ptr->fields.StateHolder->fields._._.State, "CanResolve", nullptr);
                 auto state = il2cpp::invoke(this_ptr->fields.StateHolder->fields._._.State, "Resolve", nullptr);
                 auto mapping = this_ptr->fields.StateHolder->fields._._.Mapping;
@@ -104,9 +108,6 @@ namespace randomizer {
                 return nullptr;
             }
 
-            IL2CPP_BINDING(Moon, SerializedIntUberState, int, get_Value, (app::SerializedIntUberState * uber_state));
-            IL2CPP_BINDING(Moon, SerializedIntUberState, void, set_Value, (app::SerializedIntUberState * uber_state, int value));
-
             void intercept_state(std::string const& command, std::vector<console::CommandParam> const& params) {
                 if (params.size() != 3) {
                     console::console_send("invalid number of parameters.");
@@ -131,11 +132,11 @@ namespace randomizer {
                 }
 
                 register_new_setup_redirect(std::make_pair(params[0].value, first), second);
-                UberStateController::ApplyAll(0);
+                UberStateController::ApplyAll(app::UberStateApplyContext__Enum::ValueChanged);
             }
 
             void show_state(std::string const& command, std::vector<console::CommandParam> const& params) {
-                if (params.size() < 1) {
+                if (params.empty()) {
                     console::console_send("Needs at least 1 parameter.");
                     return;
                 }
