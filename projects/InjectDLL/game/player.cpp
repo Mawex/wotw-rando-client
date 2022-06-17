@@ -17,7 +17,7 @@ using namespace app::methods;
 namespace game {
     namespace player {
         app::SeinCharacter *sein() {
-            return (**app::Characters__TypeInfo).static_fields->m_sein;
+            return il2cpp::get_class<app::Characters__Class>("Game", "Characters")->static_fields->m_sein;
         }
 
         bool has_ability(app::AbilityType__Enum ability) {

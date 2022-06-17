@@ -54,7 +54,7 @@ namespace game {
             game_event_bus.trigger_event(GameEvent::FixedUpdate, EventTiming::End);
 
             // TODO: Probably should move this somewhere else.
-            auto simple_fps = (*app::SimpleFPS__TypeInfo)->static_fields->Instance;
+            auto simple_fps = il2cpp::get_class<app::SimpleFPS__Class>("", "SimpleFPS")->static_fields->Instance;
             UnityEngine::Behaviour::set_enabled(reinterpret_cast<app::Behaviour *>(simple_fps), false);
         }
 
@@ -92,7 +92,7 @@ namespace game {
     }
 
     app::GameController *controller() {
-        return (*app::GameController__TypeInfo)->static_fields->Instance;
+        return il2cpp::get_class<app::GameController__Class>("", "GameController")->static_fields->Instance;
     }
 
     app::GameObject *container(RandoContainer c) {

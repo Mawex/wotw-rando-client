@@ -53,6 +53,7 @@ namespace modloader {
         }
 
         void interception_init() {
+            internal_bindings();
             internal_intercepts();
         }
 
@@ -71,7 +72,7 @@ namespace modloader {
         }
 
         binding::binding(uint64_t address, void** ptr, std::string_view s) :
-            name(std::move(s)), offset(address), pointer(ptr), next(nullptr) {
+            name(s), offset(address), pointer(ptr), next(nullptr) {
             prev = last_binding;
             if (prev != nullptr)
                 prev->next = prev;
@@ -82,7 +83,7 @@ namespace modloader {
         }
 
         intercept::intercept(void** binding_ptr, void** original, void* intercepted, std::string_view s) :
-                name(std::move(s)), binding_pointer(binding_ptr), original_pointer(original), intercept_pointer(intercepted), next(nullptr) {
+                name(s), binding_pointer(binding_ptr), original_pointer(original), intercept_pointer(intercepted), next(nullptr) {
             prev = last_intercept;
             if (prev != nullptr)
                 prev->next = prev;

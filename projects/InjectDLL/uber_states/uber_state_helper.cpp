@@ -31,26 +31,26 @@ using namespace app::methods::UnityEngine;
 
 namespace {
     app::CheatsHandler__StaticFields* get_cheats() {
-        return (*app::CheatsHandler__TypeInfo)->static_fields;
+        return il2cpp::get_class<app::CheatsHandler__Class>("", "CheatsHandler")->static_fields;
     }
 
     app::PlayerUberStateStats* get_stats() {
-        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Stats;
     }
 
     app::PlayerUberStateInventory* get_inventory() {
-        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Inventory;
     }
 
     app::PlayerUberStateShards* get_shards() {
-        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Shards;
     }
 
     app::PlayerUberStateAbilities* get_abilities() {
-        app::PlayerUberStateGroup* player_group = (*app::PlayerUberStateGroup__TypeInfo)->static_fields->Instance;
+        app::PlayerUberStateGroup* player_group = il2cpp::get_class<app::PlayerUberStateGroup__Class>("", "PlayerUberStateGroup")->static_fields->Instance;
         return player_group->fields.PlayerUberState->fields.m_state->fields.Abilities;
     }
 } // namespace

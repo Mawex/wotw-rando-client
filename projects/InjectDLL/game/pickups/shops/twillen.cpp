@@ -154,7 +154,7 @@ namespace {
             }
         }
 
-        auto* const settings = (*app::SpiritShardSettings__TypeInfo)->static_fields->Instance;
+        auto* const settings = il2cpp::get_class<app::SpiritShardSettings__Class>("", "SpiritShardSettings")->static_fields->Instance;
 
         auto* const description = il2cpp::invoke<app::SpiritShardDescription>(settings->fields.Descriptions, "GetValue", &type);
         if (!(item->fields.m_gained || !this_ptr->fields.RequireOwned) || locked_shard_overwrite)

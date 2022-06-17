@@ -1,6 +1,7 @@
-#include "Il2CppModLoader/windows_api/memory.h"
+#include <Il2CppModLoader/windows_api/memory.h>
+#include <Il2CppModLoader/macros.h>
 
-#define IL2CPP_TYPEDEF(a, n) app::##n##__Class** app::##n##__TypeInfo = (n##__Class**)(modloader::win::memory::resolve_rva(a));
+#define IL2CPP_TYPEDEF(a, n) IL2CPP_MODLOADER_DLLEXPORT app::##n##__Class** app::##n##__TypeInfo = (n##__Class**)(modloader::win::memory::resolve_rva(a));
 namespace app {
 #include "il2cpp_typeinfo_registration.h"
 }

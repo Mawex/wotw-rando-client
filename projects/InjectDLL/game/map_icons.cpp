@@ -701,7 +701,7 @@ namespace {
 
     IL2CPP_INTERCEPT(AreaMapIconManager, void, ShowAreaIcons, (app::AreaMapIconManager * this_ptr)) {
         // Start ShowAreaIcons function.
-        auto world = (*app::GameWorld__TypeInfo)->static_fields->Instance;
+        auto world = il2cpp::get_class<app::GameWorld__Class>("", "GameWorld")->static_fields->Instance;
         for (auto i = 0; i < world->fields.RuntimeAreas->fields._size; ++i) {
             auto runtime_area = world->fields.RuntimeAreas->fields._items->vector[i];
             for (auto j = 0; j < runtime_area->fields.Icons->fields._size; ++j) {

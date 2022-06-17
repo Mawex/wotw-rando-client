@@ -30,35 +30,35 @@ namespace {
     Il2CppClass* get_klass();
     template <>
     Il2CppClass* get_klass<app::SerializedBooleanUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::SerializedBooleanUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "SerializedBooleanUberState");
     }
     template <>
     Il2CppClass* get_klass<app::SerializedByteUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::SerializedByteUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "SerializedByteUberState");
     }
     template <>
     Il2CppClass* get_klass<app::SerializedIntUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::SerializedIntUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "SerializedIntUberState");
     }
     template <>
     Il2CppClass* get_klass<app::SerializedFloatUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::SerializedFloatUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "SerializedFloatUberState");
     }
     template <>
     Il2CppClass* get_klass<app::BooleanUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::BooleanUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "BooleanUberState");
     }
     template <>
     Il2CppClass* get_klass<app::ByteUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::ByteUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "ByteUberState");
     }
     template <>
     Il2CppClass* get_klass<app::IntUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::IntUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "IntUberState");
     }
     template <>
     Il2CppClass* get_klass<app::FloatUberState>() {
-        return reinterpret_cast<Il2CppClass*>(*app::FloatUberState__TypeInfo);
+        return il2cpp::get_class("Moon", "FloatUberState");
     }
 
     template <typename T, typename V>
@@ -581,4 +581,4 @@ namespace {
 
         print_time(start_time, "Uber states initialized");
     }
-} // namespace
+} // na

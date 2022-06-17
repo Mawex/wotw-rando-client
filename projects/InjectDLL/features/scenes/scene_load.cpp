@@ -40,7 +40,7 @@ namespace scenes {
     namespace {
         IL2CPP_INTERCEPT(SceneManagerScene, void, ChangeState,
                          (app::SceneManagerScene * this_ptr, app::SceneState__Enum state)) {
-            SceneManagerScene::ChangeState(this_ptr, state);
+            next::SceneManagerScene::ChangeState(this_ptr, state);
 
             auto scene_name_csstring = this_ptr->fields.MetaData->fields.Scene;
             auto scene_name = il2cpp::convert_csstring(scene_name_csstring);

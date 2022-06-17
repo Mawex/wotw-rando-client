@@ -106,7 +106,7 @@ namespace {
 
     IL2CPP_INTERCEPT(Core::Input, app::Vector2, get_Axis, ()) {
         app::Vector2 ret{ 0 };
-        auto player_input = (*app::PlayerInput__TypeInfo)->static_fields->Instance;
+        auto player_input = il2cpp::get_class<app::PlayerInput__Class>("", "PlayerInput")->static_fields->Instance;
         if (!player_input->fields.Active)
             return ret;
 

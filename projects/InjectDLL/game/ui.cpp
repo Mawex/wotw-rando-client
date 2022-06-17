@@ -31,7 +31,7 @@ namespace game {
         } // namespace
 
         app::UI__Class *get() {
-            return *app::UI__TypeInfo;
+            return il2cpp::get_class<app::UI__Class>("Game", "UI");
         }
 
         bool area_map_open() {

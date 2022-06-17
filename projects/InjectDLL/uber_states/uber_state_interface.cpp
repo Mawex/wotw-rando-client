@@ -262,27 +262,27 @@ namespace uber_states {
             // else
 
             if (il2cpp::is_assignable(uber_state, "Moon", "SerializedBooleanUberState"))
-                SerializedBooleanUberState::set_Value(reinterpret_cast<app::SerializedBooleanUberState*>(uber_state), value > 0.5);
+                next::Moon::SerializedBooleanUberState::set_Value(reinterpret_cast<app::SerializedBooleanUberState*>(uber_state), value > 0.5);
             else if (il2cpp::is_assignable(uber_state, "Moon", "SerializedByteUberState"))
-                SerializedByteUberState::set_Value(reinterpret_cast<app::SerializedByteUberState*>(uber_state), value);
+                next::Moon::SerializedByteUberState::set_Value(reinterpret_cast<app::SerializedByteUberState*>(uber_state), value);
             else if (il2cpp::is_assignable(uber_state, "Moon", "SerializedIntUberState"))
-                SerializedIntUberState::set_Value(reinterpret_cast<app::SerializedIntUberState*>(uber_state), value);
+                next::Moon::SerializedIntUberState::set_Value(reinterpret_cast<app::SerializedIntUberState*>(uber_state), value);
             else if (il2cpp::is_assignable(uber_state, "Moon", "SerializedFloatUberState"))
-                SerializedFloatUberState::set_Value(reinterpret_cast<app::SerializedFloatUberState*>(uber_state), value);
+                next::Moon::SerializedFloatUberState::set_Value(reinterpret_cast<app::SerializedFloatUberState*>(uber_state), value);
             else if (il2cpp::is_assignable(uber_state, "Moon", "BooleanUberState"))
-                BooleanUberState::set_Value(reinterpret_cast<app::BooleanUberState*>(uber_state), value > 0.5);
+                next::Moon::BooleanUberState::set_Value(reinterpret_cast<app::BooleanUberState*>(uber_state), value > 0.5);
             else if (il2cpp::is_assignable(uber_state, "Moon", "ByteUberState"))
-                ByteUberState::set_Value(reinterpret_cast<app::ByteUberState*>(uber_state), value);
+                next::Moon::ByteUberState::set_Value(reinterpret_cast<app::ByteUberState*>(uber_state), value);
             else if (il2cpp::is_assignable(uber_state, "Moon", "IntUberState"))
-                IntUberState::set_Value(reinterpret_cast<app::IntUberState*>(uber_state), value);
+                next::Moon::IntUberState::set_Value(reinterpret_cast<app::IntUberState*>(uber_state), value);
             else if (il2cpp::is_assignable(uber_state, "Moon", "FloatUberState"))
-                FloatUberState::set_Value(reinterpret_cast<app::FloatUberState*>(uber_state), value);
+                next::Moon::FloatUberState::set_Value(reinterpret_cast<app::FloatUberState*>(uber_state), value);
             else if (il2cpp::is_assignable(uber_state, "Moon.uberSerializationWisp", "SavePedestalUberState")) {
                 const auto int_value = static_cast<unsigned int>(value);
                 const auto is_teleporter_active = (int_value & 0b10u) != 0;
                 const auto has_been_saved = (int_value & 0b01u) != 0;
-                SavePedestalUberState::set_IsTeleporterActive(reinterpret_cast<app::SavePedestalUberState*>(uber_state), is_teleporter_active);
-                SavePedestalUberState::set_HasGameBeenSaved(reinterpret_cast<app::SavePedestalUberState*>(uber_state), has_been_saved);
+                next::Moon::uberSerializationWisp::SavePedestalUberState::set_IsTeleporterActive(reinterpret_cast<app::SavePedestalUberState*>(uber_state), is_teleporter_active);
+                next::Moon::uberSerializationWisp::SavePedestalUberState::set_HasGameBeenSaved(reinterpret_cast<app::SavePedestalUberState*>(uber_state), has_been_saved);
             } else {
                 trace(MessageType::Warning, 2, "uber_state", format("unable to get value of uber state (%d, %d)", m_group, m_state));
                 return;
@@ -307,28 +307,28 @@ namespace uber_states {
         // if (m_group == UberStateGroup::MultiVars)
         //     return static_cast<double>((SerializedIntUberState::get_Value(uber_state) >> (m_state % 31)) & 0b1);
 
-        if (il2cpp::is_assignable(uber_state, *app::SerializedBooleanUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "SerializedBooleanUberState"))
             return static_cast<double>(SerializedBooleanUberState::get_Value(reinterpret_cast<app::SerializedBooleanUberState*>(uber_state)));
 
-        if (il2cpp::is_assignable(uber_state, *app::SerializedByteUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "SerializedByteUberState"))
             return static_cast<double>(SerializedByteUberState::get_Value(reinterpret_cast<app::SerializedByteUberState*>(uber_state)));
 
-        if (il2cpp::is_assignable(uber_state, *app::SerializedIntUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "SerializedIntUberState"))
             return static_cast<double>(SerializedIntUberState::get_Value(reinterpret_cast<app::SerializedIntUberState*>(uber_state)));
 
-        if (il2cpp::is_assignable(uber_state, *app::SerializedFloatUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "SerializedFloatUberState"))
             return static_cast<double>(SerializedFloatUberState::get_Value(reinterpret_cast<app::SerializedFloatUberState*>(uber_state)));
 
-        if (il2cpp::is_assignable(uber_state, *app::BooleanUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "BooleanUberState"))
             return static_cast<double>(BooleanUberState::get_Value(reinterpret_cast<app::BooleanUberState*>(uber_state)));
 
-        if (il2cpp::is_assignable(uber_state, *app::ByteUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "ByteUberState"))
             return static_cast<double>(ByteUberState::get_Value(reinterpret_cast<app::ByteUberState*>(uber_state)));
 
-        if (il2cpp::is_assignable(uber_state, *app::IntUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "IntUberState"))
             return static_cast<double>(IntUberState::get_Value(reinterpret_cast<app::IntUberState*>(uber_state)));
 
-        if (il2cpp::is_assignable(uber_state, *app::FloatUberState__TypeInfo))
+        if (il2cpp::is_assignable(uber_state, "Moon", "FloatUberState"))
             return static_cast<double>(FloatUberState::get_Value(reinterpret_cast<app::FloatUberState*>(uber_state)));
 
         if (il2cpp::is_assignable(uber_state, "Moon.uberSerializationWisp", "SavePedestalUberState")) {
