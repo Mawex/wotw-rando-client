@@ -11,12 +11,15 @@
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
+#include <Il2CppModLoader/app/methods/GameController.h>
 
 #include <interop/csharp_bridge.h>
 
 #include <unordered_map>
 
 using namespace modloader;
+using namespace app::methods;
+
 namespace uber_states {
     namespace {
         using uber_id = std::pair<UberStateGroup, int>;
@@ -119,8 +122,8 @@ namespace uber_states {
         };
 
         std::unordered_map<uber_id, double, pair_hash> cached_values;
-        IL2CPP_INTERCEPT(, GameController, void, Update, (app::GameController * this_ptr)) {
-            GameController::Update(this_ptr);
+        IL2CPP_INTERCEPT(GameController, void, Update, (app::GameController * this_ptr)) {
+            next::GameController::Update(this_ptr);
             for (const auto& state : virtual_states) {
                 auto value = state.second.get();
                 auto it = cached_values.find(state.first);
