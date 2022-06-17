@@ -10,12 +10,14 @@
 
 #include <Il2CppModLoader/app/methods/CatlikeCoding/TextBox/TextBox.h>
 #include <Il2CppModLoader/app/methods/CleverMenuItem.h>
-#include <Il2CppModLoader/app/methods/MapMakerItem.h>
+#include <Il2CppModLoader/app/methods/MapmakerItem.h>
+#include <Il2CppModLoader/app/methods/MessageBox.h>
 #include <Il2CppModLoader/app/methods/MapmakerScreen.h>
 #include <Il2CppModLoader/app/methods/MapmakerUIDetails.h>
 #include <Il2CppModLoader/app/methods/MapmakerUIItem.h>
 #include <Il2CppModLoader/app/methods/MapmakerUISubItem.h>
 #include <Il2CppModLoader/app/methods/Moon/SerializedBooleanUberState.h>
+#include <Il2CppModLoader/app/methods/UberShaderAPI.h>
 #include <Il2CppModLoader/app/methods/UnityEngine/GameObject.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
@@ -42,7 +44,7 @@ namespace {
         prevent_map_safeguard = false;
     }
 
-    IL2CPP_INTERCEPT(Moon, SerializedBooleanUberState, bool, get_Value, (app::SerializedBooleanUberState * this_ptr)) {
+    IL2CPP_INTERCEPT(Moon::SerializedBooleanUberState, bool, get_Value, (app::SerializedBooleanUberState * this_ptr)) {
         if (prevent_map_safeguard && this_ptr->fields._.m_id->fields.m_id == 35534)
             return false;
 
@@ -69,7 +71,7 @@ namespace {
             texture->apply(renderer);
         else {
             randomizer::textures::apply_default(renderer);
-            randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, reinterpret_cast<app::Texture*>(this_ptr->fields.m_upgradeItem->fields.Icon));
+            UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, reinterpret_cast<app::Texture*>(this_ptr->fields.m_upgradeItem->fields.Icon));
         }
     }
 
@@ -101,7 +103,7 @@ namespace {
         if (item->fields.UberState->fields.m_value >= item->fields.MaxLevel)
             return show_hint(this_ptr, this_ptr->fields.Hints.MaxedOut);
 
-        if (MapmakerItem::GetCost_intercept(item) > get_experience())
+        if (MapmakerItem::GetCost(item) > get_experience())
             return show_hint(this_ptr, this_ptr->fields.Hints.NotEnoughSpiritLight);
 
         return true;
@@ -121,7 +123,7 @@ namespace {
 
         auto state = this_ptr->fields.m_upgradeItem->fields.UberState;
         auto owned = state->fields.m_value >= this_ptr->fields.m_upgradeItem->fields.MaxLevel;
-        auto cost = MapmakerItem::GetCost_intercept(this_ptr->fields.m_upgradeItem);
+        auto cost = MapmakerItem::GetCost(this_ptr->fields.m_upgradeItem);
         auto can_afford = get_experience() >= cost;
         auto can_purchase = !(owned || !can_afford || !visible || locked);
 
@@ -134,14 +136,14 @@ namespace {
             auto text_box = il2cpp::unity::get_component<app::TextBox>(this_ptr->fields.CostGO, "CatlikeCoding.TextBox", "TextBox");
 
             if (owned)
-                TextBox::SetText(text_box, il2cpp::string_new(""));
+                TextBox::SetText_2(text_box, il2cpp::string_new(""));
             else {
                 if (can_purchase)
                     text_box->fields.color = this_ptr->fields.PurchasableColor;
                 else
                     text_box->fields.color = this_ptr->fields.UnpurchaseableColor;
 
-                TextBox::SetText(text_box, il2cpp::string_new(std::to_string(cost)));
+                TextBox::SetText_2(text_box, il2cpp::string_new(std::to_string(cost)));
             }
 
             TextBox::RenderText(text_box);
@@ -158,18 +160,18 @@ namespace {
         const auto key = get_key(item);
         const auto it = lupo_overrides.find(key);
 
-        // randomizer::shaders::UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, item->fields.Icon);
+        // UberShaderAPI::SetTexture(renderer, app::UberShaderProperty_Texture__Enum::MainTexture, item->fields.Icon);
         auto icon = shops::get_icon(shops::ShopType::Lupo, item);
         icon->apply(renderer);
 
         auto can_afford = false;
         auto owned = item->fields.MaxLevel >= uber_states::UberState(item->fields.UberState).get<int>();
         if (il2cpp::unity::is_valid(item->fields.UberState) && !owned)
-            can_afford = MapmakerItem::GetCost_intercept(item) <= get_experience();
+            can_afford = MapmakerItem::GetCost(item) <= get_experience();
 
         auto can_purchase = can_afford && (it != lupo_overrides.end() && !it->second.is_locked && it->second.is_visible);
         auto color = can_purchase ? this_ptr->fields.PurchasableColor : this_ptr->fields.NotPurchasableColor;
-        randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &color);
+        UberShaderAPI::SetColor_1(renderer, app::UberShaderProperty_Color__Enum::MainColor, color);
 
         app::MessageProvider* name = nullptr;
         app::MessageProvider* description = nullptr;
@@ -204,13 +206,13 @@ namespace {
         auto name_text_component = il2cpp::unity::get_component<app::TextBox>(this_ptr->fields.NameGO, "CatlikeCoding.TextBox", "TextBox");
         name_text_component->fields.color = color;
         name_message_box->fields.MessageProvider = name;
-        MessageBox::RefreshText(name_message_box);
+        MessageBox::RefreshText_1(name_message_box);
 
         auto description_message_box = il2cpp::unity::get_component<app::MessageBox>(this_ptr->fields.DescriptionGO, "", "MessageBox");
         auto description_text_component = il2cpp::unity::get_component<app::TextBox>(this_ptr->fields.DescriptionGO, "CatlikeCoding.TextBox", "TextBox");
         description_text_component->fields.color = color;
         description_message_box->fields.MessageProvider = description;
-        MessageBox::RefreshText(description_message_box);
+        MessageBox::RefreshText_1(description_message_box);
 
         GameObject::SetActive(this_ptr->fields.PurchasableGO, !owned && can_purchase);
         GameObject::SetActive(this_ptr->fields.TooExpensiveGO, !owned && !can_purchase);
@@ -222,7 +224,7 @@ namespace {
         const auto it = lupo_overrides.find(key);
 
         auto value = uber_states::UberState(this_ptr->fields.m_upgradeItem->fields.UberState).get<int>();
-        auto can_afford = il2cpp::unity::is_valid(item) && get_experience() >= MapmakerItem::GetCost_intercept(item);
+        auto can_afford = il2cpp::unity::is_valid(item) && get_experience() >= MapmakerItem::GetCost(item);
 
         auto is_locked = it == lupo_overrides.end() || it->second.is_locked;
         auto is_visible = it != lupo_overrides.end() && it->second.is_visible;
