@@ -26,10 +26,10 @@ namespace app::methods::System::IntPtr {
     IL2CPP_REGISTER_METHOD(0x004C50A0, app::Void *, op_Explicit_6, (void * value))
     IL2CPP_REGISTER_METHOD(0x0157E100, void *, Add, (void * pointer, int32_t offset))
     IL2CPP_REGISTER_METHOD(0x001D5C40, bool, IsNull, (app::IntPtr__Boxed * this_ptr))
-    bool operator == (void & value1, void & value2) {
+    inline bool operator == (void & value1, void & value2) {
         return op_Equality(&value1, &value2);
     }
-    bool operator != (void & value1, void & value2) {
+    inline bool operator != (void & value1, void & value2) {
         return op_Inequality(&value1, &value2);
     }
 }

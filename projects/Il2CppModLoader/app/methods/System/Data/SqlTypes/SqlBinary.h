@@ -27,13 +27,13 @@ namespace app::methods::System::Data::SqlTypes::SqlBinary {
     IL2CPP_REGISTER_METHOD(0x001D6010, void, IXmlSerializable_WriteXml, (app::SqlBinary__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x01E4F870, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x01E4F9C0, void, cctor, ())
-    app::SqlBoolean operator == (app::SqlBinary x, app::SqlBinary y) {
+    inline app::SqlBoolean operator == (app::SqlBinary x, app::SqlBinary y) {
         return op_Equality(x, y);
     }
-    app::SqlBoolean operator < (app::SqlBinary x, app::SqlBinary y) {
+    inline app::SqlBoolean operator < (app::SqlBinary x, app::SqlBinary y) {
         return op_LessThan(x, y);
     }
-    app::SqlBoolean operator > (app::SqlBinary x, app::SqlBinary y) {
+    inline app::SqlBoolean operator > (app::SqlBinary x, app::SqlBinary y) {
         return op_GreaterThan(x, y);
     }
 }

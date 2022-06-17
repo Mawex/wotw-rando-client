@@ -14,7 +14,7 @@ namespace app::methods::System::Xml::XmlSqlBinaryReader_QName {
     IL2CPP_REGISTER_METHOD(0x0013C960, bool, Equals, (app::XmlSqlBinaryReader_QName__Boxed * this_ptr, app::Object * other))
     IL2CPP_REGISTER_METHOD(0x0013C970, app::String *, ToString, (app::XmlSqlBinaryReader_QName__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x01714810, bool, op_Equality, (app::XmlSqlBinaryReader_QName a, app::XmlSqlBinaryReader_QName b))
-    bool operator == (app::XmlSqlBinaryReader_QName a, app::XmlSqlBinaryReader_QName b) {
+    inline bool operator == (app::XmlSqlBinaryReader_QName a, app::XmlSqlBinaryReader_QName b) {
         return op_Equality(a, b);
     }
 }

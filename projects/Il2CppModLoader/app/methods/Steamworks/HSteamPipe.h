@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::HSteamPipe {
     IL2CPP_REGISTER_METHOD(0x006CE970, int32_t, op_Explicit_2, (app::HSteamPipe that))
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::HSteamPipe__Boxed * this_ptr, app::HSteamPipe other))
     IL2CPP_REGISTER_METHOD(0x001312E0, int32_t, CompareTo, (app::HSteamPipe__Boxed * this_ptr, app::HSteamPipe other))
-    bool operator == (app::HSteamPipe x, app::HSteamPipe y) {
+    inline bool operator == (app::HSteamPipe x, app::HSteamPipe y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::HSteamPipe x, app::HSteamPipe y) {
+    inline bool operator != (app::HSteamPipe x, app::HSteamPipe y) {
         return op_Inequality(x, y);
     }
 }

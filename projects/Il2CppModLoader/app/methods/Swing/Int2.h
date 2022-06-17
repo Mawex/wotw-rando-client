@@ -41,43 +41,43 @@ namespace app::methods::Swing::Int2 {
     IL2CPP_REGISTER_METHOD(0x0182B4C0, app::Int2, get_right, ())
     IL2CPP_REGISTER_METHOD(0x0182B4D0, app::Int2, get_maxValue, ())
     IL2CPP_REGISTER_METHOD(0x0182B4F0, app::Int2, get_minValue, ())
-    bool operator == (app::Int2 lhs, app::Int2 rhs) {
+    inline bool operator == (app::Int2 lhs, app::Int2 rhs) {
         return op_Equality(lhs, rhs);
     }
-    bool operator != (app::Int2 lhs, app::Int2 rhs) {
+    inline bool operator != (app::Int2 lhs, app::Int2 rhs) {
         return op_Inequality(lhs, rhs);
     }
-    app::Int2 operator + (app::Int2 a, app::Int2 b) {
+    inline app::Int2 operator + (app::Int2 a, app::Int2 b) {
         return op_Addition(a, b);
     }
-    app::Int2 operator - (app::Int2 a, app::Int2 b) {
+    inline app::Int2 operator - (app::Int2 a, app::Int2 b) {
         return op_Subtraction(a, b);
     }
-    app::Int2 operator - (app::Int2 a) {
+    inline app::Int2 operator - (app::Int2 a) {
         return op_UnaryNegation(a);
     }
-    app::Int2 operator * (app::Int2 a, int32_t d) {
+    inline app::Int2 operator * (app::Int2 a, int32_t d) {
         return op_Multiply_1(a, d);
     }
-    app::Int2 operator * (int32_t d, app::Int2 a) {
+    inline app::Int2 operator * (int32_t d, app::Int2 a) {
         return op_Multiply_2(d, a);
     }
-    app::Int2 operator * (app::Int2 a, app::Int2 b) {
+    inline app::Int2 operator * (app::Int2 a, app::Int2 b) {
         return op_Multiply_3(a, b);
     }
-    app::Vector2 operator * (app::Int2 a, float d) {
+    inline app::Vector2 operator * (app::Int2 a, float d) {
         return op_Multiply_4(a, d);
     }
-    app::Vector2 operator * (float d, app::Int2 a) {
+    inline app::Vector2 operator * (float d, app::Int2 a) {
         return op_Multiply_5(d, a);
     }
-    app::Vector2 operator / (app::Int2 a, float d) {
+    inline app::Vector2 operator / (app::Int2 a, float d) {
         return op_Division_1(a, d);
     }
-    app::Vector2 operator / (float f, app::Int2 d) {
+    inline app::Vector2 operator / (float f, app::Int2 d) {
         return op_Division_2(f, d);
     }
-    app::Vector2 operator / (app::Int2 a, app::Int2 b) {
+    inline app::Vector2 operator / (app::Int2 a, app::Int2 b) {
         return op_Division_3(a, b);
     }
 }

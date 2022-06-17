@@ -26,13 +26,13 @@ namespace app::methods::System::Data::SqlTypes::SqlGuid {
     IL2CPP_REGISTER_METHOD(0x001E4430, void, IXmlSerializable_WriteXml, (app::SqlGuid__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x022B0E20, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x022B0F70, void, cctor, ())
-    app::SqlBoolean operator == (app::SqlGuid x, app::SqlGuid y) {
+    inline app::SqlBoolean operator == (app::SqlGuid x, app::SqlGuid y) {
         return op_Equality(x, y);
     }
-    app::SqlBoolean operator < (app::SqlGuid x, app::SqlGuid y) {
+    inline app::SqlBoolean operator < (app::SqlGuid x, app::SqlGuid y) {
         return op_LessThan(x, y);
     }
-    app::SqlBoolean operator > (app::SqlGuid x, app::SqlGuid y) {
+    inline app::SqlBoolean operator > (app::SqlGuid x, app::SqlGuid y) {
         return op_GreaterThan(x, y);
     }
 }

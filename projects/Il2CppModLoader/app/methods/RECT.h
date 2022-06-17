@@ -17,10 +17,10 @@ namespace app::methods::RECT {
     IL2CPP_REGISTER_METHOD(0x0011FD10, bool, Equals_2, (app::RECT__Boxed * this_ptr, app::Object * obj))
     IL2CPP_REGISTER_METHOD(0x0011FE20, app::String *, ToString, (app::RECT__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x0011FE30, int32_t, GetHashCode, (app::RECT__Boxed * this_ptr))
-    bool operator == (app::RECT r1, app::RECT r2) {
+    inline bool operator == (app::RECT r1, app::RECT r2) {
         return op_Equality(r1, r2);
     }
-    bool operator != (app::RECT r1, app::RECT r2) {
+    inline bool operator != (app::RECT r1, app::RECT r2) {
         return op_Inequality(r1, r2);
     }
 }

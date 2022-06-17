@@ -116,40 +116,40 @@ namespace app::methods::System::Decimal {
     IL2CPP_REGISTER_METHODINFO(0x04719958, Decimal_System_IConvertible_ToDateTime__MethodInfo)
     IL2CPP_REGISTER_METHOD(0x0013DAA0, app::Object *, IConvertible_ToType, (app::Decimal__Boxed * this_ptr, app::Type * type, app::IFormatProvider * provider))
     IL2CPP_REGISTER_METHOD(0x01736E80, void, cctor, ())
-    app::Decimal operator - (app::Decimal d) {
+    inline app::Decimal operator - (app::Decimal d) {
         return op_UnaryNegation(d);
     }
-    app::Decimal operator ++ (app::Decimal d) {
+    inline app::Decimal operator ++ (app::Decimal d) {
         return op_Increment(d);
     }
-    app::Decimal operator + (app::Decimal d1, app::Decimal d2) {
+    inline app::Decimal operator + (app::Decimal d1, app::Decimal d2) {
         return op_Addition(d1, d2);
     }
-    app::Decimal operator - (app::Decimal d1, app::Decimal d2) {
+    inline app::Decimal operator - (app::Decimal d1, app::Decimal d2) {
         return op_Subtraction(d1, d2);
     }
-    app::Decimal operator * (app::Decimal d1, app::Decimal d2) {
+    inline app::Decimal operator * (app::Decimal d1, app::Decimal d2) {
         return op_Multiply(d1, d2);
     }
-    app::Decimal operator / (app::Decimal d1, app::Decimal d2) {
+    inline app::Decimal operator / (app::Decimal d1, app::Decimal d2) {
         return op_Division(d1, d2);
     }
-    bool operator == (app::Decimal d1, app::Decimal d2) {
+    inline bool operator == (app::Decimal d1, app::Decimal d2) {
         return op_Equality(d1, d2);
     }
-    bool operator != (app::Decimal d1, app::Decimal d2) {
+    inline bool operator != (app::Decimal d1, app::Decimal d2) {
         return op_Inequality(d1, d2);
     }
-    bool operator < (app::Decimal d1, app::Decimal d2) {
+    inline bool operator < (app::Decimal d1, app::Decimal d2) {
         return op_LessThan(d1, d2);
     }
-    bool operator <= (app::Decimal d1, app::Decimal d2) {
+    inline bool operator <= (app::Decimal d1, app::Decimal d2) {
         return op_LessThanOrEqual(d1, d2);
     }
-    bool operator > (app::Decimal d1, app::Decimal d2) {
+    inline bool operator > (app::Decimal d1, app::Decimal d2) {
         return op_GreaterThan(d1, d2);
     }
-    bool operator >= (app::Decimal d1, app::Decimal d2) {
+    inline bool operator >= (app::Decimal d1, app::Decimal d2) {
         return op_GreaterThanOrEqual(d1, d2);
     }
 }

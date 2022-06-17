@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::HTTPCookieContainerHandle {
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::HTTPCookieContainerHandle__Boxed * this_ptr, app::HTTPCookieContainerHandle other))
     IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (app::HTTPCookieContainerHandle__Boxed * this_ptr, app::HTTPCookieContainerHandle other))
     IL2CPP_REGISTER_METHOD(0x015FBCA0, void, cctor, ())
-    bool operator == (app::HTTPCookieContainerHandle x, app::HTTPCookieContainerHandle y) {
+    inline bool operator == (app::HTTPCookieContainerHandle x, app::HTTPCookieContainerHandle y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::HTTPCookieContainerHandle x, app::HTTPCookieContainerHandle y) {
+    inline bool operator != (app::HTTPCookieContainerHandle x, app::HTTPCookieContainerHandle y) {
         return op_Inequality(x, y);
     }
 }

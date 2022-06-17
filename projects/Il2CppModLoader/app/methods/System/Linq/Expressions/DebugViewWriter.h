@@ -35,7 +35,7 @@ namespace app::methods::System::Linq::Expressions::DebugViewWriter {
     IL2CPP_REGISTER_METHOD(0x01FA5E10, app::Expression *, VisitMember, (app::DebugViewWriter * this_ptr, app::MemberExpression * node))
     IL2CPP_REGISTER_METHOD(0x01FA5E80, app::Expression *, VisitInvocation, (app::DebugViewWriter * this_ptr, app::InvocationExpression * node))
     IL2CPP_REGISTER_METHOD(0x01FA5F80, bool, NeedsParentheses, (app::Expression * parent, app::Expression * child))
-    IL2CPP_REGISTER_METHOD(0x01FA6160, int32_t, GetOperatorPrecedence, (app::Expression * node))
+    inline IL2CPP_REGISTER_METHOD(0x01FA6160, int32_t, GetOperatorPrecedence, (app::Expression * node))
     IL2CPP_REGISTER_METHOD(0x01FA62E0, void, ParenthesizedVisit, (app::DebugViewWriter * this_ptr, app::Expression * parent, app::Expression * node_to_visit))
     IL2CPP_REGISTER_METHOD(0x01FA63E0, app::Expression *, VisitMethodCall, (app::DebugViewWriter * this_ptr, app::MethodCallExpression * node))
     IL2CPP_REGISTER_METHOD(0x01FA6630, app::Expression *, VisitNewArray, (app::DebugViewWriter * this_ptr, app::NewArrayExpression * node))

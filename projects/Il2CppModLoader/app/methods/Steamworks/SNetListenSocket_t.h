@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::SNetListenSocket_t {
     IL2CPP_REGISTER_METHOD(0x006CE970, uint32_t, op_Explicit_2, (app::SNetListenSocket_t that))
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::SNetListenSocket_t__Boxed * this_ptr, app::SNetListenSocket_t other))
     IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (app::SNetListenSocket_t__Boxed * this_ptr, app::SNetListenSocket_t other))
-    bool operator == (app::SNetListenSocket_t x, app::SNetListenSocket_t y) {
+    inline bool operator == (app::SNetListenSocket_t x, app::SNetListenSocket_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::SNetListenSocket_t x, app::SNetListenSocket_t y) {
+    inline bool operator != (app::SNetListenSocket_t x, app::SNetListenSocket_t y) {
         return op_Inequality(x, y);
     }
 }

@@ -20,10 +20,10 @@ namespace app::methods::System::Xml::Linq::XName {
     IL2CPP_REGISTER_METHODINFO(0x04706200, XName_System_Runtime_Serialization_ISerializable_GetObjectData__MethodInfo)
     IL2CPP_REGISTER_METHOD(0x03039090, void, ctor_2, (app::XName * this_ptr))
     IL2CPP_REGISTER_METHODINFO(0x0472CB58, XName__ctor_1__MethodInfo)
-    bool operator == (app::XName & left, app::XName & right) {
+    inline bool operator == (app::XName & left, app::XName & right) {
         return op_Equality(&left, &right);
     }
-    bool operator != (app::XName & left, app::XName & right) {
+    inline bool operator != (app::XName & left, app::XName & right) {
         return op_Inequality(&left, &right);
     }
 }

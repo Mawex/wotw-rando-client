@@ -240,10 +240,10 @@ namespace app::methods::System::String {
     IL2CPP_REGISTER_METHODINFO(0x04759EE8, String_CreateString_7__MethodInfo)
     IL2CPP_REGISTER_METHOD(0x01541DC0, app::String *, Join_4, (app::String * separator, app::IEnumerable_1_System_Object_ * values))
     IL2CPP_REGISTER_METHODINFO(0x0474BEB8, String_Join_3__MethodInfo)
-    bool operator == (app::String & a, app::String & b) {
+    inline bool operator == (app::String & a, app::String & b) {
         return op_Equality(&a, &b);
     }
-    bool operator != (app::String & a, app::String & b) {
+    inline bool operator != (app::String & a, app::String & b) {
         return op_Inequality(&a, &b);
     }
 }

@@ -30,13 +30,13 @@ namespace app::methods::System::Data::SqlTypes::SqlBoolean {
     IL2CPP_REGISTER_METHOD(0x001D6570, void, IXmlSerializable_WriteXml, (app::SqlBoolean__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x01E50490, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x01E505E0, void, cctor, ())
-    app::SqlBoolean operator & (app::SqlBoolean x, app::SqlBoolean y) {
+    inline app::SqlBoolean operator & (app::SqlBoolean x, app::SqlBoolean y) {
         return op_BitwiseAnd(x, y);
     }
-    app::SqlBoolean operator | (app::SqlBoolean x, app::SqlBoolean y) {
+    inline app::SqlBoolean operator | (app::SqlBoolean x, app::SqlBoolean y) {
         return op_BitwiseOr(x, y);
     }
-    app::SqlBoolean operator == (app::SqlBoolean x, app::SqlBoolean y) {
+    inline app::SqlBoolean operator == (app::SqlBoolean x, app::SqlBoolean y) {
         return op_Equality(x, y);
     }
 }

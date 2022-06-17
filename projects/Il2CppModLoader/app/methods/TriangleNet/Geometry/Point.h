@@ -19,10 +19,10 @@ namespace app::methods::TriangleNet::Geometry::Point {
     IL2CPP_REGISTER_METHOD(0x0261CCF0, bool, Equals_2, (app::Point * this_ptr, app::Point * p))
     IL2CPP_REGISTER_METHOD(0x0261CD20, int32_t, CompareTo, (app::Point * this_ptr, app::Point * other))
     IL2CPP_REGISTER_METHOD(0x0261CD90, int32_t, GetHashCode, (app::Point * this_ptr))
-    bool operator == (app::Point & a, app::Point & b) {
+    inline bool operator == (app::Point & a, app::Point & b) {
         return op_Equality(&a, &b);
     }
-    bool operator != (app::Point & a, app::Point & b) {
+    inline bool operator != (app::Point & a, app::Point & b) {
         return op_Inequality(&a, &b);
     }
 }

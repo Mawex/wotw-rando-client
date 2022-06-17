@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::HServerQuery {
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::HServerQuery__Boxed * this_ptr, app::HServerQuery other))
     IL2CPP_REGISTER_METHOD(0x001312E0, int32_t, CompareTo, (app::HServerQuery__Boxed * this_ptr, app::HServerQuery other))
     IL2CPP_REGISTER_METHOD(0x015FBB80, void, cctor, ())
-    bool operator == (app::HServerQuery x, app::HServerQuery y) {
+    inline bool operator == (app::HServerQuery x, app::HServerQuery y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::HServerQuery x, app::HServerQuery y) {
+    inline bool operator != (app::HServerQuery x, app::HServerQuery y) {
         return op_Inequality(x, y);
     }
 }

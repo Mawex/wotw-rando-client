@@ -14,10 +14,10 @@ namespace app::methods::System::Reflection::EventInfo {
     IL2CPP_REGISTER_METHOD(0x02689EA0, app::EventInfo_1 *, internal_from_handle_type, (void * event_handle, void * type_handle))
     IL2CPP_REGISTER_METHOD(0x02689F00, app::EventInfo_1 *, GetEventFromHandle, (app::RuntimeEventHandle handle, app::RuntimeTypeHandle reflected_type))
     IL2CPP_REGISTER_METHODINFO(0x0470CA88, EventInfo_1_GetEventFromHandle__MethodInfo)
-    bool operator == (app::EventInfo_1 & left, app::EventInfo_1 & right) {
+    inline bool operator == (app::EventInfo_1 & left, app::EventInfo_1 & right) {
         return op_Equality(&left, &right);
     }
-    bool operator != (app::EventInfo_1 & left, app::EventInfo_1 & right) {
+    inline bool operator != (app::EventInfo_1 & left, app::EventInfo_1 & right) {
         return op_Inequality(&left, &right);
     }
 }

@@ -14,7 +14,7 @@ namespace app::methods::UnityEngine::Rendering::RenderTargetIdentifier {
     IL2CPP_REGISTER_METHOD(0x002184D0, bool, Equals_1, (app::RenderTargetIdentifier__Boxed * this_ptr, app::RenderTargetIdentifier rhs))
     IL2CPP_REGISTER_METHOD(0x00218550, bool, Equals_2, (app::RenderTargetIdentifier__Boxed * this_ptr, app::Object * obj))
     IL2CPP_REGISTER_METHOD(0x02978630, bool, op_Inequality, (app::RenderTargetIdentifier lhs, app::RenderTargetIdentifier rhs))
-    bool operator != (app::RenderTargetIdentifier lhs, app::RenderTargetIdentifier rhs) {
+    inline bool operator != (app::RenderTargetIdentifier lhs, app::RenderTargetIdentifier rhs) {
         return op_Inequality(lhs, rhs);
     }
 }

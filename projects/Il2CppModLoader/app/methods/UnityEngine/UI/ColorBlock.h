@@ -20,10 +20,10 @@ namespace app::methods::UnityEngine::UI::ColorBlock {
     IL2CPP_REGISTER_METHOD(0x01F30310, bool, op_Equality, (app::ColorBlock point1, app::ColorBlock point2))
     IL2CPP_REGISTER_METHOD(0x01F30360, bool, op_Inequality, (app::ColorBlock point1, app::ColorBlock point2))
     IL2CPP_REGISTER_METHOD(0x001D9A90, int32_t, GetHashCode, (app::ColorBlock__Boxed * this_ptr))
-    bool operator == (app::ColorBlock point1, app::ColorBlock point2) {
+    inline bool operator == (app::ColorBlock point1, app::ColorBlock point2) {
         return op_Equality(point1, point2);
     }
-    bool operator != (app::ColorBlock point1, app::ColorBlock point2) {
+    inline bool operator != (app::ColorBlock point1, app::ColorBlock point2) {
         return op_Inequality(point1, point2);
     }
 }

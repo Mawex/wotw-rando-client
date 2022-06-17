@@ -12,7 +12,7 @@ namespace app::methods::UnityEngine::PropertyName {
     IL2CPP_REGISTER_METHOD(0x0296A4C0, app::PropertyName, op_Implicit_1, (app::String * name))
     IL2CPP_REGISTER_METHOD(0x0252E560, app::PropertyName, op_Implicit_2, (int32_t id))
     IL2CPP_REGISTER_METHOD(0x00217420, app::String *, ToString, (app::PropertyName__Boxed * this_ptr))
-    bool operator == (app::PropertyName lhs, app::PropertyName rhs) {
+    inline bool operator == (app::PropertyName lhs, app::PropertyName rhs) {
         return op_Equality(lhs, rhs);
     }
 }

@@ -43,10 +43,10 @@ namespace app::methods::Steamworks::CSteamID {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::CSteamID__Boxed * this_ptr, app::CSteamID other))
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::CSteamID__Boxed * this_ptr, app::CSteamID other))
     IL2CPP_REGISTER_METHOD(0x015FA690, void, cctor, ())
-    bool operator == (app::CSteamID x, app::CSteamID y) {
+    inline bool operator == (app::CSteamID x, app::CSteamID y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::CSteamID x, app::CSteamID y) {
+    inline bool operator != (app::CSteamID x, app::CSteamID y) {
         return op_Inequality(x, y);
     }
 }

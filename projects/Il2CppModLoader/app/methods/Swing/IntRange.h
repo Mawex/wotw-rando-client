@@ -8,7 +8,7 @@ namespace app::methods::Swing::IntRange {
     IL2CPP_REGISTER_METHOD(0x0014B800, int32_t, get_random, (app::IntRange__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x0014B8E0, int32_t, get_length, (app::IntRange__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x0014B8F0, float, get_avg, (app::IntRange__Boxed * this_ptr))
-    app::IntRange operator * (app::IntRange _r, int32_t _mult) {
+    inline app::IntRange operator * (app::IntRange _r, int32_t _mult) {
         return op_Multiply(_r, _mult);
     }
 }

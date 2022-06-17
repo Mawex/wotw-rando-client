@@ -34,10 +34,10 @@ namespace app::methods::UnityEngine::Bounds {
     IL2CPP_REGISTER_METHOD(0x02420F10, float, SqrDistance_Injected, (app::Bounds * _unity_self, app::Vector3 * point))
     IL2CPP_REGISTER_METHOD(0x02420F70, bool, IntersectRayAABB_Injected, (app::Ray * ray, app::Bounds * bounds, float * dist))
     IL2CPP_REGISTER_METHOD(0x02420FE0, void, ClosestPoint_Injected, (app::Bounds * _unity_self, app::Vector3 * point, app::Vector3 * ret))
-    bool operator == (app::Bounds lhs, app::Bounds rhs) {
+    inline bool operator == (app::Bounds lhs, app::Bounds rhs) {
         return op_Equality(lhs, rhs);
     }
-    bool operator != (app::Bounds lhs, app::Bounds rhs) {
+    inline bool operator != (app::Bounds lhs, app::Bounds rhs) {
         return op_Inequality(lhs, rhs);
     }
 }

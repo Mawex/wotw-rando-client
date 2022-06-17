@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::UGCHandle_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::UGCHandle_t__Boxed * this_ptr, app::UGCHandle_t other))
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::UGCHandle_t__Boxed * this_ptr, app::UGCHandle_t other))
     IL2CPP_REGISTER_METHOD(0x027A69E0, void, cctor, ())
-    bool operator == (app::UGCHandle_t x, app::UGCHandle_t y) {
+    inline bool operator == (app::UGCHandle_t x, app::UGCHandle_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::UGCHandle_t x, app::UGCHandle_t y) {
+    inline bool operator != (app::UGCHandle_t x, app::UGCHandle_t y) {
         return op_Inequality(x, y);
     }
 }

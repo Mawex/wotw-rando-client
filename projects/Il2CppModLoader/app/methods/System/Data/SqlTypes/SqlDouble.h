@@ -42,28 +42,28 @@ namespace app::methods::System::Data::SqlTypes::SqlDouble {
     IL2CPP_REGISTER_METHOD(0x001E3F20, void, IXmlSerializable_WriteXml, (app::SqlDouble__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x022AFC10, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x022AFD60, void, cctor, ())
-    app::SqlDouble operator - (app::SqlDouble x) {
+    inline app::SqlDouble operator - (app::SqlDouble x) {
         return op_UnaryNegation(x);
     }
-    app::SqlDouble operator + (app::SqlDouble x, app::SqlDouble y) {
+    inline app::SqlDouble operator + (app::SqlDouble x, app::SqlDouble y) {
         return op_Addition(x, y);
     }
-    app::SqlDouble operator - (app::SqlDouble x, app::SqlDouble y) {
+    inline app::SqlDouble operator - (app::SqlDouble x, app::SqlDouble y) {
         return op_Subtraction(x, y);
     }
-    app::SqlDouble operator * (app::SqlDouble x, app::SqlDouble y) {
+    inline app::SqlDouble operator * (app::SqlDouble x, app::SqlDouble y) {
         return op_Multiply(x, y);
     }
-    app::SqlDouble operator / (app::SqlDouble x, app::SqlDouble y) {
+    inline app::SqlDouble operator / (app::SqlDouble x, app::SqlDouble y) {
         return op_Division(x, y);
     }
-    app::SqlBoolean operator == (app::SqlDouble x, app::SqlDouble y) {
+    inline app::SqlBoolean operator == (app::SqlDouble x, app::SqlDouble y) {
         return op_Equality(x, y);
     }
-    app::SqlBoolean operator < (app::SqlDouble x, app::SqlDouble y) {
+    inline app::SqlBoolean operator < (app::SqlDouble x, app::SqlDouble y) {
         return op_LessThan(x, y);
     }
-    app::SqlBoolean operator > (app::SqlDouble x, app::SqlDouble y) {
+    inline app::SqlBoolean operator > (app::SqlDouble x, app::SqlDouble y) {
         return op_GreaterThan(x, y);
     }
 }

@@ -7,10 +7,10 @@ namespace app::methods::FullSerializer::fsAotVersionInfo_Member {
     IL2CPP_REGISTER_METHOD(0x0012C4C0, int32_t, GetHashCode, (app::fsAotVersionInfo_Member__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x01507D30, bool, op_Equality, (app::fsAotVersionInfo_Member a, app::fsAotVersionInfo_Member b))
     IL2CPP_REGISTER_METHOD(0x01507E50, bool, op_Inequality, (app::fsAotVersionInfo_Member a, app::fsAotVersionInfo_Member b))
-    bool operator == (app::fsAotVersionInfo_Member a, app::fsAotVersionInfo_Member b) {
+    inline bool operator == (app::fsAotVersionInfo_Member a, app::fsAotVersionInfo_Member b) {
         return op_Equality(a, b);
     }
-    bool operator != (app::fsAotVersionInfo_Member a, app::fsAotVersionInfo_Member b) {
+    inline bool operator != (app::fsAotVersionInfo_Member a, app::fsAotVersionInfo_Member b) {
         return op_Inequality(a, b);
     }
 }

@@ -85,40 +85,40 @@ namespace app::methods::System::Numerics::BigInteger {
     IL2CPP_REGISTER_METHOD(0x030FE0F0, int32_t, GetDiffLength, (app::UInt32__Array * rgu1, app::UInt32__Array * rgu2, int32_t cu))
     IL2CPP_REGISTER_METHOD(0x00002890, void, AssertValid, (app::BigInteger_2__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x030FE160, void, cctor, ())
-    app::BigInteger_2 operator - (app::BigInteger_2 left, app::BigInteger_2 right) {
+    inline app::BigInteger_2 operator - (app::BigInteger_2 left, app::BigInteger_2 right) {
         return op_Subtraction(left, right);
     }
-    app::BigInteger_2 operator - (app::BigInteger_2 value) {
+    inline app::BigInteger_2 operator - (app::BigInteger_2 value) {
         return op_UnaryNegation(value);
     }
-    app::BigInteger_2 operator + (app::BigInteger_2 left, app::BigInteger_2 right) {
+    inline app::BigInteger_2 operator + (app::BigInteger_2 left, app::BigInteger_2 right) {
         return op_Addition(left, right);
     }
-    app::BigInteger_2 operator * (app::BigInteger_2 left, app::BigInteger_2 right) {
+    inline app::BigInteger_2 operator * (app::BigInteger_2 left, app::BigInteger_2 right) {
         return op_Multiply(left, right);
     }
-    bool operator <= (app::BigInteger_2 left, app::BigInteger_2 right) {
+    inline bool operator <= (app::BigInteger_2 left, app::BigInteger_2 right) {
         return op_LessThanOrEqual_1(left, right);
     }
-    bool operator != (app::BigInteger_2 left, app::BigInteger_2 right) {
+    inline bool operator != (app::BigInteger_2 left, app::BigInteger_2 right) {
         return op_Inequality_1(left, right);
     }
-    bool operator < (app::BigInteger_2 left, int64_t right) {
+    inline bool operator < (app::BigInteger_2 left, int64_t right) {
         return op_LessThan_1(left, right);
     }
-    bool operator <= (app::BigInteger_2 left, int64_t right) {
+    inline bool operator <= (app::BigInteger_2 left, int64_t right) {
         return op_LessThanOrEqual_2(left, right);
     }
-    bool operator == (app::BigInteger_2 left, int64_t right) {
+    inline bool operator == (app::BigInteger_2 left, int64_t right) {
         return op_Equality(left, right);
     }
-    bool operator != (app::BigInteger_2 left, int64_t right) {
+    inline bool operator != (app::BigInteger_2 left, int64_t right) {
         return op_Inequality_2(left, right);
     }
-    bool operator < (int64_t left, app::BigInteger_2 right) {
+    inline bool operator < (int64_t left, app::BigInteger_2 right) {
         return op_LessThan_2(left, right);
     }
-    bool operator <= (int64_t left, app::BigInteger_2 right) {
+    inline bool operator <= (int64_t left, app::BigInteger_2 right) {
         return op_LessThanOrEqual_3(left, right);
     }
 }

@@ -149,10 +149,10 @@ namespace app::methods::UnityEngine::Object {
     IL2CPP_REGISTER_METHODINFO(0x0476F678, Object_1_FindObjectOfType_17__MethodInfo)
     IL2CPP_REGISTER_METHOD(0x0157D5C0, app::GameObject *, Instantiate_24, (app::GameObject * original, app::Vector3 position, app::Quaternion rotation, app::Transform * parent))
     IL2CPP_REGISTER_METHODINFO(0x0474F678, Object_1_Instantiate_23__MethodInfo)
-    bool operator == (app::Object_1 & x, app::Object_1 & y) {
+    inline bool operator == (app::Object_1 & x, app::Object_1 & y) {
         return op_Equality(&x, &y);
     }
-    bool operator != (app::Object_1 & x, app::Object_1 & y) {
+    inline bool operator != (app::Object_1 & x, app::Object_1 & y) {
         return op_Inequality(&x, &y);
     }
 }

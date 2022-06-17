@@ -38,28 +38,28 @@ namespace app::methods::System::Data::SqlTypes::SqlInt16 {
     IL2CPP_REGISTER_METHOD(0x001E4850, void, IXmlSerializable_WriteXml, (app::SqlInt16__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x022B2260, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x022B23B0, void, cctor, ())
-    app::SqlInt16 operator - (app::SqlInt16 x) {
+    inline app::SqlInt16 operator - (app::SqlInt16 x) {
         return op_UnaryNegation(x);
     }
-    app::SqlInt16 operator + (app::SqlInt16 x, app::SqlInt16 y) {
+    inline app::SqlInt16 operator + (app::SqlInt16 x, app::SqlInt16 y) {
         return op_Addition(x, y);
     }
-    app::SqlInt16 operator - (app::SqlInt16 x, app::SqlInt16 y) {
+    inline app::SqlInt16 operator - (app::SqlInt16 x, app::SqlInt16 y) {
         return op_Subtraction(x, y);
     }
-    app::SqlInt16 operator * (app::SqlInt16 x, app::SqlInt16 y) {
+    inline app::SqlInt16 operator * (app::SqlInt16 x, app::SqlInt16 y) {
         return op_Multiply(x, y);
     }
-    app::SqlInt16 operator / (app::SqlInt16 x, app::SqlInt16 y) {
+    inline app::SqlInt16 operator / (app::SqlInt16 x, app::SqlInt16 y) {
         return op_Division(x, y);
     }
-    app::SqlBoolean operator == (app::SqlInt16 x, app::SqlInt16 y) {
+    inline app::SqlBoolean operator == (app::SqlInt16 x, app::SqlInt16 y) {
         return op_Equality(x, y);
     }
-    app::SqlBoolean operator < (app::SqlInt16 x, app::SqlInt16 y) {
+    inline app::SqlBoolean operator < (app::SqlInt16 x, app::SqlInt16 y) {
         return op_LessThan(x, y);
     }
-    app::SqlBoolean operator > (app::SqlInt16 x, app::SqlInt16 y) {
+    inline app::SqlBoolean operator > (app::SqlInt16 x, app::SqlInt16 y) {
         return op_GreaterThan(x, y);
     }
 }

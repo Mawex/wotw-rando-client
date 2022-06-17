@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::PartyBeaconID_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::PartyBeaconID_t__Boxed * this_ptr, app::PartyBeaconID_t other))
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::PartyBeaconID_t__Boxed * this_ptr, app::PartyBeaconID_t other))
     IL2CPP_REGISTER_METHOD(0x027E18D0, void, cctor, ())
-    bool operator == (app::PartyBeaconID_t x, app::PartyBeaconID_t y) {
+    inline bool operator == (app::PartyBeaconID_t x, app::PartyBeaconID_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::PartyBeaconID_t x, app::PartyBeaconID_t y) {
+    inline bool operator != (app::PartyBeaconID_t x, app::PartyBeaconID_t y) {
         return op_Inequality(x, y);
     }
 }

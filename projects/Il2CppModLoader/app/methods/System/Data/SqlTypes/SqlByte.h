@@ -36,25 +36,25 @@ namespace app::methods::System::Data::SqlTypes::SqlByte {
     IL2CPP_REGISTER_METHOD(0x001D6AA0, void, IXmlSerializable_WriteXml, (app::SqlByte__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x01E516A0, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x01E517F0, void, cctor, ())
-    app::SqlByte operator + (app::SqlByte x, app::SqlByte y) {
+    inline app::SqlByte operator + (app::SqlByte x, app::SqlByte y) {
         return op_Addition(x, y);
     }
-    app::SqlByte operator - (app::SqlByte x, app::SqlByte y) {
+    inline app::SqlByte operator - (app::SqlByte x, app::SqlByte y) {
         return op_Subtraction(x, y);
     }
-    app::SqlByte operator * (app::SqlByte x, app::SqlByte y) {
+    inline app::SqlByte operator * (app::SqlByte x, app::SqlByte y) {
         return op_Multiply(x, y);
     }
-    app::SqlByte operator / (app::SqlByte x, app::SqlByte y) {
+    inline app::SqlByte operator / (app::SqlByte x, app::SqlByte y) {
         return op_Division(x, y);
     }
-    app::SqlBoolean operator == (app::SqlByte x, app::SqlByte y) {
+    inline app::SqlBoolean operator == (app::SqlByte x, app::SqlByte y) {
         return op_Equality(x, y);
     }
-    app::SqlBoolean operator < (app::SqlByte x, app::SqlByte y) {
+    inline app::SqlBoolean operator < (app::SqlByte x, app::SqlByte y) {
         return op_LessThan(x, y);
     }
-    app::SqlBoolean operator > (app::SqlByte x, app::SqlByte y) {
+    inline app::SqlBoolean operator > (app::SqlByte x, app::SqlByte y) {
         return op_GreaterThan(x, y);
     }
 }

@@ -13,10 +13,10 @@ namespace app::methods::Swing::FloatRange {
     IL2CPP_REGISTER_METHOD(0x0014B2D0, float, get_random, (app::FloatRange__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x0014B2E0, float, get_length, (app::FloatRange__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x0014B2F0, float, get_avg, (app::FloatRange__Boxed * this_ptr))
-    app::FloatRange operator * (app::FloatRange _r, float _f) {
+    inline app::FloatRange operator * (app::FloatRange _r, float _f) {
         return op_Multiply(_r, _f);
     }
-    app::FloatRange operator / (app::FloatRange _r, float _f) {
+    inline app::FloatRange operator / (app::FloatRange _r, float _f) {
         return op_Division(_r, _f);
     }
 }

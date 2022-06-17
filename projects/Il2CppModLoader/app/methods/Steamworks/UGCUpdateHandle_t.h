@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::UGCUpdateHandle_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::UGCUpdateHandle_t__Boxed * this_ptr, app::UGCUpdateHandle_t other))
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::UGCUpdateHandle_t__Boxed * this_ptr, app::UGCUpdateHandle_t other))
     IL2CPP_REGISTER_METHOD(0x027A6C40, void, cctor, ())
-    bool operator == (app::UGCUpdateHandle_t x, app::UGCUpdateHandle_t y) {
+    inline bool operator == (app::UGCUpdateHandle_t x, app::UGCUpdateHandle_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::UGCUpdateHandle_t x, app::UGCUpdateHandle_t y) {
+    inline bool operator != (app::UGCUpdateHandle_t x, app::UGCUpdateHandle_t y) {
         return op_Inequality(x, y);
     }
 }

@@ -153,10 +153,10 @@ namespace app::methods::System::Type {
     IL2CPP_REGISTER_METHOD(0x027C0480, app::Type *, GetTypeFromHandle, (app::RuntimeTypeHandle handle))
     IL2CPP_REGISTER_METHOD(0x027C0530, app::Type *, internal_from_handle, (void * handle))
     IL2CPP_REGISTER_METHOD(0x027C0550, void, cctor, ())
-    bool operator == (app::Type & left, app::Type & right) {
+    inline bool operator == (app::Type & left, app::Type & right) {
         return op_Equality(&left, &right);
     }
-    bool operator != (app::Type & left, app::Type & right) {
+    inline bool operator != (app::Type & left, app::Type & right) {
         return op_Inequality(&left, &right);
     }
 }

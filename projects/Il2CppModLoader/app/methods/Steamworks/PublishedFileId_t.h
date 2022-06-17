@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::PublishedFileId_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::PublishedFileId_t__Boxed * this_ptr, app::PublishedFileId_t other))
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::PublishedFileId_t__Boxed * this_ptr, app::PublishedFileId_t other))
     IL2CPP_REGISTER_METHOD(0x027E1B00, void, cctor, ())
-    bool operator == (app::PublishedFileId_t x, app::PublishedFileId_t y) {
+    inline bool operator == (app::PublishedFileId_t x, app::PublishedFileId_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::PublishedFileId_t x, app::PublishedFileId_t y) {
+    inline bool operator != (app::PublishedFileId_t x, app::PublishedFileId_t y) {
         return op_Inequality(x, y);
     }
 }

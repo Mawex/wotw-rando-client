@@ -22,10 +22,10 @@ namespace app::methods::System::Security::Cryptography::RSAEncryptionPadding {
     IL2CPP_REGISTER_METHOD(0x028EAD20, void, cctor, ())
     IL2CPP_REGISTER_METHOD(0x028EAF00, void, ctor_2, (app::RSAEncryptionPadding * this_ptr))
     IL2CPP_REGISTER_METHODINFO(0x047338F0, RSAEncryptionPadding__ctor_1__MethodInfo)
-    bool operator == (app::RSAEncryptionPadding & left, app::RSAEncryptionPadding & right) {
+    inline bool operator == (app::RSAEncryptionPadding & left, app::RSAEncryptionPadding & right) {
         return op_Equality(&left, &right);
     }
-    bool operator != (app::RSAEncryptionPadding & left, app::RSAEncryptionPadding & right) {
+    inline bool operator != (app::RSAEncryptionPadding & left, app::RSAEncryptionPadding & right) {
         return op_Inequality(&left, &right);
     }
 }

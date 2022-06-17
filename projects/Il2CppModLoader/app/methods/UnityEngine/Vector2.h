@@ -51,34 +51,34 @@ namespace app::methods::UnityEngine::Vector2 {
     IL2CPP_REGISTER_METHOD(0x02C74310, app::Vector2, get_left, ())
     IL2CPP_REGISTER_METHOD(0x02C743C0, app::Vector2, get_right, ())
     IL2CPP_REGISTER_METHOD(0x02C74470, void, cctor, ())
-    app::Vector2 operator + (app::Vector2 a, app::Vector2 b) {
+    inline app::Vector2 operator + (app::Vector2 a, app::Vector2 b) {
         return op_Addition(a, b);
     }
-    app::Vector2 operator - (app::Vector2 a, app::Vector2 b) {
+    inline app::Vector2 operator - (app::Vector2 a, app::Vector2 b) {
         return op_Subtraction(a, b);
     }
-    app::Vector2 operator * (app::Vector2 a, app::Vector2 b) {
+    inline app::Vector2 operator * (app::Vector2 a, app::Vector2 b) {
         return op_Multiply_1(a, b);
     }
-    app::Vector2 operator / (app::Vector2 a, app::Vector2 b) {
+    inline app::Vector2 operator / (app::Vector2 a, app::Vector2 b) {
         return op_Division_1(a, b);
     }
-    app::Vector2 operator - (app::Vector2 a) {
+    inline app::Vector2 operator - (app::Vector2 a) {
         return op_UnaryNegation(a);
     }
-    app::Vector2 operator * (app::Vector2 a, float d) {
+    inline app::Vector2 operator * (app::Vector2 a, float d) {
         return op_Multiply_2(a, d);
     }
-    app::Vector2 operator * (float d, app::Vector2 a) {
+    inline app::Vector2 operator * (float d, app::Vector2 a) {
         return op_Multiply_3(d, a);
     }
-    app::Vector2 operator / (app::Vector2 a, float d) {
+    inline app::Vector2 operator / (app::Vector2 a, float d) {
         return op_Division_2(a, d);
     }
-    bool operator == (app::Vector2 lhs, app::Vector2 rhs) {
+    inline bool operator == (app::Vector2 lhs, app::Vector2 rhs) {
         return op_Equality(lhs, rhs);
     }
-    bool operator != (app::Vector2 lhs, app::Vector2 rhs) {
+    inline bool operator != (app::Vector2 lhs, app::Vector2 rhs) {
         return op_Inequality(lhs, rhs);
     }
 }

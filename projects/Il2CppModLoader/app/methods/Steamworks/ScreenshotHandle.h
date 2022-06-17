@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::ScreenshotHandle {
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::ScreenshotHandle__Boxed * this_ptr, app::ScreenshotHandle other))
     IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (app::ScreenshotHandle__Boxed * this_ptr, app::ScreenshotHandle other))
     IL2CPP_REGISTER_METHOD(0x027E1D50, void, cctor, ())
-    bool operator == (app::ScreenshotHandle x, app::ScreenshotHandle y) {
+    inline bool operator == (app::ScreenshotHandle x, app::ScreenshotHandle y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::ScreenshotHandle x, app::ScreenshotHandle y) {
+    inline bool operator != (app::ScreenshotHandle x, app::ScreenshotHandle y) {
         return op_Inequality(x, y);
     }
 }

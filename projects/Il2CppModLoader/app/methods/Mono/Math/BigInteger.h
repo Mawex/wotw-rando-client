@@ -106,103 +106,103 @@ namespace app::methods::Mono::Math::BigInteger {
     IL2CPP_REGISTER_METHOD(0x02A31930, app::BigInteger_1 *, GeneratePseudoPrime_2, (int32_t bits))
     IL2CPP_REGISTER_METHOD(0x023C8A90, void, Incr2_2, (app::BigInteger_1 * this_ptr))
     IL2CPP_REGISTER_METHOD(0x02A31A90, void, cctor_2, ())
-    app::BigInteger * operator + (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline app::BigInteger * operator + (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_Addition_1(&bi1, &bi2);
     }
-    app::BigInteger * operator - (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline app::BigInteger * operator - (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_Subtraction_1(&bi1, &bi2);
     }
-    uint32_t operator % (app::BigInteger & bi, uint32_t ui) {
+    inline uint32_t operator % (app::BigInteger & bi, uint32_t ui) {
         return op_Modulus_1(&bi, ui);
     }
-    app::BigInteger * operator % (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline app::BigInteger * operator % (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_Modulus_2(&bi1, &bi2);
     }
-    app::BigInteger * operator / (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline app::BigInteger * operator / (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_Division_1(&bi1, &bi2);
     }
-    app::BigInteger * operator * (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline app::BigInteger * operator * (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_Multiply_1(&bi1, &bi2);
     }
-    app::BigInteger * operator * (app::BigInteger & bi, int32_t i) {
+    inline app::BigInteger * operator * (app::BigInteger & bi, int32_t i) {
         return op_Multiply_2(&bi, i);
     }
-    app::BigInteger * operator << (app::BigInteger & bi1, int32_t shift_val) {
+    inline app::BigInteger * operator << (app::BigInteger & bi1, int32_t shift_val) {
         return op_LeftShift_1(&bi1, shift_val);
     }
-    app::BigInteger * operator >> (app::BigInteger & bi1, int32_t shift_val) {
+    inline app::BigInteger * operator >> (app::BigInteger & bi1, int32_t shift_val) {
         return op_RightShift_1(&bi1, shift_val);
     }
-    bool operator == (app::BigInteger & bi1, uint32_t ui) {
+    inline bool operator == (app::BigInteger & bi1, uint32_t ui) {
         return op_Equality_1(&bi1, ui);
     }
-    bool operator != (app::BigInteger & bi1, uint32_t ui) {
+    inline bool operator != (app::BigInteger & bi1, uint32_t ui) {
         return op_Inequality_1(&bi1, ui);
     }
-    bool operator == (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline bool operator == (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_Equality_2(&bi1, &bi2);
     }
-    bool operator != (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline bool operator != (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_Inequality_2(&bi1, &bi2);
     }
-    bool operator > (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline bool operator > (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_GreaterThan_1(&bi1, &bi2);
     }
-    bool operator < (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline bool operator < (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_LessThan_1(&bi1, &bi2);
     }
-    bool operator >= (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline bool operator >= (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_GreaterThanOrEqual_1(&bi1, &bi2);
     }
-    bool operator <= (app::BigInteger & bi1, app::BigInteger & bi2) {
+    inline bool operator <= (app::BigInteger & bi1, app::BigInteger & bi2) {
         return op_LessThanOrEqual_1(&bi1, &bi2);
     }
-    app::BigInteger_1 * operator + (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline app::BigInteger_1 * operator + (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_Addition_2(&bi1, &bi2);
     }
-    app::BigInteger_1 * operator - (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline app::BigInteger_1 * operator - (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_Subtraction_2(&bi1, &bi2);
     }
-    uint32_t operator % (app::BigInteger_1 & bi, uint32_t ui) {
+    inline uint32_t operator % (app::BigInteger_1 & bi, uint32_t ui) {
         return op_Modulus_3(&bi, ui);
     }
-    app::BigInteger_1 * operator % (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline app::BigInteger_1 * operator % (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_Modulus_4(&bi1, &bi2);
     }
-    app::BigInteger_1 * operator / (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline app::BigInteger_1 * operator / (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_Division_2(&bi1, &bi2);
     }
-    app::BigInteger_1 * operator * (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline app::BigInteger_1 * operator * (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_Multiply_3(&bi1, &bi2);
     }
-    app::BigInteger_1 * operator << (app::BigInteger_1 & bi1, int32_t shift_val) {
+    inline app::BigInteger_1 * operator << (app::BigInteger_1 & bi1, int32_t shift_val) {
         return op_LeftShift_2(&bi1, shift_val);
     }
-    app::BigInteger_1 * operator >> (app::BigInteger_1 & bi1, int32_t shift_val) {
+    inline app::BigInteger_1 * operator >> (app::BigInteger_1 & bi1, int32_t shift_val) {
         return op_RightShift_2(&bi1, shift_val);
     }
-    bool operator == (app::BigInteger_1 & bi1, uint32_t ui) {
+    inline bool operator == (app::BigInteger_1 & bi1, uint32_t ui) {
         return op_Equality_3(&bi1, ui);
     }
-    bool operator != (app::BigInteger_1 & bi1, uint32_t ui) {
+    inline bool operator != (app::BigInteger_1 & bi1, uint32_t ui) {
         return op_Inequality_3(&bi1, ui);
     }
-    bool operator == (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline bool operator == (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_Equality_4(&bi1, &bi2);
     }
-    bool operator != (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline bool operator != (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_Inequality_4(&bi1, &bi2);
     }
-    bool operator > (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline bool operator > (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_GreaterThan_2(&bi1, &bi2);
     }
-    bool operator < (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline bool operator < (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_LessThan_2(&bi1, &bi2);
     }
-    bool operator >= (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline bool operator >= (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_GreaterThanOrEqual_2(&bi1, &bi2);
     }
-    bool operator <= (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
+    inline bool operator <= (app::BigInteger_1 & bi1, app::BigInteger_1 & bi2) {
         return op_LessThanOrEqual_2(&bi1, &bi2);
     }
 }

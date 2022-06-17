@@ -20,7 +20,7 @@ namespace app::methods::UnityEngine::Playables::PlayableOutputHandle {
     IL2CPP_REGISTER_METHOD(0x0012D5F0, bool, IsPlayableOutputOfType_1, (app::PlayableOutputHandle__Boxed * this_ptr))
     IL2CPP_REGISTER_METHOD(0x0012D6B0, bool, IsPlayableOutputOfType_2, (app::PlayableOutputHandle__Boxed * this_ptr))
     IL2CPP_REGISTER_METHODINFO(0x04712C48, PlayableOutputHandle_IsPlayableOutputOfType_1__MethodInfo)
-    bool operator == (app::PlayableOutputHandle lhs, app::PlayableOutputHandle rhs) {
+    inline bool operator == (app::PlayableOutputHandle lhs, app::PlayableOutputHandle rhs) {
         return op_Equality(lhs, rhs);
     }
 }

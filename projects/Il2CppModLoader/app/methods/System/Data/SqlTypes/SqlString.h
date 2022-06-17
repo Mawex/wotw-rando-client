@@ -35,10 +35,10 @@ namespace app::methods::System::Data::SqlTypes::SqlString {
     IL2CPP_REGISTER_METHOD(0x001E6400, void, IXmlSerializable_WriteXml, (app::SqlString__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x022BBBE0, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x022BBD30, void, cctor, ())
-    app::SqlString operator + (app::SqlString x, app::SqlString y) {
+    inline app::SqlString operator + (app::SqlString x, app::SqlString y) {
         return op_Addition(x, y);
     }
-    app::SqlBoolean operator == (app::SqlString x, app::SqlString y) {
+    inline app::SqlBoolean operator == (app::SqlString x, app::SqlString y) {
         return op_Equality(x, y);
     }
 }

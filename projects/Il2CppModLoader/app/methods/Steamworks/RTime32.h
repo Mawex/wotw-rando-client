@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::RTime32 {
     IL2CPP_REGISTER_METHOD(0x006CE970, uint32_t, op_Explicit_2, (app::RTime32 that))
     IL2CPP_REGISTER_METHOD(0x0012EDC0, bool, Equals_2, (app::RTime32__Boxed * this_ptr, app::RTime32 other))
     IL2CPP_REGISTER_METHOD(0x0012EDD0, int32_t, CompareTo, (app::RTime32__Boxed * this_ptr, app::RTime32 other))
-    bool operator == (app::RTime32 x, app::RTime32 y) {
+    inline bool operator == (app::RTime32 x, app::RTime32 y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::RTime32 x, app::RTime32 y) {
+    inline bool operator != (app::RTime32 x, app::RTime32 y) {
         return op_Inequality(x, y);
     }
 }

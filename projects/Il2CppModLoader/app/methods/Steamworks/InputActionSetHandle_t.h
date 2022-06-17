@@ -12,10 +12,10 @@ namespace app::methods::Steamworks::InputActionSetHandle_t {
     IL2CPP_REGISTER_METHOD(0x004C50A0, uint64_t, op_Explicit_2, (app::InputActionSetHandle_t that))
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::InputActionSetHandle_t__Boxed * this_ptr, app::InputActionSetHandle_t other))
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::InputActionSetHandle_t__Boxed * this_ptr, app::InputActionSetHandle_t other))
-    bool operator == (app::InputActionSetHandle_t x, app::InputActionSetHandle_t y) {
+    inline bool operator == (app::InputActionSetHandle_t x, app::InputActionSetHandle_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::InputActionSetHandle_t x, app::InputActionSetHandle_t y) {
+    inline bool operator != (app::InputActionSetHandle_t x, app::InputActionSetHandle_t y) {
         return op_Inequality(x, y);
     }
 }

@@ -177,10 +177,10 @@ namespace app::methods::System::RuntimeType {
     IL2CPP_REGISTER_METHOD(0x01EEFC00, app::String *, get_FullName, (app::RuntimeType * this_ptr))
     IL2CPP_REGISTER_METHOD(0x01EEFDD0, bool, get_IsSZArray, (app::RuntimeType * this_ptr))
     IL2CPP_REGISTER_METHOD(0x01EEFE40, void, cctor, ())
-    bool operator == (app::RuntimeType & left, app::RuntimeType & right) {
+    inline bool operator == (app::RuntimeType & left, app::RuntimeType & right) {
         return op_Equality(&left, &right);
     }
-    bool operator != (app::RuntimeType & left, app::RuntimeType & right) {
+    inline bool operator != (app::RuntimeType & left, app::RuntimeType & right) {
         return op_Inequality(&left, &right);
     }
 }

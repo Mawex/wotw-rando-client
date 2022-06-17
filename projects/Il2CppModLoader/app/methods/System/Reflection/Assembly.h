@@ -72,10 +72,10 @@ namespace app::methods::System::Reflection::Assembly {
     IL2CPP_REGISTER_METHOD(0x00417870, bool, get_IsDynamic, (app::Assembly * this_ptr))
     IL2CPP_REGISTER_METHOD(0x02283820, bool, op_Equality, (app::Assembly * left, app::Assembly * right))
     IL2CPP_REGISTER_METHOD(0x02283870, bool, op_Inequality, (app::Assembly * left, app::Assembly * right))
-    bool operator == (app::Assembly & left, app::Assembly & right) {
+    inline bool operator == (app::Assembly & left, app::Assembly & right) {
         return op_Equality(&left, &right);
     }
-    bool operator != (app::Assembly & left, app::Assembly & right) {
+    inline bool operator != (app::Assembly & left, app::Assembly & right) {
         return op_Inequality(&left, &right);
     }
 }

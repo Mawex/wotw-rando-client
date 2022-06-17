@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::SteamAPICall_t {
     IL2CPP_REGISTER_METHOD(0x0012F2C0, bool, Equals_2, (app::SteamAPICall_t__Boxed * this_ptr, app::SteamAPICall_t other))
     IL2CPP_REGISTER_METHOD(0x0012F2D0, int32_t, CompareTo, (app::SteamAPICall_t__Boxed * this_ptr, app::SteamAPICall_t other))
     IL2CPP_REGISTER_METHOD(0x027E2050, void, cctor, ())
-    bool operator == (app::SteamAPICall_t x, app::SteamAPICall_t y) {
+    inline bool operator == (app::SteamAPICall_t x, app::SteamAPICall_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::SteamAPICall_t x, app::SteamAPICall_t y) {
+    inline bool operator != (app::SteamAPICall_t x, app::SteamAPICall_t y) {
         return op_Inequality(x, y);
     }
 }

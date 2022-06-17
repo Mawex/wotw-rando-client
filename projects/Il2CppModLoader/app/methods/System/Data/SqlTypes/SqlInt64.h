@@ -46,31 +46,31 @@ namespace app::methods::System::Data::SqlTypes::SqlInt64 {
     IL2CPP_REGISTER_METHOD(0x001E5330, void, IXmlSerializable_WriteXml, (app::SqlInt64__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x022B5DF0, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x022B5F40, void, cctor, ())
-    app::SqlInt64 operator - (app::SqlInt64 x) {
+    inline app::SqlInt64 operator - (app::SqlInt64 x) {
         return op_UnaryNegation(x);
     }
-    app::SqlInt64 operator + (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlInt64 operator + (app::SqlInt64 x, app::SqlInt64 y) {
         return op_Addition(x, y);
     }
-    app::SqlInt64 operator - (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlInt64 operator - (app::SqlInt64 x, app::SqlInt64 y) {
         return op_Subtraction(x, y);
     }
-    app::SqlInt64 operator * (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlInt64 operator * (app::SqlInt64 x, app::SqlInt64 y) {
         return op_Multiply(x, y);
     }
-    app::SqlInt64 operator / (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlInt64 operator / (app::SqlInt64 x, app::SqlInt64 y) {
         return op_Division(x, y);
     }
-    app::SqlInt64 operator % (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlInt64 operator % (app::SqlInt64 x, app::SqlInt64 y) {
         return op_Modulus(x, y);
     }
-    app::SqlBoolean operator == (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlBoolean operator == (app::SqlInt64 x, app::SqlInt64 y) {
         return op_Equality(x, y);
     }
-    app::SqlBoolean operator < (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlBoolean operator < (app::SqlInt64 x, app::SqlInt64 y) {
         return op_LessThan(x, y);
     }
-    app::SqlBoolean operator > (app::SqlInt64 x, app::SqlInt64 y) {
+    inline app::SqlBoolean operator > (app::SqlInt64 x, app::SqlInt64 y) {
         return op_GreaterThan(x, y);
     }
 }

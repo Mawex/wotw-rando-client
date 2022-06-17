@@ -36,13 +36,13 @@ namespace app::methods::System::Data::SqlTypes::SqlDateTime {
     IL2CPP_REGISTER_METHOD(0x001D6F70, void, IXmlSerializable_WriteXml, (app::SqlDateTime__Boxed * this_ptr, app::XmlWriter * writer))
     IL2CPP_REGISTER_METHOD(0x01E54BF0, app::XmlQualifiedName *, GetXsdType, (app::XmlSchemaSet * schema_set))
     IL2CPP_REGISTER_METHOD(0x01E54D40, void, cctor, ())
-    app::SqlBoolean operator == (app::SqlDateTime x, app::SqlDateTime y) {
+    inline app::SqlBoolean operator == (app::SqlDateTime x, app::SqlDateTime y) {
         return op_Equality(x, y);
     }
-    app::SqlBoolean operator < (app::SqlDateTime x, app::SqlDateTime y) {
+    inline app::SqlBoolean operator < (app::SqlDateTime x, app::SqlDateTime y) {
         return op_LessThan(x, y);
     }
-    app::SqlBoolean operator > (app::SqlDateTime x, app::SqlDateTime y) {
+    inline app::SqlBoolean operator > (app::SqlDateTime x, app::SqlDateTime y) {
         return op_GreaterThan(x, y);
     }
 }

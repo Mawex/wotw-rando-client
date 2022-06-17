@@ -13,10 +13,10 @@ namespace app::methods::Steamworks::FriendsGroupID_t {
     IL2CPP_REGISTER_METHOD(0x001303C0, bool, Equals_2, (app::FriendsGroupID_t__Boxed * this_ptr, app::FriendsGroupID_t other))
     IL2CPP_REGISTER_METHOD(0x001303D0, int32_t, CompareTo, (app::FriendsGroupID_t__Boxed * this_ptr, app::FriendsGroupID_t other))
     IL2CPP_REGISTER_METHOD(0x015FAE70, void, cctor, ())
-    bool operator == (app::FriendsGroupID_t x, app::FriendsGroupID_t y) {
+    inline bool operator == (app::FriendsGroupID_t x, app::FriendsGroupID_t y) {
         return op_Equality(x, y);
     }
-    bool operator != (app::FriendsGroupID_t x, app::FriendsGroupID_t y) {
+    inline bool operator != (app::FriendsGroupID_t x, app::FriendsGroupID_t y) {
         return op_Inequality(x, y);
     }
 }
