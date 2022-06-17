@@ -1,16 +1,23 @@
-#include <constants.h>
-#include <dev/object_visualizer.h>
 #include <game/game.h>
 #include <game/system/message_provider.h>
 #include <game/ui.h>
 #include <interop/csharp_bridge.h>
 #include <randomizer/multiplayer.h>
-#include <randomizer/render/shaders.h>
 #include <randomizer/settings.h>
 #include <uber_states/uber_state_interface.h>
 #include <utils/misc.h>
 
 #include <Common/ext.h>
+#include <Il2CppModLoader/app/methods/AreaMapIcon.h>
+#include <Il2CppModLoader/app/methods/AreaMapIconManager.h>
+#include <Il2CppModLoader/app/methods/AreaMapUI.h>
+#include <Il2CppModLoader/app/methods/GameMapUI.h>
+#include <Il2CppModLoader/app/methods/GameWorld.h>
+#include <Il2CppModLoader/app/methods/MoonGuid.h>
+#include <Il2CppModLoader/app/methods/RuntimeGameWorldArea.h>
+#include <Il2CppModLoader/app/methods/RuntimeWorldMapIcon.h>
+#include <Il2CppModLoader/app/methods/UberShaderAPI.h>
+#include <Il2CppModLoader/app/methods/UnityEngine/GameObject.h>
 #include <Il2CppModLoader/common.h>
 #include <Il2CppModLoader/il2cpp_helpers.h>
 #include <Il2CppModLoader/interception_macros.h>
@@ -19,10 +26,11 @@
 #include <atomic>
 #include <random>
 #include <unordered_map>
-#include <unordered_set>
 
 using namespace modloader;
 using namespace modloader::win;
+using namespace app::methods;
+using namespace app::methods::UnityEngine;
 
 namespace {
     enum class NewFilters : int32_t {
@@ -117,11 +125,9 @@ namespace {
         return (static_cast<int32_t>(value) & expected_value) == expected_value;
     }
 
-    NAMED_IL2CPP_BINDING(, MoonGuid, void, .ctor, ctor, (app::MoonGuid * icon, int a, int b, int c, int d));
-
     app::MoonGuid* create_guid() {
         auto guid = il2cpp::create_object<app::MoonGuid>("", "MoonGuid");
-        MoonGuid::ctor(
+        MoonGuid::ctor_2(
                 guid,
                 static_cast<int>(generator()),
                 static_cast<int>(generator()),
@@ -131,10 +137,6 @@ namespace {
 
         return guid;
     }
-
-    IL2CPP_BINDING(UnityEngine, GameObject, void, SetActive, (app::GameObject * this_ptr, bool value));
-    NAMED_IL2CPP_BINDING(, RuntimeWorldMapIcon, void, .ctor, ctor, (app::RuntimeWorldMapIcon * this_ptr, app::GameWorldArea_WorldMapIcon* icon, app::RuntimeGameWorldArea* area));
-    IL2CPP_BINDING(, AreaMapIcon, void, SetMessageProvider, (app::AreaMapIcon * this_ptr, app::MessageProvider* provider));
 
     app::WorldMapIconType__Enum get_base_icon(app::RuntimeWorldMapIcon* icon) {
         auto base_icons = icon->fields.Area->fields.Area->fields.Icons;
@@ -178,11 +180,11 @@ namespace {
     }
 
     // For some stupid reason they set icons to WorldMapIconType__Enum_Invisible when a pickup is picked up...
-    IL2CPP_INTERCEPT(, RuntimeWorldMapIcon, void, Show, (app::RuntimeWorldMapIcon * this_ptr)) {
+    IL2CPP_INTERCEPT(RuntimeWorldMapIcon, void, Show, (app::RuntimeWorldMapIcon * this_ptr)) {
         if (this_ptr->fields.Icon == app::WorldMapIconType__Enum::Invisible)
             this_ptr->fields.Icon = get_base_icon(this_ptr);
 
-        RuntimeWorldMapIcon::Show(this_ptr);
+        next::RuntimeWorldMapIcon::Show(this_ptr);
 
         if (this_ptr->fields.m_areaMapIcon != nullptr) {
             bool label_set = false;
@@ -324,7 +326,6 @@ namespace {
     }
 
     uber_states::UberState custom_filter_icons_enabled_state(UberStateGroup::MapFilter, 70);
-    IL2CPP_BINDING(, RuntimeWorldMapIcon, void, SetIconActiveMode, (app::RuntimeWorldMapIcon * this_ptr, bool active));
     void icon_resolver(app::RuntimeGameWorldArea* area, ExtraIcon& icon) {
         auto* runtime_icon = il2cpp::create_object<app::RuntimeWorldMapIcon>("", "RuntimeWorldMapIcon");
         runtime_icon->fields.Guid = create_guid();
@@ -357,7 +358,7 @@ namespace {
         runtime_icon->fields.SpecialState = nullptr;
 
         il2cpp::invoke(area->fields.Icons, "Add", runtime_icon);
-        RuntimeWorldMapIcon::Show_intercept(runtime_icon);
+        RuntimeWorldMapIcon::Show(runtime_icon);
         icon.runtime_icon = runtime_icon;
     }
 
@@ -411,7 +412,7 @@ namespace {
         spoiler_state.has_spoiler_icon = csharp_bridge::filter_enabled(static_cast<int>(NewFilters::Spoilers));
 
         il2cpp::invoke(area->fields.Icons, "Add", icon);
-        RuntimeWorldMapIcon::Show_intercept(icon);
+        RuntimeWorldMapIcon::Show(icon);
     }
 
     void spoiler_resolver(app::RuntimeGameWorldArea* area, ExtraIcon& extra_icon) {
@@ -444,7 +445,7 @@ namespace {
         state.has_spoiler_icon = csharp_bridge::filter_enabled(static_cast<int>(NewFilters::Spoilers));
 
         il2cpp::invoke(area->fields.Icons, "Add", icon);
-        RuntimeWorldMapIcon::Show_intercept(icon);
+        RuntimeWorldMapIcon::Show(icon);
     }
 
     void resolve_icons(app::RuntimeGameWorldArea* area) {
@@ -504,8 +505,8 @@ namespace {
     }
 
     std::unordered_map<app::GameWorldAreaID__Enum, app::RuntimeGameWorldArea*> areas;
-    NAMED_IL2CPP_INTERCEPT(, RuntimeGameWorldArea, void, .ctor, ctor, (app::RuntimeGameWorldArea * this_ptr, app::GameWorldArea* area)) {
-        RuntimeGameWorldArea::ctor(this_ptr, area);
+    IL2CPP_INTERCEPT(RuntimeGameWorldArea, void, ctor, (app::RuntimeGameWorldArea * this_ptr, app::GameWorldArea* area)) {
+        next::RuntimeGameWorldArea::ctor(this_ptr, area);
         areas[area->fields.WorldMapAreaUniqueID] = this_ptr;
         if (!initialized)
             initialize_icons();
@@ -513,11 +514,11 @@ namespace {
         resolve_icons(this_ptr);
     }
 
-    IL2CPP_INTERCEPT(, GameWorld, void, OnGameReset, (app::GameWorld * this_ptr)) {
+    IL2CPP_INTERCEPT(GameWorld, void, OnGameReset, (app::GameWorld * this_ptr)) {
         if (!initialized)
             initialize_icons();
 
-        GameWorld::OnGameReset(this_ptr);
+        next::GameWorld::OnGameReset(this_ptr);
         for (auto i = 0; i < this_ptr->fields.RuntimeAreas->fields._size; ++i) {
             auto area = this_ptr->fields.RuntimeAreas->fields._items->vector[i];
             areas[area->fields.Area->fields.WorldMapAreaUniqueID] = area;
@@ -525,12 +526,11 @@ namespace {
         }
     }
 
-    IL2CPP_INTERCEPT(, RuntimeWorldMapIcon, void, Hide, (app::RuntimeWorldMapIcon * this_ptr)) {
-        RuntimeWorldMapIcon::Hide(this_ptr);
+    IL2CPP_INTERCEPT(RuntimeWorldMapIcon, void, Hide, (app::RuntimeWorldMapIcon * this_ptr)) {
+        next::RuntimeWorldMapIcon::Hide(this_ptr);
     }
 
-    STATIC_IL2CPP_BINDING(, AreaMapIconManager, bool, IsIconShownByFilter, (app::WorldMapIconType__Enum icon, app::AreaMapIconFilter__Enum filter));
-    IL2CPP_INTERCEPT(, RuntimeWorldMapIcon, bool, CanBeTeleportedTo, (app::RuntimeWorldMapIcon * this_ptr)) {
+    IL2CPP_INTERCEPT(RuntimeWorldMapIcon, bool, CanBeTeleportedTo, (app::RuntimeWorldMapIcon * this_ptr)) {
         if (csharp_bridge::tp_to_any_pickup())
             return true;
 
@@ -540,7 +540,7 @@ namespace {
             return true;
         }
 
-        return CanBeTeleportedTo(this_ptr);
+        return next::RuntimeWorldMapIcon::CanBeTeleportedTo(this_ptr);
     }
 
     bool should_always_show_teleporters(app::AreaMapIconManager* manager) {
@@ -665,14 +665,14 @@ namespace {
         for (auto renderer : renderers) {
             auto it = original_color.find(renderer);
             if (it == original_color.end()) {
-                auto color = randomizer::shaders::UberShaderAPI::GetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor);
+                auto color = UberShaderAPI::GetColor_1(renderer, app::UberShaderProperty_Color__Enum::MainColor);
                 original_color[renderer] = color;
                 it = original_color.find(renderer);
             }
 
             auto color = it->second;
             color.a *= alpha;
-            randomizer::shaders::UberShaderAPI::SetColor(renderer, app::UberShaderProperty_Color__Enum::MainColor, &color);
+            UberShaderAPI::SetColor_1(renderer, app::UberShaderProperty_Color__Enum::MainColor, color);
         }
     }
 
@@ -682,31 +682,31 @@ namespace {
 
         switch (result) {
             case FilterResult::Show: {
-                RuntimeWorldMapIcon::Show_intercept(icon);
+                RuntimeWorldMapIcon::Show(icon);
                 set_icon_opacity(icon, 1.0f, false);
                 break;
             }
             case FilterResult::ShowTransparent: {
-                RuntimeWorldMapIcon::Show_intercept(icon);
+                RuntimeWorldMapIcon::Show(icon);
                 const auto transparency = randomizer::settings::map_icon_transparency();
                 set_icon_opacity(icon, transparency, true);
                 break;
             }
             default: {
-                RuntimeWorldMapIcon::Hide_intercept(icon);
+                RuntimeWorldMapIcon::Hide(icon);
                 break;
             }
         }
     }
 
-    IL2CPP_INTERCEPT(, AreaMapIconManager, void, ShowAreaIcons, (app::AreaMapIconManager * this_ptr)) {
+    IL2CPP_INTERCEPT(AreaMapIconManager, void, ShowAreaIcons, (app::AreaMapIconManager * this_ptr)) {
         // Start ShowAreaIcons function.
-        auto world = il2cpp::get_class<app::GameWorld__Class>("", "GameWorld")->static_fields->Instance;
+        auto world = (*app::GameWorld__TypeInfo)->static_fields->Instance;
         for (auto i = 0; i < world->fields.RuntimeAreas->fields._size; ++i) {
             auto runtime_area = world->fields.RuntimeAreas->fields._items->vector[i];
             for (auto j = 0; j < runtime_area->fields.Icons->fields._size; ++j) {
                 auto icon = runtime_area->fields.Icons->fields._items->vector[j];
-                RuntimeWorldMapIcon::Hide_intercept(icon);
+                RuntimeWorldMapIcon::Hide(icon);
             }
 
             if (il2cpp::unity::is_valid(runtime_area->fields.Area)) {
@@ -731,9 +731,9 @@ namespace {
     }
 
     bool ignore_filter_input = false;
-    IL2CPP_INTERCEPT(, AreaMapUI, void, set_IconFilter, (app::AreaMapUI * this_ptr, app::AreaMapIconFilter__Enum value)) {
+    IL2CPP_INTERCEPT(AreaMapUI, void, set_IconFilter, (app::AreaMapUI * this_ptr, app::AreaMapIconFilter__Enum value)) {
         if (!ignore_filter_input)
-            AreaMapUI::set_IconFilter(this_ptr, value);
+            next::AreaMapUI::set_IconFilter(this_ptr, value);
     }
 
     void check_and_initialize_filter_labels(app::AreaMapIconManager* icon_manager) {
@@ -769,8 +769,8 @@ namespace {
     bool dirty_filter = false;
     std::atomic<bool> refresh = false;
 
-    IL2CPP_INTERCEPT(, AreaMapUI, void, Init, (app::AreaMapUI * this_ptr)) {
-        AreaMapUI::Init(this_ptr);
+    IL2CPP_INTERCEPT(AreaMapUI, void, Init, (app::AreaMapUI * this_ptr)) {
+        next::AreaMapUI::Init(this_ptr);
         auto icon_manager = this_ptr->fields._IconManager_k__BackingField;
         check_and_initialize_filter_labels(icon_manager);
         if (start_in_logic_filter && csharp_bridge::filter_enabled(static_cast<int>(NewFilters::InLogic))) {
@@ -780,11 +780,9 @@ namespace {
         }
     }
 
-    IL2CPP_BINDING(, GameMapUI, void, UpdateFilterText, (app::GameMapUI * this_ptr));
-    IL2CPP_BINDING(, GameMapUI, void, UpdateQuests, (app::GameMapUI * this_ptr));
-    IL2CPP_INTERCEPT(, GameMapUI, void, NormalInput, (app::GameMapUI * this_ptr)) {
+    IL2CPP_INTERCEPT(GameMapUI, void, NormalInput, (app::GameMapUI * this_ptr)) {
         ignore_filter_input = true;
-        GameMapUI::NormalInput(this_ptr);
+        next::GameMapUI::NormalInput(this_ptr);
         ignore_filter_input = false;
 
         auto input_cmd = il2cpp::get_nested_class<app::Input_Cmd__Class>("Core", "Input", "Cmd");
@@ -800,11 +798,9 @@ namespace {
         }
     }
 
-    IL2CPP_INTERCEPT(, AreaMapUI, void, CycleFilter, (app::AreaMapUI * this_ptr)) {
+    IL2CPP_INTERCEPT(AreaMapUI, void, CycleFilter, (app::AreaMapUI * this_ptr)) {
         cycle_filter(this_ptr);
     }
-
-    IL2CPP_BINDING(, AreaMapUI, void, AddIcon, (app::AreaMapUI * this_ptr, app::GameObject* icon, app::Vector3* location, bool convert, bool isTeleportable));
 
     void on_area_map_open(GameEvent game_event, EventTiming timing) {
         auto area_map = il2cpp::get_class<app::AreaMapUI__Class>("", "AreaMapUI")->static_fields->Instance;
@@ -842,11 +838,11 @@ INJECT_C_DLLEXPORT void remove_icon(app::GameWorldAreaID__Enum area, int id) {
 
     if (initialized) {
         if (it->second.runtime_icon != nullptr) {
-            RuntimeWorldMapIcon::Hide_intercept(it->second.runtime_icon);
+            RuntimeWorldMapIcon::Hide(it->second.runtime_icon);
             il2cpp::invoke(it->second.runtime_icon->fields.Area->fields.Icons, "Remove", it->second.runtime_icon);
         }
         if (it->second.spoiler_icon != nullptr) {
-            RuntimeWorldMapIcon::Hide_intercept(it->second.spoiler_icon);
+            RuntimeWorldMapIcon::Hide(it->second.spoiler_icon);
             il2cpp::invoke(it->second.spoiler_icon->fields.Area->fields.Icons, "Remove", it->second.spoiler_icon);
         }
     }
@@ -910,11 +906,11 @@ INJECT_C_DLLEXPORT void clear_icons() {
         for (auto& area : header_icons) {
             for (auto& icon : area.second) {
                 if (icon.second.runtime_icon != nullptr) {
-                    RuntimeWorldMapIcon::Hide_intercept(icon.second.runtime_icon);
+                    RuntimeWorldMapIcon::Hide(icon.second.runtime_icon);
                     il2cpp::invoke(icon.second.runtime_icon->fields.Area->fields.Icons, "Remove", icon.second.runtime_icon);
                 }
                 if (icon.second.spoiler_icon != nullptr) {
-                    RuntimeWorldMapIcon::Hide_intercept(icon.second.spoiler_icon);
+                    RuntimeWorldMapIcon::Hide(icon.second.spoiler_icon);
                     il2cpp::invoke(icon.second.spoiler_icon->fields.Area->fields.Icons, "Remove", icon.second.spoiler_icon);
                 }
             }
@@ -927,7 +923,7 @@ INJECT_C_DLLEXPORT void clear_icons() {
 INJECT_C_DLLEXPORT void refresh_map() {
     if (game::ui::area_map_open()) {
         auto area_map = il2cpp::get_class<app::AreaMapUI__Class>("", "AreaMapUI")->static_fields->Instance;
-        AreaMapIconManager::ShowAreaIcons_intercept(area_map->fields._IconManager_k__BackingField);
+        AreaMapIconManager::ShowAreaIcons(area_map->fields._IconManager_k__BackingField);
     }
 }
 
