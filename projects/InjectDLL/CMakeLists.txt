@@ -205,6 +205,7 @@ set(
         "randomizer/seed/reader.h"
         "randomizer/seed/loader.h"
         "randomizer/seed/data.h"
+        "randomizer/seed/constants.h"
         "randomizer/render/shaders.h"
         "randomizer/render/sprite.h"
         "randomizer/render/textures.h"
