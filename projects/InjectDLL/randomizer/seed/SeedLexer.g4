@@ -26,6 +26,7 @@ LTE: '<=';
 METADATA: '#';
 SETUP: 'setup';
 
+PLUS: '+';
 COLON: ':';
 QUOTE: '"';
 DOLLAR_BRACKET_OPEN: '$[';

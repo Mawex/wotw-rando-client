@@ -52,5 +52,5 @@ namespace randomizer::seed::loader {
         }
     }
 
-    CALL_ON_INIT(parse);
+    CALL_AFTER_INJECT(parse);
 }

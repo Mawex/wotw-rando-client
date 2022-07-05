@@ -6,11 +6,68 @@
 #include <optional>
 #include <string>
 #include <unordered_map>
+#include <utility>
 #include <variant>
 
 namespace randomizer::seed::data {
+    class ResolvableString {
+    public:
+        virtual std::string resolve() = 0;
+    };
+
+
+    class ResolvableNumberString : public ResolvableString {
+    public:
+        std::string resolve() override {
+            return std::string(resolve_number());
+        }
+
+        virtual int resolve_number() = 0;
+    };
+
+
+    class StaticString : public ResolvableString {
+    private:
+        const std::string string;
+
+    public:
+        std::string resolve() override {
+            return string;
+        }
+
+        StaticString(std::string string) :
+                string(std::move(string)) {}
+    };
+
+
+    class ActionNameString : public ResolvableString {
+
+    };
+
+
+    class CompoundString : public ResolvableString {
+    private:
+        std::vector<std::unique_ptr<ResolvableString>> parts;
+
+    public:
+        std::string resolve() override {
+            std::string result;
+
+            for (const auto& part : parts) {
+                result += part->resolve();
+            }
+
+            return result;
+        }
+    };
+
+
+    /**
+     * All Action Types with their respective IDs used in Seed files.
+     */
     enum class ActionType : int {
         SpiritLight = 0,
+        ShowMessage = 6,
         SetUberState = 8,
     };
 
@@ -24,6 +81,11 @@ namespace randomizer::seed::data {
         LT,
     };
 
+    /**
+     * Represents a uber state "location".
+     * Actions at a location trigger when the value of the corresponding uber state
+     * changes and the optional LocationCondition is met.
+     */
     struct Location {
         int group;
         int state_id;
@@ -40,10 +102,16 @@ namespace randomizer::seed::data {
     };
 
     enum class LocationConditionBehavior {
+        /** Trigger once when the condition is met */
         TriggerOnce,
+        /** Trigger on all uber state value changes that meed the condition */
         TriggerAlways,
     };
 
+    /**
+     * A condition that the location uber state value has to meet for an action
+     * to trigger.
+     */
     struct LocationCondition {
         Comparison comparison;
         double condition_value;
@@ -89,18 +157,13 @@ namespace randomizer::seed::data {
     };
 
     class Action {
-    private:
-        /**
-         * Holds pointers to all actions currently loaded
-         */
-        static std::vector<std::unique_ptr<Action>> stored_actions;
 
-    protected:
-        static void allocate(std::unique_ptr<Action>&& action) {
-            stored_actions.push_back(std::move(action));
-        }
     };
 
+    /**
+     * Action to add/substract Spirit Light
+     * @see ActionType::SpiritLight
+     */
     class SpiritLightAction : public Action { // 0
     private:
         int amount;
@@ -110,6 +173,18 @@ namespace randomizer::seed::data {
                 amount(amount){};
     };
 
+    /**
+     * Action to show a message box.
+     * @see ActionType::ShowMessage
+     */
+    class ShowMessageAction : public Action { // 6
+
+    };
+
+    /**
+     * Action to set the value of an arbitrary uber state.
+     * @see ActionType::SetUberState
+     */
     class SetUberStateAction : public Action { // 8
     private:
         uber_states::UberState uber_state;

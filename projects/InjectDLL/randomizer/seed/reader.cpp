@@ -127,7 +127,7 @@ namespace randomizer::seed::reader {
         auto str = ctx->actionType()->getText();
         auto action_int = std::stoi(str);
 
-        auto arguments = ctx->actionArgument();
+        auto arguments = ctx->arguments()->argument();
 
         switch (static_cast<ActionType>(action_int)) {
             case ActionType::SpiritLight: {

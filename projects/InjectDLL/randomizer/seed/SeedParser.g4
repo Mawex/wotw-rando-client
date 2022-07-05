@@ -14,7 +14,10 @@ line:
     metadataDef;
 
 setupDef:
-    SETUP WHITESPACE+ action;
+    SETUP WHITESPACE+ setupName WHITESPACE+ arguments;
+
+setupName:
+    identifier;
 
 metadataDef:
     '#' metadataKey (':' WHITESPACE* metadataValue)?;
@@ -44,18 +47,20 @@ uberStateCondition:
     uberStateId comparison number;
 
 action:
-    actionType '|' actionArgument ('|' actionArgument)*;
+    actionType '|' arguments;
 
 actionType:
     INT;
 
-actionArgument:
+arguments:
+    argument ('|' argument)*;
+
+argument:
     number |
     expression |
     identifier |
     commaSeparatedNumbers |
-    '"' interpolatableString '"' |
-    '"' string '"';
+    compoundString;
 
 commaSeparatedNumbers:
     number (',' WHITESPACE* number)*;
@@ -64,13 +69,10 @@ identifier:
     IDENTIFIER_CHAR+;
 
 string:
-    ~(NEWLINE)+;
+    '"' stringValue '"';
 
-interpolatableStringPart:
-    ~('"' | '$[' | '$(' | NEWLINE)+;
-
-interpolatableString:
-    interpolatableStringPart* ( interpolation ( interpolatableStringPart+ interpolation )* interpolatableStringPart* )?;
+stringValue:
+    ~(NEWLINE | '\\"')+;
 
 expressionKey:
     identifier;
@@ -84,23 +86,27 @@ comparison:
 number:
     INT | FLOAT;
 
-interpolation:
-    actionNameInterpolation |
-    locationActionNameInterpolation |
-    uberValueInterpolation |
-    storedStringInterpolation;
+compoundString:
+    stringExpression (WHITESPACE* '+' WHITESPACE* stringExpression)*;
 
-actionNameInterpolation:
+stringExpression:
+    string |
+    actionName |
+    locationActionName |
+    uberValue |
+    storedString;
+
+actionName:
     '$[' action ']';
 
-locationActionNameInterpolation:
-    '$[' '(' (uberGroup | uberValueInterpolation) '|' (uberState | uberValueInterpolation) ')' ']';
+locationActionName:
+    '$[' '(' (uberGroup | uberValue) '|' (uberState | uberValue) ')' ']';
 
-uberValueInterpolation:
-    '$(' (uberGroup | uberValueInterpolation) '|' (uberState | uberValueInterpolation) ')';
+uberValue:
+    '$(' (uberGroup | uberValue) '|' (uberState | uberValue) ')';
 
-storedStringInterpolation:
+storedString:
     '${' storedStringId '}';
 
 storedStringId:
-    INT;
+    identifier;
