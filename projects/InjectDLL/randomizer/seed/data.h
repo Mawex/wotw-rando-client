@@ -19,7 +19,7 @@ namespace randomizer::seed::data {
     class ResolvableNumberString : public ResolvableString {
     public:
         std::string resolve() override {
-            return std::string(resolve_number());
+            return std::to_string(resolve_number());
         }
 
         virtual int resolve_number() = 0;
