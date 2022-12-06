@@ -132,6 +132,7 @@ namespace RandomizerManaged {
     }
 
     public bool Empty() => Priority.Count == 0 && Normal.Count == 0;
+    public bool HasPriority() => Priority.Count != 0;
 
     public T Peek() {
       if (Priority.Count > 0)
@@ -160,6 +161,7 @@ namespace RandomizerManaged {
     private static readonly TextMessage INFO = new TextMessage(null, new TextMessageDescriptor() { ShowsBox = false, FadeIn = 0f, FadeOut = 0f});
     // private static readonly TextMessage PICKUP = new TextMessage(new TextMessageDescriptor() { Muted = false, ShowsBox = true });
 
+    private static List<TextMessage> activePriorityPickupTextMessages = new List<TextMessage>();
     private static List<TextMessage> activePickupTextMessages = new List<TextMessage>();
     private static PickupMessage lastPickup;
     private static Dictionary<string, IDAbleMessageQueue<TextMessage>> queues = new Dictionary<string, IDAbleMessageQueue<TextMessage>>();
@@ -350,12 +352,8 @@ namespace RandomizerManaged {
       message.Time -= dt;
       message.TimeActive += dt;
       
-      if (message.Time < 0.0f) {
-        message.Destroyed = true;
-        return true;
-      }
-
-      return false;
+      message.Destroyed = message.Time < 0.0f;
+      return message.Destroyed;
     }
 
     struct MessageBoxSize {
@@ -376,6 +374,90 @@ namespace RandomizerManaged {
       var yPadding = messagePadding * 0.5f * lines * paddingLineMultiplier;
       
       return new MessageBoxSize(yPadding, lines * lineHeight);
+    }
+
+    private static void UpdatePickupMessages(private static List<TextMessage> active, bool limitToPriority)
+    {
+        for (var i = 0; i < active.Count; i++) {
+          var message = active[i];
+
+          if (!HandleMessageTimer(message, delta)) {
+            var messageLines = message.Text.Split('\n').Length;
+            var messageBoxSize = CalculateMessageBoxSize(messageLines);
+
+            yPosition -= messageBoxSize.paddingTop;
+            var startPosition = new Vector2(message.Position.X, message.Position.Y);
+            var targetPosition = new Vector2(0, yPosition);
+            
+            message.Position = new Vector3(
+              startPosition.Lerp(
+                targetPosition, 
+                delta * 15f * Math.Min(1f, message.TimeActive * 2.0f + 0.1f)
+              ),
+              0f
+            );
+
+            totalLines += messageLines;
+            yPosition -= messageBoxSize.textHeight;
+            yPosition -= messageBoxSize.paddingTop;
+
+            message.FadeOut = active.Count == 1 ? 0.5f : 0.1f;
+          }
+        }
+
+        active.RemoveAll(m => m.Destroyed);
+
+        while (totalLines < MAX_PICKUP_LINE_COUNT && !pickupQueue.Empty()) {
+          if (limitToPriority && !pickupQueue.HasPriority())
+            break;
+
+          var pickupMessage = pickupQueue.Peek();
+          var pickupMessageLines = pickupMessage.Text.Split('\n').Length;
+
+          if (totalLines != 0 && totalLines + pickupMessageLines > MAX_PICKUP_LINE_COUNT)
+            break;
+
+          pickupQueue.Next();
+          var displayMessageInGameWorld = false;
+          
+          if (pickupMessage.Position != null) {
+            var distanceToPlayer = InterOp.Player.get_position().DistanceTo(pickupMessage.Position.Value);
+
+            if (distanceToPlayer < 20f) {
+              displayMessageInGameWorld = true;
+            }
+          }
+
+          var desc = new TextMessageDescriptor();
+          desc.Alignment = Alignment.Center;
+          desc.ShowsBox = true;
+
+          if (displayMessageInGameWorld) {
+            var pos = new Vector2(pickupMessage.Position.Value);
+            var offset = new Vector3();
+            pos = InterOp.Messaging.world_to_ui_position_2d(ref pos);
+            InterOp.Messaging.get_screen_position(ScreenPosition.TopCenter, ref offset);
+            desc.Position = new Vector3(pos, 0) - offset;
+            desc.FadeIn = 0.2f;
+          } else {
+            var messagePadding = CalculateMessageBoxSize(pickupMessageLines);
+            yPosition -= messagePadding.paddingTop;
+            desc.Position.Y = yPosition;
+            yPosition -= messagePadding.textHeight;
+            yPosition -= messagePadding.paddingTop;
+          }
+
+          desc.ScreenPosition = ScreenPosition.TopCenter;
+          totalLines += pickupMessageLines;
+          desc.Text = pickupMessage.Text;
+          desc.Time = pickupMessage.Time;
+          desc.Vertical = VerticalAnchor.Top;
+          desc.Muted = false;
+          desc.Padding = new Padding(0f, 1f, 1f, 0f);
+
+          var textMessage = new TextMessage(null, desc) { Destroyed = false };
+          active.Add(textMessage);
+        }
     }
     
     public static void Update(float delta) {
@@ -412,83 +494,11 @@ namespace RandomizerManaged {
         yPosition -= 0.3f; // Gap
       }
       
-      for (var i = 0; i < activePickupTextMessages.Count; i++) {
-        var message = activePickupTextMessages[i];
+      bool displayPriority = pickupQueue.HasPriority() || !activePriorityPickupTextMessages.Empty();
+      foreach (var message in activePickupTextMessages)
+        message.Destroyed = displayPriority;
 
-        if (!HandleMessageTimer(message, delta)) {
-          var messageLines = message.Text.Split('\n').Length;
-          var messageBoxSize = CalculateMessageBoxSize(messageLines);
-
-          yPosition -= messageBoxSize.paddingTop;
-          var startPosition = new Vector2(message.Position.X, message.Position.Y);
-          var targetPosition = new Vector2(0, yPosition);
-          
-          message.Position = new Vector3(
-            startPosition.Lerp(
-              targetPosition, 
-              delta * 15f * Math.Min(1f, message.TimeActive * 2.0f + 0.1f)
-            ),
-            0f
-          );
-
-          totalLines += messageLines;
-          yPosition -= messageBoxSize.textHeight;
-          yPosition -= messageBoxSize.paddingTop;
-
-          message.FadeOut = activePickupTextMessages.Count == 1 ? 0.5f : 0.1f;
-        }
-      }
-
-      activePickupTextMessages.RemoveAll(m => m.Destroyed);
-
-      while (totalLines < MAX_PICKUP_LINE_COUNT && !pickupQueue.Empty()) {
-        var pickupMessage = pickupQueue.Peek();
-        var pickupMessageLines = pickupMessage.Text.Split('\n').Length;
-
-        if (totalLines != 0 && totalLines + pickupMessageLines > MAX_PICKUP_LINE_COUNT)
-          break;
-
-        pickupQueue.Next();
-        var displayMessageInGameWorld = false;
-        
-        if (pickupMessage.Position != null) {
-          var distanceToPlayer = InterOp.Player.get_position().DistanceTo(pickupMessage.Position.Value);
-
-          if (distanceToPlayer < 20f) {
-            displayMessageInGameWorld = true;
-          }
-        }
-
-        var desc = new TextMessageDescriptor();
-        desc.Alignment = Alignment.Center;
-        desc.ShowsBox = true;
-
-        if (displayMessageInGameWorld) {
-          var pos = new Vector2(pickupMessage.Position.Value);
-          var offset = new Vector3();
-          pos = InterOp.Messaging.world_to_ui_position_2d(ref pos);
-          InterOp.Messaging.get_screen_position(ScreenPosition.TopCenter, ref offset);
-          desc.Position = new Vector3(pos, 0) - offset;
-          desc.FadeIn = 0.2f;
-        } else {
-          var messagePadding = CalculateMessageBoxSize(pickupMessageLines);
-          yPosition -= messagePadding.paddingTop;
-          desc.Position.Y = yPosition;
-          yPosition -= messagePadding.textHeight;
-          yPosition -= messagePadding.paddingTop;
-        }
-
-        desc.ScreenPosition = ScreenPosition.TopCenter;
-        totalLines += pickupMessageLines;
-        desc.Text = pickupMessage.Text;
-        desc.Time = pickupMessage.Time;
-        desc.Vertical = VerticalAnchor.Top;
-        desc.Muted = false;
-        desc.Padding = new Padding(0f, 1f, 1f, 0f);
-
-        var textMessage = new TextMessage(null, desc) { Destroyed = false };
-        activePickupTextMessages.Add(textMessage);
-      }
+      UpdatePickupMessages(displayPriority ? activePriorityPickupTextMessages : activePickupTextMessages, displayPriority);
     }
 
     public static int ReserveID() {
