@@ -34,7 +34,7 @@ namespace app {
 #elif defined(IL2CPP_STRUCTS_INITIALIZING)
 #define IL2CPP_STRUCT_DataBase_INITIALIZING
 #if !defined(IL2CPP_STRUCT_DataBase_DEFINED)
-#include <Modloader/app/structs/DataBase__Fields.h>
+#include <Modloader/app/structs/Database__Fields.h>
 #if defined(IL2CPP_STRUCT_DataBase__Fields_DEFINED)
 #define IL2CPP_STRUCT_DataBase_DEFINED
 struct DataBase__Class;
@@ -47,7 +47,7 @@ struct DataBase {
 #endif
 #if !defined(IL2CPP_STRUCT_DataBase_FWDDECL)
 #define IL2CPP_STRUCT_DataBase_FWDDECL
-#include <Modloader/app/structs/DataBase__Class.h>
+#include <Modloader/app/structs/Database__Class.h>
 #endif
 #undef IL2CPP_STRUCT_DataBase_INITIALIZING
 #if !defined(IL2CPP_STRUCT_DataBase_DEFINED) && !defined(IL2CPP_STRUCT_DataBase_FWDDECL)

@@ -1,11 +1,11 @@
 #pragma once
 #include <Modloader/interception_macros.h>
 
-#include <Modloader/app/structs/String.h>
 #include <Modloader/app/structs/Char__Array.h>
+#include <Modloader/app/structs/String.h>
 #include <Modloader/app/structs/StringBuilder.h>
 #include <Modloader/app/structs/String__Array.h>
-#include <Modloader/app/structs/void.h>
+#include <Modloader/app/structs/Void.h>
 
 namespace app::classes::System::IO::Path {
     IL2CPP_REGISTER_METHOD(0x023759B0, app::String*, ChangeExtension, (app::String * path, app::String* extension))

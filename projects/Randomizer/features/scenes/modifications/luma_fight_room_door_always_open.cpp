@@ -5,12 +5,12 @@
 #include <Modloader/app/types/NewSetupStateController.h>
 #include <Modloader/il2cpp_helpers.h>
 
-#include <Modloader/common.h>
-#include <Modloader/windows_api/console.h>
-#include <Core/enums/game_event.h>
-#include <Core/utils/event_bus.h>
-#include <Core/api/scenes/scene_load.h>
+#include <Common/event_bus.h>
 #include <Core/api/game/game.h>
+#include <Core/api/scenes/scene_load.h>
+#include <Core/enums/game_event.h>
+#include <Modloader/modloader.h>
+#include <Modloader/windows_api/console.h>
 
 using namespace app::classes;
 
@@ -23,11 +23,11 @@ namespace {
 
     bool open_door() {
         if (
-                !scenes::scene_is_enabled("lumaPoolsC") ||
-                !il2cpp::unity::is_valid(left_door_transform) ||
-                !il2cpp::unity::is_valid(right_door_transform) ||
-                !il2cpp::unity::is_valid(keyrings_go) ||
-                !il2cpp::unity::is_valid(door_controller)
+            !core::api::scenes::scene_is_enabled("lumaPoolsC") ||
+            !il2cpp::unity::is_valid(left_door_transform) ||
+            !il2cpp::unity::is_valid(right_door_transform) ||
+            !il2cpp::unity::is_valid(keyrings_go) ||
+            !il2cpp::unity::is_valid(door_controller)
         ) {
             return false;
         }
@@ -47,7 +47,7 @@ namespace {
         }
     }
 
-    void on_scene_load(scenes::SceneLoadEventMetadata* metadata, EventTiming timing) {
+    void on_scene_load(core::api::scenes::SceneLoadEventMetadata* metadata) {
         if (metadata->state != app::SceneState__Enum::Enabled) {
             return;
         }
@@ -56,26 +56,26 @@ namespace {
             auto scene_root_go = il2cpp::unity::get_game_object(metadata->scene->fields.SceneRoot);
 
             auto door_container_go = il2cpp::unity::find_child(
-                    scene_root_go,
-                    std::vector<std::string>{
-                            "arenaSetup",
-                            "doors",
-                            "enemyDoorVisualsLagoonLs",
-                            "enemyDoorVisualsLagoonL",
-                    }
+                scene_root_go,
+                std::vector<std::string>{
+                    "arenaSetup",
+                    "doors",
+                    "enemyDoorVisualsLagoonLs",
+                    "enemyDoorVisualsLagoonL",
+                }
             );
 
             auto door_go = il2cpp::unity::find_child(
-                    scene_root_go,
-                    std::vector<std::string>{
-                            "arenaSetup",
-                            "doors",
-                            "enemyDoorVisualsLagoonLs",
-                            "enemyDoorVisualsLagoonL",
-                            "doorVisualsA",
-                            "sidewaysDoor",
-                            "door",
-                    }
+                scene_root_go,
+                std::vector<std::string>{
+                    "arenaSetup",
+                    "doors",
+                    "enemyDoorVisualsLagoonLs",
+                    "enemyDoorVisualsLagoonL",
+                    "doorVisualsA",
+                    "sidewaysDoor",
+                    "door",
+                }
             );
 
             if (il2cpp::unity::is_valid(door_container_go) && il2cpp::unity::is_valid(door_go)) {
@@ -106,11 +106,7 @@ namespace {
         }
     }
 
-    void initialize() {
-        game::event_bus().register_handler(GameEvent::Respawn, EventTiming::After, &on_respawn);
-        game::event_bus().register_handler(GameEvent::FixedUpdate, EventTiming::After, &on_update);
-        scenes::event_bus().register_handler(&on_scene_load);
-    }
-
-    CALL_ON_INIT(initialize);
+    auto on_scene_load_handle = core::api::scenes::event_bus().register_handler(&on_scene_load);
+    auto on_respawn_handle = core::api::game::event_bus().register_handler(GameEvent::Respawn, EventTiming::After, &on_respawn);
+    auto on_update_handle = core::api::game::event_bus().register_handler(GameEvent::FixedUpdate, EventTiming::After, &on_update);
 } // namespace

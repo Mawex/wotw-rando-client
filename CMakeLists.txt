@@ -15,9 +15,9 @@ include(conan_include.cmake)
 
 set(ARCH "x64" CACHE STRING "Specifies the architecture for the build, [x64, win32].")
 set(
-    ARCHITECTURES
-    "x64"
-    "win32"
+        ARCHITECTURES
+        "x64"
+        "win32"
 )
 
 if (NOT (${ARCH} IN_LIST ARCHITECTURES))
@@ -26,10 +26,10 @@ if (NOT (${ARCH} IN_LIST ARCHITECTURES))
 endif ()
 message(STATUS "Architecture: ${ARCH}")
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /EHsc /nologo /MP")
-set(CMAKE_EXE_LINKER_FLAGS  "${CMAKE_EXE_LINKER_FLAGS} /PDBCompress")
-set(CMAKE_MODULE_LINKER_FLAGS  "${CMAKE_MODULE_LINKER_FLAGS} /PDBCompress")
-set(CMAKE_SHARED_LINKER_FLAGS  "${CMAKE_SHARED_LINKER_FLAGS} /PDBCompress")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /EHsc /nologo /MP -Xclang -stdlib=libstdc++")
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /PDBCompress")
+set(CMAKE_MODULE_LINKER_FLAGS "${CMAKE_MODULE_LINKER_FLAGS} /PDBCompress")
+set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} /PDBCompress")
 
 set(CMAKE_ROOT_DIRECTORY ${PROJECT_SOURCE_DIR})
 set(CMAKE_BUILD_DIRECTORY ${PROJECT_BINARY_DIR})
@@ -111,7 +111,7 @@ add_custom_target(
         INSTALL_RUNTIME
         ALL
         cmake -DCOMPONENT=runtime -DBUILD_TYPE=$<CONFIG> -P ${CMAKE_BUILD_DIRECTORY}/cmake_install.cmake
-        DEPENDS Modloader Randomizer TAS InjectProxy RandomizerManaged
+        DEPENDS Modloader Randomizer TAS InjectProxy RandomizerTester
 )
 
 set_target_properties(

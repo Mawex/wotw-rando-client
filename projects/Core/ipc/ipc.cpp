@@ -2,27 +2,22 @@
 
 #include <ipc/ipc.h>
 
-#include <Core/api/game/game.h>
-#include <Core/api/game/player.h>
-#include <Core/api/messages/messages.h>
-#include <Core/utils/json_serializers.h>
-#include <uber_states/uber_state_interface.h>
+#include <api/game/game.h>
+#include <api/uber_states/uber_state.h>
 
 #include <Common/ext.h>
 
-#include <Modloader/common.h>
+#include <Modloader/modloader.h>
 
-#include <stdio.h>
 #include <strsafe.h>
 #include <windows.h>
 
 #include <array>
-#include <iostream>
+#include <chrono>
 #include <memory>
 #include <mutex>
 #include <string>
 #include <vector>
-#include <chrono>
 
 #undef max
 #undef min
@@ -45,13 +40,13 @@ namespace core::ipc {
             constexpr LPCSTR PIPE_FILE = "\\\\.\\pipe\\wotw_rando";
 
             HANDLE pipe = CreateFileA(
-                    PIPE_FILE,
-                    GENERIC_READ | GENERIC_WRITE,
-                    0,
-                    NULL,
-                    OPEN_EXISTING,
-                    0,
-                    nullptr
+                PIPE_FILE,
+                GENERIC_READ | GENERIC_WRITE,
+                0,
+                NULL,
+                OPEN_EXISTING,
+                0,
+                nullptr
             );
 
             if (pipe == nullptr || pipe == INVALID_HANDLE_VALUE) {
@@ -128,11 +123,11 @@ namespace core::ipc {
                     }
 
                     auto result = ReadFile(
-                            pipe,
-                            message_part_buffer.data(),
-                            size,
-                            &bytes_read,
-                            nullptr
+                        pipe,
+                        message_part_buffer.data(),
+                        size,
+                        &bytes_read,
+                        nullptr
                     );
 
                     if (!result || bytes_read == 0) {
@@ -190,11 +185,11 @@ namespace core::ipc {
                             auto string_message = message.dump() + '\0';
 
                             auto result = WriteFile(
-                                    pipe,
-                                    string_message.c_str(),
-                                    string_message.size(),
-                                    &bytes_written,
-                                    nullptr
+                                pipe,
+                                string_message.c_str(),
+                                string_message.size(),
+                                &bytes_written,
+                                nullptr
                             );
 
                             if (!result || bytes_written == 0) {
@@ -211,13 +206,12 @@ namespace core::ipc {
             disconnect(pipe);
         }
 
-        void start_ipc_thread() {
+        auto on_game_ready = modloader::event_bus().register_handler(ModloaderEvent::GameReady, [](auto) {
             shutdown_ipc_thread = false;
-            if (ipc_thread == nullptr)
+            if (ipc_thread == nullptr) {
                 ipc_thread = std::make_unique<std::thread>(pipe_handler);
-        }
-
-        CALL_ON_INIT(start_ipc_thread);
+            }
+        });
 
         std::unordered_map<std::string, request_handler> handlers;
         void update_pipe(GameEvent game_event, EventTiming timing) {
@@ -270,11 +264,7 @@ namespace core::ipc {
             ipc_thread->join();
     }
 
-    void initialize() {
-        game::event_bus().register_handler(GameEvent::FixedUpdate, EventTiming::After, &update_pipe);
-        game::event_bus().register_handler(GameEvent::TASPausedUpdate, EventTiming::After, &update_pipe);
-        game::event_bus().register_handler(GameEvent::Shutdown, EventTiming::After, &on_shutdown);
-    }
-
-    CALL_ON_INIT(initialize);
+    auto update_pipe_handle = api::game::event_bus().register_handler(GameEvent::FixedUpdate, EventTiming::After, &update_pipe);
+    auto update_tas_pipe_handle = api::game::event_bus().register_handler(GameEvent::TASPausedUpdate, EventTiming::After, &update_pipe);
+    auto shutdown_handle = api::game::event_bus().register_handler(GameEvent::Shutdown, EventTiming::After, &on_shutdown);
 } // namespace core::ipc

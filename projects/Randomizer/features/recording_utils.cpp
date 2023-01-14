@@ -8,8 +8,8 @@
 #include <Modloader/app/methods/UnityEngine/Camera.h>
 #include <Modloader/app/methods/UnityEngine/Color.h>
 #include <Modloader/app/types/UI_Cameras.h>
-#include <Modloader/common.h>
 #include <Modloader/interception_macros.h>
+#include <Modloader/modloader.h>
 #include <Modloader/windows_api/console.h>
 
 using namespace app::classes;
@@ -85,7 +85,7 @@ namespace {
             return;
         }
 
-        set_background_color(app::Color {r, g, b});
+        set_background_color(app::Color{ r, g, b });
 
         console::console_send("Background color set");
     }
@@ -120,7 +120,7 @@ namespace {
         }
     }
 
-    void initialize() {
+    auto on_game_ready = modloader::event_bus().register_handler(ModloaderEvent::GameReady, [](auto) {
         auto camera = UnityEngine::Camera::get_main();
         default_background_color = UnityEngine::Camera::get_backgroundColor(camera);
 
@@ -129,7 +129,5 @@ namespace {
         console::register_command({ "recording_utils", "set_vignette" }, set_vignette_command);
         console::register_command({ "recording_utils", "set_camera_swaying" }, set_camera_swaying_command);
         console::register_command({ "recording_utils", "set_camera_locked" }, set_camera_locked_command);
-    }
-
-    CALL_ON_INIT(initialize);
+    });
 } // namespace

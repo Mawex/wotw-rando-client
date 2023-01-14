@@ -8,14 +8,18 @@ include(${CMAKE_BINARY_DIR}/conan.cmake)
 
 conan_cmake_configure(
         REQUIRES
+            zlib/1.2.13
             fmt/9.1.0
             magic_enum/0.8.1
             nlohmann_json/3.11.2
-            antlr4-cppruntime/4.11.1
             inih/56
+            ixwebsocket/11.4.3
+            protobuf/3.21.9
             tclap/1.2.5
         GENERATORS
             cmake_find_package
+        OPTIONS
+            ixwebsocket:tls=openssl
 )
 
 conan_cmake_autodetect(settings)

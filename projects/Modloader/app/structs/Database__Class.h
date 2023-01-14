@@ -37,7 +37,7 @@ namespace app {
 #elif defined(IL2CPP_STRUCTS_INITIALIZING)
 #define IL2CPP_STRUCT_DataBase__Class_INITIALIZING
 #if !defined(IL2CPP_STRUCT_DataBase__Class_DEFINED)
-#include <Modloader/app/structs/DataBase__VTable.h>
+#include <Modloader/app/structs/Database__VTable.h>
 #if defined(IL2CPP_STRUCT_DataBase__VTable_DEFINED)
 #define IL2CPP_STRUCT_DataBase__Class_DEFINED
 struct DataBase__StaticFields;
@@ -53,7 +53,7 @@ struct DataBase__Class {
 #endif
 #if !defined(IL2CPP_STRUCT_DataBase__Class_FWDDECL)
 #define IL2CPP_STRUCT_DataBase__Class_FWDDECL
-#include <Modloader/app/structs/DataBase__StaticFields.h>
+#include <Modloader/app/structs/Database__StaticFields.h>
 #endif
 #undef IL2CPP_STRUCT_DataBase__Class_INITIALIZING
 #if !defined(IL2CPP_STRUCT_DataBase__Class_DEFINED) && !defined(IL2CPP_STRUCT_DataBase__Class_FWDDECL)
