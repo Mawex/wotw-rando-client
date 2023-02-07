@@ -122,6 +122,7 @@ set(
         "pickups/pickup_collection.cpp"
         "seed_parser/parser.cpp"
         "shrek.cpp"
+        "silence_npcs.cpp"
         "timer.cpp"
         "timing/game_stats.cpp"
         "timing/game_timer.cpp"
