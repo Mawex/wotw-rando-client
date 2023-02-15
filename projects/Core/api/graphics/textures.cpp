@@ -326,7 +326,7 @@ namespace core::textures {
                     return;
                 }
 
-                auto texture_path = (base_path / value).string();
+                auto texture_path = (base_path() / value).string();
                 replace_all(texture_path, "/", "\\");
 
                 int x;
