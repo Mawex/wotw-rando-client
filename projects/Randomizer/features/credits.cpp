@@ -10,6 +10,7 @@
 #include <Modloader/il2cpp_helpers.h>
 #include <Modloader/interception_macros.h>
 #include <Modloader/windows_api/console.h>
+#include <Randomizer/macros.h>
 
 #include <Core/api/game/player.h>
 #include <string>

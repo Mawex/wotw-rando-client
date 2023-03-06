@@ -1,18 +1,10 @@
-#include <Modloader/app/methods/BoolStateMap.h>
-#include <Modloader/app/methods/NewSetupStateController.h>
-#include <Modloader/app/methods/UnityEngine/GameObject.h>
-#include <Modloader/app/methods/UnityEngine/Transform.h>
 #include <Modloader/app/methods/Game/UI_Hints.h>
 #include <Modloader/app/methods/MessageBox.h>
 #include <Modloader/app/types/UI_Hints.h>
 #include <Modloader/il2cpp_helpers.h>
+#include <Randomizer/macros.h>
 
-#include <Modloader/common.h>
-#include <Modloader/windows_api/console.h>
-#include <Core/enums/game_event.h>
 #include <Core/utils/event_bus.h>
-#include <Core/api/scenes/scene_load.h>
-#include <Core/api/game/game.h>
 
 using namespace app::classes;
 

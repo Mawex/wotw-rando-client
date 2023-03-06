@@ -1,6 +1,6 @@
 #pragma once
 
-#include "macros.h"
+#include <Modloader/macros.h>
 
 #include <string>
 #include <unordered_map>
