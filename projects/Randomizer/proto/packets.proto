@@ -9,8 +9,7 @@ message Packet {
     RequestUpdatesMessage = 2;
     UberStateUpdateMessage = 3;
     SyncBingoUniversesMessage = 4;
-    InitBingoMessage = 5;
-    PrintTextMessage_Deprecated = 6;
+    InitGameSyncMessage = 5;
     UberStateBatchUpdateMessage = 7;
     MultiverseInfoMessage = 8;
     AuthenticateMessage = 9;
@@ -29,6 +28,9 @@ message Packet {
     UpdatePlayerMapPositionMessage = 22;
     ResourceRequestMessage = 23;
     PlayerTeleportMessage = 24;
+    ReportLoadingTimeMessage = 25;
+    SetBlockStartingNewGameMessage = 26;
+    ReportPlayerRaceReadyMessage = 27;
 
     TrackerUpdate = 100;
     ResetTracker = 101;
@@ -58,8 +60,9 @@ message UberId {
   int32 state = 2;
 }
 
-message InitBingoMessage {
+message InitGameSyncMessage {
   repeated UberId uberId = 1;
+  bool blockStartingNewGame = 2;
 }
 
 message Vector2 {
@@ -144,6 +147,7 @@ message UserInfo {
   optional string avatarId = 3;
   optional int64 connectedMultiverseId = 4;
   optional int64 currentMultiverseId = 5;
+  bool raceReady = 8;
 }
 
 message WorldInfo {
@@ -238,3 +242,15 @@ message ResourceRequestMessage {
 }
 
 message PlayerTeleportMessage {}
+
+message ReportLoadingTimeMessage {
+  float loading_time = 1;
+}
+
+message SetBlockStartingNewGameMessage {
+  bool blockStartingNewGame = 1;
+}
+
+message ReportPlayerRaceReadyMessage {
+  bool raceReady = 1;
+}
