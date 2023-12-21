@@ -133,6 +133,7 @@ set(
         "ipc/hierarchy.cpp"
         "location_data/location_collection.cpp"
         "location_data/parser.cpp"
+        "mesh.cpp"
         "messages/credits_controller.cpp"
         "messages/credit_entries/base_entry.cpp"
         "messages/credit_entries/text_entry.cpp"
