@@ -25,7 +25,7 @@
 // logs in water wrong direction
 // post processing to combine scenes
 // fix issue in shriek room
-// check if damageDealer values can be extracted, current values confusing
+// check if damageDealer values can be extracted, current values confusing (magic_enum)
 // check if damageable hitboxes (walls) can be detected
 // check if enemies/npcs can be flaged as such
 // fix sand meshColliders (fu moon/unity)

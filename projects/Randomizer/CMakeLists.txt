@@ -8,6 +8,7 @@ set(PROJECT_DIR ${WOTWR_PROJECTS_DIR}/${PROJECT_NAME})
 
 set(
         SOURCE_FILES
+        "colliders.cpp"
         "conditions/condition_override.cpp"
         "conditions/condition_uber_state.cpp"
         "conditions/new_setup_state_override.cpp"
@@ -133,7 +134,6 @@ set(
         "ipc/hierarchy.cpp"
         "location_data/location_collection.cpp"
         "location_data/parser.cpp"
-        "mesh.cpp"
         "messages/credits_controller.cpp"
         "messages/credit_entries/base_entry.cpp"
         "messages/credit_entries/text_entry.cpp"
